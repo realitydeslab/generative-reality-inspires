@@ -1,0 +1,62 @@
+{
+ "tu-anh-nguyen--dgslm": {
+  "zh": "dGSLM（生成式口语对话语言模型）",
+  "src": "translated"
+ },
+ "kyutai--hibiki-zero": {
+  "zh": "Hibiki-Zero 同声传译模型",
+  "src": "translated"
+ },
+ "openai--gpt-4o-voice": {
+  "zh": "GPT-4o 语音（高级语音模式）",
+  "src": "established"
+ },
+ "google-deepmind--gemini-native-audio": {
+  "zh": "Gemini 原生音频（Live API）",
+  "src": "translated"
+ },
+ "sesame--csm-maya": {
+  "zh": "Sesame 对话语音模型 CSM（Maya 与 Miles）",
+  "src": "translated"
+ },
+ "alibaba-tongyi--qwen3-omni": {
+  "zh": "通义千问 Qwen3-Omni",
+  "src": "established"
+ },
+ "bytedance-seed--seedrealtime": {
+  "zh": "SeedRealtime 视听全双工大模型",
+  "src": "translated"
+ },
+ "stepfun--step-audio-2": {
+  "zh": "阶跃星辰 Step-Audio 2",
+  "src": "established"
+ },
+ "google-deepmind--v2a": {
+  "zh": "V2A（视频生成音频）",
+  "src": "translated"
+ },
+ "tencent-hunyuan--hunyuanvideo-foley": {
+  "zh": "混元 HunyuanVideo-Foley 视频拟音",
+  "src": "translated"
+ },
+ "bytedance-seed--seed-audio-1": {
+  "zh": "Seed Audio 1.0 音频创作模型",
+  "src": "translated"
+ },
+ "jaeyeon-kim--visage": {
+  "zh": "ViSAGe：视频生成空间音频",
+  "src": "translated"
+ },
+ "huadai-liu--omniaudio": {
+  "zh": "OmniAudio：从 360° 视频生成空间音频",
+  "src": "translated"
+ },
+ "xudong-xu--sounding-bodies": {
+  "zh": "Sounding Bodies：由身体姿态与音频建模人体三维空间声音",
+  "src": "translated"
+ },
+ "peiwen-sun--bewo": {
+  "zh": "Both Ears Wide Open：语言驱动的空间音频生成",
+  "src": "translated"
+ }
+}

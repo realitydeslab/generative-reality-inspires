@@ -1,0 +1,3208 @@
+{
+ "batch": "genxr",
+ "creators": [
+  {
+   "id": "reality-design-lab",
+   "name": "Reality Design Lab",
+   "kind": "lab",
+   "role": "Independent design research lab for mixed reality, directed by Botao 'Amber' Hu",
+   "based": "Oxford, UK / Hangzhou, China",
+   "bio": "Makes mixed-reality artworks, open-source toolkits (HoloKit, HoloMask, MultipeerConnectivity for Unity) and teaching programmes under the motto 'design new realities'; its works have been shown at SIGGRAPH, CHI, IEEE VR and Ars Electronica.",
+   "why": "Builds generated situations that people act inside, from AI-generated video consequences for rehearsing choices to mixed-reality lenses that rewrite bodies as glyphs, and runs the research agenda behind this gallery.",
+   "disciplines": [
+    "hci",
+    "media-art"
+   ],
+   "links": {
+    "site": "https://reality.design",
+    "github": "https://github.com/realitydeslab"
+   },
+   "role_zh": "由 Botao 'Amber' Hu 主持的混合现实独立设计研究实验室",
+   "bio_zh": "以“设计新现实”为宗旨，创作混合现实艺术作品，开发开源工具（HoloKit、HoloMask、Unity 版 MultipeerConnectivity），并开展教学项目；作品曾在 SIGGRAPH、CHI、IEEE VR 与 Ars Electronica 展出。",
+   "why_zh": "构建让人置身其中、采取行动的生成情境：从用 AI 生成的视频后果来预演选择，到把身体姿态改写为文字的混合现实镜头；也是本图鉴背后研究议程的发起者。",
+   "based_zh": "英国牛津／中国杭州",
+   "connected_to": [
+    "botao-amber-hu",
+    "danlin-huang"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "botao-amber-hu",
+   "name": "Botao 'Amber' Hu",
+   "kind": "person",
+   "role": "Researcher, University of Oxford; founder of Reality Design Lab; inventor of HoloKit",
+   "based": "Oxford, UK",
+   "bio": "Designer and researcher (Tsinghua BS, Stanford MS in AI) who leads Reality Design Lab's work on embodied, social mixed reality, speculative design and generative futuring; the lab's works have been shown at SIGGRAPH, CHI, TEI and Ars Electronica.",
+   "why": "Proposes Generative Enactments, a method in which participants act inside reactive AI-generated video scenarios and see the consequences of their choices unfold.",
+   "disciplines": [
+    "hci",
+    "media-art"
+   ],
+   "links": {
+    "site": "https://reality.design",
+    "scholar": "https://scholar.google.com/citations?user=CL-VmpYAAAAJ",
+    "github": "https://github.com/botaohu"
+   },
+   "role_zh": "牛津大学研究者；Reality Design Lab 创始人；HoloKit 发明者",
+   "bio_zh": "设计师与研究者（清华大学本科、斯坦福大学人工智能硕士），主持 Reality Design Lab 在具身与社交混合现实、思辨设计和生成式未来构想方面的研究；实验室作品曾在 SIGGRAPH、CHI、TEI 与 Ars Electronica 展出。",
+   "why_zh": "提出“生成式演绎”（Generative Enactments）方法：参与者在会作出反应的 AI 生成视频情境中行动，并看到自己选择带来的后果逐步展开。",
+   "based_zh": "英国牛津",
+   "connected_to": [
+    "reality-design-lab",
+    "danlin-huang"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "danlin-huang",
+   "name": "Danlin Huang",
+   "kind": "person",
+   "role": "Designer-researcher, School of Design Innovation, China Academy of Art",
+   "based": "Hangzhou, China",
+   "bio": "Designer and researcher who works with Reality Design Lab on speculative, body-centred mixed-reality works such as Body Oracle and FungiSync.",
+   "why": "Leads Body Oracle Translator, a handheld lens that turns live body postures into AI-generated glyphs.",
+   "disciplines": [
+    "hci",
+    "media-art"
+   ],
+   "links": {},
+   "role_zh": "设计研究者，中国美术学院创新设计学院",
+   "bio_zh": "与 Reality Design Lab 合作创作以身体为中心的思辨混合现实作品，如 Body Oracle 与 FungiSync。",
+   "why_zh": "主导“身体甲骨文翻译器”：一个把实时身体姿态转写为 AI 生成文字的手持镜头。",
+   "based_zh": "中国杭州",
+   "connected_to": [
+    "reality-design-lab",
+    "botao-amber-hu"
+   ],
+   "discovered_via": "reality-design-lab"
+  },
+  {
+   "id": "ryo-suzuki",
+   "name": "Ryo Suzuki",
+   "kind": "person",
+   "role": "Assistant Professor, ATLAS Institute and Computer Science, University of Colorado Boulder; director of the Programmable Reality Lab",
+   "based": "Boulder, CO, USA",
+   "bio": "HCI researcher working at the intersection of AR/VR, tangible interfaces and AI; the lab's 'Generative AR' theme aims to make the physical world a canvas for generative AI.",
+   "why": "Suzuki's lab produces a steady line of generative mixed-reality systems, including CinemaWorld, Editing Reality and Video2MR.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {
+    "site": "https://ryosuzuki.org"
+   },
+   "role_zh": "科罗拉多大学博尔德分校 ATLAS 研究所与计算机系助理教授，Programmable Reality Lab 负责人",
+   "bio_zh": "人机交互研究者，研究 AR/VR、实体界面与 AI 的交叉；实验室的“生成式 AR”方向希望把物理世界变成生成式 AI 的画布。",
+   "why_zh": "其实验室持续产出生成式混合现实系统，包括 CinemaWorld、Editing Reality 与 Video2MR。",
+   "based_zh": "美国科罗拉多州博尔德",
+   "connected_to": [
+    "suibi-che-chuan-weng",
+    "keiichi-ihara"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "suibi-che-chuan-weng",
+   "name": "Suibi Che-Chuan Weng",
+   "kind": "person",
+   "role": "HCI researcher, ATLAS Institute, University of Colorado Boulder",
+   "based": "Boulder, CO, USA",
+   "bio": "Researcher in creative mixed reality and generative AI; first author of Editing Reality (DIS 2026).",
+   "why": "Treats generation as a spatial design material that people shape in place, instead of a one-shot command.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "科罗拉多大学博尔德分校 ATLAS 研究所人机交互研究者",
+   "bio_zh": "研究创意混合现实与生成式 AI，Editing Reality（DIS 2026）第一作者。",
+   "why_zh": "把生成当作可以在现场塑造的空间设计材料，而不是一次性指令。",
+   "based_zh": "美国科罗拉多州博尔德",
+   "connected_to": [
+    "ryo-suzuki"
+   ],
+   "discovered_via": "ryo-suzuki"
+  },
+  {
+   "id": "keiichi-ihara",
+   "name": "Keiichi Ihara",
+   "kind": "person",
+   "role": "PhD student, Programmable Reality Lab (University of Colorado Boulder) and University of Tsukuba",
+   "based": "Boulder, CO, USA / Tsukuba, Japan",
+   "bio": "HCI researcher building mixed-reality systems that turn 2D media such as films and tutorial videos into spatial content.",
+   "why": "First author of CinemaWorld and Video2MR, which pull generated 3D content out of 2D video and place it in the viewer's room.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "Programmable Reality Lab（科罗拉多大学博尔德分校）与筑波大学博士生",
+   "bio_zh": "人机交互研究者，构建把电影、教学视频等二维媒介转化为空间内容的混合现实系统。",
+   "why_zh": "CinemaWorld 与 Video2MR 的第一作者：从二维视频中提取并生成三维内容，放进观者所在的房间。",
+   "based_zh": "美国博尔德／日本筑波",
+   "connected_to": [
+    "ryo-suzuki"
+   ],
+   "discovered_via": "ryo-suzuki"
+  },
+  {
+   "id": "microsoft",
+   "name": "Microsoft",
+   "name_zh": "微软",
+   "kind": "company",
+   "role": "Technology company; Microsoft Research",
+   "based": "Redmond, WA, USA",
+   "bio": "Software and cloud company whose research labs work on mixed reality, telepresence and human-AI interaction.",
+   "why": "Microsoft Research groups produced LLMR, Social Conjuring, SpaceBlender and Storycaster, early systems that let language models build and change immersive spaces.",
+   "disciplines": [
+    "hci",
+    "ml"
+   ],
+   "links": {
+    "site": "https://www.microsoft.com/en-us/research/"
+   },
+   "role_zh": "科技公司；微软研究院",
+   "bio_zh": "软件与云计算公司，其研究院长期从事混合现实、远程临场与人机协作研究。",
+   "why_zh": "微软研究院团队做出了 LLMR、Social Conjuring、SpaceBlender 与 Storycaster，都是让语言模型搭建和改变沉浸空间的早期系统。",
+   "based_zh": "美国华盛顿州雷德蒙德",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "amina-kobenova",
+   "name": "Amina Kobenova",
+   "kind": "person",
+   "role": "HCI researcher; first author of Social Conjuring with Microsoft collaborators",
+   "based": "",
+   "bio": "Researcher on social, multi-user creation with generative AI in virtual worlds; co-authors include Judith Amores and Jaron Lanier.",
+   "why": "Social Conjuring asks how prompting a world into existence changes when several people do it together.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "人机交互研究者；与微软合作者完成 Social Conjuring 的第一作者",
+   "bio_zh": "研究虚拟世界中借助生成式 AI 的多人社交创作；合作者包括 Judith Amores 与 Jaron Lanier。",
+   "why_zh": "Social Conjuring 追问：当几个人一起用提示词“召唤”世界时，生成过程会怎样改变。",
+   "based_zh": "",
+   "connected_to": [
+    "microsoft"
+   ],
+   "discovered_via": "microsoft"
+  },
+  {
+   "id": "fernanda-de-la-torre",
+   "name": "Fernanda De La Torre",
+   "kind": "person",
+   "role": "Researcher, MIT Brain and Cognitive Sciences; LLMR lead author with Microsoft",
+   "based": "Cambridge, MA, USA",
+   "bio": "Researcher who led LLMR, a Microsoft framework for creating and editing interactive mixed-reality worlds with language models.",
+   "why": "LLMR showed that orchestrated language models can write and debug the code of a live Unity world from a spoken or typed request.",
+   "disciplines": [
+    "hci",
+    "ml"
+   ],
+   "links": {},
+   "role_zh": "麻省理工学院脑与认知科学系研究者；与微软合作的 LLMR 第一作者",
+   "bio_zh": "主导 LLMR：微软用语言模型创建与修改交互式混合现实世界的框架。",
+   "why_zh": "LLMR 证明，多个语言模型协同可以根据口头或文字请求，为正在运行的 Unity 世界编写并调试代码。",
+   "based_zh": "美国马萨诸塞州剑桥",
+   "connected_to": [
+    "microsoft"
+   ],
+   "discovered_via": "microsoft"
+  },
+  {
+   "id": "lei-zhang",
+   "name": "Lei Zhang",
+   "kind": "person",
+   "role": "HCI researcher (University of Michigan PhD; now New Jersey Institute of Technology)",
+   "based": "Newark, NJ, USA",
+   "bio": "Researcher on human-AI co-creation in immersive authoring, from VRCopilot (University of Michigan) to Capybara (with the Princeton HCI Lab).",
+   "why": "Studies how much control people keep when generative models build their VR and AR scenes for them.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "人机交互研究者（密歇根大学博士，现任职于新泽西理工学院）",
+   "bio_zh": "研究沉浸式创作中的人机共创，从 VRCopilot（密歇根大学）到 Capybara（与普林斯顿 HCI 实验室合作）。",
+   "why_zh": "研究当生成模型替人搭建 VR 与 AR 场景时，人还能保留多少控制权。",
+   "based_zh": "美国新泽西州纽瓦克",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "nels-numan",
+   "name": "Nels Numan",
+   "kind": "person",
+   "role": "PhD researcher, University College London; Microsoft Research collaborator",
+   "based": "London, UK",
+   "bio": "Researcher in collaborative mixed reality and telepresence; first author of SpaceBlender and co-author of XR Blocks.",
+   "why": "SpaceBlender generates shared VR spaces out of each participant's real surroundings, so a meeting place feels familiar to everyone.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "伦敦大学学院博士研究者；微软研究院合作者",
+   "bio_zh": "研究协作式混合现实与远程临场，SpaceBlender 第一作者，也是 XR Blocks 的合作者。",
+   "why_zh": "SpaceBlender 用每位参与者的真实环境生成共享 VR 空间，让会面场所对每个人都有熟悉感。",
+   "based_zh": "英国伦敦",
+   "connected_to": [
+    "microsoft",
+    "google"
+   ],
+   "discovered_via": "microsoft"
+  },
+  {
+   "id": "cyrus-vachha",
+   "name": "Cyrus Vachha",
+   "kind": "person",
+   "role": "Researcher, EECS, University of California, Berkeley",
+   "based": "Berkeley, CA, USA",
+   "bio": "Researcher in immersive 3D authoring and radiance fields (NeRF, Gaussian splatting), working with Björn Hartmann.",
+   "why": "Dreamcrafter brings generative edits of captured radiance-field scenes into VR, with stand-in proxies while slow generations run.",
+   "disciplines": [
+    "hci",
+    "graphics"
+   ],
+   "links": {},
+   "role_zh": "加州大学伯克利分校电子工程与计算机系研究者",
+   "bio_zh": "研究沉浸式三维创作与辐射场（NeRF、高斯泼溅），与 Björn Hartmann 合作。",
+   "why_zh": "Dreamcrafter 把对捕捉辐射场场景的生成式编辑带进 VR，并在生成较慢时用代理表示维持交互。",
+   "based_zh": "美国加州伯克利",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "jaewook-lee",
+   "name": "Jaewook Lee",
+   "kind": "person",
+   "role": "PhD researcher, Makeability Lab, University of Washington",
+   "based": "Seattle, WA, USA",
+   "bio": "HCI researcher on AI-powered augmented reality; led ImaginateAR with Niantic Spatial.",
+   "why": "ImaginateAR lets anyone speak an outdoor AR scene into a real park or street.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "华盛顿大学 Makeability Lab 博士研究者",
+   "bio_zh": "研究 AI 驱动的增强现实，与 Niantic Spatial 合作主导 ImaginateAR。",
+   "why_zh": "ImaginateAR 让任何人都能用一句话，把 AR 场景放进真实的公园或街道。",
+   "based_zh": "美国华盛顿州西雅图",
+   "connected_to": [
+    "niantic-spatial"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "niantic-spatial",
+   "name": "Niantic Spatial",
+   "kind": "company",
+   "role": "Geospatial AI company spun out of Niantic",
+   "based": "San Francisco, CA, USA",
+   "bio": "Builds large geospatial models, visual positioning and mapping for AR, after Niantic sold its games business in 2025.",
+   "why": "Its scene understanding and fast 3D asset generation power ImaginateAR's outdoor in-situ authoring.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://www.nianticspatial.com"
+   },
+   "role_zh": "从 Niantic 独立出来的地理空间 AI 公司",
+   "bio_zh": "在 Niantic 于 2025 年出售游戏业务后，专注大型地理空间模型、视觉定位与 AR 地图。",
+   "why_zh": "其场景理解与快速三维资产生成为 ImaginateAR 的户外现场创作提供支撑。",
+   "based_zh": "美国加州旧金山",
+   "connected_to": [],
+   "discovered_via": "jaewook-lee"
+  },
+  {
+   "id": "erzhen-hu",
+   "name": "Erzhen Hu",
+   "kind": "person",
+   "role": "PhD researcher, Department of Computer Science, University of Virginia",
+   "based": "Charlottesville, VA, USA",
+   "bio": "HCI researcher on XR communication; first author of Thing2Reality with Google XR collaborators.",
+   "why": "Thing2Reality turns any 2D image or object in a call into a 3D Gaussian object that remote participants can hold and point at.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "弗吉尼亚大学计算机系博士研究者",
+   "bio_zh": "研究 XR 通信，与 Google XR 合作者完成 Thing2Reality 的第一作者。",
+   "why_zh": "Thing2Reality 把通话中的任意二维图像或物体变成三维高斯物体，让异地参与者都能拿起来、指着讨论。",
+   "based_zh": "美国弗吉尼亚州夏洛茨维尔",
+   "connected_to": [
+    "google",
+    "ruofei-du"
+   ],
+   "discovered_via": "ruofei-du"
+  },
+  {
+   "id": "google",
+   "name": "Google",
+   "name_zh": "谷歌",
+   "kind": "company",
+   "role": "Technology company (Google Research, Google XR, Android XR)",
+   "based": "Mountain View, CA, USA",
+   "bio": "Search, Android and AI company that builds the Android XR platform with Samsung and Qualcomm, and open-source AI + XR tools.",
+   "why": "Ships generation inside headsets: auto-spatialization of 2D content on Android XR and the Gemini-driven XR Blocks / Vibe Coding XR toolkits.",
+   "disciplines": [
+    "ml",
+    "hci"
+   ],
+   "links": {
+    "site": "https://research.google"
+   },
+   "role_zh": "科技公司（Google Research、Google XR、Android XR）",
+   "bio_zh": "搜索、安卓与 AI 公司，与三星、高通共建 Android XR 平台，并开源 AI + XR 工具。",
+   "why_zh": "把生成做进头显：Android XR 上二维内容的自动空间化，以及由 Gemini 驱动的 XR Blocks / Vibe Coding XR 工具。",
+   "based_zh": "美国加州山景城",
+   "connected_to": [
+    "google-deepmind",
+    "samsung"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "ruofei-du",
+   "name": "Ruofei Du",
+   "kind": "person",
+   "role": "Interactive perception and graphics lead, Google XR",
+   "based": "San Francisco Bay Area, CA, USA",
+   "bio": "Researcher in interactive graphics and AI for XR; leads XR Blocks and co-authored Thing2Reality and Sensible Agent.",
+   "why": "Vibe Coding XR turns a one-line prompt into a working mixed-reality app that runs in a headset.",
+   "disciplines": [
+    "hci",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://duruofei.com"
+   },
+   "role_zh": "Google XR 交互感知与图形负责人",
+   "bio_zh": "研究面向 XR 的交互图形与 AI，主导 XR Blocks，参与 Thing2Reality 与 Sensible Agent。",
+   "why_zh": "Vibe Coding XR 把一句提示词变成能在头显里运行的混合现实应用。",
+   "based_zh": "美国旧金山湾区",
+   "connected_to": [
+    "google"
+   ],
+   "discovered_via": "google"
+  },
+  {
+   "id": "ryutaro-kurai",
+   "name": "Ryutaro Kurai",
+   "kind": "person",
+   "role": "Researcher, Cluster, Inc. (Cluster Metaverse Lab)",
+   "based": "Tokyo, Japan",
+   "bio": "Researcher at the Japanese social VR platform Cluster, working on LLM-based creation tools for its users.",
+   "why": "MagicItem put LLM-written object behaviours into a live consumer metaverse and tested them with its ordinary users.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "Cluster 公司研究者（Cluster Metaverse Lab）",
+   "bio_zh": "日本社交 VR 平台 Cluster 的研究者，为平台用户开发基于大语言模型的创作工具。",
+   "why_zh": "MagicItem 把由大语言模型编写的物体行为放进真实运营的消费级元宇宙，并让普通用户实际使用。",
+   "based_zh": "日本东京",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "zhuangze-hou",
+   "name": "Zhuangze Hou",
+   "kind": "person",
+   "role": "Researcher, School of Creative Media, City University of Hong Kong",
+   "based": "Hong Kong, China",
+   "bio": "HCI researcher on AI-assisted spatial design in virtual reality; first author of EchoLadder (UIST 2025).",
+   "why": "EchoLadder turns vague spoken wishes into step-by-step scene suggestions that a VR designer can accept, regenerate or retract.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "香港城市大学创意媒体学院研究者",
+   "bio_zh": "研究虚拟现实中由 AI 辅助的空间设计，EchoLadder（UIST 2025）第一作者。",
+   "why_zh": "EchoLadder 把模糊的口头意图拆成一步步的场景建议，VR 设计者可以采纳、重做或撤回。",
+   "based_zh": "中国香港",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "haoyu-wang",
+   "name": "Haoyu Wang",
+   "kind": "person",
+   "role": "Researcher, Dyson School of Design Engineering, Imperial College London",
+   "based": "London, UK",
+   "bio": "HCI researcher on haptics and generative AI in mixed reality; led Prop-Chromeleon with collaborators at the University of Toronto's Dynamic Graphics Project.",
+   "why": "Prop-Chromeleon makes generated objects match the shape of whatever real object is in your hand, so sight and touch agree.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "伦敦帝国理工学院戴森设计工程学院研究者",
+   "bio_zh": "研究混合现实中的触觉与生成式 AI，与多伦多大学 Dynamic Graphics Project 合作者共同完成 Prop-Chromeleon。",
+   "why_zh": "Prop-Chromeleon 让生成的虚拟物体贴合你手中真实物体的形状，使视觉与触觉一致。",
+   "based_zh": "英国伦敦",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "nozomu-iwai",
+   "name": "Nozomu Iwai",
+   "kind": "person",
+   "role": "Researcher, Preferred Networks",
+   "based": "Tokyo, Japan",
+   "bio": "Researcher at Preferred Networks; first author, with Fabrice Matulic, of the AR talking-objects study (CHI 2025 Extended Abstracts).",
+   "why": "Gives everyday household objects AI personalities that talk about, and react to, the room they are in.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "Preferred Networks 研究者",
+   "bio_zh": "Preferred Networks 研究者，与 Fabrice Matulic 合作完成 AR 会说话物件研究（CHI 2025 扩展摘要）的第一作者。",
+   "why_zh": "为家中日常物件赋予 AI 人格，让它们谈论并回应自己所处的房间。",
+   "based_zh": "日本东京",
+   "connected_to": [
+    "preferred-networks"
+   ],
+   "discovered_via": "preferred-networks"
+  },
+  {
+   "id": "preferred-networks",
+   "name": "Preferred Networks",
+   "kind": "company",
+   "role": "Japanese AI company",
+   "based": "Tokyo, Japan",
+   "bio": "Tokyo-based AI company that develops deep-learning models, AI chips and applied research, including AR and character interaction.",
+   "why": "Its researchers built AR characters that live on real objects and hold grounded conversations about the room.",
+   "disciplines": [
+    "ml",
+    "hci"
+   ],
+   "links": {
+    "site": "https://www.preferred.jp/en/"
+   },
+   "role_zh": "日本人工智能公司",
+   "bio_zh": "总部位于东京的 AI 公司，开发深度学习模型与 AI 芯片，并开展包括 AR 与角色交互在内的应用研究。",
+   "why_zh": "其研究者打造了栖身于真实物体之上的 AR 角色，能围绕房间展开有现实依据的对话。",
+   "based_zh": "日本东京",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "tianyi-xiao",
+   "name": "Tianyi Xiao",
+   "kind": "person",
+   "role": "Researcher, Institute of Cartography and Geoinformation, ETH Zurich",
+   "based": "Zurich, Switzerland",
+   "bio": "Researcher on spatial cognition, sketch mapping and augmented reality.",
+   "why": "Sketch2Terrain turns a few AR pen strokes into a full terrain in real time and doubles as a uniform setup for spatial-cognition experiments.",
+   "disciplines": [
+    "hci",
+    "behavioral"
+   ],
+   "links": {},
+   "role_zh": "苏黎世联邦理工学院制图与地理信息研究所研究者",
+   "bio_zh": "研究空间认知、草图地图与增强现实。",
+   "why_zh": "Sketch2Terrain 把几笔 AR 草图实时变成完整地形，同时为空间认知实验提供统一的实验环境。",
+   "based_zh": "瑞士苏黎世",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "ars-electronica-futurelab",
+   "name": "Ars Electronica Futurelab",
+   "kind": "lab",
+   "role": "Art and technology research lab of Ars Electronica",
+   "based": "Linz, Austria",
+   "bio": "Interdisciplinary lab at the intersection of art, technology and society, known for Deep Space 8K and collaborations with industry partners.",
+   "why": "With Dai Nippon Printing it built NeXus Print, a shared Quest 3 sandbox where groups prompt 3D worlds together.",
+   "disciplines": [
+    "media-art",
+    "hci"
+   ],
+   "links": {
+    "site": "https://ars.electronica.art/futurelab/en/"
+   },
+   "role_zh": "Ars Electronica 的艺术与科技研究实验室",
+   "bio_zh": "处于艺术、技术与社会交叉点的跨学科实验室，以 Deep Space 8K 及与产业伙伴的合作闻名。",
+   "why_zh": "与大日本印刷（DNP）合作打造 NeXus Print：一个多人在 Quest 3 里共同用提示词搭建三维世界的沙盒。",
+   "based_zh": "奥地利林茨",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "figmin-xr",
+   "name": "Figmin XR",
+   "kind": "studio",
+   "role": "Independent team behind the mixed-reality creation app Figmin XR",
+   "based": "USA",
+   "bio": "Makes Figmin XR, a cross-platform app (Quest, Vision Pro, HoloLens) for building and sharing mixed-reality scenes, toys and scripted objects.",
+   "why": "One of the first consumer MR apps to put text-to-3D generation and LLM scripting inside the headset.",
+   "disciplines": [
+    "hci",
+    "games"
+   ],
+   "links": {
+    "site": "https://figmin.com"
+   },
+   "role_zh": "混合现实创作应用 Figmin XR 背后的独立团队",
+   "bio_zh": "开发 Figmin XR：一款跨平台（Quest、Vision Pro、HoloLens）的应用，用于搭建和分享混合现实场景、玩具与可编程物体。",
+   "why_zh": "最早把文生三维与大语言模型编程放进头显的消费级混合现实应用之一。",
+   "based_zh": "美国",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "stijn-spanhove",
+   "name": "Stijn Spanhove",
+   "kind": "person",
+   "role": "XR developer, In The Pocket; Snap Spectacles creator",
+   "based": "Ghent, Belgium",
+   "bio": "Developer who publishes short proofs of concept that combine AR glasses, Vision Pro and generative models.",
+   "why": "Spanhove's demos are an early public record of world models, real-time video models and splat pipelines running inside headsets and glasses.",
+   "disciplines": [
+    "hci",
+    "games"
+   ],
+   "links": {
+    "x": "https://x.com/stspanho"
+   },
+   "role_zh": "In The Pocket 公司 XR 开发者；Snap Spectacles 创作者",
+   "bio_zh": "持续发布把 AR 眼镜、Vision Pro 与生成模型结合起来的短小概念验证。",
+   "why_zh": "Spanhove 的演示较早公开记录了世界模型、实时视频模型与高斯泼溅流程在头显与眼镜中运行的样子。",
+   "based_zh": "比利时根特",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "bangbang-yang",
+   "name": "Bangbang Yang",
+   "kind": "person",
+   "role": "Researcher, ByteDance PICO mixed-reality group",
+   "based": "China",
+   "bio": "Researcher in neural rendering and scene editing for XR.",
+   "why": "DreamSpace re-textures a scanned room from a text prompt so it can be walked through, restyled, in a headset.",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {
+    "site": "https://ybbbbt.com/"
+   },
+   "role_zh": "字节跳动 PICO 混合现实团队研究者",
+   "bio_zh": "研究面向 XR 的神经渲染与场景编辑。",
+   "why_zh": "DreamSpace 根据文字提示为扫描的房间重新生成纹理，让人戴上头显走进被重绘的空间。",
+   "based_zh": "中国",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "xueyang-wang",
+   "name": "Xueyang Wang",
+   "kind": "person",
+   "role": "Researcher, Tsinghua University",
+   "based": "Beijing, China",
+   "bio": "HCI researcher on cross-reality authoring and spatially grounded generation; first author of Roomify (CHI 2026).",
+   "why": "Roomify keeps a room's furniture layout but restyles everything else, so people stay safe and still feel elsewhere.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "清华大学研究者",
+   "bio_zh": "研究跨现实创作与空间锚定的生成，Roomify（CHI 2026）第一作者。",
+   "why_zh": "Roomify 保留房间家具的布局，只改换其余一切风格，让人既安全又仿佛身处他处。",
+   "based_zh": "中国北京",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "decart",
+   "name": "Decart",
+   "kind": "company",
+   "role": "AI lab building real-time generative video and world models",
+   "based": "San Francisco, CA, USA / Tel Aviv, Israel",
+   "bio": "Start-up behind Oasis (a real-time generated Minecraft-like world) and the MirageLSD live video-to-video model, offered through an API.",
+   "why": "Its open-source Decart XR app streams a headset's passthrough through a live video model, restyling the room from a spoken prompt.",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://decart.ai",
+    "x": "https://x.com/DecartAI",
+    "github": "https://github.com/DecartAI"
+   },
+   "role_zh": "构建实时生成视频与世界模型的 AI 实验室",
+   "bio_zh": "初创公司，推出实时生成的类 Minecraft 世界 Oasis 与实时视频到视频模型 MirageLSD，并通过 API 提供。",
+   "why_zh": "其开源应用 Decart XR 把头显透视画面送入实时视频模型，根据口头提示重绘整个房间。",
+   "based_zh": "美国旧金山／以色列特拉维夫",
+   "connected_to": [
+    "roberto-coviello"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "roberto-coviello",
+   "name": "Roberto Coviello",
+   "kind": "person",
+   "role": "XR and AI engineer; author of QuestCameraKit",
+   "based": "Zurich, Switzerland",
+   "bio": "Engineer who maintains QuestCameraKit, open-source samples for Meta Quest's Passthrough Camera API.",
+   "why": "Built Decart XR with Decart, one of the first public apps that restyle passthrough with a real-time video model.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {
+    "site": "https://xrdevrob.com",
+    "x": "https://x.com/xrdevrob",
+    "github": "https://github.com/xrdevrob"
+   },
+   "role_zh": "XR 与 AI 工程师；QuestCameraKit 作者",
+   "bio_zh": "维护 QuestCameraKit：基于 Meta Quest 透视摄像头 API 的开源示例集。",
+   "why_zh": "与 Decart 合作打造 Decart XR，这是最早用实时视频模型重绘透视画面的公开应用之一。",
+   "based_zh": "瑞士苏黎世",
+   "connected_to": [
+    "decart"
+   ],
+   "discovered_via": "decart"
+  },
+  {
+   "id": "hugues-bruyere",
+   "name": "Hugues Bruyère",
+   "kind": "person",
+   "role": "Partner and innovation lead, Dpt. (Montreal)",
+   "based": "Montreal, Canada",
+   "bio": "Creative technologist who prototypes interactive installations and mixed-reality experiences with real-time generative models.",
+   "why": "Bruyère's MR + Diffusion prototype was among the first to run diffusion on Quest passthrough once Meta opened camera access in 2025.",
+   "disciplines": [
+    "media-art",
+    "hci"
+   ],
+   "links": {
+    "x": "https://x.com/smallfly"
+   },
+   "role_zh": "Dpt.（蒙特利尔）合伙人与创新负责人",
+   "bio_zh": "创意技术专家，用实时生成模型制作交互装置与混合现实体验原型。",
+   "why_zh": "Meta 在 2025 年开放摄像头访问后，Bruyère 的“MR + Diffusion”原型是最早在 Quest 透视画面上运行扩散模型的作品之一。",
+   "based_zh": "加拿大蒙特利尔",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "alessio-grancini",
+   "name": "Alessio Grancini",
+   "kind": "person",
+   "role": "AR engineer; Snap Spectacles developer relations",
+   "based": "Los Angeles, CA, USA",
+   "bio": "AR engineer (formerly at Magic Leap) who builds and teaches Spectacles experiments.",
+   "why": "Showed a real-time generative video filter running on see-through AR glasses at world scale.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {
+    "site": "https://www.alessiograncini.com",
+    "x": "https://x.com/alessiograncini"
+   },
+   "role_zh": "AR 工程师；Snap Spectacles 开发者关系",
+   "bio_zh": "AR 工程师（曾任职 Magic Leap），制作并讲解 Spectacles 实验项目。",
+   "why_zh": "展示了在透视式 AR 眼镜上以真实尺度运行的实时生成视频滤镜。",
+   "based_zh": "美国加州洛杉矶",
+   "connected_to": [
+    "snap"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "snap",
+   "name": "Snap Inc.",
+   "kind": "company",
+   "role": "Camera company; Snapchat, Lens Studio and Spectacles / SPECS AR glasses",
+   "based": "Santa Monica, CA, USA",
+   "bio": "Maker of Snapchat Lenses, used billions of times a day, and of standalone AR glasses: Spectacles for developers (2024) and the consumer SPECS (2026).",
+   "why": "Moves generative models into AR lenses and glasses: on-device real-time image generation and the Snap3D API for creating 3D objects inside Lenses.",
+   "disciplines": [
+    "hci",
+    "ml"
+   ],
+   "links": {
+    "site": "https://ar.snap.com"
+   },
+   "role_zh": "相机公司；Snapchat、Lens Studio 与 Spectacles / SPECS AR 眼镜",
+   "bio_zh": "Snapchat 镜头（每天使用数十亿次）的开发者，也推出独立 AR 眼镜：面向开发者的 Spectacles（2024）与消费级 SPECS（2026）。",
+   "why_zh": "把生成模型搬进 AR 镜头与眼镜：端侧实时图像生成，以及在镜头内生成三维物体的 Snap3D API。",
+   "based_zh": "美国加州圣莫尼卡",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "naisha-agarwal",
+   "name": "Naisha Agarwal",
+   "kind": "person",
+   "role": "Researcher, University of California, Los Angeles; Microsoft Research collaborator",
+   "based": "Los Angeles, CA, USA",
+   "bio": "HCI researcher who led Storycaster with Judith Amores and Andrew D. Wilson at Microsoft Research.",
+   "why": "Storycaster turns a projected room into a story that a narrator agent and the audience write together.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "加州大学洛杉矶分校研究者；微软研究院合作者",
+   "bio_zh": "与微软研究院的 Judith Amores、Andrew D. Wilson 合作主导 Storycaster。",
+   "why_zh": "Storycaster 把投影房间变成由叙述者智能体与观众共同书写的故事。",
+   "based_zh": "美国加州洛杉矶",
+   "connected_to": [
+    "microsoft"
+   ],
+   "discovered_via": "microsoft"
+  },
+  {
+   "id": "light-in-the-head",
+   "name": "Light in the Head",
+   "kind": "studio",
+   "role": "Studio of Marc Da Costa and Matthew Niederhauser",
+   "based": "USA",
+   "bio": "Artist duo working with machine learning, VR and installations; also co-founders of Sensorium.",
+   "why": "Their Tulpamancer generates a one-off VR journey from each visitor's answers and deletes it afterwards.",
+   "disciplines": [
+    "media-art"
+   ],
+   "links": {},
+   "role_zh": "Marc Da Costa 与 Matthew Niederhauser 的工作室",
+   "bio_zh": "使用机器学习、VR 与装置创作的艺术家二人组，也是 Sensorium 的联合创始人。",
+   "why_zh": "他们的 Tulpamancer 根据每位观众的回答生成独一无二的 VR 旅程，结束后即删除。",
+   "based_zh": "美国",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "transitional-forms",
+   "name": "Transitional Forms",
+   "kind": "studio",
+   "role": "AI entertainment studio founded by Pietro Gagliano",
+   "based": "Toronto, Canada",
+   "bio": "Studio that builds stories and games around live AI agents, from the dynamic film Agence (with the National Film Board of Canada) to multi-agent story simulations.",
+   "why": "Agence was an early 'dynamic film' whose characters are driven by reinforcement-learning agents that viewers can disturb.",
+   "disciplines": [
+    "media-art",
+    "ml"
+   ],
+   "links": {
+    "site": "https://www.transforms.ai"
+   },
+   "role_zh": "由 Pietro Gagliano 创立的 AI 娱乐工作室",
+   "bio_zh": "围绕实时 AI 智能体创作故事与游戏的工作室，作品从与加拿大国家电影局合作的动态电影 Agence，到多智能体故事模拟。",
+   "why_zh": "Agence 是早期的“动态电影”：角色由强化学习智能体驱动，观众可以出手干预。",
+   "based_zh": "加拿大多伦多",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "liquid-city",
+   "name": "Liquid City",
+   "kind": "studio",
+   "role": "Design studio founded by Keiichi Matsuda",
+   "based": "London, UK",
+   "bio": "Studio led by the designer and filmmaker Keiichi Matsuda (Hyper-Reality, Merger) that designs AR, AI agents and spatial interfaces.",
+   "why": "Life Stories turns a person's spoken memory into an explorable 3D world.",
+   "disciplines": [
+    "media-art",
+    "hci"
+   ],
+   "links": {
+    "site": "https://www.liquid.city"
+   },
+   "role_zh": "由 Keiichi Matsuda 创立的设计工作室",
+   "bio_zh": "由设计师、电影人 Keiichi Matsuda（Hyper-Reality、Merger）领导的工作室，设计 AR、AI 智能体与空间界面。",
+   "why_zh": "Life Stories 把一个人口述的回忆变成可以漫游的三维世界。",
+   "based_zh": "英国伦敦",
+   "connected_to": [
+    "world-labs"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "tomoki-itamiya",
+   "name": "Tomoki Itamiya",
+   "kind": "person",
+   "role": "Professor, Aichi University of Technology",
+   "based": "Aichi, Japan",
+   "bio": "Researcher who builds AR and VR disaster-education tools, such as flood and earthquake simulations overlaid on real rooms and streets.",
+   "why": "Uses generative video to stage a disaster inside the very room where people would need to react.",
+   "disciplines": [
+    "hci",
+    "behavioral"
+   ],
+   "links": {
+    "x": "https://x.com/t_itamiya"
+   },
+   "role_zh": "爱知工科大学教授",
+   "bio_zh": "开发 AR 与 VR 防灾教育工具，例如叠加在真实房间与街道上的洪水和地震模拟。",
+   "why_zh": "用生成视频把灾害“搬进”人们真正需要作出反应的那个房间。",
+   "based_zh": "日本爱知",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "meta",
+   "name": "Meta",
+   "kind": "company",
+   "role": "Technology company (Reality Labs, FAIR, Meta Horizon)",
+   "based": "Menlo Park, CA, USA",
+   "bio": "Owner of Facebook, Instagram and WhatsApp and maker of the Quest headsets, Ray-Ban Meta glasses and the Horizon social platform.",
+   "why": "Puts text-to-world generation into the hands of Horizon creators (meshes, textures, code, audio, skyboxes) on top of its own Horizon Engine.",
+   "disciplines": [
+    "ml",
+    "hci"
+   ],
+   "links": {
+    "site": "https://www.meta.com"
+   },
+   "role_zh": "科技公司（Reality Labs、FAIR、Meta Horizon）",
+   "bio_zh": "拥有 Facebook、Instagram 与 WhatsApp，并推出 Quest 头显、Ray-Ban Meta 眼镜与 Horizon 社交平台。",
+   "why_zh": "在自研 Horizon Engine 之上，把文字生成世界的能力（网格、纹理、代码、音频、天空盒）交给 Horizon 创作者。",
+   "based_zh": "美国加州门洛帕克",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "apple",
+   "name": "Apple",
+   "name_zh": "苹果",
+   "kind": "company",
+   "role": "Technology company; maker of Apple Vision Pro and visionOS",
+   "based": "Cupertino, CA, USA",
+   "bio": "Consumer-electronics company whose visionOS headset platform launched with Apple Vision Pro in 2024.",
+   "why": "Made 2D-to-3D conversion of personal photos a default headset feature with visionOS 2.",
+   "disciplines": [
+    "graphics",
+    "hci"
+   ],
+   "links": {
+    "site": "https://www.apple.com/apple-vision-pro/"
+   },
+   "role_zh": "科技公司；Apple Vision Pro 与 visionOS 的开发者",
+   "bio_zh": "消费电子公司，其头显平台 visionOS 随 Apple Vision Pro 于 2024 年推出。",
+   "why_zh": "在 visionOS 2 中把个人照片的二维转三维变成头显的默认功能。",
+   "based_zh": "美国加州库比蒂诺",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "samsung",
+   "name": "Samsung Electronics",
+   "name_zh": "三星",
+   "kind": "company",
+   "role": "Electronics company; maker of the Galaxy XR headset",
+   "based": "Suwon, South Korea",
+   "bio": "Consumer-electronics company that co-developed Android XR with Google and Qualcomm and launched the Galaxy XR headset in October 2025.",
+   "why": "Galaxy XR is the first headset to ship Android XR's system-wide auto-spatialization of 2D apps and media.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {
+    "site": "https://www.samsung.com/us/xr/galaxy-xr/galaxy-xr/"
+   },
+   "role_zh": "电子公司；Galaxy XR 头显制造商",
+   "bio_zh": "与谷歌、高通共同开发 Android XR，并于 2025 年 10 月推出 Galaxy XR 头显。",
+   "why_zh": "Galaxy XR 是首款上线 Android XR 系统级二维应用与媒体自动空间化的头显。",
+   "based_zh": "韩国水原",
+   "connected_to": [
+    "google"
+   ],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "suibi-che-chuan-weng--editing-reality",
+   "creator_ids": [
+    "suibi-che-chuan-weng",
+    "ryo-suzuki"
+   ],
+   "title": "Editing Reality",
+   "year": 2026,
+   "date": "2026-06-12",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "mesh",
+    "scene-3d"
+   ],
+   "inputs": [
+    "speech",
+    "sketch",
+    "surroundings"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "co-creation",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "A mixed-reality system for co-creating with generative AI inside a physical room: by speaking, sketching and grabbing, a person generates, modifies, erases and retextures virtual and reconstructed objects anchored where they stand.",
+   "description_zh": "一个在真实房间里与生成式 AI 共同创作的混合现实系统：通过说话、画草图和直接抓取，人可以就地生成、修改、擦除和重新贴图锚定在身边的虚拟物体与重建物体。",
+   "idea_en": "Treats generation as a material you shape in place, round after round, rather than a one-shot command typed on a screen.",
+   "idea_zh": "把生成当作可以在现场一轮轮塑造的材料，而不是在屏幕上敲下的一次性指令。",
+   "method": "Research through design: iterative system development combining speech, sketch and direct manipulation with generative 3D and texture models, a formative workshop and an expert review, distilled into design framings for in-situ co-creation.",
+   "method_zh": "设计研究（Research through Design）：结合语音、草图、直接操作与生成式三维和纹理模型迭代开发系统，并通过形成性工作坊与专家评审，提炼现场共创的设计框架。",
+   "keywords": [
+    "in-situ co-creation",
+    "generative AI",
+    "mixed reality",
+    "research through design",
+    "retexturing"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=PzxpJLmMLwk"
+   },
+   "paper": {
+    "url": "https://doi.org/10.1145/3800645.3813087",
+    "doi": "10.1145/3800645.3813087",
+    "arxiv": "",
+    "venue": "DIS 2026",
+    "title": "Editing Reality: Designing In-Situ Co-Creation with Generative AI in Mixed Reality"
+   },
+   "source_url": "https://ryosuzuki.org/editing-reality",
+   "collections": [
+    "agenda-core",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "amina-kobenova--social-conjuring",
+   "creator_ids": [
+    "amina-kobenova",
+    "microsoft"
+   ],
+   "title": "Social Conjuring",
+   "year": 2024,
+   "date": "2024-09-30",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "scene-3d",
+    "mesh"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "co-creation",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Several people stand in the same virtual world and build and change it together at runtime by prompting an AI, which places and modifies objects while they talk and react to each other's requests.",
+   "description_zh": "多人同处一个虚拟世界，在运行中通过向 AI 发出提示共同搭建和修改它；AI 一边放置、调整物体，大家一边交谈并回应彼此的请求。",
+   "idea_en": "Shows that prompting a world into existence becomes a social act: what gets generated depends on who else is in the room.",
+   "idea_zh": "表明“用提示词召唤世界”会变成一种社交行为：生成什么，取决于房间里还有谁。",
+   "method": "The Social Conjurer framework combines LLM-driven 3D scene generation with social, tool-based and spatial-reasoning interactions for multi-user real-time co-creation, evaluated in a preliminary user study (N=12).",
+   "method_zh": "Social Conjurer 框架把大语言模型驱动的三维场景生成，与社交互动、工具操作和空间推理结合起来，支持多人实时共创，并通过初步用户研究（N=12）评估。",
+   "specs": "multi-user · preliminary study N=12",
+   "keywords": [
+    "multi-user",
+    "prompt-based 3D",
+    "social VR",
+    "Jaron Lanier",
+    "Social Conjurer",
+    "no official video found"
+   ],
+   "images": [
+    "https://arxiv.org/html/2410.00274v2/images/teaser.png",
+    "https://arxiv.org/html/2410.00274v2/images/scene_examples/zoo-cropped.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2410.00274",
+    "doi": "",
+    "arxiv": "2410.00274",
+    "venue": "arXiv 2024",
+    "title": "Social Conjuring: Multi-User Runtime Collaboration with AI in Building Virtual 3D Worlds"
+   },
+   "source_url": "https://arxiv.org/abs/2410.00274",
+   "collections": [
+    "agenda-core",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "fernanda-de-la-torre--llmr",
+   "creator_ids": [
+    "fernanda-de-la-torre",
+    "microsoft"
+   ],
+   "title": "LLMR",
+   "year": 2023,
+   "date": "2023-09-21",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "scene-3d",
+    "behavior"
+   ],
+   "inputs": [
+    "text",
+    "speech"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "reactivity"
+   ],
+   "kind": "research",
+   "description": "Type or say 'make a timer out of a rotating cube' or 'recolor the scene for a color-blind user' and LLMR writes, checks and runs the Unity code that changes the live mixed-reality world.",
+   "description_zh": "输入或说出“用旋转的立方体做一个计时器”或“为色盲用户重新配色”，LLMR 就会编写、检查并运行 Unity 代码，直接改变正在运行的混合现实世界。",
+   "idea_en": "Makes the behaviour of an immersive world, not just its look, something a person can ask for in plain language.",
+   "idea_zh": "让沉浸世界的行为（而不只是外观）变成可以用日常语言提出的要求。",
+   "method": "An orchestration of GPT-4 modules for scene understanding, task planning, code building, self-debugging and memory runs inside Unity; the authors report a 4x lower average error rate than plain GPT-4 and a usability study (N=11).",
+   "method_zh": "在 Unity 中编排多个 GPT-4 模块，分别负责场景理解、任务规划、代码生成、自我调试与记忆；作者报告其平均错误率比直接使用 GPT-4 低 4 倍，并做了可用性研究（N=11）。",
+   "specs": "Unity · 4x lower error rate vs GPT-4 (reported) · N=11",
+   "keywords": [
+    "LLM",
+    "Unity",
+    "code generation",
+    "mixed reality",
+    "Microsoft"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=j44JJtp272k"
+   },
+   "images": [
+    "https://arxiv.org/html/2309.12276v3/Figures/Final/teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2309.12276",
+    "doi": "10.1145/3613904.3642579",
+    "arxiv": "2309.12276",
+    "venue": "CHI 2024",
+    "title": "LLMR: Real-time Prompting of Interactive Worlds using Large Language Models"
+   },
+   "source_url": "https://arxiv.org/abs/2309.12276",
+   "collections": [
+    "chi",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "lei-zhang--vrcopilot",
+   "creator_ids": [
+    "lei-zhang"
+   ],
+   "title": "VRCopilot",
+   "year": 2024,
+   "date": "2024-08-18",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "scene-3d",
+    "mesh"
+   ],
+   "inputs": [
+    "speech",
+    "sketch"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "co-creation"
+   ],
+   "kind": "research",
+   "description": "Inside VR, a person furnishes a room together with generative models: they speak and point to request furniture, sketch wireframes the AI fills in, or let it lay out the whole scene.",
+   "description_zh": "在 VR 中，人与生成模型一起布置房间：可以边说边指来要家具，也可以先画线框让 AI 填充，或者让它直接排好整个场景。",
+   "idea_en": "Finds that scaffolded creation (you draw a wireframe, AI fills it) keeps more sense of agency than fully automatic generation.",
+   "idea_zh": "发现“搭好脚手架再生成”（人画线框、AI 填充）比完全自动生成更能保住人的能动感。",
+   "method": "A mixed-initiative system integrates pre-trained 3D layout and object generators with multimodal speech-and-pointing input and wireframe intermediate representations; user studies compare manual, scaffolded and automatic creation.",
+   "method_zh": "混合主导系统把预训练的三维布局与物体生成模型，与语音加指点的多模态输入和线框中间表示结合；用户研究比较了手动、脚手架式和自动三种创作方式。",
+   "keywords": [
+    "immersive authoring",
+    "3D layout generation",
+    "mixed-initiative",
+    "agency"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=95xd8oF3Rik"
+   },
+   "images": [
+    "https://arxiv.org/html/2408.09382v1/Figures/teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2408.09382",
+    "doi": "10.1145/3654777.3676451",
+    "arxiv": "2408.09382",
+    "venue": "UIST 2024",
+    "title": "VRCopilot: Authoring 3D Layouts with Generative AI Models in VR"
+   },
+   "source_url": "https://arxiv.org/abs/2408.09382",
+   "collections": [
+    "uist",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "nels-numan--spaceblender",
+   "creator_ids": [
+    "nels-numan",
+    "microsoft"
+   ],
+   "title": "SpaceBlender",
+   "year": 2024,
+   "date": "2024-09-20",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "scene-3d"
+   ],
+   "inputs": [
+    "image",
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Each participant contributes photos of their own room, and SpaceBlender stitches them into one generated VR space where remote collaborators meet amid familiar surroundings.",
+   "description_zh": "每位参与者提供自己房间的照片，SpaceBlender 把它们拼接成一个生成的 VR 空间，异地协作者在彼此熟悉的环境中会面。",
+   "idea_en": "Generating a meeting place from everyone's real context helps familiarity, but generated clutter can also pull attention away from the task.",
+   "idea_zh": "用每个人的真实环境生成会面空间能带来熟悉感，但生成出的杂乱细节也可能分散对任务的注意。",
+   "method": "Depth estimation lifts 2D photos to meshes, which are aligned and joined by diffusion-based space completion guided by geometric priors and adaptive prompts; a within-subjects study (N=20, in pairs) compared it with a generic VR room and a scene-generation baseline.",
+   "method_zh": "通过深度估计把二维照片抬升为网格，再在几何先验和自适应提示引导下，用扩散模型补全空间、对齐拼接；被试内研究（N=20，两两一组）将其与普通 VR 房间及一个场景生成基线比较。",
+   "specs": "within-subjects study N=20",
+   "keywords": [
+    "telepresence",
+    "scene blending",
+    "diffusion inpainting",
+    "collaboration"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=2rTTyjNl-a0"
+   },
+   "images": [
+    "https://arxiv.org/html/2409.13926v1/fig1-July24.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2409.13926",
+    "doi": "10.1145/3654777.3676361",
+    "arxiv": "2409.13926",
+    "venue": "UIST 2024",
+    "title": "SpaceBlender: Creating Context-Rich Collaborative Spaces Through Generative 3D Scene Blending"
+   },
+   "source_url": "https://arxiv.org/abs/2409.13926",
+   "collections": [
+    "uist",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "cyrus-vachha--dreamcrafter",
+   "creator_ids": [
+    "cyrus-vachha"
+   ],
+   "title": "Dreamcrafter",
+   "year": 2024,
+   "date": "2024-10-13",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "splats",
+    "mesh"
+   ],
+   "inputs": [
+    "speech",
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "perceptual-realism"
+   ],
+   "kind": "research",
+   "description": "A VR editor for captured scenes (NeRFs and Gaussian splats): add or restyle objects by voice or by direct manipulation, and keep working with quick previews while slower generations finish.",
+   "description_zh": "一个用于捕捉场景（NeRF 与高斯泼溅）的 VR 编辑器：可以用语音或直接操作添加、重绘物体，并在较慢的生成完成前借助快速预览继续工作。",
+   "idea_en": "Proxies that stand in during high-latency generation keep immersive editing fluid even when the model is slow.",
+   "idea_zh": "在高延迟生成期间用代理表示顶替，即使模型很慢，沉浸式编辑也能保持流畅。",
+   "method": "A modular VR architecture plugs in generative 2D, 3D and radiance-field editing models, mixes natural-language and direct-manipulation control, and shows proxy representations during slow operations.",
+   "method_zh": "模块化 VR 架构接入二维、三维与辐射场编辑等生成模型，混合自然语言与直接操作两种控制方式，并在慢速操作时显示代理表示。",
+   "keywords": [
+    "radiance fields",
+    "Gaussian splatting",
+    "NeRF editing",
+    "VR authoring",
+    "latency"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=47r0uMhrokE"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2512.20129",
+    "doi": "10.1145/3706598.3714312",
+    "arxiv": "2512.20129",
+    "venue": "CHI 2025",
+    "title": "Dreamcrafter: Immersive Editing of 3D Radiance Fields Through Flexible, Generative Inputs and Outputs"
+   },
+   "source_url": "https://dream-crafter.github.io/",
+   "collections": [
+    "chi",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "jaewook-lee--imaginatear",
+   "creator_ids": [
+    "jaewook-lee",
+    "niantic-spatial"
+   ],
+   "title": "ImaginateAR",
+   "year": 2025,
+   "date": "2025-04-30",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "mesh",
+    "scene-3d"
+   ],
+   "inputs": [
+    "speech",
+    "surroundings"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "situational-reach"
+   ],
+   "kind": "research",
+   "description": "Outdoors, a person says 'a dragon enjoying a campfire' and a phone AR app generates the 3D assets and arranges them in the real park or street, ready to be adjusted by hand.",
+   "description_zh": "在户外，人说一句“一条在篝火旁享受的龙”，手机 AR 应用就生成三维资产并把它们布置在真实的公园或街道里，之后还可以手动调整。",
+   "idea_en": "Pairs pre-computed scene understanding of a real place with fast 3D generation so anyone can author AR anywhere by speaking.",
+   "idea_zh": "把对真实地点预先计算的场景理解与快速三维生成结合，让任何人都能在任何地方用说话来创作 AR。",
+   "method": "Offline outdoor scene-graph construction, a fast text-to-3D asset pipeline and LLM-based layout reasoning run in a mobile AR tool; a technical evaluation and a three-part user study (N=20).",
+   "method_zh": "移动 AR 工具结合离线构建的户外场景图、快速文生三维资产流程与基于大语言模型的布局推理；做了技术评估与三阶段用户研究（N=20）。",
+   "specs": "mobile AR · user study N=20",
+   "keywords": [
+    "outdoor AR",
+    "text-to-3D",
+    "scene graph",
+    "Niantic Spatial",
+    "in-situ authoring"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=G9mH1HKSPkg"
+   },
+   "images": [
+    "https://nianticspatial.github.io/imaginatear/resources/social_card.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2504.21360",
+    "doi": "10.1145/3746059.3747635",
+    "arxiv": "2504.21360",
+    "venue": "UIST 2025",
+    "title": "ImaginateAR: AI-Assisted In-Situ Authoring in Augmented Reality"
+   },
+   "source_url": "https://nianticspatial.github.io/imaginatear/",
+   "collections": [
+    "uist",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "erzhen-hu--thing2reality",
+   "creator_ids": [
+    "erzhen-hu",
+    "google"
+   ],
+   "title": "Thing2Reality",
+   "year": 2024,
+   "date": "2024-10-09",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "splats",
+    "image"
+   ],
+   "inputs": [
+    "image",
+    "video"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "co-creation",
+    "responsiveness"
+   ],
+   "kind": "research",
+   "description": "During an XR call, a participant grabs a 2D image or a physical object from the video feed and it materializes as a 3D object between everyone, which they can move, rotate and point at.",
+   "description_zh": "在 XR 通话中，参与者从视频画面里“抓取”一张二维图片或一个实物，它就在大家之间变成三维物体，可以移动、旋转并指着讨论。",
+   "idea_en": "Turning shared 2D content into 3D on the spot makes remote discussion spatial: people can reference parts of an object, not just a picture of it.",
+   "idea_zh": "把共享的二维内容当场变成三维，让远程讨论具有空间性：人们可以指向物体的某个部位，而不只是一张图。",
+   "method": "Segmented 2D content is converted into conditioned multiview renderings and then 3D Gaussians with image-to-3D generation, and shared in a multi-user XR session; a user study measured discussion efficiency.",
+   "method_zh": "把分割出的二维内容先生成条件多视图渲染，再用图像到三维生成得到三维高斯，并在多人 XR 会话中共享；用户研究测量了讨论效率。",
+   "keywords": [
+    "XR communication",
+    "image-to-3D",
+    "3D Gaussians",
+    "multiview diffusion",
+    "Google XR"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=sKrq77cOtC4"
+   },
+   "images": [
+    "https://arxiv.org/html/2410.07119v1/teaserfigure.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2410.07119",
+    "doi": "10.1145/3746059.3747621",
+    "arxiv": "2410.07119",
+    "venue": "UIST 2025",
+    "title": "Thing2Reality: Enabling Spontaneous Creation of 3D Objects from 2D Content using Generative AI in XR Meetings"
+   },
+   "source_url": "https://arxiv.org/abs/2410.07119",
+   "collections": [
+    "uist",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "ryutaro-kurai--magicitem",
+   "creator_ids": [
+    "ryutaro-kurai"
+   ],
+   "title": "MagicItem",
+   "year": 2024,
+   "date": "2024-06-19",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "behavior"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "reactivity"
+   ],
+   "kind": "research",
+   "description": "In the commercial social VR platform Cluster, users with no programming background describe what an object should do and an LLM writes the Cluster Script that makes it behave that way.",
+   "description_zh": "在商业社交 VR 平台 Cluster 中，没有编程基础的用户只需描述物体该做什么，大语言模型就会写出让它照此行动的 Cluster Script。",
+   "idea_en": "One of the first LLM behaviour-authoring tools tested with ordinary users of a live metaverse rather than lab participants.",
+   "idea_zh": "最早在真实运营的元宇宙中、而非实验室里，由普通用户实际测试的大语言模型行为创作工具之一。",
+   "method": "An LLM is prompted with the Cluster Script API to generate object behaviours from natural language, integrated into the platform and evaluated online with 63 general users.",
+   "method_zh": "用 Cluster Script API 提示大语言模型，从自然语言生成物体行为，集成进平台后在线上与 63 名普通用户一起评估。",
+   "specs": "online study with 63 platform users",
+   "keywords": [
+    "Cluster",
+    "metaverse",
+    "LLM scripting",
+    "behavior design",
+    "Japan"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=ZKf5RkQkV_g"
+   },
+   "images": [
+    "https://arxiv.org/html/2406.13242v1/teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2406.13242",
+    "doi": "10.1109/access.2025.3530439",
+    "arxiv": "2406.13242",
+    "venue": "IEEE Access 2025",
+    "title": "MagicItem: Dynamic Behavior Design of Virtual Objects With Large Language Models in a Commercial Metaverse Platform"
+   },
+   "source_url": "https://arxiv.org/abs/2406.13242",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "zhuangze-hou--echoladder",
+   "creator_ids": [
+    "zhuangze-hou"
+   ],
+   "title": "EchoLadder",
+   "year": 2025,
+   "date": "2025-08-04",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "scene-3d"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "control"
+   ],
+   "kind": "research",
+   "description": "A VR designer speaks instructions at any level of vagueness ('make it cosier', 'put a lamp by the sofa') and receives concrete scene changes that can be applied, regenerated or retracted with a toggle.",
+   "description_zh": "VR 设计者可以用任意抽象程度的口头指令（“更温馨一点”“在沙发旁放盏灯”）提出要求，系统给出具体的场景修改，并可一键应用、重做或撤回。",
+   "idea_en": "Breaking generation into reversible, progressive suggestions keeps people steering the scene instead of accepting one AI output.",
+   "idea_zh": "把生成拆成可逆、渐进的建议，让人持续掌舵场景，而不是被动接受 AI 的一次性结果。",
+   "method": "A large vision-language model reads the current VR scene and the spoken instruction and proposes concrete edits through a progressive design pipeline; an ablation study and a user study against a no-suggestion baseline.",
+   "method_zh": "大型视觉语言模型读取当前 VR 场景与口头指令，通过渐进式设计流程给出具体编辑建议；做了消融实验，以及与无建议基线对比的用户研究。",
+   "keywords": [
+    "VR scene design",
+    "vision-language model",
+    "human-AI collaboration",
+    "progressive design"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=mSZTSsDLjRE"
+   },
+   "images": [
+    "https://arxiv.org/html/2508.02173v1/Pic_table/Teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2508.02173",
+    "doi": "10.1145/3746059.3747659",
+    "arxiv": "2508.02173",
+    "venue": "UIST 2025",
+    "title": "EchoLadder: Progressive AI-Assisted Design of Immersive VR Scenes"
+   },
+   "source_url": "https://arxiv.org/abs/2508.02173",
+   "collections": [
+    "uist",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "haoyu-wang--prop-chromeleon",
+   "creator_ids": [
+    "haoyu-wang"
+   ],
+   "title": "Prop-Chromeleon",
+   "year": 2026,
+   "date": "2026-05-01",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [
+    "text",
+    "surroundings"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Hold a water bottle, type 'a magic lantern', and a virtual lantern shaped to fit the bottle is generated and anchored onto it in mixed reality, so what you see matches what you feel.",
+   "description_zh": "手握一个水瓶，输入“魔法灯笼”，系统就生成一个贴合水瓶形状的虚拟灯笼并锚定在它上面，让你看到的与摸到的一致。",
+   "idea_en": "Constraining generation to the shape of a real object turns any household item into a passive haptic prop for generated content.",
+   "idea_zh": "把生成约束在真实物体的形状之内，任何家居物品都能成为生成内容的被动触觉道具。",
+   "method": "A generative pipeline produces 3D assets from text prompts under geometric constraints from the scanned prop and anchors them to it; a generation study scores shape similarity and prompt fidelity, and a user study compares realism and enjoyment with static props.",
+   "method_zh": "生成流程在扫描道具的几何约束下，根据文字提示生成三维资产并锚定在道具上；生成实验评估形状相似度与提示忠实度，用户研究则与静态道具比较真实感和乐趣。",
+   "keywords": [
+    "passive haptics",
+    "shape-aware generation",
+    "mixed reality",
+    "text-to-3D"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=IKRM-_YxGpM"
+   },
+   "images": [
+    "https://arxiv.org/html/2605.00804v2/figures/teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2605.00804",
+    "doi": "10.1145/3800645.3812978",
+    "arxiv": "2605.00804",
+    "venue": "DIS 2026",
+    "title": "Prop-Chromeleon: Adaptive Haptic Props in Mixed Reality through Generative Artificial Intelligence"
+   },
+   "source_url": "https://arxiv.org/abs/2605.00804",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "lei-zhang--capybara",
+   "creator_ids": [
+    "lei-zhang"
+   ],
+   "title": "Capybara",
+   "year": 2025,
+   "date": "2025-08-11",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "mesh",
+    "motion",
+    "behavior"
+   ],
+   "inputs": [
+    "text",
+    "body",
+    "surroundings"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "co-creation"
+   ],
+   "kind": "research",
+   "description": "Children create 3D characters and accessories with text-to-3D AI, animate them with auto-rigging and their own body movements, and program how the characters react to real objects the camera recognizes.",
+   "description_zh": "孩子们用文生三维 AI 创造三维角色和配饰，通过自动绑骨和自己的身体动作让它们动起来，再编程设定角色如何回应摄像头识别到的真实物体。",
+   "idea_en": "Positions children as authors of AI-driven AR, not only its audience.",
+   "idea_zh": "让孩子成为 AI 驱动 AR 的作者，而不只是观众。",
+   "method": "An AR visual-programming environment combines text-to-3D generation, automatic rigging, body tracking and vision-based object recognition as programmable triggers; user studies with 20 children in the United States and Argentina.",
+   "method_zh": "AR 可视化编程环境结合文生三维、自动绑骨、身体追踪和基于视觉的物体识别（作为可编程触发器）；在美国和阿根廷对 20 名儿童开展用户研究。",
+   "specs": "user studies with 20 children (US, Argentina)",
+   "keywords": [
+    "children",
+    "visual programming",
+    "text-to-3D",
+    "auto-rigging",
+    "Princeton HCI"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=paJP8B8btVk"
+   },
+   "images": [
+    "https://arxiv.org/html/2508.08467v2/Figures/Teaser_Figure_V20.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2508.08467",
+    "doi": "10.1145/3746059.3747662",
+    "arxiv": "2508.08467",
+    "venue": "UIST 2025",
+    "title": "Empowering Children to Create AI-Enabled Augmented Reality Experiences"
+   },
+   "source_url": "https://arxiv.org/abs/2508.08467",
+   "collections": [
+    "uist",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "nozomu-iwai--talking-objects",
+   "creator_ids": [
+    "nozomu-iwai",
+    "preferred-networks"
+   ],
+   "title": "AI-Powered Talking Characters on Everyday Objects",
+   "year": 2025,
+   "date": "2025-04-25",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "dialogue",
+    "speech",
+    "avatar"
+   ],
+   "inputs": [
+    "speech",
+    "surroundings"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "reactivity"
+   ],
+   "kind": "research",
+   "description": "Through an AR headset or a phone, a kettle, a plant or a chair gets an animated face and a personality drawn from what it is, chats with you about the room and reacts when things around it change.",
+   "description_zh": "透过 AR 头显或手机，水壶、植物或椅子会长出动画面孔，拥有与自身用途相符的性格，和你聊起这个房间，并在周围发生变化时作出反应。",
+   "idea_en": "Grounds generated characters in real objects and their surroundings, so conversation refers to what is actually there.",
+   "idea_zh": "把生成角色扎根于真实物体及其周边环境，让对话指向真实存在的东西。",
+   "method": "Language, vision and speech models give each recognized object a personality and dialogue grounded in its function and in scene changes; a preliminary evaluation on HoloLens 2 and an Android phone.",
+   "method_zh": "语言、视觉与语音模型为每个识别出的物体赋予性格，并根据其功能与场景变化生成对话；在 HoloLens 2 和安卓手机上做了初步评估。",
+   "keywords": [
+    "talking objects",
+    "AR characters",
+    "LLM",
+    "HoloLens 2",
+    "Preferred Networks"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=RkRc7TRDPDQ"
+   },
+   "paper": {
+    "url": "https://doi.org/10.1145/3706599.3719978",
+    "doi": "10.1145/3706599.3719978",
+    "arxiv": "",
+    "venue": "CHI 2025 Extended Abstracts",
+    "title": "Bringing Everyday Objects to Life in Augmented Reality with AI-Powered Talking Characters"
+   },
+   "source_url": "https://doi.org/10.1145/3706599.3719978",
+   "collections": [
+    "chi"
+   ]
+  },
+  {
+   "id": "keiichi-ihara--video2mr",
+   "creator_ids": [
+    "keiichi-ihara",
+    "ryo-suzuki"
+   ],
+   "title": "Video2MR",
+   "year": 2024,
+   "date": "2024-05-28",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "motion",
+    "avatar"
+   ],
+   "inputs": [
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "situational-reach",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Turns an online sports or exercise video into a mixed-reality coach: the person in the 2D video becomes a 3D avatar in your room, with highlighted posture differences, motion trails, speed control and repositioning.",
+   "description_zh": "把网上的运动或健身视频变成混合现实教练：视频里的人变成你房间中的三维虚拟人，并带有姿态差异高亮、运动轨迹、速度控制和位置调整。",
+   "idea_en": "Any 2D video becomes an embodied demonstration you can walk around, a cheap source of situated instruction.",
+   "idea_zh": "任何二维视频都能变成可以绕着看的具身示范，是一种低成本的情境化教学来源。",
+   "method": "3D human motion is extracted from monocular video and retargeted onto an avatar placed in mixed reality, with automatically generated visual augmentations.",
+   "method_zh": "从单目视频中提取三维人体动作，重定向到放置在混合现实中的虚拟人身上，并自动生成可视化增强。",
+   "keywords": [
+    "motion extraction",
+    "instructional video",
+    "mixed reality coaching",
+    "Programmable Reality Lab"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=f1L-2US25PU"
+   },
+   "images": [
+    "https://arxiv.org/html/2405.18565v1/figures/teaser.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2405.18565",
+    "doi": "10.1145/3708359.3712159",
+    "arxiv": "2405.18565",
+    "venue": "IUI 2025",
+    "title": "Video2MR: Automatically Generating Mixed Reality 3D Instructions by Augmenting Extracted Motion from 2D Videos"
+   },
+   "source_url": "https://ryosuzuki.org/video2mr"
+  },
+  {
+   "id": "tianyi-xiao--sketch2terrain",
+   "creator_ids": [
+    "tianyi-xiao"
+   ],
+   "title": "Sketch2Terrain",
+   "year": 2025,
+   "date": "2025-04-25",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "mesh",
+    "scene-3d"
+   ],
+   "inputs": [
+    "sketch"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "responsiveness",
+    "control"
+   ],
+   "kind": "research",
+   "description": "A person draws a few freehand 3D strokes in AR and a generative model turns them into a complete terrain with hills and valleys in real time.",
+   "description_zh": "人在 AR 中徒手画几笔三维线条，生成模型就实时把它们变成带有山丘与山谷的完整地形。",
+   "idea_en": "Real-time generation from sketches gives non-experts a way to externalize remembered landscapes, and gives researchers one uniform setup to collect that data.",
+   "idea_zh": "从草图实时生成地形，让非专业者能把记忆中的地貌表达出来，也为研究者提供统一的数据采集环境。",
+   "method": "Freehand AR strokes condition a generative terrain model that outputs elevation meshes in real time; a between-subjects study (N=36) compared it with conventional sketch mapping.",
+   "method_zh": "以徒手 AR 笔画为条件，生成式地形模型实时输出高程网格；被试间研究（N=36）将其与传统草图地图比较。",
+   "specs": "between-subjects study N=36",
+   "keywords": [
+    "sketch mapping",
+    "terrain generation",
+    "spatial cognition",
+    "AR"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=DPvd_EmxzVg"
+   },
+   "paper": {
+    "url": "https://doi.org/10.1145/3706598.3713467",
+    "doi": "10.1145/3706598.3713467",
+    "arxiv": "",
+    "venue": "CHI 2025",
+    "title": "Sketch2Terrain: AI-Driven Real-Time Terrain Sketch Mapping in Augmented Reality"
+   },
+   "source_url": "https://doi.org/10.1145/3706598.3713467",
+   "collections": [
+    "chi"
+   ]
+  },
+  {
+   "id": "ars-electronica-futurelab--nexus-print",
+   "creator_ids": [
+    "ars-electronica-futurelab"
+   ],
+   "title": "NeXus Print",
+   "year": 2025,
+   "date": "2025-09",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "mesh",
+    "scene-3d"
+   ],
+   "inputs": [
+    "text",
+    "sketch"
+   ],
+   "timing": "turn-based",
+   "access": [],
+   "lenses": [
+    "co-creation",
+    "authoring"
+   ],
+   "kind": "experience",
+   "description": "Groups wearing Meta Quest 3 enter one shared XR space and, with simple text prompts and hand gestures, generate 3D objects and environments to build or reimagine a world together.",
+   "description_zh": "多人戴上 Meta Quest 3 进入同一个 XR 空间，用简单的文字提示和手势生成三维物体与环境，一起搭建或重新想象一个世界。",
+   "idea_en": "A public, festival-scale version of multi-user in-situ generation, framed as a tool for collective brainstorming and rethinking public spaces.",
+   "idea_zh": "多人现场生成的公众版、节展规模的实践，被定位为集体头脑风暴与重新构想公共空间的工具。",
+   "method": "A shared Quest 3 session links hand-gesture interaction with text-to-3D generation of objects and environments (developed with Dai Nippon Printing).",
+   "method_zh": "在共享的 Quest 3 会话中，把手势交互与文字生成三维物体和环境结合起来（与大日本印刷合作开发）。",
+   "specs": "Meta Quest 3 · multi-user",
+   "keywords": [
+    "Ars Electronica",
+    "Dai Nippon Printing",
+    "collective creation",
+    "text-to-3D",
+    "Quest 3"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=HH4xfM-XL2Q"
+   },
+   "images": [
+    "https://ars.electronica.art/futurelab/files/2025/10/ars-electronica-2025-20cbettinagangl_4932x3288-1-2000x1000.jpg"
+   ],
+   "source_url": "https://ars.electronica.art/futurelab/en/nexus-print/",
+   "collections": [
+    "trend-in-situ-xr"
+   ],
+   "exhibited": [
+    "Open Futurelab, Ars Electronica Festival 2025"
+   ]
+  },
+  {
+   "id": "ruofei-du--vibe-coding-xr",
+   "creator_ids": [
+    "ruofei-du",
+    "google"
+   ],
+   "title": "Vibe Coding XR",
+   "year": 2026,
+   "date": "2026-03-25",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "behavior",
+    "scene-3d"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "open",
+    "research"
+   ],
+   "lenses": [
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "A prompt such as 'create a dandelion that reacts to my hand' becomes a working, physics-aware mixed-reality app that can be tested in a simulated room on the desktop and then sent to a headset.",
+   "description_zh": "像“做一朵会对我的手作出反应的蒲公英”这样的提示词，会直接变成一个具备物理效果的混合现实应用，先在桌面的模拟房间里测试，再部署到头显。",
+   "idea_en": "Gives language models a compact vocabulary for users, rooms and agents, so a one-line request can produce a runnable XR prototype.",
+   "idea_zh": "为语言模型提供描述用户、房间与智能体的精简词汇，让一句话就能产出可运行的 XR 原型。",
+   "method": "Gemini generates code against XR Blocks' semantic 'Reality Model' WebXR API; a desktop simulated-reality loop precedes headset deployment, and the VCXR60 set of 60 prompts with automated evaluation measures one-shot success.",
+   "method_zh": "Gemini 基于 XR Blocks 的语义化“现实模型” WebXR API 生成代码；先在桌面模拟现实中循环测试，再部署到头显，并用 60 条提示组成的 VCXR60 与自动评估流程测量一次成功率。",
+   "specs": "VCXR60: 60 prompts",
+   "keywords": [
+    "vibe coding",
+    "Gemini",
+    "WebXR",
+    "XR Blocks",
+    "LLM-native framework"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=nknCzIxHHzw"
+   },
+   "images": [
+    "https://arxiv.org/html/2603.24591v2/vcxr_samples.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2603.24591",
+    "doi": "",
+    "arxiv": "2603.24591",
+    "venue": "arXiv 2026",
+    "title": "Vibe Coding XR: Accelerating AI + XR Prototyping with XR Blocks and Gemini"
+   },
+   "source_url": "https://xrblocks.github.io/",
+   "code_url": "https://github.com/google/xrblocks",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "figmin-xr--ai-creation-tools",
+   "creator_ids": [
+    "figmin-xr"
+   ],
+   "title": "Figmin XR AI creation tools",
+   "year": 2024,
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "mesh",
+    "behavior"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "authoring"
+   ],
+   "kind": "product",
+   "description": "Inside the mixed-reality creation app Figmin XR, users generate 3D models from a text prompt (via Luma Genie in the built-in browser) and drop them into their room, and later had language models write scripts that make objects interactive.",
+   "description_zh": "在混合现实创作应用 Figmin XR 中，用户可以通过内置浏览器里的 Luma Genie 用文字生成三维模型并放进房间，后来还能让语言模型编写脚本，让物体变得可交互。",
+   "idea_en": "A consumer headset app where generated assets and generated behaviour land directly in the space you are standing in.",
+   "idea_zh": "一款消费级头显应用：生成的资产与生成的行为都直接落在你所站立的空间里。",
+   "method": "Text-to-3D results from Luma Genie are imported as scene objects, and LLMs (including GPT-5 in 2025) write code against Figmin XR's scripting API.",
+   "method_zh": "把 Luma Genie 的文生三维结果导入为场景物体，并由大语言模型（2025 年包括 GPT-5）基于 Figmin XR 的脚本 API 编写代码。",
+   "keywords": [
+    "Figmin XR",
+    "Luma Genie",
+    "text-to-3D",
+    "LLM scripting",
+    "Quest",
+    "Vision Pro"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=PFY1mk4gzjs"
+   },
+   "source_url": "https://figmin.com",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "stijn-spanhove--drawing-to-xr-world",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "Drawings into playable XR worlds",
+   "year": 2025,
+   "date": "2025-08-28",
+   "field": "genxr",
+   "sub": "in-situ",
+   "also": [
+    "world-models"
+   ],
+   "modalities": [
+    "frame-stream"
+   ],
+   "inputs": [
+    "image",
+    "action"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "co-creation",
+    "reactivity"
+   ],
+   "kind": "research",
+   "description": "A child's drawing is fed to the Mirage 2 world model and opens up in front of the viewer on Snap Spectacles as a world they can play in.",
+   "description_zh": "孩子画的一幅画被输入 Mirage 2 世界模型，在 Snap Spectacles 上于观者眼前展开为一个可以玩的世界。",
+   "idea_en": "An early sign of action-conditioned world models streaming into AR glasses, with a drawing as the only authoring step.",
+   "idea_zh": "动作条件世界模型流式进入 AR 眼镜的早期信号，唯一的创作步骤只是一幅画。",
+   "method": "Proof of concept: the drawing is sent as the starting image to Dynamics Lab's Mirage 2 interactive world model and the generated frame stream is displayed on Spectacles, with inputs passed back to the model.",
+   "method_zh": "概念验证：把画作为起始图像发送给 Dynamics Lab 的 Mirage 2 交互式世界模型，在 Spectacles 上显示生成的帧流，并把输入回传给模型。",
+   "keywords": [
+    "Mirage 2",
+    "world model",
+    "Snap Spectacles",
+    "proof of concept",
+    "drawing"
+   ],
+   "video": {
+    "url": "https://x.com/stspanho/status/1961138591934947462"
+   },
+   "source_url": "https://x.com/stspanho/status/1961138591934947462",
+   "collections": [
+    "trend-in-situ-xr",
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "bangbang-yang--dreamspace",
+   "creator_ids": [
+    "bangbang-yang"
+   ],
+   "title": "DreamSpace",
+   "year": 2023,
+   "date": "2023-10-19",
+   "field": "genxr",
+   "sub": "restyle",
+   "modalities": [
+    "scene-3d",
+    "image"
+   ],
+   "inputs": [
+    "text",
+    "multi-view"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "diversity"
+   ],
+   "kind": "research",
+   "description": "Type a style such as 'Van Gogh' or 'cyberpunk' and a scanned room is re-textured end to end, with coherent textures across walls, floor and furniture that you can walk through in a VR headset.",
+   "description_zh": "输入“梵高”或“赛博朋克”等风格，扫描好的房间就会被整体重新贴图，墙面、地板与家具的纹理彼此连贯，戴上 VR 头显即可走进其中。",
+   "idea_en": "Restyles a real room's geometry instead of replacing it, so the generated world keeps the layout your body already knows.",
+   "idea_zh": "重绘的是真实房间的外观而不是替换其几何，生成的世界保留了身体早已熟悉的布局。",
+   "method": "A stylized 360-degree panorama is generated from the room's centre with coarse-to-fine diffusion and dual texture alignment, then propagated to the rest of the mesh by inpainting and an implicit imitation network for occluded parts.",
+   "method_zh": "先从房间中心用由粗到细的扩散模型和双重纹理对齐生成风格化 360° 全景纹理，再通过图像修补和隐式模仿网络，把纹理传播到网格其余部分及被遮挡区域。",
+   "keywords": [
+    "scene texturing",
+    "panorama",
+    "diffusion",
+    "room restyling",
+    "ByteDance PICO"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=Ni5kXdj7cfw"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2310.13119",
+    "doi": "10.1109/vr58804.2024.00085",
+    "arxiv": "2310.13119",
+    "venue": "IEEE VR 2024",
+    "title": "DreamSpace: Dreaming Your Room Space with Text-Driven Panoramic Texture Propagation"
+   },
+   "source_url": "https://ybbbbt.com/publication/dreamspace/",
+   "collections": [
+    "ieee-vr"
+   ]
+  },
+  {
+   "id": "xueyang-wang--roomify",
+   "creator_ids": [
+    "xueyang-wang"
+   ],
+   "title": "Roomify",
+   "year": 2026,
+   "date": "2026-03-05",
+   "field": "genxr",
+   "sub": "restyle",
+   "modalities": [
+    "scene-3d"
+   ],
+   "inputs": [
+    "text",
+    "surroundings"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "diversity"
+   ],
+   "kind": "research",
+   "description": "Turns your physical room into a themed virtual environment, such as a forest cabin or a spaceship, in which every sofa, table and wall stays where it really is, and lets designers edit it in MR and preview it in VR.",
+   "description_zh": "把你的真实房间变成主题化的虚拟环境，例如林中小屋或宇宙飞船，其中每张沙发、桌子和每面墙都留在真实的位置，设计者可以在 MR 中编辑、在 VR 中预览。",
+   "idea_en": "Keeping the room's functional layout while changing its style offers presence without losing spatial awareness.",
+   "idea_zh": "保留房间的功能布局、只改换风格，可以在不丢失空间感知的前提下获得临场感。",
+   "method": "In-situ 3D scene understanding, AI spatial reasoning and style-aware generation replace each furnishing with a themed counterpart of matching geometry and function; studies with 18 VR users and 8 design professionals.",
+   "method_zh": "通过现场三维场景理解、AI 空间推理与风格感知生成，把每件陈设替换为几何与功能相匹配的主题对应物；分别对 18 名 VR 用户和 8 名设计专业人员开展研究。",
+   "specs": "presence +63% vs passthrough, +26% vs fully virtual (reported, N=18)",
+   "keywords": [
+    "spatially grounded",
+    "room restyling",
+    "presence",
+    "cross-reality authoring"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=zPEOMXafHVA"
+   },
+   "images": [
+    "https://arxiv.org/html/2603.04917v1/teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2603.04917",
+    "doi": "10.1145/3772318.3791803",
+    "arxiv": "2603.04917",
+    "venue": "CHI 2026",
+    "title": "Roomify: Spatially-Grounded Style Transformation for Immersive Virtual Environments"
+   },
+   "source_url": "https://arxiv.org/abs/2603.04917",
+   "collections": [
+    "chi",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "decart--decart-xr",
+   "creator_ids": [
+    "decart",
+    "roberto-coviello"
+   ],
+   "title": "Decart XR",
+   "year": 2025,
+   "date": "2025-10-04",
+   "field": "genxr",
+   "sub": "restyle",
+   "modalities": [
+    "frame-stream"
+   ],
+   "inputs": [
+    "speech",
+    "surroundings"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open",
+    "product"
+   ],
+   "lenses": [
+    "responsiveness",
+    "diversity"
+   ],
+   "kind": "open-source",
+   "description": "On Meta Quest, the wearer speaks a prompt and watches the passthrough view of their own room transformed live by a real-time video model; the app is free on SideQuest and open source.",
+   "description_zh": "在 Meta Quest 上，佩戴者说出一个提示，就能看到自己房间的透视画面被实时视频模型当场改造；该应用在 SideQuest 上免费提供，并且开源。",
+   "idea_en": "Real-time video-to-video turns any room into a prompt-selected world, but what you see stops matching what you touch.",
+   "idea_zh": "实时视频到视频模型能把任何房间变成按提示选择的世界，但你看到的东西不再与你摸到的一致。",
+   "method": "Passthrough camera frames from QuestCameraKit are streamed to Decart's real-time video-to-video model, likely MirageLSD over WebRTC, and the restyled frames are rendered back into the headset.",
+   "method_zh": "通过 QuestCameraKit 获取透视摄像头画面，流式发送到 Decart 的实时视频到视频模型（很可能是经由 WebRTC 的 MirageLSD），再把重绘后的画面渲染回头显。",
+   "keywords": [
+    "passthrough",
+    "real-time video-to-video",
+    "Meta Quest",
+    "QuestCameraKit",
+    "SideQuest"
+   ],
+   "video": {
+    "url": "https://x.com/DecartAI/status/1974534910623859128"
+   },
+   "source_url": "https://github.com/DecartAI/Decart-XR",
+   "api_url": "https://decart.ai",
+   "code_url": "https://github.com/DecartAI/Decart-XR",
+   "collections": [
+    "trend-realtime",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "hugues-bruyere--mr-diffusion",
+   "creator_ids": [
+    "hugues-bruyere"
+   ],
+   "title": "MR + Diffusion passthrough prototype",
+   "year": 2025,
+   "date": "2025-03-16",
+   "field": "genxr",
+   "sub": "restyle",
+   "modalities": [
+    "image"
+   ],
+   "inputs": [
+    "surroundings",
+    "text"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "responsiveness",
+    "perceptual-realism"
+   ],
+   "kind": "research",
+   "description": "A Quest mixed-reality prototype reads the passthrough camera and replaces parts of the room with diffusion-generated imagery that stays in place as the wearer looks around.",
+   "description_zh": "一个 Quest 混合现实原型读取透视摄像头画面，用扩散模型生成的图像替换房间的部分区域，佩戴者环顾四周时这些图像保持在原位。",
+   "idea_en": "One of the first diffusion-on-passthrough demos after Meta opened the Passthrough Camera API in 2025.",
+   "idea_zh": "Meta 在 2025 年开放透视摄像头 API 之后最早的扩散模型叠加透视演示之一。",
+   "method": "Frames from Meta's Passthrough Camera API are sent to an image diffusion model and the results are re-projected onto the matching surfaces of the room.",
+   "method_zh": "把 Meta 透视摄像头 API 获取的画面送入图像扩散模型，再把生成结果重新投射到房间中对应的表面上。",
+   "keywords": [
+    "Passthrough Camera API",
+    "diffusion",
+    "Meta Quest",
+    "Dpt."
+   ],
+   "video": {
+    "url": "https://x.com/smallfly/status/1901403937321750862"
+   },
+   "source_url": "https://x.com/smallfly/status/1901403937321750862",
+   "collections": [
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "alessio-grancini--realtime-style-transfer-specs",
+   "creator_ids": [
+    "alessio-grancini"
+   ],
+   "title": "Real-time AI style transfer on Spectacles",
+   "year": 2026,
+   "date": "2026-07-28",
+   "field": "genxr",
+   "sub": "restyle",
+   "modalities": [
+    "frame-stream"
+   ],
+   "inputs": [
+    "surroundings"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "responsiveness"
+   ],
+   "kind": "research",
+   "description": "An experiment connects Snap Spectacles to Decart's real-time video model and projects the transformed camera feed back into the wearer's view at real-world scale, so the street appears restyled live.",
+   "description_zh": "一项实验把 Snap Spectacles 接入 Decart 的实时视频模型，再把改造后的摄像头画面按真实尺度投回佩戴者视野，让街景实时呈现另一种风格。",
+   "idea_en": "On see-through glasses, restyling has to decide what to augment and where, not just filter the whole frame.",
+   "idea_zh": "在透视式眼镜上，重绘需要决定增强什么、在哪里增强，而不只是给整个画面加滤镜。",
+   "method": "The Spectacles camera stream is sent over WebRTC to Decart's real-time video-to-video API and the returned frames are rendered at world scale in the lens; the prototype was built in a day with an agentic coding loop.",
+   "method_zh": "Spectacles 摄像头画面经 WebRTC 发送到 Decart 的实时视频到视频 API，返回的画面在镜头中按真实尺度渲染；这个原型借助智能体编程循环在一天内完成。",
+   "keywords": [
+    "Snap Spectacles",
+    "Decart",
+    "WebRTC",
+    "AR glasses",
+    "style transfer"
+   ],
+   "video": {
+    "url": "https://x.com/alessiograncini/status/2082150582467387856"
+   },
+   "source_url": "https://x.com/alessiograncini/status/2082150582467387856",
+   "collections": [
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "stijn-spanhove--realtime-ai-video-xr-room",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "Real-time AI video restyling an XR room",
+   "year": 2025,
+   "date": "2025-10-21",
+   "field": "genxr",
+   "sub": "restyle",
+   "modalities": [
+    "frame-stream"
+   ],
+   "inputs": [
+    "text",
+    "surroundings"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "responsiveness",
+    "diversity"
+   ],
+   "kind": "research",
+   "description": "A room seen in XR is repainted by a live video model, first as a 'modern, Ikea style room', then as an 'industrial loft', with updates synced slowly to avoid dizziness.",
+   "description_zh": "在 XR 中看到的房间被实时视频模型重绘，先是“现代宜家风格”，再变成“工业风阁楼”；为避免眩晕，画面更新被刻意放慢同步。",
+   "idea_en": "Shows a comfort constraint of restyling live: the generated view must change slowly enough not to fight the wearer's motion.",
+   "idea_zh": "揭示实时重绘的一条舒适性约束：生成画面的变化必须足够缓慢，才不会与佩戴者的运动冲突。",
+   "method": "Rendered XR views are passed through a real-time video-to-video model and the restyled result is blended back into the scene at a reduced update rate.",
+   "method_zh": "把渲染出的 XR 画面送入实时视频到视频模型，再以较低的更新频率把重绘结果混合回场景。",
+   "keywords": [
+    "real-time video model",
+    "XR",
+    "restyling",
+    "motion sickness",
+    "proof of concept"
+   ],
+   "video": {
+    "url": "https://x.com/stspanho/status/1980751025930661934"
+   },
+   "source_url": "https://x.com/stspanho/status/1980751025930661934",
+   "collections": [
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "snap--realtime-ondevice-genai-lenses",
+   "creator_ids": [
+    "snap"
+   ],
+   "title": "Real-time on-device generative AR model",
+   "year": 2024,
+   "date": "2024-06-18",
+   "field": "genxr",
+   "sub": "restyle",
+   "modalities": [
+    "frame-stream"
+   ],
+   "inputs": [
+    "text",
+    "surroundings"
+   ],
+   "timing": "real-time",
+   "access": [
+    "preview"
+   ],
+   "lenses": [
+    "responsiveness",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "Snap previewed an image diffusion model small enough to run on a smartphone and fast enough to re-render the camera view live from a text prompt, meant for AR Lenses, alongside Lens Studio 5.0's generative tools.",
+   "description_zh": "Snap 预览了一个图像扩散模型：小到能在手机上运行、快到能按文字提示实时重绘摄像头画面，用于 AR 镜头，同时发布了 Lens Studio 5.0 的生成工具。",
+   "idea_en": "Moves restyling of the live camera view from the cloud onto the device that the person is holding.",
+   "idea_zh": "把对实时摄像头画面的重绘，从云端搬到人手中的设备上。",
+   "method": "A compact text-conditioned image diffusion model optimized for on-device inference re-renders camera frames in real time; Snap said Lenses using it would reach users first and creators later.",
+   "method_zh": "一个为端侧推理优化的紧凑型文本条件图像扩散模型实时重绘摄像头画面；Snap 表示使用该模型的镜头会先面向用户上线，之后再开放给创作者。",
+   "keywords": [
+    "on-device diffusion",
+    "Snap Lenses",
+    "Lens Studio 5.0",
+    "AWE 2024",
+    "conference talk"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=zqHNq2ML_5Q"
+   },
+   "source_url": "https://techcrunch.com/2024/06/18/snap-previews-its-real-time-image-model-that-can-generate-ar-experiences/",
+   "collections": [
+    "trend-realtime"
+   ],
+   "exhibited": [
+    "AWE USA 2024"
+   ]
+  },
+  {
+   "id": "danlin-huang--body-oracle-translator",
+   "creator_ids": [
+    "danlin-huang",
+    "botao-amber-hu",
+    "reality-design-lab"
+   ],
+   "title": "Body Oracle Translator",
+   "year": 2026,
+   "date": "2026-03",
+   "field": "genxr",
+   "sub": "restyle",
+   "modalities": [
+    "image"
+   ],
+   "inputs": [
+    "body"
+   ],
+   "timing": "real-time",
+   "access": [],
+   "lenses": [
+    "reactivity",
+    "co-creation"
+   ],
+   "kind": "experience",
+   "description": "Looking through a handheld mixed-reality lens, people see each other's postures and movements translated in real time into speculative AI-generated characters inspired by Chinese oracle-bone script.",
+   "description_zh": "透过手持混合现实镜头，人们看到彼此的姿态和动作被实时“翻译”成受甲骨文启发的、由 AI 生成的思辨文字。",
+   "idea_en": "Restyles people rather than rooms: the lens rewrites bodies as an alternative written language, an 'alternative present' to share.",
+   "idea_zh": "重绘的对象是人而不是房间：镜头把身体改写成另一种文字，营造一个可以共享的“另类当下”。",
+   "method": "Pose tracking feeds an image-generation model trained to map body skeletons to oracle-bone-style glyphs (building on Body Oracle), and the glyphs are overlaid on people in the handheld MR view.",
+   "method_zh": "姿态追踪数据输入一个把身体骨架映射为甲骨文风格字形的图像生成模型（基于 Body Oracle），字形叠加在手持 MR 画面中的人物身上。",
+   "keywords": [
+    "oracle bone script",
+    "甲骨文",
+    "speculative design",
+    "pose to glyph",
+    "handheld MR"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=GXeLSfZnXAQ"
+   },
+   "source_url": "https://reality.design/project/body-oracle",
+   "exhibited": [
+    "IEEE VR 2026 XR Gallery"
+   ]
+  },
+  {
+   "id": "keiichi-ihara--cinemaworld",
+   "creator_ids": [
+    "keiichi-ihara",
+    "ryo-suzuki"
+   ],
+   "title": "CinemaWorld",
+   "year": 2026,
+   "date": "2026-03-09",
+   "field": "genxr",
+   "sub": "narrative",
+   "modalities": [
+    "scene-3d"
+   ],
+   "inputs": [
+    "video",
+    "surroundings"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "While a 2D film plays, the viewer's own room on a Meta Quest 3 fills with generated 3D content synchronized to the scene: particle effects, surrounding objects, textures, character-driven effects and lighting.",
+   "description_zh": "在播放二维电影的同时，观者在 Meta Quest 3 中看到自己的房间里出现与镜头同步的生成三维内容：粒子特效、环绕物体、纹理覆盖、角色驱动的效果与灯光。",
+   "idea_en": "Extends a fixed film into the viewer's physical space automatically, without hand-authored AR for each scene.",
+   "idea_zh": "无需为每个镜头手工制作 AR，就能把一部固定的电影自动延伸到观者的物理空间。",
+   "method": "Films are preprocessed with multimodal LLMs to extract key features, generative AI produces dynamic 3D augmentations that are embedded spatially in the room; evaluated with 100 clips, a user study (N=12) and interviews with film creators (N=8).",
+   "method_zh": "先用多模态大语言模型预处理电影、提取关键特征，再用生成式 AI 制作动态三维增强并嵌入房间空间；通过 100 段片段的技术评估、用户研究（N=12）与电影创作者访谈（N=8）评估。",
+   "specs": "Meta Quest 3 · 100 clips · N=12 · 8 experts",
+   "keywords": [
+    "movie augmentation",
+    "generative AR",
+    "multimodal LLM",
+    "3D scene generation",
+    "Quest 3"
+   ],
+   "video": {
+    "url": "https://ryosuzuki.org/static/video/cinemaworld.mp4"
+   },
+   "images": [
+    "https://arxiv.org/html/2603.08060v1/figures/teaser_ver1.1.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2603.08060",
+    "doi": "",
+    "arxiv": "2603.08060",
+    "venue": "UIST 2026",
+    "title": "CinemaWorld: Generative Augmented Reality with LLMs and 3D Scene Generation for Movie Augmentation"
+   },
+   "source_url": "https://ryosuzuki.org/cinemaworld",
+   "collections": [
+    "agenda-core",
+    "uist",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "botao-amber-hu--generative-enactments",
+   "creator_ids": [
+    "botao-amber-hu",
+    "reality-design-lab"
+   ],
+   "title": "Generative Enactments",
+   "year": 2026,
+   "field": "genxr",
+   "sub": "narrative",
+   "also": [
+    "behavioral"
+   ],
+   "modalities": [
+    "flat-video"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "situational-reach",
+    "reactivity",
+    "control"
+   ],
+   "kind": "research",
+   "description": "Participants act inside a scenario and receive AI-generated first-person video of the consequences, either after a short wait or streamed reactively, so they can watch a situation unfold in response to what they do.",
+   "description_zh": "参与者在一个情境中行动，并收到由 AI 生成的第一人称后果视频（短暂等待后返回，或实时流式反应），从而看到情境随自己的行为展开。",
+   "idea_en": "Uses fast, cheap video generation to let people rehearse situations that are unsafe, unethical or not yet possible to stage, with a configuration that researchers can specify and compare.",
+   "idea_zh": "借助快速、廉价的视频生成，让人预演那些不安全、不合伦理或尚无法布置的情境，并提供研究者可以设定和比较的配置。",
+   "method": "A configuration form specifies how researchers, participants and AI systems propose, generate, contest and revise pathways; illustrated with domestic-robot attention (adversarial, turn-based), bystander intervention (choice-based) and trainee-teacher rehearsal (reactive streaming), with implementation and pilot evidence.",
+   "method_zh": "用一张配置表规定研究者、参与者与 AI 系统如何提出、生成、质疑和修改不同路径；以家用机器人的注意分配（对抗式、回合制）、旁观者干预（选择式）和实习教师后果预演（实时流式）三个案例说明，并报告实现与试用证据。",
+   "keywords": [
+    "futuring",
+    "first-person video",
+    "consequence rehearsal",
+    "bystander intervention"
+   ],
+   "images": [
+    "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e24f1e2a-3433-4a17-a6d6-3cdd234543f0/robot-archetype-06-care-or-control/public"
+   ],
+   "source_url": "https://amber.botao.hu/project/generative-enactments",
+   "collections": [
+    "agenda-core",
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "naisha-agarwal--storycaster",
+   "creator_ids": [
+    "naisha-agarwal",
+    "microsoft"
+   ],
+   "title": "Storycaster",
+   "year": 2025,
+   "date": "2025-10-26",
+   "field": "genxr",
+   "sub": "narrative",
+   "modalities": [
+    "image",
+    "audio",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "surroundings"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "co-creation",
+    "perceptual-realism"
+   ],
+   "kind": "research",
+   "description": "A projection room becomes a story space: a narrator agent guides participants, and by voice they co-create scenes that are projected on the walls with generated imagery, ambient audio and dialogue, while real objects in the room can turn into their story counterparts.",
+   "description_zh": "投影房间变成故事空间：叙述者智能体引导参与者，参与者用语音共同创作场景，墙面投出生成的图像，并配有生成的环境音与对白；房间里的真实物品也能变成故事中的对应物。",
+   "idea_en": "A generative CAVE keeps people aware of the real room and of each other while the story around them changes.",
+   "idea_zh": "生成式 CAVE 让人在周围故事不断变化时，仍能感知真实房间与彼此。",
+   "method": "Live camera feeds and cylindrical projection augment the walls; image, audio and dialogue generators, object-level editing of physical items and an LLM narrator respond to voice commands; a study with 13 participants.",
+   "method_zh": "通过实时摄像头画面与柱面投影增强墙面；图像、音频、对白生成器，对真实物品的物体级编辑，以及大语言模型叙述者共同回应语音指令；对 13 名参与者开展研究。",
+   "specs": "room-scale projection · study n=13",
+   "keywords": [
+    "CAVE",
+    "projection",
+    "narrator agent",
+    "co-creative storytelling",
+    "Microsoft Research"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=ckCtta27LJQ"
+   },
+   "images": [
+    "https://arxiv.org/html/2510.22857v2/Figure1.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2510.22857",
+    "doi": "10.1145/3772318.3791305",
+    "arxiv": "2510.22857",
+    "venue": "CHI 2026",
+    "title": "Storycaster: An AI System for Immersive Room-based Storytelling"
+   },
+   "source_url": "https://arxiv.org/abs/2510.22857",
+   "collections": [
+    "chi"
+   ]
+  },
+  {
+   "id": "light-in-the-head--tulpamancer",
+   "creator_ids": [
+    "light-in-the-head"
+   ],
+   "title": "Tulpamancer",
+   "year": 2023,
+   "date": "2023-08",
+   "field": "genxr",
+   "sub": "narrative",
+   "modalities": [
+    "scene-3d",
+    "dialogue"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [],
+   "lenses": [
+    "adaptation",
+    "diversity"
+   ],
+   "kind": "experience",
+   "description": "Visitors answer questions about their lives at an old computer terminal, then put on a VR headset and are led by their 'tulpa' through uniquely generated scenes about their past and possible futures; each work is deleted after viewing.",
+   "description_zh": "观众先在一台旧电脑终端前回答关于自己人生的问题，再戴上 VR 头显，由自己的“图帕”带领穿过专门生成的场景，回望过去、设想未来；每件作品在观看后即被删除。",
+   "idea_en": "A personal VR journey generated from one person's answers, made once and then discarded.",
+   "idea_zh": "根据一个人的回答生成的私人 VR 旅程，只做一次，看完即弃。",
+   "method": "A machine-learning pipeline, likely language and image generation, turns each participant's answers into a sequence of virtual scenes and narration before the headset session.",
+   "method_zh": "机器学习流程（很可能结合语言与图像生成）在佩戴头显之前，把每位参与者的回答变成一系列虚拟场景与旁白。",
+   "keywords": [
+    "Venice Immersive",
+    "personalized VR",
+    "memory",
+    "machine learning installation"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=nBYuZiTI8gA"
+   },
+   "images": [
+    "https://static.labiennale.org/files/styles/seo_thumbnail/public/cinema/2023/Schede_film/970x647/Ve_Immersive/dacosta-niederhauser.jpg?itok=FJNGWYE9"
+   ],
+   "source_url": "https://www.labiennale.org/en/cinema/2023/venice-immersive/tulpamancer",
+   "exhibited": [
+    "Venice Immersive 2023"
+   ]
+  },
+  {
+   "id": "transitional-forms--agence",
+   "creator_ids": [
+    "transitional-forms"
+   ],
+   "title": "Agence",
+   "year": 2020,
+   "field": "genxr",
+   "sub": "narrative",
+   "modalities": [
+    "behavior"
+   ],
+   "inputs": [
+    "action"
+   ],
+   "timing": "real-time",
+   "access": [],
+   "lenses": [
+    "behavioral-plausibility",
+    "co-creation"
+   ],
+   "kind": "experience",
+   "description": "A short 'dynamic film' about small creatures on a tiny planet whose behaviour is driven by AI agents; viewers can watch, or reach in and change their world, and the story plays out differently each time.",
+   "description_zh": "一部短篇“动态电影”：小星球上的小生物由 AI 智能体驱动；观众可以旁观，也可以伸手改变它们的世界，每次故事走向都不同。",
+   "idea_en": "An early precursor: a story whose characters are trained agents rather than animation, so viewer interference has consequences.",
+   "idea_zh": "早期先例：故事里的角色是训练出来的智能体而不是动画，所以观众的干预会带来后果。",
+   "method": "Characters run reinforcement-learning policies in real time within a game-engine film, and viewer interactions change their environment (co-produced with the National Film Board of Canada).",
+   "method_zh": "角色在游戏引擎构建的电影中实时运行强化学习策略，观众的交互会改变它们的环境（与加拿大国家电影局联合制作）。",
+   "keywords": [
+    "dynamic film",
+    "reinforcement learning",
+    "NFB",
+    "AI characters",
+    "precursor"
+   ],
+   "video": {
+    "url": "https://vimeo.com/426287032"
+   },
+   "source_url": "https://www.transforms.ai/agence",
+   "exhibited": [
+    "BFI London Film Festival 2020"
+   ]
+  },
+  {
+   "id": "liquid-city--life-stories-world-labs",
+   "creator_ids": [
+    "liquid-city"
+   ],
+   "title": "Life Stories × World Labs",
+   "year": 2025,
+   "date": "2025-11",
+   "field": "genxr",
+   "sub": "narrative",
+   "modalities": [
+    "splats",
+    "image"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "offline",
+   "access": [],
+   "lenses": [
+    "situational-reach",
+    "authoring"
+   ],
+   "kind": "experience",
+   "description": "A true memory collected by Liquid City's AI interviewer is turned into descriptions, then images, and finally an explorable 3D Gaussian-splat world made with World Labs' Marble, such as 'Night Lake'.",
+   "description_zh": "Liquid City 的 AI 采访者收集一段真实回忆，先把它变成文字描述，再变成图像，最后用 World Labs 的 Marble 生成可漫游的三维高斯泼溅世界，例如《Night Lake》。",
+   "idea_en": "A spoken memory becomes a place you can walk into, a route from oral history to an immersive situation.",
+   "idea_zh": "一段口述回忆变成可以走进去的地方，这是从口述史通往沉浸情境的一条路径。",
+   "method": "Pipeline: AI interview, LLM scene description, image generation, then World Labs Marble image-to-world generation into Gaussian splats.",
+   "method_zh": "流程：AI 采访，大语言模型撰写场景描述，图像生成，再用 World Labs Marble 从图像生成高斯泼溅世界。",
+   "keywords": [
+    "Keiichi Matsuda",
+    "World Labs",
+    "Marble",
+    "memory",
+    "Gaussian splatting"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=w5fp-otQhQU"
+   },
+   "images": [
+    "https://lifestory.liquid.city/img/life-stories-banner.png",
+    "https://lifestory.liquid.city/img/lifestories-demo.png"
+   ],
+   "source_url": "https://lifestory.liquid.city/"
+  },
+  {
+   "id": "stijn-spanhove--ai-generated-movie-scene",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "Step inside an AI-generated movie scene",
+   "year": 2025,
+   "date": "2025-12-29",
+   "field": "genxr",
+   "sub": "narrative",
+   "modalities": [
+    "splats",
+    "motion"
+   ],
+   "inputs": [
+    "video",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "A browser WebXR proof of concept, recorded on Apple Vision Pro, lets the viewer enter the Dojo from The Matrix, teleport around generated characters in motion and ask questions to an AI agent inside the scene.",
+   "description_zh": "一个浏览器 WebXR 概念验证（在 Apple Vision Pro 上录制）让观者走进《黑客帝国》的道场，在运动中的生成角色之间瞬移，还能向场景里的 AI 智能体提问。",
+   "idea_en": "Assembles a walkable film scene entirely from off-the-shelf generators, hinting at films that become explorable situations.",
+   "idea_zh": "完全用现成的生成工具拼出可走进的电影场景，预示电影可以变成可探索的情境。",
+   "method": "Environment generated as a Gaussian splat from source footage with World Labs, characters converted from images to rigged 3D models with Tripo, motion from AI motion capture, and an embedded AI agent answering questions.",
+   "method_zh": "环境由 World Labs 从原片素材生成高斯泼溅，角色用 Tripo 从图像转换为绑骨三维模型，动作来自 AI 动作捕捉，场景里嵌入一个回答问题的 AI 智能体。",
+   "keywords": [
+    "WebXR",
+    "World Labs",
+    "Tripo",
+    "Vision Pro",
+    "proof of concept"
+   ],
+   "video": {
+    "url": "https://x.com/stspanho/status/2005626245166313514"
+   },
+   "source_url": "https://x.com/stspanho/status/2005626245166313514"
+  },
+  {
+   "id": "tomoki-itamiya--genai-earthquake-overlay",
+   "creator_ids": [
+    "tomoki-itamiya"
+   ],
+   "title": "Generative-AI earthquake rehearsal overlaid on a real room",
+   "year": 2025,
+   "date": "2025-04-23",
+   "field": "genxr",
+   "sub": "narrative",
+   "also": [
+    "behavioral"
+   ],
+   "modalities": [
+    "immersive-video"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "situational-reach",
+    "control"
+   ],
+   "kind": "research",
+   "description": "From a single photo of a real room, a generative video model creates an earthquake scenario with falling ceiling panels; it is converted to spatial video and overlaid on the same room in Apple Vision Pro, with rewind and slow motion.",
+   "description_zh": "仅凭一张真实房间的照片，生成视频模型就制作出天花板面板掉落的地震情境；视频被转为空间视频，在 Apple Vision Pro 中叠加到同一个房间，并可倒放和慢放。",
+   "idea_en": "Stages a dangerous event inside the very room where people would have to respond, with adjustable severity and replay.",
+   "idea_zh": "把危险事件“搬进”人们真正需要应对的那个房间，并可调节严重程度、反复回放。",
+   "method": "Image-to-video generation from a photo of the room, with the degree of ceiling-panel collapse adjusted, then conversion to stereo spatial video aligned with the physical room.",
+   "method_zh": "以房间照片做图生视频，调整天花板面板掉落的程度，再转为与实体房间对齐的立体空间视频。",
+   "keywords": [
+    "disaster education",
+    "earthquake",
+    "image-to-video",
+    "spatial video",
+    "Vision Pro"
+   ],
+   "video": {
+    "url": "https://x.com/t_itamiya/status/1914896389152133364"
+   },
+   "source_url": "https://x.com/t_itamiya/status/1914896389152133364",
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "snap--spectacles-snap3d",
+   "creator_ids": [
+    "snap"
+   ],
+   "title": "Spectacles AI release with Snap3D",
+   "year": 2025,
+   "date": "2025-06-10",
+   "field": "genxr",
+   "sub": "platform",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [
+    "text",
+    "speech"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "api",
+    "product"
+   ],
+   "lenses": [
+    "authoring"
+   ],
+   "kind": "platform",
+   "description": "A Spectacles OS release adds the Snap3D API, which generates 3D objects on demand inside Lenses, together with OpenAI and Gemini integrations and better speech recognition for multimodal AI Lenses.",
+   "description_zh": "Spectacles 系统更新加入 Snap3D API，可在镜头内按需生成三维物体，同时接入 OpenAI 与 Gemini，并改进语音识别，用于多模态 AI 镜头。",
+   "idea_en": "Makes text-to-3D a standard building block of AR glasses apps, so a Lens can create objects the developer never modelled.",
+   "idea_zh": "让文生三维成为 AR 眼镜应用的标准构件，镜头可以生成开发者从未建模过的物体。",
+   "method": "Cloud text-to-3D generation exposed as a Lens Studio API and called at runtime from Spectacles Lenses, alongside hosted LLM and ASR services.",
+   "method_zh": "把云端文生三维作为 Lens Studio API 提供，在 Spectacles 镜头运行时调用，并配合托管的大语言模型与语音识别服务。",
+   "keywords": [
+    "Snap3D",
+    "Spectacles",
+    "Lens Studio",
+    "text-to-3D",
+    "AWE 2025"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=qpi1JTnPwgs"
+   },
+   "source_url": "https://investor.snap.com/news/news-details/2025/Snap-to-Launch-New-Lightweight-Immersive-Specs-in-2026/default.aspx",
+   "api_url": "https://developers.snap.com/spectacles",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "meta--horizon-studio-genai",
+   "creator_ids": [
+    "meta"
+   ],
+   "title": "Meta Horizon Studio generative AI tools",
+   "year": 2025,
+   "date": "2025-09-17",
+   "field": "genxr",
+   "sub": "platform",
+   "modalities": [
+    "mesh",
+    "image",
+    "audio"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "product",
+    "preview"
+   ],
+   "lenses": [
+    "authoring"
+   ],
+   "kind": "platform",
+   "description": "Meta's world-building editor for Horizon lets creators generate meshes, textures, TypeScript, audio and skyboxes from text prompts on top of the new Horizon Engine, with an agentic assistant announced to combine the tools.",
+   "description_zh": "Meta 面向 Horizon 的世界搭建编辑器，让创作者在全新的 Horizon Engine 之上，用文字提示生成网格、纹理、TypeScript、音频和天空盒，并宣布将推出串联这些工具的智能体助手。",
+   "idea_en": "Puts prompt-to-asset and prompt-to-code generation in the main authoring tool of a large social VR platform.",
+   "idea_zh": "把“提示生成资产”和“提示生成代码”放进一个大型社交 VR 平台的主要创作工具中。",
+   "method": "Text-to-3D, texture, code, audio and skybox generators integrated into the editor, with the Horizon Engine rendering the results; in September 2026 Meta repositioned Horizon Studio as a browser tool for agentic creation of mobile games, in early access.",
+   "method_zh": "把文生三维、纹理、代码、音频与天空盒生成器集成进编辑器，由 Horizon Engine 渲染结果；2026 年 9 月，Meta 把 Horizon Studio 调整为在浏览器中以智能体方式创作手机游戏的工具，处于抢先体验阶段。",
+   "keywords": [
+    "Meta Horizon",
+    "Horizon Engine",
+    "Horizon Studio",
+    "text-to-3D",
+    "Connect 2025"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=viXoK-MJRls"
+   },
+   "source_url": "https://www.meta.com/blog/connect-2025-day-one-keynote-ai-glasses-ray-ban-display-neural-band-metaverse-news/",
+   "api_url": "https://developers.meta.com/horizon-worlds/",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "google--android-xr-auto-spatialization",
+   "creator_ids": [
+    "google",
+    "samsung"
+   ],
+   "title": "Android XR auto-spatialization",
+   "year": 2026,
+   "date": "2026-04-07",
+   "field": "genxr",
+   "sub": "platform",
+   "modalities": [
+    "immersive-video",
+    "image"
+   ],
+   "inputs": [
+    "video",
+    "image"
+   ],
+   "timing": "real-time",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism"
+   ],
+   "kind": "product",
+   "description": "An experimental Android XR feature on the Samsung Galaxy XR headset that turns almost any app, game, website, image or video, including YouTube videos and 2D games, into a 3D experience at the push of a button.",
+   "description_zh": "Android XR 在三星 Galaxy XR 头显上推出的实验功能：一键把几乎任何应用、游戏、网站、图像或视频（包括 YouTube 视频和二维游戏）变成三维体验。",
+   "idea_en": "System-level 2D-to-3D conversion means every flat source becomes stereoscopic content in a headset, generated rather than captured.",
+   "idea_zh": "系统级的二维转三维意味着，任何平面内容在头显里都能成为立体内容，靠的是生成而不是拍摄。",
+   "method": "Likely per-frame monocular depth estimation with stereo view synthesis at the system compositor; enabled from the Labs tab in Settings.",
+   "method_zh": "很可能是在系统合成器层面对每帧做单目深度估计并合成立体视图；在“设置”的 Labs 页面中开启。",
+   "keywords": [
+    "Galaxy XR",
+    "Android XR",
+    "2D-to-3D",
+    "stereo conversion",
+    "Labs"
+   ],
+   "video": {
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Auto_Spatialization.mp4"
+   },
+   "images": [
+    "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Final_Hero_Image.width-1300.png"
+   ],
+   "source_url": "https://blog.google/products-and-platforms/platforms/android/android-xr-immersive-features-update-april-2026/",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "apple--visionos-2-spatial-photos",
+   "creator_ids": [
+    "apple"
+   ],
+   "title": "visionOS 2 spatial photos from 2D images",
+   "year": 2024,
+   "date": "2024-06-10",
+   "field": "genxr",
+   "sub": "platform",
+   "modalities": [
+    "image"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism"
+   ],
+   "kind": "product",
+   "description": "In visionOS 2, Apple Vision Pro users can turn any 2D photo in their library into a spatial photo with depth that comes to life in the headset.",
+   "description_zh": "在 visionOS 2 中，Apple Vision Pro 用户可以把图库里的任意二维照片转成带深度的空间照片，在头显中鲜活呈现。",
+   "idea_en": "Made generated depth a default way to revisit personal memories in a headset; visionOS 26 later extended it to Spatial Scenes.",
+   "idea_zh": "让生成的深度成为在头显中重温个人回忆的默认方式；visionOS 26 随后把它扩展为“空间场景”。",
+   "method": "Apple says visionOS uses advanced machine learning to transform a 2D image into a stereo spatial photo, likely monocular depth estimation plus view synthesis with inpainting.",
+   "method_zh": "Apple 表示 visionOS 用先进的机器学习把二维图像转化为立体空间照片，做法很可能是单目深度估计加带修补的视图合成。",
+   "keywords": [
+    "visionOS 2",
+    "Apple Vision Pro",
+    "spatial photos",
+    "2D-to-3D",
+    "WWDC24"
+   ],
+   "video": {
+    "url": "https://www.apple.com/newsroom/videos/videos-2024/autoplay/2024/visionos-2-spatial-photos/large_2x.mp4"
+   },
+   "images": [
+    "https://www.apple.com/newsroom/images/2024/06/visionos-2-brings-new-spatial-computing-experiences-to-apple-vision-pro/tile/Apple-WWDC24-visionOS-2-spatial-photos-240610-lp.jpg.og.jpg?202608191902"
+   ],
+   "source_url": "https://www.apple.com/newsroom/2024/06/visionos-2-brings-new-spatial-computing-experiences-to-apple-vision-pro/"
+  },
+  {
+   "id": "google--xr-blocks",
+   "creator_ids": [
+    "google"
+   ],
+   "title": "XR Blocks",
+   "year": 2025,
+   "date": "2025-09-29",
+   "field": "genxr",
+   "sub": "platform",
+   "modalities": [
+    "behavior"
+   ],
+   "inputs": [
+    "text",
+    "speech",
+    "surroundings"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "authoring",
+    "control"
+   ],
+   "kind": "open-source",
+   "description": "An open-source WebXR framework from Google with plug-and-play modules for user, world, peers, interface, context and agents, so AI + XR prototypes (Gemini assistants, scene understanding) run in Chrome and on Android XR headsets.",
+   "description_zh": "谷歌开源的 WebXR 框架，提供用户、世界、同伴、界面、上下文与智能体等即插即用模块，让 AI + XR 原型（Gemini 助手、场景理解）可以在 Chrome 和 Android XR 头显上运行。",
+   "idea_en": "Lowers the cost of wiring perception, rendering and generative models together, the step most AI + XR prototypes stall on.",
+   "idea_zh": "降低把感知、渲染与生成模型连在一起的成本，而这正是大多数 AI + XR 原型卡住的环节。",
+   "method": "A modular architecture built on WebXR, three.js, TensorFlow and Gemini, with templates, samples and demos; the foundation for Vibe Coding XR.",
+   "method_zh": "基于 WebXR、three.js、TensorFlow 与 Gemini 的模块化架构，附带模板、示例与演示，也是 Vibe Coding XR 的基础。",
+   "keywords": [
+    "WebXR",
+    "Gemini",
+    "three.js",
+    "open source",
+    "Android XR"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=75QJHTsAoB8"
+   },
+   "images": [
+    "https://arxiv.org/html/2509.25504v1/teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2509.25504",
+    "doi": "",
+    "arxiv": "2509.25504",
+    "venue": "arXiv 2025",
+    "title": "XR Blocks: Accelerating Human-centered AI + XR Innovation"
+   },
+   "source_url": "https://xrblocks.github.io/",
+   "api_url": "https://xrblocks.github.io/docs/",
+   "code_url": "https://github.com/google/xrblocks",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "DreamCodeVR (Giunchi et al., IEEE VR 2024)",
+   "why": "Speech-driven LLM programming of object behaviour in VR; no official video found, so not added.",
+   "link": "https://doi.org/10.1109/vr58804.2024.00078",
+   "found_via": "nels-numan",
+   "status": "no_media"
+  },
+  {
+   "name": "Hyperscape worlds shared in Meta Horizon (2025-11-20, ended 2026-05-12)",
+   "why": "Captured Gaussian-splat rooms could be shared by link with up to 8 people; Meta ended sharing and invites on 2026-05-12 and worlds are now view-only in the Capture (Beta) app (meta.com/help/quest/1088536553019177/). Covered by spatial-4d as meta--hyperscape-capture.",
+   "link": "https://www.meta.com/blog/hyperscape-worlds-sharing-hangout-friends-metaverse-digital-replicas/",
+   "found_via": "meta",
+   "status": "duplicate"
+  },
+  {
+   "name": "Meta Horizon Create and Horizon Studio, agentic mobile-game creation (2026-09-24)",
+   "why": "Prompt-to-game tools on the Horizon Engine, early access; mobile and browser rather than XR, folded into the Horizon Studio work.",
+   "link": "https://developers.meta.com/blog/meta-connect-recap-horizon-create-and-horizon-studio/",
+   "found_via": "meta",
+   "status": "open"
+  },
+  {
+   "name": "SPECS consumer AR glasses and SPECS Intelligence (2026-09-16)",
+   "why": "Snap's consumer glasses launch with an anticipatory AI service; a device and assistant (infra), not situation generation.",
+   "link": "https://newsroom.snap.com/making-computing-more-human-with-specs",
+   "found_via": "snap",
+   "status": "open"
+  },
+  {
+   "name": "Android XR intelligent eyewear with Gemini (Google I/O 2026-05-19)",
+   "why": "Audio and display glasses coming fall 2026; assistant features, belongs to infra/devices.",
+   "link": "https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/",
+   "found_via": "google",
+   "status": "open"
+  },
+  {
+   "name": "visionOS 27: Reality Composer Pro 3 generative asset creation and RealityKit Gaussian splats (WWDC26)",
+   "why": "Apple added 'generative intelligence to help with asset creation' and splat rendering; details too thin for a work yet.",
+   "link": "https://developer.apple.com/wwdc26/guides/visionos/",
+   "found_via": "apple",
+   "status": "open"
+  },
+  {
+   "name": "Snap Lens Fest 2025: Realistic StyleGen, Enhanced FaceGen, AI Clips",
+   "why": "Real-time generative restyling and image-to-video for phone Lenses; phone AR rather than glasses.",
+   "link": "https://newsroom.snap.com/lens-fest-2025",
+   "found_via": "snap",
+   "status": "open"
+  },
+  {
+   "name": "Map2Video (Jo et al., UIST 2026)",
+   "why": "Guiding real-world-grounded AI video generation from maps, Ryo Suzuki's lab; no public video or arXiv found.",
+   "link": "https://ryosuzuki.org/map2video",
+   "found_via": "ryo-suzuki",
+   "status": "no_media"
+  },
+  {
+   "name": "Guided Reality (Zhao et al., UIST 2025)",
+   "why": "LLM- and vision-model-generated visually enriched AR task guidance; generation of instructions rather than situations.",
+   "link": "https://arxiv.org/abs/2508.03547",
+   "found_via": "ryo-suzuki",
+   "status": "open"
+  },
+  {
+   "name": "Augmented Physics (Gunturu et al., UIST 2024)",
+   "why": "Generates interactive, embedded physics simulations from static textbook diagrams in AR; video HUgYeA3BKfk.",
+   "link": "https://doi.org/10.1145/3654777.3676392",
+   "found_via": "ryo-suzuki",
+   "status": "open"
+  },
+  {
+   "name": "Scene2Hap (Jingu et al., CHI 2026)",
+   "why": "Multimodal LLMs generate scene-wide haptics for VR scenes; haptics has no output modality in the taxonomy yet.",
+   "link": "https://arxiv.org/abs/2504.19611",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Reality Copilot (Yu et al., 2026)",
+   "why": "Voice-first human-AI collaboration in MR with large multimodal models; check whether it generates scene content.",
+   "link": "https://arxiv.org/abs/2602.11025",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "SyncSpace (2026)",
+   "why": "Layout-conditioned 3D Gaussian splatting for reskinning a room in MR; 2-page abstract, no video found yet.",
+   "link": "https://arxiv.org/abs/2607.10050",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Say It, See It (ISMAR 2025 UNAI workshop)",
+   "why": "Systematic evaluation of speech-based 3D content generation methods in AR; useful benchmark-style evidence.",
+   "link": "https://arxiv.org/abs/2508.12498",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Generative Augmented Reality: Paradigms, Technologies, and Future Applications (2025)",
+   "why": "Survey of generative AR; possible review for behavioral/genai-research or a genxr paper work.",
+   "link": "https://arxiv.org/abs/2511.16783",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "'GPT-6 Astra' restyles a room as Studio Ghibli on Apple Vision Pro (Wenbo Tao, 2026-09-27)",
+   "why": "Furniture-aligned virtual objects restyled in real time; the underlying 'Astra' tool is not documented yet.",
+   "link": "https://x.com/wenbq_me/status/2104174834276061569",
+   "found_via": "stijn-spanhove",
+   "status": "open"
+  },
+  {
+   "name": "Astra turns a home scan into an editable scene with a portal (Bilawal Sidhu, 2026-09-07)",
+   "why": "Multimodal LLM inverse graphics from a photogrammetry mesh; same undocumented 'Astra' tool.",
+   "link": "https://x.com/bilawalsidhu/status/2096810261730505075",
+   "found_via": "stijn-spanhove",
+   "status": "open"
+  },
+  {
+   "name": "Vibe-coded AR game inside Quest 3 with Gemini 3 (Jon Barron, 2025-11-18)",
+   "why": "Voice request in the Quest browser produces a playable WebXR AR game; overlaps Vibe Coding XR.",
+   "link": "https://x.com/jon_barron/status/1990909319701758157",
+   "found_via": "google",
+   "status": "open"
+  },
+  {
+   "name": "Moon Story / Scientific and Fantastical (Landay lab, CHI 2024)",
+   "why": "Mobile AR story app with LLM-driven characters for children; generated dialogue, authored scenes.",
+   "link": "https://www.youtube.com/watch?v=ZpKhhMcS8Jw",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "VideoCraft (Boyu Li, HKUST-GZ, 2025)",
+   "why": "MR layout plus video-to-video generation for concept videos of real spaces; no paper found yet.",
+   "link": "https://www.youtube.com/watch?v=uvozXgniRok",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Nevatars (Andy Serkis, Venice Immersive 2026)",
+   "why": "Immersive work reported to explore AI-generated avatars and identity; only a secondary source so far.",
+   "link": "https://studio.aifilms.ai/blog/venice-immersive-2026-ai-xr-lineup",
+   "found_via": "light-in-the-head",
+   "status": "open"
+  },
+  {
+   "name": "EPIC: Epipolar-Consistent 360° Immersive Stereo Video Generation (2026)",
+   "why": "360 stereo video generation for headsets; belongs to video/immersive.",
+   "link": "https://arxiv.org/abs/2609.38689",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "LiveEdit: real-time diffusion-based streaming video editing (ECCV 2026)",
+   "why": "Streaming video editing that could drive passthrough restyling; belongs to video/realtime.",
+   "link": "https://arxiv.org/abs/2606.26740",
+   "found_via": "seed",
+   "status": "open"
+  }
+ ]
+}

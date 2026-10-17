@@ -1,0 +1,1557 @@
+{
+ "fields": [
+  {
+   "id": "video",
+   "en": "Video Generation",
+   "zh": "视频生成",
+   "desc_en": "Models that synthesise audiovisual events from text, images and references. The fastest route to scenario material, but a clip is watched, not acted in.",
+   "desc_zh": "根据文字、图像和参考素材合成视听事件的模型。这是制作情境素材最快的路径，但视频只能观看，不能在其中行动。",
+   "subs": [
+    {
+     "id": "frontier",
+     "en": "Frontier text- & image-to-video",
+     "zh": "前沿文生 / 图生视频",
+     "desc_en": "Closed flagship models (Sora, Veo, Kling, Runway, Luma, Hailuo, Seedance…), many now with native audio.",
+     "desc_zh": "闭源旗舰模型（Sora、Veo、可灵、Runway、Luma、海螺、Seedance……），许多已能同时生成声音。"
+    },
+    {
+     "id": "open",
+     "en": "Open-weight video models",
+     "zh": "开源权重视频模型",
+     "desc_en": "Wan, HunyuanVideo, LTX, CogVideoX, Mochi, Open-Sora and others that can be run, version-pinned and inspected.",
+     "desc_zh": "Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行、锁定版本并检查的模型。"
+    },
+    {
+     "id": "control",
+     "en": "Control, editing & characters",
+     "zh": "控制、编辑与角色",
+     "desc_en": "Camera paths, motion transfer, reference characters, video-to-video editing and performance-driven animation.",
+     "desc_zh": "镜头路径、动作迁移、参考角色、视频到视频编辑与表演驱动的动画。"
+    },
+    {
+     "id": "realtime",
+     "en": "Real-time & long video",
+     "zh": "实时与长视频",
+     "desc_en": "Causal, autoregressive and distilled models that stream video live or keep generating for minutes.",
+     "desc_zh": "因果、自回归与蒸馏模型：实时流式生成视频，或持续生成数分钟。"
+    },
+    {
+     "id": "immersive",
+     "en": "Panoramic, stereo & spatial video",
+     "zh": "全景、立体与空间视频",
+     "desc_en": "360°, stereo and spatial video generation, and 2D-to-3D conversion for headsets.",
+     "desc_zh": "面向头显的 360°、立体与空间视频生成，以及 2D 转 3D。"
+    }
+   ]
+  },
+  {
+   "id": "avatars",
+   "en": "Interactive Virtual Humans",
+   "zh": "交互式虚拟人",
+   "desc_en": "Faces and bodies generated live for conversation: video avatars that listen while they speak, audio-driven portraits, photoreal 3D avatars, and models of nonverbal behaviour.",
+   "desc_zh": "为对话实时生成的脸和身体：边听边说的视频虚拟人、音频驱动的人像、照片级三维化身，以及非语言行为模型。",
+   "subs": [
+    {
+     "id": "conversational",
+     "en": "Real-time conversational video",
+     "zh": "实时对话视频",
+     "desc_en": "Full-duplex audio-visual agents rendered as video: Tavus, HeyGen, D-ID, Character.AI, Anam, Hedra and others.",
+     "desc_zh": "以视频形式呈现的全双工视听智能体：Tavus、HeyGen、D-ID、Character.AI、Anam、Hedra 等。"
+    },
+    {
+     "id": "portrait",
+     "en": "Audio-driven talking heads & bodies",
+     "zh": "音频驱动的说话人像与全身",
+     "desc_en": "Speech-to-face and speech-to-body generation from a single image: VASA-1, EMO, OmniHuman, Hallo, LivePortrait…",
+     "desc_zh": "由一张图像加语音生成脸部与全身动画：VASA-1、EMO、OmniHuman、Hallo、LivePortrait……"
+    },
+    {
+     "id": "avatar-3d",
+     "en": "Photoreal 3D avatars",
+     "zh": "照片级三维化身",
+     "desc_en": "Codec Avatars, Gaussian head and body avatars, MetaHuman, Personas, NVIDIA ACE: drivable 3D people for XR.",
+     "desc_zh": "Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE：可驱动的 XR 三维人物。"
+    },
+    {
+     "id": "nonverbal",
+     "en": "Listening, gesture & dyadic behaviour",
+     "zh": "倾听、手势与双人互动行为",
+     "desc_en": "Models of backchannels, gaze, gesture and turn-taking between two people.",
+     "desc_zh": "建模两人之间的回应信号、视线、手势与轮流发言。"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "en": "Speech, Sound & Spatial Audio",
+   "zh": "语音、声音与空间音频",
+   "desc_en": "The audio half of audio-visual immersion: full-duplex speech models that can be interrupted, expressive voices, generated sound effects and music, and spatial audio.",
+   "desc_zh": "视听沉浸中“听”的一半：可以被打断的全双工语音模型、富有表现力的声音、生成的音效与音乐，以及空间音频。",
+   "subs": [
+    {
+     "id": "duplex-speech",
+     "en": "Full-duplex speech & voice agents",
+     "zh": "全双工语音与语音智能体",
+     "desc_en": "Speech-to-speech models that listen while they talk: Moshi, Sesame, GPT realtime, Gemini Live, Hume EVI…",
+     "desc_zh": "边说边听的语音到语音模型：Moshi、Sesame、GPT realtime、Gemini Live、Hume EVI……"
+    },
+    {
+     "id": "voice",
+     "en": "Expressive voice & cloning",
+     "zh": "富表现力语音与声音克隆",
+     "desc_en": "Text-to-speech with emotion, timing and voice design; cloning a voice from seconds of audio.",
+     "desc_zh": "带情绪、节奏与音色设计的语音合成；用几秒音频克隆声音。"
+    },
+    {
+     "id": "sound",
+     "en": "Sound effects, music & video-to-audio",
+     "zh": "音效、音乐与视频配音",
+     "desc_en": "Generated foley, ambience, music and soundtracks matched to video.",
+     "desc_zh": "生成拟音、环境声、音乐，以及与视频同步的配乐。"
+    },
+    {
+     "id": "spatial-audio",
+     "en": "Spatial & ambisonic audio",
+     "zh": "空间与全景声音频",
+     "desc_en": "Sound placed and rendered in 3D space, generated or upmixed for headsets.",
+     "desc_zh": "在三维空间中定位与渲染的声音，为头显生成或升混。"
+    }
+   ]
+  },
+  {
+   "id": "world-models",
+   "en": "Interactive World Models",
+   "zh": "交互式世界模型",
+   "desc_en": "Action-conditioned models that generate the next moment of a world in response to keyboard, controller or agent input: Genie and its peers. Playable, though persistence, control and headset support are still open problems.",
+   "desc_zh": "以动作为条件的模型：根据键盘、手柄或智能体的输入生成世界的下一刻，例如 Genie 及其同类。已经可以“玩”，但持久性、可控性与头显支持仍是未解问题。",
+   "subs": [
+    {
+     "id": "general",
+     "en": "General world models",
+     "zh": "通用世界模型",
+     "desc_en": "Promptable, playable worlds from text or an image: Genie 3, Project Genie, GWM-1, Mirage, Odyssey, Matrix-Game, Hunyuan-GameCraft…",
+     "desc_zh": "由文字或一张图像生成可交互的世界：Genie 3、Project Genie、GWM-1、Mirage、Odyssey、Matrix-Game、Hunyuan-GameCraft……"
+    },
+    {
+     "id": "game",
+     "en": "Neural game engines",
+     "zh": "神经游戏引擎",
+     "desc_en": "Games rendered frame by frame by a network: GameNGen, DIAMOND, Oasis, Muse / WHAM, WHAMM…",
+     "desc_zh": "由神经网络逐帧渲染的游戏：GameNGen、DIAMOND、Oasis、Muse / WHAM、WHAMM……"
+    },
+    {
+     "id": "simulation",
+     "en": "World models for robots & driving",
+     "zh": "面向机器人与驾驶的世界模型",
+     "desc_en": "Physical-AI simulators that predict how the world responds to an agent: Cosmos, GAIA, V-JEPA 2, UniSim…",
+     "desc_zh": "预测世界如何回应智能体的物理 AI 模拟器：Cosmos、GAIA、V-JEPA 2、UniSim……"
+    },
+    {
+     "id": "memory",
+     "en": "Memory, consistency & control",
+     "zh": "记忆、一致性与控制",
+     "desc_en": "Research on keeping a generated world coherent: spatial memory, long context, promptable events, state.",
+     "desc_zh": "让生成的世界保持连贯的研究：空间记忆、长上下文、可提示事件与状态。"
+    }
+   ]
+  },
+  {
+   "id": "worlds-3d",
+   "en": "3D Scene & World Generation",
+   "zh": "三维场景与世界生成",
+   "desc_en": "Generated environments with explicit geometry (Gaussian splats, meshes, panoramas) that can be walked through in a headset, edited and kept. Persistence comes with the representation.",
+   "desc_zh": "带有显式几何（高斯泼溅、网格、全景图）的生成环境：可以戴着头显走进去、编辑并保存。持久性由表示方式本身保证。",
+   "subs": [
+    {
+     "id": "explorable",
+     "en": "Explorable 3D worlds",
+     "zh": "可探索的三维世界",
+     "desc_en": "Text or image to a navigable 3D world: Marble, Atlas, HunyuanWorld, WonderWorld, Lyra, Voyager…",
+     "desc_zh": "由文字或图像生成可漫游的三维世界：Marble、Atlas、HunyuanWorld、WonderWorld、Lyra、Voyager……"
+    },
+    {
+     "id": "panorama",
+     "en": "360° panoramas & skyboxes",
+     "zh": "360° 全景与天空盒",
+     "desc_en": "Equirectangular worlds and skyboxes for VR, often the first layer of a generated scene.",
+     "desc_zh": "用于 VR 的等距柱状全景与天空盒，常是生成场景的第一层。"
+    },
+    {
+     "id": "layout",
+     "en": "Layout, procedural & code-built scenes",
+     "zh": "布局、程序化与代码生成场景",
+     "desc_en": "Scenes assembled by language models, procedural rules or programs: Holodeck, Infinigen, scene graphs.",
+     "desc_zh": "由语言模型、程序化规则或代码拼装的场景：Holodeck、Infinigen、场景图。"
+    },
+    {
+     "id": "image-to-scene",
+     "en": "Photos to spatial scenes",
+     "zh": "从照片到空间场景",
+     "desc_en": "One photo to a 3D scene with depth and parallax: spatial scenes, monocular depth, single-image splats.",
+     "desc_zh": "把一张照片变成有深度与视差的三维场景：空间场景、单目深度、单图高斯泼溅。"
+    }
+   ]
+  },
+  {
+   "id": "assets",
+   "en": "3D Assets, Characters & Motion",
+   "zh": "三维资产、角色与动作",
+   "desc_en": "Objects, characters and animation generated on demand: the props and actors of an authored situation.",
+   "desc_zh": "按需生成的物体、角色与动画：一个被设计出来的情境里的道具与演员。",
+   "subs": [
+    {
+     "id": "objects",
+     "en": "Text & image to 3D",
+     "zh": "文生 / 图生三维",
+     "desc_en": "Meshes and textures from a prompt or photo: Meshy, Tripo, Rodin, Hunyuan3D, TRELLIS, SAM 3D…",
+     "desc_zh": "由提示词或照片生成网格与贴图：Meshy、Tripo、Rodin、Hunyuan3D、TRELLIS、SAM 3D……"
+    },
+    {
+     "id": "characters",
+     "en": "Characters, rigging & animation",
+     "zh": "角色、绑定与动画",
+     "desc_en": "Generated characters with skeletons, auto-rigging and animation ready for engines.",
+     "desc_zh": "带骨骼的生成角色、自动绑定与可直接用于引擎的动画。"
+    },
+    {
+     "id": "motion",
+     "en": "Human motion generation",
+     "zh": "人体动作生成",
+     "desc_en": "Text- and audio-to-motion models for bodies, hands and interaction.",
+     "desc_zh": "由文字或音频生成身体、手部与交互动作的模型。"
+    }
+   ]
+  },
+  {
+   "id": "spatial-4d",
+   "en": "Capture, Reconstruction & 4D",
+   "zh": "捕捉、重建与 4D",
+   "desc_en": "Turning the real world into navigable 3D and 4D (3D plus time): radiance fields and Gaussian splatting, feed-forward reconstruction in seconds, dynamic scenes, generative 4D and volumetric video.",
+   "desc_zh": "把真实世界变成可漫游的三维与四维（三维加时间）：辐射场与高斯泼溅、几秒内完成的前馈式重建、动态场景、生成式 4D 与体积视频。",
+   "subs": [
+    {
+     "id": "radiance",
+     "en": "NeRF & Gaussian splatting",
+     "zh": "NeRF 与高斯泼溅",
+     "desc_en": "The representations that made photoreal real-time novel views possible.",
+     "desc_zh": "让照片级、实时的新视角渲染成为可能的表示方法。"
+    },
+    {
+     "id": "feed-forward",
+     "en": "Feed-forward reconstruction",
+     "zh": "前馈式重建",
+     "desc_en": "One network pass from images to geometry or splats: DUSt3R, VGGT, AnySplat…",
+     "desc_zh": "一次网络前向就从图像得到几何或高斯泼溅：DUSt3R、VGGT、AnySplat……"
+    },
+    {
+     "id": "dynamic",
+     "en": "Dynamic 4D scenes",
+     "zh": "动态 4D 场景",
+     "desc_en": "Moving scenes reconstructed in space and time: 4D Gaussians, spacetime splats, 4D video.",
+     "desc_zh": "在空间与时间上重建的运动场景：4D 高斯、时空泼溅、4D 视频。"
+    },
+    {
+     "id": "generative-4d",
+     "en": "Generative 4D",
+     "zh": "生成式 4D",
+     "desc_en": "Dynamic 3D content generated or completed with video priors: DreamGaussian4D, CAT4D, BulletGen, SV4D…",
+     "desc_zh": "借助视频先验生成或补全的动态三维内容：DreamGaussian4D、CAT4D、BulletGen、SV4D……"
+    },
+    {
+     "id": "volumetric",
+     "en": "Volumetric video & telepresence",
+     "zh": "体积视频与远程临场",
+     "desc_en": "People captured in 3D and streamed or replayed: Beam, volumetric studios, Gaussian video.",
+     "desc_zh": "以三维形式捕捉并传输或回放的人：Beam、体积视频工作室、高斯视频。"
+    },
+    {
+     "id": "capture-tools",
+     "en": "Capture apps & splat tools",
+     "zh": "捕捉应用与泼溅工具",
+     "desc_en": "Phone and headset capture, training and viewing tools: Luma, Polycam, Scaniverse, Postshot, Hyperscape, SuperSplat…",
+     "desc_zh": "手机与头显捕捉、训练和查看工具：Luma、Polycam、Scaniverse、Postshot、Hyperscape、SuperSplat……"
+    }
+   ]
+  },
+  {
+   "id": "agents",
+   "en": "Agents & Simulated Societies",
+   "zh": "智能体与模拟社会",
+   "desc_en": "Characters and populations driven by language models that remember, plan and act inside worlds: the social side of a generated situation.",
+   "desc_zh": "由语言模型驱动、在世界中记忆、计划与行动的角色与群体：生成情境里“社会”的一面。",
+   "subs": [
+    {
+     "id": "generative-agents",
+     "en": "Generative agents & social simulation",
+     "zh": "生成式智能体与社会模拟",
+     "desc_en": "Believable agents with memory and reflection, from Smallville to simulations of whole populations.",
+     "desc_zh": "带记忆与反思的可信智能体，从 Smallville 到整个人群的模拟。"
+    },
+    {
+     "id": "embodied",
+     "en": "Agents that act in 3D worlds",
+     "zh": "在三维世界中行动的智能体",
+     "desc_en": "Agents that perceive and act in games and generated worlds: Voyager, SIMA, game-playing agents.",
+     "desc_zh": "在游戏与生成世界中感知并行动的智能体：Voyager、SIMA、玩游戏的智能体。"
+    },
+    {
+     "id": "npc",
+     "en": "NPC & character platforms",
+     "zh": "NPC 与角色平台",
+     "desc_en": "Engines for conversational characters in games and XR: Inworld, Convai, ACE, AI NPCs in shipped games.",
+     "desc_zh": "游戏与 XR 中对话角色的引擎：Inworld、Convai、ACE，以及已上线游戏中的 AI NPC。"
+    }
+   ]
+  },
+  {
+   "id": "genxr",
+   "en": "Generative XR Experiences",
+   "zh": "生成式扩展现实体验",
+   "desc_en": "Generation inside headsets and glasses: in-situ co-creation in mixed reality, reality restyled live, generative cinema and enactment, and the generative features shipping in XR platforms.",
+   "desc_zh": "发生在头显与眼镜里的生成：混合现实中的现场共创、实时重绘的现实、生成式电影与演绎，以及 XR 平台已经上线的生成功能。",
+   "subs": [
+    {
+     "id": "in-situ",
+     "en": "In-situ co-creation in MR / VR",
+     "zh": "MR / VR 中的现场共创",
+     "desc_en": "Speaking, sketching or gesturing content into the space around you: Editing Reality, LLMR, Social Conjuring…",
+     "desc_zh": "通过说话、草图或手势，把内容放进身边的空间：Editing Reality、LLMR、Social Conjuring……"
+    },
+    {
+     "id": "restyle",
+     "en": "Restyling reality live",
+     "zh": "实时重绘现实",
+     "desc_en": "Diffusion and video-to-video models repainting passthrough or camera views as you look.",
+     "desc_zh": "扩散模型与视频到视频模型，在你观看时重绘透视画面或摄像头画面。"
+    },
+    {
+     "id": "narrative",
+     "en": "Generative film, theatre & enactment",
+     "zh": "生成式电影、戏剧与演绎",
+     "desc_en": "Stories, films and scenarios that are generated or extended around the viewer.",
+     "desc_zh": "围绕观众生成或延展的故事、电影与情境。"
+    },
+    {
+     "id": "platform",
+     "en": "Generative features in XR platforms",
+     "zh": "XR 平台中的生成功能",
+     "desc_en": "What headsets and glasses ship: spatial scenes, captured spaces, generative lenses, AI world editors.",
+     "desc_zh": "头显与眼镜已经推出的功能：空间场景、空间捕捉、生成式镜头、AI 世界编辑器。"
+    }
+   ]
+  },
+  {
+   "id": "behavioral",
+   "en": "Immersive Behavioral Research & Training",
+   "zh": "沉浸式行为研究与训练",
+   "desc_en": "Where the situations are used: VR experiments in social psychology and criminology, simulation training with virtual humans and patients, clinical VR, presence theory, and the first studies that bring generative AI into immersive research.",
+   "desc_zh": "这些情境被用在哪里：社会心理学与犯罪学中的 VR 实验、有虚拟人和虚拟病人参与的模拟训练、临床 VR、临场感理论，以及首批把生成式 AI 带入沉浸式研究的工作。",
+   "subs": [
+    {
+     "id": "theory",
+     "en": "Presence, plausibility & method",
+     "zh": "临场感、似真性与方法论",
+     "desc_en": "Why people respond to virtual situations, and how to design and validate them: Slater, Steuer, Blascovich, Brunswik…",
+     "desc_zh": "人为何会对虚拟情境作出反应，以及如何设计与验证这些情境：Slater、Steuer、Blascovich、Brunswik……"
+    },
+    {
+     "id": "social-psych",
+     "en": "VR experiments in social psychology",
+     "zh": "社会心理学 VR 实验",
+     "desc_en": "Obedience, bystanders, embodiment and social interaction studied in immersive situations.",
+     "desc_zh": "在沉浸式情境中研究服从、旁观者、具身与社会互动。"
+    },
+    {
+     "id": "criminology",
+     "en": "Criminology & exceptional situations",
+     "zh": "犯罪学与极端情境",
+     "desc_en": "Burglary, aggression, threat and emergencies: situations that cannot be staged for real.",
+     "desc_zh": "入室盗窃、攻击、威胁与紧急情况：无法真实布置的情境。"
+    },
+    {
+     "id": "training",
+     "en": "Simulation training & virtual humans",
+     "zh": "模拟训练与虚拟人",
+     "desc_en": "Virtual patients, interviewers and teammates for practising communication and judgement.",
+     "desc_zh": "用于练习沟通与判断的虚拟病人、访谈者与队友。"
+    },
+    {
+     "id": "clinical",
+     "en": "Clinical & therapeutic VR",
+     "zh": "临床与治疗 VR",
+     "desc_en": "Exposure, coaching and therapy delivered in virtual situations.",
+     "desc_zh": "在虚拟情境中进行的暴露治疗、辅导与心理治疗。"
+    },
+    {
+     "id": "genai-research",
+     "en": "Generative AI in immersive studies",
+     "zh": "沉浸式研究中的生成式 AI",
+     "desc_en": "Studies and reviews that put LLM agents, generated scenarios or world models into research and training.",
+     "desc_zh": "把语言模型智能体、生成情境或世界模型用于研究与训练的研究和综述。"
+    }
+   ]
+  },
+  {
+   "id": "infra",
+   "en": "Platforms, APIs & Delivery",
+   "zh": "平台、API 与交付",
+   "desc_en": "What it takes to build and deliver: model APIs and inference hosts, real-time agent stacks, engines and splat runtimes, headsets and displays, and the datasets and benchmarks the field measures itself by.",
+   "desc_zh": "构建与交付所需的一切：模型 API 与推理平台、实时智能体技术栈、引擎与泼溅渲染器、头显与显示设备，以及这个领域用来衡量自己的数据集与基准。",
+   "subs": [
+    {
+     "id": "apis",
+     "en": "Model APIs & inference hosts",
+     "zh": "模型 API 与推理平台",
+     "desc_en": "Where developers call video, 3D, world and avatar models: first-party APIs and hosts such as fal and Replicate.",
+     "desc_zh": "开发者调用视频、三维、世界与虚拟人模型的地方：官方 API 以及 fal、Replicate 等托管平台。"
+    },
+    {
+     "id": "realtime-stack",
+     "en": "Real-time media & agent stacks",
+     "zh": "实时媒体与智能体技术栈",
+     "desc_en": "WebRTC, voice-agent and streaming frameworks that carry full-duplex interaction.",
+     "desc_zh": "承载全双工交互的 WebRTC、语音智能体与流媒体框架。"
+    },
+    {
+     "id": "engines",
+     "en": "Engines, runtimes & viewers",
+     "zh": "引擎、运行时与查看器",
+     "desc_en": "Game engines, WebXR and splat renderers that put generated content in front of people.",
+     "desc_zh": "把生成内容呈现给人的游戏引擎、WebXR 与泼溅渲染器。"
+    },
+    {
+     "id": "devices",
+     "en": "Headsets, glasses & displays",
+     "zh": "头显、眼镜与显示设备",
+     "desc_en": "The hardware generated worlds are delivered on.",
+     "desc_zh": "生成世界最终运行的硬件。"
+    },
+    {
+     "id": "benchmarks",
+     "en": "Datasets & benchmarks",
+     "zh": "数据集与基准",
+     "desc_en": "The data these models learn from and the tests they are compared on.",
+     "desc_zh": "这些模型学习所用的数据，以及比较它们的测试。"
+    }
+   ]
+  }
+ ],
+ "modalities": [
+  [
+   "flat-video",
+   "Flat video",
+   "平面视频"
+  ],
+  [
+   "immersive-video",
+   "360° / stereo video",
+   "360° / 立体视频"
+  ],
+  [
+   "frame-stream",
+   "Interactive frame stream",
+   "交互式帧流"
+  ],
+  [
+   "image",
+   "Image / panorama",
+   "图像 / 全景图"
+  ],
+  [
+   "splats",
+   "Gaussian splats / radiance field",
+   "高斯泼溅 / 辐射场"
+  ],
+  [
+   "mesh",
+   "Mesh / 3D asset",
+   "网格 / 三维资产"
+  ],
+  [
+   "scene-3d",
+   "3D scene / world",
+   "三维场景 / 世界"
+  ],
+  [
+   "dynamic-4d",
+   "Dynamic 3D / 4D",
+   "动态三维 / 4D"
+  ],
+  [
+   "avatar",
+   "Virtual human (face / body)",
+   "虚拟人（脸 / 身体）"
+  ],
+  [
+   "motion",
+   "Motion / animation",
+   "动作 / 动画"
+  ],
+  [
+   "speech",
+   "Speech / voice",
+   "语音 / 声音"
+  ],
+  [
+   "audio",
+   "Sound, music & spatial audio",
+   "音效、音乐与空间音频"
+  ],
+  [
+   "dialogue",
+   "Dialogue / text",
+   "对话 / 文本"
+  ],
+  [
+   "behavior",
+   "Agent behaviour & actions",
+   "智能体行为与动作"
+  ],
+  [
+   "vr-scenario",
+   "Authored VR scenario",
+   "人工制作的 VR 情境"
+  ]
+ ],
+ "inputs": [
+  [
+   "text",
+   "Text prompt",
+   "文字提示"
+  ],
+  [
+   "image",
+   "Image",
+   "图像"
+  ],
+  [
+   "video",
+   "Video",
+   "视频"
+  ],
+  [
+   "speech",
+   "Speech & audio",
+   "语音与音频"
+  ],
+  [
+   "multi-view",
+   "Multi-view capture / scan",
+   "多视角拍摄 / 扫描"
+  ],
+  [
+   "action",
+   "Keyboard & controller actions",
+   "键盘与手柄动作"
+  ],
+  [
+   "camera",
+   "Camera path / pose",
+   "镜头路径 / 位姿"
+  ],
+  [
+   "body",
+   "Body, face & gaze tracking",
+   "身体、面部与视线追踪"
+  ],
+  [
+   "sketch",
+   "Sketch & gesture",
+   "草图与手势"
+  ],
+  [
+   "surroundings",
+   "Passthrough & live surroundings",
+   "透视画面与实时环境"
+  ],
+  [
+   "spec",
+   "Scene spec, code & rules",
+   "场景规格、代码与规则"
+  ]
+ ],
+ "timings": [
+  [
+   "offline",
+   "Pre-generated",
+   "预先生成",
+   "Generated before the experience (seconds to hours); people watch or explore the result.",
+   "在体验开始前生成（几秒到几小时），人们观看或探索生成结果。"
+  ],
+  [
+   "turn-based",
+   "Turn-based",
+   "回合制",
+   "Generates after each request, action or utterance; the person waits for the reply. Voice systems that can be interrupted (barge-in) but otherwise wait for silence belong here.",
+   "在每次请求、动作或发言之后生成，人需要等待回应。可以被打断（barge-in）、但平时要等对方说完才回应的语音系统也属于这一类。"
+  ],
+  [
+   "real-time",
+   "Real-time streaming",
+   "实时流式",
+   "Streams continuously at interactive rates while the person acts.",
+   "在人行动的同时，以可交互的速率持续生成。"
+  ],
+  [
+   "full-duplex",
+   "Full-duplex",
+   "全双工",
+   "Perceives and generates at the same time: keeps listening (and watching) while it speaks, overlaps speech, backchannels (“mm-hm”) and can be interrupted, without waiting for silence.",
+   "同时感知与生成：说话时仍在听（和看），会与对方话语重叠、发出“嗯嗯”之类的回应信号，也能被打断，不需要等待对方停顿。"
+  ],
+  [
+   "scripted",
+   "Scripted / rule-based",
+   "脚本 / 规则驱动",
+   "Authored and rule-driven with no generative model at runtime: the baseline of classic VR studies.",
+   "人工制作、规则驱动，运行时没有生成模型：经典 VR 研究的基线。"
+  ]
+ ],
+ "access": [
+  [
+   "open",
+   "Open weights / code",
+   "开源权重 / 代码"
+  ],
+  [
+   "api",
+   "Public API",
+   "公开 API"
+  ],
+  [
+   "product",
+   "Product / app",
+   "产品 / 应用"
+  ],
+  [
+   "preview",
+   "Waitlist / early access",
+   "候补 / 抢先体验"
+  ],
+  [
+   "research",
+   "Research only",
+   "仅限研究"
+  ]
+ ],
+ "kinds": [
+  [
+   "model",
+   "Model",
+   "模型"
+  ],
+  [
+   "product",
+   "Product / app",
+   "产品 / 应用"
+  ],
+  [
+   "platform",
+   "Platform / API",
+   "平台 / API"
+  ],
+  [
+   "open-source",
+   "Open-source tool",
+   "开源工具"
+  ],
+  [
+   "research",
+   "Research demo",
+   "研究演示"
+  ],
+  [
+   "study",
+   "Behavioral study",
+   "行为研究"
+  ],
+  [
+   "experience",
+   "Experience / artwork",
+   "体验 / 艺术作品"
+  ],
+  [
+   "device",
+   "Device",
+   "设备"
+  ],
+  [
+   "dataset",
+   "Dataset / benchmark",
+   "数据集 / 基准"
+  ],
+  [
+   "paper",
+   "Paper / review",
+   "论文 / 综述"
+  ]
+ ],
+ "collections": [
+  {
+   "id": "trend-realtime",
+   "type": "trend",
+   "en": "Generation at interactive frame rates",
+   "zh": "以可交互帧率生成",
+   "desc_en": "Video and worlds generated live as you act: 720p at 20–40 fps became common in 2025–2026 (Genie 3, GWM Worlds 2, Matrix-Game 3.0), and live video-to-video reaches 1080p at 30 fps.",
+   "desc_zh": "随你的动作实时生成的视频与世界：720p、每秒 20–40 帧在 2025–2026 年已很常见（Genie 3、GWM Worlds 2、Matrix-Game 3.0），实时视频到视频转换可达 1080p、30 帧。",
+   "url": "",
+   "gap_en": "Headsets need two views at 72–120 Hz; no generator publishes stereo output or end-to-end latency, and streams cannot be seeded, so a session must be recorded to be replayed.",
+   "gap_zh": "头显需要以 72–120 Hz 输出双眼画面；目前没有生成器公布立体输出或端到端延迟，流式输出也无法设定随机种子，只能录下来才能回放。",
+   "next_en": "Engine-plus-neural-rendering hybrids reach consumer GPUs (Matrix-Game 4.0 reports up to 67 fps on an RTX 5080), and Decart sells real-time models by API.",
+   "next_zh": "引擎加神经渲染的混合方案开始在消费级显卡上运行（Matrix-Game 4.0 称在 RTX 5080 上最高 67 帧）；Decart 已通过 API 提供实时模型。"
+  },
+  {
+   "id": "trend-world-simulators",
+   "type": "trend",
+   "en": "From video models to world simulators",
+   "zh": "从视频模型到世界模拟器",
+   "desc_en": "Action-conditioned models generate the next moment as you move. Genie 3 (2025) holds a world together for minutes; Project Genie opened to subscribers in 2026 with 60-second generations. Independent 2026 benchmarks find that no model keeps memory reliably over 10–60 s of play.",
+   "desc_zh": "以动作为条件的模型随你的移动生成下一刻。Genie 3（2025）能让世界在几分钟内保持一致；Project Genie 于 2026 年向订阅用户开放，每次生成限 60 秒。2026 年的独立基准发现，没有模型能在 10–60 秒的游玩中可靠地保持记忆。",
+   "url": "",
+   "gap_en": "Single 2D streams only (no stereo or 6DoF), minutes of persistence at best, no programmatic access to Genie, and no published per-minute price for any frontier real-time world model.",
+   "gap_zh": "只有单路二维视频流（没有立体或六自由度），持久性最多几分钟，Genie 没有程序化接口，前沿实时世界模型也都没有公开的按分钟价格。",
+   "next_en": "Google aims to widen Project Genie access 'in time'; Runway's GWM Worlds 2 adds a timestamped event stream (WorldPrompt); Atlas will power future versions of Marble.",
+   "next_zh": "Google 表示会“逐步”扩大 Project Genie 的开放范围；Runway 的 GWM Worlds 2 加入了带时间戳的事件流（WorldPrompt）；Atlas 将用于未来版本的 Marble。"
+  },
+  {
+   "id": "trend-physical-ai",
+   "type": "trend",
+   "en": "World models turn to robots and cars",
+   "zh": "世界模型转向机器人与汽车",
+   "desc_en": "The same world models now train and test robots and self-driving cars: OpenAI moved the Sora team to world simulation for robotics, Waymo built its simulator on Genie 3, and Decart, Odyssey and NVIDIA's Cosmos 3 launched physical-AI-first in 2026.",
+   "desc_zh": "同一批世界模型如今用于训练和测试机器人与自动驾驶：OpenAI 把 Sora 团队转向面向机器人的世界模拟研究，Waymo 的模拟器建立在 Genie 3 之上，Decart、Odyssey 与 NVIDIA 的 Cosmos 3 在 2026 年都以物理 AI 为首要方向发布。",
+   "url": "",
+   "gap_en": "Human-facing features (stereo, comfort, social characters) may get less investment than robot interfaces.",
+   "gap_zh": "面向人的功能（立体显示、舒适度、社会性角色）得到的投入，可能少于面向机器人的接口。",
+   "next_en": "Closed-loop action interfaces, rare-event generation and logged trajectories built for robot evaluation can carry over to behavioral experiments.",
+   "next_zh": "为机器人评测而建的闭环动作接口、罕见事件生成与轨迹记录，可以迁移到行为实验中使用。"
+  },
+  {
+   "id": "trend-explicit-3d",
+   "type": "trend",
+   "en": "Worlds you can keep: explicit 3D output",
+   "zh": "可以保存的世界：显式三维输出",
+   "desc_en": "Generated worlds exported as Gaussian splats or meshes that persist, open in game engines and headsets, and can be logged and controlled: Marble and the World API, the open HY-World 2.0, Atlas, and a ratified glTF format for splats.",
+   "desc_zh": "以高斯泼溅或网格导出的生成世界：可以长期保存，能在游戏引擎和头显中打开，也便于记录与控制——Marble 与 World API、开源的 HY-World 2.0、Atlas，以及已获批准的高斯泼溅 glTF 格式。",
+   "url": "",
+   "gap_en": "Exported worlds are static (people, weather and events must be added with an engine or agents), lighting is baked, scale is arbitrary, and image metrics miss floaters that stand out in stereo.",
+   "gap_zh": "导出的世界是静态的（人物、天气和事件需借助引擎或智能体添加），光照是烘焙的，尺度不确定，而图像质量指标会漏掉在立体观看时才明显的漂浮伪影。",
+   "next_en": "Atlas will power future versions of Marble, and engine-plus-model hybrids (Matrix-Game 4.0) keep game state explicit while a network draws the pixels.",
+   "next_zh": "Atlas 将用于未来版本的 Marble；引擎加模型的混合方案（Matrix-Game 4.0）把游戏状态保存在引擎中，由神经网络绘制画面。"
+  },
+  {
+   "id": "trend-full-duplex",
+   "type": "trend",
+   "en": "Full-duplex audio-visual humans",
+   "zh": "全双工的视听虚拟人",
+   "desc_en": "Agents that listen while they speak, and now show a face: full-duplex voice became an API product in 2026 (GPT-Live-1 at $0.05/min, Gemini 3.8 Live), and Tavus Griffin generates a talking face video-to-video while it listens.",
+   "desc_zh": "边听边说、如今还能露脸的智能体：全双工语音在 2026 年成为 API 产品（GPT-Live-1 每分钟 0.05 美元、Gemini 3.8 Live），Tavus Griffin 则能边听边以视频到视频的方式生成说话的面孔。",
+   "url": "",
+   "gap_en": "All render a flat 2D face and none drives a 3D body in shared space; turn-taking decisions are not exported as logs; 'human-likeness' figures come from developer-run studies.",
+   "gap_zh": "它们都只呈现平面的二维面孔，没有一个能在共享空间中驱动三维身体；轮流发言的决策不会导出为日志；“像真人”的数据来自开发者自己做的研究。",
+   "next_en": "Tavus plans a wider release; Meta's voice-driven Hologram comes to Ray-Ban Display (fall 2026) and Hologram Calling to Meta VR Glasses (Spring 2027).",
+   "next_zh": "Tavus 计划更大范围发布；Meta 由语音驱动的 Hologram 将登陆 Ray-Ban Display（2026 年秋），Hologram 通话将登陆 Meta VR Glasses（2027 年春）。"
+  },
+  {
+   "id": "trend-native-audio",
+   "type": "trend",
+   "en": "Sound and picture generated together",
+   "zh": "声音与画面一起生成",
+   "desc_en": "Speech, effects and ambience generated in the same pass as the picture: standard in frontier video since Veo 3 (2025), and in 2026 also in open weights (LTX-2.5) and a real-time world model (GWM Worlds 2).",
+   "desc_zh": "对白、音效与环境声和画面一次生成：自 Veo 3（2025）起已是前沿视频模型的标配，2026 年开源模型（LTX-2.5）和实时世界模型（GWM Worlds 2）也能做到。",
+   "url": "",
+   "gap_en": "Sound comes back as one mono or stereo mix: no spatial (ambisonic or object) audio for headsets, and no separate stems to vary one sound while holding the rest constant.",
+   "gap_zh": "生成的声音是一条单声道或立体声混音：没有面向头显的空间音频（全景声或对象音频），也无法分轨，难以只改变一个声音而保持其余不变。",
+   "next_en": "Gemini Omni says it will add image and audio output 'in time'.",
+   "next_zh": "Gemini Omni 表示将“逐步”支持图像与音频输出。"
+  },
+  {
+   "id": "trend-omni",
+   "type": "trend",
+   "en": "One model for video, 3D, audio and action",
+   "zh": "一个模型统管视频、三维、声音与动作",
+   "desc_en": "Single models that read and generate text, images, video, audio, 3D and actions (Kling 3.0, Seedance 2.0, Gemini Omni, Cosmos 3, Atlas), so one character or place can stay consistent across media; most are still video-first.",
+   "desc_zh": "用一个模型读取并生成文字、图像、视频、声音、三维与动作（可灵 3.0、Seedance 2.0、Gemini Omni、Cosmos 3、Atlas），让同一角色或地点在不同媒介中保持一致；目前大多仍以视频为主。",
+   "url": "",
+   "gap_en": "'Omni' is a developer label, and one closed model behind many modalities is a single point of failure for a study.",
+   "gap_zh": "“omni”是开发者的说法；一个闭源模型承担多种模态，对研究而言就是单点故障。",
+   "next_en": "Atlas will power future Marble versions; Gemini Omni adds output modalities 'in time'.",
+   "next_zh": "Atlas 将用于未来的 Marble；Gemini Omni 将“逐步”增加输出模态。"
+  },
+  {
+   "id": "trend-feed-forward",
+   "type": "trend",
+   "en": "Reconstruction in seconds",
+   "zh": "几秒完成的重建",
+   "desc_en": "One forward pass turns photos or a video into cameras, depth and Gaussian splats in about a second (VGGT, AnySplat, Depth Anything 3, SHARP), so a real place can be in a headset the same day; D4RT extends this to moving scenes.",
+   "desc_zh": "一次前向计算就能从照片或视频得到相机、深度与高斯泼溅，耗时约一秒（VGGT、AnySplat、Depth Anything 3、SHARP），真实的地点当天就能放进头显；D4RT 把这一能力扩展到运动场景。",
+   "url": "",
+   "gap_en": "Moving people remain the hard case; benchmarks report PSNR and SSIM, not presence or comfort in a headset; capturing real places also records bystanders.",
+   "gap_zh": "运动的人仍是难点；基准报告的是 PSNR 和 SSIM，而不是头显中的临场感或舒适度；捕捉真实地点也会记录下旁人。",
+   "next_en": "The capability is moving into devices: visionOS 27 turns panoramas into spatial scenes, and XREAL AURA converts photos and videos to 3D (fall 2026).",
+   "next_zh": "这一能力正进入设备：visionOS 27 把全景照片变成空间场景，XREAL AURA 可把照片和视频转换为三维（2026 年秋）。"
+  },
+  {
+   "id": "trend-4d-media",
+   "type": "trend",
+   "en": "4D capture reaches telepresence",
+   "zh": "4D 捕捉走向远程临场",
+   "desc_en": "Dynamic Gaussian and volumetric capture of people and events, reconstructed quickly and streamed; in 2026 it reaches people mainly as 3D video calls and holograms (Google Beam, Meta Hologram Calling), not yet as a media format.",
+   "desc_zh": "以动态高斯与体积视频捕捉人物和事件，快速重建并流式传输；2026 年它主要以三维视频通话和“全息”通话的形式到达用户（Google Beam、Meta Hologram 通话），还不是一种普及的媒介格式。",
+   "url": "",
+   "gap_en": "There is no common player or format for 4D splat video, high-quality capture of people still needs multi-camera rigs or booths, and changing behaviour inside a captured performance is research-only.",
+   "gap_zh": "4D 泼溅视频还没有通用的播放器或格式；高质量的人物捕捉仍需要多相机阵列或专用设备；改变已捕捉表演中的行为仍停留在研究阶段。",
+   "next_en": "Beam can be booked in shared offices from October 2026; Meta VR Glasses with Hologram Calling arrive in Spring 2027.",
+   "next_zh": "Beam 自 2026 年 10 月起可在共享办公空间预约使用；带 Hologram 通话的 Meta VR Glasses 将于 2027 年春上市。"
+  },
+  {
+   "id": "trend-grounded",
+   "type": "trend",
+   "en": "Grounded in real places",
+   "zh": "锚定真实地点",
+   "desc_en": "Generation that starts from real imagery — Street View, a scan, your own photos — so a familiar place can be revisited or altered: Project Genie with Street View (2026), Waymo's Genie-based simulator, World Labs' real-to-sim work.",
+   "desc_zh": "以真实影像为起点的生成——街景、扫描或你自己的照片——让熟悉的地点可以重访或被改写：接入街景的 Project Genie（2026）、基于 Genie 的 Waymo 模拟器、World Labs 的真实到模拟工作。",
+   "url": "",
+   "gap_en": "Grounding sets the first frame: beyond it the world is generated and its accuracy to the real place is not measured; Street View grounding is US-only; generating events at recognisable addresses needs ethical review.",
+   "gap_zh": "锚定只决定第一帧：之后的世界是生成的，与真实地点的吻合度没有被测量；街景锚定只覆盖美国；在可辨认的地址上生成事件需要伦理审查。",
+   "next_en": "Street View grounding is to expand beyond the US 'over time'; World Labs runs a real-to-sim-to-real programme with SceniX.",
+   "next_zh": "街景锚定计划“逐步”扩展到美国以外；World Labs 与 SceniX 推进从真实到模拟再到真实的项目。"
+  },
+  {
+   "id": "trend-agents-in-worlds",
+   "type": "trend",
+   "en": "Agents inside generated worlds",
+   "zh": "生成世界里的智能体",
+   "desc_en": "AI agents that play, learn and are tested inside generated worlds (SIMA 2 in Genie 3 worlds, Odyssey-3, GWM Worlds 2); characters with memory who share those worlds with people are still early.",
+   "desc_zh": "在生成世界中游玩、学习并接受测试的 AI 智能体（Genie 3 世界中的 SIMA 2、Odyssey-3、GWM Worlds 2）；能记住你、与人共处同一世界的角色仍处于早期。",
+   "url": "",
+   "gap_en": "No generated world keeps a character's identity, memory and relationship to a participant across a session, and characters' reactions have not been evaluated against human norms.",
+   "gap_zh": "没有一个生成世界能在一次体验中保持角色的身份、记忆以及与参与者的关系；角色反应是否符合人类常态也还没有被评估。",
+   "next_en": "Odyssey's Agora-1 targets multi-agent shared worlds; Cosmos 3 is offered as a backbone for 'world action models'.",
+   "next_zh": "Odyssey 的 Agora-1 面向多智能体共享世界；Cosmos 3 被定位为“世界动作模型”的基础模型。"
+  },
+  {
+   "id": "trend-in-situ-xr",
+   "type": "trend",
+   "en": "Generative features reach headsets and glasses",
+   "zh": "生成功能进入头显与眼镜",
+   "desc_en": "Generative features arrive on headsets and glasses as photos-to-3D, voice-driven avatars and assistants; generated worlds still reach them only as exported splats or flat streams. Research prototypes generate in situ.",
+   "desc_zh": "生成式功能以照片转三维、语音驱动的虚拟形象和 AI 助手的形式进入头显和眼镜；生成的世界仍只能以导出的高斯泼溅或平面视频流呈现。研究原型已能现场生成。",
+   "url": "",
+   "gap_en": "No world model runs on a headset chip or outputs stereo; camera access for generation conditioned on the surroundings is restricted; no vendor offers a research SDK that logs generated content with gaze and motion.",
+   "gap_zh": "没有世界模型能在头显芯片上运行或输出立体画面；以周围环境为条件的生成需要摄像头权限，而平台对此有限制；也没有厂商提供能把生成内容与视线、动作一起记录的研究工具包。",
+   "next_en": "Snap SPECS and XREAL AURA ship in fall 2026 and Meta VR Glasses in Spring 2027; research prototypes (Editing Reality, CinemaWorld, Social Conjuring) are ahead of products.",
+   "next_zh": "Snap SPECS 与 XREAL AURA 将于 2026 年秋发货，Meta VR Glasses 于 2027 年春上市；研究原型（Editing Reality、CinemaWorld、Social Conjuring）已走在产品前面。"
+  },
+  {
+   "id": "trend-open-weights",
+   "type": "trend",
+   "en": "Open weights you can pin and inspect",
+   "zh": "可锁定版本、可检查的开源权重",
+   "desc_en": "Models a lab can download, run, version-pin and inspect — now including real-time world models and joint audio-video; several frontier labs went the other way in 2026.",
+   "desc_zh": "研究室可以下载、运行、锁定版本并检查的模型——如今已包括实时世界模型和音视频联合生成；而在 2026 年，几家前沿实验室走向了相反方向。",
+   "url": "",
+   "gap_en": "Open interactive models run at 480p–720p with few scenes or need large GPUs, licences differ (OpenMDW, gated LTX, Tencent and Skywork terms), and even stable APIs serve 'preview' model ids.",
+   "gap_zh": "开源交互模型只有 480p–720p、场景有限或需要大显存显卡；许可证各不相同（OpenMDW、LTX 的门控许可、腾讯与昆仑万维的条款）；即使是稳定的 API 也在提供“预览版”模型。",
+   "next_en": "Tencent's HY-World releases continue in stages, and NVIDIA's Cosmos Coalition is expanding.",
+   "next_zh": "腾讯 HY-World 持续分阶段发布；NVIDIA 的 Cosmos 联盟继续扩大。"
+  },
+  {
+   "id": "trend-china-open",
+   "type": "trend",
+   "en": "China leads open interactive world models",
+   "zh": "中国主导开源交互式世界模型",
+   "desc_en": "Tencent and Skywork publish the open real-time world models labs can actually run (HY-World, Matrix-Game), while Kling and Seedance compete at the closed frontier of video.",
+   "desc_zh": "腾讯与昆仑万维发布了研究室真正能运行的开源实时世界模型（HY-World、Matrix-Game），而可灵与 Seedance 则在闭源视频前沿竞争。",
+   "url": "",
+   "gap_en": "Chinese frontier video is closed, and Alibaba has released no new open base video model since Wan 2.2 (July 2025).",
+   "gap_zh": "中国的前沿视频模型是闭源的；阿里自 2025 年 7 月的 Wan 2.2 之后没有再发布新的开源基础视频模型。",
+   "next_en": "Kling 4.0 rolled out from 2026-09-28 and was officially launched on 2026-10-16, with API access said to follow; Matrix-Game 4.0 weights came out on 2026-10-15.",
+   "next_zh": "可灵 4.0 自 2026-09-28 起逐步推出，并于 2026-10-16 正式发布，据称 API 随后开放；Matrix-Game 4.0 的权重于 2026-10-15 发布。"
+  },
+  {
+   "id": "trend-cost",
+   "type": "trend",
+   "en": "Cheaper seconds, gated real time",
+   "zh": "每秒成本下降，实时仍受限",
+   "desc_en": "A second of generated video fell from $0.75 (Veo 3, 2025) to $0.05–0.40 (Veo 3.1 tiers, 2026) and live voice costs cents per minute. Real-time worlds are only starting to get prices: Decart's Oasis 3 Preview costs $0.02/s for driving scenes, while Google, Runway and World Labs publish none.",
+   "desc_zh": "生成一秒视频的价格从 0.75 美元（Veo 3，2025）降到 0.05–0.40 美元（Veo 3.1 各档，2026），实时语音每分钟只需几美分。实时世界才刚开始有价格：Decart 的 Oasis 3 预览版驾驶场景每秒 0.02 美元，而 Google、Runway 和 World Labs 都没有公布价格。",
+   "url": "",
+   "gap_en": "At list prices (Oct 2026), a 10-minute 720p stimulus costs about $30–60 (Veo 3.1 Lite / Fast), a 30-minute full-duplex voice session about $0.70–1.50, and 30 minutes of Oasis 3 about $36, but only for driving scenes; a general-purpose real-time world cannot be bought at a published price.",
+   "gap_zh": "按 2026 年 10 月标价估算：10 分钟 720p 刺激视频约需 30–60 美元（Veo 3.1 Lite / Fast），30 分钟全双工语音约 0.7–1.5 美元，30 分钟 Oasis 3 约 36 美元（仅限驾驶场景）；通用的实时生成世界则没有公开价格可买。",
+   "next_en": "Local inference becomes realistic on consumer GPUs and 128 GB laptops (RTX Spark, on sale 2026-10-16).",
+   "next_zh": "在消费级显卡和 128 GB 内存的笔记本（RTX Spark，2026-10-16 上市）上进行本地推理开始变得可行。"
+  },
+  {
+   "id": "trend-platform-risk",
+   "type": "trend",
+   "en": "Consolidation and platform risk",
+   "zh": "行业整合与平台风险",
+   "desc_en": "World-model startups raised billions and began merging into chip and platform companies in 2026 (World Labs into AMD), while a flagship video service, Sora, shut down within a year.",
+   "desc_zh": "2026 年，世界模型初创公司融资数十亿美元，并开始并入芯片与平台公司（World Labs 并入 AMD）；同时，旗舰视频服务 Sora 不到一年就关停了。",
+   "url": "",
+   "gap_en": "A study built on a startup's or lab's API may outlive the API: archive stimuli, prompts and model ids, and prefer open weights for anything that must be re-run.",
+   "gap_zh": "基于初创公司或实验室 API 的研究，可能比这个 API 活得更久：请存档刺激材料、提示词与模型版本，凡需重跑的部分尽量使用开源权重。",
+   "next_en": "World Labs' merger with AMD is expected to close by the end of 2026; Microsoft's Muse team moved into the Microsoft AI product group.",
+   "next_zh": "World Labs 与 AMD 的合并预计 2026 年底完成；微软的 Muse 团队已并入 Microsoft AI 产品部门。"
+  },
+  {
+   "id": "trend-provenance",
+   "type": "trend",
+   "en": "Labels, watermarks and disclosure become law",
+   "zh": "标注、水印与告知成为法律要求",
+   "desc_en": "Telling people they are talking to an AI, and marking generated media machine-readably, became legal duties in the EU (August 2026) and China (2025); vendors now watermark avatar audio and video (SynthID).",
+   "desc_zh": "告知用户正在与 AI 交流、为生成内容加上机器可读标记，已在欧盟（2026 年 8 月）和中国（2025 年）成为法律义务；厂商已开始为虚拟人的音频和视频加水印（SynthID）。",
+   "url": "",
+   "gap_en": "Paradigms that rely on participants believing a generated person is human need legal review; the EU research exemption covers only systems built solely for research; labels become part of the stimulus.",
+   "gap_zh": "依赖参与者相信生成人物是真人的研究范式需要法律审查；欧盟的科研豁免只适用于专为研究开发的系统；标签本身也会成为刺激的一部分。",
+   "next_en": "Systems on the EU market before 2026-08-02 must meet the marking duty by 2026-12-02; California's AI Transparency Act phases in through 2027–2028.",
+   "next_zh": "2026-08-02 之前已在欧盟上市的系统，须在 2026-12-02 之前满足标记义务；加州《AI 透明度法案》在 2027–2028 年间分阶段生效。"
+  },
+  {
+   "id": "trend-genai-behavioral",
+   "type": "trend",
+   "en": "Generative AI enters behavioral research",
+   "zh": "生成式 AI 进入行为研究",
+   "desc_en": "LLM-driven patients, teammates and self-avatars in VR studies, mostly in medical and communication training; a 2025 systematic review found only 26 GenAI-XR articles, and experiments inside generated worlds have not yet been published.",
+   "desc_zh": "VR 研究中由大语言模型驱动的病人、队友和自我化身，主要用于医学与沟通训练；2025 年的一篇系统综述只找到 26 篇生成式 AI 与 XR 的文章，而在生成世界中进行的实验尚未发表。",
+   "url": "",
+   "gap_en": "No published study yet runs participants inside a Genie-class or GWM-class world; there is no validated scale for the plausibility or presence of generated situations; closed models change or disappear.",
+   "gap_zh": "还没有发表的研究让参与者置身于 Genie 或 GWM 一类的生成世界中；也没有经过验证的量表来衡量生成情境的似真性或临场感；闭源模型会变化甚至消失。",
+   "next_en": "Vendors now run their own human-likeness studies (Tavus, n = 54); independent replication is an open opportunity.",
+   "next_zh": "厂商开始自行开展“像真人”研究（Tavus，n = 54）；独立的重复验证是一个空缺的研究机会。"
+  },
+  {
+   "id": "agenda-core",
+   "type": "survey",
+   "en": "Core references: generative immersion for behavioral science",
+   "zh": "核心文献：面向行为科学的生成式沉浸",
+   "desc_en": "The works a research agenda on generative immersion for behavioral science builds on: VR behavioral research traditions, video generation, dynamic 4D and action-conditioned world models.",
+   "desc_zh": "一项面向行为科学的生成式沉浸研究议程所依据的工作：VR 行为研究传统、视频生成、动态 4D 与以动作为条件的世界模型。",
+   "url": ""
+  },
+  {
+   "id": "siggraph",
+   "type": "venue",
+   "en": "SIGGRAPH / SIGGRAPH Asia / TOG",
+   "zh": "SIGGRAPH / SIGGRAPH Asia / TOG",
+   "desc_en": "Published at SIGGRAPH, SIGGRAPH Asia or in ACM Transactions on Graphics.",
+   "desc_zh": "发表于 SIGGRAPH、SIGGRAPH Asia 或 ACM Transactions on Graphics。",
+   "url": ""
+  },
+  {
+   "id": "cvpr",
+   "type": "venue",
+   "en": "CVPR",
+   "zh": "CVPR",
+   "desc_en": "Published at the IEEE/CVF Conference on Computer Vision and Pattern Recognition.",
+   "desc_zh": "发表于 IEEE/CVF 计算机视觉与模式识别会议。",
+   "url": ""
+  },
+  {
+   "id": "iccv-eccv",
+   "type": "venue",
+   "en": "ICCV / ECCV",
+   "zh": "ICCV / ECCV",
+   "desc_en": "Published at the International or European Conference on Computer Vision.",
+   "desc_zh": "发表于国际计算机视觉大会或欧洲计算机视觉会议。",
+   "url": ""
+  },
+  {
+   "id": "ml-conf",
+   "type": "venue",
+   "en": "NeurIPS / ICML / ICLR",
+   "zh": "NeurIPS / ICML / ICLR",
+   "desc_en": "Published at the main machine learning conferences.",
+   "desc_zh": "发表于主要的机器学习会议。",
+   "url": ""
+  },
+  {
+   "id": "chi",
+   "type": "venue",
+   "en": "CHI",
+   "zh": "CHI",
+   "desc_en": "Published at the ACM CHI Conference on Human Factors in Computing Systems.",
+   "desc_zh": "发表于 ACM CHI 人机交互大会。",
+   "url": ""
+  },
+  {
+   "id": "uist",
+   "type": "venue",
+   "en": "UIST",
+   "zh": "UIST",
+   "desc_en": "Published at the ACM Symposium on User Interface Software and Technology.",
+   "desc_zh": "发表于 ACM 用户界面软件与技术研讨会。",
+   "url": ""
+  },
+  {
+   "id": "ieee-vr",
+   "type": "venue",
+   "en": "IEEE VR / ISMAR / TVCG",
+   "zh": "IEEE VR / ISMAR / TVCG",
+   "desc_en": "Published at IEEE VR, ISMAR or in IEEE TVCG.",
+   "desc_zh": "发表于 IEEE VR、ISMAR 或 IEEE TVCG。",
+   "url": ""
+  }
+ ],
+ "outlook": {
+  "en": [
+   "Generated worlds run in real time at 720p and 20–40 fps, but they still forget: independent 2026 benchmarks find that no model keeps memory reliably over 10–60 s of play.",
+   "“World simulator” now mostly means a simulator for robots and cars. OpenAI shut down Sora (API removed 2026-09-24) and moved its team to world simulation for robotics.",
+   "Control and persistence come from hybrids rather than bigger video models: explicit 3D you can keep, engines that hold state while a model draws the pixels, and timestamped event streams.",
+   "Full-duplex audio-visual humans shipped as products in 2026, on flat screens. Bodies in shared 3D space have not arrived.",
+   "Regulation and platform risk are part of study design: EU disclosure and marking duties apply from 2026-08-02, and closed services can vanish within months — archive stimuli and prefer open weights for anything that must be re-run."
+  ],
+  "zh": [
+   "生成的世界已能以 720p、每秒 20–40 帧实时运行，但仍然会“遗忘”：2026 年的独立基准发现，没有模型能在 10–60 秒的游玩中可靠地保持记忆。",
+   "“世界模拟器”如今主要指为机器人和汽车服务的模拟器。OpenAI 关停了 Sora（API 于 2026-09-24 下线），并把团队转向面向机器人的世界模拟研究。",
+   "可控性与持久性来自混合方案，而不是更大的视频模型：可以保存的显式三维、由引擎保存状态而由模型绘制画面的设计，以及带时间戳的事件流。",
+   "全双工的视听虚拟人在 2026 年成为产品，但都在平面屏幕上；在共享三维空间中的身体还没有到来。",
+   "监管与平台风险已是研究设计的一部分：欧盟的告知与标记义务自 2026-08-02 起适用，闭源服务可能在几个月内消失——请存档刺激材料，凡需重跑的部分尽量使用开源权重。"
+  ]
+ },
+ "watch": [
+  {
+   "name": "Genie 3 / Project Genie (+ Street View)",
+   "org": "Google DeepMind",
+   "status_en": "Research prototype; 60 s generations; Google AI Ultra ($200/month); no API",
+   "status_zh": "研究原型；每次生成 60 秒；需 Google AI Ultra（每月 200 美元）；无 API",
+   "access": [
+    "product"
+   ],
+   "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/"
+  },
+  {
+   "name": "Gemini Omni 1.1 Flash",
+   "org": "Google DeepMind",
+   "status_en": "Generally available on the Gemini API (2026-08-27); about $0.10/s at 720p",
+   "status_zh": "已在 Gemini API 正式发布（2026-08-27）；720p 约每秒 0.10 美元",
+   "access": [
+    "api"
+   ],
+   "url": "https://ai.google.dev/gemini-api/docs/pricing"
+  },
+  {
+   "name": "Veo 3.1 (Standard / Fast / Lite)",
+   "org": "Google DeepMind",
+   "status_en": "Preview model ids; $0.05–0.60 per second by tier",
+   "status_zh": "预览版模型；按档位每秒 0.05–0.60 美元",
+   "access": [
+    "api"
+   ],
+   "url": "https://ai.google.dev/gemini-api/docs/pricing"
+  },
+  {
+   "name": "Gemini 3.8 Live + Live Avatar",
+   "org": "Google DeepMind",
+   "status_en": "Live Avatar in Gemini Enterprise (2026-09-24); custom avatars by allowlist",
+   "status_zh": "Live Avatar 已进入 Gemini Enterprise（2026-09-24）；自定义形象需白名单",
+   "access": [
+    "api"
+   ],
+   "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"
+  },
+  {
+   "name": "GPT-Live-1",
+   "org": "OpenAI",
+   "status_en": "Full-duplex voice in the API since 2026-09-10; $0.05/min",
+   "status_zh": "全双工语音，自 2026-09-10 起在 API 提供；每分钟 0.05 美元",
+   "access": [
+    "api"
+   ],
+   "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api"
+  },
+  {
+   "name": "Sora 2 / Videos API",
+   "org": "OpenAI",
+   "status_en": "Discontinued: app ended 2026-04-26, API removed 2026-09-24, no replacement",
+   "status_zh": "已停止服务：应用于 2026-04-26 关闭，API 于 2026-09-24 下线，无替代",
+   "access": [],
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "name": "GWM Worlds 2",
+   "org": "Runway",
+   "status_en": "Research preview (2026-09-03); 720p / 24 fps with audio",
+   "status_zh": "研究预览（2026-09-03）；720p / 24 帧，带声音",
+   "access": [
+    "preview"
+   ],
+   "url": "https://runwayml.com/research/introducing-gwm-worlds-2"
+  },
+  {
+   "name": "Atlas",
+   "org": "World Labs (joining AMD)",
+   "status_en": "Early access (2026-09-01)",
+   "status_zh": "抢先体验（2026-09-01）",
+   "access": [
+    "preview"
+   ],
+   "url": "https://www.worldlabs.ai/blog/atlas"
+  },
+  {
+   "name": "Marble + World API",
+   "org": "World Labs",
+   "status_en": "Product; public API since 2026-01-21",
+   "status_zh": "产品；公开 API 自 2026-01-21 起提供",
+   "access": [
+    "product",
+    "api"
+   ],
+   "url": "https://www.worldlabs.ai/blog/announcing-the-world-api"
+  },
+  {
+   "name": "Spark 2.0",
+   "org": "World Labs",
+   "status_en": "Open-source web 3DGS renderer with level of detail (2026-04-14)",
+   "status_zh": "开源网页端 3DGS 渲染器，支持多级细节（2026-04-14）",
+   "access": [
+    "open"
+   ],
+   "url": "https://www.worldlabs.ai/blog/spark-2.0"
+  },
+  {
+   "name": "Oasis 3 / Lucy 2.5",
+   "org": "Decart",
+   "status_en": "Live by API (2026-06-10 / 2026-07-16); $0.02/s each; Oasis 3 is driving-only",
+   "status_zh": "已通过 API 提供（2026-06-10 / 2026-07-16）；均为每秒 0.02 美元；Oasis 3 仅限驾驶场景",
+   "access": [
+    "api"
+   ],
+   "url": "https://decart.ai/publications/introducing-oasis-3-first-interactive-world-model-for-physical-ai"
+  },
+  {
+   "name": "Odyssey-3",
+   "org": "Odyssey",
+   "status_en": "Announced 2026-09-15; API access on request",
+   "status_zh": "2026-09-15 发布；API 需申请",
+   "access": [
+    "api",
+    "preview"
+   ],
+   "url": "https://odyssey.ml/introducing-odyssey-3"
+  },
+  {
+   "name": "Griffin-Lite",
+   "org": "Tavus",
+   "status_en": "Research preview for select testers (2026-10-01)",
+   "status_zh": "面向部分测试者的研究预览（2026-10-01）",
+   "access": [
+    "preview"
+   ],
+   "url": "https://www.tavus.io/griffin"
+  },
+  {
+   "name": "Kling 4.0",
+   "org": "Kuaishou",
+   "status_en": "Introduced 2026-09-28 (Flash first for top-tier subscribers); official launch announced 2026-10-16; about 30 s per generation; API said to follow",
+   "status_zh": "2026-09-28 推出（Flash 版先向高级订阅用户开放），2026-10-16 宣布正式发布；单次约 30 秒；据称 API 随后开放",
+   "access": [
+    "product"
+   ],
+   "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-officially-launches-next-generation-kling-40-raising"
+  },
+  {
+   "name": "Seedance 2.0",
+   "org": "ByteDance Seed",
+   "status_en": "Released February 2026; product and API",
+   "status_zh": "2026 年 2 月发布；提供产品与 API",
+   "access": [
+    "product",
+    "api"
+   ],
+   "url": "https://seed.bytedance.com/en/seedance2_0"
+  },
+  {
+   "name": "Muse Video",
+   "org": "Meta",
+   "status_en": "Preview (2026-07-07), 'coming soon'",
+   "status_zh": "预览（2026-07-07），“即将推出”",
+   "access": [
+    "preview"
+   ],
+   "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+  },
+  {
+   "name": "Cosmos 3",
+   "org": "NVIDIA",
+   "status_en": "Open family (64B / 16B / 4B), OpenMDW 1.1 licence",
+   "status_zh": "开源模型族（64B / 16B / 4B），OpenMDW 1.1 许可",
+   "access": [
+    "open"
+   ],
+   "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/"
+  },
+  {
+   "name": "Matrix-Game 4.0",
+   "org": "Skywork",
+   "status_en": "Released 2026-10-15; runs on consumer GPUs",
+   "status_zh": "2026-10-15 发布；可在消费级显卡上运行",
+   "access": [
+    "open"
+   ],
+   "url": "https://huggingface.co/Skywork/Matrix-Game-4.0"
+  },
+  {
+   "name": "HY-World 2.0 / 2.1",
+   "org": "Tencent Hunyuan",
+   "status_en": "Open weights in stages; 2.1 product update July 2026",
+   "status_zh": "分阶段发布开源权重；2.1 产品更新于 2026 年 7 月",
+   "access": [
+    "open",
+    "product"
+   ],
+   "url": "https://github.com/Tencent-Hunyuan/HY-World-2.0"
+  },
+  {
+   "name": "LTX-2.5 (22B)",
+   "org": "Lightricks",
+   "status_en": "Released 2026-07-23; gated open weights",
+   "status_zh": "2026-07-23 发布；需申请的开源权重",
+   "access": [
+    "open"
+   ],
+   "url": "https://huggingface.co/Lightricks/LTX-2.5"
+  },
+  {
+   "name": "Meta VR Glasses (Hologram Calling)",
+   "org": "Meta",
+   "status_en": "Announced 2026-09-23; $1,299.99, Spring 2027",
+   "status_zh": "2026-09-23 发布；1,299.99 美元，2027 年春上市",
+   "access": [
+    "preview"
+   ],
+   "url": "https://about.fb.com/news/2026/09/introducing-meta-vr-glasses-3d-movies-immersive-live-sports-100-grams/"
+  },
+  {
+   "name": "Meta Ray-Ban Display Hologram",
+   "org": "Meta",
+   "status_en": "Early access on WhatsApp, US, fall 2026",
+   "status_zh": "WhatsApp 抢先体验，美国，2026 年秋",
+   "access": [
+    "preview"
+   ],
+   "url": "https://about.fb.com/news/2026/09/new-features-for-meta-ray-ban-display-navigation-hologram/"
+  },
+  {
+   "name": "Snap SPECS",
+   "org": "Snap",
+   "status_en": "Pre-order $2,195; ships fall 2026 (US, UK, FR)",
+   "status_zh": "预订价 2,195 美元；2026 年秋发货（美、英、法）",
+   "access": [
+    "product"
+   ],
+   "url": "https://newsroom.snap.com/making-computing-more-human-with-specs"
+  },
+  {
+   "name": "XREAL AURA (Android XR)",
+   "org": "XREAL / Google",
+   "status_en": "Reservations; fall 2026; $1,279 / $1,499",
+   "status_zh": "接受预约；2026 年秋；1,279 / 1,499 美元",
+   "access": [
+    "product"
+   ],
+   "url": "https://www.xreal.com/us/aura"
+  },
+  {
+   "name": "visionOS 27",
+   "org": "Apple",
+   "status_en": "Announced at WWDC 2026: panoramas become spatial scenes",
+   "status_zh": "WWDC 2026 发布：全景照片可变成空间场景",
+   "access": [
+    "product"
+   ],
+   "url": "https://www.apple.com/visionos/"
+  },
+  {
+   "name": "WorldRoamBench / MBench",
+   "org": "Academic",
+   "status_en": "Benchmarks for long-horizon stability and memory (2026)",
+   "status_zh": "长时稳定性与记忆基准（2026）",
+   "access": [
+    "open"
+   ],
+   "url": "https://arxiv.org/abs/2606.31672"
+  }
+ ],
+ "lenses": [
+  [
+   "situational-reach",
+   "Situational reach",
+   "情境可达性",
+   "Makes approved analogues of rare, dangerous or hard-to-stage situations practicable.",
+   "让罕见、危险或难以布置的情境，以合乎伦理的模拟形式变得可行。"
+  ],
+  [
+   "perceptual-realism",
+   "Perceptual realism",
+   "感知真实感",
+   "Generates the visual, auditory and motion cues that matter for the task.",
+   "生成任务所需的视觉、听觉与运动线索。"
+  ],
+  [
+   "behavioral-plausibility",
+   "Behavioral plausibility",
+   "行为似真性",
+   "People, objects and events act in contextually meaningful ways, with sensible consequences.",
+   "人物、物体与事件的行为合乎情境，后果合理。"
+  ],
+  [
+   "responsiveness",
+   "Temporal responsiveness",
+   "时间响应性",
+   "Responds within task-relevant timescales: latency, turn-taking, interruption.",
+   "在任务所需的时间尺度内回应：延迟、轮流发言与打断。"
+  ],
+  [
+   "reactivity",
+   "Reactivity",
+   "反应性",
+   "Responds meaningfully to a wider range of what a person actually does.",
+   "对人实际做出的更多样行为作出有意义的回应。"
+  ],
+  [
+   "adaptation",
+   "Adaptation",
+   "适应性",
+   "Varies challenge, content or support from a person's history or state.",
+   "根据人的经历或状态调整难度、内容或支持。"
+  ],
+  [
+   "diversity",
+   "Situation diversity",
+   "情境多样性",
+   "Samples many meaningful variants of a situation.",
+   "生成同一情境的多种有意义的变体。"
+  ],
+  [
+   "authoring",
+   "Authoring accessibility",
+   "创作可及性",
+   "Lets more people specify and revise situations with less effort.",
+   "让更多人以更少投入来设定和修改情境。"
+  ],
+  [
+   "co-creation",
+   "Co-creation & agency",
+   "共创与能动性",
+   "Participants shape events, relationships, rules or meanings during the experience.",
+   "参与者在体验过程中塑造事件、关系、规则或意义。"
+  ],
+  [
+   "persistence",
+   "Persistence",
+   "持久性",
+   "Keeps objects, histories and commitments consistent across time and viewpoint.",
+   "让物体、经历与承诺在时间与视角变化中保持一致。"
+  ],
+  [
+   "control",
+   "Experimental control",
+   "实验控制",
+   "Conditions can be specified, inspected, logged, replayed and compared.",
+   "条件可以被设定、检查、记录、回放与比较。"
+  ]
+ ],
+ "disciplines": [
+  [
+   "ml",
+   "Machine learning & AI",
+   "机器学习与人工智能"
+  ],
+  [
+   "graphics",
+   "Computer vision & graphics",
+   "计算机视觉与图形学"
+  ],
+  [
+   "speech",
+   "Speech & audio",
+   "语音与音频"
+  ],
+  [
+   "hci",
+   "HCI & XR design",
+   "人机交互与 XR 设计"
+  ],
+  [
+   "behavioral",
+   "Psychology & behavioral science",
+   "心理学与行为科学"
+  ],
+  [
+   "social-science",
+   "Criminology & social science",
+   "犯罪学与社会科学"
+  ],
+  [
+   "medicine",
+   "Medicine & professional training",
+   "医学与职业训练"
+  ],
+  [
+   "games",
+   "Games & entertainment",
+   "游戏与娱乐"
+  ],
+  [
+   "media-art",
+   "Film, media & art",
+   "电影、媒体与艺术"
+  ],
+  [
+   "robotics",
+   "Robotics & simulation",
+   "机器人与仿真"
+  ]
+ ],
+ "org_types": [
+  [
+   "researcher",
+   "Researchers",
+   "研究者",
+   "Scientists behind the models, methods and studies.",
+   "构建这些模型、方法与研究的科学家。",
+   "person"
+  ],
+  [
+   "builder",
+   "Founders & builders",
+   "创始人与建造者",
+   "People who lead the companies, products and open-source projects.",
+   "领导这些公司、产品与开源项目的人。",
+   "person"
+  ],
+  [
+   "artist",
+   "Artists & directors",
+   "艺术家与导演",
+   "Artists and filmmakers working with generative and immersive media.",
+   "使用生成式与沉浸式媒介创作的艺术家和电影人。",
+   "person"
+  ],
+  [
+   "ai-lab",
+   "AI labs & companies",
+   "AI 实验室与公司",
+   "Industry labs and companies building the models and products.",
+   "构建这些模型与产品的业界实验室和公司。",
+   "org"
+  ],
+  [
+   "academic-lab",
+   "Academic labs",
+   "高校实验室",
+   "University groups in graphics, vision, HCI, VR and behavioral science.",
+   "图形学、视觉、人机交互、VR 与行为科学领域的高校研究组。",
+   "org"
+  ],
+  [
+   "conference",
+   "Conferences & workshops",
+   "会议与研讨会",
+   "Where the work is presented.",
+   "发表这些工作的会议。",
+   "org"
+  ],
+  [
+   "journal",
+   "Journals",
+   "期刊",
+   "Journals that publish immersive and behavioral research.",
+   "发表沉浸式与行为研究的期刊。",
+   "org"
+  ],
+  [
+   "media",
+   "Newsletters, podcasts & media",
+   "通讯、播客与媒体",
+   "Where to follow the field.",
+   "追踪这个领域的渠道。",
+   "org"
+  ],
+  [
+   "community",
+   "Communities & directories",
+   "社区与目录",
+   "Communities, curated lists and directories.",
+   "社区、精选列表与目录。",
+   "org"
+  ],
+  [
+   "leaderboard",
+   "Leaderboards & arenas",
+   "排行榜与竞技场",
+   "Public comparisons of video, 3D, world and voice models.",
+   "视频、三维、世界与语音模型的公开比较。",
+   "org"
+  ]
+ ],
+ "org_themes": [
+  [
+   "video-generation",
+   "Video generation",
+   "视频生成"
+  ],
+  [
+   "virtual-humans",
+   "Virtual humans",
+   "虚拟人"
+  ],
+  [
+   "speech-audio",
+   "Speech & audio",
+   "语音与音频"
+  ],
+  [
+   "world-models",
+   "World models",
+   "世界模型"
+  ],
+  [
+   "3d-generation",
+   "3D generation",
+   "三维生成"
+  ],
+  [
+   "gaussian-splatting",
+   "Gaussian splatting & 4D",
+   "高斯泼溅与 4D"
+  ],
+  [
+   "agents",
+   "Agents",
+   "智能体"
+  ],
+  [
+   "xr",
+   "XR",
+   "扩展现实"
+  ],
+  [
+   "presence",
+   "Presence & embodiment",
+   "临场感与具身"
+  ],
+  [
+   "behavioral-research",
+   "Behavioral research",
+   "行为研究"
+  ],
+  [
+   "training",
+   "Simulation training",
+   "模拟训练"
+  ],
+  [
+   "open-source",
+   "Open source",
+   "开源"
+  ],
+  [
+   "ethics",
+   "Ethics & safety",
+   "伦理与安全"
+  ]
+ ]
+}

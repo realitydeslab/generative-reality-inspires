@@ -1,0 +1,3246 @@
+{
+  "batch": "assets",
+  "creators": [
+    {
+      "id": "meshy",
+      "name": "Meshy",
+      "name_zh": "",
+      "kind": "company",
+      "role": "AI 3D generation company",
+      "based": "Silicon Valley, US",
+      "bio": "Startup behind Meshy, a web, app and API product for text-to-3D, image-to-3D, AI texturing, auto-rigging and animation; it shipped model generations from Meshy-1 (2023) to Meshy 7.1 (September 2026).",
+      "why": "One of the most widely used commercial 3D asset generators, with an API and an MCP server that let agents and other tools create props on demand.",
+      "disciplines": [
+        "graphics",
+        "games"
+      ],
+      "links": {
+        "site": "https://www.meshy.ai/",
+        "youtube": "https://www.youtube.com/@MeshyAI",
+        "x": "https://x.com/MeshyAI"
+      },
+      "role_zh": "AI 三维生成公司",
+      "bio_zh": "Meshy 的开发公司，提供文生三维、图生三维、AI 贴图、自动绑定与动画的网页、应用和 API；模型从 Meshy-1（2023 年）迭代到 Meshy 7.1（2026 年 9 月）。",
+      "why_zh": "使用最广的商用三维资产生成工具之一，提供 API 和 MCP 服务器，让智能体和其他软件可以按需生成道具。",
+      "based_zh": "美国硅谷",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "tripo-ai",
+      "name": "Tripo AI (VAST)",
+      "name_zh": "VAST 光影焕像",
+      "kind": "company",
+      "role": "3D generation company (VAST)",
+      "based": "Beijing, CN",
+      "bio": "VAST builds the Tripo 3D generation models and Tripo Studio, and publishes open research such as TripoSR (with Stability AI), TripoSG, UniRig and TripoSplat.",
+      "why": "A leading Chinese 3D-asset lab that releases both commercial models and open weights used across the community.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.tripo3d.ai/",
+        "youtube": "https://www.youtube.com/@TripoAI",
+        "github": "https://github.com/VAST-AI-Research",
+        "huggingface": "https://huggingface.co/VAST-AI"
+      },
+      "role_zh": "三维生成公司（VAST）",
+      "bio_zh": "VAST 开发 Tripo 三维生成模型与 Tripo Studio，并发布 TripoSR（与 Stability AI 合作）、TripoSG、UniRig、TripoSplat 等开源研究。",
+      "why_zh": "中国领先的三维资产团队，同时推出商用模型和社区广泛使用的开源权重。",
+      "based_zh": "中国北京",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "deemos",
+      "name": "Deemos (Hyper3D Rodin)",
+      "name_zh": "影眸科技",
+      "kind": "company",
+      "role": "3D generation company behind Hyper3D Rodin",
+      "based": "Shanghai, CN",
+      "bio": "ShanghaiTech-rooted company that builds the Rodin 3D generators (Gen-1 based on the CLAY research model, Gen-1.5, Gen-2, Gen-2.5) and the ChatAvatar face generator, sold through hyper3d.ai and an API.",
+      "why": "Pioneered 3D-native large generative models for production assets and pushes part-level and high-polygon generation.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://hyper3d.ai/",
+        "youtube": "https://www.youtube.com/@DeemosTech",
+        "x": "https://x.com/DeemosTech"
+      },
+      "role_zh": "Hyper3D Rodin 背后的三维生成公司",
+      "bio_zh": "源自上海科技大学的公司，开发 Rodin 系列三维生成模型（Gen-1 基于 CLAY 研究模型，之后有 Gen-1.5、Gen-2、Gen-2.5）和 ChatAvatar 人脸生成，通过 hyper3d.ai 和 API 提供服务。",
+      "why_zh": "率先把原生三维的大规模生成模型用于生产级资产，并推动部件级与高面数生成。",
+      "based_zh": "中国上海",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "roblox",
+      "name": "Roblox",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Online game platform",
+      "based": "San Mateo, US",
+      "bio": "Platform where users build and play experiences; its Foundation AI team develops the Cube 3D foundation model, open-sourced in part, and in-experience 3D and 4D generation.",
+      "why": "Puts 3D generation in the hands of players at play time, inside a platform with tens of millions of daily users.",
+      "disciplines": [
+        "games",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://corp.roblox.com/",
+        "youtube": "https://www.youtube.com/roblox",
+        "github": "https://github.com/Roblox"
+      },
+      "role_zh": "在线游戏平台",
+      "bio_zh": "用户在此搭建并游玩各类体验的平台；其基础 AI 团队开发了部分开源的 Cube 三维基础模型，以及在游戏内使用的三维与 4D 生成功能。",
+      "why_zh": "让玩家在游戏进行中就能生成三维内容，平台日活用户以千万计。",
+      "based_zh": "美国圣马特奥",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "luma-ai",
+      "name": "Luma AI",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Generative AI company (3D capture, video)",
+      "based": "Palo Alto, US",
+      "bio": "Started with NeRF capture apps and the Genie text-to-3D generator, then moved its focus to video generation (Dream Machine, Ray models).",
+      "why": "An early consumer-scale text-to-3D product and a bridge between 3D capture and generative video.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://lumalabs.ai/",
+        "youtube": "https://www.youtube.com/@LumaAI",
+        "x": "https://x.com/LumaLabsAI"
+      },
+      "role_zh": "生成式 AI 公司（三维拍摄、视频）",
+      "bio_zh": "以 NeRF 拍摄应用和 Genie 文生三维起家，之后把重心转向视频生成（Dream Machine、Ray 系列模型）。",
+      "why_zh": "较早面向大众的文生三维产品，也连接了三维拍摄与生成式视频。",
+      "based_zh": "美国帕洛阿尔托",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "stability-ai",
+      "name": "Stability AI",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Open generative-model company",
+      "based": "London, UK",
+      "bio": "Company behind Stable Diffusion that also released open 3D models: TripoSR (with Tripo AI), Stable Fast 3D, SPAR3D and Stable Video 3D.",
+      "why": "Its permissively licensed fast image-to-3D models made feed-forward reconstruction easy to embed in other tools.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://stability.ai/",
+        "github": "https://github.com/Stability-AI",
+        "huggingface": "https://huggingface.co/stabilityai"
+      },
+      "role_zh": "开源生成模型公司",
+      "bio_zh": "Stable Diffusion 的开发公司，也发布了开源三维模型：TripoSR（与 Tripo AI 合作）、Stable Fast 3D、SPAR3D 和 Stable Video 3D。",
+      "why_zh": "其宽松许可的快速图生三维模型，让前馈式重建可以方便地嵌入其他工具。",
+      "based_zh": "英国伦敦",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "name_zh": "谷歌",
+      "kind": "company",
+      "role": "Google Research, Google Labs and Google AR",
+      "based": "Mountain View, US",
+      "bio": "Google's research and product groups outside DeepMind; Google Research authored DreamFusion, the 2022 paper that started text-to-3D via 2D diffusion.",
+      "why": "Source of several foundational methods for generating 3D and video content.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://research.google/"
+      },
+      "role_zh": "谷歌研究院、Google Labs 与 Google AR",
+      "bio_zh": "谷歌在 DeepMind 之外的研究与产品团队；谷歌研究院发表了 DreamFusion，这篇 2022 年的论文开启了借助二维扩散模型的文生三维路线。",
+      "why_zh": "多项三维与视频内容生成基础方法的出处。",
+      "based_zh": "美国山景城",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Meta AI / FAIR / Reality Labs",
+      "based": "Menlo Park, US",
+      "bio": "Meta's AI research (FAIR) and Reality Labs groups; in 3D assets they released Meta 3D Gen, SAM 3D Objects and Body, ShapeR and the Meta Motivo humanoid model.",
+      "why": "Builds both the generative models and the headsets (Quest) where generated assets end up.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://ai.meta.com/",
+        "youtube": "https://www.youtube.com/@AIatMeta",
+        "github": "https://github.com/facebookresearch",
+        "huggingface": "https://huggingface.co/facebook"
+      },
+      "role_zh": "Meta AI 研究院 / FAIR / Reality Labs 现实实验室",
+      "bio_zh": "Meta 的 AI 研究（FAIR）与 Reality Labs 团队；在三维资产方面发布了 Meta 3D Gen、SAM 3D Objects 与 Body、ShapeR 以及 Meta Motivo 人形模型。",
+      "why_zh": "既做生成模型，也做承载生成资产的头显（Quest）。",
+      "based_zh": "美国门洛帕克",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "name_zh": "微软",
+      "kind": "company",
+      "role": "Microsoft Research",
+      "based": "Redmond, US",
+      "bio": "Microsoft Research released TRELLIS (2024) and TRELLIS.2 (2025), MIT-licensed 3D generators built on structured 3D latents.",
+      "why": "Its open TRELLIS models are among the most downloaded 3D generators and a common base for community pipelines.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://www.microsoft.com/en-us/research/",
+        "github": "https://github.com/microsoft",
+        "huggingface": "https://huggingface.co/microsoft"
+      },
+      "role_zh": "微软研究院",
+      "bio_zh": "微软研究院发布了 TRELLIS（2024）和 TRELLIS.2（2025），两者都是基于结构化三维潜变量、采用 MIT 许可的三维生成模型。",
+      "why_zh": "开源的 TRELLIS 系列是下载量最高的三维生成模型之一，也是许多社区流程的基础。",
+      "based_zh": "美国雷德蒙德",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "name_zh": "英伟达",
+      "kind": "company",
+      "role": "GPU maker and AI research lab",
+      "based": "Santa Clara, US",
+      "bio": "Chip company whose research labs publish character animation and simulation work such as MaskedMimic, ProtoMotions and the real-time motion generator ARDY.",
+      "why": "Supplies the compute and much of the physics-based character research behind responsive virtual bodies.",
+      "disciplines": [
+        "ml",
+        "robotics"
+      ],
+      "links": {
+        "site": "https://research.nvidia.com/",
+        "github": "https://github.com/NVlabs",
+        "huggingface": "https://huggingface.co/nvidia"
+      },
+      "role_zh": "GPU 厂商与 AI 研究机构",
+      "bio_zh": "芯片公司，其研究团队发表了 MaskedMimic、ProtoMotions 以及实时动作生成模型 ARDY 等角色动画与仿真研究。",
+      "why_zh": "为可响应的虚拟身体提供算力，也贡献了大量基于物理的角色研究。",
+      "based_zh": "美国圣克拉拉",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "tencent-hunyuan",
+      "name": "Tencent Hunyuan",
+      "name_zh": "腾讯混元",
+      "kind": "lab",
+      "role": "Tencent's foundation-model team",
+      "based": "Shenzhen, CN",
+      "bio": "Tencent's Hunyuan team releases open and closed models across text, image, video, 3D (Hunyuan3D 1.0 to 3.x, HY 3D Studio) and motion (HY-Motion).",
+      "why": "Its open Hunyuan3D models are among the most used 3D generators worldwide, and HY-Motion scaled text-to-motion to a billion parameters.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://hunyuan.tencent.com/",
+        "github": "https://github.com/Tencent-Hunyuan",
+        "huggingface": "https://huggingface.co/tencent",
+        "x": "https://x.com/TencentHunyuan"
+      },
+      "role_zh": "腾讯的基础模型团队",
+      "bio_zh": "腾讯混元团队发布覆盖文本、图像、视频、三维（混元3D 1.0 至 3.x、HY 3D Studio）和动作（HY-Motion）的开源与闭源模型。",
+      "why_zh": "开源的混元3D 模型是全球使用最多的三维生成模型之一，HY-Motion 则把文生动作扩展到十亿参数规模。",
+      "based_zh": "中国深圳",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "bytedance-seed",
+      "name": "ByteDance Seed",
+      "name_zh": "字节跳动 Seed",
+      "kind": "lab",
+      "role": "ByteDance's foundation-model team",
+      "based": "Beijing, CN",
+      "bio": "ByteDance's research team behind the Seed models, including Seed3D 1.0 and 2.0 for simulation-ready 3D assets.",
+      "why": "Frames 3D asset generation as a way to build physics-ready environments for embodied agents.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://seed.bytedance.com/",
+        "github": "https://github.com/ByteDance-Seed"
+      },
+      "role_zh": "字节跳动的基础模型团队",
+      "bio_zh": "字节跳动的研究团队，开发 Seed 系列模型，其中包括面向仿真的三维资产模型 Seed3D 1.0 和 2.0。",
+      "why_zh": "把三维资产生成视为为具身智能体搭建可做物理交互环境的途径。",
+      "based_zh": "中国北京",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "adobe",
+      "name": "Adobe",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Creative-software company (Adobe Research)",
+      "based": "San Jose, US",
+      "bio": "Maker of Photoshop and Substance 3D; Adobe Research co-authored LRM, the first large reconstruction model for single-image 3D.",
+      "why": "LRM set the feed-forward template that most fast image-to-3D systems follow.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://research.adobe.com/"
+      },
+      "role_zh": "创意软件公司（Adobe 研究院）",
+      "bio_zh": "Photoshop 和 Substance 3D 的开发商；Adobe 研究院参与了 LRM，这是首个用于单张图像三维重建的大型重建模型。",
+      "why_zh": "LRM 奠定了如今多数快速图生三维系统沿用的前馈式模板。",
+      "based_zh": "美国圣何塞",
+      "connected_to": [],
+      "discovered_via": "yicong-hong"
+    },
+    {
+      "id": "anything-world",
+      "name": "Anything World",
+      "name_zh": "",
+      "kind": "company",
+      "role": "AI rigging and animation company",
+      "based": "London, UK",
+      "bio": "Company offering automatic rigging and animation for arbitrary 3D models, including animals and vehicles, through a web app and game-engine plugins.",
+      "why": "Extends auto-animation beyond humanoid characters, which a populated scene needs.",
+      "disciplines": [
+        "games",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://anything.world/",
+        "youtube": "https://www.youtube.com/@AnythingWorld"
+      },
+      "role_zh": "AI 绑定与动画公司",
+      "bio_zh": "为任意三维模型（包括动物和交通工具）提供自动绑定与动画的公司，提供网页应用和游戏引擎插件。",
+      "why_zh": "把自动动画扩展到人形角色之外，这正是一个有生气的场景所需要的。",
+      "based_zh": "英国伦敦",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "deepmotion",
+      "name": "DeepMotion",
+      "name_zh": "",
+      "kind": "company",
+      "role": "AI motion-capture and animation company",
+      "based": "California, US",
+      "bio": "Company known for markerless motion capture from video (Animate 3D) and SayMotion, a text-to-3D-animation tool.",
+      "why": "One of the first commercial text-to-motion products aimed at animators and game developers.",
+      "disciplines": [
+        "games",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://www.deepmotion.com/",
+        "youtube": "https://www.youtube.com/@DeepMotionInc"
+      },
+      "role_zh": "AI 动作捕捉与动画公司",
+      "bio_zh": "以基于视频的无标记动作捕捉（Animate 3D）和文生三维动画工具 SayMotion 著称。",
+      "why_zh": "最早面向动画师和游戏开发者的商用文生动作产品之一。",
+      "based_zh": "美国加利福尼亚",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "ben-poole",
+      "name": "Ben Poole",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Research scientist, Google",
+      "based": "United States",
+      "bio": "Google researcher and first author of DreamFusion, which introduced Score Distillation Sampling for text-to-3D.",
+      "why": "His score distillation method underlies most optimization-based 3D and 4D generation that followed.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {},
+      "role_zh": "谷歌研究科学家",
+      "bio_zh": "谷歌研究员，DreamFusion 第一作者，该论文提出了用于文生三维的分数蒸馏采样（SDS）。",
+      "why_zh": "他的分数蒸馏方法是此后大多数基于优化的三维与 4D 生成的基础。",
+      "based_zh": "美国",
+      "connected_to": [
+        "google"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "ruoshi-liu",
+      "name": "Ruoshi Liu",
+      "name_zh": "",
+      "kind": "person",
+      "role": "PhD researcher, Columbia University",
+      "based": "New York, US",
+      "bio": "Columbia University researcher (with Carl Vondrick's lab and Toyota Research Institute) and first author of Zero-1-to-3.",
+      "why": "Showed how to turn a 2D diffusion model into a camera-controllable view generator for single-image 3D.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://ruoshiliu.github.io/"
+      },
+      "role_zh": "哥伦比亚大学博士研究者",
+      "bio_zh": "哥伦比亚大学研究者（Carl Vondrick 实验室，与丰田研究院合作），Zero-1-to-3 第一作者。",
+      "why_zh": "展示了如何把二维扩散模型变成可控视角的视图生成器，用于单张图像生成三维。",
+      "based_zh": "美国纽约",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "yicong-hong",
+      "name": "Yicong Hong",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Research scientist, Adobe Research",
+      "based": "United States",
+      "bio": "Researcher at Adobe Research and first author of LRM: Large Reconstruction Model for Single Image to 3D (ICLR 2024).",
+      "why": "LRM made single-image 3D a seconds-long feed-forward step.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {},
+      "role_zh": "Adobe 研究院研究科学家",
+      "bio_zh": "Adobe 研究院研究员，《LRM：用于单张图像三维重建的大型重建模型》（ICLR 2024）第一作者。",
+      "why_zh": "LRM 让单图生成三维变成只需几秒的前馈步骤。",
+      "based_zh": "美国",
+      "connected_to": [
+        "adobe"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "jiaxiang-tang",
+      "name": "Jiaxiang Tang",
+      "name_zh": "",
+      "kind": "person",
+      "role": "PhD researcher, Peking University",
+      "based": "Beijing, CN",
+      "bio": "Peking University researcher and first author of DreamGaussian (ICLR 2024 oral), an early generative use of 3D Gaussian splatting.",
+      "why": "Cut optimization-based text/image-to-3D from hours to minutes.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://me.kiui.moe/",
+        "github": "https://github.com/ashawkey"
+      },
+      "role_zh": "北京大学博士研究者",
+      "bio_zh": "北京大学研究者，DreamGaussian（ICLR 2024 口头报告）第一作者，是较早把三维高斯泼溅用于生成的工作。",
+      "why_zh": "把基于优化的文生 / 图生三维从数小时缩短到几分钟。",
+      "based_zh": "中国北京",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "longwen-zhang",
+      "name": "Longwen Zhang",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher, ShanghaiTech University / Deemos",
+      "based": "Shanghai, CN",
+      "bio": "First author of CLAY (SIGGRAPH 2024), the 3D-native generative model that became Rodin Gen-1.",
+      "why": "Helped establish training on native 3D data as the recipe for production-grade asset generation.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {},
+      "role_zh": "上海科技大学 / 影眸科技研究者",
+      "bio_zh": "CLAY（SIGGRAPH 2024）第一作者，该原生三维生成模型后来成为 Rodin Gen-1。",
+      "why_zh": "推动了以原生三维数据训练作为生产级资产生成的主流做法。",
+      "based_zh": "中国上海",
+      "connected_to": [
+        "deemos"
+      ],
+      "discovered_via": "deemos"
+    },
+    {
+      "id": "zhan-xu",
+      "name": "Zhan Xu",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher (UMass Amherst, later Adobe)",
+      "based": "Amherst, US",
+      "bio": "First author of RigNet (SIGGRAPH 2020), done at UMass Amherst with Evangelos Kalogerakis.",
+      "why": "The first learned auto-rigging method for diverse articulated characters.",
+      "disciplines": [
+        "graphics"
+      ],
+      "links": {
+        "site": "https://zhan-xu.github.io/"
+      },
+      "role_zh": "研究者（马萨诸塞大学阿默斯特分校，后加入 Adobe）",
+      "bio_zh": "RigNet（SIGGRAPH 2020）第一作者，该工作完成于马萨诸塞大学阿默斯特分校 Evangelos Kalogerakis 团队。",
+      "why_zh": "首个面向多样关节角色的学习式自动绑定方法。",
+      "based_zh": "美国阿默斯特",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "zhiyang-guo",
+      "name": "Zhiyang Guo",
+      "name_zh": "",
+      "kind": "person",
+      "role": "PhD researcher, University of Science and Technology of China",
+      "based": "Hefei, CN",
+      "bio": "First author of Make-It-Animatable (CVPR 2025), which rigs humanoid meshes and Gaussian splats in under a second.",
+      "why": "Sub-second rigging lets generated characters move as soon as they are created.",
+      "disciplines": [
+        "graphics"
+      ],
+      "links": {
+        "site": "https://jasongzy.github.io/"
+      },
+      "role_zh": "中国科学技术大学博士研究者",
+      "bio_zh": "Make-It-Animatable（CVPR 2025）第一作者，可在一秒内为人形网格和高斯泼溅完成绑定。",
+      "why_zh": "亚秒级绑定让生成的角色一出现就能动起来。",
+      "based_zh": "中国合肥",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "jia-peng-zhang",
+      "name": "Jia-Peng Zhang",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher, Tsinghua University",
+      "based": "Beijing, CN",
+      "bio": "Tsinghua University researcher and first author of UniRig (SIGGRAPH 2025), developed with VAST.",
+      "why": "UniRig rigs humans, animals and other creatures with one model.",
+      "disciplines": [
+        "graphics"
+      ],
+      "links": {
+        "site": "https://zjp-shadow.github.io/"
+      },
+      "role_zh": "清华大学研究者",
+      "bio_zh": "清华大学研究者，与 VAST 合作的 UniRig（SIGGRAPH 2025）第一作者。",
+      "why_zh": "UniRig 用一个模型为人类、动物和其他生物完成绑定。",
+      "based_zh": "中国北京",
+      "connected_to": [
+        "tripo-ai"
+      ],
+      "discovered_via": "tripo-ai"
+    },
+    {
+      "id": "chaoyue-song",
+      "name": "Chaoyue Song",
+      "name_zh": "",
+      "kind": "person",
+      "role": "PhD researcher, Nanyang Technological University",
+      "based": "Singapore",
+      "bio": "NTU researcher and first author of Puppeteer (NeurIPS 2025 spotlight) and MagicArticulate, developed with ByteDance Seed.",
+      "why": "Works on turning static generated models into rigged, animated assets.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://chaoyuesong.github.io/"
+      },
+      "role_zh": "南洋理工大学博士研究者",
+      "bio_zh": "南洋理工大学研究者，与字节跳动 Seed 合作的 Puppeteer（NeurIPS 2025 亮点论文）和 MagicArticulate 第一作者。",
+      "why_zh": "研究如何把静态的生成模型变成已绑定、可动画的资产。",
+      "based_zh": "新加坡",
+      "connected_to": [
+        "bytedance-seed"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "chuan-guo",
+      "name": "Chuan Guo",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher in human motion generation",
+      "based": "Edmonton, CA",
+      "bio": "Researcher (University of Alberta, later industry) who created the HumanML3D dataset (CVPR 2022) and MoMask (CVPR 2024).",
+      "why": "HumanML3D is the benchmark that most text-to-motion models are trained and scored on.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://ericguo5513.github.io/",
+        "github": "https://github.com/EricGuo5513"
+      },
+      "role_zh": "人体动作生成研究者",
+      "bio_zh": "研究者（阿尔伯塔大学，后进入业界），创建了 HumanML3D 数据集（CVPR 2022）和 MoMask（CVPR 2024）。",
+      "why_zh": "HumanML3D 是大多数文生动作模型训练与评测所用的基准。",
+      "based_zh": "加拿大埃德蒙顿",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "guy-tevet",
+      "name": "Guy Tevet",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher, Tel Aviv University",
+      "based": "Tel Aviv, IL",
+      "bio": "Tel Aviv University researcher (with Amit Bermano and Daniel Cohen-Or) and first author of the Human Motion Diffusion Model (MDM, ICLR 2023).",
+      "why": "MDM made diffusion the default approach for generating and editing human motion.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://guytevet.github.io/",
+        "github": "https://github.com/GuyTevet"
+      },
+      "role_zh": "特拉维夫大学研究者",
+      "bio_zh": "特拉维夫大学研究者（与 Amit Bermano、Daniel Cohen-Or 合作），人体动作扩散模型 MDM（ICLR 2023）第一作者。",
+      "why_zh": "MDM 让扩散模型成为生成和编辑人体动作的默认方法。",
+      "based_zh": "以色列特拉维夫",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "jonathan-tseng",
+      "name": "Jonathan Tseng",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher, Stanford University",
+      "based": "Stanford, US",
+      "bio": "Stanford researcher (with C. Karen Liu) and first author of EDGE, editable dance generation from music (CVPR 2023).",
+      "why": "Showed audio-driven full-body generation with editable constraints.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://edge-dance.github.io/"
+      },
+      "role_zh": "斯坦福大学研究者",
+      "bio_zh": "斯坦福大学研究者（与 C. Karen Liu 合作），由音乐生成可编辑舞蹈的 EDGE（CVPR 2023）第一作者。",
+      "why_zh": "展示了可加编辑约束、由音频驱动的全身动作生成。",
+      "based_zh": "美国斯坦福",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "biao-jiang",
+      "name": "Biao Jiang",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher, Fudan University",
+      "based": "Shanghai, CN",
+      "bio": "Fudan University researcher and first author of MotionGPT (NeurIPS 2023), developed with Tencent.",
+      "why": "Put motion and language in one token stream.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "github": "https://github.com/OpenMotionLab/MotionGPT"
+      },
+      "role_zh": "复旦大学研究者",
+      "bio_zh": "复旦大学研究者，与腾讯合作的 MotionGPT（NeurIPS 2023）第一作者。",
+      "why_zh": "把动作和语言放进同一个 token 序列。",
+      "based_zh": "中国上海",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "chen-tessler",
+      "name": "Chen Tessler",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Research scientist, NVIDIA",
+      "based": "Tel Aviv, IL",
+      "bio": "NVIDIA research scientist working on physics-based character control; first author of MaskedMimic (SIGGRAPH Asia 2024) and maintainer of ProtoMotions.",
+      "why": "Brings unified, physically simulated humanoid controllers within reach of interactive applications.",
+      "disciplines": [
+        "robotics",
+        "graphics"
+      ],
+      "links": {
+        "github": "https://github.com/NVlabs/ProtoMotions"
+      },
+      "role_zh": "英伟达研究科学家",
+      "bio_zh": "英伟达研究科学家，研究基于物理的角色控制；MaskedMimic（SIGGRAPH Asia 2024）第一作者，并维护 ProtoMotions。",
+      "why_zh": "让统一的、物理仿真的人形控制器可以用于交互应用。",
+      "based_zh": "以色列特拉维夫",
+      "connected_to": [
+        "nvidia"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "kaifeng-zhao",
+      "name": "Kaifeng Zhao",
+      "name_zh": "",
+      "kind": "person",
+      "role": "PhD researcher, ETH Zürich",
+      "based": "Zürich, CH",
+      "bio": "ETH Zürich researcher (with Siyu Tang) and first author of ARDY (SIGGRAPH 2026), developed at NVIDIA.",
+      "why": "ARDY generates steerable human motion in real time.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://research.nvidia.com/labs/sil/projects/ardy/"
+      },
+      "role_zh": "苏黎世联邦理工学院博士研究者",
+      "bio_zh": "苏黎世联邦理工学院研究者（与 Siyu Tang 合作），在英伟达完成的 ARDY（SIGGRAPH 2026）第一作者。",
+      "why_zh": "ARDY 能实时生成可随时操控的人体动作。",
+      "based_zh": "瑞士苏黎世",
+      "connected_to": [
+        "nvidia"
+      ],
+      "discovered_via": "nvidia"
+    }
+  ],
+  "works": [
+    {
+      "id": "ben-poole--dreamfusion",
+      "creator_ids": [
+        "ben-poole",
+        "google"
+      ],
+      "title": "DreamFusion",
+      "year": 2022,
+      "date": "2022-09-29",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "splats",
+        "mesh"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "authoring",
+        "diversity"
+      ],
+      "kind": "research",
+      "description": "Text-to-3D method from Google Research that optimizes a NeRF from scratch using a frozen 2D text-to-image diffusion model (Imagen) as its only guide; a prompt yields a relightable 3D object after a long per-object optimization.",
+      "description_zh": "谷歌研究院的文生三维方法：以冻结的二维文生图扩散模型（Imagen）作为唯一指导，从零优化一个神经辐射场（NeRF）；输入一句提示词，经过较长的逐物体优化后得到可重新打光的三维物体。",
+      "idea_en": "Showed that 3D objects can be pulled out of a 2D image model with no 3D training data, the starting point of the text-to-3D lineage, at the cost of a slow optimization per object.",
+      "idea_zh": "证明了无需任何三维训练数据就能从二维图像模型中“提取”出三维物体，是文生三维路线的起点，代价是每个物体都要缓慢优化。",
+      "method": "Score Distillation Sampling: a randomly initialised NeRF is rendered from random viewpoints and updated with gradients from Imagen's denoising loss, with shading terms that encourage real geometry.",
+      "method_zh": "分数蒸馏采样（SDS）：从随机视角渲染随机初始化的 NeRF，用 Imagen 去噪损失的梯度更新它，并加入着色项以促使形成真实几何。",
+      "specs": "per-prompt NeRF optimization · Imagen 64×64 prior",
+      "keywords": [
+        "text-to-3D",
+        "score distillation sampling",
+        "NeRF",
+        "Imagen",
+        "precursor"
+      ],
+      "video": {
+        "url": "https://dreamfusion-cdn.ajayj.com/dreamfusion_overview.mp4"
+      },
+      "images": [
+        "https://dreamfusion3d.github.io/assets/images/dreamfusion_samples.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2209.14988",
+        "arxiv": "2209.14988",
+        "venue": "ICLR 2023",
+        "title": "DreamFusion: Text-to-3D using 2D Diffusion"
+      },
+      "source_url": "https://dreamfusion3d.github.io/",
+      "collections": [
+        "ml-conf"
+      ],
+      "exhibited": [
+        "ICLR 2023 Outstanding Paper Award"
+      ]
+    },
+    {
+      "id": "ruoshi-liu--zero-1-to-3",
+      "creator_ids": [
+        "ruoshi-liu"
+      ],
+      "title": "Zero-1-to-3",
+      "year": 2023,
+      "date": "2023-03-20",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "image",
+        "mesh"
+      ],
+      "inputs": [
+        "image",
+        "camera"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "Fine-tunes Stable Diffusion to render an object from a new viewpoint given one photo and a relative camera rotation; the generated views can then be lifted into a 3D model with score distillation.",
+      "description_zh": "微调 Stable Diffusion，使其根据一张照片和相对相机旋转，生成同一物体在新视角下的图像；这些视图再通过分数蒸馏提升为三维模型。",
+      "idea_en": "Turned a 2D image model into a viewpoint-controllable object renderer, which made a single photo the default input for 3D asset generation.",
+      "idea_zh": "把二维图像模型变成可控视角的物体渲染器，从此一张照片成为三维资产生成的默认输入。",
+      "method": "A latent diffusion model conditioned on the input image and the relative camera pose, fine-tuned on renderings of Objaverse objects; 3D reconstruction by score distillation into a neural field.",
+      "method_zh": "以输入图像和相对相机位姿为条件的潜扩散模型，在 Objaverse 物体渲染图上微调；再用分数蒸馏把结果重建为神经场。",
+      "keywords": [
+        "novel view synthesis",
+        "single image to 3D",
+        "Objaverse",
+        "conference talk video",
+        "Columbia University",
+        "Toyota Research Institute"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=H5dVW5yOfPY"
+      },
+      "images": [
+        "https://zero123.cs.columbia.edu/assets/teaser.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2303.11328",
+        "arxiv": "2303.11328",
+        "venue": "ICCV 2023",
+        "title": "Zero-1-to-3: Zero-shot One Image to 3D Object"
+      },
+      "source_url": "https://zero123.cs.columbia.edu/",
+      "code_url": "https://github.com/cvlab-columbia/zero123",
+      "collections": [
+        "iccv-eccv"
+      ]
+    },
+    {
+      "id": "yicong-hong--lrm",
+      "creator_ids": [
+        "yicong-hong",
+        "adobe"
+      ],
+      "title": "LRM: Large Reconstruction Model",
+      "year": 2023,
+      "date": "2023-11-08",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "splats",
+        "mesh"
+      ],
+      "inputs": [
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "authoring",
+        "responsiveness"
+      ],
+      "kind": "research",
+      "description": "A 500-million-parameter transformer that predicts a triplane NeRF of an object from one image in about five seconds, trained on roughly one million objects from Objaverse and MVImgNet.",
+      "description_zh": "一个 5 亿参数的 Transformer，约 5 秒即可从单张图像预测物体的三平面 NeRF，训练数据为来自 Objaverse 和 MVImgNet 的约一百万个物体。",
+      "idea_en": "Replaced per-object optimization with a single feed-forward pass, moving image-to-3D from hours to seconds; TripoSR, InstantMesh and most production pipelines follow this template.",
+      "idea_zh": "用一次前馈推理取代逐物体优化，把图生三维从数小时缩短到数秒；TripoSR、InstantMesh 和多数生产流程都沿用了这一模板。",
+      "method": "Learnable triplane tokens cross-attend to DINO image features in an image-to-triplane transformer decoder, trained end to end with rendering losses on multi-view data.",
+      "method_zh": "在图像到三平面的 Transformer 解码器中，可学习的三平面词元对 DINO 图像特征做交叉注意力，并用多视角数据上的渲染损失端到端训练。",
+      "specs": "500M parameters · ~5 s per object · ~1M training objects",
+      "keywords": [
+        "large reconstruction model",
+        "feed-forward",
+        "triplane",
+        "NeRF",
+        "third-party video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=RD-UhM1kBVY"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2311.04400",
+        "arxiv": "2311.04400",
+        "venue": "ICLR 2024",
+        "title": "LRM: Large Reconstruction Model for Single Image to 3D"
+      },
+      "source_url": "https://research.adobe.com/publication/lrm-large-reconstruction-model-for-single-image-to-3d/",
+      "collections": [
+        "ml-conf",
+        "trend-feed-forward"
+      ]
+    },
+    {
+      "id": "jiaxiang-tang--dreamgaussian",
+      "creator_ids": [
+        "jiaxiang-tang"
+      ],
+      "title": "DreamGaussian",
+      "year": 2023,
+      "date": "2023-09-28",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "splats",
+        "mesh"
+      ],
+      "inputs": [
+        "image",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "responsiveness"
+      ],
+      "kind": "research",
+      "description": "Generates a textured mesh from one image (or a text prompt) in about two minutes by optimizing 3D Gaussians with score distillation, then extracting a mesh and refining its UV texture.",
+      "description_zh": "通过分数蒸馏优化三维高斯，再提取网格并细化 UV 贴图，约两分钟即可由一张图像（或一句文字提示）生成带贴图的网格。",
+      "idea_en": "Brought Gaussian splatting into generation and cut optimization-based image/text-to-3D from hours to minutes, a step toward explicit 3D representations in asset models.",
+      "idea_zh": "把高斯泼溅引入生成任务，将基于优化的图生 / 文生三维从数小时缩短到几分钟，是资产模型走向显式三维表示的一步。",
+      "method": "Progressive densification of 3D Gaussians under SDS guidance (Zero-1-to-3 for images, Stable Diffusion for text), followed by mesh extraction and texture refinement in UV space.",
+      "method_zh": "在 SDS 指导下（图像用 Zero-1-to-3，文字用 Stable Diffusion）逐步加密三维高斯，随后提取网格并在 UV 空间细化贴图。",
+      "specs": "~2 min per image-to-3D asset",
+      "keywords": [
+        "3D Gaussian splatting",
+        "score distillation",
+        "image-to-3D",
+        "mesh extraction"
+      ],
+      "video": {
+        "url": "https://dreamgaussian.github.io/videos/text-to-image-to-3d.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2309.16653",
+        "arxiv": "2309.16653",
+        "venue": "ICLR 2024 (Oral)",
+        "title": "DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation"
+      },
+      "source_url": "https://dreamgaussian.github.io/",
+      "code_url": "https://github.com/dreamgaussian/dreamgaussian",
+      "collections": [
+        "ml-conf",
+        "trend-explicit-3d"
+      ]
+    },
+    {
+      "id": "luma-ai--genie",
+      "creator_ids": [
+        "luma-ai"
+      ],
+      "title": "Genie (Luma)",
+      "year": 2024,
+      "date": "2024-01-09",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "authoring",
+        "diversity"
+      ],
+      "kind": "product",
+      "description": "Luma's text-to-3D generator: a prompt returns several candidate 3D models within seconds, and one can be refined into a higher-quality textured mesh for download, in the browser or on Discord.",
+      "description_zh": "Luma 的文生三维工具：输入提示词，几秒内返回多个候选三维模型，可选其一细化为质量更高的带贴图网格并下载，可在浏览器或 Discord 中使用。",
+      "idea_en": "Made text-to-3D a consumer action measured in seconds; Luma has since moved its focus to video models and the standalone Genie page now redirects to its main site.",
+      "idea_zh": "让文生三维变成以秒计的大众操作；此后 Luma 把重心转向视频模型，Genie 的独立页面如今已跳转到其主站。",
+      "method": "Proprietary feed-forward 3D generative model (architecture unpublished), with a fast draft stage and a separate refinement stage.",
+      "method_zh": "专有的前馈式三维生成模型（架构未公开），分为快速草稿阶段和单独的细化阶段。",
+      "specs": "drafts in <10 s (developer claim)",
+      "keywords": [
+        "text-to-3D",
+        "consumer product",
+        "Discord"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=5rW98mMdP6I"
+      },
+      "source_url": "https://lumalabs.ai/genie"
+    },
+    {
+      "id": "tripo-ai--triposr",
+      "creator_ids": [
+        "tripo-ai",
+        "stability-ai"
+      ],
+      "title": "TripoSR",
+      "year": 2024,
+      "date": "2024-03-04",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Open-weight image-to-3D model released by Stability AI and Tripo AI that reconstructs a textured mesh from a single image in under half a second on an NVIDIA A100.",
+      "description_zh": "Stability AI 与 Tripo AI 联合发布的开源权重图生三维模型，在 NVIDIA A100 上不到半秒即可由单张图像重建带贴图的网格。",
+      "idea_en": "Fast and permissive (MIT) enough to run inside other tools, it became a building block for inserting props on demand.",
+      "idea_zh": "速度快、许可宽松（MIT），可直接嵌入其他工具，成为按需插入道具的基础组件。",
+      "method": "LRM-style transformer that maps DINO image features to a triplane NeRF, with changes to data curation, model design and training, followed by marching-cubes mesh extraction.",
+      "method_zh": "LRM 式 Transformer 将 DINO 图像特征映射为三平面 NeRF，并改进了数据筛选、模型设计和训练，最后用 Marching Cubes 提取网格。",
+      "specs": "<0.5 s per object on A100 · MIT licence",
+      "keywords": [
+        "feed-forward",
+        "image-to-3D",
+        "triplane",
+        "open weights",
+        "MIT licence"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=il0THDcRaDY"
+      },
+      "images": [
+        "https://raw.githubusercontent.com/VAST-AI-Research/TripoSR/main/figures/teaser800.gif"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2403.02151",
+        "arxiv": "2403.02151",
+        "venue": "Technical report",
+        "title": "TripoSR: Fast 3D Object Reconstruction from a Single Image"
+      },
+      "source_url": "https://stability.ai/news/triposr-3d-generation",
+      "code_url": "https://github.com/VAST-AI-Research/TripoSR",
+      "collections": [
+        "trend-open-weights",
+        "trend-feed-forward"
+      ]
+    },
+    {
+      "id": "meshy--meshy-4",
+      "creator_ids": [
+        "meshy"
+      ],
+      "title": "Meshy-4",
+      "year": 2024,
+      "date": "2024-08-22",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "authoring",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "Fourth-generation Meshy model that remastered geometry quality for text-to-3D and image-to-3D, with cleaner hard-surface shapes and a two-step text-to-3D workflow: an untextured preview first, then texturing.",
+      "description_zh": "Meshy 第四代模型，重做了文生三维和图生三维的几何质量，硬表面造型更干净，并采用两步式文生三维流程：先出无贴图预览，再上贴图。",
+      "idea_en": "Marked the shift of commercial 3D generators from 'looks fine from a distance' to geometry detailed enough for game props.",
+      "idea_zh": "标志着商用三维生成从“远看还行”转向几何细节足以用作游戏道具。",
+      "method": "Proprietary 3D generative model (architecture unpublished); text-to-3D is split into a fast preview mesh stage and a separate PBR texturing stage.",
+      "method_zh": "专有三维生成模型（架构未公开）；文生三维拆成快速预览网格阶段和单独的 PBR 贴图阶段。",
+      "keywords": [
+        "Meshy",
+        "text-to-3D",
+        "image-to-3D",
+        "PBR",
+        "API"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=AH58ABQbXd8"
+      },
+      "images": [
+        "https://cdn.meshy.ai/landing-assets/blog/meshy-4-break-grounds/cover.png"
+      ],
+      "source_url": "https://www.meshy.ai/blog/meshy-4-break-grounds",
+      "api_url": "https://docs.meshy.ai/"
+    },
+    {
+      "id": "meshy--meshy-7",
+      "creator_ids": [
+        "meshy"
+      ],
+      "title": "Meshy 7",
+      "year": 2026,
+      "date": "2026-08-12",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [
+        "image",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Meshy's image-to-3D model tuned for geometry alignment, meaning how closely the generated shape matches the input image, launched with Meshy's own alignment benchmark; the Meshy 7.1 update (10 September 2026) adds an Ultra 4K mode that generates geometry at 4096³ with raw meshes of up to 80 million triangles.",
+      "description_zh": "Meshy 针对“几何对齐”（生成形状与输入图像的吻合程度）调优的图生三维模型，并随模型发布了自建的对齐基准；2026 年 9 月 10 日的 Meshy 7.1 更新加入 Ultra 4K 模式，几何分辨率达 4096³，原始网格最多 8000 万个三角面。",
+      "idea_en": "Once obvious failures are rare, 3D generators compete on faithfulness to a reference and on surface detail, which matters when a generated prop must match a specific real object. Meshy reports that Meshy 7 and 7.1 lead its own benchmarks; these are not independent tests.",
+      "idea_zh": "当明显的失败已不多见，三维生成的竞争就落在对参考图的忠实度和表面细节上，这在生成的道具必须对应某个真实物体时尤其重要。Meshy 称 Meshy 7 和 7.1 在其自建基准上领先，但这些并非独立测试。",
+      "method": "Proprietary image-to-3D foundation model; for 7.1 Meshy scaled its voxel geometry representation and generation backbone from 2048³ to 4096³ and added high-precision mesh extraction and simplification.",
+      "method_zh": "专有的图生三维基础模型；7.1 把体素几何表示和生成主干从 2048³ 扩展到 4096³，并加入高精度网格提取与简化。",
+      "specs": "7.1 Ultra 4K: 4096³ geometry · up to 80M raw triangles",
+      "keywords": [
+        "Meshy",
+        "true-to-reference",
+        "geometry alignment",
+        "Detail Richness benchmark",
+        "Meshy 7.1",
+        "Ultra 4K",
+        "API",
+        "MCP"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=FYl0ng2haZ8"
+      },
+      "images": [
+        "https://cdn.meshy.ai/landing-assets/blog/meshy-7/meshy-7-cover.webp",
+        "https://cdn.meshy.ai/landing-assets/blog/meshy-7.1-launch/meshy-7-1-launch-cover-v2.webp"
+      ],
+      "source_url": "https://www.meshy.ai/blog/meshy-7-image-to-3d-geometry-alignment",
+      "api_url": "https://docs.meshy.ai/",
+      "collections": [
+        "trend-explicit-3d"
+      ]
+    },
+    {
+      "id": "meshy--meshy-3d-agent",
+      "creator_ids": [
+        "meshy"
+      ],
+      "title": "Meshy 3D Agent",
+      "year": 2026,
+      "date": "2026-05-29",
+      "field": "assets",
+      "sub": "objects",
+      "also": [
+        "agents"
+      ],
+      "modalities": [
+        "mesh",
+        "dialogue"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "sketch"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "authoring",
+        "co-creation"
+      ],
+      "kind": "product",
+      "description": "A conversational agent inside Meshy: a person describes an idea or uploads a photo or sketch, and the agent brainstorms directions, generates concept images in batches, turns the chosen one into a downloadable 3D model, and can rig and animate characters through chat.",
+      "description_zh": "Meshy 内置的对话式智能体：用户描述想法或上传照片、草图，智能体会提出方向、批量生成概念图，把选中的方案变成可下载的三维模型，还能通过对话为角色绑定和制作动画。",
+      "idea_en": "Moves asset generation from a single prompt box to a dialogue that plans and iterates, the pattern a researcher could use to author scenario props by talking.",
+      "idea_zh": "把资产生成从单个提示框变成能规划、能迭代的对话，研究者也可以用这种方式“说”出情境所需的道具。",
+      "method": "An LLM-driven agent that orchestrates Meshy's image generation, image-to-3D, texturing, rigging and animation tools in one chat; Meshy also exposes these tools to outside agents through an MCP server.",
+      "method_zh": "由大语言模型驱动的智能体，在一次对话中调度 Meshy 的图像生成、图生三维、贴图、绑定和动画工具；Meshy 还通过 MCP 服务器把这些工具开放给外部智能体。",
+      "keywords": [
+        "agentic 3D",
+        "conversational",
+        "MCP",
+        "Meshy"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=YwnwaCpRNGE"
+      },
+      "images": [
+        "https://cdn.meshy.ai/landing-assets/blog/meshy-3d-agent/meshy-3d-agent-cover-new.webp"
+      ],
+      "source_url": "https://www.meshy.ai/blog/meshy-3d-agent",
+      "api_url": "https://www.meshy.ai/mcp"
+    },
+    {
+      "id": "longwen-zhang--clay",
+      "creator_ids": [
+        "longwen-zhang",
+        "deemos"
+      ],
+      "title": "CLAY (Rodin Gen-1)",
+      "year": 2024,
+      "date": "2024-05-30",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "authoring",
+        "control"
+      ],
+      "kind": "research",
+      "description": "The 3D-native generative model behind Deemos's Rodin Gen-1: a latent diffusion transformer trained directly on 3D geometry that produces meshes and PBR materials from text, images or 3D controls such as voxels, bounding boxes and point clouds.",
+      "description_zh": "影眸科技 Rodin Gen-1 背后的原生三维生成模型：直接在三维几何上训练的潜扩散 Transformer，可由文字、图像或体素、包围盒、点云等三维控制生成网格与 PBR 材质。",
+      "idea_en": "Argued for training on native 3D data instead of distilling 2D models, which became the dominant recipe (Hunyuan3D, TRELLIS, TripoSG) for production-grade assets.",
+      "idea_zh": "主张直接用原生三维数据训练，而不是从二维模型蒸馏，这成为生产级资产的主流做法（混元3D、TRELLIS、TripoSG）。",
+      "method": "A multi-resolution VAE over neural-field geometry plus a minimal latent Diffusion Transformer, trained progressively on a large curated 3D dataset, with a separate multi-view diffusion model for PBR materials.",
+      "method_zh": "基于神经场几何的多分辨率 VAE，加上简洁的潜扩散 Transformer，在大规模精选三维数据上分阶段训练；PBR 材质由单独的多视角扩散模型生成。",
+      "keywords": [
+        "3D-native diffusion",
+        "DiT",
+        "PBR",
+        "Rodin",
+        "authors' lab video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=YcKFp4U2Voo"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2406.13897",
+        "arxiv": "2406.13897",
+        "venue": "ACM TOG (SIGGRAPH 2024)",
+        "title": "CLAY: A Controllable Large-scale Generative Model for Creating High-quality 3D Assets"
+      },
+      "source_url": "https://sites.google.com/view/clay-3dlm",
+      "collections": [
+        "siggraph"
+      ]
+    },
+    {
+      "id": "deemos--rodin-gen-2",
+      "creator_ids": [
+        "deemos"
+      ],
+      "title": "Rodin Gen-2",
+      "year": 2025,
+      "date": "2025-09-24",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [
+        "image",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "authoring",
+        "control"
+      ],
+      "kind": "model",
+      "description": "Second-generation Rodin 3D generator from Deemos (Hyper3D), which Deemos says gives four times the mesh quality of Gen-1.5 and builds models recursively from parts ('BANG to Parts'), so a generated object can be split into editable components.",
+      "description_zh": "影眸科技（Hyper3D）的第二代 Rodin 三维生成模型，官方称网格质量是 Gen-1.5 的四倍，并能按部件递归构建模型（“BANG to Parts”），让生成的物体可拆分为可编辑的组件。",
+      "idea_en": "Part-aware generation turns one blob of geometry into separable pieces such as doors, wheels and limbs that can later be animated or made interactive.",
+      "idea_zh": "部件感知的生成把一整块几何拆成门、轮子、四肢等可分离的部分，便于之后做动画或交互。",
+      "method": "Proprietary 3D-native diffusion model continuing the CLAY line, combined with BANG (generative exploded dynamics) for part decomposition.",
+      "method_zh": "延续 CLAY 路线的专有原生三维扩散模型，结合 BANG（生成式爆炸视图动力学）进行部件分解。",
+      "specs": "4× mesh quality vs Gen-1.5 (developer claim)",
+      "keywords": [
+        "Rodin",
+        "Hyper3D",
+        "part generation",
+        "BANG",
+        "API"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=1VLCf5_lCug"
+      },
+      "source_url": "https://hyper3d.ai/",
+      "api_url": "https://docs.hyper3d.ai/"
+    },
+    {
+      "id": "deemos--rodin-gen-2-5",
+      "creator_ids": [
+        "deemos"
+      ],
+      "title": "Rodin Gen-2.5",
+      "year": 2026,
+      "date": "2026-05-19",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [
+        "image",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "control"
+      ],
+      "kind": "model",
+      "description": "Rodin Gen-2.5 generates meshes of up to 10 million polygons and lets users set an adaptive 'thinking effort' that trades seconds for detail, from roughly 4-second drafts to slower hero assets, with 3D-native textures, batches of up to 10 results and manual part splitting.",
+      "description_zh": "Rodin Gen-2.5 可生成最多 1000 万面的网格，并允许用户调节自适应的“思考强度”，用时间换细节：从约 4 秒的草稿到耗时更长的主角级资产；同时提供原生三维贴图、单次最多 10 个结果以及手动部件拆分。",
+      "idea_en": "Adds an LLM-style speed–quality dial to 3D generation, useful when a scenario needs many cheap background props and a few detailed focal objects.",
+      "idea_zh": "给三维生成加入类似大语言模型的速度—质量调节，适合需要大量廉价背景道具和少数精细焦点物体的情境。",
+      "method": "Proprietary; Deemos describes adaptive inference-time compute ('thinking effort') for geometry and texture and 3D-native texture generation, building on Gen-2's part-based pipeline.",
+      "method_zh": "专有模型；影眸科技称其对几何和贴图采用自适应的推理时计算（“思考强度”）和原生三维贴图生成，并沿用 Gen-2 的部件式流程。",
+      "specs": "up to 10M polygons · 1M-poly mesh in ~4 s (developer claims)",
+      "keywords": [
+        "Rodin",
+        "Hyper3D",
+        "thinking effort",
+        "high-poly",
+        "12K texture",
+        "API"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=ymTb7eKc9ng"
+      },
+      "images": [
+        "https://storage.deemos.dev/assets/og-banner.png"
+      ],
+      "source_url": "https://x.com/DeemosTech/status/2056744290689441833",
+      "api_url": "https://docs.hyper3d.ai/"
+    },
+    {
+      "id": "stability-ai--stable-fast-3d",
+      "creator_ids": [
+        "stability-ai"
+      ],
+      "title": "Stable Fast 3D (SF3D)",
+      "year": 2024,
+      "date": "2024-08-01",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open",
+        "api"
+      ],
+      "lenses": [
+        "responsiveness",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Stability AI's single-image-to-mesh model that returns a UV-unwrapped, textured mesh with predicted material parameters in about 0.5 seconds, with lighting removed from the texture so the asset can be relit.",
+      "description_zh": "Stability AI 的单图生网格模型，约 0.5 秒返回已展开 UV、带贴图并预测了材质参数的网格，贴图中的光照已被去除，可重新打光。",
+      "idea_en": "Sub-second, relightable meshes make it plausible to generate props while a session is running rather than in a pre-production step.",
+      "idea_zh": "亚秒级、可重新打光的网格，使在体验进行中生成道具成为可能，而不必放在前期制作阶段。",
+      "method": "A large reconstruction transformer trained specifically for mesh output, with fast UV unwrapping, material and normal-map prediction, and a delighting step.",
+      "method_zh": "专门为网格输出训练的大型重建 Transformer，带快速 UV 展开、材质与法线贴图预测以及去光照步骤。",
+      "specs": "~0.5 s per mesh",
+      "keywords": [
+        "feed-forward",
+        "image-to-mesh",
+        "UV unwrapping",
+        "delighting",
+        "open weights",
+        "first author's video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=uT96UCBSBko"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2408.00653",
+        "arxiv": "2408.00653",
+        "venue": "Technical report",
+        "title": "SF3D: Stable Fast 3D Mesh Reconstruction with UV-unwrapping and Illumination Disentanglement"
+      },
+      "source_url": "https://stability.ai/news/introducing-stable-fast-3d",
+      "code_url": "https://github.com/Stability-AI/stable-fast-3d",
+      "collections": [
+        "trend-feed-forward",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "meta--3d-gen",
+      "creator_ids": [
+        "meta"
+      ],
+      "title": "Meta 3D Gen (AssetGen)",
+      "year": 2024,
+      "date": "2024-07-02",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "authoring"
+      ],
+      "kind": "research",
+      "description": "Meta's text-to-3D pipeline that combines 3D AssetGen (text to mesh with PBR materials) and 3D TextureGen (texturing and retexturing), producing an asset in under a minute according to Meta.",
+      "description_zh": "Meta 的文生三维流程，结合 3D AssetGen（由文字生成带 PBR 材质的网格）与 3D TextureGen（贴图与重新贴图），Meta 称可在一分钟内生成一个资产。",
+      "idea_en": "Physically based materials rather than baked colours are what let a generated asset sit convincingly under a VR scene's own lighting.",
+      "idea_zh": "真正让生成资产在 VR 场景自身光照下显得可信的，是基于物理的材质，而不是烘焙进去的颜色。",
+      "method": "AssetGen generates multi-view images with shaded and albedo channels, reconstructs a signed distance field and PBR materials with a large reconstruction model, then refines texture in UV space.",
+      "method_zh": "AssetGen 先生成带着色与反照率通道的多视角图像，用大型重建模型重建有向距离场和 PBR 材质，再在 UV 空间细化贴图。",
+      "specs": "<1 min per asset (Meta claim)",
+      "keywords": [
+        "text-to-mesh",
+        "PBR",
+        "AssetGen",
+        "TextureGen",
+        "first author's video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=xY_2jAEcBa0"
+      },
+      "images": [
+        "https://assetgen.github.io/static/teaser/teaser.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2407.02445",
+        "arxiv": "2407.02445",
+        "venue": "Technical report",
+        "title": "Meta 3D AssetGen: Text-to-Mesh Generation with High-Quality Geometry, Texture, and PBR Materials"
+      },
+      "source_url": "https://assetgen.github.io/"
+    },
+    {
+      "id": "microsoft--trellis",
+      "creator_ids": [
+        "microsoft"
+      ],
+      "title": "TRELLIS",
+      "year": 2024,
+      "date": "2024-12-02",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh",
+        "splats"
+      ],
+      "inputs": [
+        "image",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "diversity"
+      ],
+      "kind": "model",
+      "description": "Microsoft's open-source 3D generator built on a Structured LATent (SLAT) representation that decodes to meshes, 3D Gaussians or radiance fields; it generates assets from an image or text and supports local 3D edits.",
+      "description_zh": "微软开源的三维生成模型，基于结构化潜变量（SLAT）表示，可解码为网格、三维高斯或辐射场；可由图像或文字生成资产，并支持局部三维编辑。",
+      "idea_en": "One latent, several output formats: the same generated object can become a game mesh or a splat for a photoreal scene, and parts can be regenerated without starting over.",
+      "idea_zh": "一个潜变量、多种输出格式：同一个生成物体既可做游戏网格，也可做照片级场景里的高斯泼溅，局部还能重新生成而不必从头来过。",
+      "method": "A sparse 3D voxel grid carrying multiview DINOv2 features is encoded into structured latents and generated with rectified-flow transformers of up to 2B parameters trained on 500K assets.",
+      "method_zh": "携带多视角 DINOv2 特征的稀疏三维体素网格被编码为结构化潜变量，再由最多 20 亿参数、在 50 万个资产上训练的整流流 Transformer 生成。",
+      "specs": "up to 2B parameters · 500K training assets · MIT licence",
+      "keywords": [
+        "structured latents",
+        "SLAT",
+        "rectified flow",
+        "3D Gaussians",
+        "open weights",
+        "MIT licence"
+      ],
+      "video": {
+        "url": "https://microsoft.github.io/TRELLIS/assets/teaser.mp4"
+      },
+      "images": [
+        "https://microsoft.github.io/TRELLIS/assets/pipeline.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2412.01506",
+        "arxiv": "2412.01506",
+        "venue": "CVPR 2025",
+        "title": "Structured 3D Latents for Scalable and Versatile 3D Generation"
+      },
+      "source_url": "https://microsoft.github.io/TRELLIS/",
+      "code_url": "https://github.com/microsoft/TRELLIS",
+      "collections": [
+        "cvpr",
+        "trend-open-weights",
+        "trend-explicit-3d"
+      ]
+    },
+    {
+      "id": "microsoft--trellis-2",
+      "creator_ids": [
+        "microsoft"
+      ],
+      "title": "TRELLIS.2",
+      "year": 2025,
+      "date": "2025-12",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Successor to TRELLIS: a 4-billion-parameter image-to-3D model built on O-Voxel, a sparse voxel structure that encodes arbitrary topology (open, non-manifold and fully enclosed surfaces) together with PBR material attributes.",
+      "description_zh": "TRELLIS 的后继：40 亿参数的图生三维模型，基于稀疏体素结构 O-Voxel，可同时编码任意拓扑（开放、非流形和完全封闭的表面）与 PBR 材质属性。",
+      "idea_en": "Native handling of thin, open and nested surfaces such as cloth, leaves and interiors removes a common reason generated props look like closed plastic shells.",
+      "idea_zh": "原生支持布料、树叶、内部结构等薄、开放和嵌套的表面，消除了生成道具常像封闭塑料壳的一个原因。",
+      "method": "A Sparse Compression VAE over O-Voxels gives a compact latent space; large flow-matching transformers (4B parameters) trained on public 3D datasets generate geometry and materials.",
+      "method_zh": "基于 O-Voxel 的稀疏压缩 VAE 提供紧凑的潜空间；在公开三维数据集上训练的大型流匹配 Transformer（40 亿参数）生成几何与材质。",
+      "specs": "4B parameters · MIT licence",
+      "keywords": [
+        "O-Voxel",
+        "PBR",
+        "flow matching",
+        "open weights",
+        "MIT licence"
+      ],
+      "video": {
+        "url": "https://microsoft.github.io/TRELLIS.2/assets/trellis2.mp4"
+      },
+      "images": [
+        "https://microsoft.github.io/TRELLIS.2/assets/method/overview.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2512.14692",
+        "arxiv": "2512.14692",
+        "venue": "Technical report",
+        "title": "Native and Compact Structured Latents for 3D Generation"
+      },
+      "source_url": "https://microsoft.github.io/TRELLIS.2/",
+      "code_url": "https://github.com/microsoft/TRELLIS.2",
+      "collections": [
+        "trend-open-weights",
+        "trend-explicit-3d"
+      ]
+    },
+    {
+      "id": "tencent-hunyuan--hunyuan3d-2",
+      "creator_ids": [
+        "tencent-hunyuan"
+      ],
+      "title": "Hunyuan3D 2.0",
+      "year": 2025,
+      "date": "2025-01-21",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [
+        "image",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "open",
+        "product"
+      ],
+      "lenses": [
+        "authoring",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "Tencent's open-weight two-stage 3D asset system: Hunyuan3D-DiT generates the shape from an image and Hunyuan3D-Paint textures it; it shipped with a Blender add-on and a web studio, and Hunyuan3D 2.1 (June 2025) added open PBR materials.",
+      "description_zh": "腾讯开源权重的两阶段三维资产系统：混元3D-DiT 由图像生成形状，混元3D-Paint 负责上贴图；同时提供 Blender 插件和网页工作台，2025 年 6 月的混元3D 2.1 又开源了 PBR 材质。",
+      "idea_en": "The open-weight model much of the community and many Chinese apps built on; Tencent reports more than 3 million Hugging Face downloads across its open 3D models by November 2025.",
+      "idea_zh": "社区和许多中国应用所依赖的开源权重模型；腾讯称截至 2025 年 11 月，其开源三维模型在 Hugging Face 的下载量已超过 300 万。",
+      "method": "A flow-based diffusion transformer over a shape VAE latent generates geometry aligned to the condition image, then a multi-view diffusion texture model paints generated or hand-made meshes.",
+      "method_zh": "基于流的扩散 Transformer 在形状 VAE 潜空间中生成与条件图像对齐的几何，随后多视角扩散贴图模型为生成或手工制作的网格上色。",
+      "keywords": [
+        "Hunyuan3D-DiT",
+        "Hunyuan3D-Paint",
+        "open weights",
+        "two-stage",
+        "Blender add-on"
+      ],
+      "video": {
+        "url": "https://github.com/user-attachments/assets/a2cbc5b8-be22-49d7-b1c3-7aa2b20ba460"
+      },
+      "images": [
+        "https://raw.githubusercontent.com/Tencent-Hunyuan/Hunyuan3D-2/main/assets/images/teaser.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2501.12202",
+        "arxiv": "2501.12202",
+        "venue": "Technical report",
+        "title": "Hunyuan3D 2.0: Scaling Diffusion Models for High Resolution Textured 3D Assets Generation"
+      },
+      "source_url": "https://3d.hunyuan.tencent.com/",
+      "code_url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "tencent-hunyuan--hunyuan3d-3",
+      "creator_ids": [
+        "tencent-hunyuan"
+      ],
+      "title": "Hunyuan3D 3.0",
+      "year": 2025,
+      "date": "2025-09-16",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [
+        "image",
+        "text",
+        "sketch"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Tencent's closed flagship for production assets, which Tencent says has three times the precision of earlier versions with 1536³ geometric resolution; it powers the Hunyuan 3D engine, launched globally with a Tencent Cloud API on 26 November 2025, and HY 3D Studio, which chains generation, retopology, UVs, texturing, rigging and animation.",
+      "description_zh": "腾讯面向生产资产的闭源旗舰模型，官方称精度是此前版本的三倍、几何分辨率达 1536³；它驱动混元3D 引擎（2025 年 11 月 26 日面向全球上线并开放腾讯云 API）以及 HY 3D Studio，后者把生成、重拓扑、UV、贴图、绑定和动画串成一条流程。",
+      "idea_en": "Shows the pattern of Chinese labs releasing open weights (2.x) and then a closed flagship (3.x) sold through a cloud API and an end-to-end studio.",
+      "idea_zh": "体现了中国团队的一种模式：先开源权重（2.x），再推出通过云 API 和一体化工作台销售的闭源旗舰（3.x）。",
+      "method": "Proprietary; Tencent describes a 3.6-billion-voxel high-resolution geometry representation with image, multi-view and sketch conditioning, likely a scaled-up successor of the Hunyuan3D-DiT shape model.",
+      "method_zh": "专有模型；腾讯称其采用 36 亿体素的高分辨率几何表示，支持图像、多视角和草图条件，很可能是混元3D-DiT 形状模型的放大版后继。",
+      "specs": "1536³ geometry · 3.6B voxels (Tencent claims)",
+      "keywords": [
+        "Hunyuan 3D engine",
+        "HY 3D Studio",
+        "Tencent Cloud API",
+        "sketch-to-3D"
+      ],
+      "video": {
+        "url": "https://x.com/TencentHunyuan/status/1967873084960260470"
+      },
+      "images": [
+        "https://www.tencent.com/wp-content/uploads/2025/11/f126e13e424fb6903c0891c383ecb495.jpg"
+      ],
+      "source_url": "https://www.tencent.com/en-us/articles/2202235.html"
+    },
+    {
+      "id": "roblox--cube-3d",
+      "creator_ids": [
+        "roblox"
+      ],
+      "title": "Cube 3D",
+      "year": 2025,
+      "date": "2025-03-17",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "open",
+        "product"
+      ],
+      "lenses": [
+        "authoring",
+        "diversity"
+      ],
+      "kind": "model",
+      "description": "The first open-source part of Roblox's Cube 3D foundation model: text-to-shape generation available in Roblox Studio and through an in-game API, so creators and their games can generate meshes from prompts.",
+      "description_zh": "Roblox Cube 三维基础模型首个开源部分：文字生成形状，可在 Roblox Studio 中使用，也能通过游戏内 API 调用，让创作者和他们的游戏都能由提示词生成网格。",
+      "idea_en": "Treats 3D shapes as tokens a language model can read and write, a step toward one model that generates objects, scenes, rigs and scripts for a game platform.",
+      "idea_zh": "把三维形状当作语言模型能读写的词元，朝着一个能为游戏平台生成物体、场景、绑定和脚本的统一模型迈出一步。",
+      "method": "A 3D shape tokenizer converts meshes into discrete tokens; an autoregressive transformer generates shape tokens from text, which are decoded back into meshes, and the same tokens support shape-to-text and LLM-assisted text-to-scene.",
+      "method_zh": "三维形状分词器把网格转成离散词元；自回归 Transformer 由文字生成形状词元并解码回网格，同一套词元还支持形状转文字以及借助大语言模型的文字生成场景。",
+      "keywords": [
+        "shape tokenizer",
+        "autoregressive",
+        "Roblox Studio",
+        "open weights"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=85PNb99CT68"
+      },
+      "images": [
+        "https://raw.githubusercontent.com/Roblox/cube/main/resources/teaser.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2503.15475",
+        "arxiv": "2503.15475",
+        "venue": "Technical report",
+        "title": "Cube: A Roblox View of 3D Intelligence"
+      },
+      "source_url": "https://corp.roblox.com/newsroom/2025/03/introducing-roblox-cube",
+      "code_url": "https://github.com/Roblox/cube",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "roblox--cube-4d",
+      "creator_ids": [
+        "roblox"
+      ],
+      "title": "Cube 4D generation",
+      "year": 2026,
+      "date": "2026-02-04",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh",
+        "behavior"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "preview",
+        "product"
+      ],
+      "lenses": [
+        "co-creation",
+        "behavioral-plausibility",
+        "reactivity"
+      ],
+      "kind": "model",
+      "description": "Beta of '4D generation' on Roblox: inside a game, a player types a prompt and receives a functional object, for example a car they can get into and drive, because Cube generates parts that match a schema and Roblox attaches behaviours to them.",
+      "description_zh": "Roblox 上“4D 生成”的测试版：玩家在游戏中输入提示词，就能得到一个可用的物体，例如可以坐进去开的车；做法是 Cube 按“模式”（schema）生成各个部件，再由 Roblox 为部件附加行为。",
+      "idea_en": "Generation at play time, by participants, of objects that obey the world's rules: a concrete template for letting people inside a generated situation create things that actually work. Roblox reports 160,000+ objects generated in early access in one game.",
+      "idea_zh": "由参与者在游玩过程中生成、并遵守世界规则的物体：为“让身处生成情境中的人创造真正能用的东西”提供了具体范例。Roblox 称在一款游戏的早期测试中已生成超过 16 万个物体。",
+      "method": "Schemas such as Car-5 (body plus four wheels) and Body-1 (any single mesh) define the named mesh parts an object needs; Cube generates those parts and scripted behaviours make them work in the experience.",
+      "method_zh": "Car-5（车身加四个车轮）、Body-1（任意单一网格）等模式规定物体所需的命名网格部件；Cube 生成这些部件，再由脚本行为让它们在体验中运转。",
+      "specs": "beta schemas: Car-5, Body-1 · 160K+ objects in early access",
+      "keywords": [
+        "4D generation",
+        "functional objects",
+        "in-experience generation",
+        "schemas",
+        "Roblox"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=8y9k6AsPY6w"
+      },
+      "images": [
+        "https://cms-media.roblox.com/assets/63a0216d-5e83-1ba0-9156-5cb411951612.webp"
+      ],
+      "source_url": "https://corp.roblox.com/newsroom/2026/02/accelerating-creation-powered-roblox-cube-foundation-model"
+    },
+    {
+      "id": "tripo-ai--tripo-3",
+      "creator_ids": [
+        "tripo-ai"
+      ],
+      "title": "Tripo 3.0",
+      "year": 2025,
+      "date": "2025-08-20",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [
+        "image",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "VAST's third-generation Tripo model with sharper geometry and an Ultra mode, available in Tripo Studio and the Tripo API; Tripo followed it with the H3.1 HD model (May 2026) and the P2.0 character model.",
+      "description_zh": "VAST 的第三代 Tripo 模型，几何更锐利并提供 Ultra 模式，可在 Tripo Studio 和 Tripo API 中使用；之后 Tripo 又推出 H3.1 高清模型（2026 年 5 月）和 P2.0 角色模型。",
+      "idea_en": "One of the main commercial image-to-3D services alongside Meshy, Rodin and Hunyuan3D, and the one most tightly linked to open research releases from the same lab.",
+      "idea_zh": "与 Meshy、Rodin、混元3D 并列的主要商用图生三维服务之一，也是与同一团队开源研究联系最紧密的一个。",
+      "method": "Proprietary; VAST's published research (the TripoSG rectified-flow shape model) suggests a large rectified-flow transformer over a 3D shape latent, but the 3.0 architecture is unpublished.",
+      "method_zh": "专有模型；VAST 已发表的研究（TripoSG 整流流形状模型）表明其可能是基于三维形状潜空间的大型整流流 Transformer，但 3.0 的架构未公开。",
+      "keywords": [
+        "Tripo",
+        "VAST",
+        "image-to-3D",
+        "Tripo Studio",
+        "API"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=uRZPf-2VmGs"
+      },
+      "images": [
+        "https://cdn-blog.holymolly.ai/media/production/Tripo3D_og-1.webp"
+      ],
+      "source_url": "https://www.tripo3d.ai/",
+      "api_url": "https://platform.tripo3d.ai/docs"
+    },
+    {
+      "id": "bytedance-seed--seed3d-1",
+      "creator_ids": [
+        "bytedance-seed"
+      ],
+      "title": "Seed3D 1.0",
+      "year": 2025,
+      "date": "2025-10-22",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh",
+        "scene-3d"
+      ],
+      "inputs": [
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "situational-reach"
+      ],
+      "kind": "model",
+      "description": "ByteDance Seed's image-to-3D foundation model aimed at simulation: it produces assets with accurate geometry, aligned textures and PBR materials that can be dropped into physics engines for robot manipulation training, and assembled into complete scenes.",
+      "description_zh": "字节跳动 Seed 面向仿真的图生三维基础模型：生成几何准确、贴图对齐并带 PBR 材质的资产，可直接放入物理引擎用于机器人操作训练，也能组装成完整场景。",
+      "idea_en": "Frames generated assets as training environments rather than art: the test is whether an agent can interact with them in a physics simulator.",
+      "idea_zh": "把生成资产当作训练环境而不是美术素材：检验标准是智能体能否在物理仿真器中与之交互。",
+      "method": "Diffusion-transformer geometry generation followed by multi-view texture and PBR material synthesis; individual objects are assembled into scenes for simulation.",
+      "method_zh": "先用扩散 Transformer 生成几何，再进行多视角贴图与 PBR 材质合成；单个物体再被组装成用于仿真的场景。",
+      "keywords": [
+        "simulation-ready",
+        "PBR",
+        "embodied AI",
+        "physics engines",
+        "scene assembly"
+      ],
+      "video": {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/1vx23mh0jdhl0.mp4"
+      },
+      "images": [
+        "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/1vx23mh0jdet6.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2510.19944",
+        "arxiv": "2510.19944",
+        "venue": "Technical report",
+        "title": "Seed3D 1.0: From Images to High-Fidelity Simulation-Ready 3D Assets"
+      },
+      "source_url": "https://seed.bytedance.com/en/seed3d",
+      "collections": [
+        "trend-explicit-3d"
+      ]
+    },
+    {
+      "id": "bytedance-seed--seed3d-2",
+      "creator_ids": [
+        "bytedance-seed"
+      ],
+      "title": "Seed3D 2.0",
+      "year": 2026,
+      "date": "2026-04-23",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh",
+        "scene-3d"
+      ],
+      "inputs": [
+        "image",
+        "video",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "api"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "behavioral-plausibility"
+      ],
+      "kind": "model",
+      "description": "Second Seed3D generation focused on geometric precision and material quality; it adds part-level segmentation and completion, articulated assets exported with joint information in URDF for simulators such as Isaac Sim, and scene composition from images, videos or text. It is offered through ByteDance's Volcano Engine Ark platform.",
+      "description_zh": "第二代 Seed3D，重点提升几何精度与材质质量；新增部件级分割与补全、以 URDF 格式导出带关节信息的可动资产（可用于 Isaac Sim 等仿真器），以及由图像、视频或文字进行场景组合。通过字节跳动火山引擎方舟平台提供。",
+      "idea_en": "Articulated output, such as drawers that open and doors that swing, turns a generated prop into something a person or a robot can manipulate.",
+      "idea_zh": "可动结构的输出（能拉开的抽屉、能转动的门）让生成的道具变成人或机器人可以操作的东西。",
+      "method": "Coarse-to-fine two-stage geometry generation and a unified Mixture-of-Experts PBR material model with vision-language priors for material decomposition under unknown lighting (ByteDance Seed blog).",
+      "method_zh": "由粗到细的两阶段几何生成，加上统一的混合专家（MoE）PBR 材质模型，并引入视觉语言先验以在未知光照下分解材质（据字节跳动 Seed 博客）。",
+      "keywords": [
+        "articulated assets",
+        "URDF",
+        "part segmentation",
+        "MoE",
+        "PBR",
+        "Volcano Engine"
+      ],
+      "video": {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/1vx23mnwp9xif.mp4"
+      },
+      "images": [
+        "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymo6oe71o.jpeg"
+      ],
+      "source_url": "https://seed.bytedance.com/en/seed3d_2_0",
+      "collections": [
+        "trend-explicit-3d"
+      ]
+    },
+    {
+      "id": "meta--sam-3d",
+      "creator_ids": [
+        "meta"
+      ],
+      "title": "SAM 3D (Objects and Body)",
+      "year": 2025,
+      "date": "2025-11-19",
+      "field": "assets",
+      "sub": "objects",
+      "also": [
+        "avatars"
+      ],
+      "modalities": [
+        "mesh",
+        "avatar"
+      ],
+      "inputs": [
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "Meta's pair of open models that lift things in an ordinary photo into 3D: SAM 3D Objects reconstructs the geometry, texture and layout of selected objects even in clutter or under occlusion, and SAM 3D Body recovers a full-body human mesh including hands and feet, promptable with masks or keypoints.",
+      "description_zh": "Meta 的一对开源模型，可把普通照片中的东西“抬升”为三维：SAM 3D Objects 即使在杂乱或遮挡情况下也能重建选中物体的几何、贴图和摆放位置；SAM 3D Body 恢复包括手脚在内的全身人体网格，可用遮罩或关键点进行提示。",
+      "idea_en": "Grounds asset generation in real photographs: any snapshot of a room or a person becomes a source of 3D props and bodies for rebuilding that situation.",
+      "idea_zh": "把资产生成扎根于真实照片：任何一张房间或人物的快照，都能成为重建该情境所需的三维道具和人体的来源。",
+      "method": "Objects: multi-stage training (synthetic pretraining, then real-world alignment) on data annotated with a human- and model-in-the-loop pipeline; Body: an encoder-decoder over the new Momentum Human Rig (MHR) parametric mesh.",
+      "method_zh": "Objects：在人与模型协同标注的数据上进行多阶段训练（先合成数据预训练，再与真实世界对齐）；Body：基于新的参数化网格 Momentum Human Rig（MHR）的编码器—解码器。",
+      "specs": "≥5:1 human-preference win rate on real-world objects (Meta)",
+      "keywords": [
+        "SAM 3D Objects",
+        "SAM 3D Body",
+        "single-image reconstruction",
+        "human mesh recovery",
+        "open weights",
+        "arXiv 2602.15989"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=B7PZuM55ayc"
+      },
+      "images": [
+        "https://raw.githubusercontent.com/facebookresearch/sam-3d-objects/main/doc/intro.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2511.16624",
+        "arxiv": "2511.16624",
+        "venue": "Technical report",
+        "title": "SAM 3D: 3Dfy Anything in Images"
+      },
+      "source_url": "https://ai.meta.com/sam3d/",
+      "code_url": "https://github.com/facebookresearch/sam-3d-objects",
+      "collections": [
+        "trend-open-weights",
+        "trend-grounded"
+      ]
+    },
+    {
+      "id": "meta--shaper",
+      "creator_ids": [
+        "meta"
+      ],
+      "title": "ShapeR",
+      "year": 2026,
+      "date": "2026-01-16",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [
+        "video",
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "situational-reach",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "Generates metric 3D shapes of the objects in a casually captured video, for example from Aria glasses, using SLAM points, posed views and machine-generated captions for each detected object; it comes with a benchmark of 178 in-the-wild objects across 7 real scenes.",
+      "description_zh": "从随手拍摄的视频（例如 Aria 眼镜录制的画面）中，为每个检测到的物体利用 SLAM 点、带位姿的视图和自动生成的描述，生成具有真实尺度的三维形状；并附带一个包含 7 个真实场景、178 个物体的基准。",
+      "idea_en": "From 'one clean product photo' to 'walk through a real room wearing glasses': object generation that works on the messy captures people actually make in situ.",
+      "idea_zh": "从“一张干净的产品照”到“戴着眼镜在真实房间走一圈”：能处理人们在现场随手拍下的杂乱素材的物体生成。",
+      "method": "Visual-inertial SLAM, 3D detection and VLM captioning extract per-object conditions; a rectified-flow transformer trained with compositional augmentations and an object-to-scene curriculum generates each shape.",
+      "method_zh": "用视觉惯性 SLAM、三维检测和视觉语言模型描述提取每个物体的条件；再由以组合式数据增强和“物体到场景”课程训练的整流流 Transformer 生成各个形状。",
+      "specs": "benchmark: 178 objects · 7 scenes",
+      "keywords": [
+        "casual capture",
+        "Aria glasses",
+        "SLAM",
+        "rectified flow",
+        "metric shapes",
+        "first author's video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=EbY30KAA55I"
+      },
+      "images": [
+        "https://facebookresearch.github.io/ShapeR/images/panel1.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2601.11514",
+        "arxiv": "2601.11514",
+        "venue": "arXiv preprint",
+        "title": "ShapeR: Robust Conditional 3D Shape Generation from Casual Captures"
+      },
+      "source_url": "https://facebookresearch.github.io/ShapeR/",
+      "code_url": "https://github.com/facebookresearch/ShapeR",
+      "collections": [
+        "trend-grounded"
+      ]
+    },
+    {
+      "id": "tripo-ai--triposplat",
+      "creator_ids": [
+        "tripo-ai"
+      ],
+      "title": "TripoSplat",
+      "year": 2026,
+      "date": "2026-05-07",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "splats"
+      ],
+      "inputs": [
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "VAST's open model that turns a single image into 3D Gaussians rather than a mesh, with the Gaussian density learned so that primitives concentrate where geometry is complex; released with code, weights and a ComfyUI workflow.",
+      "description_zh": "VAST 的开源模型，把单张图像生成为三维高斯而非网格，并学习高斯的分布密度，让基元集中在几何复杂的区域；同时发布了代码、权重和 ComfyUI 工作流。",
+      "idea_en": "Generated assets in splat form can sit natively inside Gaussian-splat captures of real places, narrowing the gap between captured environments and generated props.",
+      "idea_zh": "以高斯泼溅形式生成的资产，可以直接放进真实场所的高斯泼溅扫描中，缩小了实拍环境与生成道具之间的差距。",
+      "method": "Density-Sampled Gaussians (DeG): Gaussian centres are sampled from a learnable density over an octree and trained with a differentiable render-contribution gradient, and a latent diffusion model is trained on the DeG representation.",
+      "method_zh": "密度采样高斯（DeG）：高斯中心从八叉树上的可学习概率密度中采样，用可微的渲染贡献梯度训练，再在 DeG 表示上训练潜扩散模型。",
+      "specs": "MIT licence · variable-resolution decoding",
+      "keywords": [
+        "3D Gaussian splatting",
+        "image-to-splat",
+        "octree",
+        "open weights",
+        "MIT licence",
+        "ComfyUI"
+      ],
+      "video": {
+        "url": "https://cdn-blog.holymolly.ai/media/production/triposplat-kv.mp4"
+      },
+      "images": [
+        "https://cdn-blog.holymolly.ai/media/production/Splat-kv-new.webp"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2605.16355",
+        "arxiv": "2605.16355",
+        "venue": "SIGGRAPH 2026 (Conference Papers)",
+        "title": "Generative 3D Gaussians with Learned Density Control"
+      },
+      "source_url": "https://www.tripo3d.ai/research/triposplat",
+      "code_url": "https://github.com/VAST-AI-Research/TripoSplat",
+      "collections": [
+        "siggraph",
+        "trend-open-weights",
+        "trend-explicit-3d"
+      ]
+    },
+    {
+      "id": "zhan-xu--rignet",
+      "creator_ids": [
+        "zhan-xu"
+      ],
+      "title": "RigNet",
+      "year": 2020,
+      "date": "2020-05-01",
+      "field": "assets",
+      "sub": "characters",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring"
+      ],
+      "kind": "research",
+      "description": "Neural network that predicts a skeleton and skinning weights for an arbitrary articulated character mesh, the first learned auto-rigging method for diverse shapes beyond humanoids.",
+      "description_zh": "一个神经网络，可为任意关节角色网格预测骨架和蒙皮权重，是首个适用于人形之外多样形体的学习式自动绑定方法。",
+      "idea_en": "The starting point of the 'generate a character, then make it move' lineage without a rigging artist.",
+      "idea_zh": "“先生成角色、再让它动起来”且无需绑定师这一路线的起点。",
+      "method": "Graph neural networks over the mesh predict joint locations, then bone connectivity via a minimum spanning tree over learned edge probabilities, then skinning weights; trained on about 2,700 rigged characters.",
+      "method_zh": "在网格上运行的图神经网络先预测关节位置，再通过对学习到的边概率求最小生成树得到骨骼连接，最后预测蒙皮权重；训练数据为约 2700 个已绑定角色。",
+      "keywords": [
+        "auto-rigging",
+        "skinning",
+        "graph neural network",
+        "precursor"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=J90VETgWIDg"
+      },
+      "images": [
+        "https://zhan-xu.github.io/rig-net/teaser.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2005.00559",
+        "arxiv": "2005.00559",
+        "venue": "ACM TOG (SIGGRAPH 2020)",
+        "title": "RigNet: Neural Rigging for Articulated Characters"
+      },
+      "source_url": "https://zhan-xu.github.io/rig-net/",
+      "code_url": "https://github.com/zhan-xu/RigNet",
+      "collections": [
+        "siggraph"
+      ]
+    },
+    {
+      "id": "meshy--animation",
+      "creator_ids": [
+        "meshy"
+      ],
+      "title": "Meshy auto-rigging and animation",
+      "year": 2024,
+      "date": "2024-07-04",
+      "field": "assets",
+      "sub": "characters",
+      "modalities": [
+        "mesh",
+        "motion"
+      ],
+      "inputs": [],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "authoring"
+      ],
+      "kind": "product",
+      "description": "Meshy's rigging and animation tools: an uploaded or generated humanoid or quadruped character is auto-rigged in seconds and animated with a library of more than 600 motion presets (walk cycles, idles, jumps, attacks), then exported to game engines.",
+      "description_zh": "Meshy 的绑定与动画工具：上传或生成的人形、四足角色可在几秒内自动绑定，并从 600 多个动作预设（走路循环、待机、跳跃、攻击等）中选择动画，再导出到游戏引擎。",
+      "idea_en": "The commercial default for turning a prop into an actor: a generated character becomes a moving extra with one click, though from a fixed preset library rather than generated motion.",
+      "idea_zh": "把道具变成演员的商用默认方案：生成的角色一键就能成为会动的群演，只是动作来自固定预设库而非生成。",
+      "method": "Automatic skeleton fitting and skinning for humanoid and quadruped meshes, followed by retargeting of motion-capture-style presets from Meshy's animation library.",
+      "method_zh": "为人形和四足网格自动拟合骨架和蒙皮，再把 Meshy 动画库中动捕风格的预设重定向到角色上。",
+      "specs": "600+ motion presets",
+      "keywords": [
+        "auto-rigging",
+        "animation presets",
+        "quadruped",
+        "retargeting",
+        "Meshy"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=DRYu_M76qoM"
+      },
+      "images": [
+        "https://cdn.meshy.ai/landing-assets/og-images/animation_og.webp"
+      ],
+      "source_url": "https://www.meshy.ai/features/ai-animation-generator",
+      "api_url": "https://docs.meshy.ai/"
+    },
+    {
+      "id": "anything-world--animate-anything",
+      "creator_ids": [
+        "anything-world"
+      ],
+      "title": "Animate Anything",
+      "year": 2023,
+      "date": "2023-09-28",
+      "field": "assets",
+      "sub": "characters",
+      "modalities": [
+        "mesh",
+        "motion"
+      ],
+      "inputs": [],
+      "timing": "offline",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "authoring",
+        "diversity"
+      ],
+      "kind": "product",
+      "description": "Anything World's service that automatically rigs and animates uploaded 3D models, including animals, vehicles and other non-humanoid shapes, and returns engine-ready animated assets.",
+      "description_zh": "Anything World 的服务：自动为上传的三维模型（包括动物、交通工具和其他非人形物体）绑定并制作动画，返回可直接用于引擎的动画资产。",
+      "idea_en": "Extends auto-rigging beyond humanoids, so the animals and machines of a scene can move as well.",
+      "idea_zh": "把自动绑定扩展到人形之外，让场景中的动物和机械也能动起来。",
+      "method": "Proprietary; the system likely classifies the model's category, places a category-specific skeleton, computes skinning and applies a matching animation set.",
+      "method_zh": "专有系统；很可能先识别模型类别，再放置对应类别的骨架、计算蒙皮，并套用相应的动画集。",
+      "keywords": [
+        "auto-rigging",
+        "non-humanoid",
+        "Unity",
+        "Unreal"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=EVKFVvIu3FQ"
+      },
+      "images": [
+        "https://cdn.prod.website-files.com/6101e033eba551a09cbbe91c/64f342ce3a3dc9a3448a5e91_autoRigg_home_small_2.png"
+      ],
+      "source_url": "https://anything.world/"
+    },
+    {
+      "id": "zhiyang-guo--make-it-animatable",
+      "creator_ids": [
+        "zhiyang-guo"
+      ],
+      "title": "Make-It-Animatable",
+      "year": 2024,
+      "date": "2024-11-27",
+      "field": "assets",
+      "sub": "characters",
+      "modalities": [
+        "mesh",
+        "motion"
+      ],
+      "inputs": [],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "responsiveness"
+      ],
+      "kind": "research",
+      "description": "Makes any 3D humanoid model, mesh or Gaussian splat, animation-ready in under one second by predicting blend weights, bones and pose transformations, whatever the input pose.",
+      "description_zh": "无论输入姿态如何，都能在一秒内预测混合权重、骨骼和姿态变换，让任意三维人形模型（网格或高斯泼溅）可以直接做动画。",
+      "idea_en": "Sub-second rigging means a character generated during a session can be animated immediately.",
+      "idea_zh": "亚秒级绑定意味着在体验中生成的角色可以马上动起来。",
+      "method": "A particle-based shape autoencoder with coarse-to-fine, structure-aware prediction of skinning weights, bone positions and pose-to-rest transforms against a standard humanoid skeleton.",
+      "method_zh": "基于粒子的形状自编码器，以由粗到细、感知结构的方式，相对标准人形骨架预测蒙皮权重、骨骼位置和姿态到静止姿态的变换。",
+      "specs": "<1 s per character",
+      "keywords": [
+        "auto-rigging",
+        "Gaussian splats",
+        "humanoid",
+        "first author's video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=mH6L9r_28LA"
+      },
+      "images": [
+        "https://jasongzy.github.io/Make-It-Animatable/static/images/teaser.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2411.18197",
+        "arxiv": "2411.18197",
+        "venue": "CVPR 2025",
+        "title": "Make-It-Animatable: An Efficient Framework for Authoring Animation-Ready 3D Characters"
+      },
+      "source_url": "https://jasongzy.github.io/Make-It-Animatable/",
+      "code_url": "https://github.com/jasongzy/Make-It-Animatable",
+      "collections": [
+        "cvpr"
+      ]
+    },
+    {
+      "id": "jia-peng-zhang--unirig",
+      "creator_ids": [
+        "jia-peng-zhang",
+        "tripo-ai"
+      ],
+      "title": "UniRig",
+      "year": 2025,
+      "date": "2025-04-16",
+      "field": "assets",
+      "sub": "characters",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "diversity"
+      ],
+      "kind": "research",
+      "description": "Unified auto-rigging model from Tsinghua University and VAST that generates topologically valid skeletons and skinning weights for humans, animals and other characters with very different skeleton structures.",
+      "description_zh": "清华大学与 VAST 合作的统一自动绑定模型，可为人类、动物以及骨架结构差异很大的其他角色生成拓扑正确的骨架和蒙皮权重。",
+      "idea_en": "One model for every kind of creature, which matters once generators produce arbitrary characters rather than only humanoids.",
+      "idea_zh": "一个模型适用于各种生物——当生成器产出的不再只是人形角色时，这一点很关键。",
+      "method": "An autoregressive transformer with Skeleton Tree Tokenization generates the bone hierarchy and a bone-point cross-attention module predicts skinning weights; trained on Rig-XL, 14,000+ rigged models.",
+      "method_zh": "采用“骨架树分词”的自回归 Transformer 生成骨骼层级，骨骼—点交叉注意力模块预测蒙皮权重；在包含 1.4 万多个已绑定模型的 Rig-XL 上训练。",
+      "specs": "Rig-XL: 14K+ rigged models",
+      "keywords": [
+        "auto-rigging",
+        "autoregressive",
+        "skeleton tokenization",
+        "Rig-XL",
+        "open weights"
+      ],
+      "video": {
+        "url": "https://zjp-shadow.github.io/works/UniRig/static/videos/teaser-720p.mp4"
+      },
+      "images": [
+        "https://zjp-shadow.github.io/works/UniRig/static/images/result.webp"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2504.12451",
+        "arxiv": "2504.12451",
+        "venue": "ACM TOG (SIGGRAPH 2025)",
+        "title": "One Model to Rig Them All: Diverse Skeleton Rigging with UniRig"
+      },
+      "source_url": "https://zjp-shadow.github.io/works/UniRig/",
+      "code_url": "https://github.com/VAST-AI-Research/UniRig",
+      "collections": [
+        "siggraph",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "chaoyue-song--puppeteer",
+      "creator_ids": [
+        "chaoyue-song",
+        "bytedance-seed"
+      ],
+      "title": "Puppeteer",
+      "year": 2025,
+      "date": "2025-08-14",
+      "field": "assets",
+      "sub": "characters",
+      "modalities": [
+        "mesh",
+        "motion"
+      ],
+      "inputs": [],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "Rigs and animates arbitrary 3D models: an autoregressive transformer predicts the skeleton, an attention network predicts skinning weights, and an optimization stage produces stable, high-fidelity animation.",
+      "description_zh": "为任意三维模型绑定并制作动画：自回归 Transformer 预测骨架，注意力网络预测蒙皮权重，再由优化阶段生成稳定、高保真的动画。",
+      "idea_en": "Closes the step between a static generated model and an animated asset for objects of any category, not only characters with standard skeletons.",
+      "idea_zh": "补上了从静态生成模型到动画资产之间的一步，而且适用于任何类别的物体，而不只是有标准骨架的角色。",
+      "method": "Joint-based tokenization with hierarchical ordering and stochastic perturbation for skeleton generation, topology-aware joint attention for skinning, and a differentiable optimization-based animation pipeline.",
+      "method_zh": "骨架生成采用基于关节的分词、层级排序与随机扰动；蒙皮采用感知拓扑的关节注意力；动画由可微的基于优化的流程生成。",
+      "keywords": [
+        "auto-rigging",
+        "skinning",
+        "animation",
+        "ByteDance Seed",
+        "open weights"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=DnKx803JHyI"
+      },
+      "images": [
+        "https://chaoyuesong.github.io/Puppeteer/static/images/method/method.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2508.10898",
+        "arxiv": "2508.10898",
+        "venue": "NeurIPS 2025 (Spotlight)",
+        "title": "Puppeteer: Rig and Animate Your 3D Models"
+      },
+      "source_url": "https://chaoyuesong.github.io/Puppeteer/",
+      "code_url": "https://github.com/Seed3D/Puppeteer",
+      "collections": [
+        "ml-conf"
+      ]
+    },
+    {
+      "id": "tripo-ai--tripo-p2",
+      "creator_ids": [
+        "tripo-ai"
+      ],
+      "title": "Tripo P2.0",
+      "year": 2026,
+      "date": "2026-09-06",
+      "field": "assets",
+      "sub": "characters",
+      "modalities": [
+        "mesh",
+        "motion"
+      ],
+      "inputs": [
+        "image",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "authoring",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "Tripo's character model that generates animation-ready characters with clean quad topology from an image or a prompt; it appeared as a preview on 6 September 2026 and was released officially on 1 October 2026.",
+      "description_zh": "Tripo 的角色模型，可由图像或提示词生成带干净四边形拓扑、可直接做动画的角色；2026 年 9 月 6 日发布预览，10 月 1 日正式上线。",
+      "idea_en": "Quad topology with sensible edge flow is what lets a generated character deform properly when it moves; P2.0 targets the gap between a statue and an actor.",
+      "idea_zh": "布线合理的四边形拓扑，是生成角色在运动时能正确变形的前提；P2.0 针对的正是“雕像”与“演员”之间的差距。",
+      "method": "Proprietary; VAST has not published the architecture.",
+      "method_zh": "专有模型；VAST 尚未公开其架构。",
+      "keywords": [
+        "quad topology",
+        "animation-ready",
+        "character generation",
+        "Tripo",
+        "API"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=g4ozFeSBPfo"
+      },
+      "source_url": "https://www.tripo3d.ai/",
+      "api_url": "https://platform.tripo3d.ai/docs"
+    },
+    {
+      "id": "chuan-guo--humanml3d",
+      "creator_ids": [
+        "chuan-guo"
+      ],
+      "title": "HumanML3D",
+      "year": 2022,
+      "date": "2022-06",
+      "field": "assets",
+      "sub": "motion",
+      "modalities": [
+        "motion"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "diversity",
+        "control"
+      ],
+      "kind": "dataset",
+      "description": "Dataset of 14,616 human motion clips paired with 44,970 text descriptions (28.59 hours, drawn from AMASS and HumanAct12), released with a text-to-motion baseline; it is the standard benchmark for text-to-motion.",
+      "description_zh": "包含 14,616 段人体动作与 44,970 条文字描述的数据集（共 28.59 小时，来自 AMASS 和 HumanAct12），并附带一个文生动作基线模型；是文生动作的标准基准。",
+      "idea_en": "Nearly every text-to-motion model since 2022 is trained and scored on it, so its coverage (everyday solo actions, little social interaction) shapes what generated bodies can do.",
+      "idea_zh": "2022 年以来几乎所有文生动作模型都在它上面训练和评测，因此它的覆盖范围（以日常单人动作为主，社交互动很少）决定了生成身体能做什么。",
+      "method": "Crowd-sourced text annotations of AMASS and HumanAct12 motion clips, plus a temporal VAE that predicts motion length from text and then generates the motion.",
+      "method_zh": "对 AMASS 和 HumanAct12 动作片段进行众包文字标注，并提供一个先由文字预测动作长度、再生成动作的时序 VAE。",
+      "specs": "14,616 motions · 44,970 descriptions · 28.59 h",
+      "keywords": [
+        "text-to-motion",
+        "benchmark",
+        "AMASS",
+        "dataset"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=085mBtMeZpg"
+      },
+      "images": [
+        "https://ericguo5513.github.io/text-to-motion/model.png"
+      ],
+      "paper": {
+        "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Guo_Generating_Diverse_and_Natural_3D_Human_Motions_From_Text_CVPR_2022_paper.html",
+        "venue": "CVPR 2022",
+        "title": "Generating Diverse and Natural 3D Human Motions From Text"
+      },
+      "source_url": "https://ericguo5513.github.io/text-to-motion/",
+      "code_url": "https://github.com/EricGuo5513/HumanML3D",
+      "collections": [
+        "cvpr"
+      ]
+    },
+    {
+      "id": "guy-tevet--mdm",
+      "creator_ids": [
+        "guy-tevet"
+      ],
+      "title": "MDM: Human Motion Diffusion Model",
+      "year": 2022,
+      "date": "2022-09-29",
+      "field": "assets",
+      "sub": "motion",
+      "modalities": [
+        "motion"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "diversity",
+        "control"
+      ],
+      "kind": "research",
+      "description": "Diffusion model that generates human motion from text or action labels and supports editing such as in-betweening and body-part completion without retraining.",
+      "description_zh": "由文字或动作标签生成人体动作的扩散模型，无需重新训练即可完成补间、身体部位补全等编辑。",
+      "idea_en": "Brought diffusion to motion and made it editable: keyframes or parts of the body can be fixed while the rest is generated, a basic form of experimental control over a generated body.",
+      "idea_zh": "把扩散模型带入动作生成并让其可编辑：可以固定关键帧或部分身体，其余部分由模型生成——这是对生成身体的一种基本实验控制。",
+      "method": "A transformer-encoder diffusion model over pose sequences that predicts the clean sample instead of the noise, enabling geometric losses on foot contact and velocity; CLIP text conditioning; trained on HumanML3D and KIT-ML.",
+      "method_zh": "在姿态序列上运行的 Transformer 编码器扩散模型，直接预测干净样本而非噪声，从而可以加入足部接触和速度等几何损失；以 CLIP 编码文字条件；在 HumanML3D 和 KIT-ML 上训练。",
+      "keywords": [
+        "text-to-motion",
+        "diffusion",
+        "in-betweening",
+        "editing",
+        "first author's video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=rVkIDj5wgjs"
+      },
+      "images": [
+        "https://guytevet.github.io/mdm-page/static/figures/mdm_arch.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2209.14916",
+        "arxiv": "2209.14916",
+        "venue": "ICLR 2023",
+        "title": "Human Motion Diffusion Model"
+      },
+      "source_url": "https://guytevet.github.io/mdm-page/",
+      "code_url": "https://github.com/GuyTevet/motion-diffusion-model",
+      "collections": [
+        "ml-conf"
+      ]
+    },
+    {
+      "id": "jonathan-tseng--edge",
+      "creator_ids": [
+        "jonathan-tseng"
+      ],
+      "title": "EDGE",
+      "year": 2022,
+      "date": "2022-11-19",
+      "field": "assets",
+      "sub": "motion",
+      "modalities": [
+        "motion"
+      ],
+      "inputs": [
+        "speech"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "control"
+      ],
+      "kind": "research",
+      "description": "Generates dance choreography from music with a diffusion model, with editing controls such as joint-wise constraints, in-betweening and continuation to arbitrary length.",
+      "description_zh": "用扩散模型由音乐生成舞蹈编排，并提供按关节约束、补间和任意长度续写等编辑控制。",
+      "idea_en": "Audio-driven body generation with editable constraints: music (and by extension speech or sound) drives the body while chosen poses stay pinned.",
+      "idea_zh": "可加编辑约束的音频驱动身体生成：音乐（进而语音或声音）驱动身体，同时可以固定选定的姿态。",
+      "method": "A transformer diffusion model conditioned on Jukebox music embeddings, with a contact-consistency loss for foot physics and a new Physical Foot Contact score; trained on AIST++.",
+      "method_zh": "以 Jukebox 音乐嵌入为条件的 Transformer 扩散模型，加入足部接触一致性损失并提出新的物理足部接触评分；在 AIST++ 上训练。",
+      "keywords": [
+        "music-to-dance",
+        "audio-to-motion",
+        "diffusion",
+        "Stanford"
+      ],
+      "video": {
+        "url": "https://edge-dance.github.io/assets/media/gallery1.mp4"
+      },
+      "images": [
+        "https://edge-dance.github.io/assets/media/cover.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2211.10658",
+        "arxiv": "2211.10658",
+        "venue": "CVPR 2023",
+        "title": "EDGE: Editable Dance Generation From Music"
+      },
+      "source_url": "https://edge-dance.github.io/",
+      "code_url": "https://github.com/Stanford-TML/EDGE",
+      "collections": [
+        "cvpr"
+      ]
+    },
+    {
+      "id": "biao-jiang--motiongpt",
+      "creator_ids": [
+        "biao-jiang"
+      ],
+      "title": "MotionGPT",
+      "year": 2023,
+      "date": "2023-06-26",
+      "field": "assets",
+      "sub": "motion",
+      "modalities": [
+        "motion",
+        "dialogue"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "control"
+      ],
+      "kind": "research",
+      "description": "Treats human motion as a foreign language: motion is tokenized and a language model is trained on mixed text and motion tokens, so one model can generate motion from text, caption motion, and predict or in-between motion.",
+      "description_zh": "把人体动作当作一门外语：先把动作分词，再让语言模型在文字与动作混合的词元上训练，于是一个模型就能由文字生成动作、为动作写描述，以及预测或补间动作。",
+      "idea_en": "Puts body motion into the same token stream as language, the step that lets later conversational agents speak and move from one model.",
+      "idea_zh": "让身体动作和语言处在同一个词元序列中，后来的对话智能体由此可以用一个模型同时说话和动作。",
+      "method": "A VQ-VAE motion tokenizer plus a T5 language model pre-trained on a motion–language corpus and instruction-tuned on prompt-based motion tasks.",
+      "method_zh": "VQ-VAE 动作分词器，加上在动作—语言语料上预训练、并在基于提示的动作任务上做指令微调的 T5 语言模型。",
+      "keywords": [
+        "motion-language model",
+        "VQ-VAE",
+        "text-to-motion",
+        "motion captioning",
+        "first author's video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=AH_q9P5dQ-c"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2306.14795",
+        "arxiv": "2306.14795",
+        "venue": "NeurIPS 2023",
+        "title": "MotionGPT: Human Motion as a Foreign Language"
+      },
+      "source_url": "https://motion-gpt.github.io/",
+      "code_url": "https://github.com/OpenMotionLab/MotionGPT",
+      "collections": [
+        "ml-conf"
+      ]
+    },
+    {
+      "id": "chuan-guo--momask",
+      "creator_ids": [
+        "chuan-guo"
+      ],
+      "title": "MoMask",
+      "year": 2023,
+      "date": "2023-11-29",
+      "field": "assets",
+      "sub": "motion",
+      "modalities": [
+        "motion"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "control"
+      ],
+      "kind": "research",
+      "description": "Text-to-motion model that represents motion as hierarchical residual tokens and generates them with masked transformers, reaching higher fidelity on HumanML3D than diffusion baselines and supporting temporal inpainting.",
+      "description_zh": "把动作表示为分层残差词元、并用掩码 Transformer 生成的文生动作模型，在 HumanML3D 上的保真度高于扩散基线，并支持时间维度上的补全。",
+      "idea_en": "Discrete, masked generation gave a large jump in motion quality and remains a strong open baseline for text-driven bodies.",
+      "idea_zh": "离散的掩码生成让动作质量大幅提升，至今仍是文字驱动身体的强力开源基线。",
+      "method": "A residual VQ-VAE quantizes motion into a base layer and residual layers; a masked transformer predicts base tokens from text and a residual transformer fills the finer layers.",
+      "method_zh": "残差 VQ-VAE 把动作量化为基础层和若干残差层；掩码 Transformer 由文字预测基础层词元，残差 Transformer 补全更细的层。",
+      "specs": "HumanML3D FID 0.045 (authors)",
+      "keywords": [
+        "text-to-motion",
+        "residual VQ",
+        "masked modeling",
+        "first author's video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=T5Wqxs37vg0"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2312.00063",
+        "arxiv": "2312.00063",
+        "venue": "CVPR 2024",
+        "title": "MoMask: Generative Masked Modeling of 3D Human Motions"
+      },
+      "source_url": "https://ericguo5513.github.io/momask/",
+      "code_url": "https://github.com/EricGuo5513/momask-codes",
+      "collections": [
+        "cvpr"
+      ]
+    },
+    {
+      "id": "chen-tessler--maskedmimic",
+      "creator_ids": [
+        "chen-tessler",
+        "nvidia"
+      ],
+      "title": "MaskedMimic",
+      "year": 2024,
+      "date": "2024-09-22",
+      "field": "assets",
+      "sub": "motion",
+      "also": [
+        "agents"
+      ],
+      "modalities": [
+        "motion",
+        "behavior"
+      ],
+      "inputs": [
+        "text",
+        "body"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "reactivity",
+        "control",
+        "behavioral-plausibility"
+      ],
+      "kind": "research",
+      "description": "A single physics-based controller for simulated humanoids that fills in full-body motion from any partial description, such as sparse keyframes, VR head and hand tracking, text, or objects to interact with, and runs inside a physics simulator.",
+      "description_zh": "一个用于仿真人形的统一物理控制器，可根据任意不完整的描述（稀疏关键帧、VR 头部与手部追踪、文字或要交互的物体）补全全身动作，并在物理仿真器中运行。",
+      "idea_en": "Physically simulated characters that react to pushes, terrain and objects, steered by whatever constraints a scenario author sets, are closer to behaving actors than kinematic animation clips.",
+      "idea_zh": "会对推挤、地形和物体作出反应、并能按情境设计者设定的任意约束来操控的物理仿真角色，比运动学动画片段更接近真正“会表演”的演员。",
+      "method": "Motion inpainting: a motion-tracking teacher policy is distilled into a conditional VAE policy that takes masked motion descriptions, trained on large motion-capture datasets in NVIDIA Isaac Gym; code is released in ProtoMotions.",
+      "method_zh": "动作补全：把动作追踪教师策略蒸馏为以掩码动作描述为输入的条件 VAE 策略，在 NVIDIA Isaac Gym 中用大规模动捕数据训练；代码在 ProtoMotions 中开源。",
+      "keywords": [
+        "physics-based character",
+        "motion inpainting",
+        "VR tracking",
+        "Isaac Gym",
+        "ProtoMotions"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=rePVn1xDWlo"
+      },
+      "images": [
+        "https://research.nvidia.com/labs/par/projects/maskedmimic/assets/teaser.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2409.14393",
+        "arxiv": "2409.14393",
+        "venue": "ACM TOG (SIGGRAPH Asia 2024)",
+        "title": "MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting"
+      },
+      "source_url": "https://research.nvidia.com/labs/par/projects/maskedmimic/",
+      "code_url": "https://github.com/NVlabs/ProtoMotions",
+      "collections": [
+        "siggraph"
+      ]
+    },
+    {
+      "id": "meta--motivo",
+      "creator_ids": [
+        "meta"
+      ],
+      "title": "Meta Motivo",
+      "year": 2024,
+      "date": "2024-12",
+      "field": "assets",
+      "sub": "motion",
+      "also": [
+        "agents"
+      ],
+      "modalities": [
+        "motion",
+        "behavior"
+      ],
+      "inputs": [
+        "body",
+        "spec"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "reactivity",
+        "adaptation"
+      ],
+      "kind": "model",
+      "description": "Meta FAIR's behavioral foundation model for a physics-simulated humanoid: without further training it can track a motion, reach a goal pose or optimize a reward specified at test time, and it comes with an interactive web demo.",
+      "description_zh": "Meta FAIR 面向物理仿真人形的行为基础模型：无需再训练，就能在测试时追踪一段动作、到达目标姿态或优化指定的奖励，并提供交互式网页演示。",
+      "idea_en": "One pretrained body controller that is prompted with goals instead of retrained per task: a candidate for virtual bodies whose behaviour an experimenter can specify on the fly.",
+      "idea_zh": "一个用目标来“提示”而不必按任务重训的预训练身体控制器：有望成为实验者可以随时设定行为的虚拟身体。",
+      "method": "Forward-backward representations with conditional policy regularization (FB-CPR): unsupervised reinforcement learning in a shared latent space of states, motions and rewards, regularized toward unlabeled motion-capture data, on an SMPL-based humanoid in MuJoCo.",
+      "method_zh": "带条件策略正则化的前向—后向表示（FB-CPR）：在状态、动作与奖励共享的潜空间中进行无监督强化学习，并向无标注动捕数据正则化；在 MuJoCo 中的 SMPL 人形上训练。",
+      "keywords": [
+        "behavioral foundation model",
+        "humanoid control",
+        "zero-shot",
+        "unsupervised RL",
+        "FAIR"
+      ],
+      "video": {
+        "url": "https://metamotivo.metademolab.com/assets/demo_1080p-ccfbbf9f.mp4"
+      },
+      "images": [
+        "https://metamotivo.metademolab.com/bg_share.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2504.11054",
+        "arxiv": "2504.11054",
+        "venue": "ICLR 2025",
+        "title": "Zero-Shot Whole-Body Humanoid Control via Behavioral Foundation Models"
+      },
+      "source_url": "https://metamotivo.metademolab.com/",
+      "code_url": "https://github.com/facebookresearch/metamotivo",
+      "collections": [
+        "ml-conf",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "deepmotion--saymotion",
+      "creator_ids": [
+        "deepmotion"
+      ],
+      "title": "SayMotion",
+      "year": 2023,
+      "date": "2023-12-08",
+      "field": "assets",
+      "sub": "motion",
+      "modalities": [
+        "motion"
+      ],
+      "inputs": [
+        "text",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "authoring"
+      ],
+      "kind": "product",
+      "description": "DeepMotion's text-to-3D-animation tool: describe an action in words and get a 3D character animation that can be refined, looped or combined with motion captured from ordinary video, then exported to common 3D formats.",
+      "description_zh": "DeepMotion 的文生三维动画工具：用文字描述动作即可得到三维角色动画，可继续细化、循环，或与从普通视频中捕捉的动作组合，再导出为常见三维格式。",
+      "idea_en": "An early commercial example of animators typing motions instead of capturing them, useful for quickly blocking out what generated characters do.",
+      "idea_zh": "较早的商业实例：动画师用打字代替动作捕捉，适合快速为生成角色排出动作草稿。",
+      "method": "Proprietary text-to-motion generation, likely combined with DeepMotion's markerless video motion capture (Animate 3D).",
+      "method_zh": "专有的文生动作模型，很可能结合了 DeepMotion 的无标记视频动作捕捉（Animate 3D）。",
+      "keywords": [
+        "text-to-animation",
+        "motion capture",
+        "product"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=6b2Lk3A_dzI"
+      },
+      "source_url": "https://www.deepmotion.com/saymotion"
+    },
+    {
+      "id": "tencent-hunyuan--hy-motion",
+      "creator_ids": [
+        "tencent-hunyuan"
+      ],
+      "title": "HY-Motion 1.0",
+      "year": 2025,
+      "date": "2025-12-30",
+      "field": "assets",
+      "sub": "motion",
+      "modalities": [
+        "motion"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "diversity",
+        "control"
+      ],
+      "kind": "model",
+      "description": "Tencent's open-weight, billion-parameter text-to-motion model that generates 3D human motion for character animation from natural-language prompts across more than 200 motion categories, released with a Lite version and a Hugging Face demo.",
+      "description_zh": "腾讯开源权重的十亿参数文生动作模型，可由自然语言提示生成用于角色动画的三维人体动作，覆盖 200 多个动作类别，并发布了 Lite 版本和 Hugging Face 演示。",
+      "idea_en": "Scaling reaches motion generation: much more data and a larger model give markedly better prompt following, narrowing the gap with text-to-video for bodies.",
+      "idea_zh": "规模化来到了动作生成：更多数据和更大模型显著提升了对提示的遵循，缩小了身体动作与文生视频之间的差距。",
+      "method": "A Diffusion Transformer with flow matching, pretrained on 3,000+ hours of motion, fine-tuned on 400 hours of curated data, then aligned with reinforcement learning from human feedback and reward models.",
+      "method_zh": "基于流匹配的扩散 Transformer，先在 3000 多小时动作数据上预训练，再用 400 小时精选数据微调，最后用人类反馈与奖励模型做强化学习对齐。",
+      "specs": "1B parameters · 3,000+ h pretraining · 200+ motion categories",
+      "keywords": [
+        "text-to-motion",
+        "flow matching",
+        "DiT",
+        "open weights",
+        "RLHF"
+      ],
+      "video": {
+        "url": "https://x.com/TencentHunyuan/status/2005916817987100708"
+      },
+      "images": [
+        "https://huggingface.co/tencent/HY-Motion-1.0/resolve/main/assets/teaser.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2512.23464",
+        "arxiv": "2512.23464",
+        "venue": "Technical report",
+        "title": "HY-Motion 1.0: Scaling Flow Matching Models for Text-To-Motion Generation"
+      },
+      "source_url": "https://hunyuan.tencent.com/motion",
+      "code_url": "https://github.com/Tencent-Hunyuan/HY-Motion-1.0",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "kaifeng-zhao--ardy",
+      "creator_ids": [
+        "kaifeng-zhao",
+        "nvidia"
+      ],
+      "title": "ARDY",
+      "year": 2026,
+      "date": "2026-07-09",
+      "field": "assets",
+      "sub": "motion",
+      "modalities": [
+        "motion"
+      ],
+      "inputs": [
+        "text",
+        "spec"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "control",
+        "reactivity"
+      ],
+      "kind": "research",
+      "description": "Streaming motion generator from NVIDIA and ETH Zürich that produces 3D human motion in real time while accepting new text prompts and kinematic constraints on the fly: root paths, waypoints, full-body keyframes and sparse joint targets.",
+      "description_zh": "英伟达与苏黎世联邦理工学院的流式动作生成模型，可实时生成三维人体动作，并能随时接收新的文字提示和运动学约束：根轨迹、路径点、全身关键帧和稀疏关节目标。",
+      "idea_en": "Moves text-to-motion from offline clips to a live, steerable body, the property a generated virtual human needs when a participant changes the situation mid-scene.",
+      "idea_zh": "把文生动作从离线片段推进到实时、可操控的身体——当参与者在场景中途改变情境时，生成的虚拟人正需要这种能力。",
+      "method": "A two-stage autoregressive transformer denoiser over a hybrid representation (explicit root features plus a latent body embedding), with variable history context and long-horizon constraint conditioning, trained on a large motion-capture corpus.",
+      "method_zh": "基于混合表示（显式根节点特征加潜在身体嵌入）的两阶段自回归 Transformer 去噪器，支持可变长度的历史上下文和长时程约束条件，在大规模动捕语料上训练。",
+      "keywords": [
+        "real-time motion generation",
+        "autoregressive diffusion",
+        "kinematic constraints",
+        "streaming",
+        "NVIDIA"
+      ],
+      "video": {
+        "url": "https://research.nvidia.com/labs/sil/projects/ardy/assets/videos/ardy_siggraph_video_cam_ready.mp4"
+      },
+      "images": [
+        "https://raw.githubusercontent.com/nv-tlabs/ardy/main/assets/banner.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2607.08741",
+        "arxiv": "2607.08741",
+        "venue": "ACM TOG (SIGGRAPH 2026)",
+        "title": "ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation"
+      },
+      "source_url": "https://research.nvidia.com/labs/sil/projects/ardy/",
+      "code_url": "https://github.com/nv-tlabs/ardy",
+      "collections": [
+        "siggraph",
+        "trend-realtime",
+        "trend-open-weights"
+      ]
+    }
+  ],
+  "leads": [
+    {
+      "name": "Meshy-5 (2025-03-27 preview)",
+      "why": "Separate Meshy launch with its own video (di8A-S2VYP0); left out to keep Meshy to its main milestones.",
+      "link": "https://www.youtube.com/watch?v=di8A-S2VYP0",
+      "found_via": "meshy",
+      "status": "open"
+    },
+    {
+      "name": "Meshy-6 (2026-01-18)",
+      "why": "Geometry/hard-surface upgrade, Low Poly mode, multi-colour printing; no official launch video found.",
+      "link": "https://www.meshy.ai/blog/meshy-6-launch",
+      "found_via": "meshy",
+      "status": "no_media"
+    },
+    {
+      "name": "Hyper3D Agentic Mode (2026-10-10)",
+      "why": "Deemos 'vibe modeling' agent for Rodin; very recent, could join Meshy 3D Agent as an agentic-3D signal.",
+      "link": "https://www.youtube.com/watch?v=heJjHOAUWLU",
+      "found_via": "deemos",
+      "status": "open"
+    },
+    {
+      "name": "Hyper3D WorldGen",
+      "why": "Deemos scene-level generation of editable 3D worlds with separate objects; belongs to worlds-3d.",
+      "link": "https://www.youtube.com/watch?v=-rhncMVVtGM",
+      "found_via": "deemos",
+      "status": "open"
+    },
+    {
+      "name": "Rodin Gen-1.5 (2025-03-11)",
+      "why": "Intermediate Rodin release with its own video.",
+      "link": "https://www.youtube.com/watch?v=Wzq22lHmCAc",
+      "found_via": "deemos",
+      "status": "open"
+    },
+    {
+      "name": "TripoSG",
+      "why": "Open 1.5B rectified-flow shape model from VAST (Feb 2025, MIT).",
+      "link": "https://github.com/VAST-AI-Research/TripoSG",
+      "found_via": "tripo-ai",
+      "status": "open"
+    },
+    {
+      "name": "Tripo H3.1 HD model (2026-05-17)",
+      "why": "Tripo's 2026 high-detail model; Meshy's 7.1 benchmark compares against 'Tripo 3.1'.",
+      "link": "https://www.youtube.com/watch?v=iwplx75jVes",
+      "found_via": "tripo-ai",
+      "status": "open"
+    },
+    {
+      "name": "AniGen (arXiv 2604.08746)",
+      "why": "Unified animatable 3D asset generation from VAST authors; possibly related to Tripo P2.0.",
+      "link": "https://arxiv.org/abs/2604.08746",
+      "found_via": "tripo-ai",
+      "status": "open"
+    },
+    {
+      "name": "Hunyuan3D 2.1 / 2.5 / Part / Omni",
+      "why": "Further Hunyuan3D releases (open PBR, part generation, controllable generation).",
+      "link": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1",
+      "found_via": "tencent-hunyuan",
+      "status": "open"
+    },
+    {
+      "name": "Hunyuan3D-Buffalo 1.0 (2026-08)",
+      "why": "Unified multimodal model for 3D generation, understanding and editing; has a project-page video.",
+      "link": "https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/",
+      "found_via": "tencent-hunyuan",
+      "status": "open"
+    },
+    {
+      "name": "HY 3D Studio global launch (2026-03-12)",
+      "why": "End-to-end AI 3D production workspace (image to 3D to topology, UVs, texturing, rigging, animation).",
+      "link": "https://x.com/TencentHunyuan/status/2031933607254901084",
+      "found_via": "tencent-hunyuan",
+      "status": "no_media"
+    },
+    {
+      "name": "R-DMesh (SIGGRAPH 2026)",
+      "why": "Video-guided 3D animation via rectified dynamic mesh flow, Tencent Hunyuan; teaser video on project page.",
+      "link": "https://r-dmesh.github.io/",
+      "found_via": "tencent-hunyuan",
+      "status": "open"
+    },
+    {
+      "name": "Hunyuan3D-WorldClaw (2026-08)",
+      "why": "Agentic 3D open-world generation at scale; belongs to worlds-3d.",
+      "link": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+      "found_via": "tencent-hunyuan",
+      "status": "open"
+    },
+    {
+      "name": "Step1X-3D (StepFun, 2025-05)",
+      "why": "Open textured 3D asset generator from StepFun; no official video found.",
+      "link": "https://github.com/stepfun-ai/Step1X-3D",
+      "found_via": "seed",
+      "status": "no_media"
+    },
+    {
+      "name": "CubePart (Roblox, 2026-05)",
+      "why": "Open-vocabulary part-controllable 3D generator, open-sourced; official video Afp_jkabSL0.",
+      "link": "https://cubepart.github.io/",
+      "found_via": "roblox",
+      "status": "open"
+    },
+    {
+      "name": "ActionMesh (Meta, 2026-01)",
+      "why": "Animated 3D mesh generation with temporal 3D diffusion; belongs to spatial-4d (generative-4d).",
+      "link": "https://remysabathier.github.io/actionmesh/",
+      "found_via": "meta",
+      "status": "open"
+    },
+    {
+      "name": "InstantMesh (Tencent ARC, 2024)",
+      "why": "Widely used open sparse-view LRM for image-to-mesh.",
+      "link": "https://github.com/TencentARC/InstantMesh",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "SPAR3D (Stability AI, 2025-01)",
+      "why": "Point-cloud-then-mesh single-image reconstruction with point editing; author video mlO3Nc3Nsng.",
+      "link": "https://spar3d.github.io/",
+      "found_via": "stability-ai",
+      "status": "open"
+    },
+    {
+      "name": "Shap-E / Point-E (OpenAI)",
+      "why": "Early OpenAI 3D generative models (2022–2023).",
+      "link": "https://github.com/openai/shap-e",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "CSM (Common Sense Machines)",
+      "why": "Image-to-3D and world-building product; not checked this round.",
+      "link": "https://www.csm.ai/",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "Kimodo (NVIDIA)",
+      "why": "Offline controllable motion generator cited by ARDY as its offline counterpart.",
+      "link": "https://research.nvidia.com/labs/sil/projects/ardy/",
+      "found_via": "nvidia",
+      "status": "open"
+    },
+    {
+      "name": "VideoMDM (2026-06)",
+      "why": "3D human motion generation learned from 2D video supervision.",
+      "link": "https://videomdm.github.io/",
+      "found_via": "guy-tevet",
+      "status": "open"
+    },
+    {
+      "name": "RigMo (Snap Research, 2026-01)",
+      "why": "Unified rig and motion learning for generative animation; YouTube 0H0lsM3USVM.",
+      "link": "https://rigmo-page.github.io/",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "Uthana",
+      "why": "Text-to-motion and video-to-motion product for game animation.",
+      "link": "https://www.youtube.com/watch?v=1SriSASPIWY",
+      "found_via": "deepmotion",
+      "status": "open"
+    },
+    {
+      "name": "Hi3D 3.0",
+      "why": "Image-to-3D model listed in Meshy's 7.1 benchmark; identity and official page not yet confirmed.",
+      "link": "https://www.meshy.ai/blog/meshy-7-1-launch",
+      "found_via": "meshy",
+      "status": "open"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "tencent-hunyuan--hunyuan3d-2": {
+    "zh": "混元3D 2.0",
+    "src": "established"
+  },
+  "tencent-hunyuan--hunyuan3d-3": {
+    "zh": "混元3D 3.0",
+    "src": "established"
+  },
+  "tencent-hunyuan--hy-motion": {
+    "zh": "混元 HY-Motion 1.0",
+    "src": "established"
+  },
+  "yicong-hong--lrm": {
+    "zh": "LRM：大型重建模型",
+    "src": "translated"
+  },
+  "guy-tevet--mdm": {
+    "zh": "MDM：人体动作扩散模型",
+    "src": "translated"
+  },
+  "meshy--meshy-3d-agent": {
+    "zh": "Meshy 3D 智能体",
+    "src": "translated"
+  },
+  "meshy--animation": {
+    "zh": "Meshy 自动绑定与动画",
+    "src": "translated"
+  },
+  "roblox--cube-4d": {
+    "zh": "Cube 4D 生成",
+    "src": "translated"
+  },
+  "anything-world--animate-anything": {
+    "zh": "Animate Anything（万物动画）",
+    "src": "translated"
+  },
+  "meta--sam-3d": {
+    "zh": "SAM 3D（物体与人体）",
+    "src": "translated"
+  },
+  "luma-ai--genie": {
+    "zh": "Genie（Luma 文生三维）",
+    "src": "translated"
+  },
+  "longwen-zhang--clay": {
+    "zh": "CLAY（Rodin Gen-1）",
+    "src": "keep"
+  },
+  "meshy--meshy-7": {
+    "zh": "Meshy 7",
+    "src": "keep"
+  }
+}

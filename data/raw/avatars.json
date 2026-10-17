@@ -1,0 +1,3330 @@
+{
+ "batch": "avatars",
+ "creators": [
+  {
+   "id": "tavus",
+   "name": "Tavus",
+   "kind": "company",
+   "role": "Real-time conversational video AI company",
+   "bio": "Tavus builds models for face-to-face AI conversation: Phoenix (rendering), Raven (perception), Sparrow (turn-taking) and, since October 2026, Griffin, a unified full-duplex video-to-video model. Its Conversational Video Interface API and consumer PALs run on these models.",
+   "why": "Its model line is the clearest commercial trajectory from lip-synced video replies to full-duplex audio-visual humans.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://www.tavus.io",
+    "x": "https://x.com/tavus"
+   },
+   "role_zh": "实时对话视频 AI 公司",
+   "bio_zh": "Tavus 开发面对面 AI 对话所需的模型：Phoenix（渲染）、Raven（感知）、Sparrow（轮流发言），以及 2026 年 10 月发布的统一全双工视频到视频模型 Griffin。其对话视频接口（CVI）API 和面向个人用户的 PALs 都基于这些模型。",
+   "why_zh": "它的模型序列最清楚地展示了从对口型视频回复走向全双工视听虚拟人的商业路径。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "San Francisco, USA",
+   "based_zh": "美国旧金山"
+  },
+  {
+   "id": "heygen",
+   "name": "HeyGen",
+   "kind": "company",
+   "role": "AI video avatar platform",
+   "bio": "HeyGen offers AI avatar video creation and, through LiveAvatar, a real-time avatar streaming API.",
+   "why": "One of the most widely used avatar platforms, it shows what real-time avatars cost and how they scale in deployment.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://www.heygen.com"
+   },
+   "role_zh": "AI 视频虚拟人平台",
+   "bio_zh": "HeyGen 提供 AI 虚拟人视频制作，并通过 LiveAvatar 提供实时虚拟人流式 API。",
+   "why_zh": "作为使用最广的虚拟人平台之一，它展示了实时虚拟人在部署中的成本与规模。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Los Angeles, USA",
+   "based_zh": "美国洛杉矶"
+  },
+  {
+   "id": "synthesia",
+   "name": "Synthesia",
+   "kind": "company",
+   "role": "Enterprise AI video and avatar platform",
+   "bio": "Synthesia makes AI avatar videos for corporate training and communication, and in 2026 added real-time Interactive Avatars and the Sessions platform for roleplay and interviews.",
+   "why": "Its move from scripted training videos to two-way roleplay with avatars is a direct route into training and assessment settings.",
+   "disciplines": [
+    "ml",
+    "media-art"
+   ],
+   "links": {
+    "site": "https://www.synthesia.io"
+   },
+   "role_zh": "企业级 AI 视频与虚拟人平台",
+   "bio_zh": "Synthesia 为企业培训和内部沟通制作 AI 虚拟人视频，2026 年加入实时交互虚拟人和用于角色扮演与访谈的 Sessions 平台。",
+   "why_zh": "它从脚本化培训视频转向与虚拟人双向角色扮演，直接进入了培训与评估场景。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "London, UK",
+   "based_zh": "英国伦敦"
+  },
+  {
+   "id": "d-id",
+   "name": "D-ID",
+   "kind": "company",
+   "role": "Digital human and visual AI agent company",
+   "bio": "D-ID animates faces from photos and offers real-time Visual AI Agents; its V4 Expressive avatars (2026) target interactive and scripted use.",
+   "why": "An early photo-to-talking-head company that now sells real-time conversational agents.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://www.d-id.com"
+   },
+   "role_zh": "数字人与可视化 AI 智能体公司",
+   "bio_zh": "D-ID 能让照片中的人脸动起来，并提供实时的可视化 AI 智能体；2026 年推出面向交互与脚本场景的 V4 Expressive 虚拟人。",
+   "why_zh": "较早做照片说话头像的公司，如今销售实时对话智能体。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Tel Aviv, Israel",
+   "based_zh": "以色列特拉维夫"
+  },
+  {
+   "id": "anam",
+   "name": "Anam",
+   "kind": "company",
+   "role": "Real-time interactive avatar company",
+   "bio": "Anam builds the CARA family of real-time avatar diffusion models and an API for face-to-face AI agents.",
+   "why": "Its CARA models and Director Notes expose how an avatar's performance can be directed while it talks.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://anam.ai"
+   },
+   "role_zh": "实时交互虚拟人公司",
+   "bio_zh": "Anam 开发 CARA 系列实时虚拟人扩散模型，并提供面对面 AI 智能体的 API。",
+   "why_zh": "它的 CARA 模型与 Director Notes 展示了如何在虚拟人说话时指导它的表演。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "London, UK",
+   "based_zh": "英国伦敦"
+  },
+  {
+   "id": "lemonslice",
+   "name": "LemonSlice",
+   "kind": "company",
+   "role": "Interactive avatar model company",
+   "bio": "LemonSlice builds real-time video diffusion models for interactive avatars (LemonSlice-2, 2025; Character World Model-1, 2026) that animate any character from one image.",
+   "why": "It frames the avatar as a 'character world model' that generates body, hands and scene, not only a face.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://lemonslice.com"
+   },
+   "role_zh": "交互式虚拟人模型公司",
+   "bio_zh": "LemonSlice 开发用于交互式虚拟人的实时视频扩散模型（2025 年的 LemonSlice-2、2026 年的 Character World Model-1），可从一张图像驱动任意角色。",
+   "why_zh": "它把虚拟人定义为“角色世界模型”：生成的是身体、双手和场景，而不只是一张脸。",
+   "connected_to": [],
+   "discovered_via": "anam",
+   "based": "San Francisco, USA",
+   "based_zh": "美国旧金山"
+  },
+  {
+   "id": "character-ai",
+   "name": "Character.AI",
+   "kind": "company",
+   "role": "Consumer AI character platform",
+   "bio": "Character.AI runs a large consumer platform for chatting with AI characters and develops video models (AvatarFX, TalkingMachines) to give them faces.",
+   "why": "Its scale makes it a test of what happens when millions of people talk to animated characters.",
+   "disciplines": [
+    "ml",
+    "games"
+   ],
+   "links": {
+    "site": "https://character.ai"
+   },
+   "role_zh": "面向大众的 AI 角色平台",
+   "bio_zh": "Character.AI 运营一个大型 AI 角色聊天平台，并开发视频模型（AvatarFX、TalkingMachines）为角色配上面孔。",
+   "why_zh": "它的用户规模让人看到：当数以百万计的人与会动的角色交谈时会发生什么。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Menlo Park, USA",
+   "based_zh": "美国门洛帕克"
+  },
+  {
+   "id": "hedra",
+   "name": "Hedra",
+   "kind": "company",
+   "role": "Generative character video company",
+   "bio": "Hedra makes audio-driven character video models (Character-3) and a studio for talking characters.",
+   "why": "It turned single-image, audio-driven character animation into a widely used creator tool.",
+   "disciplines": [
+    "ml",
+    "media-art"
+   ],
+   "links": {
+    "site": "https://www.hedra.com"
+   },
+   "role_zh": "生成式角色视频公司",
+   "bio_zh": "Hedra 开发音频驱动的角色视频模型（Character-3）和制作会说话角色的工作室。",
+   "why_zh": "它把单图加音频驱动的角色动画做成了广泛使用的创作工具。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "San Francisco, USA",
+   "based_zh": "美国旧金山"
+  },
+  {
+   "id": "microsoft",
+   "name": "Microsoft",
+   "kind": "company",
+   "role": "Technology company (Microsoft Research)",
+   "bio": "Microsoft Research Asia's VASA-1 (2024) generates lifelike talking faces in real time; Microsoft later used it for Copilot Portraits.",
+   "why": "VASA-1 was the first widely seen real-time, single-photo talking face with natural head motion.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://www.microsoft.com/en-us/research/"
+   },
+   "role_zh": "科技公司（微软研究院）",
+   "bio_zh": "微软亚洲研究院的 VASA-1（2024）能实时生成逼真的说话人脸，微软后来把它用于 Copilot Portraits。",
+   "why_zh": "VASA-1 是第一个广为人知的、只需一张照片即可实时生成带自然头部动作的说话人脸的系统。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Redmond, USA",
+   "based_zh": "美国雷德蒙德"
+  },
+  {
+   "id": "meta",
+   "name": "Meta",
+   "kind": "company",
+   "role": "Technology company (Meta AI, FAIR, Reality Labs)",
+   "bio": "Meta's Codec Avatars Lab builds photorealistic, drivable 3D avatars for VR telepresence, and FAIR releases dyadic behaviour models and datasets such as Seamless Interaction.",
+   "why": "It is the main industrial lab for photoreal 3D avatars and for open data on face-to-face behaviour.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://ai.meta.com",
+    "github": "https://github.com/facebookresearch"
+   },
+   "role_zh": "科技公司（Meta AI、FAIR、Reality Labs）",
+   "bio_zh": "Meta 的 Codec Avatars 实验室为 VR 远程临场研发照片级、可驱动的三维化身，FAIR 发布双人互动行为模型与数据集（如 Seamless Interaction）。",
+   "why_zh": "它是照片级三维化身和面对面行为开放数据的主要业界实验室。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Menlo Park, USA",
+   "based_zh": "美国门洛帕克"
+  },
+  {
+   "id": "nvidia",
+   "name": "NVIDIA",
+   "kind": "company",
+   "role": "GPU and AI computing company",
+   "bio": "NVIDIA's ACE suite includes Audio2Face-3D, open-sourced in 2025, and its research labs publish avatar benchmarks such as VideoFDB.",
+   "why": "It supplies the facial-animation tooling game and XR developers use, and an independent benchmark for full-duplex avatars.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://www.nvidia.com",
+    "github": "https://github.com/NVIDIA"
+   },
+   "role_zh": "GPU 与 AI 计算公司",
+   "bio_zh": "NVIDIA 的 ACE 套件包括 2025 年开源的 Audio2Face-3D，其研究实验室还发布了 VideoFDB 等虚拟人评测基准。",
+   "why_zh": "它为游戏与 XR 开发者提供面部动画工具，也提供全双工虚拟人的独立评测基准。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Santa Clara, USA",
+   "based_zh": "美国圣克拉拉"
+  },
+  {
+   "id": "apple",
+   "name": "Apple",
+   "kind": "company",
+   "role": "Consumer technology company",
+   "bio": "Apple's Vision Pro creates a Persona, a 3D avatar of the wearer reconstructed from a face scan and driven by the headset's sensors.",
+   "why": "Personas are the most widely shipped photoreal avatars driven live by headset tracking.",
+   "disciplines": [
+    "graphics",
+    "hci"
+   ],
+   "links": {
+    "site": "https://www.apple.com"
+   },
+   "role_zh": "消费科技公司",
+   "bio_zh": "Apple Vision Pro 会为佩戴者生成 Persona：一个由面部扫描重建、由头显传感器驱动的三维化身。",
+   "why_zh": "Persona 是出货量最大的、由头显追踪实时驱动的照片级化身。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Cupertino, USA",
+   "based_zh": "美国库比蒂诺"
+  },
+  {
+   "id": "epic-games",
+   "name": "Epic Games",
+   "kind": "company",
+   "role": "Game and engine company (Unreal Engine)",
+   "bio": "Epic Games makes Unreal Engine and MetaHuman, the tools most real-time productions use to build and animate realistic digital humans.",
+   "why": "MetaHuman is the default pipeline for authored, rig-based digital humans in games and XR.",
+   "disciplines": [
+    "graphics",
+    "games"
+   ],
+   "links": {
+    "site": "https://www.unrealengine.com"
+   },
+   "role_zh": "游戏与引擎公司（Unreal Engine）",
+   "bio_zh": "Epic Games 开发 Unreal Engine 和 MetaHuman，多数实时制作都用它们来构建并驱动逼真的数字人。",
+   "why_zh": "MetaHuman 是游戏与 XR 中基于绑定的人工制作数字人的默认流程。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Cary, USA",
+   "based_zh": "美国卡里"
+  },
+  {
+   "id": "bytedance-seed",
+   "name": "ByteDance",
+   "kind": "company",
+   "role": "Technology company (ByteDance Seed and Intelligent Creation teams)",
+   "bio": "ByteDance's research teams publish human-animation models such as Loopy, INFP, OmniHuman-1 and OmniHuman-1.5, deployed in Dreamina / Jimeng and BytePlus.",
+   "why": "Its OmniHuman line set the quality bar for single-image, audio-driven full-body human video in 2025.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://seed.bytedance.com"
+   },
+   "role_zh": "科技公司（字节跳动 Seed 与智能创作团队）",
+   "bio_zh": "字节跳动的研究团队发布了 Loopy、INFP、OmniHuman-1 与 OmniHuman-1.5 等人物动画模型，并在即梦 / Dreamina 和 BytePlus 中上线。",
+   "why_zh": "OmniHuman 系列在 2025 年树立了单图音频驱动全身人物视频的质量标杆。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "name_zh": "字节跳动 Seed",
+   "based": "Beijing, China",
+   "based_zh": "中国北京"
+  },
+  {
+   "id": "kuaishou",
+   "name": "Kuaishou",
+   "kind": "company",
+   "role": "Short-video company (Kling team)",
+   "bio": "Kuaishou develops the Kling video models and open-sourced LivePortrait; its Kling team also published MIDAS, a real-time autoregressive digital human.",
+   "why": "LivePortrait became one of the most used open portrait-animation tools.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://www.kuaishou.com",
+    "github": "https://github.com/KwaiVGI"
+   },
+   "role_zh": "短视频公司（可灵团队）",
+   "bio_zh": "快手开发可灵视频模型并开源了 LivePortrait，其可灵团队还发布了实时自回归数字人模型 MIDAS。",
+   "why_zh": "LivePortrait 成为使用最多的开源人像动画工具之一。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "name_zh": "快手 / 可灵",
+   "based": "Beijing, China",
+   "based_zh": "中国北京"
+  },
+  {
+   "id": "tencent-hunyuan",
+   "name": "Tencent Hunyuan",
+   "kind": "lab",
+   "role": "Tencent's foundation model team",
+   "bio": "Tencent Hunyuan releases open video, 3D and world models, including HunyuanVideo-Avatar for audio-driven multi-character animation.",
+   "why": "Its open weights make multi-character avatar animation available to labs.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://hunyuan.tencent.com",
+    "github": "https://github.com/Tencent-Hunyuan"
+   },
+   "role_zh": "腾讯基础模型团队",
+   "bio_zh": "腾讯混元发布开源的视频、三维与世界模型，其中包括用于音频驱动多角色动画的 HunyuanVideo-Avatar。",
+   "why_zh": "它的开源权重让实验室也能做多角色虚拟人动画。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "name_zh": "腾讯混元",
+   "based": "Shenzhen, China",
+   "based_zh": "中国深圳"
+  },
+  {
+   "id": "alibaba-tongyi",
+   "name": "Alibaba Tongyi Lab",
+   "kind": "lab",
+   "role": "Alibaba's foundation model lab",
+   "bio": "Alibaba Tongyi Lab builds the Wan video models and avatar research such as EMO, LAM and Wan-Streamer.",
+   "why": "Wan-Streamer (2026) is one of the first single-transformer, full-duplex audio-visual interaction models.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://tongyi.aliyun.com",
+    "github": "https://github.com/Wan-Video"
+   },
+   "role_zh": "阿里巴巴基础模型实验室",
+   "bio_zh": "阿里通义实验室开发通义万相（Wan）视频模型，以及 EMO、LAM、Wan-Streamer 等虚拟人研究。",
+   "why_zh": "Wan-Streamer（2026）是最早一批在单个 Transformer 中实现全双工视听交互的模型之一。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "name_zh": "阿里通义",
+   "based": "Hangzhou, China",
+   "based_zh": "中国杭州"
+  },
+  {
+   "id": "alibaba-quark",
+   "name": "Alibaba Quark",
+   "kind": "lab",
+   "role": "Alibaba's Quark / Qwen Applications research team",
+   "bio": "The Quark team in Alibaba's Qwen Applications Business Group released Live Avatar, a streaming 14B avatar model, with USTC.",
+   "why": "Live Avatar is an open baseline for real-time, infinite-length avatar streaming that later commercial models compare against.",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "github": "https://github.com/Alibaba-Quark"
+   },
+   "role_zh": "阿里巴巴夸克 / 千问应用研究团队",
+   "bio_zh": "阿里巴巴千问应用事业群的夸克团队与中国科学技术大学合作发布了 14B 流式虚拟人模型 Live Avatar。",
+   "why_zh": "Live Avatar 是实时、无限时长虚拟人流式生成的开源基线，后来的商业模型也拿它做对比。",
+   "connected_to": [
+    "alibaba-tongyi"
+   ],
+   "discovered_via": "tavus",
+   "name_zh": "阿里巴巴夸克",
+   "based": "Hangzhou, China",
+   "based_zh": "中国杭州"
+  },
+  {
+   "id": "soul-ai-lab",
+   "name": "Soul AI Lab",
+   "kind": "lab",
+   "role": "AI lab of the Soul social app",
+   "bio": "Soul AI Lab, the research arm of the Soul social platform, open-sourced SoulX-FlashTalk, a 14B real-time streaming avatar model.",
+   "why": "A social app open-sourcing a real-time avatar model shows where conversational companions are heading.",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "github": "https://github.com/Soul-AILab",
+    "huggingface": "https://huggingface.co/Soul-AILab"
+   },
+   "role_zh": "社交应用 Soul 的 AI 实验室",
+   "bio_zh": "Soul AI Lab 是社交平台 Soul 的研究部门，开源了 14B 实时流式虚拟人模型 SoulX-FlashTalk。",
+   "why_zh": "一家社交应用开源实时虚拟人模型，说明对话陪伴正在走向何处。",
+   "connected_to": [],
+   "discovered_via": "tavus",
+   "name_zh": "Soul AI Lab",
+   "based": "Shanghai, China",
+   "based_zh": "中国上海"
+  },
+  {
+   "id": "meituan",
+   "name": "Meituan",
+   "kind": "company",
+   "role": "Technology company (MeiGen / LongCat teams)",
+   "bio": "Meituan's MeiGen team released MultiTalk and InfiniteTalk, open models for audio-driven talking video and dubbing.",
+   "why": "InfiniteTalk is a widely used open model for long, audio-driven full-body talking video.",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://www.meituan.com",
+    "github": "https://github.com/MeiGen-AI"
+   },
+   "role_zh": "科技公司（MeiGen / LongCat 团队）",
+   "bio_zh": "美团的 MeiGen 团队发布了 MultiTalk 和 InfiniteTalk，这是用于音频驱动说话视频与配音的开源模型。",
+   "why_zh": "InfiniteTalk 是被广泛使用的长时音频驱动全身说话视频开源模型。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "name_zh": "美团",
+   "based": "Beijing, China",
+   "based_zh": "中国北京"
+  },
+  {
+   "id": "avaturn-live",
+   "name": "Avaturn Live",
+   "kind": "company",
+   "role": "Real-time interactive avatar company",
+   "bio": "Avaturn Live builds real-time interactive avatars and released AVTR-1, an open stack with model weights, renderer and serving backend.",
+   "why": "AVTR-1 is a rare fully open stack (weights and serving) for real-time avatar conversation.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://avaturn.live",
+    "github": "https://github.com/avaturn-live"
+   },
+   "role_zh": "实时交互虚拟人公司",
+   "bio_zh": "Avaturn Live 开发实时交互虚拟人，发布了包含模型权重、渲染器和服务后端的开源方案 AVTR-1。",
+   "why_zh": "AVTR-1 是少见的、从权重到服务都开放的实时虚拟人对话方案。",
+   "connected_to": [],
+   "discovered_via": "anam"
+  },
+  {
+   "id": "k-r-prajwal",
+   "name": "K R Prajwal",
+   "kind": "person",
+   "role": "Researcher in lip sync and speech-driven video",
+   "bio": "K R Prajwal, then at IIIT Hyderabad, is first author of Wav2Lip (ACM Multimedia 2020).",
+   "why": "Wav2Lip's lip-sync discriminator became the common baseline and metric (LSE) for talking-face work.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "github": "https://github.com/Rudrabha/Wav2Lip"
+   },
+   "role_zh": "唇形同步与语音驱动视频研究者",
+   "bio_zh": "K R Prajwal 当时在印度海得拉巴国际信息技术学院（IIIT Hyderabad），是 Wav2Lip（ACM Multimedia 2020）的第一作者。",
+   "why_zh": "Wav2Lip 的唇形判别器成为说话人脸研究的通用基线和评价指标（LSE）。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Hyderabad, India",
+   "based_zh": "印度海得拉巴"
+  },
+  {
+   "id": "evonne-ng",
+   "name": "Evonne Ng",
+   "kind": "person",
+   "role": "Researcher in dyadic behaviour and gesture generation",
+   "bio": "Evonne Ng (UC Berkeley, later Meta) led Learning to Listen (CVPR 2022) and Audio2Photoreal (2024), models of how a listener's face and body respond in conversation.",
+   "why": "Her work treats the listener, not only the speaker, as something to generate.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://evonneng.github.io"
+   },
+   "role_zh": "双人互动行为与手势生成研究者",
+   "bio_zh": "Evonne Ng（加州大学伯克利分校，后加入 Meta）主导了 Learning to Listen（CVPR 2022）和 Audio2Photoreal（2024），建模对话中倾听者的脸和身体如何回应。",
+   "why_zh": "她的工作把倾听者（而不只是说话者）也当作生成对象。",
+   "connected_to": [
+    "meta"
+   ],
+   "discovered_via": "seed",
+   "based": "California, USA",
+   "based_zh": "美国加州"
+  },
+  {
+   "id": "shunsuke-saito",
+   "name": "Shunsuke Saito",
+   "kind": "person",
+   "role": "Research scientist, Meta Codec Avatars Lab",
+   "bio": "Shunsuke Saito leads research on Gaussian Codec Avatars at Meta, including Relightable Gaussian Codec Avatars (CVPR 2024) and Large-scale Codec Avatars (CVPR 2026).",
+   "why": "He bridges studio-captured photoreal avatars and generalizable, feed-forward avatar models.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://shunsukesaito.github.io"
+   },
+   "role_zh": "Meta Codec Avatars 实验室研究科学家",
+   "bio_zh": "Shunsuke Saito 在 Meta 主导高斯 Codec Avatars 研究，包括可重光照高斯 Codec Avatars（CVPR 2024）和大规模 Codec Avatars（CVPR 2026）。",
+   "why_zh": "他把影棚采集的照片级化身与可泛化的前馈化身模型连接起来。",
+   "connected_to": [
+    "meta"
+   ],
+   "discovered_via": "seed",
+   "based": "Pittsburgh, USA",
+   "based_zh": "美国匹兹堡"
+  },
+  {
+   "id": "junxuan-li",
+   "name": "Junxuan Li",
+   "kind": "person",
+   "role": "Research scientist, Meta Codec Avatars Lab",
+   "bio": "Junxuan Li is first author of URAvatar (SIGGRAPH Asia 2024) and Large-scale Codec Avatars (CVPR 2026).",
+   "why": "His work moves Codec Avatars from studio capture toward phone scans and world-scale populations.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://junxuan-li.github.io"
+   },
+   "role_zh": "Meta Codec Avatars 实验室研究科学家",
+   "bio_zh": "Junxuan Li 是 URAvatar（SIGGRAPH Asia 2024）和大规模 Codec Avatars（CVPR 2026）的第一作者。",
+   "why_zh": "他的工作让 Codec Avatars 从影棚采集走向手机扫描和覆盖全球人群的规模。",
+   "connected_to": [
+    "meta"
+   ],
+   "discovered_via": "seed",
+   "based": "Pittsburgh, USA",
+   "based_zh": "美国匹兹堡"
+  },
+  {
+   "id": "shenhan-qian",
+   "name": "Shenhan Qian",
+   "kind": "person",
+   "role": "PhD researcher, Technical University of Munich",
+   "bio": "Shenhan Qian, in Matthias Niessner's group at TUM, is first author of GaussianAvatars (CVPR 2024).",
+   "why": "GaussianAvatars made rigged 3D Gaussian head avatars a standard representation.",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {
+    "site": "https://shenhanqian.github.io"
+   },
+   "role_zh": "慕尼黑工业大学博士研究者",
+   "bio_zh": "Shenhan Qian 在慕尼黑工业大学 Matthias Niessner 组，是 GaussianAvatars（CVPR 2024）的第一作者。",
+   "why_zh": "GaussianAvatars 让绑定到网格的三维高斯头部化身成为常用表示。",
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Munich, Germany",
+   "based_zh": "德国慕尼黑"
+  },
+  {
+   "id": "taekyung-ki",
+   "name": "Taekyung Ki",
+   "kind": "person",
+   "role": "PhD researcher, KAIST",
+   "bio": "Taekyung Ki is first author of Avatar Forcing (CVPR 2026), a real-time interactive head avatar that reacts to the user's voice and motion.",
+   "why": "Avatar Forcing conditions the avatar on the user, not just on its own speech.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://taekyungki.github.io",
+    "github": "https://github.com/TaekyungKi"
+   },
+   "role_zh": "韩国科学技术院（KAIST）博士研究者",
+   "bio_zh": "Taekyung Ki 是 Avatar Forcing（CVPR 2026）的第一作者，该模型是能对用户声音与动作作出反应的实时交互头部虚拟人。",
+   "why_zh": "Avatar Forcing 让虚拟人以用户为条件，而不只是以它自己的语音为条件。",
+   "connected_to": [],
+   "discovered_via": "tavus",
+   "based": "Daejeon, South Korea",
+   "based_zh": "韩国大田"
+  },
+  {
+   "id": "habin-lim",
+   "name": "Habin Lim",
+   "kind": "person",
+   "role": "Researcher, Korea University",
+   "bio": "Habin Lim is co-first author of FacePlex (2026), a full-duplex speech and facial-motion model with Gaussian-splatting rendering, from Korea University and Klleon.",
+   "why": "FacePlex is an academic, inspectable example of a talking face that plans its expression before its speech is emitted.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://hahminlew.github.io/faceplex"
+   },
+   "role_zh": "高丽大学研究者",
+   "bio_zh": "Habin Lim 是 FacePlex（2026）的共同第一作者。该模型来自高丽大学与 Klleon，可全双工地生成语音与面部动作，并用高斯泼溅渲染。",
+   "why_zh": "FacePlex 是一个可供检视的学术范例：说话的脸会在语音发出之前就预备好表情。",
+   "connected_to": [],
+   "discovered_via": "anam",
+   "based": "Seoul, South Korea",
+   "based_zh": "韩国首尔"
+  },
+  {
+   "id": "ailing-zeng",
+   "name": "Ailing Zeng",
+   "kind": "person",
+   "role": "Researcher in human motion and character generation",
+   "bio": "Ailing Zeng is first author and co-lead of LPM 1.0 (2026), a 17B video-based character performance model for real-time conversation.",
+   "why": "LPM 1.0 treats listening, speaking and emoting as one performance problem for conversational characters and NPCs.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://large-performance-model.github.io"
+   },
+   "role_zh": "人体动作与角色生成研究者",
+   "bio_zh": "Ailing Zeng 是 LPM 1.0（2026）的第一作者和共同负责人，这是一个面向实时对话的 17B 视频角色表演模型。",
+   "why_zh": "LPM 1.0 把倾听、说话和情绪表达视为对话角色与 NPC 的同一个表演问题。",
+   "connected_to": [],
+   "discovered_via": "anam"
+  }
+ ],
+ "works": [
+  {
+   "id": "tavus--griffin",
+   "creator_ids": [
+    "tavus"
+   ],
+   "title": "Griffin",
+   "year": 2026,
+   "date": "2026-10-01",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": [
+    "avatar",
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "video",
+    "speech"
+   ],
+   "timing": "full-duplex",
+   "access": [
+    "preview"
+   ],
+   "lenses": [
+    "responsiveness",
+    "behavioral-plausibility",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "Griffin is a full-duplex video-to-video model for live video calls: it watches and hears the person, decides moment by moment whether to speak, hold, back-channel or yield, and generates the speech and every pixel of a 720p person in real time from one reference image. Tavus reports that 48% of people in one-minute calls thought it was a real person; Griffin-Lite is a research preview for selected testers as of October 2026.",
+   "description_zh": "Griffin 是一个面向视频通话的全双工视频到视频模型：它同时看和听对方，每隔不到一秒判断该说话、停顿、附和还是让出话轮，并从一张参考图像实时生成语音和 720p 画面中人物的每一个像素。Tavus 报告称，在一分钟的通话中有 48% 的参与者认为对方是真人；截至 2026 年 10 月，Griffin-Lite 仅以研究预览形式向部分测试者开放。",
+   "idea_en": "The first commercial virtual human that listens while it talks, can be interrupted and nods mid-sentence, so face-to-face timing becomes a generated, studyable variable.",
+   "idea_zh": "第一个边说边听、可被打断、会在对方说话时点头的商用虚拟人，让面对面的时机本身成为可生成、可研究的变量。",
+   "method": "A continuous conversational model reads incoming audio and video at sub-second intervals and emits text plus control signals; a streaming autoregressive diffusion speech generator (on a 48 kHz continuous codec) and a few-step causal video DiT distilled with DMD2, teacher forcing and Self-Forcing render the reply.",
+   "method_zh": "一个连续对话模型以亚秒间隔读取输入的音视频并输出文本和控制信号；随后由流式自回归扩散语音生成器（基于 48 kHz 连续编解码器）和经 DMD2、teacher forcing 与 Self-Forcing 蒸馏的少步因果视频 DiT 渲染回应。",
+   "specs": "720p · real time · 0.43 s avg audio-to-video latency (H100) · 48% judged human in 1-min calls · VideoFDB generation 3.83 (human 3.92)",
+   "keywords": [
+    "full-duplex",
+    "video-to-video",
+    "human interaction model",
+    "video Turing test",
+    "turn-taking",
+    "back-channel"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=lHw6yoyPkpo"
+   },
+   "images": [
+    "https://cdn.prod.website-files.com/68c8e57d6e512b9573db146f/6abe6c84125e80a50a54a217_Griffin%20OG%20v3%20%E2%80%94%2003%20Split%20%C2%B7%20Type%20Left.jpg"
+   ],
+   "source_url": "https://www.tavus.io/griffin",
+   "api_url": "https://docs.tavus.io",
+   "collections": [
+    "trend-full-duplex",
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "tavus--phoenix-4",
+   "creator_ids": [
+    "tavus"
+   ],
+   "title": "Phoenix-4",
+   "year": 2026,
+   "date": "2026-02-18",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": [
+    "avatar"
+   ],
+   "inputs": [
+    "speech",
+    "text"
+   ],
+   "timing": "real-time",
+   "access": [
+    "api",
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "behavioral-plausibility"
+   ],
+   "kind": "model",
+   "description": "Phoenix-4 renders a full-face video replica of a real person in real time, with explicit emotion control and active-listening expressions while the user speaks; it is the face of Tavus' Conversational Video Interface. Phoenix-4.5 (2026-09-09) adds upper-body motion, zero-shot identities and about 134 ms audio-to-video latency.",
+   "description_zh": "Phoenix-4 能实时渲染真人的全脸视频复刻，可显式控制情绪，并在用户说话时呈现主动倾听的表情；它是 Tavus 对话视频接口的“脸”。Phoenix-4.5（2026-09-09）加入上半身动作和零样本身份，音频到视频延迟约 134 ms。",
+   "idea_en": "Makes the listening face, not just the speaking mouth, a controllable output of a real-time renderer.",
+   "idea_zh": "让“倾听时的脸”而不只是说话的嘴，成为实时渲染器的可控输出。",
+   "method": "An audio feature encoder and behaviour model drive a real-time full-face rendering network trained on conversation video, with emotion and listening states as conditioning; it works alongside Sparrow (turn-taking) and Raven (perception) in a cascaded stack.",
+   "method_zh": "音频特征编码器和行为模型驱动一个在对话视频上训练的实时全脸渲染网络，以情绪和倾听状态作为条件；它与 Sparrow（轮流发言）和 Raven（感知）组成级联系统协同工作。",
+   "specs": "1080p · 40 fps (Phoenix-4) · ~134 ms audio-to-video (Phoenix-4.5)",
+   "keywords": [
+    "real-time rendering",
+    "replica",
+    "emotion control",
+    "active listening",
+    "talking head"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=FDxfK2xisoE"
+   },
+   "images": [
+    "https://cdn.prod.website-files.com/68c8e57d6e512b9573db147f/6993c0e122a8c8cbd131d6ac_Herop44.avif"
+   ],
+   "source_url": "https://www.tavus.io/blog/phoenix-4-real-time-human-rendering-with-emotional-intelligence",
+   "api_url": "https://docs.tavus.io",
+   "collections": [
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "tavus--cvi",
+   "creator_ids": [
+    "tavus"
+   ],
+   "title": "Conversational Video Interface (Phoenix-2)",
+   "year": 2024,
+   "date": "2024-08-15",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": [
+    "avatar",
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "video"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "api",
+    "product"
+   ],
+   "lenses": [
+    "responsiveness",
+    "authoring"
+   ],
+   "kind": "platform",
+   "description": "Tavus' Conversational Video Interface puts a video replica of a real person into a live call that answers spoken questions; it launched in August 2024 with the Phoenix-2 rendering model, which Tavus describes as the step that broke the real-time barrier. As of October 2026 a CVI 'PAL' is configured with a persona, face, voice, objectives, guardrails, knowledge base and memories, and runs on the full Tavus pipeline, in Echo mode, or inside LiveKit, Pipecat or Agora.",
+   "description_zh": "Tavus 的对话视频接口（CVI）把真人的视频复刻放进实时通话中回答口头提问；它于 2024 年 8 月与 Phoenix-2 渲染模型一同发布，Tavus 称这一步突破了实时门槛。截至 2026 年 10 月，CVI 中的“PAL”可配置人设、面孔、声音、目标、护栏、知识库和记忆，可运行于完整的 Tavus 流程、Echo 模式，或接入 LiveKit、Pipecat、Agora。",
+   "idea_en": "Packaged speech recognition, an LLM, voice and a rendered face into one API, which made a talking video person something a lab could rent by the minute.",
+   "idea_zh": "把语音识别、大模型、语音合成和渲染出的人脸打包成一个 API，让“会说话的视频人”变成实验室可以按分钟租用的东西。",
+   "method": "A cascaded pipeline: speech-to-text, an LLM, text-to-speech and the Phoenix-2 audio-driven face renderer (likely a 3D-prior talking-head model fitted per replica from a short training video), streamed over WebRTC with interruption handling.",
+   "method_zh": "级联流程：语音转文字、大语言模型、文字转语音，再由 Phoenix-2 音频驱动的人脸渲染器生成画面（很可能是用一段短训练视频为每个复刻拟合、带三维先验的说话头模型），通过 WebRTC 流式传输并支持打断。",
+   "keywords": [
+    "conversational video",
+    "digital twin",
+    "cascaded pipeline",
+    "API",
+    "WebRTC",
+    "barge-in"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=OZthIm5W-yQ"
+   },
+   "source_url": "https://www.tavus.io/blog/introducing-the-evolution-of-conversational-video-interface-now-with-emotional-intelligence",
+   "api_url": "https://docs.tavus.io"
+  },
+  {
+   "id": "heygen--liveavatar",
+   "creator_ids": [
+    "heygen"
+   ],
+   "title": "LiveAvatar (Interactive Avatar)",
+   "year": 2025,
+   "date": "2025-11",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": [
+    "avatar",
+    "speech"
+   ],
+   "inputs": [
+    "speech",
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "api",
+    "product"
+   ],
+   "lenses": [
+    "authoring",
+    "responsiveness"
+   ],
+   "kind": "platform",
+   "description": "LiveAvatar is HeyGen's real-time avatar streaming API, the successor to its Interactive Avatar: a half- or full-body 1080p avatar, cloned from an image or two minutes of footage, speaks a voice agent's replies over WebRTC. HeyGen reports under 300 ms median time to first frame and prices from about $0.01 per minute at volume.",
+   "description_zh": "LiveAvatar 是 HeyGen 的实时虚拟人流式 API，接替了此前的 Interactive Avatar：一个由图像或两分钟视频克隆而来的半身或全身 1080p 虚拟人，通过 WebRTC 说出语音智能体的回复。HeyGen 称首帧中位时间低于 300 ms，大批量时约每分钟 0.01 美元。",
+   "idea_en": "Real-time avatars became cheap enough to give every voice agent a face, which moves the open question from 'can it render' to 'does it behave'.",
+   "idea_zh": "实时虚拟人便宜到可以给每个语音智能体配一张脸，问题从“能不能渲染”转向“行为像不像”。",
+   "method": "Avatar-only rendering streamed via LiveKit/WebRTC, driven either by HeyGen's managed ASR-LLM-TTS stack or by the developer's own voice agent.",
+   "method_zh": "仅负责虚拟人渲染，通过 LiveKit/WebRTC 推流；驱动它的可以是 HeyGen 托管的语音识别-大模型-语音合成流程，也可以是开发者自己的语音智能体。",
+   "specs": "1080p · <300 ms median time to first frame · unlimited concurrency",
+   "keywords": [
+    "streaming avatar",
+    "WebRTC",
+    "LiveKit",
+    "voice agent",
+    "digital twin",
+    "barge-in"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=4hVvW4tHFJY"
+   },
+   "images": [
+    "https://www.liveavatar.com/og-image-fb.jpg"
+   ],
+   "source_url": "https://www.liveavatar.com/",
+   "api_url": "https://docs.liveavatar.com",
+   "code_url": "https://github.com/heygen-com/liveavatar-web-sdk",
+   "collections": [
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "synthesia--sessions",
+   "creator_ids": [
+    "synthesia"
+   ],
+   "title": "Sessions (Interactive Avatars)",
+   "year": 2026,
+   "date": "2026-10-01",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": [
+    "avatar",
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "product",
+    "api"
+   ],
+   "lenses": [
+    "situational-reach",
+    "authoring",
+    "adaptation"
+   ],
+   "kind": "product",
+   "description": "Sessions is Synthesia's platform for two-way conversations with real-time avatars: Roleplay Sessions (first released in July 2026) let employees rehearse sales, coaching or support conversations with an avatar that pushes back, followed by AI scoring and feedback, and Survey Sessions turn a form into a spoken interview. An Interactive Avatars API exposes the same avatars to developers.",
+   "description_zh": "Sessions 是 Synthesia 用于与实时虚拟人双向对话的平台：Roleplay Sessions（2026 年 7 月首发）让员工与会“反驳”的虚拟人演练销售、辅导或客服对话，结束后由 AI 打分并反馈；Survey Sessions 把问卷变成口头访谈。Interactive Avatars API 向开发者开放同一套虚拟人。",
+   "idea_en": "A mainstream training vendor now sells scored roleplay with a responsive avatar, which is the deliberate-practice loop of simulation training at enterprise scale.",
+   "idea_zh": "主流培训厂商开始销售与会回应的虚拟人进行可打分的角色扮演，这正是模拟训练中“刻意练习”循环的企业级版本。",
+   "method": "Likely a cascaded stack (speech recognition, an LLM scenario prompt, TTS and Synthesia's real-time avatar renderer) with a separate LLM coach that grades transcripts.",
+   "method_zh": "很可能是级联方案（语音识别、大模型情境提示、语音合成和 Synthesia 的实时虚拟人渲染器），另有一个大模型教练对对话记录评分。",
+   "keywords": [
+    "roleplay",
+    "training",
+    "interview",
+    "conversational survey",
+    "enterprise",
+    "barge-in"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=vcYBbtFejmg"
+   },
+   "images": [
+    "https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d70e/6abd354ed0f78074501e8826_GTM_Sessions_Blog-Header_V1.png"
+   ],
+   "source_url": "https://www.synthesia.io/post/sessions-interactive-avatar-platform",
+   "api_url": "https://www.synthesia.io/features/avatars/interactive-avatars",
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "d-id--v4-expressive-agents",
+   "creator_ids": [
+    "d-id"
+   ],
+   "title": "V4 Expressive Visual Agents",
+   "year": 2026,
+   "date": "2026-03-16",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": [
+    "avatar",
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "product",
+    "api"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "product",
+   "description": "D-ID's V4 Expressive Visual Agents are real-time conversational avatars whose expressions follow the emotional tone of what they say, built from a short recording of a person and deployable on websites or via API, with a self-hosting option for enterprises.",
+   "description_zh": "D-ID 的 V4 Expressive 可视化智能体是实时对话虚拟人，表情会跟随所说内容的情绪基调；只需一段真人短视频即可生成，可部署到网站或通过 API 调用，企业还可自行托管。",
+   "idea_en": "Emotion-matched expression became a standard feature of commercial agents, but it follows the agent's own text, not the user's behaviour.",
+   "idea_zh": "与情绪匹配的表情已成为商用智能体的标配，但它跟随的是智能体自己的文本，而不是用户的行为。",
+   "method": "A cascaded agent (knowledge base, LLM, TTS) drives D-ID's V4 avatar video model, which conditions facial expression on the sentiment of the generated speech.",
+   "method_zh": "级联智能体（知识库、大模型、语音合成）驱动 D-ID 的 V4 虚拟人视频模型，该模型以生成语音的情绪为条件控制面部表情。",
+   "keywords": [
+    "visual AI agent",
+    "expressive avatar",
+    "self-hosting",
+    "enterprise",
+    "barge-in"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=-WhLtR1no0M"
+   },
+   "source_url": "https://www.d-id.com/introducing-v4-expressive-avatars/",
+   "api_url": "https://docs.d-id.com"
+  },
+  {
+   "id": "anam--cara-4",
+   "creator_ids": [
+    "anam"
+   ],
+   "title": "CARA-4",
+   "year": 2026,
+   "date": "2026-05-12",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": [
+    "avatar"
+   ],
+   "inputs": [
+    "speech",
+    "image",
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "api",
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "control",
+    "behavioral-plausibility"
+   ],
+   "kind": "model",
+   "description": "CARA-4 is Anam's real-time avatar diffusion model: from a single photo it renders a conversational face at 25 fps in landscape (1152×768) or portrait (768×1152), with Director Notes that let a builder set how the avatar performs (warm, distressed, angry) and let the LLM shift that direction mid-reply.",
+   "description_zh": "CARA-4 是 Anam 的实时虚拟人扩散模型：只需一张照片即可以 25 fps 渲染横屏（1152×768）或竖屏（768×1152）的对话人脸；Director Notes 让开发者设定虚拟人的表演方式（温和、痛苦、愤怒等），并允许大模型在一次回复中途改变表演方向。",
+   "idea_en": "Directable performance (a distressed patient versus a calm coach) turns the avatar's affect into an experimental condition you can write down.",
+   "idea_zh": "可导演的表演（痛苦的病人与沉着的教练）让虚拟人的情绪成为可以写下来的实验条件。",
+   "method": "A diffusion model generating every pixel in real time, conditioned on speech audio and text performance cues, inside a conversation engine with sub-second median latency from end of user speech.",
+   "method_zh": "一个实时生成每个像素的扩散模型，以语音和文本表演提示为条件，运行在对话引擎中；从用户说完到虚拟人回应的中位延迟低于 1 秒。",
+   "specs": "1152×768 / 768×1152 · 25 fps · <1 s median response latency",
+   "keywords": [
+    "real-time diffusion",
+    "director notes",
+    "image-to-avatar",
+    "expressivity control",
+    "barge-in"
+   ],
+   "video": {
+    "url": "https://framerusercontent.com/assets/89hAkOrdOYdbEcy5VV2WX2NS6uk.mp4"
+   },
+   "images": [
+    "https://framerusercontent.com/assets/cyASyHEg6g3WK5dCwQoOyyVbFZU.png"
+   ],
+   "source_url": "https://anam.ai/research",
+   "api_url": "https://anam.ai/docs/introduction/models",
+   "collections": [
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "lemonslice--cwm-1",
+   "creator_ids": [
+    "lemonslice"
+   ],
+   "title": "Character World Model-1 (CWM-1)",
+   "year": 2026,
+   "date": "2026-09-23",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": [
+    "avatar",
+    "frame-stream"
+   ],
+   "inputs": [
+    "speech",
+    "image",
+    "text"
+   ],
+   "timing": "real-time",
+   "access": [
+    "product",
+    "api"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "control",
+    "diversity"
+   ],
+   "kind": "model",
+   "description": "CWM-1 generates an entire live video-call scene from one image of any character (person, anime, animal): face, body, hands, hair and surroundings, with an emotion engine that triggers actions such as shrugging, leaning in or picking up a phone. It follows LemonSlice-2 (December 2025), a 20B causal model that ran at 20 fps on one GPU.",
+   "description_zh": "CWM-1 只需任意角色（真人、动漫、动物）的一张图像，就能生成整个实时视频通话画面：脸、身体、手、头发和周围环境；其情绪引擎会触发耸肩、前倾、拿起手机等动作。它接替了 2025 年 12 月发布的 LemonSlice-2（一个在单 GPU 上以 20 fps 运行的 20B 因果模型）。",
+   "idea_en": "Treats the avatar as a small world model centred on a character, so body language and object interaction are generated rather than rigged.",
+   "idea_zh": "把虚拟人看作以角色为中心的小型世界模型，肢体语言和与物体的互动都是生成出来的，而不是靠绑定动画。",
+   "method": "A causal, few-step video diffusion transformer conditioned on audio, a prompt and action/emotion states predicted by a separate emotion engine that reads the conversation.",
+   "method_zh": "一个因果、少步的视频扩散 Transformer，以音频、提示词以及独立情绪引擎（读取对话内容）预测的动作/情绪状态为条件。",
+   "specs": "LemonSlice-2: 20B params · 20 fps on 1 GPU · 471 ms p99 latency (platform)",
+   "keywords": [
+    "character world model",
+    "full-body",
+    "hand-object interaction",
+    "emotion engine",
+    "any character"
+   ],
+   "video": {
+    "url": "https://lemonslice.com/cwm-1/header/header-1.webm"
+   },
+   "images": [
+    "https://lemonslice.com/cwm-1/launch.webp"
+   ],
+   "source_url": "https://lemonslice.com/cwm-1",
+   "api_url": "https://lemonslice.com/docs",
+   "collections": [
+    "trend-realtime",
+    "trend-world-simulators"
+   ]
+  },
+  {
+   "id": "alibaba-tongyi--wan-streamer",
+   "creator_ids": [
+    "alibaba-tongyi"
+   ],
+   "title": "Wan-Streamer",
+   "year": 2026,
+   "date": "2026-06-24",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": [
+    "avatar",
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "video",
+    "speech",
+    "text"
+   ],
+   "timing": "full-duplex",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "responsiveness",
+    "reactivity",
+    "behavioral-plausibility"
+   ],
+   "kind": "model",
+   "description": "Wan-Streamer is an end-to-end model that listens, sees, thinks, speaks and responds on video at the same time, inside one Transformer, with no separate speech recognition, LLM, TTS or avatar modules. Version 0.3 (July 2026) adds 'world + event stream' video pretraining for free-form behaviour; the demos show real-time full-duplex video conversation.",
+   "description_zh": "Wan-Streamer 是一个端到端模型，在同一个 Transformer 中同时完成听、看、思考、说话和视频回应，不依赖单独的语音识别、大模型、语音合成或虚拟人模块。0.3 版（2026 年 7 月）加入“世界设定 + 事件流”的视频预训练以支持自由行为；演示展示了实时的全双工视频对话。",
+   "idea_en": "Collapses the whole cascade into one streaming model, so timing, turn-taking and expression are learned jointly rather than stitched together.",
+   "idea_zh": "把整条级联压缩进一个流式模型，时机、轮流发言和表情都在一起学习，而不是拼接起来。",
+   "method": "Interleaved visual, audio and text input and output tokens in a single Transformer with block-causal attention, causal encoders and decoders for incremental streaming.",
+   "method_zh": "在单个 Transformer 中交错排列视觉、音频与文本的输入和输出 token，配合块因果注意力以及因果编码器与解码器，实现增量式流式生成。",
+   "specs": "640×368 · 25 fps · ~200 ms model-side latency",
+   "keywords": [
+    "end-to-end",
+    "full-duplex",
+    "native streaming",
+    "omni model",
+    "single transformer"
+   ],
+   "video": {
+    "url": "https://wan-streamer.com/v0.1/assets/video/realtime.mp4"
+   },
+   "images": [
+    "https://wan-streamer.com/v0.1/assets/img/agent-chat-poster.jpg",
+    "https://wan-streamer.com/v0.1/assets/img/framework.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2606.25041",
+    "arxiv": "2606.25041",
+    "venue": "arXiv 2026",
+    "title": "Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models"
+   },
+   "source_url": "https://wan-streamer.com",
+   "collections": [
+    "trend-full-duplex",
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "ailing-zeng--lpm-1",
+   "creator_ids": [
+    "ailing-zeng"
+   ],
+   "title": "LPM 1.0 (Large Performance Model)",
+   "year": 2026,
+   "date": "2026-04-09",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": [
+    "avatar",
+    "flat-video"
+   ],
+   "inputs": [
+    "speech",
+    "image",
+    "text"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "persistence",
+    "control"
+   ],
+   "kind": "research",
+   "description": "LPM 1.0 is a video model for conversational character performance: given a character image, it generates listening video from the user's audio and speaking video from synthesized speech, with text prompts for motion, in real time and at unbounded length while keeping identity stable. The authors propose LPM-Bench for interactive character performance.",
+   "description_zh": "LPM 1.0 是一个用于对话角色表演的视频模型：给定一张角色图像，它会根据用户的音频生成倾听画面，根据合成语音生成说话画面，并可用文本提示控制动作；它实时运行、时长不受限，同时保持身份稳定。作者还提出了交互式角色表演基准 LPM-Bench。",
+   "idea_en": "Frames expressiveness, real-time speed and long-horizon identity as one 'performance trilemma' that game NPCs and live characters must solve together.",
+   "idea_zh": "把表现力、实时速度和长时身份一致性视为同一个“表演三难”，游戏 NPC 和直播角色必须同时解决。",
+   "method": "A 17B Diffusion Transformer trained on speaking-listening paired human video with identity-aware references, distilled into a causal streaming generator (Online LPM).",
+   "method_zh": "在说话-倾听配对的人物视频和身份参考上训练 17B 扩散 Transformer，再蒸馏为因果流式生成器（Online LPM）。",
+   "specs": "17B base · real-time streaming · infinite length",
+   "keywords": [
+    "character performance",
+    "listening",
+    "NPC",
+    "streaming distillation",
+    "benchmark"
+   ],
+   "video": {
+    "url": "https://pub-4e149c2dec59455a88c79783cc4985c8.r2.dev/videos/hero-demo.mp4"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2604.07823",
+    "arxiv": "2604.07823",
+    "venue": "arXiv 2026",
+    "title": "LPM 1.0: Video-based Character Performance Model"
+   },
+   "source_url": "https://large-performance-model.github.io",
+   "collections": [
+    "trend-full-duplex"
+   ]
+  },
+  {
+   "id": "avaturn-live--avtr-1",
+   "creator_ids": [
+    "avaturn-live"
+   ],
+   "title": "AVTR-1",
+   "year": 2026,
+   "date": "2026-09-19",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": [
+    "avatar",
+    "motion"
+   ],
+   "inputs": [
+    "speech",
+    "image"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "control"
+   ],
+   "kind": "open-source",
+   "description": "AVTR-1 is an open stack for real-time avatar conversations: a small motion generator listens to both the user's and the voice agent's audio, and a renderer and serving backend turn it into a synchronized audio-video stream that handles interruptions. Weights, renderer and backend are released under component-specific licenses.",
+   "description_zh": "AVTR-1 是一个开源的实时虚拟人对话方案：一个小型动作生成器同时听用户和语音智能体的声音，再由渲染器和服务后端把结果变成同步的音视频流，并能处理打断。模型权重、渲染器和后端均按各组件的许可证发布。",
+   "idea_en": "An open, measurable reference for the plumbing of live avatars, including a test (R-DGG) of whether the listener's motion actually depends on the other speaker.",
+   "idea_zh": "为实时虚拟人的底层管线提供开放、可测量的参照，还给出一个检验倾听者动作是否真的依赖对方说话的指标（R-DGG）。",
+   "method": "A 153M-parameter autoregressive flow-matching motion generator conditioned on both participants' audio, with a self-distilled streaming audio encoder and analytically bounded user-facing latency.",
+   "method_zh": "一个 1.53 亿参数的自回归流匹配动作生成器，以双方音频为条件，配合自蒸馏的流式音频编码器，并对用户可感知的延迟给出解析上界。",
+   "specs": "153M-param motion model · real time on data-center and consumer GPUs",
+   "keywords": [
+    "open stack",
+    "dyadic",
+    "flow matching",
+    "interruption",
+    "Granger causality"
+   ],
+   "video": {
+    "url": "https://avaturn-live.github.io/avtr-1-projectpage/media/pair_V00_S2019_I00001095.mp4"
+   },
+   "images": [
+    "https://avtr-1.avaturn.live/media/og-preview.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2609.22913",
+    "arxiv": "2609.22913",
+    "venue": "arXiv 2026",
+    "title": "AVTR-1: Open Stack for Real-Time Interactive Avatars"
+   },
+   "source_url": "https://avaturn-live.github.io/avtr-1-projectpage/",
+   "code_url": "https://github.com/avaturn-live/avtr-1",
+   "collections": [
+    "trend-open-weights",
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "habin-lim--faceplex",
+   "creator_ids": [
+    "habin-lim"
+   ],
+   "title": "FacePlex",
+   "year": 2026,
+   "date": "2026-06-29",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": [
+    "avatar",
+    "speech"
+   ],
+   "inputs": [
+    "speech",
+    "text"
+   ],
+   "timing": "full-duplex",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "responsiveness",
+    "behavioral-plausibility"
+   ],
+   "kind": "research",
+   "description": "FacePlex generates a conversational avatar's speech and facial motion together, token by token, while the user talks, prepares mouth shapes before the matching audio is emitted, and adds non-verbal reactions grounded in the dialogue, rendered with Gaussian splatting.",
+   "description_zh": "FacePlex 在用户说话的同时逐 token 地联合生成对话虚拟人的语音和面部动作，在对应音频发出之前就准备好口型，并加入与对话内容相关的非语言反应，最后用高斯泼溅渲染。",
+   "idea_en": "Shows that a full-duplex face needs to anticipate its own speech, not just follow it.",
+   "idea_zh": "说明全双工的脸需要预判自己将要说的话，而不只是跟着语音动。",
+   "method": "A unified streaming framework that places speech tokens, facial-motion tokens and Gaussian-splatting rendering on one shared timeline, built on a full-duplex spoken dialogue model.",
+   "method_zh": "一个统一的流式框架，把语音 token、面部动作 token 和高斯泼溅渲染放在同一条时间线上，基于全双工语音对话模型构建。",
+   "specs": "122 ms end-to-end avatar interaction latency",
+   "keywords": [
+    "full-duplex",
+    "speech-motion co-generation",
+    "anticipatory articulation",
+    "Gaussian splatting"
+   ],
+   "video": {
+    "url": "https://hahminlew.github.io/faceplex/static/videos/compare_offline/session_1.mp4"
+   },
+   "images": [
+    "https://hahminlew.github.io/faceplex/static/images/main_figure.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2606.30145",
+    "arxiv": "2606.30145",
+    "venue": "arXiv 2026",
+    "title": "FacePlex: Toward Natural Full-Duplex Conversational Avatars"
+   },
+   "source_url": "https://hahminlew.github.io/faceplex",
+   "collections": [
+    "trend-full-duplex"
+   ]
+  },
+  {
+   "id": "google-deepmind--gemini-live-avatar",
+   "creator_ids": [
+    "google-deepmind"
+   ],
+   "title": "Gemini 3.8 Live with Live Avatar",
+   "year": 2026,
+   "date": "2026-09-24",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": [
+    "avatar",
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "video",
+    "image"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "product",
+    "api"
+   ],
+   "lenses": [
+    "responsiveness",
+    "perceptual-realism",
+    "control"
+   ],
+   "kind": "product",
+   "description": "Live Avatar couples Google's Gemini 3.8 Live dialogue model with near-real-time video generation, so an enterprise agent appears as a talking character that sees and hears the user, lip-syncs across 97 languages (switching mid-conversation) and keeps talking while tools run in the background. It is available in Gemini Enterprise with preset avatars; custom avatars from a reference image are allowlist-only, and all audio and video carry SynthID watermarks.",
+   "description_zh": "Live Avatar 把 Google 的 Gemini 3.8 Live 对话模型与近实时视频生成结合起来，让企业智能体以一个会说话的角色出现：它能看到和听到用户，在 97 种语言间（可在对话中途切换）保持口型同步，并在后台调用工具时继续对话。它已在 Gemini Enterprise 中提供预设虚拟人；用参考图像定制虚拟人仅向白名单企业开放，所有音频和视频都带有 SynthID 水印。",
+   "idea_en": "A frontier-lab virtual human ships with provenance built in: every generated frame and word is watermarked, which matters for studies that must disclose synthetic interlocutors.",
+   "idea_zh": "前沿实验室的虚拟人在发布时就内置了溯源标识：生成的每一帧画面和每一句话都带水印，这对需要披露“对话者是合成的”研究很重要。",
+   "method": "Gemini 3.8 Live native audio dialogue (audio and video in, speech out) natively coupled with a low-latency streaming video generator; turn-taking is handled by the Live model, with interruption support as in the Live API (Google describes 'fluid turn-taking', not overlapping speech).",
+   "method_zh": "Gemini 3.8 Live 原生音频对话（音视频输入、语音输出）与低延迟流式视频生成器原生耦合；轮流发言由 Live 模型处理，像 Live API 一样支持打断（Google 的描述是“流畅的轮流发言”，而非重叠说话）。",
+   "specs": "97 languages · near-real-time streaming video · SynthID in audio and video",
+   "keywords": [
+    "Gemini Live",
+    "enterprise agent",
+    "multilingual lip sync",
+    "SynthID",
+    "barge-in",
+    "asynchronous tool calling"
+   ],
+   "video": {
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/GLA-Video_3_compression.mp4"
+   },
+   "images": [
+    "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Slide_16_9_-_37.width-1300.png"
+   ],
+   "source_url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+   "api_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/live-api",
+   "collections": [
+    "trend-full-duplex",
+    "trend-provenance"
+   ]
+  },
+  {
+   "id": "evonne-ng--learning-to-listen",
+   "creator_ids": [
+    "evonne-ng"
+   ],
+   "title": "Learning to Listen",
+   "year": 2022,
+   "date": "2022-04-18",
+   "field": "avatars",
+   "sub": "nonverbal",
+   "modalities": [
+    "motion",
+    "avatar"
+   ],
+   "inputs": [
+    "speech",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "diversity"
+   ],
+   "kind": "research",
+   "description": "Learning to Listen generates the facial reactions of a listener (nods, smiles, frowns) from the speaker's words, voice and face, producing several plausible listener responses for the same speaker turn.",
+   "description_zh": "Learning to Listen 根据说话者的话语、声音和面部，生成倾听者的面部反应（点头、微笑、皱眉），并能为同一段发言生成多种合理的倾听反应。",
+   "idea_en": "Treats listening as a generative, non-deterministic behaviour, the missing half of a conversational virtual human.",
+   "idea_zh": "把倾听当作一种非确定的、可生成的行为，补上了对话虚拟人缺失的另一半。",
+   "method": "A VQ-VAE codebook of listener motion and a transformer that autoregressively predicts listener codes from multimodal speaker input, trained on in-the-wild dyadic interview video.",
+   "method_zh": "用 VQ-VAE 码本表示倾听者动作，再用 Transformer 根据说话者的多模态输入自回归地预测倾听者编码，训练数据为真实场景中的双人访谈视频。",
+   "keywords": [
+    "listener",
+    "backchannel",
+    "dyadic",
+    "VQ-VAE",
+    "facial motion"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=3CSlKZ5T6DU"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2204.08451",
+    "arxiv": "2204.08451",
+    "venue": "CVPR 2022",
+    "title": "Learning to Listen: Modeling Non-Deterministic Dyadic Facial Motion"
+   },
+   "source_url": "https://evonneng.github.io/learning2listen/",
+   "code_url": "https://github.com/evonneng/learning2listen",
+   "collections": [
+    "cvpr"
+   ]
+  },
+  {
+   "id": "evonne-ng--audio2photoreal",
+   "creator_ids": [
+    "evonne-ng",
+    "meta"
+   ],
+   "title": "Audio2Photoreal",
+   "year": 2024,
+   "date": "2024-01-03",
+   "field": "avatars",
+   "sub": "nonverbal",
+   "modalities": [
+    "avatar",
+    "motion"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "perceptual-realism"
+   ],
+   "kind": "research",
+   "description": "Audio2Photoreal turns the audio of a two-person conversation into the face, body and hand gestures of a photorealistic 3D avatar, including listening behaviour, and renders it with Meta's Codec Avatars.",
+   "description_zh": "Audio2Photoreal 把两人对话的音频转换成照片级三维化身的面部、身体和手势动作（包括倾听时的行为），并用 Meta 的 Codec Avatars 渲染。",
+   "idea_en": "Shows that photoreal rendering exposes subtle gesture errors that stick figures hide, so behaviour and appearance must be evaluated together.",
+   "idea_zh": "说明照片级渲染会暴露火柴人看不出的细微手势错误，所以行为与外观必须一起评估。",
+   "method": "A VQ-transformer predicts guide poses, a diffusion model fills in body motion, and a separate audio-conditioned diffusion model generates face codes, trained on a new multi-view conversational capture dataset.",
+   "method_zh": "先由 VQ-Transformer 预测引导姿态，再由扩散模型补全身体动作，另一个以音频为条件的扩散模型生成面部编码；训练数据为新采集的多视角对话数据集。",
+   "keywords": [
+    "gesture generation",
+    "dyadic",
+    "Codec Avatars",
+    "diffusion",
+    "photoreal"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=Y0GMaMtUynQ"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2401.01885",
+    "arxiv": "2401.01885",
+    "venue": "arXiv 2024",
+    "title": "From Audio to Photoreal Embodiment: Synthesizing Humans in Conversations"
+   },
+   "source_url": "https://people.eecs.berkeley.edu/~evonne_ng/projects/audio2photoreal/",
+   "code_url": "https://github.com/facebookresearch/audio2photoreal",
+   "collections": [
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "bytedance-seed--infp",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "INFP",
+   "year": 2024,
+   "date": "2024-12-05",
+   "field": "avatars",
+   "sub": "nonverbal",
+   "modalities": [
+    "avatar"
+   ],
+   "inputs": [
+    "speech",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "responsiveness"
+   ],
+   "kind": "research",
+   "description": "INFP animates a single portrait in a two-person conversation from both speakers' audio, switching on its own between speaking and listening, with nods, gaze and expressions while the other person talks.",
+   "description_zh": "INFP 根据对话双方的音频驱动一张人像，在说话和倾听之间自动切换，在对方说话时呈现点头、视线和表情等反应。",
+   "idea_en": "Removes the manual 'now speak / now listen' switch that most talking heads need, a precondition for natural turn-taking.",
+   "idea_zh": "去掉了多数说话头像需要的“现在说 / 现在听”手动切换，这是自然轮流发言的前提。",
+   "method": "Stage 1 learns a low-dimensional motion latent from real conversation video (head imitation); stage 2 maps dual-track audio to those latents with a denoising model; trained on the new DyConv dyadic dataset.",
+   "method_zh": "第一阶段从真实对话视频中学习低维动作隐空间（头部模仿）；第二阶段用去噪模型把双轨音频映射到这些隐变量；训练数据为新构建的双人对话数据集 DyConv。",
+   "keywords": [
+    "dyadic",
+    "listening",
+    "speaking-listening switch",
+    "portrait animation"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=6exuYJ393LI"
+   },
+   "images": [
+    "https://grisoon.github.io/INFP/static/images/task-v3.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2412.04037",
+    "arxiv": "2412.04037",
+    "venue": "CVPR 2025",
+    "title": "INFP: Audio-Driven Interactive Head Generation in Dyadic Conversations"
+   },
+   "source_url": "https://grisoon.github.io/INFP/",
+   "collections": [
+    "cvpr"
+   ]
+  },
+  {
+   "id": "meta--seamless-interaction",
+   "creator_ids": [
+    "meta"
+   ],
+   "title": "Seamless Interaction",
+   "year": 2025,
+   "date": "2025-06-27",
+   "field": "avatars",
+   "sub": "nonverbal",
+   "modalities": [
+    "motion",
+    "avatar"
+   ],
+   "inputs": [
+    "speech",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "diversity",
+    "control"
+   ],
+   "kind": "dataset",
+   "description": "Seamless Interaction is Meta FAIR's dataset of over 4,000 hours of face-to-face conversation from more than 4,000 participants, released with dyadic motion models that generate a speaker's facial expressions and gestures from both people's audio and the other person's visual behaviour, for 2D video or 3D Codec Avatars.",
+   "description_zh": "Seamless Interaction 是 Meta FAIR 发布的数据集，包含 4000 多名参与者超过 4000 小时的面对面对话，并附带双人动作模型：根据双方音频和对方的视觉行为生成说话者的面部表情与手势，可用于二维视频或三维 Codec Avatars。",
+   "idea_en": "Open, large-scale dyadic data is what full-duplex avatars train and get evaluated on; the 2026 GENEA gesture challenge is built on it.",
+   "idea_zh": "开放的大规模双人互动数据是全双工虚拟人训练和评测的基础；2026 年的 GENEA 手势生成挑战赛就建立在它之上。",
+   "method": "Multi-camera recordings of naturalistic and improvised dyadic sessions; audio-visual dyadic motion models (diffusion-based) with controllable emotion and expressivity, optionally driven by LLM speech.",
+   "method_zh": "多机位录制自然对话与即兴表演的双人会话；基于扩散的视听双人动作模型可控制情绪与表现力，也可由大模型生成的语音驱动。",
+   "specs": "4,000+ hours · 4,000+ participants",
+   "keywords": [
+    "dataset",
+    "dyadic",
+    "gesture",
+    "facial expression",
+    "Codec Avatars",
+    "FAIR"
+   ],
+   "images": [
+    "https://raw.githubusercontent.com/facebookresearch/seamless_interaction/main/assets/banner.gif"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2506.22554",
+    "arxiv": "2506.22554",
+    "venue": "arXiv 2025",
+    "title": "Seamless Interaction: Dyadic Audiovisual Motion Modeling and Large-Scale Dataset"
+   },
+   "source_url": "https://ai.meta.com/research/seamless-interaction/",
+   "code_url": "https://github.com/facebookresearch/seamless_interaction",
+   "collections": [
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "tavus--raven-1",
+   "creator_ids": [
+    "tavus"
+   ],
+   "title": "Raven-1",
+   "year": 2026,
+   "date": "2026-02-10",
+   "field": "avatars",
+   "sub": "nonverbal",
+   "modalities": [
+    "dialogue",
+    "behavior"
+   ],
+   "inputs": [
+    "video",
+    "speech"
+   ],
+   "timing": "real-time",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "reactivity",
+    "responsiveness"
+   ],
+   "kind": "model",
+   "description": "Raven-1 is Tavus' multimodal perception model for live conversation: it fuses the user's tone, facial expression, gaze, posture and hesitation into running natural-language descriptions that the agent's LLM reads, so a flat 'fine' and a cheerful 'fine' lead to different replies.",
+   "description_zh": "Raven-1 是 Tavus 用于实时对话的多模态感知模型：它把用户的语气、面部表情、视线、姿态和迟疑融合成持续更新的自然语言描述供智能体的大模型读取，于是语气平淡的“还行”和愉快的“还行”会得到不同的回应。",
+   "idea_en": "Perception of the human becomes a separate, swappable model whose outputs could be logged as a record of what the agent 'saw'.",
+   "idea_zh": "对人的感知成为一个可单独替换的模型，其输出可以记录下来，作为智能体“看到了什么”的日志。",
+   "method": "Unified audio-visual fusion producing LLM-readable descriptions rather than emotion labels, with rolling updates so context is never more than about 300 ms stale.",
+   "method_zh": "统一的视听融合，输出大模型可读的描述而非情绪标签，并滚动更新，使上下文的滞后不超过约 300 ms。",
+   "specs": "audio descriptions <100 ms · context ≤300 ms stale · pipeline <600 ms",
+   "keywords": [
+    "perception",
+    "affect",
+    "multimodal",
+    "emotion understanding"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=GH9-EmgtABw"
+   },
+   "images": [
+    "https://cdn.prod.website-files.com/68c8e57d6e512b9573db147f/698ac479d3b6b3e85ef6cb96_processed-image%20(97).avif"
+   ],
+   "source_url": "https://www.tavus.io/blog/raven-1-bringing-emotional-intelligence-to-artificial-intelligence",
+   "api_url": "https://docs.tavus.io"
+  },
+  {
+   "id": "tavus--sparrow-2",
+   "creator_ids": [
+    "tavus"
+   ],
+   "title": "Sparrow-2",
+   "year": 2026,
+   "date": "2026-08-27",
+   "field": "avatars",
+   "sub": "nonverbal",
+   "modalities": [
+    "behavior"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "responsiveness",
+    "behavioral-plausibility"
+   ],
+   "kind": "model",
+   "description": "Sparrow-2 is Tavus' turn-taking model: it decides every 10 ms whether a voice or video agent should listen, wait or speak, distinguishing a thinking pause from the end of a turn and real interruptions from background noise. Tavus reports it leads the TurnBench benchmark in end-of-turn (92.4% recall) and interruption detection (97.4% recall).",
+   "description_zh": "Sparrow-2 是 Tavus 的轮流发言模型：它每 10 ms 判断一次语音或视频智能体应该听、等还是说，能区分思考中的停顿与话轮结束，也能区分真正的打断与背景噪声。Tavus 称它在 TurnBench 基准上的话轮结束检测（召回率 92.4%）和打断检测（召回率 97.4%）均排名第一。",
+   "idea_en": "Conversational timing is now a measurable model output with its own benchmark, which makes response latency something an experiment can set.",
+   "idea_zh": "对话时机如今是有专门基准的可测量模型输出，这让回应延迟成为实验可以设定的变量。",
+   "method": "A streaming acoustic-semantic model over the whole audio scene (speaker intent, prosody, environment) that replaces silence timers and VAD endpointing; successor to Sparrow-0 (2025) and Sparrow-1 (January 2026).",
+   "method_zh": "一个基于整体音频场景（说话意图、韵律、环境）的流式声学-语义模型，取代静音计时与 VAD 端点检测；前代为 Sparrow-0（2025）和 Sparrow-1（2026 年 1 月）。",
+   "specs": "10 ms decision frame · TurnBench end-of-turn recall 92.4% · interruption recall 97.4%",
+   "keywords": [
+    "turn-taking",
+    "end-of-turn detection",
+    "barge-in",
+    "TurnBench"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=E7MjlfJQkJM"
+   },
+   "images": [
+    "https://cdn.prod.website-files.com/68c8e57d6e512b9573db147f/6a8ff14fd7938137631903b7_download%20(2).avif"
+   ],
+   "source_url": "https://www.tavus.io/blog/sparrow-2",
+   "api_url": "https://docs.tavus.io",
+   "collections": [
+    "trend-full-duplex"
+   ]
+  },
+  {
+   "id": "nvidia--videofdb",
+   "creator_ids": [
+    "nvidia"
+   ],
+   "title": "VideoFDB",
+   "year": 2026,
+   "date": "2026-05-28",
+   "field": "avatars",
+   "sub": "nonverbal",
+   "also": [
+    "infra"
+   ],
+   "modalities": [
+    "dialogue",
+    "avatar"
+   ],
+   "inputs": [
+    "video",
+    "speech"
+   ],
+   "timing": "full-duplex",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "control"
+   ],
+   "kind": "dataset",
+   "description": "VideoFDB is the first benchmark for full-duplex audio-visual-to-audio-visual conversational agents: 237 expert-annotated dyadic clips from real video calls covering 11 nonverbal dynamics, scored separately for perception (does the agent read the moment) and generation (does it respond with fitting speech, gaze and expression), with a public leaderboard.",
+   "description_zh": "VideoFDB 是第一个评测全双工“视听到视听”对话智能体的基准：包含来自真实视频通话、由专家标注的 237 段双人片段，覆盖 11 种非语言互动动态；分别对感知（智能体能否读懂当下）和生成（能否以恰当的语音、视线和表情回应）打分，并设有公开排行榜。",
+   "idea_en": "Gives full-duplex virtual humans a shared yardstick with a human reference score, so vendor claims can be compared.",
+   "idea_zh": "为全双工虚拟人提供带有人类参照分数的共同标尺，让各家厂商的说法可以相互比较。",
+   "method": "Clips from natural video calls annotated with a taxonomy that separates perception from generation behaviours, scored by a rubric-based LM-as-judge on fluency, affect matching, nonverbal fit and timing.",
+   "method_zh": "从自然视频通话中截取片段，按区分感知与生成行为的分类体系标注，再由基于评分细则的语言模型评审，从流畅度、情绪匹配、非语言契合度和时机等维度打分。",
+   "specs": "237 clips · 11 nonverbal dynamics · human reference 3.92",
+   "keywords": [
+    "benchmark",
+    "full-duplex",
+    "audio-visual",
+    "LM-as-judge",
+    "leaderboard"
+   ],
+   "images": [
+    "https://research.nvidia.com/labs/amri/projects/video-fdb/og/videofdb-sunburst.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2605.30256",
+    "arxiv": "2605.30256",
+    "venue": "arXiv 2026",
+    "title": "VideoFDB: Evaluating Full-Duplex Vision-Speech Capabilities in Conversational Agents"
+   },
+   "source_url": "https://research.nvidia.com/labs/amri/projects/video-fdb/",
+   "code_url": "https://huggingface.co/datasets/nvidia/video-full-duplex-benchmark",
+   "collections": [
+    "trend-full-duplex"
+   ]
+  },
+  {
+   "id": "taekyung-ki--avatar-forcing",
+   "creator_ids": [
+    "taekyung-ki"
+   ],
+   "title": "Avatar Forcing",
+   "year": 2026,
+   "date": "2026-01-02",
+   "field": "avatars",
+   "sub": "nonverbal",
+   "modalities": [
+    "avatar"
+   ],
+   "inputs": [
+    "speech",
+    "video",
+    "image"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "reactivity",
+    "responsiveness"
+   ],
+   "kind": "research",
+   "description": "Avatar Forcing animates a head avatar that reacts in real time to the user's voice and visible behaviour (speech, nods, laughter) as well as its own speech, with about 500 ms latency on one GPU.",
+   "description_zh": "Avatar Forcing 驱动的头部虚拟人能实时回应用户的声音和可见行为（说话、点头、笑声）以及它自己的语音，在单个 GPU 上延迟约 500 ms。",
+   "idea_en": "Conditioning on the user's motion, not only audio, lets a portrait avatar react to what a participant does without speaking.",
+   "idea_zh": "以用户的动作（而不只是音频）为条件，让人像虚拟人能对参与者不说话时的行为作出反应。",
+   "method": "Diffusion forcing over motion latents with causal, real-time multimodal conditioning on user audio and motion, plus preference optimization that uses samples with user conditions dropped as negatives.",
+   "method_zh": "在动作隐空间上做 diffusion forcing，以因果方式实时接收用户音频与动作等多模态条件；并用去掉用户条件的样本作为负例做偏好优化。",
+   "specs": "~500 ms latency · single H100 (14 GB) · 6.8× faster than baseline",
+   "keywords": [
+    "interactive head avatar",
+    "diffusion forcing",
+    "DPO",
+    "listener reaction"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=TARPGnJ8GW4"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2601.00664",
+    "arxiv": "2601.00664",
+    "venue": "CVPR 2026",
+    "title": "Avatar Forcing: Real-Time Interactive Head Avatar Generation for Natural Conversation"
+   },
+   "source_url": "https://taekyungki.github.io/AvatarForcing/",
+   "code_url": "https://github.com/TaekyungKi/AvatarForcing",
+   "collections": [
+    "cvpr",
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "k-r-prajwal--wav2lip",
+   "creator_ids": [
+    "k-r-prajwal"
+   ],
+   "title": "Wav2Lip",
+   "year": 2020,
+   "date": "2020-08-23",
+   "field": "avatars",
+   "sub": "portrait",
+   "modalities": [
+    "flat-video",
+    "avatar"
+   ],
+   "inputs": [
+    "speech",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "open-source",
+   "description": "Wav2Lip re-syncs the lips of any talking face in a video to a new audio track, for arbitrary identities and languages, without per-speaker training.",
+   "description_zh": "Wav2Lip 能把任意视频中说话人的唇形重新对齐到一段新的音频上，适用于任何身份和语言，无需针对说话人训练。",
+   "idea_en": "The lineage's precursor: once lips could follow any voice, a face could be paired with a synthetic speaker, and its lip-sync metrics (LSE-C/D) are still used to score avatars in 2026.",
+   "idea_zh": "这一谱系的前身：一旦唇形能跟随任何声音，人脸就能与合成语音配对；它的唇形同步指标（LSE-C/D）在 2026 年仍被用来给虚拟人打分。",
+   "method": "A GAN-based lip generator trained against a frozen, pre-trained lip-sync expert discriminator (SyncNet) that penalises out-of-sync mouth shapes.",
+   "method_zh": "基于 GAN 的唇形生成器，训练时用一个冻结的、预训练好的唇形同步专家判别器（SyncNet）惩罚不同步的口型。",
+   "keywords": [
+    "lip sync",
+    "SyncNet",
+    "dubbing",
+    "precursor",
+    "LSE metric"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=0fXaDCZNOJc"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2008.10010",
+    "arxiv": "2008.10010",
+    "venue": "ACM Multimedia 2020",
+    "title": "A Lip Sync Expert Is All You Need for Speech to Lip Generation In The Wild"
+   },
+   "source_url": "https://github.com/Rudrabha/Wav2Lip",
+   "code_url": "https://github.com/Rudrabha/Wav2Lip",
+   "collections": [
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "microsoft--vasa-1",
+   "creator_ids": [
+    "microsoft"
+   ],
+   "title": "VASA-1",
+   "year": 2024,
+   "date": "2024-04-16",
+   "field": "avatars",
+   "sub": "portrait",
+   "modalities": [
+    "avatar",
+    "flat-video"
+   ],
+   "inputs": [
+    "image",
+    "speech"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "responsiveness"
+   ],
+   "kind": "model",
+   "description": "VASA-1 turns one portrait photo and a speech clip into a lifelike talking face with synchronized lips, expressive micro-movements and natural head motion, generated online at 512×512 and up to 40 fps. Microsoft did not release it publicly; in 2025 it reported using VASA-1 for the stylized faces of Copilot Portraits in Copilot Labs.",
+   "description_zh": "VASA-1 只需一张人像照片和一段语音，就能生成唇形同步、带细微表情和自然头部动作的逼真说话人脸，可在线以 512×512、最高 40 fps 生成。微软没有公开发布它；2025 年微软称在 Copilot Labs 的 Copilot Portraits 中用 VASA-1 驱动风格化的面孔。",
+   "idea_en": "Showed that a single photo could become a real-time conversational face, and why its makers withheld it over impersonation risk.",
+   "idea_zh": "证明了一张照片就能变成实时对话的人脸，也说明了开发者为何因冒充风险而不公开它。",
+   "method": "A diffusion transformer generates holistic facial dynamics and head motion in a disentangled face latent space learned from video, then a decoder renders frames from the latent codes.",
+   "method_zh": "扩散 Transformer 在从视频中学到的解耦人脸隐空间里生成整体面部动态和头部动作，再由解码器根据隐编码渲染画面。",
+   "specs": "512×512 · up to 40 fps online · negligible starting latency",
+   "keywords": [
+    "talking face",
+    "single image",
+    "real-time",
+    "face latent space",
+    "NeurIPS oral"
+   ],
+   "video": {
+    "url": "https://vasavatar.github.io/VASA-1/video/realtime_demo.mp4"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2404.10667",
+    "arxiv": "2404.10667",
+    "venue": "NeurIPS 2024 (Oral)",
+    "title": "VASA-1: Lifelike Audio-Driven Talking Faces Generated in Real Time"
+   },
+   "source_url": "https://www.microsoft.com/en-us/research/project/vasa-1/",
+   "collections": [
+    "ml-conf",
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "alibaba-tongyi--emo",
+   "creator_ids": [
+    "alibaba-tongyi"
+   ],
+   "title": "EMO (Emote Portrait Alive)",
+   "year": 2024,
+   "date": "2024-02-27",
+   "field": "avatars",
+   "sub": "portrait",
+   "modalities": [
+    "avatar",
+    "flat-video"
+   ],
+   "inputs": [
+    "image",
+    "speech"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "behavioral-plausibility"
+   ],
+   "kind": "research",
+   "description": "EMO makes a single portrait talk or sing along to any audio, with expressive faces and head motion, and no 3D face model or facial landmarks in between.",
+   "description_zh": "EMO 能让一张人像随任意音频说话或唱歌，表情和头部动作丰富，中间不经过三维人脸模型或面部关键点。",
+   "idea_en": "Moved talking heads from mouth-only lip sync to whole-face emotional performance driven directly by audio.",
+   "idea_zh": "让说话头像从只动嘴的唇形同步，进化到由音频直接驱动的整张脸的情绪表演。",
+   "method": "An audio-to-video diffusion model (Stable Diffusion backbone with ReferenceNet identity features, audio cross-attention and speed/face-region controls) trained on 250+ hours of talking video.",
+   "method_zh": "音频到视频的扩散模型（以 Stable Diffusion 为骨干，结合 ReferenceNet 身份特征、音频交叉注意力以及速度和人脸区域控制），在 250 多小时的说话视频上训练。",
+   "keywords": [
+    "audio2video",
+    "diffusion",
+    "singing portrait",
+    "ReferenceNet"
+   ],
+   "video": {
+    "url": "https://humanaigc.github.io/emote-portrait-alive/content/video/%E8%B5%AB%E6%9C%AC16_9.mp4"
+   },
+   "images": [
+    "https://humanaigc.github.io/emote-portrait-alive/content/images/framework/intro.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2402.17485",
+    "arxiv": "2402.17485",
+    "venue": "arXiv 2024",
+    "title": "EMO: Emote Portrait Alive -- Generating Expressive Portrait Videos with Audio2Video Diffusion Model under Weak Conditions"
+   },
+   "source_url": "https://humanaigc.github.io/emote-portrait-alive/"
+  },
+  {
+   "id": "kuaishou--liveportrait",
+   "creator_ids": [
+    "kuaishou"
+   ],
+   "title": "LivePortrait",
+   "year": 2024,
+   "date": "2024-07-03",
+   "field": "avatars",
+   "sub": "portrait",
+   "modalities": [
+    "avatar",
+    "flat-video"
+   ],
+   "inputs": [
+    "image",
+    "video"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "control",
+    "authoring"
+   ],
+   "kind": "open-source",
+   "description": "LivePortrait transfers a driving video's expressions and head pose onto a still portrait (people, and in a later release animals) in about 13 ms per frame, with explicit controls for eye and lip opening and stitching back into the original image.",
+   "description_zh": "LivePortrait 能把驱动视频中的表情和头部姿态迁移到一张静态人像上（后续版本也支持动物），每帧约 13 ms，并可显式控制眼睛和嘴唇的开合，再无缝拼回原图。",
+   "idea_en": "A fast, controllable, open retargeting tool that became the default way to puppeteer a generated face with a real performer.",
+   "idea_zh": "一个快速、可控的开源表情迁移工具，成为用真人表演操控生成人脸的默认方式。",
+   "method": "An implicit-keypoint (non-diffusion) animation framework scaled to about 69M training frames, with small MLP stitching and eye/lip retargeting modules.",
+   "method_zh": "基于隐式关键点（非扩散）的动画框架，训练数据扩展到约 6900 万帧，并配有小型 MLP 拼接模块和眼部/唇部重定向模块。",
+   "specs": "12.8 ms per frame on RTX 4090",
+   "keywords": [
+    "portrait animation",
+    "implicit keypoints",
+    "retargeting",
+    "puppeteering"
+   ],
+   "video": {
+    "url": "https://liveportrait.github.io/src/video/all_cross_opt.mp4"
+   },
+   "images": [
+    "https://liveportrait.github.io/src/img/live-portrait.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2407.03168",
+    "arxiv": "2407.03168",
+    "venue": "arXiv 2024",
+    "title": "LivePortrait: Efficient Portrait Animation with Stitching and Retargeting Control"
+   },
+   "source_url": "https://liveportrait.github.io/",
+   "code_url": "https://github.com/KlingAIResearch/LivePortrait",
+   "collections": [
+    "trend-open-weights",
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "bytedance-seed--loopy",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "Loopy",
+   "year": 2024,
+   "date": "2024-09-04",
+   "field": "avatars",
+   "sub": "portrait",
+   "modalities": [
+    "avatar",
+    "flat-video"
+   ],
+   "inputs": [
+    "image",
+    "speech"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "behavioral-plausibility"
+   ],
+   "kind": "research",
+   "description": "Loopy animates a portrait from audio alone, with sighs, eyebrow movement and head motion that follow the speech rhythm and emotion, without spatial motion templates.",
+   "description_zh": "Loopy 仅凭音频驱动人像，叹气、眉毛动作和头部运动都跟随语音的节奏和情绪，不需要空间动作模板。",
+   "idea_en": "Long-range temporal context lets non-verbal motion arise from the audio, not from a looped template.",
+   "idea_zh": "长时间的时间上下文让非语言动作从音频中自然产生，而不是来自循环播放的模板。",
+   "method": "A video diffusion model with inter- and intra-clip temporal modules and an audio-to-latents module for long-term motion dependency.",
+   "method_zh": "视频扩散模型，配有片段间与片段内的时间模块，以及音频到隐变量的模块，以建模长期动作依赖。",
+   "keywords": [
+    "audio-only",
+    "long-term motion",
+    "video diffusion"
+   ],
+   "video": {
+    "url": "https://loopyavatar.github.io/video/diverse_1.mp4"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2409.02634",
+    "arxiv": "2409.02634",
+    "venue": "ICLR 2025 (Oral)",
+    "title": "Loopy: Taming Audio-Driven Portrait Avatar with Long-Term Motion Dependency"
+   },
+   "source_url": "https://loopyavatar.github.io/",
+   "collections": [
+    "ml-conf"
+   ]
+  },
+  {
+   "id": "bytedance-seed--omnihuman-1",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "OmniHuman-1",
+   "year": 2025,
+   "date": "2025-02-03",
+   "field": "avatars",
+   "sub": "portrait",
+   "modalities": [
+    "avatar",
+    "flat-video"
+   ],
+   "inputs": [
+    "image",
+    "speech",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "product",
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "diversity"
+   ],
+   "kind": "model",
+   "description": "OmniHuman-1 turns one image (portrait, half body or full body; real or cartoon) plus audio into a video of the person talking, singing or gesturing, including hands and objects; ByteDance later offered it in Dreamina / Jimeng.",
+   "description_zh": "OmniHuman-1 只需一张图像（头像、半身或全身，真人或卡通）加一段音频，就能生成此人说话、唱歌或做手势的视频，包括手部和手持物体；字节跳动后来在即梦 / Dreamina 中上线了它。",
+   "idea_en": "Scaling one model over mixed conditions (text, audio, pose) brought audio-driven video from heads to whole bodies.",
+   "idea_zh": "用一个模型在混合条件（文本、音频、姿态）上扩大训练规模，让音频驱动视频从头部扩展到全身。",
+   "method": "A DiT video model trained with an 'omni-conditions' strategy that mixes weaker (text, audio) and stronger (pose) conditions so more training data stays usable.",
+   "method_zh": "视频 DiT 模型，采用“全条件”训练策略，混合较弱（文本、音频）和较强（姿态）的条件，使更多训练数据可被利用。",
+   "keywords": [
+    "full-body",
+    "human animation",
+    "DiT",
+    "multi-condition"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=1NU8NzvAxEg"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2502.01061",
+    "arxiv": "2502.01061",
+    "venue": "ICCV 2025",
+    "title": "OmniHuman-1: Rethinking the Scaling-Up of One-Stage Conditioned Human Animation Models"
+   },
+   "source_url": "https://omnihuman-lab.github.io/",
+   "collections": [
+    "iccv-eccv"
+   ]
+  },
+  {
+   "id": "bytedance-seed--omnihuman-1-5",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "OmniHuman-1.5",
+   "year": 2025,
+   "date": "2025-08-26",
+   "field": "avatars",
+   "sub": "portrait",
+   "modalities": [
+    "avatar",
+    "flat-video"
+   ],
+   "inputs": [
+    "image",
+    "speech",
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "api",
+    "product"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "control"
+   ],
+   "kind": "model",
+   "description": "OmniHuman-1.5 generates minute-long videos of one or several characters whose gestures and expressions follow the meaning and emotion of the speech, not only its rhythm, and can be steered with text prompts; it is available through BytePlus and Dreamina.",
+   "description_zh": "OmniHuman-1.5 可生成一个或多个角色、长达一分钟的视频，人物的手势和表情跟随语音的含义和情绪而不只是节奏，并可用文本提示引导；可通过 BytePlus 和即梦使用。",
+   "idea_en": "Adds a 'deliberative' planner so a generated person acts on what is said, a step from lip sync toward behaviour.",
+   "idea_zh": "加入一个“深思”式规划器，让生成的人根据话语内容行动，这是从唇形同步走向行为的一步。",
+   "method": "A dual-system design: a multimodal LLM reasons over audio, image and text to plan high-level actions, and a multimodal DiT with a pseudo last-frame identity design renders the video.",
+   "method_zh": "双系统设计：多模态大模型对音频、图像和文本进行推理以规划高层动作，再由带有“伪末帧”身份设计的多模态 DiT 渲染视频。",
+   "keywords": [
+    "cognitive simulation",
+    "multi-character",
+    "MLLM planning",
+    "DiT"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=zjrcDKe2dlI"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2508.19209",
+    "arxiv": "2508.19209",
+    "venue": "arXiv 2025",
+    "title": "OmniHuman-1.5: Instilling an Active Mind in Avatars via Cognitive Simulation"
+   },
+   "source_url": "https://omnihuman-lab.github.io/v1_5/"
+  },
+  {
+   "id": "hedra--character-3",
+   "creator_ids": [
+    "hedra"
+   ],
+   "title": "Character-3",
+   "year": 2025,
+   "date": "2025-03-12",
+   "field": "avatars",
+   "sub": "portrait",
+   "modalities": [
+    "avatar",
+    "flat-video"
+   ],
+   "inputs": [
+    "image",
+    "speech",
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "product",
+    "api"
+   ],
+   "lenses": [
+    "authoring",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "Character-3 animates any character image (photo, illustration, 3D render) into a talking or singing video from audio and a text prompt that sets emotion and body movement, inside the Hedra Studio app.",
+   "description_zh": "Character-3 能把任意角色图像（照片、插画、三维渲染）根据音频和设定情绪与肢体动作的文本提示，变成说话或唱歌的视频，在 Hedra Studio 应用中使用。",
+   "idea_en": "Made audio-driven character video a creator tool used at scale, including for non-human and stylized characters.",
+   "idea_zh": "让音频驱动的角色视频成为大规模使用的创作工具，也适用于非人类和风格化角色。",
+   "method": "An 'omnimodal' video model that jointly conditions on image, text and audio (architecture not published).",
+   "method_zh": "一个同时以图像、文本和音频为条件的“全模态”视频模型（架构未公开）。",
+   "keywords": [
+    "character animation",
+    "omnimodal",
+    "creator tool"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=2IcwhZZGJUs"
+   },
+   "source_url": "https://www.hedra.com/",
+   "api_url": "https://www.hedra.com/docs"
+  },
+  {
+   "id": "character-ai--avatarfx",
+   "creator_ids": [
+    "character-ai"
+   ],
+   "title": "AvatarFX",
+   "year": 2025,
+   "date": "2025-04-22",
+   "field": "avatars",
+   "sub": "portrait",
+   "modalities": [
+    "avatar",
+    "flat-video"
+   ],
+   "inputs": [
+    "image",
+    "text",
+    "speech"
+   ],
+   "timing": "offline",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "authoring",
+    "diversity"
+   ],
+   "kind": "model",
+   "description": "AvatarFX lets Character.AI users turn a character image into a video of it speaking, singing or emoting with a chosen voice, for human, animal and stylized characters, inside the Character.AI app.",
+   "description_zh": "AvatarFX 让 Character.AI 用户在应用内把角色图像变成该角色用选定声音说话、唱歌或表达情绪的视频，适用于人类、动物和风格化角色。",
+   "idea_en": "Brought face video to a mass companion-chat platform, together with the safety questions (minors, impersonation) that follow.",
+   "idea_zh": "把会动的脸带进大众陪伴聊天平台，也带来了随之而来的安全问题（未成年人、冒充）。",
+   "method": "A DiT-based diffusion video model with audio conditioning (per Character.AI's announcement; architecture details unpublished).",
+   "method_zh": "据 Character.AI 的发布说明，是一个带音频条件的 DiT 扩散视频模型（架构细节未公开）。",
+   "keywords": [
+    "companion",
+    "character video",
+    "DiT",
+    "consumer"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=LEPaWVbRJ1E"
+   },
+   "source_url": "https://character.ai"
+  },
+  {
+   "id": "character-ai--talkingmachines",
+   "creator_ids": [
+    "character-ai"
+   ],
+   "title": "TalkingMachines",
+   "year": 2025,
+   "date": "2025-06-03",
+   "field": "avatars",
+   "sub": "portrait",
+   "modalities": [
+    "avatar",
+    "frame-stream"
+   ],
+   "inputs": [
+    "image",
+    "speech"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "responsiveness",
+    "perceptual-realism"
+   ],
+   "kind": "research",
+   "description": "TalkingMachines turns a pretrained image-to-video model into a real-time, audio-driven character animator for FaceTime-style calls with an audio LLM, streaming video of unbounded length without drift.",
+   "description_zh": "TalkingMachines 把预训练的图生视频模型改造成实时的音频驱动角色动画器，与音频大模型配合实现 FaceTime 式通话，可流式生成不限时长且不漂移的视频。",
+   "idea_en": "Showed the recipe most 2026 real-time avatars use: distil a big bidirectional video model into a causal few-step streamer.",
+   "idea_zh": "展示了 2026 年多数实时虚拟人采用的做法：把大型双向视频模型蒸馏成因果、少步的流式生成器。",
+   "method": "An 18B audio-conditioned DiT adapted from a SOTA image-to-video model, distilled asymmetrically into a sparse causal autoregressive student, with DiT and VAE decoding split across GPUs.",
+   "method_zh": "由先进的图生视频模型改造而来的 18B 音频条件 DiT，经非对称蒸馏得到稀疏因果的自回归学生模型，并把 DiT 与 VAE 解码拆分到不同 GPU 上。",
+   "specs": "18B params · real-time streaming",
+   "keywords": [
+    "autoregressive diffusion",
+    "distillation",
+    "FaceTime-style",
+    "audio LLM"
+   ],
+   "video": {
+    "url": "https://aaxwaz.github.io/TalkingMachines/assets/videos/albert_2.mp4"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2506.03099",
+    "arxiv": "2506.03099",
+    "venue": "arXiv 2025",
+    "title": "TalkingMachines: Real-Time Audio-Driven FaceTime-Style Video via Autoregressive Diffusion Models"
+   },
+   "source_url": "https://aaxwaz.github.io/TalkingMachines/",
+   "collections": [
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "tencent-hunyuan--hunyuanvideo-avatar",
+   "creator_ids": [
+    "tencent-hunyuan"
+   ],
+   "title": "HunyuanVideo-Avatar",
+   "year": 2025,
+   "date": "2025-05-26",
+   "field": "avatars",
+   "sub": "portrait",
+   "modalities": [
+    "avatar",
+    "flat-video"
+   ],
+   "inputs": [
+    "image",
+    "speech"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "diversity",
+    "behavioral-plausibility"
+   ],
+   "kind": "model",
+   "description": "HunyuanVideo-Avatar animates one or several characters in a scene from audio, with emotion taken from a reference image and separate audio streams driving different characters, for example a two-person comedy dialogue.",
+   "description_zh": "HunyuanVideo-Avatar 可根据音频驱动场景中的一个或多个角色，情绪可取自参考图像，不同角色由各自的音频驱动，例如两人相声对话。",
+   "idea_en": "Open weights for multi-character audio-driven scenes, a step from one talking head to a small generated social situation.",
+   "idea_zh": "多角色音频驱动场景的开源权重，从单个说话头像迈向一个小型生成的社交情境。",
+   "method": "A multimodal DiT built on HunyuanVideo with a character image injection module, an audio emotion module and a face-aware audio adapter that masks audio to each character.",
+   "method_zh": "基于 HunyuanVideo 的多模态 DiT，配有角色图像注入模块、音频情绪模块，以及按人脸区域为每个角色分配音频的人脸感知音频适配器。",
+   "keywords": [
+    "multi-character",
+    "emotion control",
+    "open weights",
+    "DiT"
+   ],
+   "video": {
+    "url": "https://hunyuanvideo-avatar.github.io/static/%E5%8F%8C%E4%BA%BA/%E9%BB%91%E7%99%BD%E7%9B%B8%E5%A3%B0-2.mp4"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2505.20156",
+    "arxiv": "2505.20156",
+    "venue": "arXiv 2025",
+    "title": "HunyuanVideo-Avatar: High-Fidelity Audio-Driven Human Animation for Multiple Characters"
+   },
+   "source_url": "https://hunyuanvideo-avatar.github.io/",
+   "code_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar",
+   "collections": [
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "meituan--infinitetalk",
+   "creator_ids": [
+    "meituan"
+   ],
+   "title": "InfiniteTalk",
+   "year": 2025,
+   "date": "2025-08-19",
+   "field": "avatars",
+   "sub": "portrait",
+   "modalities": [
+    "avatar",
+    "flat-video"
+   ],
+   "inputs": [
+    "video",
+    "image",
+    "speech"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "InfiniteTalk dubs or animates a person to new speech over unlimited length, moving lips, head, posture and expression together while keeping identity, from a source video or a single image.",
+   "description_zh": "InfiniteTalk 能为人物配上新的语音并驱动其动作，时长不受限，嘴唇、头部、姿态和表情一起变化并保持身份，输入可以是一段源视频或一张图像。",
+   "idea_en": "Open, long-form audio-driven video that many later real-time systems compare against or build on.",
+   "idea_zh": "开源的长时音频驱动视频模型，后来许多实时系统都拿它做对比或在其基础上构建。",
+   "method": "Sparse-frame video dubbing on a Wan-based video diffusion model, conditioning on selected reference frames so whole-body motion follows audio across chunks.",
+   "method_zh": "在基于 Wan 的视频扩散模型上做稀疏帧视频配音，以选定的参考帧为条件，使全身动作在分段之间都跟随音频。",
+   "keywords": [
+    "dubbing",
+    "long video",
+    "open weights",
+    "sparse-frame"
+   ],
+   "video": {
+    "url": "https://meigen-ai.github.io/InfiniteTalk/videos/0.mp4"
+   },
+   "images": [
+    "https://meigen-ai.github.io/InfiniteTalk/images/0.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2508.14033",
+    "arxiv": "2508.14033",
+    "venue": "arXiv 2025",
+    "title": "InfiniteTalk: Audio-driven Video Generation for Sparse-Frame Video Dubbing"
+   },
+   "source_url": "https://meigen-ai.github.io/InfiniteTalk/",
+   "code_url": "https://github.com/MeiGen-AI/InfiniteTalk",
+   "collections": [
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "kuaishou--midas",
+   "creator_ids": [
+    "kuaishou"
+   ],
+   "title": "MIDAS",
+   "year": 2025,
+   "date": "2025-08-26",
+   "field": "avatars",
+   "sub": "portrait",
+   "modalities": [
+    "avatar",
+    "frame-stream"
+   ],
+   "inputs": [
+    "speech",
+    "text",
+    "image"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "responsiveness",
+    "control"
+   ],
+   "kind": "research",
+   "description": "MIDAS from Kuaishou's Kling team is a real-time, streaming digital human that takes audio, pose and text as control and generates video autoregressively, demonstrated in duplex two-person conversations and multilingual speech.",
+   "description_zh": "快手可灵团队的 MIDAS 是一个实时流式数字人，以音频、姿态和文本为控制信号自回归地生成视频，演示了双人双工对话和多语言说话。",
+   "idea_en": "Uses an LLM backbone as the motion planner of a streaming avatar, so new control signals can be added like new tokens.",
+   "idea_zh": "用大语言模型骨干充当流式虚拟人的动作规划器，新的控制信号可以像新 token 一样加入。",
+   "method": "A lightly modified LLM consumes multimodal condition encodings and guides a diffusion head, with a deep-compression autoencoder (up to 64×) and about 20,000 hours of dialogue video for training.",
+   "method_zh": "稍加修改的大语言模型接收多模态条件编码并引导扩散头；配合最高 64 倍压缩的深度压缩自编码器，并使用约 2 万小时对话视频训练。",
+   "specs": "~20,000 h training dialogue · up to 64× latent compression",
+   "keywords": [
+    "autoregressive",
+    "streaming",
+    "duplex conversation",
+    "Kling"
+   ],
+   "video": {
+    "url": "https://chenmingthu.github.io/milm/static/videos/dia_duplex.mp4"
+   },
+   "images": [
+    "https://chenmingthu.github.io/milm/static/images/dialog.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2508.19320",
+    "arxiv": "2508.19320",
+    "venue": "arXiv 2025",
+    "title": "MIDAS: Multimodal Interactive Digital-humAn Synthesis via Real-time Autoregressive Video Generation"
+   },
+   "source_url": "https://chenmingthu.github.io/milm/",
+   "collections": [
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "alibaba-quark--live-avatar",
+   "creator_ids": [
+    "alibaba-quark"
+   ],
+   "title": "Live Avatar",
+   "year": 2025,
+   "date": "2025-12-04",
+   "field": "avatars",
+   "sub": "portrait",
+   "modalities": [
+    "avatar",
+    "frame-stream"
+   ],
+   "inputs": [
+    "image",
+    "speech"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "persistence"
+   ],
+   "kind": "model",
+   "description": "Live Avatar streams an audio-driven avatar from a 14B diffusion model in real time and for hours (over 10,000 seconds) without identity drift; its demos show live interaction with a voice agent.",
+   "description_zh": "Live Avatar 用一个 14B 扩散模型实时流式生成音频驱动的虚拟人，可连续生成数小时（超过 10000 秒）而身份不漂移；演示展示了与语音智能体的实时互动。",
+   "idea_en": "Shows that frontier-size video models can run as live avatars if the denoising steps are spread across GPUs.",
+   "idea_zh": "说明只要把去噪步骤分摊到多块 GPU 上，前沿规模的视频模型也能作为实时虚拟人运行。",
+   "method": "Two-stage distillation of a bidirectional model into a causal few-step streamer, long-horizon anti-drift strategies, and Timestep-forcing Pipeline Parallelism (one denoising timestep per GPU).",
+   "method_zh": "两阶段地把双向模型蒸馏为因果、少步的流式模型，加上长时防漂移策略，以及时间步强制流水线并行（每块 GPU 负责一个去噪时间步）。",
+   "specs": "14B params · 45 fps · 1.21 s time to first frame on 5× H800 · >10,000 s stable",
+   "keywords": [
+    "streaming",
+    "infinite length",
+    "pipeline parallelism",
+    "open weights"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=_KwHex65wCU"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2512.04677",
+    "arxiv": "2512.04677",
+    "venue": "arXiv 2025",
+    "title": "Live Avatar: Streaming Real-time Audio-Driven Avatar Generation with Infinite Length"
+   },
+   "source_url": "https://liveavatar.github.io/",
+   "code_url": "https://github.com/Alibaba-Quark/LiveAvatar",
+   "collections": [
+    "trend-realtime",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "soul-ai-lab--soulx-flashtalk",
+   "creator_ids": [
+    "soul-ai-lab"
+   ],
+   "title": "SoulX-FlashTalk",
+   "year": 2025,
+   "date": "2025-12-29",
+   "field": "avatars",
+   "sub": "portrait",
+   "modalities": [
+    "avatar",
+    "frame-stream"
+   ],
+   "inputs": [
+    "image",
+    "speech"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "persistence"
+   ],
+   "kind": "model",
+   "description": "SoulX-FlashTalk streams a high-fidelity audio-driven avatar from a 14B model with sub-second start-up and real-time frame rate, for unbounded durations; weights are on Hugging Face.",
+   "description_zh": "SoulX-FlashTalk 用一个 14B 模型流式生成高保真的音频驱动虚拟人，启动时间不到一秒，帧率达到实时，时长不受限；权重已发布在 Hugging Face。",
+   "idea_en": "An open real-time avatar from a social-app company, used as a baseline by commercial full-duplex systems in 2026.",
+   "idea_zh": "一家社交应用公司开源的实时虚拟人，2026 年被商用全双工系统用作对比基线。",
+   "method": "Self-correcting bidirectional distillation that keeps bidirectional attention within chunks, a multi-step retrospective self-correction mechanism, and hybrid sequence parallelism with parallel VAE decoding.",
+   "method_zh": "自校正双向蒸馏（在片段内保留双向注意力），配合多步回溯自校正机制，以及混合序列并行和并行 VAE 解码。",
+   "specs": "14B params · 32 fps · 0.87 s start-up latency",
+   "keywords": [
+    "streaming",
+    "distillation",
+    "open weights",
+    "self-correction"
+   ],
+   "video": {
+    "url": "https://github.com/Soul-AILab/Soul-AILab.github.io/raw/refs/heads/main/soulx-livetalk/static/videos/teaser_1_n_0129.mp4"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2512.23379",
+    "arxiv": "2512.23379",
+    "venue": "arXiv 2025",
+    "title": "SoulX-FlashTalk: Real-Time Infinite Streaming of Audio-Driven Avatars via Self-Correcting Bidirectional Distillation"
+   },
+   "source_url": "https://soul-ailab.github.io/soulx-flashtalk/",
+   "code_url": "https://github.com/Soul-AILab/SoulX-FlashTalk",
+   "collections": [
+    "trend-realtime",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "meta--codec-avatars",
+   "creator_ids": [
+    "meta"
+   ],
+   "title": "Codec Avatars",
+   "year": 2019,
+   "date": "2019-03",
+   "field": "avatars",
+   "sub": "avatar-3d",
+   "modalities": [
+    "avatar"
+   ],
+   "inputs": [
+    "body",
+    "multi-view"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "responsiveness"
+   ],
+   "kind": "research",
+   "description": "Codec Avatars are Meta's photorealistic 3D avatars of real people, captured in multi-camera studios and driven live by cameras inside a VR headset, so two people in headsets see each other's faces in 3D. The best-known public demonstration was the 2023 Lex Fridman interview with Mark Zuckerberg held entirely between Codec Avatars.",
+   "description_zh": "Codec Avatars 是 Meta 为真人打造的照片级三维化身：在多相机影棚中采集，由 VR 头显内部的摄像头实时驱动，让戴着头显的两个人能看到对方的三维面孔。最著名的公开演示是 2023 年 Lex Fridman 与扎克伯格完全通过 Codec Avatars 进行的访谈。",
+   "idea_en": "Set the target that later Gaussian, phone-scan and feed-forward avatars chase: telepresence where a face is encoded, sent and decoded like a codec.",
+   "idea_zh": "确立了后来的高斯化身、手机扫描化身和前馈化身所追赶的目标：像编解码器一样编码、传输、解码一张脸的远程临场。",
+   "method": "A deep appearance model (variational autoencoder) learns a person-specific latent code of face geometry and view-dependent texture from studio capture; headset cameras regress the code in real time and a decoder renders it.",
+   "method_zh": "深度外观模型（变分自编码器）从影棚采集数据中学习个人专属的面部几何与视角相关纹理的隐编码；头显摄像头实时回归该编码，再由解码器渲染。",
+   "keywords": [
+    "telepresence",
+    "VR",
+    "photoreal avatar",
+    "VAE",
+    "third-party video"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=MVYrJJNdrEg"
+   },
+   "paper": {
+    "url": "https://doi.org/10.1145/3197517.3201401",
+    "doi": "10.1145/3197517.3201401",
+    "venue": "ACM TOG (SIGGRAPH 2018)",
+    "title": "Deep appearance models for face rendering"
+   },
+   "source_url": "https://tech.facebook.com/reality-labs/2019/3/codec-avatars-facebook-reality-labs/",
+   "collections": [
+    "siggraph"
+   ]
+  },
+  {
+   "id": "shunsuke-saito--relightable-gaussian-codec-avatars",
+   "creator_ids": [
+    "shunsuke-saito",
+    "meta"
+   ],
+   "title": "Relightable Gaussian Codec Avatars",
+   "year": 2023,
+   "date": "2023-12-06",
+   "field": "avatars",
+   "sub": "avatar-3d",
+   "modalities": [
+    "avatar",
+    "splats"
+   ],
+   "inputs": [
+    "multi-view",
+    "body"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism"
+   ],
+   "kind": "research",
+   "description": "Relightable Gaussian Codec Avatars render a drivable 3D head with individual hair strands, skin pores and eye reflections under any lighting, in real time, so the avatar fits the light of the scene it is placed in.",
+   "description_zh": "可重光照高斯 Codec Avatars 能在任意光照下实时渲染可驱动的三维头部，包括单根发丝、皮肤毛孔和眼睛反光，使化身与所处场景的光照一致。",
+   "idea_en": "Lighting consistency is part of believability: a face that ignores the room's light reads as pasted in.",
+   "idea_zh": "光照一致是可信度的一部分：无视房间光线的脸看起来就像贴上去的。",
+   "method": "3D Gaussians attached to a deformable head model with learnable radiance transfer (diffuse spherical-harmonics and spherical-Gaussian specular), plus an explicit eye model, trained on light-stage multi-view capture.",
+   "method_zh": "把三维高斯附着在可变形头部模型上，学习辐射传输（漫反射球谐与球面高斯镜面反射），再加上显式的眼睛模型，在光场舞台多视角采集数据上训练。",
+   "keywords": [
+    "Gaussian splatting",
+    "relighting",
+    "Codec Avatars",
+    "hair",
+    "eyes"
+   ],
+   "video": {
+    "url": "https://shunsukesaito.github.io/rgca/static/videos/full_video.mp4"
+   },
+   "images": [
+    "https://shunsukesaito.github.io/rgca/static/images/overview.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2312.03704",
+    "arxiv": "2312.03704",
+    "venue": "CVPR 2024 (Oral)",
+    "title": "Relightable Gaussian Codec Avatars"
+   },
+   "source_url": "https://shunsukesaito.github.io/rgca/",
+   "collections": [
+    "cvpr",
+    "trend-explicit-3d"
+   ]
+  },
+  {
+   "id": "junxuan-li--uravatar",
+   "creator_ids": [
+    "junxuan-li",
+    "meta"
+   ],
+   "title": "URAvatar",
+   "year": 2024,
+   "date": "2024-10-31",
+   "field": "avatars",
+   "sub": "avatar-3d",
+   "modalities": [
+    "avatar",
+    "splats"
+   ],
+   "inputs": [
+    "video",
+    "multi-view"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "perceptual-realism"
+   ],
+   "kind": "research",
+   "description": "URAvatar creates a relightable, drivable photoreal head avatar from a phone scan, using a universal prior learned from hundreds of studio-captured people, and renders it in real time under new lighting.",
+   "description_zh": "URAvatar 只需一次手机扫描就能生成可重光照、可驱动的照片级头部化身；它利用从数百名影棚采集者身上学到的通用先验，并能在新光照下实时渲染。",
+   "idea_en": "Brings Codec-Avatar quality from the capture studio to a phone, the step that would let a study include participants' own faces.",
+   "idea_zh": "把 Codec Avatar 的质量从采集影棚带到手机上，这一步让研究可以使用参与者自己的脸。",
+   "method": "A universal relightable Gaussian avatar prior trained on multi-view, multi-light captures; a phone scan is fitted by inverse rendering and fine-tuning the prior.",
+   "method_zh": "在多视角、多光照采集数据上训练通用的可重光照高斯化身先验；手机扫描通过逆向渲染对先验进行拟合与微调。",
+   "keywords": [
+    "phone scan",
+    "universal prior",
+    "relightable",
+    "Gaussian avatar"
+   ],
+   "video": {
+    "url": "https://junxuan-li.github.io/urgca-website/static/videos/ica-driving-video_crop.mp4"
+   },
+   "images": [
+    "https://junxuan-li.github.io/urgca-website/static/images/overview.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2410.24223",
+    "arxiv": "2410.24223",
+    "venue": "SIGGRAPH Asia 2024",
+    "title": "URAvatar: Universal Relightable Gaussian Codec Avatars"
+   },
+   "source_url": "https://junxuan-li.github.io/urgca-website/",
+   "collections": [
+    "siggraph",
+    "trend-explicit-3d"
+   ]
+  },
+  {
+   "id": "junxuan-li--large-scale-codec-avatars",
+   "creator_ids": [
+    "junxuan-li",
+    "meta"
+   ],
+   "title": "Large-scale Codec Avatars (LCA)",
+   "year": 2026,
+   "date": "2026-04-02",
+   "field": "avatars",
+   "sub": "avatar-3d",
+   "modalities": [
+    "avatar",
+    "splats"
+   ],
+   "inputs": [
+    "image",
+    "video"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "diversity",
+    "perceptual-realism",
+    "control"
+   ],
+   "kind": "research",
+   "description": "LCA produces a full-body, high-fidelity 3D avatar of almost anyone in a single forward pass, with fine facial expressions and finger-level control, generalizing across hairstyles, clothing and demographics.",
+   "description_zh": "LCA 只需一次前向推理就能为几乎任何人生成高保真的全身三维化身，具备细致的面部表情和手指级控制，并能泛化到不同发型、服装和人群。",
+   "idea_en": "Applies the foundation-model recipe (pretrain on a million in-the-wild videos, post-train on studio data) to 3D avatars, so diversity of people stops being a capture bottleneck.",
+   "idea_zh": "把基础模型的做法（在一百万段真实视频上预训练，再用影棚数据后训练）用于三维化身，让人群多样性不再受限于采集。",
+   "method": "Pre-training a feed-forward Gaussian avatar model on 1M in-the-wild videos for appearance and geometry priors, then post-training on curated multi-view data for expressivity and fidelity.",
+   "method_zh": "先在一百万段真实场景视频上预训练前馈高斯化身模型以获得外观与几何先验，再在精选多视角数据上后训练以提升表现力和保真度。",
+   "specs": "1M pretraining videos · full body · feed-forward",
+   "keywords": [
+    "feed-forward",
+    "pretraining",
+    "full-body avatar",
+    "Codec Avatars"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=eqFz2GFPIkE"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2604.02320",
+    "arxiv": "2604.02320",
+    "venue": "CVPR 2026",
+    "title": "Large-scale Codec Avatars: The Unreasonable Effectiveness of Large-scale Avatar Pretraining"
+   },
+   "source_url": "https://junxuan-li.github.io/lca",
+   "collections": [
+    "cvpr",
+    "trend-feed-forward"
+   ]
+  },
+  {
+   "id": "shenhan-qian--gaussianavatars",
+   "creator_ids": [
+    "shenhan-qian"
+   ],
+   "title": "GaussianAvatars",
+   "year": 2023,
+   "date": "2023-12-04",
+   "field": "avatars",
+   "sub": "avatar-3d",
+   "modalities": [
+    "avatar",
+    "splats"
+   ],
+   "inputs": [
+    "multi-view",
+    "body"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "control"
+   ],
+   "kind": "research",
+   "description": "GaussianAvatars builds a photoreal 3D head from multi-view video by binding 3D Gaussians to a FLAME face mesh, so the head can be re-animated with new expressions and poses and rendered in real time from any viewpoint.",
+   "description_zh": "GaussianAvatars 把三维高斯绑定到 FLAME 人脸网格上，从多视角视频中构建照片级三维头部，可用新的表情和姿态重新驱动，并能从任意视角实时渲染。",
+   "idea_en": "Rigging splats to a standard face model made Gaussian avatars drivable by the same parameters games and trackers already use.",
+   "idea_zh": "把高斯绑定到标准人脸模型上，让高斯化身可以用游戏和追踪器已在使用的参数来驱动。",
+   "method": "3D Gaussians parented to FLAME mesh triangles, moving with them, with binding inheritance during densification, optimized jointly with FLAME parameters on multi-view video.",
+   "method_zh": "三维高斯挂接在 FLAME 网格三角形上并随之运动，致密化时继承绑定关系，在多视角视频上与 FLAME 参数联合优化。",
+   "keywords": [
+    "3D Gaussian splatting",
+    "FLAME",
+    "head avatar",
+    "rigging"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=lVEY78RwU_I"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2312.02069",
+    "arxiv": "2312.02069",
+    "venue": "CVPR 2024",
+    "title": "GaussianAvatars: Photorealistic Head Avatars with Rigged 3D Gaussians"
+   },
+   "source_url": "https://shenhanqian.github.io/gaussian-avatars",
+   "code_url": "https://github.com/ShenhanQian/GaussianAvatars",
+   "collections": [
+    "cvpr",
+    "trend-explicit-3d"
+   ]
+  },
+  {
+   "id": "alibaba-tongyi--lam",
+   "creator_ids": [
+    "alibaba-tongyi"
+   ],
+   "title": "LAM (Large Avatar Model)",
+   "year": 2025,
+   "date": "2025-02-25",
+   "field": "avatars",
+   "sub": "avatar-3d",
+   "modalities": [
+    "avatar",
+    "splats"
+   ],
+   "inputs": [
+    "image",
+    "speech"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "authoring",
+    "responsiveness"
+   ],
+   "kind": "model",
+   "description": "LAM turns a single photo into an animatable 3D Gaussian head in one forward pass that runs in real time on phones and in WebGL, and Alibaba pairs it with audio-driven animation for chat avatars.",
+   "description_zh": "LAM 只需一张照片、一次前向推理就能生成可驱动的三维高斯头部，可在手机和 WebGL 中实时运行；阿里巴巴还把它与音频驱动动画结合用于聊天虚拟人。",
+   "idea_en": "One-shot 3D heads cheap enough for a browser make embodied agents deployable without GPU streaming.",
+   "idea_zh": "单图生成、成本低到能在浏览器里运行的三维头部，让具身智能体无需 GPU 推流也能部署。",
+   "method": "A transformer whose FLAME canonical points query multi-scale image features to predict canonical Gaussian attributes, animated by standard linear blend skinning with corrective blendshapes.",
+   "method_zh": "以 FLAME 规范点为查询、与多尺度图像特征交互的 Transformer 预测规范空间中的高斯属性，再用标准线性混合蒙皮和修正 blendshape 驱动。",
+   "keywords": [
+    "one-shot",
+    "Gaussian head",
+    "WebGL",
+    "mobile",
+    "open source"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=FrfE3RYSKhk"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2502.17796",
+    "arxiv": "2502.17796",
+    "venue": "arXiv 2025",
+    "title": "LAM: Large Avatar Model for One-shot Animatable Gaussian Head"
+   },
+   "source_url": "https://aigc3d.github.io/projects/LAM/",
+   "code_url": "https://github.com/aigc3d/LAM",
+   "collections": [
+    "trend-open-weights",
+    "trend-feed-forward",
+    "trend-explicit-3d"
+   ]
+  },
+  {
+   "id": "apple--personas",
+   "creator_ids": [
+    "apple"
+   ],
+   "title": "Personas (visionOS 26)",
+   "year": 2025,
+   "date": "2025-06-09",
+   "field": "avatars",
+   "sub": "avatar-3d",
+   "modalities": [
+    "avatar"
+   ],
+   "inputs": [
+    "multi-view",
+    "body"
+   ],
+   "timing": "real-time",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "responsiveness"
+   ],
+   "kind": "product",
+   "description": "A Persona is the 3D likeness of an Apple Vision Pro wearer, created from a quick face scan with the headset and animated live by its eye, face and hand tracking in FaceTime and shared spatial apps; visionOS 26 rebuilt Personas with more realistic hair, skin, eyelashes and side profiles.",
+   "description_zh": "Persona 是 Apple Vision Pro 佩戴者的三维形象：用头显快速扫描面部生成，在 FaceTime 和共享空间应用中由头显的眼部、面部和手部追踪实时驱动；visionOS 26 重新打造了 Persona，头发、皮肤、睫毛和侧脸更逼真。",
+   "idea_en": "The first photoreal self-avatar most XR users actually meet, which makes it the realistic baseline for embodied telepresence studies.",
+   "idea_zh": "多数 XR 用户真正接触到的第一个照片级自我化身，因此是具身远程临场研究的现实基线。",
+   "method": "On-device reconstruction from the headset's front cameras (Apple describes 'volumetric rendering' and machine learning in visionOS 26), driven by internal eye and face cameras.",
+   "method_zh": "由头显前置摄像头在设备端重建（Apple 在 visionOS 26 中称使用了“体积渲染”和机器学习），并由内部的眼部和面部摄像头驱动。",
+   "keywords": [
+    "Vision Pro",
+    "spatial Persona",
+    "telepresence",
+    "FaceTime",
+    "visionOS"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=81bsjbTN88g"
+   },
+   "source_url": "https://www.apple.com/os/visionos/",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "epic-games--metahuman-creator",
+   "creator_ids": [
+    "epic-games"
+   ],
+   "title": "MetaHuman Creator",
+   "year": 2021,
+   "date": "2021-02-10",
+   "field": "avatars",
+   "sub": "avatar-3d",
+   "modalities": [
+    "avatar",
+    "mesh"
+   ],
+   "inputs": [
+    "spec",
+    "multi-view"
+   ],
+   "timing": "real-time",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "authoring",
+    "perceptual-realism",
+    "control"
+   ],
+   "kind": "product",
+   "description": "MetaHuman Creator lets anyone design a realistic, fully rigged digital human in minutes by blending scanned faces and adjusting skin, hair and body, ready to animate in Unreal Engine; since Unreal Engine 5.6 (2025) it runs inside the engine and accepts mesh or scan input.",
+   "description_zh": "MetaHuman Creator 让任何人通过混合扫描人脸并调整皮肤、头发和体型，在几分钟内设计出逼真且完整绑定的数字人，可直接在 Unreal Engine 中驱动；自 Unreal Engine 5.6（2025）起，它在引擎内运行并接受网格或扫描输入。",
+   "idea_en": "The non-generative baseline: authored, rigged, controllable humans whose every parameter can be logged, which generative avatars still struggle to match on control.",
+   "idea_zh": "非生成式的基线：人工制作、完整绑定、可控，每个参数都能记录；在可控性上，生成式虚拟人仍难以企及。",
+   "method": "Parametric blending over a database of scanned faces and bodies (from 3Lateral and Cubic Motion), with a standard facial rig and LODs for real-time rendering.",
+   "method_zh": "在扫描人脸与身体数据库（来自 3Lateral 和 Cubic Motion）上做参数化混合，配有标准面部绑定和用于实时渲染的多级细节（LOD）。",
+   "keywords": [
+    "digital human",
+    "Unreal Engine",
+    "rig",
+    "authoring tool",
+    "baseline"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=OeUBATSJSr0"
+   },
+   "source_url": "https://www.metahuman.com/"
+  },
+  {
+   "id": "epic-games--metahuman-animator",
+   "creator_ids": [
+    "epic-games"
+   ],
+   "title": "MetaHuman Animator",
+   "year": 2023,
+   "date": "2023-06-15",
+   "field": "avatars",
+   "sub": "avatar-3d",
+   "modalities": [
+    "motion",
+    "avatar"
+   ],
+   "inputs": [
+    "video",
+    "body"
+   ],
+   "timing": "offline",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "product",
+   "description": "MetaHuman Animator turns an actor's performance filmed on an iPhone or stereo head-mounted camera into high-fidelity facial animation on any MetaHuman within minutes; later versions add animation from a webcam or from audio alone, and Unreal Engine 5.8 (2026) adds markerless body capture of one actor from a single webcam or phone camera.",
+   "description_zh": "MetaHuman Animator 能在几分钟内把用 iPhone 或立体头戴相机拍摄的演员表演，转换为任意 MetaHuman 上的高保真面部动画；后续版本支持仅用网络摄像头或仅用音频生成动画，Unreal Engine 5.8（2026）又加入了用单个网络摄像头或手机摄像头对单名演员做无标记身体捕捉的功能。",
+   "idea_en": "Performance capture for everyone, the authored-but-recorded route to believable virtual-human behaviour.",
+   "idea_zh": "人人可用的表演捕捉，一条“人工制作但基于真实录制”的可信虚拟人行为路线。",
+   "method": "A 4D solver fits a person-specific MetaHuman identity from a few frames, then tracks the captured video and depth to transfer the performance onto the standard facial rig.",
+   "method_zh": "4D 求解器先用少量帧拟合出该演员的 MetaHuman 身份，再追踪采集的视频与深度，把表演迁移到标准面部绑定上。",
+   "keywords": [
+    "performance capture",
+    "facial animation",
+    "iPhone",
+    "Unreal Engine"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=bIGnx2jvrbg"
+   },
+   "source_url": "https://www.metahuman.com/"
+  },
+  {
+   "id": "nvidia--audio2face-3d",
+   "creator_ids": [
+    "nvidia"
+   ],
+   "title": "Audio2Face-3D",
+   "year": 2025,
+   "date": "2025-09-24",
+   "field": "avatars",
+   "sub": "avatar-3d",
+   "modalities": [
+    "motion",
+    "avatar"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "authoring"
+   ],
+   "kind": "open-source",
+   "description": "Audio2Face-3D generates lip sync and facial expression for a rigged 3D character from speech audio in real time, and NVIDIA open-sourced the models, SDK and training framework in September 2025, with plug-ins for Unreal Engine and Maya.",
+   "description_zh": "Audio2Face-3D 可根据语音音频实时为绑定好的三维角色生成唇形同步和面部表情；NVIDIA 于 2025 年 9 月开源了模型、SDK 和训练框架，并提供 Unreal Engine 与 Maya 插件。",
+   "idea_en": "Gives game-engine NPCs and XR agents an open, inspectable speech-to-face layer that can run beside an LLM and TTS.",
+   "idea_zh": "为游戏引擎 NPC 和 XR 智能体提供开放、可检视的“语音到面部”层，可与大模型和语音合成并行运行。",
+   "method": "Neural networks (regression and diffusion variants) map audio features to facial blendshape or vertex animation plus emotion, part of NVIDIA ACE.",
+   "method_zh": "神经网络（回归与扩散两种版本）把音频特征映射为面部 blendshape 或顶点动画以及情绪，属于 NVIDIA ACE 的一部分。",
+   "keywords": [
+    "ACE",
+    "lip sync",
+    "blendshapes",
+    "game NPC",
+    "open source"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=-l8kjQUTfQk"
+   },
+   "images": [
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2025/09/NVIDIA-Open-Source-Audio2Face-video-500x282.gif"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2508.16401",
+    "arxiv": "2508.16401",
+    "venue": "arXiv 2025",
+    "title": "Audio2Face-3D: Audio-driven Realistic Facial Animation For Digital Avatars"
+   },
+   "source_url": "https://developer.nvidia.com/blog/nvidia-open-sources-audio2face-animation-model/",
+   "code_url": "https://github.com/NVIDIA/Audio2Face-3D",
+   "collections": [
+    "trend-open-weights",
+    "trend-realtime"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "Moshi-Face (Jiang et al., 2026)",
+   "why": "Facial generation integrated into a Moshi-style full-duplex spoken dialogue system; FacePlex's main full-duplex baseline. Likely arXiv 2606.21970 (title not yet matched to the 'Moshi-Face' name).",
+   "link": "https://arxiv.org/abs/2606.21970",
+   "found_via": "habin-lim",
+   "status": "open"
+  },
+  {
+   "name": "LPM 1.0 affiliation",
+   "why": "The LPM 1.0 report names no company; co-leads Ailing Zeng and Xin Tong may be at Anuttacon (see agents batch). Verify before linking creators.",
+   "link": "https://arxiv.org/abs/2604.07823",
+   "found_via": "ailing-zeng",
+   "status": "open"
+  },
+  {
+   "name": "Tavus Phoenix-3 / Raven-0 / Sparrow-0 (2025-03-06)",
+   "why": "First Tavus model family with full-face rendering, visual perception and transformer turn-taking; folded into the Phoenix-4, Raven-1 and Sparrow-2 entries. Only a BusinessWire video found.",
+   "link": "https://www.tavus.io/blog/introducing-the-evolution-of-conversational-video-interface-now-with-emotional-intelligence",
+   "found_via": "tavus",
+   "status": "duplicate"
+  },
+  {
+   "name": "Tavus Phoenix-4.5 (2026-09-09)",
+   "why": "Upper-body motion, zero-shot identities, ~134 ms audio-to-video; covered inside the Phoenix-4 entry.",
+   "link": "https://www.tavus.io/blog/phoenix-4-5",
+   "found_via": "tavus",
+   "status": "duplicate"
+  },
+  {
+   "name": "TurnBench (2026)",
+   "why": "Multi-domain turn-taking benchmark used by Sparrow-2; benchmark → infra/benchmarks.",
+   "link": "https://arxiv.org/abs/2608.25218",
+   "found_via": "tavus",
+   "status": "open"
+  },
+  {
+   "name": "Simli Trinity-1 (2025-07-10)",
+   "why": "Real-time Gaussian-based talking-face model with <300 ms speech-to-video; lower salience than Anam/LemonSlice.",
+   "link": "https://www.youtube.com/watch?v=OWPkzYE5PiA",
+   "found_via": "simli",
+   "status": "open"
+  },
+  {
+   "name": "Soul Machines Digital People",
+   "why": "Historical anchor (BabyX, 'Digital Brain' autonomous animation); no verified launch date found in this pass.",
+   "link": "https://www.soulmachines.com/",
+   "found_via": "soul-machines",
+   "status": "open"
+  },
+  {
+   "name": "Hallo / Hallo2 / Hallo3 (Fudan, 2024-2025)",
+   "why": "Widely used open audio-driven portrait models; project demos use copyrighted film clips, so no clean official video was found.",
+   "link": "https://github.com/fudan-generative-vision/hallo",
+   "found_via": "alibaba-tongyi",
+   "status": "no_media"
+  },
+  {
+   "name": "Kling-Avatar (2025-09-11)",
+   "why": "Kuaishou cascaded long-duration avatar animation with MLLM instruction grounding; project page down.",
+   "link": "https://arxiv.org/abs/2509.09595",
+   "found_via": "kuaishou",
+   "status": "no_media"
+  },
+  {
+   "name": "Wan-S2V (2025-08-26)",
+   "why": "Alibaba audio-driven cinematic video; belongs nearer the video batch's Wan family.",
+   "link": "https://arxiv.org/abs/2508.18621",
+   "found_via": "alibaba-tongyi",
+   "status": "open"
+  },
+  {
+   "name": "MoCha (Meta, 2025-03-30)",
+   "why": "Movie-grade talking character synthesis with multi-character turn-based dialogue.",
+   "link": "https://arxiv.org/abs/2503.23307",
+   "found_via": "meta",
+   "status": "open"
+  },
+  {
+   "name": "LiveTalk (2025-12-29)",
+   "why": "Real-time multimodal interactive video diffusion via on-policy distillation; a Griffin baseline.",
+   "link": "https://arxiv.org/abs/2512.23576",
+   "found_via": "tavus",
+   "status": "open"
+  },
+  {
+   "name": "Omni-LiveAvatar (2026-08)",
+   "why": "Minute-level real-time streaming joint audio-video avatar generation.",
+   "link": "https://arxiv.org/abs/2608.13602",
+   "found_via": "anam",
+   "status": "open"
+  },
+  {
+   "name": "OmniMate (2026-07)",
+   "why": "Open-ended real-time streaming audio-visual generation for interactive avatars.",
+   "link": "https://arxiv.org/abs/2607.23023",
+   "found_via": "anam",
+   "status": "open"
+  },
+  {
+   "name": "FlowAct-R2 (2026-09)",
+   "why": "Streaming multimodal references and proactive agent planning beyond talking avatars; HF demo space.",
+   "link": "https://arxiv.org/abs/2609.35728",
+   "found_via": "anam",
+   "status": "open"
+  },
+  {
+   "name": "FiCA (2026)",
+   "why": "Feed-forward instant Gaussian Codec Avatars from a single portrait image.",
+   "link": "https://arxiv.org/abs/2606.24232",
+   "found_via": "meta",
+   "status": "open"
+  },
+  {
+   "name": "Embody 3D (Meta, 2025-10)",
+   "why": "Large-scale multimodal motion and behaviour dataset from Meta's Codec Avatars lab.",
+   "link": "https://arxiv.org/abs/2510.16258",
+   "found_via": "meta",
+   "status": "open"
+  },
+  {
+   "name": "LHM (Alibaba, 2025-03)",
+   "why": "Large animatable human reconstruction model from a single image in seconds; assets/characters overlap.",
+   "link": "https://arxiv.org/abs/2503.10625",
+   "found_via": "alibaba-tongyi",
+   "status": "open"
+  },
+  {
+   "name": "GENEA Challenge 2026",
+   "why": "Speech-driven gesture generation evaluation on the Seamless Interaction dataset.",
+   "link": "https://arxiv.org/abs/2608.10839",
+   "found_via": "meta",
+   "status": "open"
+  },
+  {
+   "name": "Microsoft Copilot Portraits (2025)",
+   "why": "VASA-1 deployed as stylized real-time faces in Copilot Labs voice chat; folded into the VASA-1 entry (no official video found).",
+   "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/",
+   "found_via": "microsoft",
+   "status": "duplicate"
+  },
+  {
+   "name": "HeyGen Avatar IV / Avatar V",
+   "why": "HeyGen's photo-to-video avatar models (offline); lower priority than LiveAvatar.",
+   "link": "https://www.heygen.com",
+   "found_via": "heygen",
+   "status": "open"
+  },
+  {
+   "name": "xAI Grok Companions (2025-07)",
+   "why": "Real-time voice companions with animated 3D characters at consumer scale; not photoreal, unverified in this pass.",
+   "link": "https://x.ai",
+   "found_via": "xai",
+   "status": "open"
+  },
+  {
+   "name": "Gemini Live avatar (Perplexity lead)",
+   "why": "Resolved: confirmed on the official DeepMind blog (2026-09-24) and added as google-deepmind--gemini-live-avatar.",
+   "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+   "found_via": "google-deepmind",
+   "status": "duplicate"
+  }
+ ]
+}

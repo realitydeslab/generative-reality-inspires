@@ -1,0 +1,3771 @@
+{
+  "batch": "world-models",
+  "creators": [
+    {
+      "id": "google-deepmind",
+      "name": "Google DeepMind",
+      "name_zh": "谷歌 DeepMind",
+      "kind": "lab",
+      "role": "AI research lab of Google",
+      "based": "London, UK",
+      "bio": "Google's AI research lab, formed in 2023 from DeepMind and Google Brain; it builds the Gemini, Veo and Genie model families.",
+      "why": "Its Genie line set the reference point for promptable, action-conditioned world models.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://deepmind.google",
+        "x": "https://x.com/GoogleDeepMind"
+      },
+      "role_zh": "谷歌旗下的人工智能研究实验室",
+      "bio_zh": "谷歌的人工智能研究实验室，2023 年由 DeepMind 与 Google Brain 合并而成，开发 Gemini、Veo 和 Genie 等模型系列。",
+      "why_zh": "它的 Genie 系列为可提示、以动作为条件的世界模型树立了参照点。",
+      "based_zh": "英国伦敦",
+      "connected_to": [
+        "google"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "name_zh": "谷歌",
+      "kind": "company",
+      "role": "Technology company (Google Research, Google Labs)",
+      "based": "Mountain View, US",
+      "bio": "Google's research and product groups, including Google Research and the Google Labs prototypes that ship DeepMind models to the public.",
+      "why": "Google Research built GameNGen, and Google Labs hosts Project Genie.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://research.google"
+      },
+      "role_zh": "科技公司（Google Research、Google Labs）",
+      "bio_zh": "谷歌的研究与产品团队，包括 Google Research，以及把 DeepMind 模型带给公众的 Google Labs 实验性产品。",
+      "why_zh": "Google Research 打造了 GameNGen，Google Labs 则承载着 Project Genie。",
+      "based_zh": "美国山景城",
+      "connected_to": [
+        "google-deepmind",
+        "waymo"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "waymo",
+      "name": "Waymo",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Autonomous-driving company of Alphabet",
+      "based": "Mountain View, US",
+      "bio": "Alphabet's self-driving company, operating driverless ride-hailing in several U.S. cities.",
+      "why": "Its Waymo World Model shows a general world model (Genie 3) being post-trained into a multi-sensor driving simulator.",
+      "disciplines": [
+        "robotics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://waymo.com",
+        "x": "https://x.com/Waymo"
+      },
+      "role_zh": "Alphabet 旗下的自动驾驶公司",
+      "bio_zh": "Alphabet 旗下的自动驾驶公司，在多座美国城市运营无人驾驶网约车。",
+      "why_zh": "Waymo 世界模型展示了如何把通用世界模型（Genie 3）后训练成多传感器驾驶模拟器。",
+      "based_zh": "美国山景城",
+      "connected_to": [
+        "google-deepmind",
+        "google"
+      ],
+      "discovered_via": "google-deepmind"
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Generative video company",
+      "based": "New York, US",
+      "bio": "New York company behind the Gen-1 to Gen-4.5 video models; since 2023 it has pursued 'general world models'.",
+      "why": "Its GWM line turns a frontier video model into real-time, action-conditioned worlds, avatars and robot simulators.",
+      "disciplines": [
+        "ml",
+        "media-art"
+      ],
+      "links": {
+        "site": "https://runwayml.com",
+        "x": "https://x.com/runwayml"
+      },
+      "role_zh": "生成式视频公司",
+      "bio_zh": "总部位于纽约的公司，推出了 Gen-1 至 Gen-4.5 视频模型；自 2023 年起投入“通用世界模型”方向。",
+      "why_zh": "它的 GWM 系列把前沿视频模型变成实时、以动作为条件的世界、虚拟角色与机器人模拟器。",
+      "based_zh": "美国纽约",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "world-labs",
+      "name": "World Labs",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Spatial-intelligence AI company",
+      "based": "San Francisco, US",
+      "bio": "San Francisco company founded in 2024 by Fei-Fei Li, Justin Johnson, Christoph Lassner and Ben Mildenhall; makers of Marble and RTFM.",
+      "why": "It pursues worlds that persist, both as explicit 3D (Marble) and as learned real-time rendering (RTFM).",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.worldlabs.ai",
+        "x": "https://x.com/theworldlabs"
+      },
+      "role_zh": "空间智能 AI 公司",
+      "bio_zh": "由李飞飞、Justin Johnson、Christoph Lassner 与 Ben Mildenhall 于 2024 年在旧金山创立，推出了 Marble 与 RTFM。",
+      "why_zh": "它追求可以持久存在的世界：既有显式三维（Marble），也有学习式的实时渲染（RTFM）。",
+      "based_zh": "美国旧金山",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "dynamics-lab",
+      "name": "Dynamics Lab",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Generative game-engine startup",
+      "bio": "Startup that released Mirage (July 2025) and Mirage 2 (August 2025), browser-playable generative world engines; its website and launch posts were offline when checked in October 2026.",
+      "why": "One of the first teams to put a real-time, image-to-world engine in front of the public.",
+      "disciplines": [
+        "ml",
+        "games"
+      ],
+      "links": {},
+      "role_zh": "生成式游戏引擎初创公司",
+      "bio_zh": "推出 Mirage（2025 年 7 月）与 Mirage 2（2025 年 8 月）这两款可在浏览器中游玩的生成式世界引擎的初创公司；2026 年 10 月核查时，其网站与发布帖均已下线。",
+      "why_zh": "最早把实时“图像变世界”引擎开放给公众的团队之一。",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "odyssey",
+      "name": "Odyssey",
+      "name_zh": "",
+      "kind": "company",
+      "role": "World-model AI lab",
+      "bio": "AI lab founded in 2023 by Oliver Cameron and Jeff Hawke to build general-purpose world models; it released Odyssey-1, -2 and -3, the multi-agent Agora models and an API.",
+      "why": "It ships interactive world models publicly and fast, and is pushing them toward shared multi-agent worlds and robot control.",
+      "disciplines": [
+        "ml",
+        "robotics"
+      ],
+      "links": {
+        "site": "https://odyssey.ml",
+        "x": "https://x.com/odysseyml"
+      },
+      "role_zh": "世界模型 AI 实验室",
+      "bio_zh": "由 Oliver Cameron 与 Jeff Hawke 于 2023 年创立的 AI 实验室，致力于通用世界模型，先后发布 Odyssey-1、-2、-3、多智能体 Agora 系列模型及 API。",
+      "why_zh": "它以很快的节奏公开发布交互式世界模型，并把它们推向多人共享世界与机器人控制。",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "skywork",
+      "name": "Skywork AI",
+      "name_zh": "昆仑万维 Skywork",
+      "kind": "company",
+      "role": "AI unit of Kunlun Tech",
+      "based": "Singapore / Beijing",
+      "bio": "AI brand of Kunlun Tech that open-sources language, video and world models, including the Matrix-Game series.",
+      "why": "Matrix-Game is the most complete open-weight lineage of real-time game world models, from 2.0 to an engine-grounded 4.0.",
+      "disciplines": [
+        "ml",
+        "games"
+      ],
+      "links": {
+        "site": "https://www.skywork.ai",
+        "github": "https://github.com/SkyworkAI",
+        "huggingface": "https://huggingface.co/Skywork",
+        "x": "https://x.com/Skywork_ai"
+      },
+      "role_zh": "昆仑万维旗下的 AI 业务",
+      "bio_zh": "昆仑万维旗下的 AI 品牌，开源了语言、视频与世界模型，其中包括 Matrix-Game 系列。",
+      "why_zh": "Matrix-Game 是开源实时游戏世界模型中最完整的一条谱系，从 2.0 一直到与游戏引擎结合的 4.0。",
+      "based_zh": "新加坡 / 北京",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "tencent-hunyuan",
+      "name": "Tencent Hunyuan",
+      "name_zh": "腾讯混元",
+      "kind": "lab",
+      "role": "Foundation-model team of Tencent",
+      "based": "Shenzhen, CN",
+      "bio": "Tencent's foundation-model group, publishing open models for text, image, video, 3D and world generation under the Hunyuan / HY name.",
+      "why": "Hunyuan-GameCraft and HY-World 1.5 (WorldPlay) are among the strongest open-weight interactive world models.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://hunyuan.tencent.com",
+        "github": "https://github.com/Tencent-Hunyuan",
+        "huggingface": "https://huggingface.co/tencent",
+        "x": "https://x.com/TencentHunyuan"
+      },
+      "role_zh": "腾讯的基础模型团队",
+      "bio_zh": "腾讯的基础模型团队，以“混元 / HY”之名开源文本、图像、视频、三维与世界生成模型。",
+      "why_zh": "Hunyuan-GameCraft 与 HY-World 1.5（WorldPlay）是最强的开源交互式世界模型之一。",
+      "based_zh": "中国深圳",
+      "connected_to": [
+        "tencent"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "tencent",
+      "name": "Tencent",
+      "name_zh": "腾讯",
+      "kind": "company",
+      "role": "Chinese technology and games company",
+      "based": "Shenzhen, CN",
+      "bio": "Shenzhen-based internet and games company; several of its research teams, besides Hunyuan, publish interactive video work.",
+      "why": "Its 'Yan Team' showed 1080p, 60 fps game simulation with text-editable worlds.",
+      "disciplines": [
+        "ml",
+        "games"
+      ],
+      "links": {
+        "site": "https://www.tencent.com"
+      },
+      "role_zh": "中国科技与游戏公司",
+      "bio_zh": "总部位于深圳的互联网与游戏公司；除混元外，其多个研究团队也发表交互式视频方面的工作。",
+      "why_zh": "其“Yan 团队”展示了 1080p、60 fps 的游戏模拟，以及可用文字编辑的世界。",
+      "based_zh": "中国深圳",
+      "connected_to": [
+        "tencent-hunyuan"
+      ],
+      "discovered_via": "tencent-hunyuan"
+    },
+    {
+      "id": "robbyant",
+      "name": "Robbyant",
+      "name_zh": "灵波科技",
+      "kind": "company",
+      "role": "Embodied-AI company of Ant Group",
+      "bio": "Ant Group's embodied-intelligence company, which open-sources the LingBot family of robot and world models.",
+      "why": "LingBot-World and LingBot-World 2.0 are open-weight real-time world models with minute- to hour-scale horizons.",
+      "disciplines": [
+        "ml",
+        "robotics"
+      ],
+      "links": {
+        "site": "https://technology.robbyant.com",
+        "github": "https://github.com/Robbyant"
+      },
+      "role_zh": "蚂蚁集团旗下的具身智能公司",
+      "bio_zh": "蚂蚁集团旗下的具身智能公司（蚂蚁灵波科技），开源了 LingBot 系列机器人与世界模型。",
+      "why_zh": "LingBot-World 与 LingBot-World 2.0 是开源的实时世界模型，交互时长从分钟级延伸到小时级。",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "pixverse",
+      "name": "PixVerse",
+      "name_zh": "爱诗科技 PixVerse",
+      "kind": "company",
+      "role": "AI video company (AIsphere)",
+      "based": "Beijing, CN",
+      "bio": "Beijing-based maker of the PixVerse video generator and app, developed by AIsphere; in 2026 it added the real-time R1 and R2 world models.",
+      "why": "It is the first consumer video app to turn its generator into a real-time, steerable world with sound.",
+      "disciplines": [
+        "ml",
+        "media-art"
+      ],
+      "links": {
+        "site": "https://pixverse.ai"
+      },
+      "role_zh": "AI 视频公司（爱诗科技）",
+      "bio_zh": "总部位于北京的 PixVerse 视频生成器与应用的开发者，由爱诗科技打造；2026 年推出实时世界模型 R1 与 R2。",
+      "why_zh": "它是首个把视频生成器变成可实时操控、带声音的世界的消费级视频应用。",
+      "based_zh": "中国北京",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "overworld",
+      "name": "Overworld",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Open-weight world-model startup",
+      "bio": "Startup releasing open-weight, real-time diffusion world models (Waypoint) that run locally on consumer GPUs, plus the open-source Biome client.",
+      "why": "It targets the latency and hardware gap: world models people can run at home.",
+      "disciplines": [
+        "ml",
+        "games"
+      ],
+      "links": {
+        "site": "https://over.world",
+        "huggingface": "https://huggingface.co/Overworld"
+      },
+      "role_zh": "开源世界模型初创公司",
+      "bio_zh": "发布可在消费级显卡本地运行的开源实时扩散世界模型（Waypoint）及开源客户端 Biome 的初创公司。",
+      "why_zh": "它瞄准延迟与硬件门槛：做人们在家里就能运行的世界模型。",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "decart",
+      "name": "Decart",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Real-time generative AI company",
+      "based": "Tel Aviv, IL / San Francisco, US",
+      "bio": "Company building low-latency inference and real-time models: the Oasis world models and the Lucy live video-editing models.",
+      "why": "Oasis (2024) was the first widely played real-time AI game world; Oasis 3 (2026) aims the same idea at robot and driving simulation.",
+      "disciplines": [
+        "ml",
+        "games"
+      ],
+      "links": {
+        "site": "https://decart.ai"
+      },
+      "role_zh": "实时生成式 AI 公司",
+      "bio_zh": "专注低延迟推理与实时模型的公司，产品包括 Oasis 世界模型和 Lucy 实时视频编辑模型。",
+      "why_zh": "Oasis（2024）是第一个被广泛试玩的实时 AI 游戏世界；Oasis 3（2026）把同一思路用于机器人与驾驶仿真。",
+      "based_zh": "以色列特拉维夫 / 美国旧金山",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "etched",
+      "name": "Etched",
+      "name_zh": "",
+      "kind": "company",
+      "role": "AI chip company",
+      "bio": "Startup designing Sohu, a transformer-specific inference chip; co-developed Oasis with Decart.",
+      "why": "Its Oasis collaboration framed real-time world models as an inference-hardware problem.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.etched.com"
+      },
+      "role_zh": "AI 芯片公司",
+      "bio_zh": "设计 Transformer 专用推理芯片 Sohu 的初创公司，与 Decart 合作开发了 Oasis。",
+      "why_zh": "它与 Decart 合作的 Oasis 把实时世界模型定位为推理硬件问题。",
+      "connected_to": [
+        "decart"
+      ],
+      "discovered_via": "decart"
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "name_zh": "微软",
+      "kind": "company",
+      "role": "Technology company (Microsoft Research, Xbox)",
+      "based": "Redmond, US",
+      "bio": "Microsoft's research labs and Xbox studios; its Game Intelligence team built the Muse (WHAM) world models with Ninja Theory.",
+      "why": "Muse was the first world model trained on a commercial game's human play data and published in Nature.",
+      "disciplines": [
+        "ml",
+        "games"
+      ],
+      "links": {
+        "site": "https://www.microsoft.com/en-us/research/"
+      },
+      "role_zh": "科技公司（微软研究院、Xbox）",
+      "bio_zh": "微软的研究院与 Xbox 游戏工作室；其游戏智能团队与 Ninja Theory 合作开发了 Muse（WHAM）世界模型。",
+      "why_zh": "Muse 是首个用商业游戏人类游玩数据训练、并发表在 Nature 上的世界模型。",
+      "based_zh": "美国雷德蒙德",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "name_zh": "英伟达",
+      "kind": "company",
+      "role": "GPU and AI computing company",
+      "based": "Santa Clara, US",
+      "bio": "Maker of GPUs and the Omniverse and Cosmos platforms for physical AI.",
+      "why": "Its open Cosmos world foundation models are the most widely adopted base for robot and driving simulation.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://www.nvidia.com/en-us/ai/cosmos/",
+        "github": "https://github.com/nvidia-cosmos"
+      },
+      "role_zh": "GPU 与 AI 计算公司",
+      "bio_zh": "GPU 制造商，也是面向物理 AI 的 Omniverse 与 Cosmos 平台的开发者。",
+      "why_zh": "其开源的 Cosmos 世界基础模型，是机器人与驾驶仿真中采用最广的基座。",
+      "based_zh": "美国圣克拉拉",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Technology company (FAIR, Reality Labs)",
+      "based": "Menlo Park, US",
+      "bio": "Meta's AI research (FAIR) and Reality Labs; FAIR develops the JEPA family of predictive world models.",
+      "why": "V-JEPA 2 and Navigation World Models represent the planning-oriented branch of world models.",
+      "disciplines": [
+        "ml",
+        "robotics"
+      ],
+      "links": {
+        "site": "https://ai.meta.com"
+      },
+      "role_zh": "科技公司（FAIR、Reality Labs）",
+      "bio_zh": "Meta 的人工智能研究部门（FAIR）与 Reality Labs；FAIR 开发了 JEPA 系列预测式世界模型。",
+      "why_zh": "V-JEPA 2 与导航世界模型代表了面向规划的世界模型分支。",
+      "based_zh": "美国门洛帕克",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "wayve",
+      "name": "Wayve",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Embodied-AI driving company",
+      "based": "London, UK",
+      "bio": "London company building end-to-end driving models, and the GAIA line of generative driving world models since 2023.",
+      "why": "GAIA tracks the move from generating driving video to closed-loop simulation with the driver in the loop.",
+      "disciplines": [
+        "robotics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://wayve.ai"
+      },
+      "role_zh": "具身智能自动驾驶公司",
+      "bio_zh": "总部位于伦敦的公司，开发端到端驾驶模型，并自 2023 年起推出 GAIA 系列生成式驾驶世界模型。",
+      "why_zh": "GAIA 记录了从生成驾驶视频到让驾驶模型参与闭环仿真的转变。",
+      "based_zh": "英国伦敦",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "1x-technologies",
+      "name": "1X Technologies",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Humanoid-robot company",
+      "based": "Palo Alto, US / Moss, NO",
+      "bio": "Norwegian-American maker of the EVE and NEO humanoid robots.",
+      "why": "Its 1X World Model (2024) was an early action-conditioned simulator for evaluating humanoid policies.",
+      "disciplines": [
+        "robotics"
+      ],
+      "links": {
+        "site": "https://www.1x.tech",
+        "github": "https://github.com/1x-technologies"
+      },
+      "role_zh": "人形机器人公司",
+      "bio_zh": "挪威与美国背景的人形机器人公司，产品包括 EVE 与 NEO。",
+      "why_zh": "其 1X 世界模型（2024）是较早用于评估人形机器人策略的、以动作为条件的模拟器。",
+      "based_zh": "美国帕洛阿尔托 / 挪威莫斯",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "kuaishou",
+      "name": "Kuaishou",
+      "name_zh": "快手 / 可灵",
+      "kind": "company",
+      "role": "Short-video platform and maker of Kling",
+      "based": "Beijing, CN",
+      "bio": "Chinese short-video company whose Kling team develops video models and funds interactive-video research with university partners.",
+      "why": "Its Kling research group co-authored GameFactory and Context-as-Memory.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.kuaishou.com",
+        "github": "https://github.com/KwaiVGI"
+      },
+      "role_zh": "短视频平台，可灵的开发者",
+      "bio_zh": "中国短视频公司，其可灵团队开发视频模型，并与高校合作开展交互式视频研究。",
+      "why_zh": "其可灵研究团队参与了 GameFactory 与 Context-as-Memory 的研究。",
+      "based_zh": "中国北京",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "general-intuition",
+      "name": "General Intuition",
+      "name_zh": "",
+      "kind": "company",
+      "role": "AI lab for agents acting in space and time",
+      "bio": "AI lab spun out of the game-clip platform Medal that trains agents and world models on large archives of gameplay video.",
+      "why": "Co-developed MIRA, an open multiplayer world model, with Kyutai.",
+      "disciplines": [
+        "ml",
+        "games"
+      ],
+      "links": {
+        "site": "https://generalintuition.com"
+      },
+      "role_zh": "研究在时空中行动的智能体的 AI 实验室",
+      "bio_zh": "从游戏片段平台 Medal 分拆出来的 AI 实验室，利用大规模游戏视频档案训练智能体与世界模型。",
+      "why_zh": "与 Kyutai 合作开发了开源多人世界模型 MIRA。",
+      "connected_to": [
+        "kyutai"
+      ],
+      "discovered_via": "kyutai"
+    },
+    {
+      "id": "david-ha",
+      "name": "David Ha",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher, first author of World Models (2018)",
+      "bio": "Machine-learning researcher, then at Google Brain, later co-founder of Sakana AI; co-wrote World Models with Jürgen Schmidhuber.",
+      "why": "World Models popularised the idea of an agent learning inside its own generated 'dream'.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://worldmodels.github.io",
+        "x": "https://x.com/hardmaru"
+      },
+      "role_zh": "研究者，《World Models》（2018）第一作者",
+      "bio_zh": "机器学习研究者，时任职于 Google Brain，后联合创立 Sakana AI；与 Jürgen Schmidhuber 合著《World Models》。",
+      "why_zh": "《World Models》让“智能体在自己生成的梦境中学习”这一想法广为人知。",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "seung-wook-kim",
+      "name": "Seung Wook Kim",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher at NVIDIA, first author of GameGAN",
+      "bio": "Researcher at NVIDIA's Toronto AI lab working on neural simulation of games and driving.",
+      "why": "GameGAN (2020) was the first widely shown neural re-creation of a playable game.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {},
+      "role_zh": "英伟达研究员，GameGAN 第一作者",
+      "bio_zh": "英伟达多伦多 AI 实验室研究员，研究游戏与驾驶的神经模拟。",
+      "why_zh": "GameGAN（2020）是第一个被广泛展示的、用神经网络重建的可玩游戏。",
+      "connected_to": [
+        "nvidia"
+      ],
+      "discovered_via": "nvidia"
+    },
+    {
+      "id": "eloi-alonso",
+      "name": "Eloi Alonso",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher, first author of DIAMOND",
+      "bio": "Machine-learning researcher (University of Geneva) working on diffusion world models for reinforcement learning.",
+      "why": "DIAMOND showed that a small diffusion model can become a playable Counter-Strike world on one consumer GPU.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "x": "https://x.com/EloiAlonso1",
+        "github": "https://github.com/eloialonso"
+      },
+      "role_zh": "研究者，DIAMOND 第一作者",
+      "bio_zh": "日内瓦大学的机器学习研究者，研究用于强化学习的扩散世界模型。",
+      "why_zh": "DIAMOND 证明了一个小型扩散模型就能在单张消费级显卡上变成可玩的《反恐精英》世界。",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "danijar-hafner",
+      "name": "Danijar Hafner",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Research scientist, author of the Dreamer agents",
+      "bio": "Research scientist at Google DeepMind known for the Dreamer line of world-model agents.",
+      "why": "Dreamer 4 trains agents entirely inside a learned, real-time world model.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://danijar.com",
+        "x": "https://x.com/danijarh"
+      },
+      "role_zh": "研究科学家，Dreamer 系列智能体作者",
+      "bio_zh": "Google DeepMind 研究科学家，以 Dreamer 系列世界模型智能体闻名。",
+      "why_zh": "Dreamer 4 让智能体完全在学到的实时世界模型里完成训练。",
+      "connected_to": [
+        "google-deepmind"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "sherry-yang",
+      "name": "Sherry Yang",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher, first author of UniSim",
+      "bio": "Researcher (Google DeepMind and UC Berkeley at the time of UniSim) working on video models as real-world simulators.",
+      "why": "UniSim framed video generation as a universal interactive simulator for agents.",
+      "disciplines": [
+        "ml",
+        "robotics"
+      ],
+      "links": {},
+      "role_zh": "研究者，UniSim 第一作者",
+      "bio_zh": "研究者（发表 UniSim 时任职于 Google DeepMind 与加州大学伯克利分校），研究把视频模型用作真实世界模拟器。",
+      "why_zh": "UniSim 把视频生成定位为面向智能体的通用交互式模拟器。",
+      "connected_to": [
+        "google-deepmind"
+      ],
+      "discovered_via": "google-deepmind"
+    },
+    {
+      "id": "amir-bar",
+      "name": "Amir Bar",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher at Meta FAIR, first author of Navigation World Models",
+      "bio": "Computer-vision researcher (Meta FAIR, Tel Aviv University) working on visual prediction and world models.",
+      "why": "Navigation World Models showed that a video world model can be used to plan routes, not just to render.",
+      "disciplines": [
+        "ml",
+        "robotics"
+      ],
+      "links": {
+        "site": "https://www.amirbar.net"
+      },
+      "role_zh": "Meta FAIR 研究员，导航世界模型第一作者",
+      "bio_zh": "计算机视觉研究者（Meta FAIR、特拉维夫大学），研究视觉预测与世界模型。",
+      "why_zh": "导航世界模型表明，视频世界模型不仅能渲染，还能用来规划路径。",
+      "connected_to": [
+        "meta"
+      ],
+      "discovered_via": "meta"
+    },
+    {
+      "id": "boyuan-chen",
+      "name": "Boyuan Chen",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher at MIT, first author of Diffusion Forcing",
+      "bio": "PhD researcher at MIT working on video world models and robot learning.",
+      "why": "Diffusion Forcing is the training recipe behind many stable, long autoregressive world models.",
+      "disciplines": [
+        "ml",
+        "robotics"
+      ],
+      "links": {
+        "site": "https://boyuan.space"
+      },
+      "role_zh": "麻省理工学院研究者，Diffusion Forcing 第一作者",
+      "bio_zh": "麻省理工学院的博士研究者，研究视频世界模型与机器人学习。",
+      "why_zh": "Diffusion Forcing 是许多稳定、长时自回归世界模型背后的训练方法。",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "zeqi-xiao",
+      "name": "Zeqi Xiao",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher, first author of WorldMem",
+      "bio": "Researcher at Nanyang Technological University (S-Lab) working on consistent video world simulation.",
+      "why": "WorldMem made explicit memory banks a standard tool for keeping generated worlds consistent.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://xizaoqu.github.io"
+      },
+      "role_zh": "研究者，WorldMem 第一作者",
+      "bio_zh": "南洋理工大学 S-Lab 研究者，研究一致的视频世界模拟。",
+      "why_zh": "WorldMem 让显式记忆库成为保持生成世界一致性的常用工具。",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "jiwen-yu",
+      "name": "Jiwen Yu",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher at the University of Hong Kong",
+      "bio": "PhD researcher at the University of Hong Kong working with Kuaishou's Kling team on interactive video generation.",
+      "why": "First author of GameFactory and Context-as-Memory, two reference works on controllable and consistent game video.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://yujiwen.github.io"
+      },
+      "role_zh": "香港大学研究者",
+      "bio_zh": "香港大学博士研究者，与快手可灵团队合作研究交互式视频生成。",
+      "why_zh": "GameFactory 与 Context-as-Memory 的第一作者，这两项工作是可控、一致的游戏视频的参考之作。",
+      "connected_to": [
+        "kuaishou"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "tong-wu",
+      "name": "Tong Wu",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher at Stanford University",
+      "bio": "Researcher in Gordon Wetzstein's group at Stanford working on 3D-aware video generation.",
+      "why": "First author of the long-term spatial-memory world model that stores the scene as a point cloud.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {},
+      "role_zh": "斯坦福大学研究者",
+      "bio_zh": "斯坦福大学 Gordon Wetzstein 组的研究者，研究具备三维感知的视频生成。",
+      "why_zh": "以点云保存场景的长期空间记忆世界模型的第一作者。",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "xindi-wu",
+      "name": "Xindi Wu",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher at Princeton and NVIDIA",
+      "bio": "PhD researcher at Princeton University who worked with NVIDIA on memory for video world models.",
+      "why": "First author of WorldTrace, which keeps a world model's memory addressable beyond its training horizon.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {},
+      "role_zh": "普林斯顿大学与英伟达研究者",
+      "bio_zh": "普林斯顿大学博士研究者，与英伟达合作研究视频世界模型的记忆机制。",
+      "why_zh": "WorldTrace 的第一作者，这项工作让世界模型在超出训练时长后仍能准确调取记忆。",
+      "connected_to": [
+        "nvidia"
+      ],
+      "discovered_via": "nvidia"
+    }
+  ],
+  "works": [
+    {
+      "id": "google-deepmind--genie",
+      "creator_ids": [
+        "google-deepmind"
+      ],
+      "title": "Genie",
+      "year": 2024,
+      "date": "2024-02-23",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "image",
+        "action"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "reactivity",
+        "diversity"
+      ],
+      "kind": "model",
+      "description": "An 11-billion-parameter model that turns a single image, sketch or photo into a playable 2D platformer, learned from internet gameplay videos without any action labels.",
+      "description_zh": "一个 110 亿参数的模型，能把一张图像、草图或照片变成可游玩的二维平台游戏；它从网络游戏视频中学习，完全不需要动作标注。",
+      "idea_en": "Shows that controls can be learned from unlabeled video, so any picture can become a world with a small set of discovered actions.",
+      "idea_zh": "证明了操控方式可以从无标注视频中学出来，于是任何一张图片都能变成一个拥有少量“自发现动作”的世界。",
+      "method": "A spatiotemporal video tokenizer, a latent action model that infers 8 discrete actions between frames, and an autoregressive dynamics model, trained on 30,000 hours of 2D platformer videos filtered from about 200,000 hours of internet footage.",
+      "method_zh": "由时空视频分词器、在帧间推断 8 个离散动作的潜在动作模型和自回归动力学模型组成，训练数据是从约 20 万小时网络视频中筛选出的 3 万小时二维平台游戏画面。",
+      "specs": "11B parameters · 8 latent actions · ~1 fps (developer-reported)",
+      "keywords": [
+        "world model",
+        "latent actions",
+        "foundation world model",
+        "platformer",
+        "ICML 2024 Best Paper",
+        "conference talk video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=DSVsnCDTyfc"
+      },
+      "source_url": "https://sites.google.com/view/genie-2024/home",
+      "collections": [
+        "agenda-core",
+        "trend-world-simulators",
+        "ml-conf"
+      ],
+      "exhibited": [
+        "ICML 2024 Best Paper"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2402.15391",
+        "arxiv": "2402.15391",
+        "venue": "ICML 2024",
+        "title": "Genie: Generative Interactive Environments"
+      }
+    },
+    {
+      "id": "google-deepmind--genie-2",
+      "creator_ids": [
+        "google-deepmind"
+      ],
+      "title": "Genie 2",
+      "year": 2024,
+      "date": "2024-12-04",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "image",
+        "text",
+        "action"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "diversity",
+        "persistence",
+        "situational-reach"
+      ],
+      "kind": "model",
+      "description": "A foundation world model that turns one prompt image into a 3D-looking world a person or agent can play with keyboard and mouse, with physics, lighting, NPCs and object interactions; DeepMind reports consistent play for up to about a minute.",
+      "description_zh": "一个基础世界模型：把一张提示图像变成看起来立体、可用键盘鼠标游玩的世界，包含物理、光照、NPC 与物体交互；DeepMind 称其一致性最长可维持约一分钟。",
+      "idea_en": "Moves world models from 2D games to rich 3D-looking scenes, but only for short sessions and not in real time.",
+      "idea_zh": "把世界模型从二维游戏推进到丰富、具立体感的场景，但只能短时运行，且不是实时的。",
+      "method": "An autoregressive latent diffusion model over video frames, conditioned on keyboard and mouse actions, trained on a large video dataset; prompt images were generated with Imagen 3.",
+      "method_zh": "在视频帧潜空间上进行自回归扩散、以键盘鼠标动作为条件的模型，在大规模视频数据上训练；提示图像由 Imagen 3 生成。",
+      "specs": "10–20 s typical · up to ~1 min consistency (developer-reported)",
+      "keywords": [
+        "world model",
+        "foundation world model",
+        "autoregressive diffusion",
+        "SIMA agents",
+        "long-horizon memory"
+      ],
+      "video": {
+        "url": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/media/genie2_zoom_v6.mp4"
+      },
+      "images": [
+        "https://lh3.googleusercontent.com/NtYWmA3waHr1wi5OrNVdxndoSe4iS7Kui6GU4p8HvpFN_YrsbDcGudAgi4Nl-rN1geHpA4Czl0yXO6TQ73n8Q39oMmhDj_vbQ3rWNYE9EVLJcqm2=w1200-h630-n-nu-rw"
+      ],
+      "source_url": "https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/",
+      "collections": [
+        "agenda-core",
+        "trend-world-simulators",
+        "trend-agents-in-worlds"
+      ]
+    },
+    {
+      "id": "google-deepmind--genie-3",
+      "creator_ids": [
+        "google-deepmind"
+      ],
+      "title": "Genie 3",
+      "year": 2025,
+      "date": "2025-08-05",
+      "field": "world-models",
+      "sub": "general",
+      "also": [
+        "agents"
+      ],
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text",
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "preview",
+        "product"
+      ],
+      "lenses": [
+        "responsiveness",
+        "persistence",
+        "situational-reach"
+      ],
+      "kind": "model",
+      "description": "A general-purpose world model that generates a navigable world from a text prompt and streams it in real time; DeepMind reports 720p at 24 fps with consistency for a few minutes, plus 'promptable world events' that change weather or add objects mid-session.",
+      "description_zh": "一个通用世界模型：根据文字提示生成可漫游的世界并实时流式输出；DeepMind 称其分辨率为 720p、帧率 24 fps，一致性可维持数分钟，还支持在体验中途改变天气或加入物体的“可提示世界事件”。",
+      "idea_en": "The first real-time general world model: a situation can be described in words and walked into, but it lasts minutes, not hours, and the person controls only one avatar.",
+      "idea_zh": "第一个实时的通用世界模型：情境可以用文字描述后直接走进去，但只能持续几分钟而非几小时，而且人只能操控一个化身。",
+      "method": "Autoregressive frame-by-frame generation that attends to the trajectory so far, so revisited places stay consistent without an explicit 3D representation; trained on large-scale video.",
+      "method_zh": "逐帧自回归生成，并关注此前的整条轨迹，使回到原处时场景保持一致，而无需显式三维表示；在大规模视频上训练。",
+      "specs": "720p · 24 fps · consistent for a few minutes · promptable world events (developer-reported)",
+      "keywords": [
+        "world model",
+        "real-time",
+        "promptable world events",
+        "SIMA",
+        "Project Genie"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=PDKhUknuQDg"
+      },
+      "images": [
+        "https://lh3.googleusercontent.com/MZsGi3QroEY4lNLxrQVBVpn_5NZDXMCKwXs8nStlzGvjS7p76pP-FjyyO-hrYuBhERc60C5-KosmVJFfITEYN7wx_cV94Wju48IyYRwQ39_DtRDU=w1200-h630-n-nu-rw"
+      ],
+      "source_url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/",
+      "collections": [
+        "agenda-core",
+        "trend-world-simulators",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "google-deepmind--project-genie",
+      "creator_ids": [
+        "google-deepmind",
+        "google"
+      ],
+      "title": "Project Genie",
+      "year": 2026,
+      "date": "2026-01-29",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "product",
+        "preview"
+      ],
+      "lenses": [
+        "authoring",
+        "responsiveness",
+        "co-creation"
+      ],
+      "kind": "product",
+      "description": "A Google Labs web prototype, powered by Genie 3, Nano Banana Pro and Gemini, where Google AI Ultra subscribers sketch a world and character from text and images, explore it in first or third person, remix others' worlds and download the result; sessions are capped at 60 seconds.",
+      "description_zh": "Google Labs 推出的网页原型，由 Genie 3、Nano Banana Pro 与 Gemini 驱动：Google AI Ultra 订阅用户用文字和图像勾勒世界与角色，以第一或第三人称探索，可改编他人的世界并下载视频；每次体验限时 60 秒。",
+      "idea_en": "Puts a real-time world model in front of paying users for the first time: authoring a world now takes a sentence and a picture, but a session ends after a minute.",
+      "idea_zh": "首次把实时世界模型交到付费用户手中：创作一个世界只需一句话加一张图，但体验一分钟就会结束。",
+      "method": "Nano Banana Pro renders a preview image the user can edit ('world sketching'), Gemini likely handles prompt understanding, and Genie 3 then generates the path ahead in real time from the user's movement and camera input.",
+      "method_zh": "Nano Banana Pro 生成可编辑的预览图（“世界草图”），Gemini 可能负责理解提示，随后由 Genie 3 根据用户的移动与镜头输入实时生成前方的路。",
+      "specs": "60 s per generation · U.S. Google AI Ultra, 18+ at launch (developer-reported)",
+      "keywords": [
+        "world model",
+        "Google Labs",
+        "world sketching",
+        "remix",
+        "Genie 3",
+        "Google AI Ultra"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=YxkGdX4WIBE"
+      },
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/genie-3__project-genie__hero-film_social-shar.width-1300.jpg"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie/",
+      "api_url": "https://labs.google/projectgenie",
+      "collections": [
+        "agenda-core",
+        "trend-world-simulators",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "google-deepmind--project-genie-street-view",
+      "creator_ids": [
+        "google-deepmind",
+        "google"
+      ],
+      "title": "Project Genie: Street View grounding",
+      "year": 2026,
+      "date": "2026-05-19",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "image",
+        "text",
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "product",
+        "preview"
+      ],
+      "lenses": [
+        "situational-reach",
+        "perceptual-realism",
+        "authoring"
+      ],
+      "kind": "product",
+      "description": "An I/O 2026 update that lets Project Genie start a world from a real place: users drop a Maps pin in the U.S., pick a style such as 'Ocean World' or 'B&W film', describe a character, and Genie builds the world from Street View imagery; access widened the same day to Google AI Ultra subscribers worldwide.",
+      "description_zh": "2026 年 I/O 大会上的更新，让 Project Genie 可以从真实地点出发：用户在地图上为美国某处放置图钉，选择“海洋世界”或“黑白电影”等风格并描述角色，Genie 便基于街景图像生成世界；同日向全球 Google AI Ultra 订阅用户开放。",
+      "idea_en": "Grounds a generated world in a specific real street, which makes place-based scenarios possible, though only as a stylised starting point that drifts as you move.",
+      "idea_zh": "让生成的世界锚定在一条真实的街道上，使基于具体地点的情境成为可能；但它只是带风格化的起点，随着移动会逐渐偏离。",
+      "method": "Street View imagery retrieved through Google's Maps Imagery Grounding conditions the opening frames, after which Genie 3 continues the world in real time from user actions.",
+      "method_zh": "通过谷歌的 Maps Imagery Grounding 调取街景图像作为开场画面的条件，之后由 Genie 3 根据用户动作实时延续世界。",
+      "specs": "U.S. places at launch · global Google AI Ultra rollout (developer-reported)",
+      "keywords": [
+        "world model",
+        "Street View",
+        "grounding",
+        "real places",
+        "Google I/O 2026",
+        "Maps Imagery Grounding"
+      ],
+      "video": {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/GeoGenie_hero_small_kA4AQO6.mp4"
+      },
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/projectgenie-social.width-1300.png"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/",
+      "api_url": "https://labs.google/projectgenie",
+      "collections": [
+        "agenda-core",
+        "trend-grounded",
+        "trend-world-simulators"
+      ]
+    },
+    {
+      "id": "runway--gwm-1",
+      "creator_ids": [
+        "runway"
+      ],
+      "title": "GWM-1",
+      "year": 2025,
+      "date": "2025-12-11",
+      "field": "world-models",
+      "sub": "general",
+      "also": [
+        "avatars"
+      ],
+      "modalities": [
+        "frame-stream",
+        "avatar"
+      ],
+      "inputs": [
+        "action",
+        "camera",
+        "speech"
+      ],
+      "timing": "real-time",
+      "access": [
+        "preview",
+        "api"
+      ],
+      "lenses": [
+        "responsiveness",
+        "reactivity",
+        "situational-reach"
+      ],
+      "kind": "model",
+      "description": "Runway's first general world model family, released as three post-trained variants: GWM Worlds for explorable environments, GWM Avatars for conversational characters and GWM Robotics for action-conditioned robot video, with a Robotics SDK.",
+      "description_zh": "Runway 的首个通用世界模型系列，以三个后训练变体发布：用于可探索环境的 GWM Worlds、用于对话角色的 GWM Avatars，以及以机器人动作为条件生成视频的 GWM Robotics，并提供机器人 SDK。",
+      "idea_en": "One video backbone serves places, people and robots, which hints at a single model for a whole situation, though the variants are still separate models.",
+      "idea_zh": "同一个视频骨干同时服务于场景、人物与机器人，预示着用一个模型承载整个情境的可能，尽管各变体目前仍是独立模型。",
+      "method": "An autoregressive model built on Gen-4.5 that generates frame by frame and is conditioned on camera pose, robot commands or audio.",
+      "method_zh": "基于 Gen-4.5 的自回归模型，逐帧生成，以镜头位姿、机器人指令或音频为条件。",
+      "specs": "720p · up to 2 min (developer-reported)",
+      "keywords": [
+        "world model",
+        "general world model",
+        "GWM Worlds",
+        "GWM Avatars",
+        "GWM Robotics",
+        "Gen-4.5"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=aevPpq4PIhE"
+      },
+      "images": [
+        "https://d3phaj0sisr2ct.cloudfront.net/site/images/research/gwm/gwm-card-01.png"
+      ],
+      "source_url": "https://runwayml.com/research/introducing-runway-gwm-1",
+      "api_url": "https://docs.dev.runwayml.com/",
+      "collections": [
+        "trend-world-simulators",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "runway--gwm-worlds-2",
+      "creator_ids": [
+        "runway"
+      ],
+      "title": "GWM Worlds 2",
+      "year": 2026,
+      "date": "2026-09-03",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "camera",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "preview"
+      ],
+      "lenses": [
+        "co-creation",
+        "control",
+        "reactivity"
+      ],
+      "kind": "model",
+      "description": "A research preview of a playable world model that streams video and sound together; one person can play a character while another 'directs' the scene with text actions addressed to any subject, such as a sword slash, a spoken reply or a room flooding.",
+      "description_zh": "一个可游玩世界模型的研究预览，同时流式生成画面与声音；一个人扮演角色，另一个人可以用发给任何对象的文字动作“导演”场景，比如挥剑、说一句话，或让房间进水。",
+      "idea_en": "Separates what persists (scene, subjects, rules) from what happens (timestamped events), which is close to how an experimenter would script a situation.",
+      "idea_zh": "把“持续存在的东西”（场景、角色、规则）与“发生的事”（带时间戳的事件）分开，这与实验者编排情境的方式非常接近。",
+      "method": "Built on Runway's audio-video model and driven by 'WorldPrompt': a genesis prompt with scene, subjects and laws, a first frame, a timestamped stream of free-text actions, and per-frame camera input.",
+      "method_zh": "基于 Runway 的音视频生成模型，由“WorldPrompt”驱动：包含场景、角色与规则的创世提示、首帧、带时间戳的自由文本动作流，以及逐帧镜头输入。",
+      "specs": "720p · 24 fps · 48 kHz audio · no preset session length (developer-reported)",
+      "keywords": [
+        "world model",
+        "WorldPrompt",
+        "audio-video",
+        "multi-user",
+        "director mode",
+        "research preview"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=pmjyB-lc4KQ"
+      },
+      "images": [
+        "https://d3phaj0sisr2ct.cloudfront.net/site/research/gwm-worlds-2/images/gwm-worlds-2-card.webp"
+      ],
+      "source_url": "https://runway.com/research/introducing-gwm-worlds-2",
+      "collections": [
+        "trend-world-simulators",
+        "trend-realtime",
+        "trend-native-audio"
+      ]
+    },
+    {
+      "id": "world-labs--rtfm",
+      "creator_ids": [
+        "world-labs"
+      ],
+      "title": "RTFM",
+      "year": 2025,
+      "date": "2025-10-16",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "image",
+        "camera"
+      ],
+      "timing": "real-time",
+      "access": [
+        "preview"
+      ],
+      "lenses": [
+        "persistence",
+        "perceptual-realism",
+        "responsiveness"
+      ],
+      "kind": "research",
+      "description": "A 'Real-Time Frame Model' research preview that renders a world generated from a single image as you move through it in the browser, with reflections, gloss and shadows; World Labs reports it runs on one H100 and that the world 'will never be forgotten'.",
+      "description_zh": "“实时帧模型”的研究预览：在浏览器中边走边渲染由单张图像生成的世界，包含反射、光泽与阴影；World Labs 称它只需一张 H100，且世界“永远不会被遗忘”。",
+      "idea_en": "Treats a learned model as a renderer with spatial memory, a route to persistent worlds without building explicit 3D.",
+      "idea_zh": "把学习得到的模型当作带空间记忆的渲染器，是一条无需构建显式三维也能获得持久世界的路线。",
+      "method": "An end-to-end autoregressive diffusion transformer over frames whose stored frames carry 3D poses; it retrieves nearby frames as context ('context juggling') to keep the world consistent.",
+      "method_zh": "端到端的逐帧自回归扩散 Transformer，存储的每一帧都带有三维位姿；通过调取附近帧作为上下文（“上下文轮换”）保持世界一致。",
+      "specs": "1× H100 · interactive frame rate (developer-reported)",
+      "keywords": [
+        "world model",
+        "real-time frame model",
+        "spatial memory",
+        "posed frames",
+        "neural rendering"
+      ],
+      "video": {
+        "url": "https://wlt-ai-cdn.art/videos/2025-10-15-v3/matchmove-icegleam.mp4"
+      },
+      "images": [
+        "https://www.worldlabs.ai/api/opengraph-image?imageUrl=/images/rtfm-thumbnail-glass.png&title=RTFM:%20A%20Real-Time%20Frame%20Model"
+      ],
+      "source_url": "https://www.worldlabs.ai/blog/rtfm",
+      "api_url": "https://rtfm.worldlabs.ai/",
+      "collections": [
+        "trend-realtime",
+        "trend-world-simulators"
+      ]
+    },
+    {
+      "id": "dynamics-lab--mirage-2",
+      "creator_ids": [
+        "dynamics-lab"
+      ],
+      "title": "Mirage 2",
+      "year": 2025,
+      "date": "2025-08-21",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "image",
+        "text",
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "preview"
+      ],
+      "lenses": [
+        "authoring",
+        "co-creation",
+        "responsiveness"
+      ],
+      "kind": "model",
+      "description": "A 'generative world engine' that turned any uploaded image, from a photo to a child's drawing, into a world playable in the browser with WASD keys, and let players change it with text mid-session; the online demo was offline when checked in October 2026.",
+      "description_zh": "一款“生成式世界引擎”：把任意上传的图像（从照片到儿童画）变成可在浏览器中用 WASD 键游玩的世界，并允许玩家在游玩中用文字修改世界；2026 年 10 月核查时在线演示已下线。",
+      "idea_en": "Showed in 2025 that anyone could step into their own picture, while press tests found loose controls and sudden scene changes.",
+      "idea_zh": "在 2025 年展示了任何人都能走进自己的图片，但媒体实测发现操控松散、场景时有突变。",
+      "method": "Reported as an autoregressive transformer-based diffusion model streaming frames from image and text prompts with live text edits.",
+      "method_zh": "据报道是一个基于 Transformer 的自回归扩散模型，根据图像与文字提示流式生成画面，并支持实时文字编辑。",
+      "specs": "> 10 min sessions · ~200 ms latency · single GPU (developer-reported, via press)",
+      "keywords": [
+        "world model",
+        "image-to-world",
+        "UGC",
+        "browser demo",
+        "third-party video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=Ps55y7NPgTs"
+      },
+      "source_url": "https://www.gigazine.net/gsc_news/en/20250825-ai-generative-world-mirage-2",
+      "collections": []
+    },
+    {
+      "id": "odyssey--odyssey-2",
+      "creator_ids": [
+        "odyssey"
+      ],
+      "title": "Odyssey-2",
+      "year": 2025,
+      "date": "2025-10-27",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "responsiveness",
+        "co-creation",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "A world model that begins streaming video within seconds of a typed prompt and keeps changing it as the viewer types new instructions, for multi-minute sessions in a web app; it follows Odyssey-1 (May 2025) and was later offered through an API as Odyssey-2 Pro.",
+      "description_zh": "一个世界模型：输入提示几秒后便开始流式生成视频，观看者继续输入指令，画面随之改变，单次可持续数分钟，可在网页应用中体验；它是 Odyssey-1（2025 年 5 月）的后继，之后以 Odyssey-2 Pro 的形式开放 API。",
+      "idea_en": "Makes video behave like a chat: you steer it by typing, which lowers the bar for authoring, but text is coarse compared with game controls.",
+      "idea_zh": "让视频像聊天一样运作：边打字边引导画面，降低了创作门槛，但与游戏操控相比，文字指令较为粗略。",
+      "method": "A causal, autoregressive video model that generates each frame from past frames and the current text, producing a new frame every 50 ms.",
+      "method_zh": "因果自回归视频模型，根据此前的画面与当前文字生成每一帧，每 50 毫秒产出一帧。",
+      "specs": "20 fps · 50 ms per frame · multi-minute streams (developer-reported)",
+      "keywords": [
+        "world model",
+        "interactive video",
+        "text-steered",
+        "causal video model",
+        "API"
+      ],
+      "video": {
+        "url": "https://framerusercontent.com/assets/1RxJjsLhuFccE8n3TwpMnC8cNE.mp4"
+      },
+      "images": [
+        "https://framerusercontent.com/assets/iGnprsv1qq41yOKpOnTDNQNBrRs.jpg"
+      ],
+      "source_url": "https://odyssey.ml/introducing-odyssey-2",
+      "api_url": "https://developer.odyssey.ml",
+      "collections": [
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "odyssey--agora-2",
+      "creator_ids": [
+        "odyssey"
+      ],
+      "title": "Agora-2",
+      "year": 2026,
+      "date": "2026-09",
+      "field": "world-models",
+      "sub": "general",
+      "also": [
+        "agents"
+      ],
+      "modalities": [
+        "frame-stream",
+        "behavior"
+      ],
+      "inputs": [
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "preview"
+      ],
+      "lenses": [
+        "co-creation",
+        "persistence",
+        "behavioral-plausibility"
+      ],
+      "kind": "model",
+      "description": "A playable research preview of a multi-agent world model in which up to 20 humans and AI agents share one generated world in real time, each participant's actions changing what the others see; it was trained on Diablo II gameplay captures.",
+      "description_zh": "一个可游玩的多智能体世界模型研究预览：最多 20 名人类与 AI 智能体实时共处于同一个生成世界，每个人的动作都会改变其他人看到的画面；训练数据来自《暗黑破坏神 II》的游戏录像。",
+      "idea_en": "A shared generated world is the precondition for social situations; Agora-2 shows it working, but in one game's visual world.",
+      "idea_zh": "共享的生成世界是社会情境的前提；Agora-2 展示了它的可行性，但目前局限于一款游戏的画面世界。",
+      "method": "A world model trained on Diablo II captures that pair observations with actions and game state, predicting a shared state from many participants' simultaneous actions; it extends Agora-1 (May 2026) to 5× more participants and multiple environments.",
+      "method_zh": "以配对了观察、动作与游戏状态的《暗黑破坏神 II》录像训练的世界模型，根据多名参与者的同时动作预测共享状态；相较 Agora-1（2026 年 5 月）参与人数增加 5 倍，并支持多个环境。",
+      "specs": "up to 20 participants · real-time (developer-reported)",
+      "keywords": [
+        "world model",
+        "multi-agent",
+        "shared world",
+        "multiplayer",
+        "Diablo II",
+        "research preview"
+      ],
+      "video": {
+        "url": "https://framerusercontent.com/assets/ZfcIM6TLKcPbbzfURMa87Lo6ww.mp4"
+      },
+      "images": [
+        "https://framerusercontent.com/assets/G8pOTIjyosApbiNbN1y31BVpbM.jpeg"
+      ],
+      "source_url": "https://odyssey.ml/introducing-agora-2",
+      "api_url": "https://agora.odyssey.systems",
+      "collections": [
+        "trend-agents-in-worlds",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "skywork--matrix-game-2",
+      "creator_ids": [
+        "skywork"
+      ],
+      "title": "Matrix-Game 2.0",
+      "year": 2025,
+      "date": "2025-08-12",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "image",
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "reactivity"
+      ],
+      "kind": "open-source",
+      "description": "An open-weight world model that streams minute-long interactive video from a single image, controlled by keyboard and mouse, in Minecraft-like, urban-driving and GTA-style scenes.",
+      "description_zh": "一个开源权重的世界模型，可从单张图像出发，以键盘鼠标操控，流式生成长达数分钟的交互视频，场景包括类 Minecraft、城市驾驶与 GTA 风格。",
+      "idea_en": "The first widely used open real-time world model: a lab can download it, run it and pin the version.",
+      "idea_zh": "第一个被广泛使用的开源实时世界模型：实验室可以下载、运行并固定版本。",
+      "method": "A few-step causal diffusion model distilled for autoregressive streaming, trained on about 1,200 hours of Unreal Engine and GTA5 interaction data with action injection modules.",
+      "method_zh": "经蒸馏的少步因果扩散模型，用于自回归流式生成，配有动作注入模块，训练数据约为 1200 小时的虚幻引擎与 GTA5 交互数据。",
+      "specs": "25 fps · minute-level video (developer-reported)",
+      "keywords": [
+        "world model",
+        "open weights",
+        "real-time",
+        "causal diffusion",
+        "GTA",
+        "Minecraft"
+      ],
+      "video": {
+        "url": "https://matrix-game-v2.github.io/static/videos/matrix-game2.mp4"
+      },
+      "images": [
+        "https://matrix-game-v2.github.io/static/imgs/architecture.png"
+      ],
+      "source_url": "https://matrix-game-v2.github.io/",
+      "code_url": "https://github.com/SkyworkAI/Matrix-Game",
+      "collections": [
+        "trend-open-weights",
+        "trend-realtime"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2508.13009",
+        "arxiv": "2508.13009",
+        "venue": "arXiv 2025",
+        "title": "Matrix-game 2.0: An open-source, real-time, and streaming interactive world model"
+      }
+    },
+    {
+      "id": "tencent-hunyuan--hunyuan-gamecraft",
+      "creator_ids": [
+        "tencent-hunyuan"
+      ],
+      "title": "Hunyuan-GameCraft",
+      "year": 2025,
+      "date": "2025-08-14",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "image",
+        "text",
+        "action"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "reactivity",
+        "persistence",
+        "perceptual-realism"
+      ],
+      "kind": "open-source",
+      "description": "An open-weight model that turns an image and a text prompt into high-dynamic, game-like video controlled by keyboard and mouse, keeping the scene consistent across long action sequences; paper June 2025, weights August 2025.",
+      "description_zh": "一个开源权重模型，把一张图像和一段文字变成以键盘鼠标操控的高动态游戏画面，并在长动作序列中保持场景一致；论文发布于 2025 年 6 月，权重于 2025 年 8 月开源。",
+      "idea_en": "Brings AAA-game visual quality to action-conditioned video, but each action chunk is generated in turn rather than streamed live.",
+      "idea_zh": "让以动作为条件的视频达到 3A 游戏级画质，但每段动作是逐段生成的，而不是实时流式输出。",
+      "method": "Built on HunyuanVideo: keyboard and mouse inputs are unified into a continuous camera-action space, with a hybrid history condition for autoregressive extension and distillation for speed; trained on over a million gameplay clips from 100+ AAA games.",
+      "method_zh": "基于 HunyuanVideo：把键盘鼠标输入统一到连续的镜头动作空间，用混合历史条件实现自回归延展，并通过蒸馏提速；训练数据为来自 100 多款 3A 游戏的逾百万段游戏录像。",
+      "keywords": [
+        "world model",
+        "open weights",
+        "game video",
+        "HunyuanVideo",
+        "hybrid history condition"
+      ],
+      "video": {
+        "url": "https://hunyuan-gamecraft.github.io/assets/videos/main.mp4"
+      },
+      "images": [
+        "https://hunyuan-gamecraft.github.io/assets/images/pipeline.png"
+      ],
+      "source_url": "https://hunyuan-gamecraft.github.io/",
+      "code_url": "https://github.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0",
+      "collections": [
+        "trend-open-weights"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2506.17201",
+        "arxiv": "2506.17201",
+        "venue": "arXiv 2025",
+        "title": "Hunyuan-GameCraft: High-dynamic Interactive Game Video Generation with Hybrid History Condition"
+      }
+    },
+    {
+      "id": "tencent-hunyuan--hy-world-1-5-worldplay",
+      "creator_ids": [
+        "tencent-hunyuan"
+      ],
+      "title": "HY-World 1.5 (WorldPlay)",
+      "year": 2025,
+      "date": "2025-12-17",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "image",
+        "text",
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open",
+        "product"
+      ],
+      "lenses": [
+        "persistence",
+        "responsiveness"
+      ],
+      "kind": "open-source",
+      "description": "An open-source, real-time interactive world model that streams a navigable world from an image or text and keeps its geometry consistent when the user returns to a place; later releases added a lightweight 5B variant, training code and RL post-training (WorldCompass).",
+      "description_zh": "开源的实时交互世界模型：从一张图像或一段文字流式生成可漫游的世界，用户回到原处时几何结构保持一致；后续版本加入了轻量的 5B 版本、训练代码以及强化学习后训练方法 WorldCompass。",
+      "idea_en": "Combines real-time play with long-term geometric memory in an open model, so persistence can be studied rather than taken on trust.",
+      "idea_zh": "在开源模型中同时做到实时交互与长期几何记忆，使“持久性”可以被研究，而不只是听厂商宣称。",
+      "method": "An autoregressive video model (8B, built on HunyuanVideo) with dual action representation, reconstituted context memory that re-selects past frames by geometry, and context-forcing distillation for real-time speed.",
+      "method_zh": "基于 HunyuanVideo 的 8B 自回归视频模型，采用双重动作表示、按几何关系重新挑选历史帧的“重构上下文记忆”，以及用于实时提速的上下文强制蒸馏。",
+      "specs": "24 fps · 720p · real-time (developer-reported)",
+      "keywords": [
+        "world model",
+        "open weights",
+        "geometric consistency",
+        "memory",
+        "WorldPlay",
+        "HunyuanVideo"
+      ],
+      "video": {
+        "url": "https://github.com/user-attachments/assets/9fd12b40-41ab-4201-8667-8b333db1123d"
+      },
+      "images": [
+        "https://raw.githubusercontent.com/Tencent-Hunyuan/HY-WorldPlay/main/assets/teaser.webp"
+      ],
+      "source_url": "https://3d-models.hunyuan.tencent.com/world/",
+      "code_url": "https://github.com/Tencent-Hunyuan/HY-WorldPlay",
+      "collections": [
+        "trend-open-weights",
+        "trend-realtime"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2512.14614",
+        "arxiv": "2512.14614",
+        "venue": "arXiv 2025",
+        "title": "WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling"
+      }
+    },
+    {
+      "id": "tencent--yan",
+      "creator_ids": [
+        "tencent"
+      ],
+      "title": "Yan",
+      "year": 2025,
+      "date": "2025-08-12",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "image",
+        "text",
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "responsiveness",
+        "co-creation"
+      ],
+      "kind": "research",
+      "description": "A framework for interactive video with three parts: Yan-Sim simulates a game world at 1080p and 60 fps from player input, Yan-Gen creates new interactive worlds from text and images, and Yan-Edit lets players change structure and style with text while they play.",
+      "description_zh": "一个由三部分组成的交互式视频框架：Yan-Sim 根据玩家输入以 1080p、60 fps 模拟游戏世界，Yan-Gen 根据文字和图像生成新的交互世界，Yan-Edit 允许玩家在游玩时用文字修改结构与风格。",
+      "idea_en": "Splits a world into simulation, generation and live editing, a useful decomposition for anyone who needs to change a situation while it runs.",
+      "idea_zh": "把一个世界拆分为模拟、生成与实时编辑三部分；对需要在运行中修改情境的人来说，这是很有用的拆解方式。",
+      "method": "A highly compressed low-latency 3D-VAE with KV-cache shift-window denoising for real-time simulation, plus a multimodal diffusion generator distilled for streaming and a hybrid model that separates mechanics from visual rendering for editing.",
+      "method_zh": "采用高压缩、低延迟的 3D-VAE 与基于 KV 缓存的移位窗口去噪实现实时模拟，并配有为流式生成而蒸馏的多模态扩散生成器，以及把机制与画面渲染分离以便编辑的混合模型。",
+      "specs": "1080p · 60 fps (developer-reported)",
+      "keywords": [
+        "world model",
+        "interactive video",
+        "live editing",
+        "game simulation",
+        "Yan-Sim"
+      ],
+      "video": {
+        "url": "https://greatx3.github.io/Yan/videos_compressed/teaser.mp4"
+      },
+      "images": [
+        "https://greatx3.github.io/Yan/images/architecture/yan_sim.png"
+      ],
+      "source_url": "https://greatx3.github.io/Yan/",
+      "collections": [],
+      "paper": {
+        "url": "https://arxiv.org/abs/2508.08601",
+        "arxiv": "2508.08601",
+        "venue": "arXiv 2025",
+        "title": "Yan: Foundational Interactive Video Generation"
+      }
+    },
+    {
+      "id": "robbyant--lingbot-world",
+      "creator_ids": [
+        "robbyant"
+      ],
+      "title": "LingBot-World",
+      "year": 2026,
+      "date": "2026-01-28",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "image",
+        "text",
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "responsiveness",
+        "diversity"
+      ],
+      "kind": "open-source",
+      "description": "An open-source world simulator from Ant Group's Robbyant that keeps realistic, scientific and cartoon worlds consistent over minute-long interaction and responds in under a second; a hosted demo runs on Reactor.",
+      "description_zh": "蚂蚁集团灵波科技推出的开源世界模拟器，可在分钟级交互中保持写实、科学与卡通等不同风格世界的一致性，响应延迟低于一秒；可在 Reactor 平台在线试用。",
+      "idea_en": "An open, minute-horizon world model from a Chinese lab, released the day before Project Genie, which narrowed the gap between open and closed world models.",
+      "idea_zh": "来自中国实验室的开源分钟级世界模型，比 Project Genie 早一天发布，缩小了开源与闭源世界模型之间的差距。",
+      "method": "A world model derived from a large video-generation backbone and post-trained for action conditioning, long-term memory and low-latency streaming; later releases added fast and action variants.",
+      "method_zh": "由大型视频生成骨干派生、再经后训练获得动作条件、长期记忆与低延迟流式能力的世界模型；后续版本加入了快速版与动作版。",
+      "specs": "16 fps · < 1 s latency · minute-level horizon (developer-reported)",
+      "keywords": [
+        "world model",
+        "open weights",
+        "long-term memory",
+        "real-time",
+        "Ant Group"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=Hg_giTANYks"
+      },
+      "images": [
+        "https://raw.githubusercontent.com/Robbyant/lingbot-world/main/assets/teaser.png"
+      ],
+      "source_url": "https://technology.robbyant.com/lingbot-world",
+      "code_url": "https://github.com/Robbyant/lingbot-world",
+      "collections": [
+        "trend-open-weights",
+        "trend-realtime"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2601.20540",
+        "arxiv": "2601.20540",
+        "venue": "arXiv 2026",
+        "title": "Advancing Open-source World Models"
+      }
+    },
+    {
+      "id": "robbyant--lingbot-world-2",
+      "creator_ids": [
+        "robbyant"
+      ],
+      "title": "LingBot-World 2.0",
+      "year": 2026,
+      "date": "2026-07-08",
+      "field": "world-models",
+      "sub": "general",
+      "also": [
+        "agents"
+      ],
+      "modalities": [
+        "frame-stream",
+        "behavior"
+      ],
+      "inputs": [
+        "text",
+        "action",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open",
+        "product"
+      ],
+      "lenses": [
+        "persistence",
+        "reactivity",
+        "co-creation"
+      ],
+      "kind": "open-source",
+      "description": "The second LingBot world model (also called LingBot-World-Infinity), which Robbyant describes as the first hour-long interactive world model: an unbounded interaction horizon, attacks, archery and spell-casting actions, text-driven events, and an agent harness with a 'pilot' agent that plays and a 'director' agent that adds scene elements.",
+      "description_zh": "第二代 LingBot 世界模型（又名 LingBot-World-Infinity），灵波科技称其为首个可交互一小时的世界模型：交互时长不设上限，支持攻击、射箭、施法等动作和文字驱动的事件，并配有智能体框架：“驾驶员”智能体负责游玩，“导演”智能体负责添加场景元素。",
+      "idea_en": "Pairs a world model with two LLM agents, one acting and one directing, a pattern that maps directly onto confederate and experimenter roles.",
+      "idea_zh": "把世界模型与两个大模型智能体搭配：一个负责行动、一个负责导演，这一模式可以直接对应实验中的“同谋者”与“实验者”角色。",
+      "method": "Causal pretraining for unbounded rollouts, a distilled real-time variant, and an agentic harness in which a pilot agent plans character behavior and a director agent synthesizes new environmental elements as the scene progresses.",
+      "method_zh": "通过因果预训练实现无上限的推演，蒸馏出实时版本，并加入智能体框架：驾驶员智能体规划角色行为，导演智能体随场景推进合成新的环境元素。",
+      "specs": "720p · 60 fps real-time variant · hour-long sessions (developer-reported)",
+      "keywords": [
+        "world model",
+        "open weights",
+        "agentic harness",
+        "director agent",
+        "hour-long",
+        "LingBot-World-Infinity"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=78l_RW_f12c"
+      },
+      "images": [
+        "https://raw.githubusercontent.com/Robbyant/lingbot-world-v2/main/assets/teaser.png"
+      ],
+      "source_url": "https://technology.robbyant.com/lingbot-world-v2",
+      "api_url": "https://www.reactor.inc/lingbot-world-v2",
+      "code_url": "https://github.com/Robbyant/lingbot-world-v2",
+      "collections": [
+        "trend-open-weights",
+        "trend-agents-in-worlds",
+        "trend-realtime"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2607.07534",
+        "arxiv": "2607.07534",
+        "venue": "arXiv 2026",
+        "title": "Infinite Worlds with Versatile Interactions"
+      }
+    },
+    {
+      "id": "pixverse--r1",
+      "creator_ids": [
+        "pixverse"
+      ],
+      "title": "PixVerse R1",
+      "year": 2026,
+      "date": "2026-01-12",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "responsiveness",
+        "persistence"
+      ],
+      "kind": "model",
+      "description": "PixVerse's first real-time world model, which keeps generating a live audiovisual scene that viewers steer with prompts instead of waiting for a finished clip; later updates added 720p API access for partners, shared worlds and personalised avatars.",
+      "description_zh": "PixVerse 的首个实时世界模型：持续生成一个带声音的实时场景，观看者用提示引导它，而不必等待成片；后续更新为合作伙伴开放 720p API，并加入共享世界与个性化虚拟形象。",
+      "idea_en": "A consumer video app reframed as a live world: the shift from clips to sessions, at the cost of game-level control.",
+      "idea_zh": "一款消费级视频应用被重新定义为实时世界：从“片段”转向“会话”，但代价是缺少游戏级的操控。",
+      "method": "PixVerse describes three parts: an 'Omni' native multimodal foundation model, autoregressive memory for continuous streaming, and an 'Instantaneous Response Engine' that cuts sampling cost for low latency.",
+      "method_zh": "PixVerse 称其由三部分组成：原生多模态基础模型“Omni”、用于连续流式生成的自回归记忆，以及降低采样成本、实现低延迟的“即时响应引擎”。",
+      "specs": "1080p research claim · 720p via partner API (developer-reported)",
+      "keywords": [
+        "world model",
+        "real-time video",
+        "audiovisual",
+        "consumer app",
+        "shared worlds"
+      ],
+      "video": {
+        "url": "https://media.pixverse.ai/asset/media/Fig/PixVerse-R1-demo-0.mp4"
+      },
+      "images": [
+        "https://media.pixverse.ai/asset/media/realtimecover.png"
+      ],
+      "source_url": "https://pixverse.ai/en/blog/pixverse-r1-next-generation-real-time-world-model",
+      "collections": [
+        "trend-realtime",
+        "trend-native-audio"
+      ]
+    },
+    {
+      "id": "pixverse--r2",
+      "creator_ids": [
+        "pixverse"
+      ],
+      "title": "PixVerse R2",
+      "year": 2026,
+      "date": "2026-09-22",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream",
+        "audio"
+      ],
+      "inputs": [
+        "action",
+        "text",
+        "speech"
+      ],
+      "timing": "real-time",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "reactivity",
+        "persistence",
+        "co-creation"
+      ],
+      "kind": "model",
+      "description": "A real-time world model for continuous audiovisual play: users move with WASD, change weather or call in a vehicle by prompt, speak or add references, and the consequences carry forward; PixVerse's own demos include questioning an AI suspect in real time.",
+      "description_zh": "一个用于连续音视频交互的实时世界模型：用户用 WASD 移动，用提示改变天气或召来车辆，也可以说话或添加参考素材，而这些改变的后果会延续下去；PixVerse 自己的演示中包括实时审问一名 AI 嫌疑人。",
+      "idea_en": "Consequences that persist inside a running world, plus spoken input, move world models toward interactive scenarios such as interviews.",
+      "idea_zh": "让后果在运行中的世界里延续，再加上语音输入，使世界模型向审讯、访谈这类交互情境靠近。",
+      "method": "Movement, prompt, audio and reference inputs at different rates are merged into one continuous generation loop on top of PixVerse's audio-video model.",
+      "method_zh": "在 PixVerse 音视频模型之上，把不同速率的移动、提示、音频与参考输入融合进同一个连续生成循环。",
+      "keywords": [
+        "world model",
+        "real-time",
+        "audiovisual",
+        "persistent consequences",
+        "interrogation demo"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=PEGqOLcdVIs"
+      },
+      "images": [
+        "https://media.pixverse.ai/asset/blog/pixverse-r2-real-time-omni-world-model-cover-v5.webp"
+      ],
+      "source_url": "https://pixverse.ai/en/model/pixverse-r2",
+      "collections": [
+        "trend-realtime",
+        "trend-native-audio"
+      ]
+    },
+    {
+      "id": "overworld--waypoint-1-5",
+      "creator_ids": [
+        "overworld"
+      ],
+      "title": "Waypoint-1.5",
+      "year": 2026,
+      "date": "2026-04-09",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open",
+        "product"
+      ],
+      "lenses": [
+        "responsiveness",
+        "authoring"
+      ],
+      "kind": "open-source",
+      "description": "An open-weight real-time world model that runs locally on gaming PCs or by streaming, turning a prompt or image into an explorable first-person world; it follows Waypoint-1 (January 2026), and a Waypoint 2 beta was inviting builders in October 2026.",
+      "description_zh": "一个开源权重的实时世界模型，可在游戏电脑上本地运行或通过串流使用，把一段提示或一张图像变成可探索的第一人称世界；它是 Waypoint-1（2026 年 1 月）的后继，2026 年 10 月 Waypoint 2 正在分批邀请开发者内测。",
+      "idea_en": "World models on consumer hardware: a lab can run sessions offline, log them and avoid cloud latency.",
+      "idea_zh": "让世界模型跑在消费级硬件上：实验室可以离线运行、记录会话，并避开云端延迟。",
+      "method": "A real-time diffusion world model with a prompting pipeline that rewrites user input into seed images, synthetic video and aligned controls, released in 720p and 360p tiers for local and streamed play.",
+      "method_zh": "实时扩散世界模型，配有把用户输入改写为种子图像、合成视频与对齐操控信号的提示流程；分为 720p 与 360p 两档，可本地运行或串流。",
+      "specs": "up to 720p · 60 fps · 1B parameters · consumer GPUs (developer-reported)",
+      "keywords": [
+        "world model",
+        "open weights",
+        "local inference",
+        "consumer GPU",
+        "Biome client"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=W2vDzB4KvxU"
+      },
+      "images": [
+        "https://over.world/blog/waypoint-1-5/og.jpg"
+      ],
+      "source_url": "https://over.world/blog/waypoint-1-5",
+      "code_url": "https://huggingface.co/Overworld/Waypoint-1.5-1B",
+      "collections": [
+        "trend-open-weights",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "david-ha--world-models",
+      "creator_ids": [
+        "david-ha"
+      ],
+      "title": "World Models",
+      "year": 2018,
+      "date": "2018-03-27",
+      "field": "world-models",
+      "sub": "game",
+      "modalities": [
+        "frame-stream",
+        "behavior"
+      ],
+      "inputs": [
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open",
+        "research"
+      ],
+      "lenses": [
+        "reactivity"
+      ],
+      "kind": "research",
+      "description": "An interactive paper in which an agent learns a compressed model of a car-racing game and of VizDoom, then trains entirely inside its own generated 'dream' and transfers the learned policy back to the real game; readers can play inside the dream in the browser.",
+      "description_zh": "一篇交互式论文：智能体先学会赛车游戏和 VizDoom 的压缩模型，然后完全在自己生成的“梦境”中训练，再把学到的策略迁回真实游戏；读者可以在浏览器里进入这个梦境游玩。",
+      "idea_en": "The lineage starts here: a learned simulator can stand in for the real environment, and its flaws can be exploited by whoever acts inside it.",
+      "idea_zh": "这条谱系从这里开始：学习得到的模拟器可以替代真实环境，而它的缺陷也可能被身处其中的行动者利用。",
+      "method": "A VAE compresses frames, a mixture-density RNN predicts the next latent state from action, and a small controller is evolved with CMA-ES inside the RNN's rollouts.",
+      "method_zh": "用 VAE 压缩画面，用混合密度 RNN 根据动作预测下一潜在状态，再在 RNN 的推演中用 CMA-ES 进化一个小型控制器。",
+      "keywords": [
+        "world model",
+        "dream",
+        "VAE",
+        "MDN-RNN",
+        "VizDoom",
+        "CarRacing",
+        "conference talk video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=HzA8LRqhujk"
+      },
+      "images": [
+        "https://worldmodels.github.io/assets/world_models_card_both.png"
+      ],
+      "source_url": "https://worldmodels.github.io/",
+      "code_url": "https://github.com/hardmaru/WorldModelsExperiments",
+      "collections": [
+        "ml-conf"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/1803.10122",
+        "arxiv": "1803.10122",
+        "venue": "NeurIPS 2018 (as 'Recurrent World Models Facilitate Policy Evolution')",
+        "title": "World Models"
+      }
+    },
+    {
+      "id": "seung-wook-kim--gamegan",
+      "creator_ids": [
+        "seung-wook-kim",
+        "nvidia"
+      ],
+      "title": "GameGAN",
+      "year": 2020,
+      "date": "2020-05-22",
+      "field": "world-models",
+      "sub": "game",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open",
+        "research"
+      ],
+      "lenses": [
+        "reactivity",
+        "persistence"
+      ],
+      "kind": "research",
+      "description": "A generative model that learned to re-create a playable PAC-MAN purely from 50,000 recorded episodes of screen frames and key presses, without access to the game engine; NVIDIA released it for the game's 40th anniversary.",
+      "description_zh": "一个生成模型，仅凭 5 万局游戏录像（画面与按键）就学会重建可玩的《吃豆人》，完全不接触游戏引擎；英伟达在该游戏 40 周年之际发布了它。",
+      "idea_en": "The first widely shown neural game engine: a game's rules and graphics can both be learned from play data.",
+      "idea_zh": "第一个被广泛展示的神经游戏引擎：游戏的规则与画面都可以从游玩数据中学出来。",
+      "method": "A GAN with a dynamics engine, an external memory module that keeps the maze consistent, and a rendering engine that separates static background from moving agents.",
+      "method_zh": "由动力学引擎、保持迷宫一致的外部记忆模块，以及把静态背景与运动角色分开的渲染引擎组成的 GAN。",
+      "keywords": [
+        "neural game engine",
+        "GAN",
+        "PAC-MAN",
+        "memory module",
+        "precursor"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=BYt6r8z6pUY"
+      },
+      "source_url": "https://nv-tlabs.github.io/gameGAN/",
+      "code_url": "https://github.com/nv-tlabs/GameGAN_code",
+      "collections": [
+        "cvpr"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2005.12126",
+        "arxiv": "2005.12126",
+        "venue": "CVPR 2020",
+        "title": "Learning to Simulate Dynamic Environments with GameGAN"
+      }
+    },
+    {
+      "id": "google--gamengen",
+      "creator_ids": [
+        "google",
+        "google-deepmind"
+      ],
+      "title": "GameNGen",
+      "year": 2024,
+      "date": "2024-08-27",
+      "field": "world-models",
+      "sub": "game",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "responsiveness",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "The first game engine run entirely by a neural model: DOOM played interactively at about 20 fps on a single TPU, with human raters only slightly better than chance at telling short generated clips from the real game (developer-reported).",
+      "description_zh": "第一个完全由神经模型驱动的游戏引擎：在单个 TPU 上以约 20 fps 交互式运行《毁灭战士》；开发者报告，人类评审区分生成片段与真实游戏的准确率仅略高于随机。",
+      "idea_en": "Proves real-time neural rendering of a full game is possible, for one game whose rules the model has memorised.",
+      "idea_zh": "证明了用神经网络实时渲染一整款游戏是可行的，但仅限于模型已“背熟”规则的那一款游戏。",
+      "method": "An RL agent records gameplay, then a Stable Diffusion v1.4 model fine-tuned on past frames and actions predicts the next frame, with noise augmentation on the context to prevent drift.",
+      "method_zh": "先由强化学习智能体录制游玩数据，再把 Stable Diffusion v1.4 在历史帧与动作上微调以预测下一帧，并对上下文加噪以防止漂移。",
+      "specs": "~20 fps · single TPU · PSNR 29.4 (developer-reported)",
+      "keywords": [
+        "neural game engine",
+        "DOOM",
+        "diffusion",
+        "Stable Diffusion",
+        "real-time",
+        "author-uploaded video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=O3616ZFGpqw"
+      },
+      "images": [
+        "https://gamengen.github.io/static/images/embed_image.png"
+      ],
+      "source_url": "https://gamengen.github.io/",
+      "collections": [
+        "ml-conf",
+        "trend-realtime"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2408.14837",
+        "arxiv": "2408.14837",
+        "venue": "ICLR 2025",
+        "title": "Diffusion Models Are Real-Time Game Engines"
+      }
+    },
+    {
+      "id": "eloi-alonso--diamond",
+      "creator_ids": [
+        "eloi-alonso"
+      ],
+      "title": "DIAMOND",
+      "year": 2024,
+      "date": "2024-05-20",
+      "field": "world-models",
+      "sub": "game",
+      "modalities": [
+        "frame-stream",
+        "behavior"
+      ],
+      "inputs": [
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "reactivity"
+      ],
+      "kind": "open-source",
+      "description": "A diffusion world model that trains Atari agents in imagination and, as a demo, turns recorded Counter-Strike: Global Offensive gameplay into a Dust II map people can play on a consumer GPU.",
+      "description_zh": "一个扩散世界模型：在想象中训练 Atari 智能体；作为演示，它还把《反恐精英：全球攻势》的游戏录像变成可在消费级显卡上游玩的 Dust II 地图。",
+      "idea_en": "Visual detail matters for agents, and an open, small diffusion model is enough for a playable 3D game world.",
+      "idea_zh": "画面细节对智能体很重要，而一个开源的小型扩散模型就足以构成可玩的三维游戏世界。",
+      "method": "An EDM-style diffusion model conditioned on past frames and actions, used both as the RL environment and, for CS:GO, as a two-stage generator with an upsampler.",
+      "method_zh": "以历史帧与动作为条件的 EDM 式扩散模型，既充当强化学习环境，又在 CS:GO 演示中作为带上采样器的两阶段生成器。",
+      "specs": "Atari 100k mean HNS 1.46 · CS:GO playable at ~10 fps on RTX 3090 (developer-reported)",
+      "keywords": [
+        "world model",
+        "diffusion",
+        "Atari",
+        "Counter-Strike",
+        "reinforcement learning",
+        "open source"
+      ],
+      "video": {
+        "url": "https://x.com/EloiAlonso1/status/1793916382779982120"
+      },
+      "images": [
+        "https://diamond-wm.github.io/static/gifs/half_diamond.gif"
+      ],
+      "source_url": "https://diamond-wm.github.io/",
+      "code_url": "https://github.com/eloialonso/diamond",
+      "collections": [
+        "ml-conf",
+        "trend-open-weights"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2405.12399",
+        "arxiv": "2405.12399",
+        "venue": "NeurIPS 2024 (Spotlight)",
+        "title": "Diffusion for World Modeling: Visual Details Matter in Atari"
+      }
+    },
+    {
+      "id": "decart--oasis",
+      "creator_ids": [
+        "decart",
+        "etched"
+      ],
+      "title": "Oasis",
+      "year": 2024,
+      "date": "2024-10-31",
+      "field": "world-models",
+      "sub": "game",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open",
+        "product"
+      ],
+      "lenses": [
+        "responsiveness",
+        "reactivity"
+      ],
+      "kind": "model",
+      "description": "A Minecraft-like open world generated frame by frame from keyboard and mouse input and playable in the browser at about 20 fps; the code and a 500M-parameter checkpoint were released openly alongside a live demo of a larger model.",
+      "description_zh": "一个类 Minecraft 的开放世界，根据键盘鼠标输入逐帧生成，可在浏览器中以约 20 fps 游玩；代码与 5 亿参数的模型权重随在线演示（使用更大的模型）一同开源。",
+      "idea_en": "The first real-time AI game world played at scale, which also exposed how quickly an unanchored world forgets what you left behind.",
+      "idea_zh": "第一个被大规模试玩的实时 AI 游戏世界，也暴露出缺少锚定的世界会多么迅速地忘记你身后的东西。",
+      "method": "A ViT autoencoder and a diffusion transformer generate each frame autoregressively from past frames and actions, trained with Diffusion Forcing; Etched targeted its Sohu chip for higher resolutions.",
+      "method_zh": "由 ViT 自编码器与扩散 Transformer 根据历史帧与动作自回归生成每一帧，采用 Diffusion Forcing 训练；Etched 计划用其 Sohu 芯片支撑更高分辨率。",
+      "specs": "~20 fps · 500M open weights (developer-reported)",
+      "keywords": [
+        "world model",
+        "Minecraft",
+        "real-time",
+        "browser demo",
+        "open weights",
+        "diffusion transformer"
+      ],
+      "video": {
+        "url": "https://oasis-model.github.io/wide1.mp4"
+      },
+      "images": [
+        "https://oasis-model.github.io/1.webp"
+      ],
+      "source_url": "https://oasis-model.github.io/",
+      "code_url": "https://github.com/etched-ai/open-oasis",
+      "collections": [
+        "trend-realtime",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "microsoft--muse-wham",
+      "creator_ids": [
+        "microsoft"
+      ],
+      "title": "Muse (WHAM)",
+      "year": 2025,
+      "date": "2025-02-19",
+      "field": "world-models",
+      "sub": "game",
+      "modalities": [
+        "frame-stream",
+        "behavior"
+      ],
+      "inputs": [
+        "image",
+        "action"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open",
+        "research"
+      ],
+      "lenses": [
+        "persistence",
+        "authoring",
+        "diversity"
+      ],
+      "kind": "model",
+      "description": "A 'World and Human Action Model' trained on seven years of human play of the Xbox game Bleeding Edge that generates gameplay visuals, controller actions or both, consistent for up to two minutes; weights and the WHAM Demonstrator tool were released for researchers, and on 2026-09-23 Microsoft moved the WHAM team and technology into its Microsoft AI product group.",
+      "description_zh": "一个“世界与人类动作模型”，用 Xbox 游戏《Bleeding Edge》约七年的人类游玩数据训练，可生成游戏画面、手柄动作或两者，一致性可维持长达两分钟；权重与 WHAM Demonstrator 工具已向研究者开放；2026 年 9 月 23 日，微软把 WHAM 团队与技术并入 Microsoft AI 产品部门。",
+      "idea_en": "Models the player's actions as well as the world, so it can predict what a person is likely to do next, not only what they will see.",
+      "idea_zh": "它不仅模拟世界，也模拟玩家的动作，因此能预测人接下来可能做什么，而不仅是会看到什么。",
+      "method": "A 1.6B-parameter transformer that predicts interleaved image tokens and controller-action tokens, trained on more than 1 billion images and controller actions (over 7 years of play) at 300×180 resolution, developed with Ninja Theory.",
+      "method_zh": "16 亿参数的 Transformer，交替预测图像 token 与手柄动作 token，在超过 10 亿帧 300×180 分辨率的画面与手柄动作（相当于 7 年以上的游玩时长）上训练，与 Ninja Theory 合作开发。",
+      "specs": "1.6B parameters · 300×180 · up to 2 min consistency (developer-reported)",
+      "keywords": [
+        "world model",
+        "human action model",
+        "Xbox",
+        "Bleeding Edge",
+        "Nature",
+        "gameplay ideation"
+      ],
+      "video": {
+        "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/BE-Play-Session-edited.mp4"
+      },
+      "images": [
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/WHAM-TWLIFB-1200x627-1.jpg"
+      ],
+      "source_url": "https://www.microsoft.com/en-us/research/blog/introducing-muse-our-first-generative-ai-model-designed-for-gameplay-ideation/",
+      "code_url": "https://huggingface.co/microsoft/wham",
+      "collections": [
+        "trend-open-weights"
+      ],
+      "paper": {
+        "url": "https://doi.org/10.1038/s41586-025-08600-3",
+        "doi": "10.1038/s41586-025-08600-3",
+        "venue": "Nature 2025",
+        "title": "World and Human Action Models towards gameplay ideation"
+      }
+    },
+    {
+      "id": "microsoft--whamm",
+      "creator_ids": [
+        "microsoft"
+      ],
+      "title": "WHAMM",
+      "year": 2025,
+      "date": "2025-04-04",
+      "field": "world-models",
+      "sub": "game",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "product",
+        "research"
+      ],
+      "lenses": [
+        "responsiveness",
+        "reactivity"
+      ],
+      "kind": "research",
+      "description": "A real-time playable AI rendition of a Quake II level in Copilot Labs, generated from controller input at 640×360; Microsoft notes it forgets objects that leave view for about a second and has noticeable latency; the project page now lists it as WHAM-RT.",
+      "description_zh": "在 Copilot Labs 中推出的《雷神之锤 II》关卡实时 AI 版本，根据手柄输入以 640×360 生成画面；微软指出，物体离开视野约一秒后就会被遗忘，延迟也较明显；项目页面现将其称为 WHAM-RT。",
+      "idea_en": "Shows how little data is needed to clone one level, and how short the memory of such a clone is.",
+      "idea_zh": "展示了复刻一个关卡所需的数据少得惊人，也展示了这种复刻的记忆有多短暂。",
+      "method": "A MaskGIT-style World and Human Action model that generates image tokens in parallel, trained on one week of curated Quake II play with a 0.9-second (9-frame) context.",
+      "method_zh": "MaskGIT 式的世界与人类动作模型，可并行生成图像 token；训练数据仅为一周经过精选的《雷神之锤 II》游玩录像，上下文长度为 0.9 秒（9 帧）。",
+      "specs": "640×360 · 10+ fps · 0.9 s context (developer-reported)",
+      "keywords": [
+        "world model",
+        "Quake II",
+        "Copilot Labs",
+        "MaskGIT",
+        "Muse"
+      ],
+      "video": {
+        "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/04/vid1_square.mp4"
+      },
+      "images": [
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/04/whamm_overview.png"
+      ],
+      "source_url": "https://www.microsoft.com/en-us/research/articles/whamm-real-time-world-modelling-of-interactive-environments/",
+      "collections": [
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "jiwen-yu--gamefactory",
+      "creator_ids": [
+        "jiwen-yu",
+        "kuaishou"
+      ],
+      "title": "GameFactory",
+      "year": 2025,
+      "date": "2025-01-14",
+      "field": "world-models",
+      "sub": "game",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "action"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open",
+        "research"
+      ],
+      "lenses": [
+        "diversity",
+        "authoring",
+        "control"
+      ],
+      "kind": "research",
+      "description": "A method for creating new games as interactive video: action control learned from Minecraft is transferred to open-domain scenes generated from text, so a player can walk and look around in worlds that were never in the training data.",
+      "description_zh": "一种把新游戏当作交互视频来创作的方法：把在 Minecraft 中学到的动作控制迁移到由文字生成的开放场景，玩家可以在训练数据中从未出现过的世界里行走、环顾。",
+      "idea_en": "Separates 'how to move' from 'what the world looks like', which is what lets a lab script new scenarios without new game data.",
+      "idea_zh": "把“怎么移动”与“世界长什么样”分开，正是这一点让实验室无需新的游戏数据就能编排新情境。",
+      "method": "A pretrained video diffusion model with a style-decoupling LoRA and a separate action-control module trained on the GF-Minecraft dataset, extended autoregressively for long videos.",
+      "method_zh": "在预训练视频扩散模型上加入风格解耦 LoRA，以及在 GF-Minecraft 数据集上训练的独立动作控制模块，并以自回归方式延展为长视频。",
+      "keywords": [
+        "interactive video",
+        "game generation",
+        "action control",
+        "Minecraft",
+        "generalization"
+      ],
+      "video": {
+        "url": "https://yujiwen.github.io/gamefactory/videos/gallery/1.mp4"
+      },
+      "images": [
+        "https://yujiwen.github.io/gamefactory/static/assets/layout.jpg"
+      ],
+      "source_url": "https://yujiwen.github.io/gamefactory/",
+      "code_url": "https://github.com/KwaiVGI/GameFactory",
+      "collections": [
+        "iccv-eccv"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2501.08325",
+        "arxiv": "2501.08325",
+        "venue": "ICCV 2025 (Highlight)",
+        "title": "GameFactory: Creating New Games with Generative Interactive Videos"
+      }
+    },
+    {
+      "id": "danijar-hafner--dreamer-4",
+      "creator_ids": [
+        "danijar-hafner",
+        "google-deepmind"
+      ],
+      "title": "Dreamer 4",
+      "year": 2025,
+      "date": "2025-09-29",
+      "field": "world-models",
+      "sub": "game",
+      "also": [
+        "agents"
+      ],
+      "modalities": [
+        "frame-stream",
+        "behavior"
+      ],
+      "inputs": [
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "reactivity",
+        "behavioral-plausibility"
+      ],
+      "kind": "research",
+      "description": "An agent that learns to obtain diamonds in Minecraft purely from offline video, by practising inside a learned world model that also runs in real time for human players on a single GPU.",
+      "description_zh": "一个仅凭离线视频就学会在 Minecraft 中获得钻石的智能体：它在学到的世界模型里练习，而这个世界模型也能在单张 GPU 上实时供人类玩家游玩。",
+      "idea_en": "A world model accurate enough to train agents for long tasks, which is the same property needed to trust it as a test bed.",
+      "idea_zh": "一个精确到足以训练智能体完成长任务的世界模型，而这恰恰也是把它当作可信测试平台所需的特性。",
+      "method": "A causal tokenizer and an efficient transformer dynamics model trained with a 'shortcut forcing' objective; the agent learns by reinforcement learning on imagined rollouts.",
+      "method_zh": "由因果分词器与高效 Transformer 动力学模型组成，采用“捷径强制”目标训练；智能体在想象推演上通过强化学习进行学习。",
+      "specs": "real-time on 1 GPU (developer-reported)",
+      "keywords": [
+        "world model",
+        "Minecraft",
+        "offline RL",
+        "agents in imagination",
+        "shortcut forcing",
+        "author-uploaded video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=oDlBtTcX0g0"
+      },
+      "source_url": "https://danijar.com/project/dreamer4/",
+      "collections": [
+        "trend-agents-in-worlds"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2509.24527",
+        "arxiv": "2509.24527",
+        "venue": "arXiv 2025",
+        "title": "Training Agents Inside of Scalable World Models"
+      }
+    },
+    {
+      "id": "general-intuition--mira",
+      "creator_ids": [
+        "general-intuition",
+        "kyutai"
+      ],
+      "title": "MIRA",
+      "year": 2026,
+      "date": "2026-07-06",
+      "field": "world-models",
+      "sub": "game",
+      "modalities": [
+        "frame-stream",
+        "behavior"
+      ],
+      "inputs": [
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open",
+        "product"
+      ],
+      "lenses": [
+        "co-creation",
+        "persistence",
+        "responsiveness"
+      ],
+      "kind": "open-source",
+      "description": "An open multiplayer world model of Rocket League in which four people play a 2v2 match in a browser, each seeing a consistent generated view at 20 fps, with boost, goals and demolitions tracked by the model alone; an autopilot mode lets the model play for absent players.",
+      "description_zh": "一个开源的《火箭联盟》多人世界模型：四名玩家在浏览器中进行 2 对 2 比赛，每人看到的生成画面都保持一致，帧率 20 fps；加速槽、进球与撞毁全部由模型自行追踪；“自动驾驶”模式还能让模型替缺席的玩家上场。",
+      "idea_en": "Several people share one generated situation and see each other's actions, with no game engine underneath; the developers report it runs indefinitely without diverging.",
+      "idea_zh": "多人共享同一个生成情境并看到彼此的动作，背后没有任何游戏引擎；开发者称它可以无限运行而不发散。",
+      "method": "A 5B-parameter diffusion transformer over a 600M-parameter video representation codec, trained on bot gameplay with action dropout, conditioned on all four players' inputs; developed by General Intuition and Kyutai with Epic Games.",
+      "method_zh": "以 6 亿参数的视频表征编解码器为基础的 50 亿参数扩散 Transformer，在机器人对局录像上以“动作随机丢弃”方式训练，并以四名玩家的输入为条件；由 General Intuition 与 Kyutai 联合 Epic Games 开发。",
+      "specs": "4 players · 20 fps · 576p split across players · 5B + 600M parameters (developer-reported)",
+      "keywords": [
+        "world model",
+        "multiplayer",
+        "Rocket League",
+        "open source",
+        "shared world",
+        "autopilot"
+      ],
+      "video": {
+        "url": "https://mira-wm.com/media/hero-v2.mp4"
+      },
+      "source_url": "https://mira-wm.com/blog-post/",
+      "code_url": "https://github.com/mira-wm/mira",
+      "collections": [
+        "trend-agents-in-worlds",
+        "trend-open-weights",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "skywork--matrix-game-4",
+      "creator_ids": [
+        "skywork"
+      ],
+      "title": "Matrix-Game 4.0",
+      "year": 2026,
+      "date": "2026-10-15",
+      "field": "world-models",
+      "sub": "game",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action",
+        "text",
+        "spec"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "control",
+        "persistence",
+        "perceptual-realism"
+      ],
+      "kind": "open-source",
+      "description": "An open release that keeps the game logic, physics and player input in a real game engine and uses a causal video model only to turn the engine's low-poly frames into detailed visuals; it ships three playable games (medieval castle, ancient Egypt, city racing) with weights and source.",
+      "description_zh": "一次开源发布：游戏逻辑、物理与玩家输入都留在真正的游戏引擎中，因果视频模型只负责把引擎输出的低多边形画面变成精细画面；附带三款可玩游戏（中世纪城堡、古埃及、城市赛车）的权重与源代码。",
+      "idea_en": "Hands state and rules back to an engine and leaves only appearance to the model, which restores persistence and experimental control.",
+      "idea_zh": "把状态与规则交还给引擎，只让模型负责外观，从而找回持久性与实验控制。",
+      "method": "Streaming neural rendering: a few-step causal video model renders successive chunks conditioned on low-poly RGB frames and text prompts from an executable engine.",
+      "method_zh": "流式神经渲染：少步因果视频模型以可执行引擎输出的低多边形 RGB 画面和文字提示为条件，逐段渲染后续画面。",
+      "specs": "864×480 · up to 67 fps on RTX 5080 (developer-reported)",
+      "keywords": [
+        "world model",
+        "neural rendering",
+        "engine-grounded",
+        "open weights",
+        "game engine"
+      ],
+      "video": {
+        "url": "https://matrix-game-v4-0.github.io/page/assets/prompt/egypt06.mp4"
+      },
+      "images": [
+        "https://matrix-game-v4-0.github.io/page/assets/fig/overview_en.png"
+      ],
+      "source_url": "https://matrix-game-v4-0.github.io/page/",
+      "code_url": "https://github.com/SkyworkAI/Matrix-Game",
+      "collections": [
+        "trend-open-weights",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "sherry-yang--unisim",
+      "creator_ids": [
+        "sherry-yang",
+        "google-deepmind"
+      ],
+      "title": "UniSim",
+      "year": 2023,
+      "date": "2023-10",
+      "field": "world-models",
+      "sub": "simulation",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "action"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "situational-reach",
+        "reactivity"
+      ],
+      "kind": "research",
+      "description": "A 'universal simulator' that predicts what a camera would see after a person or robot carries out an action described in text, such as 'cut the carrot' or 'open the drawer', so that planners and RL policies can be trained in simulation and then deployed on real robots.",
+      "description_zh": "一个“通用模拟器”：预测一个人或机器人执行文字描述的动作（如“切胡萝卜”“打开抽屉”）之后，摄像头会看到什么，从而让规划器和强化学习策略先在模拟中训练，再部署到真实机器人上。",
+      "idea_en": "Reframes video generation as a simulator of real-world interaction, the conceptual step from 'video model' to 'world model'.",
+      "idea_zh": "把视频生成重新定义为真实世界交互的模拟器，这是从“视频模型”迈向“世界模型”的概念性一步。",
+      "method": "A video diffusion model conditioned on past frames and text or low-level actions, trained on an orchestrated mix of image, video, robot and navigation datasets; it is rolled out autoregressively for long-horizon interaction.",
+      "method_zh": "以历史帧及文字或底层动作为条件的视频扩散模型，在精心组合的图像、视频、机器人与导航数据上训练，并通过自回归推演实现长时交互。",
+      "keywords": [
+        "world model",
+        "real-world simulator",
+        "robot learning",
+        "sim-to-real",
+        "ICLR 2024 Outstanding Paper"
+      ],
+      "video": {
+        "url": "https://universal-simulator.github.io/unisim/materials/cut_carrot-final.mp4"
+      },
+      "images": [
+        "https://universal-simulator.github.io/unisim/materials/unisim.png"
+      ],
+      "source_url": "https://universal-simulator.github.io/unisim/",
+      "collections": [
+        "ml-conf",
+        "trend-world-simulators"
+      ],
+      "exhibited": [
+        "ICLR 2024 Outstanding Paper Award"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2310.06114",
+        "arxiv": "2310.06114",
+        "venue": "ICLR 2024",
+        "title": "Learning Interactive Real-World Simulators"
+      }
+    },
+    {
+      "id": "wayve--gaia-2",
+      "creator_ids": [
+        "wayve"
+      ],
+      "title": "GAIA-2",
+      "year": 2025,
+      "date": "2025-03-26",
+      "field": "world-models",
+      "sub": "simulation",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "spec",
+        "video",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "situational-reach",
+        "control",
+        "diversity"
+      ],
+      "kind": "model",
+      "description": "A generative driving world model that produces consistent multi-camera driving video from structured inputs such as ego-vehicle motion, other agents, weather, time of day and road layout, across UK, US and German roads; it followed GAIA-1 (2023).",
+      "description_zh": "一个生成式驾驶世界模型：根据自车运动、其他交通参与者、天气、时间与道路布局等结构化输入，生成一致的多摄像头驾驶视频，覆盖英国、美国与德国的道路；它是 GAIA-1（2023）的后继。",
+      "idea_en": "Rare and dangerous traffic situations can be specified as parameters and generated on demand, a template for scenario-controlled studies.",
+      "idea_zh": "罕见且危险的交通情境可以用参数指定、按需生成，为情境可控的研究提供了范本。",
+      "method": "A latent diffusion world model with a dedicated video tokenizer and rich structured conditioning (ego dynamics, agent configurations, environment, road semantics) plus external driving-model embeddings.",
+      "method_zh": "潜空间扩散世界模型，配有专用视频分词器和丰富的结构化条件（自车动力学、交通参与者配置、环境、道路语义），并可接入外部驾驶模型的嵌入。",
+      "specs": "multi-camera · UK / US / Germany data (developer-reported)",
+      "keywords": [
+        "world model",
+        "autonomous driving",
+        "multi-camera",
+        "scenario generation",
+        "latent diffusion"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=bwTzVU1ib1I"
+      },
+      "images": [
+        "https://wayve.ai/wp-content/uploads/2025/03/Wayve-GAIA-2-Hero-Blog-Image.jpg"
+      ],
+      "source_url": "https://wayve.ai/thinking/gaia-2/",
+      "collections": [
+        "trend-world-simulators"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2503.20523",
+        "arxiv": "2503.20523",
+        "venue": "Technical report 2025",
+        "title": "GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving"
+      }
+    },
+    {
+      "id": "wayve--gaia-4",
+      "creator_ids": [
+        "wayve"
+      ],
+      "title": "GAIA-4",
+      "year": 2026,
+      "date": "2026-08-03",
+      "field": "world-models",
+      "sub": "simulation",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "video",
+        "action",
+        "spec"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "reactivity",
+        "control",
+        "situational-reach"
+      ],
+      "kind": "model",
+      "description": "The fourth GAIA world model, which puts Wayve's AI Driver in the loop: a recorded drive becomes the starting point of a simulation in which the camera view changes with every braking or steering decision, so engineers can test futures that never happened.",
+      "description_zh": "第四代 GAIA 世界模型，让 Wayve 的 AI 驾驶员参与闭环：一段真实行驶记录成为仿真的起点，每一次刹车或转向决定都会改变摄像头看到的画面，工程师因此可以测试从未发生过的未来。",
+      "idea_en": "Closed-loop and anchored to a real recording: the counterfactual changes only what the agent's decision changes, a clean design for 'what if' tests.",
+      "idea_zh": "闭环且锚定在真实记录上：反事实只改变由智能体决定所引起的部分，是做“如果……会怎样”测试的干净设计。",
+      "method": "A multimodal world model that re-simulates sensor input conditioned on the driving model's actions while keeping the underlying scene tied to the original recording as a deterministic baseline.",
+      "method_zh": "多模态世界模型，以驾驶模型的动作为条件重新模拟传感器输入，同时让底层场景与原始记录保持一致，作为确定性的基线。",
+      "keywords": [
+        "world model",
+        "closed-loop simulation",
+        "counterfactual",
+        "autonomous driving",
+        "Simulation 2.0"
+      ],
+      "video": {
+        "url": "https://wayve.ai/wp-content/uploads/2026/07/GAIA-4-Trimmed-1.mp4"
+      },
+      "images": [
+        "https://wayve.ai/wp-content/uploads/2026/07/GAIA-4-Hero-Image.jpg"
+      ],
+      "source_url": "https://wayve.ai/thinking/gaia-4/",
+      "collections": [
+        "trend-world-simulators",
+        "trend-grounded"
+      ]
+    },
+    {
+      "id": "nvidia--cosmos",
+      "creator_ids": [
+        "nvidia"
+      ],
+      "title": "Cosmos",
+      "year": 2025,
+      "date": "2025-01-06",
+      "field": "world-models",
+      "sub": "simulation",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "situational-reach",
+        "diversity"
+      ],
+      "kind": "platform",
+      "description": "An open platform of 'world foundation models' for physical AI, announced at CES 2025: video tokenizers, a data-curation pipeline and diffusion and autoregressive models that generate physically plausible video for training robots and autonomous vehicles, later extended with Predict, Transfer and Reason models.",
+      "description_zh": "在 CES 2025 上发布的面向物理 AI 的开放“世界基础模型”平台：包括视频分词器、数据筛选流程，以及生成物理上合理视频的扩散与自回归模型，用于训练机器人和自动驾驶；后续又加入 Predict、Transfer 与 Reason 系列模型。",
+      "idea_en": "Open, permissively licensed world models that labs can fine-tune to their own environments, the default base for robot and driving simulation.",
+      "idea_zh": "采用宽松许可的开源世界模型，实验室可以针对自己的环境微调，是机器人与驾驶仿真的默认基座。",
+      "method": "Diffusion and autoregressive transformer models pre-trained on about 100M clips curated from 20M hours of video, with guardrails and post-training recipes for camera control, robotics and driving.",
+      "method_zh": "扩散与自回归 Transformer 模型，在从 2000 万小时视频中筛选出的约 1 亿个片段上预训练，配有安全防护与针对镜头控制、机器人和驾驶的后训练方法。",
+      "specs": "4B–14B parameters · 20M hours of source video (developer-reported)",
+      "keywords": [
+        "world foundation model",
+        "physical AI",
+        "open weights",
+        "synthetic data",
+        "robotics",
+        "autonomous driving"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=9Uch931cDx8"
+      },
+      "images": [
+        "https://www.nvidia.com/content/dam/en-zz/Solutions/ai/cosmos/nvidia-cosmos-og.jpg"
+      ],
+      "source_url": "https://www.nvidia.com/en-us/ai/cosmos/",
+      "code_url": "https://github.com/nvidia-cosmos",
+      "collections": [
+        "trend-open-weights",
+        "trend-world-simulators"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2501.03575",
+        "arxiv": "2501.03575",
+        "venue": "arXiv 2025",
+        "title": "Cosmos World Foundation Model Platform for Physical AI"
+      }
+    },
+    {
+      "id": "nvidia--cosmos-3",
+      "creator_ids": [
+        "nvidia"
+      ],
+      "title": "Cosmos 3",
+      "year": 2026,
+      "date": "2026-05-31",
+      "field": "world-models",
+      "sub": "simulation",
+      "modalities": [
+        "flat-video",
+        "behavior",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "video",
+        "action"
+      ],
+      "timing": "offline",
+      "access": [
+        "open",
+        "api"
+      ],
+      "lenses": [
+        "situational-reach",
+        "behavioral-plausibility",
+        "control"
+      ],
+      "kind": "model",
+      "description": "An open 'omni-model' announced at GTC Taipei that reasons about a scene, generates video and ambient sound, and outputs robot action data such as joint angles and gripper positions, so one model can describe, simulate and act.",
+      "description_zh": "在 GTC 台北发布的开源“全能模型”：先理解场景，再生成视频与环境声，还能输出关节角度、夹爪位置等机器人动作数据，让一个模型同时负责描述、模拟与行动。",
+      "idea_en": "Reasoning about a situation before simulating it is the step that makes generated outcomes checkable against an explanation.",
+      "idea_zh": "先推理情境、再进行模拟，这一步让生成的结果可以对照解释加以核查。",
+      "method": "A mixture-of-transformers model in which a reasoning block interprets the scene and a generation block produces physically grounded video, audio and numerical action outputs; it can be post-trained as a world-action model.",
+      "method_zh": "混合 Transformer 架构：推理模块先解读场景，生成模块再输出符合物理的视频、音频与数值动作；可后训练为世界-动作模型。",
+      "keywords": [
+        "world foundation model",
+        "omni-model",
+        "mixture of transformers",
+        "world action model",
+        "open weights"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=q7Hj3J9SOXw"
+      },
+      "images": [
+        "https://blogs.nvidia.com/wp-content/uploads/2026/05/Featured-image.png"
+      ],
+      "source_url": "https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/",
+      "code_url": "https://github.com/nvidia-cosmos",
+      "collections": [
+        "trend-open-weights",
+        "trend-world-simulators"
+      ]
+    },
+    {
+      "id": "meta--v-jepa-2",
+      "creator_ids": [
+        "meta"
+      ],
+      "title": "V-JEPA 2",
+      "year": 2025,
+      "date": "2025-06-11",
+      "field": "world-models",
+      "sub": "simulation",
+      "also": [
+        "agents"
+      ],
+      "modalities": [
+        "behavior"
+      ],
+      "inputs": [
+        "video",
+        "image"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "behavioral-plausibility",
+        "adaptation"
+      ],
+      "kind": "model",
+      "description": "A self-supervised video world model that predicts in a learned representation space rather than in pixels; Meta reports that an action-conditioned version lets a robot arm plan pick-and-place tasks zero-shot in labs it has never seen.",
+      "description_zh": "一个自监督视频世界模型，在学到的表征空间而不是像素空间中做预测；Meta 称，其动作条件版本能让机械臂在从未见过的实验室中零样本规划抓取放置任务。",
+      "idea_en": "A world model does not have to render pixels to be useful; predicting abstract consequences is enough for planning.",
+      "idea_zh": "世界模型不一定要渲染像素才有用；预测抽象的后果就足以支撑规划。",
+      "method": "A joint-embedding predictive architecture pre-trained on over 1 million hours of internet video and images, then post-trained as V-JEPA 2-AC on under 62 hours of unlabeled robot video from the DROID dataset and used for model-predictive control.",
+      "method_zh": "联合嵌入预测架构，先在超过 100 万小时的网络视频与图像上预训练，再以 V-JEPA 2-AC 的形式在 DROID 数据集中不足 62 小时的无标注机器人视频上后训练，用于模型预测控制。",
+      "specs": "1.2B parameters · 1M+ hours of video · < 62 h robot data (developer-reported)",
+      "keywords": [
+        "world model",
+        "JEPA",
+        "self-supervised",
+        "robot planning",
+        "latent prediction",
+        "open weights"
+      ],
+      "video": {
+        "url": "https://about.fb.com/wp-content/uploads/2025/06/01_VJEPA2.mp4"
+      },
+      "images": [
+        "https://about.fb.com/wp-content/uploads/2025/06/VJEPA-2-Launch_Header-Cover_Social-Share.png?w=1200"
+      ],
+      "source_url": "https://about.fb.com/news/2025/06/our-new-model-helps-ai-think-before-it-acts/",
+      "code_url": "https://github.com/facebookresearch/vjepa2",
+      "collections": [
+        "trend-open-weights"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2506.09985",
+        "arxiv": "2506.09985",
+        "venue": "arXiv 2025",
+        "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning"
+      }
+    },
+    {
+      "id": "amir-bar--navigation-world-models",
+      "creator_ids": [
+        "amir-bar",
+        "meta"
+      ],
+      "title": "Navigation World Models",
+      "year": 2024,
+      "date": "2024-12-04",
+      "field": "world-models",
+      "sub": "simulation",
+      "modalities": [
+        "flat-video",
+        "behavior"
+      ],
+      "inputs": [
+        "image",
+        "action"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "control",
+        "reactivity"
+      ],
+      "kind": "research",
+      "description": "A controllable video model that imagines what an agent will see along a candidate path, so a robot can plan a route by simulating trajectories and checking whether they reach the goal, including in unfamiliar places from a single image.",
+      "description_zh": "一个可控视频模型，能想象智能体沿某条候选路线会看到什么；机器人因此可以通过模拟轨迹、检查是否到达目标来规划路线，甚至能从单张图像出发在陌生环境中规划。",
+      "idea_en": "Uses a world model as an imagination for planning, with constraints that can be added at planning time.",
+      "idea_zh": "把世界模型当作规划时的想象力，并且可以在规划时临时加入约束。",
+      "method": "A 1B-parameter Conditional Diffusion Transformer (CDiT) trained on egocentric videos of humans and robots, conditioned on past frames and navigation actions.",
+      "method_zh": "10 亿参数的条件扩散 Transformer（CDiT），在人类与机器人的第一人称视频上训练，以历史帧与导航动作为条件。",
+      "specs": "1B parameters (developer-reported)",
+      "keywords": [
+        "world model",
+        "navigation",
+        "planning",
+        "conditional diffusion transformer",
+        "egocentric video"
+      ],
+      "video": {
+        "url": "https://www.amirbar.net/nwm/assets/known_environments/recon_ours_1_1080p.mp4"
+      },
+      "images": [
+        "https://www.amirbar.net/nwm/assets/nwm.png"
+      ],
+      "source_url": "https://www.amirbar.net/nwm/",
+      "code_url": "https://github.com/facebookresearch/nwm",
+      "collections": [
+        "cvpr"
+      ],
+      "exhibited": [
+        "CVPR 2025 Best Paper Honorable Mention"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2412.03572",
+        "arxiv": "2412.03572",
+        "venue": "CVPR 2025",
+        "title": "Navigation World Models"
+      }
+    },
+    {
+      "id": "1x-technologies--world-model",
+      "creator_ids": [
+        "1x-technologies"
+      ],
+      "title": "1X World Model",
+      "year": 2024,
+      "date": "2024-09-17",
+      "field": "world-models",
+      "sub": "simulation",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "video",
+        "action"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open",
+        "research"
+      ],
+      "lenses": [
+        "control",
+        "reactivity"
+      ],
+      "kind": "model",
+      "description": "A learned simulator for 1X's humanoid robots that imagines several futures from the same starting frames under different action proposals, including rigid, deformable and articulated objects such as laundry, doors and drawers; 1X released a dataset and public challenge.",
+      "description_zh": "1X 为其人形机器人打造的学习型模拟器：从同一组起始画面出发，根据不同的动作方案想象多种未来，涵盖衣物、门、抽屉等刚性、可形变与带关节的物体；1X 还发布了数据集和公开挑战赛。",
+      "idea_en": "World models as an evaluation tool: comparing policies in imagination before running them on hardware.",
+      "idea_zh": "把世界模型当作评估工具：先在想象中比较不同策略，再拿到真机上运行。",
+      "method": "An action-conditioned video prediction model trained on 1X's own robot logs, with tokenized video and a public 1xgpt baseline.",
+      "method_zh": "以 1X 自有机器人日志训练的动作条件视频预测模型，采用视频分词，并提供公开的 1xgpt 基线。",
+      "keywords": [
+        "world model",
+        "humanoid",
+        "policy evaluation",
+        "robotics",
+        "challenge"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=xPX6dDRYbV4"
+      },
+      "images": [
+        "https://cdn.sanity.io/images/qka6yvsc/production/1da42dae7a0f986a38880cd979a570e0fba70ddd-2048x1080.png?fit=max&auto=format"
+      ],
+      "source_url": "https://www.1x.tech/discover/1x-world-model",
+      "code_url": "https://github.com/1x-technologies/1xgpt",
+      "collections": []
+    },
+    {
+      "id": "waymo--world-model",
+      "creator_ids": [
+        "waymo",
+        "google-deepmind"
+      ],
+      "title": "Waymo World Model",
+      "year": 2026,
+      "date": "2026-02-06",
+      "field": "world-models",
+      "sub": "simulation",
+      "modalities": [
+        "flat-video",
+        "dynamic-4d"
+      ],
+      "inputs": [
+        "text",
+        "action",
+        "spec"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "situational-reach",
+        "control",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "A driving simulator built on Genie 3 that generates both camera and lidar data, controllable by language prompts, driving inputs and scene layouts, to rehearse rare events such as a tornado, an elephant on the road or a wrong-way driver.",
+      "description_zh": "一个基于 Genie 3 的驾驶模拟器，同时生成摄像头与激光雷达数据，可通过语言提示、驾驶输入和场景布局控制，用来演练龙卷风、路上出现大象或车辆逆行等罕见事件。",
+      "idea_en": "A general world model's knowledge transfers to a safety-critical domain once post-trained on that domain's sensors, a pattern other high-stakes simulations could follow.",
+      "idea_zh": "通用世界模型的知识在用某一领域的传感器数据后训练之后，就能迁移到这个安全攸关的领域；其他高风险模拟也可以遵循这一模式。",
+      "method": "Genie 3 post-trained on Waymo driving data to output multi-sensor 2D video and 3D lidar, with an efficient real-time variant used when a simulation departs from a logged event.",
+      "method_zh": "在 Waymo 驾驶数据上对 Genie 3 进行后训练，使其输出多传感器二维视频与三维激光雷达点云；当仿真偏离记录的事件时，改用高效的实时版本。",
+      "specs": "camera + lidar output (developer-reported)",
+      "keywords": [
+        "world model",
+        "autonomous driving",
+        "lidar",
+        "Genie 3",
+        "rare events",
+        "simulation"
+      ],
+      "video": {
+        "url": "https://storage.googleapis.com/waymo-prod-cdn/uploads/bd1e232de236794e89f6daa89b594b93-topline_video_close_loop_sim_cropped.webm"
+      },
+      "images": [
+        "https://lh3.googleusercontent.com/pcL3e60qMHH67WyyOeA1d-8Tjx2B4kwe90bpyvAyWOgf8Clb40mPxyjhpSAaH1ZsJzvtOxhU-eMYvfy5G_YYPYyGvRmRYlLHxOs"
+      ],
+      "source_url": "https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation",
+      "collections": [
+        "trend-world-simulators",
+        "trend-grounded"
+      ]
+    },
+    {
+      "id": "odyssey--odyssey-3",
+      "creator_ids": [
+        "odyssey"
+      ],
+      "title": "Odyssey-3",
+      "year": 2026,
+      "date": "2026-09-15",
+      "field": "world-models",
+      "sub": "simulation",
+      "also": [
+        "agents"
+      ],
+      "modalities": [
+        "frame-stream",
+        "behavior"
+      ],
+      "inputs": [
+        "text",
+        "action",
+        "video"
+      ],
+      "timing": "real-time",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "adaptation",
+        "situational-reach",
+        "behavioral-plausibility"
+      ],
+      "kind": "model",
+      "description": "Odyssey's third foundation world model, which the company says can both generate interactive worlds and, with small action decoders trained on hours of data, control robot arms, humanoids, cars, drones and video-game characters.",
+      "description_zh": "Odyssey 的第三代基础世界模型；公司称，它既能生成交互世界，也能借助用数小时数据训练的小型动作解码器，控制机械臂、人形机器人、汽车、无人机和游戏角色。",
+      "idea_en": "One world model as both simulator and controller, which would let the same model play the environment and the agents in it.",
+      "idea_zh": "同一个世界模型既是模拟器又是控制器，这意味着同一个模型可以同时扮演环境和其中的智能体。",
+      "method": "An autoregressive diffusion transformer trained on a large collection of visual observations; task-specific action decoders translate its internal representations into control signals.",
+      "method_zh": "在大量视觉观察数据上训练的自回归扩散 Transformer；针对具体任务的动作解码器把其内部表征转换为控制信号。",
+      "specs": "few to tens of hours of task data per embodiment (developer-reported)",
+      "keywords": [
+        "world model",
+        "physical intelligence",
+        "robot control",
+        "action decoder",
+        "API"
+      ],
+      "video": {
+        "url": "https://framerusercontent.com/assets/J2EGlzwE6xA1NPIEdgwQypDfz1A.mp4"
+      },
+      "images": [
+        "https://framerusercontent.com/assets/JU7BjLegfmzvfZ2iaaZ0CIAWWag.jpg"
+      ],
+      "source_url": "https://odyssey.ml/introducing-odyssey-3",
+      "api_url": "https://developer.odyssey.ml",
+      "collections": [
+        "trend-world-simulators",
+        "trend-agents-in-worlds"
+      ]
+    },
+    {
+      "id": "decart--oasis-3",
+      "creator_ids": [
+        "decart"
+      ],
+      "title": "Oasis 3",
+      "year": 2026,
+      "date": "2026-06-10",
+      "field": "world-models",
+      "sub": "simulation",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text",
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "api"
+      ],
+      "lenses": [
+        "situational-reach",
+        "responsiveness",
+        "diversity"
+      ],
+      "kind": "model",
+      "description": "Decart's interactive world model for physical AI, starting with autonomous driving: it generates diverse, photorealistic driving environments from a single prompt that respond to the vehicle's actions in real time, and was available by API from launch.",
+      "description_zh": "Decart 面向物理 AI 的交互式世界模型，先从自动驾驶入手：根据一句提示生成多样、逼真的驾驶环境，并实时响应车辆的动作；发布当天即可通过 API 使用。",
+      "idea_en": "Rare long-tail events become something you can request by prompt and drive through, rather than wait for on real roads.",
+      "idea_zh": "罕见的长尾事件变成可以通过提示调用、直接驶入的场景，而不必在真实道路上苦等。",
+      "method": "A real-time generative world model served on Decart's optimized inference stack (DOS), conditioned on prompts and vehicle controls for closed-loop robot training.",
+      "method_zh": "运行在 Decart 优化推理栈（DOS）上的实时生成式世界模型，以提示与车辆控制为条件，用于闭环机器人训练。",
+      "keywords": [
+        "world model",
+        "physical AI",
+        "autonomous driving",
+        "API",
+        "closed-loop"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=yeGmjZ8Nr1A"
+      },
+      "images": [
+        "https://cdn.prod.website-files.com/69ac78b058a3b8e6de5d1387/6a297d526275636705fa5eb5_oaasis.jpg"
+      ],
+      "source_url": "https://decart.ai/publications/introducing-oasis-3-first-interactive-world-model-for-physical-ai",
+      "api_url": "https://platform.decart.ai/",
+      "collections": [
+        "trend-realtime",
+        "trend-world-simulators"
+      ]
+    },
+    {
+      "id": "boyuan-chen--diffusion-forcing",
+      "creator_ids": [
+        "boyuan-chen"
+      ],
+      "title": "Diffusion Forcing",
+      "year": 2024,
+      "date": "2024-07-01",
+      "field": "world-models",
+      "sub": "memory",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "action",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "control"
+      ],
+      "kind": "research",
+      "description": "A training method that gives each frame its own noise level, so a video model can roll out stably far beyond its training length and be guided toward goals; it underlies many later real-time world models.",
+      "description_zh": "一种训练方法：为每一帧分配各自的噪声水平，使视频模型能远超训练长度稳定地向前推演，并能被引导朝向目标；许多后来的实时世界模型都以它为基础。",
+      "idea_en": "Long, stable rollouts are a training problem before they are a memory problem; this recipe fixed much of the drift.",
+      "idea_zh": "长时间、稳定的推演首先是训练问题，然后才是记忆问题；这一方法解决了很大一部分漂移。",
+      "method": "Sequence diffusion in which every token is denoised at an independently sampled noise level, combining next-token prediction with full-sequence diffusion and enabling guidance over future tokens.",
+      "method_zh": "序列扩散中每个 token 以独立采样的噪声水平去噪，把下一 token 预测与全序列扩散结合起来，并支持对未来 token 的引导。",
+      "keywords": [
+        "diffusion forcing",
+        "autoregressive video",
+        "long rollouts",
+        "training method",
+        "guidance",
+        "author talk video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=CNgwS8B7UvE"
+      },
+      "images": [
+        "https://boyuan.space/diffusion-forcing/static/images/teaser.png"
+      ],
+      "source_url": "https://boyuan.space/diffusion-forcing/",
+      "code_url": "https://github.com/buoyancy99/diffusion-forcing",
+      "collections": [
+        "ml-conf"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2407.01392",
+        "arxiv": "2407.01392",
+        "venue": "NeurIPS 2024",
+        "title": "Diffusion Forcing: Next-token Prediction Meets Full-Sequence Diffusion"
+      }
+    },
+    {
+      "id": "zeqi-xiao--worldmem",
+      "creator_ids": [
+        "zeqi-xiao"
+      ],
+      "title": "WorldMem",
+      "year": 2025,
+      "date": "2025-04-16",
+      "field": "world-models",
+      "sub": "memory",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action",
+        "image"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence"
+      ],
+      "kind": "research",
+      "description": "A world model with an explicit memory bank: when a player in Minecraft turns back to a place built or seen earlier, the model retrieves stored frames and their poses and regenerates the place consistently, including changes made over time.",
+      "description_zh": "一个带显式记忆库的世界模型：当 Minecraft 玩家回头看向先前建造或见过的地方时，模型会调取存储的画面及其位姿，一致地重新生成该处，包括随时间发生的变化。",
+      "idea_en": "Persistence can be engineered: store what was seen with where and when, and look it up instead of hoping the model remembers.",
+      "idea_zh": "持久性可以被工程化：把看到的内容连同位置和时间一起存下来，需要时去查，而不是指望模型自己记得。",
+      "method": "A memory bank of past frames tagged with camera poses and timestamps, read by a memory-attention module inside a video diffusion model.",
+      "method_zh": "存储带有相机位姿与时间戳的历史帧的记忆库，由视频扩散模型中的记忆注意力模块读取。",
+      "keywords": [
+        "world model",
+        "memory bank",
+        "consistency",
+        "Minecraft",
+        "pose-aware retrieval"
+      ],
+      "video": {
+        "url": "https://xizaoqu.github.io/worldmem/resources/cover.mp4"
+      },
+      "images": [
+        "https://xizaoqu.github.io/worldmem/resources/success_044.png"
+      ],
+      "source_url": "https://xizaoqu.github.io/worldmem/",
+      "code_url": "https://github.com/xizaoqu/WorldMem",
+      "collections": [],
+      "paper": {
+        "url": "https://arxiv.org/abs/2504.12369",
+        "arxiv": "2504.12369",
+        "venue": "arXiv 2025",
+        "title": "WorldMem: Long-term Consistent World Simulation with Memory"
+      }
+    },
+    {
+      "id": "jiwen-yu--context-as-memory",
+      "creator_ids": [
+        "jiwen-yu",
+        "kuaishou"
+      ],
+      "title": "Context-as-Memory",
+      "year": 2025,
+      "date": "2025-06-03",
+      "field": "world-models",
+      "sub": "memory",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "camera",
+        "image"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "persistence"
+      ],
+      "kind": "research",
+      "description": "A method that keeps a generated scene consistent over long interactive videos by treating all previously generated frames as memory and retrieving only those whose camera views overlap the next view.",
+      "description_zh": "一种让长时交互视频中的生成场景保持一致的方法：把此前生成的所有画面都当作记忆，只调取与下一视角视野重叠的那些画面。",
+      "idea_en": "Simple retrieval by field of view beats compressing the past, which makes memory inspectable frame by frame.",
+      "idea_zh": "按视野重叠做简单检索，效果胜过把过去压缩起来，而且记忆可以逐帧检查。",
+      "method": "Past frames are concatenated as context to a video diffusion model, with a memory-retrieval module that selects frames by camera field-of-view overlap to bound compute.",
+      "method_zh": "把历史帧拼接为视频扩散模型的上下文，并用记忆检索模块按相机视野重叠挑选帧，以限制计算量。",
+      "keywords": [
+        "world model",
+        "memory retrieval",
+        "scene consistency",
+        "context",
+        "SIGGRAPH Asia 2025",
+        "author-uploaded video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=6Ye6wWupWD4"
+      },
+      "images": [
+        "https://context-as-memory.github.io/pics/framework.jpg"
+      ],
+      "source_url": "https://context-as-memory.github.io/",
+      "collections": [
+        "siggraph"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2506.03141",
+        "arxiv": "2506.03141",
+        "venue": "SIGGRAPH Asia 2025",
+        "title": "Context as Memory: Scene-Consistent Interactive Long Video Generation with Memory Retrieval"
+      }
+    },
+    {
+      "id": "tong-wu--spatial-memory",
+      "creator_ids": [
+        "tong-wu"
+      ],
+      "title": "Video World Models with Long-term Spatial Memory",
+      "year": 2025,
+      "date": "2025-06-05",
+      "field": "world-models",
+      "sub": "memory",
+      "also": [
+        "worlds-3d"
+      ],
+      "modalities": [
+        "flat-video",
+        "scene-3d"
+      ],
+      "inputs": [
+        "camera",
+        "image"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "persistence",
+        "control"
+      ],
+      "kind": "research",
+      "description": "A video world model that keeps a 3D point cloud of the static scene as long-term memory alongside recent frames and keyframes, so places revisited after long camera paths look the same.",
+      "description_zh": "一个视频世界模型：在保留近期画面与关键帧的同时，把静态场景的三维点云作为长期记忆，使长时间镜头移动后重访的地方看起来依然一致。",
+      "idea_en": "Combines an explicit 3D store with a generative model: geometry for what must persist, generation for what can change.",
+      "idea_zh": "把显式三维存储与生成模型结合：几何负责必须持久的部分，生成负责可以变化的部分。",
+      "method": "A geometry-grounded memory with three parts: a point-cloud spatial memory of static content, a working memory of recent frames and an episodic memory of keyframes, all conditioning a video diffusion model.",
+      "method_zh": "以几何为基础的三部分记忆：记录静态内容的点云空间记忆、记录近期画面的工作记忆和记录关键帧的情景记忆，共同作为视频扩散模型的条件。",
+      "keywords": [
+        "world model",
+        "spatial memory",
+        "point cloud",
+        "episodic memory",
+        "long-term consistency"
+      ],
+      "video": {
+        "url": "https://spmem.github.io/static/videos/wm-demo.mp4"
+      },
+      "images": [
+        "https://spmem.github.io/static/images/teaser.jpg"
+      ],
+      "source_url": "https://spmem.github.io/",
+      "collections": [],
+      "paper": {
+        "url": "https://arxiv.org/abs/2506.05284",
+        "arxiv": "2506.05284",
+        "venue": "arXiv 2025",
+        "title": "Video World Models with Long-term Spatial Memory"
+      }
+    },
+    {
+      "id": "skywork--matrix-game-3",
+      "creator_ids": [
+        "skywork"
+      ],
+      "title": "Matrix-Game 3.0",
+      "year": 2026,
+      "date": "2026-03-27",
+      "field": "world-models",
+      "sub": "memory",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "image",
+        "action",
+        "camera"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "responsiveness"
+      ],
+      "kind": "open-source",
+      "description": "An open-weight, memory-augmented interactive world model that streams 720p video in real time and keeps scenes consistent over long sessions by retrieving relevant past frames by camera position; Skywork followed it with Matrix-Game 3.5 (patch memory) in August 2026.",
+      "description_zh": "一个开源权重、带记忆增强的交互世界模型：实时流式输出 720p 视频，并按相机位置调取相关历史帧，使长时会话中的场景保持一致；昆仑万维于 2026 年 8 月推出后续版本 Matrix-Game 3.5（块记忆）。",
+      "idea_en": "Shows memory and real-time speed together in an open model, at a hardware cost (8 GPUs) that still limits lab use.",
+      "idea_zh": "在开源模型中同时实现记忆与实时速度，但硬件成本（8 张 GPU）仍限制了实验室的使用。",
+      "method": "A 5B autoregressive diffusion model building on Matrix-Game 2.0 with GPU-based camera-aware memory retrieval, few-step sampling, INT8 quantization, distillation and a lightweight VAE.",
+      "method_zh": "在 Matrix-Game 2.0 基础上构建的 50 亿参数自回归扩散模型，采用基于 GPU 的相机感知记忆检索、少步采样、INT8 量化、蒸馏和轻量 VAE。",
+      "specs": "720p · up to 40 fps · 5B parameters · 8 GPUs (developer-reported)",
+      "keywords": [
+        "world model",
+        "open weights",
+        "long-horizon memory",
+        "real-time",
+        "camera-aware retrieval"
+      ],
+      "video": {
+        "url": "https://matrix-game-v3.github.io/static/videos/teaser.mp4"
+      },
+      "images": [
+        "https://matrix-game-v3.github.io/static/imgs/mg3_overview.png"
+      ],
+      "source_url": "https://matrix-game-v3.github.io/",
+      "code_url": "https://github.com/SkyworkAI/Matrix-Game",
+      "collections": [
+        "trend-open-weights",
+        "trend-realtime"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2604.08995",
+        "arxiv": "2604.08995",
+        "venue": "arXiv 2026",
+        "title": "Matrix-Game 3.0: Real-Time and Streaming Interactive World Model with Long-Horizon Memory"
+      }
+    },
+    {
+      "id": "xindi-wu--worldtrace",
+      "creator_ids": [
+        "xindi-wu",
+        "nvidia"
+      ],
+      "title": "WorldTrace",
+      "year": 2026,
+      "date": "2026-08-07",
+      "field": "world-models",
+      "sub": "memory",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action",
+        "camera"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "persistence",
+        "control"
+      ],
+      "kind": "research",
+      "description": "A training-free fix for interactive video world models that forget once a session runs past their training length: it keeps the model's compressed memory addressable so long rollouts stay smooth and previously visited scenes can be recalled.",
+      "description_zh": "一种无需重新训练的修补方法，针对会话超出训练长度后就开始遗忘的交互视频世界模型：让模型压缩后的记忆仍可被准确寻址，使长时推演保持平滑，并能回想起曾经到过的场景。",
+      "idea_en": "Pinpoints why world models forget (positional encodings drift out of range) and fixes it without retraining, so existing models can run longer sessions.",
+      "idea_zh": "指出世界模型遗忘的原因在于位置编码超出训练范围，并在不重新训练的情况下加以修复，让现有模型能运行更长的会话。",
+      "method": "The KV cache is compressed into fixed in-distribution slot positions with canonical-key writers, avoiding averaging across incompatible RoPE phases; two variants target smooth rollouts (Field) and scene recall (Landmark).",
+      "method_zh": "把 KV 缓存压缩到固定、处于训练分布内的槽位，并用规范化键写入，避免把相位不兼容的 RoPE 平均在一起；两个变体分别面向平滑推演（Field）与场景回想（Landmark）。",
+      "keywords": [
+        "world model",
+        "KV cache",
+        "memory",
+        "RoPE",
+        "training-free",
+        "NeurIPS 2026"
+      ],
+      "video": {
+        "url": "https://research.nvidia.com/labs/sil/projects/WorldTrace/videos/teaser/worldtrace_panel_rotate90.mp4"
+      },
+      "images": [
+        "https://research.nvidia.com/labs/sil/projects/WorldTrace/figures/og-card.png"
+      ],
+      "source_url": "https://research.nvidia.com/labs/sil/projects/WorldTrace/",
+      "collections": [
+        "ml-conf"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2608.07408",
+        "arxiv": "2608.07408",
+        "venue": "NeurIPS 2026",
+        "title": "Addressable Memory for Video World Models"
+      }
+    }
+  ],
+  "leads": [
+    {
+      "name": "Odyssey-1 (2025-05-28)",
+      "why": "First public Odyssey playable world model (40 ms per frame, 5+ min streams); folded into the Odyssey-2 entry.",
+      "link": "https://odyssey.ml/introducing-odyssey-1",
+      "found_via": "odyssey",
+      "status": "open"
+    },
+    {
+      "name": "Starchild-1 (Odyssey, 2026-05-17)",
+      "why": "Real-time world model that generates synchronized audio and video while responding to streaming input; technical report available.",
+      "link": "https://odyssey.ml/introducing-starchild-1",
+      "found_via": "odyssey",
+      "status": "open"
+    },
+    {
+      "name": "Odyssey-2 Max (2026-04-21) and Agora-1 (2026-05-18)",
+      "why": "Intermediate Odyssey releases; Agora-1 is the first multi-agent version.",
+      "link": "https://odyssey.ml/writing",
+      "found_via": "odyssey",
+      "status": "open"
+    },
+    {
+      "name": "PROWL-2 (Odyssey, 2026-10-01)",
+      "why": "Agents and their world model learn jointly from their own curricula; belongs to agents.",
+      "link": "https://odyssey.ml/introducing-prowl-2",
+      "found_via": "odyssey",
+      "status": "open"
+    },
+    {
+      "name": "CaliBench (Odyssey, 2026-08-10)",
+      "why": "Benchmark asking whether world models are physically calibrated; belongs to infra/benchmarks.",
+      "link": "https://odyssey.ml/writing",
+      "found_via": "odyssey",
+      "status": "open"
+    },
+    {
+      "name": "GAIA-1 (Wayve, 2023) and GAIA-3 (Wayve, late 2025)",
+      "why": "Earlier GAIA versions, summarised in the GAIA-2 and GAIA-4 entries; Wayve YouTube has GAIA-1 clips.",
+      "link": "https://wayve.ai/thinking/gaia-3/",
+      "found_via": "wayve",
+      "status": "open"
+    },
+    {
+      "name": "Matrix-Game 1.0 (2025-05-12) and Matrix-Game 3.5 (arXiv 2608.29910)",
+      "why": "Skywork lineage members not added separately; 3.5 adds patch memory.",
+      "link": "https://matrix-game-v3-5.github.io/",
+      "found_via": "skywork",
+      "status": "open"
+    },
+    {
+      "name": "HY-World 2.0 (Tencent Hunyuan, 2026-04-16)",
+      "why": "Multimodal 3D world model; belongs to worlds-3d.",
+      "link": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+      "found_via": "tencent-hunyuan",
+      "status": "open"
+    },
+    {
+      "name": "WorldCompass (arXiv 2602.09022)",
+      "why": "RL post-training for long-horizon world models (WorldPlay-8B).",
+      "link": "https://arxiv.org/abs/2602.09022",
+      "found_via": "tencent-hunyuan",
+      "status": "open"
+    },
+    {
+      "name": "WorldPlay2 (arXiv 2609.35560)",
+      "why": "Follow-up to WorldPlay with factorized hybrid control and compressed memory; has a project video.",
+      "link": "https://worldplay2.github.io/",
+      "found_via": "tencent-hunyuan",
+      "status": "open"
+    },
+    {
+      "name": "Waypoint-1 (2026-01-20) and Waypoint 2 beta (Overworld)",
+      "why": "First consumer-GPU real-time diffusion world model and its successor beta; summarised in the Waypoint-1.5 entry.",
+      "link": "https://over.world/blog/the-path-to-real-time-worlds-and-why-it-matters",
+      "found_via": "overworld",
+      "status": "open"
+    },
+    {
+      "name": "Mirage (Dynamics Lab, July 2025)",
+      "why": "First Mirage release (GTA-style UGC engine); Dynamics Lab site and X posts offline in October 2026.",
+      "link": "https://cgworld.jp/flashnews/01-202509-Mirage2.html",
+      "found_via": "dynamics-lab",
+      "status": "no_media"
+    },
+    {
+      "name": "MineWorld (Microsoft, arXiv 2504.08388)",
+      "why": "Open real-time Minecraft world model (4–7 fps); checkpoints were taken down in May 2025.",
+      "link": "https://github.com/microsoft/mineworld",
+      "found_via": "microsoft",
+      "status": "open"
+    },
+    {
+      "name": "GameGen-X (arXiv 2411.00769)",
+      "why": "Open-world game video generation with interactive control; superseded by later game world models.",
+      "link": "https://gamegen-x.github.io/",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "The Matrix (Alibaba, arXiv 2412.03568)",
+      "why": "Infinite-horizon world generation with real-time moving control.",
+      "link": "https://thematrix1999.github.io/",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "Yume (Shanghai AI Lab, arXiv 2507.17744)",
+      "why": "Open interactive world generation model.",
+      "link": "https://arxiv.org/abs/2507.17744",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "VMem (arXiv 2506.18903, ICCV 2025 highlight)",
+      "why": "Surfel-indexed view memory for consistent interactive scene video.",
+      "link": "https://v-mem.github.io/",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "Long-Context State-Space Video World Models (arXiv 2505.20171)",
+      "why": "State-space models for long memory in video world models.",
+      "link": "https://ryanpo.com/ssm_wm",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "History-Guided Video Diffusion (ICML 2025, arXiv 2502.06764)",
+      "why": "Diffusion Forcing Transformer with history guidance for long stable video.",
+      "link": "https://arxiv.org/abs/2502.06764",
+      "found_via": "boyuan-chen",
+      "status": "open"
+    },
+    {
+      "name": "MemLearner (ECCV 2026, arXiv 2606.31734)",
+      "why": "Learned query of context memory for video world models (HKU + Kuaishou).",
+      "link": "https://yujiwen.github.io/memlearner/",
+      "found_via": "jiwen-yu",
+      "status": "open"
+    },
+    {
+      "name": "World-T3 (arXiv 2610.17434)",
+      "why": "Test-time training as persistent memory for real-time video world models.",
+      "link": "https://adreamwu.github.io/World-T3/",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "WorldMemBench (arXiv 2610.19063) and R2M-Bench (arXiv 2608.27328)",
+      "why": "Benchmarks for memory in video world models; belong to infra/benchmarks.",
+      "link": "https://arxiv.org/abs/2610.19063",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "WorldRoamBench (arXiv 2606.31672) and MBench (arXiv 2606.00793)",
+      "why": "Independent 2026 benchmarks for long-horizon stability and memory of interactive world models; WorldRoamBench reports no model satisfies all dimensions. Benchmarks belong to infra (which already has WorldScore).",
+      "link": "https://arxiv.org/abs/2606.31672",
+      "found_via": "trends",
+      "status": "open"
+    },
+    {
+      "name": "HelloWorld (arXiv 2608.05070)",
+      "why": "Socially interactive characters (wave, nod, greet on key press) in video world models, with a social-interaction benchmark; agenda-relevant but only GIFs, no video.",
+      "link": "https://github.com/AlayaLab/HelloWorld",
+      "found_via": "seed",
+      "status": "no_media"
+    },
+    {
+      "name": "AlayaWorld (arXiv 2608.13492) and Sekai2 dataset (arXiv 2608.09449)",
+      "why": "Interactive long-horizon world model and exploration dataset from Alaya Lab.",
+      "link": "https://arxiv.org/abs/2608.13492",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "HelixWorld (arXiv 2609.38123)",
+      "why": "Real-time interactive audio-visual world model.",
+      "link": "https://arxiv.org/abs/2609.38123",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "Astronex-World 1.0 (arXiv 2609.20034) and InternW0 (arXiv 2609.27656)",
+      "why": "2026 real-time interactive / physical world model technical reports.",
+      "link": "https://arxiv.org/abs/2609.20034",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "Seaweed APT2 (ByteDance Seed, NeurIPS 2025, arXiv 2506.09350)",
+      "why": "Real-time interactive video via autoregressive adversarial post-training; belongs to video/realtime.",
+      "link": "https://arxiv.org/abs/2506.09350",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "Decart Lucy 2 / Lucy 2.5 (2026)",
+      "why": "Real-time world-transformation (video editing) models; belong to video/realtime.",
+      "link": "https://decart.ai/blog",
+      "found_via": "decart",
+      "status": "open"
+    },
+    {
+      "name": "Runway GWM Avatars and GWM Robotics SDK (2025-12)",
+      "why": "Variants of GWM-1; GWM Avatars belongs to avatars.",
+      "link": "https://runwayml.com/research/introducing-runway-gwm-1",
+      "found_via": "runway",
+      "status": "open"
+    },
+    {
+      "name": "World Labs Atlas (2026-09-01)",
+      "why": "Omni world model for spatial intelligence; worlds-3d with also world-models per plan.",
+      "link": "https://www.worldlabs.ai/blog/atlas",
+      "found_via": "world-labs",
+      "status": "duplicate"
+    },
+    {
+      "name": "SIMA 2 (Google DeepMind)",
+      "why": "Agent playing inside Genie 3 worlds; belongs to agents (also world-models).",
+      "link": "https://deepmind.google/models/genie/",
+      "found_via": "google-deepmind",
+      "status": "duplicate"
+    },
+    {
+      "name": "Runway Solaris (2026-08-31)",
+      "why": "First 'interface world model': generates apps and websites frame by frame as you use them; real-time but not an immersive world, so not added.",
+      "link": "https://runwayml.com/news/research/introducing-solaris",
+      "found_via": "runway",
+      "status": "off_topic"
+    },
+    {
+      "name": "Genie 3 talk by Shlomi Fruchter and Jack Parker-Holder",
+      "why": "Google DeepMind talk video (n5x6yXDj0uo) usable as extra media for Genie 3.",
+      "link": "https://www.youtube.com/watch?v=n5x6yXDj0uo",
+      "found_via": "google-deepmind",
+      "status": "open"
+    },
+    {
+      "name": "Project Genie gallery videos (Google DeepMind YouTube)",
+      "why": "Short official clips (e.g. 'Sunken Garden', 'Backyard Racetrack') usable as extra media.",
+      "link": "https://www.youtube.com/watch?v=0NdJ61nwei4",
+      "found_via": "google-deepmind",
+      "status": "open"
+    }
+  ]
+}

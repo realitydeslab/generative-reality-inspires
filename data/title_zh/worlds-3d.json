@@ -1,0 +1,38 @@
+{
+ "world-labs--generating-worlds": {
+  "zh": "大世界模型演示（Generating Worlds）",
+  "src": "translated"
+ },
+ "tencent-hunyuan--hunyuanworld-1": {
+  "zh": "混元3D世界模型 1.0",
+  "src": "established"
+ },
+ "tencent-hunyuan--hunyuanworld-voyager": {
+  "zh": "混元世界模型 Voyager",
+  "src": "translated"
+ },
+ "tencent-hunyuan--hy-world-2": {
+  "zh": "混元世界模型 2.0（HY-World 2.0）",
+  "src": "translated"
+ },
+ "tencent-hunyuan--worldclaw": {
+  "zh": "WorldClaw：智能体驱动的大规模开放世界生成",
+  "src": "translated"
+ },
+ "apple--spatial-scenes": {
+  "zh": "空间场景（visionOS 26）",
+  "src": "established"
+ },
+ "meng-li-shih--3d-photo-inpainting": {
+  "zh": "基于上下文感知分层深度补全的三维摄影",
+  "src": "translated"
+ },
+ "andrew-liu--infinite-nature": {
+  "zh": "Infinite Nature：从单张图像无限生成自然风景",
+  "src": "translated"
+ },
+ "lukas-hollein--text2room": {
+  "zh": "Text2Room：用文生图模型生成带纹理的房间网格",
+  "src": "translated"
+ }
+}

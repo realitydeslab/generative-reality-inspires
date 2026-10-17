@@ -1,0 +1,2648 @@
+{
+ "batch": "audio",
+ "creators": [
+  {
+   "id": "kyutai",
+   "name": "Kyutai",
+   "name_zh": "",
+   "kind": "lab",
+   "role": "Non-profit open-science AI lab",
+   "based": "Paris, France",
+   "bio": "Kyutai is a Paris non-profit research lab funded by Iliad, CMA CGM and Schmidt Sciences that releases its speech models openly.",
+   "why": "It built Moshi, the first openly released full-duplex voice model, and the Mimi codec many later voice models reuse.",
+   "disciplines": [
+    "speech",
+    "ml"
+   ],
+   "links": {
+    "site": "https://kyutai.org",
+    "github": "https://github.com/kyutai-labs",
+    "huggingface": "https://huggingface.co/kyutai",
+    "x": "https://x.com/kyutai_labs",
+    "youtube": "https://www.youtube.com/@kyutai"
+   },
+   "role_zh": "非营利开放科学 AI 实验室",
+   "bio_zh": "Kyutai 是位于巴黎的非营利研究实验室，由 Iliad、CMA CGM 与 Schmidt Sciences 资助，语音模型均公开发布。",
+   "why_zh": "它做出了第一个公开发布的全双工语音模型 Moshi，以及被后来许多语音模型沿用的 Mimi 编解码器。",
+   "based_zh": "法国巴黎",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "openai",
+   "name": "OpenAI",
+   "name_zh": "",
+   "kind": "company",
+   "role": "AI research and product company",
+   "based": "San Francisco, USA",
+   "bio": "OpenAI develops the GPT models, ChatGPT and the Realtime API for speech-to-speech applications.",
+   "why": "Its voice models moved from turn-based GPT-4o voice to the full-duplex GPT-Live, setting what most people expect a talking AI to do.",
+   "disciplines": [
+    "ml",
+    "speech"
+   ],
+   "links": {
+    "site": "https://openai.com",
+    "youtube": "https://www.youtube.com/@OpenAI",
+    "x": "https://x.com/OpenAI"
+   },
+   "role_zh": "AI 研究与产品公司",
+   "bio_zh": "OpenAI 开发 GPT 系列模型、ChatGPT 以及用于语音到语音应用的 Realtime API。",
+   "why_zh": "它的语音模型从回合制的 GPT-4o 语音走到全双工的 GPT-Live，决定了大多数人对“会说话的 AI”的预期。",
+   "based_zh": "美国旧金山",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "google-deepmind",
+   "name": "Google DeepMind",
+   "name_zh": "",
+   "kind": "lab",
+   "role": "AI research lab of Google",
+   "based": "London, UK",
+   "bio": "Google DeepMind builds the Gemini models, the Live API's native-audio models, Lyria music models and V2A video-to-audio research.",
+   "why": "It covers the whole audio stack of a generated situation: live conversation, music and sound for video.",
+   "disciplines": [
+    "ml",
+    "speech"
+   ],
+   "links": {
+    "site": "https://deepmind.google",
+    "youtube": "https://www.youtube.com/@googledeepmind",
+    "x": "https://x.com/GoogleDeepMind"
+   },
+   "role_zh": "谷歌旗下 AI 研究实验室",
+   "bio_zh": "Google DeepMind 开发 Gemini 模型、Live API 的原生音频模型、Lyria 音乐模型以及 V2A 视频配音研究。",
+   "why_zh": "它覆盖了生成情境中的整条音频链路：实时对话、音乐与视频音效。",
+   "based_zh": "英国伦敦",
+   "connected_to": [
+    "google"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "meta",
+   "name": "Meta",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Meta AI (FAIR) and Reality Labs",
+   "based": "Menlo Park, USA",
+   "bio": "Meta's FAIR and Reality Labs research groups work on textless speech models, audio generation and spatial audio for headsets and avatars.",
+   "why": "FAIR's dGSLM first modelled two-channel spoken dialogue, and Reality Labs research ties spatial sound to tracked bodies.",
+   "disciplines": [
+    "ml",
+    "speech"
+   ],
+   "links": {
+    "site": "https://ai.meta.com",
+    "github": "https://github.com/facebookresearch"
+   },
+   "role_zh": "Meta AI（FAIR）与 Reality Labs",
+   "bio_zh": "Meta 的 FAIR 与 Reality Labs 研究团队研究无文本语音模型、音频生成，以及面向头显和虚拟化身的空间音频。",
+   "why_zh": "FAIR 的 dGSLM 最早对双声道口语对话建模；Reality Labs 的研究把空间声音与被追踪的身体联系起来。",
+   "based_zh": "美国门洛帕克",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "sesame",
+   "name": "Sesame",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Voice AI and hardware company",
+   "based": "San Francisco, USA",
+   "bio": "Sesame, co-founded by Oculus co-founder Brendan Iribe, builds conversational voice agents and the Conversational Speech Model (CSM), with eyewear announced.",
+   "why": "Its Maya and Miles demo set a public reference point for 'voice presence' in conversational speech.",
+   "disciplines": [
+    "speech",
+    "ml"
+   ],
+   "links": {
+    "site": "https://www.sesame.com",
+    "github": "https://github.com/SesameAILabs",
+    "huggingface": "https://huggingface.co/sesame"
+   },
+   "role_zh": "语音 AI 与硬件公司",
+   "bio_zh": "Sesame 由 Oculus 联合创始人 Brendan Iribe 参与创立，开发对话式语音智能体与对话语音模型 CSM，并已宣布眼镜产品。",
+   "why_zh": "它的 Maya 与 Miles 演示成为对话语音“临场感”的公共参照。",
+   "based_zh": "美国旧金山",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "hume-ai",
+   "name": "Hume AI",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Voice AI, expression-measurement and evaluation company",
+   "based": "New York, USA",
+   "bio": "Hume AI builds the Empathic Voice Interface (EVI), the Octave text-to-speech models and the open-source TADA model; in 2026 it leads with Expression APIs (600+ dimensions of expression in 50+ languages) and tools and benchmarks for evaluating real-world voice AI, including RW-Voice-EQ Bench.",
+   "why": "Its models treat emotion and delivery as first-class outputs, and its measurement tools can score how a virtual interlocutor or a participant actually sounds.",
+   "disciplines": [
+    "speech",
+    "behavioral"
+   ],
+   "links": {
+    "site": "https://www.hume.ai",
+    "github": "https://github.com/HumeAI",
+    "youtube": "https://www.youtube.com/@HumeAI",
+    "huggingface": "https://huggingface.co/HumeAI"
+   },
+   "role_zh": "语音 AI、表达测量与评测公司",
+   "bio_zh": "Hume AI 开发共情语音接口 EVI、Octave 语音合成模型以及开源的 TADA 模型；2026 年其主打表达测量 API（50 多种语言、600 多个表达维度），以及用于评测真实场景语音 AI 的工具与基准，包括 RW-Voice-EQ Bench。",
+   "why_zh": "它的模型把情绪与语气当作首要输出，其测量工具还能评估虚拟对话者或参与者实际听起来是什么状态。",
+   "based_zh": "美国纽约",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "alibaba-tongyi",
+   "name": "Alibaba Tongyi (Qwen)",
+   "name_zh": "阿里通义",
+   "kind": "lab",
+   "role": "Alibaba's Tongyi Lab and Qwen team",
+   "based": "Hangzhou, China",
+   "bio": "Alibaba's Tongyi Lab develops the Qwen model family, the Wan video models and the Fun-Audio / CosyVoice speech models, many released as open weights.",
+   "why": "Qwen-Omni models are among the strongest open speech-in, speech-out models a lab can host.",
+   "disciplines": [
+    "ml",
+    "speech"
+   ],
+   "links": {
+    "site": "https://qwen.ai",
+    "github": "https://github.com/QwenLM",
+    "huggingface": "https://huggingface.co/Qwen",
+    "youtube": "https://www.youtube.com/@Qwen-AI"
+   },
+   "role_zh": "阿里巴巴通义实验室与 Qwen 团队",
+   "bio_zh": "阿里巴巴通义实验室开发千问 Qwen 系列、万相 Wan 视频模型以及 Fun-Audio / CosyVoice 语音模型，其中许多以开源权重发布。",
+   "why_zh": "Qwen-Omni 是实验室可以自行部署的最强开源“语音进、语音出”模型之一。",
+   "based_zh": "中国杭州",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "openbmb",
+   "name": "OpenBMB",
+   "name_zh": "面壁智能 OpenBMB",
+   "kind": "lab",
+   "role": "Open-source model community of ModelBest and Tsinghua NLP",
+   "based": "Beijing, China",
+   "bio": "OpenBMB is the open-source effort behind the MiniCPM models, led by ModelBest with Tsinghua University's NLP lab.",
+   "why": "Its MiniCPM-o models bring full-duplex audio-visual interaction to devices small enough to run locally.",
+   "disciplines": [
+    "ml",
+    "speech"
+   ],
+   "links": {
+    "site": "https://www.openbmb.cn",
+    "github": "https://github.com/OpenBMB",
+    "huggingface": "https://huggingface.co/openbmb",
+    "youtube": "https://www.youtube.com/@OpenBMB"
+   },
+   "role_zh": "面壁智能与清华 NLP 实验室的开源模型社区",
+   "bio_zh": "OpenBMB 是 MiniCPM 系列模型背后的开源项目，由面壁智能与清华大学自然语言处理实验室主导。",
+   "why_zh": "它的 MiniCPM-o 模型把全双工视听交互带到可以本地运行的小型设备上。",
+   "based_zh": "中国北京",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "nvidia",
+   "name": "NVIDIA",
+   "name_zh": "",
+   "kind": "company",
+   "role": "GPU and AI computing company",
+   "based": "Santa Clara, USA",
+   "bio": "NVIDIA's Applied Deep Learning Research (ADLR) group publishes open speech and audio models alongside the company's computing platforms.",
+   "why": "PersonaPlex, its open full-duplex model, adds persona and voice control to Moshi-style conversation.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://research.nvidia.com/labs/adlr/",
+    "github": "https://github.com/NVIDIA",
+    "huggingface": "https://huggingface.co/nvidia"
+   },
+   "role_zh": "GPU 与 AI 计算公司",
+   "bio_zh": "NVIDIA 应用深度学习研究组（ADLR）在公司计算平台之外，还发布开源语音与音频模型。",
+   "why_zh": "它的开源全双工模型 PersonaPlex 在 Moshi 式对话之上加入了角色与音色控制。",
+   "based_zh": "美国圣克拉拉",
+   "connected_to": [
+    "kyutai"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "bytedance-seed",
+   "name": "ByteDance Seed",
+   "name_zh": "字节跳动 Seed",
+   "kind": "lab",
+   "role": "ByteDance's foundation-model research team",
+   "based": "Beijing, China",
+   "bio": "ByteDance Seed builds the Doubao / Seed model family, including speech, real-time voice and audio-creation models offered through BytePlus.",
+   "why": "SeedRealtime is one of the first audio-visual full-duplex models deployed at scale.",
+   "disciplines": [
+    "ml",
+    "speech"
+   ],
+   "links": {
+    "site": "https://seed.bytedance.com",
+    "github": "https://github.com/ByteDance-Seed"
+   },
+   "role_zh": "字节跳动基础模型研究团队",
+   "bio_zh": "字节跳动 Seed 开发豆包 / Seed 系列模型，包括通过 BytePlus 提供的语音、实时语音与音频创作模型。",
+   "why_zh": "SeedRealtime 是最早大规模部署的视听全双工模型之一。",
+   "based_zh": "中国北京",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "stepfun",
+   "name": "StepFun",
+   "name_zh": "阶跃星辰",
+   "kind": "company",
+   "role": "Chinese foundation-model company",
+   "based": "Shanghai, China",
+   "bio": "StepFun develops the Step series of language, multimodal and audio models and open-sources several of them.",
+   "why": "Step-Audio 2 is an open-weight end-to-end speech model that listens for emotion and paralinguistic cues.",
+   "disciplines": [
+    "ml",
+    "speech"
+   ],
+   "links": {
+    "site": "https://www.stepfun.com",
+    "github": "https://github.com/stepfun-ai",
+    "huggingface": "https://huggingface.co/stepfun-ai"
+   },
+   "role_zh": "中国基础模型公司",
+   "bio_zh": "阶跃星辰开发 Step 系列语言、多模态与音频模型，并开源了其中多款。",
+   "why_zh": "Step-Audio 2 是能识别情绪与副语言线索的开源端到端语音模型。",
+   "based_zh": "中国上海",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Amazon (AWS and Amazon AGI)",
+   "based": "Seattle, USA",
+   "bio": "Amazon develops the Nova foundation models, served on AWS Bedrock.",
+   "why": "Nova Sonic puts speech-to-speech agents into the cloud many institutions already use.",
+   "disciplines": [
+    "ml",
+    "speech"
+   ],
+   "links": {
+    "site": "https://aws.amazon.com/ai/generative-ai/nova/",
+    "youtube": "https://www.youtube.com/@amazonwebservices"
+   },
+   "role_zh": "亚马逊（AWS 与 Amazon AGI）",
+   "bio_zh": "亚马逊开发 Nova 系列基础模型，在 AWS Bedrock 上提供服务。",
+   "why_zh": "Nova Sonic 把语音到语音智能体放进了许多机构已在使用的云平台。",
+   "based_zh": "美国西雅图",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "elevenlabs",
+   "name": "ElevenLabs",
+   "name_zh": "",
+   "kind": "company",
+   "role": "AI audio company",
+   "based": "London, UK",
+   "bio": "ElevenLabs builds text-to-speech, voice cloning, conversational agents, sound effects and music models used widely in media production.",
+   "why": "Its expressive TTS and music models are a default source of voiced and scored stimuli.",
+   "disciplines": [
+    "speech",
+    "media-art"
+   ],
+   "links": {
+    "site": "https://elevenlabs.io",
+    "youtube": "https://www.youtube.com/@ElevenLabs",
+    "x": "https://x.com/elevenlabsio"
+   },
+   "role_zh": "AI 音频公司",
+   "bio_zh": "ElevenLabs 开发语音合成、声音克隆、对话智能体、音效与音乐模型，在媒体制作中被广泛使用。",
+   "why_zh": "它的富表现力语音合成与音乐模型是配音与配乐素材的常用来源。",
+   "based_zh": "英国伦敦",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "bilibili",
+   "name": "bilibili",
+   "name_zh": "哔哩哔哩",
+   "kind": "company",
+   "role": "Chinese video platform (Index team)",
+   "based": "Shanghai, China",
+   "bio": "bilibili is a Chinese video community whose Index team develops the open IndexTTS speech models.",
+   "why": "IndexTTS2 adds exact duration control to expressive voice cloning, which dubbing and synced scenes need.",
+   "disciplines": [
+    "speech"
+   ],
+   "links": {
+    "site": "https://www.bilibili.com",
+    "github": "https://github.com/index-tts"
+   },
+   "role_zh": "中国视频平台（Index 团队）",
+   "bio_zh": "哔哩哔哩是中国视频社区，其 Index 团队开发开源的 IndexTTS 语音模型。",
+   "why_zh": "IndexTTS2 在富表现力的声音克隆上加入了精确时长控制，这正是配音与同步场景所需要的。",
+   "based_zh": "中国上海",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "tencent-hunyuan",
+   "name": "Tencent Hunyuan",
+   "name_zh": "腾讯混元",
+   "kind": "lab",
+   "role": "Tencent's foundation-model team",
+   "based": "Shenzhen, China",
+   "bio": "Tencent Hunyuan develops the Hunyuan models for text, image, video, 3D and audio, and open-sources many of them.",
+   "why": "HunyuanVideo-Foley gives open video models matching sound effects.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://hunyuan.tencent.com",
+    "github": "https://github.com/Tencent-Hunyuan",
+    "huggingface": "https://huggingface.co/tencent"
+   },
+   "role_zh": "腾讯基础模型团队",
+   "bio_zh": "腾讯混元开发覆盖文本、图像、视频、三维与音频的混元模型，并开源了其中许多。",
+   "why_zh": "HunyuanVideo-Foley 为开源视频模型配上匹配的音效。",
+   "based_zh": "中国深圳",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "stability-ai",
+   "name": "Stability AI",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Open generative-model company",
+   "based": "London, UK",
+   "bio": "Stability AI develops Stable Diffusion and the Stable Audio models, including open-weight audio models.",
+   "why": "Stable Audio offers both a commercial API and open weights for music and sound design.",
+   "disciplines": [
+    "ml",
+    "media-art"
+   ],
+   "links": {
+    "site": "https://stability.ai",
+    "huggingface": "https://huggingface.co/stabilityai",
+    "youtube": "https://www.youtube.com/@stabilityai"
+   },
+   "role_zh": "开源生成模型公司",
+   "bio_zh": "Stability AI 开发 Stable Diffusion 与 Stable Audio 系列模型，其中包括开源权重的音频模型。",
+   "why_zh": "Stable Audio 同时提供商用 API 和可下载的开源权重，用于音乐与声音设计。",
+   "based_zh": "英国伦敦",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "suno",
+   "name": "Suno",
+   "name_zh": "",
+   "kind": "company",
+   "role": "AI music company",
+   "based": "Cambridge, USA",
+   "bio": "Suno makes a widely used song generator that writes and sings complete tracks from a prompt.",
+   "why": "It shows how far consumer music generation has gone, including singing in a user's own voice.",
+   "disciplines": [
+    "media-art",
+    "ml"
+   ],
+   "links": {
+    "site": "https://suno.com",
+    "youtube": "https://www.youtube.com/@SunoMusic"
+   },
+   "role_zh": "AI 音乐公司",
+   "bio_zh": "Suno 打造了被广泛使用的歌曲生成器，能根据提示写出并演唱完整歌曲。",
+   "why_zh": "它展示了面向大众的音乐生成已经走到哪里，包括用用户自己的声音演唱。",
+   "based_zh": "美国剑桥",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "tu-anh-nguyen",
+   "name": "Tu Anh Nguyen",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Speech researcher (Meta AI / ENS–Inria)",
+   "based": "Paris, France",
+   "bio": "Tu Anh Nguyen worked on textless spoken language modelling at Meta AI and the Cognitive Machine Learning team in Paris.",
+   "why": "First author of dGSLM, the first model to generate natural two-channel spoken dialogue.",
+   "disciplines": [
+    "speech",
+    "ml"
+   ],
+   "links": {
+    "scholar": "https://scholar.google.com/scholar?q=Tu+Anh+Nguyen+dGSLM"
+   },
+   "role_zh": "语音研究者（Meta AI / ENS–Inria）",
+   "bio_zh": "Tu Anh Nguyen 在 Meta AI 与巴黎认知机器学习团队从事无文本口语语言建模研究。",
+   "why_zh": "dGSLM 的第一作者，该模型首次生成自然的双声道口语对话。",
+   "based_zh": "法国巴黎",
+   "connected_to": [
+    "meta"
+   ],
+   "discovered_via": "meta"
+  },
+  {
+   "id": "ho-kei-cheng",
+   "name": "Ho Kei Cheng",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Computer-vision researcher (UIUC)",
+   "based": "Urbana-Champaign, USA",
+   "bio": "Ho Kei (Rex) Cheng is a researcher known for video object segmentation (XMem, Cutie) and the MMAudio video-to-audio model, developed with Sony AI.",
+   "why": "First author of MMAudio, the open baseline for adding synchronized sound to silent video.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://hkchengrex.com",
+    "github": "https://github.com/hkchengrex"
+   },
+   "role_zh": "计算机视觉研究者（伊利诺伊大学厄巴纳-香槟分校）",
+   "bio_zh": "Ho Kei（Rex）Cheng 以视频目标分割（XMem、Cutie）以及与 Sony AI 合作开发的 MMAudio 视频配音模型而知名。",
+   "why_zh": "MMAudio 的第一作者，该模型是为无声视频添加同步声音的开源基线。",
+   "based_zh": "美国厄巴纳-香槟",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "jaeyeon-kim",
+   "name": "Jaeyeon Kim",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Audio-visual learning researcher (Seoul National University)",
+   "based": "Seoul, South Korea",
+   "bio": "Jaeyeon Kim researches audio-visual generation at Seoul National University's Vision and Learning Lab.",
+   "why": "First author of ViSAGe, which generates ambisonic sound from video and camera direction.",
+   "disciplines": [
+    "speech",
+    "ml"
+   ],
+   "links": {
+    "site": "https://jaeyeonkim99.github.io/visage/"
+   },
+   "role_zh": "视听学习研究者（首尔大学）",
+   "bio_zh": "Jaeyeon Kim 在首尔大学视觉与学习实验室研究视听生成。",
+   "why_zh": "ViSAGe 的第一作者，该方法根据视频与镜头方向生成全景声。",
+   "based_zh": "韩国首尔",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "huadai-liu",
+   "name": "Huadai Liu",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Audio generation researcher (Zhejiang University)",
+   "based": "Hangzhou, China",
+   "bio": "Huadai Liu researches text-, video- and spatial-audio generation at Zhejiang University.",
+   "why": "First author of OmniAudio, which generates spatial audio for 360° video.",
+   "disciplines": [
+    "speech",
+    "ml"
+   ],
+   "links": {
+    "github": "https://github.com/liuhuadai"
+   },
+   "role_zh": "音频生成研究者（浙江大学）",
+   "bio_zh": "Huadai Liu 在浙江大学研究文本、视频与空间音频的生成。",
+   "why_zh": "OmniAudio 的第一作者，该方法为 360° 视频生成空间音频。",
+   "based_zh": "中国杭州",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "xudong-xu",
+   "name": "Xudong Xu",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher in audio-visual learning",
+   "based": "",
+   "bio": "Xudong Xu works on audio-visual learning and 3D-aware generation; Sounding Bodies was developed with Meta Reality Labs Research.",
+   "why": "First author of Sounding Bodies, which renders the 3D sound field of a human body from headset audio and pose.",
+   "disciplines": [
+    "speech",
+    "graphics"
+   ],
+   "links": {
+    "github": "https://github.com/facebookresearch/SoundingBodies"
+   },
+   "role_zh": "视听学习研究者",
+   "bio_zh": "Xudong Xu 研究视听学习与三维感知生成；Sounding Bodies 与 Meta Reality Labs Research 合作完成。",
+   "why_zh": "Sounding Bodies 的第一作者，该方法根据头显音频与身体姿态渲染人体的三维声场。",
+   "based_zh": "",
+   "connected_to": [
+    "meta"
+   ],
+   "discovered_via": "meta"
+  },
+  {
+   "id": "peiwen-sun",
+   "name": "Peiwen Sun",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Spatial audio generation researcher (HKUST)",
+   "based": "Hong Kong, China",
+   "bio": "Peiwen Sun researches language-driven audio generation at the Hong Kong University of Science and Technology.",
+   "why": "First author of Both Ears Wide Open, which generates binaural audio whose sources follow a text description.",
+   "disciplines": [
+    "speech",
+    "ml"
+   ],
+   "links": {
+    "site": "https://peiwensun2000.github.io/bewo/",
+    "github": "https://github.com/PeiwenSun2000"
+   },
+   "role_zh": "空间音频生成研究者（香港科技大学）",
+   "bio_zh": "Peiwen Sun 在香港科技大学研究语言驱动的音频生成。",
+   "why_zh": "Both Ears Wide Open 的第一作者，该方法生成声源位置随文字描述变化的双耳音频。",
+   "based_zh": "中国香港",
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "tu-anh-nguyen--dgslm",
+   "creator_ids": [
+    "tu-anh-nguyen",
+    "meta"
+   ],
+   "title": "dGSLM (Generative Spoken Dialogue Language Modeling)",
+   "year": 2022,
+   "date": "2022-03-30",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "offline",
+   "access": [
+    "open",
+    "research"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "responsiveness"
+   ],
+   "kind": "research",
+   "description": "A textless model that generates two-channel spoken dialogue directly from audio, including overlapping speech, laughter and backchannels between two speakers. Given the start of a real conversation, it continues both sides as audio.",
+   "description_zh": "一个不依赖文本的模型，直接从音频生成双声道口语对话，包括两位说话人之间的重叠发言、笑声和附和语。给它一段真实对话的开头，它会以音频形式同时续写双方。",
+   "idea_en": "Showed that turn-taking, overlap and 'mm-hm' can be learned from raw two-channel audio: the conceptual ancestor of full-duplex voice agents.",
+   "idea_zh": "证明了轮流说话、重叠发言和“嗯嗯”这类附和可以直接从双声道原始音频中学到，是全双工语音智能体在概念上的前身。",
+   "method": "Discrete HuBERT units per speaker channel, modelled by a dual-tower Transformer with cross-attention and trained on about 2,000 hours of Fisher telephone conversations.",
+   "method_zh": "为每个说话人的声道提取离散 HuBERT 单元，用带交叉注意力的双塔 Transformer 建模，在约 2000 小时的 Fisher 电话对话上训练。",
+   "specs": "2 audio channels · ~2,000 h training audio",
+   "keywords": [
+    "textless",
+    "spoken dialogue",
+    "turn-taking",
+    "backchannel",
+    "precursor",
+    "no video (2022 paper)"
+   ],
+   "images": [
+    "https://speechbot.github.io/dgslm/figure.png"
+   ],
+   "source_url": "https://speechbot.github.io/dgslm/",
+   "code_url": "https://github.com/facebookresearch/fairseq/tree/main/examples/textless_nlp/dgslm",
+   "collections": [
+    "trend-full-duplex"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2203.16502",
+    "arxiv": "2203.16502",
+    "venue": "TACL 2023",
+    "title": "Generative Spoken Dialogue Language Modeling"
+   }
+  },
+  {
+   "id": "kyutai--moshi",
+   "creator_ids": [
+    "kyutai"
+   ],
+   "title": "Moshi",
+   "year": 2024,
+   "date": "2024-07-03",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "full-duplex",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "behavioral-plausibility"
+   ],
+   "kind": "model",
+   "description": "An open speech-text foundation model that listens and speaks at the same time, so it can be interrupted, interject and backchannel in real time. Kyutai demonstrated it live in July 2024 and released weights, code and the paper in September 2024.",
+   "description_zh": "一个开源的语音-文本基础模型，能边听边说，因此可以被打断、主动插话并实时附和。Kyutai 在 2024 年 7 月现场演示，并于 2024 年 9 月发布权重、代码与论文。",
+   "idea_en": "The first openly released full-duplex voice model: a lab can run, pin and inspect a conversational partner that overlaps speech like a person instead of waiting for silence.",
+   "idea_zh": "第一个公开发布的全双工语音模型：实验室可以运行、锁定版本并检查一个像人一样会重叠说话、而不是等待沉默的对话伙伴。",
+   "method": "A 7B Helium text LLM extended with parallel audio streams for the user and the model, tokenised by the streaming Mimi codec at 12.5 Hz, with an 'inner monologue' of time-aligned text tokens.",
+   "method_zh": "在 7B 的 Helium 文本大模型上增加用户与模型两路并行音频流，由流式 Mimi 编解码器以 12.5 Hz 编码，并加入时间对齐的文本“内心独白”。",
+   "specs": "7B · Mimi codec 12.5 Hz · 160 ms theoretical / ~200 ms practical latency",
+   "keywords": [
+    "full-duplex",
+    "speech-text model",
+    "Mimi codec",
+    "open weights",
+    "backchannel"
+   ],
+   "images": [
+    "https://opengraph.githubassets.com/c8a1dcee9d391167fc1993e466ce1b5b2a2da00e30da3e390021a0478eea6fbb/kyutai-labs/moshi"
+   ],
+   "source_url": "https://kyutai.org/blog/2024-09-18-moshi-release/",
+   "code_url": "https://github.com/kyutai-labs/moshi",
+   "collections": [
+    "trend-full-duplex",
+    "trend-open-weights"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=hm2IJSKcYvo"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2410.00037",
+    "arxiv": "2410.00037",
+    "venue": "Technical report (arXiv 2024)",
+    "title": "Moshi: a speech-text foundation model for real-time dialogue"
+   }
+  },
+  {
+   "id": "kyutai--unmute",
+   "creator_ids": [
+    "kyutai"
+   ],
+   "title": "Unmute",
+   "year": 2025,
+   "date": "2025-05-22",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "open",
+    "product"
+   ],
+   "lenses": [
+    "responsiveness",
+    "authoring"
+   ],
+   "kind": "open-source",
+   "description": "A modular voice layer that lets any text LLM listen and speak, combining Kyutai's streaming speech-to-text and text-to-speech with semantic turn detection. At unmute.sh people can talk to it, interrupt it and choose a voice and personality.",
+   "description_zh": "一个模块化的语音层，让任何文本大模型都能听会说：它把 Kyutai 的流式语音识别、流式语音合成与语义轮次检测组合在一起。在 unmute.sh 上，人们可以和它交谈、打断它，并选择声音与性格。",
+   "idea_en": "Gives researchers a voice front-end they can put any LLM and persona behind, at the price of turn-taking instead of Moshi-style overlap.",
+   "idea_zh": "给研究者一个可以接入任意大模型和角色设定的语音前端，代价是采用轮流发言，而不是 Moshi 那样的重叠对话。",
+   "method": "Cascade of streaming STT with semantic voice-activity detection, any text LLM, and a streaming TTS that starts speaking before the full reply is written; open-sourced in July 2025.",
+   "method_zh": "级联结构：带语义语音活动检测的流式语音识别、任意文本大模型，以及在回复写完之前就开始说话的流式语音合成；2025 年 7 月开源。",
+   "keywords": [
+    "cascaded voice",
+    "semantic VAD",
+    "interruptible",
+    "streaming TTS",
+    "open source"
+   ],
+   "images": [
+    "https://opengraph.githubassets.com/871275284d27de66853e8b7ea8593ad83e38d94d709d5974ea8ca7996a1291dc/kyutai-labs/unmute"
+   ],
+   "source_url": "https://kyutai.org/blog/2025-05-22-unmute/",
+   "code_url": "https://github.com/kyutai-labs/unmute",
+   "collections": [
+    "trend-open-weights"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=sRUaYQyX2vw"
+   }
+  },
+  {
+   "id": "kyutai--hibiki-zero",
+   "creator_ids": [
+    "kyutai"
+   ],
+   "title": "Hibiki-Zero",
+   "year": 2026,
+   "date": "2026-02-12",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "situational-reach"
+   ],
+   "kind": "model",
+   "description": "A simultaneous speech-to-speech translation model that listens to French, Spanish, Portuguese or German and speaks the English translation in the speaker's own voice while they are still talking. It follows Hibiki (February 2025) and no longer needs word-aligned training data.",
+   "description_zh": "一个同声传译式的语音到语音翻译模型：听法语、西班牙语、葡萄牙语或德语，在对方还在说话时就用对方自己的声音说出英文译文。它是 Hibiki（2025 年 2 月）的后续，不再需要逐词对齐的训练数据。",
+   "idea_en": "Live interpretation with voice transfer makes cross-language encounters stageable: a participant hears a foreign-language interlocutor in their own language with a short, natural delay.",
+   "idea_zh": "带声音迁移的实时传译让跨语言相遇可以被布置出来：参与者能以短而自然的延迟，用自己的语言听到外语对话者的话。",
+   "method": "A 3B decoder-only multistream Transformer over Mimi tokens at 12.5 Hz that models source and target speech jointly and adapts its delay to gather just enough context, trained without word-level alignments.",
+   "method_zh": "一个 3B 的仅解码器多流 Transformer，基于 12.5 Hz 的 Mimi 音频标记，联合建模源语音与目标语音，并自适应调整延迟以积累恰好足够的上下文，训练时无需词级对齐。",
+   "specs": "3B · 12.5 Hz · FR/ES/PT/DE → EN · CC BY-NC-SA 4.0",
+   "keywords": [
+    "simultaneous translation",
+    "voice transfer",
+    "streaming",
+    "multistream",
+    "open weights"
+   ],
+   "images": [
+    "https://opengraph.githubassets.com/645106f5c200b440e2f106671ceaf13e48ac82c921672b8db6c2724e1a6ddc6e/kyutai-labs/hibiki-zero"
+   ],
+   "source_url": "https://kyutai.org/blog/2026-02-12-hibiki-zero/",
+   "code_url": "https://github.com/kyutai-labs/hibiki-zero",
+   "collections": [
+    "trend-open-weights"
+   ],
+   "video": {
+    "url": "https://github.com/user-attachments/assets/d533ec45-8d5e-4e41-886a-0b2d198be6f3"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2602.11072",
+    "arxiv": "2602.11072",
+    "venue": "arXiv 2026",
+    "title": "Simultaneous Speech-to-Speech Translation Without Aligned Data"
+   }
+  },
+  {
+   "id": "openai--gpt-4o-voice",
+   "creator_ids": [
+    "openai"
+   ],
+   "title": "GPT-4o voice (Advanced Voice Mode)",
+   "year": 2024,
+   "date": "2024-05-13",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "video"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "product",
+    "api"
+   ],
+   "lenses": [
+    "responsiveness",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "OpenAI's first end-to-end audio model in ChatGPT: it hears tone, answers with emotion, laughter or singing, and stops when interrupted, with OpenAI reporting 320 ms average response time. Shown live in May 2024, it reached ChatGPT as Advanced Voice Mode later that year and developers through the Realtime API beta in October 2024.",
+   "description_zh": "OpenAI 在 ChatGPT 中的第一个端到端音频模型：能听出语气，用带情绪、笑声甚至歌唱的声音回答，被打断时会停下；OpenAI 报告平均响应时间为 320 毫秒。2024 年 5 月现场演示，同年晚些时候以“高级语音模式”进入 ChatGPT，并于 2024 年 10 月通过 Realtime API 测试版向开发者开放。",
+   "idea_en": "Collapsed the speech-to-text, LLM and TTS cascade into one model so that paralinguistic cues survive; OpenAI itself later called it turn-based because it waits for silence.",
+   "idea_zh": "把“语音识别—大模型—语音合成”的级联压缩为一个模型，使副语言线索得以保留；但 OpenAI 后来自己也称其为回合制，因为它要等用户停下来。",
+   "method": "A single multimodal Transformer trained end-to-end on text, vision and audio; the end of a turn is detected from silence by voice-activity detection.",
+   "method_zh": "一个在文本、视觉和音频上端到端训练的多模态 Transformer；轮次结束由语音活动检测根据静音判断。",
+   "specs": "232 ms min / 320 ms avg audio response (OpenAI)",
+   "keywords": [
+    "speech-to-speech",
+    "end-to-end audio",
+    "ChatGPT",
+    "barge-in"
+   ],
+   "source_url": "https://openai.com/index/hello-gpt-4o/",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=1uM8jhcqDP0"
+   }
+  },
+  {
+   "id": "openai--gpt-realtime",
+   "creator_ids": [
+    "openai"
+   ],
+   "title": "gpt-realtime",
+   "year": 2025,
+   "date": "2025-08-28",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "image",
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "responsiveness",
+    "control"
+   ],
+   "kind": "model",
+   "description": "OpenAI's production speech-to-speech model for the Realtime API, released with remote MCP tools, image input and SIP phone calling. It follows spoken style instructions such as 'speak quickly and empathetically', switches languages mid-sentence, and adds the voices Cedar and Marin.",
+   "description_zh": "OpenAI 面向 Realtime API 的生产级语音到语音模型，同时推出远程 MCP 工具、图像输入与 SIP 电话呼叫。它能遵循“说快一点、带点同理心”这类语气指令，在一句话中切换语言，并新增 Cedar 与 Marin 两种声音。",
+   "idea_en": "Made instructible, tool-using voice agents an off-the-shelf API: a scenario author can define a phone-call character in a system prompt.",
+   "idea_zh": "让可被指令控制、会调用工具的语音智能体成为现成 API：情境作者可以在系统提示里定义一个电话中的角色。",
+   "method": "One speech-to-speech model served over WebRTC, WebSocket or SIP; turns are segmented by server or semantic voice-activity detection with barge-in.",
+   "method_zh": "单一的语音到语音模型，通过 WebRTC、WebSocket 或 SIP 提供；轮次由服务器端或语义语音活动检测切分，支持用户插话打断。",
+   "specs": "Big Bench Audio 82.8% vs 65.6% for the Dec 2024 model (OpenAI)",
+   "keywords": [
+    "Realtime API",
+    "speech-to-speech",
+    "MCP",
+    "SIP",
+    "barge-in"
+   ],
+   "images": [
+    "https://images.ctfassets.net/kftzwdyauwt9/16qATUOZ1GSdE7JHHr0qFG/47b074ae6486a3d8f9ad14adb7812d13/RealtimeAPI_Blog_Open_Graphic_Image__1200x630_.png?w=1600&h=900&fit=fill"
+   ],
+   "source_url": "https://openai.com/index/introducing-gpt-realtime/",
+   "api_url": "https://platform.openai.com/docs/guides/realtime",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=nfBbmtMJhX0"
+   }
+  },
+  {
+   "id": "openai--gpt-realtime-2",
+   "creator_ids": [
+    "openai"
+   ],
+   "title": "GPT-Realtime-2",
+   "year": 2026,
+   "date": "2026-05-07",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "responsiveness",
+    "reactivity"
+   ],
+   "kind": "model",
+   "description": "OpenAI's first voice model with GPT-5-class reasoning, launched with GPT-Realtime-Translate (live translation from 70+ input into 13 output languages) and GPT-Realtime-Whisper (streaming transcription). It can say short preambles such as 'let me check that', call several tools in parallel and keep the conversation going while it works. GPT-Realtime-2.1 and 2.1 mini (6 July 2026) improved alphanumeric recognition, noise handling and interruption behaviour.",
+   "description_zh": "OpenAI 第一个具备 GPT-5 级推理能力的语音模型，同时发布 GPT-Realtime-Translate（70 多种输入语言到 13 种输出语言的实时翻译）和 GPT-Realtime-Whisper（流式转写）。它会先说一句“我查一下”之类的过渡语，可以并行调用多个工具，并在处理任务时继续对话。GPT-Realtime-2.1 及 2.1 mini（2026 年 7 月 6 日）改进了字母数字识别、噪声处理和被打断时的表现。",
+   "idea_en": "Voice agents that reason and act mid-conversation make multi-step role-play scenarios (a dispatcher, a clerk, a negotiator) feasible over a phone line.",
+   "idea_zh": "能在对话中推理并采取行动的语音智能体，让多步骤角色扮演情境（调度员、办事员、谈判对手）可以在电话中实现。",
+   "method": "Speech-to-speech model with adjustable reasoning effort, preambles and parallel tool calls in the Realtime API; conversation is still segmented into turns.",
+   "method_zh": "在 Realtime API 中提供的语音到语音模型，可调节推理强度，支持过渡语与并行工具调用；对话仍按轮次切分。",
+   "specs": "+15.2% Big Bench Audio vs GPT-Realtime-1.5 (OpenAI)",
+   "keywords": [
+    "Realtime API",
+    "reasoning voice model",
+    "live translation",
+    "tool calling"
+   ],
+   "images": [
+    "https://images.ctfassets.net/kftzwdyauwt9/CtzMayHtxIkcMPAo8BpqJ/966285cf3802995841337122190ec2fd/OAI_GPT-Realtime-2_Art_Card_16x9.png.png?w=1600&h=900&fit=fill"
+   ],
+   "source_url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
+   "api_url": "https://platform.openai.com/docs/guides/realtime",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=JOu8v6CBjkE"
+   }
+  },
+  {
+   "id": "openai--gpt-live",
+   "creator_ids": [
+    "openai"
+   ],
+   "title": "GPT-Live",
+   "year": 2026,
+   "date": "2026-07-08",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "full-duplex",
+   "access": [
+    "product",
+    "api"
+   ],
+   "lenses": [
+    "responsiveness",
+    "behavioral-plausibility"
+   ],
+   "kind": "model",
+   "description": "A full-duplex voice model that now powers ChatGPT Voice: it listens while it speaks, says 'mhmm' or 'yeah' to show attention and can stay quiet while the user thinks. Harder requests are handed to a frontier model (GPT-5.5 at launch) in the background while the conversation continues. GPT-Live-1 became generally available in the API on 10 September 2026, and GPT-Live-1.1 (15 October 2026) added voices and accents in ChatGPT.",
+   "description_zh": "一个全双工语音模型，现在驱动 ChatGPT 语音：它边说边听，会用“嗯哼”“对”表示在听，也能在用户思考时保持安静。较难的请求会在后台交给前沿模型（发布时为 GPT-5.5）处理，对话不中断。GPT-Live-1 于 2026 年 9 月 10 日在 API 中正式可用，GPT-Live-1.1（2026 年 10 月 15 日）为 ChatGPT 增加了新声音和口音。",
+   "idea_en": "OpenAI's own break with turn-based voice: the mainstream ChatGPT voice now overlaps and backchannels, so full-duplex timing is no longer a research-only property.",
+   "idea_zh": "OpenAI 自己告别了回合制语音：主流的 ChatGPT 语音如今会重叠发言、会附和，全双工的对话节奏不再只是研究原型的特性。",
+   "method": "Full-duplex architecture that processes input continuously while generating output, with background delegation to a reasoning model; outputs carry SynthID watermarks since 31 July 2026.",
+   "method_zh": "全双工架构：在生成输出的同时持续处理输入，并把推理任务委托给后台模型；自 2026 年 7 月 31 日起输出带有 SynthID 水印。",
+   "specs": "GPT-Live-1 and GPT-Live-1 mini · ChatGPT · API GA 2026-09-10 (v1/live/sessions)",
+   "keywords": [
+    "full-duplex",
+    "ChatGPT Voice",
+    "backchannel",
+    "background reasoning",
+    "SynthID"
+   ],
+   "images": [
+    "https://images.ctfassets.net/kftzwdyauwt9/54glGpDpS58mKdx6Y3GobW/6ea5121851a36b8cf0505a96be2de994/bidi-art-card_16_9__1_.png?w=1600&h=900&fit=fill"
+   ],
+   "source_url": "https://openai.com/index/introducing-gpt-live/",
+   "api_url": "https://developers.openai.com/api/docs/changelog",
+   "collections": [
+    "trend-full-duplex"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=EAN5Cj347PY"
+   }
+  },
+  {
+   "id": "google-deepmind--gemini-native-audio",
+   "creator_ids": [
+    "google-deepmind"
+   ],
+   "title": "Gemini native audio (Live API)",
+   "year": 2024,
+   "date": "2024-12-11",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "video",
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "api",
+    "product"
+   ],
+   "lenses": [
+    "responsiveness",
+    "reactivity"
+   ],
+   "kind": "model",
+   "description": "Gemini 2.0 introduced native audio output and the Multimodal Live API for streaming voice-and-camera conversations; Gemini 2.5 Flash Native Audio (preview from May 2025, updated in September and December 2025) added affective dialogue and proactive audio.",
+   "description_zh": "Gemini 2.0 推出原生音频输出和多模态 Live API，可进行语音加摄像头的流式对话；Gemini 2.5 Flash 原生音频（2025 年 5 月起预览，9 月与 12 月更新）加入了情感对话与主动音频。",
+   "idea_en": "Lets a voice agent see what the participant's camera sees while it talks: the audio-visual input a headset scenario needs.",
+   "idea_zh": "让语音智能体在说话的同时看到参与者摄像头里的画面，这正是头显情境需要的视听输入。",
+   "method": "Natively multimodal Gemini model that consumes streamed audio and video and emits audio tokens directly, served over a bidirectional WebSocket with voice-activity detection and barge-in.",
+   "method_zh": "原生多模态的 Gemini 模型，接收流式音频与视频并直接输出音频标记，通过双向 WebSocket 提供，带语音活动检测与插话打断。",
+   "keywords": [
+    "Live API",
+    "native audio",
+    "audio-visual input",
+    "affective dialogue",
+    "proactive audio"
+   ],
+   "images": [
+    "https://ai.google.dev/static/site-assets/images/share-gemini-api-2026-07.png"
+   ],
+   "source_url": "https://ai.google.dev/gemini-api/docs/live",
+   "api_url": "https://ai.google.dev/gemini-api/docs/live",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=qE673AY-WEI"
+   }
+  },
+  {
+   "id": "google-deepmind--gemini-3-8-live",
+   "creator_ids": [
+    "google-deepmind"
+   ],
+   "title": "Gemini 3.8 Live",
+   "year": 2026,
+   "date": "2026-09-15",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "video",
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "responsiveness",
+    "reactivity"
+   ],
+   "kind": "model",
+   "description": "Two audio-to-audio models for the Live API, generally available since 15 September 2026: Gemini 3.8 Live for low-latency dialogue and Gemini 3.8 Live Extended Thinking, which reasons in the background during the conversation. Google highlights asynchronous function calls and proactive audio, where the agent speaks only when relevant.",
+   "description_zh": "两款用于 Live API 的音频到音频模型，自 2026 年 9 月 15 日起正式可用：Gemini 3.8 Live 面向低延迟对话，Gemini 3.8 Live Extended Thinking 能在对话进行中于后台推理。谷歌重点介绍了异步函数调用与主动音频，即智能体只在相关时才开口。",
+   "idea_en": "Background reasoning during speech closes the gap between a fast voice and a smart one, useful for characters that must stay responsive while working through complex scenario logic.",
+   "idea_zh": "说话时在后台推理，缩小了“反应快”和“想得深”之间的差距，适合需要一边保持回应、一边处理复杂情境逻辑的角色。",
+   "method": "Audio-to-audio Gemini models with interleaved reasoning and default asynchronous function calling, succeeding gemini-3.1-flash-live-preview (March 2026).",
+   "method_zh": "音频到音频的 Gemini 模型，支持交错推理与默认异步函数调用，接替 2026 年 3 月的 gemini-3.1-flash-live-preview。",
+   "keywords": [
+    "Live API",
+    "audio-to-audio",
+    "background reasoning",
+    "proactive audio",
+    "function calling",
+    "official demo clip"
+   ],
+   "source_url": "https://deepmind.google/models/gemini-audio/",
+   "api_url": "https://ai.google.dev/gemini-api/docs/live",
+   "video": {
+    "url": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/SeC1i4kt5pDKGMWX/gemini-audio__demo__multi-tasking.webm"
+   }
+  },
+  {
+   "id": "sesame--csm-maya",
+   "creator_ids": [
+    "sesame"
+   ],
+   "title": "Sesame CSM (Maya & Miles)",
+   "year": 2025,
+   "date": "2025-02-27",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "product",
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "behavioral-plausibility"
+   ],
+   "kind": "model",
+   "description": "Sesame's Conversational Speech Model, presented through the voice companions Maya and Miles, which pause, laugh, change tone and correct themselves in ways many listeners found hard to tell from a person. A 1B CSM was released as open weights in March 2025; in 2026 Sesame offers its agents in iOS and Android apps, with eyewear announced.",
+   "description_zh": "Sesame 的对话语音模型，通过语音伴侣 Maya 与 Miles 展示：它们会停顿、发笑、变换语气、自我纠正，许多听众难以分辨是否真人。1B 规模的 CSM 于 2025 年 3 月开源权重；2026 年 Sesame 已在 iOS 与 Android 应用中提供其智能体，并宣布了眼镜产品。",
+   "idea_en": "Targets 'voice presence': the conversation so far, not only the text, decides prosody, which is the cue that makes a virtual interlocutor feel present.",
+   "idea_zh": "瞄准“声音临场感”：决定语调的不只是文本，还有此前的对话上下文，而这正是让虚拟对话者显得“在场”的线索。",
+   "method": "Two autoregressive Transformers over interleaved text and audio tokens (a backbone predicts the first RVQ codebook from conversation history, a small decoder the rest), trained on about one million hours of mostly English audio.",
+   "method_zh": "两个基于交错文本与音频标记的自回归 Transformer：主干根据对话历史预测第一层 RVQ 码本，小型解码器预测其余各层；训练数据约一百万小时，以英语为主。",
+   "specs": "Tiny 1B · Small 3B · Medium 8B backbones · CSM-1B open (Apache 2.0)",
+   "keywords": [
+    "conversational speech",
+    "voice presence",
+    "RVQ",
+    "open weights",
+    "third-party video"
+   ],
+   "images": [
+    "https://www.sesame.com/assets/images/og/sesame.jpg"
+   ],
+   "source_url": "https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice",
+   "code_url": "https://github.com/SesameAILabs/csm",
+   "collections": [
+    "trend-open-weights"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=i1BoLH1r2lU"
+   }
+  },
+  {
+   "id": "hume-ai--evi-3",
+   "creator_ids": [
+    "hume-ai"
+   ],
+   "title": "EVI 3",
+   "year": 2025,
+   "date": "2025-05-29",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "api",
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "adaptation"
+   ],
+   "kind": "model",
+   "description": "Hume's third Empathic Voice Interface, a speech-language model that can create a new voice and personality from a text prompt in under a second and then converse in it. In Hume's blind comparison it was rated above GPT-4o on empathy, expressiveness, naturalness, interruption quality and response speed.",
+   "description_zh": "Hume 的第三代共情语音接口，一个语音-语言模型：能在一秒内根据文字提示生成新的声音和性格，并用它对话。在 Hume 的盲测比较中，它在同理心、表现力、自然度、被打断时的表现和响应速度上的评分高于 GPT-4o。",
+   "idea_en": "Prompt-designed voices with emotional delivery make it cheap to cast many distinct virtual characters for one study.",
+   "idea_zh": "通过提示设计、带情绪表达的声音，让一项研究可以低成本地“选角”出许多不同的虚拟角色。",
+   "method": "A single voice-to-voice speech-language model that streams user speech in and produces speech and language together, consulting reasoning models and web search while it talks.",
+   "method_zh": "单一的语音到语音语言模型，流式接收用户语音并同时生成语音与语言，说话时还能调用推理模型与网络搜索。",
+   "keywords": [
+    "empathic voice",
+    "voice design",
+    "speech-language model",
+    "emotion"
+   ],
+   "images": [
+    "https://cdn.sanity.io/images/xqnc2for/production/282c4a42cdd49007a55031f3e06a2f880373f9bf-2160x2160.png?rect=0,513,2160,1134&w=1200&h=630"
+   ],
+   "source_url": "https://www.hume.ai/blog/introducing-evi-3",
+   "api_url": "https://dev.hume.ai/docs/speech-to-speech-evi/overview",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=SyO7sRtkcRE"
+   }
+  },
+  {
+   "id": "alibaba-tongyi--qwen3-omni",
+   "creator_ids": [
+    "alibaba-tongyi"
+   ],
+   "title": "Qwen3-Omni",
+   "year": 2025,
+   "date": "2025-09-22",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "video",
+    "image"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "open",
+    "api"
+   ],
+   "lenses": [
+    "responsiveness",
+    "diversity"
+   ],
+   "kind": "model",
+   "description": "An open-weight, natively omni-modal model that takes text, images, audio and video and answers in streaming text and natural speech. Alibaba reports open-source state of the art on 32 of 36 audio and audio-visual benchmarks, with 119 text languages, 19 speech-input and 10 speech-output languages.",
+   "description_zh": "一个开源权重、原生全模态的模型，接收文本、图像、音频和视频，并以流式文本和自然语音回答。阿里巴巴报告它在 36 项音频与视听基准中的 32 项上达到开源最佳，支持 119 种文本语言、19 种语音输入语言和 10 种语音输出语言。",
+   "idea_en": "An open model a lab can host that hears and watches the participant and replies in speech: a self-hosted alternative to closed realtime APIs.",
+   "idea_zh": "一个实验室可以自行部署的开源模型，能听、能看参与者并用语音回应，是闭源实时 API 的自托管替代方案。",
+   "method": "Mixture-of-experts Thinker-Talker design (30B total, 3B active) with an AuT audio encoder and a multi-codebook Talker for streaming speech.",
+   "method_zh": "混合专家的 Thinker–Talker 架构（总参数 30B，激活 3B），采用 AuT 音频编码器，并用多码本 Talker 流式生成语音。",
+   "specs": "30B-A3B MoE · 234 ms theoretical first-packet latency (Qwen) · 119 / 19 / 10 languages",
+   "keywords": [
+    "omni-modal",
+    "Thinker-Talker",
+    "open weights",
+    "streaming speech"
+   ],
+   "images": [
+    "https://opengraph.githubassets.com/d43656f30182aae86d2489ca2e28f8912ccf78430f4743f461ca6c3166c2c752/QwenLM/Qwen3-Omni"
+   ],
+   "source_url": "https://github.com/QwenLM/Qwen3-Omni",
+   "code_url": "https://github.com/QwenLM/Qwen3-Omni",
+   "collections": [
+    "trend-open-weights"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=_zdOrPju4_g"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2509.17765",
+    "arxiv": "2509.17765",
+    "venue": "Technical report (arXiv 2025)",
+    "title": "Qwen3-Omni Technical Report"
+   }
+  },
+  {
+   "id": "openbmb--minicpm-o-4-5",
+   "creator_ids": [
+    "openbmb"
+   ],
+   "title": "MiniCPM-o 4.5",
+   "year": 2026,
+   "date": "2026-02-03",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "video"
+   ],
+   "timing": "full-duplex",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "reactivity"
+   ],
+   "kind": "model",
+   "description": "A 9B open omni-modal model that watches a live camera stream, listens and speaks at the same time, and can speak up on its own when it notices something. It runs locally through llama.cpp, Ollama and vLLM and clones a voice from a short reference clip.",
+   "description_zh": "一个 9B 的开源全模态模型，能看实时摄像头画面，同时听和说，发现情况时还能主动开口。它可以通过 llama.cpp、Ollama 和 vLLM 在本地运行，并用一小段参考音频克隆声音。",
+   "idea_en": "Full-duplex audio-visual conversation small enough for one GPU, so a headset scenario can run its interlocutor offline and version-pinned.",
+   "idea_zh": "体量小到单张 GPU 即可运行的全双工视听对话，让头显情境中的对话者可以离线、锁定版本地运行。",
+   "method": "End-to-end assembly of SigLIP2 vision, a Whisper-medium audio encoder, a CosyVoice2 speech decoder and a Qwen3-8B backbone, processing continuous audio-video input and concurrent text-speech output streams without mutual blocking.",
+   "method_zh": "由 SigLIP2 视觉编码器、Whisper-medium 音频编码器、CosyVoice2 语音解码器和 Qwen3-8B 主干端到端组装而成，持续处理音视频输入，并同时输出文本与语音流，二者互不阻塞。",
+   "specs": "9B · full-duplex audio + video · local inference (llama.cpp-omni)",
+   "keywords": [
+    "full-duplex",
+    "omni-modal",
+    "proactive",
+    "on-device",
+    "open weights"
+   ],
+   "images": [
+    "https://opengraph.githubassets.com/32a28717382bef321452043efe551d5e3b48d955488f80e319b7355cba3a43eb/OpenBMB/MiniCPM-V"
+   ],
+   "source_url": "https://github.com/OpenBMB/MiniCPM-V",
+   "code_url": "https://huggingface.co/openbmb/MiniCPM-o-4_5",
+   "collections": [
+    "trend-full-duplex",
+    "trend-open-weights"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=6UzC-O1Q-1U"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2604.27393",
+    "arxiv": "2604.27393",
+    "venue": "Technical report (arXiv 2026)",
+    "title": "MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction"
+   }
+  },
+  {
+   "id": "nvidia--personaplex",
+   "creator_ids": [
+    "nvidia"
+   ],
+   "title": "PersonaPlex",
+   "year": 2026,
+   "date": "2026-01-15",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "text"
+   ],
+   "timing": "full-duplex",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "control"
+   ],
+   "kind": "model",
+   "description": "An open full-duplex conversational model in which developers pick a voice and define any role in a text prompt (a customer-service agent, an astronaut, a fantasy character) while keeping Moshi-style interruptions, backchannels and conversational rhythm.",
+   "description_zh": "一个开源的全双工对话模型：开发者可以选择声音，并用文字提示定义任意角色（客服、宇航员、奇幻人物），同时保留 Moshi 式的打断、附和与对话节奏。",
+   "idea_en": "Removes the trade-off between a configurable persona and full-duplex naturalness, which is what a scripted confederate in a behavioral study needs.",
+   "idea_zh": "消除了“可配置角色”与“全双工自然度”之间的取舍，这正是行为研究中按脚本行事的实验助手所需要的。",
+   "method": "Moshi's 7B dual-stream architecture with hybrid voice-and-text system prompts, fine-tuned on Fisher conversations relabelled with LLM-written persona descriptions plus synthetic dialogues.",
+   "method_zh": "基于 Moshi 的 7B 双流架构，使用语音加文本的混合系统提示；在由大模型补写角色描述的 Fisher 对话以及合成对话上微调。",
+   "specs": "7B · Moshi architecture · open weights",
+   "keywords": [
+    "full-duplex",
+    "persona prompt",
+    "voice prompt",
+    "backchannel",
+    "open weights"
+   ],
+   "images": [
+    "https://opengraph.githubassets.com/b3ed03a6cecaddba122da6989b7312f8f08ca56a739ca320f413dca7aaff6350/NVIDIA/personaplex"
+   ],
+   "source_url": "https://research.nvidia.com/labs/adlr/personaplex/",
+   "code_url": "https://github.com/NVIDIA/personaplex",
+   "collections": [
+    "trend-full-duplex",
+    "trend-open-weights"
+   ],
+   "video": {
+    "url": "https://research.nvidia.com/labs/adlr/files/personaplex/personaplex-intro.mp4"
+   },
+   "paper": {
+    "url": "https://research.nvidia.com/labs/adlr/files/personaplex/personaplex_preprint.pdf",
+    "venue": "Preprint 2026",
+    "title": "PersonaPlex: Voice and Role Control for Full Duplex Conversational Speech Models"
+   }
+  },
+  {
+   "id": "bytedance-seed--seedrealtime",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "SeedRealtime",
+   "year": 2026,
+   "date": "2026-08-05",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "video"
+   ],
+   "timing": "full-duplex",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "responsiveness",
+    "reactivity"
+   ],
+   "kind": "model",
+   "description": "ByteDance Seed's native audio-visual full-duplex model, which watches, listens and speaks at once, chimes in or pauses at the right moment, and ignores bystander chatter and background noise. Seed reports that it halves conversational pacing problems compared with cascaded systems in human evaluation, and that it is fully rolled out at scale.",
+   "description_zh": "字节跳动 Seed 的原生视听全双工模型：能同时看、听、说，在合适的时机插话或停顿，并能忽略旁人闲聊和背景噪音。Seed 报告称，人工评测中它的对话节奏问题比级联系统减少一半，并已全量大规模上线。",
+   "idea_en": "Proactive, interference-robust timing in a deployed product: the system decides when to speak from what it sees and hears, not from silence.",
+   "idea_zh": "在已部署的产品中实现主动、抗干扰的对话时机：系统根据看到和听到的内容决定何时开口，而不是依据静音。",
+   "method": "A unified architecture that natively fuses continuous audio, video and text streams and models the user's conversational state, replacing an external voice-activity detector.",
+   "method_zh": "统一架构原生融合连续的音频、视频与文本流，并对用户的对话状态建模，取代外部的语音活动检测器。",
+   "keywords": [
+    "full-duplex",
+    "audio-visual",
+    "proactive",
+    "deployed"
+   ],
+   "source_url": "https://seed.bytedance.com/en/blog/seedrealtime-audio-visual-full-duplex-llm-released-toward-omni-modal-natural-interaction",
+   "collections": [
+    "trend-full-duplex"
+   ],
+   "video": {
+    "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4msff67ew.mp4"
+   }
+  },
+  {
+   "id": "stepfun--step-audio-2",
+   "creator_ids": [
+    "stepfun"
+   ],
+   "title": "Step-Audio 2",
+   "year": 2025,
+   "date": "2025-07-22",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "open",
+    "api"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "adaptation"
+   ],
+   "kind": "model",
+   "description": "StepFun's end-to-end audio language model for spoken conversation that picks up emotion and other paralinguistic cues, switches timbre on spoken request and can search the web mid-conversation. StepFun reports state-of-the-art results on LibriSpeech, MMAU and URO-Bench; the smaller Step-Audio 2 mini is open-weight.",
+   "description_zh": "阶跃星辰的端到端音频语言模型，用于口语对话：能捕捉情绪等副语言线索，按口头要求切换音色，并能在对话中联网搜索。阶跃星辰报告其在 LibriSpeech、MMAU 和 URO-Bench 上达到最佳；较小的 Step-Audio 2 mini 开源权重。",
+   "idea_en": "Reads how something is said, not only what is said, which a virtual interlocutor needs to react to a participant's stress or hesitation.",
+   "idea_zh": "不仅理解说了什么，还能读出是怎么说的，这是虚拟对话者对参与者的紧张或犹豫做出反应的前提。",
+   "method": "Audio encoder plus LLM that generates interleaved text and discrete audio tokens, trained with reasoning-oriented reinforcement learning and retrieval-augmented generation including audio search.",
+   "method_zh": "音频编码器加大模型，生成交错的文本与离散音频标记；训练中使用面向推理的强化学习，以及包含音频检索的检索增强生成。",
+   "keywords": [
+    "audio LLM",
+    "paralinguistics",
+    "emotion",
+    "open weights"
+   ],
+   "images": [
+    "https://opengraph.githubassets.com/b3e3c4a9bb21755a2be0af80a3424e5bb4422426ffe5ea35b27cd073fdc1bd7e/stepfun-ai/Step-Audio2"
+   ],
+   "source_url": "https://github.com/stepfun-ai/Step-Audio2",
+   "code_url": "https://github.com/stepfun-ai/Step-Audio2",
+   "collections": [
+    "trend-open-weights"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=AAsl0pwbKME"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2507.16632",
+    "arxiv": "2507.16632",
+    "venue": "Technical report (arXiv 2025)",
+    "title": "Step-Audio 2 Technical Report"
+   }
+  },
+  {
+   "id": "amazon--nova-sonic",
+   "creator_ids": [
+    "amazon"
+   ],
+   "title": "Amazon Nova Sonic",
+   "year": 2025,
+   "date": "2025-04-08",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "responsiveness",
+    "control"
+   ],
+   "kind": "model",
+   "description": "A speech-to-speech foundation model on Amazon Bedrock that streams conversation in both directions, adapts its delivery to the speaker's tone and handles users talking over it. Nova 2 Sonic followed in December 2025.",
+   "description_zh": "Amazon Bedrock 上的语音到语音基础模型，双向流式对话，能根据说话人的语气调整表达，也能处理用户插话。Nova 2 Sonic 于 2025 年 12 月推出。",
+   "idea_en": "Brings speech-to-speech agents with tool use into an enterprise cloud, relevant for institutions bound to AWS for data governance.",
+   "idea_zh": "把会调用工具的语音到语音智能体带进企业云，对受数据治理要求限制、只能使用 AWS 的机构很有意义。",
+   "method": "Unified speech understanding and generation model served through Bedrock's bidirectional streaming API with barge-in.",
+   "method_zh": "统一的语音理解与生成模型，通过 Bedrock 的双向流式 API 提供，支持插话打断。",
+   "keywords": [
+    "speech-to-speech",
+    "Bedrock",
+    "bidirectional streaming",
+    "barge-in"
+   ],
+   "images": [
+    "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/20/Bedrock-Nova-feat-img-1260x630.png"
+   ],
+   "source_url": "https://aws.amazon.com/blogs/aws/introducing-amazon-nova-sonic-human-like-voice-conversations-for-generative-ai-applications/",
+   "api_url": "https://docs.aws.amazon.com/nova/latest/userguide/speech.html",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=68HjtdRYkUI"
+   }
+  },
+  {
+   "id": "elevenlabs--eleven-v3",
+   "creator_ids": [
+    "elevenlabs"
+   ],
+   "title": "Eleven v3",
+   "year": 2025,
+   "date": "2025-06",
+   "field": "audio",
+   "sub": "voice",
+   "modalities": [
+    "speech"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "api",
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "ElevenLabs' most expressive text-to-speech model at its launch, directed with inline audio tags such as [whispers], [sighs] or [excited] and able to render multi-speaker dialogue in 70+ languages. Released as an alpha in June 2025, it became generally available on 2 February 2026.",
+   "description_zh": "ElevenLabs 发布时表现力最强的语音合成模型，可用 [whispers]、[sighs]、[excited] 等行内音频标签来“导戏”，并能以 70 多种语言生成多人对话。2025 年 6 月以 alpha 版发布，2026 年 2 月 2 日正式可用。",
+   "idea_en": "Turns a script into an acted scene with interruptions and emotions, lowering the cost of recording varied voiced stimuli.",
+   "idea_zh": "把剧本变成有打断、有情绪的表演场景，降低录制多样化有声刺激材料的成本。",
+   "method": "A new TTS architecture (details unpublished) that interprets text context and bracketed audio tags to control emotion, delivery and non-verbal sounds.",
+   "method_zh": "一种新的语音合成架构（细节未公开），根据文本上下文和方括号音频标签控制情绪、语气与非语言声音。",
+   "specs": "70+ languages · multi-speaker dialogue",
+   "keywords": [
+    "text-to-speech",
+    "audio tags",
+    "dialogue",
+    "expressive"
+   ],
+   "images": [
+    "https://eleven-public-cdn.elevenlabs.io/payloadcms/xffpzuby3yb-cover.webp"
+   ],
+   "source_url": "https://elevenlabs.io/blog/eleven-v3",
+   "api_url": "https://elevenlabs.io/docs",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=zv_IoWIO5Ek"
+   }
+  },
+  {
+   "id": "elevenlabs--eleven-v4",
+   "creator_ids": [
+    "elevenlabs"
+   ],
+   "title": "Eleven v4",
+   "year": 2026,
+   "date": "2026-09-28",
+   "field": "audio",
+   "sub": "voice",
+   "modalities": [
+    "speech"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "api",
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "ElevenLabs' 2026 text-to-speech generation, with a new architecture, a Turbo variant for low-latency agents, one voice across many languages and more consistent voice cloning. ElevenLabs says it follows inline direction such as [laughs], [said angrily in French accent] or sound cues like [light rain] more accurately than v3.",
+   "description_zh": "ElevenLabs 2026 年的新一代语音合成：新架构、面向低延迟智能体的 Turbo 版本、同一声音跨多种语言，以及更稳定的声音克隆。ElevenLabs 表示，它比 v3 更准确地遵循 [laughs]、[said angrily in French accent] 这类行内指示，甚至 [light rain] 这样的声音提示。",
+   "idea_en": "Acting direction and inline sound cues in one pass blur the line between a voice line and a small sound scene.",
+   "idea_zh": "一次生成里同时包含表演指示和行内声音提示，模糊了“一句台词”和“一个小型声音场景”之间的界线。",
+   "method": "New TTS architecture (unpublished) with a separate Turbo model for real-time use; follows audio tags and direction prompts.",
+   "method_zh": "新的语音合成架构（未公开），另有用于实时场景的 Turbo 模型；遵循音频标签与表演指示提示。",
+   "specs": "v4 + v4 Turbo",
+   "keywords": [
+    "text-to-speech",
+    "audio tags",
+    "voice cloning",
+    "multilingual"
+   ],
+   "images": [
+    "https://eleven-public-cdn.elevenlabs.io/payloadcms/3o2hqbr4pb7-1920x1080.webp"
+   ],
+   "source_url": "https://elevenlabs.io/blog/eleven-v4",
+   "api_url": "https://elevenlabs.io/docs",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=th_tXR2QQ6U"
+   }
+  },
+  {
+   "id": "hume-ai--octave",
+   "creator_ids": [
+    "hume-ai"
+   ],
+   "title": "Octave",
+   "year": 2025,
+   "date": "2025-02-26",
+   "field": "audio",
+   "sub": "voice",
+   "modalities": [
+    "speech"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "api",
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "Hume's LLM-based text-to-speech, which infers how a line should be delivered from the script (whispering a secret, shouting in triumph) and creates new voices from a text description. Octave 2 later extended it to more languages.",
+   "description_zh": "Hume 基于大模型的语音合成：能从剧本中推断台词该怎么说（低声说出秘密、得意地高喊），并能根据文字描述创造新的声音。之后的 Octave 2 扩展到更多语言。",
+   "idea_en": "Voice design by description lets an experimenter specify a character ('a nervous young paramedic') instead of searching a stock voice library.",
+   "idea_zh": "用描述来设计声音，实验者可以直接指定角色（“一位紧张的年轻急救员”），而不必在现成声音库里翻找。",
+   "method": "A speech-language model trained to understand and synthesise speech, predicting tune, rhythm and timbre from text, acting instructions and context.",
+   "method_zh": "一个经训练能理解并合成语音的语音-语言模型，根据文本、表演指示和上下文预测语调、节奏与音色。",
+   "keywords": [
+    "text-to-speech",
+    "voice design",
+    "acting instructions",
+    "LLM-based TTS"
+   ],
+   "images": [
+    "https://cdn.sanity.io/images/xqnc2for/production/9b31d5726693ff81fd8347008940845ea7824338-1080x1080.png?rect=0,257,1080,567&w=1200&h=630"
+   ],
+   "source_url": "https://www.hume.ai/blog/octave-the-first-text-to-speech-model-that-understands-what-its-saying",
+   "api_url": "https://dev.hume.ai/docs/text-to-speech-tts/overview",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=rKcgsg0HBlY"
+   }
+  },
+  {
+   "id": "hume-ai--tada",
+   "creator_ids": [
+    "hume-ai"
+   ],
+   "title": "TADA",
+   "year": 2026,
+   "date": "2026-03-10",
+   "field": "audio",
+   "sub": "voice",
+   "modalities": [
+    "speech"
+   ],
+   "inputs": [
+    "text",
+    "speech"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "control",
+    "responsiveness"
+   ],
+   "kind": "model",
+   "description": "An open-source speech-language model from Hume that aligns text and audio one-to-one, so by construction it cannot skip or hallucinate words. Hume reports a real-time factor of 0.09, more than five times faster than comparable LLM-based TTS.",
+   "description_zh": "Hume 开源的语音-语言模型，让文本与音频一一对齐，因此从结构上就不会漏词或凭空多出词。Hume 报告其实时率为 0.09，比同级别的大模型语音合成快五倍以上。",
+   "idea_en": "Guaranteed text fidelity matters in experiments: a stimulus voice that never drops or invents a word is a controllable stimulus.",
+   "idea_zh": "文本忠实度有保证对实验很重要：一个从不漏词、不多词的刺激声音，才是可控的刺激。",
+   "method": "Llama-based 1B (English) and 3B (multilingual) models over a tokenizer running at 2-3 audio frames per second with text-acoustic dual alignment.",
+   "method_zh": "基于 Llama 的 1B（英语）与 3B（多语言）模型，配合每秒仅 2–3 帧的音频分词器，实现文本与声学的双重对齐。",
+   "specs": "1B / 3B · RTF 0.09 · 2-3 tokens per second of audio",
+   "keywords": [
+    "text-to-speech",
+    "alignment",
+    "no hallucination",
+    "open weights"
+   ],
+   "images": [
+    "https://cdn.sanity.io/images/xqnc2for/production/05620681ef774dc41236f42520a269829e11851a-4800x2520.png?w=1200&h=630"
+   ],
+   "source_url": "https://www.hume.ai/blog/opensource-tada",
+   "code_url": "https://github.com/HumeAI/tada",
+   "collections": [
+    "trend-open-weights"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=eT5c_nsAO_Q"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2602.23068",
+    "arxiv": "2602.23068",
+    "venue": "arXiv 2026",
+    "title": "TADA: A Generative Framework for Speech Modeling via Text-Acoustic Dual Alignment"
+   }
+  },
+  {
+   "id": "bilibili--indextts2",
+   "creator_ids": [
+    "bilibili"
+   ],
+   "title": "IndexTTS2",
+   "year": 2025,
+   "date": "2025-06-23",
+   "field": "audio",
+   "sub": "voice",
+   "modalities": [
+    "speech"
+   ],
+   "inputs": [
+    "text",
+    "speech"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "control",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "An open zero-shot TTS model from bilibili's Index team that clones a voice from a short sample, controls emotion separately from timbre and can fix the exact duration of the output, the combination dubbing needs. Its demos re-voice film and animation clips in Chinese and English.",
+   "description_zh": "哔哩哔哩 Index 团队的开源零样本语音合成模型：用一小段样本克隆声音，情绪与音色可分别控制，还能精确指定输出时长，正好满足配音所需。它的演示为电影和动画片段重新配音，涵盖中文与英文。",
+   "idea_en": "Duration control lets generated speech land on exact timestamps, essential when speech must sync with generated video or a scripted VR event.",
+   "idea_zh": "时长控制让生成的语音准确落在指定时间点上；当语音必须与生成视频或预设的 VR 事件同步时，这一点必不可少。",
+   "method": "Autoregressive text-to-semantic Transformer with explicit token-count duration control and disentangled speaker and emotion prompts, followed by a semantic-to-mel model and vocoder.",
+   "method_zh": "自回归的文本到语义 Transformer，通过显式的标记数量控制时长，并解耦说话人与情绪提示；之后接语义到梅尔谱模型和声码器。",
+   "keywords": [
+    "zero-shot TTS",
+    "voice cloning",
+    "duration control",
+    "emotion control",
+    "dubbing",
+    "open weights"
+   ],
+   "source_url": "https://index-tts.github.io/index-tts2.github.io/",
+   "code_url": "https://github.com/index-tts/index-tts",
+   "collections": [
+    "trend-open-weights"
+   ],
+   "video": {
+    "url": "https://index-tts.github.io/index-tts2.github.io/ex6/Let_the_Bullets_Fly_1.mp4"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2506.21619",
+    "arxiv": "2506.21619",
+    "venue": "arXiv 2025",
+    "title": "IndexTTS2: A Breakthrough in Emotionally Expressive and Duration-Controlled Auto-Regressive Zero-Shot Text-to-Speech"
+   }
+  },
+  {
+   "id": "google-deepmind--v2a",
+   "creator_ids": [
+    "google-deepmind"
+   ],
+   "title": "V2A (video-to-audio)",
+   "year": 2024,
+   "date": "2024-06-17",
+   "field": "audio",
+   "sub": "sound",
+   "modalities": [
+    "audio",
+    "speech"
+   ],
+   "inputs": [
+    "video",
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Google DeepMind's video-to-audio research that generates soundtracks, sound effects and even dialogue for silent video, steered by optional positive and negative text prompts.",
+   "description_zh": "Google DeepMind 的视频配音研究：为无声视频生成配乐、音效甚至对白，并可用可选的正向与反向文字提示来引导。",
+   "idea_en": "Sound that follows the picture frame by frame turns a silent generated clip into an audiovisual event.",
+   "idea_zh": "逐帧跟随画面的声音，把一段无声的生成视频变成视听事件。",
+   "method": "Diffusion model that refines audio from noise conditioned on encoded video frames and text, trained with AI-generated sound annotations and dialogue transcripts; output watermarked with SynthID.",
+   "method_zh": "扩散模型以编码后的视频帧和文本为条件，从噪声中逐步生成音频；训练时使用 AI 生成的声音标注与对白文本；输出带 SynthID 水印。",
+   "keywords": [
+    "video-to-audio",
+    "foley",
+    "diffusion",
+    "SynthID"
+   ],
+   "source_url": "https://deepmind.google/discover/blog/generating-audio-for-video/",
+   "collections": [
+    "trend-native-audio"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=9Q0-t8D9XFI"
+   }
+  },
+  {
+   "id": "ho-kei-cheng--mmaudio",
+   "creator_ids": [
+    "ho-kei-cheng"
+   ],
+   "title": "MMAudio",
+   "year": 2024,
+   "date": "2024-12",
+   "field": "audio",
+   "sub": "sound",
+   "modalities": [
+    "audio"
+   ],
+   "inputs": [
+    "video",
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "diversity"
+   ],
+   "kind": "model",
+   "description": "An open video-to-audio model that adds synchronised sound effects and ambience to silent video; the authors report about 1.2 seconds to generate audio for an 8-second clip with the smallest model. It became a widely used open baseline for foley generation.",
+   "description_zh": "一个开源的视频配音模型，为无声视频添加同步的音效与环境声；作者报告最小的模型约 1.2 秒即可为 8 秒视频生成音频。它已成为被广泛使用的开源拟音基线。",
+   "idea_en": "Fast, open foley lets a pipeline give every generated clip plausible sound, though it does not produce intelligible speech or structured music.",
+   "idea_zh": "快速、开源的拟音能力，让生成流程可以为每段视频配上可信的声音，但它不生成可懂的语音或有结构的音乐。",
+   "method": "Flow-matching multimodal Transformer trained jointly on video-audio and large text-audio data, with a synchronisation module that aligns audio with video frame features.",
+   "method_zh": "基于流匹配的多模态 Transformer，在视频-音频与大规模文本-音频数据上联合训练，并用同步模块将音频与视频帧特征对齐。",
+   "specs": "157M-1.03B parameters · 8 s audio in ~1.2 s (small model, authors)",
+   "keywords": [
+    "video-to-audio",
+    "foley",
+    "flow matching",
+    "open weights"
+   ],
+   "images": [
+    "https://opengraph.githubassets.com/9338427bbd0a4344c8597ed9e14235a566d9f7d523bd22ebe5ebc26f20250eaa/hkchengrex/MMAudio"
+   ],
+   "source_url": "https://hkchengrex.github.io/MMAudio",
+   "code_url": "https://github.com/hkchengrex/MMAudio",
+   "collections": [
+    "trend-native-audio",
+    "trend-open-weights",
+    "cvpr"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=YElewUT2M4M"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2412.15322",
+    "arxiv": "2412.15322",
+    "venue": "CVPR 2025",
+    "title": "MMAudio: Taming Multimodal Joint Training for High-Quality Video-to-Audio Synthesis"
+   }
+  },
+  {
+   "id": "tencent-hunyuan--hunyuanvideo-foley",
+   "creator_ids": [
+    "tencent-hunyuan"
+   ],
+   "title": "HunyuanVideo-Foley",
+   "year": 2025,
+   "date": "2025-08",
+   "field": "audio",
+   "sub": "sound",
+   "modalities": [
+    "audio"
+   ],
+   "inputs": [
+    "video",
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "control"
+   ],
+   "kind": "model",
+   "description": "Tencent Hunyuan's open text-video-to-audio model that generates high-fidelity foley and ambience matched to the picture. Its demo page compares it side by side with MMAudio, FoleyCrafter and ThinkSound on the same clips.",
+   "description_zh": "腾讯混元的开源“文本+视频到音频”模型，生成与画面匹配的高保真拟音和环境声。它的演示页在相同片段上与 MMAudio、FoleyCrafter 和 ThinkSound 并排对比。",
+   "idea_en": "Balances what the text asks for with what the video shows, so a sound designer can steer a scene's foley with a prompt.",
+   "idea_zh": "在文字要求与画面内容之间取得平衡，声音设计师可以用提示来引导一个场景的拟音。",
+   "method": "Multimodal diffusion Transformer with joint audio-video attention and text cross-attention, representation alignment to self-supervised audio features, trained on a large automatically curated dataset.",
+   "method_zh": "多模态扩散 Transformer，采用音视频联合注意力与文本交叉注意力，并与自监督音频特征做表征对齐，在大规模自动筛选的数据集上训练。",
+   "keywords": [
+    "video-to-audio",
+    "foley",
+    "diffusion transformer",
+    "open weights"
+   ],
+   "images": [
+    "https://opengraph.githubassets.com/4837e51d5700901b7328e37eca87975e75c4648e45fdbd4bfb31c6d00d89539f/Tencent-Hunyuan/HunyuanVideo-Foley"
+   ],
+   "source_url": "https://szczesnys.github.io/hunyuanvideo-foley/",
+   "code_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Foley",
+   "collections": [
+    "trend-native-audio",
+    "trend-open-weights"
+   ],
+   "video": {
+    "url": "https://texttoaudio-train-1258344703.cos.ap-guangzhou.myqcloud.com/hunyuanvideo-foley_demo/demo_show/1-1.mp4"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2508.16930",
+    "arxiv": "2508.16930",
+    "venue": "arXiv 2025",
+    "title": "HunyuanVideo-Foley: Multimodal Diffusion with Representation Alignment for High-Fidelity Foley Audio Generation"
+   }
+  },
+  {
+   "id": "google-deepmind--lyria-realtime",
+   "creator_ids": [
+    "google-deepmind"
+   ],
+   "title": "Lyria RealTime",
+   "year": 2025,
+   "date": "2025-05",
+   "field": "audio",
+   "sub": "sound",
+   "modalities": [
+    "audio"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "real-time",
+   "access": [
+    "api",
+    "product"
+   ],
+   "lenses": [
+    "responsiveness",
+    "co-creation"
+   ],
+   "kind": "model",
+   "description": "A music model that produces a continuous stream of music which people steer live by blending and re-weighting text prompts, used in MusicFX DJ and offered in the Gemini API. Its open counterpart, Magenta RealTime, can run locally.",
+   "description_zh": "一个持续输出音乐流的模型，人们可以通过混合、调整文字提示的权重来实时引导音乐走向；它用于 MusicFX DJ，并在 Gemini API 中提供。其开源对应版本 Magenta RealTime 可在本地运行。",
+   "idea_en": "An adaptive score: music that changes with the scene as it unfolds rather than a track picked from a playlist.",
+   "idea_zh": "自适应配乐：音乐随情境的展开而变化，而不是从歌单里挑一首。",
+   "method": "Generates music chunk by chunk, conditioned on the preceding audio and on weighted, changeable text prompts (details largely unpublished; Magenta RealTime, the open counterpart, likely uses the same streaming scheme).",
+   "method_zh": "逐段生成音乐，以前面的音频以及可变、带权重的文字提示为条件（细节大多未公开；开源的 Magenta RealTime 很可能采用相同的流式方案）。",
+   "keywords": [
+    "real-time music",
+    "adaptive score",
+    "streaming",
+    "MusicFX DJ"
+   ],
+   "source_url": "https://deepmind.google/models/lyria/lyria-realtime/",
+   "api_url": "https://ai.google.dev/gemini-api/docs/music-generation",
+   "collections": [
+    "trend-realtime"
+   ],
+   "video": {
+    "url": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/media/lyria_realtime_header.mp4"
+   }
+  },
+  {
+   "id": "google-deepmind--lyria-3",
+   "creator_ids": [
+    "google-deepmind"
+   ],
+   "title": "Lyria 3",
+   "year": 2026,
+   "date": "2026-02-18",
+   "field": "audio",
+   "sub": "sound",
+   "modalities": [
+    "audio"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "product",
+    "api"
+   ],
+   "lenses": [
+    "authoring",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "Google DeepMind's 2026 music model with vocals, launched in the Gemini app on 18 February 2026, followed by Lyria 3 Pro for full-length songs (25 March 2026) and Lyria 3.5 (generally available 3 September 2026). It accepts text and image prompts, and all outputs carry SynthID watermarks.",
+   "description_zh": "Google DeepMind 2026 年带人声的音乐模型，2026 年 2 月 18 日在 Gemini 应用中上线，随后推出生成完整歌曲的 Lyria 3 Pro（2026 年 3 月 25 日）和 Lyria 3.5（2026 年 9 月 3 日正式可用）。它接受文字和图像提示，所有输出都带 SynthID 水印。",
+   "idea_en": "Image-to-music lets a soundtrack be derived from how a scene looks, keeping score and setting consistent.",
+   "idea_zh": "从图像生成音乐，让配乐可以从场景的外观中推导出来，使音乐与场景保持一致。",
+   "method": "Generative music model with vocals (architecture unpublished), exposed as 30-second clip and full-song variants; outputs are SynthID-watermarked.",
+   "method_zh": "带人声的生成式音乐模型（架构未公开），提供 30 秒片段与完整歌曲两种版本；输出带 SynthID 水印。",
+   "specs": "48 kHz stereo (Lyria 3 API) · 44.1 kHz stereo (Lyria 3.5)",
+   "keywords": [
+    "music generation",
+    "vocals",
+    "image-to-music",
+    "SynthID"
+   ],
+   "images": [
+    "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/0217_KeywordHeaderFinalc.width-1300.png"
+   ],
+   "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/lyria-3",
+   "api_url": "https://ai.google.dev/gemini-api/docs/music-generation",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=Op8X8RmiE98"
+   }
+  },
+  {
+   "id": "elevenlabs--eleven-music",
+   "creator_ids": [
+    "elevenlabs"
+   ],
+   "title": "Eleven Music",
+   "year": 2025,
+   "date": "2025-08-05",
+   "field": "audio",
+   "sub": "sound",
+   "modalities": [
+    "audio"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "api",
+    "product"
+   ],
+   "lenses": [
+    "authoring",
+    "control"
+   ],
+   "kind": "model",
+   "description": "ElevenLabs' music model that generates studio-grade songs with or without vocals from a prompt, with section-by-section editing and multilingual lyrics; ElevenLabs says it is cleared for commercial use through licensing deals with music rights holders. Music v2 and Music v2.5 (11 September 2026) followed.",
+   "description_zh": "ElevenLabs 的音乐模型，可根据提示生成录音室品质、带或不带人声的歌曲，支持按段落编辑和多语言歌词；ElevenLabs 表示，通过与音乐版权方的授权合作，它可用于商业用途。之后推出了 Music v2 和 Music v2.5（2026 年 9 月 11 日）。",
+   "idea_en": "Licensed, editable music generation reduces rights risk for stimuli that will be published with a study.",
+   "idea_zh": "经授权、可编辑的音乐生成，降低了随研究一同发表的刺激材料的版权风险。",
+   "method": "Text-to-music model with structure-level control over sections, lyrics and style (architecture unpublished).",
+   "method_zh": "文本到音乐模型，可在结构层面控制段落、歌词与风格（架构未公开）。",
+   "keywords": [
+    "music generation",
+    "licensed training",
+    "section editing"
+   ],
+   "images": [
+    "https://eleven-public-cdn.elevenlabs.io/payloadcms/qoyke7g9a6g-image%20(44).webp"
+   ],
+   "source_url": "https://elevenlabs.io/blog/eleven-music-is-here",
+   "api_url": "https://elevenlabs.io/docs",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=VDwTSuKbrg8"
+   }
+  },
+  {
+   "id": "suno--suno-v5-5",
+   "creator_ids": [
+    "suno"
+   ],
+   "title": "Suno v5.5",
+   "year": 2026,
+   "date": "2026-03-26",
+   "field": "audio",
+   "sub": "sound",
+   "modalities": [
+    "audio"
+   ],
+   "inputs": [
+    "text",
+    "speech"
+   ],
+   "timing": "offline",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "authoring",
+    "co-creation"
+   ],
+   "kind": "model",
+   "description": "The 2026 version of Suno's song generator, which adds Voices (singing in your own recorded voice), custom models tuned to a creator's catalogue and a taste profile. It follows Suno v5 (September 2025).",
+   "description_zh": "Suno 歌曲生成器的 2026 年版本，新增 Voices（用你自己录制的声音演唱）、按创作者作品定制的模型，以及个人口味画像。它是 Suno v5（2025 年 9 月）的后续版本。",
+   "idea_en": "Personal voice and style models move music generation from generic tracks toward a person's own sonic identity.",
+   "idea_zh": "个人声音与风格模型，让音乐生成从千篇一律的曲目走向个人自己的声音身份。",
+   "method": "Proprietary song-generation model (likely a Transformer over audio tokens) with voice cloning and per-user model customisation.",
+   "method_zh": "专有的歌曲生成模型（可能是基于音频标记的 Transformer），具备声音克隆与按用户定制模型的功能。",
+   "keywords": [
+    "music generation",
+    "singing voice",
+    "personalisation"
+   ],
+   "images": [
+    "https://suno.com/blog/v5-5/opengraph-image?4a0be6b3238f1ddc"
+   ],
+   "source_url": "https://suno.com/blog/v5-5",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=eVlFcpX1VGA"
+   }
+  },
+  {
+   "id": "stability-ai--stable-audio-2-5",
+   "creator_ids": [
+    "stability-ai"
+   ],
+   "title": "Stable Audio 2.5",
+   "year": 2025,
+   "date": "2025-09-10",
+   "field": "audio",
+   "sub": "sound",
+   "modalities": [
+    "audio"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "api",
+    "product"
+   ],
+   "lenses": [
+    "authoring",
+    "control"
+   ],
+   "kind": "model",
+   "description": "Stability AI's enterprise model for music and sound design, which Stability says generates tracks of up to three minutes in under two seconds on a GPU and supports audio inpainting. The open Stable Audio Open (2024) and the Stable Audio 3 family (May 2026, small and medium music and SFX models on Hugging Face) give labs downloadable alternatives.",
+   "description_zh": "Stability AI 面向企业的音乐与声音设计模型；Stability 称其能在一块 GPU 上用不到两秒生成最长三分钟的曲目，并支持音频修补。开源的 Stable Audio Open（2024）和 Stable Audio 3 系列（2026 年 5 月，在 Hugging Face 上提供小型与中型的音乐与音效模型）为实验室提供了可下载的替代方案。",
+   "idea_en": "Fast sound design with open siblings makes it a version-pinnable option for reproducible stimulus production.",
+   "idea_zh": "快速的声音设计加上开源的同系列模型，使其成为可锁定版本、可复现的刺激材料制作方案。",
+   "method": "Latent diffusion Transformer with adversarial relativistic-contrastive (ARC) post-training for few-step sampling, trained on licensed data.",
+   "method_zh": "潜空间扩散 Transformer，采用对抗式相对-对比（ARC）后训练以实现少步采样，训练数据经过授权。",
+   "specs": "up to 3 min of audio in < 2 s (Stability)",
+   "keywords": [
+    "music generation",
+    "sound design",
+    "audio inpainting",
+    "latent diffusion"
+   ],
+   "images": [
+    "http://static1.squarespace.com/static/6213c340453c3f502425776e/62f2452bc121595f4d87c713/68af30c1f7616137793f399f/1765490304733/StableAudio2.5_Thumbnail_1x1_v5+%281%29.png?format=1500w"
+   ],
+   "source_url": "https://stability.ai/news/stability-ai-introduces-stable-audio-25-the-first-audio-model-built-for-enterprise-sound-production-at-scale",
+   "code_url": "https://huggingface.co/stabilityai/stable-audio-3-medium",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=zlldXbV72SM"
+   }
+  },
+  {
+   "id": "bytedance-seed--seed-audio-1",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "Seed Audio 1.0",
+   "year": 2026,
+   "date": "2026-07-20",
+   "field": "audio",
+   "sub": "sound",
+   "modalities": [
+    "audio",
+    "speech"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "authoring",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "ByteDance Seed's scene-level audio creation model that generates speech, sound effects, ambience and background texture together from one prompt, so a line of dialogue arrives with its room tone, footsteps and alarms already in place. It is available through BytePlus.",
+   "description_zh": "字节跳动 Seed 的场景级音频创作模型，用一个提示同时生成语音、音效、环境声与背景质感，让一句台词连同房间混响、脚步声和警报声一起出现。可通过 BytePlus 使用。",
+   "idea_en": "Generates the sound scene rather than separate clips, which is closer to how an immersive situation is actually heard.",
+   "idea_zh": "生成的是整个声音场景，而不是零散的片段，更接近人们在沉浸情境中真实听到的样子。",
+   "method": "A unified generative framework that models the speech, effects and ambience of one scene jointly (architecture unpublished).",
+   "method_zh": "统一的生成框架，联合建模同一场景中的语音、音效与环境声（架构未公开）。",
+   "keywords": [
+    "scene audio",
+    "speech + SFX",
+    "ambience",
+    "BytePlus"
+   ],
+   "source_url": "https://seed.bytedance.com/en/blog/from-speech-to-audio-creation-introducing-the-seed-audio-1-0-audio-creation-model",
+   "video": {
+    "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsklaag.mp4"
+   }
+  },
+  {
+   "id": "jaeyeon-kim--visage",
+   "creator_ids": [
+    "jaeyeon-kim"
+   ],
+   "title": "ViSAGe",
+   "year": 2025,
+   "date": "2025-06-13",
+   "field": "audio",
+   "sub": "spatial-audio",
+   "modalities": [
+    "audio"
+   ],
+   "inputs": [
+    "video",
+    "camera"
+   ],
+   "timing": "offline",
+   "access": [
+    "open",
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "control"
+   ],
+   "kind": "research",
+   "description": "Generates first-order ambisonic sound from a silent field-of-view video and its camera direction, so sound sources stay where they are on screen when the listener turns. The authors also release YT-Ambigen, a dataset of about 102K YouTube clips with ambisonic audio.",
+   "description_zh": "根据一段无声的视野视频及其镜头方向生成一阶全景声，使听者转头时声源仍停留在画面中对应的位置。作者还发布了 YT-Ambigen 数据集，包含约 10.2 万段带全景声的 YouTube 片段。",
+   "idea_en": "Head-trackable spatial sound for video: the step from a stereo soundtrack to audio that belongs to a 3D scene in a headset.",
+   "idea_zh": "可随头部追踪变化的视频空间声音：从立体声配乐迈向属于头显中三维场景的音频。",
+   "method": "Codec-based autoregressive generation of ambisonic channels conditioned on CLIP video features, patch-wise energy maps and camera direction, with new spatial-audio evaluation metrics.",
+   "method_zh": "基于神经编解码器的自回归模型，以 CLIP 视频特征、分块能量图和镜头方向为条件生成全景声各声道，并提出了新的空间音频评测指标。",
+   "specs": "first-order ambisonics (4 channels)",
+   "keywords": [
+    "ambisonics",
+    "video-to-spatial-audio",
+    "camera direction",
+    "project-page clip"
+   ],
+   "source_url": "https://jaeyeonkim99.github.io/visage/",
+   "collections": [
+    "ml-conf"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=awUvswKbNyQ"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2506.12199",
+    "arxiv": "2506.12199",
+    "venue": "ICLR 2025",
+    "title": "ViSAGe: Video-to-Spatial Audio Generation"
+   }
+  },
+  {
+   "id": "huadai-liu--omniaudio",
+   "creator_ids": [
+    "huadai-liu"
+   ],
+   "title": "OmniAudio",
+   "year": 2025,
+   "date": "2025-04-21",
+   "field": "audio",
+   "sub": "spatial-audio",
+   "modalities": [
+    "audio"
+   ],
+   "inputs": [
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "open",
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "situational-reach"
+   ],
+   "kind": "research",
+   "description": "Generates first-order ambisonics from 360° video, so the soundscape of a panoramic clip matches what surrounds the viewer in every direction. The authors built Sphere360, a dataset of over 103,000 real 360° clips with spatial audio.",
+   "description_zh": "根据 360° 视频生成一阶全景声，使全景片段的声景在各个方向上都与观看者周围的画面一致。作者构建了 Sphere360 数据集，包含 10.3 万多段带空间音频的真实 360° 片段。",
+   "idea_en": "Pairs naturally with generated 360° video: turns a watched panorama into a place that is also spatially audible.",
+   "idea_zh": "与生成的 360° 视频天然配合：让一段被观看的全景画面变成一个在听觉上也有空间感的地方。",
+   "method": "Self-supervised flow-matching pre-training on spatial and non-spatial audio, followed by dual-branch conditioning on panoramic and field-of-view video features.",
+   "method_zh": "先在空间与非空间音频上做自监督流匹配预训练，再用全景视频与视野视频特征的双分支进行条件生成。",
+   "specs": "first-order ambisonics · Sphere360 103K clips",
+   "keywords": [
+    "ambisonics",
+    "360° video",
+    "flow matching",
+    "third-party video"
+   ],
+   "images": [
+    "https://opengraph.githubassets.com/a2469ea8c177f6d51c3aaafca025bf2971cf0717b6912d3d141e00bc591ac654/liuhuadai/OmniAudio"
+   ],
+   "source_url": "https://github.com/liuhuadai/OmniAudio",
+   "code_url": "https://github.com/liuhuadai/OmniAudio",
+   "collections": [
+    "ml-conf"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=Bg1xqWy0ugs"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2504.14906",
+    "arxiv": "2504.14906",
+    "venue": "ICML 2025",
+    "title": "OmniAudio: Generating Spatial Audio from 360-Degree Video"
+   }
+  },
+  {
+   "id": "xudong-xu--sounding-bodies",
+   "creator_ids": [
+    "xudong-xu",
+    "meta"
+   ],
+   "title": "Sounding Bodies",
+   "year": 2023,
+   "date": "2023-11-01",
+   "field": "audio",
+   "sub": "spatial-audio",
+   "modalities": [
+    "audio"
+   ],
+   "inputs": [
+    "body",
+    "speech"
+   ],
+   "timing": "offline",
+   "access": [
+    "open",
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "behavioral-plausibility"
+   ],
+   "kind": "research",
+   "description": "Renders the full 3D sound field produced by a human body (speech, footsteps, claps, finger snaps) from headset microphone audio and tracked body pose, so a virtual person sounds right from any listening position. Developed with Meta Reality Labs Research.",
+   "description_zh": "根据头显麦克风音频和被追踪的身体姿态，渲染人体发出的完整三维声场（说话、脚步、拍手、打响指），让虚拟人从任何听音位置听起来都正确。与 Meta Reality Labs Research 合作完成。",
+   "idea_en": "Spatially correct body sound is what makes a co-present avatar sound co-present; this model ties it to tracked pose.",
+   "idea_zh": "空间上正确的身体声音，才让“同在”的虚拟化身听起来真的同在；这个模型把它与被追踪的姿态联系起来。",
+   "method": "Neural network that maps head-mounted microphone signals and 3D body pose to the sound field around the body, trained on multi-view captures recorded with a large spherical microphone array.",
+   "method_zh": "神经网络把头戴麦克风信号与三维身体姿态映射为身体周围的声场，训练数据来自大型球形麦克风阵列录制的多视角采集。",
+   "keywords": [
+    "spatial audio",
+    "body pose",
+    "sound field",
+    "Codec Avatars",
+    "no official video"
+   ],
+   "images": [
+    "https://opengraph.githubassets.com/041b4f76c06e31a7107b494fd5503ebe36ad06f5021380c741bc640d600a9a6c/facebookresearch/SoundingBodies"
+   ],
+   "source_url": "https://github.com/facebookresearch/SoundingBodies",
+   "code_url": "https://github.com/facebookresearch/SoundingBodies",
+   "collections": [
+    "ml-conf"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2311.06285",
+    "arxiv": "2311.06285",
+    "venue": "NeurIPS 2023",
+    "title": "Sounding Bodies: Modeling 3D Spatial Sound of Humans Using Body Pose and Audio"
+   },
+   "also": [
+    "avatars"
+   ]
+  },
+  {
+   "id": "peiwen-sun--bewo",
+   "creator_ids": [
+    "peiwen-sun"
+   ],
+   "title": "Both Ears Wide Open (BEWO)",
+   "year": 2024,
+   "date": "2024-10-14",
+   "field": "audio",
+   "sub": "spatial-audio",
+   "modalities": [
+    "audio"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open",
+    "research"
+   ],
+   "lenses": [
+    "control",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Generates binaural spatial audio from a text description, placing and moving sound sources as written (e.g. a dog barking on the left that runs to the right), and also accepts image prompts. The authors release BEWO-1M, about one million text-spatial audio pairs.",
+   "description_zh": "根据文字描述生成双耳空间音频，按描述放置并移动声源（例如左边一只狗在叫，然后跑到右边），也接受图像提示。作者发布了约一百万对“文本—空间音频”的 BEWO-1M 数据集。",
+   "idea_en": "Text control over where a sound is and how it moves lets authors script spatial cues for a VR scene without a sound engine.",
+   "idea_zh": "用文字控制声音的位置与移动，作者无需声音引擎就能为 VR 场景编排空间线索。",
+   "method": "SpatialSonic, a one-stage latent diffusion model guided by spatial-aware text and image encoders and azimuth-state conditioning, trained on BEWO-1M.",
+   "method_zh": "SpatialSonic：单阶段潜空间扩散模型，由具备空间感知的文本与图像编码器以及方位角状态条件引导，在 BEWO-1M 上训练。",
+   "specs": "binaural stereo · BEWO-1M dataset",
+   "keywords": [
+    "binaural",
+    "text-to-spatial-audio",
+    "dataset",
+    "no official video"
+   ],
+   "images": [
+    "https://peiwensun2000.github.io/bewo/static/I2A_audios/image_001.jpg"
+   ],
+   "source_url": "https://peiwensun2000.github.io/bewo/",
+   "code_url": "https://github.com/PeiwenSun2000/Both-Ears-Wide-Open",
+   "collections": [
+    "ml-conf"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2410.10676",
+    "arxiv": "2410.10676",
+    "venue": "ICLR 2025",
+    "title": "Both Ears Wide Open: Towards Language-Driven Spatial Audio Generation"
+   }
+  }
+ ],
+ "leads": [
+  {
+   "name": "Qwen3.5-Omni (Alibaba, 2026)",
+   "why": "Successor to Qwen3-Omni with official videos from Qwen and Tongyi Lab (Mar-Apr 2026); appears API-only (qwen3.5-omni-plus on Model Studio). Verify specs, date and whether it is full-duplex.",
+   "link": "https://www.youtube.com/watch?v=-iTkqXlhLK8",
+   "found_via": "alibaba-tongyi",
+   "status": "open"
+  },
+  {
+   "name": "GPT-Realtime-2.1 / 2.1-mini (OpenAI)",
+   "why": "Released 2026-07-06 (OpenAI API changelog); folded into the GPT-Realtime-2 entry rather than a separate work.",
+   "link": "https://developers.openai.com/api/docs/changelog",
+   "found_via": "openai",
+   "status": "duplicate"
+  },
+  {
+   "name": "gpt-transcribe / gpt-live-transcribe (OpenAI)",
+   "why": "Streaming speech-to-text models (official video ~Aug 2026); recognition rather than generation.",
+   "link": "https://www.youtube.com/watch?v=WeP9VUf1OoE",
+   "found_via": "openai",
+   "status": "off_topic"
+  },
+  {
+   "name": "Grok Voice 3.0 (xAI)",
+   "why": "Reported 2026-10-14 as topping a speech-to-speech index; only a press report found, no official page checked.",
+   "link": "https://siliconangle.com/2026/10/14/grok-voice-3-0-from-spacexsi-outscores-openai-and-google-on-speech-to-speech-index/",
+   "found_via": "",
+   "status": "open"
+  },
+  {
+   "name": "Gemini speech-to-speech translation (Google)",
+   "why": "Live speech translation in Gemini (official video, ~Dec 2025); could join Hibiki-Zero as a translation entry.",
+   "link": "https://www.youtube.com/watch?v=xdPIwgDriTg",
+   "found_via": "google-deepmind",
+   "status": "open"
+  },
+  {
+   "name": "Gemini 3.8 Flash TTS (Google)",
+   "why": "GA 2026-09-22 with voice design, consented voice replication and a 150+ voice library; needs a video.",
+   "link": "https://ai.google.dev/gemini-api/docs/changelog",
+   "found_via": "google-deepmind",
+   "status": "no_media"
+  },
+  {
+   "name": "Lyria 3.5 (Google DeepMind)",
+   "why": "GA 2026-09-03, full songs with duration and structure control; could be split from the Lyria 3 entry (page has webm demos).",
+   "link": "https://deepmind.google/models/lyria/",
+   "found_via": "google-deepmind",
+   "status": "open"
+  },
+  {
+   "name": "Kyutai Pocket TTS",
+   "why": "100M-class TTS with voice cloning that runs on CPU (2026-01-13; multilingual 2026-05-04); README asset is an image, no video found.",
+   "link": "https://github.com/kyutai-labs/pocket-tts",
+   "found_via": "kyutai",
+   "status": "no_media"
+  },
+  {
+   "name": "Kyutai Invincible Voice",
+   "why": "Dialogue assistant for people living with ALS (online demo 2026-02-24); assistive voice, check scope.",
+   "link": "https://kyutai.org/blog/2026-02-24-invincible-voice/",
+   "found_via": "kyutai",
+   "status": "open"
+  },
+  {
+   "name": "Seed LiveInterpret 2.0 (ByteDance Seed)",
+   "why": "End-to-end simultaneous speech-to-speech interpretation with voice cloning (July 2025); the original project page now redirects, only third-party video found.",
+   "link": "https://seed.bytedance.com/en/",
+   "found_via": "bytedance-seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Seed Speech 2.0 (ByteDance / BytePlus)",
+   "why": "TTS + ASR stack with prompt-controlled emotion (official 31 s BytePlus video, 2026-03-16).",
+   "link": "https://www.youtube.com/watch?v=Rno7SlzOPh8",
+   "found_via": "bytedance-seed",
+   "status": "open"
+  },
+  {
+   "name": "Stable Audio 3 (Stability AI)",
+   "why": "Open-weight small/medium music and SFX models on Hugging Face (2026-05-17); no official launch video found, mentioned in the Stable Audio 2.5 entry.",
+   "link": "https://huggingface.co/stabilityai/stable-audio-3-medium",
+   "found_via": "stability-ai",
+   "status": "no_media"
+  },
+  {
+   "name": "VibeVoice (Microsoft Research)",
+   "why": "Open long-form multi-speaker TTS (up to ~90 min, 4 speakers; arXiv 2508.19205); no official video found.",
+   "link": "https://microsoft.github.io/VibeVoice/",
+   "found_via": "",
+   "status": "no_media"
+  },
+  {
+   "name": "Dia (Nari Labs)",
+   "why": "Open 1.6B dialogue TTS with non-verbal sounds (April 2025); only third-party videos found.",
+   "link": "https://github.com/nari-labs/dia",
+   "found_via": "",
+   "status": "no_media"
+  },
+  {
+   "name": "MiniMax Speech (Speech-02 / 2.6 / 2.8)",
+   "why": "Zero-shot TTS with a learnable speaker encoder (arXiv 2505.07916), top of public TTS arenas in 2025; no official video found.",
+   "link": "https://arxiv.org/abs/2505.07916",
+   "found_via": "minimax",
+   "status": "no_media"
+  },
+  {
+   "name": "Fun-CosyVoice 3 (Alibaba Tongyi)",
+   "why": "Open zero-shot multilingual TTS; project page 404, only third-party videos found.",
+   "link": "https://github.com/FunAudioLLM/CosyVoice",
+   "found_via": "alibaba-tongyi",
+   "status": "no_media"
+  },
+  {
+   "name": "AudioCraft / MusicGen (Meta, 2023)",
+   "why": "Open music and sound-effect generation precursor (arXiv 2306.05284, NeurIPS 2023); no official video found (Meta blog page errors).",
+   "link": "https://github.com/facebookresearch/audiocraft",
+   "found_via": "meta",
+   "status": "no_media"
+  },
+  {
+   "name": "SpatialV2A",
+   "why": "Visual-guided spatial audio generation (arXiv 2601.15017, Jan 2026); GitHub only.",
+   "link": "https://github.com/renlinjie868-web/SpatialV2A",
+   "found_via": "",
+   "status": "no_media"
+  },
+  {
+   "name": "Streaming synchronized spatial audio via autoregressive DiT (ByteDance SwanAIGC)",
+   "why": "Video- and text-to-spatial audio with streaming generation, ICML 2026 (arXiv 2605.30940); project site is a single-page app, no media checked.",
+   "link": "https://arxiv.org/abs/2605.30940",
+   "found_via": "bytedance-seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Full-Duplex-Bench",
+   "why": "Benchmark for turn-taking in full-duplex spoken dialogue models (arXiv 2503.04721, ASRU 2025): belongs to infra/benchmarks.",
+   "link": "https://arxiv.org/abs/2503.04721",
+   "found_via": "nvidia",
+   "status": "open"
+  },
+  {
+   "name": "Hume EVI 4 / Octave 2",
+   "why": "Successors mentioned by third-party videos; official EVI 4 page not checked.",
+   "link": "https://www.hume.ai/blog",
+   "found_via": "hume-ai",
+   "status": "open"
+  },
+  {
+   "name": "ElevenLabs Instant Soundtracks",
+   "why": "Official video 2026-10-15; generated soundtracks for video, check whether it is a new model or a product feature.",
+   "link": "https://www.youtube.com/watch?v=WtPiZ0ym13k",
+   "found_via": "elevenlabs",
+   "status": "open"
+  },
+  {
+   "name": "Inworld Realtime TTS-2",
+   "why": "Reported 2026-10-11 in Inworld release notes; low-latency TTS for agents, unverified.",
+   "link": "https://docs.inworld.ai/release-notes/tts",
+   "found_via": "inworld-ai",
+   "status": "open"
+  },
+  {
+   "name": "Gradium (Kyutai spin-off)",
+   "why": "Real-time voice API for agents (TTS with sub-50 ms latency claimed, STT, live translation, cloning, voice design, on-device TTS); CEO Neil Zeghidour, out of stealth Dec 2025, seed extended to $100M on 2026-07-08; official YouTube channel @Gradium AI. Platform, so likely infra/apis.",
+   "link": "https://gradium.ai",
+   "found_via": "kyutai",
+   "status": "open"
+  },
+  {
+   "name": "RW-Voice-EQ Bench (Hume AI)",
+   "why": "Real-world benchmark and leaderboard for evaluating voice AI systems (arXiv 2607.14846, July 2026): belongs to infra/benchmarks.",
+   "link": "https://arxiv.org/abs/2607.14846",
+   "found_via": "hume-ai",
+   "status": "open"
+  },
+  {
+   "name": "MIRA (Kyutai world model)",
+   "why": "Listed under 'World Model' in Kyutai's project menu; belongs to the world-models batch, not checked further.",
+   "link": "https://kyutai.org",
+   "found_via": "kyutai",
+   "status": "off_topic"
+  },
+  {
+   "name": "Kling-Foley / ThinkSound",
+   "why": "Chinese video-to-audio models (Kuaishou, Alibaba Tongyi, 2025) compared on the HunyuanVideo-Foley page; candidates for a second round.",
+   "link": "https://szczesnys.github.io/hunyuanvideo-foley/",
+   "found_via": "tencent-hunyuan",
+   "status": "open"
+  }
+ ]
+}

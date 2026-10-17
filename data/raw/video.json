@@ -1,0 +1,2941 @@
+{
+  "batch": "video",
+  "creators": [
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "name_zh": "",
+      "kind": "company",
+      "role": "AI research and product company",
+      "based": "San Francisco, US",
+      "bio": "Maker of ChatGPT and the Sora video models; it discontinued the Sora app in April 2026 and the Sora API in September 2026.",
+      "why": "Sora set the 'video models as world simulators' agenda that much of generative immersion now follows.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://openai.com",
+        "x": "https://x.com/OpenAI",
+        "youtube": "https://www.youtube.com/@OpenAI"
+      },
+      "role_zh": "人工智能研究与产品公司",
+      "bio_zh": "ChatGPT 与 Sora 视频模型的开发者；2026 年 4 月关闭 Sora 应用，2026 年 9 月停止 Sora API。",
+      "why_zh": "Sora 提出了“视频模型即世界模拟器”的议程，如今生成式沉浸的许多工作都沿着这一方向展开。",
+      "based_zh": "美国旧金山",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "google-deepmind",
+      "name": "Google DeepMind",
+      "name_zh": "",
+      "kind": "lab",
+      "role": "AI research lab of Google",
+      "based": "London, UK",
+      "bio": "Google's main AI lab, responsible for Gemini, the Veo video models, Gemini Omni and the Genie world models.",
+      "why": "Its Veo line pioneered native audio in frontier video generation, and Gemini Omni merges generation with editing.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://deepmind.google",
+        "x": "https://x.com/GoogleDeepMind",
+        "youtube": "https://www.youtube.com/@googledeepmind"
+      },
+      "role_zh": "Google 旗下人工智能研究实验室",
+      "bio_zh": "Google 的核心人工智能实验室，负责 Gemini、Veo 视频模型、Gemini Omni 与 Genie 世界模型。",
+      "why_zh": "其 Veo 系列率先在前沿视频生成中加入原生音频，Gemini Omni 又把生成与编辑合二为一。",
+      "based_zh": "英国伦敦",
+      "connected_to": [
+        "google"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Google Research, Google Labs and Google AR",
+      "based": "Mountain View, US",
+      "bio": "Google's research and product groups outside DeepMind, which published early text-to-video systems such as Imagen Video, Phenaki and Lumiere.",
+      "why": "Its 2022-2024 papers established the cascaded, token-based and space-time designs later video models built on.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://research.google"
+      },
+      "role_zh": "Google 研究院、Google Labs 与 Google AR",
+      "bio_zh": "Google 在 DeepMind 之外的研究与产品团队，发表过 Imagen Video、Phenaki、Lumiere 等早期文生视频系统。",
+      "why_zh": "其 2022–2024 年的论文确立了级联、离散 token 与时空一体等设计，为后来的视频模型奠定了基础。",
+      "based_zh": "美国山景城",
+      "connected_to": [
+        "google-deepmind"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Meta AI, FAIR and Reality Labs",
+      "based": "Menlo Park, US",
+      "bio": "Parent of Facebook, Instagram and the Quest headsets; its AI groups published Make-A-Video and Movie Gen.",
+      "why": "Combines frontier video research with the largest consumer VR platform.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://ai.meta.com"
+      },
+      "role_zh": "Meta AI、FAIR 与 Reality Labs",
+      "bio_zh": "Facebook、Instagram 与 Quest 头显的母公司，其 AI 团队发表了 Make-A-Video 与 Movie Gen。",
+      "why_zh": "同时拥有前沿视频研究和最大的消费级 VR 平台。",
+      "based_zh": "美国门洛帕克",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "kuaishou",
+      "name": "Kuaishou (Kling AI)",
+      "name_zh": "快手（可灵 AI）",
+      "kind": "company",
+      "role": "Short-video platform and maker of Kling",
+      "based": "Beijing, China",
+      "bio": "Chinese short-video company whose Kling models (June 2024 onward) were the first Sora-class video generators open to the public.",
+      "why": "Kling has shipped a major version roughly every few months, setting the pace of consumer video generation.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://kling.ai",
+        "x": "https://x.com/Kling_ai",
+        "huggingface": "https://huggingface.co/KlingTeam"
+      },
+      "role_zh": "短视频平台，可灵大模型开发者",
+      "bio_zh": "中国短视频公司，其可灵模型（2024 年 6 月起）是首个向公众开放的 Sora 级视频生成模型。",
+      "why_zh": "可灵几乎每隔几个月就发布一次大版本，决定了大众视频生成的迭代节奏。",
+      "based_zh": "中国北京",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Generative video company",
+      "based": "New York, US",
+      "bio": "Filmmaker-focused company that co-created Stable Diffusion and released Gen-1 to Gen-4.5, Aleph, Act-Two and the GWM world models.",
+      "why": "Runway frames video generation explicitly as general world modeling and moved first into interactive world simulation.",
+      "disciplines": [
+        "ml",
+        "media-art"
+      ],
+      "links": {
+        "site": "https://runwayml.com",
+        "x": "https://x.com/runwayml"
+      },
+      "role_zh": "生成式视频公司",
+      "bio_zh": "面向影视创作者的公司，参与创建 Stable Diffusion，先后推出 Gen-1 至 Gen-4.5、Aleph、Act-Two 与 GWM 世界模型。",
+      "why_zh": "Runway 明确把视频生成定义为通用世界建模，并率先进入交互式世界模拟。",
+      "based_zh": "美国纽约",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "luma-ai",
+      "name": "Luma AI",
+      "name_zh": "",
+      "kind": "company",
+      "role": "3D capture and video generation company",
+      "based": "Palo Alto, US",
+      "bio": "Started with NeRF capture apps, then launched Dream Machine and the Ray video models (Ray2, Ray3, Ray3.2).",
+      "why": "Bridges 3D capture and video generation, with HDR output aimed at professional pipelines.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://lumalabs.ai",
+        "x": "https://x.com/LumaLabsAI"
+      },
+      "role_zh": "三维采集与视频生成公司",
+      "bio_zh": "从 NeRF 三维采集应用起家，随后推出 Dream Machine 与 Ray 系列视频模型（Ray2、Ray3、Ray3.2）。",
+      "why_zh": "连接三维采集与视频生成，并以 HDR 输出面向专业制作流程。",
+      "based_zh": "美国帕洛阿尔托",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "name_zh": "稀宇科技 MiniMax（海螺 AI）",
+      "kind": "company",
+      "role": "Foundation-model company (Hailuo)",
+      "based": "Shanghai, China",
+      "bio": "Chinese AI company behind the Hailuo video models, the MiniMax language models and speech models; it released the H3 video model with open weights in July 2026.",
+      "why": "One of the few labs releasing a flagship audio-video model with downloadable weights.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.minimax.io",
+        "huggingface": "https://huggingface.co/MiniMaxAI"
+      },
+      "role_zh": "大模型公司（海螺 AI）",
+      "bio_zh": "海螺视频模型、MiniMax 语言模型与语音模型的开发者；2026 年 7 月以开源权重发布 H3 视频模型。",
+      "why_zh": "少数把旗舰级音视频模型以可下载权重形式发布的团队之一。",
+      "based_zh": "中国上海",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "bytedance-seed",
+      "name": "ByteDance Seed",
+      "name_zh": "字节跳动 Seed",
+      "kind": "lab",
+      "role": "ByteDance's foundation-model team",
+      "based": "Beijing, China",
+      "bio": "ByteDance's research team behind the Seedance video models, Seaweed APT2 and Seedream image models, shipped in the Jimeng (Dreamina) and Doubao apps.",
+      "why": "Leads on multi-shot, multimodal-reference video and on real-time interactive video research.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://seed.bytedance.com",
+        "huggingface": "https://huggingface.co/ByteDance-Seed"
+      },
+      "role_zh": "字节跳动大模型团队",
+      "bio_zh": "字节跳动负责 Seedance 视频模型、Seaweed APT2 与 Seedream 图像模型的研究团队，产品通过即梦（Dreamina）和豆包上线。",
+      "why_zh": "在多镜头、多模态参考视频生成和实时交互视频研究上处于前列。",
+      "based_zh": "中国北京",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "shengshu",
+      "name": "Shengshu Technology (Vidu)",
+      "name_zh": "生数科技（Vidu）",
+      "kind": "company",
+      "role": "Video-generation company spun out of Tsinghua University",
+      "based": "Beijing, China",
+      "bio": "Founded by Tsinghua researchers; launched Vidu in April 2024 and later the Q-series and real-time S-series models.",
+      "why": "Its real-time Vidu S line brings conversation-paced video generation to a consumer product.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.vidu.com"
+      },
+      "role_zh": "源自清华大学的视频生成公司",
+      "bio_zh": "由清华大学研究者创立；2024 年 4 月发布 Vidu，此后推出 Q 系列与实时 S 系列模型。",
+      "why_zh": "其实时 Vidu S 系列把跟得上对话节奏的视频生成带进了消费级产品。",
+      "based_zh": "中国北京",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "pika",
+      "name": "Pika",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Consumer video-generation startup",
+      "based": "Palo Alto, US",
+      "bio": "Founded in 2023 by Stanford PhD students; known for Pika 1.0 and playful editing effects.",
+      "why": "An early example of video generation designed for casual creators rather than studios.",
+      "disciplines": [
+        "ml",
+        "media-art"
+      ],
+      "links": {
+        "site": "https://pika.art"
+      },
+      "role_zh": "面向大众的视频生成初创公司",
+      "bio_zh": "2023 年由斯坦福博士生创立，以 Pika 1.0 和趣味化编辑特效著称。",
+      "why_zh": "较早为普通创作者而非影视公司设计视频生成的例子。",
+      "based_zh": "美国帕洛阿尔托",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Independent image and video generation lab",
+      "based": "San Francisco, US",
+      "bio": "Self-funded lab known for its aesthetic image models; released its first video model in June 2025.",
+      "why": "States real-time open-world simulation as its long-term goal.",
+      "disciplines": [
+        "ml",
+        "media-art"
+      ],
+      "links": {
+        "site": "https://www.midjourney.com"
+      },
+      "role_zh": "独立图像与视频生成实验室",
+      "bio_zh": "自筹资金的实验室，以审美导向的图像模型著称；2025 年 6 月发布首个视频模型。",
+      "why_zh": "公开把实时开放世界模拟作为长期目标。",
+      "based_zh": "美国旧金山",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "moonvalley",
+      "name": "Moonvalley",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Video-generation company for filmmakers",
+      "based": "Los Angeles, US",
+      "bio": "Builds Marey, a video model trained only on licensed footage, together with the studio Asteria.",
+      "why": "Shows a licensed-data route to generated footage that institutions can clear legally.",
+      "disciplines": [
+        "ml",
+        "media-art"
+      ],
+      "links": {
+        "site": "https://www.moonvalley.com"
+      },
+      "role_zh": "面向影视创作者的视频生成公司",
+      "bio_zh": "与工作室 Asteria 一同开发只用授权素材训练的视频模型 Marey。",
+      "why_zh": "展示了一条基于授权数据的生成素材路线，便于机构完成版权审查。",
+      "based_zh": "美国洛杉矶",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "alibaba-tongyi",
+      "name": "Alibaba Tongyi Lab (Wan)",
+      "name_zh": "阿里巴巴通义实验室（通义万相）",
+      "kind": "lab",
+      "role": "Alibaba's foundation-model lab",
+      "based": "Hangzhou, China",
+      "bio": "Alibaba's Tongyi Lab develops the Wan video models; Wan 2.1 and 2.2 are open weights, Wan 2.5 onward are closed.",
+      "why": "Wan 2.1 became the open base for most 2025 research on real-time and controllable video.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://wan.video",
+        "github": "https://github.com/Wan-Video",
+        "huggingface": "https://huggingface.co/Wan-AI"
+      },
+      "role_zh": "阿里巴巴大模型实验室",
+      "bio_zh": "阿里巴巴通义实验室开发通义万相（Wan）视频模型；Wan 2.1 与 2.2 开源权重，Wan 2.5 起闭源。",
+      "why_zh": "Wan 2.1 成为 2025 年大多数实时与可控视频研究所用的开源基础模型。",
+      "based_zh": "中国杭州",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "stability-ai",
+      "name": "Stability AI",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Open generative-model company",
+      "based": "London, UK",
+      "bio": "Company behind Stable Diffusion and Stable Video Diffusion.",
+      "why": "Its open video weights became the starting point for many 3D and 4D generators.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://stability.ai",
+        "huggingface": "https://huggingface.co/stabilityai"
+      },
+      "role_zh": "开源生成模型公司",
+      "bio_zh": "Stable Diffusion 与 Stable Video Diffusion 的开发公司。",
+      "why_zh": "其开源视频权重成为许多三维、四维生成方法的起点。",
+      "based_zh": "英国伦敦",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "zhipu-ai",
+      "name": "Zhipu AI",
+      "name_zh": "智谱",
+      "kind": "company",
+      "role": "Foundation-model company spun out of Tsinghua University",
+      "based": "Beijing, China",
+      "bio": "Maker of the GLM language models and the open CogVideoX video models behind its Qingying product.",
+      "why": "Released the first strong open text-to-video model from a Chinese lab.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.zhipuai.cn",
+        "github": "https://github.com/zai-org"
+      },
+      "role_zh": "源自清华大学的大模型公司",
+      "bio_zh": "GLM 语言模型及开源 CogVideoX 视频模型（“清影”产品底座）的开发者。",
+      "why_zh": "发布了国内首个表现强劲的开源文生视频模型。",
+      "based_zh": "中国北京",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "genmo",
+      "name": "Genmo",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Open video-model startup",
+      "based": "San Francisco, US",
+      "bio": "Startup that released Mochi 1, a 10B-parameter open text-to-video model under Apache 2.0.",
+      "why": "A permissively licensed base widely used in academic video research.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.genmo.ai",
+        "github": "https://github.com/genmoai"
+      },
+      "role_zh": "开源视频模型初创公司",
+      "bio_zh": "发布了 100 亿参数、Apache 2.0 许可的开源文生视频模型 Mochi 1。",
+      "why_zh": "许可宽松，被学术视频研究广泛采用。",
+      "based_zh": "美国旧金山",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "lightricks",
+      "name": "Lightricks",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Creative-app company and maker of LTX",
+      "based": "Jerusalem, Israel",
+      "bio": "Maker of Facetune and LTX Studio; releases the open LTX-Video, LTX-2 and LTX-2.5 models.",
+      "why": "Pushes open video toward real-time speed and production resolution with audio.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://ltx.io",
+        "github": "https://github.com/Lightricks",
+        "huggingface": "https://huggingface.co/Lightricks"
+      },
+      "role_zh": "创意应用公司，LTX 模型开发者",
+      "bio_zh": "Facetune 与 LTX Studio 的开发者，发布开源的 LTX-Video、LTX-2 与 LTX-2.5 模型。",
+      "why_zh": "推动开源视频模型达到实时速度和带音频的生产级分辨率。",
+      "based_zh": "以色列耶路撒冷",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "tencent-hunyuan",
+      "name": "Tencent Hunyuan",
+      "name_zh": "腾讯混元",
+      "kind": "lab",
+      "role": "Tencent's foundation-model team",
+      "based": "Shenzhen, China",
+      "bio": "Tencent's Hunyuan team releases open video, 3D and world models (HunyuanVideo, Hunyuan3D, HunyuanWorld).",
+      "why": "Its open video models seeded a large ecosystem of community control adapters.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://hunyuan.tencent.com",
+        "github": "https://github.com/Tencent-Hunyuan"
+      },
+      "role_zh": "腾讯大模型团队",
+      "bio_zh": "腾讯混元团队发布开源的视频、三维与世界模型（HunyuanVideo、Hunyuan3D、HunyuanWorld）。",
+      "why_zh": "其开源视频模型带动了大量社区控制适配器生态。",
+      "based_zh": "中国深圳",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "stepfun",
+      "name": "StepFun",
+      "name_zh": "阶跃星辰",
+      "kind": "company",
+      "role": "Foundation-model company",
+      "based": "Shanghai, China",
+      "bio": "Chinese AI company that open-sourced the 30B-parameter Step-Video-T2V model in February 2025.",
+      "why": "Documented the practical limits of scaling open video diffusion.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.stepfun.com",
+        "github": "https://github.com/stepfun-ai"
+      },
+      "role_zh": "大模型公司",
+      "bio_zh": "2025 年 2 月开源了 300 亿参数的 Step-Video-T2V 模型。",
+      "why_zh": "记录了开源视频扩散模型规模化的实际瓶颈。",
+      "based_zh": "中国上海",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "character-ai",
+      "name": "Character.AI",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Conversational character platform",
+      "based": "Menlo Park, US",
+      "bio": "Consumer platform for chatting with AI characters; its research team released the open audio-video model Ovi.",
+      "why": "Links conversational characters to open talking-video generation.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://character.ai",
+        "github": "https://github.com/character-ai"
+      },
+      "role_zh": "对话角色平台",
+      "bio_zh": "面向大众的 AI 角色聊天平台，其研究团队发布了开源音视频模型 Ovi。",
+      "why_zh": "把对话角色与开源的“会说话视频”生成连接起来。",
+      "based_zh": "美国门洛帕克",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "sand-ai",
+      "name": "Sand AI",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Video-generation startup",
+      "based": "Beijing, China",
+      "bio": "Startup that open-sourced MAGI-1, a 24B-parameter autoregressive video model, in April 2025.",
+      "why": "Released one of the first large open autoregressive video models.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://sand.ai",
+        "github": "https://github.com/SandAI-org"
+      },
+      "role_zh": "视频生成初创公司",
+      "bio_zh": "2025 年 4 月开源了 240 亿参数的自回归视频模型 MAGI-1。",
+      "why_zh": "发布了最早的大规模开源自回归视频模型之一。",
+      "based_zh": "中国北京",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "skywork",
+      "name": "Skywork (Kunlun Tech)",
+      "name_zh": "昆仑万维 Skywork",
+      "kind": "company",
+      "role": "AI unit of Kunlun Tech",
+      "based": "Beijing, China",
+      "bio": "Kunlun Tech's AI unit, which open-sources the SkyReels video models and the Matrix world models.",
+      "why": "Its SkyReels-V2 brought diffusion forcing to open, unlimited-length video.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.skywork.ai",
+        "github": "https://github.com/SkyworkAI"
+      },
+      "role_zh": "昆仑万维旗下人工智能业务",
+      "bio_zh": "昆仑万维的人工智能业务，开源 SkyReels 视频模型与 Matrix 世界模型。",
+      "why_zh": "其 SkyReels-V2 把扩散强制方法带入开源的无限时长视频生成。",
+      "based_zh": "中国北京",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "decart",
+      "name": "Decart",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Real-time generative AI lab",
+      "based": "Tel Aviv, Israel and San Francisco, US",
+      "bio": "Builds real-time video and world models (Oasis, MirageLSD, Lucy) and the inference stack to serve them live.",
+      "why": "Its live camera-feed transformation is the most direct generative route to mixed-reality conditions.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://decart.ai",
+        "huggingface": "https://huggingface.co/decart-ai"
+      },
+      "role_zh": "实时生成式 AI 实验室",
+      "bio_zh": "开发实时视频与世界模型（Oasis、MirageLSD、Lucy）以及支撑实时服务的推理栈。",
+      "why_zh": "其对实时摄像头画面的变换，是通向生成式混合现实条件最直接的路径。",
+      "based_zh": "以色列特拉维夫与美国旧金山",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "krea",
+      "name": "Krea",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Real-time creative AI tools",
+      "based": "San Francisco, US",
+      "bio": "Creative-tool company known for real-time image generation; released the open Krea Realtime 14B video model in October 2025.",
+      "why": "Showed real-time video at 14B-parameter scale with open weights.",
+      "disciplines": [
+        "ml",
+        "media-art"
+      ],
+      "links": {
+        "site": "https://www.krea.ai",
+        "huggingface": "https://huggingface.co/krea"
+      },
+      "role_zh": "实时创意 AI 工具公司",
+      "bio_zh": "以实时图像生成著称的创意工具公司；2025 年 10 月发布开源的 Krea Realtime 14B 视频模型。",
+      "why_zh": "以开源权重展示了 140 亿参数规模的实时视频生成。",
+      "based_zh": "美国旧金山",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "name_zh": "",
+      "kind": "company",
+      "role": "GPU maker and AI research lab",
+      "based": "Santa Clara, US",
+      "bio": "Maker of the GPUs most video models run on; NVIDIA Research publishes video, world-model and 3D work such as LongLive and Cosmos.",
+      "why": "Sets the hardware ceiling for real-time generation and contributes open research on long, interactive video.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://www.nvidia.com/en-us/research/",
+        "github": "https://github.com/NVlabs"
+      },
+      "role_zh": "GPU 厂商与人工智能研究机构",
+      "bio_zh": "大多数视频模型所依赖的 GPU 厂商；NVIDIA Research 发表 LongLive、Cosmos 等视频、世界模型与三维研究。",
+      "why_zh": "决定实时生成的硬件上限，并贡献长时、交互式视频的开放研究。",
+      "based_zh": "美国圣克拉拉",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "tencent-arc",
+      "name": "Tencent ARC Lab",
+      "name_zh": "腾讯 ARC 实验室",
+      "kind": "lab",
+      "role": "Applied research center of Tencent PCG",
+      "based": "Shenzhen, China",
+      "bio": "Tencent research lab working on visual generation and editing, including StereoCrafter and Rolling Forcing.",
+      "why": "Its stereo conversion work targets headset playback of ordinary video.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://arc.tencent.com",
+        "github": "https://github.com/TencentARC"
+      },
+      "role_zh": "腾讯 PCG 应用研究中心",
+      "bio_zh": "腾讯从事视觉生成与编辑研究的实验室，成果包括 StereoCrafter 与 Rolling Forcing。",
+      "why_zh": "其立体转换工作面向在头显中播放普通视频。",
+      "based_zh": "中国深圳",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "adobe",
+      "name": "Adobe",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Creative-software company (Adobe Research)",
+      "based": "San Jose, US",
+      "bio": "Adobe's research division; co-authored CausVid and Self Forcing, two key methods for real-time video generation.",
+      "why": "Its distillation and self-rollout methods underlie many real-time video models.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://research.adobe.com"
+      },
+      "role_zh": "创意软件公司（Adobe 研究院）",
+      "bio_zh": "Adobe 的研究部门，参与提出 CausVid 与 Self Forcing 这两项实时视频生成的关键方法。",
+      "why_zh": "其蒸馏与自回放训练方法是许多实时视频模型的基础。",
+      "based_zh": "美国圣何塞",
+      "connected_to": [],
+      "discovered_via": "tianwei-yin"
+    },
+    {
+      "id": "tianwei-yin",
+      "name": "Tianwei Yin",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher in fast generative models",
+      "based": "Cambridge, US",
+      "bio": "MIT PhD researcher, first author of DMD distillation and CausVid.",
+      "why": "CausVid turned slow video diffusion into streaming generation.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "github": "https://github.com/tianweiy"
+      },
+      "role_zh": "快速生成模型研究者",
+      "bio_zh": "MIT 博士研究者，DMD 蒸馏与 CausVid 的第一作者。",
+      "why_zh": "CausVid 把缓慢的视频扩散变成了流式生成。",
+      "based_zh": "美国剑桥",
+      "connected_to": [
+        "adobe"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "xun-huang",
+      "name": "Xun Huang",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher in generative video",
+      "based": "San Francisco Bay Area, US",
+      "bio": "Research scientist (Adobe Research at the time of Self Forcing), known for AdaIN style transfer and real-time video diffusion.",
+      "why": "Self Forcing became a common training recipe for real-time video and world models.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {},
+      "role_zh": "生成式视频研究者",
+      "bio_zh": "研究科学家（Self Forcing 发表时任职于 Adobe Research），以 AdaIN 风格迁移和实时视频扩散研究著称。",
+      "why_zh": "Self Forcing 成为实时视频与世界模型常用的训练方法。",
+      "based_zh": "美国旧金山湾区",
+      "connected_to": [
+        "adobe"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "shuai-yang-hkustgz",
+      "name": "Shuai Yang",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher in long video generation",
+      "based": "Guangzhou, China",
+      "bio": "Researcher affiliated with NVIDIA and HKUST (Guangzhou), first author of LongLive.",
+      "why": "LongLive showed minutes-long, prompt-switchable video in real time.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {},
+      "role_zh": "长视频生成研究者",
+      "bio_zh": "就职于 NVIDIA 与香港科技大学（广州）的研究者，LongLive 第一作者。",
+      "why_zh": "LongLive 展示了可实时切换提示、长达数分钟的视频生成。",
+      "based_zh": "中国广州",
+      "connected_to": [
+        "nvidia"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "akio-kodaira",
+      "name": "Akio Kodaira",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Developer of real-time diffusion pipelines",
+      "based": "Tokyo, Japan",
+      "bio": "Lead author of StreamDiffusion, developed with collaborators including UC Berkeley researchers.",
+      "why": "StreamDiffusion made live camera-feed diffusion practical for artists.",
+      "disciplines": [
+        "ml",
+        "media-art"
+      ],
+      "links": {
+        "github": "https://github.com/cumulo-autumn"
+      },
+      "role_zh": "实时扩散流水线开发者",
+      "bio_zh": "StreamDiffusion 的主要作者，与 UC Berkeley 等研究者合作完成。",
+      "why_zh": "StreamDiffusion 让艺术家能实际使用对实时画面的扩散重绘。",
+      "based_zh": "日本东京",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "lvmin-zhang",
+      "name": "Lvmin Zhang",
+      "name_zh": "张吕敏",
+      "kind": "person",
+      "role": "Researcher in controllable generation",
+      "based": "Stanford, US",
+      "bio": "Stanford PhD researcher, author of ControlNet, IC-Light and FramePack.",
+      "why": "FramePack made minute-long video possible on laptop GPUs.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "github": "https://github.com/lllyasviel"
+      },
+      "role_zh": "可控生成研究者",
+      "bio_zh": "斯坦福博士研究者，ControlNet、IC-Light 与 FramePack 的作者。",
+      "why_zh": "FramePack 让笔记本 GPU 也能生成分钟级视频。",
+      "based_zh": "美国斯坦福",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "jianhong-bai",
+      "name": "Jianhong Bai",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher in camera-controlled video",
+      "based": "Hangzhou, China",
+      "bio": "Zhejiang University researcher who developed ReCamMaster with Kuaishou's Kling team.",
+      "why": "Re-rendering real footage from new viewpoints approaches free-viewpoint video.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://jianhongbai.github.io/"
+      },
+      "role_zh": "镜头可控视频研究者",
+      "bio_zh": "浙江大学研究者，与快手可灵团队合作完成 ReCamMaster。",
+      "why_zh": "从新视角重新渲染真实视频，接近自由视点视频。",
+      "based_zh": "中国杭州",
+      "connected_to": [
+        "kuaishou"
+      ],
+      "discovered_via": "kuaishou"
+    },
+    {
+      "id": "qian-wang",
+      "name": "Qian Wang",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher in panoramic video generation",
+      "based": "Shenzhen, China",
+      "bio": "Peking University (Shenzhen Graduate School) researcher, first author of 360DVD.",
+      "why": "360DVD was among the first text-to-360° video models.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "github": "https://github.com/akaneqwq"
+      },
+      "role_zh": "全景视频生成研究者",
+      "bio_zh": "北京大学深圳研究生院研究者，360DVD 第一作者。",
+      "why_zh": "360DVD 是最早的文本生成 360° 视频模型之一。",
+      "based_zh": "中国深圳",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "jing-tan",
+      "name": "Jing Tan",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher in immersive video generation",
+      "based": "Hong Kong, China",
+      "bio": "CUHK researcher, first author of Imagine360.",
+      "why": "Imagine360 turns ordinary video into 360° video.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "github": "https://github.com/YS-IMTech"
+      },
+      "role_zh": "沉浸式视频生成研究者",
+      "bio_zh": "香港中文大学研究者，Imagine360 第一作者。",
+      "why_zh": "Imagine360 把普通视频变成 360° 视频。",
+      "based_zh": "中国香港",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "sijie-zhao",
+      "name": "Sijie Zhao",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher in stereo video generation",
+      "based": "Shenzhen, China",
+      "bio": "Tencent researcher, co-first author of StereoCrafter.",
+      "why": "StereoCrafter converts 2D video into stereo 3D for headsets.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {},
+      "role_zh": "立体视频生成研究者",
+      "bio_zh": "腾讯研究者，StereoCrafter 共同第一作者。",
+      "why_zh": "StereoCrafter 把 2D 视频转换为头显可用的立体 3D。",
+      "based_zh": "中国深圳",
+      "connected_to": [
+        "tencent-arc"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "guibao-shen",
+      "name": "Guibao Shen",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher in stereo conversion",
+      "based": "Guangzhou, China",
+      "bio": "HKUST (Guangzhou) researcher, first author of StereoPilot, developed during an internship with Kuaishou's Kling team.",
+      "why": "StereoPilot makes generated or recorded video headset-ready in one pass.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {},
+      "role_zh": "立体转换研究者",
+      "bio_zh": "香港科技大学（广州）研究者，StereoPilot 第一作者，该工作在快手可灵团队实习期间完成。",
+      "why_zh": "StereoPilot 一次推理即可让生成或录制的视频适配头显。",
+      "based_zh": "中国广州",
+      "connected_to": [
+        "kuaishou"
+      ],
+      "discovered_via": "kuaishou"
+    },
+    {
+      "id": "ziyi-wu",
+      "name": "Ziyi Wu",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher in generative 3D and video",
+      "based": "Toronto, Canada",
+      "bio": "University of Toronto PhD researcher; first author of 360Anything, done at Google DeepMind.",
+      "why": "360Anything lifts any image or video, including world-model footage, to 360°.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {},
+      "role_zh": "生成式三维与视频研究者",
+      "bio_zh": "多伦多大学博士研究者；360Anything 第一作者，该工作在 Google DeepMind 完成。",
+      "why_zh": "360Anything 能把任意图像或视频（包括世界模型画面）提升为 360°。",
+      "based_zh": "加拿大多伦多",
+      "connected_to": [
+        "google-deepmind"
+      ],
+      "discovered_via": "google-deepmind"
+    },
+    {
+      "id": "shenghai-yuan",
+      "name": "Shenghai Yuan",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher in real-time video generation",
+      "based": "Beijing, China",
+      "bio": "Peking University researcher (Li Yuan's group, with ByteDance), first author of Helios.",
+      "why": "Helios shows real-time generation at 14B-parameter scale.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {},
+      "role_zh": "实时视频生成研究者",
+      "bio_zh": "北京大学研究者（袁粒课题组，与字节跳动合作），Helios 第一作者。",
+      "why_zh": "Helios 展示了 140 亿参数规模的实时生成。",
+      "based_zh": "中国北京",
+      "connected_to": [
+        "bytedance-seed"
+      ],
+      "discovered_via": "xun-huang"
+    }
+  ],
+  "works": [
+    {
+      "id": "openai--sora",
+      "creator_ids": [
+        "openai"
+      ],
+      "title": "Sora",
+      "year": 2024,
+      "date": "2024-02-15",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "persistence",
+        "diversity"
+      ],
+      "kind": "model",
+      "description": "OpenAI's first text-to-video model, previewed in February 2024 with up to one-minute 1080p shots that keep scenes and camera motion consistent; it shipped as a product in December 2024. OpenAI closed the Sora app on 2026-04-26 and the API on 2026-09-24.",
+      "description_zh": "OpenAI 的首个文生视频模型，2024 年 2 月以预览形式发布，展示了长达一分钟、场景与镜头运动保持连贯的 1080p 镜头，2024 年 12 月作为产品上线。OpenAI 已于 2026-04-26 关闭 Sora 应用，并于 2026-09-24 停止 API。",
+      "idea_en": "Made 'video model as world simulator' the field's framing: minute-long shots that keep objects and space mostly consistent, but nothing a person can act in.",
+      "idea_zh": "让“视频模型即世界模拟器”成为整个领域的叙事：一分钟长镜头基本保持物体与空间一致，但人无法在其中行动。",
+      "method": "Diffusion transformer over spacetime patches of a compressed video latent, trained on videos and images of varying duration, resolution and aspect ratio.",
+      "method_zh": "在压缩视频潜空间的时空块（spacetime patches）上训练扩散 Transformer，训练数据为不同时长、分辨率与画幅的视频和图像。",
+      "specs": "up to 60 s · up to 1080p (Feb 2024 preview)",
+      "keywords": [
+        "text-to-video",
+        "diffusion transformer",
+        "spacetime patches",
+        "world simulator",
+        "discontinued 2026"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=HK6y8DAPN_0"
+      },
+      "images": [
+        "https://images.ctfassets.net/kftzwdyauwt9/8264d3d7-922c-4343-dde924eae75b/c9f68101050dc2a6caaac2f434c0da5e/paper-airplanes.jpg?w=1600&h=900&fit=fill"
+      ],
+      "paper": {
+        "url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+        "venue": "OpenAI technical report 2024",
+        "title": "Video generation models as world simulators"
+      },
+      "source_url": "https://openai.com/index/sora/",
+      "collections": [
+        "trend-world-simulators"
+      ]
+    },
+    {
+      "id": "openai--sora-2",
+      "creator_ids": [
+        "openai"
+      ],
+      "title": "Sora 2",
+      "year": 2025,
+      "date": "2025-09-30",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video",
+        "speech",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "behavioral-plausibility",
+        "co-creation"
+      ],
+      "kind": "model",
+      "description": "OpenAI's second video model, launched on 2025-09-30 with a social iOS app; it generates clips with synchronized dialogue and sound effects and can insert 'cameos' of verified users. The app closed on 2026-04-26 and the API on 2026-09-24.",
+      "description_zh": "OpenAI 的第二代视频模型，2025-09-30 随一款社交 iOS 应用发布，可生成带同步对白和音效的片段，并能插入经过验证用户的“客串”（cameo）形象。该应用于 2026-04-26 关闭，API 于 2026-09-24 停止。",
+      "idea_en": "Consented likeness insertion turned a video model into a social medium; its withdrawal within months is a warning for any study that needs a stable model version.",
+      "idea_zh": "经授权的肖像插入把视频模型变成了社交媒介；而它在数月内下线，也提醒需要稳定模型版本的研究注意风险。",
+      "method": "Joint video-and-audio generation; OpenAI reports better physical plausibility (a missed shot rebounds instead of teleporting into the hoop) and multi-shot instruction following; architecture not published.",
+      "method_zh": "音视频联合生成；OpenAI 称物理合理性有所提升（投篮不中会反弹，而不是瞬移进篮筐），并能遵循多镜头指令；架构未公开。",
+      "specs": "synchronized audio · cameos · app 2025-09-30 → closed 2026-04-26",
+      "keywords": [
+        "text-to-video",
+        "native audio",
+        "cameo",
+        "social app",
+        "discontinued 2026"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=lEcg6AJ6DVY"
+      },
+      "images": [
+        "https://images.ctfassets.net/kftzwdyauwt9/1Q8NDmnyavsoPAKDlWpW18/a1f595376097668d1772c9cac40fc8ee/16_x_9____1_.png?w=1600&h=900&fit=fill"
+      ],
+      "source_url": "https://openai.com/index/sora-2/",
+      "collections": [
+        "trend-native-audio"
+      ]
+    },
+    {
+      "id": "google-deepmind--veo",
+      "creator_ids": [
+        "google-deepmind"
+      ],
+      "title": "Veo",
+      "year": 2024,
+      "date": "2024-05-14",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "preview"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "control"
+      ],
+      "kind": "model",
+      "description": "Google DeepMind's first Veo model, announced at Google I/O on 2024-05-14, generating 1080p clips that can run beyond a minute and follow cinematic terms such as 'timelapse' or 'aerial shot'; it first reached selected creators through VideoFX.",
+      "description_zh": "Google DeepMind 首个 Veo 模型，于 2024-05-14 Google I/O 发布，可生成超过一分钟的 1080p 片段，并理解“延时”“航拍”等电影术语；最初只通过 VideoFX 向部分创作者开放。",
+      "idea_en": "Treated film vocabulary as the control interface: you direct a shot with the words a cinematographer would use.",
+      "idea_zh": "把电影语言当作控制接口：用摄影师的术语来指挥一个镜头。",
+      "method": "Latent diffusion transformer conditioned on text, image or video; DeepMind describes it as building on GQN, Phenaki, WALT, VideoPoet and Lumiere.",
+      "method_zh": "以文本、图像或视频为条件的潜空间扩散 Transformer；DeepMind 称其建立在 GQN、Phenaki、WALT、VideoPoet 与 Lumiere 等工作之上。",
+      "specs": "1080p · > 60 s (claimed)",
+      "keywords": [
+        "text-to-video",
+        "cinematic prompting",
+        "VideoFX"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dKAVFLB75xs"
+      },
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO24_Gen_Media_Header_1.width-1300.png"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/google-generative-ai-veo-imagen-3/"
+    },
+    {
+      "id": "google-deepmind--veo-2",
+      "creator_ids": [
+        "google-deepmind"
+      ],
+      "title": "Veo 2",
+      "year": 2024,
+      "date": "2024-12-16",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "api",
+        "product"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "control",
+        "behavioral-plausibility"
+      ],
+      "kind": "model",
+      "description": "Second Veo model (2024-12-16) with better physics and camera control and output up to 4K; DeepMind reported it was preferred over Sora Turbo, Kling and Minimax in human comparisons at launch. It became available in the Gemini API, Gemini app and YouTube Shorts.",
+      "description_zh": "第二代 Veo（2024-12-16），物理表现与镜头控制更好，最高可输出 4K；DeepMind 称其在发布时的人类偏好对比中优于 Sora Turbo、可灵与 MiniMax。后来开放于 Gemini API、Gemini 应用与 YouTube Shorts。",
+      "idea_en": "Lens type and camera moves became reliable prompt parameters, useful when a scenario needs a specific viewpoint.",
+      "idea_zh": "镜头类型和运镜成为可靠的提示参数，适合需要特定视角的情境素材。",
+      "method": "Diffusion-based video model with improved modeling of physics, human motion and cinematography; details not published.",
+      "method_zh": "基于扩散的视频模型，强化了对物理、人体运动与电影摄影的建模；细节未公开。",
+      "specs": "up to 4K · 8 s clips (API)",
+      "keywords": [
+        "text-to-video",
+        "camera control",
+        "physics"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=PEUcCF-jVCI"
+      },
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/12-16-24_GenMedia_16x9.width-1300.png"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/video-image-generation-update-december-2024/",
+      "api_url": "https://ai.google.dev/gemini-api/docs/video"
+    },
+    {
+      "id": "google-deepmind--veo-3",
+      "creator_ids": [
+        "google-deepmind"
+      ],
+      "title": "Veo 3",
+      "year": 2025,
+      "date": "2025-05-20",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video",
+        "speech",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "api",
+        "product"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "situational-reach",
+        "behavioral-plausibility"
+      ],
+      "kind": "model",
+      "description": "Veo 3 (Google I/O, 2025-05-20) generates video together with dialogue, sound effects and ambient sound in one pass, which made talking characters in generated scenes common; a September 2025 DeepMind paper reports it solving perception and physics tasks zero-shot.",
+      "description_zh": "Veo 3（2025-05-20 Google I/O）可一次生成视频及对白、音效和环境声，使生成场景里“会说话的角色”变得普遍；DeepMind 2025 年 9 月的论文称它能零样本完成感知与物理类任务。",
+      "idea_en": "Sound and lip-synced speech arrive with the picture, so a generated scene can carry a social interaction, not just a view.",
+      "idea_zh": "声音与口型同步的语音随画面一起生成，生成场景因此能承载社交互动，而不只是一段画面。",
+      "method": "Joint audio-video diffusion model; the paper 'Video models are zero-shot learners and reasoners' probes it on 62 tasks by prompting alone.",
+      "method_zh": "音视频联合扩散模型；论文《Video models are zero-shot learners and reasoners》仅靠提示就用 62 类任务对其进行测试。",
+      "specs": "8 s · 720p / 1080p · native audio",
+      "keywords": [
+        "text-to-video",
+        "native audio",
+        "lip-sync",
+        "zero-shot reasoning"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=QYnJ3qJ5qJQ"
+      },
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/5.20v2_SS_1920x1080.width-1300.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2509.20328",
+        "arxiv": "2509.20328",
+        "venue": "arXiv 2025",
+        "title": "Video models are zero-shot learners and reasoners"
+      },
+      "source_url": "https://blog.google/innovation-and-ai/products/generative-media-models-io-2025/",
+      "api_url": "https://ai.google.dev/gemini-api/docs/video",
+      "collections": [
+        "trend-native-audio",
+        "trend-world-simulators"
+      ]
+    },
+    {
+      "id": "google-deepmind--veo-3-1",
+      "creator_ids": [
+        "google-deepmind"
+      ],
+      "title": "Veo 3.1",
+      "year": 2025,
+      "date": "2025-10-15",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video",
+        "speech",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "api",
+        "product"
+      ],
+      "lenses": [
+        "control",
+        "perceptual-realism",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Veo 3.1 (2025-10-15) adds richer native audio and stronger prompt adherence to Veo 3, plus 'ingredients to video' (reference images), first-and-last-frame transitions and scene extension to a minute or more, in Flow and the Gemini API.",
+      "description_zh": "Veo 3.1（2025-10-15）在 Veo 3 基础上带来更丰富的原生音频和更好的提示遵循，并在 Flow 与 Gemini API 中提供“素材生成视频”（参考图）、首尾帧过渡，以及延展到一分钟以上的场景扩展。",
+      "idea_en": "Reference images and first/last frames let a researcher hold a character and setting fixed across clips, a first step toward controlled stimulus sets.",
+      "idea_zh": "参考图和首尾帧让研究者能在多个片段中固定同一角色与场景，是迈向可控刺激材料集的第一步。",
+      "method": "Veo 3 successor with reference conditioning, first/last-frame interpolation and extension that continues each new clip from the final second of the previous one.",
+      "method_zh": "Veo 3 的后继版本，支持参考图条件、首尾帧插值，以及从上一段最后一秒接着生成的片段延展。",
+      "specs": "8 s per clip · extend to 60 s+ · 720p / 1080p · native audio",
+      "keywords": [
+        "text-to-video",
+        "image-to-video",
+        "reference images",
+        "native audio",
+        "Flow"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=I06Ef8alr2Y"
+      },
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Veo3.1_Social_v3.width-1300.png"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/veo-updates-flow/",
+      "api_url": "https://ai.google.dev/gemini-api/docs/video",
+      "collections": [
+        "agenda-core",
+        "trend-native-audio"
+      ]
+    },
+    {
+      "id": "google-deepmind--gemini-omni",
+      "creator_ids": [
+        "google-deepmind"
+      ],
+      "title": "Gemini Omni",
+      "year": 2026,
+      "date": "2026-05-19",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video",
+        "speech",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "control",
+        "co-creation",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Google's successor to the Veo line, announced at I/O on 2026-05-19. Its first model, Gemini Omni Flash, takes any mix of text, images, audio and video and generates or conversationally edits video with sound in the Gemini app, Flow, YouTube Shorts and Google Vids; in the Gemini API it entered preview on 2026-06-30 and became generally available as gemini-omni-1.1-flash on 2026-08-27.",
+      "description_zh": "Google 在 2026-05-19 I/O 上发布的 Veo 系列后继。首个模型 Gemini Omni Flash 可接受文本、图像、音频与视频的任意组合，生成带声音的视频或通过对话修改视频，已上线 Gemini 应用、Flow、YouTube Shorts 与 Google Vids；在 Gemini API 中于 2026-06-30 进入预览，2026-08-27 以 gemini-omni-1.1-flash 正式发布（GA）。",
+      "idea_en": "Generation and editing merge into one conversation, so a scenario can be revised shot by shot ('make the bystander turn around') instead of re-rolled.",
+      "idea_zh": "生成与编辑合并为一场对话：情境可以逐镜修改（“让旁观者转过身”），而不必整段重新抽卡。",
+      "method": "Natively multimodal Gemini-family generator that accepts up to three seconds of reference video plus images and audio; DeepMind reports leading human-rater preference for editing and for text-, image- and reference-to-video.",
+      "method_zh": "原生多模态的 Gemini 系列生成模型，可接收最长约 3 秒的参考视频以及图像和音频；DeepMind 称其在编辑以及文生、图生、参考生成视频的人工评测中领先。",
+      "specs": "360p / 720p · 1080p and 4K via upscaling · up to 3 s video reference · API GA 2026-08-27",
+      "keywords": [
+        "any-to-video",
+        "conversational editing",
+        "native audio",
+        "Veo successor",
+        "SynthID"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=KUyRq7szZsM"
+      },
+      "source_url": "https://deepmind.google/models/gemini-omni/",
+      "api_url": "https://ai.google.dev/gemini-api/docs/video",
+      "collections": [
+        "trend-native-audio"
+      ]
+    },
+    {
+      "id": "kuaishou--kling",
+      "creator_ids": [
+        "kuaishou"
+      ],
+      "title": "Kling",
+      "year": 2024,
+      "date": "2024-06-06",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "persistence",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Kuaishou's first Kling model (2024-06-06) was the first Sora-class text-to-video model the public could use, with clips of up to two minutes at 1080p and 30 fps claimed; it opened worldwide in July 2024.",
+      "description_zh": "快手首个可灵模型（2024-06-06）是第一个公众能用上的 Sora 级文生视频模型，官方称可生成最长两分钟、1080p、30 fps 的视频；2024 年 7 月面向全球开放。",
+      "idea_en": "Showed that a Chinese short-video platform could put frontier video generation in millions of users' hands months before OpenAI did.",
+      "idea_zh": "表明一家中国短视频平台能比 OpenAI 早数月把前沿视频生成交到数百万用户手中。",
+      "method": "Diffusion transformer with a 3D VAE and 3D spatiotemporal attention, trained on Kuaishou-scale video data (per Kuaishou).",
+      "method_zh": "快手称其采用扩散 Transformer、3D VAE 与三维时空注意力，并基于快手规模的视频数据训练。",
+      "specs": "up to 2 min · 1080p · 30 fps (claimed)",
+      "keywords": [
+        "text-to-video",
+        "image-to-video",
+        "3D VAE"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=BKNAXS0keoQ"
+      },
+      "source_url": "https://kling.ai/",
+      "api_url": "https://app.klingai.com/global/dev"
+    },
+    {
+      "id": "kuaishou--kling-3",
+      "creator_ids": [
+        "kuaishou"
+      ],
+      "title": "Kling 3.0",
+      "year": 2026,
+      "date": "2026-02-04",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video",
+        "speech",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "behavioral-plausibility",
+        "authoring",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "Kling 3.0 (2026-02-04) generates multi-shot sequences of up to 15 seconds with native audio and multilingual, lip-synced dialogue in which users assign who speaks; 'Omni' variants take reference videos and images to keep characters consistent.",
+      "description_zh": "可灵 3.0（2026-02-04）可生成最长 15 秒的多镜头序列，带原生音频和多语种、口型同步的对白，用户可指定由谁说话；“Omni”版本可用参考视频和图像保持角色一致。",
+      "idea_en": "Directing who speaks and when makes short multi-character dialogue scenes feasible as stimulus material.",
+      "idea_zh": "可以指定谁在何时说话，多人短对话场景因此可以用作刺激材料。",
+      "method": "Successor of the Kling-Omni architecture with joint audio-visual generation and storyboard-style multi-shot planning (per Kuaishou's press release).",
+      "method_zh": "沿用 Kling-Omni 架构，加入音视频联合生成与分镜式多镜头规划（据快手新闻稿）。",
+      "specs": "up to 15 s · multi-shot · speech in EN / ZH / JA / KO / ES",
+      "keywords": [
+        "text-to-video",
+        "native audio",
+        "multi-shot",
+        "dialogue",
+        "Omni reference"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=XD_7FNPhZQY"
+      },
+      "source_url": "https://kling.ai/",
+      "api_url": "https://app.klingai.com/global/dev",
+      "collections": [
+        "trend-native-audio"
+      ]
+    },
+    {
+      "id": "kuaishou--kling-4",
+      "creator_ids": [
+        "kuaishou"
+      ],
+      "title": "Kling 4.0",
+      "year": 2026,
+      "date": "2026-09-28",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video",
+        "speech",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "persistence",
+        "control",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "Kling 4.0, introduced on 2026-09-28 (a Flash version went first to top-tier subscribers), extends single generations to about 30 seconds with keyframe control and stereo sound; broader rollout was reported for 2026-10-16, and it is live on kling.ai as of mid-October 2026.",
+      "description_zh": "可灵 4.0 于 2026-09-28 推出（Flash 版先向高阶订阅用户开放），单次生成延长到约 30 秒，支持关键帧控制和立体声；据报道于 2026-10-16 全面推出，截至 2026 年 10 月中旬已在 kling.ai 上线。",
+      "idea_en": "Thirty-second takes can hold a whole short interaction (approach, exchange, reaction) in one continuous shot.",
+      "idea_zh": "30 秒的长镜头可以在一个连续镜头里容纳一段完整的短互动（接近、交流、反应）。",
+      "method": "Next Kling generation; reported to accept up to 10 keyframe images per clip and to output up to 4K; architecture not published.",
+      "method_zh": "可灵新一代模型；据报道每段最多可用 10 张关键帧图像并输出最高 4K；架构未公开。",
+      "specs": "~30 s per generation · up to 10 keyframes · up to 4K (reported)",
+      "keywords": [
+        "text-to-video",
+        "long take",
+        "keyframes",
+        "native audio",
+        "reported specs"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=nlM7kL3kv_Y"
+      },
+      "source_url": "https://kling.ai/",
+      "collections": [
+        "trend-native-audio"
+      ]
+    },
+    {
+      "id": "runway--gen-2",
+      "creator_ids": [
+        "runway"
+      ],
+      "title": "Gen-2",
+      "year": 2023,
+      "date": "2023-03-20",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "authoring",
+        "diversity"
+      ],
+      "kind": "model",
+      "description": "Runway's Gen-2 (2023-03-20) was the first commercially available text-to-video model, turning a prompt or an image into four-second clips inside a web editor used by filmmakers.",
+      "description_zh": "Runway 的 Gen-2（2023-03-20）是首个商用文生视频模型，可在面向影视创作者的网页编辑器中把一句提示或一张图变成 4 秒短片。",
+      "idea_en": "Put prompt-to-clip generation in the hands of non-engineers two years before it became photorealistic.",
+      "idea_zh": "在视频生成达到照片级真实之前两年，就把“用提示生成片段”交到了非工程师手中。",
+      "method": "Latent video diffusion that extends Runway's Gen-1 structure-and-content model with text and image conditioning.",
+      "method_zh": "潜空间视频扩散模型，在 Runway Gen-1（结构与内容引导）的基础上加入文本和图像条件。",
+      "specs": "4 s clips (at launch)",
+      "keywords": [
+        "text-to-video",
+        "first commercial",
+        "precursor"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=trXPfpV5iRQ"
+      },
+      "images": [
+        "https://runway-static-assets.s3.amazonaws.com/site/images/news/Researchhub_014.jpg"
+      ],
+      "source_url": "https://runwayml.com/research/gen-2"
+    },
+    {
+      "id": "runway--gen-3-alpha",
+      "creator_ids": [
+        "runway"
+      ],
+      "title": "Gen-3 Alpha",
+      "year": 2024,
+      "date": "2024-06-17",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "control"
+      ],
+      "kind": "model",
+      "description": "Gen-3 Alpha (2024-06-17) was the first model trained on Runway's new large-scale multimodal infrastructure, with expressive human characters and fine-grained temporal control; Runway presented it as a step toward 'General World Models'.",
+      "description_zh": "Gen-3 Alpha（2024-06-17）是 Runway 在新的大规模多模态训练设施上训练的第一个模型，人物表情丰富，时间维度的控制更细；Runway 把它定位为迈向“通用世界模型”的一步。",
+      "idea_en": "Framed commercial video generation explicitly as world modeling, a line Runway later carried into its interactive GWM models.",
+      "idea_zh": "明确把商用视频生成定义为世界建模，Runway 后来把这条路线延续到交互式 GWM 模型中。",
+      "method": "Diffusion model trained jointly on videos and images with highly descriptive, temporally dense captions.",
+      "method_zh": "在视频与图像上联合训练的扩散模型，使用描述详细、时间上密集的字幕。",
+      "specs": "10 s · 1280×768",
+      "keywords": [
+        "text-to-video",
+        "general world models",
+        "temporal control"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=nByslCkykj8"
+      },
+      "images": [
+        "https://d3phaj0sisr2ct.cloudfront.net/site/blog/images/research-001.jpg"
+      ],
+      "source_url": "https://runwayml.com/research/introducing-gen-3-alpha",
+      "api_url": "https://docs.dev.runwayml.com/",
+      "collections": [
+        "trend-world-simulators"
+      ]
+    },
+    {
+      "id": "runway--gen-4",
+      "creator_ids": [
+        "runway"
+      ],
+      "title": "Gen-4",
+      "year": 2025,
+      "date": "2025-03-31",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "persistence",
+        "control",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Gen-4 (2025-03-31) keeps characters, objects and locations consistent across shots from a single reference image, so the same person can appear in different lighting and settings.",
+      "description_zh": "Gen-4（2025-03-31）只需一张参考图即可在多个镜头间保持角色、物体与场景一致，同一个人可以出现在不同光照和场景中。",
+      "idea_en": "Identity that holds across shots is what turns isolated clips into a scenario with recurring characters.",
+      "idea_zh": "跨镜头保持身份一致，是把零散片段变成有固定角色的情境的关键。",
+      "method": "Image-to-video diffusion with visual reference conditioning ('References') for identity and style; architecture not published.",
+      "method_zh": "带视觉参考（References）条件的图生视频扩散模型，用参考图约束身份与风格；架构未公开。",
+      "specs": "5 / 10 s · 720p",
+      "keywords": [
+        "image-to-video",
+        "character consistency",
+        "references"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=uRkfzKYFOxc"
+      },
+      "images": [
+        "https://d3phaj0sisr2ct.cloudfront.net/site/content/images/card_gen4post.jpg"
+      ],
+      "source_url": "https://runwayml.com/research/introducing-runway-gen-4",
+      "api_url": "https://docs.dev.runwayml.com/"
+    },
+    {
+      "id": "runway--gen-4-5",
+      "creator_ids": [
+        "runway"
+      ],
+      "title": "Gen-4.5",
+      "year": 2025,
+      "date": "2025-12-01",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "behavioral-plausibility",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "Gen-4.5 (2025-12-01) improves motion quality, physical weight and prompt adherence; Runway reported it ranked first on the Artificial Analysis text-to-video benchmark at launch with 1,247 Elo. Image-to-video followed in early 2026.",
+      "description_zh": "Gen-4.5（2025-12-01）提升了动作质量、物体的重量感与提示遵循；Runway 称其发布时以 1247 Elo 位列 Artificial Analysis 文生视频榜首。图生视频功能于 2026 年初推出。",
+      "idea_en": "The physical plausibility of bodies and objects, more than resolution, became the axis frontier models compete on.",
+      "idea_zh": "前沿模型竞争的重点从分辨率转向身体与物体的物理合理性。",
+      "method": "Runway's next-generation video diffusion model, trained on NVIDIA Hopper and Blackwell GPUs; details not published.",
+      "method_zh": "Runway 新一代视频扩散模型，在 NVIDIA Hopper 与 Blackwell GPU 上训练；细节未公开。",
+      "specs": "#1 Artificial Analysis T2V at launch · 1,247 Elo (Runway claim)",
+      "keywords": [
+        "text-to-video",
+        "motion quality",
+        "leaderboard"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=ei2PsDpPbB4"
+      },
+      "images": [
+        "https://d3phaj0sisr2ct.cloudfront.net/site/images/research/gen/launch-post/card-gen-4.5.png"
+      ],
+      "source_url": "https://runwayml.com/research/introducing-runway-gen-4.5",
+      "api_url": "https://docs.dev.runwayml.com/"
+    },
+    {
+      "id": "luma-ai--dream-machine",
+      "creator_ids": [
+        "luma-ai"
+      ],
+      "title": "Dream Machine",
+      "year": 2024,
+      "date": "2024-06-12",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "authoring",
+        "diversity"
+      ],
+      "kind": "product",
+      "description": "Luma's Dream Machine (2024-06-12) made a high-quality text- and image-to-video model free to try on the web, producing 120-frame clips in about two minutes; it was among the first Sora-class tools open to anyone.",
+      "description_zh": "Luma 的 Dream Machine（2024-06-12）让高质量的文生/图生视频模型可以在网页上免费试用，约两分钟生成 120 帧片段，是最早向所有人开放的 Sora 级工具之一。",
+      "idea_en": "Free public access in mid-2024 turned video generation into something a student could test the same afternoon.",
+      "idea_zh": "2024 年年中的免费公开访问，让学生当天下午就能上手测试视频生成。",
+      "method": "Transformer-based video diffusion model (Luma Ray1) trained directly on video.",
+      "method_zh": "直接在视频上训练的 Transformer 视频扩散模型（Luma Ray1）。",
+      "specs": "5 s · 120 frames",
+      "keywords": [
+        "text-to-video",
+        "image-to-video",
+        "free access"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=Zb3tffmBPRE"
+      },
+      "images": [
+        "https://cdn.sanity.io/images/2ylxvaa2/production/b31d99c8312ed2f74080e118e9d58bf6b2b6e953-1200x630.png?w=1200&h=630&fm=jpg"
+      ],
+      "source_url": "https://lumalabs.ai/dream-machine",
+      "api_url": "https://docs.lumalabs.ai/"
+    },
+    {
+      "id": "luma-ai--ray3",
+      "creator_ids": [
+        "luma-ai"
+      ],
+      "title": "Ray3",
+      "year": 2025,
+      "date": "2025-09-18",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "control"
+      ],
+      "kind": "model",
+      "description": "Ray3 (2025-09-18) is Luma's 'reasoning' video model, which judges and revises its own drafts and can export 16-bit HDR for studio pipelines; Ray3.14 (2026-01-26) moved to native 1080p and Ray3.2 (2026-06-09) added up to 16 keyframes per clip.",
+      "description_zh": "Ray3（2025-09-18）是 Luma 的“推理型”视频模型，会评估并修正自己的草稿，并能导出 16 位 HDR 以接入影视流程；Ray3.14（2026-01-26）改为原生 1080p，Ray3.2（2026-06-09）支持每段最多 16 个关键帧。",
+      "idea_en": "A model that critiques its own drafts hints at generation loops that check a scene against a specification before anyone sees it.",
+      "idea_zh": "会自我审阅草稿的模型，预示着在呈现之前先按规格检查场景的生成闭环。",
+      "method": "Video diffusion model with a multimodal reasoning stage that plans and evaluates generations, trained for HDR output (per Luma).",
+      "method_zh": "Luma 称其在视频扩散模型之上加入多模态推理阶段来规划与评估生成结果，并针对 HDR 输出进行训练。",
+      "specs": "16-bit HDR · draft mode · Ray3.2: up to 16 keyframes",
+      "keywords": [
+        "text-to-video",
+        "HDR",
+        "reasoning",
+        "keyframes"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=z2UIcD2xvsA"
+      },
+      "images": [
+        "https://cdn.sanity.io/images/2ylxvaa2/production/3f83440c074f2a5e161d1975975cafeb73a81a78-1920x1080.png?rect=0,36,1920,1008&w=1200&h=630&fm=jpg"
+      ],
+      "source_url": "https://lumalabs.ai/ray",
+      "api_url": "https://docs.lumalabs.ai/"
+    },
+    {
+      "id": "minimax--hailuo-02",
+      "creator_ids": [
+        "minimax"
+      ],
+      "title": "Hailuo 02",
+      "year": 2025,
+      "date": "2025-06-18",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "behavioral-plausibility",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "MiniMax's Hailuo 02 (2025-06-18) generates native 1080p clips and became known for complex full-body motion such as gymnastics and acrobatics.",
+      "description_zh": "MiniMax 的海螺 02（2025-06-18）可生成原生 1080p 片段，以体操、杂技等复杂全身动作著称。",
+      "idea_en": "Credible full-body motion is a prerequisite for scenes in which bodily behavior is the stimulus.",
+      "idea_zh": "可信的全身动作，是以身体行为作为刺激的情境的前提。",
+      "method": "Noise-aware Compute Redistribution (NCR) architecture that MiniMax says makes training and inference about 2.5x more efficient, with 3x the parameters and 4x the data of Hailuo 01.",
+      "method_zh": "MiniMax 称其采用 NCR（噪声感知计算重分配）架构，训练与推理效率约提升 2.5 倍，参数量为海螺 01 的 3 倍、训练数据为 4 倍。",
+      "specs": "1080p · 6 s / 768p · 10 s",
+      "keywords": [
+        "text-to-video",
+        "image-to-video",
+        "body motion",
+        "physics"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=J18idUz87LA"
+      },
+      "source_url": "https://www.minimax.io/news/minimax-hailuo-02",
+      "api_url": "https://platform.minimax.io/docs"
+    },
+    {
+      "id": "bytedance-seed--seedance-1",
+      "creator_ids": [
+        "bytedance-seed"
+      ],
+      "title": "Seedance 1.0",
+      "year": 2025,
+      "date": "2025-06-11",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "persistence",
+        "perceptual-realism",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "ByteDance Seed's Seedance 1.0 (2025-06-11) generates 1080p multi-shot clips that keep subjects consistent across cuts; ByteDance reported it ranked first in the Artificial Analysis text- and image-to-video arenas after release.",
+      "description_zh": "字节跳动 Seed 的 Seedance 1.0（2025-06-11）可生成 1080p 多镜头片段，切镜后主体保持一致；字节跳动称其发布后在 Artificial Analysis 文生与图生视频竞技场排名第一。",
+      "idea_en": "Native multi-shot storytelling (cut, reverse shot, close-up) in a single generation.",
+      "idea_zh": "一次生成即可完成多镜头叙事（切换、反打、特写）。",
+      "method": "Diffusion transformer with decoupled spatial and temporal layers, multi-source data curation, RLHF and a distillation stack giving about 10x faster inference (per the technical report).",
+      "method_zh": "据技术报告：采用时空解耦层的扩散 Transformer，结合多源数据筛选、RLHF，以及约 10 倍加速的蒸馏推理方案。",
+      "specs": "1080p · 5–10 s · multi-shot",
+      "keywords": [
+        "text-to-video",
+        "multi-shot",
+        "RLHF",
+        "distillation"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=F7wNbB0_uyk"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2506.09113",
+        "arxiv": "2506.09113",
+        "venue": "arXiv 2025",
+        "title": "Seedance 1.0: Exploring the Boundaries of Video Generation Models"
+      },
+      "source_url": "https://seed.bytedance.com/en/seedance"
+    },
+    {
+      "id": "bytedance-seed--seedance-2",
+      "creator_ids": [
+        "bytedance-seed"
+      ],
+      "title": "Seedance 2.0",
+      "year": 2026,
+      "date": "2026-02-12",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video",
+        "speech",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "control",
+        "situational-reach"
+      ],
+      "kind": "model",
+      "description": "Seedance 2.0 (public release in ByteDance's Jimeng and Doubao apps on 2026-02-12; global via BytePlus in April) generates audio and video jointly from any mix of text, image, audio and video references. Press reports say ByteDance paused real-person reference uploads soon after launch; Seedance 2.5 (2026-07-30) extends single generations to 30 seconds.",
+      "description_zh": "Seedance 2.0（2026-02-12 在字节跳动的即梦与豆包中公开上线，4 月经 BytePlus 面向全球）可根据文本、图像、音频和视频参考的任意组合联合生成音视频。据媒体报道，字节跳动在发布后不久暂停了真人参考素材上传；Seedance 2.5（2026-07-30）把单次生成延长到 30 秒。",
+      "idea_en": "Audio, motion and camera references in one prompt give director-level control, and also make consent for likeness a design requirement.",
+      "idea_zh": "在一个提示中同时给出音频、动作和镜头参考，带来导演级的控制，也让肖像授权成为必须的设计要求。",
+      "method": "Unified multimodal audio-video joint generation architecture accepting text, image, audio and video inputs (per the Seedance 2.0 technical report).",
+      "method_zh": "统一的多模态音视频联合生成架构，接受文本、图像、音频与视频输入（据 Seedance 2.0 技术报告）。",
+      "specs": "4–15 s · joint audio-video · Seedance 2.5: up to 30 s",
+      "keywords": [
+        "multimodal reference",
+        "native audio",
+        "Jimeng",
+        "Dreamina",
+        "likeness consent"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=l89woJ0jidw"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2604.14148",
+        "arxiv": "2604.14148",
+        "venue": "arXiv 2026",
+        "title": "Seedance 2.0: Advancing Video Generation for World Complexity"
+      },
+      "source_url": "https://seed.bytedance.com/en/seedance2_0",
+      "collections": [
+        "trend-native-audio"
+      ]
+    },
+    {
+      "id": "shengshu--vidu-q3",
+      "creator_ids": [
+        "shengshu"
+      ],
+      "title": "Vidu Q3",
+      "year": 2026,
+      "date": "2026-02-02",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video",
+        "speech",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "authoring",
+        "persistence"
+      ],
+      "kind": "model",
+      "description": "Vidu Q3 (early February 2026) is Shengshu Technology's audio-visual model, generating clips with synchronized speech and sound and strong reference-to-video consistency. Shengshu launched the Vidu line with Tsinghua University in April 2024 as China's first Sora-class model; Vidu Q4 was in preview in October 2026.",
+      "description_zh": "Vidu Q3（2026 年 2 月初）是生数科技的音视频模型，可生成带同步语音和声音的片段，参考生视频的一致性较强。生数科技于 2024 年 4 月与清华大学推出 Vidu 系列，是国内首个 Sora 级模型；2026 年 10 月 Vidu Q4 处于预览阶段。",
+      "idea_en": "Shows how fast Chinese labs iterate: four major Vidu generations in under two years, each adding reference and audio features.",
+      "idea_zh": "体现了国内团队的迭代速度：不到两年推出四代 Vidu，每代都新增参考生成或音频能力。",
+      "method": "U-ViT diffusion transformer (Tsinghua's architecture) extended to joint audio-visual generation; Q3 details not published.",
+      "method_zh": "基于清华提出的 U-ViT 扩散 Transformer，扩展到音视频联合生成；Q3 细节未公开。",
+      "keywords": [
+        "text-to-video",
+        "reference-to-video",
+        "native audio",
+        "U-ViT"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=QQloL2IW8kA"
+      },
+      "source_url": "https://www.vidu.com/",
+      "api_url": "https://platform.vidu.com/",
+      "collections": [
+        "trend-native-audio"
+      ]
+    },
+    {
+      "id": "pika--pika-1",
+      "creator_ids": [
+        "pika"
+      ],
+      "title": "Pika 1.0",
+      "year": 2023,
+      "date": "2023-11-28",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "authoring",
+        "co-creation"
+      ],
+      "kind": "product",
+      "description": "Pika 1.0 (2023-11-28) turned the Discord-born Pika bot into a web 'idea-to-video' platform with text-to-video, image animation and in-video edits such as region modification and canvas expansion.",
+      "description_zh": "Pika 1.0（2023-11-28）把起家于 Discord 的 Pika 机器人变成网页上的“想法生成视频”平台，提供文生视频、让图片动起来，以及局部修改、画面扩展等视频内编辑。",
+      "idea_en": "An early sign that playful editing features, not raw quality, drive mass adoption of generative video.",
+      "idea_zh": "较早表明推动生成视频大众化的是好玩的编辑功能，而不只是画质。",
+      "method": "Proprietary video diffusion model; later Pika 2.x versions added effects such as Pikaffects and scene ingredients.",
+      "method_zh": "自研视频扩散模型；后续 Pika 2.x 加入了 Pikaffects 特效和场景素材组合等功能。",
+      "keywords": [
+        "text-to-video",
+        "video editing",
+        "consumer app",
+        "precursor"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=6b10jGNNbXQ"
+      },
+      "images": [
+        "https://pika.art/brand/opengraph.png"
+      ],
+      "source_url": "https://pika.art/"
+    },
+    {
+      "id": "midjourney--video-v1",
+      "creator_ids": [
+        "midjourney"
+      ],
+      "title": "Midjourney Video V1",
+      "year": 2025,
+      "date": "2025-06-18",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "image",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "authoring",
+        "diversity"
+      ],
+      "kind": "model",
+      "description": "Midjourney's first video model (2025-06-18) animates any Midjourney image into five-second clips, extendable to about 21 seconds, with automatic or prompted motion.",
+      "description_zh": "Midjourney 首个视频模型（2025-06-18）可把任意 Midjourney 图像做成 5 秒动画，可延展到约 21 秒，运动方式可自动生成或由提示指定。",
+      "idea_en": "Midjourney presents it as a step from its aesthetic image model toward real-time open-world simulation.",
+      "idea_zh": "Midjourney 把它定位为从审美导向的图像模型迈向实时开放世界模拟的一步。",
+      "method": "Image-to-video model with 'low' and 'high' motion settings; architecture not published.",
+      "method_zh": "提供“低/高”两档运动强度的图生视频模型；架构未公开。",
+      "specs": "480p · 5 s, extendable to ~21 s",
+      "keywords": [
+        "image-to-video",
+        "animation",
+        "world simulation goal"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=E9PvSeIO5NY"
+      },
+      "source_url": "https://updates.midjourney.com/introducing-our-v1-video-model/",
+      "collections": [
+        "trend-world-simulators"
+      ]
+    },
+    {
+      "id": "moonvalley--marey",
+      "creator_ids": [
+        "moonvalley"
+      ],
+      "title": "Marey",
+      "year": 2025,
+      "date": "2025-07-08",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "control",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Moonvalley's Marey (public launch July 2025) is trained only on licensed footage and built for filmmakers, with camera, motion and pose controls such as camera-path re-direction and pose transfer.",
+      "description_zh": "Moonvalley 的 Marey（2025 年 7 月公开上线）只用授权素材训练，面向影视创作者，提供镜头路径重设、姿态迁移等镜头与动作控制。",
+      "idea_en": "Licensed-only training data answers the provenance question institutions face before they can use generated footage.",
+      "idea_zh": "仅用授权数据训练，回应了机构使用生成素材前必须面对的数据来源问题。",
+      "method": "Video diffusion model trained on commercially licensed video and co-developed with the animation studio Asteria (per Moonvalley).",
+      "method_zh": "Moonvalley 称其基于商业授权视频训练，并与动画工作室 Asteria 共同开发。",
+      "specs": "1080p · 24 fps",
+      "keywords": [
+        "licensed data",
+        "camera control",
+        "pose transfer",
+        "filmmaking"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=YbhQnzYAIjM"
+      },
+      "source_url": "https://www.moonvalley.com/"
+    },
+    {
+      "id": "meta--movie-gen",
+      "creator_ids": [
+        "meta"
+      ],
+      "title": "Movie Gen",
+      "year": 2024,
+      "date": "2024-10-04",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "control",
+        "authoring"
+      ],
+      "kind": "research",
+      "description": "Meta's Movie Gen (2024-10-04) is a research suite that generates 16-second 1080p video, personalizes it from a photo of a person, edits it by text and adds synchronized sound effects and music; it was not released as a standalone product.",
+      "description_zh": "Meta 的 Movie Gen（2024-10-04）是一套研究模型，可生成 16 秒 1080p 视频，用一张人物照片做个性化，用文字编辑视频，并配上同步音效和音乐；未作为独立产品发布。",
+      "idea_en": "Put personalization, editing and sound into one documented system, with one of the most detailed public technical reports of its generation.",
+      "idea_zh": "把个性化、编辑和声音放进同一个系统，并发布了同代最详细的公开技术报告之一。",
+      "method": "30B-parameter transformer trained with flow matching for video, plus a 13B audio model, described in a 92-page report.",
+      "method_zh": "300 亿参数、以流匹配训练的视频 Transformer，外加 130 亿参数的音频模型，详见 92 页技术报告。",
+      "specs": "30B video · 13B audio · 16 s · 16 fps · 1080p (upsampled)",
+      "keywords": [
+        "text-to-video",
+        "personalization",
+        "video editing",
+        "audio"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=FHSSx4dUs7E"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2410.13720",
+        "arxiv": "2410.13720",
+        "venue": "arXiv 2024",
+        "title": "Movie Gen: A Cast of Media Foundation Models"
+      },
+      "source_url": "https://ai.meta.com/research/movie-gen/",
+      "collections": [
+        "trend-native-audio"
+      ]
+    },
+    {
+      "id": "meta--make-a-video",
+      "creator_ids": [
+        "meta"
+      ],
+      "title": "Make-A-Video",
+      "year": 2022,
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "diversity"
+      ],
+      "kind": "research",
+      "description": "Meta AI's Make-A-Video (2022-09-29) was one of the first text-to-video systems, producing short, low-resolution clips such as a teddy bear painting a portrait, learned without paired text-video data.",
+      "description_zh": "Meta AI 的 Make-A-Video（2022-09-29）是最早的文生视频系统之一，可生成低分辨率短片（如泰迪熊画肖像），且不需要成对的文本-视频数据。",
+      "idea_en": "Showed that motion can be learned from unlabeled video and appearance from captioned images, a recipe many later models reused.",
+      "idea_zh": "证明可以从无标注视频中学习运动、从带字幕的图像中学习外观，这一配方被后来许多模型沿用。",
+      "method": "Extends a text-to-image diffusion model with spatiotemporal convolution and attention layers, frame interpolation and super-resolution.",
+      "method_zh": "在文生图扩散模型上加入时空卷积与注意力层，并配合插帧与超分辨率。",
+      "specs": "16 frames · up to 768×768",
+      "keywords": [
+        "text-to-video",
+        "precursor",
+        "no official video"
+      ],
+      "images": [
+        "https://makeavideo.studio/assets/A_teddy_bear_painting_a_portrait-sm.gif"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2209.14792",
+        "arxiv": "2209.14792",
+        "venue": "ICLR 2023",
+        "title": "Make-A-Video: Text-to-Video Generation without Text-Video Data"
+      },
+      "source_url": "https://makeavideo.studio/",
+      "collections": [
+        "ml-conf"
+      ]
+    },
+    {
+      "id": "google--imagen-video",
+      "creator_ids": [
+        "google"
+      ],
+      "title": "Imagen Video",
+      "year": 2022,
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "Google Research's Imagen Video (2022-10-05) generated 5.3-second clips at 1280×768 and 24 fps from text, the highest-fidelity text-to-video results of its time; it was never released.",
+      "description_zh": "Google Research 的 Imagen Video（2022-10-05）可从文字生成 5.3 秒、1280×768、24 fps 的片段，是当时保真度最高的文生视频结果，但从未公开发布。",
+      "idea_en": "Cascaded diffusion showed high resolution was reachable, at the cost of chaining seven models.",
+      "idea_zh": "级联扩散证明了高分辨率可以实现，代价是串联七个模型。",
+      "method": "Cascade of seven video diffusion models (a base model plus three spatial and three temporal super-resolution stages) conditioned on a T5-XXL text encoder.",
+      "method_zh": "由七个视频扩散模型组成的级联（基础模型加 3 个空间超分和 3 个时间超分阶段），以 T5-XXL 文本编码为条件。",
+      "specs": "1280×768 · 24 fps · 128 frames",
+      "keywords": [
+        "text-to-video",
+        "cascaded diffusion",
+        "precursor"
+      ],
+      "video": {
+        "url": "https://imagen.research.google/video/videos/leaves.mp4"
+      },
+      "images": [
+        "https://imagen.research.google/video/leaves.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2210.02303",
+        "arxiv": "2210.02303",
+        "venue": "arXiv 2022",
+        "title": "Imagen Video: High Definition Video Generation with Diffusion Models"
+      },
+      "source_url": "https://imagen.research.google/video/"
+    },
+    {
+      "id": "google--lumiere",
+      "creator_ids": [
+        "google"
+      ],
+      "title": "Lumiere",
+      "year": 2024,
+      "date": "2024-01-23",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "behavioral-plausibility",
+        "control"
+      ],
+      "kind": "research",
+      "description": "Google Research's Lumiere (2024-01-23) generates a clip's whole duration in one pass instead of keyframes plus interpolation, giving more coherent motion; demos included stylized generation, cinemagraphs and video inpainting.",
+      "description_zh": "Google Research 的 Lumiere（2024-01-23）一次性生成整段时长，而不是先生成关键帧再插帧，因此运动更连贯；演示包括风格化生成、动态照片（cinemagraph）和视频修补。",
+      "idea_en": "Global temporal coherence beats stitched keyframes for motion that has to look physically continuous.",
+      "idea_zh": "对需要在物理上看起来连续的运动而言，整体的时间一致性胜过拼接关键帧。",
+      "method": "Space-Time U-Net (STUNet) that downsamples in both space and time, built on a pretrained text-to-image diffusion model.",
+      "method_zh": "在预训练文生图扩散模型上构建的时空 U-Net（STUNet），在空间和时间两个维度同时下采样。",
+      "specs": "80 frames · 16 fps · 5 s",
+      "keywords": [
+        "text-to-video",
+        "space-time U-Net",
+        "precursor"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=f9ThAzZs32M"
+      },
+      "images": [
+        "https://lumiere-video.github.io/images/lumiere_frame_poster.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2401.12945",
+        "arxiv": "2401.12945",
+        "venue": "SIGGRAPH Asia 2024",
+        "title": "Lumiere: A Space-Time Diffusion Model for Video Generation"
+      },
+      "source_url": "https://lumiere-video.github.io/",
+      "collections": [
+        "siggraph"
+      ]
+    },
+    {
+      "id": "alibaba-tongyi--wan-3",
+      "creator_ids": [
+        "alibaba-tongyi"
+      ],
+      "title": "Wan 3.0",
+      "year": 2026,
+      "date": "2026-08-06",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video",
+        "speech",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "preview",
+        "api"
+      ],
+      "lenses": [
+        "persistence",
+        "authoring",
+        "control"
+      ],
+      "kind": "model",
+      "description": "Wan 3.0 entered public beta on Alibaba Cloud on 2026-08-06; unlike the open Wan 2.1 and 2.2 it is closed and API-only, and it takes text, image, video and audio in one prompt. Wan 2.5 (2025-09) and Wan 2.6 (2025-12) had already added native audio and reference casting.",
+      "description_zh": "通义万相 Wan 3.0 于 2026-08-06 在阿里云开启公测；与开源的 Wan 2.1、2.2 不同，它闭源、仅提供 API，可在一个提示中同时接收文本、图像、视频和音频。此前 Wan 2.5（2025 年 9 月）和 Wan 2.6（2025 年 12 月）已加入原生音频与参考角色功能。",
+      "idea_en": "Even the leading open-weight video lab now keeps its newest flagship closed, so open Wan models trail by a generation.",
+      "idea_zh": "就连最重要的开源视频团队也开始把最新旗舰闭源，开源的 Wan 模型因此落后一代。",
+      "method": "Multimodal audio-video generation model served through Alibaba Cloud Model Studio; architecture and weights not published as of October 2026.",
+      "method_zh": "通过阿里云百炼提供服务的多模态音视频生成模型；截至 2026 年 10 月，架构与权重均未公开。",
+      "specs": "up to 30 s · 1080p (reported)",
+      "keywords": [
+        "text-to-video",
+        "native audio",
+        "closed weights",
+        "public beta"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dC5pu8zL2p8"
+      },
+      "images": [
+        "https://img.alicdn.com/imgextra/i1/O1CN01WlNesT1EWvfm8mzKw_!!6000000000360-2-tps-600-315.png"
+      ],
+      "source_url": "https://wan.video/",
+      "api_url": "https://www.alibabacloud.com/help/en/model-studio/",
+      "collections": [
+        "trend-native-audio"
+      ]
+    },
+    {
+      "id": "kuaishou--kling-o1",
+      "creator_ids": [
+        "kuaishou"
+      ],
+      "title": "Kling O1",
+      "year": 2025,
+      "date": "2025-12-01",
+      "field": "video",
+      "sub": "control",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "control",
+        "co-creation",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Kling O1 (2025-12-01), billed as the first unified video model, handles generation, reference-based creation and video editing (swapping subjects, restyling, changing shots) within one multimodal prompt.",
+      "description_zh": "可灵 O1（2025-12-01）号称首个统一视频模型，在一个多模态提示中同时完成生成、基于参考的创作和视频编辑（替换主体、改变风格、更换镜头）。",
+      "idea_en": "A single model that both shoots and edits means a scene can be iterated by instruction while the characters stay fixed.",
+      "idea_zh": "一个模型同时负责“拍摄”和“剪辑”，场景可以按指令迭代，而角色保持不变。",
+      "method": "Multimodal visual-language backbone driving a diffusion video generator, described in the Kling-Omni technical report.",
+      "method_zh": "多模态视觉-语言主干驱动扩散视频生成器，详见 Kling-Omni 技术报告。",
+      "keywords": [
+        "unified model",
+        "video editing",
+        "reference-to-video",
+        "Kling-Omni"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=V_oiFFTpxHs"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2512.16776",
+        "arxiv": "2512.16776",
+        "venue": "arXiv 2025",
+        "title": "Kling-Omni Technical Report"
+      },
+      "source_url": "https://kling.ai/",
+      "api_url": "https://app.klingai.com/global/dev"
+    },
+    {
+      "id": "runway--aleph",
+      "creator_ids": [
+        "runway"
+      ],
+      "title": "Runway Aleph",
+      "year": 2025,
+      "date": "2025-07-25",
+      "field": "video",
+      "sub": "control",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "video",
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "control",
+        "co-creation",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Aleph (2025-07-25) is Runway's in-context video editing model: given existing footage it adds or removes objects, changes lighting, weather or season, restyles the clip, or renders a new camera angle of the same scene; Aleph 2.0 followed on 2026-05-21.",
+      "description_zh": "Aleph（2025-07-25）是 Runway 的上下文视频编辑模型：给定已有画面，它能增删物体，改变光照、天气或季节，转换风格，或为同一场景生成新的机位；Aleph 2.0 于 2026-05-21 发布。",
+      "idea_en": "Editing real footage by instruction lets a researcher change one factor (lighting, a prop, the weather) while the rest of a recorded scene stays the same.",
+      "idea_zh": "按指令编辑真实视频，研究者可以只改变一个因素（光照、道具、天气），而录制场景的其余部分保持不变。",
+      "method": "In-context video model conditioned on the input clip plus text or image instructions; architecture not published.",
+      "method_zh": "以输入视频加文本或图像指令为条件的上下文视频模型；架构未公开。",
+      "keywords": [
+        "video-to-video",
+        "video editing",
+        "novel view",
+        "relighting"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=KUHx-2uz_qI"
+      },
+      "images": [
+        "https://d3phaj0sisr2ct.cloudfront.net/site/content/images/rw-card-aleph.jpg"
+      ],
+      "source_url": "https://runwayml.com/research/introducing-runway-aleph",
+      "api_url": "https://docs.dev.runwayml.com/"
+    },
+    {
+      "id": "runway--act-two",
+      "creator_ids": [
+        "runway"
+      ],
+      "title": "Act-Two",
+      "year": 2025,
+      "date": "2025-07-15",
+      "field": "video",
+      "sub": "control",
+      "modalities": [
+        "flat-video",
+        "avatar"
+      ],
+      "inputs": [
+        "video",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "control",
+        "behavioral-plausibility",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Act-Two (2025-07-15) transfers an actor's recorded performance (face, head, body and hands) onto any character image or video; it succeeds Act-One (2024-10), which animated faces only.",
+      "description_zh": "Act-Two（2025-07-15）可把演员录制的表演（面部、头部、身体与手部）迁移到任意角色图像或视频上，是只驱动面部的 Act-One（2024 年 10 月）的后继。",
+      "idea_en": "A recorded human performance becomes the control signal: behavior is scripted by acting it once and re-cast onto many characters.",
+      "idea_zh": "人的表演录像成为控制信号：只需演一遍，就能把同一段行为套到许多不同角色身上。",
+      "method": "Performance-driven video generation from a driving video and a character reference; architecture not published.",
+      "method_zh": "以驱动视频与角色参考为输入的表演驱动视频生成；架构未公开。",
+      "keywords": [
+        "performance capture",
+        "motion transfer",
+        "character animation",
+        "Act-One"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=JW8PHlFD7HM"
+      },
+      "source_url": "https://runwayml.com/research",
+      "api_url": "https://docs.dev.runwayml.com/"
+    },
+    {
+      "id": "alibaba-tongyi--vace",
+      "creator_ids": [
+        "alibaba-tongyi"
+      ],
+      "title": "VACE",
+      "year": 2025,
+      "date": "2025-03-10",
+      "field": "video",
+      "sub": "control",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "video",
+        "image",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "control",
+        "authoring"
+      ],
+      "kind": "open-source",
+      "description": "VACE (paper 2025-03-10; open weights on Wan 2.1 in May 2025) is Alibaba's all-in-one model for reference-to-video, video-to-video and masked editing: move, swap, expand or animate anything in a clip with one network.",
+      "description_zh": "VACE（论文 2025-03-10；2025 年 5 月基于 Wan 2.1 开源权重）是阿里巴巴的一体化模型，涵盖参考生视频、视频到视频和遮罩编辑：用同一个网络移动、替换、扩展或驱动片段中的任意对象。",
+      "idea_en": "Combining pose, depth, mask and reference conditions in one open model gives labs fine-grained, reproducible control over generated stimuli.",
+      "idea_zh": "在一个开源模型中组合姿态、深度、遮罩与参考条件，实验室可以对生成刺激进行细粒度、可复现的控制。",
+      "method": "A Video Condition Unit packs text, frames and masks into one input that is injected into a diffusion transformer through context adapters.",
+      "method_zh": "用视频条件单元（VCU）把文本、帧和遮罩打包成统一输入，经上下文适配器（Context Adapter）注入扩散 Transformer。",
+      "specs": "1.3B / 14B (Wan 2.1-based)",
+      "keywords": [
+        "video editing",
+        "reference-to-video",
+        "masked editing",
+        "open weights"
+      ],
+      "video": {
+        "url": "https://ali-vilab.github.io/VACE-Page/assets/videos/SwapAnything_1.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2503.07598",
+        "arxiv": "2503.07598",
+        "venue": "ICCV 2025",
+        "title": "VACE: All-in-One Video Creation and Editing"
+      },
+      "source_url": "https://ali-vilab.github.io/VACE-Page/",
+      "code_url": "https://github.com/ali-vilab/VACE",
+      "collections": [
+        "iccv-eccv",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "alibaba-tongyi--wan-animate",
+      "creator_ids": [
+        "alibaba-tongyi"
+      ],
+      "title": "Wan-Animate",
+      "year": 2025,
+      "date": "2025-09-17",
+      "field": "video",
+      "sub": "control",
+      "modalities": [
+        "flat-video",
+        "avatar"
+      ],
+      "inputs": [
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "behavioral-plausibility",
+        "control"
+      ],
+      "kind": "open-source",
+      "description": "Wan-Animate (2025-09) animates a character image with the body motion and facial expressions of a driving video, or replaces the person in the video with that character while matching the scene's lighting; weights are open as Wan2.2-Animate-14B.",
+      "description_zh": "Wan-Animate（2025 年 9 月）可用驱动视频中的身体动作与面部表情来驱动一张角色图，或把视频中的人替换成该角色并匹配场景光照；权重以 Wan2.2-Animate-14B 开源。",
+      "idea_en": "Open-weight performance transfer: any recorded actor can drive any character on a lab's own GPUs.",
+      "idea_zh": "开源的表演迁移：任何录下的演员表演，都能在实验室自己的 GPU 上驱动任意角色。",
+      "method": "Built on Wan 2.2, with skeleton signals for body motion, implicit facial features for expression and a relighting LoRA for character replacement.",
+      "method_zh": "基于 Wan 2.2，用骨架信号控制身体动作，用隐式面部特征控制表情，并用重光照 LoRA 完成角色替换。",
+      "specs": "14B",
+      "keywords": [
+        "character animation",
+        "character replacement",
+        "motion transfer",
+        "open weights"
+      ],
+      "video": {
+        "url": "https://humanaigc.github.io/wan-animate/content/aa/rep_shots.mp4"
+      },
+      "images": [
+        "https://humanaigc.github.io/wan-animate/content/aa/arch.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2509.14055",
+        "arxiv": "2509.14055",
+        "venue": "arXiv 2025",
+        "title": "Wan-Animate: Unified Character Animation and Replacement with Holistic Replication"
+      },
+      "source_url": "https://humanaigc.github.io/wan-animate/",
+      "code_url": "https://huggingface.co/Wan-AI/Wan2.2-Animate-14B",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "jianhong-bai--recammaster",
+      "creator_ids": [
+        "jianhong-bai",
+        "kuaishou"
+      ],
+      "title": "ReCamMaster",
+      "year": 2025,
+      "date": "2025-03-14",
+      "field": "video",
+      "sub": "control",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "video",
+        "camera"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "control",
+        "situational-reach"
+      ],
+      "kind": "research",
+      "description": "ReCamMaster (2025-03-14, Zhejiang University with Kuaishou's Kling team) re-renders an existing video along a new camera trajectory, producing the same dynamic scene from a different viewpoint.",
+      "description_zh": "ReCamMaster（2025-03-14，浙江大学与快手可灵团队）可沿新的镜头轨迹重新渲染已有视频，从不同视角呈现同一动态场景。",
+      "idea_en": "Re-shooting a recorded event from a new angle is a step toward free-viewpoint video without 3D capture.",
+      "idea_zh": "从新角度“重拍”已录下的事件，是不经三维采集就迈向自由视点视频的一步。",
+      "method": "Conditions a pretrained text-to-video model on the source video by frame-dimension concatenation, trained on a synchronized multi-camera dataset rendered in Unreal Engine 5.",
+      "method_zh": "在帧维度拼接源视频，以此条件化预训练文生视频模型；训练数据是用虚幻引擎 5 渲染的多机位同步数据集。",
+      "keywords": [
+        "camera control",
+        "novel view synthesis",
+        "video re-rendering"
+      ],
+      "video": {
+        "url": "https://jianhongbai.github.io/ReCamMaster/videos/ReCamMaster/TEASER_compressed.mp4"
+      },
+      "images": [
+        "https://jianhongbai.github.io/ReCamMaster/pics/fig_pipe.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2503.11647",
+        "arxiv": "2503.11647",
+        "venue": "arXiv 2025",
+        "title": "ReCamMaster: Camera-Controlled Generative Rendering from A Single Video"
+      },
+      "source_url": "https://jianhongbai.github.io/ReCamMaster/",
+      "code_url": "https://github.com/KwaiVGI/ReCamMaster"
+    }
+  ],
+  "leads": [
+    {
+      "name": "Grok Imagine (xAI)",
+      "why": "Frontier video model with audio that Google benchmarks Gemini Omni against; no official launch video found on YouTube, X post id not located.",
+      "link": "https://x.ai/",
+      "found_via": "google-deepmind",
+      "status": "no_media"
+    },
+    {
+      "name": "Seedance 2.5",
+      "why": "30-second audio-video generation (global launch 2026-07-30); folded into the Seedance 2.0 entry.",
+      "link": "https://seed.bytedance.com/en/seedance2_5",
+      "found_via": "bytedance-seed",
+      "status": "duplicate"
+    },
+    {
+      "name": "Kling 2.5 Turbo / Kling 2.6",
+      "why": "Kling releases of 2025-09-23 and 2025-12 (native audio); not separate entries.",
+      "link": "https://www.youtube.com/watch?v=ZqxP616nvIE",
+      "found_via": "kuaishou",
+      "status": "duplicate"
+    },
+    {
+      "name": "Luma Ray2 / Ray3.14 / Ray3.2",
+      "why": "Luma point releases (2025-01-15, 2026-01-26, 2026-06-09); covered in the Ray3 entry.",
+      "link": "https://lumalabs.ai/ray",
+      "found_via": "luma-ai",
+      "status": "duplicate"
+    },
+    {
+      "name": "Wan 2.5 / Wan 2.6",
+      "why": "First closed Wan releases with native audio (2025-09 preview, 2025-12-16); covered in the Wan 3.0 entry.",
+      "link": "https://www.youtube.com/watch?v=Rq8gjZgV-jg",
+      "found_via": "alibaba-tongyi",
+      "status": "duplicate"
+    },
+    {
+      "name": "Runway Aleph 2.0",
+      "why": "2026-05-21 update of Aleph; covered in the Aleph entry.",
+      "link": "https://www.youtube.com/watch?v=8vAqhBxCxc0",
+      "found_via": "runway",
+      "status": "duplicate"
+    },
+    {
+      "name": "Decart Lucy 2.5",
+      "why": "2026-07-16 update of Lucy; covered in the Lucy 2 entry.",
+      "link": "https://decart.ai/publications/lucy-2-5-raising-the-bar-for-live-ai",
+      "found_via": "decart",
+      "status": "duplicate"
+    },
+    {
+      "name": "PixVerse R1",
+      "why": "Real-time streaming video model (2026-01-13); added by the world-models batch as pixverse--r1.",
+      "link": "https://www.youtube.com/watch?v=vPPpEagyUw8",
+      "found_via": "seed",
+      "status": "duplicate"
+    },
+    {
+      "name": "PixVerse R2",
+      "why": "Real-time 'world model that responds to you', 2026-09-23; candidate for a separate entry next round.",
+      "link": "https://www.youtube.com/watch?v=PEGqOLcdVIs",
+      "found_via": "pixverse",
+      "status": "open"
+    },
+    {
+      "name": "Vidu Q4 (preview)",
+      "why": "Shengshu flagship in preview as of October 2026.",
+      "link": "https://www.youtube.com/watch?v=DJ9lo6Nc0Qk",
+      "found_via": "shengshu",
+      "status": "open"
+    },
+    {
+      "name": "LTX-2.5",
+      "why": "Lightricks 22B open audio-video model (2026-08-11), marketed as an 'open world model'; covered briefly in LTX-2.",
+      "link": "https://www.youtube.com/watch?v=ZDfjZae7Da0",
+      "found_via": "lightricks",
+      "status": "open"
+    },
+    {
+      "name": "Runway GWM Worlds 2",
+      "why": "Real-time interactive simulation from video and audio generation (2026-09-03); belongs to world-models.",
+      "link": "https://runwayml.com/research",
+      "found_via": "runway",
+      "status": "off_topic"
+    },
+    {
+      "name": "Open-Sora 2.0",
+      "why": "Open 11B model trained for about $200k (arXiv 2503.09642); only GIF demos, no official video.",
+      "link": "https://github.com/hpcaitech/Open-Sora",
+      "found_via": "seed",
+      "status": "no_media"
+    },
+    {
+      "name": "AnimateDiff",
+      "why": "Widely used 2023 motion module for personalized text-to-image models (arXiv 2307.04725).",
+      "link": "https://animatediff.github.io/",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "Diffusion Forcing",
+      "why": "Per-token noise training (arXiv 2407.01392) underlying SkyReels-V2, MirageLSD and many world models; may fit world-models.",
+      "link": "https://boyuan.space/diffusion-forcing/",
+      "found_via": "xun-huang",
+      "status": "open"
+    },
+    {
+      "name": "Rolling Forcing",
+      "why": "Real-time autoregressive long video with joint denoising windows (Tencent ARC, arXiv 2509.25161).",
+      "link": "https://kunhao-liu.github.io/Rolling_Forcing_Webpage/",
+      "found_via": "tencent-arc",
+      "status": "open"
+    },
+    {
+      "name": "Self-Forcing++",
+      "why": "Minute-scale extension of Self Forcing (arXiv 2510.02283).",
+      "link": "https://arxiv.org/abs/2510.02283",
+      "found_via": "xun-huang",
+      "status": "open"
+    },
+    {
+      "name": "StreamDiffusionV2",
+      "why": "Streaming system for live video diffusion (arXiv 2511.07399); mentioned in the StreamDiffusion entry.",
+      "link": "https://streamdiffusionv2.github.io/",
+      "found_via": "akio-kodaira",
+      "status": "open"
+    },
+    {
+      "name": "Visko Orbis 1.0",
+      "why": "Live model for real-time interactive long video (arXiv 2607.26694); unverified beyond the paper.",
+      "link": "https://arxiv.org/abs/2607.26694",
+      "found_via": "shenghai-yuan",
+      "status": "open"
+    },
+    {
+      "name": "Reka real-time video generation",
+      "why": "Closed-beta streaming 720p/24 fps video reported for 2026-09; no official page confirmed.",
+      "link": "https://reka.ai/",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "Krea 3",
+      "why": "Krea's next model in early access as of mid-October 2026.",
+      "link": "https://www.krea.ai/",
+      "found_via": "krea",
+      "status": "open"
+    },
+    {
+      "name": "VidPanos",
+      "why": "Generative panoramic videos from casual panning videos (Google DeepMind, SIGGRAPH Asia 2024, arXiv 2410.13832).",
+      "link": "https://vidpanos.github.io/",
+      "found_via": "google-deepmind",
+      "status": "open"
+    },
+    {
+      "name": "VideoPanda",
+      "why": "NVIDIA 360° video diffusion with multi-view attention (arXiv 2504.11389).",
+      "link": "https://research.nvidia.com/labs/toronto-ai/VideoPanda/",
+      "found_via": "nvidia",
+      "status": "open"
+    },
+    {
+      "name": "PanoWan",
+      "why": "Lifts diffusion video models to 360° (NeurIPS 2025, arXiv 2505.22016); project page has no extractable media.",
+      "link": "https://panowan.variantconst.com",
+      "found_via": "qian-wang",
+      "status": "no_media"
+    },
+    {
+      "name": "PanoWorld",
+      "why": "Geometry-consistent panoramic video world modeling (arXiv 2605.15391); no project page found.",
+      "link": "https://arxiv.org/abs/2605.15391",
+      "found_via": "qian-wang",
+      "status": "no_media"
+    },
+    {
+      "name": "StereoWorld",
+      "why": "Geometry-aware monocular-to-stereo video generation (CVPR 2026, arXiv 2512.09363).",
+      "link": "https://ke-xing.github.io/StereoWorld/",
+      "found_via": "guibao-shen",
+      "status": "open"
+    },
+    {
+      "name": "Eye2Eye",
+      "why": "Simple monocular-to-stereo video synthesis with a video diffusion model (arXiv 2505.00135).",
+      "link": "https://arxiv.org/abs/2505.00135",
+      "found_via": "sijie-zhao",
+      "status": "open"
+    },
+    {
+      "name": "S²VG",
+      "why": "3D stereoscopic and spatial video generation via a denoising frame matrix (arXiv 2508.08048).",
+      "link": "https://arxiv.org/abs/2508.08048",
+      "found_via": "sijie-zhao",
+      "status": "open"
+    },
+    {
+      "name": "Immersity (Leia)",
+      "why": "2D-to-3D conversion platform for images, video and games on 3D displays and headsets (CES 2026).",
+      "link": "https://www.youtube.com/watch?v=17jYGizSh1c",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "Google Flow",
+      "why": "Google Labs filmmaking tool built on Veo and Gemini Omni; product wrapper, possibly infra.",
+      "link": "https://labs.google/flow",
+      "found_via": "google-deepmind",
+      "status": "off_topic"
+    },
+    {
+      "name": "Adobe Firefly Video",
+      "why": "Commercially safe video model in Adobe Firefly and Premiere.",
+      "link": "https://firefly.adobe.com/",
+      "found_via": "adobe",
+      "status": "open"
+    },
+    {
+      "name": "Hailuo video-01 (MiniMax, 2024-08-31)",
+      "why": "First Hailuo video model; no official launch video found, superseded by Hailuo 02.",
+      "link": "https://hailuoai.video/",
+      "found_via": "minimax",
+      "status": "no_media"
+    },
+    {
+      "name": "Vidu (2024-04-27)",
+      "why": "Original Vidu launch, China's first Sora-class model; no official launch video found.",
+      "link": "https://www.vidu.com/",
+      "found_via": "shengshu",
+      "status": "no_media"
+    },
+    {
+      "name": "HoloTime",
+      "why": "Panoramic 4D scene generation from video diffusion (arXiv 2504.21650); belongs to worlds-3d or spatial-4d.",
+      "link": "https://arxiv.org/abs/2504.21650",
+      "found_via": "qian-wang",
+      "status": "off_topic"
+    },
+    {
+      "name": "H3-World",
+      "why": "World control built on MiniMax H3 (arXiv 2609.01560); belongs to world-models.",
+      "link": "https://arxiv.org/abs/2609.01560",
+      "found_via": "minimax",
+      "status": "off_topic"
+    }
+  ]
+}

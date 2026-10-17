@@ -1,0 +1,66 @@
+{
+ "openai--videos-api-sora-2": {
+  "zh": "OpenAI 视频 API（Sora 2）",
+  "src": "translated"
+ },
+ "google--gemini-api-video": {
+  "zh": "Gemini API 视频生成（Veo / Omni）",
+  "src": "translated"
+ },
+ "kuaishou--kling-api": {
+  "zh": "可灵 AI 开放平台 API",
+  "src": "original"
+ },
+ "volcano-engine--ark": {
+  "zh": "火山方舟 / BytePlus ModelArk",
+  "src": "original"
+ },
+ "openai--realtime-api": {
+  "zh": "OpenAI Realtime API 与 GPT-Live",
+  "src": "keep"
+ },
+ "agora--conversational-ai-engine": {
+  "zh": "声网对话式 AI 引擎",
+  "src": "original"
+ },
+ "unity--ai-tools": {
+  "zh": "Unity AI 工具",
+  "src": "translated"
+ },
+ "nvidia--omniverse-nurec": {
+  "zh": "NVIDIA Omniverse NuRec 神经重建",
+  "src": "translated"
+ },
+ "roblox--build-ai-creation": {
+  "zh": "Roblox Build 与 AI 创作工具",
+  "src": "translated"
+ },
+ "w3c--webxr-device-api": {
+  "zh": "WebXR 设备 API",
+  "src": "translated"
+ },
+ "meta--immersive-web-sdk": {
+  "zh": "Immersive Web SDK（沉浸式网页 SDK）",
+  "src": "translated"
+ },
+ "khronos-group--gltf-gaussian-splatting": {
+  "zh": "glTF 高斯泼溅扩展（KHR_gaussian_splatting）",
+  "src": "translated"
+ },
+ "snap--specs": {
+  "zh": "SPECS（Snap 消费级 AR 眼镜）",
+  "src": "translated"
+ },
+ "lmarena--video-arena": {
+  "zh": "Arena 视频竞技场",
+  "src": "translated"
+ },
+ "artificial-analysis--video-arena": {
+  "zh": "Artificial Analysis 视频竞技场",
+  "src": "translated"
+ },
+ "dylan-ebert--3d-arena": {
+  "zh": "3D 竞技场（3D Arena）",
+  "src": "translated"
+ }
+}

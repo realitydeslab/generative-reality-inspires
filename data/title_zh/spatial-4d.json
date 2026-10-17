@@ -1,0 +1,102 @@
+{
+  "ben-mildenhall--nerf": {
+    "zh": "NeRF 神经辐射场",
+    "src": "established"
+  },
+  "thomas-muller--instant-ngp": {
+    "zh": "Instant NGP 即时神经图形基元",
+    "src": "translated"
+  },
+  "bernhard-kerbl--3d-gaussian-splatting": {
+    "zh": "3D 高斯泼溅",
+    "src": "established"
+  },
+  "bernhard-kerbl--hierarchical-3dgs": {
+    "zh": "面向超大数据集的层级 3D 高斯",
+    "src": "translated"
+  },
+  "binbin-huang--2d-gaussian-splatting": {
+    "zh": "2D 高斯泼溅",
+    "src": "translated"
+  },
+  "nicolas-moenne-loccoz--3dgrt": {
+    "zh": "3D 高斯光线追踪（3DGRT）",
+    "src": "translated"
+  },
+  "tianye-li--neural-3d-video": {
+    "zh": "神经三维视频合成（DyNeRF）",
+    "src": "translated"
+  },
+  "jonathon-luiten--dynamic-3d-gaussians": {
+    "zh": "动态 3D 高斯",
+    "src": "translated"
+  },
+  "guanjun-wu--4d-gaussian-splatting": {
+    "zh": "4D 高斯泼溅（4DGS）",
+    "src": "established"
+  },
+  "zhan-li--spacetime-gaussians": {
+    "zh": "时空高斯",
+    "src": "translated"
+  },
+  "qianqian-wang--shape-of-motion": {
+    "zh": "Shape of Motion：单视频 4D 重建",
+    "src": "translated"
+  },
+  "uriel-singer--mav3d": {
+    "zh": "MAV3D 文本生成 4D 动态场景",
+    "src": "translated"
+  },
+  "stability-ai--sv4d": {
+    "zh": "Stable Video 4D（SV4D）",
+    "src": "keep"
+  },
+  "alvaro-collet--free-viewpoint-video": {
+    "zh": "高质量可流式自由视角视频",
+    "src": "translated"
+  },
+  "google--google-beam": {
+    "zh": "Google Beam 三维视频通话",
+    "src": "translated"
+  },
+  "4dv-ai--4d-video": {
+    "zh": "4DV.ai 4D 高斯视频",
+    "src": "translated"
+  },
+  "luma-ai--luma-3d-capture": {
+    "zh": "Luma 三维捕捉",
+    "src": "translated"
+  },
+  "polycam--gaussian-splatting": {
+    "zh": "Polycam 高斯泼溅",
+    "src": "translated"
+  },
+  "meta--hyperscape-capture": {
+    "zh": "Meta Horizon Hyperscape 空间捕捉",
+    "src": "translated"
+  },
+  "robbyant--lingbot-map": {
+    "zh": "LingBot-Map 流式三维重建",
+    "src": "translated"
+  },
+  "bytedance-seed--depth-anything-3": {
+    "zh": "Depth Anything 3",
+    "src": "keep"
+  },
+  "gracia-ai--gracia": {
+    "zh": "Gracia 体积高斯视频",
+    "src": "translated"
+  },
+  "arcturus--holosuite": {
+    "zh": "HoloSuite 体积视频套件",
+    "src": "translated"
+  },
+  "zhen-xu--temporal-gaussian-hierarchy": {
+    "zh": "时间高斯层级（长时体积视频）",
+    "src": "translated"
+  },
+  "varjo--teleport": {
+    "zh": "Varjo Teleport",
+    "src": "keep"
+  }
+}

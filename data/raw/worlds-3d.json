@@ -1,0 +1,3468 @@
+{
+ "batch": "worlds-3d",
+ "creators": [
+  {
+   "id": "world-labs",
+   "name": "World Labs",
+   "kind": "company",
+   "role": "Spatial-intelligence AI company (Marble, Atlas)",
+   "role_zh": "空间智能 AI 公司（Marble、Atlas）",
+   "bio": "Founded in 2024 by Fei-Fei Li, Justin Johnson, Christoph Lassner and Ben Mildenhall to build large world models. It shipped Marble in 2025, the World API in January 2026 and the Atlas world model in September 2026; on 2026-09-28 it signed an agreement to join AMD, expected to close by the end of 2026.",
+   "bio_zh": "由李飞飞、Justin Johnson、Christoph Lassner 与 Ben Mildenhall 于 2024 年创立，目标是构建“大世界模型”。2025 年推出 Marble，2026 年 1 月开放 World API，2026 年 9 月发布 Atlas 世界模型；2026 年 9 月 28 日签署协议并入 AMD，预计 2026 年底完成交割。",
+   "why": "Its products turn text, photos and video into persistent Gaussian-splat worlds that can be exported, walked through in a headset and reused.",
+   "why_zh": "它的产品把文字、照片和视频变成持久的高斯泼溅世界，可以导出、戴头显漫游并重复使用。",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://www.worldlabs.ai",
+    "x": "https://x.com/theworldlabs",
+    "youtube": "https://www.youtube.com/@WorldLabsAI"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "San Francisco, US",
+   "based_zh": "美国旧金山"
+  },
+  {
+   "id": "tencent-hunyuan",
+   "name": "Tencent Hunyuan",
+   "kind": "lab",
+   "role": "Tencent's foundation-model team (HunyuanWorld, Hunyuan3D)",
+   "role_zh": "腾讯的基础模型团队（混元世界、混元 3D）",
+   "bio": "Tencent's large-model group, which releases open-weight video, 3D asset and 3D world models under the Hunyuan (HY) name.",
+   "bio_zh": "腾讯的大模型团队，以“混元”（HY）为名发布开源权重的视频、三维资产和三维世界模型。",
+   "why": "Its HunyuanWorld / HY-World line is the most complete open-weight route from a prompt or photo to a mesh or splat world.",
+   "why_zh": "混元世界（HY-World）系列是目前从提示词或照片到网格、泼溅世界最完整的开源权重路线。",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://hunyuan.tencent.com",
+    "x": "https://x.com/TencentHunyuan",
+    "github": "https://github.com/Tencent-Hunyuan",
+    "huggingface": "https://huggingface.co/tencent"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "name_zh": "腾讯混元",
+   "based": "Shenzhen, China",
+   "based_zh": "中国深圳"
+  },
+  {
+   "id": "skywork",
+   "name": "Skywork AI",
+   "kind": "company",
+   "role": "AI unit of Kunlun Tech (Matrix-Game, Matrix-3D)",
+   "role_zh": "昆仑万维旗下 AI 团队（Matrix-Game、Matrix-3D）",
+   "bio": "Kunlun Tech's AI brand, which open-sources language, video and world models, including the Matrix series of interactive and 3D world generators.",
+   "bio_zh": "昆仑万维的 AI 品牌，开源语言、视频与世界模型，其中包括 Matrix 系列交互式与三维世界生成模型。",
+   "why": "Matrix-3D is one of the first open models to generate a full 360° explorable world rather than a forward-facing view.",
+   "why_zh": "Matrix-3D 是最早一批能生成完整 360° 可探索世界、而不只是正前方视野的开源模型。",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://www.skywork.ai",
+    "github": "https://github.com/SkyworkAI",
+    "huggingface": "https://huggingface.co/Skywork"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "name_zh": "昆仑万维 Skywork",
+   "based": "Beijing, China",
+   "based_zh": "中国北京"
+  },
+  {
+   "id": "nvidia",
+   "name": "NVIDIA",
+   "kind": "company",
+   "role": "GPU maker and AI research organisation",
+   "role_zh": "GPU 制造商与 AI 研究机构",
+   "bio": "Chip company whose research labs (Toronto AI Lab, Spatial Intelligence Lab, Cosmos Lab) publish open 3D, world and simulation models.",
+   "bio_zh": "芯片公司，其研究部门（多伦多 AI 实验室、空间智能实验室、Cosmos 实验室）发布开源的三维、世界与仿真模型。",
+   "why": "Lyra, GEN3C and SAGE turn video models and agents into simulation-ready 3D scenes for robotics and XR.",
+   "why_zh": "Lyra、GEN3C 与 SAGE 把视频模型和智能体变成可直接用于仿真的三维场景，服务机器人与 XR。",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://research.nvidia.com",
+    "github": "https://github.com/nv-tlabs",
+    "huggingface": "https://huggingface.co/nvidia"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Santa Clara, US",
+   "based_zh": "美国圣克拉拉"
+  },
+  {
+   "id": "apple",
+   "name": "Apple",
+   "kind": "company",
+   "role": "Maker of Vision Pro and visionOS",
+   "role_zh": "Vision Pro 与 visionOS 的开发者",
+   "bio": "Consumer-electronics company whose machine-learning research group publishes open depth and view-synthesis models, and whose visionOS ships generated spatial scenes.",
+   "bio_zh": "消费电子公司；其机器学习研究团队开源深度估计与视图合成模型，visionOS 则已内置生成式空间场景。",
+   "why": "It puts single-photo-to-3D generation into a shipping headset OS and releases the underlying research openly.",
+   "why_zh": "它把“单张照片变三维”放进了正式发售的头显系统，并公开了相关研究。",
+   "disciplines": [
+    "graphics",
+    "hci"
+   ],
+   "links": {
+    "site": "https://machinelearning.apple.com",
+    "github": "https://github.com/apple"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Cupertino, US",
+   "based_zh": "美国库比蒂诺"
+  },
+  {
+   "id": "microsoft",
+   "name": "Microsoft",
+   "kind": "company",
+   "role": "Microsoft Research",
+   "role_zh": "微软研究院",
+   "bio": "Technology company; Microsoft Research Asia develops the MoGe monocular geometry models.",
+   "bio_zh": "科技公司；微软亚洲研究院开发了 MoGe 单目几何估计模型。",
+   "why": "MoGe gives a point map with metric scale from one photo, a common first step in photo-to-scene pipelines.",
+   "why_zh": "MoGe 能从一张照片得到带真实尺度的点图，是照片转场景流程中常用的第一步。",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://www.microsoft.com/research",
+    "github": "https://github.com/microsoft"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Redmond, US",
+   "based_zh": "美国雷德蒙德"
+  },
+  {
+   "id": "meta",
+   "name": "Meta",
+   "kind": "company",
+   "role": "Meta AI and Reality Labs",
+   "role_zh": "Meta AI 与 Reality Labs",
+   "bio": "Owner of Quest headsets and Horizon Worlds; Reality Labs Research builds generative 3D and world-building tools.",
+   "bio_zh": "Quest 头显与 Horizon Worlds 的所有者；Reality Labs 研究部门开发生成式三维与世界构建工具。",
+   "why": "WorldGen points generative world-building at traversable game-engine scenes for its own VR platform.",
+   "why_zh": "WorldGen 把生成式世界构建指向可行走的游戏引擎场景，服务于它自己的 VR 平台。",
+   "disciplines": [
+    "ml",
+    "hci"
+   ],
+   "links": {
+    "site": "https://ai.meta.com"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Menlo Park, US",
+   "based_zh": "美国门洛帕克"
+  },
+  {
+   "id": "google-deepmind",
+   "name": "Google DeepMind",
+   "kind": "lab",
+   "role": "AI research lab of Google",
+   "role_zh": "Google 的 AI 研究实验室",
+   "bio": "Google's merged AI research lab, behind Genie, Veo and multi-view diffusion work such as CAT3D.",
+   "bio_zh": "Google 合并后的 AI 研究实验室，开发了 Genie、Veo 以及 CAT3D 等多视角扩散工作。",
+   "why": "CAT3D showed that multi-view diffusion can turn one to a few photos into a full 3D scene in about a minute.",
+   "why_zh": "CAT3D 证明多视角扩散可以在约一分钟内把一到几张照片变成完整的三维场景。",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://deepmind.google",
+    "youtube": "https://www.youtube.com/@googledeepmind"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "London, UK",
+   "based_zh": "英国伦敦"
+  },
+  {
+   "id": "google",
+   "name": "Google",
+   "kind": "company",
+   "role": "Google Research, Google Labs and Google AR",
+   "role_zh": "Google Research、Google Labs 与 Google AR",
+   "bio": "Google's research and product groups outside DeepMind, including the teams behind Infinite Nature and Bolt3D.",
+   "bio_zh": "DeepMind 之外的 Google 研究与产品团队，包括 Infinite Nature 与 Bolt3D 背后的团队。",
+   "why": "Its research set early milestones for perpetual scene generation and fast feed-forward 3D scene synthesis.",
+   "why_zh": "它的研究为“无限延伸的场景生成”和快速前馈式三维场景合成立下了早期里程碑。",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://research.google"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Mountain View, US",
+   "based_zh": "美国山景城"
+  },
+  {
+   "id": "stability-ai",
+   "name": "Stability AI",
+   "kind": "company",
+   "role": "Open generative-model company",
+   "role_zh": "开源生成模型公司",
+   "bio": "Developer of Stable Diffusion and of open video, 3D and view-synthesis models.",
+   "bio_zh": "Stable Diffusion 的开发者，也发布开源的视频、三维与视图合成模型。",
+   "why": "Stable Virtual Camera gives an open model for turning a few photos into camera paths through a scene.",
+   "why_zh": "Stable Virtual Camera 提供了一个开源模型，能把几张照片变成穿越场景的镜头路径。",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://stability.ai",
+    "github": "https://github.com/Stability-AI",
+    "huggingface": "https://huggingface.co/stabilityai"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "London, UK",
+   "based_zh": "英国伦敦"
+  },
+  {
+   "id": "snap",
+   "name": "Snap",
+   "kind": "company",
+   "role": "Maker of Snapchat and Spectacles",
+   "role_zh": "Snapchat 与 Spectacles 的开发者",
+   "bio": "Camera and AR company whose Snap Research group publishes generative video and 3D work.",
+   "bio_zh": "相机与 AR 公司，其 Snap Research 团队发表生成式视频与三维研究。",
+   "why": "Wonderland reconstructs a wide 3D scene directly from a video model's latents, skipping per-scene optimisation.",
+   "why_zh": "Wonderland 直接从视频模型的潜变量重建大范围三维场景，省去逐场景优化。",
+   "disciplines": [
+    "graphics",
+    "hci"
+   ],
+   "links": {
+    "site": "https://research.snap.com"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Santa Monica, US",
+   "based_zh": "美国圣莫尼卡"
+  },
+  {
+   "id": "deemos",
+   "name": "Deemos (Hyper3D)",
+   "kind": "company",
+   "role": "3D generative AI company (Rodin, Hyper3D WorldGen)",
+   "role_zh": "三维生成式 AI 公司（Rodin、Hyper3D WorldGen）",
+   "bio": "Company spun out of ShanghaiTech University research that sells the Rodin image-to-3D models under the Hyper3D brand.",
+   "bio_zh": "源自上海科技大学研究的公司，以 Hyper3D 品牌提供 Rodin 图生三维模型。",
+   "why": "It moved from single assets to whole scenes of separate, physically tagged objects (CAST, WorldGen).",
+   "why_zh": "它从单个资产走向由独立物体组成、带物理属性的完整场景（CAST、WorldGen）。",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {
+    "site": "https://hyper3d.ai",
+    "youtube": "https://www.youtube.com/@DeemosTech"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "name_zh": "影眸科技",
+   "based": "Shanghai, China",
+   "based_zh": "中国上海"
+  },
+  {
+   "id": "blockade-labs",
+   "name": "Blockade Labs",
+   "kind": "company",
+   "role": "Maker of Skybox AI",
+   "role_zh": "Skybox AI 的开发者",
+   "bio": "Startup that makes Skybox AI, a web tool and API for generating 360° equirectangular skyboxes and environments.",
+   "bio_zh": "开发 Skybox AI 的初创公司：一个生成 360° 等距柱状天空盒与环境的网页工具和 API。",
+   "why": "Skybox AI was one of the first generators that let creators make a VR-ready 360° backdrop from a prompt.",
+   "why_zh": "Skybox AI 是最早让创作者用一句提示词做出可直接用于 VR 的 360° 背景的生成工具之一。",
+   "disciplines": [
+    "graphics",
+    "games"
+   ],
+   "links": {
+    "site": "https://www.blockadelabs.com",
+    "youtube": "https://www.youtube.com/@blockadelabs"
+   },
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "bytedance-seed",
+   "name": "ByteDance Seed",
+   "kind": "lab",
+   "role": "ByteDance's foundation-model research team",
+   "role_zh": "字节跳动的基础模型研究团队",
+   "bio": "ByteDance's AI research organisation; ByteDance (TikTok) researchers co-developed the Depth Anything models.",
+   "bio_zh": "字节跳动的 AI 研究组织；字节跳动（TikTok）的研究者参与开发了 Depth Anything 系列模型。",
+   "why": "Depth Anything made robust monocular depth a free, widely used building block for photo-to-3D pipelines.",
+   "why_zh": "Depth Anything 让稳健的单目深度估计成为照片转三维流程中免费且常用的基础组件。",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://seed.bytedance.com"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "name_zh": "字节跳动 Seed",
+   "based": "Beijing, China",
+   "based_zh": "中国北京"
+  },
+  {
+   "id": "spaitial",
+   "name": "SpAItial",
+   "kind": "company",
+   "role": "3D world-model startup (Echo)",
+   "role_zh": "三维世界模型初创公司（Echo）",
+   "bio": "Startup co-founded by TUM professor Matthias Niessner that builds spatial foundation models; it raised a $13 million seed round in 2025 and released Echo (Dec 2025) and Echo-2 (Apr 2026).",
+   "bio_zh": "由慕尼黑工业大学教授 Matthias Niessner 联合创立的初创公司，研发空间基础模型；2025 年获 1300 万美元种子轮融资，先后发布 Echo（2025 年 12 月）和 Echo-2（2026 年 4 月）。",
+   "why": "It is one of the few companies besides World Labs selling persistent 3D-splat world generation.",
+   "why_zh": "它是除 World Labs 之外少数提供持久三维泼溅世界生成服务的公司之一。",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://www.spaitial.ai",
+    "youtube": "https://www.youtube.com/@SpAItial_AI"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Munich, Germany",
+   "based_zh": "德国慕尼黑"
+  },
+  {
+   "id": "xinyang-li",
+   "name": "Xinyang Li",
+   "kind": "person",
+   "role": "PhD researcher, MAC Lab, Xiamen University",
+   "role_zh": "厦门大学 MAC 实验室博士研究者",
+   "bio": "First author of FlashWorld, developed with Tencent Hunyuan.",
+   "bio_zh": "FlashWorld 的第一作者，该工作与腾讯混元合作完成。",
+   "why": "FlashWorld cut single-image-to-3D-world generation to seconds on one GPU.",
+   "why_zh": "FlashWorld 把单图生成三维世界的时间缩短到单卡几秒。",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "github": "https://github.com/imlixinyang"
+   },
+   "connected_to": [
+    "tencent-hunyuan"
+   ],
+   "discovered_via": "seed",
+   "based": "Xiamen, China",
+   "based_zh": "中国厦门"
+  },
+  {
+   "id": "hong-xing-yu",
+   "name": "Hong-Xing (Koven) Yu",
+   "kind": "person",
+   "role": "Researcher, Stanford University",
+   "role_zh": "斯坦福大学研究者",
+   "bio": "Computer-vision researcher in Jiajun Wu's group at Stanford, first author of WonderJourney and WonderWorld.",
+   "bio_zh": "斯坦福大学吴佳俊组的计算机视觉研究者，WonderJourney 与 WonderWorld 的第一作者。",
+   "why": "His work moved scene generation from one fixed view to open-ended, user-steered journeys.",
+   "why_zh": "他的工作把场景生成从单一固定视角推进到由用户引导、无限延伸的旅程。",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {
+    "site": "https://kovenyu.com"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Stanford, US",
+   "based_zh": "美国斯坦福"
+  },
+  {
+   "id": "jaeyoung-chung",
+   "name": "Jaeyoung Chung",
+   "kind": "person",
+   "role": "Researcher, Computer Vision Lab, Seoul National University",
+   "role_zh": "首尔国立大学计算机视觉实验室研究者",
+   "bio": "Co-first author of LucidDreamer in Kyoung Mu Lee's lab at Seoul National University.",
+   "bio_zh": "首尔国立大学 Kyoung Mu Lee 实验室的研究者，LucidDreamer 的共同第一作者。",
+   "why": "LucidDreamer was among the first to generate whole Gaussian-splat scenes from a prompt or photo.",
+   "why_zh": "LucidDreamer 是最早从提示词或照片生成整片高斯泼溅场景的工作之一。",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {
+    "github": "https://github.com/luciddreamer-cvlab"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Seoul, South Korea",
+   "based_zh": "韩国首尔"
+  },
+  {
+   "id": "lukas-hollein",
+   "name": "Lukas Höllein",
+   "kind": "person",
+   "role": "Researcher, Technical University of Munich",
+   "role_zh": "慕尼黑工业大学研究者",
+   "bio": "PhD researcher in Matthias Niessner's Visual Computing & AI lab at TUM, first author of Text2Room.",
+   "bio_zh": "慕尼黑工业大学 Matthias Niessner 视觉计算与 AI 实验室的博士研究者，Text2Room 的第一作者。",
+   "why": "Text2Room showed that a 2D image model plus depth can build a complete textured room mesh.",
+   "why_zh": "Text2Room 证明二维图像模型加上深度估计就能拼出完整的带纹理房间网格。",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {
+    "site": "https://lukashoel.github.io"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Munich, Germany",
+   "based_zh": "德国慕尼黑"
+  },
+  {
+   "id": "andrew-liu",
+   "name": "Andrew Liu",
+   "kind": "person",
+   "role": "Researcher, Google Research",
+   "role_zh": "Google Research 研究者",
+   "bio": "First author of Infinite Nature (ICCV 2021) with Noah Snavely and Angjoo Kanazawa at Google Research.",
+   "bio_zh": "Infinite Nature（ICCV 2021）的第一作者，与 Noah Snavely、Angjoo Kanazawa 等在 Google Research 合作。",
+   "why": "Infinite Nature defined perpetual view generation, the ancestor of today's explorable-world models.",
+   "why_zh": "Infinite Nature 提出了“无限视图生成”，是今天可探索世界模型的前身。",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {},
+   "connected_to": [
+    "google"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "haozhe-xie",
+   "name": "Haozhe Xie",
+   "kind": "person",
+   "role": "Researcher, S-Lab, Nanyang Technological University",
+   "role_zh": "南洋理工大学 S-Lab 研究者",
+   "bio": "Researcher in Ziwei Liu's S-Lab at NTU, first author of CityDreamer and CityDreamer4D.",
+   "bio_zh": "南洋理工大学刘子纬 S-Lab 的研究者，CityDreamer 与 CityDreamer4D 的第一作者。",
+   "why": "CityDreamer generates unbounded cities, a scale that room- and object-level methods do not reach.",
+   "why_zh": "CityDreamer 能生成无边界的城市，这是房间级、物体级方法达不到的尺度。",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {
+    "site": "https://www.infinitescript.com"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Singapore",
+   "based_zh": "新加坡"
+  },
+  {
+   "id": "zhaoxi-chen",
+   "name": "Zhaoxi Chen",
+   "kind": "person",
+   "role": "Researcher, S-Lab, Nanyang Technological University",
+   "role_zh": "南洋理工大学 S-Lab 研究者",
+   "bio": "Researcher in Ziwei Liu's S-Lab at NTU, first author of Text2Light.",
+   "bio_zh": "南洋理工大学刘子纬 S-Lab 的研究者，Text2Light 的第一作者。",
+   "why": "Text2Light produced HDR panoramas that light a 3D scene, not only backdrops.",
+   "why_zh": "Text2Light 生成的 HDR 全景图不仅是背景，还能照亮三维场景。",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {
+    "site": "https://frozenburning.github.io"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Singapore",
+   "based_zh": "新加坡"
+  },
+  {
+   "id": "shitao-tang",
+   "name": "Shitao Tang",
+   "kind": "person",
+   "role": "Researcher, Simon Fraser University",
+   "role_zh": "西蒙菲莎大学研究者",
+   "bio": "PhD researcher in Yasutaka Furukawa's group at Simon Fraser University, first author of MVDiffusion.",
+   "bio_zh": "西蒙菲莎大学 Yasutaka Furukawa 组的博士研究者，MVDiffusion 的第一作者。",
+   "why": "MVDiffusion made panorama generation a multi-view consistency problem.",
+   "why_zh": "MVDiffusion 把全景图生成转化为多视角一致性问题。",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Burnaby, Canada",
+   "based_zh": "加拿大本拿比"
+  },
+  {
+   "id": "shijie-zhou",
+   "name": "Shijie Zhou",
+   "kind": "person",
+   "role": "Researcher, University of California, Los Angeles",
+   "role_zh": "加州大学洛杉矶分校研究者",
+   "bio": "PhD researcher in Achuta Kadambi's lab at UCLA, first author of DreamScene360.",
+   "bio_zh": "加州大学洛杉矶分校 Achuta Kadambi 实验室的博士研究者，DreamScene360 的第一作者。",
+   "why": "DreamScene360 lifted a generated panorama into a 360° Gaussian-splat scene.",
+   "why_zh": "DreamScene360 把生成的全景图提升为 360° 高斯泼溅场景。",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Los Angeles, US",
+   "based_zh": "美国洛杉矶"
+  },
+  {
+   "id": "shuai-yang",
+   "name": "Shuai Yang",
+   "kind": "person",
+   "role": "Researcher, Shanghai Jiao Tong University and Shanghai AI Laboratory",
+   "role_zh": "上海交通大学与上海人工智能实验室研究者",
+   "bio": "First author of LayerPano3D (SIGGRAPH 2025), written with CUHK, Stanford and NTU collaborators.",
+   "bio_zh": "LayerPano3D（SIGGRAPH 2025）的第一作者，合作者来自香港中文大学、斯坦福与南洋理工。",
+   "why": "LayerPano3D separates a panorama into depth layers so that a viewer can move inside it.",
+   "why_zh": "LayerPano3D 把全景图拆成按深度分层的图层，让观看者可以在其中移动。",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {
+    "github": "https://github.com/YS-IMTech"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Shanghai, China",
+   "based_zh": "中国上海"
+  },
+  {
+   "id": "yue-yang",
+   "name": "Yue Yang",
+   "kind": "person",
+   "role": "Researcher, University of Pennsylvania",
+   "role_zh": "宾夕法尼亚大学研究者",
+   "bio": "PhD researcher at the University of Pennsylvania who led Holodeck with the Allen Institute for AI.",
+   "bio_zh": "宾夕法尼亚大学的博士研究者，与艾伦人工智能研究所合作主导了 Holodeck。",
+   "why": "Holodeck showed that a language model can lay out full, interactive multi-room environments.",
+   "why_zh": "Holodeck 证明语言模型可以布置完整的、可交互的多房间环境。",
+   "disciplines": [
+    "ml",
+    "robotics"
+   ],
+   "links": {
+    "site": "https://yueyang1996.github.io"
+   },
+   "connected_to": [
+    "ai2"
+   ],
+   "discovered_via": "seed",
+   "based": "Philadelphia, US",
+   "based_zh": "美国费城"
+  },
+  {
+   "id": "ai2",
+   "name": "Allen Institute for AI (Ai2)",
+   "kind": "lab",
+   "role": "Non-profit AI research institute",
+   "role_zh": "非营利 AI 研究机构",
+   "bio": "Non-profit research institute behind AI2-THOR, ProcTHOR, Objaverse and Holodeck.",
+   "bio_zh": "非营利研究机构，开发了 AI2-THOR、ProcTHOR、Objaverse 与 Holodeck。",
+   "why": "Its simulators and asset libraries are the testbeds where generated houses meet embodied agents.",
+   "why_zh": "它的模拟器和资产库是生成房屋与具身智能体相遇的试验场。",
+   "disciplines": [
+    "ml",
+    "robotics"
+   ],
+   "links": {
+    "site": "https://allenai.org",
+    "github": "https://github.com/allenai"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Seattle, US",
+   "based_zh": "美国西雅图"
+  },
+  {
+   "id": "alexander-raistrick",
+   "name": "Alexander Raistrick",
+   "kind": "person",
+   "role": "Researcher, Princeton Vision & Learning Lab",
+   "role_zh": "普林斯顿视觉与学习实验室研究者",
+   "bio": "PhD researcher with Jia Deng at Princeton, first author of Infinigen, Infinigen Indoors and ProcFunc.",
+   "bio_zh": "普林斯顿大学邓嘉组的博士研究者，Infinigen、Infinigen Indoors 与 ProcFunc 的第一作者。",
+   "why": "Infinigen generates unlimited photoreal worlds from code alone, with exact ground truth.",
+   "why_zh": "Infinigen 仅靠代码就能生成无限多的照片级世界，并附带精确的真值标注。",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {
+    "site": "https://infinigen.org"
+   },
+   "connected_to": [
+    "princeton-vl"
+   ],
+   "discovered_via": "seed",
+   "based": "Princeton, US",
+   "based_zh": "美国普林斯顿"
+  },
+  {
+   "id": "princeton-vl",
+   "name": "Princeton Vision & Learning Lab",
+   "kind": "lab",
+   "role": "Jia Deng's computer-vision lab at Princeton University",
+   "role_zh": "普林斯顿大学邓嘉的计算机视觉实验室",
+   "bio": "Academic lab led by Jia Deng that develops the Infinigen procedural world generator.",
+   "bio_zh": "由邓嘉领导的高校实验室，开发了 Infinigen 程序化世界生成器。",
+   "why": "It maintains the main open procedural generator for natural and indoor 3D worlds.",
+   "why_zh": "它维护着自然与室内三维世界最主要的开源程序化生成器。",
+   "disciplines": [
+    "graphics",
+    "robotics"
+   ],
+   "links": {
+    "site": "https://pvl.cs.princeton.edu",
+    "github": "https://github.com/princeton-vl",
+    "youtube": "https://www.youtube.com/@princetonvl"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Princeton, US",
+   "based_zh": "美国普林斯顿"
+  },
+  {
+   "id": "weixi-feng",
+   "name": "Weixi Feng",
+   "kind": "person",
+   "role": "Researcher, UC Santa Barbara",
+   "role_zh": "加州大学圣巴巴拉分校研究者",
+   "bio": "PhD researcher in William Wang's group at UCSB, first author of LayoutGPT.",
+   "bio_zh": "加州大学圣巴巴拉分校王威廉组的博士研究者，LayoutGPT 的第一作者。",
+   "why": "LayoutGPT showed that a text-only language model can write numeric 3D room layouts.",
+   "why_zh": "LayoutGPT 证明只懂文字的语言模型也能写出带数值的三维房间布局。",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://weixi-feng.github.io"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Santa Barbara, US",
+   "based_zh": "美国圣巴巴拉"
+  },
+  {
+   "id": "siddharth-ahuja",
+   "name": "Siddharth Ahuja",
+   "kind": "person",
+   "role": "Developer of BlenderMCP",
+   "role_zh": "BlenderMCP 开发者",
+   "bio": "Independent developer who released BlenderMCP, an open-source Model Context Protocol bridge between language models and Blender.",
+   "bio_zh": "独立开发者，发布了开源的 BlenderMCP：连接语言模型与 Blender 的 Model Context Protocol 桥接工具。",
+   "why": "BlenderMCP made chat-driven scene building in a full 3D tool something anyone could install.",
+   "why_zh": "BlenderMCP 让任何人都能安装并用对话在完整的三维软件里搭建场景。",
+   "disciplines": [
+    "hci",
+    "graphics"
+   ],
+   "links": {
+    "github": "https://github.com/ahujasid",
+    "youtube": "https://www.youtube.com/@ahujasid"
+   },
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "lihe-yang",
+   "name": "Lihe Yang",
+   "kind": "person",
+   "role": "Researcher, The University of Hong Kong",
+   "role_zh": "香港大学研究者",
+   "bio": "PhD researcher with Hengshuang Zhao at HKU, first author of Depth Anything and Depth Anything V2 (with ByteDance/TikTok).",
+   "bio_zh": "香港大学赵恒爽组的博士研究者，与字节跳动（TikTok）合作的 Depth Anything 与 Depth Anything V2 的第一作者。",
+   "why": "Depth Anything is the default monocular depth model in many photo-to-3D tools.",
+   "why_zh": "Depth Anything 是许多照片转三维工具默认使用的单目深度模型。",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://liheyoung.github.io"
+   },
+   "connected_to": [
+    "bytedance-seed"
+   ],
+   "discovered_via": "seed",
+   "based": "Hong Kong, China",
+   "based_zh": "中国香港"
+  },
+  {
+   "id": "meng-li-shih",
+   "name": "Meng-Li Shih",
+   "kind": "person",
+   "role": "Researcher (Virginia Tech, then University of Washington)",
+   "role_zh": "研究者（弗吉尼亚理工，后至华盛顿大学）",
+   "bio": "First author of 3D Photography using Context-aware Layered Depth Inpainting (CVPR 2020), with Jia-Bin Huang and Johannes Kopf.",
+   "bio_zh": "《3D Photography using Context-aware Layered Depth Inpainting》（CVPR 2020）的第一作者，合作者包括黄嘉斌与 Johannes Kopf。",
+   "why": "The method is the direct ancestor of one-photo parallax features such as spatial scenes.",
+   "why_zh": "该方法是“空间场景”等单照片视差功能的直接前身。",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {
+    "site": "https://shihmengli.github.io"
+   },
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "ruiqi-gao",
+   "name": "Ruiqi Gao",
+   "kind": "person",
+   "role": "Research scientist, Google DeepMind",
+   "role_zh": "Google DeepMind 研究科学家",
+   "bio": "Generative-model researcher at Google DeepMind and co-first author of CAT3D and CAT4D.",
+   "bio_zh": "Google DeepMind 的生成模型研究者，CAT3D 与 CAT4D 的共同第一作者。",
+   "why": "CAT3D made multi-view diffusion the standard way to fill in unseen parts of a scene.",
+   "why_zh": "CAT3D 让多视角扩散成为补全场景未见部分的标准做法。",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {},
+   "connected_to": [
+    "google-deepmind"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "stanislaw-szymanowicz",
+   "name": "Stanislaw Szymanowicz",
+   "kind": "person",
+   "role": "Researcher, University of Oxford (VGG)",
+   "role_zh": "牛津大学视觉几何组研究者",
+   "bio": "PhD researcher in Oxford's Visual Geometry Group (Splatter Image, Flash3D) and first author of Bolt3D, done with Google.",
+   "bio_zh": "牛津大学视觉几何组的博士研究者（Splatter Image、Flash3D），与 Google 合作完成 Bolt3D 并任第一作者。",
+   "why": "His work drives the shift to feed-forward splat generation in seconds.",
+   "why_zh": "他的工作推动了几秒内前馈生成泼溅的转变。",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {
+    "site": "https://szymanowiczs.github.io"
+   },
+   "connected_to": [
+    "google"
+   ],
+   "discovered_via": "seed",
+   "based": "Oxford, UK",
+   "based_zh": "英国牛津"
+  },
+  {
+   "id": "hanwen-liang",
+   "name": "Hanwen Liang",
+   "kind": "person",
+   "role": "Researcher, University of Toronto",
+   "role_zh": "多伦多大学研究者",
+   "bio": "PhD researcher at the University of Toronto and first author of Wonderland, done with Snap Research.",
+   "bio_zh": "多伦多大学的博士研究者，与 Snap Research 合作完成 Wonderland 并任第一作者。",
+   "why": "Wonderland reads 3D splats directly out of a video model's latent space.",
+   "why_zh": "Wonderland 直接从视频模型的潜空间读出三维泼溅。",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {},
+   "connected_to": [
+    "snap"
+   ],
+   "discovered_via": "seed",
+   "based": "Toronto, Canada",
+   "based_zh": "加拿大多伦多"
+  },
+  {
+   "id": "xuanchi-ren",
+   "name": "Xuanchi Ren",
+   "kind": "person",
+   "role": "Research scientist, NVIDIA",
+   "role_zh": "NVIDIA 研究科学家",
+   "bio": "Researcher at NVIDIA's Toronto AI Lab, first author of GEN3C and co-author of Lyra.",
+   "bio_zh": "NVIDIA 多伦多 AI 实验室研究者，GEN3C 的第一作者，Lyra 的合作者。",
+   "why": "GEN3C adds an explicit 3D cache to video generation for exact camera control.",
+   "why_zh": "GEN3C 在视频生成中加入显式三维缓存，实现精确的镜头控制。",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://xuanchiren.com"
+   },
+   "connected_to": [
+    "nvidia"
+   ],
+   "discovered_via": "seed",
+   "based": "Toronto, Canada",
+   "based_zh": "加拿大多伦多"
+  },
+  {
+   "id": "kaixin-yao",
+   "name": "Kaixin Yao",
+   "kind": "person",
+   "role": "Researcher, ShanghaiTech University and Deemos",
+   "role_zh": "上海科技大学与影眸科技研究者",
+   "bio": "First author of CAST (SIGGRAPH 2025 Best Paper), developed at ShanghaiTech University and Deemos.",
+   "bio_zh": "CAST（SIGGRAPH 2025 最佳论文）的第一作者，该工作由上海科技大学与影眸科技完成。",
+   "why": "CAST rebuilds a photo as separate, physically consistent objects rather than one fused surface.",
+   "why_zh": "CAST 把一张照片重建为彼此独立、物理关系一致的物体，而不是一整块融合的表面。",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {},
+   "connected_to": [
+    "deemos"
+   ],
+   "discovered_via": "seed",
+   "based": "Shanghai, China",
+   "based_zh": "中国上海"
+  }
+ ],
+ "works": [
+  {
+   "id": "world-labs--generating-worlds",
+   "creator_ids": [
+    "world-labs"
+   ],
+   "title": "Large World Model demo (Generating Worlds)",
+   "year": 2024,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "scene-3d",
+    "splats"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "persistence",
+    "perceptual-realism"
+   ],
+   "kind": "research",
+   "description": "World Labs' first public result: a single image is turned into a 3D scene that can be explored in the browser in real time, with interactive camera effects such as depth of field and dolly zoom.",
+   "description_zh": "World Labs 的首次公开成果：把一张图像变成可以在浏览器中实时探索的三维场景，并可交互地加入景深、滑动变焦等镜头效果。",
+   "idea_en": "A generated world becomes a place you can return to rather than a clip that ends, though these first worlds were small and bounded.",
+   "idea_zh": "生成的世界第一次成为可以反复回到的“地方”，而不是播完即止的片段；不过这批早期世界范围较小、边界有限。",
+   "method": "A generative model (details unpublished) lifts one image into an explicit 3D representation that is rendered client-side in real time; World Labs describes it as a first step toward large world models.",
+   "method_zh": "一个未公开细节的生成模型把单张图像提升为显式三维表示，在浏览器端实时渲染；World Labs 称之为迈向“大世界模型”的第一步。",
+   "keywords": [
+    "image-to-3D world",
+    "large world model",
+    "browser demo",
+    "persistent"
+   ],
+   "date": "2024-12-02",
+   "specs": "single image in · real-time browser rendering",
+   "video": {
+    "url": "https://wlt-ai-cdn.art/videos/banner_video.mp4"
+   },
+   "images": [
+    "https://www.worldlabs.ai/images/generating-worlds-nologo.jpg"
+   ],
+   "source_url": "https://www.worldlabs.ai/blog/generating-worlds",
+   "collections": [
+    "trend-explicit-3d"
+   ]
+  },
+  {
+   "id": "world-labs--marble",
+   "creator_ids": [
+    "world-labs"
+   ],
+   "title": "Marble",
+   "year": 2025,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "splats",
+    "mesh",
+    "scene-3d"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "product",
+    "api"
+   ],
+   "lenses": [
+    "authoring",
+    "persistence",
+    "perceptual-realism"
+   ],
+   "kind": "product",
+   "description": "World Labs' world-generation product: text, one or more photos, a video or a coarse 3D layout become a persistent 3D world that can be edited, expanded, stitched with others and exported as Gaussian splats, meshes or video. Beta from 2025-09-16, generally available from 2025-11-12; Marble 1.1 and 1.1 Plus (larger worlds) followed in 2026, and the World API opened it to developers on 2026-01-21.",
+   "description_zh": "World Labs 的世界生成产品：文字、一张或多张照片、一段视频或粗略的三维布局，都能变成持久的三维世界，可以编辑、扩展、与其他世界拼接，并导出为高斯泼溅、网格或视频。2025 年 9 月 16 日开放测试，11 月 12 日全面上线；2026 年推出 Marble 1.1 与可生成更大世界的 1.1 Plus，并于 2026 年 1 月 21 日通过 World API 向开发者开放。",
+   "idea_en": "A researcher can author a whole set from a prompt or a few photos and then keep, version and reload exactly the same world for every participant.",
+   "idea_zh": "研究者可以用一句提示词或几张照片搭出整个场景，之后为每位参与者保存、版本化并重新加载完全相同的世界。",
+   "method": "A proprietary multimodal world model generates a 3D Gaussian-splat world (with optional mesh extraction) from the inputs; a layout editor (Chisel) separates coarse 3D structure from visual style, and worlds render on web, mobile and VR through World Labs' open-source Spark renderer.",
+   "method_zh": "专有的多模态世界模型根据输入生成三维高斯泼溅世界（可另行提取网格）；布局编辑器 Chisel 把粗略的三维结构与视觉风格分开控制；世界通过 World Labs 开源的 Spark 渲染器在网页、手机和 VR 中显示。",
+   "keywords": [
+    "world model",
+    "Gaussian splatting",
+    "Chisel",
+    "World API",
+    "Spark",
+    "VR export"
+   ],
+   "date": "2025-11-12",
+   "specs": "text / image / multi-image / video / 3D layout in · Gaussian splats, mesh or video out · Marble 1.1 Plus for larger worlds",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=UslQB4LUueI"
+   },
+   "images": [
+    "https://www.worldlabs.ai/images/nov12-thumbnail.jpg"
+   ],
+   "source_url": "https://www.worldlabs.ai/blog/marble-world-model",
+   "api_url": "https://docs.worldlabs.ai/api",
+   "collections": [
+    "trend-explicit-3d",
+    "trend-grounded"
+   ]
+  },
+  {
+   "id": "world-labs--atlas",
+   "creator_ids": [
+    "world-labs"
+   ],
+   "title": "Atlas",
+   "year": 2026,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "flat-video",
+    "splats",
+    "image"
+   ],
+   "inputs": [
+    "image",
+    "camera",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "preview"
+   ],
+   "lenses": [
+    "persistence",
+    "control",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "World Labs' 'omni' world model, pretrained from scratch on text, images, video and 3D: from one to a few reference images and a hand-designed camera path it generates up to one minute of 1440p video, reconstructs real places from one to over a hundred photos, and outputs point clouds or Gaussian splats. Early access only as of October 2026; World Labs says it will power future versions of Marble.",
+   "description_zh": "World Labs 的“全模态”世界模型，从零开始在文本、图像、视频和三维数据上预训练：给定一到几张参考图和手工设计的镜头路径，可生成最长一分钟的 1440p 视频；能用一张到一百多张照片重建真实地点，并输出点云或高斯泼溅。截至 2026 年 10 月仅开放抢先体验；World Labs 表示它将驱动未来版本的 Marble。",
+   "idea_en": "One model now spans imagined and real places: the more photos of a site you give it, the less it invents, which makes 'grounded versus imagined' a dial a study can set.",
+   "idea_zh": "同一个模型既能想象也能重建：给它的现场照片越多，它编造的就越少，“真实与想象”的比例变成研究可以设定的一个旋钮。",
+   "method": "A multimodal autoregressive diffusion transformer encodes every input image at a 3D position in a shared spatial context and generates new frames and depth maps conditioned on it with pixel-exact camera geometry; depth is fused into point clouds and completed into 3D Gaussian splats.",
+   "method_zh": "多模态自回归扩散 Transformer 把每张输入图像放在共享空间上下文中的三维位置上，再以像素级精确的相机几何为条件生成新画面与深度图；深度被融合成点云，并补全为三维高斯泼溅。",
+   "keywords": [
+    "omni world model",
+    "camera control",
+    "sparse-view reconstruction",
+    "bullet time",
+    "real-to-sim",
+    "early access"
+   ],
+   "date": "2026-09-01",
+   "also": [
+    "world-models"
+   ],
+   "specs": "up to 60 s video at 1440p · 1–6 reference images for generation · reconstruction from 1 to 100+ images · point cloud / 3DGS output",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=hzvXRHBInx0"
+   },
+   "images": [
+    "https://www.worldlabs.ai/images/atlas-og.jpg"
+   ],
+   "source_url": "https://www.worldlabs.ai/blog/atlas",
+   "collections": [
+    "trend-explicit-3d",
+    "trend-world-simulators",
+    "trend-grounded"
+   ]
+  },
+  {
+   "id": "tencent-hunyuan--hunyuanworld-1",
+   "creator_ids": [
+    "tencent-hunyuan"
+   ],
+   "title": "HunyuanWorld 1.0",
+   "year": 2025,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "mesh",
+    "image",
+    "scene-3d"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open",
+    "product"
+   ],
+   "lenses": [
+    "persistence",
+    "authoring",
+    "diversity"
+   ],
+   "kind": "model",
+   "description": "Tencent's open-weight world generator: a text prompt or image becomes a 360° panorama that is then decomposed into layered 3D meshes (sky, background, separable objects) for exploration in a browser, headset or game engine. A quantised 'lite' version (August 2025) runs on consumer GPUs such as the RTX 4090.",
+   "description_zh": "腾讯开源权重的世界生成模型：先把文字或图像变成 360° 全景图，再分解成分层的三维网格（天空、背景、可分离的物体），可在浏览器、头显或游戏引擎中探索。2025 年 8 月推出的量化 lite 版可在 RTX 4090 等消费级显卡上运行。",
+   "idea_en": "Panorama-first generation gives a complete 360° surround in mesh form that ordinary CG pipelines can open, at the cost of limited walking range.",
+   "idea_zh": "先生成全景的路线一次给出完整的 360° 环绕，并以普通 CG 流程能直接打开的网格形式输出，代价是可行走范围有限。",
+   "method": "Panorama diffusion models (PanoDiT) generate a 360° world proxy, which is segmented into semantic layers, lifted to 3D with depth estimation and inpainting, and exported as layered meshes with disentangled objects.",
+   "method_zh": "全景扩散模型（PanoDiT）先生成 360° 的世界代理图，再按语义分层，借助深度估计与补全提升为三维，最终导出为物体可分离的分层网格。",
+   "keywords": [
+    "panorama",
+    "layered mesh",
+    "open weights",
+    "text-to-world",
+    "image-to-world"
+   ],
+   "date": "2025-07-26",
+   "specs": "360° panorama proxy · layered mesh export · lite version on consumer GPUs",
+   "video": {
+    "url": "https://github.com/user-attachments/assets/747b3e41-df9c-4cd2-b1d1-c0dce63f63ef"
+   },
+   "images": [
+    "https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanWorld-1.0/main/assets/teaser.png"
+   ],
+   "paper": {
+    "title": "HunyuanWorld 1.0: Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels",
+    "venue": "Technical report 2025",
+    "arxiv": "2507.21809",
+    "url": "https://arxiv.org/abs/2507.21809"
+   },
+   "source_url": "https://3d-models.hunyuan.tencent.com/world/",
+   "code_url": "https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0",
+   "collections": [
+    "trend-explicit-3d",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "tencent-hunyuan--hunyuanworld-voyager",
+   "creator_ids": [
+    "tencent-hunyuan"
+   ],
+   "title": "HunyuanWorld-Voyager",
+   "year": 2025,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "flat-video",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image",
+    "camera"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "control"
+   ],
+   "kind": "model",
+   "description": "An open video-diffusion model that, from one image and a user-drawn camera path, generates aligned RGB and depth video, so each step of the walk is also a 3D point cloud that can be reconstructed directly into a scene.",
+   "description_zh": "开源视频扩散模型：给定一张图像和用户绘制的镜头路径，同时生成对齐的 RGB 与深度视频，因此每一步“行走”同时也是一份可直接重建为场景的三维点云。",
+   "idea_en": "Generating depth with every frame means the world is rebuilt as you go instead of being recovered afterwards by structure-from-motion.",
+   "idea_zh": "每一帧都同时生成深度，意味着世界边走边建，而不必事后再用运动恢复结构去还原。",
+   "method": "World-consistent video diffusion jointly denoises RGB and depth conditioned on a world cache of earlier points (with point culling), extended autoregressively with smooth video sampling for long-range exploration; trained on a scalable data engine of real and Unreal Engine video with estimated cameras and depth.",
+   "method_zh": "世界一致的视频扩散模型以先前点云构成的世界缓存（带点剔除）为条件，联合去噪 RGB 与深度，并通过自回归与平滑采样延伸到长距离探索；训练数据来自可扩展的数据引擎，包含估计了相机与深度的真实视频和虚幻引擎视频。",
+   "keywords": [
+    "RGB-D video diffusion",
+    "world cache",
+    "camera path",
+    "open weights"
+   ],
+   "date": "2025-09-02",
+   "specs": "RGB-D video along a user camera path · direct point-cloud reconstruction",
+   "video": {
+    "url": "https://github.com/user-attachments/assets/2eb844c9-30ba-4770-8066-189c123affee"
+   },
+   "images": [
+    "https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanWorld-Voyager/main/assets/teaser.png"
+   ],
+   "paper": {
+    "title": "Voyager: Long-Range and World-Consistent Video Diffusion for Explorable 3D Scene Generation",
+    "venue": "ACM TOG (SIGGRAPH Asia 2025)",
+    "arxiv": "2506.04225",
+    "url": "https://arxiv.org/abs/2506.04225",
+    "doi": "10.1145/3763330"
+   },
+   "source_url": "https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager",
+   "code_url": "https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager",
+   "collections": [
+    "trend-world-simulators",
+    "trend-open-weights",
+    "siggraph"
+   ]
+  },
+  {
+   "id": "tencent-hunyuan--hy-world-2",
+   "creator_ids": [
+    "tencent-hunyuan"
+   ],
+   "title": "HY-World 2.0",
+   "year": 2026,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "splats",
+    "mesh",
+    "scene-3d"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "open",
+    "product"
+   ],
+   "lenses": [
+    "persistence",
+    "control",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "Tencent's second-generation open world model: text or a single image is expanded into a navigable 3D Gaussian-splat or mesh world, and multi-view photos or video are reconstructed into 3D, with outputs that import into Blender, Unity, Unreal Engine and Isaac Sim. Weights were released in April–May 2026; an HY World 2.1 update, usable in Tencent's web product, followed in July 2026.",
+   "description_zh": "腾讯第二代开源世界模型：把文字或单张图像扩展为可漫游的三维高斯泼溅或网格世界，也能把多视角照片或视频重建为三维，输出可直接导入 Blender、Unity、虚幻引擎和 Isaac Sim。权重于 2026 年 4–5 月陆续开源，7 月发布 HY World 2.1 更新，可在腾讯的网页产品中使用。",
+   "idea_en": "Tencent frames it explicitly against video world models: build the world once as assets and render it for free, instead of paying per frame for a world that disappears.",
+   "idea_zh": "腾讯明确把它与视频世界模型对照：把世界一次性建成资产、此后渲染几乎零成本，而不是为一个会消失的世界逐帧付费。",
+   "method": "Four stages: HY-Pano 2.0 (about 80B parameters) generates a panorama, WorldNav plans camera trajectories, WorldStereo 2.0 (about 17B) expands the world with keyframe views and geometric memory, and WorldMirror 2.0, a feed-forward model predicting depth, normals, cameras, points and 3DGS, composes the final world.",
+   "method_zh": "共四个阶段：HY-Pano 2.0（约 800 亿参数）生成全景图，WorldNav 规划镜头轨迹，WorldStereo 2.0（约 170 亿参数）借助关键帧视图与几何记忆扩展世界，最后由能前馈预测深度、法线、相机、点云和 3DGS 的 WorldMirror 2.0 合成完整世界。",
+   "keywords": [
+    "world model",
+    "panorama",
+    "feed-forward reconstruction",
+    "open weights",
+    "game engine export",
+    "Isaac Sim"
+   ],
+   "date": "2026-04-16",
+   "specs": "HY-Pano 2.0 ~80B · WorldStereo 2.0 ~17B · 3DGS / mesh output",
+   "video": {
+    "url": "https://github.com/user-attachments/assets/b56f4750-25c9-48fb-83ff-d58526711463"
+   },
+   "images": [
+    "https://raw.githubusercontent.com/Tencent-Hunyuan/HY-World-2.0/main/assets/teaser.png"
+   ],
+   "paper": {
+    "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
+    "venue": "Technical report 2026",
+    "arxiv": "2604.14268",
+    "url": "https://arxiv.org/abs/2604.14268"
+   },
+   "source_url": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+   "code_url": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+   "collections": [
+    "trend-explicit-3d",
+    "trend-open-weights",
+    "trend-grounded"
+   ]
+  },
+  {
+   "id": "skywork--matrix-3d",
+   "creator_ids": [
+    "skywork"
+   ],
+   "title": "Matrix-3D",
+   "year": 2025,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "immersive-video",
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "camera"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "situational-reach"
+   ],
+   "kind": "model",
+   "description": "An open framework that turns a text prompt or image into an omnidirectional, explorable 3D world: it first generates a 360° panoramic video along a chosen trajectory, then reconstructs that video into a 3D Gaussian-splat scene.",
+   "description_zh": "开源框架：把文字或图像变成全方位可探索的三维世界——先沿选定轨迹生成 360° 全景视频，再把视频重建为三维高斯泼溅场景。",
+   "idea_en": "Generating panoramic rather than forward-facing video removes the empty regions behind the viewer that make most single-image worlds feel like stage sets.",
+   "idea_zh": "生成全景视频而不是正前方视频，消除了观看者身后的空白，让世界不再像单面布景。",
+   "method": "A trajectory-guided panoramic video diffusion model conditioned on scene-mesh renders generates the walk; it is lifted to 3D either by a feed-forward large panorama reconstruction model or by an optimisation pipeline, trained on the synthetic Matrix-Pano dataset.",
+   "method_zh": "以场景网格渲染为条件、受轨迹引导的全景视频扩散模型生成行走画面，再由前馈式大型全景重建模型或优化流程提升为三维；训练使用合成数据集 Matrix-Pano。",
+   "keywords": [
+    "panoramic video",
+    "omnidirectional",
+    "3D Gaussian splatting",
+    "open weights"
+   ],
+   "date": "2025-08-12",
+   "specs": "360° panoramic video → 3DGS · 5B low-VRAM mode (12 GB)",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=cOmIVyade-c"
+   },
+   "images": [
+    "https://matrix-3d.github.io/static/images/fig2.png"
+   ],
+   "paper": {
+    "title": "Matrix-3D: Omnidirectional Explorable 3D World Generation",
+    "venue": "Technical report 2025",
+    "arxiv": "2508.08086",
+    "url": "https://arxiv.org/abs/2508.08086"
+   },
+   "source_url": "https://matrix-3d.github.io/",
+   "code_url": "https://github.com/SkyworkAI/Matrix-3D",
+   "collections": [
+    "trend-explicit-3d",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "xinyang-li--flashworld",
+   "creator_ids": [
+    "xinyang-li",
+    "tencent-hunyuan"
+   ],
+   "title": "FlashWorld",
+   "year": 2025,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "diversity",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "An open model that produces a 3D Gaussian-splat scene from a single image or a text prompt in about 5–10 seconds on one GPU, with a browser demo for viewing the result.",
+   "description_zh": "开源模型：在单张 GPU 上约 5–10 秒即可由一张图像或一句文字生成三维高斯泼溅场景，并提供网页演示查看结果。",
+   "idea_en": "When a world takes seconds instead of minutes, scenes can be regenerated between trials or sampled in large numbers for a study.",
+   "idea_zh": "当生成一个世界只需几秒而不是几分钟，就可以在两次试验之间重新生成场景，或为研究批量采样。",
+   "method": "A multi-view diffusion model built on a video-diffusion prior is pre-trained in two modes (multi-view images and direct 3D Gaussians) and then distilled so that the fast 3D-oriented mode matches the visual quality of the multi-view mode.",
+   "method_zh": "基于视频扩散先验的多视角扩散模型先在“多视角图像”和“直接输出三维高斯”两种模式下预训练，再通过跨模式蒸馏，让快速的三维输出模式达到多视角模式的画质。",
+   "keywords": [
+    "3D Gaussian splatting",
+    "distillation",
+    "fast generation",
+    "open weights"
+   ],
+   "date": "2025-10-16",
+   "specs": "5–10 s per scene on one GPU · authors report 10–100× faster than prior work",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=nUIiCj8J6B4"
+   },
+   "images": [
+    "https://imlixinyang.github.io/FlashWorld-Project-Page/static/images/teaser.png"
+   ],
+   "paper": {
+    "title": "FlashWorld: High-quality 3D Scene Generation within Seconds",
+    "venue": "ICLR 2026 (oral)",
+    "arxiv": "2510.13678",
+    "url": "https://arxiv.org/abs/2510.13678"
+   },
+   "source_url": "https://imlixinyang.github.io/FlashWorld-Project-Page/",
+   "code_url": "https://github.com/imlixinyang/FlashWorld",
+   "collections": [
+    "trend-explicit-3d",
+    "trend-open-weights",
+    "trend-feed-forward",
+    "ml-conf"
+   ]
+  },
+  {
+   "id": "nvidia--lyra",
+   "creator_ids": [
+    "nvidia"
+   ],
+   "title": "Lyra",
+   "year": 2025,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "splats",
+    "dynamic-4d"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "situational-reach"
+   ],
+   "kind": "model",
+   "description": "NVIDIA's open model that turns a single image (or a video, for dynamic scenes) into an explicit 3D Gaussian-splat scene in one feed-forward pass, ready for real-time rendering and simulation such as Isaac Sim.",
+   "description_zh": "NVIDIA 的开源模型：一次前向推理就能把单张图像（或用于动态场景的一段视频）变成显式的三维高斯泼溅场景，可直接实时渲染或放进 Isaac Sim 等仿真环境。",
+   "idea_en": "The 3D knowledge already inside a video model can be read out as a scene, without any multi-view training data.",
+   "idea_zh": "视频模型内部已有的三维知识可以直接读出为场景，完全不需要多视角训练数据。",
+   "method": "Self-distillation: a 3DGS decoder is added beside the RGB decoder of a camera-controlled video diffusion model (GEN3C on Cosmos) and trained only on the model's own synthetic outputs to match the decoded video.",
+   "method_zh": "自蒸馏：在可控镜头的视频扩散模型（基于 Cosmos 的 GEN3C）的 RGB 解码器旁增加一个 3DGS 解码器，只用模型自己合成的数据训练，使其渲染结果与解码视频一致。",
+   "keywords": [
+    "self-distillation",
+    "video diffusion",
+    "3D Gaussian splatting",
+    "Isaac Sim",
+    "open weights"
+   ],
+   "date": "2025-09-23",
+   "specs": "single image → 3DGS · video → dynamic 3DGS · feed-forward",
+   "video": {
+    "url": "https://research.nvidia.com/labs/toronto-ai/lyra/assets/videos/teaser/teaser.mp4"
+   },
+   "images": [
+    "https://research.nvidia.com/labs/toronto-ai/lyra/assets/images/isaac/apartment_1.png"
+   ],
+   "paper": {
+    "title": "Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation",
+    "venue": "ICLR 2026",
+    "arxiv": "2509.19296",
+    "url": "https://arxiv.org/abs/2509.19296"
+   },
+   "source_url": "https://research.nvidia.com/labs/toronto-ai/lyra/",
+   "code_url": "https://github.com/nv-tlabs/lyra",
+   "collections": [
+    "trend-world-simulators",
+    "trend-open-weights",
+    "trend-feed-forward",
+    "ml-conf"
+   ]
+  },
+  {
+   "id": "nvidia--lyra-2",
+   "creator_ids": [
+    "nvidia"
+   ],
+   "title": "Lyra 2.0",
+   "year": 2026,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "splats",
+    "mesh",
+    "flat-video"
+   ],
+   "inputs": [
+    "image",
+    "camera"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "situational-reach"
+   ],
+   "kind": "model",
+   "description": "NVIDIA's open successor to Lyra for large environments: it generates long camera-controlled walkthroughs that can turn back and revisit places, and lifts them into a persistent 3D world exportable as splats or meshes, for example as robot training scenes in Isaac Sim. GUI and training code were released in July 2026.",
+   "description_zh": "NVIDIA 面向大场景的开源 Lyra 后继版本：生成可以回头、重访已到过地点的长距离镜头漫游视频，并把它提升为可导出为泼溅或网格的持久三维世界，例如用作 Isaac Sim 中的机器人训练场景。2026 年 7 月发布了图形界面与训练代码。",
+   "idea_en": "It targets the two failures that limit long generated walks, forgetting places that fall out of context and drifting appearance, which are also what break a participant's sense of a stable place.",
+   "idea_zh": "它针对长距离生成漫游的两大问题——走出上下文后忘掉去过的地方、外观逐渐漂移——而这两点恰恰也是破坏参与者“稳定场所感”的原因。",
+   "method": "Per-frame 3D geometry is kept only to retrieve relevant past frames and build dense correspondences with the target view (against spatial forgetting), the video model is trained on self-augmented histories of its own degraded outputs (against drift), and the long trajectories fine-tune feed-forward reconstruction into 3D Gaussians and meshes.",
+   "method_zh": "保留逐帧三维几何，只用于检索相关的历史帧并与目标视角建立稠密对应（应对空间遗忘）；用模型自身退化输出构成的“自增强历史”训练视频模型（应对漂移）；再用得到的长轨迹微调前馈式重建，输出三维高斯与网格。",
+   "keywords": [
+    "long-horizon generation",
+    "spatial memory",
+    "feed-forward reconstruction",
+    "open weights",
+    "Isaac Sim"
+   ],
+   "date": "2026-04-15",
+   "specs": "long-horizon walkthroughs with revisits · 3DGS and mesh export",
+   "video": {
+    "url": "https://nv-tlabs.github.io/Project-Lyra/assets/teaser.mp4"
+   },
+   "images": [
+    "https://nv-tlabs.github.io/Project-Lyra/assets/method_v2.png"
+   ],
+   "paper": {
+    "title": "Lyra 2.0: Explorable Generative 3D Worlds",
+    "venue": "SIGGRAPH Asia 2026 (accepted)",
+    "arxiv": "2604.13036",
+    "url": "https://arxiv.org/abs/2604.13036"
+   },
+   "source_url": "https://nv-tlabs.github.io/Project-Lyra/",
+   "code_url": "https://github.com/nv-tlabs/lyra",
+   "collections": [
+    "trend-explicit-3d",
+    "trend-world-simulators",
+    "trend-open-weights",
+    "siggraph"
+   ]
+  },
+  {
+   "id": "hong-xing-yu--wonderjourney",
+   "creator_ids": [
+    "hong-xing-yu"
+   ],
+   "title": "WonderJourney",
+   "year": 2023,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "scene-3d",
+    "flat-video"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "diversity",
+    "situational-reach"
+   ],
+   "kind": "research",
+   "description": "Starting from any image or text, WonderJourney generates a long sequence of connected 3D scenes, flying from a painting into a mountain range or a poem's landscape, rendered as a continuous camera journey.",
+   "description_zh": "WonderJourney 从任意一张图像或一段文字出发，生成一长串彼此相连的三维场景，例如从一幅画飞入群山或诗中的风景，并渲染成一段连续的镜头旅程。",
+   "idea_en": "Letting a language model write 'what comes next' turns scene generation into open-ended travel, but each step is only a short, view-dependent 3D patch.",
+   "idea_zh": "让语言模型来写“接下来是什么”，场景生成就变成了无尽的旅行；不过每一步都只是一小块依赖视角的三维片段。",
+   "method": "An LLM proposes the next scene description, a text-to-image model with depth estimation builds a point-cloud scene, and a vision-language model checks the result before the camera moves on.",
+   "method_zh": "语言模型提出下一个场景的描述，文生图模型配合深度估计构建点云场景，再由视觉语言模型检查结果，镜头才继续前进。",
+   "keywords": [
+    "perpetual scene generation",
+    "LLM",
+    "point cloud",
+    "journey"
+   ],
+   "date": "2023-12-06",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=2X8TU3KwZ-c"
+   },
+   "paper": {
+    "title": "WonderJourney: Going from Anywhere to Everywhere",
+    "venue": "CVPR 2024",
+    "arxiv": "2312.03884",
+    "url": "https://arxiv.org/abs/2312.03884"
+   },
+   "source_url": "https://kovenyu.com/wonderjourney/",
+   "code_url": "https://github.com/KovenYu/WonderJourney",
+   "collections": [
+    "cvpr"
+   ]
+  },
+  {
+   "id": "hong-xing-yu--wonderworld",
+   "creator_ids": [
+    "hong-xing-yu"
+   ],
+   "title": "WonderWorld",
+   "year": 2024,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image",
+    "text",
+    "camera"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "co-creation",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "From one image, a user moves the camera and types what should appear there; WonderWorld generates each new connected 3D scene in under ten seconds, so a world is built interactively piece by piece.",
+   "description_zh": "从一张图像开始，用户移动镜头并输入那里应该出现什么；WonderWorld 在十秒内生成相连的新三维场景，让世界一块一块地被交互式搭建出来。",
+   "idea_en": "Generation fast enough to answer a user's request turns the participant into a co-author of the world.",
+   "idea_zh": "生成快到能及时回应用户的请求，参与者就成了这个世界的共同作者。",
+   "method": "Fast Layered Gaussian Surfels (FLAGS) are initialised directly from estimated geometry in foreground, background and sky layers, avoiding slow per-scene optimisation, with guided depth diffusion to keep new scenes geometrically connected.",
+   "method_zh": "快速分层高斯面元（FLAGS）直接由前景、背景和天空三层的估计几何初始化，避免缓慢的逐场景优化，并用引导式深度扩散让新场景在几何上与旧场景衔接。",
+   "keywords": [
+    "interactive generation",
+    "Gaussian surfels",
+    "single image",
+    "user-steered"
+   ],
+   "date": "2024-06-13",
+   "specs": "< 10 s per new scene on one A6000 GPU (authors)",
+   "video": {
+    "url": "https://kovenyu.com/wonderworld/interactive_converted_60fps_trimmed_cropped/cathedral_2_interactive_compressed_60fps_trimmed_cropped.mp4"
+   },
+   "images": [
+    "https://kovenyu.com/wonderworld/complete/venice.jpg"
+   ],
+   "paper": {
+    "title": "WonderWorld: Interactive 3D Scene Generation from a Single Image",
+    "venue": "CVPR 2025",
+    "arxiv": "2406.09394",
+    "url": "https://arxiv.org/abs/2406.09394"
+   },
+   "source_url": "https://kovenyu.com/wonderworld/",
+   "code_url": "https://github.com/KovenYu/WonderWorld",
+   "collections": [
+    "cvpr"
+   ]
+  },
+  {
+   "id": "jaeyoung-chung--luciddreamer",
+   "creator_ids": [
+    "jaeyoung-chung"
+   ],
+   "title": "LucidDreamer",
+   "year": 2023,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "diversity",
+    "perceptual-realism"
+   ],
+   "kind": "research",
+   "description": "Generates a whole 3D Gaussian-splat scene, not a single object, from a text prompt or an image, in any style, by repeatedly imagining new views and stitching them into one point cloud.",
+   "description_zh": "根据一句文字或一张图像生成整片三维高斯泼溅场景（而不只是一个物体），风格不限：方法是反复想象新视角，再把它们拼进同一个点云。",
+   "idea_en": "Inpainting plus depth was enough to grow a coherent splat scene from one prompt, the recipe many later world generators refined.",
+   "idea_zh": "图像补全加深度估计就足以从一句提示词“长出”连贯的泼溅场景，后来许多世界生成器都在完善这套做法。",
+   "method": "'Dreaming' alternates Stable Diffusion inpainting of a moved camera view with monocular depth lifting into a shared point cloud; 'alignment' merges the points, which initialise a 3D Gaussian splatting optimisation.",
+   "method_zh": "“做梦”阶段交替进行：用 Stable Diffusion 补全移动后的视角，再用单目深度把它提升进共享点云；“对齐”阶段合并点云，并以此初始化三维高斯泼溅的优化。",
+   "keywords": [
+    "3D Gaussian splatting",
+    "inpainting",
+    "domain-free",
+    "text-to-scene"
+   ],
+   "date": "2023-11-22",
+   "video": {
+    "url": "https://github.com/user-attachments/assets/35004aaa-dffc-4133-b15a-05224e68b91e"
+   },
+   "paper": {
+    "title": "LucidDreamer: Domain-free Generation of 3D Gaussian Splatting Scenes",
+    "venue": "IEEE TVCG 2025",
+    "arxiv": "2311.13384",
+    "url": "https://arxiv.org/abs/2311.13384",
+    "doi": "10.1109/tvcg.2025.3611489"
+   },
+   "source_url": "https://luciddreamer-cvlab.github.io/",
+   "code_url": "https://github.com/luciddreamer-cvlab/LucidDreamer",
+   "collections": [
+    "ieee-vr"
+   ],
+   "exhibited": [
+    "IEEE TVCG 2025 Best Paper Runner-Up"
+   ]
+  },
+  {
+   "id": "lukas-hollein--text2room",
+   "creator_ids": [
+    "lukas-hollein"
+   ],
+   "title": "Text2Room",
+   "year": 2023,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "mesh",
+    "scene-3d"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "authoring",
+    "persistence"
+   ],
+   "kind": "research",
+   "description": "From a text prompt, Text2Room builds a complete, textured 3D room mesh that can be walked around, by painting the room view by view with an image model.",
+   "description_zh": "Text2Room 根据一句文字搭建出完整的、带纹理的三维房间网格，可以在其中走动：方法是用图像模型逐个视角“画”出整个房间。",
+   "idea_en": "It was an early proof that a 2D image model plus depth can furnish an entire enterable room.",
+   "idea_zh": "它是早期的证明：二维图像模型加上深度估计，就能布置出一个可以走进去的完整房间。",
+   "method": "Iterative text-conditioned inpainting along a chosen camera trajectory, with monocular depth estimation and depth alignment, fuses each new view into a single mesh; a second pass fills holes from additional viewpoints.",
+   "method_zh": "沿选定的镜头轨迹进行以文字为条件的迭代补全，结合单目深度估计与深度对齐，把每个新视角融合进同一个网格；第二轮再从更多视角补洞。",
+   "keywords": [
+    "text-to-room",
+    "mesh",
+    "inpainting",
+    "monocular depth"
+   ],
+   "date": "2023-03-21",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=fjRnFL91EZc"
+   },
+   "images": [
+    "https://lukashoel.github.io/text-to-room/static/images/teaser-min.jpg"
+   ],
+   "paper": {
+    "title": "Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models",
+    "venue": "ICCV 2023 (oral)",
+    "arxiv": "2303.11989",
+    "url": "https://arxiv.org/abs/2303.11989"
+   },
+   "source_url": "https://lukashoel.github.io/text-to-room/",
+   "code_url": "https://github.com/lukasHoel/text2room",
+   "collections": [
+    "iccv-eccv"
+   ]
+  },
+  {
+   "id": "andrew-liu--infinite-nature",
+   "creator_ids": [
+    "andrew-liu",
+    "google"
+   ],
+   "title": "Infinite Nature",
+   "year": 2020,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "flat-video",
+    "image"
+   ],
+   "inputs": [
+    "image",
+    "camera"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "diversity",
+    "situational-reach"
+   ],
+   "kind": "research",
+   "description": "From a single landscape photo, Infinite Nature generates an arbitrarily long video of a drone-like flight into the scene, inventing new coastline and mountains as the camera advances.",
+   "description_zh": "Infinite Nature 从一张风景照片出发，生成任意长度的“无人机飞入画面”视频，镜头前进时不断创造新的海岸线与山峦。",
+   "idea_en": "The lineage anchor for explorable worlds: it showed endless novel terrain from one image, and also how it falls apart without a persistent 3D memory.",
+   "idea_zh": "可探索世界这一脉的源头：它展示了从一张图像生成无尽的新地形，也暴露了没有持久三维记忆时世界会如何崩坏。",
+   "method": "Render-refine-repeat: the current frame and its disparity are warped to the next camera pose, and a network inpaints and refines the result, trained on aerial nature videos.",
+   "method_zh": "“渲染—修补—重复”：把当前画面及其视差变换到下一个相机位姿，再由网络补全和修饰，训练数据为航拍自然视频。",
+   "keywords": [
+    "perpetual view generation",
+    "precursor",
+    "single image",
+    "aerial flythrough"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=oXUf6anNAtc"
+   },
+   "images": [
+    "https://infinite-nature.github.io/teaser.png"
+   ],
+   "paper": {
+    "title": "Infinite Nature: Perpetual View Generation of Natural Scenes from a Single Image",
+    "venue": "ICCV 2021 (oral)",
+    "arxiv": "2012.09855",
+    "url": "https://arxiv.org/abs/2012.09855"
+   },
+   "source_url": "https://infinite-nature.github.io/",
+   "code_url": "https://github.com/google-research/google-research/tree/master/infinite_nature",
+   "collections": [
+    "iccv-eccv"
+   ]
+  },
+  {
+   "id": "spaitial--echo",
+   "creator_ids": [
+    "spaitial"
+   ],
+   "title": "Echo",
+   "year": 2025,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image",
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "preview"
+   ],
+   "lenses": [
+    "persistence",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "SpAItial's first world model: a single image or short text prompt becomes a metric-scale 3D Gaussian-splat environment that can be explored freely in real time in a web browser.",
+   "description_zh": "SpAItial 的第一个世界模型：把一张图像或一句简短文字变成具有真实尺度的三维高斯泼溅环境，可在网页浏览器中实时自由探索。",
+   "idea_en": "A second company, from the Munich 3D-vision community, now sells persistent splat worlds, so researchers are not tied to a single vendor's format.",
+   "idea_zh": "又一家来自慕尼黑三维视觉圈的公司开始提供持久的泼溅世界，研究者不必绑定单一厂商的格式。",
+   "method": "SpAItial describes inferring one unified metric-scale scene representation of geometry and appearance from which every frame and depth map is rendered, displayed with 3D Gaussian splatting; the architecture is unpublished.",
+   "method_zh": "SpAItial 称其先推断出统一的、具有真实尺度的几何与外观场景表示，每一帧画面和深度图都由它渲染，再用三维高斯泼溅显示；架构未公开。",
+   "keywords": [
+    "world model",
+    "3D Gaussian splatting",
+    "metric scale",
+    "browser"
+   ],
+   "date": "2025-12",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=mlkRiJfuARw"
+   },
+   "source_url": "https://www.spaitial.ai/",
+   "collections": [
+    "trend-explicit-3d"
+   ]
+  },
+  {
+   "id": "spaitial--echo-2",
+   "creator_ids": [
+    "spaitial"
+   ],
+   "title": "Echo-2",
+   "year": 2026,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image",
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "persistence",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "SpAItial's second world model generates real-time navigable 3D scenes from text or images that run in a browser on any device; in June 2026 the company added a Claude plugin and hosted MCP server for generating and editing worlds from a chat.",
+   "description_zh": "SpAItial 的第二代世界模型，根据文字或图像生成可实时漫游、在任何设备浏览器中运行的三维场景；2026 年 6 月又推出 Claude 插件和托管 MCP 服务器，可在对话中生成与编辑世界。",
+   "idea_en": "World generation is becoming a tool call: an agent can now request, edit and hand over a 3D place in the middle of a conversation.",
+   "idea_zh": "世界生成正在变成一次“工具调用”：智能体可以在对话中途请求、编辑并交付一个三维场所。",
+   "method": "Generates one spatially persistent 3D scene per prompt instead of a frame sequence; SpAItial claims it outperforms Marble 1.1 on the WorldScore benchmark (company claim, not independently verified).",
+   "method_zh": "每个提示词生成一个空间上持久的三维场景，而不是一串画面；SpAItial 称其在 WorldScore 基准上优于 Marble 1.1（公司自述，未经独立验证）。",
+   "keywords": [
+    "world model",
+    "MCP server",
+    "Claude plugin",
+    "3D Gaussian splatting",
+    "WorldScore"
+   ],
+   "date": "2026-04",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=2CIoyGoGHZs"
+   },
+   "images": [
+    "https://spaitial.ai/og-image-default.png"
+   ],
+   "source_url": "https://www.spaitial.ai/",
+   "collections": [
+    "trend-explicit-3d"
+   ]
+  },
+  {
+   "id": "haozhe-xie--citydreamer",
+   "creator_ids": [
+    "haozhe-xie"
+   ],
+   "title": "CityDreamer",
+   "year": 2023,
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "scene-3d",
+    "flat-video"
+   ],
+   "inputs": [
+    "camera"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "situational-reach",
+    "diversity"
+   ],
+   "kind": "research",
+   "description": "Generates unbounded 3D cities, street layouts, buildings and background, that can be flown through with a consistent camera, learned from Google Earth imagery and OpenStreetMap layouts.",
+   "description_zh": "生成无边界的三维城市——街道布局、建筑与背景——可以用连贯的镜头飞越其中，训练数据为 Google Earth 影像与 OpenStreetMap 布局。",
+   "idea_en": "City scale is where situations like crowds, traffic and getting lost live; CityDreamer shows generated layout and appearance can be separated at that scale.",
+   "idea_zh": "人群、交通、迷路这类情境都发生在城市尺度；CityDreamer 表明在这个尺度上可以把生成的布局与外观分开控制。",
+   "method": "An unbounded layout generator produces a semantic and height map; separate neural-field generators render buildings (instance-wise) and background, composed with compact bird's-eye-view scene representations.",
+   "method_zh": "无边界布局生成器先输出语义图与高度图；再由分别负责建筑（逐实例）和背景的神经场生成器渲染，并以紧凑的鸟瞰图场景表示组合起来。",
+   "keywords": [
+    "unbounded city",
+    "layout generation",
+    "neural field",
+    "bird's-eye view"
+   ],
+   "date": "2023-09-01",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=te4zinLTYz0"
+   },
+   "images": [
+    "https://www.infinitescript.com/projects/CityDreamer/CityDreamer-Thumbnail.webp"
+   ],
+   "paper": {
+    "title": "CityDreamer: Compositional Generative Model of Unbounded 3D Cities",
+    "venue": "CVPR 2024",
+    "arxiv": "2309.00610",
+    "url": "https://arxiv.org/abs/2309.00610"
+   },
+   "source_url": "https://www.infinitescript.com/project/city-dreamer/",
+   "code_url": "https://github.com/hzxie/CityDreamer",
+   "collections": [
+    "cvpr"
+   ]
+  },
+  {
+   "id": "blockade-labs--skybox-ai",
+   "creator_ids": [
+    "blockade-labs"
+   ],
+   "title": "Skybox AI",
+   "year": 2023,
+   "field": "worlds-3d",
+   "sub": "panorama",
+   "modalities": [
+    "image"
+   ],
+   "inputs": [
+    "text",
+    "sketch",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "product",
+    "api"
+   ],
+   "lenses": [
+    "authoring",
+    "diversity"
+   ],
+   "kind": "product",
+   "description": "A web tool and API that generates 360° equirectangular skyboxes from a prompt or a rough sketch, with style packs, remixing of existing 360° photos, HDRI lighting export and a depth-based 'world mesh' export for game engines and VR.",
+   "description_zh": "网页工具与 API：根据提示词或粗略草图生成 360° 等距柱状天空盒，提供风格包、对已有 360° 照片的重混、HDRI 光照导出，以及基于深度的“世界网格”导出，可用于游戏引擎和 VR。",
+   "idea_en": "The quickest way to put a participant inside a generated surround, but a skybox stays a backdrop: nothing in it can be reached or moved.",
+   "idea_zh": "这是让参与者置身于生成环境中最快的办法，但天空盒始终只是背景：其中的任何东西都无法触及或移动。",
+   "method": "Proprietary diffusion models (Model 3 and later) trained for seamless equirectangular output; depth estimation turns the panorama into a simple enclosing mesh.",
+   "method_zh": "专为无缝等距柱状输出训练的专有扩散模型（Model 3 及之后版本）；通过深度估计把全景图变成一个简单的包围网格。",
+   "keywords": [
+    "skybox",
+    "360° panorama",
+    "equirectangular",
+    "HDRI",
+    "sketch-to-skybox"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=eKO49j-ibaA"
+   },
+   "images": [
+    "https://static.wixstatic.com/media/8d6639_b2ee76a88e224659804c1ef09c7bc5da~mv2.jpg"
+   ],
+   "source_url": "https://www.blockadelabs.com/",
+   "api_url": "https://api-documentation.blockadelabs.com/api/"
+  },
+  {
+   "id": "zhaoxi-chen--text2light",
+   "creator_ids": [
+    "zhaoxi-chen"
+   ],
+   "title": "Text2Light",
+   "year": 2022,
+   "field": "worlds-3d",
+   "sub": "panorama",
+   "modalities": [
+    "image"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Generates high-resolution HDR 360° panoramas from a text description, usable both as an immersive backdrop and as physically based lighting for rendering 3D scenes.",
+   "description_zh": "根据文字描述生成高分辨率的 HDR 360° 全景图，既可作为沉浸式背景，也可作为三维场景渲染时基于物理的光照。",
+   "idea_en": "A generated environment can also light the scene, so virtual people and objects look as if they belong in it.",
+   "idea_zh": "生成的环境还能为场景提供光照，让虚拟人物和物体看起来真的身处其中。",
+   "method": "Zero-shot two-stage pipeline: a text-driven low-resolution LDR panorama is generated with CLIP guidance and hierarchical codebooks, then upscaled by a structure-aware super-resolution network and lifted to HDR.",
+   "method_zh": "零样本两阶段流程：先借助 CLIP 引导与分层码本生成文字驱动的低分辨率 LDR 全景图，再由结构感知的超分辨率网络放大并提升为 HDR。",
+   "keywords": [
+    "HDR panorama",
+    "text-to-panorama",
+    "image-based lighting",
+    "precursor"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=XDx6tOHigPE"
+   },
+   "images": [
+    "https://frozenburning.github.io/projects/text2light/img/teaser.jpg"
+   ],
+   "paper": {
+    "title": "Text2Light: Zero-Shot Text-Driven HDR Panorama Generation",
+    "venue": "ACM TOG (SIGGRAPH Asia 2022)",
+    "arxiv": "2209.09898",
+    "url": "https://arxiv.org/abs/2209.09898",
+    "doi": "10.1145/3550454.3555447"
+   },
+   "source_url": "https://frozenburning.github.io/projects/text2light/",
+   "code_url": "https://github.com/FrozenBurning/Text2Light",
+   "collections": [
+    "siggraph"
+   ]
+  },
+  {
+   "id": "shitao-tang--mvdiffusion",
+   "creator_ids": [
+    "shitao-tang"
+   ],
+   "title": "MVDiffusion",
+   "year": 2023,
+   "field": "worlds-3d",
+   "sub": "panorama",
+   "modalities": [
+    "image"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "persistence"
+   ],
+   "kind": "research",
+   "description": "Generates a seamless 360° panorama from text by producing eight overlapping perspective views at once that agree with each other; the same idea also textures a scanned room mesh consistently.",
+   "description_zh": "通过一次性生成八张相互重叠且彼此一致的透视视图，根据文字合成无缝的 360° 全景图；同样的思路也能一致地为扫描的房间网格上色。",
+   "idea_en": "Treating a panorama as many views that must agree, rather than one wide image, removes seams and drift at the wrap-around edge.",
+   "idea_zh": "把全景图视为多个必须彼此一致的视角，而不是一张宽幅图像，从而消除了接缝和首尾相接处的漂移。",
+   "method": "Correspondence-aware attention layers inserted into a pretrained Stable Diffusion model share features between pixel-correspondent locations of the views, which are denoised in parallel.",
+   "method_zh": "在预训练的 Stable Diffusion 中插入对应关系感知的注意力层，使各视图中像素对应的位置共享特征，所有视图并行去噪。",
+   "keywords": [
+    "text-to-panorama",
+    "multi-view diffusion",
+    "correspondence-aware attention"
+   ],
+   "date": "2023-07-03",
+   "video": {
+    "url": "https://mvdiffusion.github.io/pics/panorama/1_h264.mp4"
+   },
+   "images": [
+    "https://mvdiffusion.github.io/assets/images/teaser_v2.gif"
+   ],
+   "paper": {
+    "title": "MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion",
+    "venue": "NeurIPS 2023 (spotlight)",
+    "arxiv": "2307.01097",
+    "url": "https://arxiv.org/abs/2307.01097"
+   },
+   "source_url": "https://mvdiffusion.github.io/",
+   "code_url": "https://github.com/Tangshitao/MVDiffusion",
+   "collections": [
+    "ml-conf"
+   ]
+  },
+  {
+   "id": "shijie-zhou--dreamscene360",
+   "creator_ids": [
+    "shijie-zhou"
+   ],
+   "title": "DreamScene360",
+   "year": 2024,
+   "field": "worlds-3d",
+   "sub": "panorama",
+   "modalities": [
+    "splats",
+    "image"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "authoring",
+    "persistence"
+   ],
+   "kind": "research",
+   "description": "Turns a text prompt into a full 360° 3D scene: a generated panorama is lifted into Gaussian splats that can be viewed from any direction with limited movement.",
+   "description_zh": "把一句文字变成完整的 360° 三维场景：先生成全景图，再提升为高斯泼溅，可以从任意方向观看，并允许小范围移动。",
+   "idea_en": "A panorama is a convenient first layer for a VR scene: it fixes the whole surround before any 3D is built.",
+   "idea_zh": "全景图是 VR 场景方便的第一层：在构建任何三维内容之前就先确定了整个环绕环境。",
+   "method": "A GPT-4V self-refinement loop improves the prompt, a 2D diffusion model generates the panorama, monocular depth initialises a panoramic 3D Gaussian set, and semantic and geometric regularisation on synthesised virtual views fills unseen regions.",
+   "method_zh": "先用 GPT-4V 自我修正循环优化提示词，再用二维扩散模型生成全景图，以单目深度初始化全景三维高斯，并在合成的虚拟视角上施加语义与几何正则以补全未见区域。",
+   "keywords": [
+    "panorama",
+    "3D Gaussian splatting",
+    "text-to-3D scene",
+    "360°"
+   ],
+   "date": "2024-04-10",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=6rMIQfe7b24"
+   },
+   "images": [
+    "https://raw.githubusercontent.com/ShijieZhou-UCLA/DreamScene360/main/assets/teaser_v6.png"
+   ],
+   "paper": {
+    "title": "DreamScene360: Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting",
+    "venue": "ECCV 2024",
+    "arxiv": "2404.06903",
+    "url": "https://arxiv.org/abs/2404.06903",
+    "doi": "10.1007/978-3-031-72658-3_19"
+   },
+   "source_url": "https://dreamscene360.github.io/",
+   "code_url": "https://github.com/ShijieZhou-UCLA/DreamScene360",
+   "collections": [
+    "iccv-eccv"
+   ]
+  },
+  {
+   "id": "shuai-yang--layerpano3d",
+   "creator_ids": [
+    "shuai-yang"
+   ],
+   "title": "LayerPano3D",
+   "year": 2024,
+   "field": "worlds-3d",
+   "sub": "panorama",
+   "modalities": [
+    "splats",
+    "image"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "persistence"
+   ],
+   "kind": "research",
+   "description": "Generates a full-view 360° panorama from text and splits it into depth layers turned into 3D Gaussians, so a viewer can walk a short distance and see occluded content appear behind objects.",
+   "description_zh": "根据文字生成 360° 全景图，并按深度拆成多个图层再转成三维高斯，观看者可以走动一小段距离，看到被物体遮挡的内容显现出来。",
+   "idea_en": "Layering the panorama is a cheap way to add parallax and disocclusion, which is what makes a 360° image feel like a place in a headset.",
+   "idea_zh": "把全景图分层，是增加视差与去遮挡效果的低成本办法，而这正是 360° 图像在头显中“像一个地方”的关键。",
+   "method": "Text-guided anchor views are synthesised into a high-resolution panorama, decomposed into layered panoramas by depth with inpainting of hidden content, and each layer is optimised as 3D Gaussians.",
+   "method_zh": "先合成文字引导的锚点视图并拼成高分辨率全景图，再按深度分解为多层全景并补全被遮挡内容，每一层都优化为三维高斯。",
+   "keywords": [
+    "layered panorama",
+    "3D Gaussian splatting",
+    "disocclusion",
+    "VR"
+   ],
+   "date": "2024-08-23",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=lpNs5JwaJoA"
+   },
+   "paper": {
+    "title": "LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation",
+    "venue": "SIGGRAPH 2025",
+    "arxiv": "2408.13252",
+    "url": "https://arxiv.org/abs/2408.13252",
+    "doi": "10.1145/3721238.3730643"
+   },
+   "source_url": "https://ys-imtech.github.io/projects/LayerPano3D/",
+   "code_url": "https://github.com/YS-IMTech/LayerPano3D",
+   "collections": [
+    "siggraph"
+   ]
+  },
+  {
+   "id": "yue-yang--holodeck",
+   "creator_ids": [
+    "yue-yang",
+    "ai2"
+   ],
+   "title": "Holodeck",
+   "year": 2023,
+   "field": "worlds-3d",
+   "sub": "layout",
+   "modalities": [
+    "scene-3d",
+    "mesh"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "authoring",
+    "diversity",
+    "control"
+   ],
+   "kind": "research",
+   "description": "From a prompt such as 'a 1b1b apartment of a researcher who has a cat', Holodeck builds a complete interactive multi-room environment in AI2-THOR, with floor plan, materials, doors, windows and furnished objects that embodied agents can navigate.",
+   "description_zh": "输入“一位养猫研究者的一室一厅公寓”这样的提示，Holodeck 就会在 AI2-THOR 中搭建完整的、可交互的多房间环境，包括平面图、材质、门窗和摆放好的家具，具身智能体可以在其中导航。",
+   "idea_en": "The language model writes the scene as constraints, so every generated room is an inspectable specification that can be logged, varied and rebuilt.",
+   "idea_zh": "语言模型把场景写成约束，因此每个生成的房间都是一份可检查的规格说明，可以记录、变化和重建。",
+   "method": "GPT-4 proposes floor plans, materials and object lists with spatial-relation constraints; assets are retrieved from Objaverse and a constraint solver optimises the layout before the scene is loaded into the AI2-THOR simulator.",
+   "method_zh": "GPT-4 提出平面图、材质和带空间关系约束的物体清单；从 Objaverse 检索资产，再由约束求解器优化布局，最后载入 AI2-THOR 模拟器。",
+   "keywords": [
+    "LLM layout",
+    "embodied AI",
+    "AI2-THOR",
+    "Objaverse",
+    "constraint solver"
+   ],
+   "date": "2023-12-14",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=Pk5BcEqqPoU"
+   },
+   "images": [
+    "https://yueyang1996.github.io/holodeck/static/images/floorplan_customizability.jpg"
+   ],
+   "paper": {
+    "title": "Holodeck: Language Guided Generation of 3D Embodied AI Environments",
+    "venue": "CVPR 2024",
+    "arxiv": "2312.09067",
+    "url": "https://arxiv.org/abs/2312.09067"
+   },
+   "source_url": "https://yueyang1996.github.io/holodeck/",
+   "code_url": "https://github.com/allenai/Holodeck",
+   "collections": [
+    "cvpr",
+    "trend-agents-in-worlds"
+   ]
+  },
+  {
+   "id": "alexander-raistrick--infinigen",
+   "creator_ids": [
+    "alexander-raistrick",
+    "princeton-vl"
+   ],
+   "title": "Infinigen",
+   "year": 2023,
+   "field": "worlds-3d",
+   "sub": "layout",
+   "modalities": [
+    "scene-3d",
+    "mesh"
+   ],
+   "inputs": [
+    "spec"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "diversity",
+    "control",
+    "perceptual-realism"
+   ],
+   "kind": "open-source",
+   "description": "An open-source procedural generator that creates unlimited photorealistic natural worlds, terrain, plants, animals, weather, entirely from code in Blender, with exact ground truth for depth, segmentation and geometry. Infinigen Indoors (CVPR 2024) extended it to furnished rooms, followed by articulated simulation-ready assets (2025) and the ProcFunc abstractions (2026).",
+   "description_zh": "开源的程序化生成器，完全在 Blender 中用代码创造无限多的照片级自然世界——地形、植物、动物和天气，并附带深度、分割和几何的精确真值。Infinigen Indoors（CVPR 2024）把它扩展到布置好的室内房间，随后又加入可铰接、可用于仿真的资产（2025）和 ProcFunc 抽象（2026）。",
+   "idea_en": "Procedural generation gives what learned generators cannot: every parameter of a scene is known, seedable and reproducible.",
+   "idea_zh": "程序化生成能给出学习式生成器做不到的东西：场景的每个参数都已知、可设种子、可复现。",
+   "method": "Every asset, from geometry to materials, is generated by randomised mathematical rules (no external assets), composed into scenes by constraint-based arrangement and rendered with Blender's path tracer.",
+   "method_zh": "从几何到材质，每个资产都由随机化的数学规则生成（不依赖外部资产），再通过基于约束的摆放组成场景，并用 Blender 路径追踪渲染。",
+   "keywords": [
+    "procedural generation",
+    "Blender",
+    "synthetic data",
+    "Infinigen Indoors",
+    "ground truth"
+   ],
+   "date": "2023-06-15",
+   "specs": "fully procedural · no external assets · ground-truth depth, normals, segmentation",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=6tgspeI-GHY"
+   },
+   "images": [
+    "https://infinigen.org/img/social_card.png"
+   ],
+   "paper": {
+    "title": "Infinite Photorealistic Worlds using Procedural Generation",
+    "venue": "CVPR 2023",
+    "arxiv": "2306.09310",
+    "url": "https://arxiv.org/abs/2306.09310"
+   },
+   "source_url": "https://infinigen.org/",
+   "code_url": "https://github.com/princeton-vl/infinigen",
+   "collections": [
+    "cvpr",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "weixi-feng--layoutgpt",
+   "creator_ids": [
+    "weixi-feng"
+   ],
+   "title": "LayoutGPT",
+   "year": 2023,
+   "field": "worlds-3d",
+   "sub": "layout",
+   "modalities": [
+    "scene-3d"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "control",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Shows that a text-only language model, prompted with CSS-style examples, can write numeric layouts: bounding boxes for images and object positions and sizes for 3D indoor rooms.",
+   "description_zh": "表明只懂文字的语言模型，在类似 CSS 的示例提示下，就能写出带数值的布局：为图像给出包围框，为三维室内房间给出物体的位置与尺寸。",
+   "idea_en": "Layout written as text is the most controllable layer of a generated scene: it can be read, edited and diffed before anything is rendered.",
+   "idea_zh": "以文字写成的布局是生成场景中最可控的一层：在渲染之前就能阅读、编辑和比对。",
+   "method": "In-context learning with retrieved exemplars in a CSS-like format lets GPT-3.5/4 output layouts, which condition a layout-to-image model or place furniture in 3D-FRONT rooms.",
+   "method_zh": "用检索到的示例，以类似 CSS 的格式进行上下文学习，让 GPT-3.5/4 输出布局，再用于驱动布局到图像的模型，或在 3D-FRONT 房间中摆放家具。",
+   "keywords": [
+    "LLM layout",
+    "in-context learning",
+    "indoor scenes",
+    "3D-FRONT"
+   ],
+   "date": "2023-05-24",
+   "video": {
+    "url": "https://layoutgpt.github.io/static/videos/merged_scenes.mp4"
+   },
+   "images": [
+    "https://layoutgpt.github.io/static/images/3d_qualitative.png"
+   ],
+   "paper": {
+    "title": "LayoutGPT: Compositional Visual Planning and Generation with Large Language Models",
+    "venue": "NeurIPS 2023",
+    "arxiv": "2305.15393",
+    "url": "https://arxiv.org/abs/2305.15393"
+   },
+   "source_url": "https://layoutgpt.github.io/",
+   "code_url": "https://github.com/weixi-feng/LayoutGPT",
+   "collections": [
+    "ml-conf"
+   ]
+  },
+  {
+   "id": "meta--worldgen",
+   "creator_ids": [
+    "meta"
+   ],
+   "title": "WorldGen",
+   "year": 2025,
+   "field": "worlds-3d",
+   "sub": "layout",
+   "modalities": [
+    "mesh",
+    "scene-3d"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "situational-reach",
+    "persistence"
+   ],
+   "kind": "research",
+   "description": "Meta Reality Labs' research system that turns a single text prompt into a traversable, fully textured 3D world (reported up to about 50 × 50 m) with a navigation mesh, ready to explore or edit in Unity or Unreal Engine. Research only as of October 2026.",
+   "description_zh": "Meta Reality Labs 的研究系统：把一句文字变成可行走、完整贴图的三维世界（报道称最大约 50 × 50 米），自带导航网格，可直接在 Unity 或虚幻引擎中探索或编辑。截至 2026 年 10 月仍仅限研究。",
+   "idea_en": "Walkability comes first: the layout and navmesh are planned before appearance, so the world works as a level, not only as a view.",
+   "idea_zh": "可行走性优先：先规划布局和导航网格，再决定外观，所以这个世界首先是一个“关卡”，而不只是一幅画面。",
+   "method": "LLM-driven layout reasoning and procedural blockout produce a navmesh-aware scene plan, a reference image is generated, image-to-3D reconstruction builds the scene, and object-aware decomposition and per-object enhancement and texturing finish the world.",
+   "method_zh": "由语言模型推理布局并程序化生成白盒，得到考虑导航网格的场景规划；再生成参考图像，经图生三维重建出场景，最后进行按物体的分解、增强与贴图。",
+   "keywords": [
+    "text-to-world",
+    "navmesh",
+    "procedural blockout",
+    "game engine",
+    "Reality Labs"
+   ],
+   "date": "2025-11-20",
+   "specs": "scenes up to ~50 × 50 m (reported) · navmesh · Unity / Unreal export",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=mzuyLODsUTM"
+   },
+   "images": [
+    "https://arxiv.org/html/2511.16825v1/x1.png"
+   ],
+   "paper": {
+    "title": "WorldGen: From Text to Traversable and Interactive 3D Worlds",
+    "venue": "CVPR 2026",
+    "arxiv": "2511.16825",
+    "url": "https://arxiv.org/abs/2511.16825"
+   },
+   "source_url": "https://www.meta.com/blog/worldgen-3d-world-generation-reality-labs-generative-ai-research/",
+   "collections": [
+    "trend-explicit-3d",
+    "cvpr"
+   ]
+  },
+  {
+   "id": "tencent-hunyuan--worldclaw",
+   "creator_ids": [
+    "tencent-hunyuan"
+   ],
+   "title": "WorldClaw",
+   "year": 2026,
+   "field": "worlds-3d",
+   "sub": "layout",
+   "modalities": [
+    "mesh",
+    "scene-3d"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "situational-reach",
+    "authoring",
+    "control"
+   ],
+   "kind": "research",
+   "description": "A Tencent Hunyuan agentic system that turns one open-ended prompt into a large, explorable open-world 3D scene with terrain, regions and editable instance-level assets.",
+   "description_zh": "腾讯混元的智能体系统：把一句开放式提示词变成大尺度、可探索的开放世界三维场景，包含地形、分区和可编辑的实例级资产。",
+   "idea_en": "Agents that plan, build and then inspect renders can scale generation from a room to a landscape while keeping every object editable.",
+   "idea_zh": "会规划、会搭建、还会检查渲染结果的智能体，可以把生成规模从一个房间扩展到一片地景，同时让每个物体都保持可编辑。",
+   "method": "Planning agents write a structured specification (regions, terrain, assets, materials, spatial relations); a region-aware height field and semantic layout form the terrain, detailed regions are generated as terrain-conditioned compositions and reconstructed into textured meshes, and render-based agents refine terrain, objects and contacts.",
+   "method_zh": "规划智能体先写出结构化规格（分区、地形、资产、材质、空间关系）；由分区感知的高度场和语义布局构成地形，细节区域以地形为条件生成组合并重建为带纹理的网格，最后由基于渲染的智能体修正地形、物体与接触关系。",
+   "keywords": [
+    "agentic generation",
+    "open world",
+    "terrain",
+    "editable assets"
+   ],
+   "date": "2026-08-07",
+   "video": {
+    "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/media/worldclaw-teaser.mp4"
+   },
+   "images": [
+    "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/assets/worldclaw-share.jpg"
+   ],
+   "paper": {
+    "title": "WorldClaw: Agentic 3D Open-World Generation at Scale",
+    "venue": "arXiv 2026",
+    "arxiv": "2608.05248",
+    "url": "https://arxiv.org/abs/2608.05248"
+   },
+   "source_url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+   "code_url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-WorldClaw",
+   "collections": [
+    "trend-explicit-3d"
+   ]
+  },
+  {
+   "id": "nvidia--sage",
+   "creator_ids": [
+    "nvidia"
+   ],
+   "title": "SAGE",
+   "year": 2026,
+   "field": "worlds-3d",
+   "sub": "layout",
+   "modalities": [
+    "scene-3d",
+    "mesh"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "situational-reach",
+    "diversity",
+    "behavioral-plausibility"
+   ],
+   "kind": "research",
+   "description": "Given an embodied task such as 'pick up a bowl and place it on the table', SAGE's agent generates a physically valid, simulation-ready room for it and refines it until it passes its own checks; NVIDIA released code and the SAGE-10k scene dataset.",
+   "description_zh": "给定“拿起碗放到桌上”这样的具身任务，SAGE 的智能体会为之生成一个物理上有效、可直接仿真的房间，并不断修正直到通过自身的检查；NVIDIA 公开了代码和 SAGE-10k 场景数据集。",
+   "idea_en": "Generating the situation from the task description, then checking it with critics, is the same loop a study needs when its scenario must be both varied and valid.",
+   "idea_zh": "根据任务描述生成情境、再用评审器检查，这正是研究中既要变化多样又要保证有效的情境所需要的循环。",
+   "method": "An LLM agent couples layout and object-composition generators (including TRELLIS assets) with critics for semantic plausibility, visual realism and physical stability, iterating until the scene meets intent and loads stably in Isaac Sim.",
+   "method_zh": "语言模型智能体把布局生成器、物体组合生成器（包括 TRELLIS 资产）与语义合理性、视觉真实感和物理稳定性评审器结合起来，反复迭代，直到场景符合意图并能在 Isaac Sim 中稳定加载。",
+   "keywords": [
+    "agentic scene generation",
+    "embodied AI",
+    "simulation-ready",
+    "critics",
+    "dataset"
+   ],
+   "date": "2026-02-10",
+   "specs": "SAGE-10k dataset · Isaac Sim / Isaac Lab",
+   "video": {
+    "url": "https://research.nvidia.com/labs/cosmos-lab/sage/assets/video-sage.mp4"
+   },
+   "images": [
+    "https://research.nvidia.com/labs/cosmos-lab/sage/assets/images/teaser.png"
+   ],
+   "paper": {
+    "title": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI",
+    "venue": "arXiv 2026",
+    "arxiv": "2602.10116",
+    "url": "https://arxiv.org/abs/2602.10116"
+   },
+   "source_url": "https://research.nvidia.com/labs/cosmos-lab/sage/",
+   "code_url": "https://github.com/NVlabs/sage",
+   "collections": [
+    "trend-agents-in-worlds",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "siddharth-ahuja--blender-mcp",
+   "creator_ids": [
+    "siddharth-ahuja"
+   ],
+   "title": "BlenderMCP",
+   "year": 2025,
+   "field": "worlds-3d",
+   "sub": "layout",
+   "modalities": [
+    "scene-3d",
+    "mesh"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "authoring",
+    "co-creation"
+   ],
+   "kind": "open-source",
+   "description": "An open-source add-on and Model Context Protocol server that lets Claude and other language models inspect and edit a live Blender scene: creating and placing objects, applying materials, pulling Poly Haven assets and calling 3D generators.",
+   "description_zh": "开源插件与 Model Context Protocol 服务器，让 Claude 等语言模型可以查看并编辑正在运行的 Blender 场景：创建和摆放物体、应用材质、调用 Poly Haven 资产以及三维生成服务。",
+   "idea_en": "Scene building by conversation inside a professional tool: the language model writes the code, the person keeps the file.",
+   "idea_zh": "在专业工具中通过对话搭建场景：语言模型写代码，人保留文件。",
+   "method": "A Blender add-on opens a socket server; an MCP server exposes tools (scene inspection, object creation, Python execution, asset search) that the language model calls turn by turn.",
+   "method_zh": "Blender 插件开启一个套接字服务；MCP 服务器把场景查看、物体创建、Python 执行、资产搜索等功能暴露为工具，由语言模型逐轮调用。",
+   "keywords": [
+    "MCP",
+    "Blender",
+    "LLM agent",
+    "code-built scenes",
+    "Claude"
+   ],
+   "date": "2025-03",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=DqgKuLYUv00"
+   },
+   "source_url": "https://github.com/ahujasid/blender-mcp",
+   "code_url": "https://github.com/ahujasid/blender-mcp"
+  },
+  {
+   "id": "apple--spatial-scenes",
+   "creator_ids": [
+    "apple"
+   ],
+   "title": "Spatial Scenes (visionOS 26)",
+   "year": 2025,
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "scene-3d",
+    "image"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "product",
+    "api"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "product",
+   "description": "A visionOS 26 feature that turns any 2D photo into a spatial scene with depth and multiple perspectives, so the viewer can lean in and look around it on Apple Vision Pro (and as parallax on the iOS 26 Lock Screen); developers get a Spatial Scene API, and visionOS 27 (June 2026) extends it to panoramas that can be set as personal Environments.",
+   "description_zh": "visionOS 26 的功能：把任意二维照片变成带深度、可从多个角度观看的空间场景，在 Apple Vision Pro 上可以凑近、环顾（iOS 26 锁定屏幕上则呈现为视差效果）；开发者可使用 Spatial Scene API；visionOS 27（2026 年 6 月）把它扩展到全景照片，并可设为个人“环境”。",
+   "idea_en": "Photo-to-3D now ships by default in a headset OS, so personal photos become a ready source of familiar, real places for immersive studies.",
+   "idea_zh": "照片转三维已成为头显系统的默认功能，个人照片因此成为沉浸式研究中现成的、熟悉的真实场所来源。",
+   "method": "Apple describes 'a new generative AI algorithm and computational depth' that infers geometry and fills disoccluded regions to create multiple perspectives; the model is not published (Apple's SHARP research addresses the same task).",
+   "method_zh": "Apple 称其使用“新的生成式 AI 算法与计算深度”推断几何并补全去遮挡区域，以生成多个视角；模型未公开（Apple 的 SHARP 研究针对的是同一任务）。",
+   "keywords": [
+    "visionOS",
+    "Apple Vision Pro",
+    "spatial scenes",
+    "photo-to-3D",
+    "Spatial Scene API"
+   ],
+   "date": "2025-06-09",
+   "video": {
+    "url": "https://www.apple.com/newsroom/videos/2025/autoplay/06/visionos-26-introduces-powerful-new-spatial-experiences-for-apple-vision-pro/apple-wwdc25-visionos-26-spatial-scenes-photos-app/large_2x.mp4"
+   },
+   "images": [
+    "https://www.apple.com/newsroom/images/2025/06/visionos-26-introduces-powerful-new-spatial-experiences-for-apple-vision-pro/tile/Apple-WWDC25-visionOS-26-hero-250609-lp.jpg.og.jpg"
+   ],
+   "source_url": "https://www.apple.com/newsroom/2025/06/visionos-26-introduces-powerful-new-spatial-experiences-for-apple-vision-pro/",
+   "collections": [
+    "trend-in-situ-xr",
+    "trend-grounded"
+   ]
+  },
+  {
+   "id": "apple--sharp",
+   "creator_ids": [
+    "apple"
+   ],
+   "title": "SHARP",
+   "year": 2025,
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "splats"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "Apple's open model that converts a single photo into a metric-scale 3D Gaussian representation in under a second on a standard GPU, which then renders photorealistic nearby views in real time.",
+   "description_zh": "Apple 的开源模型：在普通 GPU 上不到一秒就把一张照片转换成具有真实尺度的三维高斯表示，随后可实时渲染出照片级的邻近视角。",
+   "idea_en": "Sub-second, metric splats from one photo make 'step into this picture' cheap enough to do for every stimulus image, though only for small head movements.",
+   "idea_zh": "一秒之内从一张照片得到带真实尺度的泼溅，让“走进这张照片”便宜到可以对每张刺激图都这样做，不过只适用于小幅度的头部移动。",
+   "method": "A single feed-forward network regresses the parameters of 3D Gaussians from one image with absolute scale; the authors report LPIPS 25–34% and DISTS 21–43% lower than the best prior model with three orders of magnitude less synthesis time.",
+   "method_zh": "单个前馈网络从一张图像直接回归具有绝对尺度的三维高斯参数；作者报告其 LPIPS 比此前最佳模型低 25–34%，DISTS 低 21–43%，合成时间缩短三个数量级。",
+   "keywords": [
+    "single-image 3DGS",
+    "view synthesis",
+    "feed-forward",
+    "metric scale",
+    "third-party video"
+   ],
+   "date": "2025-12-11",
+   "specs": "< 1 s per image on a standard GPU · metric-scale 3DGS · real-time rendering",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=pSQSsXqQlcY"
+   },
+   "images": [
+    "https://apple-aiml-research.github.io/ml-sharp/teaser.jpg"
+   ],
+   "paper": {
+    "title": "Sharp Monocular View Synthesis in Less Than a Second",
+    "venue": "ICLR 2026",
+    "arxiv": "2512.10685",
+    "url": "https://arxiv.org/abs/2512.10685"
+   },
+   "source_url": "https://apple-aiml-research.github.io/ml-sharp/",
+   "code_url": "https://github.com/apple/ml-sharp",
+   "collections": [
+    "trend-feed-forward",
+    "trend-open-weights",
+    "ml-conf"
+   ]
+  },
+  {
+   "id": "apple--depth-pro",
+   "creator_ids": [
+    "apple"
+   ],
+   "title": "Depth Pro",
+   "year": 2024,
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "image"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "responsiveness"
+   ],
+   "kind": "model",
+   "description": "Apple's open monocular depth model that predicts a sharp, metric-scale depth map from a single photo, without camera intrinsics, in a fraction of a second.",
+   "description_zh": "Apple 的开源单目深度模型：不需要相机内参，在不到一秒内从一张照片预测出边缘锐利、具有真实尺度的深度图。",
+   "idea_en": "Metric depth from any photo is the cheapest step from a picture to geometry; most photo-to-scene pipelines start here.",
+   "idea_zh": "从任意照片得到真实尺度的深度，是从图像走向几何最便宜的一步；多数照片转场景流程都从这里开始。",
+   "method": "A multi-scale vision-transformer encoder with a combined real and synthetic training curriculum predicts metric depth and estimates focal length from the image itself.",
+   "method_zh": "多尺度视觉 Transformer 编码器，结合真实与合成数据的训练课程，预测真实尺度深度，并直接从图像估计焦距。",
+   "keywords": [
+    "monocular depth",
+    "metric depth",
+    "focal length estimation",
+    "third-party video"
+   ],
+   "date": "2024-10-02",
+   "specs": "2.25-megapixel depth map in 0.3 s on a standard GPU (authors)",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=no5yJje_mos"
+   },
+   "images": [
+    "https://raw.githubusercontent.com/apple/ml-depth-pro/main/data/depth-pro-teaser.jpg"
+   ],
+   "paper": {
+    "title": "Depth Pro: Sharp Monocular Metric Depth in Less Than a Second",
+    "venue": "ICLR 2025",
+    "arxiv": "2410.02073",
+    "url": "https://arxiv.org/abs/2410.02073"
+   },
+   "source_url": "https://github.com/apple/ml-depth-pro",
+   "code_url": "https://github.com/apple/ml-depth-pro",
+   "collections": [
+    "trend-open-weights",
+    "ml-conf"
+   ]
+  },
+  {
+   "id": "lihe-yang--depth-anything-v2",
+   "creator_ids": [
+    "lihe-yang",
+    "bytedance-seed"
+   ],
+   "title": "Depth Anything V2",
+   "year": 2024,
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "image"
+   ],
+   "inputs": [
+    "image",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "diversity"
+   ],
+   "kind": "model",
+   "description": "Open monocular depth models (from about 25M to 1.3B parameters) that estimate fine-grained relative depth for any image, widely built into 3D-photo, 2D-to-3D video and scene-generation tools; it follows Depth Anything (January 2024).",
+   "description_zh": "开源单目深度模型（参数规模约从 2500 万到 13 亿），能为任意图像估计细致的相对深度，被广泛集成进三维照片、二维转三维视频和场景生成工具；它是 Depth Anything（2024 年 1 月）的后续版本。",
+   "idea_en": "Reliable depth for any picture is the hidden layer under many 'generated' 3D scenes: errors in depth become errors in the world.",
+   "idea_zh": "任意图像的可靠深度，是许多“生成”三维场景之下看不见的一层：深度上的错误会变成世界里的错误。",
+   "method": "A teacher trained only on precise synthetic depth labels pseudo-labels about 62 million real images, on which smaller student models are trained (DINOv2 encoder with a DPT head).",
+   "method_zh": "只在精确的合成深度标签上训练的教师模型，为约 6200 万张真实图像生成伪标签，再用这些数据训练较小的学生模型（DINOv2 编码器加 DPT 解码头）。",
+   "keywords": [
+    "monocular depth",
+    "foundation model",
+    "pseudo-labels",
+    "Depth Anything"
+   ],
+   "date": "2024-06-14",
+   "specs": "Small 25M · Base 98M · Large 335M · Giant 1.3B",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=zna5PrtDUFE"
+   },
+   "images": [
+    "https://depth-anything-v2.github.io/static/images/teaser.png"
+   ],
+   "paper": {
+    "title": "Depth Anything V2",
+    "venue": "NeurIPS 2024",
+    "arxiv": "2406.09414",
+    "url": "https://arxiv.org/abs/2406.09414"
+   },
+   "source_url": "https://depth-anything-v2.github.io/",
+   "code_url": "https://github.com/DepthAnything/Depth-Anything-V2",
+   "collections": [
+    "trend-open-weights",
+    "ml-conf"
+   ]
+  },
+  {
+   "id": "microsoft--moge",
+   "creator_ids": [
+    "microsoft"
+   ],
+   "title": "MoGe",
+   "year": 2024,
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "image",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "control"
+   ],
+   "kind": "model",
+   "description": "Microsoft's open models that recover a 3D point map of an open-domain photo (geometry plus camera field of view) in one pass; MoGe-2 (July 2025) added metric scale and sharper detail and MoGe-3 (August 2026) finer point-map geometry.",
+   "description_zh": "微软的开源模型，一次前向即可恢复任意照片的三维点图（几何及相机视场角）；MoGe-2（2025 年 7 月）加入真实尺度和更锐利的细节，MoGe-3（2026 年 8 月）进一步提升点图几何的精细度。",
+   "idea_en": "Predicting a point map rather than a depth map gives a usable 3D layout of a photo, including the camera, in a single step.",
+   "idea_zh": "预测点图而不是深度图，一步就能得到照片可用的三维布局，连相机参数也一并给出。",
+   "method": "A ViT model predicts affine-invariant point maps trained with a robust, optimal alignment solver and multi-scale local geometry losses; later versions add metric-scale prediction.",
+   "method_zh": "ViT 模型预测仿射不变的点图，训练时使用稳健的最优对齐求解器和多尺度局部几何损失；后续版本加入真实尺度预测。",
+   "keywords": [
+    "monocular geometry",
+    "point map",
+    "metric scale",
+    "MoGe-2",
+    "MoGe-3"
+   ],
+   "date": "2024-10-24",
+   "video": {
+    "url": "https://wangrc.site/MoGePage/static/videos/teaser/teaser_crf28.mp4"
+   },
+   "images": [
+    "https://raw.githubusercontent.com/microsoft/MoGe/main/assets/overview_simplified.png"
+   ],
+   "paper": {
+    "title": "MoGe: Unlocking Accurate Monocular Geometry Estimation for Open-Domain Images with Optimal Training Supervision",
+    "venue": "CVPR 2025 (oral)",
+    "arxiv": "2410.19115",
+    "url": "https://arxiv.org/abs/2410.19115"
+   },
+   "source_url": "https://wangrc.site/MoGePage/",
+   "code_url": "https://github.com/microsoft/MoGe",
+   "collections": [
+    "trend-open-weights",
+    "cvpr"
+   ]
+  },
+  {
+   "id": "meng-li-shih--3d-photo-inpainting",
+   "creator_ids": [
+    "meng-li-shih"
+   ],
+   "title": "3D Photography using Context-aware Layered Depth Inpainting",
+   "year": 2020,
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "image",
+    "flat-video"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism"
+   ],
+   "kind": "research",
+   "description": "Turns a single RGB-D photo (depth from a phone or a depth estimator) into a '3D photo' with real parallax, synthesising the color and depth hidden behind foreground objects so the camera can move slightly.",
+   "description_zh": "把一张 RGB-D 照片（深度来自手机或深度估计）变成具有真实视差的“三维照片”，并合成前景物体背后被遮挡的颜色与深度，让镜头可以小幅移动。",
+   "idea_en": "The lineage anchor for today's spatial scenes: one photo plus inpainted hidden layers already gives a convincing sense of depth.",
+   "idea_zh": "今天“空间场景”的源头：一张照片加上补全的隐藏图层，就已经能带来令人信服的纵深感。",
+   "method": "The photo is converted to a layered depth image; learned color and depth inpainting networks fill the occluded regions locally around depth discontinuities, and the result is rendered as a mesh.",
+   "method_zh": "先把照片转换为分层深度图像，再由学习得到的颜色与深度补全网络，在深度不连续处局部填补被遮挡区域，最后以网格形式渲染。",
+   "keywords": [
+    "3D photo",
+    "layered depth image",
+    "inpainting",
+    "parallax",
+    "precursor"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=D0JObXCfxv0"
+   },
+   "paper": {
+    "title": "3D Photography using Context-aware Layered Depth Inpainting",
+    "venue": "CVPR 2020",
+    "arxiv": "2004.04727",
+    "url": "https://arxiv.org/abs/2004.04727"
+   },
+   "source_url": "https://shihmengli.github.io/3D-Photo-Inpainting/",
+   "code_url": "https://github.com/vt-vl-lab/3d-photo-inpainting",
+   "collections": [
+    "cvpr"
+   ]
+  },
+  {
+   "id": "ruiqi-gao--cat3d",
+   "creator_ids": [
+    "ruiqi-gao",
+    "google-deepmind"
+   ],
+   "title": "CAT3D",
+   "year": 2024,
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "scene-3d",
+    "image"
+   ],
+   "inputs": [
+    "image",
+    "multi-view",
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Creates a full 3D scene from any number of photos, even a single image or a text-generated picture, by first imagining many consistent novel views and then reconstructing them, in about a minute.",
+   "description_zh": "从任意数量的照片（甚至一张图片或文生图的结果）出发，先想象出大量彼此一致的新视角，再加以重建，约一分钟即可得到完整的三维场景。",
+   "idea_en": "Multi-view diffusion fills what the camera never saw, which is why one casual photo can now become a navigable place.",
+   "idea_zh": "多视角扩散补上了相机从未拍到的部分，这就是一张随手拍的照片如今能变成可漫游场所的原因。",
+   "method": "A multi-view latent diffusion model conditioned on input views and target camera poses generates large sets of consistent novel views, which are fed to a robust NeRF reconstruction.",
+   "method_zh": "以输入视图和目标相机位姿为条件的多视角潜空间扩散模型，生成大量一致的新视角图像，再交给稳健的 NeRF 重建。",
+   "keywords": [
+    "multi-view diffusion",
+    "NeRF",
+    "sparse-view",
+    "single image to 3D"
+   ],
+   "date": "2024-05-16",
+   "specs": "about 1 min per scene (authors)",
+   "video": {
+    "url": "https://cat3d.github.io/videos/teaser/cat_compress.mp4"
+   },
+   "images": [
+    "https://cat3d.github.io/img/rep_img.jpeg"
+   ],
+   "paper": {
+    "title": "CAT3D: Create Anything in 3D with Multi-View Diffusion Models",
+    "venue": "NeurIPS 2024 (oral)",
+    "arxiv": "2405.10314",
+    "url": "https://arxiv.org/abs/2405.10314"
+   },
+   "source_url": "https://cat3d.github.io/",
+   "collections": [
+    "ml-conf"
+   ]
+  },
+  {
+   "id": "stanislaw-szymanowicz--bolt3d",
+   "creator_ids": [
+    "stanislaw-szymanowicz",
+    "google"
+   ],
+   "title": "Bolt3D",
+   "year": 2025,
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image",
+    "multi-view"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "responsiveness",
+    "perceptual-realism"
+   ],
+   "kind": "research",
+   "description": "Generates a 3D Gaussian-splat scene from one or a few images in under seven seconds on a single GPU, without per-scene optimisation.",
+   "description_zh": "从一张或几张图像出发，在单张 GPU 上不到七秒就生成三维高斯泼溅场景，无需逐场景优化。",
+   "idea_en": "Direct sampling of 3D, rather than of images to be reconstructed later, is what brings scene generation down to seconds.",
+   "idea_zh": "直接采样三维表示，而不是先生成图像再重建，才让场景生成缩短到几秒。",
+   "method": "A latent diffusion model built on 2D diffusion architectures directly outputs splatter-image-style 3D Gaussians and geometry, trained on a large multi-view dataset whose geometry was densely reconstructed beforehand.",
+   "method_zh": "基于二维扩散架构的潜空间扩散模型，直接输出类似 Splatter Image 的三维高斯与几何；训练数据是一个预先做过稠密重建的大规模多视角数据集。",
+   "keywords": [
+    "feed-forward",
+    "3D Gaussian splatting",
+    "latent diffusion",
+    "fast generation"
+   ],
+   "date": "2025-03-18",
+   "specs": "< 7 s per scene on one GPU · up to 300× lower inference cost than optimisation-based methods (authors)",
+   "video": {
+    "url": "https://szymanowiczs.github.io/bolt3d/videos/single_vs_2_view.mp4"
+   },
+   "images": [
+    "https://szymanowiczs.github.io/bolt3d/img/rep_img.png"
+   ],
+   "paper": {
+    "title": "Bolt3D: Generating 3D Scenes in Seconds",
+    "venue": "ICCV 2025",
+    "arxiv": "2503.14445",
+    "url": "https://arxiv.org/abs/2503.14445"
+   },
+   "source_url": "https://szymanowiczs.github.io/bolt3d",
+   "collections": [
+    "trend-feed-forward",
+    "iccv-eccv"
+   ]
+  },
+  {
+   "id": "stability-ai--stable-virtual-camera",
+   "creator_ids": [
+    "stability-ai"
+   ],
+   "title": "Stable Virtual Camera",
+   "year": 2025,
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "flat-video",
+    "image"
+   ],
+   "inputs": [
+    "image",
+    "multi-view",
+    "camera"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "control",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "Stability AI's open view-synthesis model: from one or more photos and any target camera path (orbits, spirals, dolly zooms), it generates 3D-consistent novel views and smooth videos up to about half a minute long, with loop closure.",
+   "description_zh": "Stability AI 的开源视图合成模型：给定一张或多张照片以及任意目标镜头路径（环绕、螺旋、滑动变焦等），即可生成三维一致的新视角和最长约半分钟、首尾闭合的流畅视频。",
+   "idea_en": "A scene can be 'filmed' along an exact camera path from a handful of photos without building 3D at all, useful for standardised stimulus videos.",
+   "idea_zh": "仅凭几张照片就能沿精确的镜头路径“拍摄”一个场景，完全不必先建三维，适合制作标准化的刺激视频。",
+   "method": "A 1.3B-parameter multi-view diffusion model conditioned on input views and target camera rays, with a two-pass procedural sampling strategy for long trajectories, without 3D distillation.",
+   "method_zh": "13 亿参数的多视角扩散模型，以输入视图和目标相机射线为条件，长轨迹采用两轮程序化采样，不需要三维蒸馏。",
+   "keywords": [
+    "novel view synthesis",
+    "camera path",
+    "multi-view diffusion",
+    "open weights"
+   ],
+   "date": "2025-03-18",
+   "specs": "1.3B parameters · 576p · videos up to ~30 s",
+   "video": {
+    "url": "https://stable-virtual-camera.github.io/assets/task_overview.mp4"
+   },
+   "images": [
+    "https://stable-virtual-camera.github.io/img/seva.png"
+   ],
+   "paper": {
+    "title": "Stable Virtual Camera: Generative View Synthesis with Diffusion Models",
+    "venue": "arXiv 2025",
+    "arxiv": "2503.14489",
+    "url": "https://arxiv.org/abs/2503.14489"
+   },
+   "source_url": "https://stable-virtual-camera.github.io/",
+   "code_url": "https://github.com/Stability-AI/stable-virtual-camera",
+   "collections": [
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "hanwen-liang--wonderland",
+   "creator_ids": [
+    "hanwen-liang",
+    "snap"
+   ],
+   "title": "Wonderland",
+   "year": 2024,
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image",
+    "camera"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "situational-reach"
+   ],
+   "kind": "research",
+   "description": "From a single image, Wonderland reconstructs a wide-scope 3D Gaussian-splat scene in a feed-forward pass, including background regions far outside the photo.",
+   "description_zh": "Wonderland 从一张图像出发，以前馈方式重建大范围的三维高斯泼溅场景，连照片之外很远的背景区域也一并生成。",
+   "idea_en": "The compressed latents of a camera-controlled video model already encode a multi-view scene; reading 3D straight from them saves decoding and optimisation.",
+   "idea_zh": "可控镜头视频模型的压缩潜变量本身就编码了多视角场景，直接从中读出三维可以省去解码与优化。",
+   "method": "A camera-guided video diffusion model produces latents along specified trajectories; a large reconstruction model trained progressively on that latent space predicts the 3D Gaussians.",
+   "method_zh": "可控镜头的视频扩散模型沿指定轨迹生成潜变量；在该潜空间上渐进训练的大型重建模型预测出三维高斯。",
+   "keywords": [
+    "video latents",
+    "large reconstruction model",
+    "3D Gaussian splatting",
+    "single image"
+   ],
+   "date": "2024-12-16",
+   "video": {
+    "url": "https://snap-research.github.io/wonderland/3d_autoregressive/00c5252d5_final.mp4"
+   },
+   "images": [
+    "https://snap-research.github.io/wonderland/teaser-final.png"
+   ],
+   "paper": {
+    "title": "Wonderland: Navigating 3D Scenes from a Single Image",
+    "venue": "arXiv 2024",
+    "arxiv": "2412.12091",
+    "url": "https://arxiv.org/abs/2412.12091"
+   },
+   "source_url": "https://snap-research.github.io/wonderland/",
+   "collections": [
+    "trend-feed-forward",
+    "trend-world-simulators"
+   ]
+  },
+  {
+   "id": "xuanchi-ren--gen3c",
+   "creator_ids": [
+    "xuanchi-ren",
+    "nvidia"
+   ],
+   "title": "GEN3C",
+   "year": 2025,
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "flat-video"
+   ],
+   "inputs": [
+    "image",
+    "video",
+    "camera"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "control",
+    "persistence"
+   ],
+   "kind": "model",
+   "description": "A video model with precise camera control: from one or a few images (or a video) it renders new camera trajectories that stay consistent with the 3D content, with a GUI for drawing camera paths; built on NVIDIA Cosmos and released openly in June 2025.",
+   "description_zh": "一个能精确控制镜头的视频模型：从一张或几张图像（或一段视频）出发，渲染与三维内容保持一致的新镜头轨迹，并提供绘制镜头路径的图形界面；基于 NVIDIA Cosmos，于 2025 年 6 月开源。",
+   "idea_en": "Keeping an explicit 3D cache under a video generator is a middle road: video-quality pixels, but the world stays where it was when the camera returns.",
+   "idea_zh": "在视频生成器之下保留一个显式三维缓存是一条折中路线：画面达到视频级质量，而镜头回来时世界仍在原处。",
+   "method": "Depth predicted from the inputs is unprojected into a point-cloud 3D cache; renders of the cache along the user's camera path condition a video diffusion model, which fills holes and corrects artifacts.",
+   "method_zh": "由输入预测的深度被反投影成点云三维缓存；沿用户镜头路径渲染该缓存，再以渲染结果为条件驱动视频扩散模型补洞并修正瑕疵。",
+   "keywords": [
+    "3D cache",
+    "camera control",
+    "Cosmos",
+    "world-consistent video",
+    "open weights"
+   ],
+   "date": "2025-03-05",
+   "also": [
+    "video"
+   ],
+   "video": {
+    "url": "https://github.com/nv-tlabs/gen3c_website/raw/main/assets/cosmos/compressed/gui_demo.mp4"
+   },
+   "images": [
+    "https://research.nvidia.com/labs/toronto-ai/GEN3C/assets/cosmos/composed_single_view/grid_1_thumbnail.png"
+   ],
+   "paper": {
+    "title": "GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control",
+    "venue": "CVPR 2025 (highlight)",
+    "arxiv": "2503.03751",
+    "url": "https://arxiv.org/abs/2503.03751"
+   },
+   "source_url": "https://research.nvidia.com/labs/toronto-ai/GEN3C/",
+   "code_url": "https://github.com/nv-tlabs/GEN3C",
+   "collections": [
+    "trend-world-simulators",
+    "trend-open-weights",
+    "cvpr"
+   ]
+  },
+  {
+   "id": "kaixin-yao--cast",
+   "creator_ids": [
+    "kaixin-yao",
+    "deemos"
+   ],
+   "title": "CAST",
+   "year": 2025,
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "mesh",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "persistence",
+    "behavioral-plausibility",
+    "control"
+   ],
+   "kind": "research",
+   "description": "Rebuilds a single RGB photo as a 3D scene of separate, complete object meshes placed with physically consistent contacts and support, so the scene can be edited or simulated object by object.",
+   "description_zh": "把一张 RGB 照片重建为由独立、完整的物体网格组成的三维场景，物体之间的接触与支撑关系在物理上一致，因此可以逐个物体地编辑或仿真。",
+   "idea_en": "A photo becomes a set of objects that rest on and touch each other correctly, the precondition for anything in the scene to be picked up or pushed.",
+   "idea_zh": "照片变成了一组彼此正确放置、相互接触的物体，这是场景里任何东西能被拿起或推动的前提。",
+   "method": "Object-level segmentation and relative depth estimation feed an occlusion-aware generator that produces each object's full geometry; a pose-alignment model places objects, and a physics-aware correction step uses a relation graph to remove interpenetration and floating.",
+   "method_zh": "先做物体级分割与相对深度估计，再由考虑遮挡的生成模型生成每个物体的完整几何；位姿对齐模型负责摆放，物理感知的修正步骤借助关系图消除穿插与悬空。",
+   "keywords": [
+    "single-image scene reconstruction",
+    "object-level",
+    "physics-aware",
+    "relation graph"
+   ],
+   "date": "2025-02-18",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=xKnVOjs5go4"
+   },
+   "paper": {
+    "title": "CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image",
+    "venue": "ACM TOG (SIGGRAPH 2025)",
+    "arxiv": "2502.12894",
+    "url": "https://arxiv.org/abs/2502.12894",
+    "doi": "10.1145/3730841"
+   },
+   "source_url": "https://sites.google.com/view/cast4",
+   "collections": [
+    "siggraph",
+    "trend-explicit-3d"
+   ],
+   "exhibited": [
+    "SIGGRAPH 2025 Best Paper Award"
+   ]
+  },
+  {
+   "id": "deemos--hyper3d-worldgen",
+   "creator_ids": [
+    "deemos"
+   ],
+   "title": "Hyper3D WorldGen",
+   "year": 2026,
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "mesh",
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "authoring",
+    "persistence"
+   ],
+   "kind": "product",
+   "description": "Hyper3D's scene generator turns a single photo into a 3D scene of independent, editable objects (generated as Rodin meshes with estimated collision geometry, mass and friction) set in a Gaussian-splat background, for robotics simulation, film, games and spatial computing.",
+   "description_zh": "Hyper3D 的场景生成产品：把一张照片变成由独立、可编辑物体组成的三维场景——物体由 Rodin 生成网格，并估计碰撞几何、质量和摩擦——背景则用高斯泼溅呈现，面向机器人仿真、影视、游戏和空间计算。",
+   "idea_en": "Objects arrive with physical properties, so a photographed room can become an interactive scene rather than a backdrop.",
+   "idea_zh": "物体自带物理属性，一张房间照片因此能变成可交互的场景，而不是一块背景板。",
+   "method": "Building on CAST, objects are detected automatically or by user boxes, completed in 3D, placed via a contact, support and suspension relation graph with estimated pose, scale and physics, while the background is reconstructed as 3D Gaussian splats.",
+   "method_zh": "在 CAST 的基础上，自动检测物体或由用户框选，补全三维形状，借助接触、支撑与悬挂的关系图估计位姿、尺度与物理属性并完成摆放，背景则重建为三维高斯泼溅。",
+   "keywords": [
+    "image-to-scene",
+    "editable objects",
+    "physical properties",
+    "Rodin",
+    "hybrid mesh + splats"
+   ],
+   "date": "2026-09-09",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=-rhncMVVtGM"
+   },
+   "images": [
+    "https://storage.deemos.dev/features/worldgen/introBg.webp"
+   ],
+   "source_url": "https://hyper3d.ai/features/worldgen",
+   "collections": [
+    "trend-explicit-3d",
+    "trend-grounded"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "HY-Pano 2.0 (Tencent Hunyuan, open weights May 2026)",
+   "why": "Open ~80B text/image-to-360° panorama model; the panorama stage of HY-World 2.0. Could be its own panorama work.",
+   "link": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+   "found_via": "tencent-hunyuan",
+   "status": "open"
+  },
+  {
+   "name": "HunyuanWorld 1.1 / WorldMirror (Oct 2025) and WorldMirror 2.0 (Apr 2026)",
+   "why": "Feed-forward 3D reconstruction from video or multi-view images; belongs to spatial-4d / feed-forward.",
+   "link": "https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror",
+   "found_via": "tencent-hunyuan",
+   "status": "open"
+  },
+  {
+   "name": "HY-World 1.5 / WorldPlay (Dec 2025)",
+   "why": "Real-time interactive world model with geometric consistency; belongs to world-models.",
+   "link": "https://github.com/Tencent-Hunyuan/HY-WorldPlay",
+   "found_via": "tencent-hunyuan",
+   "status": "open"
+  },
+  {
+   "name": "World Labs World API (2026-01-21)",
+   "why": "Public API for Marble world generation; infra/apis if treated as a distinct product.",
+   "link": "https://www.worldlabs.ai/blog/announcing-the-world-api",
+   "found_via": "world-labs",
+   "status": "open"
+  },
+  {
+   "name": "Spark 2.0 (World Labs, 2026)",
+   "why": "Open-source streaming level-of-detail 3DGS renderer for the web (100M+ splats); infra/engines.",
+   "link": "https://www.worldlabs.ai/blog/spark-2.0",
+   "found_via": "world-labs",
+   "status": "open"
+  },
+  {
+   "name": "World Labs joining AMD (2026-09-28)",
+   "why": "Definitive agreement, close expected by end of 2026; Fei-Fei Li to become AMD EVP and Chief Scientist. Trend evidence, not a work.",
+   "link": "https://www.worldlabs.ai/blog/amd-announcement",
+   "found_via": "world-labs",
+   "status": "open"
+  },
+  {
+   "name": "Odyssey Explorer (Dec 2024)",
+   "why": "Early image-to-Gaussian-splat world generator from Odyssey; check whether the world-models batch covers it.",
+   "link": "https://odyssey.world/",
+   "found_via": "world-labs",
+   "status": "open"
+  },
+  {
+   "name": "DiT360 (Insta360 Research, Oct 2025)",
+   "why": "Panoramic image generation via hybrid perspective/panorama training; project mp4s returned 404.",
+   "link": "https://fenghora.github.io/DiT360-Page/",
+   "found_via": "blockade-labs",
+   "status": "no_media"
+  },
+  {
+   "name": "PanFusion (CVPR 2024)",
+   "why": "Dual-branch Stable Diffusion for text-to-360° panoramas; no official video found.",
+   "link": "https://chengzhag.github.io/publication/panfusion/",
+   "found_via": "shitao-tang",
+   "status": "no_media"
+  },
+  {
+   "name": "ViewCrafter (2024)",
+   "why": "Video-diffusion novel view synthesis with point-cloud guidance; author video WGIEmu9eXmU exists.",
+   "link": "https://drexubery.github.io/ViewCrafter/",
+   "found_via": "xuanchi-ren",
+   "status": "open"
+  },
+  {
+   "name": "Marigold (CVPR 2024 oral)",
+   "why": "Diffusion-based monocular depth; only third-party videos found.",
+   "link": "https://marigoldmonodepth.github.io/",
+   "found_via": "apple",
+   "status": "no_media"
+  },
+  {
+   "name": "ProcTHOR (NeurIPS 2022)",
+   "why": "Procedural houses for embodied AI that Holodeck builds on; no official video found.",
+   "link": "https://procthor.allenai.org/",
+   "found_via": "ai2",
+   "status": "no_media"
+  },
+  {
+   "name": "SceneCraft (ICML 2024)",
+   "why": "LLM agent that writes Blender code for 3D scenes; no official video found.",
+   "link": "https://arxiv.org/abs/2403.01248",
+   "found_via": "siddharth-ahuja",
+   "status": "no_media"
+  },
+  {
+   "name": "SceneScape (2023)",
+   "why": "Text-driven consistent perpetual scene generation with mesh; project page has mp4s.",
+   "link": "https://scenescape.github.io/",
+   "found_via": "lukas-hollein",
+   "status": "open"
+  },
+  {
+   "name": "GaussianGPT (ECCV 2026 oral)",
+   "why": "Autoregressive generation and completion of 3D Gaussian scenes.",
+   "link": "https://github.com/nicolasvonluetzow/GaussianGPT",
+   "found_via": "spaitial",
+   "status": "open"
+  },
+  {
+   "name": "Gen3R (CVPR 2026)",
+   "why": "3D scene generation unified with feed-forward reconstruction.",
+   "link": "https://github.com/JaceyHuang/Gen3R",
+   "found_via": "nvidia",
+   "status": "open"
+  },
+  {
+   "name": "PixWorld / OneWorld (2026)",
+   "why": "Unified scene generation and reconstruction in pixel space / with a 3D representation autoencoder.",
+   "link": "https://github.com/SensenGao/PixWorld",
+   "found_via": "nvidia",
+   "status": "open"
+  },
+  {
+   "name": "GAE: Geometry-native latent space for 3D-consistent world generation (TencentARC, Sep 2026)",
+   "why": "New 2026 latent representation for world generation.",
+   "link": "https://github.com/TencentARC/GAE-GeometricAutoEncoder",
+   "found_via": "tencent-hunyuan",
+   "status": "open"
+  },
+  {
+   "name": "CityDreamer4D (2025)",
+   "why": "Dynamic extension of CityDreamer with traffic; spatial-4d / generative-4d.",
+   "link": "https://www.youtube.com/watch?v=PF6W0Nd27Tk",
+   "found_via": "haozhe-xie",
+   "status": "open"
+  },
+  {
+   "name": "Immersity AI (Leia)",
+   "why": "Consumer image/video-to-3D and spatial conversion product.",
+   "link": "https://www.immersity.ai/",
+   "found_via": "apple",
+   "status": "open"
+  },
+  {
+   "name": "Zillow Immersive (Spatial Scene API)",
+   "why": "Shipping app using Apple's Spatial Scene API for listings; genxr/platform.",
+   "link": "https://www.apple.com/newsroom/2025/06/visionos-26-introduces-powerful-new-spatial-experiences-for-apple-vision-pro/",
+   "found_via": "apple",
+   "status": "open"
+  },
+  {
+   "name": "SpAItial Claude plugin and hosted MCP server (Jun 2026)",
+   "why": "World generation as an agent tool call; folded into Echo-2.",
+   "link": "https://radiancefields.com/spaitial-ships-claude-plugin-and-hosted-mcp-server-for-gaussian-splatting-worlds",
+   "found_via": "spaitial",
+   "status": "duplicate"
+  }
+ ]
+}

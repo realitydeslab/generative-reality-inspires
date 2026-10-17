@@ -1,0 +1,1721 @@
+{
+  "batch": "video",
+  "creators": [],
+  "works": [
+    {
+      "id": "stability-ai--stable-video-diffusion",
+      "creator_ids": [
+        "stability-ai"
+      ],
+      "title": "Stable Video Diffusion",
+      "year": 2023,
+      "date": "2023-11-21",
+      "field": "video",
+      "sub": "open",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "control"
+      ],
+      "kind": "model",
+      "description": "Stable Video Diffusion (2023-11-21) was the first widely used open-weight image-to-video model, turning a still image into 14- or 25-frame clips; it also served as the base for multi-view 3D generators.",
+      "description_zh": "Stable Video Diffusion（2023-11-21）是首个被广泛使用的开源图生视频模型，可把一张静态图变成 14 或 25 帧短片，也被用作多视角三维生成的基础模型。",
+      "idea_en": "Gave researchers a video prior they could fine-tune; many later 3D and 4D generators start from SVD weights.",
+      "idea_zh": "为研究者提供了可微调的视频先验，后来许多三维、四维生成方法都从 SVD 权重起步。",
+      "method": "Latent video diffusion with temporal layers added to Stable Diffusion 2.1, trained in three stages: image pretraining, curated video pretraining and high-quality fine-tuning.",
+      "method_zh": "在 Stable Diffusion 2.1 上加入时间层的潜空间视频扩散模型，分三阶段训练：图像预训练、精选视频预训练和高质量微调。",
+      "specs": "576×1024 · 14 / 25 frames · 3–30 fps",
+      "keywords": [
+        "image-to-video",
+        "open weights",
+        "precursor",
+        "no embeddable official video"
+      ],
+      "images": [
+        "https://static1.squarespace.com/static/6213c340453c3f502425776e/62f2452bc121595f4d87c713/655c90f932dda45e84c36b21/1728899860281/SVD+blog+cover+image.jpg?format=1500w"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2311.15127",
+        "arxiv": "2311.15127",
+        "venue": "arXiv 2023",
+        "title": "Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets"
+      },
+      "source_url": "https://stability.ai/news/stable-video-diffusion-open-ai-video-model",
+      "code_url": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "zhipu-ai--cogvideox",
+      "creator_ids": [
+        "zhipu-ai"
+      ],
+      "title": "CogVideoX",
+      "year": 2024,
+      "date": "2024-08-06",
+      "field": "video",
+      "sub": "open",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open",
+        "product"
+      ],
+      "lenses": [
+        "authoring",
+        "control"
+      ],
+      "kind": "model",
+      "description": "Zhipu AI's CogVideoX (open-sourced 2024-08-06) was the first strong open text-to-video model from a Chinese lab, generating 6-second 720×480 clips; it powers Zhipu's Qingying product.",
+      "description_zh": "智谱的 CogVideoX（2024-08-06 开源）是国内实验室首个表现强劲的开源文生视频模型，可生成 6 秒 720×480 视频，也是智谱“清影”产品的底座。",
+      "idea_en": "Showed an open model could run on a single consumer GPU and be fine-tuned by labs for their own scenarios.",
+      "idea_zh": "证明开源模型能在单张消费级显卡上运行，并能被实验室按自身场景微调。",
+      "method": "Diffusion transformer with a 3D causal VAE and an 'expert transformer' whose expert adaptive LayerNorm fuses text and video tokens.",
+      "method_zh": "带 3D 因果 VAE 的扩散 Transformer，用带专家自适应 LayerNorm 的“专家 Transformer”融合文本与视频 token。",
+      "specs": "2B / 5B · 6 s · 720×480 · 8 fps",
+      "keywords": [
+        "text-to-video",
+        "image-to-video",
+        "open weights",
+        "3D causal VAE"
+      ],
+      "video": {
+        "url": "https://github.com/user-attachments/assets/cf5953ea-96d3-48fd-9907-c4708752c714"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2408.06072",
+        "arxiv": "2408.06072",
+        "venue": "ICLR 2025",
+        "title": "CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer"
+      },
+      "source_url": "https://github.com/zai-org/CogVideo",
+      "code_url": "https://github.com/zai-org/CogVideo",
+      "collections": [
+        "ml-conf",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "genmo--mochi-1",
+      "creator_ids": [
+        "genmo"
+      ],
+      "title": "Mochi 1",
+      "year": 2024,
+      "date": "2024-10-22",
+      "field": "video",
+      "sub": "open",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "behavioral-plausibility",
+        "control"
+      ],
+      "kind": "model",
+      "description": "Genmo's Mochi 1 (2024-10-22) was a 10-billion-parameter open text-to-video model under Apache 2.0, with motion quality and prompt adherence that were strong for its time.",
+      "description_zh": "Genmo 的 Mochi 1（2024-10-22）是 100 亿参数、Apache 2.0 许可的开源文生视频模型，运动质量与提示遵循在当时表现较强。",
+      "idea_en": "Permissive licensing made it a common base for academic fine-tuning and benchmarking.",
+      "idea_zh": "宽松的许可使其成为学术微调与评测中常用的基础模型。",
+      "method": "Asymmetric Diffusion Transformer (AsymmDiT) with a video VAE that compresses 128x and a single T5-XXL text encoder.",
+      "method_zh": "非对称扩散 Transformer（AsymmDiT），视频 VAE 压缩 128 倍，只用一个 T5-XXL 文本编码器。",
+      "specs": "10B · 480p · 30 fps · 5.4 s",
+      "keywords": [
+        "text-to-video",
+        "open weights",
+        "Apache 2.0"
+      ],
+      "video": {
+        "url": "https://cdn.genmo.dev/results/mochi-launch.mp4"
+      },
+      "images": [
+        "https://www.genmo.ai/media/social/mochi1.png"
+      ],
+      "source_url": "https://www.genmo.ai/blog/mochi-1-a-new-sota-in-open-text-to-video",
+      "code_url": "https://github.com/genmoai/mochi",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "lightricks--ltx-video",
+      "creator_ids": [
+        "lightricks"
+      ],
+      "title": "LTX-Video",
+      "year": 2024,
+      "date": "2024-11-22",
+      "field": "video",
+      "sub": "open",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open",
+        "product"
+      ],
+      "lenses": [
+        "responsiveness",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Lightricks' LTX-Video (2024-11-22) was the first open video model fast enough to generate clips faster than they play: about five seconds of 768×512 video in roughly four seconds on an H100. A 13B version followed in May 2025.",
+      "description_zh": "Lightricks 的 LTX-Video（2024-11-22）是首个生成速度快于播放速度的开源视频模型：在 H100 上约 4 秒生成 5 秒 768×512 视频。13B 版本于 2025 年 5 月推出。",
+      "idea_en": "Generation faster than real time is the precondition for any loop in which a scene reacts to a participant.",
+      "idea_zh": "生成快于实时，是场景能对参与者作出反应的任何闭环的前提。",
+      "method": "DiT with a highly compressed VAE (1:192) whose decoder also performs the final denoising step.",
+      "method_zh": "采用高压缩比 VAE（1:192）的 DiT，VAE 解码器同时完成最后一步去噪。",
+      "specs": "2B / 13B · 768×512 · 24 fps · faster than real time on H100",
+      "keywords": [
+        "text-to-video",
+        "image-to-video",
+        "open weights",
+        "fast inference"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=7ZMxtMyUD_U"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2501.00103",
+        "arxiv": "2501.00103",
+        "venue": "arXiv 2024",
+        "title": "LTX-Video: Realtime Video Latent Diffusion"
+      },
+      "source_url": "https://github.com/Lightricks/LTX-Video",
+      "code_url": "https://github.com/Lightricks/LTX-Video",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "tencent-hunyuan--hunyuanvideo",
+      "creator_ids": [
+        "tencent-hunyuan"
+      ],
+      "title": "HunyuanVideo",
+      "year": 2024,
+      "date": "2024-12-03",
+      "field": "video",
+      "sub": "open",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "open",
+        "product"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "control"
+      ],
+      "kind": "model",
+      "description": "Tencent's HunyuanVideo (2024-12-03) was the largest open video model at release, at 13 billion parameters; Tencent reported it outperformed Runway Gen-3 and Luma 1.6 in professional human evaluation.",
+      "description_zh": "腾讯的 HunyuanVideo（2024-12-03）发布时是参数规模最大的开源视频模型（130 亿）；腾讯称其在专业人工评测中优于 Runway Gen-3 和 Luma 1.6。",
+      "idea_en": "Briefly closed the gap between open and closed video quality and seeded a large ecosystem of LoRAs and control adapters.",
+      "idea_zh": "一度缩小了开源与闭源视频模型的质量差距，并带动了大量 LoRA 与控制适配器生态。",
+      "method": "Dual-stream-to-single-stream diffusion transformer with a 3D causal VAE and a multimodal LLM as text encoder.",
+      "method_zh": "从双流到单流的扩散 Transformer，配 3D 因果 VAE，并用多模态大语言模型作为文本编码器。",
+      "specs": "13B · 720p · 129 frames",
+      "keywords": [
+        "text-to-video",
+        "open weights",
+        "13B"
+      ],
+      "video": {
+        "url": "https://github.com/user-attachments/assets/22440764-0d7e-438e-a44d-d0dad1006d3d"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2412.03603",
+        "arxiv": "2412.03603",
+        "venue": "arXiv 2024",
+        "title": "HunyuanVideo: A Systematic Framework For Large Video Generative Models"
+      },
+      "source_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+      "code_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "alibaba-tongyi--wan-2-1",
+      "creator_ids": [
+        "alibaba-tongyi"
+      ],
+      "title": "Wan 2.1",
+      "year": 2025,
+      "date": "2025-02-25",
+      "field": "video",
+      "sub": "open",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open",
+        "api"
+      ],
+      "lenses": [
+        "authoring",
+        "control",
+        "diversity"
+      ],
+      "kind": "model",
+      "description": "Alibaba's Wan 2.1 (open-sourced 2025-02-25 under Apache 2.0) provides 14B and 1.3B text- and image-to-video models; the small one needs about 8 GB of VRAM. It became the base of many research and community models, including VACE, Self Forcing and Krea Realtime.",
+      "description_zh": "阿里巴巴的通义万相 Wan 2.1（2025-02-25 以 Apache 2.0 开源）提供 140 亿和 13 亿参数的文生/图生视频模型，小模型约需 8 GB 显存。它成为 VACE、Self Forcing、Krea Realtime 等众多研究与社区模型的基础。",
+      "idea_en": "The open base most 2025 real-time and control research was built on, so findings transfer between labs.",
+      "idea_zh": "2025 年的实时与控制研究大多以它为基础，因此不同实验室的结果可以相互迁移。",
+      "method": "Diffusion transformer trained with flow matching and a new causal 3D VAE (Wan-VAE) that encodes 1080p video of unlimited length.",
+      "method_zh": "以流匹配训练的扩散 Transformer，配合新的因果 3D VAE（Wan-VAE），可编码任意长度的 1080p 视频。",
+      "specs": "14B / 1.3B · 480p / 720p · 1.3B on 8.19 GB VRAM",
+      "keywords": [
+        "text-to-video",
+        "image-to-video",
+        "open weights",
+        "Apache 2.0"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=2CObXv_CLyY"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2503.20314",
+        "arxiv": "2503.20314",
+        "venue": "arXiv 2025",
+        "title": "Wan: Open and Advanced Large-Scale Video Generative Models"
+      },
+      "source_url": "https://wan.video/",
+      "code_url": "https://github.com/Wan-Video/Wan2.1",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "stepfun--step-video-t2v",
+      "creator_ids": [
+        "stepfun"
+      ],
+      "title": "Step-Video-T2V",
+      "year": 2025,
+      "date": "2025-02-17",
+      "field": "video",
+      "sub": "open",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "StepFun's Step-Video-T2V (2025-02-17) is a 30-billion-parameter open text-to-video model that generates up to 204 frames from Chinese or English prompts.",
+      "description_zh": "阶跃星辰的 Step-Video-T2V（2025-02-17）是 300 亿参数的开源文生视频模型，可根据中文或英文提示生成最多 204 帧。",
+      "idea_en": "Pushed open-model scale to 30B and documented the practical limits of scaling video diffusion.",
+      "idea_zh": "把开源模型规模推到 300 亿参数，并记录了视频扩散规模化的实际瓶颈。",
+      "method": "DiT with 3D full attention, a deep-compression video VAE (16x16 spatial, 8x temporal) and Video-DPO preference tuning.",
+      "method_zh": "采用三维全注意力的 DiT，配深度压缩视频 VAE（空间 16×16、时间 8 倍），并用 Video-DPO 做偏好优化。",
+      "specs": "30B · 204 frames · 544×992",
+      "keywords": [
+        "text-to-video",
+        "open weights",
+        "bilingual",
+        "Video-DPO"
+      ],
+      "video": {
+        "url": "https://github.com/user-attachments/assets/9274b351-595d-41fb-aba3-f58e6e91603a"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2502.10248",
+        "arxiv": "2502.10248",
+        "venue": "arXiv 2025",
+        "title": "Step-Video-T2V Technical Report: The Practice, Challenges, and Future of Video Foundation Model"
+      },
+      "source_url": "https://github.com/stepfun-ai/Step-Video-T2V",
+      "code_url": "https://github.com/stepfun-ai/Step-Video-T2V",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "alibaba-tongyi--wan-2-2",
+      "creator_ids": [
+        "alibaba-tongyi"
+      ],
+      "title": "Wan 2.2",
+      "year": 2025,
+      "date": "2025-07-28",
+      "field": "video",
+      "sub": "open",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open",
+        "api"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "control",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Wan 2.2 (2025-07-28) is the first open mixture-of-experts video model, with cinematic controls for lighting, color and composition and a 5B model that makes 720p video on a single consumer GPU.",
+      "description_zh": "通义万相 Wan 2.2（2025-07-28）是首个开源的混合专家（MoE）视频模型，提供光照、色彩与构图等电影美学控制，其 50 亿参数版本可在单张消费级显卡上生成 720p 视频。",
+      "idea_en": "Aesthetic parameters (light, lens, composition) become explicit, reproducible knobs in an open model.",
+      "idea_zh": "光线、镜头、构图等美学参数，在开源模型中变成明确且可复现的旋钮。",
+      "method": "Two-expert MoE diffusion (a high-noise expert for layout, a low-noise expert for detail; 27B total, 14B active) plus a high-compression TI2V-5B model.",
+      "method_zh": "双专家 MoE 扩散模型（高噪声专家负责布局，低噪声专家负责细节；总参数 270 亿、激活 140 亿），另有高压缩比的 TI2V-5B 模型。",
+      "specs": "A14B MoE · TI2V-5B · 720p · 24 fps",
+      "keywords": [
+        "text-to-video",
+        "image-to-video",
+        "mixture of experts",
+        "open weights"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=ktDogWm7Hac"
+      },
+      "source_url": "https://wan.video/",
+      "code_url": "https://github.com/Wan-Video/Wan2.2",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "character-ai--ovi",
+      "creator_ids": [
+        "character-ai"
+      ],
+      "title": "Ovi",
+      "year": 2025,
+      "date": "2025-09-30",
+      "field": "video",
+      "sub": "open",
+      "modalities": [
+        "flat-video",
+        "speech",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "behavioral-plausibility",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "Character.AI's Ovi (2025-09-30) is an open model that generates five seconds of 720p video together with its audio (speech, effects, music) in one pass, one of the first open-weight answers to Veo 3-style talking clips.",
+      "description_zh": "Character.AI 的 Ovi（2025-09-30）是一个开源模型，可一次生成 5 秒 720p 视频及其音频（语音、音效、音乐），是最早回应 Veo 3 式“会说话片段”的开源权重模型之一。",
+      "idea_en": "Open joint audio-video generation lets labs study lip-synced speech stimuli without a closed API.",
+      "idea_zh": "开源的音视频联合生成，让实验室无需闭源 API 就能研究口型同步的语音刺激。",
+      "method": "Twin-backbone design: identical audio and video diffusion transformers (the video branch initialized from Wan 2.2) fused block by block with bidirectional cross-attention.",
+      "method_zh": "双主干设计：结构相同的音频与视频扩散 Transformer（视频分支由 Wan 2.2 初始化），逐块通过双向交叉注意力融合。",
+      "specs": "11B · 5 s · 720p · 24 fps",
+      "keywords": [
+        "joint audio-video",
+        "open weights",
+        "lip-sync"
+      ],
+      "video": {
+        "url": "https://aaxwaz.github.io/Ovi/assets/final_ovi_trailer.mp4"
+      },
+      "images": [
+        "https://aaxwaz.github.io/Ovi/assets/robot_red_eye.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2510.01284",
+        "arxiv": "2510.01284",
+        "venue": "arXiv 2025",
+        "title": "Ovi: Twin Backbone Cross-Modal Fusion for Audio-Video Generation"
+      },
+      "source_url": "https://aaxwaz.github.io/Ovi/",
+      "code_url": "https://github.com/character-ai/Ovi",
+      "collections": [
+        "trend-native-audio",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "lightricks--ltx-2",
+      "creator_ids": [
+        "lightricks"
+      ],
+      "title": "LTX-2",
+      "year": 2025,
+      "date": "2025-10-23",
+      "field": "video",
+      "sub": "open",
+      "modalities": [
+        "flat-video",
+        "speech",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open",
+        "api",
+        "product"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "responsiveness",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Lightricks' LTX-2 (announced 2025-10-23, weights released afterwards) generates synchronized audio and video at up to 4K and 50 fps; LTX-2.5 followed in August 2026 as a 22B open model with a family of control LoRAs.",
+      "description_zh": "Lightricks 的 LTX-2（2025-10-23 发布，权重随后开放）可生成同步的音频与视频，最高 4K、50 fps；LTX-2.5 于 2026 年 8 月推出，是 220 亿参数的开源模型，配有一系列控制 LoRA。",
+      "idea_en": "Open, version-pinnable audio-video generation at production resolution, with LoRA hooks for custom control.",
+      "idea_zh": "可锁定版本、达到生产级分辨率的开源音视频生成，并提供用于定制控制的 LoRA 接口。",
+      "method": "Asymmetric dual-stream transformer that generates audio and video jointly through cross-modal attention (per the LTX-2 paper).",
+      "method_zh": "非对称双流 Transformer，通过跨模态注意力联合生成音频与视频（据 LTX-2 论文）。",
+      "specs": "up to 4K · up to 50 fps · up to 20 s · synchronized audio",
+      "keywords": [
+        "joint audio-video",
+        "open weights",
+        "4K",
+        "LoRA"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=KRJW3yXwJdY"
+      },
+      "images": [
+        "https://cdn.prod.website-files.com/68872d15af29880764eac4aa/695b91d18b612de840f4786e_ltx-2-mode-open-graph.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2601.03233",
+        "arxiv": "2601.03233",
+        "venue": "arXiv 2026",
+        "title": "LTX-2: Efficient Joint Audio-Visual Foundation Model"
+      },
+      "source_url": "https://ltx.io/model/ltx-2",
+      "code_url": "https://github.com/Lightricks/LTX-2",
+      "collections": [
+        "trend-native-audio",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "tencent-hunyuan--hunyuanvideo-1-5",
+      "creator_ids": [
+        "tencent-hunyuan"
+      ],
+      "title": "HunyuanVideo 1.5",
+      "year": 2025,
+      "date": "2025-11-20",
+      "field": "video",
+      "sub": "open",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "control"
+      ],
+      "kind": "model",
+      "description": "HunyuanVideo 1.5 (2025-11-20) is a lightweight 8.3-billion-parameter open model that produces 720p video (1080p with its super-resolution stage) and runs on consumer GPUs.",
+      "description_zh": "HunyuanVideo 1.5（2025-11-20）是 83 亿参数的轻量开源模型，可生成 720p 视频（配合超分辨率阶段可达 1080p），能在消费级显卡上运行。",
+      "idea_en": "The open-model race shifted to quality per parameter; a lab can run it without a cluster.",
+      "idea_zh": "开源模型的竞争转向“每个参数的质量”；实验室不需要集群就能运行。",
+      "method": "DiT with selective and sliding tile attention (SSTA), glyph-aware bilingual text encoding and a video super-resolution network.",
+      "method_zh": "采用选择性滑动分块注意力（SSTA）的 DiT，配字形感知的中英文本编码和视频超分辨率网络。",
+      "specs": "8.3B · 720p → 1080p SR",
+      "keywords": [
+        "text-to-video",
+        "image-to-video",
+        "open weights",
+        "lightweight"
+      ],
+      "video": {
+        "url": "https://github.com/user-attachments/assets/d45ec78e-ea40-47f1-8d4d-f4d9a0682e2d"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2511.18870",
+        "arxiv": "2511.18870",
+        "venue": "arXiv 2025",
+        "title": "HunyuanVideo 1.5 Technical Report"
+      },
+      "source_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+      "code_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "minimax--h3",
+      "creator_ids": [
+        "minimax"
+      ],
+      "title": "MiniMax H3",
+      "year": 2026,
+      "date": "2026-07-31",
+      "field": "video",
+      "sub": "open",
+      "modalities": [
+        "flat-video",
+        "speech",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open",
+        "api",
+        "product"
+      ],
+      "lenses": [
+        "authoring",
+        "control",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "MiniMax H3 (2026-07-31) generates up to 15 seconds of 2K video with native stereo sound from text, image, video and audio context and edits video by instruction; unusually for a flagship, MiniMax published the weights on Hugging Face.",
+      "description_zh": "MiniMax H3（2026-07-31）可根据文本、图像、视频和音频上下文生成最长 15 秒、2K 分辨率并带原生立体声的视频，也能按指令编辑视频；少见的是，MiniMax 把这款旗舰模型的权重发布在了 Hugging Face 上。",
+      "idea_en": "A flagship-level audio-video model with downloadable weights lets a lab pin the exact model behind its stimuli.",
+      "idea_zh": "可下载权重的旗舰级音视频模型，让实验室能锁定刺激材料背后的确切模型版本。",
+      "method": "Contextual Omni Representation with an H3-VAE, an H3-Omni Transformer and in-context regeneration for editing (per MiniMax).",
+      "method_zh": "MiniMax 称其采用上下文全模态表征（Contextual Omni Representation），包括 H3-VAE、H3-Omni Transformer，以及用于编辑的上下文再生成。",
+      "specs": "up to 15 s · 2K · native stereo audio",
+      "keywords": [
+        "omni-modal",
+        "open weights",
+        "native audio",
+        "video editing",
+        "Hailuo"
+      ],
+      "video": {
+        "url": "https://filecdn.minimax.chat/public/h3-en-v2-video-001-1785473639588.mp4"
+      },
+      "images": [
+        "https://file.cdn.minimax.io/public/3df321d9-42bd-4be0-ac58-71f22377a11f.png"
+      ],
+      "source_url": "https://www.minimax.io/blog/minimax-h3",
+      "api_url": "https://platform.minimax.io/docs",
+      "code_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "collections": [
+        "trend-open-weights",
+        "trend-native-audio"
+      ]
+    },
+    {
+      "id": "google--phenaki",
+      "creator_ids": [
+        "google"
+      ],
+      "title": "Phenaki",
+      "year": 2022,
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "persistence",
+        "adaptation"
+      ],
+      "kind": "research",
+      "description": "Phenaki (Google, 2022-10-05) generated videos of variable length, up to minutes, from a sequence of prompts that change over time, for example a story told shot by shot.",
+      "description_zh": "Phenaki（Google，2022-10-05）可根据随时间变化的一串提示生成可变长度、最长数分钟的视频，例如逐镜讲述一个故事。",
+      "idea_en": "The first sketch of a story-driven, prompt-switching video stream, an idea later made interactive by real-time models such as LongLive.",
+      "idea_zh": "首次勾勒出由故事驱动、可切换提示的视频流，这一想法后来被 LongLive 等实时模型做成了交互式。",
+      "method": "C-ViViT tokenizer that compresses video into discrete tokens, plus a bidirectional masked transformer conditioned on text that generates autoregressively in time.",
+      "method_zh": "用 C-ViViT 把视频压缩为离散 token，再由以文本为条件的双向掩码 Transformer 在时间维度上自回归生成。",
+      "specs": "variable length · minutes (prompt sequences)",
+      "keywords": [
+        "long video",
+        "prompt sequence",
+        "precursor"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=Uf_xSjL0Bh8"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2210.02399",
+        "arxiv": "2210.02399",
+        "venue": "ICLR 2023",
+        "title": "Phenaki: Variable Length Video Generation From Open Domain Textual Description"
+      },
+      "source_url": "https://phenaki.github.io/",
+      "collections": [
+        "ml-conf"
+      ]
+    },
+    {
+      "id": "akio-kodaira--streamdiffusion",
+      "creator_ids": [
+        "akio-kodaira"
+      ],
+      "title": "StreamDiffusion",
+      "year": 2023,
+      "date": "2023-12-19",
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "video",
+        "text"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "reactivity"
+      ],
+      "kind": "open-source",
+      "description": "StreamDiffusion (2023-12-19) restyles a live webcam or screen feed with Stable Diffusion at up to about 90 fps on one RTX 4090, and became the engine of many TouchDesigner and live-performance installations; StreamDiffusionV2 (2025-11) extends it to video diffusion models.",
+      "description_zh": "StreamDiffusion（2023-12-19）可用 Stable Diffusion 实时重绘摄像头或屏幕画面，在单张 RTX 4090 上最高约 90 fps，成为许多 TouchDesigner 与现场表演装置的引擎；StreamDiffusionV2（2025 年 11 月）把它扩展到视频扩散模型。",
+      "idea_en": "Per-frame diffusion on a live camera feed was the first practical way to change what a person sees as it happens.",
+      "idea_zh": "对实时摄像头画面逐帧扩散，是第一个能在当下改变人所见画面的实用方案。",
+      "method": "Pipeline-level optimizations (stream batching of denoising steps, residual classifier-free guidance, a stochastic similarity filter) around few-step models such as SD-Turbo and LCM.",
+      "method_zh": "围绕 SD-Turbo、LCM 等少步模型的流水线级优化：去噪步的流式批处理、残差无分类器引导、随机相似度过滤。",
+      "specs": "up to 91 fps img2img on RTX 4090 (reported)",
+      "keywords": [
+        "real-time diffusion",
+        "webcam",
+        "TouchDesigner",
+        "third-party video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=I9Eq4LoB7Wk"
+      },
+      "images": [
+        "https://raw.githubusercontent.com/cumulo-autumn/StreamDiffusion/main/assets/demo_07.gif"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2312.12491",
+        "arxiv": "2312.12491",
+        "venue": "arXiv 2023",
+        "title": "StreamDiffusion: A Pipeline-level Solution for Real-time Interactive Generation"
+      },
+      "source_url": "https://github.com/cumulo-autumn/StreamDiffusion",
+      "code_url": "https://github.com/cumulo-autumn/StreamDiffusion",
+      "collections": [
+        "trend-realtime",
+        "trend-in-situ-xr"
+      ]
+    },
+    {
+      "id": "tianwei-yin--causvid",
+      "creator_ids": [
+        "tianwei-yin",
+        "adobe"
+      ],
+      "title": "CausVid",
+      "year": 2024,
+      "date": "2024-12-10",
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "persistence"
+      ],
+      "kind": "research",
+      "description": "CausVid (MIT and Adobe, 2024-12) converts a slow bidirectional video diffusion model into a causal one that starts streaming frames after about 1.3 seconds at roughly 9 fps on one GPU.",
+      "description_zh": "CausVid（MIT 与 Adobe，2024 年 12 月）把缓慢的双向视频扩散模型转换为因果模型，在单张 GPU 上约 1.3 秒后即可开始以约 9 fps 流式输出画面。",
+      "idea_en": "Video that plays the moment you press generate: the hinge between offline clips and live, steerable streams.",
+      "idea_zh": "按下生成就开始播放的视频，是离线片段与可实时操控视频流之间的转折点。",
+      "method": "Distribution-matching distillation of a bidirectional teacher into a 4-step autoregressive student with block-causal attention and KV caching.",
+      "method_zh": "用分布匹配蒸馏，把双向教师模型蒸馏成 4 步、块因果注意力并带 KV 缓存的自回归学生模型。",
+      "specs": "9.4 fps streaming · ~1.3 s first-frame latency",
+      "keywords": [
+        "causal video diffusion",
+        "distillation",
+        "streaming"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=nXAT18XuEKc"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2412.07772",
+        "arxiv": "2412.07772",
+        "venue": "CVPR 2025",
+        "title": "From Slow Bidirectional to Fast Causal Video Generators"
+      },
+      "source_url": "https://causvid.github.io/",
+      "code_url": "https://github.com/tianweiy/CausVid",
+      "collections": [
+        "cvpr",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "lvmin-zhang--framepack",
+      "creator_ids": [
+        "lvmin-zhang"
+      ],
+      "title": "FramePack",
+      "year": 2025,
+      "date": "2025-04-17",
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "image",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "authoring"
+      ],
+      "kind": "open-source",
+      "description": "FramePack (Lvmin Zhang and Maneesh Agrawala, Stanford, 2025-04) generates one- to two-minute image-to-video clips on a 6 GB laptop GPU by compressing past frames into a fixed-size context.",
+      "description_zh": "FramePack（斯坦福的张吕敏与 Maneesh Agrawala，2025 年 4 月）把历史帧压缩进固定大小的上下文，从而在 6 GB 显存的笔记本 GPU 上生成 1–2 分钟的图生视频。",
+      "idea_en": "Constant memory regardless of length makes long takes possible on ordinary hardware.",
+      "idea_zh": "无论视频多长，显存占用都恒定，普通硬件也能生成长镜头。",
+      "method": "Next-frame-section prediction with progressive context packing (older frames get fewer tokens) and anti-drifting bidirectional sampling, on a HunyuanVideo backbone.",
+      "method_zh": "下一帧段预测，配合渐进式上下文打包（越早的帧分到越少的 token）和防漂移的双向采样，以 HunyuanVideo 为主干。",
+      "specs": "13B · 30 fps · 60–120 s · 6 GB VRAM",
+      "keywords": [
+        "long video",
+        "next-frame prediction",
+        "consumer GPU",
+        "open source"
+      ],
+      "video": {
+        "url": "https://lllyasviel.github.io/frame_pack_gitpage/long/250415_173937_297_5230_451.mp4"
+      },
+      "images": [
+        "https://lllyasviel.github.io/frame_pack_gitpage/img/sample.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2504.12626",
+        "arxiv": "2504.12626",
+        "venue": "arXiv 2025",
+        "title": "Packing Input Frame Context in Next-Frame Prediction Models for Video Generation"
+      },
+      "source_url": "https://lllyasviel.github.io/frame_pack_gitpage/",
+      "code_url": "https://github.com/lllyasviel/FramePack",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "sand-ai--magi-1",
+      "creator_ids": [
+        "sand-ai"
+      ],
+      "title": "MAGI-1",
+      "year": 2025,
+      "date": "2025-04-21",
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "control"
+      ],
+      "kind": "model",
+      "description": "Sand AI's MAGI-1 (2025-04-21) is an open 24-billion-parameter autoregressive video model that generates video chunk by chunk, enabling streaming output, unlimited extension and prompt changes per chunk.",
+      "description_zh": "Sand AI 的 MAGI-1（2025-04-21）是 240 亿参数的开源自回归视频模型，逐块生成视频，支持流式输出、无限延展和逐块更换提示。",
+      "idea_en": "Chunk-wise autoregression gives second-by-second control over how a scene unfolds.",
+      "idea_zh": "分块自回归让人能逐秒控制场景如何展开。",
+      "method": "Autoregressive denoising over 24-frame chunks, with later chunks kept noisier while earlier ones are refined, on a transformer-based VAE.",
+      "method_zh": "以 24 帧为一块进行自回归去噪，越靠后的块噪声越高、前面的块逐步细化，配合基于 Transformer 的 VAE。",
+      "specs": "24B (4.5B distilled) · 24-frame chunks",
+      "keywords": [
+        "autoregressive",
+        "chunk-wise",
+        "open weights",
+        "unlimited length"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=RauucR3jmo0"
+      },
+      "images": [
+        "https://repository-images.githubusercontent.com/970023948/34ab6cc2-a578-4398-8f10-be2bffa59fa4"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2505.13211",
+        "arxiv": "2505.13211",
+        "venue": "arXiv 2025",
+        "title": "MAGI-1: Autoregressive Video Generation at Scale"
+      },
+      "source_url": "https://github.com/SandAI-org/MAGI-1",
+      "code_url": "https://github.com/SandAI-org/MAGI-1",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "skywork--skyreels-v2",
+      "creator_ids": [
+        "skywork"
+      ],
+      "title": "SkyReels-V2",
+      "year": 2025,
+      "date": "2025-04-21",
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Skywork's SkyReels-V2 (2025-04) is an open 'infinite-length film' model that keeps extending a video while holding shots consistent, trained with film-grammar annotations.",
+      "description_zh": "昆仑万维 Skywork 的 SkyReels-V2（2025 年 4 月）是开源的“无限时长电影”模型，可在保持镜头一致的同时不断延展视频，训练时使用了电影语法标注。",
+      "idea_en": "Diffusion forcing turns a clip model into a continuous storyteller, though drift still accumulates over minutes.",
+      "idea_zh": "扩散强制（diffusion forcing）把片段模型变成连续讲故事的模型，但时长到数分钟时漂移仍会累积。",
+      "method": "Diffusion-forcing framework (per-token noise levels) with a multimodal captioner (SkyCaptioner) for shot language and reinforcement learning for motion quality.",
+      "method_zh": "采用扩散强制框架（每个 token 噪声水平不同），用多模态字幕模型 SkyCaptioner 标注镜头语言，并用强化学习提升运动质量。",
+      "specs": "1.3B / 14B · 540p / 720p · unlimited length",
+      "keywords": [
+        "diffusion forcing",
+        "long video",
+        "open weights",
+        "film grammar"
+      ],
+      "video": {
+        "url": "https://github.com/user-attachments/assets/f6f9f9a7-5d5f-433c-9d73-d8d593b7ad25"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2504.13074",
+        "arxiv": "2504.13074",
+        "venue": "arXiv 2025",
+        "title": "SkyReels-V2: Infinite-length Film Generative Model"
+      },
+      "source_url": "https://github.com/SkyworkAI/SkyReels-V2",
+      "code_url": "https://github.com/SkyworkAI/SkyReels-V2",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "xun-huang--self-forcing",
+      "creator_ids": [
+        "xun-huang",
+        "adobe"
+      ],
+      "title": "Self Forcing",
+      "year": 2025,
+      "date": "2025-06-09",
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "persistence"
+      ],
+      "kind": "research",
+      "description": "Self Forcing (Adobe Research and UT Austin, 2025-06) trains an autoregressive video model on its own rollouts, closing the train-test gap, and streams video at about 17 fps with sub-second latency on one H100.",
+      "description_zh": "Self Forcing（Adobe Research 与 UT Austin，2025 年 6 月）让自回归视频模型在自身的生成结果上训练，弥合训练与推理的差距，在单张 H100 上以约 17 fps、亚秒级延迟流式生成视频。",
+      "idea_en": "Became a common training recipe for real-time video models such as LongLive and Krea Realtime.",
+      "idea_zh": "成为 LongLive、Krea Realtime 等实时视频模型常用的训练方法。",
+      "method": "Autoregressive rollout with KV caching during training, a holistic video-level distribution-matching loss and a rolling KV cache for extrapolation.",
+      "method_zh": "训练时就用 KV 缓存进行自回归展开，以整段视频级的分布匹配损失优化，并用滚动 KV 缓存外推更长视频。",
+      "specs": "1.3B · ~17 fps · < 1 s latency (H100)",
+      "keywords": [
+        "autoregressive",
+        "exposure bias",
+        "real-time",
+        "Wan 2.1"
+      ],
+      "video": {
+        "url": "https://github.com/user-attachments/assets/7548c2db-fe03-4ba8-8dd3-52d2c6160739"
+      },
+      "images": [
+        "https://self-forcing.github.io/static/teaser.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2506.08009",
+        "arxiv": "2506.08009",
+        "venue": "arXiv 2025",
+        "title": "Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion"
+      },
+      "source_url": "https://self-forcing.github.io/",
+      "code_url": "https://github.com/guandeh17/Self-Forcing",
+      "collections": [
+        "trend-realtime",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "bytedance-seed--seaweed-apt2",
+      "creator_ids": [
+        "bytedance-seed"
+      ],
+      "title": "Seaweed APT2",
+      "year": 2025,
+      "date": "2025-06-11",
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "camera"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "responsiveness",
+        "reactivity",
+        "persistence"
+      ],
+      "kind": "research",
+      "description": "ByteDance Seed's Seaweed APT2 (2025-06) streams 736×416 video at 24 fps on one H100 for up to a minute, steered in real time by camera moves or, in its virtual-human demo, by a person's pose.",
+      "description_zh": "字节跳动 Seed 的 Seaweed APT2（2025 年 6 月）在单张 H100 上以 24 fps 流式生成 736×416 视频，最长约一分钟，可通过镜头运动实时操控，其虚拟人演示中还能由人体姿态驱动。",
+      "idea_en": "One network evaluation per frame makes video respond to input like a game engine, at least for a minute.",
+      "idea_zh": "每帧只需一次网络前向，视频便能像游戏引擎一样响应输入，至少能持续一分钟。",
+      "method": "Autoregressive adversarial post-training (AAPT): a pretrained video diffusion model is converted to emit one latent frame per network evaluation, trained adversarially with student forcing on long rollouts.",
+      "method_zh": "自回归对抗后训练（AAPT）：把预训练视频扩散模型改造为每次网络前向生成一个潜帧，并在长序列上以学生强制方式进行对抗训练。",
+      "specs": "8B · 24 fps · 736×416 · up to 1,440 frames (1 min)",
+      "keywords": [
+        "autoregressive",
+        "adversarial post-training",
+        "interactive",
+        "virtual human"
+      ],
+      "video": {
+        "url": "https://cdn.seaweed-apt.com/apt2/highres/man-helmet.mp4"
+      },
+      "images": [
+        "https://cdn.seaweed-apt.com/apt2/misc/teaser.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2506.09350",
+        "arxiv": "2506.09350",
+        "venue": "arXiv 2025",
+        "title": "Autoregressive Adversarial Post-Training for Real-Time Interactive Video Generation"
+      },
+      "source_url": "https://seaweed-apt.com/2",
+      "collections": [
+        "trend-realtime",
+        "trend-world-simulators"
+      ]
+    },
+    {
+      "id": "decart--miragelsd",
+      "creator_ids": [
+        "decart"
+      ],
+      "title": "MirageLSD",
+      "year": 2025,
+      "date": "2025-07-17",
+      "field": "video",
+      "sub": "realtime",
+      "also": [
+        "genxr"
+      ],
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "video",
+        "text"
+      ],
+      "timing": "real-time",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "responsiveness",
+        "reactivity",
+        "co-creation"
+      ],
+      "kind": "model",
+      "description": "Decart's MirageLSD (2025-07-17) transforms any live camera, game or video feed into a prompted style or world in real time (Decart cites under 40 ms latency at 24 fps); it was released as a web demo and mobile apps and later succeeded by Lucy 2.",
+      "description_zh": "Decart 的 MirageLSD（2025-07-17）可按提示把任意实时摄像头、游戏或视频画面实时转换成另一种风格或世界（Decart 称延迟低于 40 毫秒、24 fps）；以网页演示和手机应用形式发布，后由 Lucy 2 接替。",
+      "idea_en": "Live 'reskinning' of the real world is the most direct generative route to mixed-reality situations, as long as the transformation stays stable.",
+      "idea_zh": "对现实世界实时“换皮”，是通向混合现实情境最直接的生成路径，前提是转换保持稳定。",
+      "method": "Live-Stream Diffusion: a causal, frame-by-frame video diffusion model that uses diffusion forcing and history augmentation to resist error accumulation, with custom GPU kernels.",
+      "method_zh": "实时流扩散（Live-Stream Diffusion）：逐帧因果视频扩散模型，借助扩散强制与历史增强抵抗误差累积，并使用定制 GPU 内核。",
+      "specs": "24 fps · < 40 ms latency (claimed)",
+      "keywords": [
+        "live-stream diffusion",
+        "video-to-video",
+        "real-time",
+        "official clip from archived launch page"
+      ],
+      "video": {
+        "url": "https://cdn.prod.website-files.com/6874f65b561c843511ee5b85%2F68791e9e65a7de52792e9cdf_mirage-transcode.mp4"
+      },
+      "images": [
+        "https://cdn.prod.website-files.com/6875c2f7957701899283e82a/68793def662cebbb07fd8940_image.png"
+      ],
+      "source_url": "https://web.archive.org/web/20250801/https://decart.ai/publications/mirage",
+      "collections": [
+        "trend-realtime",
+        "trend-in-situ-xr"
+      ]
+    },
+    {
+      "id": "shuai-yang-hkustgz--longlive",
+      "creator_ids": [
+        "shuai-yang-hkustgz",
+        "nvidia"
+      ],
+      "title": "LongLive",
+      "year": 2025,
+      "date": "2025-09-26",
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "adaptation",
+        "persistence"
+      ],
+      "kind": "research",
+      "description": "LongLive (NVIDIA, MIT, HKUST (Guangzhou) and others, 2025-09) generates video in real time for up to four minutes while the user types new prompts mid-stream, with smooth transitions between them.",
+      "description_zh": "LongLive（NVIDIA、MIT、港科大（广州）等，2025 年 9 月）可实时生成最长 4 分钟的视频，用户能在生成过程中随时输入新提示，画面会平滑过渡。",
+      "idea_en": "A running scene that changes when told to is the core of a directable situation.",
+      "idea_zh": "一个正在进行、听指令就能改变的场景，是可导演情境的核心。",
+      "method": "Frame-level autoregressive model with KV re-caching on prompt switches, streaming long tuning and short-window attention with a frame sink.",
+      "method_zh": "帧级自回归模型，切换提示时重建 KV 缓存，采用流式长视频微调和带帧汇聚（frame sink）的短窗口注意力。",
+      "specs": "1.3B · 20.7 fps (H100) · up to 240 s",
+      "keywords": [
+        "interactive long video",
+        "prompt switching",
+        "autoregressive",
+        "real-time"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=CO1QC7BNvig"
+      },
+      "images": [
+        "https://nvlabs.github.io/LongLive/assets/streaming_long.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2509.22622",
+        "arxiv": "2509.22622",
+        "venue": "ICLR 2026",
+        "title": "LongLive: Real-time Interactive Long Video Generation"
+      },
+      "source_url": "https://nvlabs.github.io/LongLive/",
+      "code_url": "https://github.com/NVlabs/LongLive",
+      "collections": [
+        "ml-conf",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "krea--krea-realtime",
+      "creator_ids": [
+        "krea"
+      ],
+      "title": "Krea Realtime 14B",
+      "year": 2025,
+      "date": "2025-10-15",
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text",
+        "video"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open",
+        "product"
+      ],
+      "lenses": [
+        "responsiveness",
+        "co-creation"
+      ],
+      "kind": "model",
+      "description": "Krea Realtime 14B (2025-10-15) is an open text-to-video model distilled from Wan 2.1 14B that streams at about 11 fps on one B200 and lets users change prompts or restyle video while it is generating.",
+      "description_zh": "Krea Realtime 14B（2025-10-15）是从 Wan 2.1 14B 蒸馏而来的开源文生视频模型，在单张 B200 上约 11 fps 流式生成，用户可在生成过程中更换提示或重绘画面风格。",
+      "idea_en": "Real-time generation at 14B scale shows interactivity no longer requires a small, low-quality model.",
+      "idea_zh": "140 亿参数规模的实时生成表明，交互性不再必须以小而粗糙的模型为代价。",
+      "method": "Self Forcing distillation of a bidirectional 14B model into an autoregressive one, with KV-cache recomputation and attention-bias techniques against error accumulation.",
+      "method_zh": "用 Self Forcing 把 140 亿参数的双向模型蒸馏为自回归模型，并用 KV 缓存重算与注意力偏置抑制误差累积。",
+      "specs": "14B · ~11 fps on 1 B200 · ~1 s to first frame",
+      "keywords": [
+        "real-time",
+        "Self Forcing",
+        "open weights",
+        "video-to-video"
+      ],
+      "video": {
+        "url": "https://s.krea.ai/krea-rt-video-blog/prompt_003.mp4"
+      },
+      "images": [
+        "https://s.krea.ai/krea_realtime_14b_cover.webp"
+      ],
+      "source_url": "https://www.krea.ai/blog/krea-realtime-14b",
+      "code_url": "https://huggingface.co/krea/krea-realtime-video",
+      "collections": [
+        "trend-realtime",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "decart--lucy-2",
+      "creator_ids": [
+        "decart"
+      ],
+      "title": "Lucy 2",
+      "year": 2026,
+      "date": "2026-01-26",
+      "field": "video",
+      "sub": "realtime",
+      "also": [
+        "genxr"
+      ],
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "video",
+        "text",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "api",
+        "product"
+      ],
+      "lenses": [
+        "responsiveness",
+        "reactivity",
+        "co-creation"
+      ],
+      "kind": "model",
+      "description": "Decart's Lucy 2 (2026-01-26) edits a live video stream at 1080p and 30 fps with near-zero latency, from character swaps and clothing changes to product placement and full environment changes driven by text and reference images; Lucy 2.5 (2026-07-16) improved temporal stability.",
+      "description_zh": "Decart 的 Lucy 2（2026-01-26）能以 1080p、30 fps、近乎零延迟编辑实时视频流，依据文本和参考图完成角色替换、换装、植入商品乃至整体环境变换；Lucy 2.5（2026-07-16）提升了时间稳定性。",
+      "idea_en": "Live, reference-guided transformation of a person's camera view is the building block for generative mixed-reality conditions.",
+      "idea_zh": "基于参考图对人的实时画面进行变换，是构建生成式混合现实实验条件的基本模块。",
+      "method": "Real-time world-transformation video model building on MirageLSD and Lucy Edit; Decart reports it learns physical consistency without depth maps or 3D.",
+      "method_zh": "在 MirageLSD 与 Lucy Edit 基础上构建的实时“世界变换”视频模型；Decart 称其无需深度图或三维信息即可学到物理一致性。",
+      "specs": "1080p · 30 fps · near-zero latency (claimed)",
+      "keywords": [
+        "live video editing",
+        "real-time",
+        "character swap",
+        "MirageLSD successor"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=N82RN4dPKaM"
+      },
+      "images": [
+        "https://cdn.prod.website-files.com/69a974f0b1fffb03644ecf2c/6a4d10c78242cf13741618a1_lucy-og.jpg"
+      ],
+      "source_url": "https://decart.ai/publications/lucy-2-introducing-sota-video-generation-in-realtime",
+      "collections": [
+        "trend-realtime",
+        "trend-in-situ-xr"
+      ]
+    },
+    {
+      "id": "shenghai-yuan--helios",
+      "creator_ids": [
+        "shenghai-yuan"
+      ],
+      "title": "Helios",
+      "year": 2026,
+      "date": "2026-03-04",
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "persistence",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "Helios (Peking University with ByteDance, 2026-03) is an open 14-billion-parameter model that generates minute-scale video in real time on a single H100, showing large real-time models can match small ones in speed.",
+      "description_zh": "Helios（北京大学与字节跳动，2026 年 3 月）是 140 亿参数的开源模型，可在单张 H100 上实时生成分钟级视频，表明大规模实时模型在速度上也能追平小模型。",
+      "idea_en": "Real-time no longer means 1.3B: quality and responsiveness stop being a trade-off.",
+      "idea_zh": "实时不再意味着只能用 13 亿参数的小模型：质量与响应速度不必二选一。",
+      "method": "Autoregressive video diffusion with techniques for long-horizon stability and efficient inference (per the Helios paper).",
+      "method_zh": "自回归视频扩散，结合长时稳定性与高效推理技术（据 Helios 论文）。",
+      "specs": "14B · real-time on 1 H100 · minute-scale (reported)",
+      "keywords": [
+        "real-time",
+        "long video",
+        "autoregressive",
+        "open weights"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=vd_AgHtOUFQ"
+      },
+      "images": [
+        "https://pku-yuangroup.github.io/Helios-Page/figures/highlight_speed_v2.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2603.04379",
+        "arxiv": "2603.04379",
+        "venue": "arXiv 2026",
+        "title": "Helios: Real Real-Time Long Video Generation Model"
+      },
+      "source_url": "https://pku-yuangroup.github.io/Helios-Page/",
+      "code_url": "https://github.com/PKU-YuanGroup/Helios",
+      "collections": [
+        "trend-realtime",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "shengshu--vidu-s1",
+      "creator_ids": [
+        "shengshu"
+      ],
+      "title": "Vidu S1",
+      "year": 2026,
+      "date": "2026-07-03",
+      "field": "video",
+      "sub": "realtime",
+      "also": [
+        "avatars"
+      ],
+      "modalities": [
+        "frame-stream",
+        "speech"
+      ],
+      "inputs": [
+        "speech",
+        "text",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "responsiveness",
+        "reactivity",
+        "behavioral-plausibility"
+      ],
+      "kind": "model",
+      "description": "Vidu S1 (2026-07-03) is Shengshu's real-time interactive video model: a generated character or scene responds within milliseconds as you talk to it, for uses such as talking pets or gaming companions.",
+      "description_zh": "Vidu S1（2026-07-03）是生数科技的实时交互视频模型：你对它说话时，生成的角色或场景会在毫秒级作出回应，可用于“会说话的宠物”、游戏陪伴等场景。",
+      "idea_en": "Conversation-paced video generation moves video models into the turn-taking loop of virtual humans.",
+      "idea_zh": "跟得上对话节奏的视频生成，把视频模型带进了虚拟人的轮流对话循环。",
+      "method": "Real-time video generation conditioned on streaming voice input; architecture not published.",
+      "method_zh": "以流式语音输入为条件的实时视频生成；架构未公开。",
+      "keywords": [
+        "real-time",
+        "voice-driven",
+        "interactive character",
+        "consumer app"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=jaPLmykNk0I"
+      },
+      "source_url": "https://www.vidu.com/",
+      "collections": [
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "qian-wang--360dvd",
+      "creator_ids": [
+        "qian-wang"
+      ],
+      "title": "360DVD",
+      "year": 2024,
+      "date": "2024-01-12",
+      "field": "video",
+      "sub": "immersive",
+      "modalities": [
+        "immersive-video"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "situational-reach",
+        "diversity"
+      ],
+      "kind": "research",
+      "description": "360DVD (Peking University, CVPR 2024) generates 360° equirectangular panorama videos from text, with optional motion conditions, for viewing in a VR headset.",
+      "description_zh": "360DVD（北京大学，CVPR 2024）可从文字生成 360° 等距柱状全景视频，并可加入运动条件，供 VR 头显观看。",
+      "idea_en": "One of the first ways to generate surround video a person can look around in, rather than a framed view.",
+      "idea_zh": "最早能生成可环顾四周的环绕视频（而不是一个画框）的方法之一。",
+      "method": "Lightweight 360-Adapter with 360°-specific enhancements on a pretrained text-to-video model, trained on the WEB360 panorama-video dataset.",
+      "method_zh": "在预训练文生视频模型上加入轻量的 360-Adapter 及针对 360° 的增强技术，使用 WEB360 全景视频数据集训练。",
+      "specs": "equirectangular · 512×1024",
+      "keywords": [
+        "360° video",
+        "panorama",
+        "VR",
+        "WEB360"
+      ],
+      "video": {
+        "url": "https://akaneqwq.github.io/360DVD/static/videos/01-vr.mp4"
+      },
+      "images": [
+        "https://akaneqwq.github.io/360DVD/static/images/framework.webp"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2401.06578",
+        "arxiv": "2401.06578",
+        "venue": "CVPR 2024",
+        "title": "360DVD: Controllable Panorama Video Generation with 360-Degree Video Diffusion Model"
+      },
+      "source_url": "https://akaneqwq.github.io/360DVD/",
+      "code_url": "https://github.com/akaneqwq/360DVD",
+      "collections": [
+        "cvpr"
+      ]
+    },
+    {
+      "id": "sijie-zhao--stereocrafter",
+      "creator_ids": [
+        "sijie-zhao",
+        "tencent-arc"
+      ],
+      "title": "StereoCrafter",
+      "year": 2024,
+      "date": "2024-09-11",
+      "field": "video",
+      "sub": "immersive",
+      "modalities": [
+        "immersive-video"
+      ],
+      "inputs": [
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "situational-reach",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "StereoCrafter (Tencent ARC Lab, 2024-09) converts ordinary 2D videos into long, high-fidelity stereoscopic 3D for headsets such as Apple Vision Pro, using a video diffusion model to fill disoccluded regions.",
+      "description_zh": "StereoCrafter（腾讯 ARC 实验室，2024 年 9 月）可把普通 2D 视频转换为长时、高保真的立体 3D 视频，供 Apple Vision Pro 等头显观看，并用视频扩散模型补全视差暴露出的遮挡区域。",
+      "idea_en": "Any existing or generated clip can become stereo, the cheapest path from flat stimuli to headset stimuli.",
+      "idea_zh": "任何现有或生成的片段都能转成立体视频，是从平面刺激走向头显刺激成本最低的路径。",
+      "method": "Depth-based forward warping to a second view, then a stereo video inpainting diffusion model trained on large stereo video data fills the holes.",
+      "method_zh": "先基于深度做前向变换得到第二视角，再用在大规模立体视频上训练的扩散修补模型填补空洞。",
+      "keywords": [
+        "2D-to-3D",
+        "stereoscopic video",
+        "Apple Vision Pro",
+        "video inpainting"
+      ],
+      "video": {
+        "url": "https://github.com/stereocrafter/stereocrafter.github.io/releases/download/V0.0.1/camel_sbs.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2409.07447",
+        "arxiv": "2409.07447",
+        "venue": "arXiv 2024",
+        "title": "StereoCrafter: Diffusion-based Generation of Long and High-fidelity Stereoscopic 3D from Monocular Videos"
+      },
+      "source_url": "https://stereocrafter.github.io/",
+      "code_url": "https://github.com/TencentARC/StereoCrafter"
+    },
+    {
+      "id": "jing-tan--imagine360",
+      "creator_ids": [
+        "jing-tan"
+      ],
+      "title": "Imagine360",
+      "year": 2024,
+      "date": "2024-12-04",
+      "field": "video",
+      "sub": "immersive",
+      "modalities": [
+        "immersive-video"
+      ],
+      "inputs": [
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "situational-reach",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "Imagine360 (CUHK and Shanghai AI Laboratory, NeurIPS 2025) expands an ordinary perspective video into a full 360° video, inventing the surroundings outside the original frame while keeping its motion.",
+      "description_zh": "Imagine360（香港中文大学与上海人工智能实验室，NeurIPS 2025）可把普通透视视频扩展成完整的 360° 视频，在保留原有运动的同时补全画框之外的周边环境。",
+      "idea_en": "Turns phone footage of an event into surround material a participant can look around in.",
+      "idea_zh": "把手机拍下的事件画面变成参与者可以环顾的环绕素材。",
+      "method": "Dual-branch perspective/panorama diffusion with antipodal masking and elevation-aware design, trained on panoramic video.",
+      "method_zh": "透视/全景双分支扩散，配合对跖遮罩（antipodal mask）与仰角感知设计，在全景视频上训练。",
+      "keywords": [
+        "360° video",
+        "perspective-to-panorama",
+        "outpainting"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=gRGo4B41GXY"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2412.03552",
+        "arxiv": "2412.03552",
+        "venue": "NeurIPS 2025",
+        "title": "Imagine360: Immersive 360 Video Generation from Perspective Anchor"
+      },
+      "source_url": "https://ys-imtech.github.io/projects/Imagine360/",
+      "code_url": "https://github.com/YS-IMTech/Imagine360",
+      "collections": [
+        "ml-conf"
+      ]
+    },
+    {
+      "id": "guibao-shen--stereopilot",
+      "creator_ids": [
+        "guibao-shen",
+        "kuaishou"
+      ],
+      "title": "StereoPilot",
+      "year": 2025,
+      "date": "2025-12-18",
+      "field": "video",
+      "sub": "immersive",
+      "modalities": [
+        "immersive-video"
+      ],
+      "inputs": [
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "situational-reach",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "StereoPilot (HKUST (Guangzhou) with Kuaishou's Kling team, 2025-12) converts monocular video to stereo for both parallel and converged camera setups in a single efficient pass, using generative video priors.",
+      "description_zh": "StereoPilot（港科大（广州）与快手可灵团队，2025 年 12 月）借助生成式视频先验，一次高效推理即可把单目视频转换为平行式或会聚式两种立体格式。",
+      "idea_en": "Fast, format-aware stereo conversion lets a lab deliver generated scenes to different headsets without re-rendering.",
+      "idea_zh": "快速且区分立体格式的转换，让实验室无需重新渲染就能把生成场景投放到不同头显上。",
+      "method": "Unified feed-forward stereo conversion on a video-generation backbone, trained on a curated dataset covering parallel and converged stereo.",
+      "method_zh": "基于视频生成主干的统一前馈式立体转换，在涵盖平行与会聚两种立体格式的数据集上训练。",
+      "keywords": [
+        "2D-to-3D",
+        "stereo conversion",
+        "generative prior",
+        "headset"
+      ],
+      "video": {
+        "url": "https://hit-perfect.github.io/StereoPilot/Video_Intro/StereoPilot.mp4"
+      },
+      "images": [
+        "https://hit-perfect.github.io/StereoPilot/Figs/PacificRim.gif"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2512.16915",
+        "arxiv": "2512.16915",
+        "venue": "arXiv 2025",
+        "title": "StereoPilot: Learning Unified and Efficient Stereo Conversion via Generative Priors"
+      },
+      "source_url": "https://hit-perfect.github.io/StereoPilot/",
+      "code_url": "https://github.com/KlingTeam/StereoPilot"
+    },
+    {
+      "id": "ziyi-wu--360anything",
+      "creator_ids": [
+        "ziyi-wu",
+        "google-deepmind"
+      ],
+      "title": "360Anything",
+      "year": 2026,
+      "date": "2026-01-22",
+      "field": "video",
+      "sub": "immersive",
+      "modalities": [
+        "immersive-video",
+        "image"
+      ],
+      "inputs": [
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "situational-reach",
+        "diversity"
+      ],
+      "kind": "research",
+      "description": "360Anything (Google DeepMind with the University of Toronto, ECCV 2026) lifts any perspective image or video, including footage from the Genie 3 world model, to a seamless 360° panorama without camera calibration.",
+      "description_zh": "360Anything（Google DeepMind 与多伦多大学，ECCV 2026）无需相机标定，就能把任意透视图像或视频（包括 Genie 3 世界模型的画面）提升为无缝的 360° 全景。",
+      "idea_en": "Any generated clip, even a world-model rollout, can be wrapped around the viewer after the fact.",
+      "idea_zh": "任何生成片段，哪怕是世界模型的推演画面，都可以事后“包裹”到观看者四周。",
+      "method": "Geometry-free diffusion transformer that learns from data where the perspective input sits inside the panorama, without explicit camera intrinsics or extrinsics.",
+      "method_zh": "无需几何先验的扩散 Transformer，从数据中学习透视输入在全景中的位置，不依赖显式的相机内外参。",
+      "keywords": [
+        "360° video",
+        "panorama lifting",
+        "Genie 3",
+        "geometry-free"
+      ],
+      "video": {
+        "url": "https://360anything.github.io/videos/video_360_viewer/genie_3_concat.mp4"
+      },
+      "images": [
+        "https://360anything.github.io/imgs/image_360_viewer/lighthouse_ours.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2601.16192",
+        "arxiv": "2601.16192",
+        "venue": "ECCV 2026",
+        "title": "360Anything: Geometry-Free Lifting of Images and Videos to 360°"
+      },
+      "source_url": "https://360anything.github.io/",
+      "collections": [
+        "iccv-eccv"
+      ]
+    }
+  ],
+  "leads": []
+}

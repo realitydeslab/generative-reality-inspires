@@ -1,0 +1,1736 @@
+{
+ "batch": "resources-2",
+ "orgs": [
+  {
+   "id": "google-deepmind",
+   "name": "Google DeepMind",
+   "type": "ai-lab",
+   "themes": [
+    "world-models",
+    "video-generation",
+    "agents"
+   ],
+   "fields": [
+    "world-models",
+    "video",
+    "agents"
+   ],
+   "description": "Google's AI lab and the single largest source of landmarks in this gallery: the Genie world models (Genie 1 to 3), the Veo video models with native audio, CAT3D and the SIMA game agents.",
+   "description_zh": "Google 的人工智能实验室，也是本图库中里程碑作品最多的来源：Genie 世界模型（Genie 1 至 3）、能原生生成声音的 Veo 视频模型、CAT3D 以及 SIMA 游戏智能体。",
+   "url": "https://deepmind.google/",
+   "links": [
+    {
+     "label": "Genie 3",
+     "url": "https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Google_DeepMind"
+    }
+   ],
+   "based": "London, UK",
+   "based_zh": "英国伦敦",
+   "founded": 2010,
+   "people": [
+    "Demis Hassabis",
+    "Jack Parker-Holder",
+    "Shlomi Fruchter",
+    "Jon Barron"
+   ],
+   "creator_id": "google-deepmind",
+   "found_via": "https://deepmind.google/"
+  },
+  {
+   "id": "openai",
+   "name": "OpenAI",
+   "type": "ai-lab",
+   "themes": [
+    "video-generation",
+    "speech-audio",
+    "world-models"
+   ],
+   "fields": [
+    "video",
+    "audio"
+   ],
+   "description": "Released Sora (2024), which framed video models as world simulators, and Sora 2 with synchronized sound (2025), plus the gpt-realtime speech-to-speech API. It closed the Sora app in April 2026 and the Sora API in September 2026, moving the team to world simulation research.",
+   "description_zh": "推出了 Sora（2024，把视频模型定位为“世界模拟器”）和能同步生成声音的 Sora 2（2025），以及 gpt-realtime 语音到语音 API。2026 年 4 月关闭 Sora 应用、9 月关闭 Sora API，团队转向世界模拟研究。",
+   "url": "https://openai.com/",
+   "links": [
+    {
+     "label": "Sora discontinuation (Help Center)",
+     "url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/OpenAI"
+    }
+   ],
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/6iFRMxhUWyxFR6zpThf2Am/1f826b5095ca8854064989ecec465049/SEO_Banner_2400x1350_04.png?w=1600&h=900&fit=fill",
+   "based": "San Francisco, US",
+   "based_zh": "美国旧金山",
+   "founded": 2015,
+   "people": [
+    "Bill Peebles"
+   ],
+   "creator_id": "openai",
+   "found_via": "https://the-decoder.com/openai-sets-two-stage-sora-shutdown-with-app-closing-april-2026-and-api-following-in-september/"
+  },
+  {
+   "id": "meta-reality-labs-research",
+   "name": "Meta Reality Labs Research",
+   "type": "ai-lab",
+   "themes": [
+    "virtual-humans",
+    "xr",
+    "gaussian-splatting"
+   ],
+   "fields": [
+    "avatars",
+    "spatial-4d",
+    "genxr"
+   ],
+   "description": "Meta's research arm for AR and VR, home of Codec Avatars (photoreal telepresence), Hyperscape room capture with Gaussian splatting, and the Aria research glasses.",
+   "description_zh": "Meta 的 AR / VR 研究部门，Codec Avatars（照片级远程临场化身）、基于高斯泼溅的 Hyperscape 房间捕捉以及 Aria 科研眼镜都出自这里。",
+   "url": "https://tech.facebook.com/reality-labs/",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Reality_Labs"
+    }
+   ],
+   "based": "Redmond / Pittsburgh, US",
+   "based_zh": "美国雷德蒙德 / 匹兹堡",
+   "creator_id": "meta",
+   "found_via": "https://tech.facebook.com/reality-labs/"
+  },
+  {
+   "id": "meta-ai-research",
+   "name": "AI at Meta (FAIR & Superintelligence Labs)",
+   "type": "ai-lab",
+   "themes": [
+    "world-models",
+    "virtual-humans",
+    "open-source"
+   ],
+   "fields": [
+    "world-models",
+    "avatars",
+    "assets"
+   ],
+   "description": "Meta's AI research groups, which released V-JEPA 2 world models, the Seamless Interaction dataset and models of two-person face-to-face behavior, and SAM 3D; the research page now leads with its 2026 Muse models.",
+   "description_zh": "Meta 的人工智能研究部门，发布了 V-JEPA 2 世界模型、刻画双人面对面行为的 Seamless Interaction 数据集与模型，以及 SAM 3D；其研究主页现以 2026 年的 Muse 系列模型为首。",
+   "url": "https://ai.meta.com/research/",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Meta_AI"
+    }
+   ],
+   "based": "Menlo Park, US",
+   "based_zh": "美国门洛帕克",
+   "people": [
+    "Tim Brooks"
+   ],
+   "creator_id": "meta",
+   "found_via": "https://ai.meta.com/research/"
+  },
+  {
+   "id": "nvidia-spatial-intelligence-lab",
+   "name": "NVIDIA Spatial Intelligence Lab",
+   "type": "ai-lab",
+   "themes": [
+    "3d-generation",
+    "gaussian-splatting",
+    "world-models"
+   ],
+   "fields": [
+    "worlds-3d",
+    "spatial-4d"
+   ],
+   "description": "NVIDIA's research lab for AI that perceives, models and interacts with the physical world (the former Toronto AI Lab), behind 3D-consistent video and world generation such as GEN3C and Lyra and the 3DGUT renderer.",
+   "description_zh": "NVIDIA 研究感知、建模并与物理世界交互的 AI 的实验室（原多伦多 AI 实验室），推出了 GEN3C、Lyra 等三维一致的视频与世界生成方法，以及 3DGUT 渲染器。",
+   "url": "https://research.nvidia.com/labs/sil/",
+   "links": [
+    {
+     "label": "NVIDIA GEAR (agents)",
+     "url": "https://research.nvidia.com/labs/gear/"
+    }
+   ],
+   "image": "https://research.nvidia.com/labs/sil/assets/og-card.png",
+   "based": "Toronto, CA",
+   "based_zh": "加拿大多伦多",
+   "people": [
+    "Sanja Fidler"
+   ],
+   "creator_id": "nvidia",
+   "found_via": "https://research.nvidia.com/labs/sil/"
+  },
+  {
+   "id": "microsoft-research",
+   "name": "Microsoft Research",
+   "type": "ai-lab",
+   "themes": [
+    "virtual-humans",
+    "world-models",
+    "presence"
+   ],
+   "fields": [
+    "avatars",
+    "world-models"
+   ],
+   "description": "Microsoft's research organization, which produced VASA-1 lifelike talking faces from one photo, the Muse (WHAM) game world model with Xbox, and the open Rocketbox avatar library used across VR studies.",
+   "description_zh": "微软的研究机构，推出了由一张照片生成逼真说话人脸的 VASA-1、与 Xbox 合作的 Muse（WHAM）游戏世界模型，以及被大量 VR 研究使用的开源 Rocketbox 虚拟人库。",
+   "url": "https://www.microsoft.com/en-us/research/",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Microsoft_Research"
+    }
+   ],
+   "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2024/07/About-page-promo_1066x600.jpg",
+   "based": "Redmond, US",
+   "based_zh": "美国雷德蒙德",
+   "founded": 1991,
+   "people": [
+    "Jaron Lanier"
+   ],
+   "creator_id": "microsoft",
+   "found_via": "https://www.microsoft.com/en-us/research/"
+  },
+  {
+   "id": "world-labs",
+   "name": "World Labs",
+   "type": "ai-lab",
+   "themes": [
+    "3d-generation",
+    "world-models",
+    "gaussian-splatting"
+   ],
+   "fields": [
+    "worlds-3d",
+    "world-models"
+   ],
+   "description": "The spatial-intelligence company founded by Fei-Fei Li, Justin Johnson, Ben Mildenhall and Christoph Lassner; its Marble product generates persistent, editable 3D worlds from text, images, video and 3D layouts.",
+   "description_zh": "由李飞飞、Justin Johnson、Ben Mildenhall 与 Christoph Lassner 创立的空间智能公司；其产品 Marble 能由文字、图像、视频和三维布局生成持久、可编辑的三维世界。",
+   "url": "https://www.worldlabs.ai/",
+   "links": [
+    {
+     "label": "About",
+     "url": "https://www.worldlabs.ai/about"
+    }
+   ],
+   "image": "https://www.worldlabs.ai/opengraph-image.png?4b39e0cc40ca8b21",
+   "based": "San Francisco, US",
+   "based_zh": "美国旧金山",
+   "founded": 2024,
+   "people": [
+    "Fei-Fei Li",
+    "Justin Johnson",
+    "Ben Mildenhall",
+    "Christoph Lassner"
+   ],
+   "creator_id": "world-labs",
+   "found_via": "https://www.worldlabs.ai/"
+  },
+  {
+   "id": "runway",
+   "name": "Runway",
+   "type": "ai-lab",
+   "themes": [
+    "video-generation",
+    "world-models"
+   ],
+   "fields": [
+    "video",
+    "world-models"
+   ],
+   "description": "New York company that turned video generation into filmmaking tools (Gen-1 through Gen-4.5, Act-Two, Aleph) and in December 2025 launched GWM-1, a general world model; it also runs the AI Festival (AIF).",
+   "description_zh": "纽约公司，把视频生成变成电影制作工具（Gen-1 至 Gen-4.5、Act-Two、Aleph），并于 2025 年 12 月推出通用世界模型 GWM-1；它还主办 AI 电影节（AIF）。",
+   "url": "https://runway.com/",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Runway_(company)"
+    }
+   ],
+   "image": "https://d3phaj0sisr2ct.cloudfront.net/site/assets/homepage-og-card-v3.webp",
+   "based": "New York, US",
+   "based_zh": "美国纽约",
+   "founded": 2018,
+   "people": [
+    "Cristóbal Valenzuela"
+   ],
+   "creator_id": "runway",
+   "found_via": "https://runway.com/"
+  },
+  {
+   "id": "luma-ai",
+   "name": "Luma AI",
+   "type": "ai-lab",
+   "themes": [
+    "video-generation",
+    "gaussian-splatting"
+   ],
+   "fields": [
+    "video",
+    "spatial-4d"
+   ],
+   "description": "Started with NeRF and splat capture on phones, then released the Dream Machine and Ray video models; its site now presents AI agents for creative work.",
+   "description_zh": "从手机上的 NeRF 与高斯泼溅捕捉起步，之后发布 Dream Machine 与 Ray 系列视频模型；其网站现在主推面向创意工作的 AI 智能体。",
+   "url": "https://lumalabs.ai/",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Dream_Machine_(text-to-video_model)"
+    }
+   ],
+   "image": "https://cdn.sanity.io/images/2ylxvaa2/production/ff7469d468f6f7e447ccb4a50276f1cb03c6664d-1200x630.jpg?w=1200&h=630&fm=jpg",
+   "based": "San Francisco, US",
+   "based_zh": "美国旧金山",
+   "founded": 2021,
+   "people": [
+    "Amit Jain"
+   ],
+   "creator_id": "luma-ai",
+   "found_via": "https://lumalabs.ai/"
+  },
+  {
+   "id": "decart",
+   "name": "Decart",
+   "type": "ai-lab",
+   "themes": [
+    "video-generation",
+    "world-models"
+   ],
+   "fields": [
+    "video",
+    "world-models"
+   ],
+   "description": "Real-time generative video lab: Oasis (2024) was a playable world model of a Minecraft-like game, and MirageLSD (2025) restyles live camera video in real time.",
+   "description_zh": "实时生成视频实验室：Oasis（2024）是一款类 Minecraft 游戏的可玩世界模型，MirageLSD（2025）能对实时摄像头画面进行实时风格转换。",
+   "url": "https://decart.ai/",
+   "image": "https://cdn.prod.website-files.com/69a974f0b1fffb03644ecf2c/69b94eac7c2b44111d02c52d_og.jpg",
+   "based": "San Francisco, US / Tel Aviv, IL",
+   "based_zh": "美国旧金山 / 以色列特拉维夫",
+   "founded": 2023,
+   "people": [
+    "Dean Leitersdorf"
+   ],
+   "creator_id": "decart",
+   "found_via": "https://decart.ai/"
+  },
+  {
+   "id": "general-intuition",
+   "name": "General Intuition",
+   "type": "ai-lab",
+   "themes": [
+    "world-models",
+    "agents"
+   ],
+   "fields": [
+    "world-models",
+    "agents"
+   ],
+   "description": "World-model lab co-founded by DIAMOND author Eloi Alonso that trains agents and world models on large archives of game play, describing itself as 'the frontier lab for acting in space and time'.",
+   "description_zh": "由 DIAMOND 作者 Eloi Alonso 联合创立的世界模型实验室，利用大量游戏录像训练智能体与世界模型，自称“在空间与时间中行动的前沿实验室”。",
+   "url": "https://www.generalintuition.com/",
+   "image": "https://cdn.prod.website-files.com/68b73cd966b9c097c35f357b/68e8144ca0bb0c277dd07742_general_intuition_opengraph.png",
+   "founded": 2025,
+   "people": [
+    "Eloi Alonso"
+   ],
+   "creator_id": "general-intuition",
+   "found_via": "https://www.generalintuition.com/"
+  },
+  {
+   "id": "simile",
+   "name": "Simile",
+   "type": "ai-lab",
+   "themes": [
+    "agents",
+    "behavioral-research"
+   ],
+   "fields": [
+    "agents",
+    "behavioral"
+   ],
+   "description": "Palo Alto company founded by generative-agents author Joon Sung Park that sells simulations of how customers, employees or populations respond to change; it announced a $200M Series B at a $2B valuation in 2026.",
+   "description_zh": "由“生成式智能体”作者 Joon Sung Park 创立的帕洛阿尔托公司，提供关于顾客、员工或人群如何回应变化的模拟服务；2026 年宣布完成 2 亿美元 B 轮融资，估值 20 亿美元。",
+   "url": "https://www.simile.com/",
+   "image": "https://cdn.sanity.io/images/bz52j8pw/production/2b12507f79346d8ce26c4e362188d12e57e13414-1200x630.png?rect=0,2,1200,627&w=1200&h=627&fit=crop&auto=format",
+   "based": "Palo Alto, US",
+   "based_zh": "美国帕洛阿尔托",
+   "people": [
+    "Joon Sung Park"
+   ],
+   "creator_id": "simile",
+   "found_via": "https://www.simile.com/"
+  },
+  {
+   "id": "elevenlabs",
+   "name": "ElevenLabs",
+   "type": "ai-lab",
+   "themes": [
+    "speech-audio",
+    "agents"
+   ],
+   "fields": [
+    "audio"
+   ],
+   "description": "Voice AI company whose text-to-speech, voice cloning, sound effects, music and conversational agent platform supply the voices of many generated characters and virtual humans.",
+   "description_zh": "语音 AI 公司，其文本转语音、声音克隆、音效、音乐与对话智能体平台，为许多生成角色与虚拟人提供声音。",
+   "url": "https://elevenlabs.io/",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/ElevenLabs"
+    }
+   ],
+   "image": "https://elevenlabs.io/cover.png",
+   "based": "London, UK / New York, US",
+   "based_zh": "英国伦敦 / 美国纽约",
+   "founded": 2022,
+   "people": [
+    "Mati Staniszewski",
+    "Piotr Dąbkowski"
+   ],
+   "creator_id": "elevenlabs",
+   "found_via": "https://elevenlabs.io/"
+  },
+  {
+   "id": "kyutai",
+   "name": "Kyutai",
+   "type": "ai-lab",
+   "themes": [
+    "speech-audio",
+    "open-source"
+   ],
+   "fields": [
+    "audio"
+   ],
+   "description": "Non-profit open-science AI lab in Paris that released Moshi, the first open full-duplex speech model, plus Hibiki live speech translation and the Unmute voice stack; its voice work was spun out as Gradium in 2025.",
+   "description_zh": "巴黎的非营利开放科学 AI 实验室，发布了首个开源全双工语音模型 Moshi，以及实时语音翻译 Hibiki 与语音系统 Unmute；其语音技术于 2025 年分拆为 Gradium 公司。",
+   "url": "https://kyutai.org/",
+   "links": [
+    {
+     "label": "Gradium",
+     "url": "https://gradium.ai/"
+    }
+   ],
+   "based": "Paris, FR",
+   "based_zh": "法国巴黎",
+   "founded": 2023,
+   "people": [
+    "Neil Zeghidour",
+    "Alexandre Défossez"
+   ],
+   "creator_id": "kyutai",
+   "found_via": "https://kyutai.org/"
+  },
+  {
+   "id": "gradium",
+   "name": "Gradium",
+   "type": "ai-lab",
+   "themes": [
+    "speech-audio",
+    "agents"
+   ],
+   "fields": [
+    "audio",
+    "infra"
+   ],
+   "description": "Paris voice-AI company spun out of Kyutai in December 2025 and led by Neil Zeghidour; it turns the Moshi line of research into a real-time voice API for agents (low-latency speech synthesis, transcription, live translation and voice cloning).",
+   "description_zh": "2025 年 12 月从 Kyutai 分拆出的巴黎语音 AI 公司，由 Neil Zeghidour 领导；它把 Moshi 一脉的研究转化为面向智能体的实时语音 API（低延迟语音合成、转写、实时翻译与声音克隆）。",
+   "url": "https://gradium.ai/",
+   "links": [
+    {
+     "label": "Kyutai",
+     "url": "https://kyutai.org/"
+    }
+   ],
+   "image": "https://gradium.ai/assets/og-voice-ai.jpg",
+   "based": "Paris, FR",
+   "based_zh": "法国巴黎",
+   "founded": 2025,
+   "people": [
+    "Neil Zeghidour"
+   ],
+   "found_via": "https://gradium.ai/"
+  },
+  {
+   "id": "tencent-hunyuan",
+   "name": "Tencent Hunyuan",
+   "name_zh": "腾讯混元",
+   "type": "ai-lab",
+   "themes": [
+    "video-generation",
+    "3d-generation",
+    "open-source"
+   ],
+   "fields": [
+    "video",
+    "assets",
+    "worlds-3d"
+   ],
+   "description": "Tencent's foundation-model team, one of the most prolific open-weight sources in the field: HunyuanVideo, Hunyuan3D, HunyuanWorld and the GameCraft game-video model.",
+   "description_zh": "腾讯的基础模型团队，是该领域最活跃的开源权重来源之一：HunyuanVideo、Hunyuan3D、HunyuanWorld 以及游戏视频模型 GameCraft。",
+   "url": "https://hunyuan.tencent.com/",
+   "links": [
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Tencent-Hunyuan"
+    }
+   ],
+   "based": "Shenzhen, CN",
+   "based_zh": "中国深圳",
+   "creator_id": "tencent-hunyuan",
+   "found_via": "https://hunyuan.tencent.com/"
+  },
+  {
+   "id": "bytedance-seed",
+   "name": "ByteDance Seed",
+   "name_zh": "字节跳动 Seed",
+   "type": "ai-lab",
+   "themes": [
+    "video-generation",
+    "virtual-humans",
+    "3d-generation"
+   ],
+   "fields": [
+    "video",
+    "avatars",
+    "assets"
+   ],
+   "description": "ByteDance's foundation-model team, formed in 2023, behind the Seedance video models, OmniHuman audio-driven human animation and Seed3D.",
+   "description_zh": "字节跳动 2023 年成立的基础模型团队，推出了 Seedance 视频模型、音频驱动人体动画 OmniHuman 以及 Seed3D。",
+   "url": "https://seed.bytedance.com/en/",
+   "based": "Beijing, CN",
+   "based_zh": "中国北京",
+   "founded": 2023,
+   "creator_id": "bytedance-seed",
+   "found_via": "https://seed.bytedance.com/en/"
+  },
+  {
+   "id": "kling-ai",
+   "name": "Kling AI (Kuaishou)",
+   "name_zh": "可灵 AI（快手）",
+   "type": "ai-lab",
+   "themes": [
+    "video-generation",
+    "virtual-humans"
+   ],
+   "fields": [
+    "video",
+    "avatars"
+   ],
+   "description": "Kuaishou's video-generation product, launched in June 2024 and updated through a fast series of Kling versions that have often ranked at or near the top of public video arenas.",
+   "description_zh": "快手的视频生成产品，于 2024 年 6 月上线，此后快速迭代多个可灵版本，多次位居公开视频竞技场榜首或前列。",
+   "url": "https://kling.ai/",
+   "image": "https://s16-kling.klingai.com/kos/s101/nlav112918/kling-homepage-aio/assets/images/hero-v4-ocean-pianist-BJN4qEvR.jpg",
+   "based": "Beijing, CN",
+   "based_zh": "中国北京",
+   "founded": 2024,
+   "creator_id": "kuaishou",
+   "found_via": "https://kling.ai/"
+  },
+  {
+   "id": "alibaba-tongyi-wan",
+   "name": "Alibaba Tongyi Wan",
+   "name_zh": "阿里通义万相",
+   "type": "ai-lab",
+   "themes": [
+    "video-generation",
+    "open-source"
+   ],
+   "fields": [
+    "video"
+   ],
+   "description": "Alibaba's Tongyi Lab video family; Wan 2.1 and 2.2 were released as open weights and became a common base for open video research and fine-tunes.",
+   "description_zh": "阿里巴巴通义实验室的视频模型系列；Wan 2.1 与 2.2 以开源权重发布，成为开源视频研究与微调的常用底座。",
+   "url": "https://wan.video/",
+   "links": [
+    {
+     "label": "Tongyi Lab",
+     "url": "https://tongyi.aliyun.com/"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/Wan-Video"
+    }
+   ],
+   "image": "https://img.alicdn.com/imgextra/i1/O1CN01WlNesT1EWvfm8mzKw_!!6000000000360-2-tps-600-315.png",
+   "based": "Hangzhou, CN",
+   "based_zh": "中国杭州",
+   "creator_id": "alibaba-tongyi",
+   "found_via": "https://wan.video/"
+  },
+  {
+   "id": "shanghai-ai-lab",
+   "name": "Shanghai AI Laboratory",
+   "name_zh": "上海人工智能实验室",
+   "type": "ai-lab",
+   "themes": [
+    "video-generation",
+    "world-models",
+    "open-source"
+   ],
+   "fields": [
+    "video",
+    "infra"
+   ],
+   "description": "State-backed research institute founded in 2020 that publishes open models and benchmarks, including the Vchitect video-generation project behind the VBench leaderboard (with NTU S-Lab).",
+   "description_zh": "2020 年成立的国家支持的研究机构，发布开源模型与评测基准，包括与南洋理工 S-Lab 合作、支撑 VBench 排行榜的 Vchitect 视频生成项目。",
+   "url": "https://www.shlab.org.cn/",
+   "based": "Shanghai, CN",
+   "based_zh": "中国上海",
+   "founded": 2020,
+   "found_via": "https://www.shlab.org.cn/"
+  },
+  {
+   "id": "minimax",
+   "name": "MiniMax",
+   "name_zh": "MiniMax（稀宇科技）",
+   "type": "ai-lab",
+   "themes": [
+    "video-generation",
+    "speech-audio"
+   ],
+   "fields": [
+    "video",
+    "audio"
+   ],
+   "description": "Shanghai AI company whose Hailuo video models and Speech text-to-speech models have ranked near the top of public video and speech arenas.",
+   "description_zh": "上海人工智能公司，旗下海螺（Hailuo）视频模型与 Speech 语音合成模型在公开视频与语音竞技场中名列前茅。",
+   "url": "https://www.minimax.io/",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/MiniMax_Group"
+    }
+   ],
+   "based": "Shanghai, CN",
+   "based_zh": "中国上海",
+   "founded": 2021,
+   "people": [
+    "Yan Junjie"
+   ],
+   "creator_id": "minimax",
+   "found_via": "https://www.minimax.io/"
+  },
+  {
+   "id": "shengshu",
+   "name": "Shengshu Technology (Vidu)",
+   "name_zh": "生数科技",
+   "type": "ai-lab",
+   "themes": [
+    "video-generation"
+   ],
+   "fields": [
+    "video"
+   ],
+   "description": "Beijing company spun out of Tsinghua University, maker of the Vidu video models (first released April 2024) with reference-to-video for consistent characters.",
+   "description_zh": "源自清华大学的北京公司，推出 Vidu 视频模型（2024 年 4 月首发），以“参考生视频”保持角色一致性见长。",
+   "url": "https://www.vidu.com/",
+   "based": "Beijing, CN",
+   "based_zh": "中国北京",
+   "founded": 2023,
+   "people": [
+    "Zhu Jun"
+   ],
+   "creator_id": "shengshu",
+   "found_via": "https://www.vidu.com/"
+  },
+  {
+   "id": "hume-ai",
+   "name": "Hume AI",
+   "type": "ai-lab",
+   "themes": [
+    "speech-audio",
+    "behavioral-research",
+    "virtual-humans"
+   ],
+   "fields": [
+    "audio",
+    "behavioral"
+   ],
+   "description": "Voice AI company grounded in emotion science, maker of the EVI empathic voice interface and Octave TTS; it now also sells expression measurement (600+ dimensions) for evaluating voice agents, which is useful for coding affect in studies.",
+   "description_zh": "以情绪科学为基础的语音 AI 公司，推出共情语音接口 EVI 与 Octave 语音合成；现在也提供 600 多个维度的表情测量，用于评估语音智能体，也可用于研究中的情感编码。",
+   "url": "https://www.hume.ai/",
+   "image": "https://www.hume.ai/opengraph-image.jpg",
+   "based": "New York, US",
+   "based_zh": "美国纽约",
+   "people": [
+    "Alan Cowen"
+   ],
+   "creator_id": "hume-ai",
+   "found_via": "https://www.hume.ai/"
+  },
+  {
+   "id": "mursion",
+   "name": "Mursion",
+   "type": "ai-lab",
+   "themes": [
+    "training",
+    "virtual-humans"
+   ],
+   "fields": [
+    "behavioral",
+    "avatars"
+   ],
+   "description": "Immersive simulation company where employees practice difficult conversations with avatars that push back; it began with human simulation specialists voicing the avatars and now markets an AI-powered upskilling platform.",
+   "description_zh": "沉浸式模拟公司，员工可以与会“顶嘴”的虚拟人练习棘手对话；它起初由真人模拟专家为虚拟人配音和操控，如今主推 AI 驱动的技能提升平台。",
+   "url": "https://www.mursion.com/",
+   "image": "https://www.mursion.com/wp-content/uploads/2025/01/Site-image.png",
+   "based": "San Francisco, US",
+   "based_zh": "美国旧金山",
+   "creator_id": "mursion",
+   "found_via": "https://www.mursion.com/"
+  },
+  {
+   "id": "event-lab",
+   "name": "Event Lab (Universitat de Barcelona)",
+   "type": "academic-lab",
+   "themes": [
+    "presence",
+    "behavioral-research"
+   ],
+   "fields": [
+    "behavioral"
+   ],
+   "description": "Mel Slater's Barcelona lab for virtual environments in neuroscience and technology, known for studies of body ownership, embodiment and people's responses to virtual others.",
+   "description_zh": "Mel Slater 在巴塞罗那领导的“神经科学与技术中的虚拟环境”实验室，以身体拥有感、具身以及人们对虚拟他人反应的研究著称。",
+   "url": "https://www.ub.edu/eventlab/EventLab/",
+   "based": "Barcelona, ES",
+   "based_zh": "西班牙巴塞罗那",
+   "people": [
+    "Mel Slater",
+    "Maria V. Sanchez-Vives"
+   ],
+   "found_via": "https://www.ub.edu/eventlab/EventLab/"
+  },
+  {
+   "id": "ucl-vecg",
+   "name": "UCL Virtual Environments and Computer Graphics (VECG)",
+   "type": "academic-lab",
+   "themes": [
+    "presence",
+    "xr"
+   ],
+   "fields": [
+    "behavioral",
+    "genxr"
+   ],
+   "description": "UCL Computer Science group where much of presence research took shape in the 1990s–2000s, including Slater's virtual Milgram (2006) and Arsenal-fan bystander (2013) studies; it continues to work on VR, collaborative virtual environments and graphics.",
+   "description_zh": "伦敦大学学院计算机系研究组，临场感研究在 1990–2000 年代的大量奠基工作在此完成，包括 Slater 的虚拟米尔格拉姆实验（2006）与以阿森纳球迷为对象的旁观者研究（2013）；至今仍研究 VR、协同虚拟环境与图形学。",
+   "url": "http://vecg.cs.ucl.ac.uk/",
+   "image": "http://vecg.cs.ucl.ac.uk/images/cover_images/ucl_banner.png",
+   "based": "London, UK",
+   "based_zh": "英国伦敦",
+   "people": [
+    "Anthony Steed"
+   ],
+   "found_via": "http://vecg.cs.ucl.ac.uk/"
+  },
+  {
+   "id": "stanford-vhil",
+   "name": "Stanford Virtual Human Interaction Lab (VHIL)",
+   "type": "academic-lab",
+   "themes": [
+    "presence",
+    "behavioral-research",
+    "virtual-humans"
+   ],
+   "fields": [
+    "behavioral"
+   ],
+   "description": "Jeremy Bailenson's lab studying what VR and avatars do to people, from the Proteus effect to Zoom fatigue and large-scale VR classes.",
+   "description_zh": "Jeremy Bailenson 的实验室，研究 VR 与化身会对人产生什么影响，从普罗透斯效应到“Zoom 疲劳”与大规模 VR 课程。",
+   "url": "https://vhil.stanford.edu/",
+   "image": "https://vhil.stanford.edu/sites/g/files/sbiybj29011/files/styles/card_1192x596/public/media/image/bailenson.jpg?h=04d92ac6&itok=GI32-DTX",
+   "based": "Stanford, US",
+   "based_zh": "美国斯坦福",
+   "founded": 2003,
+   "people": [
+    "Jeremy Bailenson"
+   ],
+   "found_via": "https://vhil.stanford.edu/"
+  },
+  {
+   "id": "usc-ict",
+   "name": "USC Institute for Creative Technologies",
+   "type": "academic-lab",
+   "themes": [
+    "virtual-humans",
+    "training",
+    "behavioral-research"
+   ],
+   "fields": [
+    "behavioral",
+    "avatars"
+   ],
+   "description": "Army-sponsored USC research center that has built interactive virtual humans for training and therapy for two decades, including Bravemind VR exposure therapy and the SimSensei virtual interviewer.",
+   "description_zh": "由美国陆军资助的南加州大学研究中心，二十多年来为训练与治疗构建交互式虚拟人，包括 Bravemind VR 暴露疗法与 SimSensei 虚拟访谈者。",
+   "url": "https://ict.usc.edu/",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Institute_for_Creative_Technologies"
+    }
+   ],
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Institute_for_Creative_Technologies.jpg/960px-Institute_for_Creative_Technologies.jpg",
+   "based": "Los Angeles, US",
+   "based_zh": "美国洛杉矶",
+   "founded": 1999,
+   "people": [
+    "Albert \"Skip\" Rizzo",
+    "Jonathan Gratch"
+   ],
+   "creator_id": "usc-ict",
+   "found_via": "https://ict.usc.edu/"
+  },
+  {
+   "id": "mpi-crime-security-law",
+   "name": "Max Planck Institute for the Study of Crime, Security and Law",
+   "name_zh": "马克斯·普朗克犯罪、安全与法律研究所",
+   "type": "academic-lab",
+   "themes": [
+    "behavioral-research",
+    "training"
+   ],
+   "fields": [
+    "behavioral"
+   ],
+   "description": "Freiburg institute whose criminology department, led by Jean-Louis van Gelder, uses virtual reality to study offending, victimization and decision-making under realistic conditions.",
+   "description_zh": "位于弗莱堡的研究所，其犯罪学部门由 Jean-Louis van Gelder 领导，用虚拟现实在接近真实的条件下研究犯罪、受害与决策。",
+   "url": "https://csl.mpg.de/en",
+   "image": "https://csl.mpg.de/assets/og-logo-281c44f14f2114ed3fe50e666618ff96341055a2f8ce31aa0fd70471a30ca9ed.jpg",
+   "based": "Freiburg, DE",
+   "based_zh": "德国弗莱堡",
+   "people": [
+    "Jean-Louis van Gelder"
+   ],
+   "found_via": "https://csl.mpg.de/en"
+  },
+  {
+   "id": "inria-graphdeco",
+   "name": "Inria GraphDeco",
+   "type": "academic-lab",
+   "themes": [
+    "gaussian-splatting",
+    "open-source"
+   ],
+   "fields": [
+    "spatial-4d"
+   ],
+   "description": "George Drettakis's graphics group at Inria Sophia Antipolis, where 3D Gaussian Splatting was invented (SIGGRAPH 2023 best paper) and released with open code.",
+   "description_zh": "George Drettakis 在 Inria 索菲亚-安提波利斯中心的图形学研究组，3D 高斯泼溅在此诞生（SIGGRAPH 2023 最佳论文）并开源发布。",
+   "url": "https://team.inria.fr/graphdeco/",
+   "links": [
+    {
+     "label": "3DGS code",
+     "url": "https://github.com/graphdeco-inria/gaussian-splatting"
+    }
+   ],
+   "image": "https://team.inria.fr/graphdeco/files/2025/05/Slide1-3D-Gaussian-Splatting-for-Real-Time-Radiance-Field-Rendering.png",
+   "based": "Sophia Antipolis, FR",
+   "based_zh": "法国索菲亚-安提波利斯",
+   "people": [
+    "George Drettakis",
+    "Bernhard Kerbl"
+   ],
+   "creator_id": "inria-graphdeco",
+   "found_via": "https://team.inria.fr/graphdeco/"
+  },
+  {
+   "id": "stanford-svl",
+   "name": "Stanford Vision and Learning Lab (SVL)",
+   "type": "academic-lab",
+   "themes": [
+    "agents",
+    "world-models",
+    "3d-generation"
+   ],
+   "fields": [
+    "agents",
+    "worlds-3d"
+   ],
+   "description": "Stanford lab of Fei-Fei Li, Jiajun Wu and colleagues that builds simulation environments and benchmarks for embodied agents (BEHAVIOR, OmniGibson) and evaluations of world generation such as WorldScore.",
+   "description_zh": "斯坦福大学由李飞飞、吴佳俊等人组成的实验室，构建具身智能体的模拟环境与基准（BEHAVIOR、OmniGibson），以及 WorldScore 等世界生成评测。",
+   "url": "https://svl.stanford.edu/",
+   "image": "https://svl.stanford.edu/assets/images/svl-group-2020.dc7f893c.jpg",
+   "based": "Stanford, US",
+   "based_zh": "美国斯坦福",
+   "people": [
+    "Fei-Fei Li",
+    "Jiajun Wu"
+   ],
+   "found_via": "https://svl.stanford.edu/"
+  },
+  {
+   "id": "mmlab-ntu",
+   "name": "MMLab@NTU / S-Lab",
+   "type": "academic-lab",
+   "themes": [
+    "video-generation",
+    "3d-generation",
+    "open-source"
+   ],
+   "fields": [
+    "video",
+    "assets",
+    "infra"
+   ],
+   "description": "Nanyang Technological University's multimedia lab (Chen Change Loy, Ziwei Liu), a major source of open video, 3D and avatar generators and of the VBench benchmark.",
+   "description_zh": "南洋理工大学多媒体实验室（吕健勤、刘子纬），大量开源视频、三维与虚拟人生成模型以及 VBench 评测基准的来源。",
+   "url": "https://www.mmlab-ntu.com/",
+   "based": "Singapore",
+   "based_zh": "新加坡",
+   "people": [
+    "Chen Change Loy",
+    "Ziwei Liu"
+   ],
+   "found_via": "https://www.mmlab-ntu.com/"
+  },
+  {
+   "id": "reality-design-lab",
+   "name": "Reality Design Lab",
+   "name_zh": "现实设计实验室",
+   "type": "academic-lab",
+   "themes": [
+    "xr",
+    "agents",
+    "presence"
+   ],
+   "fields": [
+    "genxr"
+   ],
+   "description": "Botao 'Amber' Hu's design research lab working on mixed reality and generative immersive experiences, maker of the open HoloKit toolkit; it makes this gallery, Generative Immersive Reality Inspire.",
+   "description_zh": "胡博涛（Botao “Amber” Hu）的设计研究实验室，研究混合现实与生成式沉浸体验，开发开源 HoloKit 工具包；本图库 Generative Immersive Reality Inspire 即由其制作。",
+   "url": "https://reality.design/",
+   "image": "https://reality.design/static/images/twitter-card.png",
+   "people": [
+    "Botao Amber Hu"
+   ],
+   "creator_id": "reality-design-lab",
+   "found_via": "https://reality.design/"
+  },
+  {
+   "id": "acm-siggraph",
+   "name": "ACM SIGGRAPH & SIGGRAPH Asia",
+   "type": "conference",
+   "themes": [
+    "gaussian-splatting",
+    "3d-generation",
+    "virtual-humans"
+   ],
+   "fields": [
+    "spatial-4d",
+    "avatars",
+    "assets"
+   ],
+   "description": "The main computer graphics conferences, where NeRF-era rendering, 3D Gaussian Splatting, avatar and motion-generation papers appear, along with an Immersive Pavilion and Real-Time Live demos.",
+   "description_zh": "最重要的计算机图形学会议，NeRF 时代的渲染、3D 高斯泼溅、虚拟人与动作生成论文在此发表，并设有沉浸式展区与 Real-Time Live 实时演示。",
+   "url": "https://s2026.siggraph.org/",
+   "links": [
+    {
+     "label": "SIGGRAPH Asia 2026",
+     "url": "https://asia.siggraph.org/2026/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/SIGGRAPH"
+    }
+   ],
+   "image": "https://s2026.siggraph.org/wp-content/uploads/2025/08/s2026-site-image.jpg",
+   "founded": 1974,
+   "found_via": "https://s2026.siggraph.org/"
+  },
+  {
+   "id": "cvpr",
+   "name": "CVPR",
+   "type": "conference",
+   "themes": [
+    "video-generation",
+    "3d-generation",
+    "gaussian-splatting"
+   ],
+   "fields": [
+    "video",
+    "spatial-4d",
+    "worlds-3d"
+   ],
+   "description": "IEEE/CVF Conference on Computer Vision and Pattern Recognition, the largest vision venue and the usual home of video generation, 3D/4D reconstruction and world-generation papers and workshops.",
+   "description_zh": "IEEE/CVF 计算机视觉与模式识别会议，规模最大的视觉会议，视频生成、三维 / 四维重建与世界生成论文和研讨会的主要阵地。",
+   "url": "https://cvpr.thecvf.com/",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Conference_on_Computer_Vision_and_Pattern_Recognition"
+    }
+   ],
+   "founded": 1983,
+   "found_via": "https://cvpr.thecvf.com/"
+  },
+  {
+   "id": "iccv-eccv",
+   "name": "ICCV & ECCV",
+   "type": "conference",
+   "themes": [
+    "video-generation",
+    "3d-generation",
+    "gaussian-splatting"
+   ],
+   "fields": [
+    "spatial-4d",
+    "worlds-3d"
+   ],
+   "description": "The International and European Conferences on Computer Vision, held in alternate years (ICCV odd, ECCV even); NeRF appeared at ECCV 2020 and DiT at ICCV 2023.",
+   "description_zh": "国际计算机视觉大会与欧洲计算机视觉会议，隔年交替举办（ICCV 奇数年，ECCV 偶数年）；NeRF 发表于 ECCV 2020，DiT 发表于 ICCV 2023。",
+   "url": "https://iccv.thecvf.com/",
+   "links": [
+    {
+     "label": "ECCV",
+     "url": "https://eccv.ecva.net/"
+    },
+    {
+     "label": "Wikipedia (ICCV)",
+     "url": "https://en.wikipedia.org/wiki/International_Conference_on_Computer_Vision"
+    }
+   ],
+   "image": "https://media.eventhosts.cc/Conferences/ICCV2027/hong-kong-convention-and-exhibition-centre.jpg",
+   "founded": 1987,
+   "found_via": "https://iccv.thecvf.com/"
+  },
+  {
+   "id": "neurips",
+   "name": "NeurIPS",
+   "type": "conference",
+   "themes": [
+    "world-models",
+    "video-generation",
+    "agents"
+   ],
+   "fields": [
+    "world-models",
+    "agents"
+   ],
+   "description": "Conference on Neural Information Processing Systems, where much world-model, diffusion and agent research is published, along with datasets and benchmarks tracks.",
+   "description_zh": "神经信息处理系统大会，大量世界模型、扩散模型与智能体研究在此发表，并设有数据集与基准赛道。",
+   "url": "https://neurips.cc/",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems"
+    }
+   ],
+   "founded": 1987,
+   "found_via": "https://neurips.cc/"
+  },
+  {
+   "id": "iclr",
+   "name": "ICLR",
+   "type": "conference",
+   "themes": [
+    "world-models",
+    "video-generation",
+    "agents"
+   ],
+   "fields": [
+    "world-models",
+    "video"
+   ],
+   "description": "International Conference on Learning Representations, with open review on OpenReview; GameNGen and many video and world-model papers appeared here.",
+   "description_zh": "国际学习表征会议，采用 OpenReview 公开评审；GameNGen 以及许多视频与世界模型论文发表于此。",
+   "url": "https://iclr.cc/",
+   "links": [
+    {
+     "label": "OpenReview",
+     "url": "https://openreview.net/group?id=ICLR.cc"
+    }
+   ],
+   "image": "https://media.iclr.cc/Conferences/ICLR2027/venue-hero.jpg",
+   "founded": 2013,
+   "found_via": "https://iclr.cc/"
+  },
+  {
+   "id": "acm-chi",
+   "name": "ACM CHI",
+   "type": "conference",
+   "themes": [
+    "xr",
+    "agents",
+    "behavioral-research"
+   ],
+   "fields": [
+    "genxr",
+    "agents",
+    "behavioral"
+   ],
+   "description": "The ACM Conference on Human Factors in Computing Systems, the largest HCI venue, where generative XR systems, LLM agent studies and VR user studies are published.",
+   "description_zh": "ACM 人机交互大会，规模最大的人机交互会议，生成式 XR 系统、大模型智能体研究与 VR 用户研究在此发表。",
+   "url": "https://chi2027.acm.org/",
+   "links": [
+    {
+     "label": "ACM DL",
+     "url": "https://dl.acm.org/conference/chi"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Conference_on_Human_Factors_in_Computing_Systems"
+    }
+   ],
+   "image": "https://chi2027.acm.org/wp-content/uploads/2026/04/logo-1600x600-white-e1787259588810.png",
+   "founded": 1982,
+   "found_via": "https://chi2027.acm.org/"
+  },
+  {
+   "id": "acm-uist",
+   "name": "ACM UIST",
+   "type": "conference",
+   "themes": [
+    "xr",
+    "agents"
+   ],
+   "fields": [
+    "genxr",
+    "agents"
+   ],
+   "description": "ACM Symposium on User Interface Software and Technology, where Generative Agents won a best paper in 2023 and many AR authoring and AI-in-the-loop systems debut.",
+   "description_zh": "ACM 用户界面软件与技术研讨会，《Generative Agents》于 2023 年在此获最佳论文，许多 AR 创作与人机协同 AI 系统在此首次发表。",
+   "url": "https://uist.acm.org/",
+   "founded": 1988,
+   "found_via": "https://uist.acm.org/"
+  },
+  {
+   "id": "ieee-vr",
+   "name": "IEEE VR",
+   "type": "conference",
+   "themes": [
+    "xr",
+    "presence",
+    "behavioral-research"
+   ],
+   "fields": [
+    "genxr",
+    "behavioral"
+   ],
+   "description": "IEEE Conference on Virtual Reality and 3D User Interfaces, the main venue for VR systems, presence and embodiment studies; its papers are published in IEEE TVCG.",
+   "description_zh": "IEEE 虚拟现实与三维用户界面会议，VR 系统、临场感与具身研究的主要会议；其论文发表于 IEEE TVCG。",
+   "url": "https://ieeevr.org/",
+   "image": "https://ieeevr.org/2027/assets/images/backgrounds/backgroundImage.webp",
+   "found_via": "https://ieeevr.org/"
+  },
+  {
+   "id": "ismar",
+   "name": "IEEE ISMAR",
+   "type": "conference",
+   "themes": [
+    "xr",
+    "presence"
+   ],
+   "fields": [
+    "genxr"
+   ],
+   "description": "IEEE International Symposium on Mixed and Augmented Reality, the main AR/MR research venue, increasingly with generative and LLM-driven XR papers.",
+   "description_zh": "IEEE 混合与增强现实国际研讨会，AR / MR 研究的主要会议，生成式与大模型驱动的 XR 论文日益增多。",
+   "url": "https://ismar.net/",
+   "image": "https://ismar.net/files/ismar2026/ismar26_teaser.png",
+   "founded": 2002,
+   "found_via": "https://ismar.net/"
+  },
+  {
+   "id": "acm-iva",
+   "name": "ACM IVA (Intelligent Virtual Agents)",
+   "type": "conference",
+   "themes": [
+    "virtual-humans",
+    "agents",
+    "behavioral-research"
+   ],
+   "fields": [
+    "avatars",
+    "agents"
+   ],
+   "description": "ACM conference on intelligent virtual agents: embodied conversational characters, nonverbal behavior generation and their use in training, health and research.",
+   "description_zh": "ACM 智能虚拟智能体会议：关注具身对话角色、非语言行为生成，以及它们在训练、健康与研究中的应用。",
+   "url": "https://iva.acm.org/",
+   "found_via": "https://iva.acm.org/"
+  },
+  {
+   "id": "iitsec",
+   "name": "I/ITSEC",
+   "type": "conference",
+   "themes": [
+    "training"
+   ],
+   "fields": [
+    "behavioral",
+    "infra"
+   ],
+   "description": "The Interservice/Industry Training, Simulation and Education Conference in Orlando, the largest venue for military and industrial simulation training, where ICT's virtual-human trainers were presented.",
+   "description_zh": "奥兰多举办的跨军种 / 产业训练、模拟与教育会议，军事与工业模拟训练领域规模最大的会议，ICT 的虚拟人训练系统曾在此发表。",
+   "url": "https://www.iitsec.org/",
+   "based": "Orlando, US",
+   "based_zh": "美国奥兰多",
+   "found_via": "https://www.iitsec.org/"
+  },
+  {
+   "id": "venice-immersive",
+   "name": "Venice Immersive",
+   "type": "conference",
+   "themes": [
+    "xr",
+    "presence"
+   ],
+   "fields": [
+    "genxr"
+   ],
+   "description": "The immersive section of the Venice International Film Festival, the leading showcase and competition for VR, MR and immersive works since 2017.",
+   "description_zh": "威尼斯国际电影节的沉浸式单元，自 2017 年起是 VR、MR 与沉浸式作品最重要的展映与竞赛平台。",
+   "url": "https://www.labiennale.org/en/cinema/2026/venice-immersive",
+   "image": "https://static.labiennale.org/files/styles/seo_thumbnail/public/cinema/2025/750x500/ve-immersive.jpg",
+   "based": "Venice, IT",
+   "based_zh": "意大利威尼斯",
+   "founded": 2017,
+   "found_via": "https://www.labiennale.org/en/cinema/2026/venice-immersive"
+  },
+  {
+   "id": "runway-aif",
+   "name": "AIF (Runway AI Festival)",
+   "type": "conference",
+   "themes": [
+    "video-generation"
+   ],
+   "fields": [
+    "video"
+   ],
+   "description": "Runway's annual festival, started in 2023 as the AI Film Festival, that screens short films made with generative video tools.",
+   "description_zh": "Runway 主办的年度节展，2023 年以“AI 电影节”名义创办，放映使用生成式视频工具制作的短片。",
+   "url": "https://aif.runwayml.com/",
+   "image": "https://aiff.runwayml.com/opengraph-image.png?4df29fdf42d71751",
+   "founded": 2023,
+   "found_via": "https://aif.runwayml.com/"
+  },
+  {
+   "id": "presence-journal",
+   "name": "PRESENCE: Virtual and Augmented Reality",
+   "type": "journal",
+   "themes": [
+    "presence",
+    "xr",
+    "behavioral-research"
+   ],
+   "fields": [
+    "behavioral"
+   ],
+   "description": "MIT Press journal founded in 1992 as Presence: Teleoperators and Virtual Environments, where presence theory, immersive journalism and much early VR behavior research were published.",
+   "description_zh": "麻省理工学院出版社期刊，1992 年以 Presence: Teleoperators and Virtual Environments 之名创刊，临场感理论、沉浸式新闻与大量早期 VR 行为研究在此发表。",
+   "url": "https://en.wikipedia.org/wiki/Presence:_Teleoperators_%26_Virtual_Environments",
+   "links": [
+    {
+     "label": "MIT Press",
+     "url": "https://direct.mit.edu/pvar"
+    }
+   ],
+   "founded": 1992,
+   "found_via": "https://en.wikipedia.org/wiki/Presence:_Teleoperators_%26_Virtual_Environments"
+  },
+  {
+   "id": "computers-in-human-behavior",
+   "name": "Computers in Human Behavior",
+   "type": "journal",
+   "themes": [
+    "behavioral-research",
+    "virtual-humans"
+   ],
+   "fields": [
+    "behavioral"
+   ],
+   "description": "Elsevier journal on the psychology of computer use, a frequent outlet for studies of virtual humans, avatars and VR effects on behavior.",
+   "description_zh": "爱思唯尔出版的计算机使用心理学期刊，常发表关于虚拟人、化身以及 VR 对行为影响的研究。",
+   "url": "https://en.wikipedia.org/wiki/Computers_in_Human_Behavior",
+   "founded": 1985,
+   "found_via": "https://en.wikipedia.org/wiki/Computers_in_Human_Behavior"
+  },
+  {
+   "id": "frontiers-in-virtual-reality",
+   "name": "Frontiers in Virtual Reality",
+   "type": "journal",
+   "themes": [
+    "xr",
+    "presence",
+    "behavioral-research"
+   ],
+   "fields": [
+    "behavioral",
+    "genxr"
+   ],
+   "description": "Open-access journal founded in 2020 covering VR/AR technology and its use in psychology, health and training.",
+   "description_zh": "2020 年创刊的开放获取期刊，涵盖 VR / AR 技术及其在心理学、健康与训练中的应用。",
+   "url": "https://www.frontiersin.org/journals/virtual-reality",
+   "founded": 2020,
+   "found_via": "https://www.frontiersin.org/journals/virtual-reality"
+  },
+  {
+   "id": "ieee-tvcg",
+   "name": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+   "type": "journal",
+   "themes": [
+    "xr",
+    "presence",
+    "gaussian-splatting"
+   ],
+   "fields": [
+    "genxr",
+    "spatial-4d"
+   ],
+   "description": "IEEE journal that publishes the IEEE VR and ISMAR journal papers, the main archival outlet for VR systems and perception research.",
+   "description_zh": "IEEE 期刊，刊载 IEEE VR 与 ISMAR 的期刊论文，是 VR 系统与感知研究的主要存档渠道。",
+   "url": "https://www.computer.org/csdl/journal/tg",
+   "founded": 1995,
+   "found_via": "https://www.computer.org/csdl/journal/tg"
+  },
+  {
+   "id": "acm-tog",
+   "name": "ACM Transactions on Graphics (TOG)",
+   "type": "journal",
+   "themes": [
+    "gaussian-splatting",
+    "3d-generation",
+    "virtual-humans"
+   ],
+   "fields": [
+    "spatial-4d",
+    "assets",
+    "avatars"
+   ],
+   "description": "The leading graphics journal, which publishes SIGGRAPH and SIGGRAPH Asia technical papers, among them 3D Gaussian Splatting and instant-ngp.",
+   "description_zh": "最重要的图形学期刊，刊载 SIGGRAPH 与 SIGGRAPH Asia 的技术论文，包括 3D 高斯泼溅与 instant-ngp。",
+   "url": "https://en.wikipedia.org/wiki/ACM_Transactions_on_Graphics",
+   "links": [
+    {
+     "label": "ACM DL",
+     "url": "https://dl.acm.org/journal/tog"
+    }
+   ],
+   "founded": 1982,
+   "found_via": "https://en.wikipedia.org/wiki/ACM_Transactions_on_Graphics"
+  },
+  {
+   "id": "two-minute-papers",
+   "name": "Two Minute Papers",
+   "type": "media",
+   "themes": [
+    "video-generation",
+    "gaussian-splatting",
+    "world-models"
+   ],
+   "fields": [
+    "video",
+    "spatial-4d"
+   ],
+   "description": "Károly Zsolnai-Fehér's YouTube channel that explains new graphics and AI papers in short videos; a quick way to see new video, splatting and simulation results in motion.",
+   "description_zh": "Károly Zsolnai-Fehér 的 YouTube 频道，用短视频讲解图形学与 AI 新论文；快速看到视频生成、高斯泼溅与模拟新成果实际运行效果的途径。",
+   "url": "https://www.youtube.com/@TwoMinutePapers",
+   "links": [
+    {
+     "label": "X",
+     "url": "https://x.com/TwoMinutePapers"
+    }
+   ],
+   "found_via": "https://www.youtube.com/@TwoMinutePapers"
+  },
+  {
+   "id": "radiance-fields",
+   "name": "Radiance Fields",
+   "type": "media",
+   "themes": [
+    "gaussian-splatting"
+   ],
+   "fields": [
+    "spatial-4d"
+   ],
+   "description": "News site and newsletter dedicated to radiance fields: Gaussian splatting, NeRF and the capture tools and platforms built on them.",
+   "description_zh": "专注辐射场的新闻网站与通讯：高斯泼溅、NeRF，以及基于它们的捕捉工具与平台。",
+   "url": "https://radiancefields.com/",
+   "links": [
+    {
+     "label": "X",
+     "url": "https://x.com/radiancefields"
+    }
+   ],
+   "found_via": "https://radiancefields.com/"
+  },
+  {
+   "id": "bilawal-sidhu",
+   "name": "Bilawal Sidhu",
+   "type": "media",
+   "themes": [
+    "gaussian-splatting",
+    "video-generation",
+    "xr"
+   ],
+   "fields": [
+    "spatial-4d",
+    "video"
+   ],
+   "description": "Creator and former Google Maps / AR product manager whose YouTube and social channels demo and explain 3D capture, splatting and generative video.",
+   "description_zh": "内容创作者，曾任 Google 地图 / AR 产品经理；其 YouTube 与社交账号演示并讲解三维捕捉、高斯泼溅与生成视频。",
+   "url": "https://www.youtube.com/@bilawalsidhu",
+   "links": [
+    {
+     "label": "X",
+     "url": "https://x.com/bilawalsidhu"
+    }
+   ],
+   "found_via": "https://www.youtube.com/@bilawalsidhu"
+  },
+  {
+   "id": "80-level",
+   "name": "80 Level",
+   "type": "media",
+   "themes": [
+    "3d-generation",
+    "gaussian-splatting"
+   ],
+   "fields": [
+    "assets",
+    "spatial-4d"
+   ],
+   "description": "Industry site for game and 3D artists that tracks generative 3D, splatting and real-time tools as they enter production.",
+   "description_zh": "面向游戏与三维美术从业者的行业网站，追踪生成式三维、高斯泼溅与实时工具进入生产流程的进展。",
+   "url": "https://80.lv/",
+   "image": "https://cdn.80.lv/api/upload/meta/10911/images/5d94974e04232/contain_1200x630.jpg",
+   "found_via": "https://80.lv/"
+  },
+  {
+   "id": "road-to-vr",
+   "name": "Road to VR",
+   "type": "media",
+   "themes": [
+    "xr"
+   ],
+   "fields": [
+    "genxr",
+    "infra"
+   ],
+   "description": "Long-running XR news site covering headsets, platforms and immersive software, including generative features on Quest, Vision Pro and Android XR.",
+   "description_zh": "老牌 XR 新闻网站，报道头显、平台与沉浸式软件，包括 Quest、Vision Pro 与 Android XR 上的生成式功能。",
+   "url": "https://roadtovr.com/",
+   "founded": 2011,
+   "found_via": "https://roadtovr.com/"
+  },
+  {
+   "id": "uploadvr",
+   "name": "UploadVR",
+   "type": "media",
+   "themes": [
+    "xr"
+   ],
+   "fields": [
+    "genxr",
+    "infra"
+   ],
+   "description": "XR news site that reports on VR and AR hardware, apps and platform changes, often with hands-on tests of new immersive features.",
+   "description_zh": "XR 新闻网站，报道 VR 与 AR 硬件、应用与平台变化，常对新的沉浸式功能进行上手测试。",
+   "url": "https://www.uploadvr.com/",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/UploadVR"
+    }
+   ],
+   "image": "https://storage.ghost.io/c/2a/2f/2a2f38f0-4b71-407a-9c7e-18a9e2541980/content/images/size/w1200/2023/03/Upload-2-1-card-2.png",
+   "founded": 2014,
+   "found_via": "https://www.uploadvr.com/"
+  },
+  {
+   "id": "voices-of-vr",
+   "name": "Voices of VR Podcast",
+   "type": "media",
+   "themes": [
+    "xr",
+    "presence",
+    "ethics"
+   ],
+   "fields": [
+    "genxr"
+   ],
+   "description": "Kent Bye's podcast, an oral history of XR with more than a thousand episodes of interviews with immersive artists, researchers and developers, including on XR ethics and AI.",
+   "description_zh": "Kent Bye 主持的播客，以一千多期访谈记录 XR 的口述历史，受访者包括沉浸式艺术家、研究者与开发者，也涉及 XR 伦理与 AI。",
+   "url": "https://voicesofvr.com/",
+   "links": [
+    {
+     "label": "X",
+     "url": "https://x.com/KentBye"
+    }
+   ],
+   "founded": 2014,
+   "people": [
+    "Kent Bye"
+   ],
+   "found_via": "https://voicesofvr.com/"
+  },
+  {
+   "id": "hugging-face-daily-papers",
+   "name": "Hugging Face Daily Papers",
+   "type": "community",
+   "themes": [
+    "open-source",
+    "video-generation",
+    "world-models"
+   ],
+   "fields": [
+    "infra"
+   ],
+   "description": "Daily, upvoted feed of new arXiv papers on Hugging Face, started by AK (@_akhaliq), with linked models, datasets and demo Spaces; the fastest way to catch new generative video, 3D and world-model releases.",
+   "description_zh": "Hugging Face 上每日更新、按投票排序的 arXiv 新论文列表，由 AK（@_akhaliq）发起，并关联模型、数据集与演示 Space；追踪生成视频、三维与世界模型新发布最快的途径。",
+   "url": "https://huggingface.co/papers",
+   "links": [
+    {
+     "label": "Trending papers",
+     "url": "https://huggingface.co/papers/trending"
+    },
+    {
+     "label": "AK on X",
+     "url": "https://x.com/_akhaliq"
+    }
+   ],
+   "image": "https://huggingface.co/front/thumbnails/papers.png",
+   "found_via": "https://huggingface.co/papers"
+  },
+  {
+   "id": "hugging-face-spaces",
+   "name": "Hugging Face Spaces",
+   "type": "community",
+   "themes": [
+    "open-source"
+   ],
+   "fields": [
+    "infra"
+   ],
+   "description": "Hosted demos for open models, where many video, 3D, avatar and speech models can be tried in the browser on release day.",
+   "description_zh": "开源模型的在线演示平台，许多视频、三维、虚拟人与语音模型在发布当天即可在浏览器中试用。",
+   "url": "https://huggingface.co/spaces",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Hugging_Face"
+    }
+   ],
+   "image": "https://huggingface.co/front/thumbnails/spaces.png",
+   "found_via": "https://huggingface.co/spaces"
+  },
+  {
+   "id": "awesome-3d-gaussian-splatting",
+   "name": "Awesome 3D Gaussian Splatting",
+   "type": "community",
+   "themes": [
+    "gaussian-splatting",
+    "open-source"
+   ],
+   "fields": [
+    "spatial-4d"
+   ],
+   "description": "MrNeRF's curated, regularly updated list of Gaussian splatting papers, code and tools, sorted by topic from compression to avatars and 4D.",
+   "description_zh": "MrNeRF 维护、持续更新的高斯泼溅论文、代码与工具清单，按主题分类，从压缩到虚拟人与 4D。",
+   "url": "https://github.com/MrNeRF/awesome-3D-gaussian-splatting",
+   "image": "https://opengraph.githubassets.com/84c80abf881c94f43933bd7af56f2a86f8c50c3fc0d4a714c6592e7c462a0e3e/MrNeRF/awesome-3D-gaussian-splatting",
+   "found_via": "https://github.com/MrNeRF/awesome-3D-gaussian-splatting"
+  },
+  {
+   "id": "awesome-world-models",
+   "name": "Awesome World Models",
+   "type": "community",
+   "themes": [
+    "world-models",
+    "open-source"
+   ],
+   "fields": [
+    "world-models"
+   ],
+   "description": "Curated GitHub list of world-model papers across games, embodied AI, autonomous driving and video generation.",
+   "description_zh": "GitHub 上的世界模型论文精选清单，涵盖游戏、具身智能、自动驾驶与视频生成。",
+   "url": "https://github.com/knightnemo/Awesome-World-Models",
+   "image": "https://opengraph.githubassets.com/548411854c52960d8beec337006dd9240dfa533a7de7f92f3ecd00b6cbb8bbac/knightnemo/Awesome-World-Models",
+   "found_via": "https://github.com/knightnemo/Awesome-World-Models"
+  },
+  {
+   "id": "awesome-video-diffusion",
+   "name": "Awesome Video Diffusion",
+   "type": "community",
+   "themes": [
+    "video-generation",
+    "open-source"
+   ],
+   "fields": [
+    "video"
+   ],
+   "description": "Show Lab (NUS)'s curated list of video diffusion papers and code, from text-to-video to editing, control and long video.",
+   "description_zh": "新加坡国立大学 Show Lab 维护的视频扩散论文与代码清单，从文生视频到编辑、控制与长视频。",
+   "url": "https://github.com/showlab/Awesome-Video-Diffusion",
+   "image": "https://opengraph.githubassets.com/5acbae49cefa62788517ecb0bf64bb3bf983be386d877884c6358b46a6c31d94/showlab/Awesome-Video-Diffusion",
+   "found_via": "https://github.com/showlab/Awesome-Video-Diffusion"
+  },
+  {
+   "id": "awesome-talking-head-generation",
+   "name": "Awesome Talking Head Generation",
+   "type": "community",
+   "themes": [
+    "virtual-humans",
+    "open-source"
+   ],
+   "fields": [
+    "avatars"
+   ],
+   "description": "Curated GitHub list of talking-head and audio-driven portrait generation papers, datasets and code.",
+   "description_zh": "GitHub 上的说话人像与音频驱动人像生成论文、数据集与代码精选清单。",
+   "url": "https://github.com/harlanhong/awesome-talking-head-generation",
+   "image": "https://opengraph.githubassets.com/202e3da0fc4d8646a07b1253a3c0a2f10d232d6c33093d5bf1d85905c67f926a/harlanhong/awesome-talking-head-generation",
+   "found_via": "https://github.com/harlanhong/awesome-talking-head-generation"
+  },
+  {
+   "id": "c2pa",
+   "name": "C2PA (Content Credentials)",
+   "type": "community",
+   "themes": [
+    "ethics"
+   ],
+   "fields": [
+    "infra"
+   ],
+   "description": "The Coalition for Content Provenance and Authenticity, which maintains the open Content Credentials standard that several video and image generators attach to their output to mark it as AI-made.",
+   "description_zh": "内容来源与真实性联盟（C2PA），维护开放的“内容凭证”（Content Credentials）标准；多家视频与图像生成服务会在输出中附加该凭证，标明内容由 AI 生成。",
+   "url": "https://c2pa.org/",
+   "image": "https://c2pa.org/wp-content/uploads/sites/33/2025/05/OG-Social-Share-for-C2PA.org-1200x630-1.png",
+   "founded": 2021,
+   "found_via": "https://c2pa.org/"
+  },
+  {
+   "id": "artificial-analysis-video-arena",
+   "name": "Artificial Analysis Video Arena",
+   "type": "leaderboard",
+   "themes": [
+    "video-generation"
+   ],
+   "fields": [
+    "video",
+    "infra"
+   ],
+   "description": "Blind pairwise human-preference arena with Elo rankings for text-to-video and image-to-video models, with and without audio, alongside price and speed data.",
+   "description_zh": "盲测两两比较的人类偏好竞技场，为文生视频与图生视频模型（含声音与不含声音）给出 Elo 排名，并附价格与速度数据。",
+   "url": "https://artificialanalysis.ai/video/arena",
+   "image": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+   "found_via": "https://artificialanalysis.ai/video/arena"
+  },
+  {
+   "id": "artificial-analysis-speech-arena",
+   "name": "Artificial Analysis Speech Arena",
+   "type": "leaderboard",
+   "themes": [
+    "speech-audio"
+   ],
+   "fields": [
+    "audio",
+    "infra"
+   ],
+   "description": "Blind human-preference arena ranking text-to-speech models and voices, with price and latency comparisons.",
+   "description_zh": "盲测人类偏好竞技场，对文本转语音模型与声音进行排名，并比较价格与延迟。",
+   "url": "https://artificialanalysis.ai/text-to-speech/arena",
+   "image": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573",
+   "found_via": "https://artificialanalysis.ai/text-to-speech/arena"
+  },
+  {
+   "id": "vbench-leaderboard",
+   "name": "VBench Leaderboard",
+   "type": "leaderboard",
+   "themes": [
+    "video-generation",
+    "open-source"
+   ],
+   "fields": [
+    "video",
+    "infra"
+   ],
+   "description": "Leaderboard for VBench, which scores video generators on 16 dimensions such as subject consistency, motion smoothness and physical plausibility.",
+   "description_zh": "VBench 排行榜，从主体一致性、运动平滑度、物理合理性等 16 个维度为视频生成模型打分。",
+   "url": "https://huggingface.co/spaces/Vchitect/VBench_Leaderboard",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/Vchitect/VBench_Leaderboard.png",
+   "found_via": "https://huggingface.co/spaces/Vchitect/VBench_Leaderboard"
+  },
+  {
+   "id": "worldscore",
+   "name": "WorldScore",
+   "type": "leaderboard",
+   "themes": [
+    "world-models",
+    "3d-generation"
+   ],
+   "fields": [
+    "worlds-3d",
+    "world-models",
+    "infra"
+   ],
+   "description": "Unified benchmark and leaderboard for world generation from Stanford that compares 3D scene generators, 4D generators and video models on controllability, quality and dynamics.",
+   "description_zh": "斯坦福推出的世界生成统一评测基准与排行榜，从可控性、质量与动态性比较三维场景生成、四维生成与视频模型。",
+   "url": "https://haoyi-duan.github.io/WorldScore/",
+   "image": "https://haoyi-duan.github.io/WorldScore/assets/images/overview/full_screen.png",
+   "found_via": "https://haoyi-duan.github.io/WorldScore/"
+  },
+  {
+   "id": "3d-arena",
+   "name": "3D Arena",
+   "type": "leaderboard",
+   "themes": [
+    "3d-generation"
+   ],
+   "fields": [
+    "assets",
+    "infra"
+   ],
+   "description": "Hugging Face arena where people vote between pairs of generated 3D models to rank image-to-3D generators.",
+   "description_zh": "Hugging Face 上的竞技场，用户在成对的生成三维模型之间投票，为图生三维模型排名。",
+   "url": "https://huggingface.co/spaces/3d-arena/3d-arena",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/3d-arena/3d-arena.png",
+   "found_via": "https://huggingface.co/spaces/3d-arena/3d-arena"
+  },
+  {
+   "id": "arena-ai",
+   "name": "Arena (formerly LMArena)",
+   "type": "leaderboard",
+   "themes": [
+    "video-generation",
+    "agents"
+   ],
+   "fields": [
+    "video",
+    "infra"
+   ],
+   "description": "The crowd-voted model ranking site that grew out of Chatbot Arena and LMArena; besides text it ranks text-to-video, image-to-video and image models.",
+   "description_zh": "从 Chatbot Arena 与 LMArena 发展而来的众包投票模型排名网站；除文本模型外，也对文生视频、图生视频与图像模型排名。",
+   "url": "https://arena.ai/",
+   "image": "https://indexable.arena.ai/routes/arena-preview--og-twitter--1200x630--v1.jpg",
+   "creator_id": "lmarena",
+   "found_via": "https://arena.ai/"
+  },
+  {
+   "id": "tts-arena",
+   "name": "TTS Arena",
+   "type": "leaderboard",
+   "themes": [
+    "speech-audio",
+    "open-source"
+   ],
+   "fields": [
+    "audio",
+    "infra"
+   ],
+   "description": "Community Hugging Face arena where listeners vote between text-to-speech outputs, covering both open and commercial voices.",
+   "description_zh": "Hugging Face 社区竞技场，听众在两段文本转语音输出之间投票，覆盖开源与商业声音。",
+   "url": "https://huggingface.co/spaces/TTS-AGI/TTS-Arena-V2",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/TTS-AGI/TTS-Arena-V2.png",
+   "found_via": "https://huggingface.co/spaces/TTS-AGI/TTS-Arena-V2"
+  }
+ ]
+}

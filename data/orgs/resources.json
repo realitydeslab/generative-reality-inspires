@@ -1,0 +1,1945 @@
+{
+ "batch": "resources",
+ "orgs": [
+  {
+   "id": "person--jack-parker-holder",
+   "name": "Jack Parker-Holder",
+   "type": "researcher",
+   "themes": [
+    "world-models",
+    "agents"
+   ],
+   "fields": [
+    "world-models"
+   ],
+   "description": "Research Director at Google DeepMind who scales world models; he co-led Genie, Genie 2 and Genie 3, models that turn a prompt into an environment you can act in. He is also an honorary lecturer at UCL DARK.",
+   "description_zh": "Google DeepMind 研究总监，负责扩展世界模型；共同主导了 Genie、Genie 2 与 Genie 3，这些模型能把一段提示变成可以在其中行动的环境。他同时是 UCL DARK 的荣誉讲师。",
+   "known_for": [
+    "Genie: Generative Interactive Environments (ICML 2024)",
+    "Genie 2 (2024)",
+    "Genie 3 (2025)"
+   ],
+   "url": "https://jparkerholder.github.io/",
+   "links": [
+    {
+     "label": "X",
+     "url": "https://x.com/jparkerholder"
+    }
+   ],
+   "based": "London, UK",
+   "based_zh": "英国伦敦",
+   "found_via": "https://jparkerholder.github.io/"
+  },
+  {
+   "id": "person--tim-rocktaschel",
+   "name": "Tim Rocktäschel",
+   "type": "researcher",
+   "themes": [
+    "world-models",
+    "agents"
+   ],
+   "fields": [
+    "world-models",
+    "agents"
+   ],
+   "description": "Professor of AI at UCL and co-founder and Chief Scientist of Recursive; he previously led the Open-Endedness team at Google DeepMind, which produced Genie. His work argues that open-ended environments, not fixed datasets, are what agents need to keep learning.",
+   "description_zh": "伦敦大学学院（UCL）人工智能教授，Recursive 联合创始人兼首席科学家；此前领导 Google DeepMind 的开放式学习（Open-Endedness）团队，Genie 即出自该团队。他主张智能体持续学习需要开放式环境，而不是固定数据集。",
+   "known_for": [
+    "Genie (ICML 2024)",
+    "Open-Endedness is Essential for Artificial Superhuman Intelligence (ICML 2024)",
+    "The NetHack Learning Environment (NeurIPS 2020)"
+   ],
+   "url": "https://rockt.ai/",
+   "links": [
+    {
+     "label": "X",
+     "url": "https://x.com/_rockt"
+    }
+   ],
+   "image": "https://rockt.ai/assets/img/me.jpg",
+   "based": "London, UK",
+   "based_zh": "英国伦敦",
+   "found_via": "https://rockt.ai/"
+  },
+  {
+   "id": "person--ashley-edwards",
+   "name": "Ashley Edwards",
+   "type": "researcher",
+   "themes": [
+    "world-models",
+    "agents"
+   ],
+   "fields": [
+    "world-models"
+   ],
+   "description": "Senior research scientist at Google DeepMind working on reinforcement learning and foundation world models. Her earlier work on learning latent actions from observation alone underlies Genie's latent action model, which lets a world model be trained on unlabelled video.",
+   "description_zh": "Google DeepMind 高级研究科学家，研究强化学习与基础世界模型。她早期关于仅从观察中学习潜在动作的工作，是 Genie 潜在动作模型的基础，使世界模型可以用无标注视频训练。",
+   "known_for": [
+    "Imitating Latent Policies from Observation (ICML 2019)",
+    "Genie (ICML 2024, co-first author)"
+   ],
+   "url": "https://ashedwards.github.io/",
+   "found_via": "https://ashedwards.github.io/"
+  },
+  {
+   "id": "person--jake-bruce",
+   "name": "Jake Bruce",
+   "type": "researcher",
+   "themes": [
+    "world-models"
+   ],
+   "fields": [
+    "world-models"
+   ],
+   "description": "Research scientist at Google DeepMind in London and first author of Genie, the 11B-parameter model that learned playable 2D worlds from internet gameplay videos without action labels; he also contributed to Genie 3.",
+   "description_zh": "Google DeepMind 伦敦研究科学家，Genie 第一作者。这个 110 亿参数的模型在没有动作标注的情况下，从互联网游戏视频中学会了生成可玩的 2D 世界；他也参与了 Genie 3。",
+   "known_for": [
+    "Genie: Generative Interactive Environments (ICML 2024 Best Paper)",
+    "Genie 3 (2025)"
+   ],
+   "url": "https://jakebruce.ca/",
+   "image": "https://jakebruce.ca/jake.jpg",
+   "based": "London, UK",
+   "based_zh": "英国伦敦",
+   "found_via": "https://jakebruce.ca/"
+  },
+  {
+   "id": "person--shlomi-fruchter",
+   "name": "Shlomi Fruchter",
+   "type": "researcher",
+   "themes": [
+    "world-models",
+    "video-generation"
+   ],
+   "fields": [
+    "world-models",
+    "video"
+   ],
+   "description": "Research Director at Google DeepMind who helped lead Veo and Imagen 3 and co-authored GameNGen, the diffusion model that ran DOOM in real time with no game engine.",
+   "description_zh": "Google DeepMind 研究总监，曾参与领导 Veo 与 Imagen 3，并合著 GameNGen：一个无需游戏引擎、实时运行 DOOM 的扩散模型。",
+   "known_for": [
+    "GameNGen: Diffusion Models Are Real-Time Game Engines (ICLR 2025)",
+    "Veo (2024)",
+    "Imagen 3 (2024)"
+   ],
+   "url": "https://shlomifruchter.github.io/",
+   "image": "https://shlomifruchter.github.io/assets/img/profile.jpeg?0332e1eebd743c39dc344d868df24e4c",
+   "found_via": "https://shlomifruchter.github.io/"
+  },
+  {
+   "id": "person--eloi-alonso",
+   "name": "Eloi Alonso",
+   "type": "researcher",
+   "themes": [
+    "world-models",
+    "open-source"
+   ],
+   "fields": [
+    "world-models"
+   ],
+   "description": "Co-founder of General Intuition and first author of DIAMOND, an open diffusion world model trained an Atari agent entirely in imagination and then generated a playable Counter-Strike map. He did his PhD with François Fleuret at the University of Geneva.",
+   "description_zh": "General Intuition 联合创始人，DIAMOND 第一作者：这个开源扩散世界模型完全在“想象”中训练 Atari 智能体，并生成了可玩的 Counter-Strike 地图。他在日内瓦大学 François Fleuret 组完成博士学业。",
+   "known_for": [
+    "DIAMOND: Diffusion for World Modeling (NeurIPS 2024 Spotlight)",
+    "IRIS: Transformers are Sample-Efficient World Models (ICLR 2023)"
+   ],
+   "url": "https://eloialonso.github.io/",
+   "links": [
+    {
+     "label": "General Intuition",
+     "url": "https://www.generalintuition.com/"
+    }
+   ],
+   "image": "https://eloialonso.github.io/static/images/profile.png",
+   "creator_id": "eloi-alonso",
+   "found_via": "https://eloialonso.github.io/"
+  },
+  {
+   "id": "person--yann-lecun",
+   "name": "Yann LeCun",
+   "type": "researcher",
+   "themes": [
+    "world-models",
+    "open-source"
+   ],
+   "fields": [
+    "world-models"
+   ],
+   "description": "Turing Award laureate and NYU professor who left his post as Meta's Chief AI Scientist to co-found Advanced Machine Intelligence (AMI) Labs in December 2025. He argues that agents need predictive world models (JEPA) rather than pixel-by-pixel generation.",
+   "description_zh": "图灵奖得主、纽约大学教授，2025 年 12 月离开 Meta 首席 AI 科学家职位，联合创办 Advanced Machine Intelligence（AMI）Labs。他主张智能体需要预测式世界模型（JEPA），而非逐像素生成。",
+   "known_for": [
+    "A Path Towards Autonomous Machine Intelligence (2022)",
+    "I-JEPA (2023)",
+    "V-JEPA 2 (2025)"
+   ],
+   "url": "https://en.wikipedia.org/wiki/Yann_LeCun",
+   "links": [
+    {
+     "label": "AMI Labs",
+     "url": "https://amilabs.ai/"
+    }
+   ],
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Laura_Chaubard_%26_Yann_Le_Cun_-_2024_%2853814052697%29_%28cropped%29.jpg/960px-Laura_Chaubard_%26_Yann_Le_Cun_-_2024_%2853814052697%29_%28cropped%29.jpg",
+   "based": "New York / Paris",
+   "based_zh": "美国纽约 / 法国巴黎",
+   "born": 1960,
+   "found_via": "https://en.wikipedia.org/wiki/Yann_LeCun"
+  },
+  {
+   "id": "person--vincent-sitzmann",
+   "name": "Vincent Sitzmann",
+   "type": "researcher",
+   "themes": [
+    "world-models",
+    "3d-generation"
+   ],
+   "fields": [
+    "world-models",
+    "spatial-4d"
+   ],
+   "description": "Associate professor at MIT CSAIL who leads the Scene Representation Group, working on neural scene representations and video world models that keep 3D structure and memory over time.",
+   "description_zh": "MIT CSAIL 副教授，领导场景表示组（Scene Representation Group），研究神经场景表示，以及能在时间上保持三维结构与记忆的视频世界模型。",
+   "known_for": [
+    "SIREN (NeurIPS 2020)",
+    "Scene Representation Networks (NeurIPS 2019)",
+    "Diffusion Forcing (NeurIPS 2024)"
+   ],
+   "url": "https://www.vincentsitzmann.com/",
+   "links": [
+    {
+     "label": "Scene Representation Group",
+     "url": "https://scenerepresentations.org/"
+    }
+   ],
+   "image": "https://www.vincentsitzmann.com/_astro/vincent.Dvoy81k6.jpg",
+   "based": "Cambridge, MA, US",
+   "based_zh": "美国马萨诸塞州剑桥",
+   "found_via": "https://www.vincentsitzmann.com/"
+  },
+  {
+   "id": "person--tim-brooks",
+   "name": "Tim Brooks",
+   "type": "researcher",
+   "themes": [
+    "video-generation",
+    "world-models"
+   ],
+   "fields": [
+    "video"
+   ],
+   "description": "Leads media generation at Meta Superintelligence Labs (the Muse Image and Muse Video models). Before that he led an omnimodel team at Google DeepMind and co-led Sora at OpenAI; his PhD work at Berkeley produced InstructPix2Pix.",
+   "description_zh": "在 Meta 超级智能实验室（Meta Superintelligence Labs）领导媒体生成（Muse Image 与 Muse Video 模型）。此前他在 Google DeepMind 领导全模态模型团队，并在 OpenAI 共同领导 Sora；在伯克利读博期间提出了 InstructPix2Pix。",
+   "known_for": [
+    "Sora: Video generation models as world simulators (2024)",
+    "InstructPix2Pix (CVPR 2023)",
+    "Generating Long Videos of Dynamic Scenes (NeurIPS 2022)"
+   ],
+   "url": "https://timothybrooks.com/",
+   "based": "San Francisco, US",
+   "based_zh": "美国旧金山",
+   "found_via": "https://timothybrooks.com/"
+  },
+  {
+   "id": "person--bill-peebles",
+   "name": "Bill Peebles",
+   "type": "researcher",
+   "themes": [
+    "video-generation",
+    "world-models"
+   ],
+   "fields": [
+    "video"
+   ],
+   "description": "Research scientist and Head of Sora at OpenAI and co-author of the Diffusion Transformer (DiT), the architecture behind most current video models. OpenAI closed the Sora app in April 2026 and its API in September 2026, keeping Sora as a world-simulation research effort.",
+   "description_zh": "OpenAI 研究科学家、Sora 负责人，扩散 Transformer（DiT）的共同作者；DiT 是当今多数视频模型采用的架构。OpenAI 于 2026 年 4 月关闭 Sora 应用、9 月关闭其 API，Sora 转为面向世界模拟的研究项目。",
+   "known_for": [
+    "Scalable Diffusion Models with Transformers (DiT, ICCV 2023)",
+    "Sora (2024)",
+    "Sora 2 (2025)"
+   ],
+   "url": "https://www.wpeebles.com/",
+   "image": "https://www.wpeebles.com/images/me2025.jpg",
+   "based": "San Francisco, US",
+   "based_zh": "美国旧金山",
+   "found_via": "https://www.wpeebles.com/"
+  },
+  {
+   "id": "person--zhu-jun",
+   "name": "Zhu Jun",
+   "name_zh": "朱军",
+   "type": "researcher",
+   "themes": [
+    "video-generation",
+    "open-source"
+   ],
+   "fields": [
+    "video"
+   ],
+   "description": "Professor of computer science at Tsinghua University and chief scientist of Shengshu Technology. His group's U-ViT architecture underlies Vidu, launched in April 2024, which the team describes as the first Sora-like video generator after Sora.",
+   "description_zh": "清华大学计算机系教授，生数科技首席科学家。其团队提出的 U-ViT 架构是 Vidu 的基础；Vidu 于 2024 年 4 月发布，团队称其为继 Sora 之后首个 Sora 级视频生成模型。",
+   "known_for": [
+    "U-ViT: All are Worth Words (CVPR 2023)",
+    "Vidu (2024)",
+    "ProlificDreamer (NeurIPS 2023)"
+   ],
+   "url": "https://ml.cs.tsinghua.edu.cn/~jun/index.shtml",
+   "links": [
+    {
+     "label": "Vidu",
+     "url": "https://www.vidu.com/"
+    }
+   ],
+   "image": "https://ml.cs.tsinghua.edu.cn/~jun/images/junzhu.jpg",
+   "based": "Beijing, CN",
+   "based_zh": "中国北京",
+   "found_via": "https://ml.cs.tsinghua.edu.cn/~jun/index.shtml"
+  },
+  {
+   "id": "person--ben-mildenhall",
+   "name": "Ben Mildenhall",
+   "type": "researcher",
+   "themes": [
+    "gaussian-splatting",
+    "3d-generation"
+   ],
+   "fields": [
+    "spatial-4d",
+    "worlds-3d"
+   ],
+   "description": "Co-founder of World Labs and first author of NeRF, the 2020 paper that started the neural radiance field era of view synthesis. He was a research scientist at Google Research from 2021 to 2023.",
+   "description_zh": "World Labs 联合创始人，NeRF 第一作者；这篇 2020 年的论文开启了神经辐射场视角合成的时代。2021 至 2023 年他在 Google Research 任研究科学家。",
+   "known_for": [
+    "NeRF (ECCV 2020)",
+    "Mip-NeRF 360 (CVPR 2022)",
+    "DreamFusion (ICLR 2023)"
+   ],
+   "url": "https://bmild.github.io/",
+   "links": [
+    {
+     "label": "World Labs",
+     "url": "https://www.worldlabs.ai/about"
+    }
+   ],
+   "image": "https://bmild.github.io/img/BenMildenhallHead.jpg",
+   "based": "San Francisco, US",
+   "based_zh": "美国旧金山",
+   "creator_id": "ben-mildenhall",
+   "found_via": "https://bmild.github.io/"
+  },
+  {
+   "id": "person--jon-barron",
+   "name": "Jon Barron",
+   "type": "researcher",
+   "themes": [
+    "gaussian-splatting",
+    "3d-generation"
+   ],
+   "fields": [
+    "spatial-4d",
+    "worlds-3d"
+   ],
+   "description": "Principal research scientist at Google DeepMind in San Francisco who leads a small team working mostly on NeRF; co-author of NeRF and of the Mip-NeRF and Zip-NeRF line, and of generative 3D work such as DreamFusion and CAT3D.",
+   "description_zh": "Google DeepMind 旧金山首席研究科学家，带领一个主要研究 NeRF 的小团队；NeRF 及 Mip-NeRF、Zip-NeRF 系列的共同作者，也参与了 DreamFusion、CAT3D 等生成式三维工作。",
+   "known_for": [
+    "Mip-NeRF (ICCV 2021)",
+    "Zip-NeRF (ICCV 2023)",
+    "CAT3D (NeurIPS 2024)"
+   ],
+   "url": "https://jonbarron.info/",
+   "image": "https://jonbarron.info/images/JonBarron.jpg",
+   "based": "San Francisco, US",
+   "based_zh": "美国旧金山",
+   "found_via": "https://jonbarron.info/"
+  },
+  {
+   "id": "person--bernhard-kerbl",
+   "name": "Bernhard Kerbl",
+   "type": "researcher",
+   "themes": [
+    "gaussian-splatting",
+    "open-source"
+   ],
+   "fields": [
+    "spatial-4d"
+   ],
+   "description": "First author of 3D Gaussian Splatting, which made photoreal radiance fields render in real time and set off the splatting boom. He is now a tenure-track assistant professor at the University of Copenhagen and a principal investigator associated with TU Wien.",
+   "description_zh": "3D 高斯泼溅（3DGS）第一作者：该方法让照片级辐射场可以实时渲染，引发了高斯泼溅热潮。他现任哥本哈根大学终身轨助理教授，并在维也纳工业大学担任项目首席研究员。",
+   "known_for": [
+    "3D Gaussian Splatting for Real-Time Radiance Field Rendering (SIGGRAPH 2023 Best Paper)",
+    "A Hierarchical 3D Gaussian Representation for Real-Time Rendering of Very Large Datasets (SIGGRAPH 2024)"
+   ],
+   "url": "https://snosixtyboo.github.io/",
+   "image": "https://snosixtyboo.github.io/assets/img/lichtbild.JPG",
+   "based": "Copenhagen, DK",
+   "based_zh": "丹麦哥本哈根",
+   "creator_id": "bernhard-kerbl",
+   "found_via": "https://snosixtyboo.github.io/"
+  },
+  {
+   "id": "person--george-drettakis",
+   "name": "George Drettakis",
+   "type": "researcher",
+   "themes": [
+    "gaussian-splatting"
+   ],
+   "fields": [
+    "spatial-4d"
+   ],
+   "description": "Senior researcher who leads the GraphDeco group at Inria Sophia Antipolis and senior author of 3D Gaussian Splatting; decades of work on image-based rendering made the method possible.",
+   "description_zh": "法国国家信息与自动化研究院（Inria）索菲亚-安提波利斯中心 GraphDeco 组负责人，3D 高斯泼溅的通讯作者；他数十年的基于图像的渲染研究为该方法奠定了基础。",
+   "known_for": [
+    "3D Gaussian Splatting (SIGGRAPH 2023)",
+    "Deep Blending for Free-Viewpoint Image-Based Rendering (SIGGRAPH Asia 2018)"
+   ],
+   "url": "https://www-sop.inria.fr/members/George.Drettakis/",
+   "links": [
+    {
+     "label": "GraphDeco",
+     "url": "https://team.inria.fr/graphdeco/"
+    }
+   ],
+   "image": "https://www-sop.inria.fr/members/George.Drettakis/GD2013.jpg",
+   "based": "Sophia Antipolis, FR",
+   "based_zh": "法国索菲亚-安提波利斯",
+   "found_via": "https://www-sop.inria.fr/members/George.Drettakis/"
+  },
+  {
+   "id": "person--thomas-muller",
+   "name": "Thomas Müller",
+   "type": "researcher",
+   "themes": [
+    "gaussian-splatting",
+    "open-source"
+   ],
+   "fields": [
+    "spatial-4d"
+   ],
+   "description": "Creator of instant-ngp, whose multiresolution hash encoding cut NeRF training from hours to seconds, and of tiny-cuda-nn. Formerly principal research scientist at NVIDIA, he now works as an independent researcher.",
+   "description_zh": "instant-ngp 与 tiny-cuda-nn 的作者；其多分辨率哈希编码把 NeRF 训练从数小时缩短到数秒。他曾任 NVIDIA 首席研究科学家，现为独立研究者。",
+   "known_for": [
+    "Instant Neural Graphics Primitives (SIGGRAPH 2022 Best Paper)",
+    "tiny-cuda-nn (2021)"
+   ],
+   "url": "https://tom94.net/",
+   "links": [
+    {
+     "label": "instant-ngp",
+     "url": "https://github.com/NVlabs/instant-ngp"
+    }
+   ],
+   "image": "https://tom94.net/images/misc/self/self1.jpg",
+   "creator_id": "thomas-muller",
+   "found_via": "https://tom94.net/"
+  },
+  {
+   "id": "person--angjoo-kanazawa",
+   "name": "Angjoo Kanazawa",
+   "type": "researcher",
+   "themes": [
+    "gaussian-splatting",
+    "open-source",
+    "3d-generation"
+   ],
+   "fields": [
+    "spatial-4d"
+   ],
+   "description": "Associate professor at UC Berkeley who leads the Kanazawa AI Research (KAIR) lab; her group builds the open tools many splatting projects run on (Nerfstudio, gsplat) and methods for 4D reconstruction of people and scenes from casual video. She has advised Luma AI and Wonder Dynamics.",
+   "description_zh": "加州大学伯克利分校副教授，领导 Kanazawa AI Research（KAIR）实验室；其团队开发了众多高斯泼溅项目所依赖的开源工具（Nerfstudio、gsplat），以及从随手拍视频中进行人物与场景 4D 重建的方法。她曾担任 Luma AI 与 Wonder Dynamics 的顾问。",
+   "known_for": [
+    "Nerfstudio (SIGGRAPH 2023)",
+    "gsplat (2024)",
+    "Shape of Motion (2024)",
+    "Plenoxels (CVPR 2022)"
+   ],
+   "url": "https://people.eecs.berkeley.edu/~kanazawa/",
+   "image": "https://people.eecs.berkeley.edu/~kanazawa/img/angjoo_photo.jpg",
+   "based": "Berkeley, US",
+   "based_zh": "美国伯克利",
+   "found_via": "https://people.eecs.berkeley.edu/~kanazawa/"
+  },
+  {
+   "id": "person--aleksander-holynski",
+   "name": "Aleksander Holynski",
+   "type": "researcher",
+   "themes": [
+    "3d-generation",
+    "world-models",
+    "gaussian-splatting"
+   ],
+   "fields": [
+    "worlds-3d",
+    "spatial-4d"
+   ],
+   "description": "Professor at Columbia University who also leads a Google DeepMind team on generative 3D and world models; co-author of InstructPix2Pix, CAT3D and CAT4D, which turn a few images into 3D and 4D scenes with multi-view diffusion.",
+   "description_zh": "哥伦比亚大学教授，同时在 Google DeepMind 领导生成式三维与世界模型团队；InstructPix2Pix、CAT3D 与 CAT4D 的共同作者，这些方法用多视角扩散把少量图像变成三维与四维场景。",
+   "known_for": [
+    "CAT3D (NeurIPS 2024)",
+    "CAT4D (CVPR 2025)",
+    "InstructPix2Pix (CVPR 2023)"
+   ],
+   "url": "https://holynski.org/",
+   "based": "New York, US",
+   "based_zh": "美国纽约",
+   "found_via": "https://holynski.org/"
+  },
+  {
+   "id": "person--ruiqi-gao",
+   "name": "Ruiqi Gao",
+   "type": "researcher",
+   "themes": [
+    "3d-generation",
+    "video-generation"
+   ],
+   "fields": [
+    "worlds-3d"
+   ],
+   "description": "Research scientist at Google DeepMind working on generative models; first author of CAT3D, which creates a 3D scene from one or a few images in about a minute.",
+   "description_zh": "Google DeepMind 研究科学家，研究生成模型；CAT3D 第一作者，该方法可在约一分钟内由一张或几张图像生成三维场景。",
+   "known_for": [
+    "CAT3D: Create Anything in 3D with Multi-View Diffusion Models (NeurIPS 2024)",
+    "Understanding Diffusion Objectives as the ELBO (NeurIPS 2023)"
+   ],
+   "url": "https://ruiqigao.github.io/",
+   "image": "https://ruiqigao.github.io/photos/me.png",
+   "creator_id": "ruiqi-gao",
+   "found_via": "https://ruiqigao.github.io/"
+  },
+  {
+   "id": "person--noah-snavely",
+   "name": "Noah Snavely",
+   "type": "researcher",
+   "themes": [
+    "gaussian-splatting",
+    "3d-generation"
+   ],
+   "fields": [
+    "spatial-4d",
+    "worlds-3d"
+   ],
+   "description": "Professor at Cornell Tech and researcher at Google DeepMind whose work runs from Photo Tourism (2006) to the RealEstate10K camera-path dataset and 4D reconstruction of casual videos, data that most camera-controlled video and scene models now train on.",
+   "description_zh": "康奈尔科技校区教授、Google DeepMind 研究员，研究从 Photo Tourism（2006）一直到 RealEstate10K 相机轨迹数据集与随手视频的 4D 重建；如今多数相机可控视频与场景模型都用这些数据训练。",
+   "known_for": [
+    "Photo Tourism (SIGGRAPH 2006)",
+    "Stereo Magnification / RealEstate10K (SIGGRAPH 2018)",
+    "MegaSaM (CVPR 2025)"
+   ],
+   "url": "https://www.cs.cornell.edu/~snavely/",
+   "image": "https://www.cs.cornell.edu/~snavely/images/Noah2024.jpg",
+   "based": "New York, US",
+   "based_zh": "美国纽约",
+   "found_via": "https://www.cs.cornell.edu/~snavely/"
+  },
+  {
+   "id": "person--gordon-wetzstein",
+   "name": "Gordon Wetzstein",
+   "type": "researcher",
+   "themes": [
+    "3d-generation",
+    "xr",
+    "gaussian-splatting"
+   ],
+   "fields": [
+    "worlds-3d",
+    "genxr"
+   ],
+   "description": "Professor at Stanford who leads the Computational Imaging Lab, working across 3D-aware generative models, neural rendering and holographic near-eye displays for AR and VR.",
+   "description_zh": "斯坦福大学教授，领导计算成像实验室，研究横跨三维感知生成模型、神经渲染以及面向 AR / VR 的全息近眼显示。",
+   "known_for": [
+    "EG3D (CVPR 2022)",
+    "Holographic glasses for virtual reality (SIGGRAPH 2022)",
+    "SIREN (NeurIPS 2020)"
+   ],
+   "url": "https://stanford.edu/~gordonwz/",
+   "links": [
+    {
+     "label": "Computational Imaging Lab",
+     "url": "https://www.computationalimaging.org/"
+    }
+   ],
+   "image": "https://stanford.edu/~gordonwz/images/gordon_wetzstein_small.jpg",
+   "based": "Stanford, US",
+   "based_zh": "美国斯坦福",
+   "found_via": "https://stanford.edu/~gordonwz/"
+  },
+  {
+   "id": "person--matthias-niessner",
+   "name": "Matthias Nießner",
+   "type": "researcher",
+   "themes": [
+    "virtual-humans",
+    "3d-generation"
+   ],
+   "fields": [
+    "avatars",
+    "spatial-4d"
+   ],
+   "description": "Professor at TU Munich who leads the Visual Computing & AI lab and co-founded Synthesia; his group's face reenactment and Gaussian avatar work feeds both deepfake detection and drivable 3D heads.",
+   "description_zh": "慕尼黑工业大学教授，领导视觉计算与人工智能实验室，Synthesia 联合创始人；其团队在人脸重演与高斯化身方面的工作，同时推动了深度伪造检测与可驱动三维头像。",
+   "known_for": [
+    "Face2Face (CVPR 2016)",
+    "ScanNet (CVPR 2017)",
+    "GaussianAvatars (CVPR 2024)"
+   ],
+   "url": "https://niessnerlab.org/",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Matthias_Niessner"
+    }
+   ],
+   "based": "Munich, DE",
+   "based_zh": "德国慕尼黑",
+   "born": 1986,
+   "found_via": "https://niessnerlab.org/"
+  },
+  {
+   "id": "person--ziwei-liu",
+   "name": "Ziwei Liu",
+   "name_zh": "刘子纬",
+   "type": "researcher",
+   "themes": [
+    "video-generation",
+    "3d-generation",
+    "open-source"
+   ],
+   "fields": [
+    "video",
+    "assets",
+    "infra"
+   ],
+   "description": "Associate professor at Nanyang Technological University (MMLab@NTU, S-Lab) whose group built VBench, a widely used video-generation benchmark, along with open 3D and avatar generators.",
+   "description_zh": "南洋理工大学副教授（MMLab@NTU、S-Lab），其团队构建了被广泛使用的视频生成评测基准 VBench，并发布了多个开源三维与虚拟人生成模型。",
+   "known_for": [
+    "VBench (CVPR 2024)",
+    "LGM: Large Multi-View Gaussian Model (ECCV 2024)",
+    "DeepFashion (CVPR 2016)"
+   ],
+   "url": "https://liuziwei7.github.io/",
+   "image": "https://liuziwei7.github.io/homepage_files/me.png",
+   "based": "Singapore",
+   "based_zh": "新加坡",
+   "found_via": "https://liuziwei7.github.io/"
+  },
+  {
+   "id": "person--fei-fei-li",
+   "name": "Fei-Fei Li",
+   "name_zh": "李飞飞",
+   "type": "researcher",
+   "themes": [
+    "3d-generation",
+    "world-models"
+   ],
+   "fields": [
+    "worlds-3d"
+   ],
+   "description": "Stanford professor who created ImageNet and is co-founder and CEO of World Labs, the spatial-intelligence company behind Marble; she argues that the next step after language models is models that generate and reason about 3D worlds.",
+   "description_zh": "斯坦福大学教授，ImageNet 的创建者，空间智能公司 World Labs 的联合创始人兼首席执行官（推出 Marble）；她主张语言模型之后的下一步是能生成并推理三维世界的模型。",
+   "known_for": [
+    "ImageNet (CVPR 2009)",
+    "World Labs Marble (2025)",
+    "From Words to Worlds: Spatial Intelligence (essay, 2025)"
+   ],
+   "url": "https://profiles.stanford.edu/fei-fei-li",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Fei-Fei_Li"
+    },
+    {
+     "label": "World Labs",
+     "url": "https://www.worldlabs.ai/"
+    }
+   ],
+   "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Fei-Fei_Li_at_AI_for_Good_2017.jpg",
+   "based": "Stanford / San Francisco, US",
+   "based_zh": "美国斯坦福 / 旧金山",
+   "born": 1976,
+   "found_via": "https://profiles.stanford.edu/fei-fei-li"
+  },
+  {
+   "id": "person--justin-johnson",
+   "name": "Justin Johnson",
+   "type": "researcher",
+   "themes": [
+    "3d-generation",
+    "world-models"
+   ],
+   "fields": [
+    "worlds-3d"
+   ],
+   "description": "Co-founder of World Labs and faculty member at the University of Michigan; known for perceptual losses for style transfer, the CLEVR reasoning benchmark and image generation from scene graphs.",
+   "description_zh": "World Labs 联合创始人、密歇根大学教员；以风格迁移的感知损失、CLEVR 推理基准和由场景图生成图像等工作著称。",
+   "known_for": [
+    "Perceptual Losses for Real-Time Style Transfer (ECCV 2016)",
+    "CLEVR (CVPR 2017)",
+    "Image Generation from Scene Graphs (CVPR 2018)"
+   ],
+   "url": "https://www.worldlabs.ai/about",
+   "based": "San Francisco, US",
+   "based_zh": "美国旧金山",
+   "found_via": "https://www.worldlabs.ai/about"
+  },
+  {
+   "id": "person--christoph-lassner",
+   "name": "Christoph Lassner",
+   "type": "researcher",
+   "themes": [
+    "3d-generation",
+    "gaussian-splatting",
+    "virtual-humans"
+   ],
+   "fields": [
+    "worlds-3d",
+    "spatial-4d"
+   ],
+   "description": "Co-founder of World Labs who previously led research teams at Epic Games and Meta Reality Labs Research on interactive radiance-field reconstruction and rendering, and on 3D body models.",
+   "description_zh": "World Labs 联合创始人，此前在 Epic Games 与 Meta Reality Labs Research 领导研究团队，研究可交互的辐射场重建与渲染以及三维人体模型。",
+   "known_for": [
+    "Keep it SMPL / SMPLify (ECCV 2016)",
+    "Pulsar: Efficient Sphere-based Neural Rendering (CVPR 2021)"
+   ],
+   "url": "https://christophlassner.de/",
+   "based": "San Francisco, US",
+   "based_zh": "美国旧金山",
+   "found_via": "https://christophlassner.de/"
+  },
+  {
+   "id": "person--yaser-sheikh",
+   "name": "Yaser Sheikh",
+   "type": "researcher",
+   "themes": [
+    "virtual-humans",
+    "xr"
+   ],
+   "fields": [
+    "avatars"
+   ],
+   "description": "Founded Meta's Reality Labs lab in Pittsburgh and, as a Meta vice president from 2015 to 2025, led the invention of Codec Avatars, real-time photoreal telepresence avatars. He is now a consulting professor at Carnegie Mellon and founder of a stealth AI venture.",
+   "description_zh": "创立了 Meta 匹兹堡 Reality Labs 实验室，2015 至 2025 年任 Meta 副总裁期间主导发明了 Codec Avatars（实时照片级远程临场化身）。现为卡内基梅隆大学顾问教授，并创办了一家尚未公开的 AI 公司。",
+   "known_for": [
+    "Codec Avatars (2019–2025)",
+    "OpenPose (CVPR 2017)",
+    "Panoptic Studio (ICCV 2015)"
+   ],
+   "url": "https://www.cs.cmu.edu/~yaser/",
+   "image": "https://www.cs.cmu.edu/~yaser/headshot.jpg",
+   "based": "Pittsburgh, US",
+   "based_zh": "美国匹兹堡",
+   "found_via": "https://www.cs.cmu.edu/~yaser/"
+  },
+  {
+   "id": "person--michael-black",
+   "name": "Michael J. Black",
+   "type": "researcher",
+   "themes": [
+    "virtual-humans",
+    "3d-generation"
+   ],
+   "fields": [
+    "avatars",
+    "assets"
+   ],
+   "description": "Founding director of the Perceiving Systems department at the Max Planck Institute for Intelligent Systems and co-founder of Meshcapade; his SMPL body model is the common skeleton of most 3D human generation and motion research.",
+   "description_zh": "马克斯·普朗克智能系统研究所感知系统部门创始所长、Meshcapade 联合创始人；他的 SMPL 人体模型是大多数三维人体生成与动作研究的通用骨架。",
+   "known_for": [
+    "SMPL (SIGGRAPH Asia 2015)",
+    "SMPL-X (CVPR 2019)",
+    "AMASS (ICCV 2019)"
+   ],
+   "url": "https://en.wikipedia.org/wiki/Michael_J._Black",
+   "links": [
+    {
+     "label": "Meshcapade",
+     "url": "https://meshcapade.com/"
+    }
+   ],
+   "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Michael_J_Black_Copyright_MPI-IS.jpg",
+   "based": "Tübingen, DE",
+   "based_zh": "德国图宾根",
+   "found_via": "https://en.wikipedia.org/wiki/Michael_J._Black"
+  },
+  {
+   "id": "person--hao-li",
+   "name": "Hao Li",
+   "name_zh": "黎顥",
+   "type": "researcher",
+   "themes": [
+    "virtual-humans",
+    "ethics"
+   ],
+   "fields": [
+    "avatars"
+   ],
+   "description": "Co-founder and CEO of Pinscreen and professor of computer vision at MBZUAI, where he directs the Metaverse Center; he builds instant photoreal avatars and speaks often on deepfakes.",
+   "description_zh": "Pinscreen 联合创始人兼首席执行官、穆罕默德·本·扎耶德人工智能大学（MBZUAI）计算机视觉教授并主持元宇宙中心；他开发即时照片级虚拟形象，也经常就深度伪造问题发声。",
+   "known_for": [
+    "paGAN (SIGGRAPH Asia 2018)",
+    "Pinscreen avatars",
+    "Realistic Dynamic Facial Textures from a Single Image using GANs (ICCV 2017)"
+   ],
+   "url": "https://en.wikipedia.org/wiki/Hao_Li",
+   "links": [
+    {
+     "label": "Pinscreen",
+     "url": "https://www.pinscreen.com/"
+    }
+   ],
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Hao_li_portrait.png/960px-Hao_li_portrait.png",
+   "based": "Abu Dhabi, AE / Los Angeles, US",
+   "based_zh": "阿联酋阿布扎比 / 美国洛杉矶",
+   "born": 1981,
+   "found_via": "https://en.wikipedia.org/wiki/Hao_Li"
+  },
+  {
+   "id": "person--ioannis-patras",
+   "name": "Ioannis Patras",
+   "type": "researcher",
+   "themes": [
+    "virtual-humans",
+    "behavioral-research"
+   ],
+   "fields": [
+    "avatars"
+   ],
+   "description": "Professor of Computer Vision and Human Sensing at Queen Mary University of London and Head of Research at Tavus, where he co-authored Griffin (2026), a real-time 'human interaction model' that Tavus reports 48% of study participants took for a real person.",
+   "description_zh": "伦敦玛丽女王大学计算机视觉与人体感知教授、Tavus 研究负责人；他是 Griffin（2026）的共同作者，这是一个实时“人类交互模型”，Tavus 报告称 48% 的研究参与者把它当成了真人。",
+   "known_for": [
+    "Griffin human interaction model (Tavus, 2026)",
+    "Facial expression and affect analysis"
+   ],
+   "url": "https://www.qmul.ac.uk/eecs/people/profiles/patrasioannis.html",
+   "links": [
+    {
+     "label": "Tavus Griffin",
+     "url": "https://www.tavus.io/griffin"
+    }
+   ],
+   "image": "https://www.qmul.ac.uk/eecs/media/eecs/staff-profile-images/3138.jpg",
+   "based": "London, UK",
+   "based_zh": "英国伦敦",
+   "found_via": "https://www.qmul.ac.uk/eecs/people/profiles/patrasioannis.html"
+  },
+  {
+   "id": "person--mar-gonzalez-franco",
+   "name": "Mar Gonzalez-Franco",
+   "type": "researcher",
+   "themes": [
+    "xr",
+    "presence",
+    "virtual-humans"
+   ],
+   "fields": [
+    "genxr",
+    "behavioral"
+   ],
+   "description": "Neuroscientist and computer scientist who manages a Google organization on human-AI interaction and intelligent eyewear that shaped input and interaction for Android XR; at Microsoft Research she led avatar embodiment work and the open Rocketbox avatar library.",
+   "description_zh": "神经科学家与计算机科学家，在 Google 管理人机交互与智能眼镜方向的团队，主导了 Android XR 的输入与交互体验；此前在微软研究院主持化身具身研究，并开放了 Rocketbox 虚拟人库。",
+   "known_for": [
+    "The Rocketbox Library (Frontiers in VR 2020)",
+    "Avatar Embodiment questionnaire (Frontiers 2018)",
+    "Android XR input and interaction"
+   ],
+   "url": "https://margonzalezfranco.github.io/",
+   "image": "https://margonzalezfranco.github.io/MarGonzalez_files/IMG_0566.jpeg",
+   "creator_id": "mar-gonzalez-franco",
+   "found_via": "https://margonzalezfranco.github.io/"
+  },
+  {
+   "id": "person--louis-philippe-morency",
+   "name": "Louis-Philippe Morency",
+   "type": "researcher",
+   "themes": [
+    "virtual-humans",
+    "behavioral-research"
+   ],
+   "fields": [
+    "avatars",
+    "behavioral"
+   ],
+   "description": "Leonardo Associate Professor at Carnegie Mellon who directs the MultiComp Lab; he co-built SimSensei, the virtual interviewer that read nonverbal cues to screen for distress, and works on multimodal models of social behavior.",
+   "description_zh": "卡内基梅隆大学 Leonardo 副教授，主持 MultiComp 实验室；他参与打造了 SimSensei——一个通过读取非语言线索筛查心理困扰的虚拟访谈者，并研究社会行为的多模态模型。",
+   "known_for": [
+    "SimSensei Kiosk (AAMAS 2014)",
+    "Multimodal Machine Learning: A Survey and Taxonomy (TPAMI 2019)"
+   ],
+   "url": "https://www.cs.cmu.edu/~morency/",
+   "links": [
+    {
+     "label": "MultiComp Lab",
+     "url": "https://multicomp.cs.cmu.edu/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Louis-Philippe_Morency"
+    }
+   ],
+   "image": "https://www.cs.cmu.edu/~morency/index_files/image001.jpg",
+   "based": "Pittsburgh, US",
+   "based_zh": "美国匹兹堡",
+   "found_via": "https://www.cs.cmu.edu/~morency/"
+  },
+  {
+   "id": "person--neil-zeghidour",
+   "name": "Neil Zeghidour",
+   "type": "researcher",
+   "themes": [
+    "speech-audio",
+    "open-source"
+   ],
+   "fields": [
+    "audio"
+   ],
+   "description": "Co-founder of the Paris lab Kyutai and CEO of its voice spin-off Gradium (December 2025); co-author of SoundStream, AudioLM and Moshi, the first open full-duplex speech model that listens while it talks.",
+   "description_zh": "巴黎实验室 Kyutai 联合创始人、其语音衍生公司 Gradium（2025 年 12 月成立）的首席执行官；SoundStream、AudioLM 与 Moshi 的共同作者，Moshi 是首个开源的全双工语音模型，可以边听边说。",
+   "known_for": [
+    "SoundStream (2021)",
+    "AudioLM (2022)",
+    "Moshi (2024)"
+   ],
+   "url": "https://scholar.google.com/citations?user=fiJamZ0AAAAJ",
+   "links": [
+    {
+     "label": "Gradium",
+     "url": "https://gradium.ai/"
+    },
+    {
+     "label": "Kyutai",
+     "url": "https://kyutai.org/"
+    }
+   ],
+   "image": "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=fiJamZ0AAAAJ&citpid=10",
+   "based": "Paris, FR",
+   "based_zh": "法国巴黎",
+   "found_via": "https://scholar.google.com/citations?user=fiJamZ0AAAAJ"
+  },
+  {
+   "id": "person--alexandre-defossez",
+   "name": "Alexandre Défossez",
+   "type": "researcher",
+   "themes": [
+    "speech-audio",
+    "open-source"
+   ],
+   "fields": [
+    "audio"
+   ],
+   "description": "Founding member and Chief Exploration Officer of Kyutai; lead author of Moshi and, earlier at Meta, of the EnCodec audio codec, the Demucs source separator and MusicGen.",
+   "description_zh": "Kyutai 创始成员、首席探索官（Chief Exploration Officer）；Moshi 的主要作者，此前在 Meta 主导了 EnCodec 音频编解码器、Demucs 音源分离与 MusicGen。",
+   "known_for": [
+    "Moshi (2024)",
+    "EnCodec (2022)",
+    "MusicGen (NeurIPS 2023)",
+    "Demucs (2019)"
+   ],
+   "url": "https://ai.honu.io/",
+   "links": [
+    {
+     "label": "Kyutai",
+     "url": "https://kyutai.org/"
+    }
+   ],
+   "image": "https://ai.honu.io/images/me_vacs.jpg",
+   "based": "Paris, FR",
+   "based_zh": "法国巴黎",
+   "found_via": "https://ai.honu.io/"
+  },
+  {
+   "id": "person--joon-sung-park",
+   "name": "Joon Sung Park",
+   "type": "researcher",
+   "themes": [
+    "agents",
+    "behavioral-research"
+   ],
+   "fields": [
+    "agents",
+    "behavioral"
+   ],
+   "description": "Computer scientist who introduced generative agents (the Smallville town of 25 LLM characters) and later simulated 1,052 real people from interviews; he now runs Simile, a Palo Alto company that sells population-scale behavioral simulations.",
+   "description_zh": "提出“生成式智能体”（由 25 个大模型角色组成的 Smallville 小镇）的计算机科学家，后又根据访谈模拟了 1,052 位真实个体；他现在经营 Simile，一家在帕洛阿尔托提供群体规模行为模拟的公司。",
+   "known_for": [
+    "Generative Agents (UIST 2023 Best Paper)",
+    "Generative Agent Simulations of 1,000 People (2024)",
+    "Social Simulacra (UIST 2022)"
+   ],
+   "url": "https://www.joonsungpark.com/",
+   "links": [
+    {
+     "label": "Simile",
+     "url": "https://www.simile.com/"
+    }
+   ],
+   "based": "Palo Alto, US",
+   "based_zh": "美国帕洛阿尔托",
+   "creator_id": "joon-sung-park",
+   "found_via": "https://www.joonsungpark.com/"
+  },
+  {
+   "id": "person--michael-bernstein",
+   "name": "Michael Bernstein",
+   "type": "researcher",
+   "themes": [
+    "agents",
+    "behavioral-research"
+   ],
+   "fields": [
+    "agents"
+   ],
+   "description": "Professor of computer science at Stanford (HCI group) and senior author of Generative Agents and Social Simulacra; he studies how simulated people can be used, and misused, to prototype social systems.",
+   "description_zh": "斯坦福大学计算机科学教授（人机交互组），《Generative Agents》与《Social Simulacra》的通讯作者；他研究如何使用（以及如何误用）模拟的人来为社会系统做原型。",
+   "known_for": [
+    "Generative Agents (UIST 2023)",
+    "Social Simulacra (UIST 2022)",
+    "Generative Agent Simulations of 1,000 People (2024)"
+   ],
+   "url": "https://hci.stanford.edu/msb/",
+   "image": "https://hci.stanford.edu/msb/img/msb-2024-headshot.jpg",
+   "based": "Stanford, US",
+   "based_zh": "美国斯坦福",
+   "found_via": "https://hci.stanford.edu/msb/"
+  },
+  {
+   "id": "person--percy-liang",
+   "name": "Percy Liang",
+   "type": "researcher",
+   "themes": [
+    "agents",
+    "ethics",
+    "open-source"
+   ],
+   "fields": [
+    "agents"
+   ],
+   "description": "Stanford professor and director of the Center for Research on Foundation Models (CRFM); co-author of Generative Agents and the 1,000-people simulation, and of the HELM evaluation framework.",
+   "description_zh": "斯坦福大学教授、基础模型研究中心（CRFM）主任；《Generative Agents》与“1000 人模拟”的共同作者，也主持了 HELM 评测框架。",
+   "known_for": [
+    "HELM (2022)",
+    "Generative Agents (UIST 2023)",
+    "On the Opportunities and Risks of Foundation Models (2021)"
+   ],
+   "url": "https://cs.stanford.edu/~pliang/",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Percy_Liang"
+    }
+   ],
+   "image": "https://cs.stanford.edu/~pliang/resources/percy3.jpeg",
+   "based": "Stanford, US",
+   "based_zh": "美国斯坦福",
+   "found_via": "https://cs.stanford.edu/~pliang/"
+  },
+  {
+   "id": "person--jim-fan",
+   "name": "Linxi \"Jim\" Fan",
+   "name_zh": "范麟熙",
+   "type": "researcher",
+   "themes": [
+    "agents",
+    "world-models"
+   ],
+   "fields": [
+    "agents"
+   ],
+   "description": "Senior research scientist and lead of AI agents at NVIDIA (GEAR lab); his Minecraft agents MineDojo and Voyager showed LLM-driven agents learning open-ended skills in a game world.",
+   "description_zh": "NVIDIA 高级研究科学家、AI 智能体负责人（GEAR 实验室）；他的 Minecraft 智能体 MineDojo 与 Voyager 展示了大模型驱动的智能体在游戏世界里学习开放式技能。",
+   "known_for": [
+    "Voyager (2023)",
+    "MineDojo (NeurIPS 2022 Outstanding Paper)",
+    "Eureka (ICLR 2024)"
+   ],
+   "url": "https://jimfan.me/",
+   "links": [
+    {
+     "label": "NVIDIA GEAR",
+     "url": "https://research.nvidia.com/labs/gear/"
+    }
+   ],
+   "image": "https://jimfan.me/media/sharing.jpg",
+   "based": "Santa Clara, US",
+   "based_zh": "美国圣克拉拉",
+   "found_via": "https://jimfan.me/"
+  },
+  {
+   "id": "person--ryo-suzuki",
+   "name": "Ryo Suzuki",
+   "type": "researcher",
+   "themes": [
+    "xr",
+    "agents"
+   ],
+   "fields": [
+    "genxr"
+   ],
+   "description": "Assistant professor at the University of Colorado Boulder (ATLAS Institute), formerly at the University of Calgary, who runs the Programmable Reality Lab; his group builds AR systems that generate interactive content from the physical world with AI.",
+   "description_zh": "科罗拉多大学博尔德分校（ATLAS 研究所）助理教授，此前任教于卡尔加里大学，领导可编程现实实验室（Programmable Reality Lab）；其团队开发用 AI 从物理世界生成交互内容的 AR 系统。",
+   "known_for": [
+    "RealitySketch (UIST 2020)",
+    "Augmented Physics (UIST 2024)",
+    "RealityCanvas (UIST 2023)"
+   ],
+   "url": "https://ryosuzuki.org/",
+   "links": [
+    {
+     "label": "X",
+     "url": "https://x.com/ryosuzk"
+    }
+   ],
+   "image": "https://ryosuzuki.org/static/images/profile.jpg",
+   "based": "Boulder, US",
+   "based_zh": "美国博尔德",
+   "creator_id": "ryo-suzuki",
+   "found_via": "https://ryosuzuki.org/"
+  },
+  {
+   "id": "person--jaron-lanier",
+   "name": "Jaron Lanier",
+   "type": "researcher",
+   "themes": [
+    "xr",
+    "presence",
+    "ethics"
+   ],
+   "fields": [
+    "genxr"
+   ],
+   "description": "VR pioneer who founded VPL Research in 1985, the first company to sell VR goggles and data gloves, and who works at Microsoft; his books argue for data dignity and against using people as fuel for AI.",
+   "description_zh": "虚拟现实先驱，1985 年创立首家销售 VR 头显与数据手套的公司 VPL Research，现任职于微软；他在著作中倡导“数据尊严”，反对把人当作 AI 的燃料。",
+   "known_for": [
+    "VPL Research DataGlove and EyePhone (1980s)",
+    "Dawn of the New Everything (2017)",
+    "Who Owns the Future? (2013)"
+   ],
+   "url": "https://www.jaronlanier.com/",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jaron_Lanier"
+    }
+   ],
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Jaron_Lanier_in_2010_%28cropped%29.jpg/960px-Jaron_Lanier_in_2010_%28cropped%29.jpg",
+   "based": "Berkeley, US",
+   "based_zh": "美国伯克利",
+   "born": 1960,
+   "found_via": "https://www.jaronlanier.com/"
+  },
+  {
+   "id": "person--botao-amber-hu",
+   "name": "Botao 'Amber' Hu",
+   "name_zh": "胡博涛",
+   "type": "researcher",
+   "themes": [
+    "xr",
+    "agents",
+    "presence"
+   ],
+   "fields": [
+    "genxr"
+   ],
+   "description": "Designer and researcher who directs Reality Design Lab and teaches mixed reality design at the China Academy of Art; maker of the open HoloKit headset and of this gallery.",
+   "description_zh": "设计师与研究者，主持现实设计实验室（Reality Design Lab），在中国美术学院教授混合现实设计；开源 HoloKit 头显及本图库的创作者。",
+   "known_for": [
+    "HoloKit (open-source MR headset)",
+    "EchoVision",
+    "Generative Immersive Reality Inspire (2026)"
+   ],
+   "url": "https://amber.botao.hu/",
+   "links": [
+    {
+     "label": "Reality Design Lab",
+     "url": "https://reality.design/"
+    }
+   ],
+   "creator_id": "botao-amber-hu",
+   "found_via": "https://amber.botao.hu/"
+  },
+  {
+   "id": "person--mel-slater",
+   "name": "Mel Slater",
+   "type": "researcher",
+   "themes": [
+    "presence",
+    "behavioral-research"
+   ],
+   "fields": [
+    "behavioral"
+   ],
+   "description": "Virtual reality researcher who leads the Event Lab at the University of Barcelona; his place illusion and plausibility account defines presence, and his virtual Milgram and bystander studies show that people respond realistically to virtual others.",
+   "description_zh": "在巴塞罗那大学领导 Event Lab 的虚拟现实研究者；他提出的“位置错觉与合理性错觉”定义了临场感，他的虚拟米尔格拉姆实验与旁观者研究表明，人们会对虚拟他人做出真实反应。",
+   "known_for": [
+    "Place illusion and plausibility (Phil. Trans. R. Soc. B, 2009)",
+    "A Virtual Reprise of the Stanley Milgram Obedience Experiments (PLoS ONE, 2006)",
+    "Bystander responses to a violent incident in an immersive virtual environment (PLoS ONE, 2013)"
+   ],
+   "url": "https://www.ub.edu/eventlab/EventLab/",
+   "links": [
+    {
+     "label": "X",
+     "url": "https://x.com/melslater"
+    }
+   ],
+   "based": "Barcelona, ES",
+   "based_zh": "西班牙巴塞罗那",
+   "creator_id": "mel-slater",
+   "found_via": "https://www.ub.edu/eventlab/EventLab/"
+  },
+  {
+   "id": "person--mavi-sanchez-vives",
+   "name": "Maria V. Sanchez-Vives",
+   "type": "researcher",
+   "themes": [
+    "presence",
+    "behavioral-research"
+   ],
+   "fields": [
+    "behavioral"
+   ],
+   "description": "ICREA research professor at IDIBAPS in Barcelona who leads its Systems Neuroscience group and is a long-time collaborator of Mel Slater at the Event Lab; she studies presence, body ownership and how virtual bodies change behavior.",
+   "description_zh": "巴塞罗那 IDIBAPS 研究所的 ICREA 研究教授，领导系统神经科学组，长期与 Event Lab 的 Mel Slater 合作；她研究临场感、身体拥有感，以及虚拟身体如何改变行为。",
+   "known_for": [
+    "From presence to consciousness through virtual reality (Nat. Rev. Neurosci., 2005)",
+    "Enhancing Our Lives with Immersive Virtual Reality (Frontiers in Robotics and AI, 2016)"
+   ],
+   "url": "https://ca.wikipedia.org/wiki/Mavi_S%C3%A1nchez-Vives",
+   "links": [
+    {
+     "label": "Event Lab",
+     "url": "https://www.ub.edu/eventlab/EventLab/"
+    }
+   ],
+   "based": "Barcelona, ES",
+   "based_zh": "西班牙巴塞罗那",
+   "found_via": "https://ca.wikipedia.org/wiki/Mavi_S%C3%A1nchez-Vives"
+  },
+  {
+   "id": "person--sylvia-xueni-pan",
+   "name": "Sylvia Xueni Pan",
+   "type": "researcher",
+   "themes": [
+    "behavioral-research",
+    "virtual-humans",
+    "training"
+   ],
+   "fields": [
+    "behavioral"
+   ],
+   "description": "Professor of Virtual Reality at Goldsmiths, University of London, who co-leads its MA/MSc in Virtual and Augmented Reality; she uses virtual characters to study social interaction and to train doctors' responses to difficult patients.",
+   "description_zh": "伦敦大学金史密斯学院虚拟现实教授，共同主持该校虚拟与增强现实硕士项目；她用虚拟角色研究社会互动，并训练医生应对棘手病人。",
+   "known_for": [
+    "Why and how to use virtual reality to study human social interaction (British Journal of Psychology, 2018)",
+    "GPs' responses to patient demand for antibiotics in VR (2016)"
+   ],
+   "url": "https://www.panxueni.com/",
+   "based": "London, UK",
+   "based_zh": "英国伦敦",
+   "creator_id": "sylvia-xueni-pan",
+   "found_via": "https://www.panxueni.com/"
+  },
+  {
+   "id": "person--antonia-hamilton",
+   "name": "Antonia Hamilton",
+   "type": "researcher",
+   "themes": [
+    "behavioral-research",
+    "virtual-humans"
+   ],
+   "fields": [
+    "behavioral"
+   ],
+   "description": "Professor of social neuroscience at UCL's Institute of Cognitive Neuroscience who studies imitation, gaze and nonverbal coordination in face-to-face interaction, using motion capture and virtual characters.",
+   "description_zh": "伦敦大学学院认知神经科学研究所社会神经科学教授，借助动作捕捉与虚拟角色研究面对面互动中的模仿、注视与非语言协调。",
+   "known_for": [
+    "Why and how to use virtual reality to study human social interaction (with Pan, 2018)",
+    "Social neuroscience of mimicry"
+   ],
+   "url": "https://antoniahamilton.com/",
+   "links": [
+    {
+     "label": "UCL profile",
+     "url": "https://profiles.ucl.ac.uk/1546-antonia-hamilton"
+    }
+   ],
+   "based": "London, UK",
+   "based_zh": "英国伦敦",
+   "found_via": "https://antoniahamilton.com/"
+  },
+  {
+   "id": "person--jeremy-bailenson",
+   "name": "Jeremy Bailenson",
+   "type": "researcher",
+   "themes": [
+    "presence",
+    "behavioral-research",
+    "virtual-humans"
+   ],
+   "fields": [
+    "behavioral"
+   ],
+   "description": "Founding director of Stanford's Virtual Human Interaction Lab; his Proteus effect and transformed social interaction studies showed how avatars change the people who wear them.",
+   "description_zh": "斯坦福大学虚拟人交互实验室（VHIL）创始主任；他关于“普罗透斯效应”与“变换的社会互动”的研究揭示了化身如何改变使用它的人。",
+   "known_for": [
+    "The Proteus Effect (Human Communication Research, 2007)",
+    "Transformed Social Interaction (2004)",
+    "Experience on Demand (2018)"
+   ],
+   "url": "https://vhil.stanford.edu/people/jeremy-bailenson",
+   "image": "https://vhil.stanford.edu/sites/g/files/sbiybj29011/files/styles/card_1192x596/public/media/image/bailenson.jpg?h=04d92ac6&itok=GI32-DTX",
+   "based": "Stanford, US",
+   "based_zh": "美国斯坦福",
+   "creator_id": "jeremy-bailenson",
+   "found_via": "https://vhil.stanford.edu/people/jeremy-bailenson"
+  },
+  {
+   "id": "person--jim-blascovich",
+   "name": "Jim Blascovich",
+   "type": "researcher",
+   "themes": [
+    "behavioral-research",
+    "presence"
+   ],
+   "fields": [
+    "behavioral"
+   ],
+   "description": "Distinguished Professor Emeritus of psychology at UC Santa Barbara whose 2002 paper made immersive virtual environments a methodological tool for social psychology, trading off experimental control against mundane realism.",
+   "description_zh": "加州大学圣塔芭芭拉分校心理学杰出荣休教授；他 2002 年的论文把沉浸式虚拟环境确立为社会心理学的方法工具，在实验控制与日常真实性之间取得平衡。",
+   "known_for": [
+    "Immersive virtual environment technology as a methodological tool for social psychology (Psychological Inquiry, 2002)",
+    "Infinite Reality (with Bailenson, 2011)"
+   ],
+   "url": "https://psych.ucsb.edu/people/emeriti/jim-blascovich",
+   "image": "https://psych.ucsb.edu/sites/default/files/styles/max_325x325/public/images/people/blascovich.jpg?itok=AjbpczlR",
+   "based": "Santa Barbara, US",
+   "based_zh": "美国圣塔芭芭拉",
+   "creator_id": "jim-blascovich",
+   "found_via": "https://psych.ucsb.edu/people/emeriti/jim-blascovich"
+  },
+  {
+   "id": "person--jean-louis-van-gelder",
+   "name": "Jean-Louis van Gelder",
+   "type": "researcher",
+   "themes": [
+    "behavioral-research",
+    "training"
+   ],
+   "fields": [
+    "behavioral"
+   ],
+   "description": "Director at the Max Planck Institute for the Study of Crime, Security and Law in Freiburg who brought VR into criminology, most famously by having burglars walk through a virtual neighbourhood.",
+   "description_zh": "弗莱堡马克斯·普朗克犯罪、安全与法律研究所所长，把 VR 引入犯罪学研究，最著名的是让入室盗窃者在虚拟街区中行走的研究。",
+   "known_for": [
+    "Virtual Burglary (Journal of Research in Crime and Delinquency, 2017)",
+    "Virtual Reality for Criminologists (Crime and Justice, 2023)"
+   ],
+   "url": "https://csl.mpg.de/en/jean-louis-van-gelder",
+   "links": [
+    {
+     "label": "Max Planck Institute",
+     "url": "https://csl.mpg.de/en"
+    }
+   ],
+   "image": "https://csl.mpg.de/153278/teaser-1624517225.jpg?t=ZXlKM2FXUjBhQ0k2TVRJd01Dd2lhR1ZwWjJoMElq",
+   "based": "Freiburg, DE",
+   "based_zh": "德国弗莱堡",
+   "creator_id": "jean-louis-van-gelder",
+   "found_via": "https://csl.mpg.de/en/jean-louis-van-gelder"
+  },
+  {
+   "id": "person--albert-skip-rizzo",
+   "name": "Albert \"Skip\" Rizzo",
+   "type": "researcher",
+   "themes": [
+    "training",
+    "behavioral-research",
+    "virtual-humans"
+   ],
+   "fields": [
+    "behavioral"
+   ],
+   "description": "Director for Medical Virtual Reality at the USC Institute for Creative Technologies, behind the Bravemind VR exposure therapy for PTSD and virtual standardized patients for clinical training.",
+   "description_zh": "南加州大学创意技术研究所（ICT）医疗虚拟现实主任，主导了用于创伤后应激障碍的 Bravemind VR 暴露疗法，以及用于临床培训的虚拟标准化病人。",
+   "known_for": [
+    "Bravemind / Virtual Iraq (2005–)",
+    "SimCoach (2011)",
+    "Virtual standardized patients"
+   ],
+   "url": "https://ict.usc.edu/about-us/leadership/research-leadership/albert-skip-rizzo/",
+   "image": "https://ict.usc.edu/wp-content/uploads/2021/10/Albert-Skip-Rizzo.jpg",
+   "based": "Los Angeles, US",
+   "based_zh": "美国洛杉矶",
+   "creator_id": "albert-rizzo",
+   "found_via": "https://ict.usc.edu/about-us/leadership/research-leadership/albert-skip-rizzo/"
+  },
+  {
+   "id": "person--jonathan-gratch",
+   "name": "Jonathan Gratch",
+   "type": "researcher",
+   "themes": [
+    "virtual-humans",
+    "behavioral-research",
+    "training"
+   ],
+   "fields": [
+    "avatars",
+    "behavioral"
+   ],
+   "description": "Professor at the USC Institute for Creative Technologies who directs its Affective Computing Group; he builds computational models of emotion for virtual humans and studies why people disclose more to them.",
+   "description_zh": "南加州大学创意技术研究所教授，主持情感计算组；他为虚拟人构建情绪计算模型，并研究人们为何更愿意向虚拟人吐露心声。",
+   "known_for": [
+    "EMA: a process model of appraisal dynamics (2009)",
+    "It's only a computer: virtual humans increase willingness to disclose (2014)",
+    "SimSensei Kiosk (AAMAS 2014)"
+   ],
+   "url": "https://people.ict.usc.edu/~gratch/",
+   "based": "Los Angeles, US",
+   "based_zh": "美国洛杉矶",
+   "found_via": "https://people.ict.usc.edu/~gratch/"
+  },
+  {
+   "id": "person--daniel-freeman",
+   "name": "Daniel Freeman",
+   "type": "researcher",
+   "themes": [
+    "behavioral-research",
+    "training"
+   ],
+   "fields": [
+    "behavioral"
+   ],
+   "description": "Professor of clinical psychology at the University of Oxford who uses VR to study and treat paranoia; his gameChange trial tested automated VR therapy with a virtual coach for people with psychosis.",
+   "description_zh": "牛津大学临床心理学教授，用 VR 研究和治疗偏执；他的 gameChange 试验检验了由虚拟教练引导的自动化 VR 疗法对精神病患者的效果。",
+   "known_for": [
+    "gameChange automated VR therapy trial (Lancet Psychiatry, 2022)",
+    "Automated VR treatment for fear of heights (Lancet Psychiatry, 2018)"
+   ],
+   "url": "https://en.wikipedia.org/wiki/Daniel_Freeman_(psychologist)",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Prof_Daniel_Freeman_-_EdSciFest_2014_%2825%29.JPG/960px-Prof_Daniel_Freeman_-_EdSciFest_2014_%2825%29.JPG",
+   "based": "Oxford, UK",
+   "based_zh": "英国牛津",
+   "creator_id": "daniel-freeman",
+   "found_via": "https://en.wikipedia.org/wiki/Daniel_Freeman_(psychologist)"
+  },
+  {
+   "id": "person--guido-makransky",
+   "name": "Guido Makransky",
+   "type": "researcher",
+   "themes": [
+    "training",
+    "behavioral-research",
+    "presence"
+   ],
+   "fields": [
+    "behavioral"
+   ],
+   "description": "Professor of educational psychology at the University of Copenhagen whose CAMIL model explains when immersive VR helps learning, and whose experiments found that more presence can mean less learning.",
+   "description_zh": "哥本哈根大学教育心理学教授；他提出的 CAMIL 模型解释了沉浸式 VR 何时有助于学习，他的实验还发现临场感更强有时反而学得更少。",
+   "known_for": [
+    "CAMIL: Cognitive Affective Model of Immersive Learning (Educational Psychology Review, 2021)",
+    "Adding immersive VR to a science lab simulation causes more presence but less learning (2019)"
+   ],
+   "url": "https://researchprofiles.ku.dk/en/persons/guido-makransky/",
+   "based": "Copenhagen, DK",
+   "based_zh": "丹麦哥本哈根",
+   "creator_id": "guido-makransky",
+   "found_via": "https://researchprofiles.ku.dk/en/persons/guido-makransky/"
+  },
+  {
+   "id": "person--cristobal-valenzuela",
+   "name": "Cristóbal Valenzuela",
+   "type": "builder",
+   "themes": [
+    "video-generation",
+    "world-models"
+   ],
+   "fields": [
+    "video",
+    "world-models"
+   ],
+   "description": "Co-founder and CEO of Runway, which took video generation from research to filmmaking tools (Gen-1 to Gen-4.5) and in 2025 moved into general world models.",
+   "description_zh": "Runway 联合创始人兼首席执行官；Runway 把视频生成从研究带进电影制作工具（Gen-1 至 Gen-4.5），并在 2025 年转向通用世界模型。",
+   "known_for": [
+    "Runway Gen-2 (2023)",
+    "Gen-4 (2025)",
+    "GWM-1 world model (2025)"
+   ],
+   "url": "https://en.wikipedia.org/wiki/Crist%C3%B3bal_Valenzuela",
+   "links": [
+    {
+     "label": "X",
+     "url": "https://x.com/c_valenzuelab"
+    },
+    {
+     "label": "Runway",
+     "url": "https://runwayml.com/"
+    }
+   ],
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Crist%C3%B3bal_Valenzuela%2C_Founder_%26_CEO%2C_Runway_%2854916364486%29_%28cropped%29.jpg/960px-Crist%C3%B3bal_Valenzuela%2C_Founder_%26_CEO%2C_Runway_%2854916364486%29_%28cropped%29.jpg",
+   "based": "New York, US",
+   "based_zh": "美国纽约",
+   "born": 1989,
+   "found_via": "https://en.wikipedia.org/wiki/Crist%C3%B3bal_Valenzuela"
+  },
+  {
+   "id": "person--amit-jain",
+   "name": "Amit Jain",
+   "type": "builder",
+   "themes": [
+    "video-generation",
+    "gaussian-splatting"
+   ],
+   "fields": [
+    "video",
+    "spatial-4d"
+   ],
+   "description": "Co-founder and CEO of Luma AI, which moved from NeRF capture apps to the Dream Machine and Ray video models and now describes its mission as general physical AI.",
+   "description_zh": "Luma AI 联合创始人兼首席执行官；Luma 从 NeRF 拍摄应用起步，推出 Dream Machine 与 Ray 系列视频模型，如今把使命描述为“通用物理 AI”。",
+   "known_for": [
+    "Luma NeRF capture app (2022)",
+    "Dream Machine (2024)",
+    "Ray3 (2025)"
+   ],
+   "url": "https://x.com/gravicle",
+   "links": [
+    {
+     "label": "Luma AI",
+     "url": "https://lumalabs.ai/"
+    }
+   ],
+   "based": "San Francisco, US",
+   "based_zh": "美国旧金山",
+   "found_via": "https://x.com/gravicle"
+  },
+  {
+   "id": "person--hassaan-raza",
+   "name": "Hassaan Raza",
+   "type": "builder",
+   "themes": [
+    "virtual-humans",
+    "agents"
+   ],
+   "fields": [
+    "avatars"
+   ],
+   "description": "Co-founder and CEO of Tavus, whose conversational video interface pairs perception, turn-taking and face models; in October 2026 Tavus launched Griffin, which it calls a human interaction model.",
+   "description_zh": "Tavus 联合创始人兼首席执行官；Tavus 的对话式视频接口把感知、轮流发言与人脸模型组合在一起，并于 2026 年 10 月推出被其称为“人类交互模型”的 Griffin。",
+   "known_for": [
+    "Tavus CVI (2024)",
+    "Phoenix / Raven / Sparrow models",
+    "Griffin (2026)"
+   ],
+   "url": "https://www.tavus.io/griffin",
+   "links": [
+    {
+     "label": "Tavus",
+     "url": "https://www.tavus.io/"
+    }
+   ],
+   "based": "San Francisco, US",
+   "based_zh": "美国旧金山",
+   "found_via": "https://www.tavus.io/griffin"
+  },
+  {
+   "id": "person--joshua-xu",
+   "name": "Joshua Xu",
+   "type": "builder",
+   "themes": [
+    "virtual-humans",
+    "video-generation"
+   ],
+   "fields": [
+    "avatars"
+   ],
+   "description": "Co-founder and CEO of HeyGen, the avatar video platform whose interactive avatars bring talking-head generation into real-time conversation.",
+   "description_zh": "HeyGen 联合创始人兼首席执行官；HeyGen 是虚拟人视频平台，其交互式虚拟人把说话人像生成带入实时对话。",
+   "known_for": [
+    "HeyGen avatar video (2020–)",
+    "HeyGen Interactive Avatar / LiveAvatar"
+   ],
+   "url": "https://x.com/joshua_xu_",
+   "links": [
+    {
+     "label": "HeyGen",
+     "url": "https://www.heygen.com/"
+    }
+   ],
+   "based": "Los Angeles, US",
+   "based_zh": "美国洛杉矶",
+   "found_via": "https://x.com/joshua_xu_"
+  },
+  {
+   "id": "person--mati-staniszewski",
+   "name": "Mati Staniszewski",
+   "type": "builder",
+   "themes": [
+    "speech-audio"
+   ],
+   "fields": [
+    "audio"
+   ],
+   "description": "Co-founder and CEO of ElevenLabs, whose expressive text-to-speech, voice cloning and agent platform became the default voice layer for many generated characters.",
+   "description_zh": "ElevenLabs 联合创始人兼首席执行官；其富有表现力的文本转语音、声音克隆与智能体平台，成为许多生成角色默认的声音层。",
+   "known_for": [
+    "ElevenLabs TTS (2023)",
+    "Eleven v3 (2025)",
+    "ElevenLabs Agents platform"
+   ],
+   "url": "https://en.wikipedia.org/wiki/Mati_Staniszewski",
+   "links": [
+    {
+     "label": "ElevenLabs",
+     "url": "https://elevenlabs.io/"
+    }
+   ],
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Mati_Staniszewski_%282022%29.jpg/960px-Mati_Staniszewski_%282022%29.jpg",
+   "based": "London, UK",
+   "based_zh": "英国伦敦",
+   "born": 1995,
+   "found_via": "https://en.wikipedia.org/wiki/Mati_Staniszewski"
+  },
+  {
+   "id": "person--ethan-hu",
+   "name": "Ethan (Yuanming) Hu",
+   "name_zh": "胡渊鸣",
+   "type": "builder",
+   "themes": [
+    "3d-generation",
+    "open-source"
+   ],
+   "fields": [
+    "assets"
+   ],
+   "description": "Founder and CEO of Meshy, the text- and image-to-3D asset generator; before that he created the Taichi programming language for graphics during his MIT PhD.",
+   "description_zh": "Meshy 创始人兼首席执行官，Meshy 是文本 / 图像生成三维资产的工具；此前他在 MIT 读博期间创造了面向图形学的 Taichi 编程语言。",
+   "known_for": [
+    "Taichi (SIGGRAPH Asia 2019)",
+    "Meshy (2023–)",
+    "DiffTaichi (ICLR 2020)"
+   ],
+   "url": "https://yuanming.taichi.graphics/",
+   "links": [
+    {
+     "label": "Meshy",
+     "url": "https://www.meshy.ai/about"
+    }
+   ],
+   "found_via": "https://yuanming.taichi.graphics/"
+  },
+  {
+   "id": "person--dean-leitersdorf",
+   "name": "Dean Leitersdorf",
+   "type": "builder",
+   "themes": [
+    "video-generation",
+    "world-models"
+   ],
+   "fields": [
+    "video",
+    "world-models"
+   ],
+   "description": "Co-founder and CEO of Decart, which builds real-time generative video: Oasis, a playable Minecraft-like world model (with Etched), and MirageLSD, live video-to-video restyling.",
+   "description_zh": "Decart 联合创始人兼首席执行官，公司开发实时生成视频：与 Etched 合作的可玩类 Minecraft 世界模型 Oasis，以及实时视频风格转换 MirageLSD。",
+   "known_for": [
+    "Oasis (2024)",
+    "MirageLSD (2025)"
+   ],
+   "url": "https://x.com/dleitersdorf",
+   "links": [
+    {
+     "label": "Decart",
+     "url": "https://decart.ai/"
+    }
+   ],
+   "based": "San Francisco, US / Tel Aviv, IL",
+   "based_zh": "美国旧金山 / 以色列特拉维夫",
+   "found_via": "https://x.com/dleitersdorf"
+  },
+  {
+   "id": "person--oliver-cameron",
+   "name": "Oliver Cameron",
+   "type": "builder",
+   "themes": [
+    "world-models"
+   ],
+   "fields": [
+    "world-models"
+   ],
+   "description": "Co-founder and CEO of Odyssey, which builds foundation world models that stream interactive video; previously he worked on self-driving cars at Voyage and Cruise.",
+   "description_zh": "Odyssey 联合创始人兼首席执行官，公司开发可流式输出交互视频的基础世界模型；此前他在 Voyage 与 Cruise 从事自动驾驶。",
+   "known_for": [
+    "Odyssey interactive video (2025)",
+    "Voyage self-driving (2017–2021)"
+   ],
+   "url": "https://x.com/olivercameron",
+   "links": [
+    {
+     "label": "Odyssey",
+     "url": "https://odyssey.systems/"
+    }
+   ],
+   "based": "San Francisco, US",
+   "based_zh": "美国旧金山",
+   "found_via": "https://x.com/olivercameron"
+  },
+  {
+   "id": "person--victor-riparbelli",
+   "name": "Victor Riparbelli",
+   "type": "builder",
+   "themes": [
+    "virtual-humans",
+    "ethics"
+   ],
+   "fields": [
+    "avatars"
+   ],
+   "description": "Co-founder and CEO of Synthesia, the AI avatar video company he started with researchers Lourdes Agapito and Matthias Nießner; it has been an early voice for consent rules on synthetic people.",
+   "description_zh": "Synthesia 联合创始人兼首席执行官，该虚拟人视频公司由他与研究者 Lourdes Agapito、Matthias Nießner 等共同创立；它较早倡导合成人物的知情同意规则。",
+   "known_for": [
+    "Synthesia avatars (2017–)",
+    "Synthesia Expressive Avatars (2024)"
+   ],
+   "url": "https://x.com/vriparbelli",
+   "links": [
+    {
+     "label": "Synthesia",
+     "url": "https://www.synthesia.io/"
+    }
+   ],
+   "based": "London, UK",
+   "based_zh": "英国伦敦",
+   "found_via": "https://x.com/vriparbelli"
+  },
+  {
+   "id": "person--brendan-iribe",
+   "name": "Brendan Iribe",
+   "type": "builder",
+   "themes": [
+    "speech-audio",
+    "xr"
+   ],
+   "fields": [
+    "audio",
+    "genxr"
+   ],
+   "description": "Oculus co-founder who co-founded Sesame, the voice-companion company whose Conversational Speech Model (2025) made AI voices pause, laugh and interrupt like people; Sesame is also building smart glasses.",
+   "description_zh": "Oculus 联合创始人，后又联合创办语音伴侣公司 Sesame；其对话语音模型（CSM，2025）让 AI 声音能像人一样停顿、发笑和打断。Sesame 也在开发智能眼镜。",
+   "known_for": [
+    "Oculus Rift (2012–2016)",
+    "Sesame CSM / Maya and Miles (2025)"
+   ],
+   "url": "https://en.wikipedia.org/wiki/Brendan_Iribe",
+   "links": [
+    {
+     "label": "Sesame",
+     "url": "https://www.sesame.com/"
+    }
+   ],
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Brendan_Iribe_Oculus_CEO_2015.jpg/960px-Brendan_Iribe_Oculus_CEO_2015.jpg",
+   "based": "San Francisco, US",
+   "based_zh": "美国旧金山",
+   "born": 1979,
+   "found_via": "https://en.wikipedia.org/wiki/Brendan_Iribe"
+  },
+  {
+   "id": "person--yan-junjie",
+   "name": "Yan Junjie",
+   "name_zh": "闫俊杰",
+   "type": "builder",
+   "themes": [
+    "video-generation",
+    "speech-audio"
+   ],
+   "fields": [
+    "video",
+    "audio"
+   ],
+   "description": "Co-founder and CEO of MiniMax, the Shanghai company behind the Hailuo video models and the Speech series of TTS models.",
+   "description_zh": "MiniMax 联合创始人兼首席执行官；这家上海公司推出了海螺（Hailuo）视频模型与 Speech 系列语音合成模型。",
+   "known_for": [
+    "Hailuo Video-01 (2024)",
+    "Hailuo 02 (2025)",
+    "MiniMax Speech-02 (2025)"
+   ],
+   "url": "https://en.wikipedia.org/wiki/Yan_Junjie",
+   "links": [
+    {
+     "label": "MiniMax",
+     "url": "https://www.minimax.io/"
+    }
+   ],
+   "based": "Shanghai, CN",
+   "based_zh": "中国上海",
+   "born": 1989,
+   "found_via": "https://en.wikipedia.org/wiki/Yan_Junjie"
+  },
+  {
+   "id": "person--refik-anadol",
+   "name": "Refik Anadol",
+   "type": "artist",
+   "themes": [
+    "video-generation",
+    "xr"
+   ],
+   "fields": [
+    "video"
+   ],
+   "description": "Media artist whose studio turns large datasets into immersive, room-scale generative works; its Large Nature Model and the Dataland museum in Los Angeles make AI-generated nature into an environment people walk into.",
+   "description_zh": "媒体艺术家，其工作室把大规模数据转化为沉浸式、房间尺度的生成作品；“大自然模型”（Large Nature Model）与洛杉矶 Dataland 美术馆把 AI 生成的自然变成人们可以走进去的环境。",
+   "known_for": [
+    "Unsupervised (MoMA, 2022)",
+    "Large Nature Model (2024)",
+    "Dataland (Los Angeles)"
+   ],
+   "url": "https://refikanadol.com/",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Refik_Anadol"
+    }
+   ],
+   "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Dubai_Future_Forum_2024_-_Refik_Anadol.jpg",
+   "based": "Los Angeles, US",
+   "based_zh": "美国洛杉矶",
+   "born": 1985,
+   "found_via": "https://refikanadol.com/"
+  },
+  {
+   "id": "person--ian-cheng",
+   "name": "Ian Cheng",
+   "type": "artist",
+   "themes": [
+    "agents",
+    "world-models"
+   ],
+   "fields": [
+    "agents"
+   ],
+   "description": "Artist who makes live simulations: open-ended virtual ecosystems whose agents keep acting and changing without a script, the art-world counterpart of generative agent worlds.",
+   "description_zh": "创作“实时模拟”的艺术家：开放式的虚拟生态，其中的智能体无剧本地持续行动和变化，是生成式智能体世界在艺术领域的对应物。",
+   "known_for": [
+    "Emissaries trilogy (2015–2017)",
+    "BOB (Bag of Beliefs) (2018–2019)",
+    "Life After BOB (2021)"
+   ],
+   "url": "https://iancheng.com/",
+   "links": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ian_Cheng"
+    }
+   ],
+   "based": "New York, US",
+   "based_zh": "美国纽约",
+   "born": 1984,
+   "found_via": "https://iancheng.com/"
+  },
+  {
+   "id": "person--paul-trillo",
+   "name": "Paul Trillo",
+   "type": "artist",
+   "themes": [
+    "video-generation"
+   ],
+   "fields": [
+    "video"
+   ],
+   "description": "Writer-director who made some of the first commissioned films with Sora, including the 2024 music video for Washed Out's The Hardest Part, built from a single endless zoom through generated scenes.",
+   "description_zh": "编剧兼导演，最早受邀用 Sora 创作影片的创作者之一，包括 2024 年为 Washed Out 的《The Hardest Part》制作的音乐录影带，整部片由一次穿过生成场景的无尽推镜构成。",
+   "known_for": [
+    "The Hardest Part (Washed Out, made with Sora, 2024)"
+   ],
+   "url": "https://paultrillo.com/",
+   "links": [
+    {
+     "label": "X",
+     "url": "https://x.com/paultrillo"
+    }
+   ],
+   "based": "Los Angeles, US",
+   "based_zh": "美国洛杉矶",
+   "found_via": "https://paultrillo.com/"
+  },
+  {
+   "id": "person--nonny-de-la-pena",
+   "name": "Nonny de la Peña",
+   "type": "artist",
+   "themes": [
+    "presence",
+    "xr",
+    "ethics"
+   ],
+   "fields": [
+    "behavioral",
+    "genxr"
+   ],
+   "description": "Journalist and filmmaker credited with creating immersive journalism; founder of Emblematic Group, whose VR pieces such as Hunger in Los Angeles put viewers bodily inside reconstructed real events.",
+   "description_zh": "记者与电影人，被誉为“沉浸式新闻”的开创者；Emblematic Group 创始人，其 VR 作品如《Hunger in Los Angeles》让观众亲身置于重建的真实事件之中。",
+   "known_for": [
+    "Hunger in Los Angeles (Sundance 2012)",
+    "Project Syria (2014)",
+    "Immersive Journalism (Presence, 2010)"
+   ],
+   "url": "https://en.wikipedia.org/wiki/Nonny_de_la_Pe%C3%B1a",
+   "links": [
+    {
+     "label": "Emblematic Group",
+     "url": "https://emblematicgroup.com/"
+    },
+    {
+     "label": "X",
+     "url": "https://x.com/nonnydlp"
+    }
+   ],
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/SXSW-2024-alih-OB7A0967-Nonny_de_la_Pena.jpg/960px-SXSW-2024-alih-OB7A0967-Nonny_de_la_Pena.jpg",
+   "based": "Los Angeles, US",
+   "based_zh": "美国洛杉矶",
+   "found_via": "https://en.wikipedia.org/wiki/Nonny_de_la_Pe%C3%B1a"
+  },
+  {
+   "id": "person--keiichi-matsuda",
+   "name": "Keiichi Matsuda",
+   "type": "artist",
+   "themes": [
+    "xr",
+    "agents"
+   ],
+   "fields": [
+    "genxr"
+   ],
+   "description": "Designer and filmmaker whose short film Hyper-Reality pictured a city saturated with augmented-reality ads and assistant agents; his later work designs AI agents for everyday mixed reality.",
+   "description_zh": "设计师与电影人，短片《Hyper-Reality》描绘了一座被增强现实广告与助手智能体淹没的城市；他之后的工作为日常混合现实设计 AI 智能体。",
+   "known_for": [
+    "Hyper-Reality (2016)",
+    "Merger (2018)"
+   ],
+   "url": "http://km.cx/",
+   "image": "http://km.cx/cms/images/home-carousel/hyper_6_1200.jpg",
+   "based": "London, UK",
+   "based_zh": "英国伦敦",
+   "found_via": "http://km.cx/"
+  },
+  {
+   "id": "person--hsin-chien-huang",
+   "name": "Hsin-Chien Huang",
+   "name_zh": "黄心健",
+   "type": "artist",
+   "themes": [
+    "xr",
+    "presence"
+   ],
+   "fields": [
+    "genxr"
+   ],
+   "description": "Taiwanese new-media artist whose VR works, including To the Moon with Laurie Anderson and Bodyless, are landmarks of immersive storytelling at Venice and other festivals.",
+   "description_zh": "台湾新媒体艺术家，其 VR 作品（包括与 Laurie Anderson 合作的《To the Moon》以及《Bodyless》）是威尼斯等影展上沉浸式叙事的代表作。",
+   "known_for": [
+    "La Camera Insabbiata / Chalkroom (with Laurie Anderson, Venice 2017)",
+    "To the Moon (2018)",
+    "Bodyless (2019)"
+   ],
+   "url": "https://hsinchienhuang.com/",
+   "based": "Taipei, TW",
+   "based_zh": "中国台湾台北",
+   "born": 1966,
+   "found_via": "https://hsinchienhuang.com/"
+  }
+ ]
+}

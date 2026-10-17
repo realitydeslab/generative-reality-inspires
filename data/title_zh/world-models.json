@@ -1,0 +1,118 @@
+{
+  "google-deepmind--project-genie-street-view": {
+    "zh": "Project Genie：街景锚定",
+    "src": "translated"
+  },
+  "google-deepmind--project-genie": {
+    "zh": "Project Genie",
+    "src": "keep"
+  },
+  "tencent-hunyuan--hunyuan-gamecraft": {
+    "zh": "混元 GameCraft",
+    "src": "established"
+  },
+  "tencent-hunyuan--hy-world-1-5-worldplay": {
+    "zh": "混元世界 1.5（WorldPlay）",
+    "src": "established"
+  },
+  "skywork--matrix-game-2": {
+    "zh": "Matrix-Game 2.0（昆仑万维）",
+    "src": "keep"
+  },
+  "skywork--matrix-game-3": {
+    "zh": "Matrix-Game 3.0（昆仑万维）",
+    "src": "keep"
+  },
+  "skywork--matrix-game-4": {
+    "zh": "Matrix-Game 4.0（昆仑万维）",
+    "src": "keep"
+  },
+  "robbyant--lingbot-world": {
+    "zh": "LingBot-World（蚂蚁灵波）",
+    "src": "keep"
+  },
+  "robbyant--lingbot-world-2": {
+    "zh": "LingBot-World 2.0（蚂蚁灵波）",
+    "src": "keep"
+  },
+  "pixverse--r1": {
+    "zh": "PixVerse R1（爱诗科技）",
+    "src": "keep"
+  },
+  "pixverse--r2": {
+    "zh": "PixVerse R2（爱诗科技）",
+    "src": "keep"
+  },
+  "david-ha--world-models": {
+    "zh": "世界模型（World Models）",
+    "src": "translated"
+  },
+  "microsoft--muse-wham": {
+    "zh": "Muse（世界与人类动作模型 WHAM）",
+    "src": "translated"
+  },
+  "jiwen-yu--context-as-memory": {
+    "zh": "以上下文为记忆（Context-as-Memory）",
+    "src": "translated"
+  },
+  "tong-wu--spatial-memory": {
+    "zh": "具备长期空间记忆的视频世界模型",
+    "src": "translated"
+  },
+  "amir-bar--navigation-world-models": {
+    "zh": "导航世界模型",
+    "src": "translated"
+  },
+  "boyuan-chen--diffusion-forcing": {
+    "zh": "扩散强制（Diffusion Forcing）",
+    "src": "translated"
+  },
+  "waymo--world-model": {
+    "zh": "Waymo 世界模型",
+    "src": "translated"
+  },
+  "1x-technologies--world-model": {
+    "zh": "1X 世界模型",
+    "src": "translated"
+  },
+  "sherry-yang--unisim": {
+    "zh": "UniSim：可交互的真实世界模拟器",
+    "src": "translated"
+  },
+  "xindi-wu--worldtrace": {
+    "zh": "WorldTrace：视频世界模型的可寻址记忆",
+    "src": "translated"
+  },
+  "zeqi-xiao--worldmem": {
+    "zh": "WorldMem：带记忆的长期一致世界模拟",
+    "src": "translated"
+  },
+  "jiwen-yu--gamefactory": {
+    "zh": "GameFactory：用生成式交互视频创造新游戏",
+    "src": "translated"
+  },
+  "danijar-hafner--dreamer-4": {
+    "zh": "Dreamer 4：在可扩展世界模型中训练智能体",
+    "src": "translated"
+  },
+  "google--gamengen": {
+    "zh": "GameNGen：扩散模型即实时游戏引擎",
+    "src": "translated"
+  },
+  "eloi-alonso--diamond": {
+    "zh": "DIAMOND：扩散世界模型",
+    "src": "translated"
+  },
+  "tencent--yan": {
+    "zh": "Yan（腾讯）",
+    "src": "keep"
+  },
+  "odyssey--agora-2": {
+    "zh": "Agora-2：多智能体世界模型",
+    "src": "translated"
+  },
+  "general-intuition--mira": {
+    "zh": "MIRA：多人交互世界模型",
+    "src": "translated"
+  }
+}

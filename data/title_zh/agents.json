@@ -1,0 +1,42 @@
+{
+  "joon-sung-park--generative-agents": {
+    "zh": "生成式智能体（Smallville 小镇）",
+    "src": "translated"
+  },
+  "joon-sung-park--1000-people": {
+    "zh": "1,000 人的生成式智能体模拟",
+    "src": "translated"
+  },
+  "google-deepmind--xland": {
+    "zh": "XLand：开放式学习智能体",
+    "src": "translated"
+  },
+  "openai--hide-and-seek": {
+    "zh": "多智能体捉迷藏",
+    "src": "translated"
+  },
+  "nvidia--ace-kairos": {
+    "zh": "NVIDIA ACE 游戏演示：Kairos",
+    "src": "translated"
+  },
+  "krafton--pubg-ally": {
+    "zh": "PUBG Ally（AI 队友）",
+    "src": "translated"
+  },
+  "epic-games--fortnite-darth-vader": {
+    "zh": "《堡垒之夜》AI 达斯·维达",
+    "src": "established"
+  },
+  "nvidia--total-war-pharaoh-advisor": {
+    "zh": "《全面战争：法老》AI 顾问（NVIDIA ACE 演示）",
+    "src": "translated"
+  },
+  "netease--naraka-ai-teammate": {
+    "zh": "《永劫无间》AI 队友",
+    "src": "established"
+  },
+  "ubisoft--teammates": {
+    "zh": "Teammates（育碧 AI 队友实验）",
+    "src": "translated"
+  }
+}

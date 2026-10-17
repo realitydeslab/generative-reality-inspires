@@ -1,0 +1,15 @@
+{
+ "_note": "Applied by tools/build_data.py after the batches: merge_creators {src: dst}, drop_works [ids], patch_works {id: {field: value}}.",
+ "patch_works": {
+  "openai--gpt-live": {
+   "method": "Full-duplex architecture that processes input continuously while generating output, with background delegation to a reasoning model.",
+   "method_zh": "全双工架构：在生成输出的同时持续处理输入，并把推理任务委托给后台模型。",
+   "keywords": [
+    "full-duplex",
+    "ChatGPT Voice",
+    "backchannel",
+    "background reasoning"
+   ]
+  }
+ }
+}

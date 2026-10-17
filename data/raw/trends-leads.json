@@ -1,0 +1,336 @@
+{
+ "batch": "trends-leads",
+ "creators": [],
+ "works": [],
+ "leads": [
+  {
+   "name": "Runway GWM Worlds 2 (2026-09-03)",
+   "why": "world-models: real-time interactive world, 720p/24 fps video + 48 kHz audio, WorldPrompt (persistent context + timestamped event stream), multi-role sessions; research preview. Signals trend-realtime, trend-native-audio, trend-agents-in-worlds. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://runwayml.com/research/introducing-gwm-worlds-2",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Runway Solaris — Interface World Model (2026-08-31)",
+   "why": "world-models: generates interactive software interfaces frame by frame; also pitched for training computer-use agents (trend-agents-in-worlds).",
+   "link": "https://runwayml.com/news/research/introducing-solaris",
+   "found_via": "trends",
+   "status": "open"
+  },
+  {
+   "name": "Decart Oasis 3 (2026-06-10)",
+   "why": "world-models/simulation: interactive world model for physical AI, starting with autonomous driving; API from launch (developer claim). Signals trend-physical-ai. API price $0.02/s (driving only; throttle/steering in, three camera streams out). [Already in another batch file as of 2026-10-17.]",
+   "link": "https://docs.platform.decart.ai/models/realtime/oasis-3",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Odyssey-3 (2026-09-15)",
+   "why": "world-models: one foundation world model with action decoders for robot arms, humanoids, cars, drones and game agents; API access offered. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://odyssey.ml/introducing-odyssey-3",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Odyssey Agora-1 / Starchild-1 / Odyssey-2 Max",
+   "why": "world-models / agents: listed in Odyssey's Series B post (2026-06-17) — multi-agent shared world simulation (Agora-1), real-time multimodal world model (Starchild-1); find each launch page and video. [Already in world-models.json: odyssey--agora-2 (successor); Starchild-1 / Odyssey-2 Max not checked; checked 2026-10-17.]",
+   "link": "https://odyssey.ml/our-series-b",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Skywork Matrix-Game 3.0 (2026-03-27)",
+   "why": "world-models (open): 720p real-time at 40 fps with a 5B model, long-horizon memory (developer claim); open weights. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://huggingface.co/Skywork/Matrix-Game-3.0",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Skywork Matrix-Game 4.0 (2026-10-15)",
+   "why": "world-models (open): executable game engine + causal video model for streaming neural rendering; up to 67 fps on RTX 5080 at 864x480 (developer claim); open weights and game assets. Key hybrid signal for trend-explicit-3d and trend-open-weights. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://github.com/SkyworkAI/Matrix-Game",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Tencent HY-World 1.5 (WorldPlay) (2025-12-17)",
+   "why": "world-models (open): real-time interactive world model with geometric consistency; training code released 2026-01-06. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://github.com/Tencent-Hunyuan/HY-WorldPlay",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "NVIDIA Cosmos 3 (GTC 2026)",
+   "why": "world-models/simulation (open): omni-model family Super 64B / Nano 16B / Edge 4B, OpenMDW 1.1; world generation + action prediction. Signals trend-omni, trend-physical-ai, trend-open-weights. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Waymo World Model (2026-02-06)",
+   "why": "world-models/simulation: Genie 3 post-trained to generate camera + lidar for rare driving events (trend-grounded, trend-physical-ai). [Already in another batch file as of 2026-10-17.]",
+   "link": "https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation/",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Microsoft WHAM-RT / Muse 2026 update",
+   "why": "world-models/game: real-time WHAM playable in Copilot Labs; 'Empowering Creators and Players With Muse' (2026-02-19); team moved to Microsoft AI (2026-09-23). Check for a 2026 work and video. [Already in world-models.json: microsoft--whamm (add the 2026-09-23 move to Microsoft AI as status); checked 2026-10-17.]",
+   "link": "https://www.microsoft.com/en-us/research/project/wham/news-and-awards/",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "World Labs Atlas (2026-09-01)",
+   "why": "worlds-3d (also world-models): omni world model on text, images, video, 3D; up to 1 min of 1440p camera-controlled video plus explicit 3D; early access. Note status: World Labs joining AMD (2026-09-28). [Already in another batch file as of 2026-10-17.]",
+   "link": "https://www.worldlabs.ai/blog/atlas",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "World Labs World API (2026-01-21)",
+   "why": "infra/apis: public API generating explorable 3D worlds (Marble) from text, images, panoramas, multi-view and video. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://www.worldlabs.ai/blog/announcing-the-world-api",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "World Labs Spark 2.0 (2026-04-14)",
+   "why": "spatial-4d/capture-tools or infra/engines: open web 3DGS renderer with streamed level-of-detail, runs in VR browsers. [Already in spatial-4d.json: world-labs--spark (add 2.0 LoD streaming, 2026-04-14); checked 2026-10-17.]",
+   "link": "https://www.worldlabs.ai/blog/spark-2.0",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Tencent HY-World 2.0 (2026-04-16)",
+   "why": "worlds-3d (open): multi-modal world model producing meshes / 3DGS for Blender, Unity, UE, Isaac Sim; WorldMirror 2.0, HY-Pano 2.0, WorldStereo 2.0 weights; HY World 2.1 product July 2026. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Tencent Hunyuan3D-WorldClaw (2026-08-07)",
+   "why": "worlds-3d / agents: agentic 3D open-world generation at scale (arXiv 2608.05248). [Already in another batch file as of 2026-10-17.]",
+   "link": "https://github.com/Tencent-Hunyuan/Hunyuan3D-WorldClaw",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Gemini Omni / Omni Flash (2026-05-19; 1.1 Flash 2026-08-27)",
+   "why": "video: 'create anything from any input — starting with video'; conversational multi-turn video editing; GA in Gemini API at about $0.10/s (720p). Signals trend-omni. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://deepmind.google/blog/introducing-gemini-omni/",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Kling 3.0 / Video 3.0 Omni (2026-02-05)",
+   "why": "video: unified multimodal training; native multilingual speech; up to 15 s. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://www.prnewswire.com/news-releases/kling-ai-launches-3-0-model-ushering-in-an-era-where-everyone-can-be-a-director-302679944.html",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Kling 4.0 (2026-10-16)",
+   "why": "video: up to 30 s per pass, extension to 2 min planned, 10-bit HDR, 4K, up to 15 references + 10 keyframes (per Kuaishou IR summary; page blocks fetch); API later. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-officially-launches-next-generation-kling-40-raising",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Seedance 2.0 (Feb 2026)",
+   "why": "video: native joint audio-video, 4–15 s, 480p/720p, up to 3 video / 9 image / 3 audio references; tech report arXiv 2604.14148. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://seed.bytedance.com/en/seedance2_0",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Lightricks LTX-2.5 (22B) (2026-07-23)",
+   "why": "video (open): gated open weights with joint text-to-audio-video tasks; ~2.0M downloads. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://huggingface.co/Lightricks/LTX-2.5",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Decart Lucy 2 (2026-01-26) and Lucy 2.5 (2026-07-16)",
+   "why": "video/realtime: live video-to-video world transformation at 30 fps 1080p (developer claim). [Already in another batch file as of 2026-10-17.]",
+   "link": "https://decart.ai/publications/lucy-2-5-raising-the-bar-for-live-ai",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Meta Muse Video (preview 2026-07-07)",
+   "why": "video: first MSL video model with native audio; 'coming soon'; Content Seal watermark planned for video.",
+   "link": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+   "found_via": "trends",
+   "status": "open"
+  },
+  {
+   "name": "Sora 2 — status update",
+   "why": "video: update the Sora 2 work's status — app and web discontinued 2026-04-26; Sora 2 / Videos API removed 2026-09-24 with no replacement; user data deleted after export window.",
+   "link": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+   "found_via": "trends",
+   "status": "open"
+  },
+  {
+   "name": "Gemini 3.8 Live with Live Avatar (2026-09-24)",
+   "why": "avatars/conversational: near real-time video avatar coupled to native live dialogue; 97 languages; SynthID; custom avatars by allowlist. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Meta Hologram (Ray-Ban Display; Hologram Calling on Meta VR Glasses) (2026-09-23)",
+   "why": "avatars/avatar-3d: photorealistic face from a short self-capture, driven entirely by voice; early access fall 2026; Hologram Calling on VR Glasses Spring 2027.",
+   "link": "https://about.fb.com/news/2026/09/new-features-for-meta-ray-ban-display-navigation-hologram/",
+   "found_via": "trends",
+   "status": "open"
+  },
+  {
+   "name": "OpenAI GPT-Live / GPT-Live-1 API (2026-07-08 / 2026-09-10)",
+   "why": "audio/duplex-speech: full-duplex voice model without turn detector; API at $0.05/min. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Gemini 3.8 Live (2026-09-15)",
+   "why": "audio/duplex-speech: low-latency audio-to-audio live models incl. Extended Thinking; audio $0.005/min in, $0.018/min out. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Wan2.2-Animate-2-14B and Wan-Dancer-14B (2026-07)",
+   "why": "avatars or assets/motion (open): Alibaba's 2026 open releases are character-animation models.",
+   "link": "https://huggingface.co/Wan-AI",
+   "found_via": "trends",
+   "status": "open"
+  },
+  {
+   "name": "Google DeepMind D4RT (2026-01)",
+   "why": "spatial-4d/dynamic: unified 4D reconstruction and tracking; 1-min video in ~5 s on one TPU (developer claim).",
+   "link": "https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/",
+   "found_via": "trends",
+   "status": "open"
+  },
+  {
+   "name": "Google Beam expansion (2026-09-23)",
+   "why": "spatial-4d/volumetric: status update for Google Beam — 6 countries, 18 partners, HP hardware. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "PackUV: Packed Gaussian UV maps for 4D volumetric video (2026)",
+   "why": "spatial-4d/volumetric: 4D Gaussian volumetric video representation (arXiv 2602.23040).",
+   "link": "https://arxiv.org/abs/2602.23040",
+   "found_via": "trends",
+   "status": "open"
+  },
+  {
+   "name": "Meta VR Glasses (2026-09-23)",
+   "why": "infra/devices: ~100 g VR glasses, 5K micro-OLED, 37 ppd, Snapdragon Reality Elite; $1,299.99, Spring 2027.",
+   "link": "https://about.fb.com/news/2026/09/introducing-meta-vr-glasses-3d-movies-immersive-live-sports-100-grams/",
+   "found_via": "trends",
+   "status": "open"
+  },
+  {
+   "name": "Snap SPECS consumer AR glasses (2026-09-16)",
+   "why": "infra/devices: pre-order $2,195; ships fall 2026 (US, UK, FR); Connected Lenses; SPECS Intelligence. [Already in infra.json: snap--specs; checked 2026-10-17.]",
+   "link": "https://newsroom.snap.com/making-computing-more-human-with-specs",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "XREAL AURA (Android XR) (reservations 2026-06-16)",
+   "why": "infra/devices: wired Android XR glasses, 70° optical see-through, Gemini, photo/video-to-3D; $1,279 / $1,499; fall 2026. [Already in infra.json: xreal--aura; checked 2026-10-17.]",
+   "link": "https://www.xreal.com/us/aura",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "glTF KHR_gaussian_splatting (ratified 2026)",
+   "why": "infra/engines: Khronos-ratified glTF extension for Gaussian splats (Cesium, Niantic Spatial, Esri, NVIDIA, Huawei, Autodesk). [Already in another batch file as of 2026-10-17.]",
+   "link": "https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_gaussian_splatting",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "WorldRoamBench (2026-06-30)",
+   "why": "infra/benchmarks: long-horizon stability benchmark for interactive world models (action, drift, physics, memory; 1000+ cases); finds no model satisfies all dimensions.",
+   "link": "https://arxiv.org/abs/2606.31672",
+   "found_via": "trends",
+   "status": "open"
+  },
+  {
+   "name": "MBench (2026-05-30)",
+   "why": "infra/benchmarks: memory benchmark for video world models (entity, environment, causal consistency).",
+   "link": "https://arxiv.org/abs/2606.00793",
+   "found_via": "trends",
+   "status": "open"
+  },
+  {
+   "name": "NVIDIA VideoFDB (full-duplex audio-visual conversation benchmark)",
+   "why": "infra/benchmarks: cited by Tavus Griffin as NVIDIA's benchmark for full-duplex audio-visual conversation; find the official paper or page. [Already in avatars.json: nvidia--videofdb; checked 2026-10-17.]",
+   "link": "https://www.tavus.io/griffin",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "visionOS 27 spatial scenes from panoramas (WWDC 2026-06-08)",
+   "why": "genxr/platform: Vision Pro turns panoramas into spatial scenes usable as Environments; Safari fully immersive 360° web. [related work worlds-3d.json: apple--spatial-scenes (visionOS 26); update it with the visionOS 27 panorama-to-spatial-scene feature rather than adding a new work; checked 2026-10-17.]",
+   "link": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+   "found_via": "trends",
+   "status": "open"
+  },
+  {
+   "name": "Google Playground + Unity Spark (2026-10-07)",
+   "why": "genxr/platform or infra: prompt-to-game platform; Unity Spark integration for 3D games in closed beta soon.",
+   "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+   "found_via": "trends",
+   "status": "open"
+  },
+  {
+   "name": "CyberSelf: embodied self-distancing in VR (2026)",
+   "why": "behavioral/clinical or genai-research: self-resembling avatar + cloned self-voice + LLM dialogue; short-term study (arXiv 2608.07521).",
+   "link": "https://arxiv.org/abs/2608.07521",
+   "found_via": "trends",
+   "status": "open"
+  },
+  {
+   "name": "AI-driven virtual patient for breaking bad news (2026)",
+   "why": "behavioral/training: LLM dialogue + real-time facial animation in VR; formative study with 7 experts (arXiv 2607.22118).",
+   "link": "https://arxiv.org/abs/2607.22118",
+   "found_via": "trends",
+   "status": "open"
+  },
+  {
+   "name": "Beyond Monoscopic Viewing: 3DGS quality in VR (2026)",
+   "why": "behavioral/theory or spatial-4d: HMD study showing standard metrics miss stereo-salient 3DGS artifacts (arXiv 2609.38525).",
+   "link": "https://arxiv.org/abs/2609.38525",
+   "found_via": "trends",
+   "status": "open"
+  },
+  {
+   "name": "AMI Labs (Yann LeCun)",
+   "why": "resources (org): JEPA-style world-model lab; raised $1.03B (TechCrunch 2026-03-10); Paris / New York / Montreal / Singapore.",
+   "link": "https://amilabs.xyz/",
+   "found_via": "trends",
+   "status": "open"
+  },
+  {
+   "name": "Simile (generative-agent simulation of people)",
+   "why": "resources (org) / agents: company from the Stanford generative-agents researchers; raised $200M+ at $2B post-money (2026-07-30) to simulate how customers, employees or populations respond to change. Signal for trend-genai-behavioral. [Already in another batch file as of 2026-10-17.]",
+   "link": "https://www.simile.ai/blog/series-b",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Roblox Build (prompt-to-game) and Scene Generator (RDC 2026-09-11)",
+   "why": "genxr/platform or infra/engines: Build in public alpha with ~9,000 games published; Scene Generator (prompt + reference image -> functional layout) coming later in 2026. [Already in infra.json: roblox--build-ai-creation (add Scene Generator detail there); checked 2026-10-17.]",
+   "link": "https://corp.roblox.com/newsroom/2026/09/rdc-2026-the-world-needs-more-play",
+   "found_via": "trends",
+   "status": "duplicate"
+  }
+ ]
+}

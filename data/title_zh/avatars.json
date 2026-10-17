@@ -1,0 +1,138 @@
+{
+ "alibaba-tongyi--emo": {
+  "zh": "EMO：让人像活起来",
+  "src": "translated"
+ },
+ "evonne-ng--learning-to-listen": {
+  "zh": "学会倾听：非确定性双人面部动作建模",
+  "src": "translated"
+ },
+ "evonne-ng--audio2photoreal": {
+  "zh": "Audio2Photoreal：从音频到照片级对话化身",
+  "src": "translated"
+ },
+ "meta--seamless-interaction": {
+  "zh": "Seamless Interaction 双人互动数据集与模型",
+  "src": "translated"
+ },
+ "shunsuke-saito--relightable-gaussian-codec-avatars": {
+  "zh": "可重光照高斯 Codec Avatars",
+  "src": "translated"
+ },
+ "junxuan-li--large-scale-codec-avatars": {
+  "zh": "大规模 Codec Avatars（LCA）",
+  "src": "translated"
+ },
+ "junxuan-li--uravatar": {
+  "zh": "URAvatar：通用可重光照高斯化身",
+  "src": "translated"
+ },
+ "shenhan-qian--gaussianavatars": {
+  "zh": "GaussianAvatars：绑定三维高斯的照片级头部化身",
+  "src": "translated"
+ },
+ "alibaba-tongyi--lam": {
+  "zh": "LAM 大型化身模型",
+  "src": "translated"
+ },
+ "alibaba-tongyi--wan-streamer": {
+  "zh": "Wan-Streamer：面向实时交互的端到端基础模型",
+  "src": "original"
+ },
+ "ailing-zeng--lpm-1": {
+  "zh": "LPM 1.0 大型表演模型",
+  "src": "translated"
+ },
+ "avaturn-live--avtr-1": {
+  "zh": "AVTR-1：实时交互虚拟人开源方案",
+  "src": "translated"
+ },
+ "habin-lim--faceplex": {
+  "zh": "FacePlex：全双工对话虚拟人",
+  "src": "translated"
+ },
+ "synthesia--sessions": {
+  "zh": "Sessions 交互虚拟人会话",
+  "src": "translated"
+ },
+ "d-id--v4-expressive-agents": {
+  "zh": "V4 Expressive 可视化智能体",
+  "src": "translated"
+ },
+ "lemonslice--cwm-1": {
+  "zh": "角色世界模型 CWM-1",
+  "src": "translated"
+ },
+ "heygen--liveavatar": {
+  "zh": "LiveAvatar 实时虚拟人",
+  "src": "translated"
+ },
+ "nvidia--videofdb": {
+  "zh": "VideoFDB 全双工视听对话基准",
+  "src": "translated"
+ },
+ "taekyung-ki--avatar-forcing": {
+  "zh": "Avatar Forcing：实时交互头部虚拟人",
+  "src": "translated"
+ },
+ "bytedance-seed--infp": {
+  "zh": "INFP：双人对话中的交互式头部生成",
+  "src": "translated"
+ },
+ "tavus--raven-1": {
+  "zh": "Raven-1 多模态感知模型",
+  "src": "translated"
+ },
+ "tavus--sparrow-2": {
+  "zh": "Sparrow-2 轮流发言模型",
+  "src": "translated"
+ },
+ "tavus--griffin": {
+  "zh": "Griffin 人类交互模型",
+  "src": "translated"
+ },
+ "meta--codec-avatars": {
+  "zh": "Codec Avatars 照片级远程临场化身",
+  "src": "translated"
+ },
+ "apple--personas": {
+  "zh": "Persona 数字分身（visionOS 26）",
+  "src": "translated"
+ },
+ "tencent-hunyuan--hunyuanvideo-avatar": {
+  "zh": "混元 HunyuanVideo-Avatar",
+  "src": "established"
+ },
+ "kuaishou--midas": {
+  "zh": "MIDAS：实时自回归多模态交互数字人",
+  "src": "translated"
+ },
+ "alibaba-quark--live-avatar": {
+  "zh": "Live Avatar：无限时长实时流式虚拟人",
+  "src": "translated"
+ },
+ "character-ai--talkingmachines": {
+  "zh": "TalkingMachines：实时 FaceTime 式音频驱动视频",
+  "src": "translated"
+ },
+ "nvidia--audio2face-3d": {
+  "zh": "Audio2Face-3D 语音驱动面部动画",
+  "src": "translated"
+ },
+ "k-r-prajwal--wav2lip": {
+  "zh": "Wav2Lip 唇形同步",
+  "src": "translated"
+ },
+ "microsoft--vasa-1": {
+  "zh": "VASA-1：实时生成的逼真说话人脸",
+  "src": "translated"
+ },
+ "google-deepmind--gemini-live-avatar": {
+  "zh": "Gemini 3.8 Live 实时虚拟人（Live Avatar）",
+  "src": "translated"
+ },
+ "tavus--cvi": {
+  "zh": "Tavus 对话视频接口（CVI）",
+  "src": "translated"
+ }
+}

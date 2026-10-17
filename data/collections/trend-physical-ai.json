@@ -1,0 +1,18 @@
+[
+ "nvidia--cosmos",
+ "nvidia--cosmos-3",
+ "waymo--world-model",
+ "decart--oasis-3",
+ "odyssey--odyssey-3",
+ "wayve--gaia-2",
+ "wayve--gaia-4",
+ "meta--v-jepa-2",
+ "sherry-yang--unisim",
+ "1x-technologies--world-model",
+ "danijar-hafner--dreamer-4",
+ "nvidia--omniverse-nurec",
+ "world-labs--atlas",
+ "robbyant--lingbot-map",
+ "nvidia--nitrogen",
+ "bytedance-seed--seed3d-2"
+]

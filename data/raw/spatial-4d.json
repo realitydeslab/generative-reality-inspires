@@ -1,0 +1,4399 @@
+{
+  "batch": "spatial-4d",
+  "creators": [
+    {
+      "id": "4dv-ai",
+      "name": "4DV.ai",
+      "kind": "company",
+      "role": "4D Gaussian video startup",
+      "bio": "Startup building capture, playback and editing tools for 4D video based on Gaussian splatting; its CEO Jiaming Sun co-authored FreeTimeGS. Its Infinite Studio demo won Best in Show at SIGGRAPH 2025 Real-Time Live, as reported by Radiancefields.com.",
+      "why": "Treats 4D Gaussian video as a medium people can step into, which is the capture side of a navigable, time-varying situation.",
+      "disciplines": [
+        "graphics",
+        "media-art"
+      ],
+      "role_zh": "4D 高斯视频创业公司",
+      "bio_zh": "基于高斯泼溅开发 4D 视频拍摄、播放与编辑工具的创业公司，CEO 孙佳明是 FreeTimeGS 的合著者。据 Radiancefields.com 报道，其 Infinite Studio 演示获得 SIGGRAPH 2025 Real-Time Live 最佳展示奖。",
+      "why_zh": "把 4D 高斯视频当作人可以走进去的媒介，是可漫游、随时间变化的情境在捕捉一侧的实现。",
+      "links": {
+        "site": "https://www.4dv.ai",
+        "x": "https://x.com/4DV_ai",
+        "youtube": "https://www.youtube.com/@4DV_ai"
+      },
+      "connected_to": [
+        "zju3dv",
+        "yifan-wang-zju"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "gracia-ai",
+      "name": "Gracia",
+      "kind": "company",
+      "role": "Volumetric Gaussian video company",
+      "bio": "Company that streams 4D Gaussian splat video to Quest, Pico, Apple Vision Pro, desktop and the browser, and in 2026 describes its focus as world reconstruction models for physical AI.",
+      "why": "Shows what it takes to ship dynamic splat captures to headsets at consumer bandwidths.",
+      "disciplines": [
+        "graphics",
+        "media-art"
+      ],
+      "role_zh": "体积高斯视频公司",
+      "bio_zh": "将 4D 高斯泼溅视频流式传输到 Quest、Pico、Apple Vision Pro、桌面与浏览器的公司，2026 年起把重点表述为面向物理 AI 的世界重建模型。",
+      "why_zh": "展示了以消费级带宽把动态泼溅捕捉送到头显上需要什么。",
+      "links": {
+        "site": "https://gracia.ai/"
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "arcturus",
+      "name": "Arcturus",
+      "kind": "company",
+      "role": "Volumetric video software company",
+      "bio": "Maker of HoloSuite, a toolset for editing, compressing and streaming volumetric video, which has since moved into Gaussian-splat sports replays.",
+      "why": "Represents the post-production layer that turns raw volumetric captures into deliverable, editable media.",
+      "disciplines": [
+        "graphics",
+        "media-art"
+      ],
+      "role_zh": "体积视频软件公司",
+      "bio_zh": "HoloSuite 的开发者，这套工具用于编辑、压缩与流式传输体积视频，后来转向基于高斯泼溅的体育回放。",
+      "why_zh": "代表了把原始体积捕捉变成可交付、可编辑媒体的后期制作层。",
+      "links": {
+        "site": "https://arcturus.studio/"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "based": "San Francisco, US",
+      "based_zh": "美国旧金山"
+    },
+    {
+      "id": "jawset",
+      "name": "Jawset",
+      "kind": "company",
+      "role": "Developer of Postshot",
+      "bio": "Small software company that makes Postshot, a desktop application for training and editing radiance fields and Gaussian splats on a local GPU.",
+      "why": "Puts splat training on a researcher's own workstation, which matters when footage cannot leave the lab.",
+      "disciplines": [
+        "graphics"
+      ],
+      "role_zh": "Postshot 开发商",
+      "bio_zh": "开发 Postshot 的小型软件公司，Postshot 是在本地 GPU 上训练和编辑辐射场与高斯泼溅的桌面应用。",
+      "why_zh": "让泼溅训练在研究者自己的工作站上完成，对素材不能离开实验室的情况很重要。",
+      "links": {
+        "site": "https://www.jawset.com/"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "based": "Germany",
+      "based_zh": "德国"
+    },
+    {
+      "id": "varjo",
+      "name": "Varjo",
+      "kind": "company",
+      "role": "XR headset and reconstruction company",
+      "bio": "Finnish maker of high-resolution XR headsets that launched Teleport, a cloud service that turns phone or camera footage into Gaussian splat scenes.",
+      "why": "Links capture of real places to professional XR viewing and training use.",
+      "disciplines": [
+        "graphics",
+        "hci"
+      ],
+      "role_zh": "XR 头显与重建公司",
+      "bio_zh": "芬兰高分辨率 XR 头显厂商，推出了 Teleport 云服务，把手机或相机素材转换为高斯泼溅场景。",
+      "why_zh": "把真实地点的捕捉与专业 XR 观看和训练用途连接起来。",
+      "links": {
+        "site": "https://varjo.com/"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "based": "Helsinki, FI",
+      "based_zh": "芬兰赫尔辛基"
+    },
+    {
+      "id": "naver-labs-europe",
+      "name": "NAVER LABS Europe",
+      "kind": "lab",
+      "role": "Research lab of NAVER",
+      "bio": "Grenoble research centre of the Korean company NAVER, home of the DUSt3R / MASt3R family of 3D foundation models.",
+      "why": "Its pointmap regression idea started the shift from slow structure-from-motion to one-pass reconstruction.",
+      "disciplines": [
+        "graphics",
+        "robotics"
+      ],
+      "role_zh": "NAVER 的欧洲研究院",
+      "bio_zh": "韩国 NAVER 公司位于格勒诺布尔的研究中心，DUSt3R / MASt3R 系列三维基础模型的出处。",
+      "why_zh": "它提出的点图回归思路开启了从缓慢的运动恢复结构到一次前向重建的转变。",
+      "links": {
+        "site": "https://europe.naverlabs.com/"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "based": "Grenoble, FR",
+      "based_zh": "法国格勒诺布尔"
+    },
+    {
+      "id": "inria-graphdeco",
+      "name": "Inria GraphDeco",
+      "kind": "lab",
+      "role": "Graphics research group at Inria",
+      "bio": "Research group led by George Drettakis at Inria Université Côte d'Azur, origin of 3D Gaussian Splatting and its hierarchical extension.",
+      "why": "Made photoreal real-time novel views practical on consumer GPUs.",
+      "disciplines": [
+        "graphics"
+      ],
+      "role_zh": "Inria 图形学研究组",
+      "bio_zh": "由 George Drettakis 领导的 Inria 蔚蓝海岸大学研究组，3D 高斯泼溅及其层级扩展的出处。",
+      "why_zh": "让照片级的实时新视角渲染在消费级 GPU 上变得可行。",
+      "links": {
+        "site": "https://team.inria.fr/graphdeco/"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "based": "Sophia Antipolis, FR",
+      "based_zh": "法国索菲亚科技园"
+    },
+    {
+      "id": "zju3dv",
+      "name": "ZJU3DV",
+      "kind": "lab",
+      "role": "3D vision group at Zhejiang University",
+      "bio": "Computer vision group of Xiaowei Zhou and Sida Peng at Zhejiang University's State Key Lab of CAD&CG, active in dynamic human and scene capture.",
+      "why": "A main source of long volumetric video and 4D Gaussian methods, and the research lineage behind 4DV.ai.",
+      "disciplines": [
+        "graphics"
+      ],
+      "role_zh": "浙江大学三维视觉组",
+      "bio_zh": "浙江大学 CAD&CG 国家重点实验室周晓巍、彭思达团队，长期研究动态人体与场景捕捉。",
+      "why_zh": "长时体积视频与 4D 高斯方法的重要来源，也是 4DV.ai 的研究源头。",
+      "links": {
+        "site": "https://zju3dv.github.io/",
+        "github": "https://github.com/zju3dv"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "name_zh": "浙江大学三维视觉组",
+      "based": "Hangzhou, CN",
+      "based_zh": "中国杭州"
+    },
+    {
+      "id": "robbyant",
+      "name": "Robbyant",
+      "kind": "company",
+      "role": "Embodied AI unit of Ant Group",
+      "bio": "Ant Group's embodied-intelligence company, which publishes the open LingBot family of models for robots and spatial perception.",
+      "why": "Its streaming reconstruction model is one of the most-starred open 3D releases of 2026.",
+      "disciplines": [
+        "robotics",
+        "graphics"
+      ],
+      "role_zh": "蚂蚁集团具身智能公司",
+      "bio_zh": "蚂蚁集团旗下的具身智能公司，发布面向机器人与空间感知的开源 LingBot 系列模型。",
+      "why_zh": "它的流式重建模型是 2026 年 GitHub 星标最多的开源三维发布之一。",
+      "links": {
+        "site": "https://technology.robbyant.com/",
+        "github": "https://github.com/Robbyant"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "name_zh": "蚂蚁灵波科技",
+      "based": "Hangzhou, CN",
+      "based_zh": "中国杭州"
+    },
+    {
+      "id": "ben-mildenhall",
+      "name": "Ben Mildenhall",
+      "kind": "person",
+      "role": "Researcher, co-founder of World Labs",
+      "bio": "First author of NeRF (2020), later at Google Research, now a co-founder of World Labs.",
+      "why": "NeRF made learned, photoreal novel-view synthesis the starting point of the whole field.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "研究者，World Labs 联合创始人",
+      "bio_zh": "NeRF（2020）第一作者，后在 Google Research 工作，现为 World Labs 联合创始人。",
+      "why_zh": "NeRF 让可学习的照片级新视角合成成为整个领域的起点。",
+      "links": {},
+      "connected_to": [
+        "world-labs",
+        "google"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "thomas-muller",
+      "name": "Thomas Müller",
+      "kind": "person",
+      "role": "Researcher, NVIDIA",
+      "bio": "NVIDIA researcher, first author of Instant Neural Graphics Primitives (instant-ngp).",
+      "why": "Cut NeRF training from hours to seconds, which made radiance fields interactive to make.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "NVIDIA 研究者",
+      "bio_zh": "NVIDIA 研究者，Instant Neural Graphics Primitives（instant-ngp）第一作者。",
+      "why_zh": "把 NeRF 训练从几小时缩短到几秒，让辐射场的制作过程变得可交互。",
+      "links": {},
+      "connected_to": [
+        "nvidia"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "jonathan-barron",
+      "name": "Jonathan T. Barron",
+      "kind": "person",
+      "role": "Research scientist, Google DeepMind",
+      "bio": "Google researcher behind mip-NeRF, mip-NeRF 360, Zip-NeRF and many radiance-field quality benchmarks.",
+      "why": "His unbounded 360° scenes became the standard test of whether a capture holds up when you walk around.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "Google DeepMind 研究科学家",
+      "bio_zh": "Google 研究者，mip-NeRF、mip-NeRF 360、Zip-NeRF 等工作以及多项辐射场质量基准的作者。",
+      "why_zh": "他的无界 360° 场景成了检验捕捉在绕行观看时是否站得住的标准。",
+      "links": {},
+      "connected_to": [
+        "google",
+        "google-deepmind"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "bernhard-kerbl",
+      "name": "Bernhard Kerbl",
+      "kind": "person",
+      "role": "Researcher, Inria / TU Wien",
+      "bio": "Co-first author of 3D Gaussian Splatting (SIGGRAPH 2023) and first author of its hierarchical version for very large scenes.",
+      "why": "3DGS is the representation most capture apps, viewers and 4D methods now build on.",
+      "disciplines": [
+        "graphics"
+      ],
+      "role_zh": "Inria / 维也纳工业大学研究者",
+      "bio_zh": "3D 高斯泼溅（SIGGRAPH 2023）共同第一作者，也是其超大场景层级版本的第一作者。",
+      "why_zh": "3DGS 是如今大多数捕捉应用、查看器和 4D 方法所依赖的表示。",
+      "links": {},
+      "connected_to": [
+        "inria-graphdeco"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "zehao-yu",
+      "name": "Zehao Yu",
+      "kind": "person",
+      "role": "Researcher, University of Tübingen",
+      "bio": "PhD researcher in Andreas Geiger's group, first author of Mip-Splatting.",
+      "why": "Fixed the aliasing that appears when a splat scene is viewed at a different scale than it was captured.",
+      "disciplines": [
+        "graphics"
+      ],
+      "role_zh": "图宾根大学研究者",
+      "bio_zh": "Andreas Geiger 团队的博士研究者，Mip-Splatting 第一作者。",
+      "why_zh": "解决了以不同于拍摄时的尺度观看泼溅场景时出现的走样问题。",
+      "links": {},
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "binbin-huang",
+      "name": "Binbin Huang",
+      "kind": "person",
+      "role": "Researcher, ShanghaiTech University",
+      "bio": "First author of 2D Gaussian Splatting (SIGGRAPH 2024).",
+      "why": "Made splats yield clean surfaces, so captures can become meshes for physics and interaction.",
+      "disciplines": [
+        "graphics"
+      ],
+      "role_zh": "上海科技大学研究者",
+      "bio_zh": "2D 高斯泼溅（SIGGRAPH 2024）第一作者。",
+      "why_zh": "让泼溅可以得到干净的表面，使捕捉结果能变成用于物理与交互的网格。",
+      "links": {},
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "nicolas-moenne-loccoz",
+      "name": "Nicolas Moenne-Loccoz",
+      "kind": "person",
+      "role": "Researcher, NVIDIA",
+      "bio": "NVIDIA researcher, first author of 3D Gaussian Ray Tracing (3DGRT).",
+      "why": "Brought ray-traced effects such as reflections and wide-angle lenses to Gaussian scenes.",
+      "disciplines": [
+        "graphics"
+      ],
+      "role_zh": "NVIDIA 研究者",
+      "bio_zh": "NVIDIA 研究者，3D Gaussian Ray Tracing（3DGRT）第一作者。",
+      "why_zh": "把反射、广角镜头等光线追踪效果带到了高斯场景中。",
+      "links": {},
+      "connected_to": [
+        "nvidia"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "qi-wu",
+      "name": "Qi Wu",
+      "kind": "person",
+      "role": "Researcher, NVIDIA",
+      "bio": "NVIDIA researcher, first author of 3DGUT (CVPR 2025).",
+      "why": "Made splats work with distorted cameras such as fisheye lenses and rolling shutters used on robots and headsets.",
+      "disciplines": [
+        "graphics",
+        "robotics"
+      ],
+      "role_zh": "NVIDIA 研究者",
+      "bio_zh": "NVIDIA 研究者，3DGUT（CVPR 2025）第一作者。",
+      "why_zh": "让泼溅能处理机器人和头显上常见的鱼眼镜头、卷帘快门等畸变相机。",
+      "links": {},
+      "connected_to": [
+        "nvidia"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "daniel-duckworth",
+      "name": "Daniel Duckworth",
+      "kind": "person",
+      "role": "Research engineer, Google DeepMind",
+      "bio": "Google researcher, first author of SMERF, a streamable radiance field for large scenes in a web browser.",
+      "why": "Showed house-scale radiance fields running in real time on phones and laptops.",
+      "disciplines": [
+        "graphics"
+      ],
+      "role_zh": "Google DeepMind 研究工程师",
+      "bio_zh": "Google 研究者，SMERF 第一作者，这是一种可在浏览器中流式加载大场景的辐射场。",
+      "why_zh": "展示了房屋尺度的辐射场在手机与笔记本上实时运行。",
+      "links": {},
+      "connected_to": [
+        "google-deepmind"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "david-charatan",
+      "name": "David Charatan",
+      "kind": "person",
+      "role": "PhD researcher, MIT",
+      "bio": "MIT researcher, first author of pixelSplat (CVPR 2024).",
+      "why": "One of the first networks to output Gaussian splats directly from two photos.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "麻省理工学院博士研究者",
+      "bio_zh": "麻省理工学院研究者，pixelSplat（CVPR 2024）第一作者。",
+      "why_zh": "最早从两张照片直接输出高斯泼溅的网络之一。",
+      "links": {},
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "shuzhe-wang",
+      "name": "Shuzhe Wang",
+      "kind": "person",
+      "role": "Researcher, Aalto University / NAVER LABS Europe",
+      "bio": "First author of DUSt3R (CVPR 2024), developed at NAVER LABS Europe.",
+      "why": "DUSt3R turned uncalibrated photo pairs into 3D pointmaps without camera poses.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "阿尔托大学 / NAVER LABS Europe 研究者",
+      "bio_zh": "DUSt3R（CVPR 2024）第一作者，该工作在 NAVER LABS Europe 完成。",
+      "why_zh": "DUSt3R 在没有相机位姿的情况下，把未标定的照片对直接变成三维点图。",
+      "links": {},
+      "connected_to": [
+        "naver-labs-europe"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "vincent-leroy",
+      "name": "Vincent Leroy",
+      "kind": "person",
+      "role": "Researcher, NAVER LABS Europe",
+      "bio": "NAVER LABS Europe researcher, first author of MASt3R (ECCV 2024).",
+      "why": "Added dense matching to the pointmap approach, making it usable for mapping and SLAM.",
+      "disciplines": [
+        "graphics",
+        "robotics"
+      ],
+      "role_zh": "NAVER LABS Europe 研究者",
+      "bio_zh": "NAVER LABS Europe 研究者，MASt3R（ECCV 2024）第一作者。",
+      "why_zh": "为点图方法加入稠密匹配，使其可用于建图与 SLAM。",
+      "links": {},
+      "connected_to": [
+        "naver-labs-europe"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "jianyuan-wang",
+      "name": "Jianyuan Wang",
+      "kind": "person",
+      "role": "Researcher, Oxford VGG / Meta AI",
+      "bio": "First author of VGGT (CVPR 2025 Best Paper) and VGGT-Ω (CVPR 2026 Oral), joint work of Oxford's Visual Geometry Group and Meta.",
+      "why": "VGGT made a single transformer pass the default way to get cameras, depth and points from a set of images.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "牛津 VGG / Meta AI 研究者",
+      "bio_zh": "VGGT（CVPR 2025 最佳论文）与 VGGT-Ω（CVPR 2026 Oral）第一作者，牛津视觉几何组与 Meta 的合作工作。",
+      "why_zh": "VGGT 让一次 Transformer 前向成为从一组图像得到相机、深度和点云的默认方式。",
+      "links": {},
+      "connected_to": [
+        "meta"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "qianqian-wang",
+      "name": "Qianqian Wang",
+      "kind": "person",
+      "role": "Researcher, UC Berkeley",
+      "bio": "Berkeley researcher, first author of Shape of Motion and CUT3R.",
+      "why": "Works on recovering persistent 3D and motion from ordinary casual video.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "加州大学伯克利分校研究者",
+      "bio_zh": "伯克利研究者，Shape of Motion 与 CUT3R 第一作者。",
+      "why_zh": "研究从普通随手视频中恢复持续的三维结构与运动。",
+      "links": {},
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "lihan-jiang",
+      "name": "Lihan Jiang",
+      "kind": "person",
+      "role": "Researcher, USTC / Shanghai AI Lab",
+      "bio": "First author of AnySplat (SIGGRAPH Asia 2025).",
+      "why": "AnySplat outputs a full splat scene from unposed photos in seconds.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "中国科学技术大学 / 上海人工智能实验室研究者",
+      "bio_zh": "AnySplat（SIGGRAPH Asia 2025）第一作者。",
+      "why_zh": "AnySplat 可在几秒内从无位姿照片输出完整的泼溅场景。",
+      "links": {},
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "nikhil-keetha",
+      "name": "Nikhil Keetha",
+      "kind": "person",
+      "role": "PhD researcher, CMU / Meta",
+      "bio": "First author of MapAnything, a Meta and Carnegie Mellon model for metric 3D reconstruction.",
+      "why": "MapAnything accepts whatever geometry hints are available (intrinsics, poses, depth) and returns metric scale.",
+      "disciplines": [
+        "graphics",
+        "robotics"
+      ],
+      "role_zh": "卡内基梅隆大学 / Meta 博士研究者",
+      "bio_zh": "MapAnything 第一作者，这是 Meta 与卡内基梅隆大学合作的公制三维重建模型。",
+      "why_zh": "MapAnything 能接收任何可用的几何提示（内参、位姿、深度）并输出公制尺度。",
+      "links": {},
+      "connected_to": [
+        "meta"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "tianye-li",
+      "name": "Tianye Li",
+      "kind": "person",
+      "role": "Researcher, Meta Reality Labs",
+      "bio": "First author of Neural 3D Video Synthesis (DyNeRF, CVPR 2022), done at Meta Reality Labs Research.",
+      "why": "Its multi-view kitchen dataset remains a standard test for dynamic scene methods.",
+      "disciplines": [
+        "graphics"
+      ],
+      "role_zh": "Meta Reality Labs 研究者",
+      "bio_zh": "Neural 3D Video Synthesis（DyNeRF，CVPR 2022）第一作者，该工作在 Meta Reality Labs Research 完成。",
+      "why_zh": "其多视角厨房数据集至今仍是动态场景方法的标准测试。",
+      "links": {},
+      "connected_to": [
+        "meta"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "jonathon-luiten",
+      "name": "Jonathon Luiten",
+      "kind": "person",
+      "role": "Researcher, Meta",
+      "bio": "First author of Dynamic 3D Gaussians (3DV 2024) and co-author of BulletGen at Meta.",
+      "why": "Showed that Gaussians can be tracked through time, giving 4D capture with dense correspondence.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "Meta 研究者",
+      "bio_zh": "Dynamic 3D Gaussians（3DV 2024）第一作者，在 Meta 参与了 BulletGen。",
+      "why_zh": "证明了高斯可以随时间被追踪，使 4D 捕捉带有稠密对应关系。",
+      "links": {},
+      "connected_to": [
+        "meta"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "guanjun-wu",
+      "name": "Guanjun Wu",
+      "kind": "person",
+      "role": "Researcher, Huazhong University of Science and Technology",
+      "bio": "First author of 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering (CVPR 2024).",
+      "why": "His deformation-field 4DGS is the most-cited starting point for dynamic splats.",
+      "disciplines": [
+        "graphics"
+      ],
+      "role_zh": "华中科技大学研究者",
+      "bio_zh": "《4D Gaussian Splatting for Real-Time Dynamic Scene Rendering》（CVPR 2024）第一作者。",
+      "why_zh": "他的形变场式 4DGS 是动态泼溅中引用最多的起点。",
+      "links": {},
+      "connected_to": [],
+      "discovered_via": "seed",
+      "name_zh": "吴官骏"
+    },
+    {
+      "id": "zhan-li",
+      "name": "Zhan Li",
+      "kind": "person",
+      "role": "Researcher, Portland State University / OPPO US Research",
+      "bio": "First author of Spacetime Gaussian Feature Splatting (CVPR 2024).",
+      "why": "Spacetime Gaussians reached 8K real-time playback of multi-view dynamic captures.",
+      "disciplines": [
+        "graphics"
+      ],
+      "role_zh": "波特兰州立大学 / OPPO 美国研究院研究者",
+      "bio_zh": "Spacetime Gaussian Feature Splatting（CVPR 2024）第一作者。",
+      "why_zh": "Spacetime Gaussians 实现了多视角动态捕捉的 8K 实时播放。",
+      "links": {},
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "junyi-zhang",
+      "name": "Junyi Zhang",
+      "kind": "person",
+      "role": "PhD researcher, UC Berkeley",
+      "bio": "First author of MonST3R (ICLR 2025).",
+      "why": "Extended pointmap reconstruction to scenes with moving people and objects.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "加州大学伯克利分校博士研究者",
+      "bio_zh": "MonST3R（ICLR 2025）第一作者。",
+      "why_zh": "把点图重建扩展到有人物与物体运动的场景。",
+      "links": {},
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "zhengqi-li",
+      "name": "Zhengqi Li",
+      "kind": "person",
+      "role": "Research scientist, Google DeepMind",
+      "bio": "Google researcher working on dynamic scene reconstruction, first author of MegaSaM (CVPR 2025).",
+      "why": "MegaSaM recovers cameras and depth from casual videos that break classic SLAM.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "Google DeepMind 研究科学家",
+      "bio_zh": "研究动态场景重建的 Google 研究者，MegaSaM（CVPR 2025）第一作者。",
+      "why_zh": "MegaSaM 能从让传统 SLAM 失效的随手视频中恢复相机与深度。",
+      "links": {},
+      "connected_to": [
+        "google-deepmind"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "yifan-wang-zju",
+      "name": "Yifan Wang",
+      "kind": "person",
+      "role": "Researcher, Zhejiang University",
+      "bio": "First author of FreeTimeGS (CVPR 2025) in the ZJU3DV group.",
+      "why": "FreeTimeGS is the published method behind 4DV.ai's 4D video.",
+      "disciplines": [
+        "graphics"
+      ],
+      "role_zh": "浙江大学研究者",
+      "bio_zh": "浙江大学三维视觉组研究者，FreeTimeGS（CVPR 2025）第一作者。",
+      "why_zh": "FreeTimeGS 是 4DV.ai 4D 视频背后的已发表方法。",
+      "links": {},
+      "connected_to": [
+        "zju3dv",
+        "4dv-ai"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "hanxue-liang",
+      "name": "Hanxue Liang",
+      "kind": "person",
+      "role": "Researcher, University of Cambridge / NVIDIA",
+      "bio": "First author of BTimer, NVIDIA's feed-forward bullet-time reconstruction model.",
+      "why": "Moved dynamic reconstruction from per-scene optimisation to a single forward pass.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "剑桥大学 / NVIDIA 研究者",
+      "bio_zh": "NVIDIA 前馈式子弹时间重建模型 BTimer 的第一作者。",
+      "why_zh": "把动态重建从逐场景优化推进到一次前向。",
+      "links": {},
+      "connected_to": [
+        "nvidia"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "linyi-jin",
+      "name": "Linyi Jin",
+      "kind": "person",
+      "role": "PhD researcher, University of Michigan / Google DeepMind",
+      "bio": "First author of Stereo4D (CVPR 2025), built with Google DeepMind from internet VR180 videos.",
+      "why": "Mined stereo internet video for real-world 3D motion at scale.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "密歇根大学 / Google DeepMind 博士研究者",
+      "bio_zh": "Stereo4D（CVPR 2025）第一作者，与 Google DeepMind 合作，利用互联网 VR180 视频构建。",
+      "why_zh": "从互联网立体视频中大规模挖掘真实世界的三维运动。",
+      "links": {},
+      "connected_to": [
+        "google-deepmind"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "uriel-singer",
+      "name": "Uriel Singer",
+      "kind": "person",
+      "role": "Research scientist, Meta AI",
+      "bio": "Meta researcher, first author of Make-A-Video and of MAV3D (text-to-4D, 2023).",
+      "why": "MAV3D was the first system to turn a text prompt into a dynamic 3D scene.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "role_zh": "Meta AI 研究科学家",
+      "bio_zh": "Meta 研究者，Make-A-Video 与 MAV3D（文本到 4D，2023）的第一作者。",
+      "why_zh": "MAV3D 是第一个把文本提示变成动态三维场景的系统。",
+      "links": {},
+      "connected_to": [
+        "meta"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "jiawei-ren",
+      "name": "Jiawei Ren",
+      "kind": "person",
+      "role": "Researcher, NTU S-Lab / NVIDIA",
+      "bio": "First author of DreamGaussian4D and of L4GM (NeurIPS 2024, with NVIDIA).",
+      "why": "Took 4D generation from hours of score distillation to minutes, then to a single forward pass.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "role_zh": "南洋理工大学 S-Lab / NVIDIA 研究者",
+      "bio_zh": "DreamGaussian4D 与 L4GM（NeurIPS 2024，与 NVIDIA 合作）的第一作者。",
+      "why_zh": "把 4D 生成从数小时的分数蒸馏缩短到几分钟，再到一次前向。",
+      "links": {},
+      "connected_to": [
+        "nvidia"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "heng-yu",
+      "name": "Heng Yu",
+      "kind": "person",
+      "role": "PhD researcher, Carnegie Mellon University",
+      "bio": "First author of 4Real (NeurIPS 2024), done with Snap Research.",
+      "why": "4Real generated photoreal 4D scenes rather than isolated objects.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "role_zh": "卡内基梅隆大学博士研究者",
+      "bio_zh": "4Real（NeurIPS 2024）第一作者，与 Snap Research 合作完成。",
+      "why_zh": "4Real 生成的是照片级的 4D 场景，而不是孤立的物体。",
+      "links": {},
+      "connected_to": [
+        "snap"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "rundi-wu",
+      "name": "Rundi Wu",
+      "kind": "person",
+      "role": "PhD researcher, Columbia University / Google DeepMind",
+      "bio": "First author of CAT4D (CVPR 2025), built at Google DeepMind.",
+      "why": "CAT4D turns a single monocular video into a 4D scene with a multi-view video diffusion model.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "role_zh": "哥伦比亚大学 / Google DeepMind 博士研究者",
+      "bio_zh": "CAT4D（CVPR 2025）第一作者，在 Google DeepMind 完成。",
+      "why_zh": "CAT4D 借助多视角视频扩散模型，把单目视频变成 4D 场景。",
+      "links": {},
+      "connected_to": [
+        "google-deepmind"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "denis-rozumny",
+      "name": "Denis Rozumny",
+      "kind": "person",
+      "role": "Researcher, Meta",
+      "bio": "Meta researcher, first author of BulletGen.",
+      "why": "BulletGen uses a video generator to fill what a single camera never saw in a 4D reconstruction.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "Meta 研究者",
+      "bio_zh": "Meta 研究者，BulletGen 第一作者。",
+      "why_zh": "BulletGen 用视频生成模型补全 4D 重建中单个相机从未看到的部分。",
+      "links": {},
+      "connected_to": [
+        "meta"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "zhaoxi-chen",
+      "name": "Zhaoxi Chen",
+      "kind": "person",
+      "role": "PhD researcher, NTU S-Lab",
+      "bio": "First author of 4DNeX, a feed-forward image-to-4D model.",
+      "why": "4DNeX turns one image into a dynamic point cloud with a fine-tuned video model.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "role_zh": "南洋理工大学 S-Lab 博士研究者",
+      "bio_zh": "前馈式图像到 4D 模型 4DNeX 的第一作者。",
+      "why_zh": "4DNeX 用微调后的视频模型把一张图像变成动态点云。",
+      "links": {},
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "alvaro-collet",
+      "name": "Alvaro Collet",
+      "kind": "person",
+      "role": "Researcher, Microsoft (2015)",
+      "bio": "First author of High-Quality Streamable Free-Viewpoint Video (SIGGRAPH 2015), the system behind Microsoft's Mixed Reality Capture Studios.",
+      "why": "Defined the studio volumetric-video pipeline that Gaussian video now replaces.",
+      "disciplines": [
+        "graphics"
+      ],
+      "role_zh": "微软研究者（2015）",
+      "bio_zh": "《High-Quality Streamable Free-Viewpoint Video》（SIGGRAPH 2015）第一作者，该系统是微软混合现实捕捉工作室的基础。",
+      "why_zh": "确立了如今正被高斯视频取代的影棚体积视频流程。",
+      "links": {},
+      "connected_to": [
+        "microsoft"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "martin-de-la-gorce",
+      "name": "Martin de La Gorce",
+      "kind": "person",
+      "role": "Researcher, Microsoft",
+      "bio": "Microsoft researcher, first author of VoluMe (2025).",
+      "why": "VoluMe predicts a 3D Gaussian person from a single webcam stream in real time.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "微软研究者",
+      "bio_zh": "微软研究者，VoluMe（2025）第一作者。",
+      "why_zh": "VoluMe 能从单路网络摄像头画面实时预测出一个三维高斯人像。",
+      "links": {},
+      "connected_to": [
+        "microsoft"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "matthew-tancik",
+      "name": "Matthew Tancik",
+      "kind": "person",
+      "role": "Researcher, co-creator of Nerfstudio",
+      "bio": "Co-author of NeRF and lead author of Nerfstudio at UC Berkeley; later joined Luma AI.",
+      "why": "Nerfstudio gave researchers a shared, modular codebase for radiance-field experiments.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "研究者，Nerfstudio 联合创建者",
+      "bio_zh": "NeRF 合著者，在伯克利主导了 Nerfstudio，后加入 Luma AI。",
+      "why_zh": "Nerfstudio 为研究者提供了共享、模块化的辐射场实验代码库。",
+      "links": {},
+      "connected_to": [
+        "luma-ai"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "zhen-xu",
+      "name": "Zhen Xu",
+      "kind": "person",
+      "role": "Researcher, Zhejiang University",
+      "bio": "ZJU3DV researcher behind EasyVolcap and first author of Representing Long Volumetric Video with Temporal Gaussian Hierarchy (SIGGRAPH Asia 2024).",
+      "why": "Pushed Gaussian volumetric video from seconds to minutes, a precondition for 4D video as a medium.",
+      "disciplines": [
+        "graphics"
+      ],
+      "role_zh": "浙江大学研究者",
+      "bio_zh": "浙江大学三维视觉组研究者，EasyVolcap 的作者，《Representing Long Volumetric Video with Temporal Gaussian Hierarchy》（SIGGRAPH Asia 2024）第一作者。",
+      "why_zh": "把高斯体积视频从几秒推进到几分钟，这是 4D 视频成为一种媒介的前提。",
+      "links": {},
+      "connected_to": [
+        "zju3dv"
+      ],
+      "discovered_via": "seed",
+      "name_zh": "徐震"
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "kind": "company",
+      "role": "GPU maker and AI research lab",
+      "bio": "Chip company whose research labs (Toronto AI Lab, NVlabs) publish much of the core radiance-field and Gaussian work.",
+      "why": "Supplies both the hardware and many of the methods that make real-time capture and rendering possible.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "GPU 厂商与 AI 研究机构",
+      "bio_zh": "芯片公司，旗下研究团队（多伦多 AI 实验室、NVlabs）发表了大量辐射场与高斯方面的核心工作。",
+      "why_zh": "既提供硬件，也提供让实时捕捉与渲染成为可能的大量方法。",
+      "links": {
+        "site": "https://research.nvidia.com/"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "based": "Santa Clara, US",
+      "based_zh": "美国圣克拉拉"
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "kind": "company",
+      "role": "Meta AI / FAIR / Reality Labs",
+      "bio": "Parent of FAIR and Reality Labs, which publish 3D and 4D reconstruction models and ship Quest headsets.",
+      "why": "Connects open reconstruction research with a consumer headset where captures are viewed.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "role_zh": "Meta 人工智能研究（FAIR）与现实实验室（Reality Labs）",
+      "bio_zh": "FAIR 与 Reality Labs 的母公司，既发表三维与四维重建模型，也销售 Quest 头显。",
+      "why_zh": "把开放的重建研究与观看捕捉结果的消费级头显连在一起。",
+      "links": {
+        "site": "https://ai.meta.com/"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "based": "Menlo Park, US",
+      "based_zh": "美国门洛帕克"
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "kind": "company",
+      "role": "Google Research / Labs / AR",
+      "bio": "Google's research and product groups behind Project Starline, Google Beam and mip-NeRF.",
+      "why": "Took volumetric telepresence from a research booth to a product.",
+      "disciplines": [
+        "graphics",
+        "hci"
+      ],
+      "role_zh": "Google 研究 / 实验室 / AR",
+      "bio_zh": "Project Starline、Google Beam 与 mip-NeRF 背后的 Google 研究与产品团队。",
+      "why_zh": "把体积式远程临场从研究隔间带到了产品。",
+      "links": {
+        "site": "https://research.google/"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "based": "Mountain View, US",
+      "based_zh": "美国山景城"
+    },
+    {
+      "id": "google-deepmind",
+      "name": "Google DeepMind",
+      "kind": "lab",
+      "role": "AI research lab of Google",
+      "bio": "Google's AI lab; its vision researchers work on generative 4D (CAT4D), casual-video reconstruction (MegaSaM) and streamable radiance fields (SMERF).",
+      "why": "Links video generation priors to 4D reconstruction.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "role_zh": "Google 的 AI 研究实验室",
+      "bio_zh": "Google 的 AI 实验室，其视觉研究者从事生成式 4D（CAT4D）、随手视频重建（MegaSaM）与可流式辐射场（SMERF）等研究。",
+      "why_zh": "把视频生成先验与 4D 重建联系起来。",
+      "links": {
+        "site": "https://deepmind.google/"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "based": "London, UK",
+      "based_zh": "英国伦敦"
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "kind": "company",
+      "role": "Microsoft Research",
+      "bio": "Microsoft Research built the Mixed Reality Capture Studios volumetric pipeline and, in 2025, VoluMe single-camera 3D video calls.",
+      "why": "Spans a decade of volumetric capture, from studio rigs to a webcam.",
+      "disciplines": [
+        "graphics"
+      ],
+      "role_zh": "微软研究院",
+      "bio_zh": "微软研究院打造了混合现实捕捉工作室的体积视频流程，并在 2025 年推出单相机三维视频通话 VoluMe。",
+      "why_zh": "跨越了十年的体积捕捉，从影棚阵列到网络摄像头。",
+      "links": {
+        "site": "https://www.microsoft.com/en-us/research/"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "based": "Redmond, US",
+      "based_zh": "美国雷德蒙德"
+    },
+    {
+      "id": "snap",
+      "name": "Snap",
+      "kind": "company",
+      "role": "Snap Inc. / Snap Research",
+      "bio": "Maker of Snapchat and Spectacles; Snap Research works on generative 3D and 4D content.",
+      "why": "Brings generative 3D and 4D research close to AR glasses.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "Snap 公司 / Snap Research",
+      "bio_zh": "Snapchat 与 Spectacles 的开发商，Snap Research 研究生成式三维与 4D 内容。",
+      "why_zh": "让生成式三维与 4D 研究贴近 AR 眼镜。",
+      "links": {
+        "site": "https://research.snap.com/"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "based": "Santa Monica, US",
+      "based_zh": "美国圣莫尼卡"
+    },
+    {
+      "id": "stability-ai",
+      "name": "Stability AI",
+      "kind": "company",
+      "role": "Open generative model company",
+      "bio": "Company behind Stable Diffusion and Stable Video Diffusion, which also releases open 3D and 4D generation models such as SV4D.",
+      "why": "Its open weights let labs run and pin 4D generation locally.",
+      "disciplines": [
+        "ml"
+      ],
+      "role_zh": "开源生成模型公司",
+      "bio_zh": "Stable Diffusion 与 Stable Video Diffusion 背后的公司，也发布 SV4D 等开放的三维与 4D 生成模型。",
+      "why_zh": "其开放权重让实验室可以在本地运行并锁定 4D 生成模型的版本。",
+      "links": {
+        "site": "https://stability.ai/"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "based": "London, UK",
+      "based_zh": "英国伦敦"
+    },
+    {
+      "id": "bytedance-seed",
+      "name": "ByteDance Seed",
+      "kind": "lab",
+      "role": "ByteDance's foundation model team",
+      "bio": "ByteDance's foundation-model research team, publisher of the Depth Anything series.",
+      "why": "Its open depth and geometry models are standard building blocks for capture pipelines.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "role_zh": "字节跳动大模型团队",
+      "bio_zh": "字节跳动的基础模型研究团队，Depth Anything 系列的发布方。",
+      "why_zh": "其开源的深度与几何模型是捕捉流程中的标准组件。",
+      "links": {
+        "site": "https://seed.bytedance.com/"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "name_zh": "字节跳动 Seed",
+      "based": "Beijing, CN",
+      "based_zh": "中国北京"
+    },
+    {
+      "id": "luma-ai",
+      "name": "Luma AI",
+      "kind": "company",
+      "role": "3D capture and video generation company",
+      "bio": "Started with a NeRF and Gaussian-splat capture app for phones, then moved to video generation (Dream Machine, Ray models).",
+      "why": "One of the first companies to put radiance-field capture into consumers' hands.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "三维捕捉与视频生成公司",
+      "bio_zh": "起步于手机端 NeRF 与高斯泼溅捕捉应用，后转向视频生成（Dream Machine、Ray 系列模型）。",
+      "why_zh": "最早把辐射场捕捉交到普通用户手中的公司之一。",
+      "links": {
+        "site": "https://lumalabs.ai/"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "based": "Palo Alto, US",
+      "based_zh": "美国帕洛阿尔托"
+    },
+    {
+      "id": "polycam",
+      "name": "Polycam",
+      "kind": "company",
+      "role": "3D capture app company",
+      "bio": "Maker of a phone, web and drone 3D capture app covering LiDAR, photogrammetry and Gaussian splats.",
+      "why": "A common route from a phone walk-through to a usable 3D scene.",
+      "disciplines": [
+        "graphics"
+      ],
+      "role_zh": "三维捕捉应用公司",
+      "bio_zh": "一款覆盖 LiDAR、摄影测量与高斯泼溅的手机、网页与无人机三维捕捉应用的开发商。",
+      "why_zh": "从手机走拍到可用三维场景的常见途径。",
+      "links": {
+        "site": "https://poly.cam/"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "based": "San Francisco, US",
+      "based_zh": "美国旧金山"
+    },
+    {
+      "id": "niantic-spatial",
+      "name": "Niantic Spatial",
+      "kind": "company",
+      "role": "Geospatial AI company spun out of Niantic",
+      "bio": "Spin-out of Niantic that owns Scaniverse and builds a Large Geospatial Model from crowd-sourced scans.",
+      "why": "Turns many people's phone captures into a shared, localisable map of real places.",
+      "disciplines": [
+        "graphics",
+        "robotics"
+      ],
+      "role_zh": "从 Niantic 分拆的地理空间 AI 公司",
+      "bio_zh": "从 Niantic 分拆出的公司，拥有 Scaniverse，并基于众包扫描构建大型地理空间模型。",
+      "why_zh": "把许多人的手机捕捉变成一张共享、可定位的真实地点地图。",
+      "links": {
+        "site": "https://www.nianticspatial.com/"
+      },
+      "connected_to": [],
+      "discovered_via": "seed",
+      "based": "San Francisco, US",
+      "based_zh": "美国旧金山"
+    },
+    {
+      "id": "playcanvas",
+      "name": "PlayCanvas",
+      "kind": "company",
+      "role": "Web 3D engine (Snap)",
+      "bio": "Open-source WebGL/WebGPU game engine owned by Snap, maker of the SuperSplat editor.",
+      "why": "Its free tools are where many captured splats are cleaned and published.",
+      "disciplines": [
+        "graphics",
+        "games"
+      ],
+      "role_zh": "网页三维引擎（Snap 旗下）",
+      "bio_zh": "Snap 旗下的开源 WebGL/WebGPU 游戏引擎，SuperSplat 编辑器的开发方。",
+      "why_zh": "许多捕捉得到的泼溅都在它的免费工具里被清理和发布。",
+      "links": {
+        "site": "https://playcanvas.com/"
+      },
+      "connected_to": [
+        "snap"
+      ],
+      "discovered_via": "seed",
+      "based": "London, UK",
+      "based_zh": "英国伦敦"
+    },
+    {
+      "id": "world-labs",
+      "name": "World Labs",
+      "kind": "company",
+      "role": "Spatial intelligence company",
+      "bio": "Company founded by Fei-Fei Li, Justin Johnson, Christoph Lassner and Ben Mildenhall that generates explorable 3D worlds and maintains the open-source Spark splat renderer.",
+      "why": "Its renderer is how many generated and captured splat worlds reach a browser.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "role_zh": "空间智能公司",
+      "bio_zh": "由李飞飞、Justin Johnson、Christoph Lassner 与 Ben Mildenhall 创立的公司，生成可探索的三维世界，并维护开源泼溅渲染器 Spark。",
+      "why_zh": "许多生成或捕捉的泼溅世界都是通过它的渲染器进入浏览器的。",
+      "links": {
+        "site": "https://www.worldlabs.ai/"
+      },
+      "connected_to": [
+        "ben-mildenhall"
+      ],
+      "discovered_via": "seed",
+      "based": "San Francisco, US",
+      "based_zh": "美国旧金山"
+    },
+    {
+      "id": "haotong-lin",
+      "name": "Haotong Lin",
+      "kind": "person",
+      "role": "Researcher, ByteDance Seed / Zhejiang University",
+      "bio": "First author of Depth Anything 3.",
+      "why": "Unified monocular and multi-view geometry in one open model.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "role_zh": "字节跳动 Seed / 浙江大学研究者",
+      "bio_zh": "Depth Anything 3 第一作者。",
+      "why_zh": "在一个开源模型中统一了单目与多视角几何。",
+      "links": {},
+      "connected_to": [
+        "bytedance-seed"
+      ],
+      "discovered_via": "seed"
+    }
+  ],
+  "works": [
+    {
+      "id": "ben-mildenhall--nerf",
+      "creator_ids": [
+        "ben-mildenhall",
+        "matthew-tancik",
+        "jonathan-barron"
+      ],
+      "title": "NeRF",
+      "year": 2020,
+      "field": "spatial-4d",
+      "sub": "radiance",
+      "modalities": [
+        "splats"
+      ],
+      "inputs": [
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "persistence"
+      ],
+      "kind": "research",
+      "description": "Neural Radiance Fields represent a scene as a small neural network that returns colour and density for any point and viewing direction, so new photoreal views of a captured object or room can be rendered from about a hundred photos.",
+      "description_zh": "神经辐射场把场景表示为一个小型神经网络：给定任意位置和视角，它返回颜色与密度，因此只需大约一百张照片，就能为拍摄的物体或房间渲染出照片级的新视角。",
+      "idea_en": "The point where a set of photos became a place you can look around in, at the cost of a day of training per scene and slow rendering.",
+      "idea_zh": "从这里开始，一组照片变成了可以环顾的地方，代价是每个场景要训练一天、渲染也很慢。",
+      "method": "An MLP with positional encoding maps 5D coordinates to radiance and density, trained per scene by differentiable volume rendering against posed photos.",
+      "method_zh": "带位置编码的多层感知机把五维坐标映射为辐射与密度，通过可微体渲染与带位姿照片对比，逐场景训练。",
+      "keywords": [
+        "neural radiance field",
+        "volume rendering",
+        "novel view synthesis"
+      ],
+      "specs": "~100 posed photos · per-scene training about 1–2 days on one V100 (paper)",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=JuH79E8rdKc"
+      },
+      "images": [
+        "https://cdn.prod.website-files.com/51e0d73d83d06baa7a00000f/5e700ef6067b43821ed52768_pipeline_website-01.png"
+      ],
+      "paper": {
+        "venue": "ECCV 2020",
+        "title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+        "arxiv": "2003.08934",
+        "url": "https://arxiv.org/abs/2003.08934"
+      },
+      "source_url": "https://www.matthewtancik.com/nerf",
+      "code_url": "https://github.com/bmild/nerf",
+      "collections": [
+        "iccv-eccv"
+      ],
+      "exhibited": [
+        "ECCV 2020 Best Paper Honorable Mention"
+      ]
+    },
+    {
+      "id": "thomas-muller--instant-ngp",
+      "creator_ids": [
+        "thomas-muller",
+        "nvidia"
+      ],
+      "title": "Instant Neural Graphics Primitives (Instant NeRF)",
+      "year": 2022,
+      "field": "spatial-4d",
+      "sub": "radiance",
+      "modalities": [
+        "splats"
+      ],
+      "inputs": [
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "authoring"
+      ],
+      "kind": "open-source",
+      "description": "NVIDIA's instant-ngp trains a NeRF from a handful of photos in seconds to minutes and lets you fly through the result in an interactive viewer while it is still training.",
+      "description_zh": "NVIDIA 的 instant-ngp 能在几秒到几分钟内用少量照片训练出 NeRF，并允许在训练过程中就用交互式查看器在结果里穿行。",
+      "idea_en": "Made capturing a radiance field feel like taking a photo rather than running a batch job.",
+      "idea_zh": "让捕捉辐射场的体验更像拍照，而不像跑一个批处理任务。",
+      "method": "A multiresolution hash table of trainable feature vectors replaces most of the MLP, and fully fused CUDA kernels train and render on one GPU.",
+      "method_zh": "用多分辨率哈希表存储可训练特征向量，替代了大部分多层感知机，并通过完全融合的 CUDA 内核在单张 GPU 上训练与渲染。",
+      "keywords": [
+        "hash encoding",
+        "Instant NeRF",
+        "CUDA"
+      ],
+      "specs": "NeRF training in seconds; 1920×1080 rendering in tens of milliseconds (paper)",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=DJ2hcC1orc4"
+      },
+      "images": [
+        "https://nvlabs.github.io/instant-ngp/assets/twitter.jpg"
+      ],
+      "paper": {
+        "venue": "SIGGRAPH 2022 (ACM TOG)",
+        "title": "Instant Neural Graphics Primitives with a Multiresolution Hash Encoding",
+        "arxiv": "2201.05989",
+        "url": "https://arxiv.org/abs/2201.05989",
+        "doi": "10.1145/3528223.3530127"
+      },
+      "source_url": "https://nvlabs.github.io/instant-ngp/",
+      "code_url": "https://github.com/NVlabs/instant-ngp",
+      "collections": [
+        "siggraph"
+      ],
+      "exhibited": [
+        "SIGGRAPH 2022 Best Paper Award"
+      ]
+    },
+    {
+      "id": "jonathan-barron--mip-nerf-360",
+      "creator_ids": [
+        "jonathan-barron",
+        "google"
+      ],
+      "title": "Mip-NeRF 360",
+      "year": 2022,
+      "field": "spatial-4d",
+      "sub": "radiance",
+      "modalities": [
+        "splats"
+      ],
+      "inputs": [
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "situational-reach"
+      ],
+      "kind": "research",
+      "description": "Mip-NeRF 360 extends anti-aliased NeRF to unbounded real scenes captured by walking around an object, with a nine-scene dataset that became the standard test for splatting methods.",
+      "description_zh": "Mip-NeRF 360 把抗锯齿 NeRF 扩展到绕物体一周拍摄的无界真实场景，并发布了一个九场景数据集，后来成为高斯泼溅方法的标准测试。",
+      "idea_en": "Defined what a full walk-around capture of a real place should look like, including the far background.",
+      "idea_zh": "定义了一次完整绕行拍摄的真实场景应达到的效果，包括远处背景。",
+      "method": "A non-linear scene contraction maps unbounded space into a bounded ball, an online proposal network distils density for sampling, and a distortion regulariser suppresses floaters.",
+      "method_zh": "非线性场景收缩把无界空间映射进有界球体，在线提议网络蒸馏密度以指导采样，畸变正则项抑制漂浮伪影。",
+      "keywords": [
+        "unbounded scenes",
+        "anti-aliasing",
+        "benchmark"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=zBSH-k9GbV4"
+      },
+      "images": [
+        "https://jonbarron.info/mipnerf360/img/gardenvase.jpg"
+      ],
+      "paper": {
+        "venue": "CVPR 2022",
+        "title": "Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields",
+        "arxiv": "2111.12077",
+        "url": "https://arxiv.org/abs/2111.12077"
+      },
+      "source_url": "https://jonbarron.info/mipnerf360/",
+      "code_url": "https://github.com/google-research/multinerf",
+      "collections": [
+        "cvpr"
+      ]
+    },
+    {
+      "id": "bernhard-kerbl--3d-gaussian-splatting",
+      "creator_ids": [
+        "bernhard-kerbl",
+        "inria-graphdeco"
+      ],
+      "title": "3D Gaussian Splatting",
+      "year": 2023,
+      "field": "spatial-4d",
+      "sub": "radiance",
+      "modalities": [
+        "splats"
+      ],
+      "inputs": [
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "responsiveness",
+        "persistence"
+      ],
+      "kind": "research",
+      "description": "3D Gaussian Splatting represents a captured scene as millions of small coloured, semi-transparent 3D Gaussians that are rasterised rather than ray-marched, giving photoreal novel views at real-time frame rates.",
+      "description_zh": "3D 高斯泼溅把拍摄的场景表示为数以百万计的彩色半透明三维高斯，用光栅化而不是光线步进来渲染，以实时帧率得到照片级的新视角。",
+      "idea_en": "Made photoreal captured places fast enough for headsets, and its explicit primitives can be edited, streamed, and later animated in time.",
+      "idea_zh": "让照片级的捕捉场景快到足以在头显中使用，而且它的显式基元可以被编辑、流式传输，之后还能随时间运动。",
+      "method": "Gaussians are initialised from structure-from-motion points and optimised with adaptive densification through a differentiable tile-based rasteriser.",
+      "method_zh": "高斯从运动恢复结构得到的点云初始化，通过基于图块的可微光栅化器优化，并自适应地增删高斯。",
+      "keywords": [
+        "Gaussian splatting",
+        "3DGS",
+        "rasterisation",
+        "real-time rendering"
+      ],
+      "date": "2023-08-08",
+      "specs": "≥30 fps at 1080p · per-scene training in tens of minutes (paper)",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=T_kXY43VZnk"
+      },
+      "paper": {
+        "venue": "SIGGRAPH 2023 (ACM TOG)",
+        "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+        "arxiv": "2308.04079",
+        "url": "https://arxiv.org/abs/2308.04079",
+        "doi": "10.1145/3592433"
+      },
+      "source_url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/",
+      "code_url": "https://github.com/graphdeco-inria/gaussian-splatting",
+      "collections": [
+        "agenda-core",
+        "siggraph",
+        "trend-explicit-3d"
+      ]
+    },
+    {
+      "id": "bernhard-kerbl--hierarchical-3dgs",
+      "creator_ids": [
+        "bernhard-kerbl",
+        "inria-graphdeco"
+      ],
+      "title": "Hierarchical 3D Gaussians for Very Large Datasets",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "radiance",
+      "modalities": [
+        "splats",
+        "scene-3d"
+      ],
+      "inputs": [
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "situational-reach",
+        "persistence"
+      ],
+      "kind": "research",
+      "description": "A level-of-detail hierarchy of Gaussians lets city-block captures from tens of thousands of photos be rendered in real time, switching detail smoothly as you move.",
+      "description_zh": "一种高斯的细节层次结构，使由数万张照片构成的街区级捕捉可以实时渲染，并在移动时平滑地切换细节。",
+      "idea_en": "Shows that captured places can grow from a room to a neighbourhood without losing real-time viewing.",
+      "idea_zh": "说明捕捉的场景可以从一个房间扩展到一个街区，同时保持实时观看。",
+      "method": "Scenes are split into chunks trained independently, merged into a tree of Gaussians, and rendered by selecting a cut through the tree per view.",
+      "method_zh": "场景被切分成独立训练的块，合并成一棵高斯树，渲染时为每个视角选取树上的一个切面。",
+      "keywords": [
+        "level of detail",
+        "large scenes",
+        "city scale"
+      ],
+      "date": "2024-06-17",
+      "specs": "tens of thousands of photos · kilometre-scale trajectories · level of detail",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=p-mb2TzVJZk"
+      },
+      "paper": {
+        "venue": "SIGGRAPH 2024 (ACM TOG)",
+        "title": "A Hierarchical 3D Gaussian Representation for Real-Time Rendering of Very Large Datasets",
+        "arxiv": "2406.12080",
+        "url": "https://arxiv.org/abs/2406.12080",
+        "doi": "10.1145/3658160"
+      },
+      "source_url": "https://repo-sam.inria.fr/fungraph/hierarchical-3d-gaussians/",
+      "code_url": "https://github.com/graphdeco-inria/hierarchical-3d-gaussians",
+      "collections": [
+        "siggraph"
+      ]
+    },
+    {
+      "id": "zehao-yu--mip-splatting",
+      "creator_ids": [
+        "zehao-yu"
+      ],
+      "title": "Mip-Splatting",
+      "year": 2023,
+      "field": "spatial-4d",
+      "sub": "radiance",
+      "modalities": [
+        "splats"
+      ],
+      "inputs": [
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "Mip-Splatting removes the shimmering and thin-line artefacts that appear when a Gaussian splat scene is zoomed in or out relative to how it was captured.",
+      "description_zh": "Mip-Splatting 消除了高斯泼溅场景在放大或缩小（相对于拍摄尺度）时出现的闪烁与细线伪影。",
+      "idea_en": "Matters for headsets, where people lean in and step back far more than a capture camera did.",
+      "idea_zh": "对头显很重要，因为人在头显里靠近和后退的幅度远大于拍摄相机。",
+      "method": "A 3D smoothing filter bounds Gaussian size by the sampling rate of the training views, and a 2D Mip filter replaces screen-space dilation.",
+      "method_zh": "三维平滑滤波器依据训练视角的采样率限制高斯尺寸，二维 Mip 滤波器替代屏幕空间膨胀。",
+      "keywords": [
+        "anti-aliasing",
+        "Gaussian splatting"
+      ],
+      "date": "2023-11-27",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=D389imzYO04"
+      },
+      "images": [
+        "https://niujinshuchong.github.io/mip-splatting/resources/teaser.png"
+      ],
+      "paper": {
+        "venue": "CVPR 2024",
+        "title": "Mip-Splatting: Alias-free 3D Gaussian Splatting",
+        "arxiv": "2311.16493",
+        "url": "https://arxiv.org/abs/2311.16493"
+      },
+      "source_url": "https://niujinshuchong.github.io/mip-splatting/",
+      "code_url": "https://github.com/autonomousvision/mip-splatting",
+      "collections": [
+        "cvpr"
+      ],
+      "exhibited": [
+        "CVPR 2024 Best Student Paper"
+      ]
+    },
+    {
+      "id": "binbin-huang--2d-gaussian-splatting",
+      "creator_ids": [
+        "binbin-huang"
+      ],
+      "title": "2D Gaussian Splatting",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "radiance",
+      "modalities": [
+        "splats",
+        "mesh"
+      ],
+      "inputs": [
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "control"
+      ],
+      "kind": "research",
+      "description": "2D Gaussian Splatting replaces 3D blobs with flat oriented discs, so a capture yields accurate surfaces and a clean mesh as well as photoreal views.",
+      "description_zh": "2D 高斯泼溅用有朝向的扁平圆盘替代三维高斯团块，使一次捕捉既能得到照片级视图，也能得到准确的表面和干净的网格。",
+      "idea_en": "Gives captured scenes geometry you can collide with, which interactive situations need.",
+      "idea_zh": "让捕捉的场景拥有可以碰撞的几何，这是可交互情境所需要的。",
+      "method": "Surfels with ray-splat intersection, depth distortion and normal-consistency losses are optimised per scene; meshes are extracted with TSDF fusion.",
+      "method_zh": "使用光线与面元求交的面元表示，配合深度畸变与法线一致性损失逐场景优化，再用 TSDF 融合提取网格。",
+      "keywords": [
+        "surfels",
+        "surface reconstruction",
+        "mesh"
+      ],
+      "date": "2024-03-26",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=oaHCtB6yiKU"
+      },
+      "paper": {
+        "venue": "SIGGRAPH 2024",
+        "title": "2D Gaussian Splatting for Geometrically Accurate Radiance Fields",
+        "arxiv": "2403.17888",
+        "url": "https://arxiv.org/abs/2403.17888",
+        "doi": "10.1145/3641519.3657428"
+      },
+      "source_url": "https://surfsplatting.github.io/",
+      "code_url": "https://github.com/hbb1/2d-gaussian-splatting",
+      "collections": [
+        "siggraph"
+      ]
+    },
+    {
+      "id": "nicolas-moenne-loccoz--3dgrt",
+      "creator_ids": [
+        "nicolas-moenne-loccoz",
+        "nvidia"
+      ],
+      "title": "3D Gaussian Ray Tracing (3DGRT)",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "radiance",
+      "modalities": [
+        "splats"
+      ],
+      "inputs": [
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "NVIDIA's 3DGRT ray-traces Gaussian particles instead of rasterising them, enabling reflections, refractions, shadows and fisheye or wide-angle cameras inside captured scenes.",
+      "description_zh": "NVIDIA 的 3DGRT 用光线追踪而不是光栅化来渲染高斯粒子，使捕捉场景中可以出现反射、折射、阴影以及鱼眼或广角相机。",
+      "idea_en": "Lets captured places be mixed with inserted objects and lighting effects that rasterised splats cannot show.",
+      "idea_zh": "让捕捉的场景可以与插入的物体和光照效果混合，这是光栅化泼溅做不到的。",
+      "method": "Each Gaussian is wrapped in a bounding mesh inside a hardware-accelerated BVH, and hits are processed in depth order in chunks along each ray.",
+      "method_zh": "每个高斯被包裹在硬件加速的 BVH 中的包围网格里，沿每条光线按深度顺序分块处理命中。",
+      "keywords": [
+        "ray tracing",
+        "secondary effects",
+        "BVH"
+      ],
+      "date": "2024-07-09",
+      "video": {
+        "url": "https://gaussiantracer.github.io/res/3dgrt_supplementary_video.mp4"
+      },
+      "images": [
+        "https://gaussiantracer.github.io/res/method_figure.jpg"
+      ],
+      "paper": {
+        "venue": "SIGGRAPH Asia 2024 (ACM TOG)",
+        "title": "3D Gaussian Ray Tracing: Fast Tracing of Particle Scenes",
+        "arxiv": "2407.07090",
+        "url": "https://arxiv.org/abs/2407.07090",
+        "doi": "10.1145/3687934"
+      },
+      "source_url": "https://gaussiantracer.github.io/",
+      "code_url": "https://github.com/nv-tlabs/3dgrut",
+      "collections": [
+        "siggraph"
+      ]
+    },
+    {
+      "id": "qi-wu--3dgut",
+      "creator_ids": [
+        "qi-wu",
+        "nvidia"
+      ],
+      "title": "3DGUT",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "radiance",
+      "modalities": [
+        "splats"
+      ],
+      "inputs": [
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "situational-reach",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "3DGUT keeps the speed of splat rasterisation while supporting distorted cameras such as fisheye lenses and rolling shutters, so footage from robots, cars and headsets can be reconstructed directly.",
+      "description_zh": "3DGUT 保留了泼溅光栅化的速度，同时支持鱼眼镜头、卷帘快门等畸变相机，使机器人、汽车和头显拍摄的素材可以直接用于重建。",
+      "idea_en": "Removes the requirement that captures come from an ideal pinhole camera, which widens what real footage can become a scene.",
+      "idea_zh": "去掉了必须使用理想针孔相机拍摄的前提，让更多真实素材可以变成场景。",
+      "method": "The unscented transform projects sigma points of each Gaussian through the exact camera model instead of linearising it, and is shared with 3DGRT for hybrid rendering.",
+      "method_zh": "用无迹变换把每个高斯的 sigma 点通过精确相机模型投影，而不是对其线性化，并与 3DGRT 共用以实现混合渲染。",
+      "keywords": [
+        "unscented transform",
+        "fisheye",
+        "rolling shutter"
+      ],
+      "date": "2024-12-17",
+      "video": {
+        "url": "https://research.nvidia.com/labs/toronto-ai/3DGUT/res/3DGUT_ready_compressed.mp4"
+      },
+      "images": [
+        "https://research.nvidia.com/labs/toronto-ai/3DGUT/res/teaser.jpg"
+      ],
+      "paper": {
+        "venue": "CVPR 2025",
+        "title": "3DGUT: Enabling Distorted Cameras and Secondary Rays in Gaussian Splatting",
+        "arxiv": "2412.12507",
+        "url": "https://arxiv.org/abs/2412.12507"
+      },
+      "source_url": "https://research.nvidia.com/labs/toronto-ai/3DGUT/",
+      "code_url": "https://github.com/nv-tlabs/3dgrut",
+      "collections": [
+        "cvpr"
+      ]
+    },
+    {
+      "id": "daniel-duckworth--smerf",
+      "creator_ids": [
+        "daniel-duckworth",
+        "google-deepmind"
+      ],
+      "title": "SMERF",
+      "year": 2023,
+      "field": "spatial-4d",
+      "sub": "radiance",
+      "modalities": [
+        "splats",
+        "scene-3d"
+      ],
+      "inputs": [
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "situational-reach",
+        "responsiveness"
+      ],
+      "kind": "research",
+      "description": "SMERF streams house-sized radiance fields into a web browser and renders them in real time on laptops and phones, with quality close to the slow Zip-NeRF it is distilled from.",
+      "description_zh": "SMERF 把房屋大小的辐射场流式加载到网页浏览器，在笔记本和手机上实时渲染，质量接近其所蒸馏自的、较慢的 Zip-NeRF。",
+      "idea_en": "Shows that a large captured place can be explored in a browser tab without a dedicated GPU.",
+      "idea_zh": "说明一个大型捕捉场景无需专用 GPU，也能在浏览器标签页中被探索。",
+      "method": "The scene is tiled into independent MERF submodels loaded by camera position, trained by distillation from a Zip-NeRF teacher.",
+      "method_zh": "场景被划分为按相机位置加载的独立 MERF 子模型，通过从 Zip-NeRF 教师模型蒸馏得到。",
+      "keywords": [
+        "web viewer",
+        "streaming",
+        "distillation"
+      ],
+      "date": "2023-12-12",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=zhO8iUBpnCc"
+      },
+      "images": [
+        "https://smerf-3d.github.io/assets/img/merf/social.jpg"
+      ],
+      "paper": {
+        "venue": "SIGGRAPH 2024 (ACM TOG)",
+        "title": "SMERF: Streamable Memory Efficient Radiance Fields for Real-Time Large-Scene Exploration",
+        "arxiv": "2312.07541",
+        "url": "https://arxiv.org/abs/2312.07541",
+        "doi": "10.1145/3658193"
+      },
+      "source_url": "https://smerf-3d.github.io/",
+      "collections": [
+        "siggraph"
+      ]
+    },
+    {
+      "id": "david-charatan--pixelsplat",
+      "creator_ids": [
+        "david-charatan"
+      ],
+      "title": "pixelSplat",
+      "year": 2023,
+      "field": "spatial-4d",
+      "sub": "feed-forward",
+      "modalities": [
+        "splats"
+      ],
+      "inputs": [
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "authoring"
+      ],
+      "kind": "research",
+      "description": "pixelSplat predicts a 3D Gaussian scene from just two photos in one network pass, with no per-scene optimisation, and renders new views between them.",
+      "description_zh": "pixelSplat 只用两张照片、一次网络前向就预测出三维高斯场景，无需逐场景优化，并能渲染两者之间的新视角。",
+      "idea_en": "An early sign that splat scenes could come out of a network instead of a training run.",
+      "idea_zh": "早期迹象之一：泼溅场景可以直接由网络输出，而不必经过一次训练。",
+      "method": "An epipolar transformer encodes the image pair, and per-pixel depth distributions are sampled differentiably to place Gaussians.",
+      "method_zh": "对极 Transformer 编码图像对，并对逐像素的深度分布进行可微采样来放置高斯。",
+      "keywords": [
+        "generalizable",
+        "two views",
+        "feed-forward Gaussians"
+      ],
+      "date": "2023-12-19",
+      "video": {
+        "url": "https://davidcharatan.com/pixelsplat/static/videos/teaser.mp4"
+      },
+      "images": [
+        "https://pixelsplat.github.io/static/images/banner.png"
+      ],
+      "paper": {
+        "venue": "CVPR 2024",
+        "title": "pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction",
+        "arxiv": "2312.12337",
+        "url": "https://arxiv.org/abs/2312.12337"
+      },
+      "source_url": "https://davidcharatan.com/pixelsplat/",
+      "code_url": "https://github.com/dcharatan/pixelsplat",
+      "collections": [
+        "cvpr",
+        "trend-feed-forward"
+      ]
+    },
+    {
+      "id": "shuzhe-wang--dust3r",
+      "creator_ids": [
+        "shuzhe-wang",
+        "naver-labs-europe"
+      ],
+      "title": "DUSt3R",
+      "year": 2023,
+      "field": "spatial-4d",
+      "sub": "feed-forward",
+      "modalities": [
+        "scene-3d"
+      ],
+      "inputs": [
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "responsiveness"
+      ],
+      "kind": "model",
+      "description": "DUSt3R takes two photos with unknown cameras and directly regresses a 3D point for every pixel, so depth, camera poses and a point cloud fall out of one network instead of a structure-from-motion pipeline.",
+      "description_zh": "DUSt3R 输入两张相机未知的照片，直接为每个像素回归一个三维点，于是深度、相机位姿和点云都来自同一个网络，而不再需要运动恢复结构流程。",
+      "idea_en": "Started the move from fragile photogrammetry to models that reconstruct from whatever photos you have.",
+      "idea_zh": "开启了从脆弱的摄影测量转向“用手头任意照片就能重建”的模型。",
+      "method": "A ViT encoder-decoder pretrained with cross-view completion outputs pointmaps for both images in the first camera's frame; a global alignment step merges many views.",
+      "method_zh": "以跨视角补全预训练的 ViT 编码器-解码器，在第一台相机坐标系中输出两张图像的点图；全局对齐步骤合并多个视角。",
+      "keywords": [
+        "pointmap",
+        "pose-free",
+        "3D foundation model"
+      ],
+      "date": "2023-12-21",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=kI7wCEAFFb0"
+      },
+      "images": [
+        "https://github.com/naver/dust3r/raw/main/assets/dust3r.jpg"
+      ],
+      "paper": {
+        "venue": "CVPR 2024",
+        "title": "DUSt3R: Geometric 3D Vision Made Easy",
+        "arxiv": "2312.14132",
+        "url": "https://arxiv.org/abs/2312.14132"
+      },
+      "source_url": "https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/",
+      "code_url": "https://github.com/naver/dust3r",
+      "collections": [
+        "cvpr",
+        "trend-feed-forward",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "vincent-leroy--mast3r",
+      "creator_ids": [
+        "vincent-leroy",
+        "naver-labs-europe"
+      ],
+      "title": "MASt3R",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "feed-forward",
+      "modalities": [
+        "scene-3d"
+      ],
+      "inputs": [
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "control"
+      ],
+      "kind": "model",
+      "description": "MASt3R adds dense feature matching and metric scale to DUSt3R, so image pairs yield reliable correspondences for mapping, localisation and large reconstructions.",
+      "description_zh": "MASt3R 在 DUSt3R 的基础上加入稠密特征匹配和公制尺度，使图像对能给出可靠的对应关系，用于建图、定位和大规模重建。",
+      "idea_en": "Turned pointmap models into the front end of SLAM and structure-from-motion systems.",
+      "idea_zh": "让点图模型成为 SLAM 与运动恢复结构系统的前端。",
+      "method": "A second head predicts local descriptors trained with a matching loss, and a fast reciprocal matcher finds correspondences on top of metric pointmaps.",
+      "method_zh": "第二个预测头输出用匹配损失训练的局部描述子，快速互近邻匹配器在公制点图之上寻找对应关系。",
+      "keywords": [
+        "matching",
+        "metric pointmap",
+        "SLAM"
+      ],
+      "date": "2024-06-14",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=AWu5z2O9H3s"
+      },
+      "images": [
+        "https://github.com/naver/mast3r/raw/main/assets/mast3r.jpg"
+      ],
+      "paper": {
+        "venue": "ECCV 2024",
+        "title": "Grounding Image Matching in 3D with MASt3R",
+        "arxiv": "2406.09756",
+        "url": "https://arxiv.org/abs/2406.09756"
+      },
+      "source_url": "https://europe.naverlabs.com/blog/mast3r-matching-and-stereo-3d-reconstruction/",
+      "code_url": "https://github.com/naver/mast3r",
+      "collections": [
+        "iccv-eccv",
+        "trend-feed-forward"
+      ]
+    },
+    {
+      "id": "jianyuan-wang--vggt",
+      "creator_ids": [
+        "jianyuan-wang",
+        "meta"
+      ],
+      "title": "VGGT",
+      "year": 2025,
+      "field": "spatial-4d",
+      "sub": "feed-forward",
+      "modalities": [
+        "scene-3d"
+      ],
+      "inputs": [
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "VGGT (Visual Geometry Grounded Transformer) takes one to hundreds of images and, in a single forward pass of about a second, predicts every camera, depth map, point map and point track.",
+      "description_zh": "VGGT（视觉几何基础 Transformer）输入一张到数百张图像，在约一秒的单次前向中预测出所有相机、深度图、点图和点轨迹。",
+      "idea_en": "Made one network pass the default first step for turning photos or a video into a 3D scene.",
+      "idea_zh": "让一次网络前向成为把照片或视频变成三维场景的默认第一步。",
+      "method": "A 1.2B-parameter transformer alternates frame-wise and global attention over DINO patch tokens and decodes camera, depth, point and tracking heads, trained on many 3D datasets.",
+      "method_zh": "一个 12 亿参数的 Transformer 在 DINO 图块标记上交替进行帧内与全局注意力，并解码出相机、深度、点图与追踪等预测头，在大量三维数据集上训练。",
+      "keywords": [
+        "transformer",
+        "camera estimation",
+        "point map",
+        "tracking"
+      ],
+      "date": "2025-03-14",
+      "specs": "1.2B parameters · up to hundreds of views · under 1 s per scene (paper)",
+      "video": {
+        "url": "https://vgg-t.github.io/resources/teaser_video_v3_compressed_short.mp4"
+      },
+      "images": [
+        "https://vgg-t.github.io/resources/architecture_v4.png"
+      ],
+      "paper": {
+        "venue": "CVPR 2025",
+        "title": "VGGT: Visual Geometry Grounded Transformer",
+        "arxiv": "2503.11651",
+        "url": "https://arxiv.org/abs/2503.11651"
+      },
+      "source_url": "https://vgg-t.github.io/",
+      "code_url": "https://github.com/facebookresearch/vggt",
+      "collections": [
+        "cvpr",
+        "trend-feed-forward",
+        "trend-open-weights"
+      ],
+      "exhibited": [
+        "CVPR 2025 Best Paper Award"
+      ]
+    },
+    {
+      "id": "jianyuan-wang--vggt-omega",
+      "creator_ids": [
+        "jianyuan-wang",
+        "meta"
+      ],
+      "title": "VGGT-Ω",
+      "year": 2026,
+      "field": "spatial-4d",
+      "sub": "feed-forward",
+      "modalities": [
+        "scene-3d",
+        "dynamic-4d"
+      ],
+      "inputs": [
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "diversity"
+      ],
+      "kind": "model",
+      "description": "VGGT-Ω is the 2026 successor to VGGT: a larger feed-forward reconstructor for both static and dynamic scenes, with a text-aligned variant and a public Hugging Face demo.",
+      "description_zh": "VGGT-Ω 是 VGGT 在 2026 年的后续版本：一个更大的前馈式重建模型，同时处理静态与动态场景，另有文本对齐版本和公开的 Hugging Face 演示。",
+      "idea_en": "The authors report that reconstruction quality scales predictably with model and data size, which suggests feed-forward 3D will keep improving the way language models did.",
+      "idea_zh": "作者报告重建质量随模型与数据规模可预测地提升，这意味着前馈式三维会像语言模型那样持续进步。",
+      "method": "A simplified VGGT with a single multi-task dense head, registers and no high-resolution convolutions, trained at larger scale with a dynamic-scene annotation pipeline and self-supervision.",
+      "method_zh": "简化后的 VGGT：单一多任务稠密预测头、加入寄存器标记、去掉高分辨率卷积层，并借助支持动态场景的标注流程与自监督在更大规模上训练。",
+      "keywords": [
+        "scaling law",
+        "dynamic scenes",
+        "feed-forward reconstruction",
+        "2026"
+      ],
+      "date": "2026-05-14",
+      "specs": "~1B parameters · 256–512 px checkpoints · gated weights on Hugging Face",
+      "video": {
+        "url": "https://vggt-omega.github.io/assets/demos/transmission_video.mp4"
+      },
+      "paper": {
+        "venue": "CVPR 2026",
+        "title": "VGGT-Ω",
+        "arxiv": "2605.15195",
+        "url": "https://arxiv.org/abs/2605.15195"
+      },
+      "source_url": "https://vggt-omega.github.io/",
+      "code_url": "https://github.com/facebookresearch/vggt-omega",
+      "collections": [
+        "cvpr",
+        "trend-feed-forward",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "qianqian-wang--cut3r",
+      "creator_ids": [
+        "qianqian-wang"
+      ],
+      "title": "CUT3R",
+      "year": 2025,
+      "field": "spatial-4d",
+      "sub": "feed-forward",
+      "modalities": [
+        "scene-3d",
+        "dynamic-4d"
+      ],
+      "inputs": [
+        "video",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "responsiveness"
+      ],
+      "kind": "model",
+      "description": "CUT3R reconstructs a scene online from a stream of images, updating a persistent internal state with each new frame and outputting camera pose and a metric point map per frame, including for moving content.",
+      "description_zh": "CUT3R 从图像流在线重建场景：每来一帧就更新一个持续的内部状态，并逐帧输出相机位姿和公制点图，也能处理运动内容。",
+      "idea_en": "A state that accumulates the world as you move is closer to how a headset should perceive a room than batch reconstruction.",
+      "idea_zh": "随移动不断累积世界的状态，比批量重建更接近头显感知房间的方式。",
+      "method": "A recurrent transformer reads each image against a learned state token set, writes back to it, and can also query the state from unseen viewpoints.",
+      "method_zh": "循环 Transformer 让每张图像与一组可学习的状态标记交互并回写，也能从未见过的视角查询该状态。",
+      "keywords": [
+        "online reconstruction",
+        "recurrent state",
+        "streaming"
+      ],
+      "date": "2025-01-21",
+      "video": {
+        "url": "https://cut3r.github.io/static/videos/cut3r_factory.mp4"
+      },
+      "paper": {
+        "venue": "CVPR 2025",
+        "title": "Continuous 3D Perception Model with Persistent State",
+        "arxiv": "2501.12387",
+        "url": "https://arxiv.org/abs/2501.12387"
+      },
+      "source_url": "https://cut3r.github.io/",
+      "code_url": "https://github.com/CUT3R/CUT3R",
+      "collections": [
+        "cvpr",
+        "trend-feed-forward"
+      ]
+    },
+    {
+      "id": "lihan-jiang--anysplat",
+      "creator_ids": [
+        "lihan-jiang"
+      ],
+      "title": "AnySplat",
+      "year": 2025,
+      "field": "spatial-4d",
+      "sub": "feed-forward",
+      "modalities": [
+        "splats",
+        "scene-3d"
+      ],
+      "inputs": [
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "responsiveness"
+      ],
+      "kind": "model",
+      "description": "AnySplat turns a set of unposed, uncalibrated photos into a complete 3D Gaussian splat scene, together with the camera poses, in a single forward pass of a few seconds.",
+      "description_zh": "AnySplat 把一组无位姿、未标定的照片，在几秒的一次前向中变成完整的三维高斯泼溅场景，并同时给出相机位姿。",
+      "idea_en": "Removes the per-scene training step that made splat capture slow, so a walkthrough can become explorable almost immediately.",
+      "idea_zh": "去掉了让泼溅捕捉变慢的逐场景训练步骤，使一段走拍几乎可以立刻变得可探索。",
+      "method": "A geometry transformer (VGGT-style) predicts Gaussians, intrinsics and extrinsics; differentiable voxelisation merges per-pixel Gaussians, trained with rendering and distillation losses.",
+      "method_zh": "类似 VGGT 的几何 Transformer 预测高斯、内参与外参，可微体素化合并逐像素高斯，并用渲染与蒸馏损失训练。",
+      "keywords": [
+        "pose-free",
+        "feed-forward Gaussians",
+        "unconstrained views"
+      ],
+      "date": "2025-05-29",
+      "video": {
+        "url": "https://city-super.github.io/anysplat/static/videos/teaser_video.mp4"
+      },
+      "images": [
+        "https://city-super.github.io/anysplat/static/images/teaser.png"
+      ],
+      "paper": {
+        "venue": "SIGGRAPH Asia 2025 (ACM TOG)",
+        "title": "AnySplat: Feed-forward 3D Gaussian Splatting from Unconstrained Views",
+        "arxiv": "2505.23716",
+        "url": "https://arxiv.org/abs/2505.23716"
+      },
+      "source_url": "https://city-super.github.io/anysplat/",
+      "code_url": "https://github.com/InternRobotics/AnySplat",
+      "collections": [
+        "siggraph",
+        "trend-feed-forward",
+        "trend-explicit-3d"
+      ]
+    },
+    {
+      "id": "nikhil-keetha--mapanything",
+      "creator_ids": [
+        "nikhil-keetha",
+        "meta"
+      ],
+      "title": "MapAnything",
+      "year": 2025,
+      "field": "spatial-4d",
+      "sub": "feed-forward",
+      "modalities": [
+        "scene-3d"
+      ],
+      "inputs": [
+        "image",
+        "multi-view",
+        "camera"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "control",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "MapAnything is a single model from Meta and Carnegie Mellon that turns images, optionally with known intrinsics, poses or depth, into metric-scale 3D geometry and cameras.",
+      "description_zh": "MapAnything 是 Meta 与卡内基梅隆大学推出的单一模型，可将图像（可选地加上已知内参、位姿或深度）转换为公制尺度的三维几何与相机。",
+      "idea_en": "Metric scale and optional sensor inputs make reconstructions measurable, which matters when a captured room is used as an experimental setting.",
+      "idea_zh": "公制尺度和可选的传感器输入让重建可测量，当捕捉的房间被用作实验场景时这一点很重要。",
+      "method": "A multi-view transformer with a factored scene representation (per-view ray directions, depth along rays, poses and a global metric scale) is trained across many datasets and input configurations.",
+      "method_zh": "多视角 Transformer 使用因式分解的场景表示（逐视角射线方向、沿射线深度、位姿和全局公制尺度），在多种数据集与输入配置上训练。",
+      "keywords": [
+        "metric reconstruction",
+        "multi-modal inputs"
+      ],
+      "date": "2025-09-16",
+      "video": {
+        "url": "https://map-anything.github.io/static/MapAnything_Teaser.mp4"
+      },
+      "images": [
+        "https://map-anything.github.io/static/MapAnything_Geometric_Inp.png"
+      ],
+      "paper": {
+        "venue": "3DV 2026",
+        "title": "MapAnything: Universal Feed-Forward Metric 3D Reconstruction",
+        "arxiv": "2509.13414",
+        "url": "https://arxiv.org/abs/2509.13414"
+      },
+      "source_url": "https://map-anything.github.io/",
+      "code_url": "https://github.com/facebookresearch/map-anything",
+      "collections": [
+        "trend-feed-forward",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "bytedance-seed--depth-anything-3",
+      "creator_ids": [
+        "bytedance-seed",
+        "haotong-lin"
+      ],
+      "title": "Depth Anything 3",
+      "year": 2025,
+      "field": "spatial-4d",
+      "sub": "feed-forward",
+      "modalities": [
+        "scene-3d",
+        "splats"
+      ],
+      "inputs": [
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "diversity"
+      ],
+      "kind": "model",
+      "description": "Depth Anything 3 from ByteDance Seed predicts consistent depth and camera rays from one image or any number of views, and can output a 3D Gaussian scene for novel views.",
+      "description_zh": "字节跳动 Seed 的 Depth Anything 3 可从一张图像或任意数量的视角预测一致的深度与相机射线，并能输出用于新视角渲染的三维高斯场景。",
+      "idea_en": "Collapses monocular depth, multi-view reconstruction and feed-forward splatting into one open model.",
+      "idea_zh": "把单目深度、多视角重建和前馈式泼溅合并到一个开源模型中。",
+      "method": "A plain DINOv2 transformer with cross-view attention predicts a depth-ray representation, trained with a teacher-student scheme on synthetic and real data; a Gaussian head is added for rendering.",
+      "method_zh": "一个普通的 DINOv2 Transformer 加跨视角注意力，预测“深度-射线”表示，在合成与真实数据上以师生方式训练，并附加高斯预测头用于渲染。",
+      "keywords": [
+        "depth estimation",
+        "any-view",
+        "feed-forward Gaussians"
+      ],
+      "date": "2025-11-13",
+      "video": {
+        "url": "https://depth-anything-3.github.io/assets/teaser_compress.mp4"
+      },
+      "images": [
+        "https://depth-anything-3.github.io/assets/teaser.png"
+      ],
+      "paper": {
+        "venue": "arXiv 2025",
+        "title": "Depth Anything 3: Recovering the Visual Space from Any Views",
+        "arxiv": "2511.10647",
+        "url": "https://arxiv.org/abs/2511.10647"
+      },
+      "source_url": "https://depth-anything-3.github.io/",
+      "code_url": "https://github.com/ByteDance-Seed/Depth-Anything-3",
+      "collections": [
+        "trend-feed-forward",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "robbyant--lingbot-map",
+      "creator_ids": [
+        "robbyant"
+      ],
+      "title": "LingBot-Map",
+      "year": 2026,
+      "field": "spatial-4d",
+      "sub": "feed-forward",
+      "modalities": [
+        "scene-3d"
+      ],
+      "inputs": [
+        "video"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "persistence"
+      ],
+      "kind": "model",
+      "description": "LingBot-Map is an open streaming 3D reconstruction model from Ant Group's Robbyant that turns a live video stream into camera poses and a point cloud at about 20 frames per second.",
+      "description_zh": "LingBot-Map 是蚂蚁集团灵波科技（Robbyant）发布的开源流式三维重建模型，可将实时视频流以约每秒 20 帧的速度转换为相机位姿与点云。",
+      "idea_en": "Feed-forward reconstruction that keeps up with a walking camera is what live mapping of a person's surroundings needs.",
+      "idea_zh": "能跟上行走相机速度的前馈式重建，正是实时映射人周围环境所需要的。",
+      "method": "A geometric context transformer combines an anchor context, a pose-reference window and a trajectory memory in its attention to limit drift while keeping the streaming state compact.",
+      "method_zh": "几何上下文 Transformer 在注意力中结合锚点上下文、位姿参考窗口与轨迹记忆，在保持流式状态紧凑的同时抑制漂移。",
+      "keywords": [
+        "streaming reconstruction",
+        "SLAM",
+        "2026"
+      ],
+      "date": "2026-04-15",
+      "specs": "~20 fps at 518×378 (paper)",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dChg10XY4aM"
+      },
+      "images": [
+        "https://mdn.alipayobjects.com/huamei_u94ywh/afts/img/fkaZRp3UjWwAAAAAgBAAAAgADkxfAQFr/original.png"
+      ],
+      "paper": {
+        "venue": "arXiv 2026",
+        "title": "LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+        "arxiv": "2604.14141",
+        "url": "https://arxiv.org/abs/2604.14141"
+      },
+      "source_url": "https://technology.robbyant.com/lingbot-map",
+      "code_url": "https://github.com/Robbyant/lingbot-map",
+      "collections": [
+        "trend-feed-forward",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "tianye-li--neural-3d-video",
+      "creator_ids": [
+        "tianye-li",
+        "meta"
+      ],
+      "title": "Neural 3D Video Synthesis (DyNeRF)",
+      "year": 2021,
+      "field": "spatial-4d",
+      "sub": "dynamic",
+      "modalities": [
+        "dynamic-4d"
+      ],
+      "inputs": [
+        "multi-view",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "control"
+      ],
+      "kind": "research",
+      "description": "Meta Reality Labs' DyNeRF reconstructs short multi-camera recordings of people cooking, with flames and moving hands, as a radiance field you can replay from new viewpoints and at new moments.",
+      "description_zh": "Meta Reality Labs 的 DyNeRF 把多相机录制的短视频（人在做饭，有火焰与移动的手）重建为辐射场，可以从新的视角、在新的时刻回放。",
+      "idea_en": "Its multi-view kitchen recordings became the shared yardstick for every later 4D Gaussian method.",
+      "idea_zh": "它的多视角厨房录制成了此后所有 4D 高斯方法共用的衡量标准。",
+      "method": "A NeRF conditioned on a compact learned latent code per frame is trained with hierarchical keyframe sampling and ray importance sampling over about 20 synchronised cameras.",
+      "method_zh": "以每帧一个紧凑可学习隐编码为条件的 NeRF，在约 20 台同步相机上用分层关键帧采样与光线重要性采样训练。",
+      "keywords": [
+        "dynamic NeRF",
+        "multi-view video",
+        "dataset"
+      ],
+      "video": {
+        "url": "https://neural-3d-video.github.io/resources/video.mp4"
+      },
+      "paper": {
+        "venue": "CVPR 2022",
+        "title": "Neural 3D Video Synthesis from Multi-view Video",
+        "arxiv": "2103.02597",
+        "url": "https://arxiv.org/abs/2103.02597"
+      },
+      "source_url": "https://neural-3d-video.github.io/",
+      "code_url": "https://github.com/facebookresearch/Neural_3D_Video",
+      "collections": [
+        "cvpr"
+      ]
+    },
+    {
+      "id": "jonathon-luiten--dynamic-3d-gaussians",
+      "creator_ids": [
+        "jonathon-luiten"
+      ],
+      "title": "Dynamic 3D Gaussians",
+      "year": 2023,
+      "field": "spatial-4d",
+      "sub": "dynamic",
+      "modalities": [
+        "dynamic-4d",
+        "splats"
+      ],
+      "inputs": [
+        "multi-view",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "control"
+      ],
+      "kind": "research",
+      "description": "Dynamic 3D Gaussians reconstructs multi-camera recordings of people juggling or playing sports as Gaussians that move over time, so every point is tracked through the sequence as it is rendered from new views.",
+      "description_zh": "Dynamic 3D Gaussians 把多相机录制的人物抛接、运动等片段重建为随时间移动的高斯，在从新视角渲染的同时，每个点在整段序列中都被追踪。",
+      "idea_en": "Tracking comes for free with the reconstruction, so captured motion can drive or be compared with other content.",
+      "idea_zh": "追踪随重建一起得到，因此捕捉到的运动可以用来驱动其他内容或与之比较。",
+      "method": "Gaussians keep fixed colour, size and opacity and only move and rotate per timestep, regularised by local rigidity, rotation-similarity and isometry losses.",
+      "method_zh": "高斯保持颜色、尺寸与不透明度不变，只在每个时间步移动和旋转，并用局部刚性、旋转相似性与等距约束进行正则。",
+      "keywords": [
+        "tracking",
+        "4D Gaussians",
+        "multi-view"
+      ],
+      "date": "2023-08-18",
+      "specs": "27-camera studio captures · dense 6-DoF tracking",
+      "video": {
+        "url": "https://dynamic3dgaussians.github.io/vid_assets/0/juggle.mp4"
+      },
+      "paper": {
+        "venue": "3DV 2024",
+        "title": "Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis",
+        "arxiv": "2308.09713",
+        "url": "https://arxiv.org/abs/2308.09713"
+      },
+      "source_url": "https://dynamic3dgaussians.github.io/",
+      "code_url": "https://github.com/JonathonLuiten/Dynamic3DGaussians",
+      "collections": [
+        "trend-4d-media"
+      ]
+    },
+    {
+      "id": "guanjun-wu--4d-gaussian-splatting",
+      "creator_ids": [
+        "guanjun-wu"
+      ],
+      "title": "4D Gaussian Splatting (4DGS)",
+      "year": 2023,
+      "field": "spatial-4d",
+      "sub": "dynamic",
+      "modalities": [
+        "dynamic-4d",
+        "splats"
+      ],
+      "inputs": [
+        "video",
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "responsiveness"
+      ],
+      "kind": "research",
+      "description": "4D Gaussian Splatting represents a moving scene as one set of 3D Gaussians plus a learned deformation field, so recorded dynamic scenes play back from free viewpoints in real time.",
+      "description_zh": "4D 高斯泼溅把运动场景表示为一组三维高斯加上一个学习得到的形变场，使录制的动态场景能以自由视角实时回放。",
+      "idea_en": "The reference point for treating recorded events, not just places, as something a viewer can walk around.",
+      "idea_zh": "把录下来的事件（而不仅是地点）当作观众可以绕着走的东西，这项工作是参照点。",
+      "method": "A HexPlane spatio-temporal encoder feeds a small MLP that predicts per-Gaussian position, rotation and scale offsets at each timestamp.",
+      "method_zh": "HexPlane 时空编码器为一个小型多层感知机提供特征，预测每个时间戳下每个高斯的位置、旋转与尺度偏移。",
+      "keywords": [
+        "4DGS",
+        "deformation field",
+        "HexPlane",
+        "dynamic scenes"
+      ],
+      "date": "2023-10-12",
+      "specs": "82 fps at 800×800 on RTX 3090 (paper, synthetic scenes)",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=_wRbq8KnaVg"
+      },
+      "images": [
+        "https://guanjunwu.github.io/4dgs/static/images/pipeline_00.jpg"
+      ],
+      "paper": {
+        "venue": "CVPR 2024",
+        "title": "4D Gaussian Splatting for Real-Time Dynamic Scene Rendering",
+        "arxiv": "2310.08528",
+        "url": "https://arxiv.org/abs/2310.08528"
+      },
+      "source_url": "https://guanjunwu.github.io/4dgs/",
+      "code_url": "https://github.com/hustvl/4DGaussians",
+      "collections": [
+        "agenda-core",
+        "cvpr",
+        "trend-4d-media"
+      ]
+    },
+    {
+      "id": "zhan-li--spacetime-gaussians",
+      "creator_ids": [
+        "zhan-li"
+      ],
+      "title": "Spacetime Gaussians",
+      "year": 2023,
+      "field": "spatial-4d",
+      "sub": "dynamic",
+      "modalities": [
+        "dynamic-4d",
+        "splats"
+      ],
+      "inputs": [
+        "multi-view",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "responsiveness"
+      ],
+      "kind": "research",
+      "description": "Spacetime Gaussian Feature Splatting gives each Gaussian its own lifespan, motion and rotation curves, playing back multi-view recordings at very high resolution in real time.",
+      "description_zh": "Spacetime Gaussian Feature Splatting 为每个高斯赋予各自的存续时间、运动与旋转曲线，可实时以极高分辨率回放多视角录制。",
+      "idea_en": "Gaussians that appear and disappear over time handle flames, smoke and occlusion better than deforming one fixed set.",
+      "idea_zh": "随时间出现与消失的高斯，比让一组固定高斯变形更能处理火焰、烟雾与遮挡。",
+      "method": "Temporal opacity, polynomial motion and rotation per Gaussian are combined with neural splatted features decoded by a small MLP, with guided sampling of new Gaussians in poorly covered regions.",
+      "method_zh": "每个高斯具有时间不透明度、多项式运动与旋转，并结合由小型多层感知机解码的神经泼溅特征，在覆盖不足的区域引导采样新高斯。",
+      "keywords": [
+        "spacetime",
+        "temporal opacity",
+        "8K"
+      ],
+      "date": "2023-12-28",
+      "specs": "8K at 60 fps on RTX 4090, lite model (paper)",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=_7deTUDRlns"
+      },
+      "images": [
+        "https://oppo-us-research.github.io/SpacetimeGaussians-website/static/images/methodv2.png"
+      ],
+      "paper": {
+        "venue": "CVPR 2024",
+        "title": "Spacetime Gaussian Feature Splatting for Real-Time Dynamic View Synthesis",
+        "arxiv": "2312.16812",
+        "url": "https://arxiv.org/abs/2312.16812"
+      },
+      "source_url": "https://oppo-us-research.github.io/SpacetimeGaussians-website/",
+      "code_url": "https://github.com/oppo-us-research/SpacetimeGaussians",
+      "collections": [
+        "cvpr",
+        "trend-4d-media"
+      ]
+    },
+    {
+      "id": "qianqian-wang--shape-of-motion",
+      "creator_ids": [
+        "qianqian-wang"
+      ],
+      "title": "Shape of Motion",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "dynamic",
+      "modalities": [
+        "dynamic-4d",
+        "splats"
+      ],
+      "inputs": [
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "situational-reach",
+        "persistence"
+      ],
+      "kind": "research",
+      "description": "Shape of Motion reconstructs a single casual phone video of a moving scene into 4D Gaussians with full-length 3D trajectories, so the event can be replayed from new angles.",
+      "description_zh": "Shape of Motion 把一段随手拍摄的运动场景手机视频重建为带完整三维轨迹的 4D 高斯，使事件可以从新角度回放。",
+      "idea_en": "Moves 4D capture from camera rigs to footage anyone already has, with honest limits on unseen regions.",
+      "idea_zh": "把 4D 捕捉从相机阵列推向任何人手头已有的素材，同时如实暴露未拍到区域的局限。",
+      "method": "Scene motion is a small set of shared SE(3) motion bases, fitted with monocular depth and 2D track priors from foundation models.",
+      "method_zh": "场景运动由一小组共享的 SE(3) 运动基表示，并借助基础模型提供的单目深度与二维轨迹先验进行拟合。",
+      "keywords": [
+        "monocular 4D",
+        "motion bases",
+        "3D tracking"
+      ],
+      "date": "2024-07-18",
+      "video": {
+        "url": "https://shape-of-motion.github.io/static/videos/swing.mp4"
+      },
+      "images": [
+        "https://shape-of-motion.github.io/static/images/open_graph.png"
+      ],
+      "paper": {
+        "venue": "ICCV 2025",
+        "title": "Shape of Motion: 4D Reconstruction from a Single Video",
+        "arxiv": "2407.13764",
+        "url": "https://arxiv.org/abs/2407.13764"
+      },
+      "source_url": "https://shape-of-motion.github.io/",
+      "code_url": "https://github.com/vye16/shape-of-motion",
+      "collections": [
+        "iccv-eccv",
+        "trend-4d-media"
+      ]
+    },
+    {
+      "id": "junyi-zhang--monst3r",
+      "creator_ids": [
+        "junyi-zhang"
+      ],
+      "title": "MonST3R",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "dynamic",
+      "modalities": [
+        "dynamic-4d",
+        "scene-3d"
+      ],
+      "inputs": [
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "situational-reach"
+      ],
+      "kind": "model",
+      "description": "MonST3R extends DUSt3R-style pointmaps to videos with motion, estimating per-frame geometry, camera trajectory and moving-object masks directly from a monocular clip.",
+      "description_zh": "MonST3R 把 DUSt3R 式点图扩展到有运动的视频，直接从单目片段估计逐帧几何、相机轨迹与运动物体掩码。",
+      "idea_en": "Showed that feed-forward geometry need not assume a frozen world.",
+      "idea_zh": "说明前馈式几何不必假设世界是静止的。",
+      "method": "DUSt3R is fine-tuned on a small mix of synthetic dynamic datasets to predict per-timestep pointmaps, followed by a light global optimisation over windows.",
+      "method_zh": "在少量合成动态数据集的混合上微调 DUSt3R，使其预测逐时间步点图，再在时间窗口上做轻量的全局优化。",
+      "keywords": [
+        "dynamic pointmap",
+        "camera pose",
+        "video depth"
+      ],
+      "date": "2024-10-04",
+      "video": {
+        "url": "https://monst3r-project.github.io/files/teaser_vid_v2_lowres.mp4"
+      },
+      "images": [
+        "https://monst3r-project.github.io/files/teaser_monst3r.png"
+      ],
+      "paper": {
+        "venue": "ICLR 2025",
+        "title": "MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion",
+        "arxiv": "2410.03825",
+        "url": "https://arxiv.org/abs/2410.03825"
+      },
+      "source_url": "https://monst3r-project.github.io/",
+      "code_url": "https://github.com/Junyi42/monst3r",
+      "collections": [
+        "ml-conf",
+        "trend-feed-forward"
+      ]
+    },
+    {
+      "id": "zhengqi-li--megasam",
+      "creator_ids": [
+        "zhengqi-li",
+        "google-deepmind"
+      ],
+      "title": "MegaSaM",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "dynamic",
+      "modalities": [
+        "dynamic-4d",
+        "scene-3d"
+      ],
+      "inputs": [
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "situational-reach",
+        "control"
+      ],
+      "kind": "research",
+      "description": "MegaSaM estimates accurate camera paths and consistent depth from casual, dynamic videos, including handheld footage with little camera motion, where classic SLAM and structure-from-motion fail.",
+      "description_zh": "MegaSaM 能从随手拍摄的动态视频中估计准确的相机路径与一致的深度，包括相机几乎不动的手持素材，而这些正是传统 SLAM 与运动恢复结构失效的地方。",
+      "idea_en": "A dependable camera and depth estimate is the first thing any 4D capture or video-to-world pipeline needs.",
+      "idea_zh": "可靠的相机与深度估计，是任何 4D 捕捉或视频转世界流程首先需要的。",
+      "method": "A differentiable SLAM system in the style of DROID-SLAM is combined with monocular depth priors and uncertainty-aware optimisation, then refined into consistent video depth.",
+      "method_zh": "将 DROID-SLAM 风格的可微 SLAM 与单目深度先验和考虑不确定性的优化相结合，再细化为一致的视频深度。",
+      "keywords": [
+        "SLAM",
+        "video depth",
+        "casual video"
+      ],
+      "date": "2024-12-05",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=swigYTCdoiw"
+      },
+      "paper": {
+        "venue": "CVPR 2025",
+        "title": "MegaSaM: Accurate, Fast, and Robust Structure and Motion from Casual Dynamic Videos",
+        "arxiv": "2412.04463",
+        "url": "https://arxiv.org/abs/2412.04463"
+      },
+      "source_url": "https://mega-sam.github.io/",
+      "code_url": "https://github.com/mega-sam/mega-sam",
+      "collections": [
+        "cvpr"
+      ],
+      "exhibited": [
+        "CVPR 2025 Best Paper Honorable Mention"
+      ]
+    },
+    {
+      "id": "yifan-wang-zju--freetimegs",
+      "creator_ids": [
+        "yifan-wang-zju",
+        "zju3dv"
+      ],
+      "title": "FreeTimeGS",
+      "year": 2025,
+      "field": "spatial-4d",
+      "sub": "dynamic",
+      "modalities": [
+        "dynamic-4d",
+        "splats"
+      ],
+      "inputs": [
+        "multi-view",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "responsiveness"
+      ],
+      "kind": "research",
+      "description": "FreeTimeGS lets Gaussians appear at any time and place and carry their own motion, reconstructing fast, complex movement from multi-camera rigs for real-time free-viewpoint playback.",
+      "description_zh": "FreeTimeGS 允许高斯在任意时间、任意位置出现并带有各自的运动，从多相机阵列重建快速复杂的动作，实现实时自由视角回放。",
+      "idea_en": "The published method behind 4DV.ai's 4D video, linking a CVPR paper directly to a production medium.",
+      "idea_zh": "4DV.ai 4D 视频背后的已发表方法，把一篇 CVPR 论文直接连接到一种制作媒介。",
+      "method": "Each Gaussian has a temporal centre, velocity-based motion function and temporal opacity, with a 4D regularisation that avoids overfitting to individual frames.",
+      "method_zh": "每个高斯具有时间中心、基于速度的运动函数与时间不透明度，并通过 4D 正则化避免对单帧过拟合。",
+      "keywords": [
+        "4D Gaussians",
+        "free-viewpoint video",
+        "4DV.ai"
+      ],
+      "date": "2025-06-05",
+      "video": {
+        "url": "https://zju3dv.github.io/freetimegs/demo/demo_f1.mp4"
+      },
+      "images": [
+        "https://zju3dv.github.io/freetimegs/img/teaser.jpg"
+      ],
+      "paper": {
+        "venue": "CVPR 2025",
+        "title": "FreeTimeGS: Free Gaussian Primitives at Anytime and Anywhere for Dynamic Scene Reconstruction",
+        "arxiv": "2506.05348",
+        "url": "https://arxiv.org/abs/2506.05348"
+      },
+      "source_url": "https://zju3dv.github.io/freetimegs/",
+      "collections": [
+        "cvpr",
+        "trend-4d-media"
+      ]
+    },
+    {
+      "id": "hanxue-liang--btimer",
+      "creator_ids": [
+        "hanxue-liang",
+        "nvidia"
+      ],
+      "title": "BTimer",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "dynamic",
+      "modalities": [
+        "dynamic-4d",
+        "splats"
+      ],
+      "inputs": [
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "responsiveness",
+        "authoring"
+      ],
+      "kind": "research",
+      "description": "NVIDIA's BTimer reconstructs a full 3D Gaussian snapshot of any moment in a monocular video in a single forward pass, giving a bullet-time view of moving scenes, including clips from video generators.",
+      "description_zh": "NVIDIA 的 BTimer 只需一次前向，就能为单目视频中的任意时刻重建完整的三维高斯快照，为运动场景提供子弹时间视角，也适用于视频生成模型的片段。",
+      "idea_en": "Brings the feed-forward speed of VGGT-style models to moving scenes, and applies directly to generated video.",
+      "idea_zh": "把 VGGT 类模型的前馈速度带到运动场景中，并能直接用于生成的视频。",
+      "method": "A transformer takes the context frames plus a target timestamp and outputs pixel-aligned Gaussians for that instant, trained on static and dynamic data with a curriculum.",
+      "method_zh": "Transformer 输入上下文帧与目标时间戳，输出该时刻的像素对齐高斯，采用静态与动态数据的课程式训练。",
+      "keywords": [
+        "bullet time",
+        "feed-forward 4D",
+        "monocular video"
+      ],
+      "date": "2024-12-04",
+      "video": {
+        "url": "https://research.nvidia.com/labs/toronto-ai/bullet-timer/davis_results/tennis_demo.mp4"
+      },
+      "images": [
+        "https://research.nvidia.com/labs/toronto-ai/bullet-timer/figures/teaser.png"
+      ],
+      "paper": {
+        "venue": "arXiv 2024",
+        "title": "Feed-Forward Bullet-Time Reconstruction of Dynamic Scenes from Monocular Videos",
+        "arxiv": "2412.03526",
+        "url": "https://arxiv.org/abs/2412.03526"
+      },
+      "source_url": "https://research.nvidia.com/labs/toronto-ai/bullet-timer/",
+      "collections": [
+        "trend-feed-forward",
+        "trend-4d-media"
+      ]
+    },
+    {
+      "id": "linyi-jin--stereo4d",
+      "creator_ids": [
+        "linyi-jin",
+        "google-deepmind"
+      ],
+      "title": "Stereo4D",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "dynamic",
+      "modalities": [
+        "dynamic-4d"
+      ],
+      "inputs": [
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "diversity",
+        "behavioral-plausibility"
+      ],
+      "kind": "dataset",
+      "description": "Stereo4D mines stereoscopic VR180 videos from the internet to produce a large dataset of real-world scenes with dense 3D point tracks of how things actually move.",
+      "description_zh": "Stereo4D 从互联网 VR180 立体视频中挖掘数据，构建了一个包含真实世界场景及其稠密三维点轨迹（即物体真实运动方式）的大型数据集。",
+      "idea_en": "Real 3D motion at scale is the missing training signal for 4D generators that should move things plausibly.",
+      "idea_zh": "大规模的真实三维运动，正是让 4D 生成模型生成合理运动所缺少的训练信号。",
+      "method": "Stereo depth, camera poses and 2D tracks are fused and filtered into world-space 3D trajectories; a DUSt3R variant (DynaDUSt3R) is trained on them to predict motion.",
+      "method_zh": "把立体深度、相机位姿与二维轨迹融合并过滤为世界坐标系下的三维轨迹，并以此训练 DUSt3R 变体（DynaDUSt3R）来预测运动。",
+      "keywords": [
+        "VR180",
+        "3D tracks",
+        "dataset"
+      ],
+      "date": "2024-12-12",
+      "video": {
+        "url": "https://stereo4d.github.io/static/videos/pipeline/vr180s-v2_compressed.mp4"
+      },
+      "images": [
+        "https://stereo4d.github.io/stereo4d_teaser.jpg"
+      ],
+      "paper": {
+        "venue": "CVPR 2025",
+        "title": "Stereo4D: Learning How Things Move in 3D from Internet Stereo Videos",
+        "arxiv": "2412.09621",
+        "url": "https://arxiv.org/abs/2412.09621"
+      },
+      "source_url": "https://stereo4d.github.io/",
+      "collections": [
+        "cvpr"
+      ]
+    },
+    {
+      "id": "uriel-singer--mav3d",
+      "creator_ids": [
+        "uriel-singer",
+        "meta"
+      ],
+      "title": "MAV3D (Make-A-Video3D)",
+      "year": 2023,
+      "field": "spatial-4d",
+      "sub": "generative-4d",
+      "modalities": [
+        "dynamic-4d"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "authoring",
+        "diversity"
+      ],
+      "kind": "research",
+      "description": "Meta's MAV3D generated short dynamic 3D scenes, such as an animated corgi viewable from any angle, from a text prompt alone, by distilling a text-to-video model.",
+      "description_zh": "Meta 的 MAV3D 仅凭文字提示就能生成短小的动态三维场景（例如可从任意角度观看的动画柯基），方法是蒸馏一个文生视频模型。",
+      "idea_en": "The first text-to-4D system; it set the template of borrowing motion from video models.",
+      "idea_zh": "第一个文本到 4D 系统，确立了“从视频模型借用运动”的范式。",
+      "method": "A HexPlane dynamic NeRF is optimised with score distillation from Make-A-Video, using a static-to-dynamic schedule and super-resolution fine-tuning.",
+      "method_zh": "用 Make-A-Video 的分数蒸馏优化一个 HexPlane 动态 NeRF，采用由静态到动态的训练日程并进行超分辨率微调。",
+      "keywords": [
+        "text-to-4D",
+        "score distillation",
+        "dynamic NeRF"
+      ],
+      "date": "2023-01-26",
+      "video": {
+        "url": "https://make-a-video3d.github.io/assets/rotating_grid.mp4"
+      },
+      "images": [
+        "https://make-a-video3d.github.io/assets/images/teaser.png"
+      ],
+      "paper": {
+        "venue": "ICML 2023",
+        "title": "Text-To-4D Dynamic Scene Generation",
+        "arxiv": "2301.11280",
+        "url": "https://arxiv.org/abs/2301.11280"
+      },
+      "source_url": "https://make-a-video3d.github.io/",
+      "collections": [
+        "ml-conf"
+      ]
+    },
+    {
+      "id": "jiawei-ren--dreamgaussian4d",
+      "creator_ids": [
+        "jiawei-ren"
+      ],
+      "title": "DreamGaussian4D",
+      "year": 2023,
+      "field": "spatial-4d",
+      "sub": "generative-4d",
+      "modalities": [
+        "dynamic-4d",
+        "splats",
+        "mesh"
+      ],
+      "inputs": [
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "responsiveness"
+      ],
+      "kind": "research",
+      "description": "DreamGaussian4D animates a 3D Gaussian object generated from a single image, driven by a reference video, and exports it as an animated mesh, in minutes rather than hours.",
+      "description_zh": "DreamGaussian4D 以参考视频驱动，由单张图像生成的三维高斯物体动起来，并导出为带动画的网格，耗时几分钟而非几小时。",
+      "idea_en": "Brought 4D object generation down to minutes and to a format game engines can load.",
+      "idea_zh": "把 4D 物体生成缩短到几分钟，并变成游戏引擎能加载的格式。",
+      "method": "A static Gaussian object from DreamGaussianHD is deformed by a HexPlane deformation network fitted to an image-to-video driving clip, then refined by video-to-video texture optimisation.",
+      "method_zh": "DreamGaussianHD 生成的静态高斯物体由 HexPlane 形变网络变形，以拟合图生视频得到的驱动片段，再通过视频到视频的纹理优化细化。",
+      "keywords": [
+        "image-to-4D",
+        "Gaussian splatting",
+        "animated mesh"
+      ],
+      "date": "2023-12-28",
+      "video": {
+        "url": "https://jiawei-ren.github.io/projects/dreamgaussian4d/videos/teaser.mp4"
+      },
+      "paper": {
+        "venue": "arXiv 2023",
+        "title": "DreamGaussian4D: Generative 4D Gaussian Splatting",
+        "arxiv": "2312.17142",
+        "url": "https://arxiv.org/abs/2312.17142"
+      },
+      "source_url": "https://jiawei-ren.github.io/projects/dreamgaussian4d/",
+      "code_url": "https://github.com/jiawei-ren/dreamgaussian4d",
+      "collections": [
+        "agenda-core",
+        "trend-4d-media"
+      ]
+    },
+    {
+      "id": "heng-yu--4real",
+      "creator_ids": [
+        "heng-yu",
+        "snap"
+      ],
+      "title": "4Real",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "generative-4d",
+      "modalities": [
+        "dynamic-4d",
+        "splats"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "diversity"
+      ],
+      "kind": "research",
+      "description": "4Real, from Snap Research and CMU, generates photorealistic dynamic scenes with backgrounds from a text prompt, viewable from a range of angles, rather than isolated cartoon-like objects.",
+      "description_zh": "Snap Research 与卡内基梅隆大学的 4Real 可根据文字提示生成带背景的照片级动态场景，可从一定角度范围观看，而不是孤立的卡通式物体。",
+      "idea_en": "Moved text-to-4D from objects on a white background to whole scenes.",
+      "idea_zh": "把文本到 4D 从白底上的物体推进到完整场景。",
+      "method": "A text-to-video model generates a reference video and a freeze-time orbit video; a canonical 3D Gaussian scene is built from the orbit and deformed to match the reference with score distillation.",
+      "method_zh": "文生视频模型先生成参考视频和定格环绕视频，由环绕视频构建标准三维高斯场景，再通过分数蒸馏使其变形以匹配参考视频。",
+      "keywords": [
+        "text-to-4D",
+        "scene generation",
+        "video diffusion"
+      ],
+      "date": "2024-06-11",
+      "video": {
+        "url": "https://snap-research.github.io/4Real/resources/teaser-1080p.mp4"
+      },
+      "images": [
+        "https://snap-research.github.io/4Real/resources/racoon_sync.gif"
+      ],
+      "paper": {
+        "venue": "NeurIPS 2024",
+        "title": "4Real: Towards Photorealistic 4D Scene Generation via Video Diffusion Models",
+        "arxiv": "2406.07472",
+        "url": "https://arxiv.org/abs/2406.07472"
+      },
+      "source_url": "https://snap-research.github.io/4Real/",
+      "collections": [
+        "ml-conf",
+        "trend-4d-media"
+      ]
+    },
+    {
+      "id": "jiawei-ren--l4gm",
+      "creator_ids": [
+        "jiawei-ren",
+        "nvidia"
+      ],
+      "title": "L4GM",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "generative-4d",
+      "modalities": [
+        "dynamic-4d",
+        "splats"
+      ],
+      "inputs": [
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "NVIDIA's L4GM (Large 4D Gaussian Reconstruction Model) turns a single-view video of an object into an animated 3D Gaussian object in about a second.",
+      "description_zh": "NVIDIA 的 L4GM（大型 4D 高斯重建模型）能在约一秒内把物体的单视角视频变成带动画的三维高斯物体。",
+      "idea_en": "Shows 4D object generation as a forward pass, fast enough to sit inside an interactive tool.",
+      "idea_zh": "把 4D 物体生成变成一次前向，快到可以嵌入交互式工具之中。",
+      "method": "A multi-view LGM backbone is extended with temporal self-attention and trained on renders of animated Objaverse objects, with an interpolation model to raise frame rate.",
+      "method_zh": "在多视角 LGM 骨干上加入时间自注意力，用 Objaverse 动画物体的渲染数据训练，并配合插帧模型提高帧率。",
+      "keywords": [
+        "video-to-4D",
+        "large reconstruction model",
+        "Objaverse"
+      ],
+      "date": "2024-06-14",
+      "specs": "about 1 s per video (paper)",
+      "video": {
+        "url": "https://research.nvidia.com/labs/toronto-ai/l4gm/assets/4d_scenes/regular_assets/w_interp_000000.mp4"
+      },
+      "images": [
+        "https://research.nvidia.com/labs/toronto-ai/l4gm/assets/figures/framework_largertext.png"
+      ],
+      "paper": {
+        "venue": "NeurIPS 2024",
+        "title": "L4GM: Large 4D Gaussian Reconstruction Model",
+        "arxiv": "2406.10324",
+        "url": "https://arxiv.org/abs/2406.10324"
+      },
+      "source_url": "https://research.nvidia.com/labs/toronto-ai/l4gm/",
+      "code_url": "https://github.com/nv-tlabs/L4GM-official",
+      "collections": [
+        "ml-conf",
+        "trend-feed-forward"
+      ]
+    },
+    {
+      "id": "stability-ai--sv4d",
+      "creator_ids": [
+        "stability-ai"
+      ],
+      "title": "Stable Video 4D (SV4D)",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "generative-4d",
+      "modalities": [
+        "dynamic-4d",
+        "flat-video"
+      ],
+      "inputs": [
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "diversity"
+      ],
+      "kind": "model",
+      "description": "Stability AI's SV4D takes a video of an object and generates consistent novel-view videos around it, which are then used to fit a dynamic 3D representation.",
+      "description_zh": "Stability AI 的 SV4D 输入一段物体视频，生成围绕该物体的、彼此一致的新视角视频，再据此拟合动态三维表示。",
+      "idea_en": "An open-weight multi-view video model that labs can run and pin for object-level 4D content.",
+      "idea_zh": "一个开放权重的多视角视频模型，实验室可以本地运行并锁定版本，用于物体级 4D 内容。",
+      "method": "Stable Video Diffusion is extended with view and frame attention to denoise a grid of views × frames jointly; outputs supervise a dynamic NeRF.",
+      "method_zh": "在 Stable Video Diffusion 上加入视角注意力与帧注意力，联合去噪“视角 × 帧”网格，输出用于监督动态 NeRF。",
+      "keywords": [
+        "multi-view video diffusion",
+        "open weights",
+        "video-to-4D"
+      ],
+      "date": "2024-07-24",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=RBP8vdAWTgk"
+      },
+      "paper": {
+        "venue": "arXiv 2024",
+        "title": "SV4D: Dynamic 3D Content Generation with Multi-Frame and Multi-View Consistency",
+        "arxiv": "2407.17470",
+        "url": "https://arxiv.org/abs/2407.17470"
+      },
+      "source_url": "https://sv4d.github.io/",
+      "code_url": "https://github.com/Stability-AI/generative-models",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "stability-ai--sv4d-2",
+      "creator_ids": [
+        "stability-ai"
+      ],
+      "title": "SV4D 2.0",
+      "year": 2025,
+      "field": "spatial-4d",
+      "sub": "generative-4d",
+      "modalities": [
+        "dynamic-4d",
+        "flat-video"
+      ],
+      "inputs": [
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "persistence"
+      ],
+      "kind": "model",
+      "description": "SV4D 2.0 improves Stability AI's video-to-4D model with sharper, more consistent multi-view videos that hold up better under large motion and can be optimised into 4D assets.",
+      "description_zh": "SV4D 2.0 改进了 Stability AI 的视频到 4D 模型，生成的多视角视频更清晰、更一致，在大幅运动下也更稳定，并可被优化为 4D 资产。",
+      "idea_en": "Shows the open-weight object-4D line maturing toward usable animated assets.",
+      "idea_zh": "说明开放权重的物体级 4D 路线正走向可用的动画资产。",
+      "method": "Blended 3D and frame attention without reference multi-views, more and cleaner animated training data and progressive 3D-to-4D training improve consistency; outputs are refined in a two-stage 4D optimisation.",
+      "method_zh": "融合三维注意力与帧注意力且不再依赖参考多视角，使用更多更干净的动画训练数据，并采用由 3D 到 4D 的渐进训练来提升一致性，输出再经两阶段 4D 优化细化。",
+      "keywords": [
+        "multi-view video diffusion",
+        "4D assets",
+        "open weights"
+      ],
+      "date": "2025-03-20",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dtqj-s50ynU"
+      },
+      "paper": {
+        "venue": "arXiv 2025",
+        "title": "SV4D 2.0: Enhancing Spatio-Temporal Consistency in Multi-View Video Diffusion for High-Quality 4D Generation",
+        "arxiv": "2503.16396",
+        "url": "https://arxiv.org/abs/2503.16396"
+      },
+      "source_url": "https://sv4d20.github.io/",
+      "code_url": "https://github.com/Stability-AI/generative-models",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "rundi-wu--cat4d",
+      "creator_ids": [
+        "rundi-wu",
+        "google-deepmind"
+      ],
+      "title": "CAT4D",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "generative-4d",
+      "modalities": [
+        "dynamic-4d",
+        "splats"
+      ],
+      "inputs": [
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "situational-reach",
+        "persistence"
+      ],
+      "kind": "research",
+      "description": "Google DeepMind's CAT4D turns a single monocular video of a dynamic scene into a 4D Gaussian scene by first generating the missing camera viewpoints with a multi-view video diffusion model.",
+      "description_zh": "Google DeepMind 的 CAT4D 先用多视角视频扩散模型生成缺失的相机视角，再把单目动态场景视频变成 4D 高斯场景。",
+      "idea_en": "Generation fills what one camera could not see, which is how a casual clip can become a navigable moment.",
+      "idea_zh": "生成补足了单个相机看不到的部分，这正是一段随手视频能变成可漫游时刻的途径。",
+      "method": "A multi-view video diffusion model, trained on mixed static, dynamic and synthetic data, samples novel views at chosen times; an alternating sampling strategy keeps them consistent before 4D Gaussian fitting.",
+      "method_zh": "在静态、动态与合成数据混合上训练的多视角视频扩散模型，可在指定时间采样新视角，交替采样策略保证一致性，然后拟合 4D 高斯。",
+      "keywords": [
+        "multi-view video diffusion",
+        "monocular 4D",
+        "4D Gaussians"
+      ],
+      "date": "2024-11-27",
+      "video": {
+        "url": "https://cat-4d.github.io/videos/howitworks_cat4d.mp4"
+      },
+      "images": [
+        "https://cat-4d.github.io/img/rep_img.jpg"
+      ],
+      "paper": {
+        "venue": "CVPR 2025",
+        "title": "CAT4D: Create Anything in 4D with Multi-View Video Diffusion Models",
+        "arxiv": "2411.18613",
+        "url": "https://arxiv.org/abs/2411.18613"
+      },
+      "source_url": "https://cat-4d.github.io/",
+      "collections": [
+        "agenda-core",
+        "cvpr",
+        "trend-4d-media"
+      ]
+    },
+    {
+      "id": "denis-rozumny--bulletgen",
+      "creator_ids": [
+        "denis-rozumny",
+        "jonathon-luiten",
+        "meta"
+      ],
+      "title": "BulletGen",
+      "year": 2025,
+      "field": "spatial-4d",
+      "sub": "generative-4d",
+      "modalities": [
+        "dynamic-4d",
+        "splats"
+      ],
+      "inputs": [
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "situational-reach",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "Meta's BulletGen improves 4D Gaussian reconstructions of casual monocular videos by generating, at frozen bullet-time moments, the views the camera never saw and using them to supervise the reconstruction.",
+      "description_zh": "Meta 的 BulletGen 在定格的子弹时间时刻生成相机从未看到的视角，并用它们监督重建，从而改进随手单目视频的 4D 高斯重建。",
+      "idea_en": "Generation used as a repair tool inside reconstruction, keeping the captured motion while filling the gaps.",
+      "idea_zh": "把生成当作重建中的修补工具：保留拍到的运动，同时填补空缺。",
+      "method": "A diffusion video model is aligned with the current 4D Gaussian scene at a single frozen time step; generated frames are added as supervision in an iterative optimisation that also improves 2D/3D tracking.",
+      "method_zh": "在单个定格时间步上，把扩散视频模型与当前 4D 高斯场景对齐，生成的帧作为监督加入迭代优化，同时改善二维/三维追踪。",
+      "keywords": [
+        "bullet time",
+        "generative completion",
+        "monocular 4D",
+        "no public video"
+      ],
+      "date": "2025-06-23",
+      "images": [
+        "https://arxiv.org/html/2506.18601v2/imgs/teaser/skating/v1_our.png",
+        "https://arxiv.org/html/2506.18601v2/x1.png"
+      ],
+      "paper": {
+        "venue": "CVPR 2026 Workshop (4D World Models)",
+        "title": "BulletGen: Improving 4D Reconstruction with Bullet-Time Generation",
+        "arxiv": "2506.18601",
+        "url": "https://arxiv.org/abs/2506.18601"
+      },
+      "source_url": "https://arxiv.org/abs/2506.18601",
+      "collections": [
+        "agenda-core",
+        "trend-4d-media"
+      ]
+    },
+    {
+      "id": "zhaoxi-chen--4dnex",
+      "creator_ids": [
+        "zhaoxi-chen"
+      ],
+      "title": "4DNeX",
+      "year": 2025,
+      "field": "spatial-4d",
+      "sub": "generative-4d",
+      "modalities": [
+        "dynamic-4d",
+        "flat-video"
+      ],
+      "inputs": [
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "diversity"
+      ],
+      "kind": "model",
+      "description": "4DNeX generates a dynamic 3D point-cloud scene from a single image in one feed-forward pass, so a still photo becomes a short moving scene that can be viewed from new angles.",
+      "description_zh": "4DNeX 只需一次前向，就能从单张图像生成动态三维点云场景，让一张静态照片变成可以从新角度观看的短暂运动场景。",
+      "idea_en": "Image-to-4D without per-scene optimisation, built by repurposing an open video model.",
+      "idea_zh": "无需逐场景优化的图像到 4D，是通过改造开源视频模型实现的。",
+      "method": "A pretrained video diffusion model is fine-tuned to jointly output RGB and XYZ point-map sequences, trained on a large curated 4D dataset (4DNeX-10M).",
+      "method_zh": "微调预训练视频扩散模型，使其联合输出 RGB 与 XYZ 点图序列，在大规模精选 4D 数据集（4DNeX-10M）上训练。",
+      "keywords": [
+        "image-to-4D",
+        "point map",
+        "video diffusion"
+      ],
+      "date": "2025-08-18",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=jaXNU1-0zgk"
+      },
+      "paper": {
+        "venue": "arXiv 2025",
+        "title": "4DNeX: Feed-Forward 4D Generative Modeling Made Easy",
+        "arxiv": "2508.13154",
+        "url": "https://arxiv.org/abs/2508.13154"
+      },
+      "source_url": "https://4dnex.github.io/",
+      "code_url": "https://github.com/3DTopia/4DNeX",
+      "collections": [
+        "trend-feed-forward",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "alvaro-collet--free-viewpoint-video",
+      "creator_ids": [
+        "alvaro-collet",
+        "microsoft"
+      ],
+      "title": "High-Quality Streamable Free-Viewpoint Video",
+      "year": 2015,
+      "field": "spatial-4d",
+      "sub": "volumetric",
+      "modalities": [
+        "dynamic-4d",
+        "avatar"
+      ],
+      "inputs": [
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "persistence"
+      ],
+      "kind": "research",
+      "description": "Microsoft's capture-stage system records performers with a dome of synchronised cameras and turns them into streamable textured 3D meshes that can be placed in AR, VR or film.",
+      "description_zh": "微软的捕捉舞台系统用一圈同步相机录制表演者，并把他们转换为可流式传输的带纹理三维网格，用于 AR、VR 或电影。",
+      "idea_en": "The studio volumetric-video pipeline that preceded Gaussian video, and the baseline it is judged against.",
+      "idea_zh": "这是高斯视频出现之前的影棚体积视频流程，也是评价高斯视频时的基线。",
+      "method": "Multi-view RGB and infrared stereo give point clouds that are meshed, tracked for temporal coherence, texture-mapped and compressed for streaming.",
+      "method_zh": "多视角 RGB 与红外立体得到点云，再经网格化、为时间一致性进行追踪、纹理映射并压缩以便流式传输。",
+      "keywords": [
+        "volumetric video",
+        "capture stage",
+        "Mixed Reality Capture Studios",
+        "precursor"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=_ljYpdGJdoo"
+      },
+      "paper": {
+        "venue": "SIGGRAPH 2015 (ACM TOG)",
+        "title": "High-quality streamable free-viewpoint video",
+        "doi": "10.1145/2766945",
+        "url": "https://doi.org/10.1145/2766945"
+      },
+      "collections": [
+        "siggraph"
+      ]
+    },
+    {
+      "id": "google--project-starline",
+      "creator_ids": [
+        "google"
+      ],
+      "title": "Project Starline",
+      "year": 2021,
+      "field": "spatial-4d",
+      "sub": "volumetric",
+      "modalities": [
+        "avatar",
+        "dynamic-4d"
+      ],
+      "inputs": [
+        "multi-view",
+        "speech",
+        "body"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "responsiveness"
+      ],
+      "kind": "research",
+      "description": "Google's Project Starline prototype is a booth in which two people talk across a light-field display that shows each other life-size and in 3D, captured and transmitted in real time.",
+      "description_zh": "Google 的 Project Starline 原型是一个通话隔间：两个人隔着光场显示屏交谈，彼此以真人大小的三维形象出现，实时捕捉并传输。",
+      "idea_en": "Eye contact and depth cues at life size, tested with users, make it a reference for what remote social presence can feel like.",
+      "idea_zh": "真人尺寸的眼神接触与深度线索，并经过用户测试，使它成为远程社交临场感的参照。",
+      "method": "Several colour and depth cameras feed a real-time fusion and compression pipeline; a head-tracked autostereoscopic display renders the remote person with spatial audio.",
+      "method_zh": "多台彩色与深度相机接入实时融合与压缩流程，头部追踪的裸眼立体显示屏配合空间音频渲染远端的人。",
+      "keywords": [
+        "telepresence",
+        "light field display",
+        "3D video call"
+      ],
+      "date": "2021-05-18",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=Q13CishCKXY"
+      },
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_HERO.width-1300.png"
+      ],
+      "paper": {
+        "venue": "SIGGRAPH Asia 2021 (ACM TOG)",
+        "title": "Project Starline: A high-fidelity telepresence system",
+        "doi": "10.1145/3478513.3480490",
+        "url": "https://doi.org/10.1145/3478513.3480490"
+      },
+      "source_url": "https://blog.google/technology/research/project-starline/",
+      "collections": [
+        "siggraph"
+      ]
+    },
+    {
+      "id": "google--google-beam",
+      "creator_ids": [
+        "google"
+      ],
+      "title": "Google Beam",
+      "year": 2025,
+      "field": "spatial-4d",
+      "sub": "volumetric",
+      "modalities": [
+        "avatar",
+        "dynamic-4d"
+      ],
+      "inputs": [
+        "multi-view",
+        "speech",
+        "body"
+      ],
+      "timing": "real-time",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "responsiveness"
+      ],
+      "kind": "product",
+      "description": "Google Beam is the commercial successor to Project Starline: an AI model turns several 2D camera streams into a 3D rendering of the remote person on a light-field display, sold built into HP's Dimension screen.",
+      "description_zh": "Google Beam 是 Project Starline 的商用后继：AI 模型把多路二维相机画面转换为远端人物的三维渲染，在光场显示屏上呈现，内置于 HP Dimension 显示设备出售。",
+      "idea_en": "Volumetric telepresence is now a product you can buy, but at about $25,000 per unit (reported) and for one-to-one calls only.",
+      "idea_zh": "体积式远程临场已经是可以买到的产品，但据报道每台约 2.5 万美元，并且只支持一对一通话。",
+      "method": "Google reports a six-camera array and an AI volumetric video model that renders on a 3D light-field display with millimetre head tracking at 60 fps.",
+      "method_zh": "Google 称其使用六相机阵列与 AI 体积视频模型，在三维光场显示屏上以 60 帧/秒和毫米级头部追踪进行渲染。",
+      "keywords": [
+        "telepresence",
+        "HP Dimension",
+        "light field display",
+        "Google Meet",
+        "Zoom"
+      ],
+      "date": "2025-05-20",
+      "specs": "6 cameras · 60 fps · 65-inch light-field display (HP Dimension) · 1:1 calls · ~$25,000 per unit (reported)",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=NGPyOHKWLFQ"
+      },
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Beam_hero.width-1300.png"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "api_url": "https://beam.google/",
+      "collections": [
+        "trend-4d-media",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "martin-de-la-gorce--volume",
+      "creator_ids": [
+        "martin-de-la-gorce",
+        "microsoft"
+      ],
+      "title": "VoluMe",
+      "year": 2025,
+      "field": "spatial-4d",
+      "sub": "volumetric",
+      "modalities": [
+        "avatar",
+        "splats"
+      ],
+      "inputs": [
+        "video"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "responsiveness",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "Microsoft Research's VoluMe turns an ordinary single webcam feed into a live 3D Gaussian reconstruction of the person, so a regular video call can be viewed in 3D from slightly different angles.",
+      "description_zh": "微软研究院的 VoluMe 把普通单路网络摄像头画面实时转换为人物的三维高斯重建，使常规视频通话可以从略有不同的角度以三维方式观看。",
+      "idea_en": "3D video calls without camera rigs, but with the trade-off that unseen sides are predicted rather than captured.",
+      "idea_zh": "无需相机阵列的三维视频通话，代价是看不到的一侧是预测出来的，而不是拍到的。",
+      "method": "A network predicts per-frame 3D Gaussians conditioned on the input frame, trained so the reconstruction matches the input view exactly and stays temporally stable.",
+      "method_zh": "网络以输入帧为条件逐帧预测三维高斯，训练目标是使重建与输入视角完全一致并保持时间稳定。",
+      "keywords": [
+        "3D video call",
+        "single camera",
+        "Gaussian avatar"
+      ],
+      "date": "2025-07-28",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=xgh46cf4_fw"
+      },
+      "images": [
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/07/volume_banner.jpg"
+      ],
+      "paper": {
+        "venue": "ICCV 2025",
+        "title": "VoluMe -- Authentic 3D Video Calls from Live Gaussian Splat Prediction",
+        "arxiv": "2507.21311",
+        "url": "https://arxiv.org/abs/2507.21311"
+      },
+      "source_url": "https://www.microsoft.com/en-us/research/publication/volume/",
+      "collections": [
+        "iccv-eccv",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "zhen-xu--temporal-gaussian-hierarchy",
+      "creator_ids": [
+        "zhen-xu",
+        "zju3dv"
+      ],
+      "title": "Temporal Gaussian Hierarchy (Long Volumetric Video)",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "volumetric",
+      "modalities": [
+        "dynamic-4d",
+        "splats"
+      ],
+      "inputs": [
+        "multi-view",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "persistence",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "This ZJU method stores minutes-long multi-camera recordings of people as one hierarchy of Gaussians shared across time segments, so long volumetric video can be played back in real time without running out of GPU memory.",
+      "description_zh": "浙江大学的这一方法把几分钟长的多相机人物录制存为一个跨时间段共享的高斯层级结构，使长时体积视频可以实时回放而不耗尽显存。",
+      "idea_en": "Length is what separates a clip from a scene someone can spend time in; this work removed the seconds-long limit of earlier 4D Gaussians.",
+      "idea_zh": "长度决定了一个片段能否成为让人停留其中的场景；这项工作打破了早期 4D 高斯只能持续几秒的限制。",
+      "method": "A temporal tree assigns each Gaussian to the segment span where it is needed, so static regions are shared across long spans while dynamic regions get short-lived Gaussians; appearance uses a lightweight Gaussian-based model.",
+      "method_zh": "时间树把每个高斯分配到它所需要的时间段范围：静态区域在长时间段内共享，动态区域使用短暂存在的高斯；外观采用轻量的基于高斯的模型。",
+      "keywords": [
+        "long volumetric video",
+        "Gaussian hierarchy",
+        "multi-view capture"
+      ],
+      "date": "2024-12",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=y7e0YRNNmXw"
+      },
+      "images": [
+        "https://zju3dv.github.io/longvolcap/img/teaser.jpg"
+      ],
+      "paper": {
+        "venue": "SIGGRAPH Asia 2024 (ACM TOG)",
+        "title": "Representing Long Volumetric Video with Temporal Gaussian Hierarchy",
+        "arxiv": "2412.09608",
+        "url": "https://arxiv.org/abs/2412.09608",
+        "doi": "10.1145/3687919"
+      },
+      "source_url": "https://zju3dv.github.io/longvolcap/",
+      "collections": [
+        "siggraph",
+        "trend-4d-media"
+      ]
+    },
+    {
+      "id": "arcturus--holosuite",
+      "creator_ids": [
+        "arcturus"
+      ],
+      "title": "HoloSuite (HoloEdit / HoloStream)",
+      "year": 2020,
+      "field": "spatial-4d",
+      "sub": "volumetric",
+      "modalities": [
+        "dynamic-4d",
+        "avatar"
+      ],
+      "inputs": [
+        "multi-view",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "authoring",
+        "control"
+      ],
+      "kind": "product",
+      "description": "Arcturus HoloSuite is a production toolset for editing, compressing and streaming volumetric video of people into games, AR and web players; the company has since moved into Gaussian-splat replays of live sports.",
+      "description_zh": "Arcturus HoloSuite 是一套制作工具，用于编辑、压缩体积视频中的人物，并将其流式传输到游戏、AR 与网页播放器中；该公司后来转向基于高斯泼溅的体育赛事回放。",
+      "idea_en": "The editing and delivery layer volumetric capture needs before it can be dropped into an experience.",
+      "idea_zh": "体积捕捉在被放进一段体验之前，需要的正是这样的编辑与交付层。",
+      "method": "Captured mesh sequences are cleaned, re-timed, retargeted (e.g. head gaze) and encoded into adaptive streams with plug-ins for Unity and Unreal.",
+      "method_zh": "对捕捉得到的网格序列进行清理、重定时、重定向（例如头部朝向），并编码为自适应码流，提供 Unity 与 Unreal 插件。",
+      "keywords": [
+        "volumetric video",
+        "post-production",
+        "streaming",
+        "sports"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=T0CjAilUtbM"
+      },
+      "source_url": "https://arcturus.studio/",
+      "collections": [
+        "trend-4d-media"
+      ]
+    },
+    {
+      "id": "gracia-ai--gracia",
+      "creator_ids": [
+        "gracia-ai"
+      ],
+      "title": "Gracia",
+      "year": 2025,
+      "field": "spatial-4d",
+      "sub": "volumetric",
+      "modalities": [
+        "dynamic-4d",
+        "splats"
+      ],
+      "inputs": [
+        "multi-view",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "situational-reach"
+      ],
+      "kind": "product",
+      "description": "Gracia captures performers and scenes as 4D Gaussian splat video and streams it to apps on Quest, Pico, Apple Vision Pro, desktop and the browser, where viewers can walk around the recorded moment.",
+      "description_zh": "Gracia 把表演者和场景捕捉为 4D 高斯泼溅视频，并流式传输到 Quest、Pico、Apple Vision Pro、桌面和浏览器上的应用中，观众可以绕着录下的时刻走动。",
+      "idea_en": "One of the first services to put streamed Gaussian video into consumer headsets (first 4DGS streaming in March 2026 and a free Apple Vision Pro app in June 2026, as reported by Radiancefields.com), so it shows where file size and bandwidth limit what can be shown.",
+      "idea_zh": "最早把流式高斯视频送进消费级头显的服务之一（据 Radiancefields.com 报道，2026 年 3 月首次实现 4DGS 流式传输，6 月推出免费的 Apple Vision Pro 应用），因此也能看出文件大小和带宽在哪里限制了可展示的内容。",
+      "method": "Multi-camera captures are reconstructed into per-frame splat sequences and encoded as keyframes plus motion deltas for streaming (as described by Radiancefields.com); Unity and Unreal plug-ins and WebGPU playback are offered.",
+      "method_zh": "多相机捕捉被重建为逐帧泼溅序列，并编码为关键帧加运动增量以便流式传输（据 Radiancefields.com 介绍）；提供 Unity、Unreal 插件与 WebGPU 播放。",
+      "keywords": [
+        "4DGS",
+        "volumetric video",
+        "Apple Vision Pro",
+        "Quest",
+        "streaming"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=m3ti-mJu0tI"
+      },
+      "images": [
+        "https://gracia.ai/images/open-graph/hub.jpg"
+      ],
+      "source_url": "https://gracia.ai/",
+      "collections": [
+        "trend-4d-media"
+      ]
+    },
+    {
+      "id": "4dv-ai--4d-video",
+      "creator_ids": [
+        "4dv-ai"
+      ],
+      "title": "4DV.ai 4D Gaussian Video",
+      "year": 2025,
+      "field": "spatial-4d",
+      "sub": "volumetric",
+      "modalities": [
+        "dynamic-4d",
+        "splats"
+      ],
+      "inputs": [
+        "multi-view",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "preview"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "situational-reach"
+      ],
+      "kind": "platform",
+      "description": "4DV.ai records scenes with multi-camera rigs and turns them into 4D Gaussian splat video that plays in a web, Quest or Vision Pro viewer, where you can pause, orbit and move through the action; it showed the work live at SIGGRAPH 2025 Real-Time Live and in an 11.5-minute all-4DGS film with Dell and Radiancefields.com at SIGGRAPH 2026.",
+      "description_zh": "4DV.ai 用多相机阵列录制场景，并转换为 4D 高斯泼溅视频，可在网页、Quest 或 Vision Pro 查看器中播放，观众可以暂停、环绕并在动作中移动；该公司在 SIGGRAPH 2025 Real-Time Live 上做了现场演示，并在 SIGGRAPH 2026 与 Dell、Radiancefields.com 合作首映了一部 11.5 分钟、全部由 4DGS 构成的影片。",
+      "idea_en": "Treats 4D video as a medium of its own: recorded events become places a viewer can stand inside, but only at capture stages for now.",
+      "idea_zh": "把 4D 视频当作一种独立媒介：录下的事件变成观众可以站在其中的地方，但目前只能在拍摄棚里完成捕捉。",
+      "method": "Built on the FreeTimeGS line of research: Gaussians are tracked continuously through time rather than rebuilt per frame, which the company says reduces flicker and tolerates unsynchronised cameras.",
+      "method_zh": "基于 FreeTimeGS 的研究路线：高斯随时间被连续追踪，而不是逐帧重建，公司称这能减少闪烁并容忍相机不同步。",
+      "keywords": [
+        "4DGS",
+        "4D video",
+        "free-viewpoint video",
+        "co-produced video (Radiancefields.com)"
+      ],
+      "date": "2025-06",
+      "specs": "70-camera 4K PTZ rig shown at NAB 2026 with OBSBOT · 30–60 Mbps finished stream (reported)",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=M01_By5h8lQ"
+      },
+      "images": [
+        "https://framerusercontent.com/images/1JJc7VhziLkne1hdBiux2vfYo.webp"
+      ],
+      "paper": {
+        "venue": "CVPR 2025",
+        "title": "FreeTimeGS: Free Gaussian Primitives at Anytime and Anywhere for Dynamic Scene Reconstruction",
+        "arxiv": "2506.05348",
+        "url": "https://arxiv.org/abs/2506.05348"
+      },
+      "source_url": "https://www.4dv.ai/viewer/rocket?nowheel",
+      "collections": [
+        "trend-4d-media"
+      ],
+      "exhibited": [
+        "SIGGRAPH 2025 Real-Time Live! Best in Show (as reported by Radiancefields.com)",
+        "Venice Immersive 2026: three 4DGS projects (per 4DV.ai)"
+      ]
+    },
+    {
+      "id": "luma-ai--luma-3d-capture",
+      "creator_ids": [
+        "luma-ai"
+      ],
+      "title": "Luma 3D Capture",
+      "year": 2022,
+      "field": "spatial-4d",
+      "sub": "capture-tools",
+      "modalities": [
+        "splats",
+        "scene-3d"
+      ],
+      "inputs": [
+        "video",
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "authoring"
+      ],
+      "kind": "product",
+      "description": "Luma's phone app guided people through filming an object or place and returned a NeRF, later a Gaussian-splat 'interactive scene' that could be embedded on the web or exported to game engines.",
+      "description_zh": "Luma 的手机应用引导用户拍摄物体或地点，并返回 NeRF 结果，后来改为可嵌入网页或导出到游戏引擎的高斯泼溅“交互场景”。",
+      "idea_en": "Brought radiance-field capture to ordinary phones before most people had heard of NeRF.",
+      "idea_zh": "在大多数人听说 NeRF 之前，就把辐射场捕捉带到了普通手机上。",
+      "method": "A guided capture UI collects video around the subject; cloud reconstruction trains a NeRF or 3D Gaussian scene with meshes and exports for Unreal and other tools.",
+      "method_zh": "引导式拍摄界面采集围绕主体的视频，由云端重建训练 NeRF 或三维高斯场景，并提供网格与 Unreal 等工具的导出。",
+      "keywords": [
+        "NeRF app",
+        "phone capture",
+        "interactive scenes"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=JXb_a3ZIGnI"
+      },
+      "source_url": "https://lumalabs.ai/"
+    },
+    {
+      "id": "polycam--gaussian-splatting",
+      "creator_ids": [
+        "polycam"
+      ],
+      "title": "Polycam Gaussian Splatting",
+      "year": 2023,
+      "field": "spatial-4d",
+      "sub": "capture-tools",
+      "modalities": [
+        "splats",
+        "mesh"
+      ],
+      "inputs": [
+        "multi-view",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "authoring"
+      ],
+      "kind": "product",
+      "description": "Polycam, a widely used phone and web 3D scanning app, added Gaussian splat processing so uploaded photos or video become splat scenes viewable at high frame rates in a browser.",
+      "description_zh": "Polycam 是一款广泛使用的手机与网页三维扫描应用，加入了高斯泼溅处理，上传的照片或视频会变成可在浏览器中高帧率观看的泼溅场景。",
+      "idea_en": "Put splat capture in the same app people already used for photogrammetry and LiDAR scans.",
+      "idea_zh": "把泼溅捕捉放进人们已经在用的摄影测量与 LiDAR 扫描应用里。",
+      "method": "Photos or video are processed in the cloud into 3D Gaussians alongside mesh and point-cloud outputs, with in-browser editing and export.",
+      "method_zh": "照片或视频在云端处理为三维高斯，同时提供网格与点云输出，支持浏览器内编辑和导出。",
+      "keywords": [
+        "phone scanning",
+        "photogrammetry",
+        "web viewer"
+      ],
+      "date": "2023-09-28",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=m2j8EF6N2G8"
+      },
+      "source_url": "https://poly.cam/tools/gaussian-splatting",
+      "collections": [
+        "trend-explicit-3d"
+      ]
+    },
+    {
+      "id": "niantic-spatial--scaniverse",
+      "creator_ids": [
+        "niantic-spatial"
+      ],
+      "title": "Scaniverse",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "capture-tools",
+      "modalities": [
+        "splats"
+      ],
+      "inputs": [
+        "video",
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "authoring",
+        "responsiveness"
+      ],
+      "kind": "product",
+      "description": "Scaniverse trains Gaussian splats on the phone itself, so a walk around an object or place yields a viewable splat within minutes without uploading; in 2026 it sits inside Niantic Spatial's capture service.",
+      "description_zh": "Scaniverse 直接在手机上训练高斯泼溅，绕物体或地点走一圈，几分钟内就能得到可查看的泼溅，无需上传；2026 年它已成为 Niantic Spatial 捕捉服务的一部分。",
+      "idea_en": "On-device processing keeps raw footage local, which can matter for ethics review when capturing real spaces.",
+      "idea_zh": "在设备端处理让原始素材留在本地，在捕捉真实空间时这可能关系到伦理审查。",
+      "method": "Phone video and ARKit/ARCore poses feed an on-device Gaussian optimisation; scans can be shared to Niantic Spatial's map and reconstruction services.",
+      "method_zh": "手机视频与 ARKit/ARCore 位姿输入设备端的高斯优化，扫描结果可共享到 Niantic Spatial 的地图与重建服务。",
+      "keywords": [
+        "on-device",
+        "phone capture",
+        "Niantic"
+      ],
+      "date": "2024-03-20",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=Arrr6ezwJ_4"
+      },
+      "source_url": "https://www.nianticspatial.com/products/capture",
+      "collections": [
+        "trend-explicit-3d",
+        "trend-grounded"
+      ]
+    },
+    {
+      "id": "jawset--postshot",
+      "creator_ids": [
+        "jawset"
+      ],
+      "title": "Postshot",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "capture-tools",
+      "modalities": [
+        "splats",
+        "scene-3d"
+      ],
+      "inputs": [
+        "video",
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "authoring",
+        "control"
+      ],
+      "kind": "product",
+      "description": "Jawset Postshot is a Windows desktop application that trains Gaussian splats and radiance fields from video or photos on a local NVIDIA GPU, with live preview, editing and plug-ins for After Effects and Unreal.",
+      "description_zh": "Jawset Postshot 是一款 Windows 桌面应用，在本地 NVIDIA GPU 上从视频或照片训练高斯泼溅与辐射场，提供实时预览、编辑以及 After Effects 和 Unreal 插件。",
+      "idea_en": "Local training gives labs control over data and versions, which cloud capture apps do not.",
+      "idea_zh": "本地训练让实验室能掌控数据与版本，这是云端捕捉应用做不到的。",
+      "method": "Camera tracking and splat optimisation run locally with a progressive preview; v1.1 (May 2026) is the current release line.",
+      "method_zh": "相机追踪与泼溅优化都在本地运行，并提供渐进式预览；当前版本线为 v1.1（2026 年 5 月）。",
+      "keywords": [
+        "desktop",
+        "local GPU",
+        "After Effects",
+        "Unreal"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=u-EOH3NRFSU"
+      },
+      "source_url": "https://www.jawset.com/"
+    },
+    {
+      "id": "varjo--teleport",
+      "creator_ids": [
+        "varjo"
+      ],
+      "title": "Teleport by Varjo",
+      "year": 2024,
+      "field": "spatial-4d",
+      "sub": "capture-tools",
+      "modalities": [
+        "splats",
+        "scene-3d"
+      ],
+      "inputs": [
+        "video",
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "situational-reach",
+        "authoring"
+      ],
+      "kind": "product",
+      "description": "Teleport is Varjo's cloud service that turns phone scans or 360° camera footage of real places into Gaussian splat scenes that can be explored on the web, in VR headsets or inside game engines.",
+      "description_zh": "Teleport 是 Varjo 的云服务，把真实地点的手机扫描或 360° 相机素材转换为高斯泼溅场景，可在网页、VR 头显或游戏引擎中探索。",
+      "idea_en": "Connects capture of real sites to professional XR training and visualisation.",
+      "idea_zh": "把真实场地的捕捉与专业 XR 培训和可视化连接起来。",
+      "method": "Uploaded captures are reconstructed in the cloud into splats, with large-area capture and automatic 360° video conversion added in later releases.",
+      "method_zh": "上传的素材在云端重建为泼溅，后续版本加入了大范围捕捉与 360° 视频自动转换。",
+      "keywords": [
+        "cloud reconstruction",
+        "360° video",
+        "XR training"
+      ],
+      "date": "2024-06-18",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=15GCm6NlIj4"
+      },
+      "images": [
+        "https://cdn.prod.website-files.com/6708c29d4750b8ec6dcacff9/674083c9edee9798111729ae_Teleport%20OG.png"
+      ],
+      "source_url": "https://get.teleport.varjo.com/"
+    },
+    {
+      "id": "meta--hyperscape-capture",
+      "creator_ids": [
+        "meta"
+      ],
+      "title": "Meta Horizon Hyperscape Capture",
+      "year": 2025,
+      "field": "spatial-4d",
+      "sub": "capture-tools",
+      "modalities": [
+        "splats",
+        "scene-3d"
+      ],
+      "inputs": [
+        "surroundings",
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "preview"
+      ],
+      "lenses": [
+        "situational-reach",
+        "authoring"
+      ],
+      "kind": "product",
+      "description": "Hyperscape Capture lets a Meta Quest 3 or 3S owner scan a room by looking around it for a few minutes; Meta's servers then build a photoreal Gaussian-splat replica that can be revisited in the headset. Meta added link sharing for up to eight visitors on 20 November 2025, then removed sharing on 12 May 2026; worlds are now view-only in the Capture (Beta) app.",
+      "description_zh": "Hyperscape Capture 让 Meta Quest 3 或 3S 用户戴着头显环顾房间几分钟即可完成扫描，随后 Meta 的服务器构建一个照片级的高斯泼溅复制品，可在头显中重新进入。Meta 于 2025 年 11 月 20 日加入链接分享（每个实例最多 8 人），又在 2026 年 5 月 12 日移除了分享功能；如今世界只能在 Capture（Beta）应用中“仅查看”。",
+      "idea_en": "Capture by the headset itself turns any room into a revisitable VR setting, but the replica is static, processing is on Meta's servers, and the 2026 removal of sharing shows how quickly a beta platform can change under a study.",
+      "idea_zh": "由头显本身完成捕捉，让任何房间都能变成可重返的 VR 场景；但复制品是静态的，处理在 Meta 服务器上进行，而 2026 年移除分享功能也说明测试版平台可能在研究进行中迅速改变。",
+      "method": "Headset cameras record during a single guided scan session; cloud processing (up to 8 hours per Meta's help page) produces Gaussian splats, now rendered on-device in the Capture app.",
+      "method_zh": "在一次完成的引导式扫描中由头显相机录制；云端处理（据 Meta 帮助页最长 8 小时）生成高斯泼溅，现由 Capture 应用在设备端渲染。",
+      "keywords": [
+        "Quest 3",
+        "room capture",
+        "beta",
+        "Horizon"
+      ],
+      "date": "2025-09-17",
+      "also": [
+        "genxr"
+      ],
+      "specs": "Quest 3 / 3S · scan in minutes · processing up to 8 h (Meta help page)",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=zJ4pjwIPiRk"
+      },
+      "source_url": "https://www.meta.com/help/quest/1088536553019177/",
+      "collections": [
+        "trend-explicit-3d",
+        "trend-grounded"
+      ]
+    },
+    {
+      "id": "playcanvas--supersplat",
+      "creator_ids": [
+        "playcanvas"
+      ],
+      "title": "SuperSplat",
+      "year": 2023,
+      "field": "spatial-4d",
+      "sub": "capture-tools",
+      "modalities": [
+        "splats"
+      ],
+      "inputs": [
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "open",
+        "product"
+      ],
+      "lenses": [
+        "authoring",
+        "control"
+      ],
+      "kind": "open-source",
+      "description": "SuperSplat is PlayCanvas's free, open-source browser editor for Gaussian splats, plus a hosting site, for cleaning, cropping, combining and publishing splat scenes; version 3.0 (September 2026) was rebuilt on WebGPU.",
+      "description_zh": "SuperSplat 是 PlayCanvas 推出的免费开源浏览器高斯泼溅编辑器及托管网站，用于清理、裁剪、合并和发布泼溅场景；3.0 版（2026 年 9 月）基于 WebGPU 重建。",
+      "idea_en": "The common place where captured splats are cleaned and shared, which makes it part of most capture pipelines.",
+      "idea_zh": "捕捉得到的泼溅通常在这里被清理与分享，因此它是大多数捕捉流程的一部分。",
+      "method": "A web app on the PlayCanvas engine edits PLY/SOG splats with selection tools and exports compressed formats for viewers and engines.",
+      "method_zh": "基于 PlayCanvas 引擎的网页应用，用选择工具编辑 PLY/SOG 泼溅，并导出供查看器与引擎使用的压缩格式。",
+      "keywords": [
+        "editor",
+        "WebGPU",
+        "open source",
+        "publishing"
+      ],
+      "date": "2023-10",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=7B0KdoJCUK8"
+      },
+      "images": [
+        "https://superspl.at/header.webp"
+      ],
+      "source_url": "https://superspl.at/",
+      "code_url": "https://github.com/playcanvas/supersplat"
+    },
+    {
+      "id": "world-labs--spark",
+      "creator_ids": [
+        "world-labs"
+      ],
+      "title": "Spark",
+      "year": 2025,
+      "field": "spatial-4d",
+      "sub": "capture-tools",
+      "modalities": [
+        "splats",
+        "scene-3d"
+      ],
+      "inputs": [
+        "spec"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "situational-reach"
+      ],
+      "kind": "open-source",
+      "description": "Spark is World Labs' open-source Gaussian splat renderer for three.js; Spark 2.0 (April 2026) streams worlds of over 100 million splats into an ordinary web page.",
+      "description_zh": "Spark 是 World Labs 面向 three.js 的开源高斯泼溅渲染器；Spark 2.0（2026 年 4 月）可把超过 1 亿个泼溅的世界流式加载进普通网页。",
+      "idea_en": "Lets captured or generated splat worlds be wrapped in web interactions, the cheapest route to putting them in front of study participants.",
+      "idea_zh": "让捕捉或生成的泼溅世界可以包上网页交互，这是把它们呈现给研究参与者的最省成本的途径。",
+      "method": "A three.js renderer with GPU sorting, level of detail and streaming, plus programmable per-splat effects for editing and animation.",
+      "method_zh": "一个 three.js 渲染器，具备 GPU 排序、细节层次与流式加载，并支持可编程的逐泼溅效果用于编辑与动画。",
+      "keywords": [
+        "three.js",
+        "WebGL",
+        "renderer",
+        "streaming"
+      ],
+      "date": "2025-06-02",
+      "specs": "100M+ splats streamed in the browser (Spark 2.0)",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=BpzKZnV0MQc"
+      },
+      "images": [
+        "https://sparkjs.dev/static/images/logo-hero.png"
+      ],
+      "source_url": "https://sparkjs.dev/",
+      "code_url": "https://github.com/sparkjsdev/spark",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "matthew-tancik--nerfstudio",
+      "creator_ids": [
+        "matthew-tancik"
+      ],
+      "title": "Nerfstudio",
+      "year": 2022,
+      "field": "spatial-4d",
+      "sub": "capture-tools",
+      "modalities": [
+        "splats"
+      ],
+      "inputs": [
+        "multi-view",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "control",
+        "authoring"
+      ],
+      "kind": "open-source",
+      "description": "Nerfstudio is an open-source framework and web viewer for training and comparing radiance fields and Gaussian splats (via gsplat) from your own captures.",
+      "description_zh": "Nerfstudio 是一个开源框架与网页查看器，可用自己的捕捉数据训练并比较辐射场与高斯泼溅（通过 gsplat）。",
+      "idea_en": "A shared, versioned codebase makes reconstruction choices reportable and repeatable across labs.",
+      "idea_zh": "共享、有版本的代码库，让重建中的各种选择可以在不同实验室之间被报告和复现。",
+      "method": "Modular PyTorch components (data parsers, samplers, fields, renderers) with the Nerfacto and Splatfacto methods and a browser viewer.",
+      "method_zh": "模块化的 PyTorch 组件（数据解析、采样器、场、渲染器），内置 Nerfacto 与 Splatfacto 方法和浏览器查看器。",
+      "keywords": [
+        "framework",
+        "gsplat",
+        "Splatfacto",
+        "open source"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=nSFsugarWzk"
+      },
+      "images": [
+        "https://assets.nerf.studio/opg.png"
+      ],
+      "paper": {
+        "venue": "SIGGRAPH 2023",
+        "title": "Nerfstudio: A Modular Framework for Neural Radiance Field Development",
+        "arxiv": "2302.04264",
+        "url": "https://arxiv.org/abs/2302.04264",
+        "doi": "10.1145/3588432.3591516"
+      },
+      "source_url": "https://docs.nerf.studio/",
+      "code_url": "https://github.com/nerfstudio-project/nerfstudio",
+      "collections": [
+        "siggraph",
+        "trend-open-weights"
+      ]
+    }
+  ],
+  "leads": [
+    {
+      "name": "Zip-NeRF (Barron et al., ICCV 2023)",
+      "why": "Highest-quality NeRF of its time and SMERF's teacher; left out to keep one mip-NeRF milestone.",
+      "link": "https://jonbarron.info/zipnerf/",
+      "found_via": "jonathan-barron",
+      "status": "open"
+    },
+    {
+      "name": "MVSplat (ECCV 2024)",
+      "why": "Fast feed-forward Gaussians from sparse views; pixelSplat already covers the step.",
+      "link": "https://donydchen.github.io/mvsplat/",
+      "found_via": "david-charatan",
+      "status": "open"
+    },
+    {
+      "name": "Fast3R (Meta, CVPR 2025)",
+      "why": "1000+ images in one forward pass; candidate if feed-forward sub needs more scale examples.",
+      "link": "https://fast3r-3d.github.io/",
+      "found_via": "jianyuan-wang",
+      "status": "open"
+    },
+    {
+      "name": "π³ / Pi3 (2025)",
+      "why": "Permutation-equivariant feed-forward reconstruction without a reference view.",
+      "link": "https://yyfz.github.io/pi3/",
+      "found_via": "jianyuan-wang",
+      "status": "open"
+    },
+    {
+      "name": "Long-LRM (Adobe, ICCV 2025)",
+      "why": "Feed-forward Gaussians for full scenes from 32 views at 960×540.",
+      "link": "https://arthurhero.github.io/projects/llrm/",
+      "found_via": "lihan-jiang",
+      "status": "open"
+    },
+    {
+      "name": "InfiniSplat v2 (ZJU, 2026-10-14)",
+      "why": "Feed-forward 3DGS from any views, released three days before this batch; too new to judge salience.",
+      "link": "https://zju3dv.github.io/InfiniSplat2/",
+      "found_via": "zju3dv",
+      "status": "open"
+    },
+    {
+      "name": "4DGT: 4D Gaussian Transformer (Meta, 2025)",
+      "why": "Feed-forward dynamic Gaussians from real monocular video; no public video found.",
+      "link": "https://4dgt.github.io/",
+      "found_via": "jonathon-luiten",
+      "status": "no_media"
+    },
+    {
+      "name": "MotionCrafter (Tencent ARC, CVPR 2026 Highlight)",
+      "why": "Dense geometry and motion from video with a 4D VAE.",
+      "link": "https://ruijiezhu94.github.io/MotionCrafter_Page/",
+      "found_via": "github-search",
+      "status": "open"
+    },
+    {
+      "name": "Lift4D (SIGGRAPH Asia 2026)",
+      "why": "4D reconstruction in the wild from single-view 3D estimates; 430 GitHub stars by Oct 2026.",
+      "link": "https://lift4d.github.io",
+      "found_via": "github-search",
+      "status": "open"
+    },
+    {
+      "name": "HY-World 2.0 (Tencent Hunyuan, 2026-04)",
+      "why": "Multi-modal world model for reconstructing, generating and simulating 3D worlds; belongs to worlds-3d.",
+      "link": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+      "found_via": "tencent-hunyuan",
+      "status": "open"
+    },
+    {
+      "name": "HunyuanWorld-Mirror (Tencent Hunyuan, 2025-10)",
+      "why": "Universal feed-forward 3D reconstruction with optional priors; check whether worlds-3d covers it.",
+      "link": "https://3d-models.hunyuan.tencent.com/world/",
+      "found_via": "tencent-hunyuan",
+      "status": "open"
+    },
+    {
+      "name": "TripoSplat (VAST, 2026-06)",
+      "why": "Single image to variable-count 3D Gaussians; belongs to assets.",
+      "link": "https://github.com/VAST-AI-Research/TripoSplat",
+      "found_via": "github-search",
+      "status": "open"
+    },
+    {
+      "name": "Khronos glTF KHR_gaussian_splatting (2026-02)",
+      "why": "Standard splat format in glTF; belongs to infra (standards).",
+      "link": "https://www.khronos.org/news/press/gltf-gaussian-splatting-press-release",
+      "found_via": "radiancefields",
+      "status": "open"
+    },
+    {
+      "name": "Nokia VolStream (open source, 2026-08)",
+      "why": "Open real-time volumetric video capture-to-stream pipeline.",
+      "link": "https://www.nokia.com/blog/bringing-real-time-volumetric-video-streaming-to-the-developer-community/",
+      "found_via": "perplexity",
+      "status": "open"
+    },
+    {
+      "name": "Volinga 4DGS for Unreal Engine",
+      "why": "4D splat playback inside Unreal; production tool lead.",
+      "link": "https://radiancefields.com/4d-gaussian-splatting",
+      "found_via": "radiancefields",
+      "status": "open"
+    },
+    {
+      "name": "Corridor Crew × 4DV.ai (2026-03-29)",
+      "why": "Popular VFX channel video made with 4DV.ai; third-party alternative video for 4DV.ai.",
+      "link": "https://www.youtube.com/watch?v=X8yRlA7jqEQ",
+      "found_via": "4dv-ai",
+      "status": "open"
+    },
+    {
+      "name": "Condense (live volumetric streaming)",
+      "why": "Bristol live volumetric video company; condense.live no longer resolves and condense.co is parked (Oct 2026), status unclear.",
+      "link": "https://www.youtube.com/watch?v=6M85nnlorus",
+      "found_via": "seed",
+      "status": "no_media"
+    },
+    {
+      "name": "8i volumetric holograms",
+      "why": "Early volumetric human capture company (2014–); precursor, weak current activity.",
+      "link": "https://8i.com/",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "KIRI Engine (3DGS scanning app)",
+      "why": "Phone 3DGS capture with splat-to-mesh; overlaps Polycam/Scaniverse.",
+      "link": "https://www.kiriengine.app/",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "Brush (open-source splat trainer)",
+      "why": "Cross-platform Rust/WebGPU splat training, 5k+ GitHub stars; no launch video found.",
+      "link": "https://github.com/ArthurBrussee/brush",
+      "found_via": "github-search",
+      "status": "no_media"
+    },
+    {
+      "name": "gsplat (Nerfstudio)",
+      "why": "CUDA Gaussian rasteriser library used by Nerfstudio and many papers; no video; folded into Nerfstudio.",
+      "link": "https://github.com/nerfstudio-project/gsplat",
+      "found_via": "matthew-tancik",
+      "status": "no_media"
+    },
+    {
+      "name": "ooosplat (2026-08)",
+      "why": "Local desktop app turning video into splats, 2k GitHub stars within two months.",
+      "link": "https://github.com/ooolabdev/ooosplat",
+      "found_via": "github-search",
+      "status": "open"
+    },
+    {
+      "name": "Generative Enactments / Reality Design Lab splat works",
+      "why": "No spatial-4d item found; genxr owns it.",
+      "link": "https://reality.design",
+      "found_via": "seed",
+      "status": "off_topic"
+    }
+  ]
+}

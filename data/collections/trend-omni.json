@@ -1,0 +1,14 @@
+[
+ "world-labs--atlas",
+ "nvidia--cosmos-3",
+ "alibaba-tongyi--qwen3-omni",
+ "openbmb--minicpm-o-4-5",
+ "bytedance-seed--seedrealtime",
+ "tavus--griffin",
+ "alibaba-tongyi--wan-streamer",
+ "google--gemini-api-video",
+ "google-deepmind--gemini-omni",
+ "kuaishou--kling-o1",
+ "kuaishou--kling-3",
+ "bytedance-seed--seedance-2"
+]

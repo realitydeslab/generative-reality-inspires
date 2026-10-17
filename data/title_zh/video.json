@@ -1,0 +1,82 @@
+{
+  "kuaishou--kling": {
+    "zh": "可灵",
+    "src": "original"
+  },
+  "kuaishou--kling-o1": {
+    "zh": "可灵 O1",
+    "src": "original"
+  },
+  "kuaishou--kling-3": {
+    "zh": "可灵 3.0",
+    "src": "original"
+  },
+  "kuaishou--kling-4": {
+    "zh": "可灵 4.0",
+    "src": "original"
+  },
+  "minimax--hailuo-02": {
+    "zh": "海螺 02",
+    "src": "original"
+  },
+  "alibaba-tongyi--wan-2-1": {
+    "zh": "通义万相 2.1",
+    "src": "original"
+  },
+  "alibaba-tongyi--wan-2-2": {
+    "zh": "通义万相 2.2",
+    "src": "original"
+  },
+  "alibaba-tongyi--wan-3": {
+    "zh": "通义万相 3.0",
+    "src": "original"
+  },
+  "alibaba-tongyi--wan-animate": {
+    "zh": "通义万相 Wan-Animate",
+    "src": "established"
+  },
+  "tencent-hunyuan--hunyuanvideo": {
+    "zh": "混元视频 HunyuanVideo",
+    "src": "established"
+  },
+  "tencent-hunyuan--hunyuanvideo-1-5": {
+    "zh": "混元视频 1.5",
+    "src": "established"
+  },
+  "zhipu-ai--cogvideox": {
+    "zh": "CogVideoX（清影）",
+    "src": "established"
+  },
+  "stepfun--step-video-t2v": {
+    "zh": "阶跃 Step-Video-T2V",
+    "src": "established"
+  },
+  "shengshu--vidu-q3": {
+    "zh": "Vidu Q3",
+    "src": "keep"
+  },
+  "openai--sora": {
+    "zh": "Sora",
+    "src": "keep"
+  },
+  "google-deepmind--veo-3-1": {
+    "zh": "Veo 3.1",
+    "src": "keep"
+  },
+  "jing-tan--imagine360": {
+    "zh": "Imagine360：从透视锚点生成沉浸式 360 视频",
+    "src": "translated"
+  },
+  "ziyi-wu--360anything": {
+    "zh": "360Anything：无需几何的图像与视频 360° 提升",
+    "src": "translated"
+  },
+  "sijie-zhao--stereocrafter": {
+    "zh": "StereoCrafter：单目视频生成长时高保真立体 3D",
+    "src": "translated"
+  },
+  "qian-wang--360dvd": {
+    "zh": "360DVD：可控全景视频生成",
+    "src": "translated"
+  }
+}

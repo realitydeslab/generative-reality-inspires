@@ -1,0 +1,3279 @@
+{
+ "batch": "infra",
+ "creators": [
+  {
+   "id": "openai",
+   "name": "OpenAI",
+   "name_zh": "",
+   "kind": "company",
+   "role": "AI research and product company",
+   "based": "San Francisco, US",
+   "bio": "Maker of GPT, Sora and the Realtime / GPT-Live voice models, sold through ChatGPT and a developer API.",
+   "why": "Its API set the pattern for hosted video and full-duplex voice that generative-immersion builders call.",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://openai.com",
+    "x": "https://x.com/OpenAI",
+    "youtube": "https://www.youtube.com/@OpenAI"
+   },
+   "role_zh": "人工智能研究与产品公司",
+   "bio_zh": "GPT、Sora 以及 Realtime / GPT-Live 语音模型的开发者，通过 ChatGPT 和开发者 API 提供服务。",
+   "why_zh": "它的 API 确立了托管视频生成与全双工语音的调用方式，生成式沉浸系统的开发者大多沿用这一模式。",
+   "based_zh": "美国旧金山",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "google",
+   "name": "Google",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Technology company (Google AI for Developers, Android XR, Google Cloud)",
+   "based": "Mountain View, US",
+   "bio": "Runs the Gemini API and Vertex AI developer platforms and the Android XR platform for headsets and glasses.",
+   "why": "Its developer platforms deliver DeepMind's Veo, Gemini Live and Android XR to third-party builders.",
+   "disciplines": [
+    "ml",
+    "hci"
+   ],
+   "links": {
+    "site": "https://ai.google.dev",
+    "youtube": "https://www.youtube.com/@GoogleDevelopers"
+   },
+   "role_zh": "科技公司（Google AI for Developers、Android XR、Google Cloud）",
+   "bio_zh": "运营 Gemini API 与 Vertex AI 开发者平台，以及面向头显和眼镜的 Android XR 平台。",
+   "why_zh": "它的开发者平台把 DeepMind 的 Veo、Gemini Live 和 Android XR 交到第三方开发者手中。",
+   "based_zh": "美国山景城",
+   "connected_to": [
+    "google-deepmind"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "google-deepmind",
+   "name": "Google DeepMind",
+   "name_zh": "",
+   "kind": "lab",
+   "role": "AI research lab of Google",
+   "based": "London, UK",
+   "bio": "Develops the Gemini, Veo and Genie model families.",
+   "why": "Its video, live-audio and world models reach developers through Google's APIs.",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://deepmind.google",
+    "x": "https://x.com/GoogleDeepMind"
+   },
+   "role_zh": "Google 旗下人工智能研究实验室",
+   "bio_zh": "开发 Gemini、Veo 与 Genie 系列模型。",
+   "why_zh": "它的视频、实时语音与世界模型通过 Google 的 API 提供给开发者。",
+   "based_zh": "英国伦敦",
+   "connected_to": [
+    "google"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "fal",
+   "name": "fal",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Generative-media inference platform",
+   "based": "San Francisco, US",
+   "bio": "Hosts more than 1,000 image, video, audio and 3D models behind one API and offers serverless GPUs.",
+   "why": "A common route by which apps reach many video and 3D generators, including Chinese models, through one integration.",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://fal.ai",
+    "youtube": "https://www.youtube.com/@fal.ai.official",
+    "github": "https://github.com/fal-ai"
+   },
+   "role_zh": "生成式媒体推理平台",
+   "bio_zh": "通过一个 API 托管 1,000 多个图像、视频、音频与三维模型，并提供 Serverless GPU。",
+   "why_zh": "应用常经由它，用一次接入调用众多视频与三维生成模型，其中也包括中国模型。",
+   "based_zh": "美国旧金山",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "replicate",
+   "name": "Replicate",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Model hosting platform (joining Cloudflare)",
+   "based": "San Francisco, US",
+   "bio": "Runs open and proprietary models behind versioned HTTP endpoints; creator of the Cog container format.",
+   "why": "Version-pinned model endpoints make it easier to reproduce which generator produced a stimulus.",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://replicate.com",
+    "github": "https://github.com/replicate"
+   },
+   "role_zh": "模型托管平台（并入 Cloudflare）",
+   "bio_zh": "以带版本号的 HTTP 接口运行开源与闭源模型，Cog 容器格式的创建者。",
+   "why_zh": "可锁定版本的模型接口，让人更容易复现某个刺激材料出自哪个生成器。",
+   "based_zh": "美国旧金山",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "runway",
+   "name": "Runway",
+   "name_zh": "",
+   "kind": "company",
+   "role": "AI video company",
+   "based": "New York, US",
+   "bio": "Maker of the Gen and Aleph video models and of world-model research (GWM-1); sells an app and a developer API.",
+   "why": "One of the main commercial sources of generated video and real-time characters for builders.",
+   "disciplines": [
+    "ml",
+    "media-art"
+   ],
+   "links": {
+    "site": "https://runwayml.com",
+    "x": "https://x.com/runwayml",
+    "youtube": "https://www.youtube.com/@RunwayML"
+   },
+   "role_zh": "AI 视频公司",
+   "bio_zh": "Gen 与 Aleph 视频模型的开发者，也做世界模型研究（GWM-1）；同时提供应用与开发者 API。",
+   "why_zh": "为开发者提供生成视频与实时角色的主要商业来源之一。",
+   "based_zh": "美国纽约",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "luma-ai",
+   "name": "Luma AI",
+   "name_zh": "",
+   "kind": "company",
+   "role": "AI video and 3D company",
+   "based": "Palo Alto, US",
+   "bio": "Maker of the Dream Machine app and the Ray video models; began with NeRF capture.",
+   "why": "Its Ray API offers keyframe-level control over generated video.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://lumalabs.ai",
+    "x": "https://x.com/LumaLabsAI",
+    "youtube": "https://www.youtube.com/@lumalabsai"
+   },
+   "role_zh": "AI 视频与三维公司",
+   "bio_zh": "Dream Machine 应用与 Ray 系列视频模型的开发者，最早以 NeRF 采集起家。",
+   "why_zh": "它的 Ray API 能在关键帧层面控制生成视频。",
+   "based_zh": "美国帕洛阿尔托",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "world-labs",
+   "name": "World Labs",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Spatial-intelligence company",
+   "based": "San Francisco, US",
+   "bio": "Founded by Fei-Fei Li and colleagues; makes the Marble world model and the Spark splat renderer.",
+   "why": "Its World API is the first public API that returns explicit, explorable 3D worlds.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://www.worldlabs.ai",
+    "x": "https://x.com/theworldlabs",
+    "youtube": "https://www.youtube.com/@WorldLabs"
+   },
+   "role_zh": "空间智能公司",
+   "bio_zh": "由李飞飞等人创立，开发 Marble 世界模型与 Spark 泼溅渲染器。",
+   "why_zh": "它的 World API 是第一个直接返回显式、可探索三维世界的公开 API。",
+   "based_zh": "美国旧金山",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "decart",
+   "name": "Decart",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Real-time generative video company",
+   "based": "Tel Aviv, IL / San Francisco, US",
+   "bio": "Makes real-time video models (Oasis, MirageLSD, Lucy) and sells them through a per-second API.",
+   "why": "It made streaming, action-responsive video generation available as a rentable service.",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://www.decart.ai",
+    "youtube": "https://www.youtube.com/@DecartAI"
+   },
+   "role_zh": "实时生成视频公司",
+   "bio_zh": "开发实时视频模型（Oasis、MirageLSD、Lucy），按秒计费通过 API 提供。",
+   "why_zh": "它让流式、可响应动作的视频生成成了可以按需租用的服务。",
+   "based_zh": "以色列特拉维夫 / 美国旧金山",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "kuaishou",
+   "name": "Kuaishou (Kling AI)",
+   "name_zh": "快手（可灵 AI）",
+   "kind": "company",
+   "role": "Short-video platform and maker of Kling",
+   "based": "Beijing, CN",
+   "bio": "Chinese short-video company whose Kling AI unit builds the Kling video-generation models.",
+   "why": "Kling is one of the leading video models, and its open platform is the official developer route to it.",
+   "disciplines": [
+    "ml",
+    "media-art"
+   ],
+   "links": {
+    "site": "https://klingai.com",
+    "youtube": "https://www.youtube.com/@Kling_ai"
+   },
+   "role_zh": "短视频平台、可灵的开发者",
+   "bio_zh": "中国短视频公司，旗下可灵 AI 团队开发可灵视频生成模型。",
+   "why_zh": "可灵是领先的视频模型之一，其开放平台是开发者接入它的官方途径。",
+   "based_zh": "中国北京",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "volcano-engine",
+   "name": "Volcano Engine (BytePlus)",
+   "name_zh": "火山引擎",
+   "kind": "company",
+   "role": "ByteDance's cloud platform",
+   "based": "Beijing, CN",
+   "bio": "ByteDance's cloud and model-as-a-service business, branded BytePlus outside China.",
+   "why": "It is the official API route to ByteDance Seed's Seedance video and Doubao models.",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://www.volcengine.com",
+    "youtube": "https://www.youtube.com/@byteplusglobal"
+   },
+   "role_zh": "字节跳动旗下云平台",
+   "bio_zh": "字节跳动的云服务与模型即服务业务，海外品牌为 BytePlus。",
+   "why_zh": "它是调用字节跳动 Seed 团队 Seedance 视频模型与豆包模型的官方 API 途径。",
+   "based_zh": "中国北京",
+   "connected_to": [
+    "bytedance-seed"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "livekit",
+   "name": "LiveKit",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Real-time media infrastructure company",
+   "based": "San Francisco, US",
+   "bio": "Builds an open-source WebRTC media server, the LiveKit Agents framework and LiveKit Cloud.",
+   "why": "Its stack carries many production voice and avatar agents.",
+   "disciplines": [
+    "speech",
+    "hci"
+   ],
+   "links": {
+    "site": "https://livekit.io",
+    "github": "https://github.com/livekit",
+    "youtube": "https://www.youtube.com/@livekit_io"
+   },
+   "role_zh": "实时音视频基础设施公司",
+   "bio_zh": "开发开源 WebRTC 媒体服务器、LiveKit Agents 框架与 LiveKit Cloud。",
+   "why_zh": "大量上线运行的语音与虚拟人智能体都跑在它的技术栈上。",
+   "based_zh": "美国旧金山",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "daily",
+   "name": "Daily",
+   "name_zh": "",
+   "kind": "company",
+   "role": "WebRTC video and voice infrastructure company",
+   "based": "San Francisco, US",
+   "bio": "Provides real-time video APIs and maintains the open-source Pipecat agent framework and Pipecat Cloud.",
+   "why": "Pipecat is a widely used open pipeline for voice and multimodal agents.",
+   "disciplines": [
+    "speech",
+    "hci"
+   ],
+   "links": {
+    "site": "https://www.daily.co",
+    "github": "https://github.com/pipecat-ai",
+    "youtube": "https://www.youtube.com/@DailyHQ"
+   },
+   "role_zh": "WebRTC 音视频基础设施公司",
+   "bio_zh": "提供实时视频 API，维护开源智能体框架 Pipecat 与 Pipecat Cloud。",
+   "why_zh": "Pipecat 是使用广泛的开源语音与多模态智能体流水线。",
+   "based_zh": "美国旧金山",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "agora",
+   "name": "Agora",
+   "name_zh": "声网",
+   "kind": "company",
+   "role": "Real-time engagement platform",
+   "based": "Santa Clara, US / Shanghai, CN",
+   "bio": "Runs a global real-time network for voice and video SDKs, the Conversational AI Engine, and backs the open-source TEN Framework.",
+   "why": "It brings network-level robustness to voice agents and virtual humans deployed outside the lab.",
+   "disciplines": [
+    "speech",
+    "hci"
+   ],
+   "links": {
+    "site": "https://www.agora.io",
+    "github": "https://github.com/AgoraIO",
+    "youtube": "https://www.youtube.com/@agora-io"
+   },
+   "role_zh": "实时互动平台",
+   "bio_zh": "运营面向音视频 SDK 的全球实时网络，推出对话式 AI 引擎，并支持开源 TEN Framework。",
+   "why_zh": "它为走出实验室的语音智能体与虚拟人提供网络层面的稳定性。",
+   "based_zh": "美国圣克拉拉 / 中国上海",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "unity",
+   "name": "Unity",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Game engine company",
+   "based": "San Francisco, US",
+   "bio": "Maker of the Unity engine, used by a large share of XR and mobile games and many VR research labs.",
+   "why": "Its AI tools put agentic scene editing inside the engine most VR studies are built with.",
+   "disciplines": [
+    "games",
+    "hci"
+   ],
+   "links": {
+    "site": "https://unity.com",
+    "youtube": "https://www.youtube.com/@unity"
+   },
+   "role_zh": "游戏引擎公司",
+   "bio_zh": "Unity 引擎的开发者，大量 XR 与移动游戏以及许多 VR 研究实验室都在用它。",
+   "why_zh": "它的 AI 工具把智能体式场景编辑放进了多数 VR 研究所用的引擎。",
+   "based_zh": "美国旧金山",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "epic-games",
+   "name": "Epic Games",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Game and engine company",
+   "based": "Cary, US",
+   "bio": "Maker of Unreal Engine, MetaHuman and Fortnite.",
+   "why": "Unreal and MetaHuman are the high-fidelity runtime for many virtual humans and VR studies.",
+   "disciplines": [
+    "games",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://www.unrealengine.com",
+    "youtube": "https://www.youtube.com/@UnrealEngine"
+   },
+   "role_zh": "游戏与引擎公司",
+   "bio_zh": "Unreal Engine、MetaHuman 与《堡垒之夜》的开发者。",
+   "why_zh": "Unreal 与 MetaHuman 是许多虚拟人和 VR 研究所用的高保真运行环境。",
+   "based_zh": "美国卡里",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "nvidia",
+   "name": "NVIDIA",
+   "name_zh": "",
+   "kind": "company",
+   "role": "GPU and AI computing company",
+   "based": "Santa Clara, US",
+   "bio": "Makes the GPUs most generative models run on, plus Omniverse, Isaac Sim and the Cosmos world models.",
+   "why": "Its simulation stack links real-world reconstruction with generative variation.",
+   "disciplines": [
+    "graphics",
+    "robotics"
+   ],
+   "links": {
+    "site": "https://www.nvidia.com",
+    "youtube": "https://www.youtube.com/@NVIDIA"
+   },
+   "role_zh": "GPU 与人工智能计算公司",
+   "bio_zh": "生产多数生成模型运行所依赖的 GPU，并开发 Omniverse、Isaac Sim 与 Cosmos 世界模型。",
+   "why_zh": "它的仿真技术栈把真实场景重建与生成式变化连接起来。",
+   "based_zh": "美国圣克拉拉",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "roblox",
+   "name": "Roblox",
+   "name_zh": "",
+   "kind": "company",
+   "role": "User-generated game platform",
+   "based": "San Mateo, US",
+   "bio": "Runs a game engine, creation tools and multiplayer platform used by tens of millions of daily players.",
+   "why": "It is putting prompt-to-game creation in front of one of the largest player populations.",
+   "disciplines": [
+    "games"
+   ],
+   "links": {
+    "site": "https://corp.roblox.com",
+    "youtube": "https://www.youtube.com/@Roblox"
+   },
+   "role_zh": "用户创作游戏平台",
+   "bio_zh": "运营游戏引擎、创作工具与多人在线平台，每天有数千万玩家使用。",
+   "why_zh": "它正把“用提示词做游戏”推到规模最大的玩家群体之一面前。",
+   "based_zh": "美国圣马特奥",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "meta",
+   "name": "Meta",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Technology company (Reality Labs, Meta AI, FAIR)",
+   "based": "Menlo Park, US",
+   "bio": "Makes the Quest headsets, Ray-Ban Meta glasses, Horizon OS and developer SDKs, and the FAIR / Meta AI research.",
+   "why": "Its headsets are the most common VR study hardware and its SDKs expose camera access for in-situ AI.",
+   "disciplines": [
+    "hci",
+    "ml"
+   ],
+   "links": {
+    "site": "https://about.meta.com",
+    "youtube": "https://www.youtube.com/@MetaDevelopers"
+   },
+   "role_zh": "科技公司（Reality Labs、Meta AI、FAIR）",
+   "bio_zh": "生产 Quest 头显、Ray-Ban Meta 眼镜，开发 Horizon OS 与开发者 SDK，并有 FAIR / Meta AI 研究团队。",
+   "why_zh": "它的头显是 VR 研究最常用的硬件，SDK 还开放了摄像头访问，便于在现场环境中运行 AI。",
+   "based_zh": "美国门洛帕克",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "playcanvas",
+   "name": "PlayCanvas",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Web graphics engine company (part of Snap)",
+   "based": "London, UK",
+   "bio": "Develops the open-source PlayCanvas engine and the SuperSplat Gaussian-splat editor.",
+   "why": "Its engine is one of the main ways splat worlds are shown in browsers and headsets.",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {
+    "site": "https://playcanvas.com",
+    "github": "https://github.com/playcanvas",
+    "youtube": "https://www.youtube.com/@PlayCanvas"
+   },
+   "role_zh": "网页图形引擎公司（Snap 旗下）",
+   "bio_zh": "开发开源 PlayCanvas 引擎与 SuperSplat 高斯泼溅编辑器。",
+   "why_zh": "在浏览器和头显中展示泼溅世界，主要途径之一就是它的引擎。",
+   "based_zh": "英国伦敦",
+   "connected_to": [
+    "snap"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "microsoft",
+   "name": "Microsoft",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Technology company",
+   "based": "Redmond, US",
+   "bio": "Maintains Babylon.js among many developer platforms; also Microsoft Research and Xbox.",
+   "why": "Babylon.js is one of the two leading open web engines for WebXR and splats.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://www.microsoft.com",
+    "github": "https://github.com/BabylonJS"
+   },
+   "role_zh": "科技公司",
+   "bio_zh": "维护 Babylon.js 等多个开发者平台，旗下还有 Microsoft Research 与 Xbox。",
+   "why_zh": "Babylon.js 是面向 WebXR 与泼溅渲染的两大开源网页引擎之一。",
+   "based_zh": "美国雷德蒙德",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "w3c",
+   "name": "W3C Immersive Web Working Group",
+   "name_zh": "",
+   "kind": "lab",
+   "role": "Web standards body",
+   "based": "Cambridge, US (W3C)",
+   "bio": "The World Wide Web Consortium group that writes the WebXR Device API and its modules.",
+   "why": "Its standard makes immersive content deliverable as a web link.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {
+    "site": "https://www.w3.org/immersive-web/",
+    "github": "https://github.com/immersive-web"
+   },
+   "role_zh": "网页标准组织",
+   "bio_zh": "万维网联盟（W3C）中负责制定 WebXR 设备 API 及其模块的工作组。",
+   "why_zh": "它制定的标准让沉浸内容可以通过一个网页链接交付。",
+   "based_zh": "美国剑桥（W3C）",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "khronos-group",
+   "name": "The Khronos Group",
+   "name_zh": "",
+   "kind": "lab",
+   "role": "Graphics and spatial-computing standards consortium",
+   "based": "Beaverton, US",
+   "bio": "Open industry consortium behind glTF, OpenXR, Vulkan and WebGL.",
+   "why": "Its glTF splat extension gives generated 3D worlds a common file format.",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {
+    "site": "https://www.khronos.org",
+    "github": "https://github.com/KhronosGroup",
+    "youtube": "https://www.youtube.com/@khronos"
+   },
+   "role_zh": "图形与空间计算标准联盟",
+   "bio_zh": "制定 glTF、OpenXR、Vulkan 与 WebGL 的开放行业联盟。",
+   "why_zh": "它的 glTF 泼溅扩展为生成的三维世界提供了通用文件格式。",
+   "based_zh": "美国比弗顿",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "apple",
+   "name": "Apple",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Consumer technology company",
+   "based": "Cupertino, US",
+   "bio": "Makes Apple Vision Pro and visionOS.",
+   "why": "Vision Pro is the highest-fidelity mainstream headset, and visionOS ships generative spatial features.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {
+    "site": "https://www.apple.com",
+    "youtube": "https://www.youtube.com/@Apple"
+   },
+   "role_zh": "消费电子公司",
+   "bio_zh": "Apple Vision Pro 与 visionOS 的开发者。",
+   "why_zh": "Vision Pro 是保真度最高的主流头显，visionOS 也内置了生成式空间功能。",
+   "based_zh": "美国库比蒂诺",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "samsung",
+   "name": "Samsung",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Electronics company",
+   "based": "Suwon, KR",
+   "bio": "Makes Galaxy XR, the first Android XR headset, and co-develops Android XR glasses with Google.",
+   "why": "Its headset is the first mass-market device whose OS generates spatial content from flat media.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {
+    "site": "https://www.samsung.com",
+    "youtube": "https://www.youtube.com/@SamsungUS"
+   },
+   "role_zh": "电子公司",
+   "bio_zh": "推出首款 Android XR 头显 Galaxy XR，并与 Google 合作开发 Android XR 眼镜。",
+   "why_zh": "它的头显是首款由操作系统把平面媒体生成为空间内容的大众市场设备。",
+   "based_zh": "韩国水原",
+   "connected_to": [
+    "google"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "snap",
+   "name": "Snap",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Camera and AR company (Snapchat, SPECS)",
+   "based": "Santa Monica, US",
+   "bio": "Maker of Snapchat Lenses, Lens Studio and the SPECS AR glasses (via its subsidiary Specs Inc.).",
+   "why": "It runs generative AR Lenses at phone scale and is shipping consumer AR glasses.",
+   "disciplines": [
+    "hci",
+    "media-art"
+   ],
+   "links": {
+    "site": "https://www.spectacles.com",
+    "youtube": "https://www.youtube.com/@specs"
+   },
+   "role_zh": "相机与 AR 公司（Snapchat、SPECS）",
+   "bio_zh": "Snapchat 滤镜（Lenses）、Lens Studio 与 SPECS AR 眼镜（由子公司 Specs Inc. 推出）的开发者。",
+   "why_zh": "它在手机端大规模运行生成式 AR 滤镜，并正在推出消费级 AR 眼镜。",
+   "based_zh": "美国圣莫尼卡",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "xreal",
+   "name": "XREAL",
+   "name_zh": "",
+   "kind": "company",
+   "role": "AR glasses company",
+   "based": "Beijing, CN",
+   "bio": "Chinese maker of display glasses (formerly Nreal) and of XREAL AURA, Android XR glasses co-developed with Google.",
+   "why": "It is bringing full XR apps to glasses-weight hardware.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {
+    "site": "https://www.xreal.com",
+    "youtube": "https://www.youtube.com/@xreal_global"
+   },
+   "role_zh": "AR 眼镜公司",
+   "bio_zh": "中国显示眼镜厂商（原名 Nreal），与 Google 合作开发 Android XR 眼镜 XREAL AURA。",
+   "why_zh": "它正把完整的 XR 应用带到眼镜级重量的硬件上。",
+   "based_zh": "中国北京",
+   "connected_to": [
+    "google"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "valve",
+   "name": "Valve",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Game company and maker of Steam",
+   "based": "Bellevue, US",
+   "bio": "Runs Steam and makes Index, Steam Deck and the Steam Frame headset.",
+   "why": "Its streaming-first headset links PC-rendered worlds to a wireless display.",
+   "disciplines": [
+    "games"
+   ],
+   "links": {
+    "site": "https://store.steampowered.com",
+    "youtube": "https://www.youtube.com/@valve"
+   },
+   "role_zh": "游戏公司、Steam 运营方",
+   "bio_zh": "运营 Steam，生产 Index、Steam Deck 与 Steam Frame 头显。",
+   "why_zh": "它主打串流的头显，把 PC 渲染的世界无线送到眼前。",
+   "based_zh": "美国贝尔维尤",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "lmarena",
+   "name": "Arena (formerly LMArena)",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Crowdsourced AI evaluation platform",
+   "based": "San Francisco, US",
+   "bio": "Grew out of the LMSYS Chatbot Arena at UC Berkeley; runs public blind-vote leaderboards for text, vision, image and video models.",
+   "why": "Its video arena is a widely cited human-preference ranking of video generators.",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://arena.ai",
+    "youtube": "https://www.youtube.com/@ArenaAIOfficial"
+   },
+   "role_zh": "众包 AI 评测平台",
+   "bio_zh": "源自加州大学伯克利分校的 LMSYS Chatbot Arena，运营文本、视觉、图像与视频模型的公开盲投排行榜。",
+   "why_zh": "它的视频竞技场是被广泛引用的视频生成模型人类偏好排名。",
+   "based_zh": "美国旧金山",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "artificial-analysis",
+   "name": "Artificial Analysis",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Independent AI benchmarking company",
+   "based": "San Francisco, US",
+   "bio": "Benchmarks model quality, price and speed across providers, including blind-vote image and video arenas.",
+   "why": "Video labs cite its arena rankings when they launch models.",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://artificialanalysis.ai",
+    "x": "https://x.com/ArtificialAnlys"
+   },
+   "role_zh": "独立 AI 基准评测公司",
+   "bio_zh": "跨服务商评测模型的质量、价格与速度，并运营图像与视频盲投竞技场。",
+   "why_zh": "视频模型厂商发布新模型时常引用它的竞技场排名。",
+   "based_zh": "美国旧金山",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "ziqi-huang",
+   "name": "Ziqi Huang",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, S-Lab, Nanyang Technological University",
+   "based": "Singapore",
+   "bio": "Works on video generation and its evaluation with Ziwei Liu's group; first author of VBench and VBench++.",
+   "why": "VBench is the most widely used automatic benchmark for video generators.",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://ziqihuangg.github.io",
+    "github": "https://github.com/Vchitect/VBench"
+   },
+   "role_zh": "南洋理工大学 S-Lab 研究者",
+   "bio_zh": "在刘子纬课题组研究视频生成及其评测，VBench 与 VBench++ 的第一作者。",
+   "why_zh": "VBench 是使用最广的视频生成自动评测基准。",
+   "based_zh": "新加坡",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "dian-zheng",
+   "name": "Dian Zheng",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, Shanghai AI Laboratory and Sun Yat-sen University",
+   "based": "Shanghai, CN",
+   "bio": "First author of VBench-2.0, which tests the physical and commonsense faithfulness of generated video.",
+   "why": "VBench-2.0 moves video evaluation toward the plausibility of events.",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "github": "https://github.com/Vchitect/VBench"
+   },
+   "role_zh": "上海人工智能实验室、中山大学研究者",
+   "bio_zh": "VBench-2.0 的第一作者，该基准检验生成视频在物理与常识上的可信度。",
+   "why_zh": "VBench-2.0 把视频评测的重点推向事件的合理性。",
+   "based_zh": "中国上海",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "haoyi-duan",
+   "name": "Haoyi Duan",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, Stanford University",
+   "based": "Stanford, US",
+   "bio": "Works with Jiajun Wu and Fei-Fei Li; first author of WorldScore.",
+   "why": "WorldScore is the first benchmark that compares video, 3D and 4D world generators on one task.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://haoyi-duan.github.io",
+    "github": "https://github.com/haoyi-duan"
+   },
+   "role_zh": "斯坦福大学研究者",
+   "bio_zh": "与吴佳俊、李飞飞合作，WorldScore 的第一作者。",
+   "why_zh": "WorldScore 是第一个在同一任务上比较视频、三维与 4D 世界生成器的基准。",
+   "based_zh": "美国斯坦福",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "dylan-ebert",
+   "name": "Dylan Ebert",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Machine learning engineer, Hugging Face",
+   "based": "",
+   "bio": "Works on 3D machine learning at Hugging Face; created 3D Arena.",
+   "why": "3D Arena is the largest public human-preference evaluation of image-to-3D models.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "huggingface": "https://huggingface.co/dylanebert"
+   },
+   "role_zh": "Hugging Face 机器学习工程师",
+   "bio_zh": "在 Hugging Face 从事三维机器学习，3D Arena 的创建者。",
+   "why_zh": "3D Arena 是规模最大的图生三维模型公开人类偏好评测。",
+   "based_zh": "",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "lu-ling",
+   "name": "Lu Ling",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, Purdue University",
+   "based": "West Lafayette, US",
+   "bio": "First author of DL3DV-10K, a large real-scene video dataset for 3D vision.",
+   "why": "DL3DV-10K is a standard training set for scene reconstruction and camera-controlled generation.",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {
+    "site": "https://dl3dv-10k.github.io/DL3DV-10K/",
+    "github": "https://github.com/DL3DV-10K"
+   },
+   "role_zh": "普渡大学研究者",
+   "bio_zh": "DL3DV-10K 的第一作者，这是一个面向三维视觉的大型真实场景视频数据集。",
+   "why_zh": "DL3DV-10K 是场景重建与镜头可控生成的标准训练数据之一。",
+   "based_zh": "美国西拉法叶",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "matt-deitke",
+   "name": "Matt Deitke",
+   "name_zh": "",
+   "kind": "person",
+   "role": "AI researcher (Objaverse, Objaverse-XL)",
+   "based": "Seattle, US",
+   "bio": "Led the Objaverse and Objaverse-XL 3D datasets at the Allen Institute for AI.",
+   "why": "Objaverse-XL is the main open pretraining corpus for 3D generative models.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://mattdeitke.com",
+    "github": "https://github.com/allenai/objaverse-xl"
+   },
+   "role_zh": "AI 研究者（Objaverse、Objaverse-XL）",
+   "bio_zh": "在艾伦人工智能研究所主导了 Objaverse 与 Objaverse-XL 三维数据集。",
+   "why_zh": "Objaverse-XL 是三维生成模型最主要的开放预训练语料。",
+   "based_zh": "美国西雅图",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "tinghui-zhou",
+   "name": "Tinghui Zhou",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Computer vision researcher (UC Berkeley PhD)",
+   "based": "Berkeley, US",
+   "bio": "First author of Stereo Magnification (SIGGRAPH 2018), which introduced multiplane images and the RealEstate10K dataset.",
+   "why": "RealEstate10K became the standard benchmark for novel-view synthesis and camera-controlled video.",
+   "disciplines": [
+    "graphics"
+   ],
+   "links": {
+    "site": "https://tinghuiz.github.io"
+   },
+   "role_zh": "计算机视觉研究者（加州大学伯克利分校博士）",
+   "bio_zh": "Stereo Magnification（SIGGRAPH 2018）的第一作者，该论文提出了多平面图像表示与 RealEstate10K 数据集。",
+   "why_zh": "RealEstate10K 成了新视角合成与镜头可控视频生成的标准基准。",
+   "based_zh": "美国伯克利",
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "openai--videos-api-sora-2",
+   "creator_ids": [
+    "openai"
+   ],
+   "title": "OpenAI Videos API (Sora 2)",
+   "year": 2025,
+   "date": "2025-10-06",
+   "field": "infra",
+   "sub": "apis",
+   "also": [
+    "video"
+   ],
+   "modalities": [
+    "flat-video",
+    "audio"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "authoring",
+    "control"
+   ],
+   "kind": "platform",
+   "description": "OpenAI's v1/videos endpoint put Sora 2 and Sora 2 Pro behind a public API, so developers could generate, remix, extend and edit clips with synchronized sound. OpenAI removed the Videos API and every Sora 2 snapshot from the API on 2026-09-24, with no replacement.",
+   "description_zh": "OpenAI 的 v1/videos 接口通过公开 API 提供 Sora 2 与 Sora 2 Pro，开发者可以生成、改写、延长和编辑带同步声音的视频片段。OpenAI 已于 2026-09-24 从 API 中下线 Videos API 及全部 Sora 2 快照，没有替代接口。",
+   "idea_en": "A frontier video model you could call and pin by snapshot until the vendor withdrew it: a study built on a hosted generator can lose its stimulus source on a fixed date.",
+   "idea_zh": "可以通过 API 调用、按快照锁定版本的前沿视频模型，直到厂商将其撤下：依赖托管生成器的研究，可能在某个确定日期失去刺激材料的来源。",
+   "method": "Asynchronous REST jobs (POST /v1/videos) rendered by OpenAI's Sora 2 models (architecture undisclosed; likely diffusion transformers like the first Sora), with character references, extensions, edits and Batch API support added in March 2026.",
+   "method_zh": "异步 REST 任务（POST /v1/videos），由 OpenAI 的 Sora 2 模型渲染（架构未公开，很可能与第一代 Sora 一样是扩散 Transformer）；2026 年 3 月加入角色参考、视频延长、编辑与 Batch API 支持。",
+   "specs": "sora-2 / sora-2-pro · up to 20 s · 1080p on sora-2-pro ($0.70/s) · launched 2025-10-06 · removed 2026-09-24",
+   "keywords": [
+    "Sora 2",
+    "video API",
+    "model snapshots",
+    "deprecation",
+    "discontinued"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=hS1YqcewH0c"
+   },
+   "source_url": "https://developers.openai.com/api/docs/deprecations",
+   "api_url": "https://developers.openai.com/api/docs/guides/video-generation",
+   "code_url": "",
+   "collections": [
+    "trend-native-audio"
+   ]
+  },
+  {
+   "id": "google--gemini-api-video",
+   "creator_ids": [
+    "google",
+    "google-deepmind"
+   ],
+   "title": "Gemini API video generation (Veo, Omni)",
+   "year": 2025,
+   "date": "2025-04-09",
+   "field": "infra",
+   "sub": "apis",
+   "also": [
+    "video"
+   ],
+   "modalities": [
+    "flat-video",
+    "audio"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "authoring",
+    "control"
+   ],
+   "kind": "platform",
+   "description": "Google's Gemini API and Vertex AI (documented in 2026 as the Gemini Enterprise Agent Platform) serve DeepMind's video models as versioned endpoints: Veo 2 from April 2025, Veo 3 and 3.1 with native audio, 4K output from January 2026 and Veo 3.1 Lite from March 2026. In 2026 Google added Gemini Omni Flash, a conversational video generation and editing model (preview 2026-06-30, GA 2026-08-27).",
+   "description_zh": "Google 的 Gemini API 与 Vertex AI（2026 年文档中称 Gemini Enterprise Agent Platform）以带版本号的接口提供 DeepMind 视频模型：2025 年 4 月起提供 Veo 2，之后是带原生音频的 Veo 3 与 3.1，2026 年 1 月起支持 4K 输出，2026 年 3 月推出 Veo 3.1 Lite。2026 年 Google 又加入了可对话式生成与编辑视频的 Gemini Omni Flash（2026-06-30 预览，2026-08-27 正式发布）。",
+   "idea_en": "The most complete hosted video stack for labs: model ids you can pin, preview-to-GA lifecycles you can track, and shutdown notices that tell you when a stimulus model will go away.",
+   "idea_zh": "对实验室来说最完整的托管视频技术栈：模型 ID 可以锁定，从预览到正式发布的生命周期可以追踪，下线通知也会提前告诉你某个刺激生成模型何时停用。",
+   "method": "Long-running prediction operations on model ids such as veo-3.1-generate-preview and gemini-omni-1.1-flash; Google marks Veo output with SynthID watermarks.",
+   "method_zh": "通过长时运行的预测操作调用 veo-3.1-generate-preview、gemini-omni-1.1-flash 等模型 ID；Google 会给 Veo 输出加上 SynthID 水印。",
+   "specs": "Veo 3.1: 4 / 6 / 8 s · 720p–4K · native audio · Omni Flash: 360p–4K, extend, first + last frame",
+   "keywords": [
+    "Veo",
+    "Gemini Omni",
+    "Vertex AI",
+    "video API",
+    "SynthID"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=Co-97Ht5vAY"
+   },
+   "images": [
+    "https://ai.google.dev/static/site-assets/images/share-gemini-api-2026-07.png"
+   ],
+   "source_url": "https://ai.google.dev/gemini-api/docs/changelog",
+   "api_url": "https://ai.google.dev/gemini-api/docs/video",
+   "code_url": "",
+   "collections": [
+    "trend-native-audio"
+   ]
+  },
+  {
+   "id": "fal--fal",
+   "creator_ids": [
+    "fal"
+   ],
+   "title": "fal",
+   "year": 2023,
+   "field": "infra",
+   "sub": "apis",
+   "modalities": [
+    "flat-video",
+    "mesh",
+    "audio"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "authoring",
+    "responsiveness"
+   ],
+   "kind": "platform",
+   "description": "A generative-media inference host: one API and SDK for more than 1,000 image, video, audio and 3D models from many labs (Kling, Seedance, MiniMax, FLUX and open-weight models), plus serverless GPUs to deploy your own. fal reports more than 1.5 million developers as of October 2026.",
+   "description_zh": "生成式媒体推理平台：一个 API 和 SDK 即可调用来自多家机构的 1,000 多个图像、视频、音频与三维模型（可灵、Seedance、MiniMax、FLUX 以及开源权重模型），也可以用 Serverless GPU 部署自己的模型。截至 2026 年 10 月，fal 称其开发者超过 150 万。",
+   "idea_en": "Lets a lab swap the generator behind a stimulus pipeline by changing one parameter, which makes model comparisons cheap but ties reproducibility to a third party's catalogue.",
+   "idea_zh": "实验室只需改一个参数就能更换刺激生成流程背后的模型，比较模型的成本很低，但可复现性也因此取决于第三方平台的模型目录。",
+   "method": "Queued and streaming HTTP / WebSocket endpoints in front of optimized inference on H100, H200 and B200 clusters; custom models deploy as serverless apps.",
+   "method_zh": "在 H100、H200、B200 集群的优化推理之上，提供排队与流式的 HTTP / WebSocket 接口；自定义模型以 Serverless 应用形式部署。",
+   "specs": "1,000+ models · billed per output · serverless and dedicated GPUs",
+   "keywords": [
+    "inference host",
+    "model marketplace",
+    "serverless GPU"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=fcBfGnpUKjI"
+   },
+   "images": [
+    "https://fal.ai/og-thumbnail.webp"
+   ],
+   "source_url": "https://fal.ai",
+   "api_url": "https://docs.fal.ai",
+   "code_url": "https://github.com/fal-ai/fal",
+   "collections": []
+  },
+  {
+   "id": "replicate--replicate",
+   "creator_ids": [
+    "replicate"
+   ],
+   "title": "Replicate",
+   "year": 2021,
+   "field": "infra",
+   "sub": "apis",
+   "modalities": [
+    "flat-video",
+    "mesh",
+    "image"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "api",
+    "open"
+   ],
+   "lenses": [
+    "control",
+    "authoring"
+   ],
+   "kind": "platform",
+   "description": "Runs thousands of open and proprietary models behind one API, each addressed by a version id, and lets developers publish their own models packaged with the open-source Cog container format. Replicate announced on 2025-11-17 that it is joining Cloudflare; it keeps its brand and its API.",
+   "description_zh": "通过一个 API 运行数千个开源与闭源模型，每个模型都以版本 ID 调用；开发者也可以用开源的 Cog 容器格式打包并发布自己的模型。Replicate 于 2025-11-17 宣布并入 Cloudflare，品牌与 API 保持不变。",
+   "idea_en": "Version ids per model make it one of the easier hosts on which to pin the exact generator a study used.",
+   "idea_zh": "每个模型都有版本 ID，在这里锁定研究所用的确切生成器相对容易。",
+   "method": "Models packaged as Cog containers run on Replicate's GPU fleet; each prediction is an HTTP job addressed by a model version.",
+   "method_zh": "以 Cog 容器打包的模型运行在 Replicate 的 GPU 集群上；每次预测都是一个按模型版本寻址的 HTTP 任务。",
+   "specs": "thousands of models · per-second GPU or per-output billing · joining Cloudflare (announced 2025-11-17)",
+   "keywords": [
+    "inference host",
+    "Cog",
+    "Cloudflare",
+    "versioned models"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=VmYYcGtbF8E"
+   },
+   "images": [
+    "https://replicate.com/blog/replicate-cloudflare.png"
+   ],
+   "source_url": "https://replicate.com/blog/replicate-cloudflare",
+   "api_url": "https://replicate.com/docs",
+   "code_url": "https://github.com/replicate/cog",
+   "collections": []
+  },
+  {
+   "id": "runway--runway-api",
+   "creator_ids": [
+    "runway"
+   ],
+   "title": "Runway API (Runway Dev)",
+   "year": 2024,
+   "date": "2024-09",
+   "field": "infra",
+   "sub": "apis",
+   "modalities": [
+    "flat-video",
+    "avatar",
+    "audio"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "authoring",
+    "responsiveness"
+   ],
+   "kind": "platform",
+   "description": "Runway's developer platform serves its own video, image and audio models and models from other labs through one API, with a model router, reusable workflows and real-time conversational 'Characters'. Runway ran its first online API hackathon in May 2026 around real-time video agents.",
+   "description_zh": "Runway 的开发者平台通过一个 API 提供自家及其他机构的视频、图像与音频模型，并配有模型路由、可复用工作流和实时对话角色“Characters”。2026 年 5 月，Runway 举办了首届线上 API 黑客松，主题是实时视频智能体。",
+   "idea_en": "One integration covers pre-rendered clips and live conversational characters, so a study can move between offline and real-time stimuli without changing vendor.",
+   "idea_zh": "一次接入就能同时覆盖预渲染片段与实时对话角色，研究可以在离线刺激与实时刺激之间切换，而不必更换供应商。",
+   "method": "REST task API with SDKs; a router picks a model per request from a cost, latency or quality preference, and Characters stream in real time (likely over WebRTC).",
+   "method_zh": "带 SDK 的 REST 任务 API；路由器按成本、延迟或质量偏好为每个请求选择模型，Characters 以实时流方式输出（很可能基于 WebRTC）。",
+   "specs": "launched 2024-09 · credit-based billing · model router · real-time Characters",
+   "keywords": [
+    "video API",
+    "model router",
+    "real-time characters"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=rV81E4TntkI"
+   },
+   "images": [
+    "https://d3phaj0sisr2ct.cloudfront.net/devportal/og-image-v4.jpg"
+   ],
+   "source_url": "https://runwayml.com/api",
+   "api_url": "https://docs.dev.runwayml.com/",
+   "code_url": "",
+   "collections": []
+  },
+  {
+   "id": "luma-ai--luma-api",
+   "creator_ids": [
+    "luma-ai"
+   ],
+   "title": "Luma API (Ray)",
+   "year": 2024,
+   "field": "infra",
+   "sub": "apis",
+   "modalities": [
+    "flat-video",
+    "image"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "control",
+    "authoring"
+   ],
+   "kind": "platform",
+   "description": "Luma's API serves its Ray video models and Photon image models to developers. The Ray3.2 API (2026-06-09) exposes the model's full control surface: up to 16 keyframes per clip, performance tracking, HDR generation and EXR export.",
+   "description_zh": "Luma 的 API 向开发者提供 Ray 视频模型与 Photon 图像模型。Ray3.2 API（2026-06-09）开放了模型的全部控制项：单个片段最多 16 个关键帧、表演追踪、HDR 生成与 EXR 导出。",
+   "idea_en": "Keyframe-level control through an API is what turns a video model into something an experimenter can script shot by shot.",
+   "idea_zh": "通过 API 实现关键帧级控制，视频模型才成为实验者可以逐个镜头编排的工具。",
+   "method": "Asynchronous generation jobs on Luma's Ray video models with multi-keyframe conditioning, video-to-video and reframing endpoints.",
+   "method_zh": "在 Luma 的 Ray 视频模型上运行异步生成任务，支持多关键帧条件、视频到视频与重新构图等接口。",
+   "specs": "Ray3.2 API (2026-06-09) · up to 16 keyframes per clip · HDR · EXR export",
+   "keywords": [
+    "video API",
+    "keyframes",
+    "HDR"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=YawXSpOlzgw"
+   },
+   "images": [
+    "https://cdn.sanity.io/images/2ylxvaa2/production/ff7469d468f6f7e447ccb4a50276f1cb03c6664d-1200x630.jpg?w=1200&h=630&fm=jpg"
+   ],
+   "source_url": "https://lumalabs.ai/api",
+   "api_url": "https://docs.lumalabs.ai",
+   "code_url": "",
+   "collections": []
+  },
+  {
+   "id": "world-labs--world-api",
+   "creator_ids": [
+    "world-labs"
+   ],
+   "title": "World API",
+   "year": 2026,
+   "date": "2026-01-21",
+   "field": "infra",
+   "sub": "apis",
+   "also": [
+    "worlds-3d"
+   ],
+   "modalities": [
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "authoring",
+    "persistence",
+    "situational-reach"
+   ],
+   "kind": "platform",
+   "description": "World Labs' public API for its Marble world model: send text, one image, several images, a 360° panorama or a video, and get back a navigable 3D world that renders in the browser or exports to other tools. World Labs reports uses such as turning 2D films into explorable spaces (Escape.ai) and generating environments for robot simulators like Isaac Sim and MuJoCo.",
+   "description_zh": "World Labs 为 Marble 世界模型开放的公开 API：输入文字、一张或多张图片、360° 全景图或一段视频，就能得到可在浏览器中渲染、也可导出到其他工具的可漫游三维世界。World Labs 介绍的用例包括把二维电影变成可探索的空间（Escape.ai），以及为 Isaac Sim、MuJoCo 等机器人仿真器生成环境。",
+   "idea_en": "Turns 'build the room' into an API call that returns an explicit 3D world, so a lab can generate many variants of a setting and then keep each one fixed for every participant.",
+   "idea_zh": "把“搭建房间”变成一次返回显式三维世界的 API 调用：实验室可以生成同一场景的多种变体，再让每位被试面对完全相同的版本。",
+   "method": "Asynchronous world-generation requests run Marble, which lifts the inputs into a 3D Gaussian-splat scene with optional mesh export.",
+   "method_zh": "异步的世界生成请求调用 Marble，把输入提升为三维高斯泼溅场景，并可导出网格。",
+   "specs": "inputs: text, image, multi-image, 360° panorama, video · output: Gaussian splats + mesh · launched 2026-01-21",
+   "keywords": [
+    "world model API",
+    "Marble",
+    "Gaussian splats",
+    "explorable 3D"
+   ],
+   "video": {
+    "url": "https://wlt-ai-cdn.art/videos/marble_labs/world-api.mp4"
+   },
+   "images": [
+    "https://www.worldlabs.ai/api/opengraph-image?imageUrl=/images/world-api.jpg&title=Announcing%20the%20World%20API"
+   ],
+   "source_url": "https://www.worldlabs.ai/blog/announcing-the-world-api",
+   "api_url": "https://docs.worldlabs.ai",
+   "code_url": "",
+   "collections": [
+    "trend-explicit-3d"
+   ]
+  },
+  {
+   "id": "decart--decart-api",
+   "creator_ids": [
+    "decart"
+   ],
+   "title": "Decart API Platform",
+   "year": 2025,
+   "field": "infra",
+   "sub": "apis",
+   "also": [
+    "video"
+   ],
+   "modalities": [
+    "frame-stream",
+    "flat-video"
+   ],
+   "inputs": [
+    "video",
+    "text",
+    "action"
+   ],
+   "timing": "real-time",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "responsiveness",
+    "reactivity"
+   ],
+   "kind": "platform",
+   "description": "Decart's API streams real-time generative video: Lucy 2.5 edits or restyles a live camera feed (swapping characters, objects or backgrounds) over WebRTC, and the Oasis 3 Preview world model returns camera frames in response to driving actions over gRPC. Billing is per second of active generation, $0.01–0.04 per second at 720p as of October 2026.",
+   "description_zh": "Decart 的 API 提供实时生成视频流：Lucy 2.5 通过 WebRTC 实时编辑或重绘摄像头画面（替换人物、物体或背景），Oasis 3 Preview 世界模型则通过 gRPC 根据驾驶动作返回相机画面。按实际生成时长计费，截至 2026 年 10 月，720p 每秒 0.01–0.04 美元。",
+   "idea_en": "Real-time generation sold by the second makes a live, generatively altered surrounding something a lab can rent rather than train.",
+   "idea_zh": "按秒出售的实时生成，让“被生成式改写的实时环境”成了实验室可以租用、而不必自己训练的东西。",
+   "method": "WebRTC (Lucy) and gRPC (Oasis) sessions to Decart-hosted autoregressive video models, with JavaScript and Python SDKs; Decart reports serving them on AWS Trainium 3.",
+   "method_zh": "通过 WebRTC（Lucy）与 gRPC（Oasis）会话连接 Decart 托管的自回归视频模型，提供 JavaScript 与 Python SDK；Decart 称其模型运行在 AWS Trainium 3 上。",
+   "specs": "Lucy 2.5: 720p, $0.02/s ($0.04/s fast mode) · Lucy Restyle 2: $0.01/s · Oasis 3 Preview: $0.02/s",
+   "keywords": [
+    "real-time video",
+    "live video editing",
+    "world model API",
+    "per-second pricing"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=GXTOeJlDS9o"
+   },
+   "images": [
+    "https://cdn.prod.website-files.com/69a974f0b1fffb03644ecf2c/69b94eac7c2b44111d02c52d_og.jpg"
+   ],
+   "source_url": "https://platform.decart.ai",
+   "api_url": "https://docs.platform.decart.ai",
+   "code_url": "",
+   "collections": [
+    "trend-realtime",
+    "trend-world-simulators"
+   ]
+  },
+  {
+   "id": "kuaishou--kling-api",
+   "creator_ids": [
+    "kuaishou"
+   ],
+   "title": "Kling AI API (KlingAI Open Platform)",
+   "year": 2024,
+   "field": "infra",
+   "sub": "apis",
+   "also": [
+    "video"
+   ],
+   "modalities": [
+    "flat-video",
+    "image"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "authoring",
+    "perceptual-realism"
+   ],
+   "kind": "platform",
+   "description": "Kuaishou's KlingAI Open Platform gives developers API access to the Kling video and image models, with per-model references and unit pricing. Along with resellers such as fal, it is one of the main routes by which a Chinese frontier video model reaches third-party apps worldwide.",
+   "description_zh": "快手的可灵 AI 开放平台为开发者提供可灵视频与图像模型的 API，附有各模型的参考文档与计费单价。与 fal 等转售平台一起，它是中国前沿视频模型进入全球第三方应用的主要途径之一。",
+   "idea_en": "Puts a Chinese frontier video model behind the same kind of versioned API as Veo or Ray, so cross-lab stimulus comparisons do not have to go through a consumer app.",
+   "idea_zh": "让中国的前沿视频模型拥有与 Veo、Ray 同类的版本化 API，跨机构比较刺激材料时不必再通过消费级应用。",
+   "method": "Asynchronous REST tasks (text-to-video, image-to-video, extension) signed with access and secret keys; results return as hosted video URLs.",
+   "method_zh": "以访问密钥签名的异步 REST 任务（文生视频、图生视频、视频延长），结果以托管视频链接返回。",
+   "specs": "API since 2024 · v1.5 1080p professional mode and video extension added 2024-11",
+   "keywords": [
+    "Kling",
+    "video API",
+    "China"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=mT5aHJxnqx0"
+   },
+   "source_url": "https://app.klingai.com/global/dev/document-api/quickStart/productIntroduction/overview",
+   "api_url": "https://app.klingai.com/global/dev/document-api/quickStart/productIntroduction/overview",
+   "code_url": "",
+   "collections": []
+  },
+  {
+   "id": "volcano-engine--ark",
+   "creator_ids": [
+    "volcano-engine"
+   ],
+   "title": "Volcano Engine Ark / BytePlus ModelArk",
+   "year": 2023,
+   "date": "2023-06-28",
+   "field": "infra",
+   "sub": "apis",
+   "also": [
+    "video"
+   ],
+   "modalities": [
+    "flat-video",
+    "dialogue"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "authoring",
+    "control"
+   ],
+   "kind": "platform",
+   "description": "ByteDance's model-as-a-service platform (Volcano Engine Ark in China, BytePlus ModelArk internationally) serves the Doubao language models and the Seedance video models through an API. BytePlus added first- and last-frame control for Seedance 1.0 Pro on ModelArk in 2025 and lists Seedance 2.0 and 2.5 in 2026.",
+   "description_zh": "字节跳动的模型即服务平台（国内为火山方舟，海外为 BytePlus ModelArk）通过 API 提供豆包大语言模型与 Seedance 视频模型。2025 年 BytePlus 在 ModelArk 上为 Seedance 1.0 Pro 加入首尾帧控制，2026 年又上架 Seedance 2.0 与 2.5。",
+   "idea_en": "The official route to ByteDance's Seedance models, with enterprise terms that matter when a study needs a stable endpoint it can contract for.",
+   "idea_zh": "调用字节跳动 Seedance 模型的官方途径；当研究需要一个可签约、稳定的接口时，企业级条款很关键。",
+   "method": "Managed inference endpoints with REST APIs, model versions and quotas; video jobs run asynchronously and return hosted MP4 files.",
+   "method_zh": "托管推理接口，提供 REST API、模型版本与配额管理；视频任务异步执行，返回托管的 MP4 文件。",
+   "specs": "launched 2023-06-28 (China) · Seedance 1.0 Pro first/last-frame control (2025) · Seedance 2.0 / 2.5 (2026)",
+   "keywords": [
+    "Seedance",
+    "Doubao",
+    "model-as-a-service",
+    "China"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=pBUvj5USz1Y"
+   },
+   "source_url": "https://www.volcengine.com/product/ark",
+   "api_url": "https://docs.byteplus.com/en/docs/ModelArk",
+   "code_url": "",
+   "collections": []
+  },
+  {
+   "id": "openai--realtime-api",
+   "creator_ids": [
+    "openai"
+   ],
+   "title": "OpenAI Realtime API and GPT-Live",
+   "year": 2024,
+   "date": "2024-10-01",
+   "field": "infra",
+   "sub": "realtime-stack",
+   "also": [
+    "audio"
+   ],
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "text",
+    "image"
+   ],
+   "timing": "full-duplex",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "responsiveness",
+    "reactivity"
+   ],
+   "kind": "platform",
+   "description": "OpenAI's low-latency speech-to-speech interface over WebRTC, WebSocket or SIP: beta at DevDay 2024, generally available on 2025-08-28 with gpt-realtime, then gpt-realtime-2 (2026-05-07) and 2.1 (2026-07-06). On 2026-09-10 OpenAI made GPT-Live 1 generally available, a full-duplex voice layer that keeps talking while a separate backend model or agent runs tools ('delegation').",
+   "description_zh": "OpenAI 的低延迟语音到语音接口，支持 WebRTC、WebSocket 或 SIP：2024 年 DevDay 推出测试版，2025-08-28 随 gpt-realtime 正式发布，之后有 gpt-realtime-2（2026-05-07）与 2.1（2026-07-06）。2026-09-10，OpenAI 正式发布 GPT-Live 1：一个全双工语音层，在后台模型或智能体调用工具时仍能继续对话（称为“委托”）。",
+   "idea_en": "Separates the voice that keeps a conversation going from the reasoning that decides what a character does, the architecture a responsive virtual confederate needs.",
+   "idea_zh": "把维持对话的声音与决定角色行为的推理分开，这正是一个反应灵敏的虚拟实验同谋所需要的架构。",
+   "method": "Persistent sessions stream audio in and out of a native audio model; server-side voice-activity detection handles turn-taking and interruption, and function calls or delegated backend tasks run while audio continues.",
+   "method_zh": "持久会话把音频持续送入并取出原生音频模型；服务器端语音活动检测负责话轮与打断，函数调用或委托给后台的任务在语音继续时并行执行。",
+   "specs": "WebRTC / WebSocket / SIP · beta 2024-10-01 · GA 2025-08-28 · beta interface removed 2026-05-12 · GPT-Live 1 GA 2026-09-10",
+   "keywords": [
+    "speech-to-speech",
+    "voice agents",
+    "WebRTC",
+    "delegation"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=qGS9Ghnq1RU"
+   },
+   "source_url": "https://developers.openai.com/api/docs/guides/realtime",
+   "api_url": "https://developers.openai.com/api/docs/guides/live",
+   "code_url": "",
+   "collections": [
+    "trend-full-duplex"
+   ]
+  },
+  {
+   "id": "google--gemini-live-api",
+   "creator_ids": [
+    "google",
+    "google-deepmind"
+   ],
+   "title": "Gemini Live API",
+   "year": 2024,
+   "date": "2024-12-11",
+   "field": "infra",
+   "sub": "realtime-stack",
+   "also": [
+    "audio"
+   ],
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "video",
+    "text"
+   ],
+   "timing": "full-duplex",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "responsiveness",
+    "reactivity"
+   ],
+   "kind": "platform",
+   "description": "Google's bidirectional streaming API for voice-and-vision agents: an app streams microphone audio and camera or screen video to Gemini over a WebSocket and gets spoken replies the user can interrupt. It launched as the Multimodal Live API with Gemini 2.0 in December 2024; since 2026-09-15 the default models are Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, with asynchronous function calling and proactive audio.",
+   "description_zh": "Google 面向“语音 + 视觉”智能体的双向流式 API：应用通过 WebSocket 把麦克风音频与摄像头或屏幕画面实时传给 Gemini，并收到可被用户打断的语音回复。它于 2024 年 12 月随 Gemini 2.0 以 Multimodal Live API 之名推出；自 2026-09-15 起，默认模型为 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking，支持异步函数调用与主动音频。",
+   "idea_en": "Because it watches video while it talks, it can react to what a participant does in front of the camera, not only to what they say.",
+   "idea_zh": "它在说话的同时也在看画面，因此不仅能回应被试说了什么，还能回应被试在镜头前做了什么。",
+   "method": "Stateful WebSocket sessions to native audio-to-audio Gemini models with voice-activity detection, session resumption, context compression and tool calls; ephemeral tokens let browsers connect directly.",
+   "method_zh": "与原生音频到音频 Gemini 模型建立有状态 WebSocket 会话，支持语音活动检测、会话恢复、上下文压缩与工具调用；临时令牌允许浏览器直接连接。",
+   "specs": "audio + video in · audio out · GA models gemini-3.8-live and gemini-3.8-live-extended-thinking (2026-09-15)",
+   "keywords": [
+    "Live API",
+    "native audio",
+    "voice agents",
+    "multimodal streaming"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=3CyW24Pkz4o"
+   },
+   "source_url": "https://ai.google.dev/gemini-api/docs/live-api",
+   "api_url": "https://ai.google.dev/gemini-api/docs/live-api",
+   "code_url": "",
+   "collections": [
+    "trend-full-duplex"
+   ]
+  },
+  {
+   "id": "livekit--agents",
+   "creator_ids": [
+    "livekit"
+   ],
+   "title": "LiveKit Agents",
+   "year": 2023,
+   "date": "2023-11",
+   "field": "infra",
+   "sub": "realtime-stack",
+   "modalities": [
+    "speech",
+    "dialogue",
+    "avatar"
+   ],
+   "inputs": [
+    "speech",
+    "video",
+    "text"
+   ],
+   "timing": "full-duplex",
+   "access": [
+    "open",
+    "api"
+   ],
+   "lenses": [
+    "responsiveness",
+    "control"
+   ],
+   "kind": "open-source",
+   "description": "An open-source framework for real-time voice, video and physical-AI agents that join LiveKit WebRTC rooms as participants. It wires speech-to-text, LLM and text-to-speech (or speech-to-speech) models and avatar providers into one session, with turn detection, interruption handling, telephony and evaluation tools; 1.0 shipped on 2025-04-10 and 1.8.8 on 2026-10-15, and LiveKit Cloud hosts deployments.",
+   "description_zh": "开源的实时语音、视频与物理 AI 智能体框架，智能体以参与者身份加入 LiveKit WebRTC 房间。它把语音识别、大语言模型、语音合成（或语音到语音模型）以及虚拟人服务串进同一会话，并提供话轮检测、打断处理、电话接入与评测工具；1.0 版于 2025-04-10 发布，1.8.8 版于 2026-10-15 发布，LiveKit Cloud 负责托管部署。",
+   "idea_en": "The plumbing that lets a researcher swap the voice, model or avatar of a virtual human while keeping the same room, logging and timing behavior.",
+   "idea_zh": "这套底层管线让研究者可以更换虚拟人的声音、模型或形象，同时保持同样的房间、日志与时序行为。",
+   "method": "Python and Node.js workers connect to a LiveKit media server over WebRTC; a pipeline of plugins (STT, LLM, TTS, VAD and a transformer turn-detection model) or a realtime model handles each conversation.",
+   "method_zh": "Python 与 Node.js 工作进程通过 WebRTC 连接 LiveKit 媒体服务器；每段对话由插件流水线（语音识别、大语言模型、语音合成、语音活动检测与 Transformer 话轮检测模型）或实时模型处理。",
+   "specs": "~14.8k GitHub stars (Oct 2026) · 1.0 on 2025-04-10 · 1.8.8 on 2026-10-15",
+   "keywords": [
+    "voice agents",
+    "WebRTC",
+    "turn detection",
+    "open source"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=OZG0oZKctgw"
+   },
+   "images": [
+    "https://livekit.com/opengraph-image.png?opengraph-image.10qgazecccxaz.png"
+   ],
+   "source_url": "https://docs.livekit.io/agents/",
+   "api_url": "https://docs.livekit.io/agents/",
+   "code_url": "https://github.com/livekit/agents",
+   "collections": [
+    "trend-full-duplex"
+   ]
+  },
+  {
+   "id": "daily--pipecat",
+   "creator_ids": [
+    "daily"
+   ],
+   "title": "Pipecat",
+   "year": 2024,
+   "date": "2024-05",
+   "field": "infra",
+   "sub": "realtime-stack",
+   "modalities": [
+    "speech",
+    "dialogue",
+    "avatar"
+   ],
+   "inputs": [
+    "speech",
+    "video",
+    "text"
+   ],
+   "timing": "full-duplex",
+   "access": [
+    "open",
+    "api"
+   ],
+   "lenses": [
+    "responsiveness",
+    "control"
+   ],
+   "kind": "open-source",
+   "description": "An open-source Python framework, maintained by Daily, for voice and multimodal agents built as pipelines of frames passing through speech, LLM, video and avatar services; Pipecat Flows adds structured conversation graphs and Pipecat Cloud hosts agents. Pipecat 1.0 shipped on 2026-04-14 and 1.12 on 2026-09-26.",
+   "description_zh": "由 Daily 维护的开源 Python 框架，用于搭建语音与多模态智能体：数据帧依次流经语音、大语言模型、视频与虚拟人等服务。Pipecat Flows 提供结构化的对话图，Pipecat Cloud 负责托管。Pipecat 1.0 于 2026-04-14 发布，1.12 于 2026-09-26 发布。",
+   "idea_en": "A frame-level pipeline makes every stage of a conversational stimulus explicit and swappable, which helps when a study must report which models produced what.",
+   "idea_zh": "帧级流水线让对话刺激的每个环节都清晰可见、可替换；当研究需要报告每一部分由哪个模型生成时，这一点很有用。",
+   "method": "Asynchronous pipelines of processors exchange audio, video, text and control frames over transports such as Daily WebRTC, WebSocket or telephony; Flows encode dialogue states and transitions.",
+   "method_zh": "由处理器组成的异步流水线，通过 Daily WebRTC、WebSocket 或电话等传输层交换音频、视频、文本与控制帧；Flows 负责描述对话状态与转移。",
+   "specs": "~16.6k GitHub stars (Oct 2026) · v1.0.0 on 2026-04-14 · v1.12.0 on 2026-09-26",
+   "keywords": [
+    "voice agents",
+    "pipelines",
+    "Pipecat Flows",
+    "open source"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=tAQW319_h-s"
+   },
+   "images": [
+    "https://opengraph.githubassets.com/1/pipecat-ai/pipecat"
+   ],
+   "source_url": "https://docs.pipecat.ai/getting-started/introduction",
+   "api_url": "https://docs.pipecat.ai",
+   "code_url": "https://github.com/pipecat-ai/pipecat",
+   "collections": [
+    "trend-full-duplex"
+   ]
+  },
+  {
+   "id": "agora--conversational-ai-engine",
+   "creator_ids": [
+    "agora"
+   ],
+   "title": "Agora Conversational AI Engine",
+   "year": 2025,
+   "date": "2025-04",
+   "field": "infra",
+   "sub": "realtime-stack",
+   "modalities": [
+    "speech",
+    "dialogue",
+    "avatar"
+   ],
+   "inputs": [
+    "speech",
+    "text"
+   ],
+   "timing": "full-duplex",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "responsiveness",
+    "reactivity"
+   ],
+   "kind": "platform",
+   "description": "A hosted service that drops a voice agent into an Agora real-time channel: developers bring any LLM and text-to-speech, and Agora handles audio transport over its global network, noise suppression, interruption and turn-taking. The same channel can carry a digital-human avatar from partner vendors.",
+   "description_zh": "一项托管服务，把语音智能体放进声网的实时频道：开发者自选大语言模型与语音合成，声网负责在其全球网络上传输音频，并处理降噪、打断与话轮。同一频道还能接入合作厂商的数字人形象。",
+   "idea_en": "Network-level robustness (packet loss, noisy rooms) matters as much as model latency once virtual humans run outside the lab.",
+   "idea_zh": "一旦虚拟人走出实验室，网络层面的稳定性（丢包、嘈杂环境）与模型延迟同样重要。",
+   "method": "REST calls start an agent that joins an Agora SD-RTN channel, runs speech recognition, an LLM and text-to-speech (or a speech-to-speech model) in a managed pipeline, and streams speech back into the channel.",
+   "method_zh": "通过 REST 调用启动智能体，它加入声网 SD-RTN 频道，在托管流水线中运行语音识别、大语言模型与语音合成（或语音到语音模型），再把语音推回频道。",
+   "specs": "launched 2025 · bring-your-own LLM and TTS · Agora SD-RTN global network",
+   "keywords": [
+    "voice agents",
+    "RTC",
+    "noise suppression",
+    "interruption"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=B0nacrYT5bU"
+   },
+   "images": [
+    "https://cdn.prod.website-files.com/661e75fc70756be16764754b/6a5f42861fc82c4cd5e27a2f_Products%20_%20Conversational%20AI%20Engine.png"
+   ],
+   "source_url": "https://www.agora.io/en/products/conversational-ai-engine/",
+   "api_url": "https://docs.agora.io/en/conversational-ai/overview/product-overview",
+   "code_url": "",
+   "collections": [
+    "trend-full-duplex"
+   ]
+  },
+  {
+   "id": "agora--ten-framework",
+   "creator_ids": [
+    "agora"
+   ],
+   "title": "TEN Framework",
+   "year": 2024,
+   "date": "2024-06",
+   "field": "infra",
+   "sub": "realtime-stack",
+   "modalities": [
+    "speech",
+    "dialogue",
+    "avatar"
+   ],
+   "inputs": [
+    "speech",
+    "video",
+    "text"
+   ],
+   "timing": "full-duplex",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "control"
+   ],
+   "kind": "open-source",
+   "description": "An open-source framework, supported by Agora and its community, for real-time multimodal conversational agents. It ships TEN Agent demos, its own voice-activity-detection and turn-detection models, and connectors for RTC and WebSocket transport; the latest release is 0.11.73 (2026-09-22).",
+   "description_zh": "由声网及社区支持的开源框架，用于构建实时多模态对话智能体。它提供 TEN Agent 示例、自研的语音活动检测与话轮检测模型，以及 RTC 与 WebSocket 传输连接器；最新版本为 0.11.73（2026-09-22）。",
+   "idea_en": "Open turn-detection and VAD models matter because when a virtual human decides to speak is itself an experimental variable.",
+   "idea_zh": "开源的话轮检测与语音活动检测模型很重要，因为虚拟人何时开口，本身就是一个实验变量。",
+   "method": "A graph of extensions written in C++, Go, Python or Node.js runs inside one runtime and exchanges audio, video and data messages with low overhead.",
+   "method_zh": "由 C++、Go、Python 或 Node.js 编写的扩展组成图，在同一运行时内以低开销交换音频、视频与数据消息。",
+   "specs": "~11.2k GitHub stars (Oct 2026) · TEN VAD and TEN Turn Detection models · RTC and WebSocket",
+   "keywords": [
+    "voice agents",
+    "turn detection",
+    "VAD",
+    "open source"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=yYg07CbPZfg"
+   },
+   "images": [
+    "https://opengraph.githubassets.com/1/TEN-framework/ten-framework"
+   ],
+   "source_url": "https://theten.ai/",
+   "api_url": "",
+   "code_url": "https://github.com/TEN-framework/ten-framework",
+   "collections": [
+    "trend-full-duplex"
+   ]
+  },
+  {
+   "id": "unity--ai-tools",
+   "creator_ids": [
+    "unity"
+   ],
+   "title": "Unity AI tools (Unity AI)",
+   "year": 2025,
+   "date": "2025-08",
+   "field": "infra",
+   "sub": "engines",
+   "modalities": [
+    "scene-3d",
+    "mesh"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "spec"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "product",
+    "preview"
+   ],
+   "lenses": [
+    "authoring"
+   ],
+   "kind": "platform",
+   "description": "Unity's AI tooling for its engine: an agentic in-editor assistant that reads the open scene and performs editor actions, an AI gateway, an MCP server and CLI, and official plugins for Claude Code, Codex and Grok. The Unity AI open beta opened to all Unity 6+ developers on 2026-05-04; Unity has since retired the 'Unity AI' brand name, and on 2026-10-07 Unity announced Unity Spark, a no-code, prompt-driven game maker, as a closed beta.",
+   "description_zh": "Unity 为自家引擎提供的 AI 工具：能读取当前场景并执行编辑器操作的智能体助手、AI 网关、MCP 服务器与命令行工具，以及面向 Claude Code、Codex 和 Grok 的官方插件。Unity AI 公开测试于 2026-05-04 向所有 Unity 6 及以上版本开发者开放；此后 Unity 不再使用“Unity AI”这一品牌名，并于 2026-10-07 宣布推出无需写代码、用提示词做游戏的 Unity Spark（封闭测试）。",
+   "idea_en": "When an agent can edit the scene graph directly, a scenario script and its 3D implementation can be revised in the same conversation.",
+   "idea_zh": "当智能体可以直接修改场景图时，情境脚本与它的三维实现就能在同一段对话中一起修改。",
+   "method": "An LLM agent with Unity-specific tools and project context (scene hierarchy, components, assets) issues Editor commands; external agents connect through MCP via the Unity CLI.",
+   "method_zh": "一个掌握 Unity 专用工具与项目上下文（场景层级、组件、资源）的大语言模型智能体发出编辑器指令；外部智能体通过 Unity CLI 以 MCP 接入。",
+   "specs": "Unity 6+ · CLI, MCP server and plugins free · in-editor assistant in Pro / Enterprise / Industry, $10/month for Personal after trial · open beta 2026-05-04",
+   "keywords": [
+    "game engine",
+    "agentic assistant",
+    "MCP",
+    "Unity Spark"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=pHRZm2BwNQc"
+   },
+   "images": [
+    "https://cdn.sanity.io/images/fuvbjjlp/production/b55d23a7301a66deab7adb111442c13cb6510919-3840x2160.png"
+   ],
+   "source_url": "https://unity.com/products/ai",
+   "api_url": "",
+   "code_url": "",
+   "collections": []
+  },
+  {
+   "id": "epic-games--unreal-engine-5",
+   "creator_ids": [
+    "epic-games"
+   ],
+   "title": "Unreal Engine 5",
+   "year": 2022,
+   "date": "2022-04-05",
+   "field": "infra",
+   "sub": "engines",
+   "also": [
+    "avatars"
+   ],
+   "modalities": [
+    "scene-3d",
+    "avatar",
+    "motion"
+   ],
+   "inputs": [
+    "spec",
+    "video"
+   ],
+   "timing": "real-time",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring",
+    "control"
+   ],
+   "kind": "platform",
+   "description": "Epic's real-time engine behind many high-fidelity VR studies and virtual-production stages, with Nanite geometry, Lumen lighting and MetaHuman digital humans. Unreal Engine 5.8 (2026-06-23) added MetaHuman Collections for crowds of hundreds, full-body markerless MetaHuman capture from a webcam, open-source OpenRigLogic (MIT) and an experimental MCP plugin that lets any LLM inspect and drive the editor.",
+   "description_zh": "Epic 的实时引擎，许多高保真 VR 研究与虚拟制片舞台都用它，具备 Nanite 几何、Lumen 光照与 MetaHuman 数字人。Unreal Engine 5.8（2026-06-23）加入了可生成数百人群的 MetaHuman Collections、用网络摄像头即可完成的全身无标记 MetaHuman 动捕、以 MIT 许可开源的 OpenRigLogic，以及一个实验性 MCP 插件，让任意大语言模型都能查看并操控编辑器。",
+   "idea_en": "Gives generated content a photoreal, deterministic runtime: the generative layer can sit in MetaHumans and scripts while the engine keeps timing and logging exact.",
+   "idea_zh": "为生成内容提供照片级、可确定复现的运行环境：生成层可以放在 MetaHuman 与脚本里，时序与日志则由引擎精确保证。",
+   "method": "C++ engine with Blueprint visual scripting; Nanite virtualized geometry and Lumen global illumination render in real time, and MetaHuman tools rig and animate scanned or generated characters.",
+   "method_zh": "C++ 引擎，配有 Blueprint 可视化脚本；Nanite 虚拟化几何与 Lumen 全局光照实时渲染，MetaHuman 工具为扫描或生成的角色绑定骨骼并驱动动画。",
+   "specs": "UE 5.0 released 2022-04-05 · UE 5.8 released 2026-06-23 · free, 5% royalty above $1M gross for games",
+   "keywords": [
+    "game engine",
+    "MetaHuman",
+    "Nanite",
+    "Lumen",
+    "MCP"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=ExFF5gXVhDU"
+   },
+   "images": [
+    "https://cms-assets.unrealengine.com/AiKUh5PQCTaOFnmJDZJBfz/resize=width:1200/cmqhyducc6qq007n7n99x5sjf"
+   ],
+   "source_url": "https://www.unrealengine.com/en-US/news/unreal-engine-5-8-is-now-available",
+   "api_url": "",
+   "code_url": "",
+   "collections": []
+  },
+  {
+   "id": "nvidia--omniverse-nurec",
+   "creator_ids": [
+    "nvidia"
+   ],
+   "title": "NVIDIA Omniverse NuRec",
+   "year": 2025,
+   "date": "2025-06",
+   "field": "infra",
+   "sub": "engines",
+   "also": [
+    "spatial-4d"
+   ],
+   "modalities": [
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [
+    "multi-view",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "situational-reach",
+    "control"
+   ],
+   "kind": "platform",
+   "description": "NVIDIA's neural-reconstruction libraries for Omniverse: they turn camera and lidar captures into 3D Gaussian-splat scenes packaged as OpenUSD and render them inside simulators (Isaac Sim, CARLA, AlpaSim). NVIDIA pairs NuRec with its Cosmos world models to generate variations of the reconstructed scenes.",
+   "description_zh": "NVIDIA 面向 Omniverse 的神经重建库：把相机与激光雷达采集的数据重建为以 OpenUSD 打包的三维高斯泼溅场景，并在仿真器（Isaac Sim、CARLA、AlpaSim）中渲染。NVIDIA 还把 NuRec 与 Cosmos 世界模型配合使用，为重建场景生成各种变化。",
+   "idea_en": "A route from a real place to a controllable simulation: reconstruct a site once, then let generative models vary conditions while the geometry stays fixed.",
+   "idea_zh": "从真实地点到可控仿真的一条路径：把场地重建一次，再让生成模型改变条件，而几何结构保持不变。",
+   "method": "Gaussian-splat reconstruction from multi-sensor logs (built on open-source gsplat, per NVIDIA), exported to OpenUSD with trajectories through the NCore data standard.",
+   "method_zh": "从多传感器记录中进行高斯泼溅重建（据 NVIDIA 介绍基于开源 gsplat），并通过 NCore 数据标准连同轨迹导出为 OpenUSD。",
+   "specs": "OpenUSD output · camera + lidar input · integrations: Isaac Sim, CARLA, AlpaSim",
+   "keywords": [
+    "neural reconstruction",
+    "Gaussian splatting",
+    "OpenUSD",
+    "simulation"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=e3dfXj6ATA0"
+   },
+   "source_url": "https://developer.nvidia.com/omniverse/nurec",
+   "api_url": "",
+   "code_url": "",
+   "collections": [
+    "trend-grounded"
+   ]
+  },
+  {
+   "id": "roblox--build-ai-creation",
+   "creator_ids": [
+    "roblox"
+   ],
+   "title": "Roblox Build and AI creation tools",
+   "year": 2026,
+   "date": "2026-09-11",
+   "field": "infra",
+   "sub": "engines",
+   "also": [
+    "worlds-3d"
+   ],
+   "modalities": [
+    "scene-3d",
+    "mesh",
+    "behavior"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "product",
+    "preview"
+   ],
+   "lenses": [
+    "authoring",
+    "co-creation"
+   ],
+   "kind": "platform",
+   "description": "At RDC 2026 (2026-09-11) Roblox described an 'AI creation layer' on its engine: Build, a tab in the Roblox app where anyone makes a game from prompts (about 9,000 games published in its New Zealand alpha, now expanding to Serbia and Singapore), and Scene Generator, due later in 2026, which turns a text prompt plus a reference image into a functional layout editable in Studio. These sit alongside Studio's Assistant and the open Cube 3D model.",
+   "description_zh": "在 RDC 2026（2026-09-11）上，Roblox 介绍了建在引擎之上的“AI 创作层”：Build 是 Roblox 应用里的一个标签页，任何人都能用提示词做游戏（新西兰内测期间已发布约 9,000 款，现扩展到塞尔维亚和新加坡）；Scene Generator 将于 2026 年晚些时候推出，可把文字提示加参考图变成可在 Studio 中继续编辑的功能性布局。它们与 Studio 的 Assistant 以及开源的 Cube 3D 模型并列。",
+   "idea_en": "Prompt-to-game on a platform with 29 billion play-hours a quarter means generated situations reach players at scale, a recruitment and ecological-validity channel as much as a tool.",
+   "idea_zh": "在一个每季度 290 亿小时游玩时长的平台上用提示词做游戏，意味着生成的情境能大规模触达玩家：它既是工具，也是招募被试、提升生态效度的渠道。",
+   "method": "LLM agents and generative 3D models (Cube) likely produce Luau scripts, assets and layouts inside Roblox's engine and cloud services; games publish instantly to Roblox's multiplayer infrastructure.",
+   "method_zh": "大语言模型智能体与生成式三维模型（Cube）很可能在 Roblox 引擎与云服务中生成 Luau 脚本、资源与布局；游戏可即时发布到 Roblox 的多人在线基础设施上。",
+   "specs": "Build alpha: ~9,000 games by 2026-09-01; 71% of Build creators had never used Studio · Scene Generator: later 2026",
+   "keywords": [
+    "prompt-to-game",
+    "UGC",
+    "Roblox Studio",
+    "Cube"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=AD3I2Vw7l5M"
+   },
+   "images": [
+    "https://cms-media.roblox.com/assets/ced9560d-5aa5-42d3-b5d8-8e70abeac00c.png"
+   ],
+   "source_url": "https://corp.roblox.com/newsroom/2026/09/rdc-2026-the-world-needs-more-play",
+   "api_url": "",
+   "code_url": "",
+   "collections": []
+  },
+  {
+   "id": "meta--spatial-sdk",
+   "creator_ids": [
+    "meta"
+   ],
+   "title": "Meta Spatial SDK",
+   "year": 2024,
+   "date": "2024-09-25",
+   "field": "infra",
+   "sub": "engines",
+   "modalities": [
+    "scene-3d"
+   ],
+   "inputs": [
+    "body",
+    "surroundings",
+    "spec"
+   ],
+   "timing": "real-time",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "authoring",
+    "situational-reach"
+   ],
+   "kind": "platform",
+   "description": "Meta's Kotlin / Android framework for building Horizon OS apps on Quest without a game engine: 2D Android panels, 3D glTF content, mixed-reality scene understanding and passthrough camera access in one entity-component runtime, with a desktop Spatial Editor. It lets mobile developers add mixed-reality features, including AI that reads the passthrough camera feed, to existing apps.",
+   "description_zh": "Meta 推出的 Kotlin / Android 框架，无需游戏引擎即可开发 Quest 上的 Horizon OS 应用：在一个实体组件运行时中整合二维 Android 面板、三维 glTF 内容、混合现实场景理解与透视摄像头访问，并配有桌面端 Spatial Editor。移动开发者可以借此为现有应用加入混合现实功能，包括读取透视摄像头画面的 AI。",
+   "idea_en": "Lowers the cost of a mixed-reality study app to that of an Android app, including access to the headset camera for AI that reads the participant's surroundings.",
+   "idea_zh": "把开发一款混合现实研究应用的成本降到与 Android 应用相当，还能访问头显摄像头，让 AI 读取被试所处的环境。",
+   "method": "Entity-component-system scene graph with a physically based renderer, the Android activity lifecycle, and Horizon OS mixed-reality APIs (scene, anchors, passthrough camera).",
+   "method_zh": "实体组件系统场景图，配合基于物理的渲染器、Android Activity 生命周期以及 Horizon OS 混合现实 API（场景、锚点、透视摄像头）。",
+   "specs": "Kotlin / Android · Quest 3 and 3S · Spatial Editor · announced 2024-09-25",
+   "keywords": [
+    "Horizon OS",
+    "mixed reality",
+    "Android",
+    "passthrough camera"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=6aKbrPp09jo"
+   },
+   "images": [
+    "https://opengraph.githubassets.com/1/meta-quest/Meta-Spatial-SDK-Samples"
+   ],
+   "source_url": "https://github.com/meta-quest/Meta-Spatial-SDK-Samples",
+   "api_url": "",
+   "code_url": "https://github.com/meta-quest/Meta-Spatial-SDK-Samples",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "playcanvas--engine",
+   "creator_ids": [
+    "playcanvas"
+   ],
+   "title": "PlayCanvas Engine",
+   "year": 2014,
+   "field": "infra",
+   "sub": "engines",
+   "modalities": [
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [
+    "spec"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "open-source",
+   "description": "An MIT-licensed web graphics runtime (WebGL, WebGPU, WebXR, glTF) that has become one of the main browser renderers for Gaussian splats; PlayCanvas, owned by Snap, also builds the SuperSplat editor. Engine 2.20 (June 2026) added splat relighting, soft shadows and depth of field, streaming of scenes with billions of splats, and WebXR on WebGPU.",
+   "description_zh": "以 MIT 许可开源的网页图形运行时（WebGL、WebGPU、WebXR、glTF），已成为浏览器中渲染高斯泼溅的主要引擎之一；隶属 Snap 的 PlayCanvas 还开发了 SuperSplat 编辑器。引擎 2.20 版（2026 年 6 月）加入了泼溅重打光、软阴影与景深、数十亿泼溅点场景的流式加载，以及基于 WebGPU 的 WebXR。",
+   "idea_en": "Generated worlds can ship as a link: a participant opens a splat scene in a desktop or headset browser with nothing to install.",
+   "idea_zh": "生成的世界可以以链接形式交付：被试在电脑或头显浏览器中直接打开泼溅场景，无需安装任何东西。",
+   "method": "JavaScript / TypeScript engine with an entity-component system, a GPU splat renderer that sorts and rasterizes Gaussians, and WebXR session support.",
+   "method_zh": "JavaScript / TypeScript 引擎，采用实体组件系统，带有在 GPU 上排序并光栅化高斯的泼溅渲染器，并支持 WebXR 会话。",
+   "specs": "MIT · ~17k GitHub stars (Oct 2026) · v2.20 (2026-06) · billions of splats via streaming (PlayCanvas claim)",
+   "keywords": [
+    "web engine",
+    "Gaussian splatting",
+    "WebXR",
+    "WebGPU"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=gsLkNo-PBF4"
+   },
+   "images": [
+    "https://playcanvas.com/assets/images/og/playcanvas.png"
+   ],
+   "source_url": "https://playcanvas.com",
+   "api_url": "",
+   "code_url": "https://github.com/playcanvas/engine",
+   "collections": [
+    "trend-explicit-3d"
+   ]
+  },
+  {
+   "id": "microsoft--babylonjs",
+   "creator_ids": [
+    "microsoft"
+   ],
+   "title": "Babylon.js",
+   "year": 2013,
+   "field": "infra",
+   "sub": "engines",
+   "modalities": [
+    "scene-3d",
+    "splats"
+   ],
+   "inputs": [
+    "spec"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "authoring",
+    "perceptual-realism"
+   ],
+   "kind": "open-source",
+   "description": "Microsoft's open-source (Apache-2.0) JavaScript rendering and game engine for the web, with WebXR, WebGPU and Gaussian-splat support. Babylon.js 9.0 shipped on 2026-03-26.",
+   "description_zh": "微软以 Apache-2.0 许可开源的网页 JavaScript 渲染与游戏引擎，支持 WebXR、WebGPU 与高斯泼溅。Babylon.js 9.0 于 2026-03-26 发布。",
+   "idea_en": "A second mature open web engine for splat and WebXR delivery, useful when a study needs browser-based 3D without lock-in to one vendor.",
+   "idea_zh": "另一款成熟的开源网页引擎，可交付泼溅与 WebXR 内容；当研究需要在浏览器中呈现三维内容、又不想绑定单一厂商时很有用。",
+   "method": "TypeScript engine with a node-based material editor, physics, WebXR experience helpers and a splat renderer, running on WebGL2 or WebGPU.",
+   "method_zh": "TypeScript 引擎，带节点式材质编辑器、物理、WebXR 体验辅助工具与泼溅渲染器，运行于 WebGL2 或 WebGPU。",
+   "specs": "Apache-2.0 · ~26k GitHub stars (Oct 2026) · v9.0 (2026-03-26)",
+   "keywords": [
+    "web engine",
+    "WebXR",
+    "WebGPU",
+    "Gaussian splatting"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=Th9mD_D5DrQ"
+   },
+   "images": [
+    "https://www.babylonjs.com/assets/videos/newGaussianSplat.jpg"
+   ],
+   "source_url": "https://www.babylonjs.com",
+   "api_url": "https://doc.babylonjs.com",
+   "code_url": "https://github.com/BabylonJS/Babylon.js",
+   "collections": []
+  },
+  {
+   "id": "w3c--webxr-device-api",
+   "creator_ids": [
+    "w3c"
+   ],
+   "title": "WebXR Device API",
+   "year": 2019,
+   "field": "infra",
+   "sub": "engines",
+   "modalities": [
+    "scene-3d",
+    "immersive-video"
+   ],
+   "inputs": [
+    "body",
+    "surroundings",
+    "action"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "situational-reach",
+    "authoring"
+   ],
+   "kind": "platform",
+   "description": "The W3C web standard that lets a page open immersive VR and AR sessions on headsets and phones, with pose tracking, controller and hand input, and AR modules for hit testing, anchors and depth. Chromium browsers (including Meta Quest Browser and Chrome on Android XR) and Safari on visionOS implement it; the core spec is a W3C Candidate Recommendation Draft, latest dated 2026-06-09.",
+   "description_zh": "W3C 的网页标准，让网页可以在头显和手机上开启沉浸式 VR 与 AR 会话，提供位姿追踪、手柄与手势输入，以及用于命中测试、锚点和深度的 AR 模块。Chromium 系浏览器（包括 Meta Quest 浏览器与 Android XR 上的 Chrome）以及 visionOS 上的 Safari 都已实现；核心规范为 W3C 候选推荐草案，最新版本日期为 2026-06-09。",
+   "idea_en": "The lowest-friction delivery path for a generated scene: a URL that opens in a headset, which also makes remote and large-sample XR studies feasible.",
+   "idea_zh": "生成场景门槛最低的交付方式：一个能在头显中打开的网址，这也让远程与大样本 XR 研究变得可行。",
+   "method": "A JavaScript API that supplies per-frame viewer and input poses and an XR-compatible WebGL / WebGPU layer to render into; feature modules add AR capabilities.",
+   "method_zh": "一个 JavaScript API，逐帧提供观察者与输入设备的位姿，以及可供渲染的 XR 兼容 WebGL / WebGPU 图层；功能模块补充 AR 能力。",
+   "specs": "W3C Candidate Recommendation Draft (2026-06-09) · editors from Google and Meta",
+   "keywords": [
+    "WebXR",
+    "web standard",
+    "immersive web"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=C3XDHjam-eI"
+   },
+   "images": [
+    "https://opengraph.githubassets.com/1/immersive-web/webxr"
+   ],
+   "source_url": "https://www.w3.org/TR/webxr/",
+   "api_url": "https://www.w3.org/TR/webxr/",
+   "code_url": "https://github.com/immersive-web/webxr",
+   "collections": []
+  },
+  {
+   "id": "meta--immersive-web-sdk",
+   "creator_ids": [
+    "meta"
+   ],
+   "title": "Immersive Web SDK (IWSDK)",
+   "year": 2025,
+   "field": "infra",
+   "sub": "engines",
+   "modalities": [
+    "scene-3d"
+   ],
+   "inputs": [
+    "spec",
+    "body"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "authoring"
+   ],
+   "kind": "open-source",
+   "description": "Meta's open-source framework for WebXR apps built on Three.js: an entity-component runtime with grab interactions, locomotion, spatial audio, physics, scene understanding and HTML-like spatial UI, plus a Spatial Editor. As of October 2026 its site calls it 'AI-native': coding agents can take screenshots, send controller input and inspect the running XR scene to debug it.",
+   "description_zh": "Meta 基于 Three.js 的开源 WebXR 应用框架：实体组件运行时，内置抓取交互、移动、空间音频、物理、场景理解与类 HTML 语法的空间界面，并配有 Spatial Editor。截至 2026 年 10 月，其官网称之为“AI 原生”：编程智能体可以截图、发送手柄输入、检查正在运行的 XR 场景并调试。",
+   "idea_en": "Agent-operable XR scenes mean an LLM can build and test a study environment end to end, not only write the code for it.",
+   "idea_zh": "XR 场景可由智能体直接操作，意味着大语言模型不仅能为研究环境写代码，还能从头到尾搭建并测试它。",
+   "method": "Three.js renderer under an entity-component architecture, with UIKitML for spatial UI and an agent tool interface for scene inspection and simulated input.",
+   "method_zh": "实体组件架构之下的 Three.js 渲染器，用 UIKitML 编写空间界面，并提供供智能体检查场景、模拟输入的工具接口。",
+   "specs": "v1.0.1 · Three.js-based · Spatial Editor",
+   "keywords": [
+    "WebXR",
+    "Three.js",
+    "agentic development",
+    "spatial UI"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=d1PwLkvgP7A"
+   },
+   "images": [
+    "https://opengraph.githubassets.com/1/facebook/immersive-web-sdk"
+   ],
+   "source_url": "https://iwsdk.dev/",
+   "api_url": "",
+   "code_url": "https://github.com/facebook/immersive-web-sdk",
+   "collections": []
+  },
+  {
+   "id": "khronos-group--gltf-gaussian-splatting",
+   "creator_ids": [
+    "khronos-group"
+   ],
+   "title": "glTF Gaussian Splatting extension (KHR_gaussian_splatting)",
+   "year": 2026,
+   "date": "2026-02-03",
+   "field": "infra",
+   "sub": "engines",
+   "also": [
+    "spatial-4d"
+   ],
+   "modalities": [
+    "splats"
+   ],
+   "inputs": [],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "control",
+    "authoring"
+   ],
+   "kind": "platform",
+   "description": "A Khronos extension that stores 3D Gaussian splats (position, rotation, scale, opacity and spherical-harmonic color) as glTF 2.0 mesh primitives, giving engines and viewers a common baseline format. Khronos released it as a release candidate for industry feedback on 2026-02-03; as of October 2026 the spec is marked complete and ratified, with compression left to future extensions.",
+   "description_zh": "Khronos 的一项扩展，把三维高斯泼溅（位置、旋转、缩放、不透明度与球谐颜色）存为 glTF 2.0 网格图元，为引擎与查看器提供共同的基础格式。Khronos 于 2026-02-03 发布候选版本征求业界意见；截至 2026 年 10 月，规范已标记为完成并获批准，压缩则留给后续扩展。",
+   "idea_en": "A shared file format is what lets a generated world move unchanged from the model that made it to whichever engine runs the study.",
+   "idea_zh": "有了共享的文件格式，生成的世界才能原封不动地从生成它的模型，转到运行研究的任意引擎中。",
+   "method": "Extends glTF mesh primitives with per-point attributes for Gaussian parameters and a defined rendering model, so splat scenes travel with standard glTF tooling.",
+   "method_zh": "在 glTF 网格图元上为高斯参数增加逐点属性，并规定渲染模型，使泼溅场景可以沿用标准 glTF 工具链。",
+   "specs": "release candidate 2026-02-03 · ratified (status as of Oct 2026) · glTF 2.0 · uncompressed baseline",
+   "keywords": [
+    "glTF",
+    "Gaussian splatting",
+    "file format",
+    "standard"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=EEFIxtBRRBo"
+   },
+   "images": [
+    "https://www.khronos.org/assets/uploads/apis/gltf-Square.png"
+   ],
+   "source_url": "https://www.khronos.org/news/press/gltf-gaussian-splatting-press-release",
+   "api_url": "",
+   "code_url": "https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_gaussian_splatting",
+   "collections": [
+    "trend-explicit-3d"
+   ]
+  },
+  {
+   "id": "google--android-xr-sdk",
+   "creator_ids": [
+    "google"
+   ],
+   "title": "Android XR SDK (Jetpack XR)",
+   "year": 2024,
+   "date": "2024-12-12",
+   "field": "infra",
+   "sub": "engines",
+   "modalities": [
+    "scene-3d"
+   ],
+   "inputs": [
+    "body",
+    "surroundings",
+    "speech"
+   ],
+   "timing": "real-time",
+   "access": [
+    "preview"
+   ],
+   "lenses": [
+    "authoring",
+    "situational-reach"
+   ],
+   "kind": "platform",
+   "description": "Google's SDK for Android XR apps on headsets (Galaxy XR), wired XR glasses (XREAL AURA) and AI glasses: Jetpack Compose for XR, SceneCore, ARCore for Jetpack XR (plane and object tracking with semantic labels), and Unity, OpenXR and WebXR paths. As of October 2026 it is at Developer Preview 4.",
+   "description_zh": "Google 面向 Android XR 应用的 SDK，覆盖头显（Galaxy XR）、有线 XR 眼镜（XREAL AURA）与 AI 眼镜：包括 Jetpack Compose for XR、SceneCore、ARCore for Jetpack XR（带语义标签的平面与物体追踪），以及 Unity、OpenXR 与 WebXR 的开发路径。截至 2026 年 10 月，它处于开发者预览第 4 版。",
+   "idea_en": "One Android toolchain spans headsets and glasses, so a study app can follow participants from full immersion to heads-up overlays.",
+   "idea_zh": "同一套 Android 工具链覆盖头显与眼镜，研究应用可以从完全沉浸一路延伸到抬头显示的叠加界面。",
+   "method": "Kotlin Jetpack libraries over an OpenXR-based perception stack, with Gemini APIs available to apps on the device.",
+   "method_zh": "基于 OpenXR 感知栈的 Kotlin Jetpack 库，设备上的应用还可调用 Gemini API。",
+   "specs": "Developer Preview 4 (2026) · targets Galaxy XR, XREAL AURA, AI glasses · Unity / OpenXR / WebXR",
+   "keywords": [
+    "Android XR",
+    "Jetpack XR",
+    "ARCore",
+    "SDK"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=otzSN5pSNZk"
+   },
+   "source_url": "https://developer.android.com/develop/xr",
+   "api_url": "https://developer.android.com/develop/xr/jetpack-xr-sdk",
+   "code_url": "",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "apple--vision-pro-m5",
+   "creator_ids": [
+    "apple"
+   ],
+   "title": "Apple Vision Pro (M5)",
+   "year": 2025,
+   "date": "2025-10-15",
+   "field": "infra",
+   "sub": "devices",
+   "modalities": [
+    "immersive-video",
+    "scene-3d",
+    "avatar"
+   ],
+   "inputs": [
+    "body",
+    "speech",
+    "surroundings"
+   ],
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "situational-reach"
+   ],
+   "kind": "device",
+   "description": "Apple's mixed-reality headset, upgraded on 2025-10-15 with the M5 chip, refresh rates up to 120 Hz and the Dual Knit Band, at $3,499. For generated content it ships visionOS 26 Spatial Scenes (generative depth that makes a 2D photo explorable), Personas for video calls, 180° / 360° and wide-FOV video playback, and Apple Immersive video.",
+   "description_zh": "Apple 的混合现实头显，2025-10-15 升级为 M5 芯片，刷新率最高 120 Hz，配 Dual Knit 头带，售价 3,499 美元。在生成内容方面，它搭载 visionOS 26 的空间场景（用生成式深度让二维照片可被探索）、用于视频通话的 Persona、180° / 360° 与广角视频播放，以及 Apple Immersive 视频。",
+   "idea_en": "The highest-fidelity mainstream display for generated scenes and video, with eye and hand tracking built in, at a price that limits lab fleets.",
+   "idea_zh": "展示生成场景与视频保真度最高的主流设备，内置眼动与手势追踪，但价格限制了实验室的采购数量。",
+   "method": "Dual micro-OLED displays (23 million pixels in total) driven by M5 together with the R1 sensor chip, with eye, hand and room tracking.",
+   "method_zh": "双 micro-OLED 显示屏（共 2,300 万像素），由 M5 与 R1 传感芯片驱动，支持眼动、手势与空间追踪。",
+   "specs": "M5 + R1 · micro-OLED, 23M pixels total · up to 120 Hz · $3,499 · on sale 2025-10-22",
+   "keywords": [
+    "headset",
+    "visionOS 26",
+    "Spatial Scenes",
+    "Personas"
+   ],
+   "video": {
+    "url": "https://www.apple.com/newsroom/videos/2025/autoplay/10/apple-vision-pro-immersive-experience/large_2x.mp4"
+   },
+   "images": [
+    "https://www.apple.com/newsroom/images/2025/10/apple-vision-pro-upgraded-with-the-m5-chip-and-dual-knit-band/tile/Apple-Vision-Pro-hero-251015-lp.jpg.og.jpg?202608191813"
+   ],
+   "source_url": "https://www.apple.com/newsroom/2025/10/apple-vision-pro-upgraded-with-the-m5-chip-and-dual-knit-band/",
+   "api_url": "https://developer.apple.com/visionos/",
+   "code_url": "",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "meta--quest-3",
+   "creator_ids": [
+    "meta"
+   ],
+   "title": "Meta Quest 3 / Quest 3S",
+   "year": 2023,
+   "date": "2023-06-01",
+   "field": "infra",
+   "sub": "devices",
+   "modalities": [
+    "scene-3d",
+    "vr-scenario"
+   ],
+   "inputs": [
+    "body",
+    "surroundings",
+    "action"
+   ],
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "situational-reach"
+   ],
+   "kind": "device",
+   "description": "Meta's standalone mixed-reality headsets: Quest 3 (announced 2023-06-01, launched 2023-10-10 at $499) and the cheaper Quest 3S (2024-09-25, from $299.99), both on Snapdragon XR2 Gen 2 with color passthrough. They are widely used in VR research labs, and Horizon OS gives apps passthrough-camera access for AI and runs Meta's Hyperscape photoreal captures.",
+   "description_zh": "Meta 的一体式混合现实头显：Quest 3（2023-06-01 发布，2023-10-10 上市，售价 499 美元）与更便宜的 Quest 3S（2024-09-25，起价 299.99 美元），均采用骁龙 XR2 Gen 2 与彩色透视。它们在 VR 研究实验室中使用广泛；Horizon OS 允许应用访问透视摄像头以运行 AI，并支持 Meta 的 Hyperscape 照片级场景采集。",
+   "idea_en": "The default delivery device for VR studies: cheap enough to deploy in numbers, with camera access that lets generated content respond to the participant's real room.",
+   "idea_zh": "VR 研究默认的交付设备：价格低到可以批量部署，摄像头访问又能让生成内容回应被试所在的真实房间。",
+   "method": "Snapdragon XR2 Gen 2 with inside-out tracking, hand tracking and color passthrough; pancake lenses and a depth sensor on Quest 3, Fresnel lenses on Quest 3S.",
+   "method_zh": "骁龙 XR2 Gen 2，具备由内向外追踪、手势追踪与彩色透视；Quest 3 采用 pancake 透镜并配有深度传感器，Quest 3S 采用菲涅耳透镜。",
+   "specs": "Quest 3: 2064×2208 per eye, $499 at launch · Quest 3S: 1832×1920 per eye, from $299.99",
+   "keywords": [
+    "headset",
+    "mixed reality",
+    "Horizon OS",
+    "passthrough"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=Exu7r2vZpcw"
+   },
+   "source_url": "https://about.fb.com/news/2023/09/meet-meta-quest-3-mixed-reality-headset/",
+   "api_url": "",
+   "code_url": "",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "samsung--galaxy-xr",
+   "creator_ids": [
+    "samsung",
+    "google"
+   ],
+   "title": "Samsung Galaxy XR",
+   "year": 2025,
+   "date": "2025-10-21",
+   "field": "infra",
+   "sub": "devices",
+   "modalities": [
+    "scene-3d",
+    "immersive-video"
+   ],
+   "inputs": [
+    "speech",
+    "body",
+    "surroundings"
+   ],
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "situational-reach"
+   ],
+   "kind": "device",
+   "description": "The first Android XR headset, made by Samsung with Google and Qualcomm and launched on 2025-10-21 at $1,799.99. It ships Gemini as a multimodal assistant that sees what the wearer sees, Media Auto-Spatialization that turns 2D photos and videos into 3D, and immersive Google Maps.",
+   "description_zh": "首款 Android XR 头显，由三星与 Google、高通合作打造，2025-10-21 上市，售价 1,799.99 美元。它内置能看到佩戴者所见画面的多模态助手 Gemini、把二维照片和视频转成三维的媒体自动空间化功能，以及沉浸式 Google 地图。",
+   "idea_en": "The first mass-market headset whose operating system generates spatial content from flat media by default.",
+   "idea_zh": "首款由操作系统默认把平面媒体生成为空间内容的大众市场头显。",
+   "method": "Snapdragon XR2+ Gen 2 with micro-OLED displays, eye and hand tracking, and an external battery pack.",
+   "method_zh": "骁龙 XR2+ Gen 2，配 micro-OLED 显示屏、眼动与手势追踪，以及外置电池。",
+   "specs": "Snapdragon XR2+ Gen 2 · micro-OLED, 3,552×3,840 per eye · $1,799.99 · launched 2025-10-21 (US, Korea)",
+   "keywords": [
+    "headset",
+    "Android XR",
+    "Gemini",
+    "auto-spatialization"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=MPwZscUoly4"
+   },
+   "source_url": "https://www.samsung.com/us/xr/galaxy-xr/galaxy-xr/",
+   "api_url": "https://developer.android.com/develop/xr",
+   "code_url": "",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "snap--specs",
+   "creator_ids": [
+    "snap"
+   ],
+   "title": "SPECS (Snap consumer AR glasses)",
+   "year": 2025,
+   "date": "2025-06-10",
+   "field": "infra",
+   "sub": "devices",
+   "modalities": [
+    "scene-3d",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "body",
+    "surroundings"
+   ],
+   "access": [
+    "preview"
+   ],
+   "lenses": [
+    "situational-reach",
+    "reactivity"
+   ],
+   "kind": "device",
+   "description": "Snap's standalone see-through AR glasses for consumers, announced on 2025-06-10 for 2026 and launched at the SPECS event on 2026-09-16: pre-orders at $2,195 ($2,395 with a cellular case), shipping later in fall 2026 in the US, UK and France. They run SPECS OS with Lens Studio apps, including generative AI Lenses, and SPECS Intelligence, an anticipatory AI service across iPhone, Mac and the glasses.",
+   "description_zh": "Snap 面向消费者的一体式光学透视 AR 眼镜，2025-06-10 宣布将于 2026 年推出，并在 2026-09-16 的 SPECS 发布会上正式亮相：预订价 2,195 美元（带蜂窝网络充电盒套装 2,395 美元），2026 年秋季晚些时候在美国、英国和法国发货。它运行 SPECS OS 与 Lens Studio 开发的应用（包括生成式 AI 滤镜），并搭载横跨 iPhone、Mac 与眼镜的预判式 AI 服务 SPECS Intelligence。",
+   "idea_en": "Untethered AR glasses that place generated content in the wearer's real surroundings, from a company that already runs generative Lenses at phone scale.",
+   "idea_zh": "无需连线的 AR 眼镜，把生成内容放进佩戴者的真实环境；出品方已经在手机端大规模运行生成式滤镜。",
+   "method": "On-glasses compute with no puck, see-through waveguide displays, hand and voice input, with Lens Studio as the authoring tool and cloud AI services.",
+   "method_zh": "计算单元集成在眼镜上，无需外接计算盒，采用光学透视波导显示，支持手势与语音输入；以 Lens Studio 为创作工具，并调用云端 AI 服务。",
+   "specs": "pre-order $2,195 (from 2026-09-16) · ships fall 2026 (US, UK, France) · standalone, no puck",
+   "keywords": [
+    "AR glasses",
+    "Lens Studio",
+    "SPECS OS",
+    "generative Lenses"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=_RHEDU7neds"
+   },
+   "source_url": "https://investor.snap.com/news/news-details/2026/SPECS-Make-Computing-More-Human-with-New-Experiences-Partnerships-and-SPECS-Intelligence/default.aspx",
+   "api_url": "https://developers.snap.com/spectacles/home",
+   "code_url": "",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "meta--ray-ban-display",
+   "creator_ids": [
+    "meta"
+   ],
+   "title": "Meta Ray-Ban Display",
+   "year": 2025,
+   "date": "2025-09-17",
+   "field": "infra",
+   "sub": "devices",
+   "modalities": [
+    "dialogue",
+    "image"
+   ],
+   "inputs": [
+    "speech",
+    "body",
+    "surroundings"
+   ],
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "situational-reach",
+    "responsiveness"
+   ],
+   "kind": "device",
+   "description": "Meta's first consumer glasses with a built-in display: a monocular full-color in-lens display in Ray-Ban frames, controlled by the Meta Neural Band EMG wristband, for $799. For generated content it shows Meta AI answers with visuals, live captions and translation, and navigation in the wearer's view.",
+   "description_zh": "Meta 首款内置显示屏的消费级眼镜：Ray-Ban 镜框中带一块单眼全彩镜片内显示，由 Meta Neural Band 肌电腕带操控，售价 799 美元。在生成内容方面，它可以在佩戴者视野中显示带图像的 Meta AI 回答、实时字幕与翻译，以及导航。",
+   "idea_en": "A heads-up channel for generated text and images during everyday activity; not an immersive display, but an always-available one.",
+   "idea_zh": "在日常活动中显示生成文字与图像的抬头通道：它不是沉浸式显示，却随时可用。",
+   "method": "A projector and waveguide in the right lens, camera and microphones on the frame, and surface-EMG decoding of finger gestures at the wrist.",
+   "method_zh": "右侧镜片内置投影与波导，镜框上有摄像头与麦克风，腕带通过表面肌电解码手指手势。",
+   "specs": "monocular in-lens display, 600×600 px · $799 incl. Neural Band · US launch 2025-09-30",
+   "keywords": [
+    "AI glasses",
+    "EMG",
+    "heads-up display"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=hrj4NQuE93M"
+   },
+   "images": [
+    "https://about.fb.com/wp-content/uploads/2025/09/Meta-Ray-Ban-Display_Social-Share.jpg?w=1200"
+   ],
+   "source_url": "https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/",
+   "api_url": "",
+   "code_url": "",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "xreal--aura",
+   "creator_ids": [
+    "xreal",
+    "google"
+   ],
+   "title": "XREAL AURA",
+   "year": 2025,
+   "date": "2025-05-20",
+   "field": "infra",
+   "sub": "devices",
+   "modalities": [
+    "scene-3d",
+    "immersive-video"
+   ],
+   "inputs": [
+    "body",
+    "surroundings",
+    "speech"
+   ],
+   "access": [
+    "preview"
+   ],
+   "lenses": [
+    "situational-reach"
+   ],
+   "kind": "device",
+   "description": "Optical see-through Android XR glasses (formerly Project Aura) co-developed with Google, with a compute puck on Snapdragon and Gemini assistance. As of October 2026 they are in reservation, with launch expected in fall 2026 in the US, Canada, Japan and South Korea, listed at $1,279 (12 GB / 256 GB) or $1,499 (16 GB / 512 GB).",
+   "description_zh": "与 Google 合作开发的光学透视 Android XR 眼镜（原名 Project Aura），配骁龙计算盒，并由 Gemini 提供辅助。截至 2026 年 10 月处于预约阶段，预计 2026 年秋季在美国、加拿大、日本和韩国上市，标价 1,279 美元（12 GB / 256 GB）或 1,499 美元（16 GB / 512 GB）。",
+   "idea_en": "Brings full Android XR apps to glasses-weight hardware, so mixed-reality stimuli can leave the lab in a form people will wear in public.",
+   "idea_zh": "把完整的 Android XR 应用带到眼镜级重量的硬件上，让混合现实刺激能以人们愿意在公共场合佩戴的形态走出实验室。",
+   "method": "A Snapdragon (Reality Elite) compute puck plus an X1S spatial coprocessor in the glasses, driving 70° optical see-through displays.",
+   "method_zh": "骁龙（Reality Elite）计算盒加上眼镜内的 X1S 空间协处理器，驱动 70° 光学透视显示。",
+   "specs": "70° FOV · Sony micro-OLED 1920×1200 per eye · 95 g · 3 ms motion-to-photon · listed $1,279 / $1,499",
+   "keywords": [
+    "XR glasses",
+    "Android XR",
+    "optical see-through"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=qIQ7Qga61QI"
+   },
+   "images": [
+    "https://resource.xreal.com/www-xreal-com/images/aura/AuraPic_Mobile.webp"
+   ],
+   "source_url": "https://www.xreal.com/aura",
+   "api_url": "https://developer.android.com/develop/xr",
+   "code_url": "",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "valve--steam-frame",
+   "creator_ids": [
+    "valve"
+   ],
+   "title": "Steam Frame",
+   "year": 2025,
+   "date": "2025-11-12",
+   "field": "infra",
+   "sub": "devices",
+   "modalities": [
+    "scene-3d",
+    "vr-scenario"
+   ],
+   "inputs": [
+    "body",
+    "action"
+   ],
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism"
+   ],
+   "kind": "device",
+   "description": "Valve's standalone, streaming-first VR headset, announced on 2025-11-12 and sold from September 2026 ($1,059 for 256 GB, $1,299 for 1 TB). It runs SteamOS on a Snapdragon 8 Gen 3 and streams PC VR wirelessly with eye-tracked foveated streaming; it ships no generative features of its own but brings PC-rendered worlds to a wireless headset.",
+   "description_zh": "Valve 的一体式、以串流为主的 VR 头显，2025-11-12 发布，2026 年 9 月开售（256 GB 版 1,059 美元，1 TB 版 1,299 美元）。它在骁龙 8 Gen 3 上运行 SteamOS，并通过眼动追踪注视点串流无线传输 PC VR 画面；它本身不带生成式功能，但能把 PC 渲染的世界送到无线头显上。",
+   "idea_en": "Wireless PC streaming lets a headset show worlds generated on a desktop GPU, which matters while real-time world models still need workstation or datacenter hardware.",
+   "idea_zh": "无线 PC 串流让头显可以显示由台式机 GPU 生成的世界；在实时世界模型仍需工作站或数据中心硬件的阶段，这一点很重要。",
+   "method": "Snapdragon 8 Gen 3 with 16 GB LPDDR5X, 2160×2160 LCD per eye, inside-out tracking, eye tracking, and a dedicated wireless adapter for PC streaming.",
+   "method_zh": "骁龙 8 Gen 3 与 16 GB LPDDR5X 内存，单眼 2160×2160 LCD，由内向外追踪与眼动追踪，并配有专用无线适配器用于 PC 串流。",
+   "specs": "2160×2160 LCD per eye · 72–144 Hz · Snapdragon 8 Gen 3 · 16 GB · $1,059 / $1,299",
+   "keywords": [
+    "headset",
+    "SteamOS",
+    "foveated streaming",
+    "PC VR"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=OmKrKTwtukE"
+   },
+   "images": [
+    "https://clan.fastly.steamstatic.com/images/45479024/41ac1feaa13a1396844a31be91beb068eb2e509f.jpg"
+   ],
+   "source_url": "https://store.steampowered.com/sale/steamframe",
+   "api_url": "",
+   "code_url": "",
+   "collections": []
+  },
+  {
+   "id": "ziqi-huang--vbench",
+   "creator_ids": [
+    "ziqi-huang"
+   ],
+   "title": "VBench",
+   "year": 2023,
+   "date": "2023-11-29",
+   "field": "infra",
+   "sub": "benchmarks",
+   "modalities": [
+    "flat-video"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "control",
+    "perceptual-realism"
+   ],
+   "kind": "dataset",
+   "description": "A benchmark suite that scores text-to-video models on 16 dimensions such as subject consistency, motion smoothness, temporal flickering, dynamic degree and spatial relationship, each with its own prompt set and automatic evaluator checked against human preference. Its public leaderboard is cited by many video-model releases, and VBench++ (2024) adds image-to-video and trustworthiness tests.",
+   "description_zh": "一套视频生成评测基准，从主体一致性、运动平滑度、时间闪烁、动态程度、空间关系等 16 个维度为文生视频模型打分，每个维度都有专门的提示集与自动评估器，并以人类偏好标注加以校验。许多视频模型发布时都会引用它的公开排行榜；VBench++（2024）又加入了图生视频与可信度测试。",
+   "idea_en": "Breaks 'video quality' into separately measurable dimensions, though high temporal-smoothness scores can reward videos that barely move.",
+   "idea_zh": "把“视频质量”拆成可以分别测量的维度；不过时间平滑度得分高，也可能是在奖励几乎不动的视频。",
+   "method": "Per-dimension prompt suites scored by automatic metrics built on pretrained vision models (feature similarity, optical flow, detectors, aesthetic predictors), validated with human preference annotations per dimension.",
+   "method_zh": "按维度设计的提示集，由基于预训练视觉模型的自动指标打分（特征相似度、光流、检测器、美学预测器），并用逐维度的人类偏好标注加以验证。",
+   "specs": "16 dimensions · CVPR 2024 Highlight · VBench++ arXiv 2411.13503",
+   "keywords": [
+    "benchmark",
+    "video generation",
+    "evaluation",
+    "leaderboard"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=7IhCC8Qqn8Y"
+   },
+   "images": [
+    "https://vchitect.github.io/VBench-project/assets/vbench/images/dim_results/fig_teaser_new.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2311.17982",
+    "doi": "",
+    "arxiv": "2311.17982",
+    "venue": "CVPR 2024",
+    "title": "VBench: Comprehensive Benchmark Suite for Video Generative Models"
+   },
+   "source_url": "https://vchitect.github.io/VBench-project/",
+   "api_url": "",
+   "code_url": "https://github.com/Vchitect/VBench",
+   "collections": [
+    "cvpr"
+   ]
+  },
+  {
+   "id": "dian-zheng--vbench-2",
+   "creator_ids": [
+    "dian-zheng",
+    "ziqi-huang"
+   ],
+   "title": "VBench-2.0",
+   "year": 2025,
+   "date": "2025-03-27",
+   "field": "infra",
+   "sub": "benchmarks",
+   "modalities": [
+    "flat-video"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "control"
+   ],
+   "kind": "dataset",
+   "description": "A follow-up benchmark that tests 'intrinsic faithfulness' rather than surface quality: 18 dimensions grouped into human fidelity, controllability, creativity, physics and commonsense, scored with vision-language models, LLMs and anomaly detectors.",
+   "description_zh": "VBench 的后续基准，检验的是“内在可信度”而非表面画质：18 个维度分为人物保真、可控性、创造力、物理与常识五类，由视觉语言模型、大语言模型与异常检测器打分。",
+   "idea_en": "Asks whether generated events obey physics and common sense, the properties that decide whether a generated situation is behaviorally plausible.",
+   "idea_zh": "它追问生成的事件是否符合物理与常识，而这正决定了一个生成情境在行为上是否可信。",
+   "method": "Dimension-specific prompt sets evaluated by VLM / LLM judges and specialist detectors, with agreement checked against human annotations.",
+   "method_zh": "按维度设计的提示集，由视觉语言模型 / 大语言模型评审与专用检测器评估，并与人类标注对照检验一致性。",
+   "specs": "18 dimensions in 5 categories · arXiv 2025-03",
+   "keywords": [
+    "benchmark",
+    "video generation",
+    "physics",
+    "commonsense"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=kJrzKy9tgAc"
+   },
+   "images": [
+    "https://vchitect.github.io/VBench-2.0-project/assets/vbench/images/figures/fig_paper_teaser.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2503.21755",
+    "doi": "",
+    "arxiv": "2503.21755",
+    "venue": "arXiv 2025",
+    "title": "VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness"
+   },
+   "source_url": "https://vchitect.github.io/VBench-2.0-project/",
+   "api_url": "",
+   "code_url": "https://github.com/Vchitect/VBench",
+   "collections": []
+  },
+  {
+   "id": "haoyi-duan--worldscore",
+   "creator_ids": [
+    "haoyi-duan"
+   ],
+   "title": "WorldScore",
+   "year": 2025,
+   "date": "2025-04-01",
+   "field": "infra",
+   "sub": "benchmarks",
+   "modalities": [
+    "scene-3d",
+    "flat-video",
+    "dynamic-4d"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "camera"
+   ],
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "control"
+   ],
+   "kind": "dataset",
+   "description": "A unified benchmark for world generation from Stanford that evaluates 3D scene generators, 4D generators and video models on the same task: generate a sequence of scenes that follows layout and camera-trajectory instructions. It scores controllability, quality and dynamics on 3,000 test examples and keeps a public leaderboard; the paper evaluates 19 models.",
+   "description_zh": "斯坦福提出的世界生成统一基准，让三维场景生成器、4D 生成器与视频模型在同一任务上接受评测：按布局与镜头轨迹指令生成一连串场景。它在 3,000 个测试样例上从可控性、质量与动态三方面打分，并维护公开排行榜；论文评测了 19 个模型。",
+   "idea_en": "Puts video models and explicit 3D generators on one scale for camera control and consistency, the comparison that matters when choosing a route to an explorable world.",
+   "idea_zh": "把视频模型与显式三维生成器放在同一把尺子上比较镜头控制与一致性；在选择通往可探索世界的技术路线时，正需要这种比较。",
+   "method": "World generation decomposed into next-scene tasks with explicit camera-trajectory layouts, scored by automatic metrics for camera and object control, content alignment, 3D and photometric consistency, style, subjective quality and motion.",
+   "method_zh": "把世界生成拆解为带显式镜头轨迹布局的“下一个场景”任务，由自动指标评估镜头与物体控制、内容对齐、三维与光度一致性、风格、主观质量与运动。",
+   "specs": "3,000 test examples · 19 models evaluated · ICCV 2025",
+   "keywords": [
+    "benchmark",
+    "world generation",
+    "3D consistency",
+    "camera control"
+   ],
+   "video": {
+    "url": "https://haoyi-duan.github.io/WorldScore/assets/videos/overview.mp4"
+   },
+   "images": [
+    "https://haoyi-duan.github.io/WorldScore/assets/images/overview/dataset_overview.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2504.00983",
+    "doi": "",
+    "arxiv": "2504.00983",
+    "venue": "ICCV 2025",
+    "title": "WorldScore: A Unified Evaluation Benchmark for World Generation"
+   },
+   "source_url": "https://haoyi-duan.github.io/WorldScore/",
+   "api_url": "",
+   "code_url": "https://github.com/haoyi-duan/WorldScore",
+   "collections": [
+    "iccv-eccv",
+    "trend-world-simulators"
+   ]
+  },
+  {
+   "id": "lmarena--video-arena",
+   "creator_ids": [
+    "lmarena"
+   ],
+   "title": "Arena Video Arena (LMArena)",
+   "year": 2026,
+   "date": "2026-01-21",
+   "field": "infra",
+   "sub": "benchmarks",
+   "modalities": [
+    "flat-video"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "control"
+   ],
+   "kind": "dataset",
+   "description": "Arena's crowdsourced leaderboard for video generation: visitors enter a prompt, watch clips from two anonymous models side by side and vote, and the votes become ratings for text-to-video and image-to-video. It was introduced on lmarena.ai in January 2026; the company has since rebranded from LMArena to Arena (arena.ai).",
+   "description_zh": "Arena 的众包视频生成排行榜：访客输入提示词，并排观看两个匿名模型生成的片段并投票，票数汇总为文生视频与图生视频的评分。它于 2026 年 1 月在 lmarena.ai 上线；此后公司已由 LMArena 更名为 Arena（arena.ai）。",
+   "idea_en": "Human pairwise preference is the closest public proxy for perceived realism, but it rewards impressive short clips, not consistency over a long interactive session.",
+   "idea_zh": "人类两两偏好是衡量感知真实感最接近的公开指标，但它奖励的是惊艳的短片，而不是长时间交互中的一致性。",
+   "method": "Blind pairwise comparisons from public users, aggregated with a Bradley-Terry model into ratings with confidence intervals.",
+   "method_zh": "公众用户的盲测两两比较，用 Bradley-Terry 模型汇总为带置信区间的评分。",
+   "specs": "text-to-video and image-to-video leaderboards · blind pairwise votes",
+   "keywords": [
+    "leaderboard",
+    "human preference",
+    "video generation",
+    "arena"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=6Z1z6ztfx60"
+   },
+   "source_url": "https://arena.ai",
+   "api_url": "",
+   "code_url": "",
+   "collections": []
+  },
+  {
+   "id": "artificial-analysis--video-arena",
+   "creator_ids": [
+    "artificial-analysis"
+   ],
+   "title": "Artificial Analysis Video Arena",
+   "year": 2024,
+   "field": "infra",
+   "sub": "benchmarks",
+   "modalities": [
+    "flat-video"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "video"
+   ],
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "control"
+   ],
+   "kind": "dataset",
+   "description": "Independent benchmarking firm Artificial Analysis runs a blind-vote arena for video models with separate text-to-video, image-to-video and video-editing leaderboards, next to price and speed comparisons across API providers. Video labs routinely cite its rankings in launch posts.",
+   "description_zh": "独立评测公司 Artificial Analysis 运营的视频模型盲投竞技场，分设文生视频、图生视频与视频编辑排行榜，并附有各 API 服务商的价格与速度对比。视频模型厂商发布新模型时常引用它的排名。",
+   "idea_en": "Puts quality ratings next to price and latency per provider, the three numbers a lab weighs when it chooses a hosted generator.",
+   "idea_zh": "把质量评分与各服务商的价格和延迟放在一起，这正是实验室选择托管生成器时要权衡的三个数字。",
+   "method": "Pairwise human preference votes on clips from shared prompts, aggregated into Elo-style ratings, alongside measured generation time and listed price per provider.",
+   "method_zh": "对同一提示生成的片段进行人类两两偏好投票，汇总为 Elo 式评分，并给出各服务商实测的生成时间与标价。",
+   "specs": "text-to-video · image-to-video · video editing · online since at least 2024-10",
+   "keywords": [
+    "leaderboard",
+    "human preference",
+    "price",
+    "latency"
+   ],
+   "images": [
+    "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573"
+   ],
+   "source_url": "https://artificialanalysis.ai/text-to-video/arena",
+   "api_url": "",
+   "code_url": "",
+   "collections": []
+  },
+  {
+   "id": "dylan-ebert--3d-arena",
+   "creator_ids": [
+    "dylan-ebert"
+   ],
+   "title": "3D Arena",
+   "year": 2024,
+   "date": "2024-06",
+   "field": "infra",
+   "sub": "benchmarks",
+   "modalities": [
+    "mesh",
+    "splats"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "control"
+   ],
+   "kind": "dataset",
+   "description": "An open Hugging Face Space where people compare two anonymous image-to-3D results (meshes or Gaussian splats) generated from the same input image and vote. The 2025 paper reports 123,243 votes from 8,096 users across 19 models since its June 2024 launch, and finds preferences for Gaussian-splat and textured outputs.",
+   "description_zh": "Hugging Face 上的一个开放 Space：人们对比同一张输入图片生成的两个匿名图生三维结果（网格或高斯泼溅）并投票。2025 年的论文报告，自 2024 年 6 月上线以来，共有 8,096 名用户为 19 个模型投出 123,243 票，结果显示人们更偏好高斯泼溅与带纹理的输出。",
+   "idea_en": "The largest public human judgement of generated 3D assets, useful for choosing which generator to trust for scene props.",
+   "idea_zh": "规模最大的生成三维资产公开人类评判，可用来决定场景道具该信任哪个生成器。",
+   "method": "Pairwise preference voting in a web 3D viewer on the 100-prompt iso3d set, with statistical fraud detection, aggregated into Elo ratings.",
+   "method_zh": "在网页三维查看器中，以 100 个提示的 iso3d 数据集进行两两偏好投票，配合统计学作弊检测，汇总为 Elo 评分。",
+   "specs": "123,243 votes · 8,096 users · 19 models · iso3d: 100 prompts",
+   "keywords": [
+    "leaderboard",
+    "image-to-3D",
+    "human preference",
+    "Hugging Face"
+   ],
+   "images": [
+    "https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/3d-arena/3d-arena.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2506.18787",
+    "doi": "",
+    "arxiv": "2506.18787",
+    "venue": "arXiv 2025",
+    "title": "3D Arena: An Open Platform for Generative 3D Evaluation"
+   },
+   "source_url": "https://huggingface.co/spaces/dylanebert/3d-arena",
+   "api_url": "",
+   "code_url": "",
+   "collections": [
+    "trend-explicit-3d"
+   ]
+  },
+  {
+   "id": "lu-ling--dl3dv-10k",
+   "creator_ids": [
+    "lu-ling"
+   ],
+   "title": "DL3DV-10K",
+   "year": 2023,
+   "date": "2023-12-26",
+   "field": "infra",
+   "sub": "benchmarks",
+   "modalities": [
+    "scene-3d"
+   ],
+   "inputs": [
+    "multi-view",
+    "video"
+   ],
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "diversity",
+    "perceptual-realism"
+   ],
+   "kind": "dataset",
+   "description": "A dataset of 10,510 videos (51.2 million frames) of real indoor and outdoor scenes from 65 types of locations, with varied reflection, transparency and lighting, built to train and benchmark novel-view synthesis and 3D reconstruction. It has become a standard training source for feed-forward reconstruction and camera-controlled video models.",
+   "description_zh": "包含 10,510 段视频（5,120 万帧）的数据集，覆盖 65 类地点的真实室内外场景，反射、透明与光照条件各异，用于训练和评测新视角合成与三维重建。它已成为前馈式重建与镜头可控视频模型的标准训练数据之一。",
+   "idea_en": "Real-world scene diversity at this scale is what lets reconstruction and world models generalize beyond a handful of benchmark rooms.",
+   "idea_zh": "这种规模的真实场景多样性，才让重建模型与世界模型能泛化到少数基准房间之外。",
+   "method": "Phone and drone video captures with camera poses estimated by structure-from-motion, labeled by scene complexity, plus a benchmark split for novel-view synthesis.",
+   "method_zh": "用手机与无人机拍摄视频，以运动恢复结构估计相机位姿，按场景复杂度标注，并划出新视角合成的评测子集。",
+   "specs": "10,510 videos · 51.2M frames · 65 location types · CVPR 2024",
+   "keywords": [
+    "dataset",
+    "novel view synthesis",
+    "3D reconstruction",
+    "real scenes"
+   ],
+   "video": {
+    "url": "https://dl3dv-10k.github.io/DL3DV-10K/assets/img/teaser1080-2x.mp4"
+   },
+   "images": [
+    "https://dl3dv-10k.github.io/DL3DV-10K/assets/img/Scene_Category_by_secondary_POI.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2312.16256",
+    "doi": "",
+    "arxiv": "2312.16256",
+    "venue": "CVPR 2024",
+    "title": "DL3DV-10K: A Large-Scale Scene Dataset for Deep Learning-based 3D Vision"
+   },
+   "source_url": "https://dl3dv-10k.github.io/DL3DV-10K/",
+   "api_url": "",
+   "code_url": "https://github.com/DL3DV-10K/Dataset",
+   "collections": [
+    "cvpr",
+    "trend-feed-forward"
+   ]
+  },
+  {
+   "id": "matt-deitke--objaverse-xl",
+   "creator_ids": [
+    "matt-deitke"
+   ],
+   "title": "Objaverse-XL",
+   "year": 2023,
+   "date": "2023-07-11",
+   "field": "infra",
+   "sub": "benchmarks",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [],
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "diversity"
+   ],
+   "kind": "dataset",
+   "description": "An open dataset of more than 10 million deduplicated 3D objects (hand-modeled objects, photogrammetry scans and professional scans of historic artifacts) gathered from public sources by the Allen Institute for AI. It is a main pretraining corpus for image-to-3D and multi-view diffusion models; the paper trains Zero123-XL on more than 100 million renders from it.",
+   "description_zh": "艾伦人工智能研究所从公开来源收集的开放数据集，包含 1,000 多万个去重的三维物体（手工建模物体、摄影测量扫描以及历史文物的专业扫描）。它是图生三维与多视角扩散模型的主要预训练语料之一；论文用其中超过 1 亿张渲染图训练了 Zero123-XL。",
+   "idea_en": "The asset generators that furnish generated worlds learned their sense of objects largely from this corpus, including its biases and uneven licenses.",
+   "idea_zh": "为生成世界提供道具的资产生成器，对物体的理解很大程度上来自这一语料，也继承了它的偏差与参差不齐的授权。",
+   "method": "Crawling and deduplicating public 3D repositories, with metadata and rendering scripts; licenses vary per object.",
+   "method_zh": "爬取并去重公开三维资源库，附带元数据与渲染脚本；每个物体的授权各不相同。",
+   "specs": "10M+ objects · NeurIPS 2023 Datasets and Benchmarks",
+   "keywords": [
+    "dataset",
+    "3D objects",
+    "pretraining",
+    "dataset demo: Zero123-XL"
+   ],
+   "video": {
+    "url": "https://objaverse.allenai.org/objaverse-xl/image-to-3d.mp4"
+   },
+   "images": [
+    "https://objaverse.allenai.org/objaverse-xl/objaverse-xl.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2307.05663",
+    "doi": "",
+    "arxiv": "2307.05663",
+    "venue": "NeurIPS 2023 Datasets and Benchmarks",
+    "title": "Objaverse-XL: A Universe of 10M+ 3D Objects"
+   },
+   "source_url": "https://objaverse.allenai.org/",
+   "api_url": "",
+   "code_url": "https://github.com/allenai/objaverse-xl",
+   "collections": [
+    "ml-conf"
+   ]
+  },
+  {
+   "id": "tinghui-zhou--realestate10k",
+   "creator_ids": [
+    "tinghui-zhou"
+   ],
+   "title": "RealEstate10K",
+   "year": 2018,
+   "field": "infra",
+   "sub": "benchmarks",
+   "modalities": [
+    "scene-3d",
+    "flat-video"
+   ],
+   "inputs": [
+    "camera",
+    "video"
+   ],
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "diversity",
+    "control"
+   ],
+   "kind": "dataset",
+   "description": "A dataset of camera trajectories for about 10 million frames from some 80,000 clips of YouTube real-estate walkthrough videos, released by Google with the Stereo Magnification paper. It became the standard testbed for novel-view synthesis and, later, camera-controlled video generation.",
+   "description_zh": "约 8 万段 YouTube 房产看房视频片段、约 1,000 万帧的相机轨迹数据集，由 Google 随 Stereo Magnification 论文发布。它成为新视角合成、以及后来镜头可控视频生成的标准测试集。",
+   "idea_en": "Ordinary walkthrough footage with recovered camera paths is what taught view-synthesis and camera-controlled video models how indoor space unfolds as you move.",
+   "idea_zh": "普通的看房视频加上恢复出的镜头路径，让新视角合成与镜头可控视频模型学会了人在室内移动时空间如何展开。",
+   "method": "SLAM and bundle adjustment on walkthrough footage recover per-frame camera intrinsics and poses; the dataset ships poses and video ids, not the videos.",
+   "method_zh": "对看房视频进行 SLAM 与光束法平差，恢复逐帧相机内参与位姿；数据集提供位姿与视频 ID，不包含视频本身。",
+   "specs": "~10M frames · ~80K clips · SIGGRAPH 2018",
+   "keywords": [
+    "dataset",
+    "camera trajectories",
+    "novel view synthesis"
+   ],
+   "images": [
+    "https://tinghuiz.github.io/projects/mpi/images/teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/1805.09817",
+    "doi": "10.1145/3197517.3201323",
+    "arxiv": "1805.09817",
+    "venue": "SIGGRAPH 2018 (ACM TOG)",
+    "title": "Stereo Magnification: Learning View Synthesis using Multiplane Images"
+   },
+   "source_url": "https://google.github.io/realestate10k/",
+   "api_url": "",
+   "code_url": "",
+   "collections": [
+    "siggraph"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "Tavus CVI API (Conversational Video Interface)",
+   "why": "Covered by the avatars batch as tavus--cvi; infra details (PAL config, LiveKit / Pipecat / Agora modes, docs) sent to avatars.",
+   "link": "https://docs.tavus.io",
+   "found_via": "tavus",
+   "status": "duplicate"
+  },
+  {
+   "name": "Decart Oasis 3 Preview (real-time action-to-frames world model)",
+   "why": "Promptable world model served over gRPC at $0.02/s; belongs to world-models.",
+   "link": "https://docs.platform.decart.ai/models/realtime/oasis-3",
+   "found_via": "decart",
+   "status": "open"
+  },
+  {
+   "name": "Gemini Omni Flash (conversational video generation and editing)",
+   "why": "New Google video model, preview 2026-06-30, GA 2026-08-27; belongs to video.",
+   "link": "https://ai.google.dev/gemini-api/docs/omni",
+   "found_via": "google",
+   "status": "open"
+  },
+  {
+   "name": "GPT-Live 1 (OpenAI full-duplex voice model)",
+   "why": "GA in the API 2026-09-10; model belongs to audio (video OSaP6bJoU44).",
+   "link": "https://developers.openai.com/api/docs/guides/live",
+   "found_via": "openai",
+   "status": "open"
+  },
+  {
+   "name": "Gemini 3.8 Live / Live Extended Thinking",
+   "why": "GA 2026-09-15 native audio models; belong to audio.",
+   "link": "https://ai.google.dev/gemini-api/docs/changelog",
+   "found_via": "google",
+   "status": "open"
+  },
+  {
+   "name": "Unity Spark (no-code prompt-to-game)",
+   "why": "Introduced 2026-10-07 (video IkcK7aeMw5A); could be its own work in genxr or agents.",
+   "link": "https://www.youtube.com/watch?v=IkcK7aeMw5A",
+   "found_via": "unity",
+   "status": "open"
+  },
+  {
+   "name": "Samsung / Google Android XR glasses (Gentle Monster, Warby Parker)",
+   "why": "Audio-only model first in fall 2026, display model expected 2027; add when the display model ships.",
+   "link": "https://www.youtube.com/watch?v=Q7he8vmsEow",
+   "found_via": "samsung",
+   "status": "open"
+  },
+  {
+   "name": "Runway Characters (real-time conversational avatars via API)",
+   "why": "Real-time avatar product inside Runway Dev; belongs to avatars.",
+   "link": "https://runwayml.com/api",
+   "found_via": "runway",
+   "status": "open"
+  },
+  {
+   "name": "Meshy API",
+   "why": "3D generation API with its own docs; no API-specific official video found, so api_url belongs on the assets batch's Meshy work.",
+   "link": "https://docs.meshy.ai",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Alibaba Cloud Model Studio (Wan video API)",
+   "why": "Official API route to Wan models; no official video found.",
+   "link": "https://www.alibabacloud.com/en/product/modelstudio",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "ElevenLabs Agents Platform / API",
+   "why": "Voice-agent developer platform; covered by the audio batch.",
+   "link": "https://elevenlabs.io/docs",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Roblox Cube 4D generation",
+   "why": "Interactive 4D object generation in Studio; belongs to assets.",
+   "link": "https://corp.roblox.com/engineering/cube",
+   "found_via": "roblox",
+   "status": "open"
+  },
+  {
+   "name": "VBench++",
+   "why": "Extension of VBench to image-to-video and trustworthiness (arXiv 2411.13503); folded into the VBench work.",
+   "link": "https://arxiv.org/abs/2411.13503",
+   "found_via": "ziqi-huang",
+   "status": "duplicate"
+  },
+  {
+   "name": "Panda-70M video dataset",
+   "why": "70M captioned clips (CVPR 2024), widely used for video pretraining; candidate for benchmarks next round.",
+   "link": "https://arxiv.org/abs/2402.19479",
+   "found_via": "seed",
+   "status": "open"
+  }
+ ]
+}
