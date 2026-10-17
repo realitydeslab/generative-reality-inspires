@@ -2586,8 +2586,8 @@
     "authoring"
    ],
    "kind": "product",
-   "description": "A visionOS 26 feature that turns any 2D photo into a spatial scene with depth and multiple perspectives, so the viewer can lean in and look around it on Apple Vision Pro (and as parallax on the iOS 26 Lock Screen); developers get a Spatial Scene API, and visionOS 27 (June 2026) extends it to panoramas that can be set as personal Environments.",
-   "description_zh": "visionOS 26 的功能：把任意二维照片变成带深度、可从多个角度观看的空间场景，在 Apple Vision Pro 上可以凑近、环顾（iOS 26 锁定屏幕上则呈现为视差效果）；开发者可使用 Spatial Scene API；visionOS 27（2026 年 6 月）把它扩展到全景照片，并可设为个人“环境”。",
+   "description": "A visionOS 26 feature that turns any 2D photo into a spatial scene with depth and multiple perspectives, so the viewer can lean in and look around it on Apple Vision Pro (and as parallax on the iOS 26 Lock Screen), and developers get a Spatial Scene API. With visionOS 27, announced at WWDC on 2026-06-08, Vision Pro users can also turn panoramas into spatial scenes and use them as personal Environments.",
+   "description_zh": "visionOS 26 的功能：把任意二维照片变成带深度、可从多个角度观看的空间场景，在 Apple Vision Pro 上可以凑近、环顾（iOS 26 锁定屏幕上则呈现为视差效果）；开发者可使用 Spatial Scene API。2026 年 6 月 8 日 WWDC 发布的 visionOS 27 进一步让 Vision Pro 用户把全景照片变成空间场景，并设为个人“环境”。",
    "idea_en": "Photo-to-3D now ships by default in a headset OS, so personal photos become a ready source of familiar, real places for immersive studies.",
    "idea_zh": "照片转三维已成为头显系统的默认功能，个人照片因此成为沉浸式研究中现成的、熟悉的真实场所来源。",
    "method": "Apple describes 'a new generative AI algorithm and computational depth' that infers geometry and fills disoccluded regions to create multiple perspectives; the model is not published (Apple's SHARP research addresses the same task).",
@@ -2609,7 +2609,8 @@
    "source_url": "https://www.apple.com/newsroom/2025/06/visionos-26-introduces-powerful-new-spatial-experiences-for-apple-vision-pro/",
    "collections": [
     "trend-in-situ-xr",
-    "trend-grounded"
+    "trend-grounded",
+    "trend-feed-forward"
    ]
   },
   {

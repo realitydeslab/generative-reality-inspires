@@ -2979,7 +2979,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 产品 / 应用 · 时序: 预先生成 · 获取方式: 产品 / 应用, 公开 API
 - 输入: 图像 → 输出: 三维场景 / 世界, 图像 / 全景图
 - 核心想法: 照片转三维已成为头显系统的默认功能，个人照片因此成为沉浸式研究中现成的、熟悉的真实场所来源。
-- 内容: visionOS 26 的功能：把任意二维照片变成带深度、可从多个角度观看的空间场景，在 Apple Vision Pro 上可以凑近、环顾（iOS 26 锁定屏幕上则呈现为视差效果）；开发者可使用 Spatial Scene API；visionOS 27（2026 年 6 月）把它扩展到全景照片，并可设为个人“环境”。
+- 内容: visionOS 26 的功能：把任意二维照片变成带深度、可从多个角度观看的空间场景，在 Apple Vision Pro 上可以凑近、环顾（iOS 26 锁定屏幕上则呈现为视差效果）；开发者可使用 Spatial Scene API。2026 年 6 月 8 日 WWDC 发布的 visionOS 27 进一步让 Vision Pro 用户把全景照片变成空间场景，并设为个人“环境”。
 - 实现方式: Apple 称其使用“新的生成式 AI 算法与计算深度”推断几何并补全去遮挡区域，以生成多个视角；模型未公开（Apple 的 SHARP 研究针对的是同一任务）。
 - 能力维度: 感知真实感, 创作可及性
 - 视频: https://www.apple.com/newsroom/videos/2025/autoplay/06/visionos-26-introduces-powerful-new-spatial-experiences-for-apple-vision-pro/apple-wwdc25-visionos-26-spatial-scenes-photos-app/large_2x.mp4

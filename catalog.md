@@ -2979,7 +2979,7 @@ One photo to a 3D scene with depth and parallax: spatial scenes, monocular depth
 - Type: Product / app · Timing: Pre-generated · Access: Product / app, Public API
 - Input: Image → Output: 3D scene / world, Image / panorama
 - Idea: Photo-to-3D now ships by default in a headset OS, so personal photos become a ready source of familiar, real places for immersive studies.
-- What it is: A visionOS 26 feature that turns any 2D photo into a spatial scene with depth and multiple perspectives, so the viewer can lean in and look around it on Apple Vision Pro (and as parallax on the iOS 26 Lock Screen); developers get a Spatial Scene API, and visionOS 27 (June 2026) extends it to panoramas that can be set as personal Environments.
+- What it is: A visionOS 26 feature that turns any 2D photo into a spatial scene with depth and multiple perspectives, so the viewer can lean in and look around it on Apple Vision Pro (and as parallax on the iOS 26 Lock Screen), and developers get a Spatial Scene API. With visionOS 27, announced at WWDC on 2026-06-08, Vision Pro users can also turn panoramas into spatial scenes and use them as personal Environments.
 - How it works: Apple describes 'a new generative AI algorithm and computational depth' that infers geometry and fills disoccluded regions to create multiple perspectives; the model is not published (Apple's SHARP research addresses the same task).
 - Capability: Perceptual realism, Authoring accessibility
 - Video: https://www.apple.com/newsroom/videos/2025/autoplay/06/visionos-26-introduces-powerful-new-spatial-experiences-for-apple-vision-pro/apple-wwdc25-visionos-26-spatial-scenes-photos-app/large_2x.mp4
