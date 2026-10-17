@@ -1,4 +1,4 @@
-# Generative Immersive Reality Inspire
+# Generative Reality Inspire
 
 > A catalog of generative immersive technology: the models, products, APIs, research demos, studies and devices with which situations can be generated and entered. Fields: video generation, interactive virtual humans, speech and spatial audio, interactive world models, 3D scene and world generation, 3D assets and motion, capture / reconstruction / 4D, agents and simulated societies, generative XR experiences, immersive behavioral research and training, and platforms / APIs / delivery. Each entry lists its idea, how it works, its input, output, timing (pre-generated, turn-based, real-time, full-duplex, scripted) and access (open weights, API, product, waitlist, research), and links to its video, paper and official page. Compiled by Reality Design Lab as the living survey behind a research agenda on generative immersion for behavioral science. Capabilities are as reported by their developers.
 
@@ -6,10 +6,10 @@
 
 ## Full catalog
 
-- [English catalog](https://immersive.reality.design/catalog.md): every field and sub-category with all entries, then all labs & creators
-- [Chinese catalog](https://immersive.reality.design/catalog.zh.md): 中文版完整目录
-- [Raw data (JSON)](https://immersive.reality.design/data/entries.json)
+- [English catalog](https://generative.reality.design/catalog.md): every field and sub-category with all entries, then all labs & creators
+- [Chinese catalog](https://generative.reality.design/catalog.zh.md): 中文版完整目录
+- [Raw data (JSON)](https://generative.reality.design/data/entries.json)
 
 ## Website
 
-- [https://immersive.reality.design](https://immersive.reality.design): videos and images, paper links, trends, filters by field, input, output, timing, access, capability and type, starring and SKILL.md export
+- [https://generative.reality.design](https://generative.reality.design): videos and images, paper links, trends, filters by field, input, output, timing, access, capability and type, starring and SKILL.md export

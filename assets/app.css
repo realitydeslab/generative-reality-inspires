@@ -5,7 +5,7 @@
 @font-face { font-family: "NeueMontreal"; src: url("https://reality.design/_next/static/media/c8be08e29f82f2cc-s.p.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
 
 /* NeueMontreal is loaded from reality.design (licensed there; not redistributed in this repo). */
-/* Reality Design Lab palette (white / #ededed / greys / black) with an electric-cyan accent for Generative Immersive Reality */
+/* Reality Design Lab palette (white / #ededed / greys / black) with an electric-cyan accent for Generative Reality Inspire */
 :root {
   --bg: #0a0a0a;
   --bg-2: #171717;

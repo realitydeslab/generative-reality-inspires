@@ -25,7 +25,7 @@ TRANSIENT = re.compile(r"HTTP Error (429|5\d\d)|timed out|Temporary failure|Conn
 
 
 # Wikimedia rejects browser-like user agents from scripts (robot policy); it wants an identifying one.
-BOT_UA = {"User-Agent": "ImmersiveRealityInspire/1.0 (https://immersive.reality.design; link checker)"}
+BOT_UA = {"User-Agent": "GenerativeRealityInspire/1.0 (https://generative.reality.design; link checker)"}
 
 
 def _open(url: str, headers: dict | None = None, timeout: int = 20, tries: int = 3):
@@ -74,7 +74,7 @@ def check_url(url: str) -> dict:
 def check_doi(doi: str) -> dict:
     doi = re.sub(r"^https?://(dx\.)?doi\.org/", "", doi.strip())
     try:
-        with _open(f"https://api.crossref.org/works/{urllib.parse.quote(doi)}", {"User-Agent": "immersive-inspire/1.0 (https://immersive.reality.design; link checker)"}) as r:
+        with _open(f"https://api.crossref.org/works/{urllib.parse.quote(doi)}", {"User-Agent": "generative-inspire/1.0 (https://generative.reality.design; link checker)"}) as r:
             m = json.loads(r.read())["message"]
         year = next((m[k]["date-parts"][0][0] for k in ("published-print", "published-online", "issued", "created") if m.get(k, {}).get("date-parts", [[None]])[0][0]), None)
         return {"doi": doi, "ok": True, "type": "doi", "title": htmllib.unescape(re.sub(r"<[^>]+>", "", (m.get("title") or [""])[0])),

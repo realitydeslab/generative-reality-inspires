@@ -1,9 +1,9 @@
 ---
-description: Research one or more models, products, APIs, papers, labs or companies for Generative Immersive Reality Inspire, add their salient generative immersive works (bilingual, classified, each with a video), rebuild the site and catalogs, and publish.
+description: Research one or more models, products, APIs, papers, labs or companies for Generative Reality Inspire, add their salient generative immersive works (bilingual, classified, each with a video), rebuild the site and catalogs, and publish.
 argument-hint: <model, product, lab, company, project URL or paper arXiv/DOI> [, another …] [--no-push]
 ---
 
-# Add to Generative Immersive Reality Inspire
+# Add to Generative Reality Inspire
 
 Input: `$ARGUMENTS` — one or more models, products, APIs, labs / companies, research projects (URL) or papers (arXiv / DOI), comma-separated. `--no-push` = build and preview locally, do not commit or publish.
 
@@ -25,5 +25,5 @@ Read `data/SCHEMA.md`, `data/taxonomy.json` and `data/RESEARCH_BRIEF.md` (stance
 8. **Check duplicates**: `python3 tools/audit_titles.py` — resolve any same-title works that are yours.
 9. **Publish** (skip with `--no-push`): `tools/publish.sh "feat(data): add <name> (<n> works)"`
    It validates every batch, rebuilds, refuses to publish if validation fails or works disappeared, then commits and pushes.
-   GitHub Pages redeploys https://immersive.reality.design in about a minute.
+   GitHub Pages redeploys https://generative.reality.design in about a minute.
 10. **Report**: what was added (counts per field), notable works, what was left out and why, new leads, live URL.

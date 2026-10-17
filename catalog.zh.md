@@ -1,8 +1,8 @@
-# Generative Immersive Reality Inspire — 目录
+# Generative Reality Inspire — 目录
 
 生成式沉浸技术目录：可以用来生成并进入情境的模型、产品、API、研究演示、研究与设备。领域包括：视频生成、交互式虚拟人、语音与空间音频、交互式世界模型、三维场景与世界生成、三维资产与动作、捕捉/重建与 4D、智能体与模拟社会、生成式扩展现实体验、沉浸式行为研究与训练，以及平台/API/交付。每个条目都列出核心想法、实现方式、输入、输出、时序（预先生成、回合制、实时、全双工、脚本驱动）与获取方式（开源权重、API、产品、候补、仅研究），并附视频、论文和官方页面链接。由 Reality Design Lab 整理，是一项面向行为科学的生成式沉浸研究议程背后持续更新的综述。技术能力以开发者公布为准。
 
-https://immersive.reality.design · 2026-10-17 · 318 个机构与创作者 · 508 个条目
+https://generative.reality.design · 2026-10-17 · 318 个机构与创作者 · 508 个条目
 
 ## AI 助手应如何使用这个文件
 
@@ -6470,7 +6470,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - **Ben Mildenhall** (美国旧金山) — World Labs 联合创始人，NeRF 第一作者；这篇 2020 年的论文开启了神经辐射场视角合成的时代。2021 至 2023 年他在 Google Research 任研究科学家。 代表作: NeRF (ECCV 2020); Mip-NeRF 360 (CVPR 2022); DreamFusion (ICLR 2023). https://bmild.github.io/
 - **Bernhard Kerbl** (丹麦哥本哈根) — 3D 高斯泼溅（3DGS）第一作者：该方法让照片级辐射场可以实时渲染，引发了高斯泼溅热潮。他现任哥本哈根大学终身轨助理教授，并在维也纳工业大学担任项目首席研究员。 代表作: 3D Gaussian Splatting for Real-Time Radiance Field Rendering (SIGGRAPH 2023 Best Paper); A Hierarchical 3D Gaussian Representation for Real-Time Rendering of Very Large Datasets (SIGGRAPH 2024). https://snosixtyboo.github.io/
 - **Bill Peebles** (美国旧金山) — OpenAI 研究科学家、Sora 负责人，扩散 Transformer（DiT）的共同作者；DiT 是当今多数视频模型采用的架构。OpenAI 于 2026 年 4 月关闭 Sora 应用、9 月关闭其 API，Sora 转为面向世界模拟的研究项目。 代表作: Scalable Diffusion Models with Transformers (DiT, ICCV 2023); Sora (2024); Sora 2 (2025). https://www.wpeebles.com/
-- **Botao 'Amber' Hu / 胡博涛** — 设计师与研究者，主持现实设计实验室（Reality Design Lab），在中国美术学院教授混合现实设计；开源 HoloKit 头显及本图库的创作者。 代表作: HoloKit (open-source MR headset); EchoVision; Generative Immersive Reality Inspire (2026). https://amber.botao.hu/
+- **Botao 'Amber' Hu / 胡博涛** — 设计师与研究者，主持现实设计实验室（Reality Design Lab），在中国美术学院教授混合现实设计；开源 HoloKit 头显及本图库的创作者。 代表作: HoloKit (open-source MR headset); EchoVision; Generative Reality Inspire (2026). https://amber.botao.hu/
 - **Christoph Lassner** (美国旧金山) — World Labs 联合创始人，此前在 Epic Games 与 Meta Reality Labs Research 领导研究团队，研究可交互的辐射场重建与渲染以及三维人体模型。 代表作: Keep it SMPL / SMPLify (ECCV 2016); Pulsar: Efficient Sphere-based Neural Rendering (CVPR 2021). https://christophlassner.de/
 - **Daniel Freeman** (英国牛津) — 牛津大学临床心理学教授，用 VR 研究和治疗偏执；他的 gameChange 试验检验了由虚拟教练引导的自动化 VR 疗法对精神病患者的效果。 代表作: gameChange automated VR therapy trial (Lancet Psychiatry, 2022); Automated VR treatment for fear of heights (Lancet Psychiatry, 2018). https://en.wikipedia.org/wiki/Daniel_Freeman_(psychologist)
 - **Eloi Alonso** — General Intuition 联合创始人，DIAMOND 第一作者：这个开源扩散世界模型完全在“想象”中训练 Atari 智能体，并生成了可玩的 Counter-Strike 地图。他在日内瓦大学 François Fleuret 组完成博士学业。 代表作: DIAMOND: Diffusion for World Modeling (NeurIPS 2024 Spotlight); IRIS: Transformers are Sample-Efficient World Models (ICLR 2023). https://eloialonso.github.io/
@@ -6570,7 +6570,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - **Inria GraphDeco** (法国索菲亚-安提波利斯) — George Drettakis 在 Inria 索菲亚-安提波利斯中心的图形学研究组，3D 高斯泼溅在此诞生（SIGGRAPH 2023 最佳论文）并开源发布。 https://team.inria.fr/graphdeco/
 - **Max Planck Institute for the Study of Crime, Security and Law / 马克斯·普朗克犯罪、安全与法律研究所** (德国弗莱堡) — 位于弗莱堡的研究所，其犯罪学部门由 Jean-Louis van Gelder 领导，用虚拟现实在接近真实的条件下研究犯罪、受害与决策。 https://csl.mpg.de/en
 - **MMLab@NTU / S-Lab** (新加坡) — 南洋理工大学多媒体实验室（吕健勤、刘子纬），大量开源视频、三维与虚拟人生成模型以及 VBench 评测基准的来源。 https://www.mmlab-ntu.com/
-- **Reality Design Lab / 现实设计实验室** — 胡博涛（Botao “Amber” Hu）的设计研究实验室，研究混合现实与生成式沉浸体验，开发开源 HoloKit 工具包；本图库 Generative Immersive Reality Inspire 即由其制作。 https://reality.design/
+- **Reality Design Lab / 现实设计实验室** — 胡博涛（Botao “Amber” Hu）的设计研究实验室，研究混合现实与生成式沉浸体验，开发开源 HoloKit 工具包；本图库 Generative Reality Inspire 即由其制作。 https://reality.design/
 - **Stanford Virtual Human Interaction Lab (VHIL)** (美国斯坦福) — Jeremy Bailenson 的实验室，研究 VR 与化身会对人产生什么影响，从普罗透斯效应到“Zoom 疲劳”与大规模 VR 课程。 https://vhil.stanford.edu/
 - **Stanford Vision and Learning Lab (SVL)** (美国斯坦福) — 斯坦福大学由李飞飞、吴佳俊等人组成的实验室，构建具身智能体的模拟环境与基准（BEHAVIOR、OmniGibson），以及 WorldScore 等世界生成评测。 https://svl.stanford.edu/
 - **UCL Virtual Environments and Computer Graphics (VECG)** (英国伦敦) — 伦敦大学学院计算机系研究组，临场感研究在 1990–2000 年代的大量奠基工作在此完成，包括 Slater 的虚拟米尔格拉姆实验（2006）与以阿森纳球迷为对象的旁观者研究（2013）；至今仍研究 VR、协同虚拟环境与图形学。 http://vecg.cs.ucl.ac.uk/

@@ -1,4 +1,4 @@
-/* Generative Immersive Reality Inspire — UI strings (English / Simplified Chinese). Field, output, input, timing, access, capability and type labels come from data/taxonomy.json. */
+/* Generative Reality Inspire — UI strings (English / Simplified Chinese). Field, output, input, timing, access, capability and type labels come from data/taxonomy.json. */
 window.IRI_I18N = {
   en: {
     title: "Worlds generated<br><em>while you act in them.</em>",

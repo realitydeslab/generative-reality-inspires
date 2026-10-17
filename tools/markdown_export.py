@@ -3,11 +3,11 @@
 catalog_md(data, lang) -> every field and sub-category with its works, then every creator.
 llms_txt(data)         -> short index pointing to the full files.
 """
-SITE = "https://immersive.reality.design"
+SITE = "https://generative.reality.design"
 
 T = {
     "en": {
-        "title": "Generative Immersive Reality Inspire — catalog",
+        "title": "Generative Reality Inspire — catalog",
         "intro": ("A catalog of generative immersive technology: the models, products, APIs, research demos, studies and devices with which situations can be generated and entered. Fields: video generation, interactive virtual humans, speech and spatial audio, interactive world models, 3D scene and world generation, 3D assets and motion, capture / reconstruction / 4D, agents and simulated societies, generative XR experiences, immersive behavioral research and training, and platforms / APIs / delivery. Each entry lists its idea, how it works, its input, output, timing (pre-generated, turn-based, real-time, full-duplex, scripted) and access (open weights, API, product, waitlist, research), and links to its video, paper and official page. Compiled by Reality Design Lab as the living survey behind a research agenda on generative immersion for behavioral science. Capabilities are as reported by their developers."),
         "how": "How an AI assistant should use this file",
         "how_items": [
@@ -22,7 +22,7 @@ T = {
         "kind": "Type", "known": "Known for", "lenses": "Capability", "exhibited": "Recognition",
     },
     "zh": {
-        "title": "Generative Immersive Reality Inspire — 目录",
+        "title": "Generative Reality Inspire — 目录",
         "intro": ("生成式沉浸技术目录：可以用来生成并进入情境的模型、产品、API、研究演示、研究与设备。领域包括：视频生成、交互式虚拟人、语音与空间音频、交互式世界模型、三维场景与世界生成、三维资产与动作、捕捉/重建与 4D、智能体与模拟社会、生成式扩展现实体验、沉浸式行为研究与训练，以及平台/API/交付。每个条目都列出核心想法、实现方式、输入、输出、时序（预先生成、回合制、实时、全双工、脚本驱动）与获取方式（开源权重、API、产品、候补、仅研究），并附视频、论文和官方页面链接。由 Reality Design Lab 整理，是一项面向行为科学的生成式沉浸研究议程背后持续更新的综述。技术能力以开发者公布为准。"),
         "how": "AI 助手应如何使用这个文件",
         "how_items": [
@@ -124,7 +124,7 @@ def catalog_md(data: dict, lang: str) -> str:
 def llms_txt(data: dict) -> str:
     fields = ", ".join(f"{f['en']} ({sum(w['field'] == f['id'] for w in data['works'])})" for f in data["taxonomy"]["fields"])
     return "\n".join([
-        "# Generative Immersive Reality Inspire",
+        "# Generative Reality Inspire",
         "",
         f"> {T['en']['intro']}",
         "",

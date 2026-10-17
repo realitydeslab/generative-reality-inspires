@@ -1,6 +1,6 @@
 # Resources & Links brief (for the resources research agent)
 
-The gallery at immersive.reality.design has a **Resources & Links** tab: the key PEOPLE of generative immersive technology
+The gallery at generative.reality.design has a **Resources & Links** tab: the key PEOPLE of generative immersive technology
 (researchers, founders & builders, artists & directors) and the INSTITUTIONS & WEBSITES where the field happens (AI labs &
 companies, academic labs, conferences & workshops, journals, newsletters / podcasts / media, communities & directories,
 leaderboards & arenas). Working dir: `/Users/amber/Projects/HoloKit/HoloKit2/immersive-inspire`. Today is 2026-10-17.

@@ -1,4 +1,4 @@
-/* Generative Immersive Reality Inspire — gallery app. Data: data/entries.js (window.IRI, light core) + data/entries-detail.js
+/* Generative Reality Inspire — gallery app. Data: data/entries.js (window.IRI, light core) + data/entries-detail.js
    (window.IRI_DETAIL: long texts, creators, organizations; loaded after the first paint). Strings: assets/i18n.js. */
 (() => {
   "use strict";

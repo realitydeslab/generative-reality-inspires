@@ -1,6 +1,6 @@
-# Generative Immersive Reality Inspire
+# Generative Reality Inspire
 
-**https://immersive.reality.design**
+**https://generative.reality.design**
 
 Worlds generated while you act in them. A bilingual (English / 中文) survey of **generative immersive technology**: the models, products, APIs, research demos, studies and devices with which situations can be generated and entered. Every entry is shown on video and lists what it takes as **input**, what it generates (**output**), its **timing** (pre-generated, turn-based, real-time, full-duplex, scripted) and its **access** (open weights, public API, product, waitlist, research only). Built by [Reality Design Lab](https://reality.design) as the living survey behind a research agenda on generative immersion for behavioral science. Sibling of [Reality Design Inspire (AR)](https://augmented.reality.design), [Somatic Reality Inspire](https://somatic.reality.design) and [Machinic Reality Inspire](https://machinic.reality.design).
 

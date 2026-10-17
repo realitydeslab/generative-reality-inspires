@@ -1,4 +1,4 @@
-# Data schema — Generative Immersive Reality Inspire
+# Data schema — Generative Reality Inspire
 
 Each research batch writes one file: `data/raw/<batch>.json`
 

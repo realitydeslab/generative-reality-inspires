@@ -1,7 +1,7 @@
-/* Generative Immersive Reality Inspire — language-aware field access and Markdown export (SKILL.md / README.md / reading list). */
+/* Generative Reality Inspire — language-aware field access and Markdown export (SKILL.md / README.md / reading list). */
 (() => {
   "use strict";
-  const SITE = "https://immersive.reality.design";
+  const SITE = "https://generative.reality.design";
 
   const text = {
     work(w, lang) {
@@ -16,7 +16,7 @@
 
   const L = {
     en: {
-      skillDesc: (n) => `${n} entries I starred in Generative Immersive Reality Inspire (${SITE}): generative immersive technology — video generation, interactive world models, 3D and 4D scenes, full-duplex virtual humans, speech, agents, generative XR and immersive behavioral research. Each entry lists what it is, its idea, how it works, its input, output, timing and access, and links to its paper, video and official page. Use it when designing generated or adaptive immersive situations, choosing models and APIs for a prototype or study, or writing about generative immersion.`,
+      skillDesc: (n) => `${n} entries I starred in Generative Reality Inspire (${SITE}): generative immersive technology — video generation, interactive world models, 3D and 4D scenes, full-duplex virtual humans, speech, agents, generative XR and immersive behavioral research. Each entry lists what it is, its idea, how it works, its input, output, timing and access, and links to its paper, video and official page. Use it when designing generated or adaptive immersive situations, choosing models and APIs for a prototype or study, or writing about generative immersion.`,
       skillTitle: "Generative immersion: my starred entries",
       source: (d, n) => `Source: ${SITE} · exported ${d} · ${n} works.`,
       howTitle: "How to use this skill",
@@ -28,12 +28,12 @@
       ],
       field: "Field", modalities: "Output", inputs: "Input", timing: "Timing", access: "Access", idea: "Idea", what: "What it is", method: "How it works", specs: "Specs",
       paper: "Paper", video: "Video", page: "Official page", api: "API docs",
-      readmeTitle: "My picks from Generative Immersive Reality Inspire",
+      readmeTitle: "My picks from Generative Reality Inspire",
       readmeIntro: (n) => `${n} entries I starred on ${SITE}. For an AI assistant, load the companion SKILL.md.`,
-      listTitle: "Reading list — Generative Immersive Reality Inspire",
+      listTitle: "Reading list — Generative Reality Inspire",
     },
     zh: {
-      skillDesc: (n) => `我在 Generative Immersive Reality Inspire（${SITE}）收藏的 ${n} 个条目：生成式沉浸技术，包括视频生成、交互式世界模型、三维与 4D 场景、全双工虚拟人、语音、智能体、生成式扩展现实与沉浸式行为研究。每个条目包括：内容、核心想法、实现方式、输入、输出、时序与获取方式，以及论文、视频和官方页面链接。在设计生成式或自适应的沉浸情境、为原型或研究挑选模型与 API、撰写生成式沉浸相关文章时使用。`,
+      skillDesc: (n) => `我在 Generative Reality Inspire（${SITE}）收藏的 ${n} 个条目：生成式沉浸技术，包括视频生成、交互式世界模型、三维与 4D 场景、全双工虚拟人、语音、智能体、生成式扩展现实与沉浸式行为研究。每个条目包括：内容、核心想法、实现方式、输入、输出、时序与获取方式，以及论文、视频和官方页面链接。在设计生成式或自适应的沉浸情境、为原型或研究挑选模型与 API、撰写生成式沉浸相关文章时使用。`,
       skillTitle: "生成式沉浸：我的收藏",
       source: (d, n) => `来源：${SITE} · 导出于 ${d} · 共 ${n} 件作品。`,
       howTitle: "如何使用这个 skill",
@@ -45,9 +45,9 @@
       ],
       field: "领域", modalities: "输出", inputs: "输入", timing: "时序", access: "获取方式", idea: "核心想法", what: "内容", method: "实现方式", specs: "参数",
       paper: "论文", video: "视频", page: "官方页面", api: "API 文档",
-      readmeTitle: "我在 Generative Immersive Reality Inspire 的收藏",
+      readmeTitle: "我在 Generative Reality Inspire 的收藏",
       readmeIntro: (n) => `我在 ${SITE} 收藏的 ${n} 个条目。给 AI 助手使用时，请加载配套的 SKILL.md。`,
-      listTitle: "阅读清单 — Generative Immersive Reality Inspire",
+      listTitle: "阅读清单 — Generative Reality Inspire",
     },
   };
 
