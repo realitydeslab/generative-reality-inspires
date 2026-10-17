@@ -10,5 +10,6 @@
  "google-deepmind--gemini-omni",
  "kuaishou--kling-o1",
  "kuaishou--kling-3",
- "bytedance-seed--seedance-2"
+ "bytedance-seed--seedance-2",
+ "minimax--h3"
 ]

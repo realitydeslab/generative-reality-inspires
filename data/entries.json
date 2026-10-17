@@ -710,8 +710,8 @@
     "desc_en": "Action-conditioned models generate the next moment as you move. Genie 3 (2025) holds a world together for minutes; Project Genie opened to subscribers in 2026 with 60-second generations. Independent 2026 benchmarks find that no model keeps memory reliably over 10–60 s of play.",
     "desc_zh": "以动作为条件的模型随你的移动生成下一刻。Genie 3（2025）能让世界在几分钟内保持一致；Project Genie 于 2026 年向订阅用户开放，每次生成限 60 秒。2026 年的独立基准发现，没有模型能在 10–60 秒的游玩中可靠地保持记忆。",
     "url": "",
-    "gap_en": "Single 2D streams only (no stereo or 6DoF), minutes of persistence at best, no programmatic access to Genie, and no published per-minute price for any frontier real-time world model.",
-    "gap_zh": "只有单路二维视频流（没有立体或六自由度），持久性最多几分钟，Genie 没有程序化接口，前沿实时世界模型也都没有公开的按分钟价格。",
+    "gap_en": "Single 2D streams only (no stereo or 6DoF), minutes of persistence at best, no programmatic access to Genie, and Google, Runway and World Labs publish no per-minute price (Decart's driving-only Oasis 3 Preview costs $0.02/s).",
+    "gap_zh": "只有单路二维视频流（没有立体或六自由度），持久性最多几分钟，Genie 没有程序化接口，Google、Runway 和 World Labs 都没有公布按分钟计的价格（Decart 仅限驾驶场景的 Oasis 3 预览版为每秒 0.02 美元）。",
     "next_en": "Google aims to widen Project Genie access 'in time'; Runway's GWM Worlds 2 adds a timestamped event stream (WorldPrompt); Atlas will power future versions of Marble.",
     "next_zh": "Google 表示会“逐步”扩大 Project Genie 的开放范围；Runway 的 GWM Worlds 2 加入了带时间戳的事件流（WorldPrompt）；Atlas 将用于未来版本的 Marble。"
    },
@@ -866,8 +866,8 @@
     "desc_en": "Tencent and Skywork publish the open real-time world models labs can actually run (HY-World, Matrix-Game), while Kling and Seedance compete at the closed frontier of video.",
     "desc_zh": "腾讯与昆仑万维发布了研究室真正能运行的开源实时世界模型（HY-World、Matrix-Game），而可灵与 Seedance 则在闭源视频前沿竞争。",
     "url": "",
-    "gap_en": "Chinese frontier video is closed, and Alibaba has released no new open base video model since Wan 2.2 (July 2025).",
-    "gap_zh": "中国的前沿视频模型是闭源的；阿里自 2025 年 7 月的 Wan 2.2 之后没有再发布新的开源基础视频模型。",
+    "gap_en": "Chinese frontier video is mostly closed (MiniMax H3 is a partial exception: its base model is open, its 2K modules API-only), and Alibaba has released no new open base video model since Wan 2.2 (July 2025).",
+    "gap_zh": "中国的前沿视频模型大多闭源（MiniMax H3 是部分例外：基础模型开源，2K 模块仅通过 API 提供）；阿里自 2025 年 7 月的 Wan 2.2 之后没有再发布新的开源基础视频模型。",
     "next_en": "Kling 4.0 rolled out from 2026-09-28 and was officially launched on 2026-10-16, with API access said to follow; Matrix-Game 4.0 weights came out on 2026-10-15.",
     "next_zh": "可灵 4.0 自 2026-09-28 起逐步推出，并于 2026-10-16 正式发布，据称 API 随后开放；Matrix-Game 4.0 的权重于 2026-10-15 发布。"
    },
@@ -1264,6 +1264,37 @@
      "product"
     ],
     "url": "https://www.apple.com/visionos/"
+   },
+   {
+    "name": "MiniMax H3",
+    "org": "MiniMax",
+    "status_en": "Base model open on Hugging Face (2026-07-28, community licence); 2K modules API-only; native stereo audio, 4–15 s",
+    "status_zh": "基础模型已在 Hugging Face 开源（2026-07-28，社区许可）；2K 模块仅通过 API 提供；原生立体声，4–15 秒",
+    "access": [
+     "open",
+     "api"
+    ],
+    "url": "https://www.minimax.io/blog/minimax-h3"
+   },
+   {
+    "name": "PixVerse R2",
+    "org": "PixVerse",
+    "status_en": "Real-time world model (2026-09-22); longer sessions with in-session memory (developer claim)",
+    "status_zh": "实时世界模型（2026-09-22）；更长的会话与会话内记忆（开发者说法）",
+    "access": [
+     "product"
+    ],
+    "url": "https://pixverse.ai/"
+   },
+   {
+    "name": "Helios",
+    "org": "Peking University (Yuan group)",
+    "status_en": "Open 14B real-time video model; 19.5 fps on one H100, minute-scale (2026-03)",
+    "status_zh": "开源 14B 实时视频模型；单张 H100 每秒 19.5 帧，可生成分钟级视频（2026-03）",
+    "access": [
+     "open"
+    ],
+    "url": "https://pku-yuangroup.github.io/Helios-Page/"
    },
    {
     "name": "WorldRoamBench / MBench",
@@ -10592,7 +10623,8 @@
    "collections": [
     "trend-open-weights",
     "trend-native-audio",
-    "trend-china-open"
+    "trend-china-open",
+    "trend-omni"
    ],
    "paper": {},
    "also": [],
@@ -10812,14 +10844,15 @@
    "description_zh": "一个全双工语音模型，现在驱动 ChatGPT 语音：它边说边听，会用“嗯哼”“对”表示在听，也能在用户思考时保持安静。较难的请求会在后台交给前沿模型（发布时为 GPT-5.5）处理，对话不中断。GPT-Live-1 于 2026 年 9 月 10 日在 API 中正式可用，GPT-Live-1.1（2026 年 10 月 15 日）为 ChatGPT 增加了新声音和口音。",
    "idea_en": "OpenAI's own break with turn-based voice: the mainstream ChatGPT voice now overlaps and backchannels, so full-duplex timing is no longer a research-only property.",
    "idea_zh": "OpenAI 自己告别了回合制语音：主流的 ChatGPT 语音如今会重叠发言、会附和，全双工的对话节奏不再只是研究原型的特性。",
-   "method": "Full-duplex architecture that processes input continuously while generating output, with background delegation to a reasoning model.",
-   "method_zh": "全双工架构：在生成输出的同时持续处理输入，并把推理任务委托给后台模型。",
+   "method": "Full-duplex architecture that processes input continuously while generating output, with background delegation to a reasoning model; outputs carry SynthID watermarks since 31 July 2026.",
+   "method_zh": "全双工架构：在生成输出的同时持续处理输入，并把推理任务委托给后台模型；自 2026 年 7 月 31 日起输出带有 SynthID 水印。",
    "specs": "GPT-Live-1 and GPT-Live-1 mini · ChatGPT · API GA 2026-09-10 (v1/live/sessions)",
    "keywords": [
     "full-duplex",
     "ChatGPT Voice",
     "backchannel",
-    "background reasoning"
+    "background reasoning",
+    "SynthID"
    ],
    "images": [
     "https://images.ctfassets.net/kftzwdyauwt9/54glGpDpS58mKdx6Y3GobW/6ea5121851a36b8cf0505a96be2de994/bidi-art-card_16_9__1_.png?w=1600&h=900&fit=fill"
@@ -10828,7 +10861,8 @@
    "api_url": "https://developers.openai.com/api/docs/changelog",
    "collections": [
     "trend-full-duplex",
-    "trend-cost"
+    "trend-cost",
+    "trend-provenance"
    ],
    "video": {
     "url": "https://www.youtube.com/watch?v=EAN5Cj347PY",

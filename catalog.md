@@ -1471,7 +1471,7 @@ Speech-to-speech models that listen while they talk: Moshi, Sesame, GPT realtime
 - Input: Speech & audio → Output: Speech / voice, Dialogue / text
 - Idea: OpenAI's own break with turn-based voice: the mainstream ChatGPT voice now overlaps and backchannels, so full-duplex timing is no longer a research-only property.
 - What it is: A full-duplex voice model that now powers ChatGPT Voice: it listens while it speaks, says 'mhmm' or 'yeah' to show attention and can stay quiet while the user thinks. Harder requests are handed to a frontier model (GPT-5.5 at launch) in the background while the conversation continues. GPT-Live-1 became generally available in the API on 10 September 2026, and GPT-Live-1.1 (15 October 2026) added voices and accents in ChatGPT.
-- How it works: Full-duplex architecture that processes input continuously while generating output, with background delegation to a reasoning model.
+- How it works: Full-duplex architecture that processes input continuously while generating output, with background delegation to a reasoning model; outputs carry SynthID watermarks since 31 July 2026.
 - Specs: GPT-Live-1 and GPT-Live-1 mini · ChatGPT · API GA 2026-09-10 (v1/live/sessions)
 - Capability: Temporal responsiveness, Behavioral plausibility
 - Video: https://www.youtube.com/watch?v=EAN5Cj347PY
