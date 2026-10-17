@@ -3,7 +3,7 @@
 The gallery at generative.reality.design has a **Resources & Links** tab: the key PEOPLE of generative immersive technology
 (researchers, founders & builders, artists & directors) and the INSTITUTIONS & WEBSITES where the field happens (AI labs &
 companies, academic labs, conferences & workshops, journals, newsletters / podcasts / media, communities & directories,
-leaderboards & arenas). Working dir: `/Users/amber/Projects/HoloKit/HoloKit2/generative-inspire`. Today is 2026-10-17.
+leaderboards & arenas). Working dir: `/Users/amber/Projects/HoloKit/HoloKit2/generative-reality-inspire`. Today is 2026-10-17.
 
 Read first: `data/SCHEMA.md` → section **Resource**, `data/taxonomy.json` → `org_types`, `org_themes`, `fields`,
 and `data/RESEARCH_BRIEF.md` → project stance (generative immersion for behavioral science).
