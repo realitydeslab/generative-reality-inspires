@@ -11198,5 +11198,4223 @@
   "ok": true,
   "type": "image",
   "content_type": "image/png"
+ },
+ "video:mp4:https://framerusercontent.com/assets/ZIdJUCh5QSXs3cQHda1vkpy32s.mp4": {
+  "url": "https://framerusercontent.com/assets/ZIdJUCh5QSXs3cQHda1vkpy32s.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://framerusercontent.com/assets/ZIdJUCh5QSXs3cQHda1vkpy32s.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://framerusercontent.com/assets/n4yXH1c5rgVzfkISH5AOF0HEZUc.jpg": {
+  "url": "https://framerusercontent.com/assets/n4yXH1c5rgVzfkISH5AOF0HEZUc.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "video:mp4:https://player-1-project.github.io/assets/introduction/overview.mp4": {
+  "url": "https://player-1-project.github.io/assets/introduction/overview.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://player-1-project.github.io/assets/introduction/overview.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://player-1-project.github.io/assets/base_3d_combat_arena.webp": {
+  "url": "https://player-1-project.github.io/assets/base_3d_combat_arena.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "arxiv:2610.20584": {
+  "arxiv": "2610.20584",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Player-1: Learning to Play from Synthetic Experience",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2610.20584"
+ },
+ "video:youtube:fbDd_ph305Q": {
+  "url": "https://www.youtube.com/watch?v=fbDd_ph305Q",
+  "ok": true,
+  "platform": "youtube",
+  "id": "fbDd_ph305Q",
+  "title": "Emergence World",
+  "author": "Emergence AI",
+  "thumbnail": "https://i.ytimg.com/vi/fbDd_ph305Q/hqdefault.jpg"
+ },
+ "img:https://images.squarespace-cdn.com/content/69af1b77df627e3fed4f484d/d2931bac-6772-4a44-b382-c21f0b645f82/Emergence-World.jpg": {
+  "url": "https://images.squarespace-cdn.com/content/69af1b77df627e3fed4f484d/d2931bac-6772-4a44-b382-c21f0b645f82/Emergence-World.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "arxiv:2606.08367": {
+  "arxiv": "2606.08367",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Emergence World: A Platform for Evaluating Long-Horizon Multi-Agent Autonomy",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2606.08367"
+ },
+ "video:mp4:https://teawhite.cn/WorldMind/assets/rollout-1h-6x.mp4": {
+  "url": "https://teawhite.cn/WorldMind/assets/rollout-1h-6x.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://teawhite.cn/WorldMind/assets/rollout-1h-6x.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://teawhite.cn/WorldMind/assets/teaser.webp": {
+  "url": "https://teawhite.cn/WorldMind/assets/teaser.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "arxiv:2608.21439": {
+  "arxiv": "2608.21439",
+  "ok": true,
+  "type": "arxiv",
+  "title": "WorldMind: Decoupled Game World Model for State-Aware NPC Behavior",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2608.21439"
+ },
+ "img:https://arxiv.org/html/2610.22319v1/overview.png": {
+  "url": "https://arxiv.org/html/2610.22319v1/overview.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "img:https://arxiv.org/html/2610.22319v1/timeline.png": {
+  "url": "https://arxiv.org/html/2610.22319v1/timeline.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2610.22319": {
+  "arxiv": "2610.22319",
+  "ok": true,
+  "type": "arxiv",
+  "title": "A team of Gemini 4 Argon agents beats Minecraft",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2610.22319"
+ },
+ "video:youtube:4syKq_OrbGA": {
+  "url": "https://www.youtube.com/watch?v=4syKq_OrbGA",
+  "ok": true,
+  "platform": "youtube",
+  "id": "4syKq_OrbGA",
+  "title": "Building AI-Powered NPCs in Unreal Engine 5.7",
+  "author": "NVIDIA Game Developer",
+  "thumbnail": "https://i.ytimg.com/vi/4syKq_OrbGA/hqdefault.jpg"
+ },
+ "img:https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ai-game-character.gif": {
+  "url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ai-game-character.gif",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/gif"
+ },
+ "video:youtube:NTHWMk5pcYs": {
+  "url": "https://www.youtube.com/watch?v=NTHWMk5pcYs",
+  "ok": true,
+  "platform": "youtube",
+  "id": "NTHWMk5pcYs",
+  "title": "Playing Minecraft with ChatGPT | Mindcraft",
+  "author": "Emergent Garden",
+  "thumbnail": "https://i.ytimg.com/vi/NTHWMk5pcYs/hqdefault.jpg"
+ },
+ "img:https://mindcraft-minecollab.github.io/steve.png": {
+  "url": "https://mindcraft-minecollab.github.io/steve.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2504.17950": {
+  "arxiv": "2504.17950",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Collaborating Action by Action: A Multi-agent LLM Framework for Embodied Reasoning",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2504.17950"
+ },
+ "video:youtube:xT_vi2maxuM": {
+  "url": "https://www.youtube.com/watch?v=xT_vi2maxuM",
+  "ok": true,
+  "platform": "youtube",
+  "id": "xT_vi2maxuM",
+  "title": "GARP – A Real-Time Village Simulation Powered by On-Device Generative Agents AI",
+  "author": "Studio Atelico",
+  "thumbnail": "https://i.ytimg.com/vi/xT_vi2maxuM/hqdefault.jpg"
+ },
+ "img:https://atelico.studio/images/og/home.png": {
+  "url": "https://atelico.studio/images/og/home.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "video:youtube:-8XeiZ4djKw": {
+  "url": "https://www.youtube.com/watch?v=-8XeiZ4djKw",
+  "ok": true,
+  "platform": "youtube",
+  "id": "-8XeiZ4djKw",
+  "title": "NVIDIA ACE | MIR5 - Wemade Introduces the First AI Boss",
+  "author": "NVIDIA GeForce",
+  "thumbnail": "https://i.ytimg.com/vi/-8XeiZ4djKw/hqdefault.jpg"
+ },
+ "video:youtube:3XtqQBt-W0Y": {
+  "url": "https://www.youtube.com/watch?v=3XtqQBt-W0Y",
+  "ok": true,
+  "platform": "youtube",
+  "id": "3XtqQBt-W0Y",
+  "title": "AI People Alpha Launch: AI NPCs Beg Players Not to Turn Off the Game",
+  "author": "GoodAI",
+  "thumbnail": "https://i.ytimg.com/vi/3XtqQBt-W0Y/hqdefault.jpg"
+ },
+ "img:https://www.goodai.com/wp-content/uploads/2024/08/AIPeople_Banner_02_ALPHA-1024x576.jpg": {
+  "url": "https://www.goodai.com/wp-content/uploads/2024/08/AIPeople_Banner_02_ALPHA-1024x576.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "video:youtube:fJn9B64Znrk": {
+  "url": "https://www.youtube.com/watch?v=fJn9B64Znrk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "fJn9B64Znrk",
+  "title": "OpenAI’s New AI Learned To Play Minecraft! ⛏",
+  "author": "Two Minute Papers",
+  "thumbnail": "https://i.ytimg.com/vi/fJn9B64Znrk/hqdefault.jpg"
+ },
+ "arxiv:2206.11795": {
+  "arxiv": "2206.11795",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos",
+  "year": 2022,
+  "url": "https://arxiv.org/abs/2206.11795"
+ },
+ "video:mp4:https://minedojo.org/videos/pull_video.mp4": {
+  "url": "https://minedojo.org/videos/pull_video.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://minedojo.org/videos/pull_video.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://minedojo.org/images/card/youtube.png": {
+  "url": "https://minedojo.org/images/card/youtube.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2206.08853": {
+  "arxiv": "2206.08853",
+  "ok": true,
+  "type": "arxiv",
+  "title": "MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge",
+  "year": 2022,
+  "url": "https://arxiv.org/abs/2206.08853"
+ },
+ "video:mp4:https://gameworld-project.github.io/static/figures/GameworldPromoShort.mp4": {
+  "url": "https://gameworld-project.github.io/static/figures/GameworldPromoShort.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://gameworld-project.github.io/static/figures/GameworldPromoShort.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://gameworld-project.github.io/static/figures/gameworld/teaser-wo-logo-transparent.png": {
+  "url": "https://gameworld-project.github.io/static/figures/gameworld/teaser-wo-logo-transparent.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2604.07429": {
+  "arxiv": "2604.07429",
+  "ok": true,
+  "type": "arxiv",
+  "title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2604.07429"
+ },
+ "video:youtube:dndPhyJJcTE": {
+  "url": "https://www.youtube.com/watch?v=dndPhyJJcTE",
+  "ok": true,
+  "platform": "youtube",
+  "id": "dndPhyJJcTE",
+  "title": "Dr. Marcel Binz: Foundation Models of Human Cognition",
+  "author": "MIT Siegel Family Quest for Intelligence",
+  "thumbnail": "https://i.ytimg.com/vi/dndPhyJJcTE/hqdefault.jpg"
+ },
+ "doi:10.1038/s41586-025-09215-4": {
+  "doi": "10.1038/s41586-025-09215-4",
+  "ok": true,
+  "type": "doi",
+  "title": "A foundation model to predict and capture human cognition",
+  "year": 2025,
+  "venue": "Nature",
+  "url": "https://doi.org/10.1038/s41586-025-09215-4"
+ },
+ "arxiv:2410.20268": {
+  "arxiv": "2410.20268",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Centaur: a foundation model of human cognition",
+  "year": 2024,
+  "url": "https://arxiv.org/abs/2410.20268"
+ },
+ "video:youtube:FLmbd48r2Wo": {
+  "url": "https://www.youtube.com/watch?v=FLmbd48r2Wo",
+  "ok": true,
+  "platform": "youtube",
+  "id": "FLmbd48r2Wo",
+  "title": "Mantella Release Trailer | Bring Skyrim NPCs to Life with AI (ChatGPT / xVASynth / Whisper)",
+  "author": "Art from the Machine",
+  "thumbnail": "https://i.ytimg.com/vi/FLmbd48r2Wo/hqdefault.jpg"
+ },
+ "img:https://raw.githubusercontent.com/art-from-the-machine/Mantella/main/img/mantella_trailer.gif": {
+  "url": "https://raw.githubusercontent.com/art-from-the-machine/Mantella/main/img/mantella_trailer.gif",
+  "ok": true,
+  "type": "image",
+  "content_type": "application/octet-stream"
+ },
+ "video:mp4:https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/intro.mp4": {
+  "url": "https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/intro.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/intro.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/statics/images/Pipeline.png": {
+  "url": "https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/statics/images/Pipeline.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2608.02711": {
+  "arxiv": "2608.02711",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Hunyuan3D-Buffalo 1.0: A Unified Multimodal Model for Scalable 3D Generation, Understanding, and Editing",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2608.02711"
+ },
+ "video:youtube:Afp_jkabSL0": {
+  "url": "https://www.youtube.com/watch?v=Afp_jkabSL0",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Afp_jkabSL0",
+  "title": "CubePart Generation Examples",
+  "author": "Roblox",
+  "thumbnail": "https://i.ytimg.com/vi/Afp_jkabSL0/hqdefault.jpg"
+ },
+ "img:https://cubepart.github.io/static/images/social-card.jpg": {
+  "url": "https://cubepart.github.io/static/images/social-card.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2605.28763": {
+  "arxiv": "2605.28763",
+  "ok": true,
+  "type": "arxiv",
+  "title": "CubePart: An Open-Vocabulary Part-Controllable 3D Generator",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2605.28763"
+ },
+ "video:mp4:https://yihua7.github.io/AniGen_web/assets/videos/demo/AniGen_video_h264.mp4": {
+  "url": "https://yihua7.github.io/AniGen_web/assets/videos/demo/AniGen_video_h264.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://yihua7.github.io/AniGen_web/assets/videos/demo/AniGen_video_h264.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://yihua7.github.io/AniGen_web/assets/images/teaser.png": {
+  "url": "https://yihua7.github.io/AniGen_web/assets/images/teaser.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2604.08746": {
+  "arxiv": "2604.08746",
+  "ok": true,
+  "type": "arxiv",
+  "title": "AniGen: Unified $S^3$ Fields for Animatable 3D Asset Generation",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2604.08746"
+ },
+ "video:youtube:0H0lsM3USVM": {
+  "url": "https://www.youtube.com/watch?v=0H0lsM3USVM",
+  "ok": true,
+  "platform": "youtube",
+  "id": "0H0lsM3USVM",
+  "title": "RigMo: Unifying Rig and Motion Learning for Generative Animation",
+  "author": "Hao Zhang",
+  "thumbnail": "https://i.ytimg.com/vi/0H0lsM3USVM/hqdefault.jpg"
+ },
+ "img:https://rigmo-page.github.io/pdf2png/teaser/teaser-1.png": {
+  "url": "https://rigmo-page.github.io/pdf2png/teaser/teaser-1.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2601.06378": {
+  "arxiv": "2601.06378",
+  "ok": true,
+  "type": "arxiv",
+  "title": "RigMo: Unifying Rig and Motion Learning for Generative Animation",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2601.06378"
+ },
+ "video:mp4:https://research.nvidia.com/labs/sil/projects/kimodo/assets/videos/teaser.mp4": {
+  "url": "https://research.nvidia.com/labs/sil/projects/kimodo/assets/videos/teaser.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://research.nvidia.com/labs/sil/projects/kimodo/assets/videos/teaser.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://research.nvidia.com/labs/sil/projects/kimodo/assets/soma_fullbody_highlight.png": {
+  "url": "https://research.nvidia.com/labs/sil/projects/kimodo/assets/soma_fullbody_highlight.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "video:mp4:https://videomdm.github.io/hero-figure.mp4": {
+  "url": "https://videomdm.github.io/hero-figure.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://videomdm.github.io/hero-figure.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://videomdm.github.io/figures/method.png": {
+  "url": "https://videomdm.github.io/figures/method.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2606.13364": {
+  "arxiv": "2606.13364",
+  "ok": true,
+  "type": "arxiv",
+  "title": "VideoMDM: Towards 3D Human Motion Generation From 2D Supervision",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2606.13364"
+ },
+ "video:youtube:heJjHOAUWLU": {
+  "url": "https://www.youtube.com/watch?v=heJjHOAUWLU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "heJjHOAUWLU",
+  "title": "Vibe Modeling Is Here 🚀 Meet Hyper3D Agentic Mode",
+  "author": "Hyper3D Rodin",
+  "thumbnail": "https://i.ytimg.com/vi/heJjHOAUWLU/hqdefault.jpg"
+ },
+ "video:youtube:Facqav-LthQ": {
+  "url": "https://www.youtube.com/watch?v=Facqav-LthQ",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Facqav-LthQ",
+  "title": "[SIGGRAPH 2026] SIMART: Decomposing Monolithic Meshes into Sim-ready Articulated Assets via MLLM",
+  "author": "minghan qin",
+  "thumbnail": "https://i.ytimg.com/vi/Facqav-LthQ/hqdefault.jpg"
+ },
+ "img:https://simart-mllm.github.io/static/videos/teaser.png": {
+  "url": "https://simart-mllm.github.io/static/videos/teaser.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2603.23386": {
+  "arxiv": "2603.23386",
+  "ok": true,
+  "type": "arxiv",
+  "title": "SIMART: Decomposing Monolithic Meshes into Sim-ready Articulated Assets via MLLM",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2603.23386"
+ },
+ "video:mp4:https://articraft3d.github.io/webpage/vr/vr_demo.mp4": {
+  "url": "https://articraft3d.github.io/webpage/vr/vr_demo.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://articraft3d.github.io/webpage/vr/vr_demo.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://articraft3d.github.io/webpage/teaser.jpg": {
+  "url": "https://articraft3d.github.io/webpage/teaser.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2605.15187": {
+  "arxiv": "2605.15187",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Articraft: An Agentic System for Scalable Articulated 3D Asset Generation",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2605.15187"
+ },
+ "video:youtube:mlO3Nc3Nsng": {
+  "url": "https://www.youtube.com/watch?v=mlO3Nc3Nsng",
+  "ok": true,
+  "platform": "youtube",
+  "id": "mlO3Nc3Nsng",
+  "title": "SPAR3D: Stable Point-Aware Reconstruction of 3D Objects from Single Images",
+  "author": "Zixuan Huang",
+  "thumbnail": "https://i.ytimg.com/vi/mlO3Nc3Nsng/hqdefault.jpg"
+ },
+ "img:https://static1.squarespace.com/static/6213c340453c3f502425776e/62f2452bc121595f4d87c713/677c55948f46f6565bb34016/1736395384697/SPAR3D_Hero+Thumbnail_Blog+1_1.png?format=1500w": {
+  "url": "https://static1.squarespace.com/static/6213c340453c3f502425776e/62f2452bc121595f4d87c713/677c55948f46f6565bb34016/1736395384697/SPAR3D_Hero+Thumbnail_Blog+1_1.png?format=1500w",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "arxiv:2501.04689": {
+  "arxiv": "2501.04689",
+  "ok": true,
+  "type": "arxiv",
+  "title": "SPAR3D: Stable Point-Aware Reconstruction of 3D Objects from Single Images",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2501.04689"
+ },
+ "video:youtube:WHmV8kD-_xo": {
+  "url": "https://www.youtube.com/watch?v=WHmV8kD-_xo",
+  "ok": true,
+  "platform": "youtube",
+  "id": "WHmV8kD-_xo",
+  "title": "Uthana: Generative AI for 3D Character Animation!",
+  "author": "Uthana",
+  "thumbnail": "https://i.ytimg.com/vi/WHmV8kD-_xo/hqdefault.jpg"
+ },
+ "video:youtube:1_aWAwd3NEk": {
+  "url": "https://www.youtube.com/watch?v=1_aWAwd3NEk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "1_aWAwd3NEk",
+  "title": "Introducing Hi3D 3.0 Geometry Model (Twinkle3D): the Next Generation Image-to-3D Model",
+  "author": "Hi3D",
+  "thumbnail": "https://i.ytimg.com/vi/1_aWAwd3NEk/hqdefault.jpg"
+ },
+ "video:youtube:ZCgj4ffz4yk": {
+  "url": "https://www.youtube.com/watch?v=ZCgj4ffz4yk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "ZCgj4ffz4yk",
+  "title": "PhysX-Omni: Unified Sim-Ready Physical 3D Generation for Rigid, Deformable, and Articulated Objects",
+  "author": "ang cao",
+  "thumbnail": "https://i.ytimg.com/vi/ZCgj4ffz4yk/hqdefault.jpg"
+ },
+ "img:https://physx-omni.github.io/static/videos/teaser2.png": {
+  "url": "https://physx-omni.github.io/static/videos/teaser2.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2605.21572": {
+  "arxiv": "2605.21572",
+  "ok": true,
+  "type": "arxiv",
+  "title": "PhysX-Omni: Unified Simulation-Ready Physical 3D Generation for Rigid, Deformable, and Articulated Objects",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2605.21572"
+ },
+ "video:mp4:https://zjp-shadow.github.io/works/SkinTokens/static/videos/show.mp4": {
+  "url": "https://zjp-shadow.github.io/works/SkinTokens/static/videos/show.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://zjp-shadow.github.io/works/SkinTokens/static/videos/show.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://zjp-shadow.github.io/works/SkinTokens/static/images/wild.webp": {
+  "url": "https://zjp-shadow.github.io/works/SkinTokens/static/images/wild.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "arxiv:2602.04805": {
+  "arxiv": "2602.04805",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Skin Tokens: A Learned Compact Representation for Unified Autoregressive Rigging",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2602.04805"
+ },
+ "video:youtube:xbndC-dEuVw": {
+  "url": "https://www.youtube.com/watch?v=xbndC-dEuVw",
+  "ok": true,
+  "platform": "youtube",
+  "id": "xbndC-dEuVw",
+  "title": "[SIGGRAPH Asia 2026] UniMate: One Unified Model to Animate Diverse Skeletons",
+  "author": "Linzhan Mou",
+  "thumbnail": "https://i.ytimg.com/vi/xbndC-dEuVw/hqdefault.jpg"
+ },
+ "img:https://linzhanmou.com/unimate/assets/images/og-teaser.jpg": {
+  "url": "https://linzhanmou.com/unimate/assets/images/og-teaser.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2609.05415": {
+  "arxiv": "2609.05415",
+  "ok": true,
+  "type": "arxiv",
+  "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.05415"
+ },
+ "video:mp4:https://mesh-flow.github.io/assets/media/denoise_teaser.mp4": {
+  "url": "https://mesh-flow.github.io/assets/media/denoise_teaser.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://mesh-flow.github.io/assets/media/denoise_teaser.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://raw.githubusercontent.com/facebookresearch/meshflow/main/assets/teaser.png": {
+  "url": "https://raw.githubusercontent.com/facebookresearch/meshflow/main/assets/teaser.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2606.04621": {
+  "arxiv": "2606.04621",
+  "ok": true,
+  "type": "arxiv",
+  "title": "MeshFlow: Efficient Artistic Mesh Generation via MeshVAE and Flow-based Diffusion Transformer",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2606.04621"
+ },
+ "img:https://raw.githubusercontent.com/VAST-AI-Research/TripoSG/main/assets/doc/triposg_teaser.png": {
+  "url": "https://raw.githubusercontent.com/VAST-AI-Research/TripoSG/main/assets/doc/triposg_teaser.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2502.06608": {
+  "arxiv": "2502.06608",
+  "ok": true,
+  "type": "arxiv",
+  "title": "TripoSG: High-Fidelity 3D Shape Synthesis using Large-Scale Rectified Flow Models",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2502.06608"
+ },
+ "img:https://raw.githubusercontent.com/openai/shap-e/main/samples/a_chair_that_looks_like_an_avocado/2.gif": {
+  "url": "https://raw.githubusercontent.com/openai/shap-e/main/samples/a_chair_that_looks_like_an_avocado/2.gif",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/gif"
+ },
+ "img:https://raw.githubusercontent.com/openai/shap-e/main/samples/a_penguin/1.gif": {
+  "url": "https://raw.githubusercontent.com/openai/shap-e/main/samples/a_penguin/1.gif",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/gif"
+ },
+ "arxiv:2305.02463": {
+  "arxiv": "2305.02463",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Shap-E: Generating Conditional 3D Implicit Functions",
+  "year": 2023,
+  "url": "https://arxiv.org/abs/2305.02463"
+ },
+ "video:mp4:https://research.nvidia.com/labs/lpr/gator/assets/video/gator-overview.mp4": {
+  "url": "https://research.nvidia.com/labs/lpr/gator/assets/video/gator-overview.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://research.nvidia.com/labs/lpr/gator/assets/video/gator-overview.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://research.nvidia.com/labs/lpr/gator/assets/social-card.png": {
+  "url": "https://research.nvidia.com/labs/lpr/gator/assets/social-card.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2610.11215": {
+  "arxiv": "2610.11215",
+  "ok": true,
+  "type": "arxiv",
+  "title": "GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2610.11215"
+ },
+ "video:youtube:Y82bWkYKOMw": {
+  "url": "https://www.youtube.com/watch?v=Y82bWkYKOMw",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Y82bWkYKOMw",
+  "title": "Best Realtime Text-to-Speech Model in 2026 — Inworld TTS-2 Overview",
+  "author": "Inworld AI",
+  "thumbnail": "https://i.ytimg.com/vi/Y82bWkYKOMw/hqdefault.jpg"
+ },
+ "img:https://media.x.ai/v1/website/og-grok-voice-3-0-b281361b.webp": {
+  "url": "https://media.x.ai/v1/website/og-grok-voice-3-0-b281361b.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "video:youtube:L5IjgBBuCpg": {
+  "url": "https://www.youtube.com/watch?v=L5IjgBBuCpg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "L5IjgBBuCpg",
+  "title": "Fish Audio Drama 3 is Here",
+  "author": "Fish Audio",
+  "thumbnail": "https://i.ytimg.com/vi/L5IjgBBuCpg/hqdefault.jpg"
+ },
+ "video:x:2110360787780800611": {
+  "url": "https://x.com/MireloAI/status/2110360787780800611",
+  "ok": true,
+  "platform": "x",
+  "id": "2110360787780800611",
+  "author": "Mirelo",
+  "title": "AI Videos finally sound real.\n\nIntroducing Mirelo SFX 2.0.\n\nIt watches your video, cuts the music you never prompted, keeps the dialogue, and builds a full sound design synced to the action and consis",
+  "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2110360533803130880/img/5zr539rN6-iuzBZ8.jpg",
+  "has_video": true,
+  "date": "2026-10-14T13:23:15.000Z"
+ },
+ "img:https://mirelo.ai/marketing/blog/mirelo-sfx-2-0-hero.jpg": {
+  "url": "https://mirelo.ai/marketing/blog/mirelo-sfx-2-0-hero.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "video:youtube:WtPiZ0ym13k": {
+  "url": "https://www.youtube.com/watch?v=WtPiZ0ym13k",
+  "ok": true,
+  "platform": "youtube",
+  "id": "WtPiZ0ym13k",
+  "title": "Introducing Instant Soundtracks",
+  "author": "ElevenLabs",
+  "thumbnail": "https://i.ytimg.com/vi/WtPiZ0ym13k/hqdefault.jpg"
+ },
+ "img:https://eleven-public-cdn.elevenlabs.io/payloadcms/sm49fesxdni-Blog-cover.webp": {
+  "url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/sm49fesxdni-Blog-cover.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "video:youtube:_lHvWn2SNC4": {
+  "url": "https://www.youtube.com/watch?v=_lHvWn2SNC4",
+  "ok": true,
+  "platform": "youtube",
+  "id": "_lHvWn2SNC4",
+  "title": "Suno v6 Is Here: Everything You Need to Know",
+  "author": "Suno Music",
+  "thumbnail": "https://i.ytimg.com/vi/_lHvWn2SNC4/hqdefault.jpg"
+ },
+ "img:https://suno.com/blog/introducing-v6/opengraph-image?4a0be6b3238f1ddc": {
+  "url": "https://suno.com/blog/introducing-v6/opengraph-image?4a0be6b3238f1ddc",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "img:https://file.cdn.minimax.io/public/32b0b01d-d945-4c9d-a8e0-8bb9204737c2.png": {
+  "url": "https://file.cdn.minimax.io/public/32b0b01d-d945-4c9d-a8e0-8bb9204737c2.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "video:youtube:-iTkqXlhLK8": {
+  "url": "https://www.youtube.com/watch?v=-iTkqXlhLK8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "-iTkqXlhLK8",
+  "title": "Qwen3.5-Omni: Scaling Up to a Native Omni-Modal AGI",
+  "author": "Tongyi Lab",
+  "thumbnail": "https://i.ytimg.com/vi/-iTkqXlhLK8/hqdefault.jpg"
+ },
+ "arxiv:2604.15804": {
+  "arxiv": "2604.15804",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Qwen3.5-Omni Technical Report",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2604.15804"
+ },
+ "video:mp4:https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/overview-ust-l4-smaller-hq-20261007-v1/h264/overview.mp4": {
+  "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/overview-ust-l4-smaller-hq-20261007-v1/h264/overview.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/overview-ust-l4-smaller-hq-20261007-v1/h264/overview.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://noizai.github.io/WorldSonus/assets/method-overview-v27.png": {
+  "url": "https://noizai.github.io/WorldSonus/assets/method-overview-v27.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2610.08760": {
+  "arxiv": "2610.08760",
+  "ok": true,
+  "type": "arxiv",
+  "title": "WorldSonus: Bringing Sound to Worlds",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2610.08760"
+ },
+ "img:https://arxiv.org/html/2609.38444v1/img/Picture2.png": {
+  "url": "https://arxiv.org/html/2609.38444v1/img/Picture2.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2609.38444": {
+  "arxiv": "2609.38444",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Audible World Models: Spatially Aware Sound Generation for 3D Worlds",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.38444"
+ },
+ "video:mp4:https://huggingface.co/spaces/CuriousAlien000/spatial-audio-360-demo/resolve/main/media/elephant/elephant_acoustic.mp4": {
+  "url": "https://huggingface.co/spaces/CuriousAlien000/spatial-audio-360-demo/resolve/main/media/elephant/elephant_acoustic.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://huggingface.co/spaces/CuriousAlien000/spatial-audio-360-demo/resolve/main/media/elephant/elephant_acoustic.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://arxiv.org/html/2609.36295v1/teaser_v2.png": {
+  "url": "https://arxiv.org/html/2609.36295v1/teaser_v2.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2609.36295": {
+  "arxiv": "2609.36295",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Enabling Immersive Audio-Visual Experience from Any Video",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.36295"
+ },
+ "video:mp4:https://vivocameraresearch.github.io/Stereo-Bind-Project/media/case-video.mp4": {
+  "url": "https://vivocameraresearch.github.io/Stereo-Bind-Project/media/case-video.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://vivocameraresearch.github.io/Stereo-Bind-Project/media/case-video.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://vivocameraresearch.github.io/Stereo-Bind-Project/media/teaser.jpg": {
+  "url": "https://vivocameraresearch.github.io/Stereo-Bind-Project/media/teaser.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2609.38748": {
+  "arxiv": "2609.38748",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Hear the World in Stereo: Learning Dynamic Spatial Correspondence for Immersive Joint Video-Audio Generation",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.38748"
+ },
+ "video:mp4:https://raw.githubusercontent.com/ThinkSound-Demo/ThinkSound-Demo.github.io/main/interactive/iter1/_8JGpCc5RI8_000160_stage1.mp4": {
+  "url": "https://raw.githubusercontent.com/ThinkSound-Demo/ThinkSound-Demo.github.io/main/interactive/iter1/_8JGpCc5RI8_000160_stage1.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://raw.githubusercontent.com/ThinkSound-Demo/ThinkSound-Demo.github.io/main/interactive/iter1/_8JGpCc5RI8_000160_stage1.mp4",
+  "content_type": "application/octet-stream"
+ },
+ "arxiv:2506.21448": {
+  "arxiv": "2506.21448",
+  "ok": true,
+  "type": "arxiv",
+  "title": "ThinkSound: Chain-of-Thought Reasoning in Multimodal Large Language Models for Audio Generation and Editing",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2506.21448"
+ },
+ "video:mp4:https://p2-kling.klingai.com/kcdn/cdn-kcdn112595/00.mp4": {
+  "url": "https://p2-kling.klingai.com/kcdn/cdn-kcdn112595/00.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://p2-kling.klingai.com/kcdn/cdn-kcdn112595/00.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://klingfoley.github.io/Kling-Foley/static/image/kling.png": {
+  "url": "https://klingfoley.github.io/Kling-Foley/static/image/kling.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2506.19774": {
+  "arxiv": "2506.19774",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Kling-Foley: Multimodal Diffusion Transformer for High-Quality Video-to-Audio Generation",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2506.19774"
+ },
+ "video:vimeo:1188576972": {
+  "url": "https://vimeo.com/1188576972",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "1188576972",
+  "embeddable": true,
+  "title": "Passing",
+  "thumbnail": "https://i.vimeocdn.com/video/2155581354-24364f4198bc061e2b2bf4bb4fb9aae5a81bcaca0a0a523303e2659a2670891f-d?f=webp&region=us"
+ },
+ "img:https://live.staticflickr.com/65535/55220401637_78df0d4611_b.jpg": {
+  "url": "https://live.staticflickr.com/65535/55220401637_78df0d4611_b.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2609.27489": {
+  "arxiv": "2609.27489",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Passing: An Endless Journey through Reconstructed Spacetime with AI-Generated Sound",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.27489"
+ },
+ "video:mp4:https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/nqVLpNNIjrfo9GQS/TTSfinal.webm": {
+  "url": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/nqVLpNNIjrfo9GQS/TTSfinal.webm",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/nqVLpNNIjrfo9GQS/TTSfinal.webm",
+  "content_type": "video/webm"
+ },
+ "video:youtube:xdPIwgDriTg": {
+  "url": "https://www.youtube.com/watch?v=xdPIwgDriTg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "xdPIwgDriTg",
+  "title": "Introducing Gemini's speech-to-speech translation capabilities",
+  "author": "Google",
+  "thumbnail": "https://i.ytimg.com/vi/xdPIwgDriTg/hqdefault.jpg"
+ },
+ "img:https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio-flash__keyword_meta__dark.width-1300.png": {
+  "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio-flash__keyword_meta__dark.width-1300.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "video:mp4:https://stepaudiollm.github.io/step-audio-3-realtime/assets/hero.mp4?v=37c74f6a": {
+  "url": "https://stepaudiollm.github.io/step-audio-3-realtime/assets/hero.mp4?v=37c74f6a",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://stepaudiollm.github.io/step-audio-3-realtime/assets/hero.mp4?v=37c74f6a",
+  "content_type": "video/mp4"
+ },
+ "img:https://arxiv.org/html/2609.14005v3/stepaudio3-realtime-main-results.png": {
+  "url": "https://arxiv.org/html/2609.14005v3/stepaudio3-realtime-main-results.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2609.14005": {
+  "arxiv": "2609.14005",
+  "ok": true,
+  "type": "arxiv",
+  "title": "StepAudio 3 Realtime Technical Report",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.14005"
+ },
+ "video:mp4:https://stepaudiollm.github.io/step-audio-3-gen/video/gen-hero-overview.mp4": {
+  "url": "https://stepaudiollm.github.io/step-audio-3-gen/video/gen-hero-overview.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://stepaudiollm.github.io/step-audio-3-gen/video/gen-hero-overview.mp4",
+  "content_type": "video/mp4"
+ },
+ "arxiv:2609.12945": {
+  "arxiv": "2609.12945",
+  "ok": true,
+  "type": "arxiv",
+  "title": "StepAudio 3 Gen Technical Report",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.12945"
+ },
+ "video:youtube:Rno7SlzOPh8": {
+  "url": "https://www.youtube.com/watch?v=Rno7SlzOPh8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Rno7SlzOPh8",
+  "title": "Introducing Seed Speech 2.0",
+  "author": "BytePlus",
+  "thumbnail": "https://i.ytimg.com/vi/Rno7SlzOPh8/hqdefault.jpg"
+ },
+ "img:https://sf-bpcms.bytepluscdn.com/obj/byteplus-public-aiso/onebyte/seedspeech-kv-a193a405-a1a1-493f-90c8-986aad92486c.png": {
+  "url": "https://sf-bpcms.bytepluscdn.com/obj/byteplus-public-aiso/onebyte/seedspeech-kv-a193a405-a1a1-493f-90c8-986aad92486c.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "video:youtube:qaaaXWs_bMg": {
+  "url": "https://www.youtube.com/watch?v=qaaaXWs_bMg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "qaaaXWs_bMg",
+  "title": "Gradium",
+  "author": "Gradium AI",
+  "thumbnail": "https://i.ytimg.com/vi/qaaaXWs_bMg/hqdefault.jpg"
+ },
+ "video:x:2102919552254484765": {
+  "url": "https://x.com/alexandr_wang/status/2102919552254484765",
+  "ok": true,
+  "platform": "x",
+  "id": "2102919552254484765",
+  "author": "Alexandr Wang",
+  "title": "MUSE RESEARCH ALERT:\n1/ meet Muse Realtime Avatar, the state-of-the-art model that brings your muse to life alongside Muse Realtime Voice! it animates your muse as it talks to you. voice &amp; video a",
+  "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2102919475582656512/img/dXDyrAX-4kCbt0DH.jpg",
+  "has_video": true,
+  "date": "2026-09-24T00:34:26.000Z"
+ },
+ "img:https://research.meta.ai/articles/bringing-your-muse-to-life/images/muse-realtime-avatar-character-introduction-first-frame-v3.webp": {
+  "url": "https://research.meta.ai/articles/bringing-your-muse-to-life/images/muse-realtime-avatar-character-introduction-first-frame-v3.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "img:https://research.meta.ai/articles/bringing-your-muse-to-life/images/muse-realtime-avatar-streaming-architecture-v3.webp": {
+  "url": "https://research.meta.ai/articles/bringing-your-muse-to-life/images/muse-realtime-avatar-streaming-architecture-v3.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "video:mp4:https://about.fb.com/wp-content/uploads/2026/09/02_Hologram.mp4": {
+  "url": "https://about.fb.com/wp-content/uploads/2026/09/02_Hologram.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://about.fb.com/wp-content/uploads/2026/09/02_Hologram.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://about.fb.com/wp-content/uploads/2026/09/New-Features-for-Meta-Ray-Ban-Display_Header.jpg?w=1200": {
+  "url": "https://about.fb.com/wp-content/uploads/2026/09/New-Features-for-Meta-Ray-Ban-Display_Header.jpg?w=1200",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "video:youtube:kiwPrAjFGWo": {
+  "url": "https://www.youtube.com/watch?v=kiwPrAjFGWo",
+  "ok": true,
+  "platform": "youtube",
+  "id": "kiwPrAjFGWo",
+  "title": "Introducing Runway Characters | Runway",
+  "author": "Runway",
+  "thumbnail": "https://i.ytimg.com/vi/kiwPrAjFGWo/hqdefault.jpg"
+ },
+ "img:https://d3phaj0sisr2ct.cloudfront.net/site/images/news/characters-hero-og.png": {
+  "url": "https://d3phaj0sisr2ct.cloudfront.net/site/images/news/characters-hero-og.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "video:youtube:OGbsSuHLuMc": {
+  "url": "https://www.youtube.com/watch?v=OGbsSuHLuMc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "OGbsSuHLuMc",
+  "title": "HeyGen Avatar V: Every Feature Explained — New AI Avatar Overview (2026)",
+  "author": "HeyGen",
+  "thumbnail": "https://i.ytimg.com/vi/OGbsSuHLuMc/hqdefault.jpg"
+ },
+ "img:https://cdn.sanity.io/images/pdhqcmb1/production/2f2a72c9868deb43e26d3ef8a98f7af938632fa4-5760x3240.png?fit=max&fm=png": {
+  "url": "https://cdn.sanity.io/images/pdhqcmb1/production/2f2a72c9868deb43e26d3ef8a98f7af938632fa4-5760x3240.png?fit=max&fm=png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "video:mp4:https://avatar-agent.tos-cn-beijing.volces.com/flowact-r2-project-clean-20260920/static/videos/entertainment_final_danmaku_only/chat4_faststart.mp4": {
+  "url": "https://avatar-agent.tos-cn-beijing.volces.com/flowact-r2-project-clean-20260920/static/videos/entertainment_final_danmaku_only/chat4_faststart.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://avatar-agent.tos-cn-beijing.volces.com/flowact-r2-project-clean-20260920/static/videos/entertainment_final_danmaku_only/chat4_faststart.mp4",
+  "content_type": "video/mp4"
+ },
+ "arxiv:2609.35728": {
+  "arxiv": "2609.35728",
+  "ok": true,
+  "type": "arxiv",
+  "title": "FlowAct-R2: Beyond Talking Avatar via Streaming Multimodal References and Proactive Agent Planning",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.35728"
+ },
+ "video:mp4:https://meigen-ai.github.io/LongCat-Video-Avatar-1.5-Page/videos/teaser/teaser.mp4": {
+  "url": "https://meigen-ai.github.io/LongCat-Video-Avatar-1.5-Page/videos/teaser/teaser.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://meigen-ai.github.io/LongCat-Video-Avatar-1.5-Page/videos/teaser/teaser.mp4",
+  "content_type": "video/mp4"
+ },
+ "video:youtube:oIW3ZooWaQw": {
+  "url": "https://www.youtube.com/watch?v=oIW3ZooWaQw",
+  "ok": true,
+  "platform": "youtube",
+  "id": "oIW3ZooWaQw",
+  "title": "FiCA: Feed-forward instant Gaussian Codec Avatars from a Single Portrait Image",
+  "author": "Kim Youwang",
+  "thumbnail": "https://i.ytimg.com/vi/oIW3ZooWaQw/hqdefault.jpg"
+ },
+ "arxiv:2606.24232": {
+  "arxiv": "2606.24232",
+  "ok": true,
+  "type": "arxiv",
+  "title": "FiCA: Feed-forward instant Gaussian Codec Avatars from a Single Portrait Image",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2606.24232"
+ },
+ "video:youtube:rHMcwFDAh-Y": {
+  "url": "https://www.youtube.com/watch?v=rHMcwFDAh-Y",
+  "ok": true,
+  "platform": "youtube",
+  "id": "rHMcwFDAh-Y",
+  "title": "ECCV 2026 | EmbodiedHead: Real-Time Listening and Speaking Avatar for Conversational Agents",
+  "author": "zealYOU",
+  "thumbnail": "https://i.ytimg.com/vi/rHMcwFDAh-Y/hqdefault.jpg"
+ },
+ "arxiv:2604.17211": {
+  "arxiv": "2604.17211",
+  "ok": true,
+  "type": "arxiv",
+  "title": "EmbodiedHead: Real-Time Listening and Speaking Avatar for Conversational Agents",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2604.17211"
+ },
+ "video:mp4:https://kartik-teotia.github.io/STEER/assets/videos/hero-control-with-input.mp4": {
+  "url": "https://kartik-teotia.github.io/STEER/assets/videos/hero-control-with-input.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://kartik-teotia.github.io/STEER/assets/videos/hero-control-with-input.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://kartik-teotia.github.io/STEER/assets/images/og.png": {
+  "url": "https://kartik-teotia.github.io/STEER/assets/images/og.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2607.23840": {
+  "arxiv": "2607.23840",
+  "ok": true,
+  "type": "arxiv",
+  "title": "STEER: Steerable Dyadic Head Avatars",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2607.23840"
+ },
+ "img:https://raw.githubusercontent.com/lzk901372/glare/main/overview.png": {
+  "url": "https://raw.githubusercontent.com/lzk901372/glare/main/overview.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2609.40317": {
+  "arxiv": "2609.40317",
+  "ok": true,
+  "type": "arxiv",
+  "title": "GLARE: Generating Listening Heads with Appropriate Reactions",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.40317"
+ },
+ "video:mp4:https://step-out.github.io/Motion-Omni-Page/videos/demo1_feedback_to_interns.mp4": {
+  "url": "https://step-out.github.io/Motion-Omni-Page/videos/demo1_feedback_to_interns.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://step-out.github.io/Motion-Omni-Page/videos/demo1_feedback_to_interns.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://step-out.github.io/Motion-Omni-Page/assets/architecture.png": {
+  "url": "https://step-out.github.io/Motion-Omni-Page/assets/architecture.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2609.04250": {
+  "arxiv": "2609.04250",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.04250"
+ },
+ "img:https://arxiv.org/html/2606.21970v1/overall.png": {
+  "url": "https://arxiv.org/html/2606.21970v1/overall.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "img:https://arxiv.org/html/2606.21970v1/sample.png": {
+  "url": "https://arxiv.org/html/2606.21970v1/sample.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2606.21970": {
+  "arxiv": "2606.21970",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Integrating Facial Generation into Full-Duplex Spoken Dialogue Systems",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2606.21970"
+ },
+ "img:https://arxiv.org/html/2608.19527v1/interface-crop.png": {
+  "url": "https://arxiv.org/html/2608.19527v1/interface-crop.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "img:https://arxiv.org/html/2608.19527v1/system-crop.png": {
+  "url": "https://arxiv.org/html/2608.19527v1/system-crop.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2608.19527": {
+  "arxiv": "2608.19527",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Does Listening Matter? Backchanneling and Nodding in AI Clone",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2608.19527"
+ },
+ "video:mp4:https://congwei1230.github.io/MoCha/assets/2p/2p_2clip_2talk/2p_2clip_2talk_woman_man_street_2.mp4": {
+  "url": "https://congwei1230.github.io/MoCha/assets/2p/2p_2clip_2talk/2p_2clip_2talk_woman_man_street_2.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://congwei1230.github.io/MoCha/assets/2p/2p_2clip_2talk/2p_2clip_2talk_woman_man_street_2.mp4",
+  "content_type": "video/mp4"
+ },
+ "arxiv:2503.23307": {
+  "arxiv": "2503.23307",
+  "ok": true,
+  "type": "arxiv",
+  "title": "MoCha: Towards Movie-Grade Talking Character Synthesis",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2503.23307"
+ },
+ "video:youtube:tivEpz_yiEo": {
+  "url": "https://www.youtube.com/watch?v=tivEpz_yiEo",
+  "ok": true,
+  "platform": "youtube",
+  "id": "tivEpz_yiEo",
+  "title": "LHM: Large Animatable Human Reconstruction Model for Single Image to 3D in Seconds",
+  "author": "Qiu Lingteng",
+  "thumbnail": "https://i.ytimg.com/vi/tivEpz_yiEo/hqdefault.jpg"
+ },
+ "arxiv:2503.10625": {
+  "arxiv": "2503.10625",
+  "ok": true,
+  "type": "arxiv",
+  "title": "LHM: Large Animatable Human Reconstruction Model from a Single Image in Seconds",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2503.10625"
+ },
+ "video:youtube:QU_ItB4p_zc": {
+  "url": "https://www.youtube.com/watch?v=QU_ItB4p_zc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "QU_ItB4p_zc",
+  "title": "Virtual Human Toolkit Demo - IVA 2026",
+  "author": "Arno Hartholt",
+  "thumbnail": "https://i.ytimg.com/vi/QU_ItB4p_zc/hqdefault.jpg"
+ },
+ "img:https://vhtoolkitwww.ict.usc.edu/demo/VHToolkit_July2026.png": {
+  "url": "https://vhtoolkitwww.ict.usc.edu/demo/VHToolkit_July2026.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "doi:10.1145/3806774.3832327": {
+  "doi": "10.1145/3806774.3832327",
+  "ok": true,
+  "type": "doi",
+  "title": "Demonstrating the Open Virtual Human Toolkit: Any Character, Any Technology, Anywhere",
+  "year": 2026,
+  "venue": "Proceedings of the 26th ACM International Conference on Intelligent Virtual Agents",
+  "url": "https://doi.org/10.1145/3806774.3832327"
+ },
+ "video:youtube:9h2_L9E2KjE": {
+  "url": "https://www.youtube.com/watch?v=9h2_L9E2KjE",
+  "ok": true,
+  "platform": "youtube",
+  "id": "9h2_L9E2KjE",
+  "title": "[CVPR'26] Archon: A Unified Multimodal Model for Holistic Digital Human Generation",
+  "author": "Chong Bao",
+  "thumbnail": "https://i.ytimg.com/vi/9h2_L9E2KjE/hqdefault.jpg"
+ },
+ "img:https://zju3dv.github.io/archon/static/framework_cropped.jpg": {
+  "url": "https://zju3dv.github.io/archon/static/framework_cropped.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2605.30311": {
+  "arxiv": "2605.30311",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Archon: A Unified Multimodal Model for Holistic Digital Human Generation",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2605.30311"
+ },
+ "img:https://raw.githubusercontent.com/bytedance/SALMONN/ELLSA2/code/assets/paper/architecture.png": {
+  "url": "https://raw.githubusercontent.com/bytedance/SALMONN/ELLSA2/code/assets/paper/architecture.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "img:https://arxiv.org/html/2610.21452v1/seg_1.png": {
+  "url": "https://arxiv.org/html/2610.21452v1/seg_1.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2610.21452": {
+  "arxiv": "2610.21452",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Full-Duplex Interaction with Speech, Expressions and Gestures",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2610.21452"
+ },
+ "video:mp4:https://storage.googleapis.com/gweb-research2023-media/media/AgentHands1_Demo.mp4": {
+  "url": "https://storage.googleapis.com/gweb-research2023-media/media/AgentHands1_Demo.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://storage.googleapis.com/gweb-research2023-media/media/AgentHands1_Demo.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg": {
+  "url": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "doi:10.1145/3772318.3790938": {
+  "doi": "10.1145/3772318.3790938",
+  "ok": true,
+  "type": "doi",
+  "title": "AgentHands: Generating Interactive Hand Gestures for Spatially Grounded Agent Conversations in XR",
+  "year": 2026,
+  "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+  "url": "https://doi.org/10.1145/3772318.3790938"
+ },
+ "video:youtube:4s5NDsyt6V4": {
+  "url": "https://www.youtube.com/watch?v=4s5NDsyt6V4",
+  "ok": true,
+  "platform": "youtube",
+  "id": "4s5NDsyt6V4",
+  "title": "FutureU (English)",
+  "author": "MPI for the Study of Crime, Security and Law",
+  "thumbnail": "https://i.ytimg.com/vi/4s5NDsyt6V4/hqdefault.jpg"
+ },
+ "doi:10.2196/84420": {
+  "doi": "10.2196/84420",
+  "ok": true,
+  "type": "doi",
+  "title": "Stimulating Future-Oriented Thinking and Goal-Achievement Through the Future Self Using Virtual Reality and a Smartphone App: Randomized Controlled Trial",
+  "year": 2026,
+  "venue": "Journal of Medical Internet Research",
+  "url": "https://doi.org/10.2196/84420"
+ },
+ "video:youtube:ZH3XgnpBGHM": {
+  "url": "https://www.youtube.com/watch?v=ZH3XgnpBGHM",
+  "ok": true,
+  "platform": "youtube",
+  "id": "ZH3XgnpBGHM",
+  "title": "Using Virtual Reality to Improve Policing",
+  "author": "SociologistRay",
+  "thumbnail": "https://i.ytimg.com/vi/ZH3XgnpBGHM/hqdefault.jpg"
+ },
+ "arxiv:2608.05050": {
+  "arxiv": "2608.05050",
+  "ok": true,
+  "type": "arxiv",
+  "title": "The Effect of Perceived Race and Gender on Police Language Use: Experimental Evidence from VR Simulations",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2608.05050"
+ },
+ "video:youtube:1aSmlWFmQNQ": {
+  "url": "https://www.youtube.com/watch?v=1aSmlWFmQNQ",
+  "ok": true,
+  "platform": "youtube",
+  "id": "1aSmlWFmQNQ",
+  "title": "What Makes a Virtual Celebrity Agent Trustworthy in VR? Exploring the ...",
+  "author": "IEEE Virtual Reality Conference",
+  "thumbnail": "https://i.ytimg.com/vi/1aSmlWFmQNQ/hqdefault.jpg"
+ },
+ "doi:10.1109/tvcg.2026.3680715": {
+  "doi": "10.1109/tvcg.2026.3680715",
+  "ok": true,
+  "type": "doi",
+  "title": "What Makes a Virtual Celebrity Agent Trustworthy in VR? Exploring the Role of Stylization and Voice",
+  "year": 2026,
+  "venue": "IEEE Transactions on Visualization and Computer Graphics",
+  "url": "https://doi.org/10.1109/tvcg.2026.3680715"
+ },
+ "img:https://www.frontiersin.org/files/Articles/1886780/xml-images/fpsyg-17-1886780-g0001.webp": {
+  "url": "https://www.frontiersin.org/files/Articles/1886780/xml-images/fpsyg-17-1886780-g0001.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "img:https://www.frontiersin.org/files/Articles/1886780/xml-images/fpsyg-17-1886780-g0002.webp": {
+  "url": "https://www.frontiersin.org/files/Articles/1886780/xml-images/fpsyg-17-1886780-g0002.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "doi:10.3389/fpsyg.2026.1886780": {
+  "doi": "10.3389/fpsyg.2026.1886780",
+  "ok": true,
+  "type": "doi",
+  "title": "Designing and evaluating LLM-driven coaching agents for VR public speaking practice",
+  "year": 2026,
+  "venue": "Frontiers in Psychology",
+  "url": "https://doi.org/10.3389/fpsyg.2026.1886780"
+ },
+ "video:youtube:KMgAFx1MHmg": {
+  "url": "https://www.youtube.com/watch?v=KMgAFx1MHmg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "KMgAFx1MHmg",
+  "title": "XR Access Symposium 2023 | 04 The Virtual Experience Research Accelerator",
+  "author": "XR Access",
+  "thumbnail": "https://i.ytimg.com/vi/KMgAFx1MHmg/hqdefault.jpg"
+ },
+ "img:https://arxiv.org/html/2609.26203v1/figs/CybersickerInCart4.png": {
+  "url": "https://arxiv.org/html/2609.26203v1/figs/CybersickerInCart4.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2609.26203": {
+  "arxiv": "2609.26203",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Beyond the Lab: Large-Scale Remote Cybersickness Research in Virtual Reality Using the VERA Platform",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.26203"
+ },
+ "img:https://arxiv.org/html/2608.07521v1/teaser.png": {
+  "url": "https://arxiv.org/html/2608.07521v1/teaser.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2608.07521": {
+  "arxiv": "2608.07521",
+  "ok": true,
+  "type": "arxiv",
+  "title": "CyberSelf: Embodied Self-Distancing for Emotional Support in Virtual Reality",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2608.07521"
+ },
+ "video:youtube:PdUq-_6ba5s": {
+  "url": "https://www.youtube.com/watch?v=PdUq-_6ba5s",
+  "ok": true,
+  "platform": "youtube",
+  "id": "PdUq-_6ba5s",
+  "title": "An elephant in the room amplifies discomfort when the virtual reality space matches physical reality",
+  "author": "Mel Slater",
+  "thumbnail": "https://i.ytimg.com/vi/PdUq-_6ba5s/hqdefault.jpg"
+ },
+ "doi:10.1016/j.isci.2026.115951": {
+  "doi": "10.1016/j.isci.2026.115951",
+  "ok": true,
+  "type": "doi",
+  "title": "An elephant in the room amplifies discomfort when the virtual reality space matches physical reality",
+  "year": 2026,
+  "venue": "iScience",
+  "url": "https://doi.org/10.1016/j.isci.2026.115951"
+ },
+ "video:youtube:T2p8UqTWN84": {
+  "url": "https://www.youtube.com/watch?v=T2p8UqTWN84",
+  "ok": true,
+  "platform": "youtube",
+  "id": "T2p8UqTWN84",
+  "title": "A Virtual Night Out - Using Virtual Reality to Study Aggressive Behavior (long version)",
+  "author": "MPI for the Study of Crime, Security and Law",
+  "thumbnail": "https://i.ytimg.com/vi/T2p8UqTWN84/hqdefault.jpg"
+ },
+ "doi:10.1007/s11292-024-09645-6": {
+  "doi": "10.1007/s11292-024-09645-6",
+  "ok": true,
+  "type": "doi",
+  "title": "The MAXLab aggression and bystander intervention scenario set (MAXLab_ABISS): A modular scenario set for studying decision making in situations of interpersonal violence in virtual reality",
+  "year": 2026,
+  "venue": "Journal of Experimental Criminology",
+  "url": "https://doi.org/10.1007/s11292-024-09645-6"
+ },
+ "video:youtube:eFVottnTn-w": {
+  "url": "https://www.youtube.com/watch?v=eFVottnTn-w",
+  "ok": true,
+  "platform": "youtube",
+  "id": "eFVottnTn-w",
+  "title": "Episode 3: Floreo VR: Police Interaction and Safety",
+  "author": "Utah Parent Center",
+  "thumbnail": "https://i.ytimg.com/vi/eFVottnTn-w/hqdefault.jpg"
+ },
+ "doi:10.1007/s10803-026-07339-8": {
+  "doi": "10.1007/s10803-026-07339-8",
+  "ok": true,
+  "type": "doi",
+  "title": "Virtual Reality Intervention to Empower Autistic People to Interact With Police: A Randomized Controlled Clinical Trial for Autistic Teens and Adults",
+  "year": 2026,
+  "venue": "Journal of Autism and Developmental Disorders",
+  "url": "https://doi.org/10.1007/s10803-026-07339-8"
+ },
+ "video:youtube:54krjoYva5Q": {
+  "url": "https://www.youtube.com/watch?v=54krjoYva5Q",
+  "ok": true,
+  "platform": "youtube",
+  "id": "54krjoYva5Q",
+  "title": "Generative AI-Based Environment-Grounded VR Communication Training for Autistic Individuals",
+  "author": "Roshan Peiris",
+  "thumbnail": "https://i.ytimg.com/vi/54krjoYva5Q/hqdefault.jpg"
+ },
+ "img:https://arxiv.org/html/2609.28812v1/Group49.png": {
+  "url": "https://arxiv.org/html/2609.28812v1/Group49.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2609.28812": {
+  "arxiv": "2609.28812",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Signals of AI Hallucination: Designing Hallucination-Aware Cues for Embodied Conversational Agents in VR",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.28812"
+ },
+ "video:youtube:8BwQu8oS8XY": {
+  "url": "https://www.youtube.com/watch?v=8BwQu8oS8XY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "8BwQu8oS8XY",
+  "title": "Online launch of the AVATAR2 trial",
+  "author": "King's College London",
+  "thumbnail": "https://i.ytimg.com/vi/8BwQu8oS8XY/hqdefault.jpg"
+ },
+ "doi:10.1038/s41591-024-03252-8": {
+  "doi": "10.1038/s41591-024-03252-8",
+  "ok": true,
+  "type": "doi",
+  "title": "Digital AVATAR therapy for distressing voices in psychosis: the phase 2/3 AVATAR2 trial",
+  "year": 2024,
+  "venue": "Nature Medicine",
+  "url": "https://doi.org/10.1038/s41591-024-03252-8"
+ },
+ "doi:10.1177/0146167203029007002": {
+  "doi": "10.1177/0146167203029007002",
+  "ok": true,
+  "type": "doi",
+  "title": "Interpersonal Distance in Immersive Virtual Environments",
+  "year": 2003,
+  "venue": "Personality and Social Psychology Bulletin",
+  "url": "https://doi.org/10.1177/0146167203029007002"
+ },
+ "img:https://journals.plos.org/plosone/article/figure/image?size=inline&id=10.1371/journal.pone.0055003.g001": {
+  "url": "https://journals.plos.org/plosone/article/figure/image?size=inline&id=10.1371/journal.pone.0055003.g001",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "doi:10.1371/journal.pone.0055003": {
+  "doi": "10.1371/journal.pone.0055003",
+  "ok": true,
+  "type": "doi",
+  "title": "Virtual Superheroes: Using Superpowers in Virtual Reality to Encourage Prosocial Behavior",
+  "year": 2013,
+  "venue": "PLoS ONE",
+  "url": "https://doi.org/10.1371/journal.pone.0055003"
+ },
+ "img:https://www.frontiersin.org/files/Articles/204625/xml-images/frobt-03-00043-g001.webp": {
+  "url": "https://www.frontiersin.org/files/Articles/204625/xml-images/frobt-03-00043-g001.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "doi:10.3389/frobt.2016.00043": {
+  "doi": "10.3389/frobt.2016.00043",
+  "ok": true,
+  "type": "doi",
+  "title": "Social Influence on Evacuation Behavior in Real and Virtual Environments",
+  "year": 2016,
+  "venue": "Frontiers in Robotics and AI",
+  "url": "https://doi.org/10.3389/frobt.2016.00043"
+ },
+ "video:youtube:8Oy83OVgbSM": {
+  "url": "https://www.youtube.com/watch?v=8Oy83OVgbSM",
+  "ok": true,
+  "platform": "youtube",
+  "id": "8Oy83OVgbSM",
+  "title": "Illusory ownership of a virtual child body",
+  "author": "Mel Slater",
+  "thumbnail": "https://i.ytimg.com/vi/8Oy83OVgbSM/hqdefault.jpg"
+ },
+ "doi:10.1073/pnas.1306779110": {
+  "doi": "10.1073/pnas.1306779110",
+  "ok": true,
+  "type": "doi",
+  "title": "Illusory ownership of a virtual child body causes overestimation of object sizes and implicit attitude changes",
+  "year": 2013,
+  "venue": "Proceedings of the National Academy of Sciences",
+  "url": "https://doi.org/10.1073/pnas.1306779110"
+ },
+ "doi:10.1016/j.chbr.2026.101194": {
+  "doi": "10.1016/j.chbr.2026.101194",
+  "ok": true,
+  "type": "doi",
+  "title": "Toolboxes for creating immersive virtual reality experiments in psychological, behavioral, and cognitive research: A scoping review",
+  "year": 2026,
+  "venue": "Computers in Human Behavior Reports",
+  "url": "https://doi.org/10.1016/j.chbr.2026.101194"
+ },
+ "doi:10.1002/cav.70129": {
+  "doi": "10.1002/cav.70129",
+  "ok": true,
+  "type": "doi",
+  "title": "Virtual Human for Police Training in Virtual Reality: A Dynamic Model of a Suspect With Modulated Resistance and Means",
+  "year": 2026,
+  "venue": "Computer Animation and Virtual Worlds",
+  "url": "https://doi.org/10.1002/cav.70129"
+ },
+ "doi:10.1109/aixvr67263.2026.00014": {
+  "doi": "10.1109/aixvr67263.2026.00014",
+  "ok": true,
+  "type": "doi",
+  "title": "EmSim: AI-Driven VR Simulation for De-Escalation Training in Law Enforcement",
+  "year": 2026,
+  "venue": "2026 IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality (AIxVR)",
+  "url": "https://doi.org/10.1109/aixvr67263.2026.00014"
+ },
+ "doi:10.2196/90938": {
+  "doi": "10.2196/90938",
+  "ok": true,
+  "type": "doi",
+  "title": "Effects of Generative AI–Supported Virtual Reality Dental Skill Training on Learning Performance, Visual Behavior, and Cortical Activation Among Dental Students: Stratified Randomized Controlled Trial",
+  "year": 2026,
+  "venue": "Journal of Medical Internet Research",
+  "url": "https://doi.org/10.2196/90938"
+ },
+ "doi:10.1109/tvcg.2026.3679103": {
+  "doi": "10.1109/tvcg.2026.3679103",
+  "ok": true,
+  "type": "doi",
+  "title": "Exploring Mediation by an Embodied Virtual Agent in Immersive Triadic Collaborative Decision-Making",
+  "year": 2026,
+  "venue": "IEEE Transactions on Visualization and Computer Graphics",
+  "url": "https://doi.org/10.1109/tvcg.2026.3679103"
+ },
+ "video:mp4:https://horizonjohn.github.io/PartInteractor/static/videos/PartInteractor.mp4": {
+  "url": "https://horizonjohn.github.io/PartInteractor/static/videos/PartInteractor.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://horizonjohn.github.io/PartInteractor/static/videos/PartInteractor.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://horizonjohn.github.io/PartInteractor/static/images/application.png": {
+  "url": "https://horizonjohn.github.io/PartInteractor/static/images/application.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2608.01335": {
+  "arxiv": "2608.01335",
+  "ok": true,
+  "type": "arxiv",
+  "title": "PartInteractor: Intent-Driven Part-Aware 3D Authoring for Continuous Co-Creation in XR",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2608.01335"
+ },
+ "video:youtube:Es6SDpbiyM8": {
+  "url": "https://www.youtube.com/watch?v=Es6SDpbiyM8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Es6SDpbiyM8",
+  "title": "Nevatars | Official Trailer",
+  "author": "Boona Media",
+  "thumbnail": "https://i.ytimg.com/vi/Es6SDpbiyM8/hqdefault.jpg"
+ },
+ "img:https://static.labiennale.org/files/styles/seo_thumbnail/public/cinema/2026/Schede_film/970x647/Ve_Immersive/nevatars2.jpg?itok=j3wvW8K0": {
+  "url": "https://static.labiennale.org/files/styles/seo_thumbnail/public/cinema/2026/Schede_film/970x647/Ve_Immersive/nevatars2.jpg?itok=j3wvW8K0",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "img:https://static.labiennale.org/files/styles/seo_thumbnail/public/cinema/2026/Schede_film/970x647/Ve_Immersive/galapagos_the_last_eden.jpg?itok=2TXE0uhw": {
+  "url": "https://static.labiennale.org/files/styles/seo_thumbnail/public/cinema/2026/Schede_film/970x647/Ve_Immersive/galapagos_the_last_eden.jpg?itok=2TXE0uhw",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "video:youtube:RHvioD_b2Hc": {
+  "url": "https://www.youtube.com/watch?v=RHvioD_b2Hc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "RHvioD_b2Hc",
+  "title": "PlayWrite: A Multimodal System for AI Supported Narrative Co-Authoring Through Play in XR",
+  "author": "Autodesk Research",
+  "thumbnail": "https://i.ytimg.com/vi/RHvioD_b2Hc/hqdefault.jpg"
+ },
+ "img:https://arxiv.org/html/2603.02366v1/images/teaser-place-holder.png": {
+  "url": "https://arxiv.org/html/2603.02366v1/images/teaser-place-holder.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "doi:10.1145/3772318.3791159": {
+  "doi": "10.1145/3772318.3791159",
+  "ok": true,
+  "type": "doi",
+  "title": "PlayWrite: A Multimodal System for AI Supported Narrative Co-Authoring Through Play in XR",
+  "year": 2026,
+  "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+  "url": "https://doi.org/10.1145/3772318.3791159"
+ },
+ "arxiv:2603.02366": {
+  "arxiv": "2603.02366",
+  "ok": true,
+  "type": "arxiv",
+  "title": "PlayWrite: A Multimodal System for AI Supported Narrative Co-Authoring Through Play in XR",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2603.02366"
+ },
+ "img:https://arxiv.org/html/2604.06773v1/figures/teaser_v1.2.jpg": {
+  "url": "https://arxiv.org/html/2604.06773v1/figures/teaser_v1.2.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2604.06773": {
+  "arxiv": "2604.06773",
+  "ok": true,
+  "type": "arxiv",
+  "title": "MemoryDiorama: Generating Dynamic 3D Diorama from Everyday Photos for Memory Recall",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2604.06773"
+ },
+ "img:https://arxiv.org/html/2607.03731v1/system_design.png": {
+  "url": "https://arxiv.org/html/2607.03731v1/system_design.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2607.03731": {
+  "arxiv": "2607.03731",
+  "ok": true,
+  "type": "arxiv",
+  "title": "CoGen3D: An Agentic Human-AI Co-Design Pipeline for 3D Asset Generation for Virtual Reality",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2607.03731"
+ },
+ "img:https://arxiv.org/html/2609.24955v1/figures/teaser.png": {
+  "url": "https://arxiv.org/html/2609.24955v1/figures/teaser.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2609.24955": {
+  "arxiv": "2609.24955",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Generative Tutorial: Towards Live Contextualized Visual Instructions for Physical Tasks",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.24955"
+ },
+ "video:youtube:FNeR-ESSRnY": {
+  "url": "https://www.youtube.com/watch?v=FNeR-ESSRnY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "FNeR-ESSRnY",
+  "title": "Build Talking AI NPCs FAST Using Meta AI #metahorizon #metaai",
+  "author": "Meta Horizon Creator Program",
+  "thumbnail": "https://i.ytimg.com/vi/FNeR-ESSRnY/hqdefault.jpg"
+ },
+ "img:https://arxiv.org/html/2610.19998v1/teaser.jpeg": {
+  "url": "https://arxiv.org/html/2610.19998v1/teaser.jpeg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2610.19998": {
+  "arxiv": "2610.19998",
+  "ok": true,
+  "type": "arxiv",
+  "title": "ShadAR: Real-time Prompting On-demand Visual Augmentation in Augmented Reality",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2610.19998"
+ },
+ "video:youtube:A6PlUJB6QJU": {
+  "url": "https://www.youtube.com/watch?v=A6PlUJB6QJU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "A6PlUJB6QJU",
+  "title": "XARA Tutorial",
+  "author": "LiTrans",
+  "thumbnail": "https://i.ytimg.com/vi/A6PlUJB6QJU/hqdefault.jpg"
+ },
+ "img:https://arxiv.org/html/2610.21067v1/transform5.png": {
+  "url": "https://arxiv.org/html/2610.21067v1/transform5.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2610.21067": {
+  "arxiv": "2610.21067",
+  "ok": true,
+  "type": "arxiv",
+  "title": "XARA: A Multimodal Agentic System for eXtended Reality Experiment Generation",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2610.21067"
+ },
+ "video:youtube:xyD_bmMy5nQ": {
+  "url": "https://www.youtube.com/watch?v=xyD_bmMy5nQ",
+  "ok": true,
+  "platform": "youtube",
+  "id": "xyD_bmMy5nQ",
+  "title": "Introducing Meta VR Glasses | Spring 2027",
+  "author": "Meta VR",
+  "thumbnail": "https://i.ytimg.com/vi/xyD_bmMy5nQ/hqdefault.jpg"
+ },
+ "img:https://about.fb.com/wp-content/uploads/2026/09/Introducing-Meta-VR-Glasses_-A-Cinema-Courtside-Seat-and-Workspace-in-Just-100-GramsIntroducing-Meta-VR-Glasses_-A-Cinema-Courtside-Seat-and-Workspace-in-Just-100-Grams_social.jpg?w=1200": {
+  "url": "https://about.fb.com/wp-content/uploads/2026/09/Introducing-Meta-VR-Glasses_-A-Cinema-Courtside-Seat-and-Workspace-in-Just-100-GramsIntroducing-Meta-VR-Glasses_-A-Cinema-Courtside-Seat-and-Workspace-in-Just-100-Grams_social.jpg?w=1200",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "video:youtube:Dxvrvfyicp0": {
+  "url": "https://www.youtube.com/watch?v=Dxvrvfyicp0",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Dxvrvfyicp0",
+  "title": "Introducing Playground: If you can think it, you can play it.",
+  "author": "Google Labs",
+  "thumbnail": "https://i.ytimg.com/vi/Dxvrvfyicp0/hqdefault.jpg"
+ },
+ "img:https://storage.googleapis.com/gweb-uniblog-publish-prod/images/THUMBNAIL_BLOG.width-1300.png": {
+  "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/THUMBNAIL_BLOG.width-1300.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "img:https://cdn.sanity.io/images/fuvbjjlp/production/2d99684e1ccd449afd498dbf61024c79f5ce48d5-1920x1080.png": {
+  "url": "https://cdn.sanity.io/images/fuvbjjlp/production/2d99684e1ccd449afd498dbf61024c79f5ce48d5-1920x1080.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "video:mp4:https://worldroam.amap.com/scoring_gallery/memory/case2-Urban-0016/Urban-0016-Good-Genie3.mp4": {
+  "url": "https://worldroam.amap.com/scoring_gallery/memory/case2-Urban-0016/Urban-0016-Good-Genie3.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://worldroam.amap.com/scoring_gallery/memory/case2-Urban-0016/Urban-0016-Good-Genie3.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://worldroam.amap.com/figs/evaluation_framework.png": {
+  "url": "https://worldroam.amap.com/figs/evaluation_framework.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2606.31672": {
+  "arxiv": "2606.31672",
+  "ok": true,
+  "type": "arxiv",
+  "title": "WorldRoamBench: An Open-World Benchmark for Long-Horizon Stability of Interactive World Models",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2606.31672"
+ },
+ "video:mp4:https://huggingface.co/datasets/PeanutUp/PeanutUpproject-page-videos/resolve/main/assets/geometry_1.mp4": {
+  "url": "https://huggingface.co/datasets/PeanutUp/PeanutUpproject-page-videos/resolve/main/assets/geometry_1.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://huggingface.co/datasets/PeanutUp/PeanutUpproject-page-videos/resolve/main/assets/geometry_1.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://peanutup.github.io/MBench-project/assets/dimension.jpg": {
+  "url": "https://peanutup.github.io/MBench-project/assets/dimension.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2606.00793": {
+  "arxiv": "2606.00793",
+  "ok": true,
+  "type": "arxiv",
+  "title": "MBench: A Comprehensive Benchmark on Memory Capability for Video World Models",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2606.00793"
+ },
+ "video:mp4:https://framerusercontent.com/assets/3Qzar3JAlowjShHI2HIZ40khA4.mp4": {
+  "url": "https://framerusercontent.com/assets/3Qzar3JAlowjShHI2HIZ40khA4.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://framerusercontent.com/assets/3Qzar3JAlowjShHI2HIZ40khA4.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://framerusercontent.com/assets/uvhuHUqb9mf5tVnGa97Xmjqne58.jpg": {
+  "url": "https://framerusercontent.com/assets/uvhuHUqb9mf5tVnGa97Xmjqne58.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2608.16829": {
+  "arxiv": "2608.16829",
+  "ok": true,
+  "type": "arxiv",
+  "title": "CaliBench: Are the Stochastic Dynamics of Video World Models Physically Calibrated?",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2608.16829"
+ },
+ "video:youtube:m2NQ5k1oTcs": {
+  "url": "https://www.youtube.com/watch?v=m2NQ5k1oTcs",
+  "ok": true,
+  "platform": "youtube",
+  "id": "m2NQ5k1oTcs",
+  "title": "[CVPR 2024] Panda-70M - Technical Presentation",
+  "author": "Tsai-Shien Chen",
+  "thumbnail": "https://i.ytimg.com/vi/m2NQ5k1oTcs/hqdefault.jpg"
+ },
+ "arxiv:2402.19479": {
+  "arxiv": "2402.19479",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Panda-70M: Captioning 70M Videos with Multiple Cross-Modality Teachers",
+  "year": 2024,
+  "url": "https://arxiv.org/abs/2402.19479"
+ },
+ "img:https://www.sesame.com/assets/images/blog/turnbench-og.png": {
+  "url": "https://www.sesame.com/assets/images/blog/turnbench-og.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "img:https://arxiv.org/html/2608.25218v2/figs/scoring-schematic.png": {
+  "url": "https://arxiv.org/html/2608.25218v2/figs/scoring-schematic.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2608.25218": {
+  "arxiv": "2608.25218",
+  "ok": true,
+  "type": "arxiv",
+  "title": "TurnBench: A Multi-Domain Benchmark for Turn-Taking Dynamics in Spoken Dialogue",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2608.25218"
+ },
+ "img:https://daniellin94144.github.io/FDB-v3-demo/FDBv3.drawio.png": {
+  "url": "https://daniellin94144.github.io/FDB-v3-demo/FDBv3.drawio.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2503.04721": {
+  "arxiv": "2503.04721",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2503.04721"
+ },
+ "img:https://cdn.sanity.io/images/6vfeftx9/articles/d0023e187a3cc35d55aa8f6c6763688741f63c18-1254x1254.png?w=1200": {
+  "url": "https://cdn.sanity.io/images/6vfeftx9/articles/d0023e187a3cc35d55aa8f6c6763688741f63c18-1254x1254.png?w=1200",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "video:x:2109791341802885209": {
+  "url": "https://x.com/ArtificialAnlys/status/2109791341802885209",
+  "ok": true,
+  "platform": "x",
+  "id": "2109791341802885209",
+  "author": "Artificial Analysis",
+  "title": "We have measured intelligence. Now it's time to see it.\n\nWe are launching AA-3D, our new benchmark for how well AI models build interactive 3D scenes. Each model works as an agent in an offline sandbo",
+  "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2109738551244197888/img/Upt5oigRvlkHI9C3.jpg",
+  "has_video": true,
+  "date": "2026-10-12T23:40:28.000Z"
+ },
+ "img:https://artificialanalysiscdn.com/article-assets/2026/aa-3d.jpg": {
+  "url": "https://artificialanalysiscdn.com/article-assets/2026/aa-3d.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "img:https://arxiv.org/html/2510.16258v1/imgs/teaser.jpg": {
+  "url": "https://arxiv.org/html/2510.16258v1/imgs/teaser.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "img:https://arxiv.org/html/2510.16258v1/imgs/dyadic_conversation.png": {
+  "url": "https://arxiv.org/html/2510.16258v1/imgs/dyadic_conversation.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2510.16258": {
+  "arxiv": "2510.16258",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Embody 3D: A Large-scale Multimodal Motion and Behavior Dataset",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2510.16258"
+ },
+ "img:https://arxiv.org/html/2608.10839v1/seamless-humanlikeness__pairwise_win_fraction.png": {
+  "url": "https://arxiv.org/html/2608.10839v1/seamless-humanlikeness__pairwise_win_fraction.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2608.10839": {
+  "arxiv": "2608.10839",
+  "ok": true,
+  "type": "arxiv",
+  "title": "The GENEA Challenge 2026: A Large-Scale Disentangled Evaluation of Speech-Driven Gesture Generation on the Seamless Interaction Dataset",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2608.10839"
+ },
+ "video:mp4:https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/media/D4RT_blog_figure-1-light.mp4": {
+  "url": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/media/D4RT_blog_figure-1-light.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/media/D4RT_blog_figure-1-light.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://lh3.googleusercontent.com/ozG6v7VcBOV2eYZ8TnGTAe1Z-7EjkNiBPHxdQEG1wy_F5QwRN_4IJ_jJYMNQiOMHEWyNMZg3tmC00bzGQX0IYfXHMVuoQS6OLptEV-H6CUpIOnWOaQ=w1200-h630-n-nu-rw": {
+  "url": "https://lh3.googleusercontent.com/ozG6v7VcBOV2eYZ8TnGTAe1Z-7EjkNiBPHxdQEG1wy_F5QwRN_4IJ_jJYMNQiOMHEWyNMZg3tmC00bzGQX0IYfXHMVuoQS6OLptEV-H6CUpIOnWOaQ=w1200-h630-n-nu-rw",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "img:https://storage.googleapis.com/d4rt_assets/D4RT_capabilities_left.gif": {
+  "url": "https://storage.googleapis.com/d4rt_assets/D4RT_capabilities_left.gif",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/gif"
+ },
+ "arxiv:2512.08924": {
+  "arxiv": "2512.08924",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2512.08924"
+ },
+ "video:mp4:https://github.com/user-attachments/assets/146a9a25-5eb7-4400-aa09-5b58e1d10a5e": {
+  "url": "https://github.com/user-attachments/assets/146a9a25-5eb7-4400-aa09-5b58e1d10a5e",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://github.com/user-attachments/assets/146a9a25-5eb7-4400-aa09-5b58e1d10a5e",
+  "content_type": "video/mp4"
+ },
+ "img:https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanWorld-Mirror/main/assets/teaser.jpg": {
+  "url": "https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanWorld-Mirror/main/assets/teaser.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2510.10726": {
+  "arxiv": "2510.10726",
+  "ok": true,
+  "type": "arxiv",
+  "title": "WorldMirror: Universal 3D World Reconstruction with Any-Prior Prompting",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2510.10726"
+ },
+ "video:mp4:https://yyfz.github.io/pi3/assets/videos/teaser.mp4": {
+  "url": "https://yyfz.github.io/pi3/assets/videos/teaser.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://yyfz.github.io/pi3/assets/videos/teaser.mp4",
+  "content_type": "video/mp4"
+ },
+ "arxiv:2507.13347": {
+  "arxiv": "2507.13347",
+  "ok": true,
+  "type": "arxiv",
+  "title": "$\\pi^3$: Permutation-Equivariant Visual Geometry Learning",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2507.13347"
+ },
+ "video:youtube:oc0fRoZTyk8": {
+  "url": "https://www.youtube.com/watch?v=oc0fRoZTyk8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "oc0fRoZTyk8",
+  "title": "[CVPR 2026] MotionCrafter: Dense Geometry and Motion Reconstruction with a 4D VAE",
+  "author": "Jerrypig",
+  "thumbnail": "https://i.ytimg.com/vi/oc0fRoZTyk8/hqdefault.jpg"
+ },
+ "arxiv:2602.08961": {
+  "arxiv": "2602.08961",
+  "ok": true,
+  "type": "arxiv",
+  "title": "MotionCrafter: Dense Geometry and Motion Reconstruction with a 4D VAE",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2602.08961"
+ },
+ "video:youtube:tY1J1iRzzow": {
+  "url": "https://www.youtube.com/watch?v=tY1J1iRzzow",
+  "ok": true,
+  "platform": "youtube",
+  "id": "tY1J1iRzzow",
+  "title": "PackUV: Packed Gaussian UV Maps for 4D Volumetric Video || CVPR 2026",
+  "author": "Aashish Rai",
+  "thumbnail": "https://i.ytimg.com/vi/tY1J1iRzzow/hqdefault.jpg"
+ },
+ "arxiv:2602.23040": {
+  "arxiv": "2602.23040",
+  "ok": true,
+  "type": "arxiv",
+  "title": "PackUV: Packed Gaussian UV Maps for 4D Volumetric Video",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2602.23040"
+ },
+ "video:mp4:https://huggingface.co/datasets/Edisoneh/InfiniSplat-v2-assets/resolve/8e50354da224daebc35bdd9e99cae947e0c1ea40/assets/demo/infinisplat-v2-demo-v14-preview.mp4": {
+  "url": "https://huggingface.co/datasets/Edisoneh/InfiniSplat-v2-assets/resolve/8e50354da224daebc35bdd9e99cae947e0c1ea40/assets/demo/infinisplat-v2-demo-v14-preview.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://huggingface.co/datasets/Edisoneh/InfiniSplat-v2-assets/resolve/8e50354da224daebc35bdd9e99cae947e0c1ea40/assets/demo/infinisplat-v2-demo-v14-preview.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://zju3dv.github.io/InfiniSplat2/assets/demo/cover.png": {
+  "url": "https://zju3dv.github.io/InfiniSplat2/assets/demo/cover.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2610.20341": {
+  "arxiv": "2610.20341",
+  "ok": true,
+  "type": "arxiv",
+  "title": "InfiniSplat v2: Analyzing and Improving Feed-Forward 3DGS from Any Views",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2610.20341"
+ },
+ "video:youtube:OQwaF0ihjH4": {
+  "url": "https://www.youtube.com/watch?v=OQwaF0ihjH4",
+  "ok": true,
+  "platform": "youtube",
+  "id": "OQwaF0ihjH4",
+  "title": "4D Gaussian Splatting (4DGS) in Unreal Engine | Dynamic Gaussian Splats with Volinga",
+  "author": "Volinga ",
+  "thumbnail": "https://i.ytimg.com/vi/OQwaF0ihjH4/hqdefault.jpg"
+ },
+ "video:youtube:GTRbualP7-A": {
+  "url": "https://www.youtube.com/watch?v=GTRbualP7-A",
+  "ok": true,
+  "platform": "youtube",
+  "id": "GTRbualP7-A",
+  "title": "A$AP Rocky Helicopter | 4D Gaussian Splatting",
+  "author": "Evercoast",
+  "thumbnail": "https://i.ytimg.com/vi/GTRbualP7-A/hqdefault.jpg"
+ },
+ "video:mp4:https://sherwinbahmani.github.io/4dfy/data/videos/ours/a_bear_driving_a_car.mp4": {
+  "url": "https://sherwinbahmani.github.io/4dfy/data/videos/ours/a_bear_driving_a_car.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://sherwinbahmani.github.io/4dfy/data/videos/ours/a_bear_driving_a_car.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://sherwinbahmani.github.io/4dfy/data/method.png": {
+  "url": "https://sherwinbahmani.github.io/4dfy/data/method.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2311.17984": {
+  "arxiv": "2311.17984",
+  "ok": true,
+  "type": "arxiv",
+  "title": "4D-fy: Text-to-4D Generation Using Hybrid Score Distillation Sampling",
+  "year": 2023,
+  "url": "https://arxiv.org/abs/2311.17984"
+ },
+ "video:mp4:https://research.nvidia.com/labs/toronto-ai/AlignYourGaussians/assets/4d_scenes/christmas_composed.mp4": {
+  "url": "https://research.nvidia.com/labs/toronto-ai/AlignYourGaussians/assets/4d_scenes/christmas_composed.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://research.nvidia.com/labs/toronto-ai/AlignYourGaussians/assets/4d_scenes/christmas_composed.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://research.nvidia.com/labs/toronto-ai/AlignYourGaussians/assets/figures/ayg_paper_preview.png": {
+  "url": "https://research.nvidia.com/labs/toronto-ai/AlignYourGaussians/assets/figures/ayg_paper_preview.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2312.13763": {
+  "arxiv": "2312.13763",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models",
+  "year": 2023,
+  "url": "https://arxiv.org/abs/2312.13763"
+ },
+ "video:mp4:https://physdreamer.github.io/assets/videos/teaser_videos/teaser_video_morph.mp4": {
+  "url": "https://physdreamer.github.io/assets/videos/teaser_videos/teaser_video_morph.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://physdreamer.github.io/assets/videos/teaser_videos/teaser_video_morph.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://physdreamer.github.io/assets/thumbnails/red_rose.png": {
+  "url": "https://physdreamer.github.io/assets/thumbnails/red_rose.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2404.13026": {
+  "arxiv": "2404.13026",
+  "ok": true,
+  "type": "arxiv",
+  "title": "PhysDreamer: Physics-Based Interaction with 3D Objects via Video Generation",
+  "year": 2024,
+  "url": "https://arxiv.org/abs/2404.13026"
+ },
+ "video:youtube:qkaeeGzLnY8": {
+  "url": "https://www.youtube.com/watch?v=qkaeeGzLnY8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "qkaeeGzLnY8",
+  "title": "Animate3D: Animating Any 3D Model with Multi-view Video Diffusion",
+  "author": "Yanqin Jiang",
+  "thumbnail": "https://i.ytimg.com/vi/qkaeeGzLnY8/hqdefault.jpg"
+ },
+ "arxiv:2407.11398": {
+  "arxiv": "2407.11398",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Animate3D: Animating Any 3D Model with Multi-view Video Diffusion",
+  "year": 2024,
+  "url": "https://arxiv.org/abs/2407.11398"
+ },
+ "video:youtube:q8xH9B0S4y0": {
+  "url": "https://www.youtube.com/watch?v=q8xH9B0S4y0",
+  "ok": true,
+  "platform": "youtube",
+  "id": "q8xH9B0S4y0",
+  "title": "AnimateAnyMesh: A Feed-Forward 4D Foundation Model for Text-Driven Universal Mesh Animation",
+  "author": "zj wu",
+  "thumbnail": "https://i.ytimg.com/vi/q8xH9B0S4y0/hqdefault.jpg"
+ },
+ "img:https://animateanymesh.github.io/AnimateAnyMesh/img/AnimateAnyMesh.png": {
+  "url": "https://animateanymesh.github.io/AnimateAnyMesh/img/AnimateAnyMesh.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2506.09982": {
+  "arxiv": "2506.09982",
+  "ok": true,
+  "type": "arxiv",
+  "title": "AnimateAnyMesh: A Feed-Forward 4D Foundation Model for Text-Driven Universal Mesh Animation",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2506.09982"
+ },
+ "video:youtube:u1SzuKIYAsE": {
+  "url": "https://www.youtube.com/watch?v=u1SzuKIYAsE",
+  "ok": true,
+  "platform": "youtube",
+  "id": "u1SzuKIYAsE",
+  "title": "[ICCV 2025] Gaussian Variation Field Diffusion for High-fidelity Video-to-4D Synthesis",
+  "author": "Bowwen",
+  "thumbnail": "https://i.ytimg.com/vi/u1SzuKIYAsE/hqdefault.jpg"
+ },
+ "img:https://gvfdiffusion.github.io/static/images/Pipeline.jpg": {
+  "url": "https://gvfdiffusion.github.io/static/images/Pipeline.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2507.23785": {
+  "arxiv": "2507.23785",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Gaussian Variation Field Diffusion for High-fidelity Video-to-4D Synthesis",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2507.23785"
+ },
+ "video:youtube:Uc_CL_D8KiU": {
+  "url": "https://www.youtube.com/watch?v=Uc_CL_D8KiU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Uc_CL_D8KiU",
+  "title": "[CVPR 2026] ActionMesh: Animated 3D Mesh Generation with Temporal 3D Diffusion",
+  "author": "Remy S.",
+  "thumbnail": "https://i.ytimg.com/vi/Uc_CL_D8KiU/hqdefault.jpg"
+ },
+ "img:https://remysabathier.github.io/actionmesh/videos/thumbnail/actionmesh.gif": {
+  "url": "https://remysabathier.github.io/actionmesh/videos/thumbnail/actionmesh.gif",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/gif"
+ },
+ "arxiv:2601.16148": {
+  "arxiv": "2601.16148",
+  "ok": true,
+  "type": "arxiv",
+  "title": "ActionMesh: Animated 3D Mesh Generation with Temporal 3D Diffusion",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2601.16148"
+ },
+ "video:youtube:xBrMjPnH3_w": {
+  "url": "https://www.youtube.com/watch?v=xBrMjPnH3_w",
+  "ok": true,
+  "platform": "youtube",
+  "id": "xBrMjPnH3_w",
+  "title": "[Siggraph 2026] R-DMesh: Video-Guided 3D Animation via Rectified Dynamic Mesh Flow.",
+  "author": "zj wu",
+  "thumbnail": "https://i.ytimg.com/vi/xBrMjPnH3_w/hqdefault.jpg"
+ },
+ "img:https://r-dmesh.github.io/assets/pipeline.png": {
+  "url": "https://r-dmesh.github.io/assets/pipeline.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2605.13838": {
+  "arxiv": "2605.13838",
+  "ok": true,
+  "type": "arxiv",
+  "title": "R-DMesh: Video-Guided 3D Animation via Rectified Dynamic Mesh Flow",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2605.13838"
+ },
+ "video:mp4:https://lift4d.github.io/static/videos/teaser_wide.mp4": {
+  "url": "https://lift4d.github.io/static/videos/teaser_wide.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://lift4d.github.io/static/videos/teaser_wide.mp4",
+  "content_type": "video/mp4"
+ },
+ "arxiv:2606.23688": {
+  "arxiv": "2606.23688",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Lift4D: Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2606.23688"
+ },
+ "video:mp4:https://4danyone.github.io/assets/videos/teaser.mp4": {
+  "url": "https://4danyone.github.io/assets/videos/teaser.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://4danyone.github.io/assets/videos/teaser.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://4danyone.github.io/assets/images/social-card.jpg": {
+  "url": "https://4danyone.github.io/assets/images/social-card.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2608.20335": {
+  "arxiv": "2608.20335",
+  "ok": true,
+  "type": "arxiv",
+  "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2608.20335"
+ },
+ "img:https://4d-diffusion.github.io/new_samples/banner/table.gif": {
+  "url": "https://4d-diffusion.github.io/new_samples/banner/table.gif",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/gif"
+ },
+ "img:https://4d-diffusion.github.io/new_samples/sv_reangle/hyp.gif": {
+  "url": "https://4d-diffusion.github.io/new_samples/sv_reangle/hyp.gif",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/gif"
+ },
+ "arxiv:2407.07860": {
+  "arxiv": "2407.07860",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Controlling Space and Time with Diffusion Models",
+  "year": 2024,
+  "url": "https://arxiv.org/abs/2407.07860"
+ },
+ "video:youtube:ViDQI1HMY2U": {
+  "url": "https://www.youtube.com/watch?v=ViDQI1HMY2U",
+  "ok": true,
+  "platform": "youtube",
+  "id": "ViDQI1HMY2U",
+  "title": "DimensionX: Create Any 3D and 4D Scenes from a Single Image with Controllable Video Diffusion",
+  "author": "Wenqiang Sun",
+  "thumbnail": "https://i.ytimg.com/vi/ViDQI1HMY2U/hqdefault.jpg"
+ },
+ "img:https://chenshuo20.github.io/DimensionX/DimensionX/images/woman.png": {
+  "url": "https://chenshuo20.github.io/DimensionX/DimensionX/images/woman.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2411.04928": {
+  "arxiv": "2411.04928",
+  "ok": true,
+  "type": "arxiv",
+  "title": "DimensionX: Create Any 3D and 4D Scenes from a Single Image with Controllable Video Diffusion",
+  "year": 2024,
+  "url": "https://arxiv.org/abs/2411.04928"
+ },
+ "video:youtube:PF6W0Nd27Tk": {
+  "url": "https://www.youtube.com/watch?v=PF6W0Nd27Tk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "PF6W0Nd27Tk",
+  "title": "CityDreamer4D: Compositional Generative Model of Unbounded 4D Cities",
+  "author": "Haozhe Xie",
+  "thumbnail": "https://i.ytimg.com/vi/PF6W0Nd27Tk/hqdefault.jpg"
+ },
+ "img:https://www.infinitescript.com/projects/CityDreamer4D/CityDreamer4D-Thumbnail.webp": {
+  "url": "https://www.infinitescript.com/projects/CityDreamer4D/CityDreamer4D-Thumbnail.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "doi:10.1109/tpami.2025.3603078": {
+  "doi": "10.1109/tpami.2025.3603078",
+  "ok": true,
+  "type": "doi",
+  "title": "Compositional Generative Model of Unbounded 4D Cities",
+  "year": 2026,
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "url": "https://doi.org/10.1109/tpami.2025.3603078"
+ },
+ "arxiv:2501.08983": {
+  "arxiv": "2501.08983",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Compositional Generative Model of Unbounded 4D Cities",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2501.08983"
+ },
+ "video:youtube:BGj3BIbZ74A": {
+  "url": "https://www.youtube.com/watch?v=BGj3BIbZ74A",
+  "ok": true,
+  "platform": "youtube",
+  "id": "BGj3BIbZ74A",
+  "title": "[ICCV 2025] Aether: Geometric-Aware Unified World Modeling",
+  "author": "haoyi zhu",
+  "thumbnail": "https://i.ytimg.com/vi/BGj3BIbZ74A/hqdefault.jpg"
+ },
+ "arxiv:2503.18945": {
+  "arxiv": "2503.18945",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Aether: Geometric-Aware Unified World Modeling",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2503.18945"
+ },
+ "video:youtube:GpHnoSczlhA": {
+  "url": "https://www.youtube.com/watch?v=GpHnoSczlhA",
+  "ok": true,
+  "platform": "youtube",
+  "id": "GpHnoSczlhA",
+  "title": "Free4D: Tuning-free 4D Scene Generation with Spatial-Temporal Consistency",
+  "author": "Tianqi Liu",
+  "thumbnail": "https://i.ytimg.com/vi/GpHnoSczlhA/hqdefault.jpg"
+ },
+ "arxiv:2503.20785": {
+  "arxiv": "2503.20785",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Free4D: Tuning-free 4D Scene Generation with Spatial-Temporal Consistency",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2503.20785"
+ },
+ "video:youtube:vzO4VyBE7T0": {
+  "url": "https://www.youtube.com/watch?v=vzO4VyBE7T0",
+  "ok": true,
+  "platform": "youtube",
+  "id": "vzO4VyBE7T0",
+  "title": "ICCV2025: WonderPlay: Dynamic 3D Scene Generation from a Single Image and Actions",
+  "author": "Zizhang Li",
+  "thumbnail": "https://i.ytimg.com/vi/vzO4VyBE7T0/hqdefault.jpg"
+ },
+ "img:https://kyleleey.github.io/WonderPlay/assets/teaser/full_scene.jpg": {
+  "url": "https://kyleleey.github.io/WonderPlay/assets/teaser/full_scene.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2505.18151": {
+  "arxiv": "2505.18151",
+  "ok": true,
+  "type": "arxiv",
+  "title": "WonderPlay: Dynamic 3D Scene Generation from a Single Image and Actions",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2505.18151"
+ },
+ "video:mp4:https://snap-research.github.io/4Real-Video-V2/supp_demo/4real-video-v2-teaser.mp4": {
+  "url": "https://snap-research.github.io/4Real-Video-V2/supp_demo/4real-video-v2-teaser.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://snap-research.github.io/4Real-Video-V2/supp_demo/4real-video-v2-teaser.mp4",
+  "content_type": "video/mp4"
+ },
+ "arxiv:2506.18839": {
+  "arxiv": "2506.18839",
+  "ok": true,
+  "type": "arxiv",
+  "title": "4Real-Video-V2: Fused View-Time Attention and Feedforward Reconstruction for 4D Scene Generation",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2506.18839"
+ },
+ "video:youtube:1k8Ikf8zbZw": {
+  "url": "https://www.youtube.com/watch?v=1k8Ikf8zbZw",
+  "ok": true,
+  "platform": "youtube",
+  "id": "1k8Ikf8zbZw",
+  "title": "NeoVerse: Enhancing 4D World Model with in-the-wild Monocular Videos",
+  "author": "Yuxue Yang",
+  "thumbnail": "https://i.ytimg.com/vi/1k8Ikf8zbZw/hqdefault.jpg"
+ },
+ "img:https://neoverse-4d.github.io/resources/teaser.png": {
+  "url": "https://neoverse-4d.github.io/resources/teaser.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2601.00393": {
+  "arxiv": "2601.00393",
+  "ok": true,
+  "type": "arxiv",
+  "title": "NeoVerse: Enhancing 4D World Model with in-the-wild Monocular Videos",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2601.00393"
+ },
+ "video:mp4:https://inspatio.github.io/inspatio-world/static/videos/0311_ar_14B_ema_grid9_0.mp4": {
+  "url": "https://inspatio.github.io/inspatio-world/static/videos/0311_ar_14B_ema_grid9_0.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://inspatio.github.io/inspatio-world/static/videos/0311_ar_14B_ema_grid9_0.mp4",
+  "content_type": "video/mp4"
+ },
+ "arxiv:2604.07209": {
+  "arxiv": "2604.07209",
+  "ok": true,
+  "type": "arxiv",
+  "title": "INSPATIO-WORLD: A Real-Time 4D World Simulator via Spatiotemporal Autoregressive Modeling",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2604.07209"
+ },
+ "video:youtube:QCJ4u7f3K-8": {
+  "url": "https://www.youtube.com/watch?v=QCJ4u7f3K-8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "QCJ4u7f3K-8",
+  "title": "OuroWorld: Bringing Any 3D World Alive as Diverse,Endlessly Looping 3D Cinemagraphs",
+  "author": "YouZhe",
+  "thumbnail": "https://i.ytimg.com/vi/QCJ4u7f3K-8/hqdefault.jpg"
+ },
+ "img:https://ouroworld.userwei.com/og.jpg": {
+  "url": "https://ouroworld.userwei.com/og.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2610.12461": {
+  "arxiv": "2610.12461",
+  "ok": true,
+  "type": "arxiv",
+  "title": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2610.12461"
+ },
+ "video:youtube:ZDfjZae7Da0": {
+  "url": "https://www.youtube.com/watch?v=ZDfjZae7Da0",
+  "ok": true,
+  "platform": "youtube",
+  "id": "ZDfjZae7Da0",
+  "title": "LTX-2.5: The Open World Model the World Builds On",
+  "author": "LTX_io",
+  "thumbnail": "https://i.ytimg.com/vi/ZDfjZae7Da0/hqdefault.jpg"
+ },
+ "img:https://cdn.prod.website-files.com/68c6ddbeb26cbd692adc0291/6a7afda4f4de5e107c04180b_Cover-Newsroom.png": {
+  "url": "https://cdn.prod.website-files.com/68c6ddbeb26cbd692adc0291/6a7afda4f4de5e107c04180b_Cover-Newsroom.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "video:youtube:jJcbxCDRRaw": {
+  "url": "https://www.youtube.com/watch?v=jJcbxCDRRaw",
+  "ok": true,
+  "platform": "youtube",
+  "id": "jJcbxCDRRaw",
+  "title": "Meet Vidu Q4 Preview—our next-gen flagship AI video model",
+  "author": "Vidu AI Official",
+  "thumbnail": "https://i.ytimg.com/vi/jJcbxCDRRaw/hqdefault.jpg"
+ },
+ "img:https://mmx.prnewswire.com/media/MS2004200/20261007094159EDT_image_1.jpg?id=OA2992270&p=facebook": {
+  "url": "https://mmx.prnewswire.com/media/MS2004200/20261007094159EDT_image_1.jpg?id=OA2992270&p=facebook",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "video:mp4:https://lg-li.github.io/pub-videos/CubeComposer/li2026cubecomposer-video.mp4": {
+  "url": "https://lg-li.github.io/pub-videos/CubeComposer/li2026cubecomposer-video.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://lg-li.github.io/pub-videos/CubeComposer/li2026cubecomposer-video.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://raw.githubusercontent.com/TencentARC/CubeComposer/main/assets/images/Teaser.jpg": {
+  "url": "https://raw.githubusercontent.com/TencentARC/CubeComposer/main/assets/images/Teaser.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2603.04291": {
+  "arxiv": "2603.04291",
+  "ok": true,
+  "type": "arxiv",
+  "title": "CubeComposer: Spatio-Temporal Autoregressive 4K 360{\\deg} Video Generation from Perspective Video",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2603.04291"
+ },
+ "video:mp4:https://ke-xing.github.io/StereoWorld/sfsf.mp4": {
+  "url": "https://ke-xing.github.io/StereoWorld/sfsf.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://ke-xing.github.io/StereoWorld/sfsf.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://ke-xing.github.io/StereoWorld/big.png": {
+  "url": "https://ke-xing.github.io/StereoWorld/big.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2512.09363": {
+  "arxiv": "2512.09363",
+  "ok": true,
+  "type": "arxiv",
+  "title": "StereoWorld: Geometry-Aware Monocular-to-Stereo Video Generation",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2512.09363"
+ },
+ "video:mp4:https://github.com/user-attachments/assets/bca232c9-75df-46f9-b366-14cfa2651994": {
+  "url": "https://github.com/user-attachments/assets/bca232c9-75df-46f9-b366-14cfa2651994",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://github.com/user-attachments/assets/bca232c9-75df-46f9-b366-14cfa2651994",
+  "content_type": "video/mp4"
+ },
+ "img:https://raw.githubusercontent.com/jd-opensource/JoyAI-Video-Edit/main/assets/live_demo/live_cartoon_group.jpg": {
+  "url": "https://raw.githubusercontent.com/jd-opensource/JoyAI-Video-Edit/main/assets/live_demo/live_cartoon_group.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2608.03974": {
+  "arxiv": "2608.03974",
+  "ok": true,
+  "type": "arxiv",
+  "title": "JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2608.03974"
+ },
+ "video:youtube:65EBGlhn-lQ": {
+  "url": "https://www.youtube.com/watch?v=65EBGlhn-lQ",
+  "ok": true,
+  "platform": "youtube",
+  "id": "65EBGlhn-lQ",
+  "title": "Next-Gen Enterprise Video AI: HappyHorse 1.1 Now Globally Available on Alibaba Cloud Model Studio!",
+  "author": "Alibaba Cloud",
+  "thumbnail": "https://i.ytimg.com/vi/65EBGlhn-lQ/hqdefault.jpg"
+ },
+ "video:youtube:m-qRU0SY8NQ": {
+  "url": "https://www.youtube.com/watch?v=m-qRU0SY8NQ",
+  "ok": true,
+  "platform": "youtube",
+  "id": "m-qRU0SY8NQ",
+  "title": "PixVerse V6 is here.More control. Better performance. Film-ready output.",
+  "author": "PixVerse",
+  "thumbnail": "https://i.ytimg.com/vi/m-qRU0SY8NQ/hqdefault.jpg"
+ },
+ "img:https://media.pixverse.ai/asset/blog/pixverse-v6-launch-press-release-cover-20260330.webp?x-oss-process=style/cover-webp-large": {
+  "url": "https://media.pixverse.ai/asset/blog/pixverse-v6-launch-press-release-cover-20260330.webp?x-oss-process=style/cover-webp-large",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "video:mp4:https://kandinskylab.ai/media/img/models/video-promo-v3.mp4": {
+  "url": "https://kandinskylab.ai/media/img/models/video-promo-v3.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://kandinskylab.ai/media/img/models/video-promo-v3.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://kandinskylab.ai/img/showreel-poster.jpg": {
+  "url": "https://kandinskylab.ai/img/showreel-poster.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2610.05608": {
+  "arxiv": "2610.05608",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2610.05608"
+ },
+ "video:mp4:https://live-edit.github.io/assets/liveedit/teaser.mp4": {
+  "url": "https://live-edit.github.io/assets/liveedit/teaser.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://live-edit.github.io/assets/liveedit/teaser.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://live-edit.github.io/assets/liveedit/Framework-v2_page-0001.jpg": {
+  "url": "https://live-edit.github.io/assets/liveedit/Framework-v2_page-0001.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2606.26740": {
+  "arxiv": "2606.26740",
+  "ok": true,
+  "type": "arxiv",
+  "title": "LiveEdit: Towards Real-Time Diffusion-Based Streaming Video Editing",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2606.26740"
+ },
+ "video:mp4:https://huggingface.co/datasets/self-forcing-plus-plus/website/resolve/main/merged/merged_snow_valley.mp4": {
+  "url": "https://huggingface.co/datasets/self-forcing-plus-plus/website/resolve/main/merged/merged_snow_valley.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://huggingface.co/datasets/self-forcing-plus-plus/website/resolve/main/merged/merged_snow_valley.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://self-forcing-plus-plus.github.io/images/workflow.png": {
+  "url": "https://self-forcing-plus-plus.github.io/images/workflow.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2510.02283": {
+  "arxiv": "2510.02283",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Self-Forcing++: Towards Minute-Scale High-Quality Video Generation",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2510.02283"
+ },
+ "video:mp4:https://kunhao-liu.github.io/Rolling_Forcing_Webpage/videos/2min_videos/A%20dynamic%20action%20scene%20in%20a%20modern%20gym%2C%20featuring%20a%20kangaroo%20wearing%20boxing%20gloves%2C%20engaged%20in%20an%20in-0.mp4": {
+  "url": "https://kunhao-liu.github.io/Rolling_Forcing_Webpage/videos/2min_videos/A%20dynamic%20action%20scene%20in%20a%20modern%20gym%2C%20featuring%20a%20kangaroo%20wearing%20boxing%20gloves%2C%20engaged%20in%20an%20in-0.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://kunhao-liu.github.io/Rolling_Forcing_Webpage/videos/2min_videos/A%20dynamic%20action%20scene%20in%20a%20modern%20gym%2C%20featuring%20a%20kangaroo%20wearing%20boxing%20gloves%2C%20engaged%20in%20an%20in-0.mp4",
+  "content_type": "video/mp4"
+ },
+ "arxiv:2509.25161": {
+  "arxiv": "2509.25161",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Rolling Forcing: Autoregressive Long Video Diffusion in Real Time",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2509.25161"
+ },
+ "video:mp4:https://animatediff.github.io/animations/teaser/ani_01.mp4": {
+  "url": "https://animatediff.github.io/animations/teaser/ani_01.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://animatediff.github.io/animations/teaser/ani_01.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://animatediff.github.io/figs/framework.jpg": {
+  "url": "https://animatediff.github.io/figs/framework.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2307.04725": {
+  "arxiv": "2307.04725",
+  "ok": true,
+  "type": "arxiv",
+  "title": "AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning",
+  "year": 2023,
+  "url": "https://arxiv.org/abs/2307.04725"
+ },
+ "video:mp4:https://humanaigc.github.io/wan-s2v-webpage/content/v3/video/1-moive_talk.mp4": {
+  "url": "https://humanaigc.github.io/wan-s2v-webpage/content/v3/video/1-moive_talk.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://humanaigc.github.io/wan-s2v-webpage/content/v3/video/1-moive_talk.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://humanaigc.github.io/wan-s2v-webpage/content/v3/superman.png": {
+  "url": "https://humanaigc.github.io/wan-s2v-webpage/content/v3/superman.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2508.18621": {
+  "arxiv": "2508.18621",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Wan-S2V: Audio-Driven Cinematic Video Generation",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2508.18621"
+ },
+ "video:youtube:93HHOnISoqk": {
+  "url": "https://www.youtube.com/watch?v=93HHOnISoqk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "93HHOnISoqk",
+  "title": "VidPanos: Generative Panoramic Videos from Casual Panning Videos",
+  "author": "Jingwei Ma",
+  "thumbnail": "https://i.ytimg.com/vi/93HHOnISoqk/hqdefault.jpg"
+ },
+ "img:https://vidpanos.github.io/static/images/real_results/dynibar_thumb.jpg": {
+  "url": "https://vidpanos.github.io/static/images/real_results/dynibar_thumb.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2410.13832": {
+  "arxiv": "2410.13832",
+  "ok": true,
+  "type": "arxiv",
+  "title": "VidPanos: Generative Panoramic Videos from Casual Panning Videos",
+  "year": 2024,
+  "url": "https://arxiv.org/abs/2410.13832"
+ },
+ "video:mp4:https://research.nvidia.com/labs/toronto-ai/VideoPanda/assets_web/release_col_cond_comp/49545422/56_1_samplepanopost2x.mp4": {
+  "url": "https://research.nvidia.com/labs/toronto-ai/VideoPanda/assets_web/release_col_cond_comp/49545422/56_1_samplepanopost2x.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://research.nvidia.com/labs/toronto-ai/VideoPanda/assets_web/release_col_cond_comp/49545422/56_1_samplepanopost2x.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://research.nvidia.com/labs/toronto-ai/VideoPanda/assets_web/comp_to_mvdiffusion/pano/11/pano_fix.png": {
+  "url": "https://research.nvidia.com/labs/toronto-ai/VideoPanda/assets_web/comp_to_mvdiffusion/pano/11/pano_fix.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2504.11389": {
+  "arxiv": "2504.11389",
+  "ok": true,
+  "type": "arxiv",
+  "title": "VideoPanda: Video Panoramic Diffusion with Multi-view Attention",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2504.11389"
+ },
+ "video:mp4:https://video-eye2eye.github.io/static/videos/Demo.mp4": {
+  "url": "https://video-eye2eye.github.io/static/videos/Demo.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://video-eye2eye.github.io/static/videos/Demo.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://video-eye2eye.github.io/static/images/pipeline.png": {
+  "url": "https://video-eye2eye.github.io/static/images/pipeline.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2505.00135": {
+  "arxiv": "2505.00135",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Eye2Eye: A Simple Approach for Monocular-to-Stereo Video Synthesis",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2505.00135"
+ },
+ "video:mp4:https://daipengwa.github.io/S-2VG_ProjectPage/results1/teaser.mp4": {
+  "url": "https://daipengwa.github.io/S-2VG_ProjectPage/results1/teaser.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://daipengwa.github.io/S-2VG_ProjectPage/results1/teaser.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://daipengwa.github.io/S-2VG_ProjectPage/images/astronaut.png": {
+  "url": "https://daipengwa.github.io/S-2VG_ProjectPage/images/astronaut.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2508.08048": {
+  "arxiv": "2508.08048",
+  "ok": true,
+  "type": "arxiv",
+  "title": "S^2VG: 3D Stereoscopic and Spatial Video Generation via Denoising Frame Matrix",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2508.08048"
+ },
+ "video:mp4:https://s3.us-east-1.amazonaws.com/static.immersity.ai/videos/HOMEPAGE/Homepage-Reel_Desktop_compressed.mp4": {
+  "url": "https://s3.us-east-1.amazonaws.com/static.immersity.ai/videos/HOMEPAGE/Homepage-Reel_Desktop_compressed.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://s3.us-east-1.amazonaws.com/static.immersity.ai/videos/HOMEPAGE/Homepage-Reel_Desktop_compressed.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://static.immersity.ai/img/og-image.png": {
+  "url": "https://static.immersity.ai/img/og-image.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "video:youtube:fjk2mMFBpRo": {
+  "url": "https://www.youtube.com/watch?v=fjk2mMFBpRo",
+  "ok": true,
+  "platform": "youtube",
+  "id": "fjk2mMFBpRo",
+  "title": "Meet Firefly Video Model | Adobe",
+  "author": "Adobe",
+  "thumbnail": "https://i.ytimg.com/vi/fjk2mMFBpRo/hqdefault.jpg"
+ },
+ "img:https://blog.adobe.com/en/publish/2025/02/12/media_19846d436079bbe9de6505cc71ae92758436e7468.png?width=1200&format=pjpg&optimize=medium": {
+  "url": "https://blog.adobe.com/en/publish/2025/02/12/media_19846d436079bbe9de6505cc71ae92758436e7468.png?width=1200&format=pjpg&optimize=medium",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "video:youtube:SIfDV2JjLL4": {
+  "url": "https://www.youtube.com/watch?v=SIfDV2JjLL4",
+  "ok": true,
+  "platform": "youtube",
+  "id": "SIfDV2JjLL4",
+  "title": "Introducing Grok Imagine 1.5 Video",
+  "author": "Grok",
+  "thumbnail": "https://i.ytimg.com/vi/SIfDV2JjLL4/hqdefault.jpg"
+ },
+ "img:https://media.x.ai/v1/website/grok-imagine-1-5-og-342e9fa3.webp": {
+  "url": "https://media.x.ai/v1/website/grok-imagine-1-5-og-342e9fa3.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "video:mp4:https://koi953215.github.io/pantheon360_page/pantheon360_videos/teaser.mp4": {
+  "url": "https://koi953215.github.io/pantheon360_page/pantheon360_videos/teaser.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://koi953215.github.io/pantheon360_page/pantheon360_videos/teaser.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://koi953215.github.io/pantheon360_page/pantheon360_img/pipeline.jpg": {
+  "url": "https://koi953215.github.io/pantheon360_page/pantheon360_img/pipeline.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2605.25449": {
+  "arxiv": "2605.25449",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Pantheon360: Taming Digital Twin Generation via 3D-Aware 360° Video Diffusion",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2605.25449"
+ },
+ "video:mp4:https://sixiaozheng.github.io/VerseCrafter_page/assets/pipeline_video_com.mp4": {
+  "url": "https://sixiaozheng.github.io/VerseCrafter_page/assets/pipeline_video_com.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://sixiaozheng.github.io/VerseCrafter_page/assets/pipeline_video_com.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://sixiaozheng.github.io/VerseCrafter_page/assets/framework.png": {
+  "url": "https://sixiaozheng.github.io/VerseCrafter_page/assets/framework.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2601.05138": {
+  "arxiv": "2601.05138",
+  "ok": true,
+  "type": "arxiv",
+  "title": "VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2601.05138"
+ },
+ "video:mp4:https://eyeline-labs.github.io/Vista4D/media/ours_snowboard_back-follow_s52106.mp4": {
+  "url": "https://eyeline-labs.github.io/Vista4D/media/ours_snowboard_back-follow_s52106.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://eyeline-labs.github.io/Vista4D/media/ours_snowboard_back-follow_s52106.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://eyeline-labs.github.io/Vista4D/media/preview.jpg": {
+  "url": "https://eyeline-labs.github.io/Vista4D/media/preview.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2604.21915": {
+  "arxiv": "2604.21915",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Vista4D: Video Reshooting with 4D Point Clouds",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2604.21915"
+ },
+ "video:mp4:https://stability-ai.github.io/4director/assets/4Director-supplementary.mp4": {
+  "url": "https://stability-ai.github.io/4director/assets/4Director-supplementary.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://stability-ai.github.io/4director/assets/4Director-supplementary.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://stability-ai.github.io/4director/assets/feature-hiker.png": {
+  "url": "https://stability-ai.github.io/4director/assets/feature-hiker.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2610.02160": {
+  "arxiv": "2610.02160",
+  "ok": true,
+  "type": "arxiv",
+  "title": "4Director: Controlling Video World Models with Rigid 3D Geometry",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2610.02160"
+ },
+ "video:youtube:HQYY3xUl6AY": {
+  "url": "https://www.youtube.com/watch?v=HQYY3xUl6AY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "HQYY3xUl6AY",
+  "title": "HappyOyster1.0 Adventure",
+  "author": "Alibaba Group",
+  "thumbnail": "https://i.ytimg.com/vi/HQYY3xUl6AY/hqdefault.jpg"
+ },
+ "img:https://alizila.oss-us-west-1.aliyuncs.com/uploads/2026/06/Image1.png": {
+  "url": "https://alizila.oss-us-west-1.aliyuncs.com/uploads/2026/06/Image1.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "img:https://alizila.oss-us-west-1.aliyuncs.com/uploads/2026/04/HappyOyster.png": {
+  "url": "https://alizila.oss-us-west-1.aliyuncs.com/uploads/2026/04/HappyOyster.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "video:mp4:https://framerusercontent.com/assets/k0v24lxPs3XttPIexzq95yIYE.mp4": {
+  "url": "https://framerusercontent.com/assets/k0v24lxPs3XttPIexzq95yIYE.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://framerusercontent.com/assets/k0v24lxPs3XttPIexzq95yIYE.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://framerusercontent.com/assets/jGMTDQnPXnvR324lQwGegNJDIg.jpg": {
+  "url": "https://framerusercontent.com/assets/jGMTDQnPXnvR324lQwGegNJDIg.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "video:youtube:_pFzHHslhgc": {
+  "url": "https://www.youtube.com/watch?v=_pFzHHslhgc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "_pFzHHslhgc",
+  "title": "WorldPlay2: Extending Real-Time Interactive World Models in Control and Horizon -- Overview Video",
+  "author": "Haiyu Zhang",
+  "thumbnail": "https://i.ytimg.com/vi/_pFzHHslhgc/hqdefault.jpg"
+ },
+ "img:https://worldplay2.github.io/assets/figures/overview.webp": {
+  "url": "https://worldplay2.github.io/assets/figures/overview.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "arxiv:2609.35560": {
+  "arxiv": "2609.35560",
+  "ok": true,
+  "type": "arxiv",
+  "title": "WorldPlay2: Extending Real-Time Interactive World Models in Control and Horizon",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.35560"
+ },
+ "video:youtube:cSLm_BPwJ2U": {
+  "url": "https://www.youtube.com/watch?v=cSLm_BPwJ2U",
+  "ok": true,
+  "platform": "youtube",
+  "id": "cSLm_BPwJ2U",
+  "title": "The world's first interactive Audio-visual world model",
+  "author": "Noiz AI ",
+  "thumbnail": "https://i.ytimg.com/vi/cSLm_BPwJ2U/hqdefault.jpg"
+ },
+ "arxiv:2609.38123": {
+  "arxiv": "2609.38123",
+  "ok": true,
+  "type": "arxiv",
+  "title": "HelixWorld: A Real-time Interactive Audio-Visual World Model",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.38123"
+ },
+ "video:youtube:n0jIEg7taTI": {
+  "url": "https://www.youtube.com/watch?v=n0jIEg7taTI",
+  "ok": true,
+  "platform": "youtube",
+  "id": "n0jIEg7taTI",
+  "title": "AlayaWorld: Long-Horizon and Playable VideoWorld Generation",
+  "author": "Alaya Lab",
+  "thumbnail": "https://i.ytimg.com/vi/n0jIEg7taTI/hqdefault.jpg"
+ },
+ "arxiv:2607.06291": {
+  "arxiv": "2607.06291",
+  "ok": true,
+  "type": "arxiv",
+  "title": "AlayaWorld: Long-Horizon and Playable Video World Generation",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2607.06291"
+ },
+ "video:mp4:https://world.astronex.com.cn/assets/videos/Astronex_01_720p24.mp4": {
+  "url": "https://world.astronex.com.cn/assets/videos/Astronex_01_720p24.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://world.astronex.com.cn/assets/videos/Astronex_01_720p24.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://world.astronex.com.cn/assets/img/teaser.jpg": {
+  "url": "https://world.astronex.com.cn/assets/img/teaser.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2609.20034": {
+  "arxiv": "2609.20034",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Astronex-World 1.0: Real-Time Interactive World Model Foundation",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.20034"
+ },
+ "video:youtube:zhkWctq4N1k": {
+  "url": "https://www.youtube.com/watch?v=zhkWctq4N1k",
+  "ok": true,
+  "platform": "youtube",
+  "id": "zhkWctq4N1k",
+  "title": "Yume 1.5: An Interactive World Generation Model",
+  "author": "Alaya Lab",
+  "thumbnail": "https://i.ytimg.com/vi/zhkWctq4N1k/hqdefault.jpg"
+ },
+ "img:https://github.com/stdstu12/YUME/raw/main/assets/yume.png": {
+  "url": "https://github.com/stdstu12/YUME/raw/main/assets/yume.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2507.17744": {
+  "arxiv": "2507.17744",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Yume: An Interactive World Generation Model",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2507.17744"
+ },
+ "video:mp4:https://thematrix1999.github.io/videos/cyberpunk_processed_0.mp4": {
+  "url": "https://thematrix1999.github.io/videos/cyberpunk_processed_0.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://thematrix1999.github.io/videos/cyberpunk_processed_0.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://thematrix1999.github.io/img/thematrix.png": {
+  "url": "https://thematrix1999.github.io/img/thematrix.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2412.03568": {
+  "arxiv": "2412.03568",
+  "ok": true,
+  "type": "arxiv",
+  "title": "The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control",
+  "year": 2024,
+  "url": "https://arxiv.org/abs/2412.03568"
+ },
+ "video:mp4:https://github.com/3a2077/3a2077.github.io/raw/main/videos/OGameGen_PV.mp4": {
+  "url": "https://github.com/3a2077/3a2077.github.io/raw/main/videos/OGameGen_PV.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://github.com/3a2077/3a2077.github.io/raw/main/videos/OGameGen_PV.mp4",
+  "content_type": "application/octet-stream"
+ },
+ "arxiv:2411.00769": {
+  "arxiv": "2411.00769",
+  "ok": true,
+  "type": "arxiv",
+  "title": "GameGen-X: Interactive Open-world Game Video Generation",
+  "year": 2024,
+  "url": "https://arxiv.org/abs/2411.00769"
+ },
+ "video:mp4:https://github.com/user-attachments/assets/2f5b4740-badd-453c-970d-061abd367f82": {
+  "url": "https://github.com/user-attachments/assets/2f5b4740-badd-453c-970d-061abd367f82",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://github.com/user-attachments/assets/2f5b4740-badd-453c-970d-061abd367f82",
+  "content_type": "video/mp4"
+ },
+ "img:https://github.com/microsoft/mineworld/raw/main/assets/demo.png": {
+  "url": "https://github.com/microsoft/mineworld/raw/main/assets/demo.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2504.08388": {
+  "arxiv": "2504.08388",
+  "ok": true,
+  "type": "arxiv",
+  "title": "MineWorld: a Real-Time and Open-Source Interactive World Model on Minecraft",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2504.08388"
+ },
+ "video:youtube:3Si-QBUF97E": {
+  "url": "https://www.youtube.com/watch?v=3Si-QBUF97E",
+  "ok": true,
+  "platform": "youtube",
+  "id": "3Si-QBUF97E",
+  "title": "Wayve, Watch GAIA-1 Go",
+  "author": "Wayve",
+  "thumbnail": "https://i.ytimg.com/vi/3Si-QBUF97E/hqdefault.jpg"
+ },
+ "img:https://wayve.ai/wp-content/uploads/2023/06/GAIA-1-tile_montage_feature.jpg": {
+  "url": "https://wayve.ai/wp-content/uploads/2023/06/GAIA-1-tile_montage_feature.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2309.17080": {
+  "arxiv": "2309.17080",
+  "ok": true,
+  "type": "arxiv",
+  "title": "GAIA-1: A Generative World Model for Autonomous Driving",
+  "year": 2023,
+  "url": "https://arxiv.org/abs/2309.17080"
+ },
+ "video:mp4:https://wayve.ai/wp-content/uploads/2025/11/Counterfactuals-Scenarios-GAIA-3.mp4": {
+  "url": "https://wayve.ai/wp-content/uploads/2025/11/Counterfactuals-Scenarios-GAIA-3.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://wayve.ai/wp-content/uploads/2025/11/Counterfactuals-Scenarios-GAIA-3.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://wayve.ai/wp-content/uploads/2025/12/GAIA3-PR-notice.jpg": {
+  "url": "https://wayve.ai/wp-content/uploads/2025/12/GAIA3-PR-notice.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "video:mp4:https://v-mem.github.io/img/video-1min-encoded_720p.mp4": {
+  "url": "https://v-mem.github.io/img/video-1min-encoded_720p.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://v-mem.github.io/img/video-1min-encoded_720p.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://v-mem.github.io/img/vmem_method.webp": {
+  "url": "https://v-mem.github.io/img/vmem_method.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "arxiv:2506.18903": {
+  "arxiv": "2506.18903",
+  "ok": true,
+  "type": "arxiv",
+  "title": "VMem: Consistent Interactive Video Scene Generation with Surfel-Indexed View Memory",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2506.18903"
+ },
+ "video:mp4:https://ryanpo.com/ssm_wm/static/videos/ours_mc.mp4": {
+  "url": "https://ryanpo.com/ssm_wm/static/videos/ours_mc.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://ryanpo.com/ssm_wm/static/videos/ours_mc.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://ryanpo.com/ssm_wm/static/images/architecture.png": {
+  "url": "https://ryanpo.com/ssm_wm/static/images/architecture.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2505.20171": {
+  "arxiv": "2505.20171",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Long-Context State-Space Video World Models",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2505.20171"
+ },
+ "video:mp4:https://boyuan.space/history-guidance/static/videos/long_rollout_0.mp4": {
+  "url": "https://boyuan.space/history-guidance/static/videos/long_rollout_0.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://boyuan.space/history-guidance/static/videos/long_rollout_0.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://boyuan.space/history-guidance/static/images/thumbnail.jpg": {
+  "url": "https://boyuan.space/history-guidance/static/images/thumbnail.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2502.06764": {
+  "arxiv": "2502.06764",
+  "ok": true,
+  "type": "arxiv",
+  "title": "History-Guided Video Diffusion",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2502.06764"
+ },
+ "video:mp4:https://yujiwen.github.io/memlearner/video/demo/1.mp4": {
+  "url": "https://yujiwen.github.io/memlearner/video/demo/1.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://yujiwen.github.io/memlearner/video/demo/1.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://yujiwen.github.io/memlearner/static/images/teaser-1.png": {
+  "url": "https://yujiwen.github.io/memlearner/static/images/teaser-1.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2606.31734": {
+  "arxiv": "2606.31734",
+  "ok": true,
+  "type": "arxiv",
+  "title": "MemLearner: Learning to Query Context memory for Video World Models",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2606.31734"
+ },
+ "img:https://adreamwu.github.io/World-T3/static/images/og.jpg": {
+  "url": "https://adreamwu.github.io/World-T3/static/images/og.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "img:https://adreamwu.github.io/World-T3/static/images/teaser.webp": {
+  "url": "https://adreamwu.github.io/World-T3/static/images/teaser.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "arxiv:2610.17434": {
+  "arxiv": "2610.17434",
+  "ok": true,
+  "type": "arxiv",
+  "title": "World-T3: Test-Time Training as Persistent Memory for Real-Time Video World Models",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2610.17434"
+ },
+ "video:youtube:j4scl5Y7gXo": {
+  "url": "https://www.youtube.com/watch?v=j4scl5Y7gXo",
+  "ok": true,
+  "platform": "youtube",
+  "id": "j4scl5Y7gXo",
+  "title": "HelloWorld: Enabling Socially Interactive Characters in Video World Models",
+  "author": "Liangyang Ouyang",
+  "thumbnail": "https://i.ytimg.com/vi/j4scl5Y7gXo/hqdefault.jpg"
+ },
+ "img:https://github.com/AlayaLab/HelloWorld/raw/main/assets/teaser.png": {
+  "url": "https://github.com/AlayaLab/HelloWorld/raw/main/assets/teaser.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2608.05070": {
+  "arxiv": "2608.05070",
+  "ok": true,
+  "type": "arxiv",
+  "title": "HelloWorld: Enabling Socially Interactive Characters in Video World Models",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2608.05070"
+ },
+ "video:mp4:https://wlt-ai-cdn.art/videos/2026-robotics-blog/box-packing-aloha-30x.mp4": {
+  "url": "https://wlt-ai-cdn.art/videos/2026-robotics-blog/box-packing-aloha-30x.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://wlt-ai-cdn.art/videos/2026-robotics-blog/box-packing-aloha-30x.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://www.worldlabs.ai/api/opengraph-image?imageUrl=/images/scenix/blog-image.jpg&title=Building%20Worlds%20That%20Train%20Robots": {
+  "url": "https://www.worldlabs.ai/api/opengraph-image?imageUrl=/images/scenix/blog-image.jpg&title=Building%20Worlds%20That%20Train%20Robots",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "video:mp4:https://research.nvidia.com/labs/sil/projects/gamma-world/videos/16-all.mp4": {
+  "url": "https://research.nvidia.com/labs/sil/projects/gamma-world/videos/16-all.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://research.nvidia.com/labs/sil/projects/gamma-world/videos/16-all.mp4",
+  "content_type": "video/mp4"
+ },
+ "arxiv:2605.28816": {
+  "arxiv": "2605.28816",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Gamma-World: Generative Multi-Agent World Modeling Beyond Two Players",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2605.28816"
+ },
+ "video:youtube:6IWCQWWgPNU": {
+  "url": "https://www.youtube.com/watch?v=6IWCQWWgPNU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "6IWCQWWgPNU",
+  "title": "Dreamx World  1.0",
+  "author": "DreamX- World",
+  "thumbnail": "https://i.ytimg.com/vi/6IWCQWWgPNU/hqdefault.jpg"
+ },
+ "arxiv:2606.16993": {
+  "arxiv": "2606.16993",
+  "ok": true,
+  "type": "arxiv",
+  "title": "DreamX-World 1.0: A General-Purpose Interactive World Model",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2606.16993"
+ },
+ "video:mp4:https://www.inspatio.com/assets/worldfm-demo.mp4": {
+  "url": "https://www.inspatio.com/assets/worldfm-demo.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://www.inspatio.com/assets/worldfm-demo.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://www.inspatio.com/assets/worldfm-cover.webp": {
+  "url": "https://www.inspatio.com/assets/worldfm-cover.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "arxiv:2603.11911": {
+  "arxiv": "2603.11911",
+  "ok": true,
+  "type": "arxiv",
+  "title": "InSpatio-WorldFM: An Open-Source Real-Time Generative Frame Model",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2603.11911"
+ },
+ "video:mp4:https://moxin-tech.github.io/moworld/moworld/videos/0.mp4": {
+  "url": "https://moxin-tech.github.io/moworld/moworld/videos/0.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://moxin-tech.github.io/moworld/moworld/videos/0.mp4",
+  "content_type": "video/mp4"
+ },
+ "arxiv:2607.06216": {
+  "arxiv": "2607.06216",
+  "ok": true,
+  "type": "arxiv",
+  "title": "MoWorld: A Flash World Model",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2607.06216"
+ },
+ "video:youtube:KbA3mKTpSCU": {
+  "url": "https://www.youtube.com/watch?v=KbA3mKTpSCU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "KbA3mKTpSCU",
+  "title": "PanoWorld: Real-World Panoramic Generation",
+  "author": "Haoyuan Li",
+  "thumbnail": "https://i.ytimg.com/vi/KbA3mKTpSCU/hqdefault.jpg"
+ },
+ "img:https://lihaoy-ux.github.io/panoworld-page/res/images/panoworld_teaser.png": {
+  "url": "https://lihaoy-ux.github.io/panoworld-page/res/images/panoworld_teaser.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2607.09661": {
+  "arxiv": "2607.09661",
+  "ok": true,
+  "type": "arxiv",
+  "title": "PanoWorld: Real-World Panoramic Generation",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2607.09661"
+ },
+ "arxiv:2609.37107": {
+  "arxiv": "2609.37107",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Waypoint-1.5: A Real-Time Video World Model for Consumer Hardware",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.37107"
+ },
+ "video:youtube:Qv64FpsEi2Q": {
+  "url": "https://www.youtube.com/watch?v=Qv64FpsEi2Q",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Qv64FpsEi2Q",
+  "title": "ABot-Earth 0.5",
+  "author": "ming qian",
+  "thumbnail": "https://i.ytimg.com/vi/Qv64FpsEi2Q/hqdefault.jpg"
+ },
+ "img:https://raw.githubusercontent.com/amap-cvlab/ABot-Earth-0.5/main/src/fig_teaser.jpg": {
+  "url": "https://raw.githubusercontent.com/amap-cvlab/ABot-Earth-0.5/main/src/fig_teaser.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2606.09967": {
+  "arxiv": "2606.09967",
+  "ok": true,
+  "type": "arxiv",
+  "title": "ABot-Earth 0.5: Generative 3D Earth Model",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2606.09967"
+ },
+ "video:youtube:DpPD85IK-Ko": {
+  "url": "https://www.youtube.com/watch?v=DpPD85IK-Ko",
+  "ok": true,
+  "platform": "youtube",
+  "id": "DpPD85IK-Ko",
+  "title": "Demo video for \"GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation\" .",
+  "author": "jiahao lu",
+  "thumbnail": "https://i.ytimg.com/vi/DpPD85IK-Ko/hqdefault.jpg"
+ },
+ "img:https://jiah-cloud.github.io/GAE.github.io/assets/overview/GAE-teaser-poster.jpg": {
+  "url": "https://jiah-cloud.github.io/GAE.github.io/assets/overview/GAE-teaser-poster.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2609.24981": {
+  "arxiv": "2609.24981",
+  "ok": true,
+  "type": "arxiv",
+  "title": "GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.24981"
+ },
+ "video:youtube:WGIEmu9eXmU": {
+  "url": "https://www.youtube.com/watch?v=WGIEmu9eXmU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "WGIEmu9eXmU",
+  "title": "ViewCrafter",
+  "author": "Wangbo Yu",
+  "thumbnail": "https://i.ytimg.com/vi/WGIEmu9eXmU/hqdefault.jpg"
+ },
+ "img:https://drexubery.github.io/ViewCrafter/static/images/room.png": {
+  "url": "https://drexubery.github.io/ViewCrafter/static/images/room.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2409.02048": {
+  "arxiv": "2409.02048",
+  "ok": true,
+  "type": "arxiv",
+  "title": "ViewCrafter: Taming Video Diffusion Models for High-fidelity Novel View Synthesis",
+  "year": 2024,
+  "url": "https://arxiv.org/abs/2409.02048"
+ },
+ "video:mp4:https://framerusercontent.com/assets/nOPsdj7d3r5UPEOKBgvQiQtqjE.mp4": {
+  "url": "https://framerusercontent.com/assets/nOPsdj7d3r5UPEOKBgvQiQtqjE.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://framerusercontent.com/assets/nOPsdj7d3r5UPEOKBgvQiQtqjE.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://framerusercontent.com/assets/RtVCbwsEdQy3SKNwI2I8GB4Mhbk.png": {
+  "url": "https://framerusercontent.com/assets/RtVCbwsEdQy3SKNwI2I8GB4Mhbk.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "video:youtube:zVnMHkFzHDg": {
+  "url": "https://www.youtube.com/watch?v=zVnMHkFzHDg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "zVnMHkFzHDg",
+  "title": "GaussianGPT: Towards Autoregressive 3D Gaussian Scene Generation",
+  "author": "Matthias Niessner",
+  "thumbnail": "https://i.ytimg.com/vi/zVnMHkFzHDg/hqdefault.jpg"
+ },
+ "arxiv:2603.26661": {
+  "arxiv": "2603.26661",
+  "ok": true,
+  "type": "arxiv",
+  "title": "GaussianGPT: Towards Autoregressive 3D Gaussian Scene Generation",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2603.26661"
+ },
+ "video:mp4:https://xdimlab.github.io/Gen3R/static/videos/teaser.mp4": {
+  "url": "https://xdimlab.github.io/Gen3R/static/videos/teaser.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://xdimlab.github.io/Gen3R/static/videos/teaser.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://raw.githubusercontent.com/JaceyHuang/Gen3R/main/assets/teaser.png": {
+  "url": "https://raw.githubusercontent.com/JaceyHuang/Gen3R/main/assets/teaser.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2601.04090": {
+  "arxiv": "2601.04090",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Gen3R: 3D Scene Generation Meets Feed-Forward Reconstruction",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2601.04090"
+ },
+ "video:mp4:https://sensengao.github.io/PixWorld/static/videos/demo_v32.mp4": {
+  "url": "https://sensengao.github.io/PixWorld/static/videos/demo_v32.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://sensengao.github.io/PixWorld/static/videos/demo_v32.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://sensengao.github.io/PixWorld/static/images/demo_v32_poster.png": {
+  "url": "https://sensengao.github.io/PixWorld/static/images/demo_v32_poster.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2607.05373": {
+  "arxiv": "2607.05373",
+  "ok": true,
+  "type": "arxiv",
+  "title": "PixWorld: Unifying 3D Scene Generation and Reconstruction in Pixel Space",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2607.05373"
+ },
+ "video:mp4:https://research.nvidia.com/labs/gear/simfoundry/videos/Simfoundry_Teaser.mp4": {
+  "url": "https://research.nvidia.com/labs/gear/simfoundry/videos/Simfoundry_Teaser.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://research.nvidia.com/labs/gear/simfoundry/videos/Simfoundry_Teaser.mp4",
+  "content_type": "video/mp4"
+ },
+ "arxiv:2606.28276": {
+  "arxiv": "2606.28276",
+  "ok": true,
+  "type": "arxiv",
+  "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2606.28276"
+ },
+ "video:youtube:MIkJJSVM8L4": {
+  "url": "https://www.youtube.com/watch?v=MIkJJSVM8L4",
+  "ok": true,
+  "platform": "youtube",
+  "id": "MIkJJSVM8L4",
+  "title": "EmbodiedGen V2: An Agentic, Simulation-Ready3D World Engine for Embodied AI.",
+  "author": "xinjie",
+  "thumbnail": "https://i.ytimg.com/vi/MIkJJSVM8L4/hqdefault.jpg"
+ },
+ "img:https://horizonrobotics.github.io/EmbodiedGen/assets/img/overview.jpg": {
+  "url": "https://horizonrobotics.github.io/EmbodiedGen/assets/img/overview.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2607.07459": {
+  "arxiv": "2607.07459",
+  "ok": true,
+  "type": "arxiv",
+  "title": "EmbodiedGen V2: An Agentic, Simulation-Ready 3D World Engine for Embodied AI",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2607.07459"
+ },
+ "video:mp4:https://alaya-lab.github.io/WorldSculpt/assets/videos/demo_video.mp4": {
+  "url": "https://alaya-lab.github.io/WorldSculpt/assets/videos/demo_video.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://alaya-lab.github.io/WorldSculpt/assets/videos/demo_video.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://alaya-lab.github.io/WorldSculpt/assets/figures/teaser.webp": {
+  "url": "https://alaya-lab.github.io/WorldSculpt/assets/figures/teaser.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "arxiv:2609.05416": {
+  "arxiv": "2609.05416",
+  "ok": true,
+  "type": "arxiv",
+  "title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.05416"
+ },
+ "video:mp4:https://manycore-research.github.io/SpatialGen/assets/teaser.mp4": {
+  "url": "https://manycore-research.github.io/SpatialGen/assets/teaser.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://manycore-research.github.io/SpatialGen/assets/teaser.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://manycore-research.github.io/SpatialGen/static/images/teaser.jpg": {
+  "url": "https://manycore-research.github.io/SpatialGen/static/images/teaser.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2509.14981": {
+  "arxiv": "2509.14981",
+  "ok": true,
+  "type": "arxiv",
+  "title": "SPATIALGEN: Layout-guided 3D Indoor Scene Generation",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2509.14981"
+ },
+ "video:mp4:https://scenescape.github.io/joined_videos/haunted_house.mp4": {
+  "url": "https://scenescape.github.io/joined_videos/haunted_house.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://scenescape.github.io/joined_videos/haunted_house.mp4",
+  "content_type": "video/mp4"
+ },
+ "arxiv:2302.01133": {
+  "arxiv": "2302.01133",
+  "ok": true,
+  "type": "arxiv",
+  "title": "SceneScape: Text-Driven Consistent Scene Generation",
+  "year": 2023,
+  "url": "https://arxiv.org/abs/2302.01133"
+ },
+ "ytmax:fbDd_ph305Q": {
+  "url": "https://i.ytimg.com/vi/fbDd_ph305Q/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:4syKq_OrbGA": {
+  "url": "https://i.ytimg.com/vi/4syKq_OrbGA/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:NTHWMk5pcYs": {
+  "url": "https://i.ytimg.com/vi/NTHWMk5pcYs/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:xT_vi2maxuM": {
+  "url": "https://i.ytimg.com/vi/xT_vi2maxuM/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:-8XeiZ4djKw": {
+  "url": "https://i.ytimg.com/vi/-8XeiZ4djKw/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:3XtqQBt-W0Y": {
+  "url": "https://i.ytimg.com/vi/3XtqQBt-W0Y/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:fJn9B64Znrk": {
+  "url": "https://i.ytimg.com/vi/fJn9B64Znrk/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:dndPhyJJcTE": {
+  "url": "https://i.ytimg.com/vi/dndPhyJJcTE/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:FLmbd48r2Wo": {
+  "url": "https://i.ytimg.com/vi/FLmbd48r2Wo/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:Afp_jkabSL0": {
+  "url": "https://i.ytimg.com/vi/Afp_jkabSL0/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:0H0lsM3USVM": {
+  "url": "https://i.ytimg.com/vi/0H0lsM3USVM/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:heJjHOAUWLU": {
+  "url": "https://i.ytimg.com/vi/heJjHOAUWLU/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:Facqav-LthQ": {
+  "url": "https://i.ytimg.com/vi/Facqav-LthQ/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:mlO3Nc3Nsng": {
+  "url": "https://i.ytimg.com/vi/mlO3Nc3Nsng/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:WHmV8kD-_xo": {
+  "url": "https://i.ytimg.com/vi/WHmV8kD-_xo/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:1_aWAwd3NEk": {
+  "url": "https://i.ytimg.com/vi/1_aWAwd3NEk/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:ZCgj4ffz4yk": {
+  "url": "https://i.ytimg.com/vi/ZCgj4ffz4yk/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:xbndC-dEuVw": {
+  "url": "https://i.ytimg.com/vi/xbndC-dEuVw/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:Y82bWkYKOMw": {
+  "url": "https://i.ytimg.com/vi/Y82bWkYKOMw/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:L5IjgBBuCpg": {
+  "url": "https://i.ytimg.com/vi/L5IjgBBuCpg/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:WtPiZ0ym13k": {
+  "url": "https://i.ytimg.com/vi/WtPiZ0ym13k/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:_lHvWn2SNC4": {
+  "url": "https://i.ytimg.com/vi/_lHvWn2SNC4/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:-iTkqXlhLK8": {
+  "url": "https://i.ytimg.com/vi/-iTkqXlhLK8/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:xdPIwgDriTg": {
+  "url": "https://i.ytimg.com/vi/xdPIwgDriTg/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:Rno7SlzOPh8": {
+  "url": "https://i.ytimg.com/vi/Rno7SlzOPh8/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:qaaaXWs_bMg": {
+  "url": "https://i.ytimg.com/vi/qaaaXWs_bMg/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:kiwPrAjFGWo": {
+  "url": "https://i.ytimg.com/vi/kiwPrAjFGWo/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:OGbsSuHLuMc": {
+  "url": "https://i.ytimg.com/vi/OGbsSuHLuMc/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:oIW3ZooWaQw": {
+  "url": "https://i.ytimg.com/vi/oIW3ZooWaQw/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:rHMcwFDAh-Y": {
+  "url": "https://i.ytimg.com/vi/rHMcwFDAh-Y/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:tivEpz_yiEo": {
+  "url": "https://i.ytimg.com/vi/tivEpz_yiEo/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:QU_ItB4p_zc": {
+  "url": "https://i.ytimg.com/vi/QU_ItB4p_zc/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:9h2_L9E2KjE": {
+  "url": "https://i.ytimg.com/vi/9h2_L9E2KjE/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:4s5NDsyt6V4": {
+  "url": "https://i.ytimg.com/vi/4s5NDsyt6V4/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:ZH3XgnpBGHM": {
+  "url": "https://i.ytimg.com/vi/ZH3XgnpBGHM/maxresdefault.jpg",
+  "ok": false,
+  "type": "image",
+  "error": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "ytmax:1aSmlWFmQNQ": {
+  "url": "https://i.ytimg.com/vi/1aSmlWFmQNQ/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:KMgAFx1MHmg": {
+  "url": "https://i.ytimg.com/vi/KMgAFx1MHmg/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:PdUq-_6ba5s": {
+  "url": "https://i.ytimg.com/vi/PdUq-_6ba5s/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:T2p8UqTWN84": {
+  "url": "https://i.ytimg.com/vi/T2p8UqTWN84/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:eFVottnTn-w": {
+  "url": "https://i.ytimg.com/vi/eFVottnTn-w/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:54krjoYva5Q": {
+  "url": "https://i.ytimg.com/vi/54krjoYva5Q/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:8BwQu8oS8XY": {
+  "url": "https://i.ytimg.com/vi/8BwQu8oS8XY/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:8Oy83OVgbSM": {
+  "url": "https://i.ytimg.com/vi/8Oy83OVgbSM/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:Es6SDpbiyM8": {
+  "url": "https://i.ytimg.com/vi/Es6SDpbiyM8/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:RHvioD_b2Hc": {
+  "url": "https://i.ytimg.com/vi/RHvioD_b2Hc/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:FNeR-ESSRnY": {
+  "url": "https://i.ytimg.com/vi/FNeR-ESSRnY/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:A6PlUJB6QJU": {
+  "url": "https://i.ytimg.com/vi/A6PlUJB6QJU/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:xyD_bmMy5nQ": {
+  "url": "https://i.ytimg.com/vi/xyD_bmMy5nQ/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:Dxvrvfyicp0": {
+  "url": "https://i.ytimg.com/vi/Dxvrvfyicp0/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:m2NQ5k1oTcs": {
+  "url": "https://i.ytimg.com/vi/m2NQ5k1oTcs/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:oc0fRoZTyk8": {
+  "url": "https://i.ytimg.com/vi/oc0fRoZTyk8/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:tY1J1iRzzow": {
+  "url": "https://i.ytimg.com/vi/tY1J1iRzzow/maxresdefault.jpg",
+  "ok": false,
+  "type": "image",
+  "error": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "ytmax:OQwaF0ihjH4": {
+  "url": "https://i.ytimg.com/vi/OQwaF0ihjH4/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:GTRbualP7-A": {
+  "url": "https://i.ytimg.com/vi/GTRbualP7-A/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:qkaeeGzLnY8": {
+  "url": "https://i.ytimg.com/vi/qkaeeGzLnY8/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:q8xH9B0S4y0": {
+  "url": "https://i.ytimg.com/vi/q8xH9B0S4y0/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:u1SzuKIYAsE": {
+  "url": "https://i.ytimg.com/vi/u1SzuKIYAsE/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:Uc_CL_D8KiU": {
+  "url": "https://i.ytimg.com/vi/Uc_CL_D8KiU/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:xBrMjPnH3_w": {
+  "url": "https://i.ytimg.com/vi/xBrMjPnH3_w/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:ViDQI1HMY2U": {
+  "url": "https://i.ytimg.com/vi/ViDQI1HMY2U/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:PF6W0Nd27Tk": {
+  "url": "https://i.ytimg.com/vi/PF6W0Nd27Tk/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:BGj3BIbZ74A": {
+  "url": "https://i.ytimg.com/vi/BGj3BIbZ74A/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:GpHnoSczlhA": {
+  "url": "https://i.ytimg.com/vi/GpHnoSczlhA/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:vzO4VyBE7T0": {
+  "url": "https://i.ytimg.com/vi/vzO4VyBE7T0/maxresdefault.jpg",
+  "ok": false,
+  "type": "image",
+  "error": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "ytmax:1k8Ikf8zbZw": {
+  "url": "https://i.ytimg.com/vi/1k8Ikf8zbZw/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:QCJ4u7f3K-8": {
+  "url": "https://i.ytimg.com/vi/QCJ4u7f3K-8/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:ZDfjZae7Da0": {
+  "url": "https://i.ytimg.com/vi/ZDfjZae7Da0/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:jJcbxCDRRaw": {
+  "url": "https://i.ytimg.com/vi/jJcbxCDRRaw/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:65EBGlhn-lQ": {
+  "url": "https://i.ytimg.com/vi/65EBGlhn-lQ/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:m-qRU0SY8NQ": {
+  "url": "https://i.ytimg.com/vi/m-qRU0SY8NQ/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:93HHOnISoqk": {
+  "url": "https://i.ytimg.com/vi/93HHOnISoqk/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:fjk2mMFBpRo": {
+  "url": "https://i.ytimg.com/vi/fjk2mMFBpRo/maxresdefault.jpg",
+  "ok": false,
+  "type": "image",
+  "error": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "ytmax:SIfDV2JjLL4": {
+  "url": "https://i.ytimg.com/vi/SIfDV2JjLL4/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:HQYY3xUl6AY": {
+  "url": "https://i.ytimg.com/vi/HQYY3xUl6AY/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:_pFzHHslhgc": {
+  "url": "https://i.ytimg.com/vi/_pFzHHslhgc/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:cSLm_BPwJ2U": {
+  "url": "https://i.ytimg.com/vi/cSLm_BPwJ2U/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:n0jIEg7taTI": {
+  "url": "https://i.ytimg.com/vi/n0jIEg7taTI/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:zhkWctq4N1k": {
+  "url": "https://i.ytimg.com/vi/zhkWctq4N1k/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:3Si-QBUF97E": {
+  "url": "https://i.ytimg.com/vi/3Si-QBUF97E/maxresdefault.jpg",
+  "ok": false,
+  "type": "image",
+  "error": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "ytmax:j4scl5Y7gXo": {
+  "url": "https://i.ytimg.com/vi/j4scl5Y7gXo/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:6IWCQWWgPNU": {
+  "url": "https://i.ytimg.com/vi/6IWCQWWgPNU/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:KbA3mKTpSCU": {
+  "url": "https://i.ytimg.com/vi/KbA3mKTpSCU/maxresdefault.jpg",
+  "ok": false,
+  "type": "image",
+  "error": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "ytmax:Qv64FpsEi2Q": {
+  "url": "https://i.ytimg.com/vi/Qv64FpsEi2Q/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:DpPD85IK-Ko": {
+  "url": "https://i.ytimg.com/vi/DpPD85IK-Ko/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:WGIEmu9eXmU": {
+  "url": "https://i.ytimg.com/vi/WGIEmu9eXmU/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:zVnMHkFzHDg": {
+  "url": "https://i.ytimg.com/vi/zVnMHkFzHDg/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:MIkJJSVM8L4": {
+  "url": "https://i.ytimg.com/vi/MIkJJSVM8L4/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "video:youtube:N1YcwAxcPaQ": {
+  "url": "https://www.youtube.com/watch?v=N1YcwAxcPaQ",
+  "ok": true,
+  "platform": "youtube",
+  "id": "N1YcwAxcPaQ",
+  "title": "Generative Proxy: Synthesizing Proxy-Based Interfaces for Real-World Interaction Across AR Glasses",
+  "author": "Carton22",
+  "thumbnail": "https://i.ytimg.com/vi/N1YcwAxcPaQ/hqdefault.jpg"
+ },
+ "img:https://arxiv.org/html/2608.08971v1/figs/Teaser.png": {
+  "url": "https://arxiv.org/html/2608.08971v1/figs/Teaser.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2608.08971": {
+  "arxiv": "2608.08971",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Generative Proxy: Synthesizing Proxy-Based Interfaces for Real-World Interaction Across AR Glasses",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2608.08971"
+ },
+ "ytmax:N1YcwAxcPaQ": {
+  "url": "https://i.ytimg.com/vi/N1YcwAxcPaQ/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
  }
 }

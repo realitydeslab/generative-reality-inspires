@@ -1,0 +1,34 @@
+{
+  "alibaba-ath--happyoyster": {
+    "zh": "快乐生蚝",
+    "src": "established"
+  },
+  "ruili-feng--the-matrix": {
+    "zh": "The Matrix：无限时长世界生成",
+    "src": "translated"
+  },
+  "ryan-po--ssm-world-models": {
+    "zh": "长上下文状态空间视频世界模型",
+    "src": "translated"
+  },
+  "kiwhan-song--history-guided-video-diffusion": {
+    "zh": "历史引导视频扩散",
+    "src": "translated"
+  },
+  "runjia-li--vmem": {
+    "zh": "VMem：面元索引视图记忆",
+    "src": "translated"
+  },
+  "jiwen-yu--memlearner": {
+    "zh": "MemLearner：学习查询上下文记忆",
+    "src": "translated"
+  },
+  "junyi-wu--world-t3": {
+    "zh": "World-T3：以测试时训练作持久记忆",
+    "src": "translated"
+  },
+  "liangyang-ouyang--helloworld": {
+    "zh": "HelloWorld：会社交回应的世界模型角色",
+    "src": "translated"
+  }
+}

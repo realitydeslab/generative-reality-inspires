@@ -1,0 +1,1197 @@
+{
+  "batch": "agents-2026-10",
+  "creators": [
+    {
+      "id": "emergence-ai",
+      "name": "Emergence AI",
+      "kind": "company",
+      "role": "Agent-systems company with a research lab",
+      "role_zh": "带有研究实验室的智能体系统公司",
+      "bio": "New York company that builds autonomous agent systems for enterprises. Its research lab runs Emergence World, a long-running simulation of LLM-agent societies.",
+      "bio_zh": "总部位于纽约的公司，为企业构建自主智能体系统。其研究实验室运营 Emergence World，一个长期运行的大语言模型智能体社会模拟。",
+      "why": "Runs agent societies for weeks rather than days and publishes what goes wrong, which is the timescale a persistent social situation needs.",
+      "why_zh": "让智能体社会连续运行数周而非数天，并公开其中出现的问题；持续存在的社会情境正需要这样的时间尺度。",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.emergence.ai/",
+        "github": "https://github.com/EmergenceAI"
+      },
+      "based": "New York, NY, US",
+      "based_zh": "美国纽约",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "mingyu-ouyang",
+      "name": "Mingyu Ouyang",
+      "kind": "person",
+      "role": "AI researcher (National University of Singapore)",
+      "role_zh": "人工智能研究者（新加坡国立大学）",
+      "bio": "Researcher at the National University of Singapore; first author of Player-1 (2026), written during an internship at Tencent ARC Lab.",
+      "bio_zh": "新加坡国立大学研究者；Player-1（2026）的第一作者，该工作完成于腾讯 ARC 实验室实习期间。",
+      "why": "Player-1 trains game agents in synthetic worlds instead of on human demonstrations alone.",
+      "why_zh": "Player-1 让游戏智能体在合成世界中学习，而不只依赖人类示范。",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {},
+      "based": "Singapore",
+      "based_zh": "新加坡",
+      "connected_to": [
+        "tencent-arc"
+      ],
+      "discovered_via": "tencent-arc"
+    },
+    {
+      "id": "zhiyang-deng",
+      "name": "Zhiyang Deng",
+      "kind": "person",
+      "role": "AI researcher (Tencent, National University of Singapore)",
+      "role_zh": "人工智能研究者（腾讯、新加坡国立大学）",
+      "bio": "Researcher at the National University of Singapore; co-first author of WorldMind (2026), written during a research internship at Tencent.",
+      "bio_zh": "新加坡国立大学研究者；WorldMind（2026）的共同第一作者，该工作完成于腾讯研究实习期间。",
+      "why": "WorldMind gives characters inside a game world model an explicit decision step.",
+      "why_zh": "WorldMind 为游戏世界模型中的角色加入了一个显式的决策环节。",
+      "disciplines": [
+        "ml",
+        "games"
+      ],
+      "links": {},
+      "based": "Singapore",
+      "based_zh": "新加坡",
+      "connected_to": [
+        "tencent"
+      ],
+      "discovered_via": "tencent"
+    },
+    {
+      "id": "kolby-nottingham",
+      "name": "Kolby Nottingham",
+      "kind": "person",
+      "role": "AI researcher",
+      "role_zh": "人工智能研究者",
+      "bio": "Researcher on language-model agents in games; co-creator of Mindcraft with Max Robinson, whose Emergent Garden YouTube channel made the bot widely known.",
+      "bio_zh": "研究游戏中的语言模型智能体；与 Max Robinson 共同开发 Mindcraft，后者的 YouTube 频道 Emergent Garden 让这个机器人广为人知。",
+      "why": "Mindcraft is the most widely used open framework for LLM agents that play Minecraft alongside people.",
+      "why_zh": "Mindcraft 是使用最广的开源框架之一，让大语言模型智能体与人一起玩 Minecraft。",
+      "disciplines": [
+        "ml",
+        "games"
+      ],
+      "links": {
+        "site": "https://kolbynottingham.com/",
+        "github": "https://github.com/kolbytn"
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "studio-atelico",
+      "name": "Studio Atelico",
+      "kind": "studio",
+      "role": "Developer of an on-device AI engine for games",
+      "role_zh": "面向游戏的本地端 AI 引擎开发商",
+      "bio": "Studio founded by AI and games veterans from Uber, Meta, SEGA and Creative Assembly that builds the Atelico AI Engine for characters that run on the player's own GPU.",
+      "bio_zh": "由来自 Uber、Meta、世嘉与 Creative Assembly 的 AI 与游戏从业者创办的工作室，开发让角色在玩家自己的 GPU 上运行的 Atelico AI 引擎。",
+      "why": "Showed that a Smallville-style village of generative agents can run in real time on one consumer GPU, without cloud cost.",
+      "why_zh": "证明了 Smallville 式的生成式智能体村庄可以在一块消费级 GPU 上实时运行，无需云端开销。",
+      "disciplines": [
+        "games",
+        "ml"
+      ],
+      "links": {
+        "site": "https://atelico.studio"
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "goodai",
+      "name": "GoodAI",
+      "kind": "company",
+      "role": "AI research company and game developer",
+      "role_zh": "人工智能研究公司与游戏开发商",
+      "bio": "Prague-based AI research company founded by Marek Rosa (Keen Software House); it developed AI People, a sandbox game of LLM-driven NPCs.",
+      "bio_zh": "总部位于布拉格的人工智能研究公司，由 Marek Rosa（Keen Software House 创始人）创办；开发了由大语言模型驱动 NPC 的沙盒游戏 AI People。",
+      "why": "One of the first commercial attempts to sell a game whose whole cast is LLM agents, and an example of how fragile such products are.",
+      "why_zh": "最早尝试售卖“整个角色阵容都是大语言模型智能体”游戏的商业项目之一，也说明了这类产品有多脆弱。",
+      "disciplines": [
+        "games",
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.goodai.com/"
+      },
+      "based": "Prague, CZ",
+      "based_zh": "捷克布拉格",
+      "connected_to": [
+        "nvidia"
+      ],
+      "discovered_via": "nvidia"
+    },
+    {
+      "id": "wemade-next",
+      "name": "Wemade Next",
+      "kind": "company",
+      "role": "Game developer (Wemade subsidiary)",
+      "role_zh": "游戏开发商（Wemade 子公司）",
+      "bio": "Korean developer of the Legend of Mir MMORPG series, including MIR4 and MIR5, and a subsidiary of Wemade.",
+      "bio_zh": "韩国游戏开发商，Wemade 旗下子公司，开发《传奇》（Legend of Mir）系列 MMORPG，包括 MIR4 与 MIR5。",
+      "why": "Announced the first LLM-driven boss built with NVIDIA ACE, moving AI characters from companions to adversaries.",
+      "why_zh": "宣布了首个基于 NVIDIA ACE、由大语言模型驱动的首领角色，把 AI 角色从同伴扩展到对手。",
+      "disciplines": [
+        "games"
+      ],
+      "links": {},
+      "connected_to": [
+        "nvidia"
+      ],
+      "discovered_via": "nvidia"
+    },
+    {
+      "id": "linxi-fan",
+      "name": "Linxi (Jim) Fan",
+      "kind": "person",
+      "role": "AI researcher (NVIDIA)",
+      "role_zh": "人工智能研究者（英伟达）",
+      "bio": "NVIDIA research scientist working on embodied agents and robot foundation models; first author of MineDojo (2022) and co-author of Voyager (2023).",
+      "bio_zh": "英伟达研究科学家，研究具身智能体与机器人基础模型；MineDojo（2022）的第一作者，也是 Voyager（2023）的合作者。",
+      "why": "MineDojo set up Minecraft, and internet videos about it, as a shared testbed for open-ended agents.",
+      "why_zh": "MineDojo 把 Minecraft 及其海量网络视频，建成开放式智能体研究共享的试验场。",
+      "disciplines": [
+        "ml",
+        "robotics"
+      ],
+      "links": {
+        "site": "https://jimfan.me/"
+      },
+      "connected_to": [
+        "nvidia"
+      ],
+      "discovered_via": "nvidia"
+    },
+    {
+      "id": "marcel-binz",
+      "name": "Marcel Binz",
+      "kind": "person",
+      "role": "Cognitive scientist (Helmholtz Munich)",
+      "role_zh": "认知科学家（慕尼黑亥姆霍兹中心）",
+      "bio": "Researcher at Helmholtz Munich's Institute for Human-Centered AI who builds machine-learning models of human cognition; first author of Centaur (Nature, 2025).",
+      "bio_zh": "慕尼黑亥姆霍兹中心“以人为本人工智能研究所”的研究者，构建人类认知的机器学习模型；Centaur（《自然》，2025）的第一作者。",
+      "why": "Centaur is the most direct attempt to build a model that stands in for human participants across many experiments.",
+      "why_zh": "Centaur 是在多类实验中替代人类被试的模型方向上最直接的尝试。",
+      "disciplines": [
+        "behavioral",
+        "ml"
+      ],
+      "links": {
+        "huggingface": "https://huggingface.co/marcelbinz"
+      },
+      "based": "Munich, DE",
+      "based_zh": "德国慕尼黑",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "art-from-the-machine",
+      "name": "Art from the Machine",
+      "kind": "person",
+      "role": "Independent mod developer",
+      "role_zh": "独立模组开发者",
+      "bio": "Pseudonymous developer of Mantella, an open-source mod that gives NPCs in Skyrim and Fallout 4 voice conversations driven by language models.",
+      "bio_zh": "以化名活动的开发者，开发了开源模组 Mantella，让《上古卷轴 V：天际》与《辐射 4》中的 NPC 能进行由语言模型驱动的语音对话。",
+      "why": "Mantella showed, years before studios shipped AI NPCs, how players use LLM characters in a large existing game world.",
+      "why_zh": "早在游戏公司推出 AI NPC 之前，Mantella 就展示了玩家如何在一个庞大的现成游戏世界中使用大语言模型角色。",
+      "disciplines": [
+        "games"
+      ],
+      "links": {
+        "github": "https://github.com/art-from-the-machine"
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    }
+  ],
+  "works": [
+    {
+      "id": "odyssey--prowl-2",
+      "creator_ids": [
+        "odyssey"
+      ],
+      "title": "PROWL-2",
+      "year": 2026,
+      "date": "2026-10-01",
+      "field": "agents",
+      "sub": "embodied",
+      "also": [
+        "world-models"
+      ],
+      "modalities": [
+        "behavior"
+      ],
+      "inputs": [],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "adaptation",
+        "diversity",
+        "behavioral-plausibility"
+      ],
+      "kind": "research",
+      "description": "A training framework from Odyssey in which a team of agents learns inside a learned world model while that world model is repaired wherever it mispredicts. It is shown on StarCraft II squad combat (SMACv2) and on cooperative quadruped-robot tasks.",
+      "description_zh": "Odyssey 提出的训练框架：一组智能体在学习得到的世界模型中训练，同时在世界模型预测出错的地方对其进行修复。演示场景包括《星际争霸 II》小队作战（SMACv2）和多台四足机器人的协作任务。",
+      "idea_en": "Before agents learn from a generated world, check the world: rollouts the model gets wrong are kept out of training and used to fix the model instead.",
+      "idea_zh": "在让智能体从生成的世界中学习之前，先检查这个世界：模型推演错的片段不用于训练，而是转去修正模型本身。",
+      "method": "Agents train on world-model rollouts from start states ranked by learning potential (unsupervised environment design), a developer agent explores the real environment for mispredictions, and a fidelity gate compares imagined with recorded real trajectories so that low-fidelity start states go to world-model repair until the model predicts them correctly.",
+      "method_zh": "智能体在世界模型生成的推演中训练，起始状态按学习潜力排序（无监督环境设计）；一个“开发者”智能体在真实环境中寻找模型预测错误之处；保真度闸门把想象轨迹与记录的真实轨迹对比，保真度低的起始状态先交给世界模型修复，直到模型能正确预测后才重新用于训练。",
+      "specs": "SMACv2 9 scenarios (5v5, 10v10, 10v11) · up to 91% relative gain over the baseline world-model learner · MQE Gate-3 success 29.8% → 70.4%",
+      "keywords": [
+        "multi-agent reinforcement learning",
+        "world model",
+        "curriculum learning",
+        "unsupervised environment design",
+        "SMACv2",
+        "fidelity gate"
+      ],
+      "video": {
+        "url": "https://framerusercontent.com/assets/ZIdJUCh5QSXs3cQHda1vkpy32s.mp4"
+      },
+      "images": [
+        "https://framerusercontent.com/assets/n4yXH1c5rgVzfkISH5AOF0HEZUc.jpg"
+      ],
+      "paper": {
+        "url": "https://prowl.odyssey.ml/PROWL-2.pdf",
+        "venue": "Preprint",
+        "title": "PROWL-2: Fidelity-Gated Exploration for Multi-Agent World-Model Dual Curricula"
+      },
+      "source_url": "https://odyssey.ml/introducing-prowl-2",
+      "collections": [
+        "trend-agents-in-worlds"
+      ]
+    },
+    {
+      "id": "mingyu-ouyang--player-1",
+      "creator_ids": [
+        "mingyu-ouyang",
+        "tencent-arc"
+      ],
+      "title": "Player-1",
+      "year": 2026,
+      "date": "2026-10-14",
+      "field": "agents",
+      "sub": "embodied",
+      "modalities": [
+        "behavior"
+      ],
+      "inputs": [
+        "image",
+        "text"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open",
+        "research"
+      ],
+      "lenses": [
+        "diversity",
+        "reactivity"
+      ],
+      "kind": "research",
+      "description": "A recipe that turns a computer-use model into a game-playing agent. After fine-tuning on 6,044 gameplay trajectories from 172 games, the agent learns by reinforcement in sixteen synthetic 2D and 3D training games and then plays Minecraft, ViZDoom and GameWorld tasks it never trained on.",
+      "description_zh": "把计算机操作模型变成游戏智能体的训练方法。智能体先在来自 172 款游戏的 6,044 条游戏轨迹上微调，再在 16 个合成的二维与三维训练游戏中通过强化学习练习，随后去完成从未训练过的 Minecraft、ViZDoom 与 GameWorld 任务。",
+      "idea_en": "Cheap, randomized synthetic games can stand in for hand-collected demonstrations as the place where agents learn to act; generated worlds could take the same role.",
+      "idea_zh": "廉价、可随机化的合成游戏可以代替人工收集的示范，成为智能体学习行动的场所；生成的世界也可以承担同样的角色。",
+      "method": "Qwen3.5-based computer-use models (9B and 35B-A3B) get an extended keyboard-and-mouse action space (relative pointer motion, held keys, composite actions), supervised fine-tuning on trajectories annotated with instructions and reasoning, then multi-environment PPO in Player-1-Gym with rewards computed from game state and randomized appearance, camera, scene and controls.",
+      "method_zh": "以 Qwen3.5 为基础的计算机操作模型（9B 与 35B-A3B）获得扩展的键鼠动作空间（相对指针移动、持续按键、组合动作），先在带指令与推理标注的轨迹上监督微调，再在 Player-1-Gym 中做多环境 PPO 强化学习；奖励直接由游戏状态计算，外观、镜头、场景与操控参数均随机化。",
+      "specs": "Player-1-9B · MineDojo-300 success 10.54% (SFT) → 38.33% (RL), best external baseline 12.63% · 16 synthetic environments",
+      "keywords": [
+        "game agent",
+        "computer-use agent",
+        "reinforcement learning",
+        "synthetic environments",
+        "Minecraft",
+        "Tencent ARC"
+      ],
+      "video": {
+        "url": "https://player-1-project.github.io/assets/introduction/overview.mp4"
+      },
+      "images": [
+        "https://player-1-project.github.io/assets/base_3d_combat_arena.webp"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2610.20584",
+        "arxiv": "2610.20584",
+        "venue": "arXiv",
+        "title": "Player-1: Learning to Play from Synthetic Experience"
+      },
+      "source_url": "https://player-1-project.github.io/",
+      "code_url": "https://github.com/TencentARC/Player-1",
+      "collections": [
+        "trend-agents-in-worlds"
+      ]
+    },
+    {
+      "id": "emergence-ai--emergence-world",
+      "creator_ids": [
+        "emergence-ai"
+      ],
+      "title": "Emergence World",
+      "year": 2026,
+      "date": "2026-05-14",
+      "field": "agents",
+      "sub": "generative-agents",
+      "modalities": [
+        "behavior",
+        "dialogue"
+      ],
+      "inputs": [
+        "spec",
+        "text"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "persistence",
+        "control",
+        "behavioral-plausibility"
+      ],
+      "kind": "research",
+      "description": "A continuously running town of LLM agents with memories, diaries, relationships, more than 120 tools, a constitution they can amend and an energy economy, fed with live New York weather and news. In Emergence AI's first study, five 10-agent worlds that differed only in the underlying model diverged within 15 days, from zero recorded crimes in one world to hundreds in another; a second season (September 2026) injected misinformation and prompt attacks.",
+      "description_zh": "一个持续运行的大语言模型智能体小镇：智能体拥有记忆、日记与人际关系，可使用 120 多种工具，能修订自己的宪章，并受能量经济约束，还接入了纽约实时天气与新闻。在 Emergence AI 的第一项研究中，五个各有 10 名智能体、只在底层模型上不同的世界，在 15 天内走向截然不同的结局：有的世界没有一起犯罪记录，有的多达数百起；第二季（2026 年 9 月）又向其中投放了错误信息与提示注入攻击。",
+      "idea_en": "Weeks-long, fully logged agent societies make drift, conformity and collapse measurable, and the same persona behaves differently depending on which models share its world.",
+      "idea_zh": "持续数周、全程记录的智能体社会，让行为漂移、从众与崩溃变得可以测量；而同一个人设的表现，会随与它共处同一世界的模型不同而改变。",
+      "method": "A model-agnostic multi-agent simulation with 40+ locations, episodic, reflective and relationship memory per agent, a three-tier tool catalog, proposals that need 70% approval and decaying energy; parallel worlds start from identical conditions and vary only the foundation model, with every action recorded.",
+      "method_zh": "与模型无关的多智能体模拟：40 多个地点，每个智能体有情景记忆、反思日记与关系状态三种记忆，三层工具目录，提案需 70% 赞成才通过，能量随时间衰减；多个平行世界从相同条件出发，只改变底层基础模型，并记录每一个动作。",
+      "specs": "10 agents per world · 40+ locations · 120+ tools · 15–16-day runs · Season 2: 8 worlds, >850,000 LLM calls",
+      "keywords": [
+        "agent society",
+        "long-horizon",
+        "multi-agent safety",
+        "persistent memory",
+        "governance",
+        "Emergence AI"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=fbDd_ph305Q"
+      },
+      "images": [
+        "https://images.squarespace-cdn.com/content/69af1b77df627e3fed4f484d/d2931bac-6772-4a44-b382-c21f0b645f82/Emergence-World.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2606.08367",
+        "arxiv": "2606.08367",
+        "venue": "arXiv",
+        "title": "Emergence World: A Platform for Evaluating Long-Horizon Multi-Agent Autonomy"
+      },
+      "source_url": "https://www.emergence.ai/blog/emergence-world-a-laboratory-for-evaluating-long-horizon-agent-autonomy",
+      "code_url": "https://github.com/EmergenceAI/Emergence-World",
+      "collections": [
+        "trend-agents-in-worlds"
+      ]
+    },
+    {
+      "id": "zhiyang-deng--worldmind",
+      "creator_ids": [
+        "zhiyang-deng",
+        "tencent"
+      ],
+      "title": "WorldMind",
+      "year": 2026,
+      "date": "2026-08-18",
+      "field": "agents",
+      "sub": "npc",
+      "also": [
+        "world-models"
+      ],
+      "modalities": [
+        "frame-stream",
+        "behavior"
+      ],
+      "inputs": [
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "behavioral-plausibility",
+        "reactivity",
+        "control"
+      ],
+      "kind": "research",
+      "description": "A game world model in which a boss character's next move is decided from an explicit game state read back from the generated frames, instead of being left implicit in the video generator or supplied from outside. The project page shows one continuous hour of closed-loop boss fights.",
+      "description_zh": "一个游戏世界模型：首领角色的下一步动作，由从生成画面中重建出的显式游戏状态来决定，而不是隐含在视频生成器里，或由外部直接给定。项目页展示了连续一小时的闭环首领战。",
+      "idea_en": "Separating what a generated character decides from how it is rendered gives an inspectable decision layer, the hook an experiment needs to control and log NPC behavior.",
+      "idea_zh": "把生成角色“决定做什么”与“如何被画出来”分开，就得到一个可检查的决策层；实验要控制并记录 NPC 行为，正需要这样的接口。",
+      "method": "Four layers in a loop: an understanding layer builds a compact state from generated frames, a decision layer plans the NPC action, a control layer turns it into temporally aligned conditions and a distilled video generator renders the outcome; trained on BOSS-140K, gameplay videos paired with internal game states collected by an agent.",
+      "method_zh": "四层闭环：理解层从生成画面中构建紧凑状态，决策层规划 NPC 动作，控制层将其转为时间对齐的条件，经蒸馏的视频生成器渲染结果；训练数据为 BOSS-140K，即由智能体自动采集、与游戏内部状态配对的游戏视频。",
+      "specs": "BOSS-140K dataset · 1-hour continuous rollout · two-step distilled generator · preferred over baselines in ~70% of pairwise comparisons",
+      "keywords": [
+        "game world model",
+        "NPC behavior",
+        "boss fight",
+        "decoupled decision layer",
+        "Tencent",
+        "BOSS-140K"
+      ],
+      "video": {
+        "url": "https://teawhite.cn/WorldMind/assets/rollout-1h-6x.mp4"
+      },
+      "images": [
+        "https://teawhite.cn/WorldMind/assets/teaser.webp"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2608.21439",
+        "arxiv": "2608.21439",
+        "venue": "arXiv",
+        "title": "WorldMind: Decoupled Game World Model for State-Aware NPC Behavior"
+      },
+      "source_url": "https://teawhite.cn/WorldMind/",
+      "collections": [
+        "trend-agents-in-worlds"
+      ]
+    },
+    {
+      "id": "google-deepmind--gemini-4-argon-minecraft",
+      "creator_ids": [
+        "google-deepmind"
+      ],
+      "title": "A team of Gemini 4 Argon agents beats Minecraft",
+      "year": 2026,
+      "date": "2026-10-15",
+      "field": "agents",
+      "sub": "embodied",
+      "modalities": [
+        "behavior",
+        "dialogue"
+      ],
+      "inputs": [
+        "text",
+        "spec"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "persistence",
+        "adaptation",
+        "control"
+      ],
+      "kind": "research",
+      "description": "Four Gemini 4 Argon agents, each controlling a Minecraft player through the open-source Mineflayer library and coordinating by in-game chat and shared notes, started bare-handed in a random survival world and defeated the Ender Dragon after 27 hours 14 minutes, writing 2,783 programs and dying 605 times. Google DeepMind reports it as the first end-to-end autonomous completion of Minecraft by AI agents.",
+      "description_zh": "四个 Gemini 4 Argon 智能体各自通过开源库 Mineflayer 操控一名 Minecraft 玩家，借助游戏内聊天与共享笔记协作，从随机生成的生存世界中赤手空拳起步，在 27 小时 14 分钟后击败末影龙，期间编写了 2,783 个程序、死亡 605 次。Google DeepMind 称这是 AI 智能体首次端到端自主通关 Minecraft。",
+      "idea_en": "A team of agents can now stay coherent for a day across thousands of dependent steps in a game world, though through an interface that tells them what a human player would have to see.",
+      "idea_zh": "一组智能体已能在游戏世界中跨越数千个相互依赖的步骤、连续一天保持目标一致；不过它们依靠的接口直接告诉它们人类玩家需要亲眼看到的信息。",
+      "method": "No roles, game logic or skills were given: the agents planned, wrote and debugged their own programs against Mineflayer, which supplies block and entity perception and pathfinding instead of pixels, while an observer agent and researchers watched every program, message and game event on a live dashboard.",
+      "method_zh": "不预设角色、游戏逻辑或技能：智能体自行规划、编写并调试调用 Mineflayer 的程序；Mineflayer 直接提供方块与实体信息以及寻路，而不是画面像素；一个观察者智能体与研究人员通过实时面板查看每个程序、消息与游戏事件。",
+      "specs": "4 agents · 27 h 14 min · 2,783 programs · ~24,000 model calls · ~1.35B input tokens · ~US$520 at introductory list price",
+      "keywords": [
+        "Gemini 4 Argon",
+        "Minecraft",
+        "multi-agent coordination",
+        "long-horizon",
+        "code agents",
+        "Mineflayer",
+        "no official video found"
+      ],
+      "images": [
+        "https://arxiv.org/html/2610.22319v1/overview.png",
+        "https://arxiv.org/html/2610.22319v1/timeline.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2610.22319",
+        "arxiv": "2610.22319",
+        "venue": "arXiv",
+        "title": "A team of Gemini 4 Argon agents beats Minecraft"
+      },
+      "source_url": "https://arxiv.org/abs/2610.22319",
+      "collections": [
+        "trend-agents-in-worlds"
+      ]
+    },
+    {
+      "id": "nvidia--ace-game-agent-sdk",
+      "creator_ids": [
+        "nvidia"
+      ],
+      "title": "NVIDIA ACE Game Agent SDK",
+      "year": 2026,
+      "date": "2026-06-16",
+      "field": "agents",
+      "sub": "npc",
+      "modalities": [
+        "dialogue",
+        "behavior",
+        "speech"
+      ],
+      "inputs": [
+        "speech",
+        "text",
+        "spec"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "responsiveness",
+        "control"
+      ],
+      "kind": "open-source",
+      "description": "An open-source C/C++ framework, released in beta at Unreal Fest 2026, for building game characters that run entirely on the player's RTX GPU: an agent API that keeps chat history and drives multi-step tool use, a stateless chat API and a retrieval API over the game's own data. It shipped with Unreal Engine 5 plugins for local speech recognition, a small language model and text-to-speech.",
+      "description_zh": "一个开源的 C/C++ 框架，于 Unreal Fest 2026 以测试版发布，用于构建完全在玩家 RTX GPU 上运行的游戏角色：包括保存对话历史并驱动多步工具调用的智能体 API、无状态的对话 API，以及面向游戏自身数据的检索 API。同时推出的 Unreal Engine 5 插件提供本地语音识别、小语言模型与语音合成。",
+      "idea_en": "The NPC stack that PUBG Ally and the Total War advisor used is now a free local toolkit, so a lab can run a talking, acting character without a cloud bill or a vendor changing the model underneath.",
+      "idea_zh": "PUBG Ally 与《全面战争》顾问所用的 NPC 技术栈，如今成了免费的本地工具包；实验室无需云端费用、也不必担心供应商更换底层模型，就能运行会说话、会行动的角色。",
+      "method": "A lightweight agent loop optimized for small models on RTX hardware, with tool calling and hybrid semantic-lexical retrieval; the UE5 plugins bundle nemo-conformer-ctc-120m speech recognition, a Qwen 3.5 4B model in GGUF format and Chatterbox Turbo 350M text-to-speech, usable from Blueprints or C++.",
+      "method_zh": "针对 RTX 硬件上小模型优化的轻量智能体循环，支持工具调用与语义-词法混合检索；UE5 插件内置 nemo-conformer-ctc-120m 语音识别、GGUF 格式的 Qwen 3.5 4B 模型与 Chatterbox Turbo 350M 语音合成，可通过蓝图或 C++ 调用。",
+      "specs": "C/C++ · on-device (GeForce RTX) · Qwen 3.5 4B SLM · ASR 120M · TTS 350M · beta",
+      "keywords": [
+        "NVIDIA ACE",
+        "on-device SLM",
+        "Unreal Engine 5",
+        "agent loop",
+        "RAG",
+        "open source",
+        "webinar video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=4syKq_OrbGA"
+      },
+      "images": [
+        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ai-game-character.gif"
+      ],
+      "source_url": "https://developer.nvidia.com/blog/build-on-device-ai-companions-with-the-nvidia-ace-game-agent-sdk-and-unreal-engine-5-plugins/",
+      "api_url": "https://developer.nvidia.com/ace-for-games",
+      "code_url": "https://github.com/NVIDIA/game-agent-sdk",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "kolby-nottingham--mindcraft",
+      "creator_ids": [
+        "kolby-nottingham"
+      ],
+      "title": "Mindcraft",
+      "year": 2024,
+      "date": "2024-02-17",
+      "field": "agents",
+      "sub": "embodied",
+      "modalities": [
+        "behavior",
+        "dialogue"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "co-creation",
+        "reactivity",
+        "authoring"
+      ],
+      "kind": "open-source",
+      "description": "An open-source bot framework in which LLM agents join a Minecraft server as players you can talk to: they mine, craft, build, fight and chat, write their own code for new tasks, and cooperate or argue with other bots. Emergent Garden's videos of several models surviving together made it widely known; the 2025 MineCollab benchmark built on it tests collaboration.",
+      "description_zh": "一个开源机器人框架：大语言模型智能体以玩家身份加入 Minecraft 服务器，可以与人交谈，会采矿、合成、建造、战斗与聊天，为新任务自行编写代码，并与其他机器人合作或争执。Emergent Garden 频道中多个模型一起生存的视频让它广为人知；2025 年基于它构建的 MineCollab 基准用于测试协作能力。",
+      "idea_en": "A cheap, hackable way to put talking, acting AI players into a shared 3D world with people, which is close to a ready-made multi-agent social testbed.",
+      "idea_zh": "一种低成本、易改造的方式，把会说话、会行动的 AI 玩家放进与人共享的三维世界，几乎是现成的多智能体社会试验平台。",
+      "method": "A Node.js agent loop on the Mineflayer bot library: the LLM (OpenAI by default, other providers and local models supported) reads chat and game state, calls built-in commands or writes sandboxed JavaScript, and keeps a memory of its progress; in MineCollab, agent performance dropped by up to 15% when agents had to communicate detailed plans, which the authors identify as the main bottleneck.",
+      "method_zh": "基于 Mineflayer 机器人库的 Node.js 智能体循环：大语言模型（默认 OpenAI，也支持其他服务商与本地模型）读取聊天与游戏状态，调用内置命令或编写沙箱化的 JavaScript，并记录自身进展；在 MineCollab 中，当智能体必须交流详细计划时，表现最多下降 15%，作者认为沟通是主要瓶颈。",
+      "keywords": [
+        "Minecraft",
+        "Mineflayer",
+        "LLM agents",
+        "multi-agent",
+        "open source",
+        "Emergent Garden"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=NTHWMk5pcYs"
+      },
+      "images": [
+        "https://mindcraft-minecollab.github.io/steve.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2504.17950",
+        "arxiv": "2504.17950",
+        "venue": "arXiv",
+        "title": "Collaborating Action by Action: A Multi-agent LLM Framework for Embodied Reasoning"
+      },
+      "source_url": "https://kolbynottingham.com/mindcraft/",
+      "code_url": "https://github.com/mindcraft-bots/mindcraft",
+      "collections": [
+        "trend-agents-in-worlds"
+      ]
+    },
+    {
+      "id": "studio-atelico--garp",
+      "creator_ids": [
+        "studio-atelico"
+      ],
+      "title": "GARP (Generative Agents Realtime Playground)",
+      "year": 2025,
+      "date": "2025-01-08",
+      "field": "agents",
+      "sub": "npc",
+      "modalities": [
+        "behavior",
+        "dialogue"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "behavioral-plausibility",
+        "persistence",
+        "responsiveness"
+      ],
+      "kind": "research",
+      "description": "A tech demo of a village with more than 20 generative agents that have their own personalities, memories and daily plans, form relationships and react to each other, rebuilt after Stanford's Smallville to run in real time on a single NVIDIA RTX 3090 instead of in slow, paid cloud turns.",
+      "description_zh": "一个技术演示：村庄里有 20 多个生成式智能体，各有性格、记忆与日程，会建立关系、相互回应；它仿照斯坦福的 Smallville 重新实现，在一块 NVIDIA RTX 3090 上实时运行，而不是依赖缓慢且收费的云端回合。",
+      "idea_en": "Generative-agent towns no longer need a cloud budget: run locally, a whole population can live in real time inside a game or VR scene.",
+      "idea_zh": "生成式智能体小镇不再需要云端预算：在本地运行时，一整个群体可以在游戏或 VR 场景中实时生活。",
+      "method": "Atelico's on-device engine runs proprietary small language models with a cognitive memory architecture and hot-swappable adapters; Atelico reports that the original Smallville ran in turns at about US$500 per simulated game day, while GARP runs locally at no per-use cost.",
+      "method_zh": "Atelico 的本地端引擎运行自研小语言模型，配合认知记忆架构与可热切换的适配器；Atelico 称原版 Smallville 以回合方式运行，每模拟一个游戏日约需 500 美元，而 GARP 在本地运行，没有按次费用。",
+      "specs": "20+ agents · real-time · one RTX 3090",
+      "keywords": [
+        "generative agents",
+        "Smallville",
+        "on-device",
+        "small language models",
+        "village simulation",
+        "Atelico AI Engine"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=xT_vi2maxuM"
+      },
+      "images": [
+        "https://atelico.studio/images/og/home.png"
+      ],
+      "source_url": "https://atelico.studio",
+      "collections": [
+        "trend-agents-in-worlds"
+      ]
+    },
+    {
+      "id": "wemade-next--mir5-asterion",
+      "creator_ids": [
+        "wemade-next",
+        "nvidia"
+      ],
+      "title": "MIR5 AI boss Asterion",
+      "year": 2025,
+      "date": "2025-01-06",
+      "field": "agents",
+      "sub": "npc",
+      "modalities": [
+        "behavior"
+      ],
+      "inputs": [
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "adaptation",
+        "reactivity"
+      ],
+      "kind": "research",
+      "description": "A boss for Wemade Next's MMORPG MIR5, shown at CES 2025, that analyzes the skills, gear and tactics of the players it faces, recalls earlier battles and changes its attacks, so a fight with the same boss plays out differently each time. As of October 2026 no launch of the AI boss in the live game was confirmed.",
+      "description_zh": "Wemade Next 为 MMORPG《MIR5》打造的首领角色，在 CES 2025 上展示：它会分析对手玩家的技能、装备与战术，回忆以往的战斗并调整攻击方式，因此同一个首领每次的战斗过程都不相同。截至 2026 年 10 月，尚未确认这一 AI 首领已在正式游戏中上线。",
+      "idea_en": "Generative characters as adversaries rather than helpers: an opponent that adapts to a person's habits is the gaming version of an adaptive training scenario.",
+      "idea_zh": "把生成式角色用作对手而不是帮手：一个会适应人习惯的对手，正是自适应训练情境在游戏中的对应物。",
+      "method": "Small language models tuned for MIR5 and served through NVIDIA ACE perceive the encounter, compare the current party with past fights and choose the boss's next action instead of following a scripted pattern.",
+      "method_zh": "为《MIR5》调优、通过 NVIDIA ACE 提供的小语言模型感知战斗情况，把当前队伍与以往战斗对比，并选择首领的下一步动作，而不是按预设套路行动。",
+      "keywords": [
+        "AI boss",
+        "NVIDIA ACE",
+        "MMORPG",
+        "adaptive opponent",
+        "small language model",
+        "CES 2025",
+        "announced"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=-8XeiZ4djKw"
+      },
+      "source_url": "https://www.nvidia.com/en-us/geforce/news/nvidia-ace-autonomous-ai-companions-pubg-naraka-bladepoint/"
+    },
+    {
+      "id": "goodai--ai-people",
+      "creator_ids": [
+        "goodai"
+      ],
+      "title": "AI People",
+      "year": 2024,
+      "date": "2024-09-19",
+      "field": "agents",
+      "sub": "npc",
+      "modalities": [
+        "behavior",
+        "dialogue"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "behavioral-plausibility",
+        "co-creation",
+        "authoring"
+      ],
+      "kind": "product",
+      "description": "A sandbox game in which every character is an LLM agent with its own emotions and motivations; players talk to them, set up and share custom scenarios, and watch stories emerge in sessions of about ten minutes. The alpha opened on 19 September 2024 at US$10 a month; by October 2026 the game's website redirects to GoodAI's homepage and its current status is unclear.",
+      "description_zh": "一款沙盒游戏：每个角色都是有自己情绪与动机的大语言模型智能体；玩家与他们交谈，创建并分享自定义情境，在约十分钟的游玩中观察故事自然展开。测试版于 2024 年 9 月 19 日开放，月费 10 美元；到 2026 年 10 月，游戏网站已跳转到 GoodAI 首页，现状不明。",
+      "idea_en": "Lets players author a situation and its cast, then see what LLM characters do with it, but cloud costs and an unclear business model can end such a world.",
+      "idea_zh": "让玩家自己设定情境与角色，再观察大语言模型角色如何演绎；但云端成本与不明朗的商业模式也可能让这样的世界终止。",
+      "method": "Cloud-hosted LLMs drive each NPC's dialogue, emotions and choice of actions from a scenario description and per-character memory, which is why GoodAI charged a subscription; GoodAI was also listed as an NVIDIA ACE partner at CES 2025.",
+      "method_zh": "云端大语言模型根据情境描述与每个角色的记忆，驱动 NPC 的对话、情绪与行动选择，这也是 GoodAI 采用订阅收费的原因；GoodAI 也是 CES 2025 上列出的 NVIDIA ACE 合作方。",
+      "keywords": [
+        "LLM NPCs",
+        "sandbox",
+        "user-created scenarios",
+        "subscription",
+        "alpha",
+        "status unclear"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=3XtqQBt-W0Y"
+      },
+      "images": [
+        "https://www.goodai.com/wp-content/uploads/2024/08/AIPeople_Banner_02_ALPHA-1024x576.jpg"
+      ],
+      "source_url": "https://www.goodai.com/ai-people-alpha-release-date-announced/",
+      "collections": [
+        "trend-platform-risk"
+      ],
+      "specs": "~10-minute sessions · US$10/month (alpha)"
+    },
+    {
+      "id": "openai--vpt",
+      "creator_ids": [
+        "openai"
+      ],
+      "title": "Video PreTraining (VPT)",
+      "year": 2022,
+      "date": "2022-06-23",
+      "field": "agents",
+      "sub": "embodied",
+      "modalities": [
+        "behavior"
+      ],
+      "inputs": [
+        "video"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "diversity",
+        "reactivity"
+      ],
+      "kind": "model",
+      "description": "A Minecraft agent that learned to play with the normal keyboard and mouse at 20 frames per second by watching about 70,000 hours of unlabeled YouTube gameplay; after fine-tuning it crafted diamond tools, a task that takes skilled humans about 20 minutes and some 24,000 actions.",
+      "description_zh": "一个 Minecraft 智能体：通过观看约 7 万小时无标注的 YouTube 游戏视频，学会以每秒 20 帧、用普通键盘鼠标玩游戏；微调后能制作钻石工具，这一任务熟练玩家约需 20 分钟、约 2.4 万次操作。",
+      "idea_en": "Internet video can teach an agent to act once a small labeled set lets a model infer the missing actions, the recipe that NitroGen and later game agents scaled up.",
+      "idea_zh": "只要用少量标注数据训练模型去推断视频中缺失的操作，互联网视频就能教会智能体行动；NitroGen 等后来的游戏智能体正是放大了这一方法。",
+      "method": "An inverse dynamics model trained on about 2,000 hours of contractor gameplay labels the actions in web videos; a large behavior-cloning policy is pretrained on the pseudo-labeled videos and fine-tuned with imitation and reinforcement learning.",
+      "method_zh": "先用约 2,000 小时外包玩家的游戏记录训练逆动力学模型，为网络视频标注操作；再在这些伪标注视频上预训练大型行为克隆策略，并通过模仿学习与强化学习微调。",
+      "specs": "~70,000 h of video · 20 Hz keyboard and mouse · diamond pickaxe after RL fine-tuning",
+      "keywords": [
+        "Minecraft",
+        "inverse dynamics model",
+        "behavior cloning",
+        "video pretraining",
+        "NeurIPS 2022",
+        "third-party video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=fJn9B64Znrk"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2206.11795",
+        "arxiv": "2206.11795",
+        "venue": "NeurIPS 2022",
+        "title": "Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos"
+      },
+      "source_url": "https://openai.com/index/vpt/",
+      "code_url": "https://github.com/openai/Video-Pre-Training",
+      "collections": [
+        "ml-conf"
+      ]
+    },
+    {
+      "id": "linxi-fan--minedojo",
+      "creator_ids": [
+        "linxi-fan",
+        "nvidia"
+      ],
+      "title": "MineDojo",
+      "year": 2022,
+      "date": "2022-06-17",
+      "field": "agents",
+      "sub": "embodied",
+      "modalities": [
+        "behavior"
+      ],
+      "inputs": [
+        "text",
+        "video"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "diversity",
+        "situational-reach"
+      ],
+      "kind": "dataset",
+      "description": "A Minecraft research framework with thousands of open-ended, language-specified tasks in procedurally generated worlds, paired with an internet-scale knowledge base of YouTube videos, wiki pages and Reddit posts, and MineCLIP, a video-language model used as a reward for agents.",
+      "description_zh": "一个 Minecraft 研究框架：在程序化生成的世界中提供数千个以语言描述的开放式任务，并配套由 YouTube 视频、维基页面与 Reddit 帖子组成的互联网规模知识库，以及用作智能体奖励的视频-语言模型 MineCLIP。",
+      "idea_en": "Turned one game and everything people post about it into a shared benchmark for open-ended agents; most later Minecraft agents were measured on it.",
+      "idea_zh": "把一款游戏以及人们发布的相关内容，变成开放式智能体共享的基准；此后的大多数 Minecraft 智能体都在它上面接受评测。",
+      "method": "A simulator suite on MineRL with programmatic and creative tasks; MineCLIP is trained contrastively on time-aligned YouTube video and transcript pairs and scores how well an agent's recent frames match a text goal, which serves as a reward for reinforcement learning.",
+      "method_zh": "在 MineRL 之上构建的模拟器套件，包含程序化任务与创造性任务；MineCLIP 在时间对齐的 YouTube 视频与字幕对上做对比学习，评估智能体最近画面与文字目标的匹配程度，作为强化学习的奖励。",
+      "specs": "3,000+ tasks · 730,000+ YouTube videos · 7,000+ wiki pages · 340,000+ Reddit posts",
+      "keywords": [
+        "Minecraft",
+        "benchmark",
+        "MineCLIP",
+        "internet-scale knowledge",
+        "open-ended agents",
+        "NeurIPS 2022"
+      ],
+      "video": {
+        "url": "https://minedojo.org/videos/pull_video.mp4"
+      },
+      "images": [
+        "https://minedojo.org/images/card/youtube.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2206.08853",
+        "arxiv": "2206.08853",
+        "venue": "NeurIPS 2022 Datasets and Benchmarks",
+        "title": "MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge"
+      },
+      "source_url": "https://minedojo.org/",
+      "code_url": "https://github.com/MineDojo/MineDojo",
+      "collections": [
+        "ml-conf"
+      ],
+      "exhibited": [
+        "NeurIPS 2022 Outstanding Paper Award"
+      ]
+    },
+    {
+      "id": "mingyu-ouyang--gameworld",
+      "creator_ids": [
+        "mingyu-ouyang"
+      ],
+      "title": "GameWorld",
+      "year": 2026,
+      "date": "2026-04-08",
+      "field": "agents",
+      "sub": "embodied",
+      "modalities": [
+        "behavior"
+      ],
+      "inputs": [
+        "image",
+        "text"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "control",
+        "reactivity"
+      ],
+      "kind": "dataset",
+      "description": "A benchmark of 34 browser games and 170 tasks for testing multimodal models as game agents, either as computer-use agents that press keys and move the mouse or through a parsed semantic action space; every task is scored from the game's own state. Across 18 model-interface pairs, the best agent remained far from human play.",
+      "description_zh": "一个包含 34 款网页游戏、170 项任务的基准，用来测试多模态模型作为游戏智能体的能力：既可以作为直接按键、移动鼠标的计算机操作智能体，也可以通过解析后的语义动作空间行动；每项任务都依据游戏自身的状态评分。在 18 组模型与接口的组合中，表现最好的智能体仍远不及人类玩家。",
+      "idea_en": "Scoring from game state rather than from a judge model makes agent behavior in a world checkable and repeatable, the property an experimental platform needs.",
+      "idea_zh": "依据游戏状态而不是评审模型来打分，让智能体在世界中的行为可核验、可重复，这正是实验平台所需的特性。",
+      "method": "Games run in the browser with two agent interfaces, raw keyboard-and-mouse control and deterministic semantic action parsing; outcome metrics are read from game state, and repeated full reruns check the benchmark's stability.",
+      "method_zh": "游戏在浏览器中运行，提供两种智能体接口：原始键鼠操作与确定性的语义动作解析；结果指标直接从游戏状态读取，并通过多次完整重跑检验基准的稳定性。",
+      "specs": "34 games · 170 tasks · 18 model-interface pairs",
+      "keywords": [
+        "benchmark",
+        "game agents",
+        "computer-use agent",
+        "browser games",
+        "verifiable evaluation",
+        "NUS Show Lab"
+      ],
+      "video": {
+        "url": "https://gameworld-project.github.io/static/figures/GameworldPromoShort.mp4"
+      },
+      "images": [
+        "https://gameworld-project.github.io/static/figures/gameworld/teaser-wo-logo-transparent.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2604.07429",
+        "arxiv": "2604.07429",
+        "venue": "arXiv",
+        "title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents"
+      },
+      "source_url": "https://gameworld-project.github.io/"
+    },
+    {
+      "id": "marcel-binz--centaur",
+      "creator_ids": [
+        "marcel-binz"
+      ],
+      "title": "Centaur",
+      "year": 2024,
+      "date": "2024-10-26",
+      "field": "agents",
+      "sub": "generative-agents",
+      "also": [
+        "behavioral"
+      ],
+      "modalities": [
+        "behavior"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "behavioral-plausibility",
+        "situational-reach",
+        "control"
+      ],
+      "kind": "model",
+      "description": "A language model fine-tuned to predict what people do in psychology experiments, trial by trial: given any experiment described in natural language, it produces choices like a participant's. The Nature paper (July 2025) reports that it predicts held-out participants better than existing cognitive models and generalizes to new cover stories, task changes and domains.",
+      "description_zh": "一个经过微调、能逐个试次预测人在心理学实验中如何行动的语言模型：只要用自然语言描述实验，它就能像被试一样作出选择。《自然》论文（2025 年 7 月）报告，它对未参与训练的被试的预测优于现有认知模型，并能推广到新的情境设定、任务变化与新领域。",
+      "idea_en": "A simulated participant for any experiment that can be written down; it makes piloting generated situations cheap, but agreement with averages is not evidence about any one person.",
+      "idea_zh": "一个可用于任何能写成文字的实验的“模拟被试”；它让生成情境的预实验变得廉价，但与群体平均一致，并不等于能代表任何一个具体的人。",
+      "method": "Llama 3.1 70B fine-tuned with QLoRA on Psych-101, a dataset that transcribes trial-by-trial data from 160 experiments (more than 60,000 participants and 10,000,000 choices) into natural language; evaluated on held-out participants, modified tasks and alignment with human neural activity.",
+      "method_zh": "在 Psych-101 上用 QLoRA 微调 Llama 3.1 70B；Psych-101 把 160 项实验（6 万多名被试、1,000 多万次选择）的逐试次数据转写成自然语言；评估包括未参与训练的被试、修改后的任务以及与人类神经活动的对齐程度。",
+      "specs": "Llama 3.1 70B + QLoRA · Psych-101: 160 experiments, 60,000+ participants, 10M+ choices",
+      "keywords": [
+        "foundation model of cognition",
+        "simulated participants",
+        "Psych-101",
+        "open weights",
+        "Nature 2025",
+        "talk video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dndPhyJJcTE"
+      },
+      "paper": {
+        "url": "https://doi.org/10.1038/s41586-025-09215-4",
+        "doi": "10.1038/s41586-025-09215-4",
+        "arxiv": "2410.20268",
+        "venue": "Nature 2025",
+        "title": "A foundation model to predict and capture human cognition"
+      },
+      "source_url": "https://www.nature.com/articles/s41586-025-09215-4",
+      "code_url": "https://huggingface.co/marcelbinz/Llama-3.1-Centaur-70B",
+      "collections": [
+        "trend-genai-behavioral",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "art-from-the-machine--mantella",
+      "creator_ids": [
+        "art-from-the-machine"
+      ],
+      "title": "Mantella",
+      "year": 2023,
+      "date": "2023-08-19",
+      "field": "agents",
+      "sub": "npc",
+      "modalities": [
+        "speech",
+        "dialogue"
+      ],
+      "inputs": [
+        "speech"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "reactivity",
+        "persistence",
+        "co-creation"
+      ],
+      "kind": "open-source",
+      "description": "A free mod that lets players speak aloud to more than 1,000 NPCs in Skyrim, and later Fallout 4, and hear them answer in their own synthesized voices; characters remember earlier conversations and are aware of in-game events.",
+      "description_zh": "一个免费模组：玩家可以直接开口与《上古卷轴 V：天际》（后来也包括《辐射 4》）中的 1,000 多个 NPC 交谈，并听到他们以各自的合成声音回答；角色会记住之前的对话，也能感知游戏中发生的事件。",
+      "idea_en": "A large, hand-built world plus speech-to-text, an LLM and voice cloning already yields open-ended conversations with its whole cast, a low-cost template for conversational scenes in existing 3D worlds.",
+      "idea_zh": "一个大型手工构建的世界，加上语音识别、大语言模型与声音克隆，就能与其中全部角色进行开放式对话；这为在现成三维世界中搭建对话场景提供了低成本的模板。",
+      "method": "Speech is transcribed with Whisper or Moonshine, a cloud or local LLM generates the reply from each NPC's bio, conversation memory and current game events, and xVASynth, Piper or XTTS speaks it in the character's game voice with lip-sync.",
+      "method_zh": "用 Whisper 或 Moonshine 转写语音，由云端或本地大语言模型根据每个 NPC 的人物小传、对话记忆与当前游戏事件生成回复，再用 xVASynth、Piper 或 XTTS 以角色原有的游戏嗓音说出并口型同步。",
+      "specs": "1,000+ NPCs · Skyrim, Fallout 4",
+      "keywords": [
+        "Skyrim",
+        "mod",
+        "conversational NPC",
+        "speech-to-text",
+        "voice cloning",
+        "community"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=FLmbd48r2Wo"
+      },
+      "images": [
+        "https://raw.githubusercontent.com/art-from-the-machine/Mantella/main/img/mantella_trailer.gif"
+      ],
+      "source_url": "https://art-from-the-machine.github.io/Mantella/index.html",
+      "code_url": "https://github.com/art-from-the-machine/Mantella"
+    }
+  ],
+  "leads": [
+    {
+      "name": "Odyssey PROWL-2 (2026-10-01)",
+      "why": "Added in agents-2026-10 as odyssey--prowl-2 (also covers the world-models lead for the same page).",
+      "link": "https://odyssey.ml/introducing-prowl-2",
+      "found_via": "world-models",
+      "status": "duplicate"
+    },
+    {
+      "name": "MIR5 AI boss (Wemade, NVIDIA ACE, CES 2025)",
+      "why": "Added in agents-2026-10 as wemade-next--mir5-asterion with NVIDIA's official video; launch in the live game not confirmed as of 2026-10.",
+      "link": "https://www.youtube.com/watch?v=FhKRr5xkYv8",
+      "found_via": "nvidia",
+      "status": "duplicate"
+    },
+    {
+      "name": "AI People (GoodAI)",
+      "why": "Added in agents-2026-10 as goodai--ai-people (alpha 2024-09-19; status unclear in 2026).",
+      "link": "https://www.youtube.com/watch?v=3XtqQBt-W0Y",
+      "found_via": "nvidia",
+      "status": "duplicate"
+    },
+    {
+      "name": "Mantella / Herika (Skyrim LLM NPC mods)",
+      "why": "Mantella added in agents-2026-10 as art-from-the-machine--mantella (official release trailer). Herika not added: only community videos.",
+      "link": "https://github.com/art-from-the-machine/Mantella",
+      "found_via": "seed",
+      "status": "duplicate"
+    },
+    {
+      "name": "Mindcraft (Emergent Garden)",
+      "why": "Added in agents-2026-10 as kolby-nottingham--mindcraft.",
+      "link": "https://github.com/kolbytn/mindcraft",
+      "found_via": "seed",
+      "status": "duplicate"
+    },
+    {
+      "name": "GARP on-device generative agents village (Studio Atelico)",
+      "why": "Added in agents-2026-10 as studio-atelico--garp (official video xT_vi2maxuM; 2026-09-29 conference talk Rt_f9XXYJyc not used).",
+      "link": "https://www.youtube.com/watch?v=xT_vi2maxuM",
+      "found_via": "seed",
+      "status": "duplicate"
+    },
+    {
+      "name": "TinyTroupe (Microsoft, 2024)",
+      "why": "Persona-simulation library with a paper (arXiv 2507.09788) but no official video or demo footage; less salient than Simile or OASIS.",
+      "link": "https://github.com/microsoft/TinyTroupe",
+      "found_via": "simile",
+      "status": "no_media"
+    },
+    {
+      "name": "Video PreTraining (VPT, OpenAI 2022) and MineDojo (NeurIPS 2022)",
+      "why": "Both added in agents-2026-10 as openai--vpt and linxi-fan--minedojo.",
+      "link": "https://arxiv.org/abs/2206.11795",
+      "found_via": "nvidia",
+      "status": "duplicate"
+    },
+    {
+      "name": "Player-1: Training Game Agents on Synthetic Data (October 2026)",
+      "why": "Verified (arXiv 2610.20584) and added in agents-2026-10 as mingyu-ouyang--player-1.",
+      "link": "https://www.youtube.com/watch?v=kuw77UkQbpA",
+      "found_via": "seed",
+      "status": "duplicate"
+    },
+    {
+      "name": "SIMA 2 / Genie 3 agent research preview access",
+      "why": "SIMA 2 is already in agents.json; no wider access or agents inside Project Genie found by 2026-10-17. Related: DeepMind's research partnership with Fenris Creations on EVE Online (2026-08-21), starting with an offline EVE instance.",
+      "link": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "found_via": "google-deepmind",
+      "status": "duplicate"
+    },
+    {
+      "name": "Where Winds Meet (NetEase Everstone) AI chat NPCs",
+      "why": "Open-world game (global launch 2025-11) whose NPCs can be talked to and persuaded through LLM chat; only fan videos found, no official page or video describing the AI NPC feature.",
+      "link": "https://www.wherewindsmeetgame.com/",
+      "found_via": "netease",
+      "status": "no_media"
+    },
+    {
+      "name": "AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs (COLM 2026)",
+      "why": "3–20 agents with asymmetric roles in an MMORPG sandbox, 100 tasks, best model 52% success; project page has images but no video. Candidate next round.",
+      "link": "https://agentworld.io/",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "CityReal: human-aligned urban behavior simulation with large-scale LLM agents (2026-07)",
+      "why": "Tens of thousands of agents aligned to population statistics; no project page or video.",
+      "link": "https://arxiv.org/abs/2608.16897",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "Roblox RDC 2026 talk: The Fast Path to Smarter NPCs (2026-10-12)",
+      "why": "Official talk on platform foundations for inspectable, adaptive NPCs; no named product or release yet.",
+      "link": "https://www.youtube.com/watch?v=QvNAMmGqdd4",
+      "found_via": "roblox",
+      "status": "open"
+    },
+    {
+      "name": "Gamma-World: Generative Multi-Agent World Modeling Beyond Two Players (NVIDIA, 2026-05)",
+      "why": "Belongs to world-models: multi-player world model with a project page. Covered by work fangfu-liu--gamma-world (2026-10 update).",
+      "link": "https://research.nvidia.com/labs/sil/projects/gamma-world/",
+      "found_via": "nvidia",
+      "status": "duplicate"
+    },
+    {
+      "name": "PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives (2026-08)",
+      "why": "Belongs to world-models or infra/benchmarks: agents play inside world models to score them.",
+      "link": "https://kxding.github.io/project/PlayWorld/",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "Inworld Unreal AI Runtime SDK (2025-10-29)",
+      "why": "Belongs to infra/realtime-stack: Inworld's unified STT/LLM/TTS toolkit for Unreal; Inworld's 2026 releases are voice and inference products.",
+      "link": "https://inworld.ai/blog/introducing-unreal-ai-runtime-sdk",
+      "found_via": "inworld-ai",
+      "status": "open"
+    }
+  ]
+}

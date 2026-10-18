@@ -1,0 +1,889 @@
+{
+ "batch": "infra-2026-10",
+ "creators": [
+  {
+   "id": "ting-bing-xu",
+   "name": "Ting-Bing Xu",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, Amap CV Lab (Alibaba)",
+   "based": "Beijing, CN",
+   "bio": "First author of WorldRoamBench, built by Amap's computer-vision lab with Nanjing, Tsinghua and Peking universities.",
+   "why": "WorldRoamBench measures how interactive world models hold up over minute-long walks, not just a few seconds.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {},
+   "role_zh": "高德地图视觉实验室（阿里巴巴）研究者",
+   "bio_zh": "WorldRoamBench 的第一作者；该基准由高德地图视觉实验室与南京大学、清华大学、北京大学共同构建。",
+   "why_zh": "WorldRoamBench 衡量交互式世界模型在接近一分钟的漫游中能否保持稳定，而不只是几秒钟。",
+   "based_zh": "中国北京",
+   "connected_to": [
+    "alibaba-tongyi"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "shengjun-zhang",
+   "name": "Shengjun Zhang",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, Tsinghua University",
+   "based": "Beijing, CN",
+   "bio": "Co-first author of MBench with Zhang Zhang, from Yueqi Duan's group at Tsinghua with Tencent WeChat Vision.",
+   "why": "MBench turns 'does the world model remember?' into twelve measurable sub-questions.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "github": "https://github.com/study-overflow/MBench"
+   },
+   "role_zh": "清华大学研究者",
+   "bio_zh": "与张章共同担任 MBench 第一作者，来自清华大学段岳圻课题组，并与腾讯微信视觉团队合作。",
+   "why_zh": "MBench 把“世界模型记得住吗？”拆成十二个可测量的子问题。",
+   "based_zh": "中国北京",
+   "connected_to": [
+    "tencent"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "tsai-shien-chen",
+   "name": "Tsai-Shien Chen",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, UC Merced / Snap Research",
+   "based": "Merced, US",
+   "bio": "First author of Panda-70M, made during an internship at Snap Research.",
+   "why": "Panda-70M is one of the large captioned video corpora that open video generators are trained on.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "github": "https://github.com/snap-research/Panda-70M"
+   },
+   "role_zh": "加州大学默塞德分校 / Snap Research 研究者",
+   "bio_zh": "Panda-70M 的第一作者，该工作完成于其在 Snap Research 实习期间。",
+   "why_zh": "Panda-70M 是开源视频生成模型常用的大规模带字幕视频语料之一。",
+   "based_zh": "美国默塞德",
+   "connected_to": [
+    "snap"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "guan-ting-lin",
+   "name": "Guan-Ting Lin",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, National Taiwan University",
+   "based": "Taipei, TW",
+   "bio": "Speech researcher in Hung-yi Lee's lab and first author of Full-Duplex-Bench, developed with UC Berkeley collaborators.",
+   "why": "Full-Duplex-Bench is the shared test for pause handling, backchannels, turn-taking and interruption in voice models.",
+   "disciplines": [
+    "speech",
+    "ml"
+   ],
+   "links": {
+    "github": "https://github.com/DanielLin94144/Full-Duplex-Bench"
+   },
+   "role_zh": "台湾大学研究者",
+   "bio_zh": "李宏毅课题组的语音研究者，Full-Duplex-Bench 的第一作者，该基准与加州大学伯克利分校的合作者共同开发。",
+   "why_zh": "Full-Duplex-Bench 是检验语音模型停顿处理、附和回应、轮流发言与打断应对的通用测试。",
+   "based_zh": "中国台湾台北",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "rajmund-nagy",
+   "name": "Rajmund Nagy",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, KTH Royal Institute of Technology",
+   "based": "Stockholm, SE",
+   "bio": "Works on gesture generation with Gustav Eje Henter at KTH; first author of the GENEA Challenge 2026 report.",
+   "why": "GENEA runs the large human evaluations that show how far generated gestures are from real conversational behavior.",
+   "disciplines": [
+    "hci",
+    "ml"
+   ],
+   "links": {
+    "site": "https://genea-workshop.github.io/2026/challenge/"
+   },
+   "role_zh": "瑞典皇家理工学院博士研究者",
+   "bio_zh": "在瑞典皇家理工学院与 Gustav Eje Henter 合作研究手势生成，GENEA Challenge 2026 报告的第一作者。",
+   "why_zh": "GENEA 组织大规模人工评测，揭示生成手势距离真实对话行为还有多远。",
+   "based_zh": "瑞典斯德哥尔摩",
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "meta--vr-glasses",
+   "creator_ids": [
+    "meta"
+   ],
+   "title": "Meta VR Glasses",
+   "year": 2026,
+   "date": "2026-09-23",
+   "field": "infra",
+   "sub": "devices",
+   "modalities": [
+    "immersive-video",
+    "scene-3d",
+    "avatar"
+   ],
+   "inputs": [
+    "speech",
+    "body",
+    "surroundings"
+   ],
+   "access": [
+    "preview"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "situational-reach"
+   ],
+   "kind": "device",
+   "description": "Meta's VR headset in a glasses form factor, announced at Connect on 2026-09-23: about 100 g on the face, with compute, battery and storage in a pocket puck on an optical tether, a 5K micro-OLED display at 37 pixels per degree, color passthrough and eye, hand and voice control with Meta's AI agent in the operating system. Existing Quest apps run on it, it adds photoreal 'hologram' video calls, and it goes on sale in spring 2027 at $1,299.99.",
+   "description_zh": "Meta 做成眼镜形态的 VR 设备，于 2026-09-23 的 Connect 大会发布：戴在脸上的部分约 100 克，计算、电池与存储放在通过光纤连接的口袋计算盒里；配备 5K Micro-OLED 显示屏（每度 37 像素）、彩色透视，以及眼动、手势与语音操控，Meta 的 AI 智能体直接集成在操作系统中。现有 Quest 应用可以在上面运行，它还新增了照片级真实的“全息影像”视频通话，将于 2027 年春季以 1,299.99 美元开售。",
+   "idea_en": "Cuts VR down to a weight people can wear through a full film or a long session, which matters for longer generated situations as much as resolution does; until spring 2027 it is an announcement, not a lab device.",
+   "idea_zh": "把 VR 的重量降到能戴着看完一整部电影、撑过一次长时间体验的程度；对于更长的生成情境，这一点和分辨率同样重要。不过在 2027 年春季之前，它还只是发布，实验室还用不上。",
+   "method": "A two-part design: the glasses hold the sensors, micro-OLED panels and custom pancake lenses, while a tethered puck with Qualcomm's Snapdragon Reality Elite carries compute and a battery Meta rates at up to three hours of video playback.",
+   "method_zh": "分体式设计：眼镜部分只放传感器、Micro-OLED 屏幕与定制的折叠光路（pancake）镜片，经连线接驳的计算盒搭载高通骁龙 Reality Elite，负责计算并内置电池，Meta 称可连续播放视频最长三小时。",
+   "specs": "~100 g glasses + tethered puck · 5K micro-OLED · 37 ppd · Snapdragon Reality Elite · up to 3 h media playback · $1,299.99 · on sale spring 2027",
+   "keywords": [
+    "VR glasses",
+    "micro-OLED",
+    "passthrough",
+    "compute puck",
+    "hologram calling"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=xyD_bmMy5nQ"
+   },
+   "images": [
+    "https://about.fb.com/wp-content/uploads/2026/09/Introducing-Meta-VR-Glasses_-A-Cinema-Courtside-Seat-and-Workspace-in-Just-100-GramsIntroducing-Meta-VR-Glasses_-A-Cinema-Courtside-Seat-and-Workspace-in-Just-100-Grams_social.jpg?w=1200"
+   ],
+   "source_url": "https://about.fb.com/news/2026/09/introducing-meta-vr-glasses-3d-movies-immersive-live-sports-100-grams/",
+   "api_url": "",
+   "code_url": "",
+   "collections": []
+  },
+  {
+   "id": "google--playground-unity-spark",
+   "creator_ids": [
+    "google",
+    "unity"
+   ],
+   "title": "Playground (with Unity Spark)",
+   "year": 2026,
+   "date": "2026-10-07",
+   "field": "infra",
+   "sub": "engines",
+   "modalities": [
+    "scene-3d",
+    "behavior"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "product",
+    "preview"
+   ],
+   "lenses": [
+    "authoring",
+    "co-creation"
+   ],
+   "kind": "platform",
+   "description": "Google's experimental browser platform, opened on 2026-10-07 to people aged 18+: you describe a game in text prompts, test it at once, change its physics, rules, characters or environment by asking, and publish it to a community gallery with leaderboards and, in some genres, multiplayer. Google and Unity announced the same day that Unity Spark, Unity's no-code game maker built on Asset Store art and a web editor, will come to Playground later in 2026; as of October 2026 Spark has only a waitlist.",
+   "description_zh": "Google 推出的实验性浏览器平台，2026-10-07 起向 18 岁以上用户开放：用文字描述一款游戏即可立刻试玩，想改物理、规则、角色或环境也只需开口，完成后可以发布到社区画廊，带排行榜，部分类型还支持多人游戏。Google 与 Unity 同日宣布，Unity 的零代码游戏制作工具 Unity Spark（基于 Asset Store 美术资源与网页编辑器）将在 2026 年晚些时候接入 Playground；截至 2026 年 10 月，Spark 只开放了候补名单。",
+   "idea_en": "Prompt-to-playable-game with publishing and leaderboards built in, the fast authoring loop a researcher wants for task variants; the output is casual browser games, not immersive scenes.",
+   "idea_zh": "从提示词到可玩游戏，发布与排行榜一并内置；这正是研究者快速制作任务变体所需的创作循环，但产出的是轻量浏览器游戏，而不是沉浸式场景。",
+   "method": "A conversational interface generates and revises the game from prompts with Google AI models that Google does not name, Play Games profiles supply identity and leaderboards, and Unity Spark is to add Unity's runtime and artist-made assets.",
+   "method_zh": "通过对话界面，由 Google 未具名的 AI 模型根据提示生成并修改游戏；Play Games 账号提供身份与排行榜，Unity Spark 计划补上 Unity 的运行时与美术师制作的资源。",
+   "specs": "browser-based · 18+ · text-prompt creation · leaderboards, multiplayer in select genres · Unity Spark: waitlist, later in 2026",
+   "keywords": [
+    "prompt-to-game",
+    "no-code",
+    "Unity Spark",
+    "game creation",
+    "Google Labs"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=Dxvrvfyicp0"
+   },
+   "images": [
+    "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/THUMBNAIL_BLOG.width-1300.png",
+    "https://cdn.sanity.io/images/fuvbjjlp/production/2d99684e1ccd449afd498dbf61024c79f5ce48d5-1920x1080.png"
+   ],
+   "source_url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+   "api_url": "",
+   "code_url": "",
+   "collections": []
+  },
+  {
+   "id": "ting-bing-xu--worldroambench",
+   "creator_ids": [
+    "ting-bing-xu"
+   ],
+   "title": "WorldRoamBench",
+   "year": 2026,
+   "date": "2026-06-30",
+   "field": "infra",
+   "sub": "benchmarks",
+   "also": [
+    "world-models"
+   ],
+   "modalities": [
+    "frame-stream"
+   ],
+   "inputs": [
+    "action",
+    "image"
+   ],
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "persistence",
+    "reactivity"
+   ],
+   "kind": "dataset",
+   "description": "A benchmark from Amap (Alibaba) with Nanjing, Tsinghua and Peking universities that tests interactive world models over 10–60 s rollouts on more than 1,000 first- and third-person cases in indoor, nature and urban scenes. It scores per-frame action following, visual drift, interaction physics (collision, clipping, gravity, reflections, shadows) and memory, and keeps a leaderboard of 10+ open and closed models including Genie 3; as of October 2026 the dataset download is marked 'coming soon'.",
+   "description_zh": "由高德地图（阿里巴巴）与南京大学、清华大学、北京大学共同推出的基准，用 1,000 多个第一人称与第三人称测试用例（室内、自然、城市场景）检验交互式世界模型在 10–60 秒推演中的表现。它对逐帧动作跟随、画面漂移、交互物理（碰撞、穿模、重力、反射、阴影）与记忆分别打分，并维护一个包含 Genie 3 在内、覆盖 10 多个开源与闭源模型的排行榜；截至 2026 年 10 月，数据集下载仍标注为“即将推出”。",
+   "idea_en": "A model can follow a path well on average and still miss individual key presses, and respecting collisions can pull it off the prescribed path: averages hide what a participant would actually feel.",
+   "idea_zh": "一个模型可以在平均意义上很好地沿路径行进，却仍会漏掉单次按键；而遵守碰撞约束又可能让它偏离预定路线。平均分掩盖了参与者真正会感受到的东西。",
+   "method": "Model rollouts on a shared test suite are scored by four modules (action, vision, physics, memory); memory is measured by reconstructing scene point clouds, which separates forgetting from action-following drift.",
+   "method_zh": "在统一的测试集上运行各模型，由动作、视觉、物理与记忆四个模块打分；记忆通过重建场景点云来衡量，从而把“遗忘”与动作跟随偏差区分开。",
+   "specs": "1,000+ cases · 10–60 s rollouts · 4 dimensions · 10+ models (open and closed)",
+   "keywords": [
+    "benchmark",
+    "interactive world model",
+    "long-horizon",
+    "memory",
+    "action following"
+   ],
+   "video": {
+    "url": "https://worldroam.amap.com/scoring_gallery/memory/case2-Urban-0016/Urban-0016-Good-Genie3.mp4"
+   },
+   "images": [
+    "https://worldroam.amap.com/figs/evaluation_framework.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2606.31672",
+    "doi": "",
+    "arxiv": "2606.31672",
+    "venue": "arXiv 2026",
+    "title": "WorldRoamBench: An Open-World Benchmark for Long-Horizon Stability of Interactive World Models"
+   },
+   "source_url": "https://worldroam.amap.com/",
+   "api_url": "",
+   "code_url": "",
+   "collections": [
+    "trend-world-simulators"
+   ]
+  },
+  {
+   "id": "shengjun-zhang--mbench",
+   "creator_ids": [
+    "shengjun-zhang",
+    "tencent"
+   ],
+   "title": "MBench",
+   "year": 2026,
+   "date": "2026-05-30",
+   "field": "infra",
+   "sub": "benchmarks",
+   "also": [
+    "world-models"
+   ],
+   "modalities": [
+    "flat-video",
+    "frame-stream"
+   ],
+   "inputs": [
+    "text",
+    "action"
+   ],
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "control"
+   ],
+   "kind": "dataset",
+   "description": "A benchmark from Tsinghua University and Tencent WeChat Vision for whether video world models remember: it splits memory into entity, environment and causal consistency, with twelve sub-dimensions from object geometry and human identity to epipolar consistency, lighting and state evolution, tested on curated real long videos. The paper evaluates eight text-conditioned continuation models and six action-conditioned world models (among them Matrix-Game 3.0, HY-WorldPlay and Yume-1.5) and finds long-term state retention is their common weak point.",
+   "description_zh": "清华大学与腾讯微信视觉团队推出的基准，检验视频世界模型“记不记得住”：它把记忆拆成实体、环境与因果三类一致性，下设十二个子维度，从物体几何、人物身份到对极几何一致性、光照与状态演化，测试素材是精选的真实拍摄长视频。论文评测了八个文本条件续写模型与六个动作条件世界模型（包括 Matrix-Game 3.0、HY-WorldPlay 与 Yume-1.5），发现长期保持状态是它们共同的短板。",
+   "idea_en": "Separates whether a generated world keeps its objects, its stage and its causal rules, the three things a returning participant would check.",
+   "idea_zh": "把生成世界是否保住了物体、场地与因果规则分开衡量；这正是参与者回到原处时会检查的三件事。",
+   "method": "Test cases from real long videos, scored by a hybrid of rule-based metrics (e.g. epipolar and reprojection consistency) and vision-language-model question answering, with separate tracks for text- and action-conditioned models.",
+   "method_zh": "测试用例取自真实长视频，评分结合基于规则的指标（如对极几何与重投影一致性）和视觉语言模型问答，文本条件与动作条件模型分开评测。",
+   "specs": "3 dimensions · 12 sub-dimensions · 8 text-conditioned + 6 action-conditioned models · dataset on Hugging Face",
+   "keywords": [
+    "benchmark",
+    "world model memory",
+    "consistency",
+    "long video"
+   ],
+   "video": {
+    "url": "https://huggingface.co/datasets/PeanutUp/PeanutUpproject-page-videos/resolve/main/assets/geometry_1.mp4"
+   },
+   "images": [
+    "https://peanutup.github.io/MBench-project/assets/dimension.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2606.00793",
+    "doi": "",
+    "arxiv": "2606.00793",
+    "venue": "arXiv 2026",
+    "title": "MBench: A Comprehensive Benchmark on Memory Capability for Video World Models"
+   },
+   "source_url": "https://peanutup.github.io/MBench-project/",
+   "api_url": "",
+   "code_url": "https://github.com/study-overflow/MBench",
+   "collections": [
+    "trend-world-simulators"
+   ]
+  },
+  {
+   "id": "odyssey--calibench",
+   "creator_ids": [
+    "odyssey"
+   ],
+   "title": "CaliBench",
+   "year": 2026,
+   "date": "2026-08-10",
+   "field": "infra",
+   "sub": "benchmarks",
+   "also": [
+    "world-models"
+   ],
+   "modalities": [
+    "flat-video"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "diversity"
+   ],
+   "kind": "dataset",
+   "description": "A benchmark from Odyssey that asks whether video world models reproduce the right spread of physical outcomes rather than one plausible clip: from the same starting frame a model generates many rollouts of a Galton board, a fork in a path, dice, cards or a roulette wheel, and the outcomes are compared with the known distribution. Across six image-to-video models (including Veo 3.1, Seedance 2.0 and Runway Gen-4.5) Odyssey reports widespread mode collapse, with Veo 3.1 producing the same die face for every seed.",
+   "description_zh": "Odyssey 推出的基准，问的是视频世界模型能否复现物理结果的正确分布，而不只是生成一段看似合理的视频：从同一起始帧出发，模型对高尔顿板、岔路、骰子、扑克牌或轮盘生成多次推演，再把结果与已知分布比较。在六个图生视频模型（包括 Veo 3.1、Seedance 2.0 与 Runway Gen-4.5）上，Odyssey 报告普遍存在模式坍缩，Veo 3.1 在每个随机种子下都掷出同一个点数。",
+   "idea_en": "A generated situation that always plays out the same way is not a simulation of chance: for studies that rely on varied outcomes, calibration matters as much as realism.",
+   "idea_zh": "一个每次都以同样方式展开的生成情境，并不是对偶然性的模拟；对依赖结果多样性的研究来说，校准与真实感同样重要。",
+   "method": "Outcomes are read from each generated video by a vision-language model (Gemini 3.1 Pro, about 93% agreement with human annotators) and reported as scorability (share of readable outcomes) and calibration (normalised total variation distance from the analytic distribution); paper in TMLR.",
+   "method_zh": "由视觉语言模型（Gemini 3.1 Pro，与人工标注一致率约 93%）从每段生成视频中读出结果，报告“可判读率”（结果清晰可读的比例）与“校准度”（与解析分布之间的归一化总变差距离）；论文发表于 TMLR。",
+   "specs": "9 scenes · 32 generations per model and scene · 6 image-to-video models · metric: mnTV",
+   "keywords": [
+    "benchmark",
+    "calibration",
+    "stochastic dynamics",
+    "world model",
+    "mode collapse"
+   ],
+   "video": {
+    "url": "https://framerusercontent.com/assets/3Qzar3JAlowjShHI2HIZ40khA4.mp4"
+   },
+   "images": [
+    "https://framerusercontent.com/assets/uvhuHUqb9mf5tVnGa97Xmjqne58.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2608.16829",
+    "doi": "",
+    "arxiv": "2608.16829",
+    "venue": "TMLR 2026",
+    "title": "CaliBench: Are the Stochastic Dynamics of Video World Models Physically Calibrated?"
+   },
+   "source_url": "https://odyssey.ml/introducing-calibench",
+   "api_url": "",
+   "code_url": "https://github.com/odysseyml/CaliBench",
+   "collections": [
+    "trend-world-simulators"
+   ]
+  },
+  {
+   "id": "tsai-shien-chen--panda-70m",
+   "creator_ids": [
+    "tsai-shien-chen",
+    "snap"
+   ],
+   "title": "Panda-70M",
+   "year": 2024,
+   "date": "2024-02-29",
+   "field": "infra",
+   "sub": "benchmarks",
+   "modalities": [
+    "flat-video"
+   ],
+   "inputs": [],
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "diversity"
+   ],
+   "kind": "dataset",
+   "description": "A dataset of 70.7 million captioned video clips (about 167,000 hours) cut from 3.8 million long YouTube videos, released by Snap Research with UC Merced and others at CVPR 2024. It is widely used as pretraining data for open video generation models.",
+   "description_zh": "包含 7,070 万段带字幕视频片段（约 16.7 万小时）的数据集，片段切自 380 万条 YouTube 长视频，由 Snap Research 联合加州大学默塞德分校等在 CVPR 2024 发布。它被广泛用作开源视频生成模型的预训练数据。",
+   "idea_en": "Much of what open video models know about how scenes move comes from corpora like this one: automatically captioned web clips, with the biases of the web.",
+   "idea_zh": "开源视频模型对场景如何运动的认识，很大一部分来自这类语料：自动加字幕的网络片段，也带着网络内容的偏差。",
+   "method": "Long videos are split into semantically coherent clips; several cross-modality teacher models (image and video captioners given frames, titles and subtitles) propose captions, and a fine-tuned retrieval model picks the best caption for each clip.",
+   "method_zh": "先把长视频切成语义连贯的片段，再由多个跨模态“教师”模型（输入画面、标题与字幕的图像和视频描述模型）为每段提出候选字幕，最后由微调过的检索模型挑出最合适的一条。",
+   "specs": "70.7M clips · ~167k hours · from 3.8M videos (HD-VILA-100M) · CVPR 2024",
+   "keywords": [
+    "video dataset",
+    "captions",
+    "pretraining data",
+    "text-to-video"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=m2NQ5k1oTcs"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2402.19479",
+    "doi": "",
+    "arxiv": "2402.19479",
+    "venue": "CVPR 2024",
+    "title": "Panda-70M: Captioning 70M Videos with Multiple Cross-Modality Teachers"
+   },
+   "source_url": "https://snap-research.github.io/Panda-70M",
+   "api_url": "",
+   "code_url": "https://github.com/snap-research/Panda-70M",
+   "collections": [
+    "cvpr"
+   ]
+  },
+  {
+   "id": "sesame--turnbench",
+   "creator_ids": [
+    "sesame"
+   ],
+   "title": "TurnBench",
+   "year": 2026,
+   "date": "2026-08-25",
+   "field": "infra",
+   "sub": "benchmarks",
+   "also": [
+    "audio"
+   ],
+   "modalities": [
+    "speech"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "control"
+   ],
+   "kind": "dataset",
+   "description": "A turn-taking benchmark led by Sesame with academic co-authors: 30 hours of studio-recorded two-person conversations across six conversation types, triple-annotated for end-of-turn and interruption events, with a public leaderboard that scores recall, false-positive rate and latency. Its leaderboard ranks dedicated turn detectors alongside Tavus Sparrow-2, Gemini 3.1 Live, OpenAI Realtime and Moshi.",
+   "description_zh": "由 Sesame 牵头、联合多位学界作者推出的轮流发言基准：30 小时录音棚录制的双人对话，覆盖六种对话类型，每段由三人独立标注“说完一轮”与“打断”事件，并设公开排行榜，按召回率、误报率与延迟打分。排行榜把专门的话轮检测器与 Tavus Sparrow-2、Gemini 3.1 Live、OpenAI Realtime 和 Moshi 放在一起比较。",
+   "idea_en": "People start replying a median 151 ms before the other person finishes; no system on the board matches that without interrupting too often, which bounds how natural a generated conversation partner can feel.",
+   "idea_zh": "人在对方说完前约 151 毫秒（中位数）就开始接话；榜上没有一个系统能做到这一点而不频繁抢话，这限定了生成的对话伙伴能有多自然。",
+   "method": "Dual-channel dyadic recordings (154 dialogues, 106 actors, Fleiss' κ = 0.78) with held-out test labels; systems output event times, scored against a false-positive budget of 0.15; a 104-hour training set uses the same protocol; paper at IEEE SLT 2026.",
+   "method_zh": "双声道双人对话录音（154 段对话、106 名演员，Fleiss κ = 0.78），测试集标签不公开；系统输出事件时间点，在误报率不超过 0.15 的约束下评分；另附按同一规范标注的 104 小时训练集；论文发表于 IEEE SLT 2026。",
+   "specs": "30 h test corpus · 6 conversation types · 104 h training set · metrics: recall, FPR, p50 latency · 14 systems in paper",
+   "keywords": [
+    "benchmark",
+    "turn-taking",
+    "end-of-turn detection",
+    "interruption",
+    "full-duplex"
+   ],
+   "images": [
+    "https://www.sesame.com/assets/images/blog/turnbench-og.png",
+    "https://arxiv.org/html/2608.25218v2/figs/scoring-schematic.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2608.25218",
+    "doi": "",
+    "arxiv": "2608.25218",
+    "venue": "IEEE SLT 2026",
+    "title": "TurnBench: A Multi-Domain Benchmark for Turn-Taking Dynamics in Spoken Dialogue"
+   },
+   "source_url": "https://www.sesame.com/blog/turnbench",
+   "api_url": "",
+   "code_url": "https://github.com/SesameAILabs/turnbench",
+   "collections": [
+    "trend-full-duplex"
+   ]
+  },
+  {
+   "id": "guan-ting-lin--full-duplex-bench",
+   "creator_ids": [
+    "guan-ting-lin"
+   ],
+   "title": "Full-Duplex-Bench",
+   "year": 2025,
+   "date": "2025-03-06",
+   "field": "infra",
+   "sub": "benchmarks",
+   "also": [
+    "audio"
+   ],
+   "modalities": [
+    "speech"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "reactivity"
+   ],
+   "kind": "dataset",
+   "description": "An open benchmark suite for full-duplex spoken dialogue models from National Taiwan University and UC Berkeley that scores pause handling, backchanneling, smooth turn-taking and user interruption (v1, ASRU 2025). Later versions add overlapping speech (v1.5), live multi-turn sessions with an automated AI examiner over WebRTC (v2) and tool use under real disfluent speech (v3, 2026); Artificial Analysis uses part of it for the conversational-dynamics score in its Speech to Speech Index.",
+   "description_zh": "台湾大学与加州大学伯克利分校推出的开源全双工口语对话模型评测套件，评估停顿处理、附和回应、顺畅的轮流发言与用户打断（v1，ASRU 2025）。后续版本加入重叠语音（v1.5）、通过 WebRTC 由自动 AI 考官主持的实时多轮会话（v2），以及在真实不流利语音下的工具调用（v3，2026 年）；Artificial Analysis 在其 Speech to Speech Index 中用它的一部分来评“对话动态”。",
+   "idea_en": "Turns 'does it feel like a conversation?' into numbers a lab can rerun: when the model waits, when it backchannels and when it yields.",
+   "idea_zh": "把“这像不像一场对话”变成实验室可以复现的数字：模型何时等待、何时附和、何时让出话轮。",
+   "method": "Pre-recorded and, from v2, live user audio is streamed to the model; automatic metrics on time-aligned transcripts (takeover rate, latency, backchannel frequency) score each behavior, and v2 adds an LLM examiner that converses with the model and grades it.",
+   "method_zh": "把预先录制的（从 v2 起也包括实时的）用户音频流式输入模型，基于时间对齐转写的自动指标（接管率、延迟、附和频率）为每种行为打分；v2 另加一个与模型对话并评分的大语言模型考官。",
+   "specs": "v1 (2025-03) · v1.5 (2025-07) · v2 (2025-10, WebRTC examiner) · v3 (2026-04, tool use + disfluency)",
+   "keywords": [
+    "benchmark",
+    "full-duplex",
+    "turn-taking",
+    "backchannel",
+    "spoken dialogue"
+   ],
+   "images": [
+    "https://daniellin94144.github.io/FDB-v3-demo/FDBv3.drawio.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2503.04721",
+    "doi": "",
+    "arxiv": "2503.04721",
+    "venue": "ASRU 2025",
+    "title": "Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities"
+   },
+   "source_url": "https://github.com/DanielLin94144/Full-Duplex-Bench",
+   "api_url": "",
+   "code_url": "https://github.com/DanielLin94144/Full-Duplex-Bench",
+   "collections": [
+    "trend-full-duplex"
+   ]
+  },
+  {
+   "id": "artificial-analysis--speech-agent-arena",
+   "creator_ids": [
+    "artificial-analysis"
+   ],
+   "title": "Speech Agent Arena",
+   "year": 2026,
+   "date": "2026-08-24",
+   "field": "infra",
+   "sub": "benchmarks",
+   "also": [
+    "audio"
+   ],
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "responsiveness",
+    "behavioral-plausibility"
+   ],
+   "kind": "dataset",
+   "description": "Artificial Analysis's arena for voice agents: screened, paid participants hold live conversations with two hidden speech-to-speech models or cascaded systems on the same scenario (15 tasks that need tool calls, such as ordering takeout, and 20 that do not), then pick the one they preferred. At launch Gemini 3.1 Flash Live led on preference while Grok Voice and GPT-Realtime models led on task success; it complements the firm's Speech to Speech Index (2026-06-23), which combines Big Bench Audio, part of Full-Duplex-Bench and τ-Voice.",
+   "description_zh": "Artificial Analysis 为语音智能体设立的竞技场：经过筛选的付费参与者在同一情境下分别与两个匿名的语音到语音模型或级联系统实时对话（15 个需要调用工具的任务，如点外卖；20 个不需要的任务），再选出更喜欢的一方。上线时，Gemini 3.1 Flash Live 在偏好上领先，Grok Voice 与 GPT-Realtime 系列在任务完成率上领先；它与该公司 2026-06-23 推出的 Speech to Speech Index 互为补充，后者综合了 Big Bench Audio、Full-Duplex-Bench 的一部分与 τ-Voice。",
+   "idea_en": "The model people prefer to talk to is not always the one that gets the task done: a sounding-right agent can claim success after a failed tool call.",
+   "idea_zh": "人们更愿意交谈的模型，不一定是能把事办成的那个：一个听起来很到位的智能体，可能在工具调用失败后仍声称已经完成。",
+   "method": "Blind pairwise preference votes after separate live conversations, fitted to an Elo score, plus a task-success rate checked against the correct final tool call; scenario prompts and tool schemas are mostly kept private to limit overfitting.",
+   "method_zh": "参与者分别完成两段实时对话后进行盲选两两投票，拟合为 Elo 分数；另以最终工具调用是否正确来计算任务完成率。为减少过拟合，大多数情境提示与工具定义不公开。",
+   "specs": "35 scenarios (15 agentic, 20 non-agentic) · preference Elo + task success rate · native and cascaded systems",
+   "keywords": [
+    "arena",
+    "speech-to-speech",
+    "voice agents",
+    "human preference",
+    "tool use"
+   ],
+   "images": [
+    "https://cdn.sanity.io/images/6vfeftx9/articles/d0023e187a3cc35d55aa8f6c6763688741f63c18-1254x1254.png?w=1200"
+   ],
+   "source_url": "https://artificialanalysis.ai/articles/announcing-the-speech-agent-arena",
+   "api_url": "",
+   "code_url": "",
+   "collections": [
+    "trend-full-duplex"
+   ]
+  },
+  {
+   "id": "artificial-analysis--aa-3d",
+   "creator_ids": [
+    "artificial-analysis"
+   ],
+   "title": "AA-3D",
+   "year": 2026,
+   "date": "2026-10-12",
+   "field": "infra",
+   "sub": "benchmarks",
+   "also": [
+    "agents"
+   ],
+   "modalities": [
+    "scene-3d"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "authoring",
+    "perceptual-realism"
+   ],
+   "kind": "dataset",
+   "description": "A benchmark from Artificial Analysis for AI models that build interactive 3D scenes: each model works as an agent in an offline sandbox (Blender, Rapier physics, Python, a headless browser and a CC0 asset library) for up to three hours and 250 turns, turning a written brief into a three.js web page. A recruited panel votes blind between pairs of scenes built from the same brief; at launch (v1.0) Claude Sonnet 5.5 led at 1,194 Elo, statistically tied with three other Anthropic and OpenAI models.",
+   "description_zh": "Artificial Analysis 推出的基准，评测 AI 模型搭建交互式三维场景的能力：每个模型作为智能体在离线沙盒里工作（配有 Blender、Rapier 物理引擎、Python、无头浏览器与 CC0 资源库），最长三小时、250 轮，把一份文字需求变成一个 three.js 网页。招募的评审在同一需求生成的两个场景之间盲选；上线时（v1.0），Claude Sonnet 5.5 以 1,194 Elo 居首，与另外三个 Anthropic 和 OpenAI 模型在统计上并列。",
+   "idea_en": "Measures the code-writing route to generated worlds, explicit and editable scenes built by agents, rather than pixels from a video model; the top models inspect renders of their own scene early.",
+   "idea_zh": "衡量的是通往生成世界的“写代码”路线：由智能体搭建、显式且可编辑的场景，而不是视频模型输出的像素；排名靠前的模型都很早就开始查看自己场景的渲染图。",
+   "method": "55 briefs across domains (landmarks, machines, natural phenomena, bodies, games, space, stories); agents write code, render and look at screenshots, and revise; blind pairwise human votes are fitted to Elo with 95% confidence intervals, alongside cost per scene ($0.20–$32.08).",
+   "method_zh": "55 个需求覆盖地标、机械、自然现象、人体、游戏、太空与故事等领域；智能体编写代码、渲染并查看截图后再修改；人工盲选两两投票拟合为带 95% 置信区间的 Elo 分数，并报告每个场景的成本（0.20–32.08 美元）。",
+   "specs": "55 briefs · 1,000+ scenes · 20+ models · ≤3 h / 250 turns per scene · output: three.js page · Elo from blind votes",
+   "keywords": [
+    "benchmark",
+    "3D scene generation",
+    "coding agents",
+    "three.js",
+    "human preference"
+   ],
+   "video": {
+    "url": "https://x.com/ArtificialAnlys/status/2109791341802885209"
+   },
+   "images": [
+    "https://artificialanalysiscdn.com/article-assets/2026/aa-3d.jpg"
+   ],
+   "source_url": "https://artificialanalysis.ai/articles/aa-3d",
+   "api_url": "",
+   "code_url": "",
+   "collections": [
+    "trend-explicit-3d"
+   ]
+  },
+  {
+   "id": "meta--embody-3d",
+   "creator_ids": [
+    "meta"
+   ],
+   "title": "Embody 3D",
+   "year": 2025,
+   "date": "2025-10-17",
+   "field": "infra",
+   "sub": "benchmarks",
+   "also": [
+    "avatars"
+   ],
+   "modalities": [
+    "motion",
+    "speech"
+   ],
+   "inputs": [
+    "multi-view"
+   ],
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "diversity"
+   ],
+   "kind": "dataset",
+   "description": "A motion and behavior dataset from Meta's Codec Avatars Lab: 500 person-hours of tracked 3D motion (over 54 million frames) from 439 participants on a multi-camera stage. Beyond prompted motions, hand gestures and locomotion, it records multi-person discussions, conversations in different emotional states, collaborative activities and co-living in an apartment-like space, with hand tracking, body shape, text annotations and a separate audio track per participant.",
+   "description_zh": "Meta Codec Avatars 实验室发布的动作与行为数据集：在多机位采集棚中记录了 439 名参与者共 500 人·小时的三维动作追踪数据（超过 5,400 万帧）。除了指定动作、手势与行走，它还记录了多人讨论、不同情绪状态下的对话、协作活动以及在类公寓空间中的共同生活，并提供手部追踪、体型、文字标注和每位参与者单独的音轨。",
+   "idea_en": "Multi-person, emotional and everyday interaction captured in 3D with per-person audio: the training material virtual humans need to listen and react, not just gesture.",
+   "idea_zh": "以三维方式记录的多人、带情绪的日常互动，并为每人单独录音：这正是虚拟人学会倾听与回应、而不只是比划手势所需的训练素材。",
+   "method": "Synchronized multi-camera capture with calibration, per-participant body-shape estimation, multi-person 3D pose tracking and microphone beamforming to separate each speaker's audio.",
+   "method_zh": "多机位同步采集并完成标定，估计每位参与者的体型，进行多人三维姿态追踪，并用麦克风波束成形分离每位说话者的声音。",
+   "specs": "500 person-hours · 439 participants · 54M+ frames · body + hands + shape · per-person audio · text annotations",
+   "keywords": [
+    "dataset",
+    "motion capture",
+    "multi-person interaction",
+    "conversational behavior",
+    "Codec Avatars"
+   ],
+   "images": [
+    "https://arxiv.org/html/2510.16258v1/imgs/teaser.jpg",
+    "https://arxiv.org/html/2510.16258v1/imgs/dyadic_conversation.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2510.16258",
+    "doi": "",
+    "arxiv": "2510.16258",
+    "venue": "arXiv 2025",
+    "title": "Embody 3D: A Large-scale Multimodal Motion and Behavior Dataset"
+   },
+   "source_url": "https://www.meta.com/emerging-tech/codec-avatars/embody-3d",
+   "api_url": "",
+   "code_url": "",
+   "collections": []
+  },
+  {
+   "id": "rajmund-nagy--genea-challenge-2026",
+   "creator_ids": [
+    "rajmund-nagy"
+   ],
+   "title": "GENEA Challenge 2026",
+   "year": 2026,
+   "date": "2026-08-11",
+   "field": "infra",
+   "sub": "benchmarks",
+   "also": [
+    "avatars"
+   ],
+   "modalities": [
+    "motion"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "reactivity"
+   ],
+   "kind": "dataset",
+   "description": "The fourth GENEA Challenge: a large human evaluation of speech-driven gesture generation, with five team systems trained on Meta's Seamless Interaction dataset of two-person conversations and four user studies (over 23,000 votes from 869 raters). Motion capture set the ceiling in every study; the best system reached 32% on speech alignment against 62% for real motion, and in the dyadic study no system scored substantially above chance at reacting to the other person.",
+   "description_zh": "第四届 GENEA Challenge：对语音驱动手势生成的大规模人工评测。五支队伍的系统都在 Meta 的双人对话数据集 Seamless Interaction 上训练，共开展四项用户研究（869 名评审、23,000 多票）。在每项研究中，真实动作捕捉都是上限；在语音对齐上，最好的系统得分 32%，真实动作为 62%；在双人研究中，没有一个系统在回应对方方面明显高于随机水平。",
+   "idea_en": "Generated bodies still do not listen: gesture models can move well while ignoring the person they are talking to, which is what a social situation tests.",
+   "idea_zh": "生成的身体还不会“听”：手势模型动作可以很自然，却对谈话对象视而不见，而社交情境检验的恰恰是这一点。",
+   "method": "Disentangled crowdsourced studies rate motion realism and speech alignment separately, a dyadic mismatch study swaps the interlocutor to test listening, and a new text-mismatch study on the Grounded Gestures subset tests semantic gestures.",
+   "method_zh": "通过解耦的众包研究分别评估动作真实感与语音对齐；在双人错配研究中替换对话者以检验“倾听”；并在 Grounded Gestures 子集上新增文本错配研究，检验语义手势。",
+   "specs": "5 systems · 4 user studies · 23,000+ votes · 869 raters · Seamless Interaction dataset",
+   "keywords": [
+    "benchmark",
+    "gesture generation",
+    "human evaluation",
+    "dyadic interaction",
+    "co-speech gesture"
+   ],
+   "images": [
+    "https://arxiv.org/html/2608.10839v1/seamless-humanlikeness__pairwise_win_fraction.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2608.10839",
+    "doi": "",
+    "arxiv": "2608.10839",
+    "venue": "arXiv 2026",
+    "title": "The GENEA Challenge 2026: A Large-Scale Disentangled Evaluation of Speech-Driven Gesture Generation on the Seamless Interaction Dataset"
+   },
+   "source_url": "https://genea-workshop.github.io/2026/challenge/",
+   "api_url": "",
+   "code_url": "",
+   "collections": [
+    "trend-full-duplex"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "WorldMemBench (Zhejiang University / Ant Group, arXiv 2610.19063)",
+   "why": "Memory benchmark for video world models (260 cases, 6,705 videos, 20-35 s rollouts, 9 models; static vs dynamic memory over repeated revisits). Not added this round: published 2026-10-13 and overlaps MBench and WorldRoamBench; add if it is adopted.",
+   "link": "https://zju-real.github.io/WorldMemBench/",
+   "found_via": "odyssey",
+   "status": "open"
+  },
+  {
+   "name": "R2M-Bench: relative revisit memory for interactive video world models (arXiv 2608.27328)",
+   "why": "Scores revisit memory relative to rollout change (Amap ML, code on GitHub). Not added: third 2026 memory benchmark, overlaps WorldRoamBench from the same group.",
+   "link": "https://github.com/AMAP-ML/R2MBench",
+   "found_via": "ting-bing-xu",
+   "status": "open"
+  },
+  {
+   "name": "WorldAuditBench: interactive 3D world auditing with multimodal agents (UCSB / MIT, arXiv 2609.40325)",
+   "why": "213 anomaly tasks (floating objects, traversable walls, out-of-place objects) in 13 Unreal Engine 5 and three.js worlds; five frontier VLM / VLA agents find 6.6-42.3%, well below humans. Relevant to quality control of generated worlds, but published 2026-09-30 with no uptake yet (4 GitHub stars); add if adopted.",
+   "link": "https://ucsb-nlp-chang.github.io/WorldAuditBench/",
+   "found_via": "worlds-3d",
+   "status": "open"
+  },
+  {
+   "name": "ExeWorldBench: code-based executable 3D world modeling (arXiv 2610.15166)",
+   "why": "Tests coding agents on building 3D worlds whose mechanisms actually run (single mechanisms, multi-stage systems, goal-driven world synthesis). Published 2026-10-10, no project page and no adoption yet; overlaps AA-3D. Revisit next round.",
+   "link": "https://arxiv.org/abs/2610.15166",
+   "found_via": "worlds-3d",
+   "status": "open"
+  },
+  {
+   "name": "RW-Voice-EQ Bench (Hume AI, arXiv 2607.14846)",
+   "why": "Vendor benchmark of TTS, speech-to-speech, speech understanding and ASR under real-world acoustic conditions, with a Hugging Face leaderboard; no video or paper figure available, only an auto-generated thumbnail.",
+   "link": "https://huggingface.co/spaces/HumeAI/rw-voice-eq",
+   "found_via": "hume-ai",
+   "status": "no_media"
+  },
+  {
+   "name": "Android XR intelligent eyewear (Samsung with Gentle Monster and Warby Parker)",
+   "why": "Audio glasses with Gemini ship first (fall 2026); no display, so nothing generated is seen. Re-check when the display model ships (expected 2027).",
+   "link": "https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/",
+   "found_via": "google",
+   "status": "off_topic"
+  },
+  {
+   "name": "Spark 2.0 (World Labs streaming 3DGS renderer)",
+   "why": "Already covered as world-labs--spark in spatial-4d.json, whose text includes Spark 2.0.",
+   "link": "https://www.worldlabs.ai/blog/spark-2.0",
+   "found_via": "world-labs",
+   "status": "duplicate"
+  },
+  {
+   "name": "Khronos glTF KHR_gaussian_splatting",
+   "why": "Already in infra as khronos-group--gltf-gaussian-splatting.",
+   "link": "https://www.khronos.org/news/press/gltf-gaussian-splatting-press-release",
+   "found_via": "khronos-group",
+   "status": "duplicate"
+  },
+  {
+   "name": "SPECS consumer launch and SPECS Intelligence (2026-09-16)",
+   "why": "Folded into snap--specs (status updated: pre-orders from AWE 2026-06-16, launch event 2026-09-16, 51 degree FOV).",
+   "link": "https://newsroom.snap.com/making-computing-more-human-with-specs",
+   "found_via": "snap",
+   "status": "duplicate"
+  },
+  {
+   "name": "Sora 2 / Videos API discontinuation",
+   "why": "Already reflected in openai--videos-api-sora-2 (API removed 2026-09-24); the Sora 2 model work belongs to video.",
+   "link": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+   "found_via": "openai",
+   "status": "duplicate"
+  },
+  {
+   "name": "Odyssey API (developer.odyssey.ml)",
+   "why": "Not a separate product: the API is linked as api_url on odyssey--odyssey-2 and odyssey--odyssey-3 (world-models).",
+   "link": "https://developer.odyssey.ml",
+   "found_via": "odyssey",
+   "status": "duplicate"
+  }
+ ]
+}

@@ -224,10 +224,10 @@
   },
   {
    "id": "spatial-4d",
-   "en": "Capture, Reconstruction & 4D",
-   "zh": "捕捉、重建与 4D",
-   "desc_en": "Turning the real world into navigable 3D and 4D (3D plus time): radiance fields and Gaussian splatting, feed-forward reconstruction in seconds, dynamic scenes, generative 4D and volumetric video.",
-   "desc_zh": "把真实世界变成可漫游的三维与四维（三维加时间）：辐射场与高斯泼溅、几秒内完成的前馈式重建、动态场景、生成式 4D 与体积视频。",
+   "en": "Capture, Reconstruction & 4D Generation",
+   "zh": "捕捉、重建与 4D 生成",
+   "desc_en": "Navigable 3D and 4D (3D plus time), captured from the real world or generated: radiance fields and Gaussian splatting, feed-forward reconstruction in seconds, dynamic scenes, volumetric video, and moving objects, scenes and worlds generated from text, images or video.",
+   "desc_zh": "可漫游的三维与四维（三维加时间），既可从真实世界捕捉，也可以生成：辐射场与高斯泼溅、几秒内完成的前馈式重建、动态场景、体积视频，以及由文字、图像或视频生成的运动物体、场景与世界。",
    "subs": [
     {
      "id": "radiance",
@@ -251,13 +251,6 @@
      "desc_zh": "在空间与时间上重建的运动场景：4D 高斯、时空泼溅、4D 视频。"
     },
     {
-     "id": "generative-4d",
-     "en": "Generative 4D",
-     "zh": "生成式 4D",
-     "desc_en": "Dynamic 3D content generated or completed with video priors: DreamGaussian4D, CAT4D, BulletGen, SV4D…",
-     "desc_zh": "借助视频先验生成或补全的动态三维内容：DreamGaussian4D、CAT4D、BulletGen、SV4D……"
-    },
-    {
      "id": "volumetric",
      "en": "Volumetric video & telepresence",
      "zh": "体积视频与远程临场",
@@ -270,6 +263,20 @@
      "zh": "捕捉应用与泼溅工具",
      "desc_en": "Phone and headset capture, training and viewing tools: Luma, Polycam, Scaniverse, Postshot, Hyperscape, SuperSplat…",
      "desc_zh": "手机与头显捕捉、训练和查看工具：Luma、Polycam、Scaniverse、Postshot、Hyperscape、SuperSplat……"
+    },
+    {
+     "id": "generative-4d-objects",
+     "en": "4D object generation",
+     "zh": "4D 物体生成",
+     "desc_en": "Moving 3D objects and characters generated from text, an image or a video, as dynamic Gaussians or deforming meshes: DreamGaussian4D, L4GM, SV4D…",
+     "desc_zh": "由文字、单张图像或视频生成会动的三维物体与角色，以动态高斯或变形网格表示：DreamGaussian4D、L4GM、SV4D……"
+    },
+    {
+     "id": "generative-4d-scenes",
+     "en": "4D scene & world generation",
+     "zh": "4D 场景与世界生成",
+     "desc_en": "Moving scenes and worlds generated or completed with video priors, viewable from new angles as time passes: CAT4D, 4Real, 4DNeX, BulletGen…",
+     "desc_zh": "借助视频先验生成或补全的运动场景与世界，可随时间推移从新视角观看：CAT4D、4Real、4DNeX、BulletGen……"
     }
    ]
   },
@@ -805,6 +812,19 @@
    "next_zh": "Beam 自 2026 年 10 月起可在共享办公空间预约使用；带 Hologram 通话的 Meta VR Glasses 将于 2027 年春上市。"
   },
   {
+   "id": "trend-4d-generation",
+   "type": "trend",
+   "en": "4D generation goes feed-forward and open",
+   "zh": "4D 生成走向前馈与开源",
+   "desc_en": "Moving 3D content is now generated, not only captured: per-prompt optimisation (MAV3D, 2023) gave way to feed-forward open models (L4GM and SV4D in 2024, 4DNeX in 2025), and in 2026 open models turn a video, image or text into an animated mesh in about a minute (ActionMesh) or into a dynamic scene you can move through (NeoVerse, InSpatio-World).",
+   "desc_zh": "会动的三维内容如今不仅能捕捉，也能生成：从逐个提示词优化的方法（MAV3D，2023），到前馈式的开源模型（2024 年的 L4GM、SV4D，2025 年的 4DNeX）；2026 年，开源模型能在约一分钟内把视频、图像或文字变成动画网格（ActionMesh），或变成可以在其中移动的动态场景（NeoVerse、InSpatio-World）。",
+   "url": "",
+   "gap_en": "Outputs last seconds and stay tied to a source video or a single object; there is no public 4D-generation API, the only product is Roblox Cube 4D (beta), and generated 4D content has no common format or player.",
+   "gap_zh": "生成的内容只有几秒，并依附于源视频或单个物体；目前没有公开的 4D 生成 API，唯一的产品是 Roblox Cube 4D（测试版），生成的 4D 内容也没有通用的格式或播放器。",
+   "next_en": "4D generation is starting to animate generated worlds: OuroWorld (2026-10) turns static Gaussian worlds made with Marble or Lyra 2.0 into looping 4D scenes.",
+   "next_zh": "4D 生成开始为生成的世界加入运动：OuroWorld（2026-10）把用 Marble 或 Lyra 2.0 生成的静态高斯世界变成循环播放的 4D 场景。"
+  },
+  {
    "id": "trend-grounded",
    "type": "trend",
    "en": "Grounded in real places",
@@ -879,8 +899,8 @@
    "url": "",
    "gap_en": "At list prices (Oct 2026), a 10-minute 720p stimulus costs about $30–60 (Veo 3.1 Lite / Fast), a 30-minute full-duplex voice session about $0.70–1.50, and 30 minutes of Oasis 3 about $36, but only for driving scenes; a general-purpose real-time world cannot be bought at a published price.",
    "gap_zh": "按 2026 年 10 月标价估算：10 分钟 720p 刺激视频约需 30–60 美元（Veo 3.1 Lite / Fast），30 分钟全双工语音约 0.7–1.5 美元，30 分钟 Oasis 3 约 36 美元（仅限驾驶场景）；通用的实时生成世界则没有公开价格可买。",
-   "next_en": "Local inference becomes realistic on consumer GPUs and 128 GB laptops (RTX Spark, on sale 2026-10-16).",
-   "next_zh": "在消费级显卡和 128 GB 内存的笔记本（RTX Spark，2026-10-16 上市）上进行本地推理开始变得可行。"
+   "next_en": "Local inference becomes realistic on consumer GPUs and 128 GB laptops (RTX Spark, on sale 2026-10-16); Vidu Q4 Preview lists video from $0.014/s (2026-10-07).",
+   "next_zh": "在消费级显卡和 128 GB 内存的笔记本（RTX Spark，2026-10-16 上市）上进行本地推理开始变得可行；Vidu Q4 预览版的视频生成价格低至每秒 0.014 美元（2026-10-07）。"
   },
   {
    "id": "trend-platform-risk",
@@ -892,8 +912,8 @@
    "url": "",
    "gap_en": "A study built on a startup's or lab's API may outlive the API: archive stimuli, prompts and model ids, and prefer open weights for anything that must be re-run.",
    "gap_zh": "基于初创公司或实验室 API 的研究，可能比这个 API 活得更久：请存档刺激材料、提示词与模型版本，凡需重跑的部分尽量使用开源权重。",
-   "next_en": "World Labs' merger with AMD is expected to close by the end of 2026; Microsoft's Muse team moved into the Microsoft AI product group.",
-   "next_zh": "World Labs 与 AMD 的合并预计 2026 年底完成；微软的 Muse 团队已并入 Microsoft AI 产品部门。"
+   "next_en": "AMD's all-stock purchase of World Labs (about $8.2 billion, announced 2026-09-28) is expected to close by the end of 2026; Microsoft's Muse team moved into the Microsoft AI product group; Google retires the Veo 3.1 preview endpoints on 2026-10-22, and Hume shuts its EVI and TTS APIs on 2026-11-13.",
+   "next_zh": "AMD 以全股票方式收购 World Labs（约 82 亿美元，2026-09-28 宣布），预计 2026 年底完成；微软的 Muse 团队已并入 Microsoft AI 产品部门；Google 将于 2026-10-22 停用 Veo 3.1 预览接口，Hume 将于 2026-11-13 关闭 EVI 与 TTS API。"
   },
   {
    "id": "trend-provenance",
@@ -1034,12 +1054,12 @@
   {
    "name": "Veo 3.1 (Standard / Fast / Lite)",
    "org": "Google DeepMind",
-   "status_en": "Preview model ids; $0.05–0.60 per second by tier",
-   "status_zh": "预览版模型；按档位每秒 0.05–0.60 美元",
+   "status_en": "$0.05–0.60 per second by tier; Gemini API preview endpoints retire 2026-10-22 in favour of Gemini Omni 1.1 Flash; Vertex AI supported until at least 2026-11-17",
+   "status_zh": "按档位每秒 0.05–0.60 美元；Gemini API 预览接口于 2026-10-22 停用，由 Gemini Omni 1.1 Flash 取代；Vertex AI 至少支持到 2026-11-17",
    "access": [
     "api"
    ],
-   "url": "https://ai.google.dev/gemini-api/docs/pricing"
+   "url": "https://ai.google.dev/gemini-api/docs/deprecations"
   },
   {
    "name": "Gemini 3.8 Live + Live Avatar",
@@ -1123,13 +1143,13 @@
   {
    "name": "Odyssey-3",
    "org": "Odyssey",
-   "status_en": "Announced 2026-09-15; API access on request",
-   "status_zh": "2026-09-15 发布；API 需申请",
+   "status_en": "Announced 2026-09-15; public research preview with Pro / Flash tiers since 2026-10-08",
+   "status_zh": "2026-09-15 发布；自 2026-10-08 起公开研究预览，分 Pro / Flash 两档",
    "access": [
     "api",
     "preview"
    ],
-   "url": "https://odyssey.ml/introducing-odyssey-3"
+   "url": "https://odyssey.systems/meet-odyssey-3"
   },
   {
    "name": "Griffin-Lite",
@@ -1144,8 +1164,8 @@
   {
    "name": "Kling 4.0",
    "org": "Kuaishou",
-   "status_en": "Introduced 2026-09-28 (Flash first for top-tier subscribers); official launch announced 2026-10-16; about 30 s per generation; API said to follow",
-   "status_zh": "2026-09-28 推出（Flash 版先向高级订阅用户开放），2026-10-16 宣布正式发布；单次约 30 秒；据称 API 随后开放",
+   "status_en": "Introduced 2026-09-28; fully available on kling.ai since 2026-10-16; about 30 s per generation; no API model yet",
+   "status_zh": "2026-09-28 推出；自 2026-10-16 起在 kling.ai 全面开放；单次约 30 秒；尚无 API 模型",
    "access": [
     "product"
    ],
@@ -1236,8 +1256,8 @@
   {
    "name": "Snap SPECS",
    "org": "Snap",
-   "status_en": "Pre-order $2,195; ships fall 2026 (US, UK, FR)",
-   "status_zh": "预订价 2,195 美元；2026 年秋发货（美、英、法）",
+   "status_en": "Pre-orders since 2026-06-16 at $2,195; ships fall 2026 (US, UK, FR)",
+   "status_zh": "自 2026-06-16 起接受预订，2,195 美元；2026 年秋发货（美、英、法）",
    "access": [
     "product"
    ],
@@ -1256,8 +1276,8 @@
   {
    "name": "visionOS 27",
    "org": "Apple",
-   "status_en": "Announced at WWDC 2026: panoramas become spatial scenes",
-   "status_zh": "WWDC 2026 发布：全景照片可变成空间场景",
+   "status_en": "Released 2026-09-14: panoramas become spatial scenes",
+   "status_zh": "2026-09-14 正式发布：全景照片可变成空间场景",
    "access": [
     "product"
    ],
@@ -1303,6 +1323,35 @@
     "open"
    ],
    "url": "https://arxiv.org/abs/2606.31672"
+  },
+  {
+   "name": "HappyOyster 快乐生蚝",
+   "org": "Alibaba",
+   "status_en": "Real-time audio-video world model; product since 2026-04-16, 1.0 on 2026-06-17; API via fal",
+   "status_zh": "实时音视频世界模型；2026-04-16 推出产品，2026-06-17 发布 1.0；通过 fal 提供 API",
+   "access": [
+    "product",
+    "api"
+   ],
+   "url": "https://fal.ai/happy-oyster"
+  },
+  {
+   "name": "Hume EVI / Octave APIs",
+   "org": "Hume AI",
+   "status_en": "Shutting down: API access ends 2026-11-13 (notice 2026-10-02)",
+   "status_zh": "即将关闭：API 访问于 2026-11-13 终止（2026-10-02 通知）",
+   "access": [],
+   "url": "https://dev.hume.ai/changelog"
+  },
+  {
+   "name": "ActionMesh / InSpatio-World",
+   "org": "Meta / InSpatio",
+   "status_en": "Open 4D generation: animated meshes in about a minute (2026-01-22); real-time dynamic scenes from a video, 1.3B (2026-04-08); no 4D-generation API exists",
+   "status_zh": "开源 4D 生成：约一分钟生成动画网格（2026-01-22）；由视频生成可实时漫游的动态场景，1.3B（2026-04-08）；目前没有 4D 生成 API",
+   "access": [
+    "open"
+   ],
+   "url": "https://github.com/facebookresearch/actionmesh"
   }
  ],
  "lenses": [

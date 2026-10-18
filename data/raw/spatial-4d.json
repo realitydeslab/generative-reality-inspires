@@ -2885,7 +2885,7 @@
       "title": "MAV3D (Make-A-Video3D)",
       "year": 2023,
       "field": "spatial-4d",
-      "sub": "generative-4d",
+      "sub": "generative-4d-objects",
       "modalities": [
         "dynamic-4d"
       ],
@@ -2939,7 +2939,7 @@
       "title": "DreamGaussian4D",
       "year": 2023,
       "field": "spatial-4d",
-      "sub": "generative-4d",
+      "sub": "generative-4d-objects",
       "modalities": [
         "dynamic-4d",
         "splats",
@@ -2983,7 +2983,7 @@
       "code_url": "https://github.com/jiawei-ren/dreamgaussian4d",
       "collections": [
         "agenda-core",
-        "trend-4d-media"
+        "trend-4d-generation"
       ]
     },
     {
@@ -2995,7 +2995,7 @@
       "title": "4Real",
       "year": 2024,
       "field": "spatial-4d",
-      "sub": "generative-4d",
+      "sub": "generative-4d-scenes",
       "modalities": [
         "dynamic-4d",
         "splats"
@@ -3039,7 +3039,7 @@
       "source_url": "https://snap-research.github.io/4Real/",
       "collections": [
         "ml-conf",
-        "trend-4d-media"
+        "trend-4d-generation"
       ]
     },
     {
@@ -3051,7 +3051,7 @@
       "title": "L4GM",
       "year": 2024,
       "field": "spatial-4d",
-      "sub": "generative-4d",
+      "sub": "generative-4d-objects",
       "modalities": [
         "dynamic-4d",
         "splats"
@@ -3108,7 +3108,7 @@
       "title": "Stable Video 4D (SV4D)",
       "year": 2024,
       "field": "spatial-4d",
-      "sub": "generative-4d",
+      "sub": "generative-4d-objects",
       "modalities": [
         "dynamic-4d",
         "flat-video"
@@ -3160,7 +3160,7 @@
       "title": "SV4D 2.0",
       "year": 2025,
       "field": "spatial-4d",
-      "sub": "generative-4d",
+      "sub": "generative-4d-objects",
       "modalities": [
         "dynamic-4d",
         "flat-video"
@@ -3213,7 +3213,7 @@
       "title": "CAT4D",
       "year": 2024,
       "field": "spatial-4d",
-      "sub": "generative-4d",
+      "sub": "generative-4d-scenes",
       "modalities": [
         "dynamic-4d",
         "splats"
@@ -3258,7 +3258,7 @@
       "collections": [
         "agenda-core",
         "cvpr",
-        "trend-4d-media"
+        "trend-4d-generation"
       ]
     },
     {
@@ -3271,7 +3271,7 @@
       "title": "BulletGen",
       "year": 2025,
       "field": "spatial-4d",
-      "sub": "generative-4d",
+      "sub": "generative-4d-scenes",
       "modalities": [
         "dynamic-4d",
         "splats"
@@ -3314,7 +3314,7 @@
       "source_url": "https://arxiv.org/abs/2506.18601",
       "collections": [
         "agenda-core",
-        "trend-4d-media"
+        "trend-4d-generation"
       ]
     },
     {
@@ -3325,7 +3325,7 @@
       "title": "4DNeX",
       "year": 2025,
       "field": "spatial-4d",
-      "sub": "generative-4d",
+      "sub": "generative-4d-scenes",
       "modalities": [
         "dynamic-4d",
         "flat-video"
@@ -3504,8 +3504,8 @@
         "responsiveness"
       ],
       "kind": "product",
-      "description": "Google Beam is the commercial successor to Project Starline: an AI model turns several 2D camera streams into a 3D rendering of the remote person on a light-field display, sold built into HP's Dimension screen.",
-      "description_zh": "Google Beam 是 Project Starline 的商用后继：AI 模型把多路二维相机画面转换为远端人物的三维渲染，在光场显示屏上呈现，内置于 HP Dimension 显示设备出售。",
+      "description": "Google Beam is the commercial successor to Project Starline: an AI model turns several 2D camera streams into a 3D rendering of the remote person on a light-field display, sold built into HP's Dimension screen. On 23 September 2026 Google said Beam units now ship to customers in six countries (US, Canada, UK, France, Germany, Japan) through 18 channel partners, with bookable units at Industrious workspaces from October 2026.",
+      "description_zh": "Google Beam 是 Project Starline 的商用后继：AI 模型把多路二维相机画面转换为远端人物的三维渲染，在光场显示屏上呈现，内置于 HP Dimension 显示设备出售。Google 于 2026 年 9 月 23 日表示，Beam 设备已通过 18 家渠道合作伙伴向六个国家（美国、加拿大、英国、法国、德国、日本）的客户发货，并自 2026 年 10 月起可在部分 Industrious 共享办公空间预约使用。",
       "idea_en": "Volumetric telepresence is now a product you can buy, but at about $25,000 per unit (reported) and for one-to-one calls only.",
       "idea_zh": "体积式远程临场已经是可以买到的产品，但据报道每台约 2.5 万美元，并且只支持一对一通话。",
       "method": "Google reports a six-camera array and an AI volumetric video model that renders on a 3D light-field display with millimetre head tracking at 60 fps.",
@@ -4149,8 +4149,8 @@
         "situational-reach"
       ],
       "kind": "open-source",
-      "description": "Spark is World Labs' open-source Gaussian splat renderer for three.js; Spark 2.0 (April 2026) streams worlds of over 100 million splats into an ordinary web page.",
-      "description_zh": "Spark 是 World Labs 面向 three.js 的开源高斯泼溅渲染器；Spark 2.0（2026 年 4 月）可把超过 1 亿个泼溅的世界流式加载进普通网页。",
+      "description": "Spark is World Labs' open-source Gaussian splat renderer for three.js; Spark 2.0 (April 2026) streams worlds of over 100 million splats into an ordinary web page. On 28 September 2026 AMD agreed to acquire World Labs (closing expected by the end of 2026); Spark remains MIT-licensed.",
+      "description_zh": "Spark 是 World Labs 面向 three.js 的开源高斯泼溅渲染器；Spark 2.0（2026 年 4 月）可把超过 1 亿个泼溅的世界流式加载进普通网页。2026 年 9 月 28 日，AMD 同意收购 World Labs（预计 2026 年底完成交割）；Spark 仍采用 MIT 许可证。",
       "idea_en": "Lets captured or generated splat worlds be wrapped in web interactions, the cheapest route to putting them in front of study participants.",
       "idea_zh": "让捕捉或生成的泼溅世界可以包上网页交互，这是把它们呈现给研究参与者的最省成本的途径。",
       "method": "A three.js renderer with GPU sorting, level of detail and streaming, plus programmable per-splat effects for editing and animation.",

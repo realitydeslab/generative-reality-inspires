@@ -1293,8 +1293,8 @@
         "authoring"
       ],
       "kind": "model",
-      "description": "A world model that begins streaming video within seconds of a typed prompt and keeps changing it as the viewer types new instructions, for multi-minute sessions in a web app; it follows Odyssey-1 (May 2025) and was later offered through an API as Odyssey-2 Pro.",
-      "description_zh": "一个世界模型：输入提示几秒后便开始流式生成视频，观看者继续输入指令，画面随之改变，单次可持续数分钟，可在网页应用中体验；它是 Odyssey-1（2025 年 5 月）的后继，之后以 Odyssey-2 Pro 的形式开放 API。",
+      "description": "A world model that begins streaming video within seconds of a typed prompt and keeps changing it as the viewer types new instructions, for multi-minute sessions in a web app; it follows Odyssey-1 (May 2025) and was later offered through an API as Odyssey-2 Pro. Odyssey-2 Max (2026-04-21), about three times the size of Odyssey-2 Pro, raised its VBench 2 physics score from 49.67 to 58.52 (developer-reported).",
+      "description_zh": "一个世界模型：输入提示几秒后便开始流式生成视频，观看者继续输入指令，画面随之改变，单次可持续数分钟，可在网页应用中体验；它是 Odyssey-1（2025 年 5 月）的后继，之后以 Odyssey-2 Pro 的形式开放 API。2026 年 4 月 21 日推出的 Odyssey-2 Max 规模约为 Odyssey-2 Pro 的三倍，VBench 2 物理得分由 49.67 提升到 58.52（开发者自述）。",
       "idea_en": "Makes video behave like a chat: you steer it by typing, which lowers the bar for authoring, but text is coarse compared with game controls.",
       "idea_zh": "让视频像聊天一样运作：边打字边引导画面，降低了创作门槛，但与游戏操控相比，文字指令较为粗略。",
       "method": "A causal, autoregressive video model that generates each frame from past frames and the current text, producing a new frame every 50 ms.",
@@ -1326,7 +1326,7 @@
       ],
       "title": "Agora-2",
       "year": 2026,
-      "date": "2026-09",
+      "date": "2026-09-24",
       "field": "world-models",
       "sub": "general",
       "also": [
@@ -1906,7 +1906,13 @@
       "collections": [
         "trend-open-weights",
         "trend-realtime"
-      ]
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2609.37107",
+        "arxiv": "2609.37107",
+        "venue": "arXiv 2026",
+        "title": "Waypoint-1.5: A Real-Time Video World Model for Consumer Hardware"
+      }
     },
     {
       "id": "david-ha--world-models",
@@ -2804,8 +2810,8 @@
         "control"
       ],
       "kind": "model",
-      "description": "An open 'omni-model' announced at GTC Taipei that reasons about a scene, generates video and ambient sound, and outputs robot action data such as joint angles and gripper positions, so one model can describe, simulate and act.",
-      "description_zh": "在 GTC 台北发布的开源“全能模型”：先理解场景，再生成视频与环境声，还能输出关节角度、夹爪位置等机器人动作数据，让一个模型同时负责描述、模拟与行动。",
+      "description": "An open 'omni-model' announced at GTC Taipei that reasons about a scene, generates video and ambient sound, and outputs robot action data such as joint angles and gripper positions, so one model can describe, simulate and act. Cosmos 3 Edge, a 4B variant built to run in real time on device, was released openly at SIGGRAPH 2026 (2026-07-20).",
+      "description_zh": "在 GTC 台北发布的开源“全能模型”：先理解场景，再生成视频与环境声，还能输出关节角度、夹爪位置等机器人动作数据，让一个模型同时负责描述、模拟与行动。2026 年 7 月 20 日的 SIGGRAPH 2026 上，NVIDIA 开放发布了可在设备端实时运行的 4B 版本 Cosmos 3 Edge。",
       "idea_en": "Reasoning about a situation before simulating it is the step that makes generated outcomes checkable against an explanation.",
       "idea_zh": "先推理情境、再进行模拟，这一步让生成的结果可以对照解释加以核查。",
       "method": "A mixture-of-transformers model in which a reasoning block interprets the scene and a generation block produces physically grounded video, audio and numerical action outputs; it can be post-trained as a world-action model.",
@@ -2828,7 +2834,8 @@
       "collections": [
         "trend-open-weights",
         "trend-world-simulators"
-      ]
+      ],
+      "specs": "Edge variant 4B · real-time on device (developer-reported)"
     },
     {
       "id": "meta--v-jepa-2",
@@ -3095,13 +3102,13 @@
         "behavioral-plausibility"
       ],
       "kind": "model",
-      "description": "Odyssey's third foundation world model, which the company says can both generate interactive worlds and, with small action decoders trained on hours of data, control robot arms, humanoids, cars, drones and video-game characters.",
-      "description_zh": "Odyssey 的第三代基础世界模型；公司称，它既能生成交互世界，也能借助用数小时数据训练的小型动作解码器，控制机械臂、人形机器人、汽车、无人机和游戏角色。",
+      "description": "Odyssey's third foundation world model, which the company says can both generate interactive worlds and, with small action decoders trained on hours of data, control robot arms, humanoids, cars, drones and video-game characters. On 2026-10-08 Odyssey opened a public research preview with Pro and Flash tiers and reported a Physics-IQ Verified score of 66.1 for Odyssey-3 Pro (developer claim).",
+      "description_zh": "Odyssey 的第三代基础世界模型；公司称，它既能生成交互世界，也能借助用数小时数据训练的小型动作解码器，控制机械臂、人形机器人、汽车、无人机和游戏角色。2026 年 10 月 8 日，Odyssey 开放了公开研究预览（分 Pro 与 Flash 两档），并称 Odyssey-3 Pro 在 Physics-IQ Verified 上得分 66.1（开发者自述）。",
       "idea_en": "One world model as both simulator and controller, which would let the same model play the environment and the agents in it.",
       "idea_zh": "同一个世界模型既是模拟器又是控制器，这意味着同一个模型可以同时扮演环境和其中的智能体。",
       "method": "An autoregressive diffusion transformer trained on a large collection of visual observations; task-specific action decoders translate its internal representations into control signals.",
       "method_zh": "在大量视觉观察数据上训练的自回归扩散 Transformer；针对具体任务的动作解码器把其内部表征转换为控制信号。",
-      "specs": "few to tens of hours of task data per embodiment (developer-reported)",
+      "specs": "few to tens of hours of task data per embodiment · Physics-IQ Verified 66.1 for Pro (developer-reported)",
       "keywords": [
         "world model",
         "physical intelligence",
@@ -3545,17 +3552,17 @@
     },
     {
       "name": "PROWL-2 (Odyssey, 2026-10-01)",
-      "why": "Agents and their world model learn jointly from their own curricula; belongs to agents.",
+      "why": "Agents and their world model learn jointly from their own curricula; belongs to agents. Covered by work odyssey--prowl-2 (2026-10 update).",
       "link": "https://odyssey.ml/introducing-prowl-2",
       "found_via": "odyssey",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "CaliBench (Odyssey, 2026-08-10)",
-      "why": "Benchmark asking whether world models are physically calibrated; belongs to infra/benchmarks.",
+      "why": "Benchmark asking whether world models are physically calibrated; belongs to infra/benchmarks. Covered by work odyssey--calibench (2026-10 update).",
       "link": "https://odyssey.ml/writing",
       "found_via": "odyssey",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "GAIA-1 (Wayve, 2023) and GAIA-3 (Wayve, late 2025)",
@@ -3678,10 +3685,10 @@
     },
     {
       "name": "WorldRoamBench (arXiv 2606.31672) and MBench (arXiv 2606.00793)",
-      "why": "Independent 2026 benchmarks for long-horizon stability and memory of interactive world models; WorldRoamBench reports no model satisfies all dimensions. Benchmarks belong to infra (which already has WorldScore).",
+      "why": "Independent 2026 benchmarks for long-horizon stability and memory of interactive world models; WorldRoamBench reports no model satisfies all dimensions. Benchmarks belong to infra (which already has WorldScore). Covered by work ting-bing-xu--worldroambench (2026-10 update).",
       "link": "https://arxiv.org/abs/2606.31672",
       "found_via": "trends",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "HelloWorld (arXiv 2608.05070)",
@@ -3713,10 +3720,10 @@
     },
     {
       "name": "Seaweed APT2 (ByteDance Seed, NeurIPS 2025, arXiv 2506.09350)",
-      "why": "Real-time interactive video via autoregressive adversarial post-training; belongs to video/realtime.",
+      "why": "Real-time interactive video via autoregressive adversarial post-training; belongs to video/realtime. Covered by work bytedance-seed--seaweed-apt2 (2026-10 update).",
       "link": "https://arxiv.org/abs/2506.09350",
       "found_via": "seed",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "Decart Lucy 2 / Lucy 2.5 (2026)",
@@ -3727,10 +3734,10 @@
     },
     {
       "name": "Runway GWM Avatars and GWM Robotics SDK (2025-12)",
-      "why": "Variants of GWM-1; GWM Avatars belongs to avatars.",
+      "why": "Variants of GWM-1; GWM Avatars belongs to avatars. Covered by work runway--gwm-1 (2026-10 update).",
       "link": "https://runwayml.com/research/introducing-runway-gwm-1",
       "found_via": "runway",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "World Labs Atlas (2026-09-01)",

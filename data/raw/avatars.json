@@ -845,8 +845,8 @@
     "responsiveness"
    ],
    "kind": "platform",
-   "description": "LiveAvatar is HeyGen's real-time avatar streaming API, the successor to its Interactive Avatar: a half- or full-body 1080p avatar, cloned from an image or two minutes of footage, speaks a voice agent's replies over WebRTC. HeyGen reports under 300 ms median time to first frame and prices from about $0.01 per minute at volume.",
-   "description_zh": "LiveAvatar 是 HeyGen 的实时虚拟人流式 API，接替了此前的 Interactive Avatar：一个由图像或两分钟视频克隆而来的半身或全身 1080p 虚拟人，通过 WebRTC 说出语音智能体的回复。HeyGen 称首帧中位时间低于 300 ms，大批量时约每分钟 0.01 美元。",
+   "description": "LiveAvatar is HeyGen's real-time avatar streaming API, the successor to its Interactive Avatar: a half- or full-body 1080p avatar, cloned from an image or two minutes of footage, speaks a voice agent's replies over WebRTC. HeyGen reports under 300 ms median time to first frame and prices from about $0.01 per minute at volume. In June 2026 HeyGen added an Avatar Realtime API for always-on streaming avatars, and on 2026-09-10 it open-sourced (MIT) a reference stack in which OpenAI's full-duplex GPT-Live-1 voice model drives a LiveAvatar.",
+   "description_zh": "LiveAvatar 是 HeyGen 的实时虚拟人流式 API，接替了此前的 Interactive Avatar：一个由图像或两分钟视频克隆而来的半身或全身 1080p 虚拟人，通过 WebRTC 说出语音智能体的回复。HeyGen 称首帧中位时间低于 300 ms，大批量时约每分钟 0.01 美元。2026 年 6 月，HeyGen 推出用于全天候直播虚拟人的 Avatar Realtime API；2026-09-10，又以 MIT 协议开源了一套参考实现，由 OpenAI 的全双工语音模型 GPT-Live-1 驱动 LiveAvatar。",
    "idea_en": "Real-time avatars became cheap enough to give every voice agent a face, which moves the open question from 'can it render' to 'does it behave'.",
    "idea_zh": "实时虚拟人便宜到可以给每个语音智能体配一张脸，问题从“能不能渲染”转向“行为像不像”。",
    "method": "Avatar-only rendering streamed via LiveKit/WebRTC, driven either by HeyGen's managed ASR-LLM-TTS stack or by the developer's own voice agent.",
@@ -2232,8 +2232,8 @@
     "perceptual-realism"
    ],
    "kind": "model",
-   "description": "Character-3 animates any character image (photo, illustration, 3D render) into a talking or singing video from audio and a text prompt that sets emotion and body movement, inside the Hedra Studio app.",
-   "description_zh": "Character-3 能把任意角色图像（照片、插画、三维渲染）根据音频和设定情绪与肢体动作的文本提示，变成说话或唱歌的视频，在 Hedra Studio 应用中使用。",
+   "description": "Character-3 animates any character image (photo, illustration, 3D render) into a talking or singing video from audio and a text prompt that sets emotion and body movement, inside the Hedra Studio app. Hedra followed it in February 2026 with Omnia, which adds camera, body-motion and background direction from a single image, and an Avatar model for takes of up to five minutes, both also available through its API.",
+   "description_zh": "Character-3 能把任意角色图像（照片、插画、三维渲染）根据音频和设定情绪与肢体动作的文本提示，变成说话或唱歌的视频，在 Hedra Studio 应用中使用。2026 年 2 月，Hedra 推出后继模型 Omnia，可从单张图像控制镜头、身体动作和背景，同时推出可一次生成最长五分钟视频的 Avatar 模型，两者均可通过 API 使用。",
    "idea_en": "Made audio-driven character video a creator tool used at scale, including for non-human and stylized characters.",
    "idea_zh": "让音频驱动的角色视频成为大规模使用的创作工具，也适用于非人类和风格化角色。",
    "method": "An 'omnimodal' video model that jointly conditions on image, text and audio (architecture not published).",
@@ -3043,8 +3043,8 @@
     "control"
    ],
    "kind": "product",
-   "description": "MetaHuman Creator lets anyone design a realistic, fully rigged digital human in minutes by blending scanned faces and adjusting skin, hair and body, ready to animate in Unreal Engine; since Unreal Engine 5.6 (2025) it runs inside the engine and accepts mesh or scan input.",
-   "description_zh": "MetaHuman Creator 让任何人通过混合扫描人脸并调整皮肤、头发和体型，在几分钟内设计出逼真且完整绑定的数字人，可直接在 Unreal Engine 中驱动；自 Unreal Engine 5.6（2025）起，它在引擎内运行并接受网格或扫描输入。",
+   "description": "MetaHuman Creator lets anyone design a realistic, fully rigged digital human in minutes by blending scanned faces and adjusting skin, hair and body, ready to animate in Unreal Engine; since Unreal Engine 5.6 (2025) it runs inside the engine and accepts mesh or scan input. MetaHuman 5.8 (June 2026) converts full-body meshes of any topology into MetaHumans, adds crowds of hundreds to thousands of real-time characters, and releases the RigLogic and DNA libraries as open source under MIT (OpenRigLogic).",
+   "description_zh": "MetaHuman Creator 让任何人通过混合扫描人脸并调整皮肤、头发和体型，在几分钟内设计出逼真且完整绑定的数字人，可直接在 Unreal Engine 中驱动；自 Unreal Engine 5.6（2025）起，它在引擎内运行并接受网格或扫描输入。MetaHuman 5.8（2026 年 6 月）可把任意拓扑的全身网格转换为 MetaHuman，支持数百到数千个实时角色的人群，并以 MIT 协议开源 RigLogic 与 DNA 库（OpenRigLogic）。",
    "idea_en": "The non-generative baseline: authored, rigged, controllable humans whose every parameter can be logged, which generative avatars still struggle to match on control.",
    "idea_zh": "非生成式的基线：人工制作、完整绑定、可控，每个参数都能记录；在可控性上，生成式虚拟人仍难以企及。",
    "method": "Parametric blending over a database of scanned faces and bodies (from 3Lateral and Cubic Motion), with a standard facial rig and LODs for real-time rendering.",
@@ -3131,8 +3131,8 @@
     "authoring"
    ],
    "kind": "open-source",
-   "description": "Audio2Face-3D generates lip sync and facial expression for a rigged 3D character from speech audio in real time, and NVIDIA open-sourced the models, SDK and training framework in September 2025, with plug-ins for Unreal Engine and Maya.",
-   "description_zh": "Audio2Face-3D 可根据语音音频实时为绑定好的三维角色生成唇形同步和面部表情；NVIDIA 于 2025 年 9 月开源了模型、SDK 和训练框架，并提供 Unreal Engine 与 Maya 插件。",
+   "description": "Audio2Face-3D generates lip sync and facial expression for a rigged 3D character from speech audio in real time, and NVIDIA open-sourced the models, SDK and training framework in September 2025, with plug-ins for Unreal Engine and Maya. Version 2.0 of the Audio2Face-3D microservice (March 2026) adds diffusion-based Multi v3.2 models and optional tongue blendshapes.",
+   "description_zh": "Audio2Face-3D 可根据语音音频实时为绑定好的三维角色生成唇形同步和面部表情；NVIDIA 于 2025 年 9 月开源了模型、SDK 和训练框架，并提供 Unreal Engine 与 Maya 插件。Audio2Face-3D 微服务 2.0 版（2026 年 3 月）新增基于扩散的 Multi v3.2 模型和可选的舌部 blendshape。",
    "idea_en": "Gives game-engine NPCs and XR agents an open, inspectable speech-to-face layer that can run beside an LLM and TTS.",
    "idea_zh": "为游戏引擎 NPC 和 XR 智能体提供开放、可检视的“语音到面部”层，可与大模型和语音合成并行运行。",
    "method": "Neural networks (regression and diffusion variants) map audio features to facial blendshape or vertex animation plus emotion, part of NVIDIA ACE.",
@@ -3167,10 +3167,10 @@
  "leads": [
   {
    "name": "Moshi-Face (Jiang et al., 2026)",
-   "why": "Facial generation integrated into a Moshi-style full-duplex spoken dialogue system; FacePlex's main full-duplex baseline. Likely arXiv 2606.21970 (title not yet matched to the 'Moshi-Face' name).",
+   "why": "Facial generation integrated into a Moshi-style full-duplex spoken dialogue system; FacePlex's main full-duplex baseline. Likely arXiv 2606.21970 (title not yet matched to the 'Moshi-Face' name). Covered by work jingjing-jiang--moshi-face (2026-10 update).",
    "link": "https://arxiv.org/abs/2606.21970",
    "found_via": "habin-lim",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "LPM 1.0 affiliation",
@@ -3195,10 +3195,10 @@
   },
   {
    "name": "TurnBench (2026)",
-   "why": "Multi-domain turn-taking benchmark used by Sparrow-2; benchmark → infra/benchmarks.",
+   "why": "Multi-domain turn-taking benchmark used by Sparrow-2; benchmark → infra/benchmarks. Covered by work sesame--turnbench (2026-10 update).",
    "link": "https://arxiv.org/abs/2608.25218",
    "found_via": "tavus",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "Simli Trinity-1 (2025-07-10)",
@@ -3230,17 +3230,17 @@
   },
   {
    "name": "Wan-S2V (2025-08-26)",
-   "why": "Alibaba audio-driven cinematic video; belongs nearer the video batch's Wan family.",
+   "why": "Alibaba audio-driven cinematic video; belongs nearer the video batch's Wan family. Covered by work alibaba-tongyi--wan-s2v (2026-10 update).",
    "link": "https://arxiv.org/abs/2508.18621",
    "found_via": "alibaba-tongyi",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "MoCha (Meta, 2025-03-30)",
-   "why": "Movie-grade talking character synthesis with multi-character turn-based dialogue.",
+   "why": "Movie-grade talking character synthesis with multi-character turn-based dialogue. Covered by work cong-wei--mocha (2026-10 update).",
    "link": "https://arxiv.org/abs/2503.23307",
    "found_via": "meta",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "LiveTalk (2025-12-29)",
@@ -3265,17 +3265,17 @@
   },
   {
    "name": "FlowAct-R2 (2026-09)",
-   "why": "Streaming multimodal references and proactive agent planning beyond talking avatars; HF demo space.",
+   "why": "Streaming multimodal references and proactive agent planning beyond talking avatars; HF demo space. Covered by work bytedance-seed--flowact-r2 (2026-10 update).",
    "link": "https://arxiv.org/abs/2609.35728",
    "found_via": "anam",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "FiCA (2026)",
-   "why": "Feed-forward instant Gaussian Codec Avatars from a single portrait image.",
+   "why": "Feed-forward instant Gaussian Codec Avatars from a single portrait image. Covered by work kim-youwang--fica (2026-10 update).",
    "link": "https://arxiv.org/abs/2606.24232",
    "found_via": "meta",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "Embody 3D (Meta, 2025-10)",
@@ -3286,10 +3286,10 @@
   },
   {
    "name": "LHM (Alibaba, 2025-03)",
-   "why": "Large animatable human reconstruction model from a single image in seconds; assets/characters overlap.",
+   "why": "Large animatable human reconstruction model from a single image in seconds; assets/characters overlap. Covered by work alibaba-tongyi--lhm (2026-10 update).",
    "link": "https://arxiv.org/abs/2503.10625",
    "found_via": "alibaba-tongyi",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "GENEA Challenge 2026",

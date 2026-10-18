@@ -914,8 +914,8 @@
         "behavioral-plausibility"
       ],
       "kind": "platform",
-      "description": "A commercial platform that simulates how real customer groups would respond to a product launch, price change or campaign, using agents built from interviews and survey data in the line of the Stanford 1,000-person study.",
-      "description_zh": "一个商业平台，用访谈与问卷数据构建的智能体，模拟真实客户群体对产品发布、价格调整或营销活动的反应，延续斯坦福 1,000 人研究的思路。",
+      "description": "A commercial platform that simulates how real customer groups would respond to a product launch, price change or campaign, using agents built from interviews and survey data in the line of the Stanford 1,000-person study. In July 2026 it raised over US$200 million at a US$2 billion post-money valuation and reported a foundation model of human behavior and a confidence model that predicts each simulation's accuracy.",
+      "description_zh": "一个商业平台，用访谈与问卷数据构建的智能体，模拟真实客户群体对产品发布、价格调整或营销活动的反应，延续斯坦福 1,000 人研究的思路。2026 年 7 月，Simile 以 20 亿美元投后估值融资逾 2 亿美元，并称已建成人类行为基础模型，以及可预测每次模拟准确度的置信度模型。",
       "idea_en": "Population simulation has become a product; its accuracy claims are exactly what behavioral researchers would need to check before using such twins as participants.",
       "idea_zh": "人群模拟已经成为产品；它的准确性声明，正是行为研究者把这类“数字孪生”当作被试之前必须检验的内容。",
       "method": "Likely the generative-agent architecture with interview-grounded personas, validated by comparing simulated and held-out human response distributions; Simile reports enterprise studies (e.g. with CVS Health) but does not publish full model details.",
@@ -1731,8 +1731,8 @@
         "adaptation"
       ],
       "kind": "product",
-      "description": "An AI teammate for PUBG: Battlegrounds that the player talks to by voice: it calls out enemies in game lingo, shares loot, drives vehicles and fights alongside the player. KRAFTON calls it a Co-Playable Character; after demos at CES 2025 and GDC 2026 it was scheduled to launch in summer 2026 through PUBG's Arcade Mode beta.",
-      "description_zh": "《绝地求生》中可语音交流的 AI 队友：用游戏术语报点、分享物资、驾驶载具并与玩家并肩作战。魁匠团称之为“可共玩角色”（CPC）；在 CES 2025 与 GDC 2026 展示后，计划于 2026 年夏季通过 PUBG 街机模式测试版上线。",
+      "description": "An AI teammate for PUBG: Battlegrounds that the player talks to by voice: it calls out enemies in game lingo, shares loot, drives vehicles and fights alongside the player. KRAFTON calls it a Co-Playable Character; after demos at CES 2025 and GDC 2026 it was playable in a two-week public beta, Ally Duo Mode in PUBG Arcade on Steam, from 17 to 30 June 2026.",
+      "description_zh": "《绝地求生》中可语音交流的 AI 队友：用游戏术语报点、分享物资、驾驶载具并与玩家并肩作战。魁匠团称之为“可共玩角色”（CPC）；在 CES 2025 与 GDC 2026 展示后，于 2026 年 6 月 17 日至 30 日在 Steam 版 PUBG 街机模式中以“Ally 双排模式”进行了为期两周的公开测试。",
       "idea_en": "A teammate that both talks and acts in a fast competitive game, running on the player's own GPU rather than in the cloud.",
       "idea_zh": "一个在快节奏竞技游戏中既能说话又能行动的队友，运行在玩家自己的 GPU 上，而不是云端。",
       "method": "First shown with the Mistral-NeMo-Minitron-8B small language model through NVIDIA ACE; KRAFTON then moved from a behavior-tree-plus-SLM workflow to an autonomous tool-calling agent loop on a distilled on-device Nemotron model, adding long-term memory (announced at CES 2026).",
@@ -2126,10 +2126,10 @@
     },
     {
       "name": "Meta Horizon Worlds AI NPCs (generative NPC tools in the Horizon editor)",
-      "why": "LLM-driven NPCs for VR worlds; belongs to the genxr batch (Horizon generative tools).",
+      "why": "LLM-driven NPCs for VR worlds; belongs to the genxr batch (Horizon generative tools). Covered by work meta--horizon-worlds-llm-npcs (2026-10 update).",
       "link": "https://developers.meta.com/horizon-worlds/",
       "found_via": "seed",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "TinyTroupe (Microsoft, 2024)",

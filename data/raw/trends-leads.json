@@ -166,10 +166,10 @@
   },
   {
    "name": "Sora 2 — status update",
-   "why": "video: update the Sora 2 work's status — app and web discontinued 2026-04-26; Sora 2 / Videos API removed 2026-09-24 with no replacement; user data deleted after export window.",
+   "why": "video: update the Sora 2 work's status — app and web discontinued 2026-04-26; Sora 2 / Videos API removed 2026-09-24 with no replacement; user data deleted after export window. Covered by work openai--sora-2 (2026-10 update).",
    "link": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
    "found_via": "trends",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "Gemini 3.8 Live with Live Avatar (2026-09-24)",
@@ -180,10 +180,10 @@
   },
   {
    "name": "Meta Hologram (Ray-Ban Display; Hologram Calling on Meta VR Glasses) (2026-09-23)",
-   "why": "avatars/avatar-3d: photorealistic face from a short self-capture, driven entirely by voice; early access fall 2026; Hologram Calling on VR Glasses Spring 2027.",
+   "why": "avatars/avatar-3d: photorealistic face from a short self-capture, driven entirely by voice; early access fall 2026; Hologram Calling on VR Glasses Spring 2027. Covered by work meta--hologram (2026-10 update).",
    "link": "https://about.fb.com/news/2026/09/new-features-for-meta-ray-ban-display-navigation-hologram/",
    "found_via": "trends",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "OpenAI GPT-Live / GPT-Live-1 API (2026-07-08 / 2026-09-10)",
@@ -229,10 +229,10 @@
   },
   {
    "name": "Meta VR Glasses (2026-09-23)",
-   "why": "infra/devices: ~100 g VR glasses, 5K micro-OLED, 37 ppd, Snapdragon Reality Elite; $1,299.99, Spring 2027.",
+   "why": "infra/devices: ~100 g VR glasses, 5K micro-OLED, 37 ppd, Snapdragon Reality Elite; $1,299.99, Spring 2027. Covered by work meta--vr-glasses (2026-10 update).",
    "link": "https://about.fb.com/news/2026/09/introducing-meta-vr-glasses-3d-movies-immersive-live-sports-100-grams/",
    "found_via": "trends",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "Snap SPECS consumer AR glasses (2026-09-16)",
@@ -257,17 +257,17 @@
   },
   {
    "name": "WorldRoamBench (2026-06-30)",
-   "why": "infra/benchmarks: long-horizon stability benchmark for interactive world models (action, drift, physics, memory; 1000+ cases); finds no model satisfies all dimensions.",
+   "why": "infra/benchmarks: long-horizon stability benchmark for interactive world models (action, drift, physics, memory; 1000+ cases); finds no model satisfies all dimensions. Covered by work ting-bing-xu--worldroambench (2026-10 update).",
    "link": "https://arxiv.org/abs/2606.31672",
    "found_via": "trends",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "MBench (2026-05-30)",
-   "why": "infra/benchmarks: memory benchmark for video world models (entity, environment, causal consistency).",
+   "why": "infra/benchmarks: memory benchmark for video world models (entity, environment, causal consistency). Covered by work shengjun-zhang--mbench (2026-10 update).",
    "link": "https://arxiv.org/abs/2606.00793",
    "found_via": "trends",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "NVIDIA VideoFDB (full-duplex audio-visual conversation benchmark)",
@@ -285,17 +285,17 @@
   },
   {
    "name": "Google Playground + Unity Spark (2026-10-07)",
-   "why": "genxr/platform or infra: prompt-to-game platform; Unity Spark integration for 3D games in closed beta soon.",
+   "why": "genxr/platform or infra: prompt-to-game platform; Unity Spark integration for 3D games in closed beta soon. Covered by work google--playground-unity-spark (2026-10 update).",
    "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
    "found_via": "trends",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "CyberSelf: embodied self-distancing in VR (2026)",
-   "why": "behavioral/clinical or genai-research: self-resembling avatar + cloned self-voice + LLM dialogue; short-term study (arXiv 2608.07521).",
+   "why": "behavioral/clinical or genai-research: self-resembling avatar + cloned self-voice + LLM dialogue; short-term study (arXiv 2608.07521). Covered by work bing-li-sdu--cyberself (2026-10 update).",
    "link": "https://arxiv.org/abs/2608.07521",
    "found_via": "trends",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "AI-driven virtual patient for breaking bad news (2026)",

@@ -3263,8 +3263,8 @@
     "situational-reach"
    ],
    "kind": "product",
-   "description": "Prescription home VR program for chronic low back pain that teaches pain-management skills such as breathing, relaxation and attention shifting through short daily sessions; it received FDA De Novo authorization in 2021.",
-   "description_zh": "用于慢性下背痛的处方型居家 VR 项目，通过每日简短课程教授呼吸、放松、注意力转移等疼痛管理技巧；2021 年获美国 FDA De Novo 授权。",
+   "description": "Prescription home VR program for chronic low back pain that teaches pain-management skills such as breathing, relaxation and attention shifting through short daily sessions; it received FDA De Novo authorization in 2021. Two later FDA 510(k) clearances followed (December 2024, and August 2025 for the Pico G3 headset), and the product site is still live in October 2026.",
+   "description_zh": "用于慢性下背痛的处方型居家 VR 项目，通过每日简短课程教授呼吸、放松、注意力转移等疼痛管理技巧；2021 年获美国 FDA De Novo 授权。此后又获两次 FDA 510(k) 许可（2024 年 12 月；2025 年 8 月，适用于 Pico G3 头显），产品网站截至 2026 年 10 月仍在运行。",
    "idea_en": "Scripted VR became a regulated medical device; any generative or adaptive successor will have to clear the same evidence bar.",
    "idea_zh": "脚本化 VR 已成为受监管的医疗器械；任何生成式或自适应的后继者都要跨过同样的证据门槛。",
    "method": "Pre-built modules grounded in cognitive behavioral therapy and mindfulness, delivered on a standalone headset at home and evaluated in randomized trials against sham VR.",
@@ -3939,17 +3939,17 @@
   },
   {
    "name": "Generative AI-Based Environment-Grounded VR Communication Training for Autistic Individuals (Peiris lab, RIT, 2026)",
-   "why": "Follow-up to the CHI EA 2024 work; video posted September 2026, paper venue not yet confirmed.",
+   "why": "Follow-up to the CHI EA 2024 work; video posted September 2026, paper venue not yet confirmed. Covered by work ziming-li--grasping-to-speaking (2026-10 update).",
    "link": "https://www.youtube.com/watch?v=54krjoYva5Q",
    "found_via": "ziming-li",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "van Gelder et al. 2026: Future Self VR plus smartphone app RCT (JMIR)",
-   "why": "Three-arm RCT of a VR future-self intervention on goal achievement; no media found yet.",
+   "why": "Three-arm RCT of a VR future-self intervention on goal achievement; no media found yet. Covered by work jean-louis-van-gelder--futureu-rct (2026-10 update).",
    "link": "https://doi.org/10.2196/84420",
    "found_via": "jean-louis-van-gelder",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "Bar Fight VR Study: bystander intervention and misinformation memory (OSF preregistration, 2026)",
@@ -4016,10 +4016,10 @@
   },
   {
    "name": "Wiesing et al. 2026: An elephant in the room amplifies discomfort when the VR space matches physical reality (iScience)",
-   "why": "Mixed reality vs. VR replica vs. unrelated room; a probabilistic agent steered condition changes.",
+   "why": "Mixed reality vs. VR replica vs. unrelated room; a probabilistic agent steered condition changes. Covered by work michael-wiesing--elephant-in-the-room (2026-10 update).",
    "link": "https://doi.org/10.1016/j.isci.2026.115951",
    "found_via": "mel-slater",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "Banakou et al. 2013: Illusory ownership of a virtual child body (PNAS)",
@@ -4051,10 +4051,10 @@
   },
   {
    "name": "Toolboxes for creating immersive VR experiments in psychological research: scoping review (CHB Reports 2026)",
-   "why": "Review of experiment-building toolkits for VR psychology; relevant to experimental control.",
+   "why": "Review of experiment-building toolkits for VR psychology; relevant to experimental control. Covered by work mehrnaz-hosseinzadeh--vr-experiment-toolboxes-review (2026-10 update).",
    "link": "https://doi.org/10.1016/j.chbr.2026.101194",
    "found_via": "seed",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "JMIR 2025: Virtual patients using LLMs with feedback (text-based)",

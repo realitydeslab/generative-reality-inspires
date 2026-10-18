@@ -1115,7 +1115,6 @@
       ],
       "timing": "offline",
       "access": [
-        "api",
         "product"
       ],
       "lenses": [
@@ -1124,8 +1123,8 @@
         "behavioral-plausibility"
       ],
       "kind": "model",
-      "description": "Second Veo model (2024-12-16) with better physics and camera control and output up to 4K; DeepMind reported it was preferred over Sora Turbo, Kling and Minimax in human comparisons at launch. It became available in the Gemini API, Gemini app and YouTube Shorts.",
-      "description_zh": "第二代 Veo（2024-12-16），物理表现与镜头控制更好，最高可输出 4K；DeepMind 称其在发布时的人类偏好对比中优于 Sora Turbo、可灵与 MiniMax。后来开放于 Gemini API、Gemini 应用与 YouTube Shorts。",
+      "description": "Second Veo model (2024-12-16) with better physics and camera control and output up to 4K; DeepMind reported it was preferred over Sora Turbo, Kling and Minimax in human comparisons at launch. It became available in the Gemini API, Gemini app and YouTube Shorts; its Gemini API endpoint (veo-2.0-generate-001) was shut down on 2026-06-30.",
+      "description_zh": "第二代 Veo（2024-12-16），物理表现与镜头控制更好，最高可输出 4K；DeepMind 称其在发布时的人类偏好对比中优于 Sora Turbo、可灵与 MiniMax。后来开放于 Gemini API、Gemini 应用与 YouTube Shorts；其 Gemini API 端点（veo-2.0-generate-001）已于 2026-06-30 关闭。",
       "idea_en": "Lens type and camera moves became reliable prompt parameters, useful when a scenario needs a specific viewpoint.",
       "idea_zh": "镜头类型和运镜成为可靠的提示参数，适合需要特定视角的情境素材。",
       "method": "Diffusion-based video model with improved modeling of physics, human motion and cinematography; details not published.",
@@ -1166,7 +1165,6 @@
       ],
       "timing": "offline",
       "access": [
-        "api",
         "product"
       ],
       "lenses": [
@@ -1175,8 +1173,8 @@
         "behavioral-plausibility"
       ],
       "kind": "model",
-      "description": "Veo 3 (Google I/O, 2025-05-20) generates video together with dialogue, sound effects and ambient sound in one pass, which made talking characters in generated scenes common; a September 2025 DeepMind paper reports it solving perception and physics tasks zero-shot.",
-      "description_zh": "Veo 3（2025-05-20 Google I/O）可一次生成视频及对白、音效和环境声，使生成场景里“会说话的角色”变得普遍；DeepMind 2025 年 9 月的论文称它能零样本完成感知与物理类任务。",
+      "description": "Veo 3 (Google I/O, 2025-05-20) generates video together with dialogue, sound effects and ambient sound in one pass, which made talking characters in generated scenes common; a September 2025 DeepMind paper reports it solving perception and physics tasks zero-shot. Its veo-3.0 API endpoints were shut down in the Gemini API and on Vertex AI on 2026-06-30, with Veo 3.1 as the replacement.",
+      "description_zh": "Veo 3（2025-05-20 Google I/O）可一次生成视频及对白、音效和环境声，使生成场景里“会说话的角色”变得普遍；DeepMind 2025 年 9 月的论文称它能零样本完成感知与物理类任务。其 veo-3.0 API 端点已于 2026-06-30 在 Gemini API 与 Vertex AI 上关闭，由 Veo 3.1 取代。",
       "idea_en": "Sound and lip-synced speech arrive with the picture, so a generated scene can carry a social interaction, not just a view.",
       "idea_zh": "声音与口型同步的语音随画面一起生成，生成场景因此能承载社交互动，而不只是一段画面。",
       "method": "Joint audio-video diffusion model; the paper 'Video models are zero-shot learners and reasoners' probes it on 62 tasks by prompting alone.",
@@ -1237,8 +1235,8 @@
         "authoring"
       ],
       "kind": "model",
-      "description": "Veo 3.1 (2025-10-15) adds richer native audio and stronger prompt adherence to Veo 3, plus 'ingredients to video' (reference images), first-and-last-frame transitions and scene extension to a minute or more, in Flow and the Gemini API.",
-      "description_zh": "Veo 3.1（2025-10-15）在 Veo 3 基础上带来更丰富的原生音频和更好的提示遵循，并在 Flow 与 Gemini API 中提供“素材生成视频”（参考图）、首尾帧过渡，以及延展到一分钟以上的场景扩展。",
+      "description": "Veo 3.1 (2025-10-15) adds richer native audio and stronger prompt adherence to Veo 3, plus 'ingredients to video' (reference images), first-and-last-frame transitions and scene extension to a minute or more, in Flow and the Gemini API. A cheaper Veo 3.1 Lite entered preview on 2026-03-31; Google is shutting the Veo 3.1 preview endpoints in the Gemini API on 2026-10-22 in favour of gemini-omni-1.1-flash, while the GA veo-3.1-generate-001 on Vertex AI is supported until at least 2026-11-17.",
+      "description_zh": "Veo 3.1（2025-10-15）在 Veo 3 基础上带来更丰富的原生音频和更好的提示遵循，并在 Flow 与 Gemini API 中提供“素材生成视频”（参考图）、首尾帧过渡，以及延展到一分钟以上的场景扩展。更便宜的 Veo 3.1 Lite 于 2026-03-31 进入预览；Google 将于 2026-10-22 关闭 Gemini API 中的 Veo 3.1 预览端点，改由 gemini-omni-1.1-flash 取代，而 Vertex AI 上正式版 veo-3.1-generate-001 至少支持到 2026-11-17。",
       "idea_en": "Reference images and first/last frames let a researcher hold a character and setting fixed across clips, a first step toward controlled stimulus sets.",
       "idea_zh": "参考图和首尾帧让研究者能在多个片段中固定同一角色与场景，是迈向可控刺激材料集的第一步。",
       "method": "Veo 3 successor with reference conditioning, first/last-frame interpolation and extension that continues each new clip from the final second of the previous one.",
@@ -1448,13 +1446,13 @@
         "perceptual-realism"
       ],
       "kind": "model",
-      "description": "Kling 4.0, introduced on 2026-09-28 (a Flash version went first to top-tier subscribers), extends single generations to about 30 seconds with keyframe control and stereo sound; broader rollout was reported for 2026-10-16, and it is live on kling.ai as of mid-October 2026.",
-      "description_zh": "可灵 4.0 于 2026-09-28 推出（Flash 版先向高阶订阅用户开放），单次生成延长到约 30 秒，支持关键帧控制和立体声；据报道于 2026-10-16 全面推出，截至 2026 年 10 月中旬已在 kling.ai 上线。",
+      "description": "Kling 4.0, introduced on 2026-09-28 (Kling 4.0 Flash went first to a limited group of users), extends single generations to 30 seconds with up to 10 keyframes, 10-bit HDR at 1080p and 4K and two-channel stereo sound; Kling announced on 2026-10-16 that it is fully available on kling.ai. No Kling 4.0 API model had been announced as of 2026-10-17.",
+      "description_zh": "可灵 4.0 于 2026-09-28 推出（可灵 4.0 Flash 先向部分用户开放），单次生成延长到 30 秒，支持最多 10 个关键帧、1080p 与 4K 下的 10 bit HDR 以及双声道立体声；可灵于 2026-10-16 宣布其已在 kling.ai 全面开放。截至 2026-10-17，尚未公布可灵 4.0 的 API 模型。",
       "idea_en": "Thirty-second takes can hold a whole short interaction (approach, exchange, reaction) in one continuous shot.",
       "idea_zh": "30 秒的长镜头可以在一个连续镜头里容纳一段完整的短互动（接近、交流、反应）。",
       "method": "Next Kling generation; reported to accept up to 10 keyframe images per clip and to output up to 4K; architecture not published.",
       "method_zh": "可灵新一代模型；据报道每段最多可用 10 张关键帧图像并输出最高 4K；架构未公开。",
-      "specs": "~30 s per generation · up to 10 keyframes · up to 4K (reported)",
+      "specs": "3–30 s per generation · up to 10 keyframes · 720p / 1080p / 4K · 10-bit HDR · stereo audio",
       "keywords": [
         "text-to-video",
         "long take",
@@ -1465,7 +1463,7 @@
       "video": {
         "url": "https://www.youtube.com/watch?v=nlM7kL3kv_Y"
       },
-      "source_url": "https://kling.ai/",
+      "source_url": "https://kling.ai/blog/kling-4-vs-3",
       "collections": [
         "trend-native-audio"
       ]
@@ -2339,7 +2337,6 @@
       ],
       "timing": "offline",
       "access": [
-        "preview",
         "api"
       ],
       "lenses": [
@@ -2348,8 +2345,8 @@
         "control"
       ],
       "kind": "model",
-      "description": "Wan 3.0 entered public beta on Alibaba Cloud on 2026-08-06; unlike the open Wan 2.1 and 2.2 it is closed and API-only, and it takes text, image, video and audio in one prompt. Wan 2.5 (2025-09) and Wan 2.6 (2025-12) had already added native audio and reference casting.",
-      "description_zh": "通义万相 Wan 3.0 于 2026-08-06 在阿里云开启公测；与开源的 Wan 2.1、2.2 不同，它闭源、仅提供 API，可在一个提示中同时接收文本、图像、视频和音频。此前 Wan 2.5（2025 年 9 月）和 Wan 2.6（2025 年 12 月）已加入原生音频与参考角色功能。",
+      "description": "Wan 3.0 entered public beta on Alibaba Cloud on 2026-08-06 and was generally available on Model Studio by late August, with a faster wan3.0-video-prime variant from 2026-08-20; unlike the open Wan 2.1 and 2.2 it is closed and API-only, and it takes text, image, video and audio in one prompt. Wan 2.5 (2025-09) and Wan 2.6 (2025-12) had already added native audio and reference casting.",
+      "description_zh": "通义万相 Wan 3.0 于 2026-08-06 在阿里云开启公测，8 月下旬已在百炼正式提供，并自 2026-08-20 起提供更快的 wan3.0-video-prime 版本；与开源的 Wan 2.1、2.2 不同，它闭源、仅提供 API，可在一个提示中同时接收文本、图像、视频和音频。此前 Wan 2.5（2025 年 9 月）和 Wan 2.6（2025 年 12 月）已加入原生音频与参考角色功能。",
       "idea_en": "Even the leading open-weight video lab now keeps its newest flagship closed, so open Wan models trail by a generation.",
       "idea_zh": "就连最重要的开源视频团队也开始把最新旗舰闭源，开源的 Wan 模型因此落后一代。",
       "method": "Multimodal audio-video generation model served through Alibaba Cloud Model Studio; architecture and weights not published as of October 2026.",
@@ -2368,7 +2365,7 @@
         "https://img.alicdn.com/imgextra/i1/O1CN01WlNesT1EWvfm8mzKw_!!6000000000360-2-tps-600-315.png"
       ],
       "source_url": "https://wan.video/",
-      "api_url": "https://www.alibabacloud.com/help/en/model-studio/",
+      "api_url": "https://www.alibabacloud.com/help/en/model-studio/video-generation",
       "collections": [
         "trend-native-audio"
       ]
@@ -2606,8 +2603,8 @@
         "control"
       ],
       "kind": "open-source",
-      "description": "Wan-Animate (2025-09) animates a character image with the body motion and facial expressions of a driving video, or replaces the person in the video with that character while matching the scene's lighting; weights are open as Wan2.2-Animate-14B.",
-      "description_zh": "Wan-Animate（2025 年 9 月）可用驱动视频中的身体动作与面部表情来驱动一张角色图，或把视频中的人替换成该角色并匹配场景光照；权重以 Wan2.2-Animate-14B 开源。",
+      "description": "Wan-Animate (2025-09) animates a character image with the body motion and facial expressions of a driving video, or replaces the person in the video with that character while matching the scene's lighting; weights are open as Wan2.2-Animate-14B. Wan-Animate-2 (open weights 2026-08-07) takes the driving video directly in a redesigned diffusion transformer.",
+      "description_zh": "Wan-Animate（2025 年 9 月）可用驱动视频中的身体动作与面部表情来驱动一张角色图，或把视频中的人替换成该角色并匹配场景光照；权重以 Wan2.2-Animate-14B 开源。Wan-Animate-2（2026-08-07 开源权重）改用重新设计的扩散 Transformer 直接读取驱动视频。",
       "idea_en": "Open-weight performance transfer: any recorded actor can drive any character on a lab's own GPUs.",
       "idea_zh": "开源的表演迁移：任何录下的演员表演，都能在实验室自己的 GPU 上驱动任意角色。",
       "method": "Built on Wan 2.2, with skeleton signals for body motion, implicit facial features for expression and a relighting LoRA for character replacement.",
@@ -2764,10 +2761,10 @@
     },
     {
       "name": "LTX-2.5",
-      "why": "Lightricks 22B open audio-video model (2026-08-11), marketed as an 'open world model'; covered briefly in LTX-2.",
+      "why": "Lightricks 22B open audio-video model (2026-08-11), marketed as an 'open world model'; covered briefly in LTX-2. Covered by work lightricks--ltx-2-5 (2026-10 update).",
       "link": "https://www.youtube.com/watch?v=ZDfjZae7Da0",
       "found_via": "lightricks",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "Runway GWM Worlds 2",
@@ -2785,31 +2782,31 @@
     },
     {
       "name": "AnimateDiff",
-      "why": "Widely used 2023 motion module for personalized text-to-image models (arXiv 2307.04725).",
+      "why": "Widely used 2023 motion module for personalized text-to-image models (arXiv 2307.04725). Covered by work yuwei-guo--animatediff (2026-10 update).",
       "link": "https://animatediff.github.io/",
       "found_via": "seed",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "Diffusion Forcing",
-      "why": "Per-token noise training (arXiv 2407.01392) underlying SkyReels-V2, MirageLSD and many world models; may fit world-models.",
+      "why": "Per-token noise training (arXiv 2407.01392) underlying SkyReels-V2, MirageLSD and many world models; may fit world-models. Covered by work boyuan-chen--diffusion-forcing (2026-10 update).",
       "link": "https://boyuan.space/diffusion-forcing/",
       "found_via": "xun-huang",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "Rolling Forcing",
-      "why": "Real-time autoregressive long video with joint denoising windows (Tencent ARC, arXiv 2509.25161).",
+      "why": "Real-time autoregressive long video with joint denoising windows (Tencent ARC, arXiv 2509.25161). Covered by work kunhao-liu--rolling-forcing (2026-10 update).",
       "link": "https://kunhao-liu.github.io/Rolling_Forcing_Webpage/",
       "found_via": "tencent-arc",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "Self-Forcing++",
-      "why": "Minute-scale extension of Self Forcing (arXiv 2510.02283).",
+      "why": "Minute-scale extension of Self Forcing (arXiv 2510.02283). Covered by work justin-cui--self-forcing-plus-plus (2026-10 update).",
       "link": "https://arxiv.org/abs/2510.02283",
       "found_via": "xun-huang",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "StreamDiffusionV2",
@@ -2841,17 +2838,17 @@
     },
     {
       "name": "VidPanos",
-      "why": "Generative panoramic videos from casual panning videos (Google DeepMind, SIGGRAPH Asia 2024, arXiv 2410.13832).",
+      "why": "Generative panoramic videos from casual panning videos (Google DeepMind, SIGGRAPH Asia 2024, arXiv 2410.13832). Covered by work jingwei-ma--vidpanos (2026-10 update).",
       "link": "https://vidpanos.github.io/",
       "found_via": "google-deepmind",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "VideoPanda",
-      "why": "NVIDIA 360° video diffusion with multi-view attention (arXiv 2504.11389).",
+      "why": "NVIDIA 360° video diffusion with multi-view attention (arXiv 2504.11389). Covered by work kevin-xie--videopanda (2026-10 update).",
       "link": "https://research.nvidia.com/labs/toronto-ai/VideoPanda/",
       "found_via": "nvidia",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "PanoWan",
@@ -2869,31 +2866,31 @@
     },
     {
       "name": "StereoWorld",
-      "why": "Geometry-aware monocular-to-stereo video generation (CVPR 2026, arXiv 2512.09363).",
+      "why": "Geometry-aware monocular-to-stereo video generation (CVPR 2026, arXiv 2512.09363). Covered by work ke-xing--stereoworld (2026-10 update).",
       "link": "https://ke-xing.github.io/StereoWorld/",
       "found_via": "guibao-shen",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "Eye2Eye",
-      "why": "Simple monocular-to-stereo video synthesis with a video diffusion model (arXiv 2505.00135).",
+      "why": "Simple monocular-to-stereo video synthesis with a video diffusion model (arXiv 2505.00135). Covered by work michal-geyer--eye2eye (2026-10 update).",
       "link": "https://arxiv.org/abs/2505.00135",
       "found_via": "sijie-zhao",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "S²VG",
-      "why": "3D stereoscopic and spatial video generation via a denoising frame matrix (arXiv 2508.08048).",
+      "why": "3D stereoscopic and spatial video generation via a denoising frame matrix (arXiv 2508.08048). Covered by work peng-dai--s2vg (2026-10 update).",
       "link": "https://arxiv.org/abs/2508.08048",
       "found_via": "sijie-zhao",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "Immersity (Leia)",
-      "why": "2D-to-3D conversion platform for images, video and games on 3D displays and headsets (CES 2026).",
+      "why": "2D-to-3D conversion platform for images, video and games on 3D displays and headsets (CES 2026). Covered by work leia-inc--immersity (2026-10 update).",
       "link": "https://www.youtube.com/watch?v=17jYGizSh1c",
       "found_via": "seed",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "Google Flow",

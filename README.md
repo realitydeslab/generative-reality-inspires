@@ -15,7 +15,7 @@ Worlds generated while you act in them. A bilingual (English / 中文) survey of
   - Interactive World Models: general world models (Genie-like), neural game engines, world models for robots and driving, memory and consistency.
   - 3D Scene & World Generation: explorable 3D worlds, panoramas, layout and procedural scenes, photos to spatial scenes.
   - 3D Assets, Characters & Motion.
-  - Capture, Reconstruction & 4D: NeRF and Gaussian splatting, feed-forward reconstruction, dynamic 4D, generative 4D, volumetric video, capture tools.
+  - Capture, Reconstruction & 4D Generation: NeRF and Gaussian splatting, feed-forward reconstruction, dynamic 4D, volumetric video, capture tools, 4D object generation, 4D scene and world generation.
   - Agents & Simulated Societies: generative agents, agents in 3D worlds, NPC platforms.
   - Generative XR Experiences: in-situ co-creation, restyling reality, generative film and enactment, platform features.
   - Immersive Behavioral Research & Training: presence theory, VR social psychology, criminology, simulation training, clinical VR, generative AI in studies.

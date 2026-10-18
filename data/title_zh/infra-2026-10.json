@@ -1,0 +1,26 @@
+{
+ "meta--vr-glasses": {
+  "zh": "Meta VR 眼镜",
+  "src": "translated"
+ },
+ "google--playground-unity-spark": {
+  "zh": "Playground（含 Unity Spark）",
+  "src": "translated"
+ },
+ "artificial-analysis--speech-agent-arena": {
+  "zh": "语音智能体竞技场",
+  "src": "translated"
+ },
+ "rajmund-nagy--genea-challenge-2026": {
+  "zh": "GENEA 手势生成挑战赛 2026",
+  "src": "translated"
+ },
+ "tsai-shien-chen--panda-70m": {
+  "zh": "Panda-70M 视频字幕数据集",
+  "src": "translated"
+ },
+ "meta--embody-3d": {
+  "zh": "Embody 3D 动作与行为数据集",
+  "src": "translated"
+ }
+}

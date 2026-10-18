@@ -2132,8 +2132,9 @@
    "description_zh": "在 Meta Quest 上，佩戴者说出一个提示，就能看到自己房间的透视画面被实时视频模型当场改造；该应用在 SideQuest 上免费提供，并且开源。",
    "idea_en": "Real-time video-to-video turns any room into a prompt-selected world, but what you see stops matching what you touch.",
    "idea_zh": "实时视频到视频模型能把任何房间变成按提示选择的世界，但你看到的东西不再与你摸到的一致。",
-   "method": "Passthrough camera frames from QuestCameraKit are streamed to Decart's real-time video-to-video model, likely MirageLSD over WebRTC, and the restyled frames are rendered back into the headset.",
-   "method_zh": "通过 QuestCameraKit 获取透视摄像头画面，流式发送到 Decart 的实时视频到视频模型（很可能是经由 WebRTC 的 MirageLSD），再把重绘后的画面渲染回头显。",
+   "method": "Passthrough camera frames from QuestCameraKit are streamed over WebRTC to Decart's real-time video-to-video models and the restyled frames are rendered back into the headset; since July 2026 the app names them Lucy-Restyle-2 (renamed from Mirage, 61 world styles) and Lucy (15 person transformations).",
+   "method_zh": "通过 QuestCameraKit 获取透视摄像头画面，经 WebRTC 流式发送到 Decart 的实时视频到视频模型，再把重绘后的画面渲染回头显；自 2026 年 7 月起，应用中的模型名为 Lucy-Restyle-2（由 Mirage 更名，61 种世界风格）和 Lucy（15 种人物变换）。",
+   "specs": "720p · 30 fps · <200 ms latency (developer-reported)",
    "keywords": [
     "passthrough",
     "real-time video-to-video",
@@ -3012,8 +3013,8 @@
    "description_zh": "谷歌开源的 WebXR 框架，提供用户、世界、同伴、界面、上下文与智能体等即插即用模块，让 AI + XR 原型（Gemini 助手、场景理解）可以在 Chrome 和 Android XR 头显上运行。",
    "idea_en": "Lowers the cost of wiring perception, rendering and generative models together, the step most AI + XR prototypes stall on.",
    "idea_zh": "降低把感知、渲染与生成模型连在一起的成本，而这正是大多数 AI + XR 原型卡住的环节。",
-   "method": "A modular architecture built on WebXR, three.js, TensorFlow and Gemini, with templates, samples and demos; the foundation for Vibe Coding XR.",
-   "method_zh": "基于 WebXR、three.js、TensorFlow 与 Gemini 的模块化架构，附带模板、示例与演示，也是 Vibe Coding XR 的基础。",
+   "method": "A modular architecture built on WebXR, three.js, TensorFlow and Gemini, with templates, samples and demos; the foundation for Vibe Coding XR. Still under active development in October 2026 (v0.23.0, 2026-10-15), with a 3D scene editor and avatars added in v0.19.0.",
+   "method_zh": "基于 WebXR、three.js、TensorFlow 与 Gemini 的模块化架构，附带模板、示例与演示，也是 Vibe Coding XR 的基础。截至 2026 年 10 月仍在活跃开发（2026-10-15 发布 v0.23.0），v0.19.0 起加入三维场景编辑器与虚拟形象。",
    "keywords": [
     "WebXR",
     "Gemini",

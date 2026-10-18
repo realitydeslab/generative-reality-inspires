@@ -1242,8 +1242,8 @@
     "situational-reach"
    ],
    "kind": "platform",
-   "description": "World Labs' public API for its Marble world model: send text, one image, several images, a 360° panorama or a video, and get back a navigable 3D world that renders in the browser or exports to other tools. World Labs reports uses such as turning 2D films into explorable spaces (Escape.ai) and generating environments for robot simulators like Isaac Sim and MuJoCo.",
-   "description_zh": "World Labs 为 Marble 世界模型开放的公开 API：输入文字、一张或多张图片、360° 全景图或一段视频，就能得到可在浏览器中渲染、也可导出到其他工具的可漫游三维世界。World Labs 介绍的用例包括把二维电影变成可探索的空间（Escape.ai），以及为 Isaac Sim、MuJoCo 等机器人仿真器生成环境。",
+   "description": "World Labs' public API for its Marble world model: send text, one image, several images, a 360° panorama or a video, and get back a navigable 3D world that renders in the browser or exports to other tools. World Labs reports uses such as turning 2D films into explorable spaces (Escape.ai) and generating environments for robot simulators like Isaac Sim and MuJoCo. On 2026-09-28 World Labs signed an agreement to join AMD, expected to close by the end of 2026.",
+   "description_zh": "World Labs 为 Marble 世界模型开放的公开 API：输入文字、一张或多张图片、360° 全景图或一段视频，就能得到可在浏览器中渲染、也可导出到其他工具的可漫游三维世界。World Labs 介绍的用例包括把二维电影变成可探索的空间（Escape.ai），以及为 Isaac Sim、MuJoCo 等机器人仿真器生成环境。2026-09-28，World Labs 签署协议并入 AMD，交易预计于 2026 年底前完成。",
    "idea_en": "Turns 'build the room' into an API call that returns an explicit 3D world, so a lab can generate many variants of a setting and then keep each one fixed for every participant.",
    "idea_zh": "把“搭建房间”变成一次返回显式三维世界的 API 调用：实验室可以生成同一场景的多种变体，再让每位被试面对完全相同的版本。",
    "method": "Asynchronous world-generation requests run Marble, which lifts the inputs into a 3D Gaussian-splat scene with optional mesh export.",
@@ -1784,8 +1784,8 @@
     "authoring"
    ],
    "kind": "platform",
-   "description": "Unity's AI tooling for its engine: an agentic in-editor assistant that reads the open scene and performs editor actions, an AI gateway, an MCP server and CLI, and official plugins for Claude Code, Codex and Grok. The Unity AI open beta opened to all Unity 6+ developers on 2026-05-04; Unity has since retired the 'Unity AI' brand name, and on 2026-10-07 Unity announced Unity Spark, a no-code, prompt-driven game maker, as a closed beta.",
-   "description_zh": "Unity 为自家引擎提供的 AI 工具：能读取当前场景并执行编辑器操作的智能体助手、AI 网关、MCP 服务器与命令行工具，以及面向 Claude Code、Codex 和 Grok 的官方插件。Unity AI 公开测试于 2026-05-04 向所有 Unity 6 及以上版本开发者开放；此后 Unity 不再使用“Unity AI”这一品牌名，并于 2026-10-07 宣布推出无需写代码、用提示词做游戏的 Unity Spark（封闭测试）。",
+   "description": "Unity's AI tooling for its engine: an agentic in-editor assistant that reads the open scene and performs editor actions, an AI gateway, an MCP server and CLI, and official plugins for Claude Code, Codex and Grok. The Unity AI open beta opened to all Unity 6+ developers on 2026-05-04; Unity has since retired the 'Unity AI' brand name, and on 2026-10-07 Unity and Google announced Unity Spark, a no-code, prompt-driven game maker coming to Google's Playground later in 2026 (waitlist only as of October 2026). Unity 7, announced on 2026-07-21 with a free MCP server for coding agents, enters beta in December 2026, with full release planned for Q1 2027.",
+   "description_zh": "Unity 为自家引擎提供的 AI 工具：能读取当前场景并执行编辑器操作的智能体助手、AI 网关、MCP 服务器与命令行工具，以及面向 Claude Code、Codex 和 Grok 的官方插件。Unity AI 公开测试于 2026-05-04 向所有 Unity 6 及以上版本开发者开放；此后 Unity 不再使用“Unity AI”这一品牌名，并于 2026-10-07 与 Google 共同宣布无需写代码、用提示词做游戏的 Unity Spark，将在 2026 年晚些时候接入 Google 的 Playground（截至 2026 年 10 月仅开放候补名单）。2026-07-21 公布的 Unity 7 将为编程智能体提供免费的 MCP 服务器，计划 2026 年 12 月进入测试，2027 年第一季度正式发布。",
    "idea_en": "When an agent can edit the scene graph directly, a scenario script and its 3D implementation can be revised in the same conversation.",
    "idea_zh": "当智能体可以直接修改场景图时，情境脚本与它的三维实现就能在同一段对话中一起修改。",
    "method": "An LLM agent with Unity-specific tools and project context (scene hierarchy, components, assets) issues Editor commands; external agents connect through MCP via the Unity CLI.",
@@ -1840,13 +1840,13 @@
     "control"
    ],
    "kind": "platform",
-   "description": "Epic's real-time engine behind many high-fidelity VR studies and virtual-production stages, with Nanite geometry, Lumen lighting and MetaHuman digital humans. Unreal Engine 5.8 (2026-06-23) added MetaHuman Collections for crowds of hundreds, full-body markerless MetaHuman capture from a webcam, open-source OpenRigLogic (MIT) and an experimental MCP plugin that lets any LLM inspect and drive the editor.",
-   "description_zh": "Epic 的实时引擎，许多高保真 VR 研究与虚拟制片舞台都用它，具备 Nanite 几何、Lumen 光照与 MetaHuman 数字人。Unreal Engine 5.8（2026-06-23）加入了可生成数百人群的 MetaHuman Collections、用网络摄像头即可完成的全身无标记 MetaHuman 动捕、以 MIT 许可开源的 OpenRigLogic，以及一个实验性 MCP 插件，让任意大语言模型都能查看并操控编辑器。",
+   "description": "Epic's real-time engine behind many high-fidelity VR studies and virtual-production stages, with Nanite geometry, Lumen lighting and MetaHuman digital humans. Unreal Engine 5.8 (2026-06-17) added MetaHuman Collections for crowds of hundreds, full-body markerless MetaHuman capture from a webcam, open-source OpenRigLogic (MIT) and an experimental MCP plugin that lets any LLM inspect and drive the editor.",
+   "description_zh": "Epic 的实时引擎，许多高保真 VR 研究与虚拟制片舞台都用它，具备 Nanite 几何、Lumen 光照与 MetaHuman 数字人。Unreal Engine 5.8（2026-06-17）加入了可生成数百人群的 MetaHuman Collections、用网络摄像头即可完成的全身无标记 MetaHuman 动捕、以 MIT 许可开源的 OpenRigLogic，以及一个实验性 MCP 插件，让任意大语言模型都能查看并操控编辑器。",
    "idea_en": "Gives generated content a photoreal, deterministic runtime: the generative layer can sit in MetaHumans and scripts while the engine keeps timing and logging exact.",
    "idea_zh": "为生成内容提供照片级、可确定复现的运行环境：生成层可以放在 MetaHuman 与脚本里，时序与日志则由引擎精确保证。",
    "method": "C++ engine with Blueprint visual scripting; Nanite virtualized geometry and Lumen global illumination render in real time, and MetaHuman tools rig and animate scanned or generated characters.",
    "method_zh": "C++ 引擎，配有 Blueprint 可视化脚本；Nanite 虚拟化几何与 Lumen 全局光照实时渲染，MetaHuman 工具为扫描或生成的角色绑定骨骼并驱动动画。",
-   "specs": "UE 5.0 released 2022-04-05 · UE 5.8 released 2026-06-23 · free, 5% royalty above $1M gross for games",
+   "specs": "UE 5.0 released 2022-04-05 · UE 5.8 released 2026-06-17 · free, 5% royalty above $1M gross for games",
    "keywords": [
     "game engine",
     "MetaHuman",
@@ -2356,8 +2356,8 @@
     "situational-reach"
    ],
    "kind": "device",
-   "description": "Apple's mixed-reality headset, upgraded on 2025-10-15 with the M5 chip, refresh rates up to 120 Hz and the Dual Knit Band, at $3,499. For generated content it ships visionOS 26 Spatial Scenes (generative depth that makes a 2D photo explorable), Personas for video calls, 180° / 360° and wide-FOV video playback, and Apple Immersive video.",
-   "description_zh": "Apple 的混合现实头显，2025-10-15 升级为 M5 芯片，刷新率最高 120 Hz，配 Dual Knit 头带，售价 3,499 美元。在生成内容方面，它搭载 visionOS 26 的空间场景（用生成式深度让二维照片可被探索）、用于视频通话的 Persona、180° / 360° 与广角视频播放，以及 Apple Immersive 视频。",
+   "description": "Apple's mixed-reality headset, upgraded on 2025-10-15 with the M5 chip, refresh rates up to 120 Hz and the Dual Knit Band, at $3,499. For generated content it ships visionOS 26 Spatial Scenes (generative depth that makes a 2D photo explorable), Personas for video calls, 180° / 360° and wide-FOV video playback, and Apple Immersive video. visionOS 27, previewed at WWDC on 2026-06-08 for a fall 2026 release, lets users turn panoramas into spatial scenes and use them as Environments.",
+   "description_zh": "Apple 的混合现实头显，2025-10-15 升级为 M5 芯片，刷新率最高 120 Hz，配 Dual Knit 头带，售价 3,499 美元。在生成内容方面，它搭载 visionOS 26 的空间场景（用生成式深度让二维照片可被探索）、用于视频通话的 Persona、180° / 360° 与广角视频播放，以及 Apple Immersive 视频。在 2026-06-08 的 WWDC 上预览、于 2026 年秋季推出的 visionOS 27，可以把全景照片变成空间场景并用作环境（Environments）。",
    "idea_en": "The highest-fidelity mainstream display for generated scenes and video, with eye and hand tracking built in, at a price that limits lab fleets.",
    "idea_zh": "展示生成场景与视频保真度最高的主流设备，内置眼动与手势追踪，但价格限制了实验室的采购数量。",
    "method": "Dual micro-OLED displays (23 million pixels in total) driven by M5 together with the R1 sensor chip, with eye, hand and room tracking.",
@@ -2509,13 +2509,13 @@
     "reactivity"
    ],
    "kind": "device",
-   "description": "Snap's standalone see-through AR glasses for consumers, announced on 2025-06-10 for 2026 and launched at the SPECS event on 2026-09-16: pre-orders at $2,195 ($2,395 with a cellular case), shipping later in fall 2026 in the US, UK and France. They run SPECS OS with Lens Studio apps, including generative AI Lenses, and SPECS Intelligence, an anticipatory AI service across iPhone, Mac and the glasses.",
-   "description_zh": "Snap 面向消费者的一体式光学透视 AR 眼镜，2025-06-10 宣布将于 2026 年推出，并在 2026-09-16 的 SPECS 发布会上正式亮相：预订价 2,195 美元（带蜂窝网络充电盒套装 2,395 美元），2026 年秋季晚些时候在美国、英国和法国发货。它运行 SPECS OS 与 Lens Studio 开发的应用（包括生成式 AI 滤镜），并搭载横跨 iPhone、Mac 与眼镜的预判式 AI 服务 SPECS Intelligence。",
+   "description": "Snap's standalone see-through AR glasses for consumers, announced on 2025-06-10 for 2026, opened for pre-order at $2,195 at AWE on 2026-06-16 and launched at the SPECS event on 2026-09-16 ($2,395 with a cellular case), shipping later in fall 2026 in the US, UK and France. They run SPECS OS with Lens Studio apps, including generative AI Lenses, and SPECS Intelligence, an anticipatory AI service across iPhone, Mac and the glasses.",
+   "description_zh": "Snap 面向消费者的一体式光学透视 AR 眼镜，2025-06-10 宣布将于 2026 年推出，2026-06-16 在 AWE 上开放预订（2,195 美元），并在 2026-09-16 的 SPECS 发布会上正式亮相（带蜂窝网络充电盒套装 2,395 美元），2026 年秋季晚些时候在美国、英国和法国发货。它运行 SPECS OS 与 Lens Studio 开发的应用（包括生成式 AI 滤镜），并搭载横跨 iPhone、Mac 与眼镜的预判式 AI 服务 SPECS Intelligence。",
    "idea_en": "Untethered AR glasses that place generated content in the wearer's real surroundings, from a company that already runs generative Lenses at phone scale.",
    "idea_zh": "无需连线的 AR 眼镜，把生成内容放进佩戴者的真实环境；出品方已经在手机端大规模运行生成式滤镜。",
    "method": "On-glasses compute with no puck, see-through waveguide displays, hand and voice input, with Lens Studio as the authoring tool and cloud AI services.",
    "method_zh": "计算单元集成在眼镜上，无需外接计算盒，采用光学透视波导显示，支持手势与语音输入；以 Lens Studio 为创作工具，并调用云端 AI 服务。",
-   "specs": "pre-order $2,195 (from 2026-09-16) · ships fall 2026 (US, UK, France) · standalone, no puck",
+   "specs": "51° FOV · pre-order $2,195 (from 2026-06-16) · ships fall 2026 (US, UK, France) · standalone, no puck",
    "keywords": [
     "AR glasses",
     "Lens Studio",
@@ -2559,8 +2559,8 @@
     "responsiveness"
    ],
    "kind": "device",
-   "description": "Meta's first consumer glasses with a built-in display: a monocular full-color in-lens display in Ray-Ban frames, controlled by the Meta Neural Band EMG wristband, for $799. For generated content it shows Meta AI answers with visuals, live captions and translation, and navigation in the wearer's view.",
-   "description_zh": "Meta 首款内置显示屏的消费级眼镜：Ray-Ban 镜框中带一块单眼全彩镜片内显示，由 Meta Neural Band 肌电腕带操控，售价 799 美元。在生成内容方面，它可以在佩戴者视野中显示带图像的 Meta AI 回答、实时字幕与翻译，以及导航。",
+   "description": "Meta's first consumer glasses with a built-in display: a monocular full-color in-lens display in Ray-Ban frames, controlled by the Meta Neural Band EMG wristband, for $799. For generated content it shows Meta AI answers with visuals, live captions and translation, and navigation in the wearer's view. At Connect on 2026-09-23 Meta added online ordering, sales in the UK, Canada, France, Italy and Germany, and an early-access, voice-driven photoreal 'Hologram' of the wearer's face for WhatsApp calls.",
+   "description_zh": "Meta 首款内置显示屏的消费级眼镜：Ray-Ban 镜框中带一块单眼全彩镜片内显示，由 Meta Neural Band 肌电腕带操控，售价 799 美元。在生成内容方面，它可以在佩戴者视野中显示带图像的 Meta AI 回答、实时字幕与翻译，以及导航。2026-09-23 的 Connect 大会上，Meta 开放了线上订购，新增英国、加拿大、法国、意大利与德国市场，并推出抢先体验的“Hologram”：在 WhatsApp 通话中用语音驱动佩戴者照片级真实的面部形象。",
    "idea_en": "A heads-up channel for generated text and images during everyday activity; not an immersive display, but an always-available one.",
    "idea_zh": "在日常活动中显示生成文字与图像的抬头通道：它不是沉浸式显示，却随时可用。",
    "method": "A projector and waveguide in the right lens, camera and microphones on the frame, and surface-EMG decoding of finger gestures at the wrist.",
@@ -3228,10 +3228,10 @@
   },
   {
    "name": "Runway Characters (real-time conversational avatars via API)",
-   "why": "Real-time avatar product inside Runway Dev; belongs to avatars.",
+   "why": "Real-time avatar product inside Runway Dev; belongs to avatars. Covered by work runway--runway-api (2026-10 update).",
    "link": "https://runwayml.com/api",
    "found_via": "runway",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "Meshy API",
@@ -3270,10 +3270,10 @@
   },
   {
    "name": "Panda-70M video dataset",
-   "why": "70M captioned clips (CVPR 2024), widely used for video pretraining; candidate for benchmarks next round.",
+   "why": "70M captioned clips (CVPR 2024), widely used for video pretraining; candidate for benchmarks next round. Covered by work tsai-shien-chen--panda-70m (2026-10 update).",
    "link": "https://arxiv.org/abs/2402.19479",
    "found_via": "seed",
-   "status": "open"
+   "status": "duplicate"
   }
  ]
 }

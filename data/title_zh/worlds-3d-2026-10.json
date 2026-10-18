@@ -1,0 +1,26 @@
+{
+ "amap--abot-earth": {
+  "zh": "高德 ABot-Earth 生成式三维地球",
+  "src": "translated"
+ },
+ "jiahao-lu--gae": {
+  "zh": "GAE：几何原生自编码器",
+  "src": "translated"
+ },
+ "manycore--spatialgen": {
+  "zh": "SpatialGen：布局引导的三维室内场景生成",
+  "src": "translated"
+ },
+ "rafail-fridman--scenescape": {
+  "zh": "SceneScape：文本驱动的一致场景生成",
+  "src": "translated"
+ },
+ "muyao-niu--worldsculpt": {
+  "zh": "WorldSculpt：由视频生成可组合的世界",
+  "src": "translated"
+ },
+ "horizon-robotics--embodiedgen-v2": {
+  "zh": "地平线 EmbodiedGen V2",
+  "src": "translated"
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "sherwin-bahmani--4d-fy": {
+  "zh": "4D-fy 文本生成 4D",
+  "src": "translated"
+ },
+ "huan-ling--align-your-gaussians": {
+  "zh": "Align Your Gaussians 动态高斯文本生成 4D",
+  "src": "translated"
+ },
+ "tianyuan-zhang--physdreamer": {
+  "zh": "PhysDreamer 基于物理的三维物体交互",
+  "src": "translated"
+ },
+ "yanqin-jiang--animate3d": {
+  "zh": "Animate3D 为任意三维模型生成动画",
+  "src": "translated"
+ },
+ "zijie-wu--animateanymesh": {
+  "zh": "AnimateAnyMesh 文本驱动的网格动画",
+  "src": "translated"
+ },
+ "bowen-zhang--gvfdiffusion": {
+  "zh": "高斯变化场扩散（GVFDiffusion）视频生成 4D",
+  "src": "translated"
+ },
+ "remy-sabathier--actionmesh": {
+  "zh": "ActionMesh 动画三维网格生成",
+  "src": "translated"
+ },
+ "zijie-wu--r-dmesh": {
+  "zh": "R-DMesh 视频引导的三维动画",
+  "src": "translated"
+ },
+ "yehonathan-litman--lift4d": {
+  "zh": "Lift4D 野外单目视频 4D 重建与补全",
+  "src": "translated"
+ },
+ "yudong-jin--4danyone": {
+  "zh": "4DAnyone 单目视频生成 4D 人体",
+  "src": "translated"
+ },
+ "daniel-watson--4dim": {
+  "zh": "4DiM 用扩散模型控制空间与时间",
+  "src": "translated"
+ },
+ "wenqiang-sun--dimensionx": {
+  "zh": "DimensionX 单图生成三维与 4D 场景",
+  "src": "translated"
+ },
+ "haozhe-xie--citydreamer4d": {
+  "zh": "CityDreamer4D 无边界 4D 城市生成",
+  "src": "translated"
+ },
+ "haoyi-zhu--aether": {
+  "zh": "Aether 几何感知的统一世界模型",
+  "src": "translated"
+ },
+ "tianqi-liu--free4d": {
+  "zh": "Free4D 免训练 4D 场景生成",
+  "src": "translated"
+ },
+ "zizhang-li--wonderplay": {
+  "zh": "WonderPlay 由单图与动作生成动态三维场景",
+  "src": "translated"
+ },
+ "chaoyang-wang--4real-video-v2": {
+  "zh": "4Real-Video-V2 4D 场景生成",
+  "src": "translated"
+ },
+ "yuxue-yang--neoverse": {
+  "zh": "NeoVerse 基于真实单目视频的 4D 世界模型",
+  "src": "translated"
+ },
+ "inspatio--inspatio-world": {
+  "zh": "InSpatio-World 实时 4D 世界模拟器",
+  "src": "translated"
+ },
+ "you-zhe-xie--ouroworld": {
+  "zh": "OuroWorld 让三维世界变成循环动态照片",
+  "src": "translated"
+ }
+}

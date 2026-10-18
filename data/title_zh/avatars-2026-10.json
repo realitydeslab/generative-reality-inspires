@@ -1,0 +1,62 @@
+{
+ "meta--hologram": {
+  "zh": "Hologram 全息人像（Meta Ray-Ban Display / Meta VR Glasses）",
+  "src": "translated"
+ },
+ "kim-youwang--fica": {
+  "zh": "FiCA：从单张人像前馈即时生成高斯 Codec Avatars",
+  "src": "translated"
+ },
+ "yu-zhang-ecnu--embodiedhead": {
+  "zh": "EmbodiedHead：面向对话智能体的实时倾听与说话头像",
+  "src": "translated"
+ },
+ "kartik-teotia--steer": {
+  "zh": "STEER：可调控的双人对话头部化身",
+  "src": "translated"
+ },
+ "zikai-liao--glare": {
+  "zh": "GLARE：生成做出恰当反应的倾听头像",
+  "src": "translated"
+ },
+ "chengqian-ma--motion-omni": {
+  "zh": "Motion-Omni：端到端联合生成语音与全身动作的语音对话模型",
+  "src": "translated"
+ },
+ "jingjing-jiang--moshi-face": {
+  "zh": "Moshi-Face：把面部生成接入全双工语音对话系统",
+  "src": "translated"
+ },
+ "koji-inoue--listening-ai-clone": {
+  "zh": "倾听重要吗？AI 分身中的附和与点头",
+  "src": "translated"
+ },
+ "bytedance-seed--flowact-r2": {
+  "zh": "FlowAct-R2：基于流式多模态参考与主动式智能体规划的交互数字人",
+  "src": "translated"
+ },
+ "cong-wei--mocha": {
+  "zh": "MoCha：迈向电影级说话角色生成",
+  "src": "translated"
+ },
+ "alibaba-tongyi--lhm": {
+  "zh": "LHM：数秒内从单张图像重建可动画人体",
+  "src": "translated"
+ },
+ "chong-bao--archon": {
+  "zh": "Archon：面向完整数字人生成的统一多模态模型",
+  "src": "translated"
+ },
+ "usc-ict--open-vhtoolkit": {
+  "zh": "开放虚拟人工具包（Virtual Human Toolkit，2026）",
+  "src": "translated"
+ },
+ "siyin-wang--ellsa-2": {
+  "zh": "ELLSA 2：语音、表情与手势的全双工交互",
+  "src": "translated"
+ },
+ "ziyi-liu--agenthands": {
+  "zh": "AgentHands：为 XR 中空间锚定的智能体对话生成交互式手势",
+  "src": "translated"
+ }
+}

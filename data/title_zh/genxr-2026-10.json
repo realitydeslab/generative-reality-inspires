@@ -1,0 +1,42 @@
+{
+ "jianan-jiang--partinteractor": {
+  "zh": "PartInteractor：面向 XR 持续共创的意图驱动、部件感知三维创作",
+  "src": "translated"
+ },
+ "atlantic-studios--galapagos-last-eden": {
+  "zh": "加拉帕戈斯：最后的伊甸园",
+  "src": "translated"
+ },
+ "esen-tutuncu--playwrite": {
+  "zh": "PlayWrite：在 XR 中通过“玩”与 AI 共写故事",
+  "src": "translated"
+ },
+ "keiichi-ihara--memorydiorama": {
+  "zh": "MemoryDiorama：把日常照片变成动态三维模型，帮助唤起记忆",
+  "src": "translated"
+ },
+ "weiwei-jiang--cogen3d": {
+  "zh": "CoGen3D：为虚拟现实生成三维资产的人机协同设计智能体流程",
+  "src": "translated"
+ },
+ "muzhe-wu--generative-tutorial": {
+  "zh": "生成式教程：为现实任务实时生成贴合情境的可视化指导",
+  "src": "translated"
+ },
+ "meta--horizon-worlds-llm-npcs": {
+  "zh": "Meta Horizon Worlds 具身大语言模型 NPC",
+  "src": "translated"
+ },
+ "yanni-mei--shadar": {
+  "zh": "ShadAR：在增强现实中用提示实时改写视觉",
+  "src": "translated"
+ },
+ "tareq-alsaleh--xara": {
+  "zh": "XARA：生成扩展现实实验的多模态智能体系统",
+  "src": "translated"
+ },
+ "xianhao-carton-liu--generative-proxy": {
+  "zh": "Generative Proxy：为 AR 眼镜合成用于现实世界交互的代理式界面",
+  "src": "translated"
+ }
+}

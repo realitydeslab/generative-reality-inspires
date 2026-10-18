@@ -2,7 +2,7 @@
 
 生成式沉浸技术目录：可以用来生成并进入情境的模型、产品、API、研究演示、研究与设备。领域包括：视频生成、交互式虚拟人、语音与空间音频、交互式世界模型、三维场景与世界生成、三维资产与动作、捕捉/重建与 4D、智能体与模拟社会、生成式扩展现实体验、沉浸式行为研究与训练，以及平台/API/交付。每个条目都列出核心想法、实现方式、输入、输出、时序（预先生成、回合制、实时、全双工、脚本驱动）与获取方式（开源权重、API、产品、候补、仅研究），并附视频、论文和官方页面链接。由 Reality Design Lab 整理，是一项面向行为科学的生成式沉浸研究议程背后持续更新的综述。技术能力以开发者公布为准。
 
-https://generative.reality.design · 2026-10-17 · 318 个机构与创作者 · 508 个条目
+https://generative.reality.design · 2026-10-18 · 461 个机构与创作者 · 714 个条目
 
 ## AI 助手应如何使用这个文件
 
@@ -19,29 +19,55 @@ https://generative.reality.design · 2026-10-17 · 318 个机构与创作者 · 
 
 闭源旗舰模型（Sora、Veo、可灵、Runway、Luma、海螺、Seedance……），许多已能同时生成声音。
 
+#### Vidu Q4 Preview — 生数科技（Vidu） (2026-10-07)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 候补 / 抢先体验, 产品 / 应用
+- 输入: 文字提示, 图像, 语音与音频 → 输出: 平面视频, 语音 / 声音, 音效、音乐与空间音频
+- 核心想法: 除了参考图像还有参考音频：情境中的角色可以在多个生成镜头里保持同一张脸和同一种声音。
+- 内容: Vidu Q4 Preview（2026-10-07）是生数科技下一代旗舰音视频模型的公开预览版，重点在角色表演：面部表情、肢体动作与声音一同生成，可用最多 15 张参考图和 3 段参考音频来约束，输出 2K 或 4K、10 bit 色深。
+- 实现方式: 以多张参考图与多段参考音频为条件的音视频联合生成（架构未公开）。
+- 参数: 2K / 4K · 10-bit · up to 15 image + 3 audio references · from $0.014/s (launch price)
+- 能力维度: 行为似真性, 感知真实感, 实验控制
+- 视频: https://www.youtube.com/watch?v=jJcbxCDRRaw
+- 图片: https://mmx.prnewswire.com/media/MS2004200/20261007094159EDT_image_1.jpg?id=OA2992270&p=facebook
+- 项目主页: https://www.prnewswire.com/news-releases/vidu-launches-q4-preview-making-flagship-ai-video-creation-accessible-to-everyone-302901266.html
+- API 文档: https://platform.vidu.com/
+
 #### 可灵 4.0（Kling 4.0） — 快手 / 可灵 (2026-09-28)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用
 - 输入: 文字提示, 图像, 视频 → 输出: 平面视频, 语音 / 声音, 音效、音乐与空间音频
 - 核心想法: 30 秒的长镜头可以在一个连续镜头里容纳一段完整的短互动（接近、交流、反应）。
-- 内容: 可灵 4.0 于 2026-09-28 推出（Flash 版先向高阶订阅用户开放），单次生成延长到约 30 秒，支持关键帧控制和立体声；据报道于 2026-10-16 全面推出，截至 2026 年 10 月中旬已在 kling.ai 上线。
+- 内容: 可灵 4.0 于 2026-09-28 推出（可灵 4.0 Flash 先向部分用户开放），单次生成延长到 30 秒，支持最多 10 个关键帧、1080p 与 4K 下的 10 bit HDR 以及双声道立体声；可灵于 2026-10-16 宣布其已在 kling.ai 全面开放。截至 2026-10-17，尚未公布可灵 4.0 的 API 模型。
 - 实现方式: 可灵新一代模型；据报道每段最多可用 10 张关键帧图像并输出最高 4K；架构未公开。
-- 参数: ~30 s per generation · up to 10 keyframes · up to 4K (reported)
+- 参数: 3–30 s per generation · up to 10 keyframes · 720p / 1080p / 4K · 10-bit HDR · stereo audio
 - 能力维度: 持久性, 实验控制, 感知真实感
 - 视频: https://www.youtube.com/watch?v=nlM7kL3kv_Y
-- 项目主页: https://kling.ai/
+- 项目主页: https://kling.ai/blog/kling-4-vs-3
 
 #### 通义万相 3.0（Wan 3.0） — 阿里通义 (2026-08-06)
-- 类型: 模型 · 时序: 预先生成 · 获取方式: 候补 / 抢先体验, 公开 API
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 公开 API
 - 输入: 文字提示, 图像, 视频 → 输出: 平面视频, 语音 / 声音, 音效、音乐与空间音频
 - 核心想法: 就连最重要的开源视频团队也开始把最新旗舰闭源，开源的 Wan 模型因此落后一代。
-- 内容: 通义万相 Wan 3.0 于 2026-08-06 在阿里云开启公测；与开源的 Wan 2.1、2.2 不同，它闭源、仅提供 API，可在一个提示中同时接收文本、图像、视频和音频。此前 Wan 2.5（2025 年 9 月）和 Wan 2.6（2025 年 12 月）已加入原生音频与参考角色功能。
+- 内容: 通义万相 Wan 3.0 于 2026-08-06 在阿里云开启公测，8 月下旬已在百炼正式提供，并自 2026-08-20 起提供更快的 wan3.0-video-prime 版本；与开源的 Wan 2.1、2.2 不同，它闭源、仅提供 API，可在一个提示中同时接收文本、图像、视频和音频。此前 Wan 2.5（2025 年 9 月）和 Wan 2.6（2025 年 12 月）已加入原生音频与参考角色功能。
 - 实现方式: 通过阿里云百炼提供服务的多模态音视频生成模型；截至 2026 年 10 月，架构与权重均未公开。
 - 参数: up to 30 s · 1080p (reported)
 - 能力维度: 持久性, 创作可及性, 实验控制
 - 视频: https://www.youtube.com/watch?v=dC5pu8zL2p8
 - 图片: https://img.alicdn.com/imgextra/i1/O1CN01WlNesT1EWvfm8mzKw_!!6000000000360-2-tps-600-315.png
 - 项目主页: https://wan.video/
-- API 文档: https://www.alibabacloud.com/help/en/model-studio/
+- API 文档: https://www.alibabacloud.com/help/en/model-studio/video-generation
+
+#### Grok Imagine Video 1.5 — xAI (SpaceXSI) (2026-06-03)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用, 公开 API
+- 输入: 图像, 文字提示, 语音与音频 → 输出: 平面视频, 音效、音乐与空间音频
+- 核心想法: 前沿视频模型同时通过聊天应用和开发者 API 提供：生成速度正与画质一样成为主要指标。
+- 内容: Grok Imagine Video 1.5 是 xAI 的图生视频模型，提供于 Grok 应用中，并自 2026-06-03 起以 grok-imagine-video-1.5-preview 进入 xAI API：根据描述运镜、节奏与声音的提示让一张静态画面动起来，最高 720p，每段约 25 秒生成。2026-08-07 又推出支持文字、图像与声音参考、可输出 1080p 的版本。
+- 实现方式: 闭源图生视频模型，可用提示控制镜头、运动与声音（架构未公开）。
+- 参数: 720p in ~25 s (claimed) · up to 10 s per API call · references version: up to 1080p
+- 能力维度: 感知真实感, 创作可及性
+- 视频: https://www.youtube.com/watch?v=SIfDV2JjLL4
+- 图片: https://media.x.ai/v1/website/grok-imagine-1-5-og-342e9fa3.webp
+- 项目主页: https://x.ai/news/grok-imagine-1-5
+- API 文档: https://docs.x.ai/docs/guides/video-generations
 
 #### Gemini Omni — 谷歌 DeepMind (2026-05-19)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用, 公开 API
@@ -54,6 +80,31 @@ https://generative.reality.design · 2026-10-17 · 318 个机构与创作者 · 
 - 视频: https://www.youtube.com/watch?v=KUyRq7szZsM
 - 项目主页: https://deepmind.google/models/gemini-omni/
 - API 文档: https://ai.google.dev/gemini-api/docs/video
+
+#### HappyHorse — Alibaba Token Hub (ATH) (2026-04-21)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 公开 API
+- 输入: 文字提示, 图像, 视频 → 输出: 平面视频, 语音 / 声音, 音效、音乐与空间音频
+- 核心想法: 匿名登榜说明前沿变化之快：阿里另一支团队未经发布的模型，在人类偏好评测中胜过了老牌视频模型。
+- 内容: HappyHorse 是阿里巴巴的音视频模型，2026 年 4 月先以匿名身份出现在 Artificial Analysis 视频竞技场，据媒体报道一度排名第一，之后阿里巴巴 ATH 集团才认领。HappyHorse 1.0 于 2026-04-21 登陆百炼 API（文生、图生、参考生视频及视频编辑），HappyHorse 1.1 于 2026-06-16 推出；两者都能一次生成最长 15 秒、带声音的 1080p 视频。
+- 实现方式: 据社区整理的资料，是一个对文本、图像、视频与音频 token 统一做自注意力的 150 亿参数 Transformer（未经阿里论文证实）。
+- 参数: up to 15 s · 1080p · native audio · 1.0 API 2026-04-21 · 1.1 API 2026-06-16
+- 能力维度: 感知真实感, 行为似真性
+- 视频: https://www.youtube.com/watch?v=65EBGlhn-lQ
+- 项目主页: https://www.alibabacloud.com/help/en/model-studio/newly-released-models
+- API 文档: https://www.alibabacloud.com/help/en/model-studio/video-generation
+
+#### PixVerse V6 — 爱诗科技 PixVerse (2026-03-30)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用, 公开 API
+- 输入: 文字提示, 图像 → 输出: 平面视频, 音效、音乐与空间音频, 语音 / 声音
+- 核心想法: 智能体现在可以在命令行里直接生成带声音的多镜头成片，情境的多个变体无需剪辑即可批量产出。
+- 内容: PixVerse V6（2026-03-30）是 PixVerse 应用的旗舰视频模型：一条提示即可生成最长 15 秒、1080p、带原生音频的多镜头短片，并在镜头切换间保持角色情绪一致；它还可以通过命令行工具由编程智能体调用。
+- 实现方式: 闭源音视频联合生成模型，支持多镜头规划（架构未公开）。
+- 参数: up to 15 s · 1080p · native audio · multi-shot
+- 能力维度: 创作可及性, 感知真实感
+- 视频: https://www.youtube.com/watch?v=m-qRU0SY8NQ
+- 图片: https://media.pixverse.ai/asset/blog/pixverse-v6-launch-press-release-cover-20260330.webp?x-oss-process=style/cover-webp-large
+- 项目主页: https://pixverse.ai/en/blog/pixverse-launches-v6-advancing-ai-video-generation
+- API 文档: https://platform.pixverse.ai/
 
 #### Seedance 2.0 — 字节跳动 Seed (2026-02-12)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用, 公开 API
@@ -107,7 +158,7 @@ https://generative.reality.design · 2026-10-17 · 318 个机构与创作者 · 
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 公开 API, 产品 / 应用
 - 输入: 文字提示, 图像 → 输出: 平面视频, 语音 / 声音, 音效、音乐与空间音频
 - 核心想法: 参考图和首尾帧让研究者能在多个片段中固定同一角色与场景，是迈向可控刺激材料集的第一步。
-- 内容: Veo 3.1（2025-10-15）在 Veo 3 基础上带来更丰富的原生音频和更好的提示遵循，并在 Flow 与 Gemini API 中提供“素材生成视频”（参考图）、首尾帧过渡，以及延展到一分钟以上的场景扩展。
+- 内容: Veo 3.1（2025-10-15）在 Veo 3 基础上带来更丰富的原生音频和更好的提示遵循，并在 Flow 与 Gemini API 中提供“素材生成视频”（参考图）、首尾帧过渡，以及延展到一分钟以上的场景扩展。更便宜的 Veo 3.1 Lite 于 2026-03-31 进入预览；Google 将于 2026-10-22 关闭 Gemini API 中的 Veo 3.1 预览端点，改由 gemini-omni-1.1-flash 取代，而 Vertex AI 上正式版 veo-3.1-generate-001 至少支持到 2026-11-17。
 - 实现方式: Veo 3 的后继版本，支持参考图条件、首尾帧插值，以及从上一段最后一秒接着生成的片段延展。
 - 参数: 8 s per clip · extend to 60 s+ · 720p / 1080p · native audio
 - 能力维度: 实验控制, 感知真实感, 创作可及性
@@ -188,10 +239,10 @@ https://generative.reality.design · 2026-10-17 · 318 个机构与创作者 · 
 - 项目主页: https://seed.bytedance.com/en/seedance
 
 #### Veo 3 — 谷歌 DeepMind (2025-05-20)
-- 类型: 模型 · 时序: 预先生成 · 获取方式: 公开 API, 产品 / 应用
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用
 - 输入: 文字提示, 图像 → 输出: 平面视频, 语音 / 声音, 音效、音乐与空间音频
 - 核心想法: 声音与口型同步的语音随画面一起生成，生成场景因此能承载社交互动，而不只是一段画面。
-- 内容: Veo 3（2025-05-20 Google I/O）可一次生成视频及对白、音效和环境声，使生成场景里“会说话的角色”变得普遍；DeepMind 2025 年 9 月的论文称它能零样本完成感知与物理类任务。
+- 内容: Veo 3（2025-05-20 Google I/O）可一次生成视频及对白、音效和环境声，使生成场景里“会说话的角色”变得普遍；DeepMind 2025 年 9 月的论文称它能零样本完成感知与物理类任务。其 veo-3.0 API 端点已于 2026-06-30 在 Gemini API 与 Vertex AI 上关闭，由 Veo 3.1 取代。
 - 实现方式: 音视频联合扩散模型；论文《Video models are zero-shot learners and reasoners》仅靠提示就用 62 类任务对其进行测试。
 - 参数: 8 s · 720p / 1080p · native audio
 - 能力维度: 感知真实感, 情境可达性, 行为似真性
@@ -214,11 +265,23 @@ https://generative.reality.design · 2026-10-17 · 318 个机构与创作者 · 
 - 项目主页: https://runwayml.com/research/introducing-runway-gen-4
 - API 文档: https://docs.dev.runwayml.com/
 
+#### Firefly 视频模型（Firefly Video Model） — Adobe (2025-02-12)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用
+- 输入: 文字提示, 图像 → 输出: 平面视频
+- 核心想法: 训练数据的来源成了产品卖点，这对需要审核刺激材料版权的机构很重要。
+- 内容: Adobe 的 Firefly 视频模型（2025-02-12 公开测试）可在 Firefly 网页应用与 Premiere Pro 中根据文字或图像生成视频片段，并提供镜头角度与景别控制；Adobe 称其只用授权与公有领域内容训练，因此“可安全商用”。
+- 实现方式: 扩散视频模型，只用 Adobe Stock 等授权内容与公有领域素材训练，从不使用用户内容（据 Adobe；架构未公开）。
+- 参数: 1080p (beta, 2025)
+- 能力维度: 创作可及性, 实验控制
+- 视频: https://www.youtube.com/watch?v=fjk2mMFBpRo
+- 图片: https://blog.adobe.com/en/publish/2025/02/12/media_19846d436079bbe9de6505cc71ae92758436e7468.png?width=1200&format=pjpg&optimize=medium
+- 项目主页: https://blog.adobe.com/en/publish/2025/02/12/meet-firefly-video-model-ai-powered-creation-with-unparalleled-creative-control
+
 #### Veo 2 — 谷歌 DeepMind (2024-12-16)
-- 类型: 模型 · 时序: 预先生成 · 获取方式: 公开 API, 产品 / 应用
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用
 - 输入: 文字提示, 图像 → 输出: 平面视频
 - 核心想法: 镜头类型和运镜成为可靠的提示参数，适合需要特定视角的情境素材。
-- 内容: 第二代 Veo（2024-12-16），物理表现与镜头控制更好，最高可输出 4K；DeepMind 称其在发布时的人类偏好对比中优于 Sora Turbo、可灵与 MiniMax。后来开放于 Gemini API、Gemini 应用与 YouTube Shorts。
+- 内容: 第二代 Veo（2024-12-16），物理表现与镜头控制更好，最高可输出 4K；DeepMind 称其在发布时的人类偏好对比中优于 Sora Turbo、可灵与 MiniMax。后来开放于 Gemini API、Gemini 应用与 YouTube Shorts；其 Gemini API 端点（veo-2.0-generate-001）已于 2026-06-30 关闭。
 - 实现方式: 基于扩散的视频模型，强化了对物理、人体运动与电影摄影的建模；细节未公开。
 - 参数: up to 4K · 8 s clips (API)
 - 能力维度: 感知真实感, 实验控制, 行为似真性
@@ -366,6 +429,34 @@ https://generative.reality.design · 2026-10-17 · 318 个机构与创作者 · 
 ### 开源权重视频模型
 
 Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行、锁定版本并检查的模型。
+
+#### Kandinsky 6.0 Video — Kandinsky Lab (2026-10-06)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示, 图像 → 输出: 平面视频, 语音 / 声音, 音效、音乐与空间音频
+- 核心想法: MIT 许可的音视频联合权重，让更多人能在本地生成会说话的角色片段，不再局限于以英文和中文为主的模型。
+- 内容: Kandinsky 6.0 Video（2026-10-06）是开源的文生 / 图生音视频模型系列，分 Lite（30 亿参数）与 Pro（290 亿参数）两种规模，可生成 5 秒、带同步 44 kHz 音频（含口型同步语音）的片段，并原生理解俄语。代码与权重以 MIT 许可证发布，支持 Diffusers 与 ComfyUI。
+- 实现方式: 生成同步视频与音频的扩散 Transformer，经监督微调、强化学习后训练与蒸馏分阶段训练（据技术报告）。
+- 参数: Lite 3B · Pro 29B · 5 s clips · 44 kHz audio · MIT licence
+- 能力维度: 感知真实感, 实验控制
+- 论文: https://arxiv.org/abs/2610.05608 (arXiv 2026)
+- 视频: https://kandinskylab.ai/media/img/models/video-promo-v3.mp4
+- 图片: https://kandinskylab.ai/img/showreel-poster.jpg
+- 项目主页: https://kandinskylab.ai/models/video/
+- 代码: https://github.com/kandinskylab/kandinsky-6
+
+#### LTX-2.5 — Lightricks (2026-08-11)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码, 公开 API, 产品 / 应用
+- 输入: 文字提示, 图像, 视频 → 输出: 平面视频, 音效、音乐与空间音频
+- 核心想法: 可锁定版本、可微调的开源模型已能生成带声音的多镜头场景，实验室可以固定刺激材料生成器的版本，并用自己的素材训练它。
+- 内容: LTX-2.5（2026-08-11）是 Lightricks 的 220 亿参数开源权重音视频模型，LTX 将其称为“开放世界模型”：它能一次生成多镜头序列，在镜头切换间保持角色、场景与声音一致，并配套 HDR、Alpha 遮罩、修复、布局到渲染等 IC-LoRA。权重以 LTX 社区许可证发布在 Hugging Face，发布当天即支持 ComfyUI。
+- 实现方式: 在 8 倍时间压缩的潜空间中运行的扩散 Transformer，配合新的扩散式视频解码器、Gemma 4 文本编码器与提示增强器，以及按场景复杂度增加高保真关键帧的“Diffusion Fidelity Rendering”（据 LTX）。
+- 参数: 22B · open weights · native multi-shot · synchronized audio · 16 GB min VRAM (claimed)
+- 能力维度: 实验控制, 感知真实感, 创作可及性
+- 视频: https://www.youtube.com/watch?v=ZDfjZae7Da0
+- 图片: https://cdn.prod.website-files.com/68c6ddbeb26cbd692adc0291/6a7afda4f4de5e107c04180b_Cover-Newsroom.png
+- 项目主页: https://ltx.io/newsroom/introducing-ltx-2-5
+- API 文档: https://ltx.io/model/ltx-2-5
+- 代码: https://huggingface.co/Lightricks/LTX-2.5
 
 #### MiniMax H3 — 稀宇科技 MiniMax（海螺 AI） (2026-07-31)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码, 公开 API, 产品 / 应用
@@ -525,9 +616,65 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 - 项目主页: https://stability.ai/news/stable-video-diffusion-open-ai-video-model
 - 代码: https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt
 
+#### AnimateDiff：无需专门调优即可让个性化文生图模型动起来（AnimateDiff） — Yuwei Guo (2023-07-10)
+- 类型: 开源工具 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示, 图像 → 输出: 平面视频
+- 核心想法: 把运动与外观分开，让任何图像画风都能动起来，这是开源社区自建视频工具的早期信号。
+- 内容: AnimateDiff（香港中文大学、上海人工智能实验室与斯坦福，2023 年 7 月；ICLR 2024 spotlight）为 Stable Diffusion 增加一个即插即用的运动模块，让任何社区微调的图像模型都能以自身画风生成短动画，并用 MotionLoRA 控制镜头运动；它成为 ComfyUI 开源视频工具链的常用组件。
+- 实现方式: 在视频上训练时间运动模块，并插入冻结的文生图 U-Net；MotionLoRA 只需少量数据即可适配新的运动模式。
+- 参数: 16-frame clips (default) · plug-in for Stable Diffusion 1.5
+- 能力维度: 创作可及性, 情境多样性
+- 论文: https://arxiv.org/abs/2307.04725 (ICLR 2024)
+- 视频: https://animatediff.github.io/animations/teaser/ani_01.mp4
+- 图片: https://animatediff.github.io/figs/framework.jpg
+- 项目主页: https://animatediff.github.io/
+- 代码: https://github.com/guoyww/AnimateDiff
+
 ### 控制、编辑与角色
 
 镜头路径、动作迁移、参考角色、视频到视频编辑与表演驱动的动画。
+
+#### 4Director：用刚体 3D 几何控制视频世界模型（4Director） — Stability AI (2026-10-01)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 镜头路径 / 位姿, 场景规格、代码与规则 → 输出: 平面视频
+- 核心想法: 像布置 3D 场景那样安排物体路径和镜头，再得到逼真的视频，这已接近实验者编排一场情境事件的方式。
+- 内容: 4Director（Stability AI 与伊利诺伊大学厄巴纳-香槟分校，2026 年 10 月）从一张图像出发“导演”视频：每个物体只重建一次为网格，并按帧施加一个刚体 3D 变换，因此镜头运动、已有物体与新插入的物体都在同一个 3D 空间中控制，物体从新角度看也保持形状。
+- 实现方式: 把受控的网格场景渲染为深度视频，再由 Motion Adapter 转换成外观、光照与非刚性运动都视角一致的视频；训练数据为 RealCOD-Rigid，含 20,774 段标注了刚体 3D 场景的视频。
+- 参数: RealCOD-Rigid: 20,774 clips
+- 能力维度: 实验控制, 持久性
+- 论文: https://arxiv.org/abs/2610.02160 (arXiv 2026)
+- 视频: https://stability-ai.github.io/4director/assets/4Director-supplementary.mp4
+- 图片: https://stability-ai.github.io/4director/assets/feature-hiker.png
+- 项目主页: https://stability-ai.github.io/4director/
+- 代码: https://github.com/VVeiCao/4Director
+
+#### Vista4D：基于 4D 点云的视频重拍（Vista4D） — Eyeline Labs (Netflix) (2026-04-23)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 视频, 镜头路径 / 位姿 → 输出: 平面视频
+- 核心想法: 一次拍摄可以从其他机位观看，录好的情境在事后也能改变视角。
+- 内容: Vista4D（Eyeline Labs 与 Netflix，联合哥伦比亚大学、加州大学洛杉矶分校等，CVPR 2026 Highlight）用新的镜头轨迹“重拍”已有视频，同时保持原有动作：输入被提升为 4D 点云，用来保留已拍到的内容并引导镜头，其余部分由模型补全；它还支持场景扩展与重新组合。代码与模型已公开。
+- 实现方式: 通过带静态像素分割的 4D 重建得到点云，沿目标镜头路径渲染；视频模型在重建的多视角动态数据上训练，可容忍点云伪影，并据此生成最终视频。
+- 能力维度: 实验控制, 感知真实感
+- 获奖与认可: CVPR 2026 Highlight
+- 论文: https://arxiv.org/abs/2604.21915 (CVPR 2026)
+- 视频: https://eyeline-labs.github.io/Vista4D/media/ours_snowboard_back-follow_s52106.mp4
+- 图片: https://eyeline-labs.github.io/Vista4D/media/preview.jpg
+- 项目主页: https://eyeline-labs.github.io/Vista4D/
+- 代码: https://github.com/Eyeline-Labs/Vista4D
+
+#### VerseCrafter：具备 4D 几何控制的动态真实视频世界模型（VerseCrafter） — Sixiao Zheng, 腾讯 ARC 实验室 (2026-01-08)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 镜头路径 / 位姿, 场景规格、代码与规则 → 输出: 平面视频
+- 核心想法: 谁往哪里走、从哪个视角看，变成可检查的 3D 规格而不是一句提示，这正是布置实验情境所需要的控制。
+- 内容: VerseCrafter（复旦大学、香港大学与腾讯 ARC 实验室，CVPR 2026）根据显式的 4D 世界状态生成视频：静态背景点云加上每个物体的 3D 高斯轨迹，因此可以同时指定镜头路径与多个物体的运动，生成结果会照此执行。代码、模型、Blender 插件与 3.5 万段的 VerseControl4D 数据集均已公开。
+- 实现方式: 把 4D 几何控制（背景点云与各物体的高斯轨迹）渲染为控制图，作为预训练视频扩散模型的条件；训练数据来自自动构建的真实世界数据集。
+- 参数: VerseControl4D: 35K training clips
+- 能力维度: 实验控制, 行为似真性
+- 论文: https://arxiv.org/abs/2601.05138 (CVPR 2026)
+- 视频: https://sixiaozheng.github.io/VerseCrafter_page/assets/pipeline_video_com.mp4
+- 图片: https://sixiaozheng.github.io/VerseCrafter_page/assets/framework.png
+- 项目主页: https://sixiaozheng.github.io/VerseCrafter_page/
+- 代码: https://github.com/TencentARC/VerseCrafter
 
 #### 可灵 O1（Kling O1） — 快手 / 可灵 (2025-12-01)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用, 公开 API
@@ -545,7 +692,7 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 - 类型: 开源工具 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
 - 输入: 图像, 视频 → 输出: 平面视频, 虚拟人（脸 / 身体）
 - 核心想法: 开源的表演迁移：任何录下的演员表演，都能在实验室自己的 GPU 上驱动任意角色。
-- 内容: Wan-Animate（2025 年 9 月）可用驱动视频中的身体动作与面部表情来驱动一张角色图，或把视频中的人替换成该角色并匹配场景光照；权重以 Wan2.2-Animate-14B 开源。
+- 内容: Wan-Animate（2025 年 9 月）可用驱动视频中的身体动作与面部表情来驱动一张角色图，或把视频中的人替换成该角色并匹配场景光照；权重以 Wan2.2-Animate-14B 开源。Wan-Animate-2（2026-08-07 开源权重）改用重新设计的扩散 Transformer 直接读取驱动视频。
 - 实现方式: 基于 Wan 2.2，用骨架信号控制身体动作，用隐式面部特征控制表情，并用重光照 LoRA 完成角色替换。
 - 参数: 14B
 - 能力维度: 行为似真性, 实验控制
@@ -554,6 +701,20 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 - 图片: https://humanaigc.github.io/wan-animate/content/aa/arch.png
 - 项目主页: https://humanaigc.github.io/wan-animate/
 - 代码: https://huggingface.co/Wan-AI/Wan2.2-Animate-14B
+
+#### 通义万相 Wan-S2V（Wan-S2V） — 阿里通义 (2025-08-26)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 语音与音频, 文字提示 → 输出: 平面视频, 虚拟人（脸 / 身体）
+- 核心想法: 由音频驱动、带有肢体语言与运镜的角色，让对话场景走出“说话头像”的画框。
+- 内容: Wan-S2V（阿里通义实验室，2025-08-26）把一张静态图和一段音频变成影视风格的角色视频：人物说话、唱歌或表演，带有全身或半身动作与运镜，而不只是一个说话的头像；140 亿参数模型作为 Wan 2.2 的一部分开源。
+- 实现方式: 在 Wan 视频模型上加入音频条件，并用文字控制整体场景，另有长视频与口型同步编辑模式。
+- 参数: 14B · open weights (Wan2.2-S2V-14B)
+- 能力维度: 行为似真性, 感知真实感
+- 论文: https://arxiv.org/abs/2508.18621 (arXiv 2025)
+- 视频: https://humanaigc.github.io/wan-s2v-webpage/content/v3/video/1-moive_talk.mp4
+- 图片: https://humanaigc.github.io/wan-s2v-webpage/content/v3/superman.png
+- 项目主页: https://humanaigc.github.io/wan-s2v-webpage/
+- 代码: https://huggingface.co/Wan-AI/Wan2.2-S2V-14B
 
 #### Runway Aleph — Runway (2025-07-25)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用, 公开 API
@@ -608,6 +769,20 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 
 因果、自回归与蒸馏模型：实时流式生成视频，或持续生成数分钟。
 
+#### 京东 JoyAI-Video-Edit：实时开放式视频编辑（JoyAI-Video-Edit） — 京东 (2026-08-05)
+- 类型: 开源工具 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
+- 输入: 视频, 文字提示, 图像 → 输出: 交互式帧流
+- 核心想法: 开源、可在消费级显卡上运行的摄像头实时改写：参与者在活动时，同一个房间或同一个人就能被换成另一种情境。
+- 内容: JoyAI-Video-Edit（京东，2026-08-05）在画面到达时即时编辑实时摄像头流或上传的视频，按文字指令或参考图换装、换背景或改变画风，其余部分保持不变。京东称其在单张 B200 上以约 30 fps 输出 720p，在单张 RTX 5090 上以 24 fps 输出 840x480；权重、代码与浏览器摄像头演示均已公开。
+- 实现方式: 160 亿参数多模态扩散 Transformer，配合多模态大模型条件编码器与因果视频 VAE，按块改造为自回归生成，并通过源锚定分布匹配蒸馏到两步。
+- 参数: 16B · ~30 fps 720p on 1 B200 · 24 fps 840x480 on RTX 5090 (reported)
+- 能力维度: 时间响应性, 反应性, 情境可达性
+- 论文: https://arxiv.org/abs/2608.03974 (arXiv 2026)
+- 视频: https://github.com/user-attachments/assets/bca232c9-75df-46f9-b366-14cfa2651994
+- 图片: https://raw.githubusercontent.com/jd-opensource/JoyAI-Video-Edit/main/assets/live_demo/live_cartoon_group.jpg
+- 项目主页: https://github.com/jd-opensource/JoyAI-Video-Edit
+- 代码: https://huggingface.co/jdopensource/JoyAI-Video-Edit
+
 #### Vidu S1 — 生数科技（Vidu） (2026-07-03)
 - 类型: 模型 · 时序: 实时流式 · 获取方式: 产品 / 应用
 - 输入: 语音与音频, 文字提示, 图像 → 输出: 交互式帧流, 语音 / 声音
@@ -617,6 +792,20 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 - 能力维度: 时间响应性, 反应性, 行为似真性
 - 视频: https://www.youtube.com/watch?v=jaPLmykNk0I
 - 项目主页: https://www.vidu.com/
+
+#### LiveEdit：基于扩散的实时流式视频编辑（LiveEdit） — Xinyu Wang (2026-06-25)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
+- 输入: 视频, 文字提示 → 输出: 交互式帧流
+- 核心想法: 保留未编辑区域的实时编辑正是透视画面改写所需要的：只改变视野中的一个物体，房间其余部分不会闪烁。
+- 内容: LiveEdit（清华大学与港科大，ECCV 2026）按文字指令逐帧编辑实时视频流，只改动指定区域，背景与未编辑部分保持稳定；作者报告其 4 步蒸馏的因果模型可达 12.66 fps。
+- 实现方式: 三阶段蒸馏，把双向编辑模型迁移为因果、按块的流式 DiT，并用面向自回归的掩码缓存复用未编辑区域的计算。
+- 参数: 12.66 fps · 4-step distilled · causal DiT (reported)
+- 能力维度: 时间响应性, 实验控制
+- 论文: https://arxiv.org/abs/2606.26740 (ECCV 2026)
+- 视频: https://live-edit.github.io/assets/liveedit/teaser.mp4
+- 图片: https://live-edit.github.io/assets/liveedit/Framework-v2_page-0001.jpg
+- 项目主页: https://live-edit.github.io/
+- 代码: https://github.com/cp-cp/LiveEdit
 
 #### Helios — Shenghai Yuan (2026-03-04)
 - 类型: 研究演示 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
@@ -656,6 +845,33 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 - 图片: https://s.krea.ai/krea_realtime_14b_cover.webp
 - 项目主页: https://www.krea.ai/blog/krea-realtime-14b
 - 代码: https://huggingface.co/krea/krea-realtime-video
+
+#### Self-Forcing++：迈向分钟级高质量视频生成（Self-Forcing++） — Justin Cui, 字节跳动 Seed (2025-10-02)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 文字提示 → 输出: 平面视频
+- 核心想法: 分钟级的连贯不再需要分钟级的训练视频，这对必须完整展开一段遭遇的情境很重要。
+- 内容: Self-Forcing++（加州大学洛杉矶分校与字节跳动 Seed，2025 年 10 月）把从只能生成短片的教师模型蒸馏而来的少步自回归视频模型延伸到数分钟仍保持连贯：作者报告最长 4 分 15 秒，是基线长度的 50 倍以上，且没有过曝或漂移。截至 2026 年 10 月，代码仓库只有论文与演示，尚未发布代码。
+- 实现方式: 让短时长教师模型纠正从学生模型自身长序列中采样的片段（在自生成视频上做分布匹配），且无需重复计算重叠帧。
+- 参数: up to 4 min 15 s · 20x beyond teacher horizon (reported)
+- 能力维度: 持久性, 感知真实感
+- 论文: https://arxiv.org/abs/2510.02283 (arXiv 2025)
+- 视频: https://huggingface.co/datasets/self-forcing-plus-plus/website/resolve/main/merged/merged_snow_valley.mp4
+- 图片: https://self-forcing-plus-plus.github.io/images/workflow.png
+- 项目主页: https://self-forcing-plus-plus.github.io/
+- 代码: https://github.com/justincui03/Self-Forcing-Plus-Plus
+
+#### Rolling Forcing：实时自回归长视频扩散（Rolling Forcing） — Kunhao Liu, 腾讯 ARC 实验室 (2025-09-29)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示 → 输出: 交互式帧流
+- 核心想法: 实时与长时长在一个开源模型中兼得：视频流能以交互速率持续数分钟才出现漂移。
+- 内容: Rolling Forcing（南洋理工大学与腾讯 ARC 实验室，ICLR 2026）在单张 GPU 上实时流式生成数分钟视频且误差累积很小：它对一个窗口内的多帧以递增噪声水平同时去噪，而不是逐帧生成。
+- 实现方式: 在滚动窗口内以递增噪声联合去噪，用注意力汇（attention sink）保留起始帧的键值状态作为全局锚点，并在不重叠窗口上做少步蒸馏。
+- 参数: real-time on 1 GPU · multi-minute streams (reported)
+- 能力维度: 时间响应性, 持久性
+- 论文: https://arxiv.org/abs/2509.25161 (ICLR 2026)
+- 视频: https://kunhao-liu.github.io/Rolling_Forcing_Webpage/videos/2min_videos/A%20dynamic%20action%20scene%20in%20a%20modern%20gym%2C%20featuring%20a%20kangaroo%20wearing%20boxing%20gloves%2C%20engaged%20in%20an%20in-0.mp4
+- 项目主页: https://kunhao-liu.github.io/Rolling_Forcing_Webpage/
+- 代码: https://github.com/TencentARC/RollingForcing
 
 #### LongLive — Shuai Yang, 英伟达 (2025-09-26)
 - 类型: 研究演示 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
@@ -714,7 +930,7 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
 - 输入: 文字提示, 图像, 视频 → 输出: 平面视频
 - 核心想法: 分块自回归让人能逐秒控制场景如何展开。
-- 内容: Sand AI 的 MAGI-1（2025-04-21）是 240 亿参数的开源自回归视频模型，逐块生成视频，支持流式输出、无限延展和逐块更换提示。
+- 内容: Sand AI 的 MAGI-1（2025-04-21）是 240 亿参数的开源自回归视频模型，逐块生成视频，支持流式输出、无限延展和逐块更换提示。Sand AI 随后于 2026-08-05 发布 MAGI-2 Preview：开源的 1140 亿参数混合专家模型，每个 token 激活 60 亿参数，可生成带声音的 10 秒片段。
 - 实现方式: 以 24 帧为一块进行自回归去噪，越靠后的块噪声越高、前面的块逐步细化，配合基于 Transformer 的 VAE。
 - 参数: 24B (4.5B distilled) · 24-frame chunks
 - 能力维度: 持久性, 实验控制
@@ -728,7 +944,7 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
 - 输入: 文字提示, 图像 → 输出: 平面视频
 - 核心想法: 扩散强制（diffusion forcing）把片段模型变成连续讲故事的模型，但时长到数分钟时漂移仍会累积。
-- 内容: 昆仑万维 Skywork 的 SkyReels-V2（2025 年 4 月）是开源的“无限时长电影”模型，可在保持镜头一致的同时不断延展视频，训练时使用了电影语法标注。
+- 内容: 昆仑万维 Skywork 的 SkyReels-V2（2025 年 4 月）是开源的“无限时长电影”模型，可在保持镜头一致的同时不断延展视频，训练时使用了电影语法标注。Skywork 于 2026-01-29 以开源权重发布 SkyReels V3，新增多主体参考生视频、音频引导生成与视频到视频生成。
 - 实现方式: 采用扩散强制框架（每个 token 噪声水平不同），用多模态字幕模型 SkyCaptioner 标注镜头语言，并用强化学习提升运动质量。
 - 参数: 1.3B / 14B · 540p / 720p · unlimited length
 - 能力维度: 持久性, 创作可及性
@@ -794,6 +1010,32 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 
 面向头显的 360°、立体与空间视频生成，以及 2D 转 3D。
 
+#### Pantheon360：用 3D 感知 360° 视频扩散生成数字孪生（Pantheon360） — Ting-Hsuan Chen (2026-05-25)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 多视角拍摄 / 扫描, 镜头路径 / 位姿 → 输出: 360° / 立体视频
+- 核心想法: 对真实场所的几次全景拍摄，就能变成可沿任意路径重走的 360° 视频，而且几何是固定的，不会逐帧重新想象。
+- 内容: Pantheon360（南加州大学、阳明交通大学、康奈尔大学与博世研究院，CVPR 2026）根据对某个地点的稀疏 360° 拍摄，沿用户自定的任意镜头路径生成 360° 视频：从输入重建的显式 3D 缓存保证几何一致，视频扩散模型负责细化外观，目标是用于仿真的数字孪生。代码标注为即将发布。
+- 实现方式: 从稀疏的 360° 输入重建 3D 缓存，沿目标镜头路径渲染作为几何支架，再由 360° 视频扩散模型细化纹理并补全空缺。
+- 能力维度: 持久性, 实验控制, 情境可达性
+- 论文: https://arxiv.org/abs/2605.25449 (CVPR 2026)
+- 视频: https://koi953215.github.io/pantheon360_page/pantheon360_videos/teaser.mp4
+- 图片: https://koi953215.github.io/pantheon360_page/pantheon360_img/pipeline.jpg
+- 项目主页: https://koi953215.github.io/pantheon360_page/
+
+#### CubeComposer：从透视视频时空自回归生成 4K 360° 视频（CubeComposer） — Lingen Li, 腾讯 ARC 实验室 (2026-03-04)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 视频, 文字提示 → 输出: 360° / 立体视频
+- 核心想法: 用一段手机视频得到头显级分辨率的 360° 画面：拍到的一个角度可以变成整个场景的环绕视野。
+- 内容: CubeComposer（香港中文大学与腾讯 ARC 实验室，CVPR 2026）把普通透视视频扩展为原生 4K 的 360° 视频：它按空间与时间顺序逐个生成立方体贴图的六个面，而不是把低分辨率全景图放大。代码、权重与 4K360Vid 数据集均已公开。
+- 实现方式: 在立方体贴图各面与时间窗口上进行时空自回归视频扩散，配合立方体面上下文管理与稀疏上下文注意力。
+- 参数: native 4K · 360° equirectangular / cubemap output
+- 能力维度: 感知真实感, 情境可达性
+- 论文: https://arxiv.org/abs/2603.04291 (CVPR 2026)
+- 视频: https://lg-li.github.io/pub-videos/CubeComposer/li2026cubecomposer-video.mp4
+- 图片: https://raw.githubusercontent.com/TencentARC/CubeComposer/main/assets/images/Teaser.jpg
+- 项目主页: https://lg-li.github.io/project/cubecomposer
+- 代码: https://github.com/TencentARC/CubeComposer
+
 #### 360Anything：无需几何的图像与视频 360° 提升（360Anything） — Ziyi Wu, 谷歌 DeepMind (2026-01-22)
 - 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
 - 输入: 图像, 视频 → 输出: 360° / 立体视频, 图像 / 全景图
@@ -819,6 +1061,68 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 - 项目主页: https://hit-perfect.github.io/StereoPilot/
 - 代码: https://github.com/KlingTeam/StereoPilot
 
+#### StereoWorld：几何感知的单目转立体视频生成（StereoWorld） — Ke Xing (2025-12-10)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 视频 → 输出: 360° / 立体视频
+- 核心想法: 生成的或已有的平面素材无需立体摄影机，也能以可信的深度在头显中播放。
+- 内容: StereoWorld（北京交通大学与 Dzine AI，CVPR 2026）把预训练视频生成模型改造成单目转立体的转换器：输入普通视频，在几何约束监督下生成另一只眼的画面；训练数据是 1100 多万帧按人眼瞳距对齐的蓝光左右格式视频。
+- 实现方式: 以单目视频为条件端到端微调视频扩散模型，配合几何感知正则化与时空分块以支持高分辨率。
+- 参数: 11M+ stereo training frames (IPD-aligned)
+- 能力维度: 感知真实感, 情境可达性
+- 论文: https://arxiv.org/abs/2512.09363 (CVPR 2026)
+- 视频: https://ke-xing.github.io/StereoWorld/sfsf.mp4
+- 图片: https://ke-xing.github.io/StereoWorld/big.png
+- 项目主页: https://ke-xing.github.io/StereoWorld/
+- 代码: https://github.com/ke-xing/StereoWorldCode
+
+#### Immersity — Leia Inc. (2025-08-13)
+- 类型: 产品 / 应用 · 时序: 预先生成 · 获取方式: 产品 / 应用
+- 输入: 图像, 视频 → 输出: 360° / 立体视频, 图像 / 全景图
+- 核心想法: 消费级的 2D 转 3D 意味着现有的平面素材库可以低成本地以深度形式用于头显研究。
+- 内容: Immersity 是 Leia Inc. 的深度 3D 平台：其网页应用把照片、视频和专辑封面转换为可用于社交媒体、广告或 VR 的 3D 内容，同一套“空间 AI”软件也驱动 Leia 提供给设备厂商的 2D/3D 可切换显示屏。Leia 于 2025-08-13 发布 Immersity 平台。
+- 实现方式: 对普通图像和视频做单目深度估计与视图合成（“空间 AI”），输出到 3D 显示屏与立体格式（细节未公开）。
+- 能力维度: 情境可达性, 创作可及性
+- 视频: https://s3.us-east-1.amazonaws.com/static.immersity.ai/videos/HOMEPAGE/Homepage-Reel_Desktop_compressed.mp4
+- 图片: https://static.immersity.ai/img/og-image.png
+- 项目主页: https://www.immersity.ai/
+- API 文档: https://app.immersity.ai
+
+#### S²VG：基于去噪帧矩阵的 3D 立体与空间视频生成（S²VG） — Peng Dai, 谷歌 (2025-08-11)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 文字提示, 视频 → 输出: 360° / 立体视频
+- 核心想法: 任何文生视频模型都能通过后处理变成面向头显的立体或空间视频生成器。
+- 内容: S²VG（香港大学与 Google，2025 年 8 月）无需训练、也无需相机位姿，就能把现成单目视频生成模型的输出变成 3D 立体视频与空间视频：它用估计的深度把生成视频扭曲到新视点，再在视角与时间上补全空洞。
+- 实现方式: 基于深度把画面扭曲成由视点与时间组成的帧矩阵，再在两个维度上用视频模型的去噪过程进行免训练补全。
+- 能力维度: 情境可达性, 感知真实感
+- 论文: https://arxiv.org/abs/2508.08048 (arXiv 2025)
+- 视频: https://daipengwa.github.io/S-2VG_ProjectPage/results1/teaser.mp4
+- 图片: https://daipengwa.github.io/S-2VG_ProjectPage/images/astronaut.png
+- 项目主页: https://daipengwa.github.io/S-2VG_ProjectPage/
+
+#### Eye2Eye：单目转立体视频合成的简单方法（Eye2Eye） — Michal Geyer, 谷歌 DeepMind (2025-04-30)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 视频 → 输出: 360° / 立体视频
+- 核心想法: 用生成先验而非深度图来合成立体画面，避免了在反光或透明表面上破坏临场感的扭曲伪影。
+- 内容: Eye2Eye（Google DeepMind 与魏茨曼科学研究所，2025 年 4 月）把一段真实单目视频当作右眼画面，用微调后的文生视频模型生成左眼视频，两者可以用 3D 眼镜或 VR 头显观看；由于跳过了深度估计与扭曲，它能处理玻璃、雪花等反光与半透明物体。
+- 实现方式: 以输入视角为条件微调预训练文生视频扩散模型，直接生成另一只眼的视图，不使用显式深度或扭曲。
+- 能力维度: 感知真实感
+- 论文: https://arxiv.org/abs/2505.00135 (arXiv 2025)
+- 视频: https://video-eye2eye.github.io/static/videos/Demo.mp4
+- 图片: https://video-eye2eye.github.io/static/images/pipeline.png
+- 项目主页: https://video-eye2eye.github.io/
+
+#### VideoPanda：基于多视角注意力的全景视频扩散（VideoPanda） — Kevin Xie, 英伟达 (2025-04-15)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 文字提示, 视频 → 输出: 360° / 立体视频
+- 核心想法: 一个拍摄视角或一句话就能变成头显中的环绕场景，相当于文生视频的沉浸版。
+- 内容: VideoPanda（NVIDIA 多伦多 AI 实验室，2025 年 4 月）可根据文字提示或一段普通视频生成 360° 视频：它生成各个方向上一致的视图并拼成全景，还能以自回归方式延长成更长的片段。
+- 实现方式: 在视频扩散模型中加入多视角注意力层，在纯文字与单视角视频两种条件下联合训练，并对帧与视角随机下采样。
+- 能力维度: 情境可达性, 感知真实感
+- 论文: https://arxiv.org/abs/2504.11389 (arXiv 2025)
+- 视频: https://research.nvidia.com/labs/toronto-ai/VideoPanda/assets_web/release_col_cond_comp/49545422/56_1_samplepanopost2x.mp4
+- 图片: https://research.nvidia.com/labs/toronto-ai/VideoPanda/assets_web/comp_to_mvdiffusion/pano/11/pano_fix.png
+- 项目主页: https://research.nvidia.com/labs/toronto-ai/VideoPanda/
+
 #### Imagine360：从透视锚点生成沉浸式 360 视频（Imagine360） — Jing Tan (2024-12-04)
 - 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
 - 输入: 视频 → 输出: 360° / 立体视频
@@ -830,6 +1134,18 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 - 视频: https://www.youtube.com/watch?v=gRGo4B41GXY
 - 项目主页: https://ys-imtech.github.io/projects/Imagine360/
 - 代码: https://github.com/YS-IMTech/Imagine360
+
+#### VidPanos：从随手摇拍视频生成全景视频（VidPanos） — Jingwei Ma, 谷歌 DeepMind (2024-10-17)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 视频 → 输出: 360° / 立体视频
+- 核心想法: 生成式补全填上了摄像机每一刻没有拍到的部分，是从一个拍摄角度走向环绕场景的一步。
+- 内容: VidPanos（华盛顿大学与 Google DeepMind，SIGGRAPH Asia 2024）把随手拍的摇镜头视频变成同等长度的全景视频，就像用广角镜头拍摄一样：当前画面外的人和物体仍在运动，而不是像拼接的全景照片那样静止。
+- 实现方式: 对全景时空体进行外扩补全：把预训练视频生成模型作为合成系统的一个组件，并绕开其有限的空间与时间上下文。
+- 能力维度: 感知真实感, 情境可达性
+- 论文: https://arxiv.org/abs/2410.13832 (SIGGRAPH Asia 2024)
+- 视频: https://www.youtube.com/watch?v=93HHOnISoqk
+- 图片: https://vidpanos.github.io/static/images/real_results/dynibar_thumb.jpg
+- 项目主页: https://vidpanos.github.io/
 
 #### StereoCrafter：单目视频生成长时高保真立体 3D（StereoCrafter） — Sijie Zhao, 腾讯 ARC 实验室 (2024-09-11)
 - 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
@@ -890,6 +1206,18 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 - 项目主页: https://www.synthesia.io/post/sessions-interactive-avatar-platform
 - API 文档: https://www.synthesia.io/features/avatars/interactive-avatars
 
+#### FlowAct-R2：基于流式多模态参考与主动式智能体规划的交互数字人（FlowAct-R2） — 字节跳动 Seed (2026-09-28)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 仅限研究
+- 输入: 文字提示, 语音与音频, 图像 → 输出: 虚拟人（脸 / 身体）, 语音 / 声音, 智能体行为与动作
+- 核心想法: 让虚拟人从“回答问题”走向“主持一场互动”：人设、议程和可复用技能让生成的人在参与者两次行动之间也能把情境维持下去。
+- 内容: FlowAct-R2 可连续数小时流式生成 720p 数字人：无人互动时它按自己的安排行动，观众发言时立即回应；它能在视频通话中聊天、手持并试穿商品进行直播带货、根据弹幕唱歌跳舞，也能处理打断。字节跳动报告称，在视频质量和实时互动的人类偏好评测中明显优于生数科技的 Vidu-S1。
+- 实现方式: 一个流式多模态参考扩散 Transformer，由 Seedance 2.0 Mini 参考生视频模型改造而来，采用 diffusion forcing、与视频对齐的 RoPE 和部分加噪的历史帧；再由一个主动式智能体在离线阶段规划人设、议程与技能，在线时调度、打断和恢复各种行为。
+- 参数: 720p · hour-level streams · GSB +54.76% video quality / +40.48% real-time interaction vs Vidu-S1 (developer-reported)
+- 能力维度: 反应性, 行为似真性, 持久性
+- 论文: https://arxiv.org/abs/2609.35728 (arXiv 2026)
+- 视频: https://avatar-agent.tos-cn-beijing.volces.com/flowact-r2-project-clean-20260920/static/videos/entertainment_final_danmaku_only/chat4_faststart.mp4
+- 项目主页: https://bone-11.github.io/Flowact-R2/
+
 #### Gemini 3.8 Live 实时虚拟人（Live Avatar）（Gemini 3.8 Live with Live Avatar） — 谷歌 DeepMind (2026-09-24)
 - 类型: 产品 / 应用 · 时序: 回合制 · 获取方式: 产品 / 应用, 公开 API
 - 输入: 语音与音频, 视频, 图像 → 输出: 虚拟人（脸 / 身体）, 语音 / 声音, 对话 / 文本
@@ -916,6 +1244,18 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 - 项目主页: https://lemonslice.com/cwm-1
 - API 文档: https://lemonslice.com/docs
 
+#### Muse Realtime Avatar — Meta (2026-09-23)
+- 类型: 模型 · 时序: 回合制 · 获取方式: 产品 / 应用
+- 输入: 语音与音频, 图像 → 输出: 虚拟人（脸 / 身体）, 语音 / 声音
+- 核心想法: 语音和面孔由同一条语音 token 流生成，语气、口型和表情因此同步；任何一张图都能以消费级规模获得一个实时的身体。
+- 内容: Muse Realtime Avatar 让 Meta 的 Muse 智能体在视频聊天中有了一张脸：只需一张参考图（照片、插画、动物甚至物件），它就能在 Muse Realtime Voice 说话时实时驱动角色的面部、双手和身体，对话持续多久就生成多久。Meta 称在两到三分钟的实时通话中，评测者更偏好它而不是 Runway Characters 和 HeyGen LiveAvatar；截至 2026 年 10 月，Muse 应用已开放视频聊天。
+- 实现方式: 一个音频驱动的扩散 Transformer 读取 Muse Realtime Voice 的语音 token 流、参考素材和最近视频潜变量的滚动窗口，逐段生成短的因果视频块；40 步、三路 CFG 的教师模型通过 self-forcing 与分布匹配蒸馏成无引导的两步学生模型，以 4 比特量化和持久 KV 缓存部署，每一帧都嵌入 Video Seal 水印。
+- 参数: 448×768 · 25 fps · ~870 ms from end of user turn to first byte · 2 NFE per chunk (from 120) · 12 sessions per GB200 (developer-reported)
+- 能力维度: 时间响应性, 感知真实感, 持久性
+- 视频: https://x.com/alexandr_wang/status/2102919552254484765
+- 图片: https://research.meta.ai/articles/bringing-your-muse-to-life/images/muse-realtime-avatar-character-introduction-first-frame-v3.webp https://research.meta.ai/articles/bringing-your-muse-to-life/images/muse-realtime-avatar-streaming-architecture-v3.webp
+- 项目主页: https://research.meta.ai/blog/bringing-your-muse-to-life
+
 #### AVTR-1：实时交互虚拟人开源方案（AVTR-1） — Avaturn Live (2026-09-19)
 - 类型: 开源工具 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
 - 输入: 语音与音频, 图像 → 输出: 虚拟人（脸 / 身体）, 动作 / 动画
@@ -929,6 +1269,21 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 - 图片: https://avtr-1.avaturn.live/media/og-preview.png
 - 项目主页: https://avaturn-live.github.io/avtr-1-projectpage/
 - 代码: https://github.com/avaturn-live/avtr-1
+
+#### 开放虚拟人工具包（Virtual Human Toolkit，2026）（Open Virtual Human Toolkit (2026)） — 南加州大学创意技术研究所 (2026-07-23)
+- 类型: 开源工具 · 时序: 回合制 · 获取方式: 开源权重 / 代码, 产品 / 应用
+- 输入: 语音与音频, 视频 → 输出: 虚拟人（脸 / 身体）, 语音 / 声音, 对话 / 文本
+- 核心想法: SimSensei 式虚拟人背后的研究传统被重新打造：实验室可通过一个下拉菜单更换大模型或声音，为敏感研究完全在本地运行，同时保持角色其余部分不变。
+- 内容: USC ICT 的 Virtual Human Toolkit 于 2026 年开放发布：这是一个 Unity 项目，用于构建能看见、听见用户并以语音和非语言行为回应的对话式三维角色，可部署到网页、手机、桌面和 Quest。语音识别、大模型、语音合成、感知和非语言行为等每项能力都通过同一个 API 接入，可在 20 多家云端服务或完全本地的方案间切换；它获得 IVA 2026 最佳技术演示奖，可免费用于非商业用途。
+- 实现方式: 模块化的 Unity 架构，为音视频感知（如 OpenFace、DeepFace）、语音识别（Whisper、Azure、OpenAI Realtime）、大模型（Claude、GPT、Gemini、Ollama、vLLM）、语音合成（ElevenLabs、Piper、Kokoro）、基于关键词或向量的知识检索，以及 Reallusion 角色上基于规则或模型的非语言行为提供统一的接入 API。
+- 参数: 20+ providers · cloud or fully local · Web, iOS, Android, Windows, macOS, Linux, Quest
+- 能力维度: 实验控制, 创作可及性, 情境可达性
+- 获奖与认可: IVA 2026 Best Technical Demonstration
+- 论文: https://doi.org/10.1145/3806774.3832327 (IVA 2026)
+- 视频: https://www.youtube.com/watch?v=QU_ItB4p_zc
+- 图片: https://vhtoolkitwww.ict.usc.edu/demo/VHToolkit_July2026.png
+- 项目主页: https://vhtoolkit.ict.usc.edu
+- 代码: https://github.com/USC-ICT/vhtoolkit
 
 #### FacePlex：全双工对话虚拟人（FacePlex） — Habin Lim (2026-06-29)
 - 类型: 研究演示 · 时序: 全双工 · 获取方式: 仅限研究
@@ -955,6 +1310,17 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 - 视频: https://wan-streamer.com/v0.1/assets/video/realtime.mp4
 - 图片: https://wan-streamer.com/v0.1/assets/img/agent-chat-poster.jpg https://wan-streamer.com/v0.1/assets/img/framework.png
 - 项目主页: https://wan-streamer.com
+
+#### Moshi-Face：把面部生成接入全双工语音对话系统（Moshi-Face） — Jingjing Jiang (2026-06-20)
+- 类型: 研究演示 · 时序: 全双工 · 获取方式: 仅限研究
+- 输入: 语音与音频, 视频 → 输出: 语音 / 声音, 虚拟人（脸 / 身体）, 动作 / 动画
+- 核心想法: 首个公开发表、在全双工对话中既看用户的脸又展示自己面部的模型：可视为 Tavus Griffin 的可检视学术对照。
+- 内容: Moshi-Face 为全双工语音模型 Moshi 加上了一张脸：它在说话的同时接收用户的声音和面部动作，并同步生成自己的语音和三维面部动作，从而继承了 Moshi 话语重叠、附和与可被打断的能力，并配上了会动的脸。作者报告其在低延迟下实现了视听对齐，并保持了 Moshi 原有的对话质量。
+- 实现方式: 先用 VQ-VAE 面部编解码器把视频中提取的三维头部网格编码成离散的面部 token，再在 Moshi 中加入一个 Face Transformer，与 Moshi 的音频 token 同步、非自回归地预测这些面部 token，并与用户的音频和面部输入流对齐。
+- 能力维度: 时间响应性, 反应性
+- 论文: https://arxiv.org/abs/2606.21970 (Interspeech 2026)
+- 图片: https://arxiv.org/html/2606.21970v1/overall.png https://arxiv.org/html/2606.21970v1/sample.png
+- 项目主页: https://arxiv.org/abs/2606.21970
 
 #### CARA-4 — Anam (2026-05-12)
 - 类型: 模型 · 时序: 回合制 · 获取方式: 公开 API, 产品 / 应用
@@ -992,6 +1358,18 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 - 项目主页: https://www.d-id.com/introducing-v4-expressive-avatars/
 - API 文档: https://docs.d-id.com
 
+#### Runway Characters — Runway (2026-03-09)
+- 类型: 平台 / API · 时序: 回合制 · 获取方式: 公开 API, 产品 / 应用
+- 输入: 语音与音频, 图像 → 输出: 虚拟人（脸 / 身体）, 语音 / 声音, 对话 / 文本
+- 核心想法: 通用世界模型的虚拟人分支，让吉祥物、历史人物或风格化的对话伙伴都能接通视频通话；Meta 2026 年 9 月的评测认为它的举止与 Muse Realtime Avatar 不相上下。
+- 内容: Runway Characters 是一个实时视频智能体 API：只需一张参考图、无需微调，就能创建一个对话角色（写实或风格化、人类或非人类），并可配置声音、性格、知识和工具动作；角色在倾听和说话时都会保持面部表情、视线和手势。2026-03-09 向所有 Runway 开发者客户开放，Runway 网页应用中也提供预设角色。
+- 实现方式: 基于 Runway GWM-1 世界模型的 GWM Avatars 变体（2025 年 12 月），这是一个以参考图像和智能体语音为条件的自回归视频模型，通过实时 API 提供，并可配置大模型、声音和知识库。
+- 能力维度: 创作可及性, 感知真实感, 行为似真性
+- 视频: https://www.youtube.com/watch?v=kiwPrAjFGWo
+- 图片: https://d3phaj0sisr2ct.cloudfront.net/site/images/news/characters-hero-og.png
+- 项目主页: https://runway.com/news/introducing-runway-characters
+- API 文档: https://docs.dev.runwayml.com/
+
 #### Phoenix-4 — Tavus (2026-02-18)
 - 类型: 模型 · 时序: 实时流式 · 获取方式: 公开 API, 产品 / 应用
 - 输入: 语音与音频, 文字提示 → 输出: 虚拟人（脸 / 身体）
@@ -1009,7 +1387,7 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 - 类型: 平台 / API · 时序: 回合制 · 获取方式: 公开 API, 产品 / 应用
 - 输入: 语音与音频, 文字提示 → 输出: 虚拟人（脸 / 身体）, 语音 / 声音
 - 核心想法: 实时虚拟人便宜到可以给每个语音智能体配一张脸，问题从“能不能渲染”转向“行为像不像”。
-- 内容: LiveAvatar 是 HeyGen 的实时虚拟人流式 API，接替了此前的 Interactive Avatar：一个由图像或两分钟视频克隆而来的半身或全身 1080p 虚拟人，通过 WebRTC 说出语音智能体的回复。HeyGen 称首帧中位时间低于 300 ms，大批量时约每分钟 0.01 美元。
+- 内容: LiveAvatar 是 HeyGen 的实时虚拟人流式 API，接替了此前的 Interactive Avatar：一个由图像或两分钟视频克隆而来的半身或全身 1080p 虚拟人，通过 WebRTC 说出语音智能体的回复。HeyGen 称首帧中位时间低于 300 ms，大批量时约每分钟 0.01 美元。2026 年 6 月，HeyGen 推出用于全天候直播虚拟人的 Avatar Realtime API；2026-09-10，又以 MIT 协议开源了一套参考实现，由 OpenAI 的全双工语音模型 GPT-Live-1 驱动 LiveAvatar。
 - 实现方式: 仅负责虚拟人渲染，通过 LiveKit/WebRTC 推流；驱动它的可以是 HeyGen 托管的语音识别-大模型-语音合成流程，也可以是开发者自己的语音智能体。
 - 参数: 1080p · <300 ms median time to first frame · unlimited concurrency
 - 能力维度: 创作可及性, 时间响应性
@@ -1033,6 +1411,44 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 ### 音频驱动的说话人像与全身
 
 由一张图像加语音生成脸部与全身动画：VASA-1、EMO、OmniHuman、Hallo、LivePortrait……
+
+#### LongCat-Video-Avatar 1.5 — 美团 (2026-05)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 语音与音频, 图像, 文字提示 → 输出: 虚拟人（脸 / 身体）, 平面视频
+- 核心想法: 一个可固定版本的开源多人说话场景模型，让实验室可以离线渲染多名虚拟人之间的脚本对话，并保留确切的模型版本。
+- 内容: LongCat-Video-Avatar 1.5 是美团以 MIT 协议开源的音频驱动说话视频模型：根据语音和文字提示（可选参考图），生成稳定的长时 480p 或 720p 视频，人物可以是一人或多人，能说话、唱歌或拿取物品，也支持动漫和动物角色，还能续写已有视频。它是 LongCat-Video-Avatar 1.0（2025 年 12 月）的升级版。
+- 实现方式: 在 LongCat-Video 基础模型上微调，支持音频+文本生视频、音频+文本+图像生视频以及视频续写，可输入单路或多路音频；美团同时发布了一个人类评测基准：6 类场景共 508 组图像-音频样本，由 770 名众包评测者打分。
+- 参数: 480p / 720p · single- or multi-person · MIT licence
+- 能力维度: 感知真实感, 持久性, 情境多样性
+- 视频: https://meigen-ai.github.io/LongCat-Video-Avatar-1.5-Page/videos/teaser/teaser.mp4
+- 项目主页: https://meigen-ai.github.io/LongCat-Video-Avatar-1.5-Page/
+- 代码: https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5
+
+#### Archon：面向完整数字人生成的统一多模态模型（Archon） — Chong Bao, 谷歌 (2026-05-28)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 文字提示, 语音与音频, 视频 → 输出: 虚拟人（脸 / 身体）, 语音 / 声音, 对话 / 文本
+- 核心想法: 当描述、台词、声音、动作和画面都在同一个模型里，虚拟人只需设定一次，就能在实验要改变的那个通道中修改。
+- 内容: Archon 用一个模型完成整个数字人：根据一段文字描述，它可以写出角色台词、念出来、驱动面部和身体动画，并渲染出说话视频；也能以其中任一模态为输入，生成或编辑其余模态（例如改写台词而保留表演）。它在七种同步模态上的 72 项任务中训练。
+- 实现方式: 一个原生自回归多模态模型，为描述、台词、语音、动画（身份、表情、姿态）、语义视频、图像和 RGB 视频分别配备分词器；用语义视频重参数化把视频 token 减少 4 倍，配合语义驱动的视频扩散解码器，并以“模态内思考”链处理含糊的跨模态任务。
+- 参数: 7 modalities · 72 pre-training tasks · 4× video-token reduction
+- 能力维度: 创作可及性, 实验控制, 持久性
+- 论文: https://arxiv.org/abs/2605.30311 (CVPR 2026)
+- 视频: https://www.youtube.com/watch?v=9h2_L9E2KjE
+- 图片: https://zju3dv.github.io/archon/static/framework_cropped.jpg
+- 项目主页: https://zju3dv.github.io/archon/
+
+#### Avatar V — HeyGen (2026-04-08)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用, 公开 API
+- 输入: 视频, 文字提示 → 输出: 虚拟人（脸 / 身体）, 平面视频, 语音 / 声音
+- 核心想法: 把一个人录下的表演与外观分离，一段短录像就能生成同一身份的多种造型，便于制作受控的讲者变体，也带来冒充风险。
+- 内容: Avatar V 是 HeyGen 接替 Avatar IV 的虚拟人模型：只需一段 15 秒的手机录像，就能生成一个人的数字分身，用 177 种以上语言和方言念出任意脚本，并在不同机位、更换服装与场景以及长视频中保持面孔一致。自 2026 年 6 月起，可在网页端和 API 中一次生成长达 30 分钟的连续讲话视频。
+- 实现方式: 专有的视频扩散虚拟人模型，用多角度和长时长素材训练，从参考片段建立身份表征，再以流式推理生成新造型和长镜头；HeyGen 未公开架构。
+- 参数: 15 s reference clip · up to 30 min continuous video (since June 2026) · 177+ languages and dialects (developer-reported)
+- 能力维度: 感知真实感, 持久性, 创作可及性
+- 视频: https://www.youtube.com/watch?v=OGbsSuHLuMc
+- 图片: https://cdn.sanity.io/images/pdhqcmb1/production/2f2a72c9868deb43e26d3ef8a98f7af938632fa4-5760x3240.png?fit=max&fm=png
+- 项目主页: https://www.heygen.com/blog/announcing-avatar-v
+- API 文档: https://developers.heygen.com/
 
 #### SoulX-FlashTalk — Soul AI Lab (2025-12-29)
 - 类型: 模型 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
@@ -1131,11 +1547,22 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 - 视频: https://www.youtube.com/watch?v=LEPaWVbRJ1E
 - 项目主页: https://character.ai
 
+#### MoCha：迈向电影级说话角色生成（MoCha） — Cong Wei, Meta (2025-03-30)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 语音与音频, 文字提示 → 输出: 虚拟人（脸 / 身体）, 平面视频
+- 核心想法: 生成的是社交场景，而不只是说话的人：两个生成的人物你来我往地对话，正是行为研究中剧本化情景片段的素材。
+- 内容: MoCha 直接根据语音和文本提示生成电影风格的“说话角色”：不仅是脸，而是画面中的整个角色，包括手势和动作；借助结构化提示，它还能跨镜头编排两个或更多角色之间的轮流对话。
+- 实现方式: 一个扩散 Transformer 视频模型，用语音-视频窗口注意力对齐语音与视频 token，在带语音标注和带文本标注的视频上联合训练，并用带角色标签的提示模板实现多角色对话。
+- 能力维度: 感知真实感, 行为似真性, 情境多样性
+- 论文: https://arxiv.org/abs/2503.23307 (arXiv 2025)
+- 视频: https://congwei1230.github.io/MoCha/assets/2p/2p_2clip_2talk/2p_2clip_2talk_woman_man_street_2.mp4
+- 项目主页: https://congwei1230.github.io/MoCha/
+
 #### Character-3 — Hedra (2025-03-12)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用, 公开 API
 - 输入: 图像, 语音与音频, 文字提示 → 输出: 虚拟人（脸 / 身体）, 平面视频
 - 核心想法: 让音频驱动的角色视频成为大规模使用的创作工具，也适用于非人类和风格化角色。
-- 内容: Character-3 能把任意角色图像（照片、插画、三维渲染）根据音频和设定情绪与肢体动作的文本提示，变成说话或唱歌的视频，在 Hedra Studio 应用中使用。
+- 内容: Character-3 能把任意角色图像（照片、插画、三维渲染）根据音频和设定情绪与肢体动作的文本提示，变成说话或唱歌的视频，在 Hedra Studio 应用中使用。2026 年 2 月，Hedra 推出后继模型 Omnia，可从单张图像控制镜头、身体动作和背景，同时推出可一次生成最长五分钟视频的 Avatar 模型，两者均可通过 API 使用。
 - 实现方式: 一个同时以图像、文本和音频为条件的“全模态”视频模型（架构未公开）。
 - 能力维度: 创作可及性, 感知真实感
 - 视频: https://www.youtube.com/watch?v=2IcwhZZGJUs
@@ -1218,6 +1645,29 @@ Wan、HunyuanVideo、LTX、CogVideoX、Mochi、Open-Sora 等可以本地运行�
 
 Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE：可驱动的 XR 三维人物。
 
+#### Hologram 全息人像（Meta Ray-Ban Display / Meta VR Glasses）（Hologram (Meta Ray-Ban Display / Meta VR Glasses)） — Meta (2026-09-23)
+- 类型: 产品 / 应用 · 时序: 实时流式 · 获取方式: 候补 / 抢先体验
+- 输入: 语音与音频, 视频 → 输出: 虚拟人（脸 / 身体）
+- 核心想法: 即使没有摄像头对着自己的脸，佩戴者仍能“面对面”出现，因为面孔是从语音推断出来的：对方看到的表情是生成的，而不是拍到的。
+- 内容: Hologram 是在眼镜上打视频电话时使用的照片级实时人脸：用手机做一次简短的自我采集后，通话对方就能看到你的脸和表情；Meta 称在 Meta Ray-Ban Display 上它完全由你的声音驱动。该功能于 2026-09-23 的 Connect 大会发布，2026 年秋季起在美国通过 WhatsApp 向 Ray-Ban Display 用户抢先开放，并将在 2027 年春季随 Meta VR Glasses 推出。
+- 实现方式: 先在 Meta AI 应用中用手机做简短自我采集，建立个人面部模型；再由 hologram 模型根据说话内容和语气推断表情。Meta 尚未公开架构，可能与其 Codec Avatars 研究相关。
+- 能力维度: 感知真实感, 时间响应性
+- 视频: https://about.fb.com/wp-content/uploads/2026/09/02_Hologram.mp4
+- 图片: https://about.fb.com/wp-content/uploads/2026/09/New-Features-for-Meta-Ray-Ban-Display_Header.jpg?w=1200
+- 项目主页: https://about.fb.com/news/2026/09/new-features-for-meta-ray-ban-display-navigation-hologram/
+
+#### FiCA：从单张人像前馈即时生成高斯 Codec Avatars（FiCA） — Kim Youwang, Meta (2026-06-23)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 仅限研究
+- 输入: 图像, 身体、面部与视线追踪 → 输出: 虚拟人（脸 / 身体）, 高斯泼溅 / 辐射场
+- 核心想法: 一张自拍在几秒内变成 Codec Avatar 级别的三维头部，把特定面孔放进 XR 场景的成本降到接近于零。
+- 内容: FiCA（前馈即时高斯 Codec Avatars）只需一张随手拍的人像照片，约五秒即可生成照片级、可驱动的三维高斯头部化身，随后可实时驱动出新的表情，无需针对每个人做优化。
+- 实现方式: 先用微调的 Sapiens 模型把照片展开为不完整的 UV 纹理、法线和几何图，再由 UV 空间扩散模型补全，前馈细化网络增强身份特征，最后由通用 Codec Avatar 先验把网格解码成三维高斯。
+- 参数: single image · ~5 s per avatar · real-time animation
+- 能力维度: 感知真实感, 创作可及性
+- 论文: https://arxiv.org/abs/2606.24232 (arXiv 2026)
+- 视频: https://www.youtube.com/watch?v=oIW3ZooWaQw
+- 项目主页: https://youwangk.github.io/FiCA.html
+
 #### 大规模 Codec Avatars（LCA）（Large-scale Codec Avatars (LCA)） — Junxuan Li, Meta (2026-04-02)
 - 类型: 研究演示 · 时序: 实时流式 · 获取方式: 仅限研究
 - 输入: 图像, 视频 → 输出: 虚拟人（脸 / 身体）, 高斯泼溅 / 辐射场
@@ -1234,7 +1684,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 开源工具 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
 - 输入: 语音与音频 → 输出: 动作 / 动画, 虚拟人（脸 / 身体）
 - 核心想法: 为游戏引擎 NPC 和 XR 智能体提供开放、可检视的“语音到面部”层，可与大模型和语音合成并行运行。
-- 内容: Audio2Face-3D 可根据语音音频实时为绑定好的三维角色生成唇形同步和面部表情；NVIDIA 于 2025 年 9 月开源了模型、SDK 和训练框架，并提供 Unreal Engine 与 Maya 插件。
+- 内容: Audio2Face-3D 可根据语音音频实时为绑定好的三维角色生成唇形同步和面部表情；NVIDIA 于 2025 年 9 月开源了模型、SDK 和训练框架，并提供 Unreal Engine 与 Maya 插件。Audio2Face-3D 微服务 2.0 版（2026 年 3 月）新增基于扩散的 Multi v3.2 模型和可选的舌部 blendshape。
 - 实现方式: 神经网络（回归与扩散两种版本）把音频特征映射为面部 blendshape 或顶点动画以及情绪，属于 NVIDIA ACE 的一部分。
 - 能力维度: 时间响应性, 创作可及性
 - 论文: https://arxiv.org/abs/2508.16401 (arXiv 2025)
@@ -1252,6 +1702,19 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 能力维度: 感知真实感, 时间响应性
 - 视频: https://www.youtube.com/watch?v=81bsjbTN88g
 - 项目主页: https://www.apple.com/os/visionos/
+
+#### LHM：数秒内从单张图像重建可动画人体（LHM） — 阿里通义 (2025-03-13)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 视频 → 输出: 虚拟人（脸 / 身体）, 高斯泼溅 / 辐射场
+- 核心想法: 任何被拍下的人，包括特定的实验助手或参与者本人，都能在几秒内成为场景中的全身三维角色。
+- 内容: LHM（大型可动画人体重建模型）能在几秒内把一张全身照片变成可驱动的三维高斯化身，保留服装和面部细节，并可用从视频中提取的动作来驱动。其后继版本 LHM++ 于 2026 年 3 月开源，支持任意数量的视角输入，8 视角输入只需 8 GB 显存。
+- 实现方式: 多模态 Transformer 用注意力编码人体位置特征和图像特征，并加入头部特征金字塔以保留面部身份，一次前馈即可预测标准姿态下的三维高斯，再通过基于 SMPL-X 的蒙皮驱动。
+- 参数: single image → animatable 3D Gaussian human in seconds · LHM++ (open-sourced 2026-03): any-view input, 8 views on 8 GB GPU
+- 能力维度: 创作可及性, 感知真实感
+- 论文: https://arxiv.org/abs/2503.10625 (arXiv 2025)
+- 视频: https://www.youtube.com/watch?v=tivEpz_yiEo
+- 项目主页: https://aigc3d.github.io/projects/LHM/
+- 代码: https://github.com/aigc3d/LHM
 
 #### LAM 大型化身模型（LAM (Large Avatar Model)） — 阿里通义 (2025-02-25)
 - 类型: 模型 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
@@ -1315,7 +1778,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 产品 / 应用 · 时序: 实时流式 · 获取方式: 产品 / 应用
 - 输入: 场景规格、代码与规则, 多视角拍摄 / 扫描 → 输出: 虚拟人（脸 / 身体）, 网格 / 三维资产
 - 核心想法: 非生成式的基线：人工制作、完整绑定、可控，每个参数都能记录；在可控性上，生成式虚拟人仍难以企及。
-- 内容: MetaHuman Creator 让任何人通过混合扫描人脸并调整皮肤、头发和体型，在几分钟内设计出逼真且完整绑定的数字人，可直接在 Unreal Engine 中驱动；自 Unreal Engine 5.6（2025）起，它在引擎内运行并接受网格或扫描输入。
+- 内容: MetaHuman Creator 让任何人通过混合扫描人脸并调整皮肤、头发和体型，在几分钟内设计出逼真且完整绑定的数字人，可直接在 Unreal Engine 中驱动；自 Unreal Engine 5.6（2025）起，它在引擎内运行并接受网格或扫描输入。MetaHuman 5.8（2026 年 6 月）可把任意拓扑的全身网格转换为 MetaHuman，支持数百到数千个实时角色的人群，并以 MIT 协议开源 RigLogic 与 DNA 库（OpenRigLogic）。
 - 实现方式: 在扫描人脸与身体数据库（来自 3Lateral 和 Cubic Motion）上做参数化混合，配有标准面部绑定和用于实时渲染的多级细节（LOD）。
 - 能力维度: 创作可及性, 感知真实感, 实验控制
 - 视频: https://www.youtube.com/watch?v=OeUBATSJSr0
@@ -1336,6 +1799,45 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 
 建模两人之间的回应信号、视线、手势与轮流发言。
 
+#### ELLSA 2：语音、表情与手势的全双工交互（ELLSA 2） — Siyin Wang, 字节跳动 Seed (2026-10-15)
+- 类型: 研究演示 · 时序: 全双工 · 获取方式: 开源权重 / 代码, 仅限研究
+- 输入: 语音与音频 → 输出: 语音 / 声音, 动作 / 动画, 对话 / 文本
+- 核心想法: 让倾听行为与语音共用同一条全双工时钟，角色在决定接话之前就能用身体对参与者正在说的话作出反应。
+- 内容: ELLSA 2 是一个端到端全双工对话模型，能同时听和说，并为三维角色流式生成上半身手势、手部动作和面部表情，包括在不说话时点头、微笑，以及根据对话内容选择有意义的手势。评测采用人工核验的测试集，涵盖附和、话语重叠与打断；截至 2026 年 10 月，已以 Apache 2.0 协议发布数据处理流程、评测代码、测试集和独立的流式手势-表情生成器，完整的联合模型尚未发布。
+- 实现方式: 一个属于 SALMONN-omni 系列的全双工语音对话主干，将分开的倾听与说话隐藏状态以及双方的预训练声学特征输入一个自回归分块合成器，每 0.8 秒输出 SMPL-H 上半身、手部、FLAME 表情和口型编码；上下文语义调用与模板引导分别决定何时以及如何做出语义手势，训练数据整理自 Seamless Interaction。
+- 参数: gesture/expression codes every 0.8 s · test set 138 clips (67 full-duplex, 71 semantic) · Apache 2.0
+- 能力维度: 行为似真性, 时间响应性, 反应性
+- 论文: https://arxiv.org/abs/2610.21452 (arXiv 2026)
+- 图片: https://raw.githubusercontent.com/bytedance/SALMONN/ELLSA2/code/assets/paper/architecture.png https://arxiv.org/html/2610.21452v1/seg_1.png
+- 项目主页: https://github.com/bytedance/SALMONN/tree/ELLSA2
+- 代码: https://huggingface.co/tsinghua-ee/ELLSA2
+
+#### GLARE：生成做出恰当反应的倾听头像（GLARE） — Zikai Liao (2026-09-30)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 语音与音频, 图像 → 输出: 虚拟人（脸 / 身体）
+- 核心想法: 把倾听行为看作带有时间点的离散、可标注反应，这正是行为编码本来就采用的形式。
+- 内容: GLARE 在两人对话中生成倾听者的面部，并决定何时、以何种方式反应：点头、摇头、微笑、大笑、皱眉或表现惊讶。它附带约 147 小时的说话者-倾听者配对视频，含 64,557 条事件级反应标注，以及衡量反应是否恰当（而不只是画面是否逼真）的指标。
+- 实现方式: 一个流匹配 Transformer 根据说话者音频驱动参考人像，以 Qwen2-Audio 提取的韵律特征为条件，并在从 RealTalk 与 Seamless Interaction 整理出的片段上用时序反应损失训练。
+- 参数: ~147 h paired speaker-listener video · 64,557 reaction annotations · 6 reaction types
+- 能力维度: 行为似真性, 反应性, 实验控制
+- 论文: https://arxiv.org/abs/2609.40317 (NeurIPS 2026)
+- 图片: https://raw.githubusercontent.com/lzk901372/glare/main/overview.png
+- 项目主页: https://github.com/lzk901372/glare
+- 代码: https://github.com/lzk901372/glare
+
+#### Motion-Omni：端到端联合生成语音与全身动作的语音对话模型（Motion-Omni） — Chengqian Ma (2026-08-28)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 开源权重 / 代码
+- 输入: 语音与音频 → 输出: 语音 / 声音, 动作 / 动画, 对话 / 文本
+- 核心想法: 当肢体语言出自选择措辞的同一个模型，手势就能表达级联系统无从得知的信息，例如对它自己决定强调的词加以强调。
+- 内容: Motion-Omni 是一个语音对话模型：对口头提问，它在用语音作答的同时，从同一组隐藏状态直接生成面部表情以及手部、上半身和下半身动作，因此三维角色的手势与说话内容一同产生，而不是在语音生成完后再由另一个模型补上。模型代码、训练方案和数据已开源；截至 2026 年 10 月，权重仍在准备中。
+- 实现方式: 一个基于大语言模型的语音对话模型，语音生成器和动作生成器读取同一组隐藏状态，在语音与动作两个目标上联合训练；作者发现若冻结语音通路，动作就会与语音错位。
+- 能力维度: 行为似真性, 时间响应性
+- 论文: https://arxiv.org/abs/2609.04250 (arXiv 2026)
+- 视频: https://step-out.github.io/Motion-Omni-Page/videos/demo1_feedback_to_interns.mp4
+- 图片: https://step-out.github.io/Motion-Omni-Page/assets/architecture.png
+- 项目主页: https://step-out.github.io/Motion-Omni-Page/
+- 代码: https://github.com/step-out/Motion-Omni
+
 #### Sparrow-2 轮流发言模型（Sparrow-2） — Tavus (2026-08-27)
 - 类型: 模型 · 时序: 回合制 · 获取方式: 公开 API
 - 输入: 语音与音频 → 输出: 智能体行为与动作
@@ -1349,6 +1851,32 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 项目主页: https://www.tavus.io/blog/sparrow-2
 - API 文档: https://docs.tavus.io
 
+#### 倾听重要吗？AI 分身中的附和与点头（Does Listening Matter? Backchanneling and Nodding in an AI Clone） — Koji Inoue (2026-08-20)
+- 类型: 行为研究 · 时序: 回合制 · 获取方式: 仅限研究
+- 输入: 语音与音频 → 输出: 虚拟人（脸 / 身体）, 语音 / 声音, 动作 / 动画
+- 核心想法: 证据表明，分身的逼真度也包括它如何倾听：即使声音和内容不变，附和与点头也会改变人们感受到的临场感。
+- 内容: 京都大学与 Sony CSL 的一项被试内研究（N=35）：参与者与一位真实研究者的 AI 分身（克隆声音、大模型回复）交谈，对比在其说话时有无实时预测的语言附和与点头。加入倾听行为后，分身被评为更专注、更像在与真人交谈，共在感也更强。
+- 实现方式: 采用 AB/BA 平衡的被试内设计，比较有无倾听行为的 AI 分身；倾听行为由基于 Voice Activity Projection 的实时模型驱动，预测附和时机以及点头的时机和运动参数（Kato 等，ICMI 2026）。
+- 参数: N=35 · within-subjects
+- 能力维度: 行为似真性, 时间响应性
+- 论文: https://arxiv.org/abs/2608.19527 (ICMI 2026 (Late-Breaking Results))
+- 图片: https://arxiv.org/html/2608.19527v1/interface-crop.png https://arxiv.org/html/2608.19527v1/system-crop.png
+- 项目主页: https://arxiv.org/abs/2608.19527
+- 代码: https://github.com/MaAI-Kyoto/MaAI
+
+#### STEER：可调控的双人对话头部化身（STEER） — Kartik Teotia (2026-07-26)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
+- 输入: 语音与音频, 身体、面部与视线追踪, 文字提示 → 输出: 虚拟人（脸 / 身体）, 动作 / 动画
+- 核心想法: 视线和点头成为实验者可以设定和记录的自变量，而不是音频的副产品。
+- 内容: STEER 在两人对话中驱动一个三维头部化身，并让使用者调控它如何倾听和反应：注视或回避目光、头部动作的节奏以及情绪都是可同时编辑的显式控制量；它还提供可与真人实时对话的交互界面。
+- 实现方式: 一个因果流匹配动作先验，根据对方的动作与音频以及目标人物自己的音频，生成目标人物 61 维 FLAME 状态（表情、下颌、颈部、眼球转动、眼睑）；视线、头部节奏和情绪控制量来自双人对话语料，由新的追踪与标注流程逐帧标注；推理代码已开源。
+- 能力维度: 实验控制, 行为似真性, 反应性
+- 论文: https://arxiv.org/abs/2607.23840 (SIGGRAPH Asia 2026)
+- 视频: https://kartik-teotia.github.io/STEER/assets/videos/hero-control-with-input.mp4
+- 图片: https://kartik-teotia.github.io/STEER/assets/images/og.png
+- 项目主页: https://kartik-teotia.github.io/STEER/
+- 代码: https://github.com/Kartik-Teotia/STEER
+
 #### VideoFDB 全双工视听对话基准（VideoFDB） — 英伟达 (2026-05-28)
 - 类型: 数据集 / 基准 · 时序: 全双工 · 获取方式: 开源权重 / 代码
 - 输入: 视频, 语音与音频 → 输出: 对话 / 文本, 虚拟人（脸 / 身体）
@@ -1361,6 +1889,30 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://research.nvidia.com/labs/amri/projects/video-fdb/og/videofdb-sunburst.png
 - 项目主页: https://research.nvidia.com/labs/amri/projects/video-fdb/
 - 代码: https://huggingface.co/datasets/nvidia/video-full-duplex-benchmark
+
+#### EmbodiedHead：面向对话智能体的实时倾听与说话头像（EmbodiedHead） — Yu Zhang (2026-04-19)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 仅限研究
+- 输入: 语音与音频, 图像 → 输出: 虚拟人（脸 / 身体）
+- 核心想法: “正在倾听”是脸部必须显式表达的状态；否则虚拟人要么跟着用户的话动嘴，要么在对方说话时僵住。
+- 内容: EmbodiedHead 为大模型语音智能体提供一个既会说也会听的实时头部虚拟人：用户说话时它闭着嘴做出反应，大模型回复时它对口型说话；两种状态在单路音频流中切换，不需要预知对方接下来会说什么。
+- 实现方式: 一个最少四步采样的整流流扩散 Transformer，以参考图、动作幅度和逐帧的倾听/说话状态为条件生成人脸模型系数；流式音频调度器合并用户与大模型的音频作为输入，再由可微渲染器生成画面。
+- 能力维度: 时间响应性, 行为似真性
+- 论文: https://arxiv.org/abs/2604.17211 (ECCV 2026)
+- 视频: https://www.youtube.com/watch?v=rHMcwFDAh-Y
+- 项目主页: https://vpx-ecnu.github.io/EmbodiedHead-Website/
+
+#### AgentHands：为 XR 中空间锚定的智能体对话生成交互式手势（AgentHands） — Ziyi Liu, 谷歌, Ruofei Du (2026-04-13)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
+- 输入: 语音与音频, 透视画面与实时环境, 身体、面部与视线追踪 → 输出: 动作 / 动画, 语音 / 声音, 对话 / 文本
+- 核心想法: 非语言行为可以锚定在参与者所处的真实房间里：智能体说“这个”的那一刻，手势正好落在实物上。
+- 内容: AgentHands 是 Google XR 的研究原型：头显中的语音智能体获得一双虚拟手，能随着话语指向、描摹和演示用户身边的真实物体（例如勾勒兰花的气生根，或在高温的 3D 打印机喷嘴上加一道警示光晕）。在一项被试内研究（N=12）中，与台词相同的纯语音条件相比，参与者明显更容易找到所指物体、理解方向和需要做的动作。
+- 实现方式: 先借助眼动和场景重建把物体登记为三维包围盒；大模型在回复中插入与触发词绑定的 GestureEvent（惯用手、手势、空间性、时间动态、交互性、视觉效果），头显端解析器依据语音合成的逐词时间戳，从手势库中同步播放这些手部动作。系统设计基于一项面向 XR 与手势专家的形成性研究。
+- 参数: N=12 within-subjects · 2 tasks (orchid care, 3D printer) · 6-dimension gesture taxonomy
+- 能力维度: 情境可达性, 行为似真性, 反应性
+- 论文: https://doi.org/10.1145/3772318.3790938 (CHI 2026)
+- 视频: https://storage.googleapis.com/gweb-research2023-media/media/AgentHands1_Demo.mp4
+- 图片: https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg
+- 项目主页: https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/
 
 #### Raven-1 多模态感知模型（Raven-1） — Tavus (2026-02-10)
 - 类型: 模型 · 时序: 实时流式 · 获取方式: 公开 API
@@ -1445,16 +1997,42 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 
 边说边听的语音到语音模型：Moshi、Sesame、GPT realtime、Gemini Live、Hume EVI……
 
+#### Grok Voice 3.0 — xAI (SpaceXSI) (2026-10-14)
+- 类型: 模型 · 时序: 回合制 · 获取方式: 公开 API, 产品 / 应用
+- 输入: 语音与音频 → 输出: 语音 / 声音, 对话 / 文本
+- 核心想法: 语音智能体的排名如今同时考察推理、任务完成与轮流发言，而目前的领先者是为解决客服来电而调校的，并非陪伴型产品。
+- 内容: xAI 的第三代语音到语音模型，在 Voice Agent API 中按每分钟 0.08 美元提供，已用于特斯拉汽车、Grok Bot 的语音模式和 Starlink 客服热线。xAI 引用 Artificial Analysis 2026 年 10 月 13 日的结果：它在 Speech-to-Speech Index 上排名第一（86.9 分，高于 GPT-Live-1 与 Gemini 3.8 Live），在 Full Duplex Bench 上得分 97%。
+- 实现方式: 原生语音到语音模型（架构未公开）；grok-voice-latest 已自动切换到该模型。目前没有公开证据表明它会在用户说话时发出附和，因此按回合制归类。
+- 参数: $0.08/min · <1 s latency (developer claim) · AA Speech-to-Speech Index 86.9
+- 能力维度: 时间响应性, 反应性
+- 图片: https://media.x.ai/v1/website/og-grok-voice-3-0-b281361b.webp
+- 项目主页: https://x.ai/news/grok-voice-3
+
 #### Gemini 3.8 Live — 谷歌 DeepMind (2026-09-15)
 - 类型: 模型 · 时序: 回合制 · 获取方式: 公开 API
 - 输入: 语音与音频, 视频, 文字提示 → 输出: 语音 / 声音, 对话 / 文本
 - 核心想法: 说话时在后台推理，缩小了“反应快”和“想得深”之间的差距，适合需要一边保持回应、一边处理复杂情境逻辑的角色。
 - 内容: 两款用于 Live API 的音频到音频模型，自 2026 年 9 月 15 日起正式可用：Gemini 3.8 Live 面向低延迟对话，Gemini 3.8 Live Extended Thinking 能在对话进行中于后台推理。谷歌重点介绍了异步函数调用与主动音频，即智能体只在相关时才开口。
 - 实现方式: 音频到音频的 Gemini 模型，支持交错推理与默认异步函数调用，接替 2026 年 3 月的 gemini-3.1-flash-live-preview。
+- 参数: audio $0.005/min in · $0.018/min out (paid tier)
 - 能力维度: 时间响应性, 反应性
 - 视频: https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/SeC1i4kt5pDKGMWX/gemini-audio__demo__multi-tasking.webm
 - 项目主页: https://deepmind.google/models/gemini-audio/
 - API 文档: https://ai.google.dev/gemini-api/docs/live
+
+#### 阶跃星辰 StepAudio 3 Realtime（StepAudio 3 Realtime） — 阶跃星辰 (2026-09-12)
+- 类型: 模型 · 时序: 回合制 · 获取方式: 公开 API, 产品 / 应用
+- 输入: 语音与音频 → 输出: 语音 / 声音, 对话 / 文本
+- 核心想法: 从双方两路音频中学到的话轮管理，让语音角色能分辨对方是在附和还是在纠正；不过报告没有展示它自己发出附和。
+- 内容: 阶跃星辰 2026 年的语音对话模型，围绕“听—说—想—做”的循环构建：听者说“对”“嗯”时它会继续讲，真正被打断时让出话轮，边说边在后台私下推理，并在后台调用工具。阶跃星辰报告其在 Artificial Analysis 的 Full Duplex Bench 上排名第一（总分 98.9）；通过阶跃 Realtime API 和 Voice Studio 提供。
+- 实现方式: 混合专家音频语言模型（总参数约 1960 亿、激活 110 亿），以 Step 3.7 Flash 为主干，采用 Qwen3-Omni 的 AuT 音频编码器，用户与模型音频作为两路同步流，并支持边说边想。报告描述了如何处理用户的附和，但没有描述模型自己发出附和，因此按回合制归类。
+- 参数: ~196B MoE (11B active) · AA Full Duplex Bench 98.9 (developer-reported)
+- 能力维度: 时间响应性, 反应性, 行为似真性
+- 论文: https://arxiv.org/abs/2609.14005 (Technical report)
+- 视频: https://stepaudiollm.github.io/step-audio-3-realtime/assets/hero.mp4?v=37c74f6a
+- 图片: https://arxiv.org/html/2609.14005v3/stepaudio3-realtime-main-results.png
+- 项目主页: https://stepaudiollm.github.io/step-audio-3-realtime/
+- API 文档: https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-realtime
 
 #### SeedRealtime 视听全双工大模型（SeedRealtime） — 字节跳动 Seed (2026-08-05)
 - 类型: 模型 · 时序: 全双工 · 获取方式: 产品 / 应用
@@ -1472,7 +2050,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 核心想法: OpenAI 自己告别了回合制语音：主流的 ChatGPT 语音如今会重叠发言、会附和，全双工的对话节奏不再只是研究原型的特性。
 - 内容: 一个全双工语音模型，现在驱动 ChatGPT 语音：它边说边听，会用“嗯哼”“对”表示在听，也能在用户思考时保持安静。较难的请求会在后台交给前沿模型（发布时为 GPT-5.5）处理，对话不中断。GPT-Live-1 于 2026 年 9 月 10 日在 API 中正式可用，GPT-Live-1.1（2026 年 10 月 15 日）为 ChatGPT 增加了新声音和口音。
 - 实现方式: 全双工架构：在生成输出的同时持续处理输入，并把推理任务委托给后台模型；自 2026 年 7 月 31 日起输出带有 SynthID 水印。
-- 参数: GPT-Live-1 and GPT-Live-1 mini · ChatGPT · API GA 2026-09-10 (v1/live/sessions)
+- 参数: GPT-Live-1 and GPT-Live-1 mini · ChatGPT · API GA 2026-09-10 (v1/live/sessions) · $0.05/min billed per second (backend model billed separately)
 - 能力维度: 时间响应性, 行为似真性
 - 视频: https://www.youtube.com/watch?v=EAN5Cj347PY
 - 图片: https://images.ctfassets.net/kftzwdyauwt9/54glGpDpS58mKdx6Y3GobW/6ea5121851a36b8cf0505a96be2de994/bidi-art-card_16_9__1_.png?w=1600&h=900&fit=fill
@@ -1491,6 +2069,19 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://images.ctfassets.net/kftzwdyauwt9/CtzMayHtxIkcMPAo8BpqJ/966285cf3802995841337122190ec2fd/OAI_GPT-Realtime-2_Art_Card_16x9.png.png?w=1600&h=900&fit=fill
 - 项目主页: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/
 - API 文档: https://platform.openai.com/docs/guides/realtime
+
+#### 通义千问 Qwen3.5-Omni（Qwen3.5-Omni） — 阿里通义 (2026-03-30)
+- 类型: 模型 · 时序: 回合制 · 获取方式: 公开 API, 产品 / 应用
+- 输入: 语音与音频, 视频, 文字提示 → 输出: 语音 / 声音, 对话 / 文本
+- 核心想法: 开放的 Qwen-Omni 系列在 2026 年转为仅通过 API 提供，基于 Qwen3-Omni 权重开展工作的实验室只能沿用旧模型，或接受托管服务。
+- 内容: 阿里巴巴 2026 年的全模态模型，能听语音、看视频并用语音回答，通过 Model Studio（qwen3.5-omni-plus）和 Qwen Chat 提供，没有开放权重。Qwen 重点介绍了语义打断、74 种语言的语音识别、29 种语言的富表现力语音生成，以及“音视频氛围编程”：对着摄像头口头描述，就能生成一个网站或小游戏。
+- 实现方式: Thinker-Talker 架构，两部分都采用混合注意力的混合专家结构，训练数据包含超过一亿小时的音视频内容；ARIA 对齐文本与语音单元，使流式语音更稳定。
+- 参数: 256k context · 10+ h audio input · 400 s of 720p video at 1 fps
+- 能力维度: 反应性, 时间响应性
+- 论文: https://arxiv.org/abs/2604.15804 (Technical report)
+- 视频: https://www.youtube.com/watch?v=-iTkqXlhLK8
+- 项目主页: https://qwen.ai/blog?id=qwen3.5-omni
+- API 文档: https://www.alibabacloud.com/help/en/model-studio/qwen-omni
 
 #### Hibiki-Zero 同声传译模型（Hibiki-Zero） — Kyutai (2026-02-12)
 - 类型: 模型 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
@@ -1533,6 +2124,18 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://opengraph.githubassets.com/b3ed03a6cecaddba122da6989b7312f8f08ca56a739ca320f413dca7aaff6350/NVIDIA/personaplex
 - 项目主页: https://research.nvidia.com/labs/adlr/personaplex/
 - 代码: https://github.com/NVIDIA/personaplex
+
+#### Gemini 实时语音翻译（Gemini live speech translation） — 谷歌 DeepMind (2025-12-12)
+- 类型: 模型 · 时序: 实时流式 · 获取方式: 产品 / 应用, 公开 API
+- 输入: 语音与音频 → 输出: 语音 / 声音
+- 核心想法: 让没有共同语言的两个人也能留在同一场口语交流中，扩大了能参与语音驱动情境的人群。
+- 内容: Gemini 原生音频模型提供的连续语音到语音翻译：戴上耳机，Google 翻译应用（2025 年 12 月起测试）会把身边人说的话转成你的语言，同时保留说话人的语调、节奏和音高，覆盖 70 多种语言、2000 多个语言对。谷歌现在在 AI Studio 中以 Gemini 3.5 Live Translate 的名称向开发者提供该模型。
+- 实现方式: 基于 Gemini 2.5 Flash Native Audio（2025 年 12 月更新）的流式音频到音频翻译，保留说话风格并过滤噪声；后续由 Gemini 3.5 Live Translate 接替。
+- 参数: 70+ languages · 2,000+ language pairs
+- 能力维度: 情境可达性, 时间响应性
+- 视频: https://www.youtube.com/watch?v=xdPIwgDriTg
+- 图片: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio-flash__keyword_meta__dark.width-1300.png
+- 项目主页: https://blog.google/products-and-platforms/products/gemini/gemini-audio-model-updates/
 
 #### 通义千问 Qwen3-Omni（Qwen3-Omni） — 阿里通义 (2025-09-22)
 - 类型: 模型 · 时序: 回合制 · 获取方式: 开源权重 / 代码, 公开 API
@@ -1578,7 +2181,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 模型 · 时序: 回合制 · 获取方式: 公开 API, 产品 / 应用
 - 输入: 语音与音频, 文字提示 → 输出: 语音 / 声音, 对话 / 文本
 - 核心想法: 通过提示设计、带情绪表达的声音，让一项研究可以低成本地“选角”出许多不同的虚拟角色。
-- 内容: Hume 的第三代共情语音接口，一个语音-语言模型：能在一秒内根据文字提示生成新的声音和性格，并用它对话。在 Hume 的盲测比较中，它在同理心、表现力、自然度、被打断时的表现和响应速度上的评分高于 GPT-4o。
+- 内容: Hume 的第三代共情语音接口，一个语音-语言模型：能在一秒内根据文字提示生成新的声音和性格，并用它对话。在 Hume 的盲测比较中，它在同理心、表现力、自然度、被打断时的表现和响应速度上的评分高于 GPT-4o。Hume 于 2026 年 10 月 2 日宣布停止提供 EVI 与 TTS API，访问将于 2026 年 11 月 13 日结束。
 - 实现方式: 单一的语音到语音语言模型，流式接收用户语音并同时生成语音与语言，说话时还能调用推理模型与网络搜索。
 - 能力维度: 感知真实感, 适应性
 - 视频: https://www.youtube.com/watch?v=SyO7sRtkcRE
@@ -1614,7 +2217,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 模型 · 时序: 回合制 · 获取方式: 产品 / 应用, 开源权重 / 代码
 - 输入: 语音与音频, 文字提示 → 输出: 语音 / 声音, 对话 / 文本
 - 核心想法: 瞄准“声音临场感”：决定语调的不只是文本，还有此前的对话上下文，而这正是让虚拟对话者显得“在场”的线索。
-- 内容: Sesame 的对话语音模型，通过语音伴侣 Maya 与 Miles 展示：它们会停顿、发笑、变换语气、自我纠正，许多听众难以分辨是否真人。1B 规模的 CSM 于 2025 年 3 月开源权重；2026 年 Sesame 已在 iOS 与 Android 应用中提供其智能体，并宣布了眼镜产品。
+- 内容: Sesame 的对话语音模型，通过语音伴侣 Maya 与 Miles 展示：它们会停顿、发笑、变换语气、自我纠正，许多听众难以分辨是否真人。1B 规模的 CSM 于 2025 年 3 月开源权重；自 2026 年 10 月 6 日起，Sesame 的语音助手在其 iOS 与 Android 应用中向所有人开放，眼镜计划于 2027 年推出。
 - 实现方式: 两个基于交错文本与音频标记的自回归 Transformer：主干根据对话历史预测第一层 RVQ 码本，小型解码器预测其余各层；训练数据约一百万小时，以英语为主。
 - 参数: Tiny 1B · Small 3B · Medium 8B backbones · CSM-1B open (Apache 2.0)
 - 能力维度: 感知真实感, 行为似真性
@@ -1677,6 +2280,18 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 
 带情绪、节奏与音色设计的语音合成；用几秒音频克隆声音。
 
+#### Drama 3 多角色语音合成（Drama 3） — Fish Audio (2026-10-13)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码, 公开 API, 产品 / 应用
+- 输入: 文字提示, 语音与音频 → 输出: 语音 / 声音
+- 核心想法: 整场多声音的戏可以在实验室自己的 GPU 上生成并固定版本，而不必逐句租用封闭的语音 API。
+- 内容: 一个面向多角色场景的开源权重语音合成模型：一段脚本最多可包含 16 个带标签的说话人，每个声音都可以用一小段参考音频克隆，并支持 [sighs]、[laughs] 这类行内提示。Fish Audio 于 2026 年 10 月 13 日在 Hugging Face 以其研究许可发布权重，Artificial Analysis 将其预览版列为开源权重语音合成模型第一名。
+- 实现方式: 混合专家文本主干（350 亿参数，每个词元激活 30 亿），结合全注意力与线性注意力，配合因果多码本音频解码器（10 个码本）；可用 SGLang-Omni 与 vLLM-Omni 部署。
+- 参数: 35B MoE (3B active) · up to 16 speakers · 83 languages (developer claim)
+- 能力维度: 感知真实感, 创作可及性, 情境多样性
+- 视频: https://www.youtube.com/watch?v=L5IjgBBuCpg
+- 项目主页: https://huggingface.co/fishaudio/drama-3
+- 代码: https://huggingface.co/fishaudio/drama-3
+
 #### Eleven v4 — ElevenLabs (2026-09-28)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 公开 API, 产品 / 应用
 - 输入: 文字提示 → 输出: 语音 / 声音
@@ -1689,6 +2304,41 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://eleven-public-cdn.elevenlabs.io/payloadcms/3o2hqbr4pb7-1920x1080.webp
 - 项目主页: https://elevenlabs.io/blog/eleven-v4
 - API 文档: https://elevenlabs.io/docs
+
+#### Gemini 3.8 Flash 语音合成（Gemini 3.8 Flash TTS） — 谷歌 DeepMind (2026-09-22)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 公开 API
+- 输入: 文字提示, 语音与音频 → 输出: 语音 / 声音
+- 核心想法: 可以跨会话保存的提示设计声音，让低成本地为一组角色稳定“选角”成为可能，克隆声音时还内置了授权核验。
+- 内容: 谷歌的语音合成模型，自 2026 年 9 月 22 日起在 Gemini API 中正式可用：Gemini 3.8 Flash TTS 面向有表演指导的演绎、地方口音和双人对话，Flash-Lite TTS 面向大批量生成和实时智能体流程。新的 Voices 接口可以根据文字提示设计可长期保存的声音，并在验证授权后复刻某个声音；两天后，Hume 的 Real World VoiceEQ 排行榜把 Flash TTS 排在第一位。
+- 实现方式: 基于 Gemini 的语音生成（架构未公开），用自然语言指导发声；Flash-Lite 取代 2026 年 4 月的 gemini-3.1-flash-tts-preview。
+- 参数: 150+ prebuilt and custom voices · two-speaker dialogue
+- 能力维度: 创作可及性, 感知真实感, 情境多样性
+- 视频: https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/nqVLpNNIjrfo9GQS/TTSfinal.webm
+- 项目主页: https://deepmind.google/models/gemini-audio/
+- API 文档: https://ai.google.dev/gemini-api/docs/changelog
+
+#### Realtime TTS-2 实时语音合成（Realtime TTS-2） — Inworld AI (2026-05-05)
+- 类型: 模型 · 时序: 回合制 · 获取方式: 公开 API
+- 输入: 文字提示, 语音与音频 → 输出: 语音 / 声音
+- 核心想法: 根据对方实际的说话语气来调整发声，让脚本化的角色无需逐句标注也能有情绪上的回应。
+- 内容: Inworld 面向实时对话的语音合成模型：它能听到前几轮对话的音频，因此同一句话在坏消息之后会更柔和，在玩笑之后会更明快；它还接受用日常英语写的表演指示，例如 [speak tired but warm]。2026 年 5 月 5 日发布，8 月 31 日起正式可用；Inworld 的 Realtime API 把它封装成语音到语音会话，宣传为全双工，但实际上要等用户说完才回应，被打断时停止说话。
+- 实现方式: 以前几轮对话音频为上下文的语音合成模型，支持自然语言表演指示标签和用文字描述设计声音；2026 年 8 月 9 日推出的 Flash 版本去掉表演指示以换取更低延迟。
+- 参数: TTS-2 ~100 ms · TTS-2 Flash 20 ms time to first audio (server-side P90, developer claim) · 100+ languages
+- 能力维度: 行为似真性, 时间响应性, 创作可及性
+- 视频: https://www.youtube.com/watch?v=Y82bWkYKOMw
+- 项目主页: https://inworld.ai/blog/realtime-tts-2
+- API 文档: https://docs.inworld.ai/release-notes/tts
+
+#### Seed Speech 2.0 语音合成与识别（Seed Speech 2.0） — 字节跳动 Seed (2026-03-16)
+- 类型: 模型 · 时序: 回合制 · 获取方式: 公开 API
+- 输入: 文字提示, 语音与音频 → 输出: 语音 / 声音
+- 核心想法: 与 Inworld 的 TTS-2 类似，它让回答的语气取决于对方刚刚说了什么，这是脚本化语音流程原本缺少的线索。
+- 内容: 字节跳动 2026 年在 BytePlus 上推出的语音技术组合，包含 TTS 2.0 与 ASR 2.0。TTS 2.0 会把用户的问题和它要说出的回答一起理解，使语气、节奏和停顿契合这次交流；提示词或参考上下文可以设定情绪、语速、音高、音色和风格。BytePlus 报告其朗读数学与科学公式的准确率约为 90%。
+- 实现方式: 以对话中的提问和回答文本共同为条件的“问—答”式语音合成，并支持提示词与参考上下文控制（架构未公开）。
+- 能力维度: 行为似真性, 创作可及性
+- 视频: https://www.youtube.com/watch?v=Rno7SlzOPh8
+- 图片: https://sf-bpcms.bytepluscdn.com/obj/byteplus-public-aiso/onebyte/seedspeech-kv-a193a405-a1a1-493f-90c8-986aad92486c.png
+- 项目主页: https://www.byteplus.com/en/blog/seed-speech-2-0
 
 #### TADA — Hume AI (2026-03-10)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
@@ -1703,6 +2353,18 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://cdn.sanity.io/images/xqnc2for/production/05620681ef774dc41236f42520a269829e11851a-4800x2520.png?w=1200&h=630
 - 项目主页: https://www.hume.ai/blog/opensource-tada
 - 代码: https://github.com/HumeAI/tada
+
+#### Gradium — Gradium (2025-12-02)
+- 类型: 平台 / API · 时序: 回合制 · 获取方式: 公开 API
+- 输入: 文字提示, 语音与音频 → 输出: 语音 / 声音
+- 核心想法: 做出第一个开源全双工模型的团队，如今出售的是快速的级联组件，这说明了 2026 年生产环境中语音智能体所处的位置。
+- 内容: 一家 2025 年由 Kyutai 的 Moshi 研究者（Neil Zeghidour、Alexandre Défossez、Laurent Mazaré、Olivier Teboul）创立的语音 AI 公司，为语音智能体提供流式语音合成、语音识别、实时翻译、声音克隆、提示式声音设计和端侧语音合成。2025 年 12 月以 7000 万美元种子轮亮相，2026 年 7 月扩展到 1 亿美元，并报告语音合成延迟低于 50 毫秒、声音库达 1400 个（2026 年 10 月）。
+- 实现方式: 流式语音合成与语音识别模型（很可能源自 Kyutai 的延迟流建模工作），以及提示式声音设计；Gradium 报告在盲听两两比较中，母语者有 72.6% 的情况更偏好其声音而非五家竞品。
+- 参数: sub-50 ms TTS latency (developer claim) · 1.4k voices · EN/FR/ES/DE/PT
+- 能力维度: 时间响应性, 创作可及性
+- 视频: https://www.youtube.com/watch?v=qaaaXWs_bMg
+- 图片: https://gradium.ai/assets/og-voice-ai.jpg
+- 项目主页: https://gradium.ai
 
 #### Eleven v3 — ElevenLabs (2025-06)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 公开 API, 产品 / 应用
@@ -1733,7 +2395,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 公开 API, 产品 / 应用
 - 输入: 文字提示 → 输出: 语音 / 声音
 - 核心想法: 用描述来设计声音，实验者可以直接指定角色（“一位紧张的年轻急救员”），而不必在现成声音库里翻找。
-- 内容: Hume 基于大模型的语音合成：能从剧本中推断台词该怎么说（低声说出秘密、得意地高喊），并能根据文字描述创造新的声音。之后的 Octave 2 扩展到更多语言。
+- 内容: Hume 基于大模型的语音合成：能从剧本中推断台词该怎么说（低声说出秘密、得意地高喊），并能根据文字描述创造新的声音。之后的 Octave 2 扩展到更多语言。Hume 于 2026 年 10 月 2 日宣布停止提供 EVI 与 TTS API，访问将于 2026 年 11 月 13 日结束。
 - 实现方式: 一个经训练能理解并合成语音的语音-语言模型，根据文本、表演指示和上下文预测语调、节奏与音色。
 - 能力维度: 感知真实感, 创作可及性
 - 视频: https://www.youtube.com/watch?v=rKcgsg0HBlY
@@ -1744,6 +2406,77 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 ### 音效、音乐与视频配音
 
 生成拟音、环境声、音乐，以及与视频同步的配乐。
+
+#### Instant Soundtracks 视频即时配乐（Instant Soundtracks） — ElevenLabs (2026-10-15)
+- 类型: 产品 / 应用 · 时序: 预先生成 · 获取方式: 产品 / 应用, 公开 API
+- 输入: 视频 → 输出: 音效、音乐与空间音频
+- 核心想法: 音乐与音效以分开且带时间点的图层返回，而不是一条合成好的音轨，因此可以按实验条件分别修改。
+- 内容: ElevenLabs 的一项功能：为上传的视频配上原创音乐，并在模型识别出的时刻放置生成的音效，例如标志出现时的“嗖”声；音效保留在独立的图层上，可以移动或替换。它还能把视频原有的音频作为曲风、速度与配器的参考，自 2026 年 10 月 15 日起在 ElevenCreative、ElevenMusic 和 API 中提供。
+- 实现方式: 通过视频分析找出音效时机与情绪变化，驱动 ElevenLabs 的音乐模型（很可能是 Music v2）和音效生成，并对齐到编辑器时间线上的时间点。
+- 能力维度: 创作可及性, 感知真实感
+- 视频: https://www.youtube.com/watch?v=WtPiZ0ym13k
+- 图片: https://eleven-public-cdn.elevenlabs.io/payloadcms/sm49fesxdni-Blog-cover.webp
+- 项目主页: https://elevenlabs.io/blog/introducing-instant-soundtracks
+
+#### Mirelo SFX 2.0 视频生成音效（Mirelo SFX 2.0） — Mirelo (2026-10-14)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 公开 API, 产品 / 应用
+- 输入: 视频 → 输出: 音效、音乐与空间音频
+- 核心想法: 把声音层重新从生成视频中分离出来，研究者可以固定画面，只改变听到的内容。
+- 内容: 一个视频生成音效模型，无需重新生成画面就能替换片段的声音：它保留对白，去掉不需要的音乐，生成与动作同步、跨镜头保持一致的音效、拟音和环境声，单个视频最长 10 分钟。2026 年 10 月 14 日在 Mirelo 的工作室和 API 上线，也可在 fal、Runway 等平台使用。
+- 实现方式: 以视频为条件的音频生成，包含对白检测与保留、非对白音频去除（架构未公开）；Mirelo 报告了与其他视频生成音效模型及视频模型原生音频的盲听比较。
+- 参数: up to 10 min per pass (Studio and API)
+- 能力维度: 感知真实感, 实验控制, 创作可及性
+- 视频: https://x.com/MireloAI/status/2110360787780800611
+- 图片: https://mirelo.ai/marketing/blog/mirelo-sfx-2-0-hero.jpg
+- 项目主页: https://mirelo.ai/blog/mirelo-sfx-2-0
+
+#### Passing — Ryu Furusawa, 索尼 (2026-09-23)
+- 类型: 体验 / 艺术作品 · 时序: 实时流式
+- 输入: 视频, 身体、面部与视线追踪 → 输出: 音效、音乐与空间音频, 平面视频
+- 核心想法: 把视频生成音频模型当作一位实时“聆听者”，面对它从未见过的画面，并让观众的在场引导它听到什么。
+- 内容: 一件影像装置：把一段连续拍摄的单轨列车车窗影像当作时空体重新采样，变成一段没有尽头、不断变化的旅程；摄像头检测屏幕前是否有人，并据此引导画面转换。影像流由索尼的实时视频生成音频模型 SpecMaskFoley 现场配声，为一个不再遵循常规时空的风景“设想”出可能的声音。
+- 实现方式: 把帧堆叠成时空体并沿非线性轨迹切片；基于摄像头的在场检测选择片段；实时 SpecMaskFoley 生成同步声景。
+- 能力维度: 共创与能动性, 反应性
+- 论文: https://arxiv.org/abs/2609.27489 (NeurIPS 2026 Creative AI Track)
+- 视频: https://vimeo.com/1188576972
+- 图片: https://live.staticflickr.com/65535/55220401637_78df0d4611_b.jpg
+- 项目主页: https://ryufurusawa.com/passing
+
+#### 阶跃星辰 StepAudio 3 Gen 全要素音频生成（StepAudio 3 Gen） — 阶跃星辰 (2026-09-11)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 公开 API, 候补 / 抢先体验
+- 输入: 文字提示, 语音与音频 → 输出: 语音 / 声音, 音效、音乐与空间音频
+- 核心想法: 从生成一句台词走向生成一个声音情境：谁在说话、周围发生了什么、配什么音乐，都用文字一并设定。
+- 内容: 一个通用音频模型，能根据一段描述生成完整的声音场景：多个角色以设计好的音色、情绪和方言彼此对话，再加上音效、环境声、背景音乐和演唱，并按指定顺序排在同一条时间线上。阶跃星辰于 2026 年 9 月 11 日以免费预览形式在 API 中发布（stepaudio-3-gen-preview），同时推出 StepAudio 3 TTS 与 Music。
+- 实现方式: 在语音、音效与音乐共享的 12.5 Hz RVQ 码空间（16 × 2048）上做离散自回归生成：主干沿时间预测第一层码本，轻量因果 Transformer 补全其余十五层；采用考虑干扰的渐进式预训练，以保留大模型的文本能力。
+- 参数: 12.5 Hz tokenizer · 16 × 2048 RVQ · free preview
+- 能力维度: 创作可及性, 情境可达性, 情境多样性
+- 论文: https://arxiv.org/abs/2609.12945 (Technical report)
+- 视频: https://stepaudiollm.github.io/step-audio-3-gen/video/gen-hero-overview.mp4
+- 项目主页: https://stepaudiollm.github.io/step-audio-3-gen/
+- API 文档: https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-gen
+
+#### Suno v6 — Suno (2026-09-09)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用
+- 输入: 文字提示, 语音与音频 → 输出: 音效、音乐与空间音频, 语音 / 声音
+- 核心想法: 与唱片公司合作训练、而非抓取曲库，成了前沿音乐模型的卖点之一；当生成音乐出现在发表的研究或展出的作品中时，这一点很重要。
+- 内容: Suno 2026 年的新一代音乐模型，与华纳音乐、BMG 和 Believe 合作开发；Suno 称其更快、更有表现力、可控性更强，同时对上传的音频和歌词进行未授权使用筛查。2026 年 10 月 1 日，Suno 又推出 Speech（测试版），把人声朗读与背景音乐作为一条音轨同时生成。
+- 实现方式: 与唱片公司和版权方合作开发的音乐生成模型（架构未公开），并对上传内容做未授权素材筛查。
+- 能力维度: 感知真实感, 创作可及性
+- 视频: https://www.youtube.com/watch?v=_lHvWn2SNC4
+- 图片: https://suno.com/blog/introducing-v6/opengraph-image?4a0be6b3238f1ddc
+- 项目主页: https://suno.com/blog/introducing-v6
+
+#### MiniMax Music 3.0 音乐生成模型（MiniMax Music 3.0） — 稀宇科技 MiniMax（海螺 AI） (2026-08-13)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码, 公开 API
+- 输入: 文字提示 → 输出: 音效、音乐与空间音频
+- 核心想法: 为实验室提供一个开放、可固定版本、能按段落控制的完整歌曲生成模型，而不是封闭的订阅应用。
+- 内容: MiniMax 的开源权重歌曲模型：根据带段落标签的歌词和结构化描述（曲风、BPM、调性、人声、编曲），一次生成最长五分钟、带人声的完整歌曲。权重已发布在 Hugging Face 和 GitHub，也可通过 MiniMax API 调用。
+- 实现方式: 混合语言模型：80 亿参数的全局大模型（由 Qwen3-8B 初始化）预测八层 RVQ 中的第一层以把握长程结构，6 亿参数的局部模型预测其余各层，再由 24 亿参数的流匹配解码器结合 Flow-VAE，从两者融合的隐藏状态渲染 32 kHz 音频。
+- 参数: 8B global + 0.6B local LM · 2.4B flow matching · up to 5 min · 32 kHz
+- 能力维度: 创作可及性, 实验控制, 情境多样性
+- 图片: https://file.cdn.minimax.io/public/32b0b01d-d945-4c9d-a8e0-8bb9204737c2.png
+- 项目主页: https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model
+- 代码: https://huggingface.co/MiniMaxAI/MiniMax-Music3
 
 #### Seed Audio 1.0 音频创作模型（Seed Audio 1.0） — 字节跳动 Seed (2026-07-20)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 公开 API
@@ -1817,6 +2550,31 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 项目主页: https://elevenlabs.io/blog/eleven-music-is-here
 - API 文档: https://elevenlabs.io/docs
 
+#### ThinkSound：思维链引导的视频配音（ThinkSound） — Huadai Liu, 阿里通义 (2025-06-26)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码, 仅限研究
+- 输入: 视频, 文字提示 → 输出: 音效、音乐与空间音频
+- 核心想法: 声音设计变成一串可以检查的推理步骤，人可以逐个物体地加以引导。
+- 内容: 一个开源的视频生成音频模型，先推理再配声：先为无声片段生成连贯的拟音，再让用户点选某个物体细化它的声音，最后根据文字指令编辑结果；每个阶段都由多模态大模型写出思维链来引导。由阿里通义语音团队连同 AudioCoT 数据集一起发布，论文发表于 NeurIPS 2025。
+- 实现方式: 多模态大模型生成关于画面动态与声学环境的思维链描述，用来驱动统一的流匹配音频基础模型，覆盖生成、以物体为中心的细化和基于指令的编辑三个阶段。
+- 能力维度: 创作可及性, 实验控制, 感知真实感
+- 论文: https://arxiv.org/abs/2506.21448 (NeurIPS 2025)
+- 视频: https://raw.githubusercontent.com/ThinkSound-Demo/ThinkSound-Demo.github.io/main/interactive/iter1/_8JGpCc5RI8_000160_stage1.mp4
+- 项目主页: https://thinksound-project.github.io/
+- 代码: https://github.com/QwenAudio/ThinkSound
+
+#### 可灵 Kling-Foley 视频拟音（Kling-Foley） — 快手 / 可灵 (2025-06-24)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 视频, 文字提示 → 输出: 音效、音乐与空间音频
+- 核心想法: 展示了前沿视频团队如何先把声音做成独立、可适应时长的环节，再把音频并入视频模型本身。
+- 内容: 快手可灵团队的视频生成音频模型：根据视频和可选的文字提示，生成与画面同步、任意时长的立体声音效与背景音乐。快手随之开源了工业级评测基准 Kling-Audio-Eval，但没有公开模型权重。
+- 实现方式: 以文本、视频和逐帧特征联合为条件的多模态流匹配 MMDiT 预测 VAE 隐变量，解码为单声道梅尔谱，经 Mono2Stereo 模块转为立体声后再由声码器合成波形。
+- 能力维度: 感知真实感, 情境可达性
+- 论文: https://arxiv.org/abs/2506.19774 (arXiv 2025)
+- 视频: https://p2-kling.klingai.com/kcdn/cdn-kcdn112595/00.mp4
+- 图片: https://klingfoley.github.io/Kling-Foley/static/image/kling.png
+- 项目主页: https://klingfoley.github.io/Kling-Foley/
+- 代码: https://github.com/klingfoley/Kling-Foley
+
 #### Lyria RealTime — 谷歌 DeepMind (2025-05)
 - 类型: 模型 · 时序: 实时流式 · 获取方式: 公开 API, 产品 / 应用
 - 输入: 文字提示 → 输出: 音效、音乐与空间音频
@@ -1855,6 +2613,57 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 ### 空间与全景声音频
 
 在三维空间中定位与渲染的声音，为头显生成或升混。
+
+#### WorldSonus：为世界模型配上声音（WorldSonus） — Pengjun Fang (2026-10-06)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 开源权重 / 代码, 仅限研究
+- 输入: 视频, 文字提示 → 输出: 音效、音乐与空间音频
+- 核心想法: 声音可以和可玩的世界模型同步实时生成，并在体验过程中被改变方向，而不是事后为成片补配。
+- 内容: 一个流式视频生成音频模型，目标是为交互式世界模型配上声音：随着画面帧到来，它以 100 毫秒为单位生成立体声，跟随镜头运动与场景布局，并能在生成过程中接受新的声音指令。作者报告其实时率为 0.41，在开放领域的视频生成音频基准上与离线双向模型质量相当；权重以非商用许可发布。
+- 实现方式: 对音频片段做因果自回归扩散，用面向音频的字幕流程生成按片段编号调度的提示，并以从立体声与全景声录音中整理出的立体声数据进行监督训练。
+- 参数: stereo · 100 ms chunks · RTF 0.41 · CC BY-NC 4.0 weights
+- 能力维度: 时间响应性, 感知真实感, 实验控制
+- 论文: https://arxiv.org/abs/2610.08760 (arXiv 2026)
+- 视频: https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/overview-ust-l4-smaller-hq-20261007-v1/h264/overview.mp4
+- 图片: https://noizai.github.io/WorldSonus/assets/method-overview-v27.png
+- 项目主页: https://noizai.github.io/WorldSonus/
+- 代码: https://github.com/NoizAI/WorldSonus
+
+#### StereoBind：音视频联合生成中的动态立体声（StereoBind） — Hanmo Chen (2026-09-30)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 文字提示 → 输出: 平面视频, 音效、音乐与空间音频
+- 核心想法: 生成视频的原生音频开始带有方向感，这正是头显所需、而单声道配乐缺少的线索。
+- 内容: 把音视频联合生成扩展到立体声，让生成的声音随画面中的声源左右移动，作者称之为“动态空间对应”。西安电子科技大学与 vivo 团队还构建了带运动轨迹的立体声音视频数据集 StereoWorld-29K，以及衡量音画空间一致性的 StereoWorldBench。
+- 实现方式: 用运动轨迹为音视频联合生成器提供条件：视觉运动绑定建立声源对应，空间轨迹编码器表示声源的绝对位置，残差轨迹 RoPE 刻画相对运动。
+- 参数: StereoWorld-29K dataset · StereoWorldBench
+- 能力维度: 感知真实感, 实验控制
+- 论文: https://arxiv.org/abs/2609.38748 (arXiv 2026)
+- 视频: https://vivocameraresearch.github.io/Stereo-Bind-Project/media/case-video.mp4
+- 图片: https://vivocameraresearch.github.io/Stereo-Bind-Project/media/teaser.jpg
+- 项目主页: https://vivocameraresearch.github.io/Stereo-Bind-Project/
+
+#### Audible World Models：为三维世界生成空间感知的声音（Audible World Models） — Duowen Chen (2026-09-29)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 文字提示 → 输出: 音效、音乐与空间音频
+- 核心想法: 把声音放进世界状态而不是渲染出的视频里，访客绕着声源走动时，声源仍待在原处。
+- 内容: 一个无需训练的流程，为文本生成的三维世界配上位置固定的声源：先构建世界的全景三维代理，找出发声物体与环境声区域，为每一项合成干声，再按听者的移动渲染其听到的声音。在 80 个生成场景上，作者（佐治亚理工学院与杜比）报告其空间一致性高于以文本、视频和全景图为条件的基线；论文发表于 NeurIPS 2026。
+- 实现方式: 全景图转三维代理并做语义分层，按标签合成干声，把声源锚定到重建的几何上，再用几何声学传播做随听者位置变化的渲染。
+- 参数: 80 generated scenes evaluated
+- 能力维度: 持久性, 感知真实感, 实验控制
+- 论文: https://arxiv.org/abs/2609.38444 (NeurIPS 2026)
+- 图片: https://arxiv.org/html/2609.38444v1/img/Picture2.png
+- 项目主页: https://arxiv.org/abs/2609.38444
+
+#### OmniDream：从任意视频生成沉浸式视听体验（OmniDream） — Zitong Lan (2026-09-28)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 视频 → 输出: 音效、音乐与空间音频, 360° / 立体视频
+- 核心想法: 任意一段普通视频都能变成可以环顾、且各个方向听起来都对的场景，无需录制空间音频。
+- 内容: 把一段无声、视野狭窄的视频变成 360° 视听场景：在把画面扩展为全景的同时，为每个可见声源单独生成声音，经模拟场景传播后渲染成空间音频，观众转头环顾时声音始终与画面对齐。宾夕法尼亚大学的作者报告，其音画对齐、空间正确性与主观沉浸感均优于基线。
+- 实现方式: 无需训练：以物体为中心的音频表示把每个声源的本征声音与场景相关的声学效果分开，从而分别生成声源、用物理方法模拟传播，并渲染为一阶全景声。
+- 能力维度: 感知真实感, 情境可达性
+- 论文: https://arxiv.org/abs/2609.36295 (arXiv 2026)
+- 视频: https://huggingface.co/spaces/CuriousAlien000/spatial-audio-360-demo/resolve/main/media/elephant/elephant_acoustic.mp4
+- 图片: https://arxiv.org/html/2609.36295v1/teaser_v2.png
+- 项目主页: https://huggingface.co/spaces/CuriousAlien000/spatial-audio-360-demo
 
 #### ViSAGe：视频生成空间音频（ViSAGe） — Jaeyeon Kim (2025-06-13)
 - 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码, 仅限研究
@@ -1915,7 +2724,20 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 
 由文字或一张图像生成可交互的世界：Genie 3、Project Genie、GWM-1、Mirage、Odyssey、Matrix-Game、Hunyuan-GameCraft……
 
-#### Agora-2：多智能体世界模型（Agora-2） — Odyssey (2026-09)
+#### WorldPlay2 — Haiyu Zhang (2026-09-28)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 仅限研究
+- 输入: 文字提示, 图像, 键盘与手柄动作 → 输出: 交互式帧流
+- 核心想法: 在提示中把“世界是什么”“我是谁”“现在发生什么”分开，是在运行中的世界里编排事件的一步。
+- 内容: 腾讯混元 WorldPlay（HY-World 1.5）的后续研究，作者多有重合：一个实时世界模型，由键盘与镜头动作以及结构化文字共同驱动，文字分别设定场景、被控角色和定时事件（点燃炉灶、气球升起），并在更长的旅程中保持一致。
+- 实现方式: 分解式混合控制（逐帧对齐的动作，加上拆分为场景、实体与事件三个字段的描述），把历史帧压缩为紧凑记忆 token 的可学习压缩器，以及蒸馏为少步自回归学生模型的 “Stable Forcing” 方法。
+- 能力维度: 实验控制, 持久性, 反应性
+- 论文: https://arxiv.org/abs/2609.35560 (arXiv 2026)
+- 视频: https://www.youtube.com/watch?v=_pFzHHslhgc
+- 图片: https://worldplay2.github.io/assets/figures/overview.webp
+- 项目主页: https://worldplay2.github.io/
+- 代码: https://github.com/WorldPlay2/WorldPlay2
+
+#### Agora-2：多智能体世界模型（Agora-2） — Odyssey (2026-09-24)
 - 类型: 模型 · 时序: 实时流式 · 获取方式: 候补 / 抢先体验
 - 输入: 键盘与手柄动作 → 输出: 交互式帧流, 智能体行为与动作
 - 核心想法: 共享的生成世界是社会情境的前提；Agora-2 展示了它的可行性，但目前局限于一款游戏的画面世界。
@@ -1939,6 +2761,20 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://media.pixverse.ai/asset/blog/pixverse-r2-real-time-omni-world-model-cover-v5.webp
 - 项目主页: https://pixverse.ai/en/model/pixverse-r2
 
+#### Astronex-World 1.0 — Astronex (2026-09-17)
+- 类型: 开源工具 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示, 图像, 键盘与手柄动作 → 输出: 交互式帧流
+- 核心想法: 一个小型开源模型用同一个动作接口处理镜头、游戏操控与机器人，便于在不同具身形态下测试同一情境。
+- 内容: 一个以 Apache 2.0 协议开源权重的世界模型基座：根据提示或首帧，在镜头轨迹、连续动作和具身标识的条件下预测视频，并接受在推演中指定位置插入的文字事件；其因果版本可在单张 48 GB GPU 上实时流式生成。
+- 实现方式: 基于 Wan2.2-TI2V-5B 视频先验，用 PRoPE 编码相机参数，以 64 维动作流调制每一层 Transformer，并提供带跨块 KV 缓存的块因果版本；五个训练阶段均在两张 NVIDIA L20 上完成。
+- 参数: 5B parameters · 832×480 · 24 fps on one L20 48 GB (developer-reported)
+- 能力维度: 实验控制, 反应性
+- 论文: https://arxiv.org/abs/2609.20034 (arXiv 2026)
+- 视频: https://world.astronex.com.cn/assets/videos/Astronex_01_720p24.mp4
+- 图片: https://world.astronex.com.cn/assets/img/teaser.jpg
+- 项目主页: https://world.astronex.com.cn/
+- 代码: https://github.com/Astronex-Robotics/Astronex-World
+
 #### GWM Worlds 2 — Runway (2026-09-03)
 - 类型: 模型 · 时序: 实时流式 · 获取方式: 候补 / 抢先体验
 - 输入: 文字提示, 镜头路径 / 位姿, 图像 → 输出: 交互式帧流, 音效、音乐与空间音频
@@ -1950,6 +2786,32 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 视频: https://www.youtube.com/watch?v=pmjyB-lc4KQ
 - 图片: https://d3phaj0sisr2ct.cloudfront.net/site/research/gwm-worlds-2/images/gwm-worlds-2-card.webp
 - 项目主页: https://runway.com/research/introducing-gwm-worlds-2
+
+#### HelixWorld — Noiz AI (2026-09-03)
+- 类型: 开源工具 · 时序: 实时流式 · 获取方式: 开源权重 / 代码, 候补 / 抢先体验
+- 输入: 图像, 文字提示, 键盘与手柄动作 → 输出: 交互式帧流, 音效、音乐与空间音频
+- 核心想法: 随头部与镜头移动而变化的空间声音正是头显体验所需要的；它是最早直接生成、而不是事后配音的世界模型之一。
+- 内容: Noiz AI 与香港科技大学推出的实时世界模型，同时生成视频与随镜头变化的立体声：声场随视角转动，声音随引发它的动作起止；网页预览版可以把上传的照片变成带声音的可进入世界，代码以 Apache 2.0 协议开源。
+- 实现方式: 以 6 自由度镜头轨迹和用户动作为条件的双向音视频教师模型，在带有度量级相机位姿的立体声数据集上训练，再蒸馏为因果、低延迟的学生模型。
+- 参数: 768×512 · 24 fps · real-time factor 0.77 on one H800 (developer-reported)
+- 能力维度: 感知真实感, 时间响应性
+- 论文: https://arxiv.org/abs/2609.38123 (arXiv 2026)
+- 视频: https://www.youtube.com/watch?v=cSLm_BPwJ2U
+- 项目主页: https://helixworld.org/
+- 代码: https://github.com/NoizAI/HelixWorld
+
+#### AlayaWorld — Alaya Lab (2026-07-08)
+- 类型: 开源工具 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 文字提示, 镜头路径 / 位姿 → 输出: 交互式帧流
+- 核心想法: 开放的不只是权重，还有训练代码与数据，这才让实验室能够用自己的情境重新训练世界模型。
+- 内容: 一个可游玩视频世界的开源全栈框架，公开了训练与推理代码、权重以及部分训练数据：15B 自回归模型在屏幕摇杆控制镜头的情况下以 720p、24 fps 流式生成，可随时切换提示，每段可连续生成一分钟以上且无明显漂移。
+- 实现方式: 分块自回归视频生成，经 DMD 蒸馏为少步推理；在带漂移的历史上训练，并用“误差库”重新注入累积伪影；v1.1（2026 年 8 月）把基于深度扭曲的空间记忆换成流式三维点缓存渲染器。
+- 参数: 720p · 24 fps · 15B parameters · over 1 min per rollout (developer-reported)
+- 能力维度: 持久性, 时间响应性
+- 论文: https://arxiv.org/abs/2607.06291 (arXiv 2026)
+- 视频: https://www.youtube.com/watch?v=n0jIEg7taTI
+- 项目主页: https://alaya-lab.github.io/AlayaWorld/
+- 代码: https://github.com/AlayaLab/AlayaWorld
 
 #### LingBot-World 2.0（蚂蚁灵波）（LingBot-World 2.0） — 蚂蚁灵波科技 (2026-07-08)
 - 类型: 开源工具 · 时序: 实时流式 · 获取方式: 开源权重 / 代码, 产品 / 应用
@@ -1966,6 +2828,44 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - API 文档: https://www.reactor.inc/lingbot-world-v2
 - 代码: https://github.com/Robbyant/lingbot-world-v2
 
+#### MoWorld — Moxin (2026-07-07)
+- 类型: 开源工具 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 键盘与手柄动作 → 输出: 交互式帧流
+- 核心想法: 不依赖 NVIDIA 硬件的实时世界模型，会改变谁能负担得起运行它们，在中国尤其如此。
+- 内容: 一个在国产 NPU 上训练和部署的“闪电”交互视频世界模型（代码面向华为昇腾）：Moxin 称其可连续控制生成、最高 50 fps，推理成本为现有世界模型方案的 30%–50%；曾在 2026 年世界人工智能大会展出，并于 2026 年 9 月开源。
+- 实现方式: 用三维原生数据引擎生成几何一致的训练片段，配合课程式跨帧预训练、去噪步数蒸馏，以及 NPU 上的混合精度并行推理框架。
+- 参数: up to 50 fps on NPUs · 30–50% of reference inference cost (developer-reported)
+- 能力维度: 时间响应性
+- 论文: https://arxiv.org/abs/2607.06216 (arXiv 2026)
+- 视频: https://moxin-tech.github.io/moworld/moworld/videos/0.mp4
+- 项目主页: https://moxin-tech.github.io/moworld/
+- 代码: https://github.com/Moxin-Tech/moworld_base
+
+#### DreamX-World 1.0 — 高德地图 (2026-06-15)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 仅限研究
+- 输入: 文字提示, 图像, 键盘与手柄动作 → 输出: 交互式帧流
+- 核心想法: 把 2026 年主要的持久性与事件控制技术集于一个模型，是了解通用世界模型现状的一个参照点。
+- 内容: 高德（阿里巴巴）的通用交互世界模型：根据文字或图像，在镜头漫游中流式生成写实、游戏或风格化的世界，用户回到原处时保留先前的画面，并能响应提示的事件；截至 2026 年 10 月只公开了技术报告。
+- 实现方式: 通过因果强制与 DMD 式蒸馏，把双向视频生成器改造为少步自回归模型；采用 E-PRoPE 相机编码、按相机几何检索记忆、事件指令微调与强化学习对齐；训练数据包括虚幻引擎渲染、游戏录像与真实视频。
+- 参数: up to 16 fps on eight RTX 5090 (developer-reported)
+- 能力维度: 持久性, 实验控制
+- 论文: https://arxiv.org/abs/2606.16993 (arXiv 2026)
+- 视频: https://www.youtube.com/watch?v=6IWCQWWgPNU
+- 项目主页: https://amap-ml.github.io/DreamX_World/
+- 代码: https://github.com/AMAP-ML/DreamX-World
+
+#### Gamma-World (γ-World) — Fangfu Liu, 英伟达 (2026-05-27)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 仅限研究
+- 输入: 键盘与手柄动作, 图像 → 输出: 交互式帧流
+- 核心想法: 社会情境需要多人共享的世界；这个模型增加参与者时无需针对人数重新训练。
+- 内容: 一个世界模型：两到四名可独立操控的玩家同时在同一个生成世界中行动，每人看到的共享场景保持一致，应用从多人游戏延伸到真实机器人协作；作者称其能以 24 fps 对动作作出响应。
+- 实现方式: “单纯形旋转智能体编码”（把智能体表示为 RoPE 角度空间中正单纯形的顶点，身份无需固定槽位），用可学习枢纽 token 实现线性跨智能体代价的“稀疏枢纽注意力”，以及把扩散教师模型蒸馏为带 KV 缓存的因果学生模型。
+- 参数: 2–4 players · 24 fps (developer-reported)
+- 能力维度: 共创与能动性, 反应性
+- 论文: https://arxiv.org/abs/2605.28816 (arXiv 2026)
+- 视频: https://research.nvidia.com/labs/sil/projects/gamma-world/videos/16-all.mp4
+- 项目主页: https://research.nvidia.com/labs/sil/projects/gamma-world/
+
 #### Project Genie：街景锚定（Project Genie: Street View grounding） — 谷歌 DeepMind, 谷歌 (2026-05-19)
 - 类型: 产品 / 应用 · 时序: 实时流式 · 获取方式: 产品 / 应用, 候补 / 抢先体验
 - 输入: 图像, 文字提示, 键盘与手柄动作 → 输出: 交互式帧流
@@ -1979,6 +2879,30 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 项目主页: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/
 - API 文档: https://labs.google/projectgenie
 
+#### Starchild-1 — Odyssey (2026-05-17)
+- 类型: 模型 · 时序: 实时流式 · 获取方式: 仅限研究
+- 输入: 文字提示, 语音与音频, 键盘与手柄动作 → 输出: 交互式帧流, 音效、音乐与空间音频
+- 核心想法: 把声音纳入世界模型的交互回路；在许多情境中，人听到的东西（一个声音、一声警报）正是驱动其行为的关键。
+- 内容: 一个世界模型的研究预览：用户持续输入文字、语音与动作时，它实时生成同步的声音与画面，场景中的环境声、对话和事件都随之改变。
+- 实现方式: 把一个双向音视频基础模型因果蒸馏为自回归世界模型，并用异步 KV 缓存处理长时推演中音频与视频不同的时间尺度（据 Odyssey 技术报告）。
+- 能力维度: 感知真实感, 反应性, 时间响应性
+- 视频: https://framerusercontent.com/assets/k0v24lxPs3XttPIexzq95yIYE.mp4
+- 图片: https://framerusercontent.com/assets/jGMTDQnPXnvR324lQwGegNJDIg.jpg
+- 项目主页: https://odyssey.ml/introducing-starchild-1
+
+#### 快乐生蚝（HappyOyster） — Alibaba Token Hub (ATH) (2026-04-16)
+- 类型: 产品 / 应用 · 时序: 实时流式 · 获取方式: 候补 / 抢先体验, 公开 API
+- 输入: 文字提示, 图像, 键盘与手柄动作 → 输出: 交互式帧流, 音效、音乐与空间音频
+- 核心想法: 把世界模型当作现场导演工具：人可以随时介入，也能回溯到某一刻改走另一条分支，更像在运行一个情境，而不是渲染一段视频。
+- 内容: 阿里巴巴推出的实时世界模型产品：在“执导”模式中，用户可用文字、语音或图片引导一段持续演进的场景，最长三分钟；在“漫游”（后改为“冒险”）模式中，可以第一或第三人称探索不断延展的世界。2026 年 6 月 17 日的 HappyOyster 1.0 加入了冲刺、跳跃、攻击、骑马或进入载具等动作，并可回溯到关键时刻，让剧情走向另一条分支。
+- 实现方式: 一个原生多模态视频模型，在长视频数据上训练，把文字、导航动作和图像作为持续的控制信号，在同一条流中生成音频与视频；架构细节未公开。
+- 参数: Directing up to 3 min at 480p / 720p · Wandering up to 1 min at 480p (developer-reported)
+- 能力维度: 创作可及性, 共创与能动性, 反应性
+- 视频: https://www.youtube.com/watch?v=HQYY3xUl6AY
+- 图片: https://alizila.oss-us-west-1.aliyuncs.com/uploads/2026/06/Image1.png https://alizila.oss-us-west-1.aliyuncs.com/uploads/2026/04/HappyOyster.png
+- 项目主页: https://www.alizila.com/alibaba-launches-happyoyster-a-world-model-product-for-real-time-immersive-creation-and-interaction/
+- API 文档: https://fal.ai/happy-oyster
+
 #### Waypoint-1.5 — Overworld (2026-04-09)
 - 类型: 开源工具 · 时序: 实时流式 · 获取方式: 开源权重 / 代码, 产品 / 应用
 - 输入: 文字提示, 图像, 键盘与手柄动作 → 输出: 交互式帧流
@@ -1987,10 +2911,24 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 实现方式: 实时扩散世界模型，配有把用户输入改写为种子图像、合成视频与对齐操控信号的提示流程；分为 720p 与 360p 两档，可本地运行或串流。
 - 参数: up to 720p · 60 fps · 1B parameters · consumer GPUs (developer-reported)
 - 能力维度: 时间响应性, 创作可及性
+- 论文: https://arxiv.org/abs/2609.37107 (arXiv 2026)
 - 视频: https://www.youtube.com/watch?v=W2vDzB4KvxU
 - 图片: https://over.world/blog/waypoint-1-5/og.jpg
 - 项目主页: https://over.world/blog/waypoint-1-5
 - 代码: https://huggingface.co/Overworld/Waypoint-1.5-1B
+
+#### InSpatio-WorldFM — InSpatio 空间智能 (2026-03)
+- 类型: 开源工具 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 文字提示, 镜头路径 / 位姿 → 输出: 交互式帧流
+- 核心想法: 逐帧独立生成、而不是按视频窗口生成，可以降低延迟；当“镜头”就是人的头部时，这一点很重要。
+- 内容: 一个开源的实时“帧模型”：镜头移动时独立渲染生成场景的每一帧，并在消费级 GPU 上保持多视角一致；演示中用于生成一致场景的模型属于内部模型，不在开源范围内。
+- 实现方式: 用显式三维锚点与隐式空间记忆保证多视角一致；分三阶段把预训练图像扩散模型变成可控帧模型，再通过少步蒸馏变成实时生成器。
+- 能力维度: 持久性, 时间响应性
+- 论文: https://arxiv.org/abs/2603.11911 (arXiv 2026)
+- 视频: https://www.inspatio.com/assets/worldfm-demo.mp4
+- 图片: https://www.inspatio.com/assets/worldfm-cover.webp
+- 项目主页: https://www.inspatio.com/models/worldfm
+- 代码: https://github.com/inspatio/worldfm
 
 #### Project Genie — 谷歌 DeepMind, 谷歌 (2026-01-29)
 - 类型: 产品 / 应用 · 时序: 实时流式 · 获取方式: 产品 / 应用, 候补 / 抢先体验
@@ -2062,7 +3000,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 模型 · 时序: 实时流式 · 获取方式: 产品 / 应用, 公开 API
 - 输入: 文字提示, 图像 → 输出: 交互式帧流
 - 核心想法: 让视频像聊天一样运作：边打字边引导画面，降低了创作门槛，但与游戏操控相比，文字指令较为粗略。
-- 内容: 一个世界模型：输入提示几秒后便开始流式生成视频，观看者继续输入指令，画面随之改变，单次可持续数分钟，可在网页应用中体验；它是 Odyssey-1（2025 年 5 月）的后继，之后以 Odyssey-2 Pro 的形式开放 API。
+- 内容: 一个世界模型：输入提示几秒后便开始流式生成视频，观看者继续输入指令，画面随之改变，单次可持续数分钟，可在网页应用中体验；它是 Odyssey-1（2025 年 5 月）的后继，之后以 Odyssey-2 Pro 的形式开放 API。2026 年 4 月 21 日推出的 Odyssey-2 Max 规模约为 Odyssey-2 Pro 的三倍，VBench 2 物理得分由 49.67 提升到 58.52（开发者自述）。
 - 实现方式: 因果自回归视频模型，根据此前的画面与当前文字生成每一帧，每 50 毫秒产出一帧。
 - 参数: 20 fps · 50 ms per frame · multi-minute streams (developer-reported)
 - 能力维度: 时间响应性, 共创与能动性, 创作可及性
@@ -2147,6 +3085,19 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://lh3.googleusercontent.com/MZsGi3QroEY4lNLxrQVBVpn_5NZDXMCKwXs8nStlzGvjS7p76pP-FjyyO-hrYuBhERc60C5-KosmVJFfITEYN7wx_cV94Wju48IyYRwQ39_DtRDU=w1200-h630-n-nu-rw
 - 项目主页: https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/
 
+#### Yume — Xiaofeng Mao, Alaya Lab (2025-07-23)
+- 类型: 开源工具 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 文字提示, 键盘与手柄动作 → 输出: 交互式帧流
+- 核心想法: 从真实照片而非游戏画面出发，更接近行为研究常常需要的日常场所。
+- 内容: 一个开源交互世界模型，把一张照片变成可用键盘探索的写实世界；作者称 2025 年 7 月的预览版是首个完全开源（数据、训练与推理代码、权重）的真实场景世界模型，2025 年 12 月的 Yume 1.5 又加入了文字触发事件与实时流式生成。
+- 实现方式: 把镜头运动量化为键盘动作，用带记忆模块的掩码视频扩散 Transformer 自回归生成；1.5 版本加入统一的上下文压缩与线性注意力，并通过蒸馏实现实时流式生成。
+- 能力维度: 感知真实感, 持久性
+- 论文: https://arxiv.org/abs/2507.17744 (arXiv 2025)
+- 视频: https://www.youtube.com/watch?v=zhkWctq4N1k
+- 图片: https://github.com/stdstu12/YUME/raw/main/assets/yume.png
+- 项目主页: https://github.com/stdstu12/YUME
+- 代码: https://github.com/stdstu12/YUME
+
 #### Genie 2 — 谷歌 DeepMind (2024-12-04)
 - 类型: 模型 · 时序: 回合制 · 获取方式: 仅限研究
 - 输入: 图像, 文字提示, 键盘与手柄动作 → 输出: 交互式帧流
@@ -2158,6 +3109,19 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 视频: https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/media/genie2_zoom_v6.mp4
 - 图片: https://lh3.googleusercontent.com/NtYWmA3waHr1wi5OrNVdxndoSe4iS7Kui6GU4p8HvpFN_YrsbDcGudAgi4Nl-rN1geHpA4Czl0yXO6TQ73n8Q39oMmhDj_vbQ3rWNYE9EVLJcqm2=w1200-h630-n-nu-rw
 - 项目主页: https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/
+
+#### The Matrix：无限时长世界生成（The Matrix） — Ruili Feng, 阿里通义 (2024-12-04)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 仅限研究
+- 输入: 键盘与手柄动作, 文字提示 → 输出: 交互式帧流
+- 核心想法: 表明少量带标注的游戏录像就能教会可迁移到真实场所的操控，而在真实场所录制受控运动往往很难。
+- 内容: 一个世界模拟器，以第一或第三人称连续流式生成 720p 视频，可在沙漠、草地、水面与城市中驾驶或行走，单段不间断长达一小时、速度为 16 fps；它在《极限竞速：地平线 5》《赛博朋克 2077》等游戏的少量带动作标注录像以及大量无标注真实画面上训练，能把游戏中的操控迁移到真实场景。
+- 实现方式: 带交互控制模块的视频扩散 Transformer，在带标注的 3A 游戏录像与无标注真实视频上训练，以连续流的方式生成无限长度视频（通义实验室与香港大学、滑铁卢大学、Vector Institute 合作）。
+- 参数: 720p · 16 fps · hour-long sequences (developer-reported)
+- 能力维度: 时间响应性, 情境可达性
+- 论文: https://arxiv.org/abs/2412.03568 (arXiv 2024)
+- 视频: https://thematrix1999.github.io/videos/cyberpunk_processed_0.mp4
+- 图片: https://thematrix1999.github.io/img/thematrix.png
+- 项目主页: https://thematrix1999.github.io/
 
 #### Genie — 谷歌 DeepMind (2024-02-23)
 - 类型: 模型 · 时序: 回合制 · 获取方式: 仅限研究
@@ -2213,6 +3177,20 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 视频: https://www.youtube.com/watch?v=oDlBtTcX0g0
 - 项目主页: https://danijar.com/project/dreamer4/
 
+#### MineWorld — Junliang Guo, 微软 (2025-04-11)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 仅限研究
+- 输入: 键盘与手柄动作, 图像 → 输出: 交互式帧流
+- 核心想法: 提醒人们开源发布也可能被撤回：基于某个世界模型开展研究的实验室，需要保存自己的副本与版本记录。
+- 内容: 微软研究院的 Minecraft 实时交互世界模型：根据游戏画面与键鼠动作生成后续场景，速度足以在网页演示中游玩；代码开源，但 Hugging Face 上的模型权重已于 2025 年 5 月下架。
+- 实现方式: 一个视觉–动作自回归 Transformer，以交错排列的离散图像 token 与动作 token 为输入，按下一个 token 预测训练，并用并行解码算法一次预测同一帧中空间上冗余的 token。
+- 参数: 4–7 fps depending on model size (developer-reported)
+- 能力维度: 时间响应性, 反应性
+- 论文: https://arxiv.org/abs/2504.08388 (arXiv 2025)
+- 视频: https://github.com/user-attachments/assets/2f5b4740-badd-453c-970d-061abd367f82
+- 图片: https://github.com/microsoft/mineworld/raw/main/assets/demo.png
+- 项目主页: https://aka.ms/mineworld
+- 代码: https://github.com/microsoft/mineworld
+
 #### WHAMM — 微软 (2025-04-04)
 - 类型: 研究演示 · 时序: 实时流式 · 获取方式: 产品 / 应用, 仅限研究
 - 输入: 键盘与手柄动作 → 输出: 交互式帧流
@@ -2251,6 +3229,19 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://yujiwen.github.io/gamefactory/static/assets/layout.jpg
 - 项目主页: https://yujiwen.github.io/gamefactory/
 - 代码: https://github.com/KwaiVGI/GameFactory
+
+#### GameGen-X — Haoxuan Che (2024-11-01)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 开源权重 / 代码, 仅限研究
+- 输入: 文字提示, 键盘与手柄动作 → 输出: 平面视频
+- 核心想法: 较早把类游戏情境做成“生成视频 + 片段级控制”的原型，底层没有游戏引擎。
+- 内容: 一个扩散 Transformer：先根据文字生成开放世界游戏画面（角色、环境、动作与事件），再让玩家用键盘式操作或新的提示控制后续片段；训练数据 OGameData 包含来自 150 多款游戏的一百多万段视频。
+- 实现方式: 两阶段训练：先在 OGameData 上预训练文生视频基础模型，再冻结基础模型，只微调由游戏相关控制专家组成的 InstructNet。
+- 参数: 1M+ clips · 150+ games (developer-reported)
+- 能力维度: 情境多样性, 创作可及性
+- 论文: https://arxiv.org/abs/2411.00769 (arXiv 2024)
+- 视频: https://github.com/3a2077/3a2077.github.io/raw/main/videos/OGameGen_PV.mp4
+- 项目主页: https://gamegen-x.github.io/
+- 代码: https://github.com/GameGen-X/GameGen-X
 
 #### Oasis — Decart, Etched (2024-10-31)
 - 类型: 模型 · 时序: 实时流式 · 获取方式: 开源权重 / 代码, 产品 / 应用
@@ -2325,9 +3316,9 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 模型 · 时序: 实时流式 · 获取方式: 产品 / 应用, 公开 API
 - 输入: 文字提示, 键盘与手柄动作, 视频 → 输出: 交互式帧流, 智能体行为与动作
 - 核心想法: 同一个世界模型既是模拟器又是控制器，这意味着同一个模型可以同时扮演环境和其中的智能体。
-- 内容: Odyssey 的第三代基础世界模型；公司称，它既能生成交互世界，也能借助用数小时数据训练的小型动作解码器，控制机械臂、人形机器人、汽车、无人机和游戏角色。
+- 内容: Odyssey 的第三代基础世界模型；公司称，它既能生成交互世界，也能借助用数小时数据训练的小型动作解码器，控制机械臂、人形机器人、汽车、无人机和游戏角色。2026 年 10 月 8 日，Odyssey 开放了公开研究预览（分 Pro 与 Flash 两档），并称 Odyssey-3 Pro 在 Physics-IQ Verified 上得分 66.1（开发者自述）。
 - 实现方式: 在大量视觉观察数据上训练的自回归扩散 Transformer；针对具体任务的动作解码器把其内部表征转换为控制信号。
-- 参数: few to tens of hours of task data per embodiment (developer-reported)
+- 参数: few to tens of hours of task data per embodiment · Physics-IQ Verified 66.1 for Pro (developer-reported)
 - 能力维度: 适应性, 情境可达性, 行为似真性
 - 视频: https://framerusercontent.com/assets/J2EGlzwE6xA1NPIEdgwQypDfz1A.mp4
 - 图片: https://framerusercontent.com/assets/JU7BjLegfmzvfZ2iaaZ0CIAWWag.jpg
@@ -2345,6 +3336,17 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://wayve.ai/wp-content/uploads/2026/07/GAIA-4-Hero-Image.jpg
 - 项目主页: https://wayve.ai/thinking/gaia-4/
 
+#### Real-to-Sim-to-Real (R2S2R) engine — World Labs (2026-07-28)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 多视角拍摄 / 扫描, 视频 → 输出: 三维场景 / 世界
+- 核心想法: 这正是行为实验室想做的：先忠实重建一个真实情境，再系统地改变它，并检验在副本中的结果能否预测现实中的结果。
+- 内容: World Labs 的“真实到仿真再到真实”引擎，来自 2026 年 7 月并入的 SceniX 团队：先采集一个真实的机器人任务，把它重建成外观与物理都相符的交互式仿真，再改变光照、杂物、物体、物理参数与相机视角；World Labs 称，由此训练的操作策略无需任何真实数据，仿真测试也能预测哪些策略会在真机上失败。
+- 实现方式: 用生成式世界模型构建空间上连贯的环境，并与按任务对齐的机器人仿真结合；每次重建都通过在仿真与现实中回放同一组开环动作、比较观测与结果来验证。
+- 能力维度: 实验控制, 情境多样性, 情境可达性
+- 视频: https://wlt-ai-cdn.art/videos/2026-robotics-blog/box-packing-aloha-30x.mp4
+- 图片: https://www.worldlabs.ai/api/opengraph-image?imageUrl=/images/scenix/blog-image.jpg&title=Building%20Worlds%20That%20Train%20Robots
+- 项目主页: https://www.worldlabs.ai/blog/real-to-sim-to-real
+
 #### Oasis 3 — Decart (2026-06-10)
 - 类型: 模型 · 时序: 实时流式 · 获取方式: 公开 API
 - 输入: 文字提示, 键盘与手柄动作 → 输出: 交互式帧流
@@ -2361,8 +3363,9 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码, 公开 API
 - 输入: 文字提示, 视频, 键盘与手柄动作 → 输出: 平面视频, 智能体行为与动作, 音效、音乐与空间音频
 - 核心想法: 先推理情境、再进行模拟，这一步让生成的结果可以对照解释加以核查。
-- 内容: 在 GTC 台北发布的开源“全能模型”：先理解场景，再生成视频与环境声，还能输出关节角度、夹爪位置等机器人动作数据，让一个模型同时负责描述、模拟与行动。
+- 内容: 在 GTC 台北发布的开源“全能模型”：先理解场景，再生成视频与环境声，还能输出关节角度、夹爪位置等机器人动作数据，让一个模型同时负责描述、模拟与行动。2026 年 7 月 20 日的 SIGGRAPH 2026 上，NVIDIA 开放发布了可在设备端实时运行的 4B 版本 Cosmos 3 Edge。
 - 实现方式: 混合 Transformer 架构：推理模块先解读场景，生成模块再输出符合物理的视频、音频与数值动作；可后训练为世界-动作模型。
+- 参数: Edge variant 4B · real-time on device (developer-reported)
 - 能力维度: 情境可达性, 行为似真性, 实验控制
 - 视频: https://www.youtube.com/watch?v=q7Hj3J9SOXw
 - 图片: https://blogs.nvidia.com/wp-content/uploads/2026/05/Featured-image.png
@@ -2380,6 +3383,17 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 视频: https://storage.googleapis.com/waymo-prod-cdn/uploads/bd1e232de236794e89f6daa89b594b93-topline_video_close_loop_sim_cropped.webm
 - 图片: https://lh3.googleusercontent.com/pcL3e60qMHH67WyyOeA1d-8Tjx2B4kwe90bpyvAyWOgf8Clb40mPxyjhpSAaH1ZsJzvtOxhU-eMYvfy5G_YYPYyGvRmRYlLHxOs
 - 项目主页: https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation
+
+#### GAIA-3 — Wayve (2025-12-02)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 视频, 键盘与手柄动作 → 输出: 平面视频
+- 核心想法: “沿轨道运行的世界”：只改变一个行动者、其余一切保持不变，正是把对照实验的逻辑用在生成场景上。
+- 内容: 第三代 GAIA 世界模型，用于评估驾驶策略：沿着改变后的自车轨迹重新“驾驶”一段录制场景，其他交通参与者、光照与天气保持原样，从而生成碰撞、险情和 NCAP 式测试案例，还能为不同的相机配置重新渲染同一场景。
+- 实现方式: 以真实驾驶序列和参数化的自车轨迹变化为条件的视频世界模型；生成结果与录制的激光雷达扫描对齐以检验一致性，Wayve 称策略在生成测试中的排名与实际道路表现相关。
+- 能力维度: 情境可达性, 实验控制, 情境多样性
+- 视频: https://wayve.ai/wp-content/uploads/2025/11/Counterfactuals-Scenarios-GAIA-3.mp4
+- 图片: https://wayve.ai/wp-content/uploads/2025/12/GAIA3-PR-notice.jpg
+- 项目主页: https://wayve.ai/thinking/gaia-3/
 
 #### V-JEPA 2 — Meta (2025-06-11)
 - 类型: 模型 · 时序: 回合制 · 获取方式: 开源权重 / 代码
@@ -2462,9 +3476,33 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://universal-simulator.github.io/unisim/materials/unisim.png
 - 项目主页: https://universal-simulator.github.io/unisim/
 
+#### GAIA-1 — Wayve (2023-06)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 视频, 文字提示, 键盘与手柄动作 → 输出: 平面视频
+- 核心想法: 较早证明世界模型可以演出无法安全拍摄的危险反事实时刻，这正是“情境可达性”的核心。
+- 内容: Wayve 的第一个驾驶生成式世界模型：以几秒真实驾驶视频、文字或自车动作为提示，生成数分钟合理的驾驶视频，能从同一起点设想多种未来，也能被强制做出训练数据中没有的行为，比如驶上人行道。
+- 实现方式: 把视频、文字与动作输入映射为离散 token，用自回归 Transformer 做下一个 token 预测，再由视频扩散解码器把预测的 token 还原为画面。
+- 能力维度: 情境可达性, 情境多样性
+- 论文: https://arxiv.org/abs/2309.17080 (Technical report 2023)
+- 视频: https://www.youtube.com/watch?v=3Si-QBUF97E
+- 图片: https://wayve.ai/wp-content/uploads/2023/06/GAIA-1-tile_montage_feature.jpg
+- 项目主页: https://wayve.ai/thinking/introducing-gaia1/
+
 ### 记忆、一致性与控制
 
 让生成的世界保持连贯的研究：空间记忆、长上下文、可提示事件与状态。
+
+#### World-T3：以测试时训练作持久记忆（World-T3） — Junyi Wu, Meta (2026-10-12)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 仅限研究
+- 输入: 图像, 镜头路径 / 位姿 → 输出: 交互式帧流
+- 核心想法: 每帧成本恒定的记忆，正是在生成场所中进行长时实时会话所需要的。
+- 内容: 伊利诺伊大学芝加哥分校与 Meta Reality Labs 提出的镜头可控视频世界模型：把看到的内容存入一组在测试时更新的权重，沿原路返回时同一地点保持不变，同时实时生成。
+- 实现方式: 测试时训练记忆：用递推最小二乘更新把历史观察整合进专门的参数中，使记忆成本不随推演长度增长。
+- 参数: 1280×704 · 20.6 fps on one B200 (developer-reported)
+- 能力维度: 持久性, 时间响应性
+- 论文: https://arxiv.org/abs/2610.17434 (arXiv 2026)
+- 图片: https://adreamwu.github.io/World-T3/static/images/og.jpg https://adreamwu.github.io/World-T3/static/images/teaser.webp
+- 项目主页: https://adreamwu.github.io/World-T3/
 
 #### WorldTrace：视频世界模型的可寻址记忆（WorldTrace） — Xindi Wu, 英伟达 (2026-08-07)
 - 类型: 研究演示 · 时序: 实时流式 · 获取方式: 仅限研究
@@ -2477,6 +3515,45 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 视频: https://research.nvidia.com/labs/sil/projects/WorldTrace/videos/teaser/worldtrace_panel_rotate90.mp4
 - 图片: https://research.nvidia.com/labs/sil/projects/WorldTrace/figures/og-card.png
 - 项目主页: https://research.nvidia.com/labs/sil/projects/WorldTrace/
+
+#### HelloWorld：会社交回应的世界模型角色（HelloWorld） — Liangyang Ouyang, Alaya Lab (2026-08-05)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 开源权重 / 代码
+- 输入: 键盘与手柄动作, 图像, 镜头路径 / 位姿 → 输出: 交互式帧流, 虚拟人（脸 / 身体）
+- 核心想法: 从“对你视而不见的世界”迈向“会回应你的角色”的第一步，而且视线与时机是被测量的，而不是想当然。
+- 内容: 一个让画面中的角色回应观看者的视频世界模型：镜头在场景中移动时，按下一个键，画面里的人就会转向镜头挥手、点头、鞠躬或简短问候，时机与按键对应；同时发布的 HelloWorldBench 从动作准确度、时机与视线方向三方面评分。
+- 实现方式: 自蒸馏：用基础视频模型自己合成的、同时包含社交回应与镜头运动的片段来微调它，再用无需训练的时间交叉注意力掩码，把回应限定在按键对应的时间窗内（东京大学与 Alaya Lab 合作）。
+- 参数: HelloWorldBench: 400 samples · ActAcc / TimeAcc / GazeDev (developer-reported)
+- 能力维度: 行为似真性, 反应性, 实验控制
+- 论文: https://arxiv.org/abs/2608.05070 (arXiv 2026)
+- 视频: https://www.youtube.com/watch?v=j4scl5Y7gXo
+- 图片: https://github.com/AlayaLab/HelloWorld/raw/main/assets/teaser.png
+- 项目主页: https://github.com/AlayaLab/HelloWorld
+- 代码: https://github.com/AlayaLab/HelloWorld
+
+#### PanoWorld — Haoyuan Li, 影石 Insta360 (2026-07-10)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 镜头路径 / 位姿 → 输出: 360° / 立体视频, 交互式帧流
+- 核心想法: 原生输出就是完整球面画面的世界模型，是把生成场所放进头显的最短路径。
+- 内容: Insta360 研究团队与中国科学院合作的全景（360°）世界模型：随视点移动生成真实场景的 360° 视频，并记住经过的地方；同时发布了模型权重和 World360 数据集（全景无人机实拍与仿真片段）。
+- 实现方式: 利用全景图的旋转等变性，把相机轨迹简化为固定朝向下的平移；用“稠密全景射线条件”表示动作，用“几何感知记忆增强”实现长程记忆，分三阶段训练。
+- 能力维度: 持久性, 情境可达性
+- 论文: https://arxiv.org/abs/2607.09661 (arXiv 2026)
+- 视频: https://www.youtube.com/watch?v=KbA3mKTpSCU
+- 图片: https://lihaoy-ux.github.io/panoworld-page/res/images/panoworld_teaser.png
+- 项目主页: https://lihaoy-ux.github.io/panoworld-page/
+- 代码: https://github.com/Insta360-Research-Team/PanoWorld
+
+#### MemLearner：学习查询上下文记忆（MemLearner） — Jiwen Yu, 快手 / 可灵 (2026-06-30)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
+- 输入: 键盘与手柄动作, 图像 → 输出: 交互式帧流
+- 核心想法: 把记忆检索从固定规则变成模型自己学会的能力；一旦场景里有会移动的人和物，这一点就很关键。
+- 内容: 一种为视频世界模型学习得到的记忆查询方式：不再按相机视野重叠之类的人工规则调取历史帧，而是用查询 token 决定读取哪些上下文，从而在遮挡和物体移动时保持场景一致（香港大学与快手合作）。
+- 实现方式: 用可学习的查询 token 连接已存储的上下文与正在预测的 token，直接利用预训练视频生成模型本身查询记忆，无需另训检索模型。
+- 能力维度: 持久性
+- 论文: https://arxiv.org/abs/2606.31734 (ECCV 2026)
+- 视频: https://yujiwen.github.io/memlearner/video/demo/1.mp4
+- 图片: https://yujiwen.github.io/memlearner/static/images/teaser-1.png
+- 项目主页: https://yujiwen.github.io/memlearner/
 
 #### Matrix-Game 3.0（昆仑万维）（Matrix-Game 3.0） — 昆仑万维 Skywork (2026-03-27)
 - 类型: 开源工具 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
@@ -2491,6 +3568,20 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://matrix-game-v3.github.io/static/imgs/mg3_overview.png
 - 项目主页: https://matrix-game-v3.github.io/
 - 代码: https://github.com/SkyworkAI/Matrix-Game
+
+#### VMem：面元索引视图记忆（VMem） — Runjia Li (2025-06-23)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 镜头路径 / 位姿 → 输出: 交互式帧流
+- 核心想法: 按事物所在的位置、而不是看到它的时间来索引记忆，回访就能保持一致，算力只需关注全部历史帧的一小部分。
+- 内容: 一个用于视频生成器的记忆模块，可从一张图像出发探索场景：历史视图按其观察到的三维面元（surfel）建立索引，镜头回到某处时，只调取看到过该表面的视图并据此一致地重绘。
+- 实现方式: 基于估计几何构建以面元为索引的视图记忆，为相机条件视频扩散模型挑选最相关的历史视图作为上下文。
+- 能力维度: 持久性
+- 获奖与认可: ICCV 2025 highlight
+- 论文: https://arxiv.org/abs/2506.18903 (ICCV 2025)
+- 视频: https://v-mem.github.io/img/video-1min-encoded_720p.mp4
+- 图片: https://v-mem.github.io/img/vmem_method.webp
+- 项目主页: https://v-mem.github.io/
+- 代码: https://github.com/runjiali-rl/vmem
 
 #### 具备长期空间记忆的视频世界模型（Video World Models with Long-term Spatial Memory） — Tong Wu (2025-06-05)
 - 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
@@ -2516,6 +3607,18 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://context-as-memory.github.io/pics/framework.jpg
 - 项目主页: https://context-as-memory.github.io/
 
+#### 长上下文状态空间视频世界模型（Long-Context State-Space Video World Models） — Ryan Po (2025-05-26)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
+- 输入: 键盘与手柄动作, 图像 → 输出: 交互式帧流
+- 核心想法: 记忆不必随会话变长而增长：一个紧凑的循环状态就能以恒定成本记住一个地方。
+- 内容: 一个用状态空间层在长时动作条件推演中传递记忆的视频世界模型：智能体在 Memory Maze 或 Minecraft 中重回某处时，看到的与先前一致，又不必对全部历史做注意力计算。
+- 实现方式: 在空间分块上做块式状态空间扫描以延长时间记忆，同时用稠密的局部注意力保证相邻帧连贯（斯坦福大学、普林斯顿大学与 Adobe Research）。
+- 能力维度: 持久性
+- 论文: https://arxiv.org/abs/2505.20171 (arXiv 2025)
+- 视频: https://ryanpo.com/ssm_wm/static/videos/ours_mc.mp4
+- 图片: https://ryanpo.com/ssm_wm/static/images/architecture.png
+- 项目主页: https://ryanpo.com/ssm_wm/
+
 #### WorldMem：带记忆的长期一致世界模拟（WorldMem） — Zeqi Xiao (2025-04-16)
 - 类型: 研究演示 · 时序: 回合制 · 获取方式: 开源权重 / 代码
 - 输入: 键盘与手柄动作, 图像 → 输出: 交互式帧流
@@ -2528,6 +3631,19 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://xizaoqu.github.io/worldmem/resources/success_044.png
 - 项目主页: https://xizaoqu.github.io/worldmem/
 - 代码: https://github.com/xizaoqu/WorldMem
+
+#### 历史引导视频扩散（History-Guided Video Diffusion） — Kiwhan Song (2025-02-10)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 视频, 镜头路径 / 位姿 → 输出: 平面视频
+- 核心想法: 让世界模型可以更强或更弱地依赖过去，在“漂移”与“忠于历史”之间提供一个调节旋钮。
+- 内容: 提出 Diffusion Forcing Transformer：一种可以以任意数量历史帧为条件的视频模型；并提出“历史引导”，在采样时加强历史的作用。两者结合可得到长得多的稳定推演，包括从单张图像出发在场景中移动镜头。
+- 实现方式: 训练时为每帧设置独立噪声水平（扩散强制）并应用到 Transformer 上，推理时对不同的历史子集与噪声水平做类似无分类器引导的组合。
+- 能力维度: 持久性
+- 论文: https://arxiv.org/abs/2502.06764 (ICML 2025)
+- 视频: https://boyuan.space/history-guidance/static/videos/long_rollout_0.mp4
+- 图片: https://boyuan.space/history-guidance/static/images/thumbnail.jpg
+- 项目主页: https://boyuan.space/history-guidance/
+- 代码: https://github.com/kwsong0113/diffusion-forcing-transformer
 
 #### 扩散强制（Diffusion Forcing）（Diffusion Forcing） — Boyuan Chen (2024-07-01)
 - 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
@@ -2550,6 +3666,20 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 
 由文字或图像生成可漫游的三维世界：Marble、Atlas、HunyuanWorld、WonderWorld、Lyra、Voyager……
 
+#### GAE：几何原生自编码器（GAE (Geometry-Native Autoencoder)） — Jiahao Lu, 腾讯 ARC 实验室 (2026-09-21)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 文字提示, 镜头路径 / 位姿 → 输出: 平面视频, 三维场景 / 世界
+- 核心想法: 在本身就编码几何的潜空间里生成，而不是事后再补几何，是让类视频世界在回头看时仍保持不变的一条路径。
+- 内容: 香港科技大学与腾讯 ARC 实验室推出的开源 10 亿参数生成模型：由一张图像和一句提示生成相机可控的多视角视频，每一帧同时可解码为深度、相机位姿和点图，生成的世界因此直接带有一致的三维结构，而不只是像素。
+- 实现方式: 把几何基础模型的特征重新参数化为一个紧凑潜空间（几何原生自编码器），它可同时解码出外观、深度、相机与点图；再用标准的条件流匹配模型直接在该潜空间中生成。作者报告，在生成器与训练流程不变的对照中，换用该潜空间后，画质和独立测量的三维一致性都优于只编码外观的潜空间。
+- 参数: 1B parameters · image + prompt → multi-view video with depth, cameras and point maps
+- 能力维度: 持久性, 感知真实感
+- 论文: https://arxiv.org/abs/2609.24981 (arXiv 2026)
+- 视频: https://www.youtube.com/watch?v=DpPD85IK-Ko
+- 图片: https://jiah-cloud.github.io/GAE.github.io/assets/overview/GAE-teaser-poster.jpg
+- 项目主页: https://jiah-cloud.github.io/GAE.github.io/
+- 代码: https://github.com/TencentARC/GAE-GeometricAutoEncoder
+
 #### Atlas — World Labs (2026-09-01)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 候补 / 抢先体验
 - 输入: 图像, 镜头路径 / 位姿, 视频 → 输出: 平面视频, 高斯泼溅 / 辐射场, 图像 / 全景图
@@ -2561,6 +3691,19 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 视频: https://www.youtube.com/watch?v=hzvXRHBInx0
 - 图片: https://www.worldlabs.ai/images/atlas-og.jpg
 - 项目主页: https://www.worldlabs.ai/blog/atlas
+
+#### 高德 ABot-Earth 生成式三维地球（ABot-Earth） — 高德地图 (2026-06-08)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用, 候补 / 抢先体验
+- 输入: 图像, 文字提示 → 输出: 高斯泼溅 / 辐射场, 三维场景 / 世界
+- 核心想法: 以卫星影像为生成依据，得到的城市级场景遵循真实地点的布局，研究可以在一条可辨认的街道上布置情境，而无需实地采集。
+- 内容: 高德的生成式三维地球模型：以卫星影像为条件生成可漫游的三维高斯泼溅城市街区，每平方公里不到 10 分钟，并以分级细节（LOD）在公开的网页浏览器中流式加载，访客可以在生成的城市、月球和火星之间穿梭。0.5 版技术报告发布于 2026 年 6 月，0.7 版于 2026 年 9 月 10 日上线；截至 2026 年 10 月，用文字或参考图创作自己的 1 平方公里地块仍仅向白名单用户开放。
+- 实现方式: 直接在三维高斯泼溅表示上构建的生成模型，用大量真实城市重建数据训练；推理时仅以带地理坐标的卫星影像为条件合成几何与纹理，并打包成分级 LOD，供网页地图引擎实时渲染。
+- 参数: < 10 min per km² · 1 km² tiles · hierarchical LOD · web viewer
+- 能力维度: 情境可达性, 持久性, 感知真实感
+- 论文: https://arxiv.org/abs/2606.09967 (Technical report 2026)
+- 视频: https://www.youtube.com/watch?v=Qv64FpsEi2Q
+- 图片: https://raw.githubusercontent.com/amap-cvlab/ABot-Earth-0.5/main/src/fig_teaser.jpg
+- 项目主页: https://abot-earth.amap.com/
 
 #### Echo-2 — SpAItial (2026-04)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用
@@ -2600,6 +3743,18 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://nv-tlabs.github.io/Project-Lyra/assets/method_v2.png
 - 项目主页: https://nv-tlabs.github.io/Project-Lyra/
 - 代码: https://github.com/nv-tlabs/lyra
+
+#### GaussianGPT — Nicolas von Lützow (2026-03-27)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入:  → 输出: 高斯泼溅 / 辐射场, 三维场景 / 世界
+- 核心想法: 逐步搭建场景，让“保留这部分、重新生成其余部分”成为原生操作，这正是有控制地改变一个情境所需要的。
+- 内容: 一个像语言模型写文字那样逐个 token 写出三维高斯泼溅房间的 Transformer：同一个模型既能从零生成场景，也能补全残缺场景或向外扩展房间，并用采样温度控制结果的多样程度；代码与检查点已开源。
+- 实现方式: 带向量量化的稀疏三维卷积自编码器把高斯基元压缩成离散潜网格；序列化后的 token 由带三维旋转位置编码的因果 Transformer 建模，训练数据为合成室内场景（3D-FRONT、Aria Synthetic Environments）。
+- 能力维度: 情境多样性, 实验控制
+- 论文: https://arxiv.org/abs/2603.26661 (ECCV 2026 (oral))
+- 视频: https://www.youtube.com/watch?v=zVnMHkFzHDg
+- 项目主页: https://nicolasvonluetzow.github.io/GaussianGPT/
+- 代码: https://github.com/nicolasvonluetzow/GaussianGPT
 
 #### Echo — SpAItial (2025-12)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 候补 / 抢先体验
@@ -2694,6 +3849,18 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 项目主页: https://3d-models.hunyuan.tencent.com/world/
 - 代码: https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0
 
+#### Explorer — Odyssey (2024-12-18)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 候补 / 抢先体验
+- 输入: 图像 → 输出: 高斯泼溅 / 辐射场, 三维场景 / 世界
+- 核心想法: 选择高斯泼溅作为输出，意味着生成的世界可以直接进入影视和游戏工具供人手工修改：放弃实时生成，换来可编辑的资产。
+- 内容: Odyssey 的第一个世界模型：约 10 分钟把一张图像变成照片级的三维高斯泼溅世界，艺术家可以在 Unreal、Houdini 或 Blender 中打开并手工修改；Odyssey 还在伦敦 Garden Studios 的虚拟制片棚里测试了这些世界。它通过联系申请提供，而非公开应用；Odyssey 此后转向实时交互的视频世界模型（Odyssey-2、Odyssey-3）。
+- 实现方式: 图像到世界的生成模型（架构未公开）输出三维高斯泼溅场景；Odyssey 称平均生成时间约 10 分钟，并在早期实验中加入了雪、水、火等运动元素。
+- 参数: ~10 min per world · Gaussian-splat output
+- 能力维度: 感知真实感, 创作可及性
+- 视频: https://framerusercontent.com/assets/nOPsdj7d3r5UPEOKBgvQiQtqjE.mp4
+- 图片: https://framerusercontent.com/assets/RtVCbwsEdQy3SKNwI2I8GB4Mhbk.png
+- 项目主页: https://odyssey.world/introducing-explorer
+
 #### 大世界模型演示（Generating Worlds）（Large World Model demo (Generating Worlds)） — World Labs (2024-12-02)
 - 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
 - 输入: 图像 → 输出: 三维场景 / 世界, 高斯泼溅 / 辐射场
@@ -2770,6 +3937,18 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://lukashoel.github.io/text-to-room/static/images/teaser-min.jpg
 - 项目主页: https://lukashoel.github.io/text-to-room/
 - 代码: https://github.com/lukasHoel/text2room
+
+#### SceneScape：文本驱动的一致场景生成（SceneScape） — Rafail Fridman (2023-02-02)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示, 镜头路径 / 位姿 → 输出: 平面视频, 网格 / 三维资产
+- 核心想法: 一边用图像模型绘制新视角、一边维护显式网格，是让无限生成的漫游“记得走过哪里”的最早做法之一。
+- 内容: SceneScape 由一句文字和一条镜头路径生成穿行于想象场所（洞穴、鬼屋、中世纪铁匠铺）的长视频，边走边构建同一个带纹理的网格，使先前看到的表面保持一致；NeurIPS 2023，代码开源。
+- 实现方式: 每一帧先从统一网格渲染，缺失区域由预训练的文生图补全模型填充，再用测试时微调以保持一致的单目深度模型把新内容提升到三维，并融合回网格。
+- 能力维度: 持久性, 情境多样性
+- 论文: https://arxiv.org/abs/2302.01133 (NeurIPS 2023)
+- 视频: https://scenescape.github.io/joined_videos/haunted_house.mp4
+- 项目主页: https://scenescape.github.io/
+- 代码: https://github.com/RafailFridman/SceneScape
 
 #### Infinite Nature：从单张图像无限生成自然风景（Infinite Nature） — Andrew Liu, 谷歌 (2020)
 - 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
@@ -2868,6 +4047,33 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 项目主页: https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/
 - 代码: https://github.com/Tencent-Hunyuan/Hunyuan3D-WorldClaw
 
+#### 地平线 EmbodiedGen V2（EmbodiedGen V2） — 地平线 (2026-07-08)
+- 类型: 开源工具 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示, 图像 → 输出: 三维场景 / 世界, 网格 / 三维资产
+- 核心想法: 通过对话来搭建任务环境（用“氛围编程”写场景），降低了为同一情境制作大量变体的成本。
+- 内容: 地平线的开源工具包：把文字、图像和自然语言对话变成可直接仿真的资产、按任务生成的房间以及大型多房间场景，可在 Isaac Sim、MuJoCo、Genesis、SAPIEN 和 PyBullet 中加载；第二版（2026 年 7 月）接续 2025 年 6 月的 EmbodiedGen。
+- 实现方式: 以统一的“可仿真”表示串起生成资产（含碰撞与可供性数据）、按任务布局、多房间场景生成和有状态的语言模型编程循环；作者报告资产的人工认可率为 96.5%，83.3% 的任务世界无需人工修改即可使用。
+- 参数: 96.5% asset acceptance · 83.3% task worlds usable as generated · Isaac Sim / MuJoCo / Genesis / SAPIEN / PyBullet
+- 能力维度: 创作可及性, 情境可达性, 情境多样性
+- 论文: https://arxiv.org/abs/2607.07459 (Technical report 2026)
+- 视频: https://www.youtube.com/watch?v=MIkJJSVM8L4
+- 图片: https://horizonrobotics.github.io/EmbodiedGen/assets/img/overview.jpg
+- 项目主页: https://horizonrobotics.github.io/EmbodiedGen/
+- 代码: https://github.com/HorizonRobotics/EmbodiedGen
+
+#### SimFoundry — 英伟达 (2026-06-26)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 视频 → 输出: 三维场景 / 世界, 网格 / 三维资产, 高斯泼溅 / 辐射场
+- 核心想法: 一个真实场景变成一组功能可供性相同、受控变化的变体，作者还表明在这些变体中的评估能预测真实世界的结果：这正是研究希望模拟房间具备的性质。
+- 内容: NVIDIA 的 SimFoundry 由一段真实桌面或房间的短视频，在一小时内自动搭建可做物理仿真的场景（高斯泼溅背景加带纹理的物体网格，包括可活动的关节物体），再生成改变物体、布局与任务的“数字表亲”；代码于 2026 年 8 月以 Apache 2.0 许可开源。
+- 实现方式: 模块化流程：分割每个物体（SAM 3）、估计深度（Depth Anything 3）与位姿（FoundationPose）、生成带纹理网格（Hunyuan3D-2），再编译成带物理参数、任务建议和保持可供性的变体的 OmniGibson 场景。
+- 参数: video → sim scene in < 1 h · sim-vs-real policy evaluation: mean Pearson r = 0.911 (7 tasks, 5 policy architectures)
+- 能力维度: 实验控制, 情境可达性, 情境多样性
+- 论文: https://arxiv.org/abs/2606.28276 (arXiv 2026)
+- 视频: https://research.nvidia.com/labs/gear/simfoundry/videos/Simfoundry_Teaser.mp4
+- 项目主页: https://research.nvidia.com/labs/gear/simfoundry/
+- 代码: https://github.com/NVlabs/SimFoundry
+
 #### SAGE — 英伟达 (2026-02-10)
 - 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
 - 输入: 文字提示 → 输出: 三维场景 / 世界, 网格 / 三维资产
@@ -2894,6 +4100,20 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 视频: https://www.youtube.com/watch?v=mzuyLODsUTM
 - 图片: https://arxiv.org/html/2511.16825v1/x1.png
 - 项目主页: https://www.meta.com/blog/worldgen-3d-world-generation-reality-labs-generative-ai-research/
+
+#### SpatialGen：布局引导的三维室内场景生成（SpatialGen） — 群核科技 (2025-08)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 场景规格、代码与规则, 文字提示, 图像 → 输出: 高斯泼溅 / 辐射场, 三维场景 / 世界, 图像 / 全景图
+- 核心想法: 固定平面布局和家具包围盒、只让外观随机变化，把实验者控制的部分和模型变化的部分分开了。
+- 内容: 群核科技的开源模型：根据语义房间布局加一句文字或一张参考图生成三维室内场景，从多个视点合成彼此一致的颜色、几何与语义视图，再融合为高斯泼溅（3DV 2026）。
+- 实现方式: 多视角、多模态扩散模型以三维布局和参考图（需要时由文字生成）为条件，逐视角预测颜色图、场景坐标图和语义图，再优化为三维高斯；训练数据为包含 12,328 个标注场景、57,440 个房间和 470 万张渲染图的合成数据集。
+- 参数: training data: 12,328 scenes · 57,440 rooms · 4.7M renderings
+- 能力维度: 实验控制, 创作可及性
+- 论文: https://arxiv.org/abs/2509.14981 (3DV 2026)
+- 视频: https://manycore-research.github.io/SpatialGen/assets/teaser.mp4
+- 图片: https://manycore-research.github.io/SpatialGen/static/images/teaser.jpg
+- 项目主页: https://manycore-research.github.io/SpatialGen/
+- 代码: https://github.com/manycore-research/SpatialGen
 
 #### BlenderMCP — Siddharth Ahuja (2025-03)
 - 类型: 开源工具 · 时序: 回合制 · 获取方式: 开源权重 / 代码
@@ -2961,6 +4181,46 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://storage.deemos.dev/features/worldgen/introBg.webp
 - 项目主页: https://hyper3d.ai/features/worldgen
 
+#### WorldSculpt：由视频生成可组合的世界（WorldSculpt） — Muyao Niu (2026-09-04)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 视频, 多视角拍摄 / 扫描 → 输出: 网格 / 三维资产, 三维场景 / 世界
+- 核心想法: 把世界拆成一个个物体，才能逐件编辑：挪动椅子、拿走包，其余一切在不同实验条件间保持不变。
+- 内容: WorldSculpt 把一段杂乱房间的视频（附实例掩码与三维包围盒）变成同一坐标系下数百个独立、完整的物体网格；作者还把它用于 Marble 生成的泼溅世界，将其拆成可编辑的物体。代码、模型与基准均已开源。
+- 实现方式: 在单物体三维生成先验 Pixal3D 上加入多视角条件通路，使每个物体都能从被遮挡的多个视角补全，并按其三维包围盒放置到共享的世界坐标系中。
+- 参数: hundreds of objects per scene · per-object meshes
+- 能力维度: 实验控制, 持久性, 创作可及性
+- 论文: https://arxiv.org/abs/2609.05416 (arXiv 2026)
+- 视频: https://alaya-lab.github.io/WorldSculpt/assets/videos/demo_video.mp4
+- 图片: https://alaya-lab.github.io/WorldSculpt/assets/figures/teaser.webp
+- 项目主页: https://alaya-lab.github.io/WorldSculpt/
+- 代码: https://github.com/AlayaLab/WorldSculpt
+
+#### PixWorld — Sensen Gao, 爱诗科技 PixVerse (2026-07-06)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 多视角拍摄 / 扫描, 镜头路径 / 位姿 → 输出: 高斯泼溅 / 辐射场, 三维场景 / 世界
+- 核心想法: 当重建与生成是同一个模型时，场景中有多少是拍到的、有多少是想象的，就取决于你提供了多少视角。
+- 内容: 一个同时完成重建与生成的开源扩散模型：对给定的视角做重建，对缺失的视角做生成；输入带位姿的图像，单次前向即可输出像素对齐的三维高斯场景。由南洋理工大学与爱诗科技（PixVerse）合作完成。
+- 实现方式: 把带位姿的多视角输入分成干净子集（重建）和加噪子集（生成），由双流扩散 Transformer 处理并解码为像素对齐的三维高斯；损失直接定义在渲染图像上的流匹配目标，并加入几何感知损失。
+- 能力维度: 持久性, 感知真实感
+- 论文: https://arxiv.org/abs/2607.05373 (arXiv 2026)
+- 视频: https://sensengao.github.io/PixWorld/static/videos/demo_v32.mp4
+- 图片: https://sensengao.github.io/PixWorld/static/images/demo_v32_poster.png
+- 项目主页: https://sensengao.github.io/PixWorld/
+- 代码: https://github.com/SensenGao/PixWorld
+
+#### Gen3R — Jiaxin Huang (2026-01-07)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 多视角拍摄 / 扫描 → 输出: 平面视频, 三维场景 / 世界
+- 核心想法: 把生成器与重建模型耦合，每个生成视角都带有可检验的几何，从“看起来合理的画面”向“可测量的空间”迈进一步。
+- 内容: Gen3R 由一张或几张图像生成场景：输出 RGB 视频及其三维几何（相机位姿、深度图和全局点云），做法是让视频扩散模型与 VGGT 重建模型共享对齐的潜变量；代码与检查点已开源。
+- 实现方式: 在 VGGT 的 token 上训练适配器，得到与预训练视频扩散模型外观潜变量对齐的几何潜变量；两者联合生成，再解码为画面、相机、深度与点云。
+- 能力维度: 持久性, 感知真实感
+- 论文: https://arxiv.org/abs/2601.04090 (CVPR 2026)
+- 视频: https://xdimlab.github.io/Gen3R/static/videos/teaser.mp4
+- 图片: https://raw.githubusercontent.com/JaceyHuang/Gen3R/main/assets/teaser.png
+- 项目主页: https://xdimlab.github.io/Gen3R/
+- 代码: https://github.com/JaceyHuang/Gen3R
+
 #### SHARP — 苹果 (2025-12-11)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
 - 输入: 图像 → 输出: 高斯泼溅 / 辐射场
@@ -2979,7 +4239,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 产品 / 应用 · 时序: 预先生成 · 获取方式: 产品 / 应用, 公开 API
 - 输入: 图像 → 输出: 三维场景 / 世界, 图像 / 全景图
 - 核心想法: 照片转三维已成为头显系统的默认功能，个人照片因此成为沉浸式研究中现成的、熟悉的真实场所来源。
-- 内容: visionOS 26 的功能：把任意二维照片变成带深度、可从多个角度观看的空间场景，在 Apple Vision Pro 上可以凑近、环顾（iOS 26 锁定屏幕上则呈现为视差效果）；开发者可使用 Spatial Scene API。2026 年 6 月 8 日 WWDC 发布的 visionOS 27 进一步让 Vision Pro 用户把全景照片变成空间场景，并设为个人“环境”。
+- 内容: visionOS 26 的功能：把任意二维照片变成带深度、可从多个角度观看的空间场景，在 Apple Vision Pro 上可以凑近、环顾（iOS 26 锁定屏幕上则呈现为视差效果）；开发者可使用 Spatial Scene API。2026 年 6 月 8 日 WWDC 发布、9 月 14 日正式推送的 visionOS 27 进一步让 Vision Pro 用户把全景照片变成空间场景，并设为个人“环境”。
 - 实现方式: Apple 称其使用“新的生成式 AI 算法与计算深度”推断几何并补全去遮挡区域，以生成多个视角；模型未公开（Apple 的 SHARP 研究针对的是同一任务）。
 - 能力维度: 感知真实感, 创作可及性
 - 视频: https://www.apple.com/newsroom/videos/2025/autoplay/06/visionos-26-introduces-powerful-new-spatial-experiences-for-apple-vision-pro/apple-wwdc25-visionos-26-spatial-scenes-photos-app/large_2x.mp4
@@ -3077,6 +4337,19 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 项目主页: https://github.com/apple/ml-depth-pro
 - 代码: https://github.com/apple/ml-depth-pro
 
+#### ViewCrafter — Wangbo Yu (2024-09-03)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 镜头路径 / 位姿 → 输出: 平面视频, 高斯泼溅 / 辐射场
+- 核心想法: 粗略的三维点告诉视频模型物体在哪里，视频模型补上它们看起来的样子：后来许多世界生成器都采用了这种分工。
+- 内容: ViewCrafter 从一张或几张照片出发，用以点云为引导的视频扩散模型沿指定镜头路径生成新视角，再用这些画面拟合三维高斯，使场景可以实时浏览；代码与权重均已开源。
+- 实现方式: 先由输入图像重建点云，沿目标轨迹渲染后作为图生视频扩散模型的条件；再通过迭代视角合成与镜头轨迹规划逐步扩大覆盖范围，最后用生成的画面优化三维高斯泼溅。
+- 能力维度: 感知真实感, 实验控制
+- 论文: https://arxiv.org/abs/2409.02048 (IEEE TPAMI 2025)
+- 视频: https://www.youtube.com/watch?v=WGIEmu9eXmU
+- 图片: https://drexubery.github.io/ViewCrafter/static/images/room.png
+- 项目主页: https://drexubery.github.io/ViewCrafter/
+- 代码: https://github.com/Drexubery/ViewCrafter
+
 #### Depth Anything V2 — Lihe Yang, 字节跳动 Seed (2024-06-14)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
 - 输入: 图像, 视频 → 输出: 图像 / 全景图
@@ -3124,6 +4397,41 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 
 由提示词或照片生成网格与贴图：Meshy、Tripo、Rodin、Hunyuan3D、TRELLIS、SAM 3D……
 
+#### Hyper3D 智能体模式（Hyper3D Agentic Mode） — 影眸科技 (2026-10-10)
+- 类型: 产品 / 应用 · 时序: 回合制 · 获取方式: 产品 / 应用
+- 输入: 文字提示, 图像 → 输出: 网格 / 三维资产, 动作 / 动画
+- 核心想法: 继 Meshy 3D 智能体之后，主要的三维资产厂商都在生成器前面加了一个负责规划的智能体：人只需说明意图，步骤由智能体决定。
+- 内容: Deemos 旗下 Hyper3D（Rodin）应用中的智能体模式：它理解用户的意图、改写输入并决定建模方式，生成可编辑、尺寸可调的 N 边形（n-gon）模型，面向 CAD、建筑和产品设计，也能为模型添加动画；Deemos 称之为“氛围建模”（vibe modeling）。
+- 实现方式: 专有系统；Deemos 称其为一个智能体层，负责优化提示词并在自家 Rodin 生成器之上选择建模路线，具体设计未公开。
+- 能力维度: 创作可及性, 共创与能动性
+- 视频: https://www.youtube.com/watch?v=heJjHOAUWLU
+- 图片: https://storage.deemos.dev/assets/og-banner.png
+- 项目主页: https://hyper3d.ai/
+
+#### GATOR：生成式、智能体驱动的三维物体重建（GATOR） — Qirui Wu, 英伟达 (2026-10-08)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 图像 → 输出: 网格 / 三维资产, 三维场景 / 世界
+- 核心想法: 生成负责补全相机没拍到的部分，智能体再拿拍到的部分来核对结果，这是从一次快速拍摄到真实房间的可交互副本的一条路径。
+- 内容: 英伟达与西蒙菲莎大学的系统：由一张或几张随手拍的照片恢复完整、带纹理的物体资产及其在房间中的位姿，再由智能体在 Blender 中对照照片与渲染结果修补每个网格；组合出的房间被放进物理仿真，与人形机器人一起演示。
+- 实现方式: 局部模态混合模块把逐块对齐的 RGB、目标掩码和点图特征结合起来，并通过文本引导的适配器分别控制结构、几何与外观；之后由“编辑—渲染—复查”的图像驱动智能体在每个物体十分钟的预算内进行修补，只有渲染结果与观测相符时才保留修改。
+- 参数: 10-minute agentic refinement budget per object
+- 能力维度: 持久性, 行为似真性
+- 论文: https://arxiv.org/abs/2610.11215 (arXiv 2026)
+- 视频: https://research.nvidia.com/labs/lpr/gator/assets/video/gator-overview.mp4
+- 图片: https://research.nvidia.com/labs/lpr/gator/assets/social-card.png
+- 项目主页: https://research.nvidia.com/labs/lpr/gator/
+
+#### Hi3D 3.0 (Twinkle3D) — Math Magic (Hi3D) (2026-08-18)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用
+- 输入: 图像, 文字提示 → 输出: 网格 / 三维资产
+- 核心想法: 表明商用图生三维的竞争转向几何保真度（复制出来的物体是否有同样的孔洞和刻字），并用公开的并排对比而不是单一分数来展示。
+- 内容: 第三代 Hi3D 图生三维模型，基于名为 Twinkle3D 的几何模型；Math Magic 称其几何重建分辨率达 2048³ 体素、纹理最高 8K，重点还原刻字、孔洞、接缝等体现物体特征的细节；2026 年 7 月 23 日发布预告，8 月 18 日上线。
+- 实现方式: 专有模型；Math Magic 称其采用了新的 2048³ 体素高精度三维表示和升级的 UV 补全算法，未发表论文。
+- 参数: 2048³ voxel geometry · up to 8K PBR textures (developer claims)
+- 能力维度: 感知真实感, 创作可及性
+- 视频: https://www.youtube.com/watch?v=1_aWAwd3NEk
+- 项目主页: https://www.prnewswire.com/news-releases/hi3d-announces-v3-0-for-august-launch-publishes-side-by-side-comparison-of-leading-ai-3d-tools-302838563.html
+
 #### Meshy 7 — Meshy (2026-08-12)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用, 公开 API
 - 输入: 图像, 文字提示 → 输出: 网格 / 三维资产
@@ -3137,17 +4445,72 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 项目主页: https://www.meshy.ai/blog/meshy-7-image-to-3d-geometry-alignment
 - API 文档: https://docs.meshy.ai/
 
+#### 混元3D-Buffalo 1.0（Hunyuan3D-Buffalo 1.0） — 腾讯混元 (2026-08-05)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 文字提示 → 输出: 网格 / 三维资产, 对话 / 文本
+- 核心想法: 把“描述、生成、修改、拆分”放进同一个模型，道具可以按指令修改，而不必每次从头重新生成。
+- 内容: 腾讯混元3D 的统一模型：能描述一个三维资产、由文字生成资产、按文字指令编辑资产，并按名称提取其中的部件；2026 年 8 月以技术报告和项目主页形式发布，截至 2026 年 10 月代码已预告但尚未公开。
+- 实现方式: Hunyuan3D-VLM 为 Hunyuan3D DiT 生成器提供语义、结构与空间条件，编辑和部件生成时还把原始资产一并输入；训练语料共 8700 万条三维样本，其中 1200 万条编辑样本由 Nano3D-v2 生成。
+- 参数: 87M training samples: 25M understanding · 50M text-to-3D · 12M editing
+- 能力维度: 创作可及性, 实验控制
+- 论文: https://arxiv.org/abs/2608.02711 (arXiv 2026 (technical report))
+- 视频: https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/intro.mp4
+- 图片: https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/statics/images/Pipeline.png
+- 项目主页: https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/
+- 代码: https://github.com/Tencent-Hunyuan/Hunyuan3D-Buffalo1.0
+
+#### MeshFlow：高效的艺术家风格网格生成（MeshFlow） — Weiyu Li, Meta (2026-06-03)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像 → 输出: 网格 / 三维资产
+- 核心想法: 艺术家风格的拓扑过去只能缓慢地逐 token 生成；并行生成让干净、可直接用于游戏的网格便宜到可以按需生产。
+- 内容: Meta AI 与香港科技大学的模型，约一秒即可生成艺术家风格的网格（布线干净，而不是扫描式的密集三角面），以输入几何为条件，并可附参考图像；权重以 Meta 非商用研究许可发布。
+- 实现方式: 用对比损失训练的 MeshVAE 把连续的顶点位置和离散的连接关系映射到紧凑的连续潜空间，再由流匹配扩散 Transformer 并行去噪；无需坐标量化，计算量随网格规模线性增长。
+- 参数: ~1 s per mesh · ~18× faster than autoregressive mesh generation (author claims)
+- 能力维度: 创作可及性, 感知真实感
+- 获奖与认可: CVPR 2026 Highlight
+- 论文: https://arxiv.org/abs/2606.04621 (CVPR 2026 (Highlight))
+- 视频: https://mesh-flow.github.io/assets/media/denoise_teaser.mp4
+- 图片: https://raw.githubusercontent.com/facebookresearch/meshflow/main/assets/teaser.png
+- 项目主页: https://mesh-flow.github.io/
+- 代码: https://github.com/facebookresearch/meshflow
+
 #### Meshy 3D 智能体（Meshy 3D Agent） — Meshy (2026-05-29)
 - 类型: 产品 / 应用 · 时序: 回合制 · 获取方式: 产品 / 应用
 - 输入: 文字提示, 图像, 草图与手势 → 输出: 网格 / 三维资产, 对话 / 文本
 - 核心想法: 把资产生成从单个提示框变成能规划、能迭代的对话，研究者也可以用这种方式“说”出情境所需的道具。
-- 内容: Meshy 内置的对话式智能体：用户描述想法或上传照片、草图，智能体会提出方向、批量生成概念图，把选中的方案变成可下载的三维模型，还能通过对话为角色绑定和制作动画。
+- 内容: Meshy 内置的对话式智能体：用户描述想法或上传照片、草图，智能体会提出方向、批量生成概念图，把选中的方案变成可下载的三维模型，还能通过对话为角色绑定和制作动画；2026 年 10 月 14 日起向所有 Meshy 用户开放。
 - 实现方式: 由大语言模型驱动的智能体，在一次对话中调度 Meshy 的图像生成、图生三维、贴图、绑定和动画工具；Meshy 还通过 MCP 服务器把这些工具开放给外部智能体。
 - 能力维度: 创作可及性, 共创与能动性
 - 视频: https://www.youtube.com/watch?v=YwnwaCpRNGE
 - 图片: https://cdn.meshy.ai/landing-assets/blog/meshy-3d-agent/meshy-3d-agent-cover-new.webp
 - 项目主页: https://www.meshy.ai/blog/meshy-3d-agent
 - API 文档: https://www.meshy.ai/mcp
+
+#### CubePart：开放词汇、部件可控的三维生成（CubePart） — Roblox (2026-05-27)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示, 场景规格、代码与规则 → 输出: 网格 / 三维资产
+- 核心想法: 让创作者在生成之前就决定物体由哪些部件组成，需要能开的门、能转的旋翼从一开始就是独立的部件。
+- 内容: Roblox 开源的部件可控三维生成模型：给出提示词和一份部件名称列表（例如直升机的机身、旋翼和尾部），它为每个部件生成一个完整网格，组合起来就是整个物体，可直接在游戏里编写脚本或做动画。
+- 实现方式: 两阶段生成：先合成整体形状，再按开放词汇的部件清单逐个解码出每个部件的网格；训练数据是用可扩展标注流程构建的大规模部件标注三维数据集。
+- 能力维度: 实验控制, 创作可及性, 行为似真性
+- 论文: https://arxiv.org/abs/2605.28763 (SIGGRAPH 2026)
+- 视频: https://www.youtube.com/watch?v=Afp_jkabSL0
+- 图片: https://cubepart.github.io/static/images/social-card.jpg
+- 项目主页: https://cubepart.github.io/
+- 代码: https://huggingface.co/Roblox/cubepart
+
+#### PhysX-Omni：统一的可仿真物理三维生成（PhysX-Omni） — Ziang Cao (2026-05-20)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像 → 输出: 网格 / 三维资产
+- 核心想法: 一个知道自己多大、多重、怎样弯曲或打开的生成物体，在人或机器人触碰它时才能表现得合理。
+- 内容: 南洋理工大学的开源模型，可由单张图像生成可直接仿真的物体，覆盖刚体、可变形体和铰接体三类，同时预测几何、绝对尺度、材质、可供性、关节和功能描述；一并发布了 PhysXVerse 数据集和 PhysX-Bench 基准。
+- 实现方式: 经微调的 Qwen2.5-VL 视觉语言模型由粗到细地推理整体物理属性和部件级几何，并采用专为视觉语言模型设计、无需压缩即可编码高分辨率三维结构的几何表示。
+- 能力维度: 行为似真性, 反应性
+- 论文: https://arxiv.org/abs/2605.21572 (arXiv 2026)
+- 视频: https://www.youtube.com/watch?v=ZCgj4ffz4yk
+- 图片: https://physx-omni.github.io/static/videos/teaser2.png
+- 项目主页: https://physx-omni.github.io/
+- 代码: https://github.com/physx-omni/PhysX-Omni
 
 #### Rodin Gen-2.5 — 影眸科技 (2026-05-19)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用, 公开 API
@@ -3161,6 +4524,19 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://storage.deemos.dev/assets/og-banner.png
 - 项目主页: https://x.com/DeemosTech/status/2056744290689441833
 - API 文档: https://docs.hyper3d.ai/
+
+#### Articraft：规模化生成可活动三维资产的智能体系统（Articraft） — Matt Zhou (2026-05-14)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示, 图像 → 输出: 网格 / 三维资产, 三维场景 / 世界
+- 核心想法: 把物体生成为代码，每个铰链和抽屉都显式可测，于是生成的房间可以在头显里伸手去碰，而不只是看。
+- 内容: 剑桥大学与牛津大学的系统：由语言模型根据文字描述（可附参考图）编写搭建程序，生成带部件和关节的可活动物体；作者把这些资产载入 VR 供人亲手操作，也载入仿真器用于机器人操作。
+- 实现方式: 大模型智能体在受限的运行框架中，调用一个专用 SDK 编写代码来定义部件、组合几何、设定关节并编写测试；框架验证每个资产并返回结构化反馈，模型无需直接编写 URDF。
+- 能力维度: 反应性, 情境多样性, 创作可及性
+- 论文: https://arxiv.org/abs/2605.15187 (arXiv 2026)
+- 视频: https://articraft3d.github.io/webpage/vr/vr_demo.mp4
+- 图片: https://articraft3d.github.io/webpage/teaser.jpg
+- 项目主页: https://articraft3d.github.io/
+- 代码: https://github.com/articraftresearch/Articraft
 
 #### TripoSplat — VAST 光影焕像 (2026-05-07)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
@@ -3186,6 +4562,20 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 视频: https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/1vx23mnwp9xif.mp4
 - 图片: https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymo6oe71o.jpeg
 - 项目主页: https://seed.bytedance.com/en/seed3d_2_0
+
+#### SIMART：把整体网格拆解为可仿真的铰接资产（SIMART） — Chuanrui Zhang, 字节跳动 Seed (2026-03-24)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 文字提示 → 输出: 网格 / 三维资产
+- 核心想法: 把一个“雕塑般”的生成柜子变成能打开的柜子，这是从“只能看的道具”到“能用的道具”之间的一步。
+- 内容: 字节跳动 Seed 与南洋理工大学的模型：输入一个整体网格（例如图生三维模型的输出），把它拆分为部件并预测关节，输出可在物理仿真器中打开的 URDF，让抽屉能拉、盖子能翻；权重以 Apache 2.0 协议开源。
+- 实现方式: 稀疏三维 VQ-VAE 把网格编码为比稠密体素少约 70% 的 token；多模态大模型将其与图像和文本输入融合，完成部件定位和关节参数估计，输出 URDF 元数据和分割后的部件。
+- 参数: ~70% fewer 3D tokens than dense voxels
+- 能力维度: 行为似真性, 反应性
+- 论文: https://arxiv.org/abs/2603.23386 (SIGGRAPH 2026)
+- 视频: https://www.youtube.com/watch?v=Facqav-LthQ
+- 图片: https://simart-mllm.github.io/static/videos/teaser.png
+- 项目主页: https://simart-mllm.github.io/
+- 代码: https://github.com/ByteDance-Seed/SimArt
 
 #### Cube 4D 生成（Cube 4D generation） — Roblox (2026-02-04)
 - 类型: 模型 · 时序: 回合制 · 获取方式: 候补 / 抢先体验, 产品 / 应用
@@ -3302,6 +4692,19 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 项目主页: https://corp.roblox.com/newsroom/2025/03/introducing-roblox-cube
 - 代码: https://github.com/Roblox/cube
 
+#### TripoSG — VAST 光影焕像 (2025-02-10)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像 → 输出: 网格 / 三维资产
+- 核心想法: 一个接近商用水准、许可宽松的开源形状生成模型，让实验室可以固定版本并检查生成道具所用的模型。
+- 内容: VAST 开源的 15 亿参数图生形状模型，以 MIT 协议发布，另有草图条件版本；可由单张图像生成细节丰富的封闭几何，成为 2025 年三维形状生成常用的开源基线之一。
+- 实现方式: 在三维 VAE 潜空间上训练的整流流 Transformer，VAE 采用 SDF、法线和 eikonal 损失训练，并配有一条筛选约 200 万个高质量三维样本的数据管线。
+- 参数: 1.5B parameters
+- 能力维度: 感知真实感
+- 论文: https://arxiv.org/abs/2502.06608 (arXiv 2025)
+- 图片: https://raw.githubusercontent.com/VAST-AI-Research/TripoSG/main/assets/doc/triposg_teaser.png
+- 项目主页: https://github.com/VAST-AI-Research/TripoSG
+- 代码: https://huggingface.co/VAST-AI/TripoSG
+
 #### 混元3D 2.0（Hunyuan3D 2.0） — 腾讯混元 (2025-01-21)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码, 产品 / 应用
 - 输入: 图像, 文字提示 → 输出: 网格 / 三维资产
@@ -3314,6 +4717,20 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://raw.githubusercontent.com/Tencent-Hunyuan/Hunyuan3D-2/main/assets/images/teaser.jpg
 - 项目主页: https://3d.hunyuan.tencent.com/
 - 代码: https://github.com/Tencent-Hunyuan/Hunyuan3D-2
+
+#### SPAR3D（稳定点感知三维）（SPAR3D (Stable Point Aware 3D)） — Stability AI (2025-01-08)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码, 公开 API
+- 输入: 图像 → 输出: 网格 / 三维资产
+- 核心想法: 在照片和网格之间加入一个可编辑的中间结果，人可以修正物体被遮住的那一面，而不必全盘接受模型的猜测。
+- 内容: Stability AI 的开源单图生成网格模型：先采样物体的点云（用户可以编辑），再在一秒内由点云生成带纹理的网格，包括图像中看不到的背面。
+- 实现方式: 点扩散模型先由图像采样稀疏点云，再由以图像和点云为条件的前馈网格化阶段预测几何、纹理与材质；以 Stability AI 社区许可证发布。
+- 参数: <1 s per mesh (developer claim)
+- 能力维度: 实验控制, 创作可及性
+- 论文: https://arxiv.org/abs/2501.04689 (CVPR 2025)
+- 视频: https://www.youtube.com/watch?v=mlO3Nc3Nsng
+- 图片: https://static1.squarespace.com/static/6213c340453c3f502425776e/62f2452bc121595f4d87c713/677c55948f46f6565bb34016/1736395384697/SPAR3D_Hero+Thumbnail_Blog+1_1.png?format=1500w
+- 项目主页: https://stability.ai/news/stable-point-aware-3d
+- 代码: https://github.com/Stability-AI/stable-point-aware-3d
 
 #### TRELLIS — 微软 (2024-12-02)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
@@ -3428,6 +4845,18 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 项目主页: https://dreamgaussian.github.io/
 - 代码: https://github.com/dreamgaussian/dreamgaussian
 
+#### Shap-E（及 Point-E）（Shap-E (and Point-E)） — OpenAI (2023-05-03)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示, 图像 → 输出: 网格 / 三维资产
+- 核心想法: 最早被广泛使用的前馈式文生三维模型：快速、开源但粗糙，是后来原生三维生成模型的比较基线。
+- 内容: OpenAI 开源的文生 / 图生三维模型：Point-E（2022 年 12 月）可在单张 GPU 上用一到两分钟生成彩色点云，Shap-E（2023 年 5 月）生成隐式函数，几秒内即可渲染为带纹理的网格或神经辐射场。
+- 实现方式: Shap-E 先训练一个编码器，把三维资产映射为隐式函数的参数（可作为网格或 NeRF 渲染），再在这些参数上训练条件扩散模型；Point-E 则把文生图模型与图像到点云的扩散模型串联起来。
+- 能力维度: 创作可及性, 情境多样性
+- 论文: https://arxiv.org/abs/2305.02463 (arXiv 2023)
+- 图片: https://raw.githubusercontent.com/openai/shap-e/main/samples/a_chair_that_looks_like_an_avocado/2.gif https://raw.githubusercontent.com/openai/shap-e/main/samples/a_penguin/1.gif
+- 项目主页: https://github.com/openai/shap-e
+- 代码: https://github.com/openai/shap-e
+
 #### Zero-1-to-3 — Ruoshi Liu (2023-03-20)
 - 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
 - 输入: 图像, 镜头路径 / 位姿 → 输出: 图像 / 全景图, 网格 / 三维资产
@@ -3463,12 +4892,64 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 产品 / 应用, 公开 API
 - 输入: 图像, 文字提示 → 输出: 网格 / 三维资产, 动作 / 动画
 - 核心想法: 布线合理的四边形拓扑，是生成角色在运动时能正确变形的前提；P2.0 针对的正是“雕像”与“演员”之间的差距。
-- 内容: Tripo 的角色模型，可由图像或提示词生成带干净四边形拓扑、可直接做动画的角色；2026 年 9 月 6 日发布预览，10 月 1 日正式上线。
+- 内容: Tripo 的角色模型，可由图像或提示词生成带干净四边形拓扑、可直接做动画的角色；2026 年 9 月 6 日发布预览，10 月 1 日正式上线。2026 年 10 月 Tripo 重做了自动绑定：加入手部骨骼和五种引擎骨骼预设，并可由文字生成 1–10 秒的动作片段，最多串联五段。
 - 实现方式: 专有模型；VAST 尚未公开其架构。
 - 能力维度: 创作可及性, 感知真实感
 - 视频: https://www.youtube.com/watch?v=g4ozFeSBPfo
 - 项目主页: https://www.tripo3d.ai/
 - API 文档: https://platform.tripo3d.ai/docs
+
+#### UniMate：为任意骨骼生成动画的统一模型（UniMate） — Linzhan Mou (2026-09-04)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示 → 输出: 动作 / 动画
+- 核心想法: 文生动作不再只适用于人：创作者绑定好的任何生物或物体，都可以用文字告诉它做什么。
+- 内容: 普林斯顿大学的模型：输入任意已绑定骨骼的三维资产和一段文字提示，就能为其生成动画，无论是人、猫、蛇还是鹰，无需针对每种骨骼单独训练或提供参考动作；还支持动作编辑和中间帧补全，代码、模型和数据集均已公开。
+- 实现方式: 拓扑感知的扩散 Transformer，通过基于关节两两关系的图感知注意力偏置等机制把骨骼图结构融入注意力，在多骨骼动作数据集上训练。
+- 能力维度: 创作可及性, 情境多样性
+- 论文: https://arxiv.org/abs/2609.05415 (SIGGRAPH Asia 2026)
+- 视频: https://www.youtube.com/watch?v=xbndC-dEuVw
+- 图片: https://linzhanmou.com/unimate/assets/images/og-teaser.jpg
+- 项目主页: https://linzhanmou.com/unimate/
+- 代码: https://github.com/Friedrich-M/UniMate
+
+#### AniGen：可直接做动画的三维资产生成（AniGen） — Yi-Hua Huang, VAST 光影焕像 (2026-04-09)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像 → 输出: 网格 / 三维资产, 动作 / 动画
+- 核心想法: 骨骼绑定与形状一起生成，而不是事后再推断，省去了多数生成角色“动不起来”的那一步。
+- 内容: 香港大学与 VAST 的开源模型，可由单张图像生成已绑定的三维资产：网格、关节骨骼和蒙皮权重一起生成，适用于动物、人形和机械，生成后可直接用现成的动作数据驱动。
+- 实现方式: 把形状、骨骼和蒙皮表示为同一空间域上相互一致的场（S³ Fields），配合置信度衰减的骨骼场和双重蒙皮特征场，由基于 TRELLIS 式结构化潜空间的两阶段流匹配管线生成。
+- 能力维度: 创作可及性, 行为似真性
+- 论文: https://arxiv.org/abs/2604.08746 (SIGGRAPH 2026)
+- 视频: https://yihua7.github.io/AniGen_web/assets/videos/demo/AniGen_video_h264.mp4
+- 图片: https://yihua7.github.io/AniGen_web/assets/images/teaser.png
+- 项目主页: https://yihua7.github.io/AniGen_web/
+- 代码: https://github.com/VAST-AI-Research/AniGen
+
+#### SkinTokens（TokenRig）：统一自回归骨骼绑定（SkinTokens (TokenRig)） — Jia-Peng Zhang, VAST 光影焕像 (2026-02-04)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入:  → 输出: 网格 / 三维资产
+- 核心想法: 骨骼绑定决定了生成角色能不能动起来；现在它变成一次生成就能完成的步骤，还可以用强化学习继续改进。
+- 内容: 清华大学与 VAST 推出的 UniRig 后继工作：输入任意三维网格（从动漫角色到四足动物），把骨骼和逐顶点蒙皮权重作为同一个 token 序列一次生成，可直接导入常用动画工具；权重和演示已发布在 Hugging Face。
+- 实现方式: 用 FSQ-CVAE 把稀疏的蒙皮权重压缩为离散的 SkinTokens；TokenRig 在同一序列中自回归预测骨骼参数和 SkinTokens，再通过带几何与语义奖励的强化学习阶段改进绑定结果。
+- 参数: 98–133% better skinning accuracy, 17–22% better bone prediction than baselines (author claims)
+- 能力维度: 创作可及性
+- 论文: https://arxiv.org/abs/2602.04805 (ACM TOG 2026)
+- 视频: https://zjp-shadow.github.io/works/SkinTokens/static/videos/show.mp4
+- 图片: https://zjp-shadow.github.io/works/SkinTokens/static/images/wild.webp
+- 项目主页: https://zjp-shadow.github.io/works/SkinTokens/
+- 代码: https://github.com/VAST-AI-Research/SkinTokens
+
+#### RigMo：绑定与动作的统一学习（RigMo） — Hao Zhang, Snap Inc. (2026-01-10)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 场景规格、代码与规则 → 输出: 网格 / 三维资产, 动作 / 动画
+- 核心想法: 把绑定和动作当作同一个学习问题，为没有标准骨骼的生物和物体做动画提供了一条路。
+- 内容: Snap Research 的模型，直接从原始的形变网格序列中同时学习绑定和动作，不需要骨骼标注，把任意运动中的网格变成带显式骨骼、蒙皮权重和动作的可动画资产；代码与数据已宣布即将公开。
+- 实现方式: 把逐顶点形变编码为两个潜变量：绑定潜变量解码为高斯骨骼和蒙皮权重，动作潜变量输出随时间变化的 SE(3) 变换；再用 Motion-DiT 在该潜空间中生成动作。
+- 能力维度: 创作可及性, 行为似真性
+- 论文: https://arxiv.org/abs/2601.06378 (arXiv 2026)
+- 视频: https://www.youtube.com/watch?v=0H0lsM3USVM
+- 图片: https://rigmo-page.github.io/pdf2png/teaser/teaser-1.png
+- 项目主页: https://rigmo-page.github.io/
 
 #### Puppeteer — Chaoyue Song, 字节跳动 Seed (2025-08-14)
 - 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
@@ -3564,6 +5045,45 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://raw.githubusercontent.com/nv-tlabs/ardy/main/assets/banner.png
 - 项目主页: https://research.nvidia.com/labs/sil/projects/ardy/
 - 代码: https://github.com/nv-tlabs/ardy
+
+#### VideoMDM：用二维监督训练三维人体动作生成（VideoMDM） — Amir Mann (2026-06-11)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示 → 输出: 动作 / 动画
+- 核心想法: 如果动作生成模型能从视频而不是动捕中学习，它能生成的行为种类就不再受限于动捕棚里录过什么。
+- 内容: 以色列理工学院与英伟达的研究：只用从普通单目视频中提取的二维姿态，不用任何三维真值，就训练出三维人体动作扩散模型；在 HumanML3D 上几乎追平全三维监督的 MDM，在 Fit3D 和 NBA 视频上学到的动作更受人类评审偏好。
+- 实现方式: 用预训练的二维到三维提升模型得到带噪声的三维姿态序列，在三维空间中加噪去噪，再把预测重投影到二维、用深度加权损失与准确的关键点比对来监督，并把常用的三维正则项改造到二维设定。
+- 参数: HumanML3D FID 0.88 (vs 0.54 for 3D-supervised MDM)
+- 能力维度: 感知真实感, 情境多样性
+- 论文: https://arxiv.org/abs/2606.13364 (arXiv 2026)
+- 视频: https://videomdm.github.io/hero-figure.mp4
+- 图片: https://videomdm.github.io/figures/method.png
+- 项目主页: https://videomdm.github.io/
+- 代码: https://github.com/Amir-Mann/VideoMDM_release
+
+#### Kimodo：可控人体动作生成（Kimodo） — 英伟达 (2026-03-16)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示, 场景规格、代码与规则 → 输出: 动作 / 动画
+- 核心想法: 一个可下载、能遵守约束的动作生成模型：作者可以规定角色必须在哪里、做什么，中间的动作由模型合理补全。
+- 内容: 英伟达开源的运动学动作扩散模型，用 700 小时光学动捕数据训练，可由文字加上全身关键帧、稀疏关节目标、二维路径点和路径等约束生成三维人体及人形机器人动作；发布了 SOMA、SMPL-X 和宇树 G1 版本以及公开基准，并于 2026 年 10 月更新到 v1.2。
+- 实现方式: 基于专门设计的动作表示，两阶段 Transformer 去噪器分别预测根轨迹和身体姿态，在减少动作瑕疵的同时能灵活注入约束；训练数据为 Bones Rigplay 和 BONES-SEED 动捕数据集。
+- 参数: 700 h optical mocap · SOMA 77-joint, SMPL-X and Unitree G1 skeletons
+- 能力维度: 实验控制, 感知真实感
+- 论文: https://research.nvidia.com/labs/sil/projects/kimodo/assets/kimodo_tech_report.pdf (NVIDIA technical report 2026)
+- 视频: https://research.nvidia.com/labs/sil/projects/kimodo/assets/videos/teaser.mp4
+- 图片: https://research.nvidia.com/labs/sil/projects/kimodo/assets/soma_fullbody_highlight.png
+- 项目主页: https://research.nvidia.com/labs/sil/projects/kimodo/
+- 代码: https://github.com/nv-tlabs/kimodo
+
+#### Uthana — Uthana (2025)
+- 类型: 产品 / 应用 · 时序: 预先生成 · 获取方式: 产品 / 应用, 公开 API
+- 输入: 文字提示, 视频 → 输出: 动作 / 动画
+- 核心想法: 生成的动作以动画师现有的工作方式交付（直接用在自己角色的骨骼上，可在 Unity、Blender 或 Maya 中使用），这才让它能真正用来为情境中的角色编排动作。
+- 内容: 可由文字提示或视频生成可编辑骨骼动画的网页应用与 API，并能把动作重定向到用户自己的角色或人形机器人上；Text-to-Motion 3.0（2026 年 7 月 14 日）能理解关于节奏、姿态和风格的长提示，2026 年 5 月起已接入 Unity AI。
+- 实现方式: 专有动作模型，文生动作、视频转动作、行走运动和重定向分别由不同模型完成；Uthana 同时出售棚内动捕数据，这很可能就是其训练数据来源，架构未公开。
+- 能力维度: 创作可及性, 感知真实感
+- 视频: https://www.youtube.com/watch?v=WHmV8kD-_xo
+- 项目主页: https://uthana.com/blog/text-to-motion-30-sets-a-new-bar-for-ai-animation
+- API 文档: https://uthana.com/
 
 #### 混元 HY-Motion 1.0（HY-Motion 1.0） — 腾讯混元 (2025-12-30)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
@@ -3680,9 +5200,9 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 项目主页: https://ericguo5513.github.io/text-to-motion/
 - 代码: https://github.com/EricGuo5513/HumanML3D
 
-## 捕捉、重建与 4D
+## 捕捉、重建与 4D 生成
 
-把真实世界变成可漫游的三维与四维（三维加时间）：辐射场与高斯泼溅、几秒内完成的前馈式重建、动态场景、生成式 4D 与体积视频。
+可漫游的三维与四维（三维加时间），既可从真实世界捕捉，也可以生成：辐射场与高斯泼溅、几秒内完成的前馈式重建、动态场景、体积视频，以及由文字、图像或视频生成的运动物体、场景与世界。
 
 ### NeRF 与高斯泼溅
 
@@ -3825,6 +5345,20 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 
 一次网络前向就从图像得到几何或高斯泼溅：DUSt3R、VGGT、AnySplat……
 
+#### InfiniSplat v2 — Yongzhen Hu, 浙江大学三维视觉组 (2026-10-14)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 视频, 镜头路径 / 位姿 → 输出: 高斯泼溅 / 辐射场, 三维场景 / 世界
+- 核心想法: 前馈式泼溅如今要看它在远离拍摄位置时的效果，而这正是人在 VR 中绕着重建场景走动时最关键的情形。
+- 内容: 浙江大学三维视觉组的 InfiniSplat v2 可以从任意数量的照片直接预测三维高斯场景，相机位姿已知或未知均可，目标是在相机远离输入视角时画面依然干净。2026 年 10 月 14 日随论文发布了权重和 Hugging Face 演示。
+- 实现方式: 双分支网络冻结预训练的几何分支，单独学习高斯属性，并用不透明度抑制不一致的点；训练时将预测与尺度对齐的真实相机对齐，并对大角度目标视角进行监督。
+- 参数: mean LPIPS −25.8%, DISTS −32.9% vs. compared methods (pose-conditioned, 6 datasets; authors)
+- 能力维度: 时间响应性, 感知真实感
+- 论文: https://arxiv.org/abs/2610.20341 (arXiv 2026)
+- 视频: https://huggingface.co/datasets/Edisoneh/InfiniSplat-v2-assets/resolve/8e50354da224daebc35bdd9e99cae947e0c1ea40/assets/demo/infinisplat-v2-demo-v14-preview.mp4
+- 图片: https://zju3dv.github.io/InfiniSplat2/assets/demo/cover.png
+- 项目主页: https://zju3dv.github.io/InfiniSplat2/
+- 代码: https://github.com/zju3dv/InfiniSplat
+
 #### VGGT-Ω — Jianyuan Wang, Meta (2026-05-14)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
 - 输入: 图像, 视频 → 输出: 三维场景 / 世界, 动态三维 / 4D
@@ -3865,6 +5399,20 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 项目主页: https://depth-anything-3.github.io/
 - 代码: https://github.com/ByteDance-Seed/Depth-Anything-3
 
+#### 混元 WorldMirror（HunyuanWorld-Mirror (WorldMirror)） — 腾讯混元 (2025-10-22)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 视频, 镜头路径 / 位姿 → 输出: 三维场景 / 世界, 高斯泼溅 / 辐射场
+- 核心想法: 关于一次拍摄已经知道的信息（头显追踪得到的位姿、手机测得的深度）可以直接输入、让重建更准确，而不必丢弃。
+- 内容: WorldMirror 是腾讯混元开源的前馈式重建模型：输入照片或视频帧，一次前向即可预测点云、深度、法线、相机参数与三维高斯，并能把已知的相机位姿、内参或深度作为额外提示输入。WorldMirror 2.0（2026 年 4 月）作为 HY-World 2.0 的重建模块发布；原论文已被 ICML 2026 接收。
+- 实现方式: Transformer 将多视角图像与可选的先验标记（相机位姿、内参、深度）一起编码，再由点云、深度、法线、相机与 3DGS 等任务头解码；腾讯报告称加入先验能提升所有任务的表现。
+- 参数: one forward pass · outputs points, depth, normals, cameras, 3DGS · exports to COLMAP
+- 能力维度: 实验控制, 创作可及性
+- 论文: https://arxiv.org/abs/2510.10726 (ICML 2026)
+- 视频: https://github.com/user-attachments/assets/146a9a25-5eb7-4400-aa09-5b58e1d10a5e
+- 图片: https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanWorld-Mirror/main/assets/teaser.jpg
+- 项目主页: https://3d-models.hunyuan.tencent.com/world/
+- 代码: https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror
+
 #### MapAnything — Nikhil Keetha, Meta (2025-09-16)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
 - 输入: 图像, 多视角拍摄 / 扫描, 镜头路径 / 位姿 → 输出: 三维场景 / 世界
@@ -3877,6 +5425,19 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://map-anything.github.io/static/MapAnything_Geometric_Inp.png
 - 项目主页: https://map-anything.github.io/
 - 代码: https://github.com/facebookresearch/map-anything
+
+#### π³ (Pi3) — 上海人工智能实验室 (2025-07-17)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 视频 → 输出: 三维场景 / 世界
+- 核心想法: 去掉参考视角之后，随手收集、顺序混乱的素材（例如许多人用手机拍下的同一地点）也能更稳定地被重建。
+- 内容: π³ 是上海人工智能实验室开源的前馈式模型：把一组无序的照片或视频帧转换为相机位姿与点图，而不把任何一帧当作参考帧，因此结果与输入顺序无关。它被 ICLR 2026 接收，并与 VGGT 一起被后续重建方法用作骨干网络。
+- 实现方式: 完全置换等变的 Transformer，不设参考帧标记，为每个视角预测仿射不变的相机位姿与尺度不变的局部点图。
+- 参数: BSD-3 code and weights · ~2.2k GitHub stars (Oct 2026)
+- 能力维度: 时间响应性, 创作可及性
+- 论文: https://arxiv.org/abs/2507.13347 (ICLR 2026)
+- 视频: https://yyfz.github.io/pi3/assets/videos/teaser.mp4
+- 项目主页: https://yyfz.github.io/pi3/
+- 代码: https://github.com/yyfz/Pi3
 
 #### AnySplat — Lihan Jiang (2025-05-29)
 - 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
@@ -3960,6 +5521,34 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 ### 动态 4D 场景
 
 在空间与时间上重建的运动场景：4D 高斯、时空泼溅、4D 视频。
+
+#### MotionCrafter — Ruijie Zhu, 腾讯 ARC 实验室 (2026-02-09)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 视频 → 输出: 动态三维 / 4D
+- 核心想法: 视频生成模型已经学到了物体如何运动；MotionCrafter 用这些知识去测量真实画面中的运动，而不是生成新的画面。
+- 内容: MotionCrafter 输入一段普通视频，为每一帧输出稠密的三维点图，以及每个点的三维运动（场景流），全部位于同一个坐标系中。它入选 CVPR 2026 Highlight，代码、权重与在线演示均已公开。
+- 实现方式: 4D VAE 把点图与场景流编码为潜变量，再由微调过的视频扩散骨干根据 RGB 视频预测这些潜变量；作者发现强行让它们与 RGB VAE 潜变量对齐反而有害，因此改用新的归一化方式。
+- 参数: +38.6% geometry, +25.0% scene flow vs. prior best (authors)
+- 能力维度: 持久性
+- 获奖与认可: CVPR 2026 Highlight
+- 论文: https://arxiv.org/abs/2602.08961 (CVPR 2026)
+- 视频: https://www.youtube.com/watch?v=oc0fRoZTyk8
+- 项目主页: https://ruijiezhu94.github.io/MotionCrafter_Page/
+- 代码: https://github.com/TencentARC/MotionCrafter
+
+#### D4RT — Chuhan Zhang, 谷歌 DeepMind (2025-12-09)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 视频 → 输出: 动态三维 / 4D, 三维场景 / 世界
+- 核心想法: 把拍下的情境变成会动的三维记录只需几秒钟，真实事件因此可以实际地成为可回放 4D 场景的素材，而不再只是实验室里的流程。
+- 内容: D4RT 是 Google DeepMind 的一个统一模型：输入一段普通视频，就能给出深度、相机轨迹，以及任意像素在任意时刻的三维位置，把运动中的人和物体作为一个连贯的 4D 场景来追踪。它获得了 CVPR 2026 最佳论文奖；截至 2026 年 10 月，代码和权重仍未公开。
+- 实现方式: 编码器-解码器 Transformer 先把整段视频压缩为全局场景表示；轻量解码器再以“像素、源时刻、目标时刻、相机坐标系”为查询，返回该点的三维位置，由同一个模型同时得到深度、追踪与相机估计。
+- 参数: 1-min video in ~5 s on one TPU chip · 18–300× faster than prior state of the art (DeepMind)
+- 能力维度: 时间响应性, 持久性
+- 获奖与认可: CVPR 2026 Best Paper
+- 论文: https://arxiv.org/abs/2512.08924 (CVPR 2026)
+- 视频: https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/media/D4RT_blog_figure-1-light.mp4
+- 图片: https://lh3.googleusercontent.com/ozG6v7VcBOV2eYZ8TnGTAe1Z-7EjkNiBPHxdQEG1wy_F5QwRN_4IJ_jJYMNQiOMHEWyNMZg3tmC00bzGQX0IYfXHMVuoQS6OLptEV-H6CUpIOnWOaQ=w1200-h630-n-nu-rw https://storage.googleapis.com/d4rt_assets/D4RT_capabilities_left.gif
+- 项目主页: https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/
 
 #### FreeTimeGS — Yifan Wang, 浙江大学三维视觉组 (2025-06-05)
 - 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
@@ -4089,122 +5678,32 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 项目主页: https://neural-3d-video.github.io/
 - 代码: https://github.com/facebookresearch/Neural_3D_Video
 
-### 生成式 4D
-
-借助视频先验生成或补全的动态三维内容：DreamGaussian4D、CAT4D、BulletGen、SV4D……
-
-#### 4DNeX — Zhaoxi Chen (2025-08-18)
-- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
-- 输入: 图像 → 输出: 动态三维 / 4D, 平面视频
-- 核心想法: 无需逐场景优化的图像到 4D，是通过改造开源视频模型实现的。
-- 内容: 4DNeX 只需一次前向，就能从单张图像生成动态三维点云场景，让一张静态照片变成可以从新角度观看的短暂运动场景。
-- 实现方式: 微调预训练视频扩散模型，使其联合输出 RGB 与 XYZ 点图序列，在大规模精选 4D 数据集（4DNeX-10M）上训练。
-- 能力维度: 创作可及性, 情境多样性
-- 论文: https://arxiv.org/abs/2508.13154 (arXiv 2025)
-- 视频: https://www.youtube.com/watch?v=jaXNU1-0zgk
-- 项目主页: https://4dnex.github.io/
-- 代码: https://github.com/3DTopia/4DNeX
-
-#### BulletGen — Denis Rozumny, Jonathon Luiten, Meta (2025-06-23)
-- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
-- 输入: 视频 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场
-- 核心想法: 把生成当作重建中的修补工具：保留拍到的运动，同时填补空缺。
-- 内容: Meta 的 BulletGen 在定格的子弹时间时刻生成相机从未看到的视角，并用它们监督重建，从而改进随手单目视频的 4D 高斯重建。
-- 实现方式: 在单个定格时间步上，把扩散视频模型与当前 4D 高斯场景对齐，生成的帧作为监督加入迭代优化，同时改善二维/三维追踪。
-- 能力维度: 情境可达性, 感知真实感
-- 论文: https://arxiv.org/abs/2506.18601 (CVPR 2026 Workshop (4D World Models))
-- 图片: https://arxiv.org/html/2506.18601v2/imgs/teaser/skating/v1_our.png https://arxiv.org/html/2506.18601v2/x1.png
-- 项目主页: https://arxiv.org/abs/2506.18601
-
-#### SV4D 2.0 — Stability AI (2025-03-20)
-- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
-- 输入: 视频 → 输出: 动态三维 / 4D, 平面视频
-- 核心想法: 说明开放权重的物体级 4D 路线正走向可用的动画资产。
-- 内容: SV4D 2.0 改进了 Stability AI 的视频到 4D 模型，生成的多视角视频更清晰、更一致，在大幅运动下也更稳定，并可被优化为 4D 资产。
-- 实现方式: 融合三维注意力与帧注意力且不再依赖参考多视角，使用更多更干净的动画训练数据，并采用由 3D 到 4D 的渐进训练来提升一致性，输出再经两阶段 4D 优化细化。
-- 能力维度: 感知真实感, 持久性
-- 论文: https://arxiv.org/abs/2503.16396 (arXiv 2025)
-- 视频: https://www.youtube.com/watch?v=dtqj-s50ynU
-- 项目主页: https://sv4d20.github.io/
-- 代码: https://github.com/Stability-AI/generative-models
-
-#### CAT4D — Rundi Wu, 谷歌 DeepMind (2024-11-27)
-- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
-- 输入: 视频 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场
-- 核心想法: 生成补足了单个相机看不到的部分，这正是一段随手视频能变成可漫游时刻的途径。
-- 内容: Google DeepMind 的 CAT4D 先用多视角视频扩散模型生成缺失的相机视角，再把单目动态场景视频变成 4D 高斯场景。
-- 实现方式: 在静态、动态与合成数据混合上训练的多视角视频扩散模型，可在指定时间采样新视角，交替采样策略保证一致性，然后拟合 4D 高斯。
-- 能力维度: 情境可达性, 持久性
-- 论文: https://arxiv.org/abs/2411.18613 (CVPR 2025)
-- 视频: https://cat-4d.github.io/videos/howitworks_cat4d.mp4
-- 图片: https://cat-4d.github.io/img/rep_img.jpg
-- 项目主页: https://cat-4d.github.io/
-
-#### Stable Video 4D（SV4D）（Stable Video 4D (SV4D)） — Stability AI (2024-07-24)
-- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
-- 输入: 视频 → 输出: 动态三维 / 4D, 平面视频
-- 核心想法: 一个开放权重的多视角视频模型，实验室可以本地运行并锁定版本，用于物体级 4D 内容。
-- 内容: Stability AI 的 SV4D 输入一段物体视频，生成围绕该物体的、彼此一致的新视角视频，再据此拟合动态三维表示。
-- 实现方式: 在 Stable Video Diffusion 上加入视角注意力与帧注意力，联合去噪“视角 × 帧”网格，输出用于监督动态 NeRF。
-- 能力维度: 创作可及性, 情境多样性
-- 论文: https://arxiv.org/abs/2407.17470 (arXiv 2024)
-- 视频: https://www.youtube.com/watch?v=RBP8vdAWTgk
-- 项目主页: https://sv4d.github.io/
-- 代码: https://github.com/Stability-AI/generative-models
-
-#### L4GM — Jiawei Ren, 英伟达 (2024-06-14)
-- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
-- 输入: 视频 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场
-- 核心想法: 把 4D 物体生成变成一次前向，快到可以嵌入交互式工具之中。
-- 内容: NVIDIA 的 L4GM（大型 4D 高斯重建模型）能在约一秒内把物体的单视角视频变成带动画的三维高斯物体。
-- 实现方式: 在多视角 LGM 骨干上加入时间自注意力，用 Objaverse 动画物体的渲染数据训练，并配合插帧模型提高帧率。
-- 参数: about 1 s per video (paper)
-- 能力维度: 时间响应性, 创作可及性
-- 论文: https://arxiv.org/abs/2406.10324 (NeurIPS 2024)
-- 视频: https://research.nvidia.com/labs/toronto-ai/l4gm/assets/4d_scenes/regular_assets/w_interp_000000.mp4
-- 图片: https://research.nvidia.com/labs/toronto-ai/l4gm/assets/figures/framework_largertext.png
-- 项目主页: https://research.nvidia.com/labs/toronto-ai/l4gm/
-- 代码: https://github.com/nv-tlabs/L4GM-official
-
-#### 4Real — Heng Yu, Snap Inc. (2024-06-11)
-- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
-- 输入: 文字提示 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场
-- 核心想法: 把文本到 4D 从白底上的物体推进到完整场景。
-- 内容: Snap Research 与卡内基梅隆大学的 4Real 可根据文字提示生成带背景的照片级动态场景，可从一定角度范围观看，而不是孤立的卡通式物体。
-- 实现方式: 文生视频模型先生成参考视频和定格环绕视频，由环绕视频构建标准三维高斯场景，再通过分数蒸馏使其变形以匹配参考视频。
-- 能力维度: 感知真实感, 情境多样性
-- 论文: https://arxiv.org/abs/2406.07472 (NeurIPS 2024)
-- 视频: https://snap-research.github.io/4Real/resources/teaser-1080p.mp4
-- 图片: https://snap-research.github.io/4Real/resources/racoon_sync.gif
-- 项目主页: https://snap-research.github.io/4Real/
-
-#### DreamGaussian4D — Jiawei Ren (2023-12-28)
-- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
-- 输入: 图像, 视频 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场, 网格 / 三维资产
-- 核心想法: 把 4D 物体生成缩短到几分钟，并变成游戏引擎能加载的格式。
-- 内容: DreamGaussian4D 以参考视频驱动，由单张图像生成的三维高斯物体动起来，并导出为带动画的网格，耗时几分钟而非几小时。
-- 实现方式: DreamGaussianHD 生成的静态高斯物体由 HexPlane 形变网络变形，以拟合图生视频得到的驱动片段，再通过视频到视频的纹理优化细化。
-- 能力维度: 创作可及性, 时间响应性
-- 论文: https://arxiv.org/abs/2312.17142 (arXiv 2023)
-- 视频: https://jiawei-ren.github.io/projects/dreamgaussian4d/videos/teaser.mp4
-- 项目主页: https://jiawei-ren.github.io/projects/dreamgaussian4d/
-- 代码: https://github.com/jiawei-ren/dreamgaussian4d
-
-#### MAV3D 文本生成 4D 动态场景（MAV3D (Make-A-Video3D)） — Uriel Singer, Meta (2023-01-26)
-- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
-- 输入: 文字提示, 图像 → 输出: 动态三维 / 4D
-- 核心想法: 第一个文本到 4D 系统，确立了“从视频模型借用运动”的范式。
-- 内容: Meta 的 MAV3D 仅凭文字提示就能生成短小的动态三维场景（例如可从任意角度观看的动画柯基），方法是蒸馏一个文生视频模型。
-- 实现方式: 用 Make-A-Video 的分数蒸馏优化一个 HexPlane 动态 NeRF，采用由静态到动态的训练日程并进行超分辨率微调。
-- 能力维度: 创作可及性, 情境多样性
-- 论文: https://arxiv.org/abs/2301.11280 (ICML 2023)
-- 视频: https://make-a-video3d.github.io/assets/rotating_grid.mp4
-- 图片: https://make-a-video3d.github.io/assets/images/teaser.png
-- 项目主页: https://make-a-video3d.github.io/
-
 ### 体积视频与远程临场
 
 以三维形式捕捉并传输或回放的人：Beam、体积视频工作室、高斯视频。
+
+#### PackUV — Aashish Rai (2026-02-26)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 多视角拍摄 / 扫描 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场
+- 核心想法: 如果 4D 捕捉只是一叠视频文件，现有的流媒体基础设施就能把录下的人和事件送进头显，而不必另建专用播放系统。
+- 内容: PackUV 把 4D 高斯体积视频存成一串打包好的 UV 图像图集，使多相机拍摄的内容可以用普通视频编解码器压缩与传输，并在长达 30 分钟的序列中保持一致。它同时发布了 PackUV-2B 数据集：100 段由 50 台以上同步相机拍摄的序列。
+- 实现方式: PackUV-GS 直接在每帧的多尺度 UV 图集中拟合高斯参数，并借助光流引导的动态高斯标注与视频关键帧机制，稳定静态区域、处理大幅运动与遮挡变化。
+- 参数: sequences up to 30 min · codec-compatible atlases (e.g. FFV1) · PackUV-2B: 100 sequences, 50+ cameras, 2B frames
+- 能力维度: 持久性, 感知真实感
+- 论文: https://arxiv.org/abs/2602.23040 (CVPR 2026)
+- 视频: https://www.youtube.com/watch?v=tY1J1iRzzow
+- 项目主页: https://ivl.cs.brown.edu/packuv
+
+#### A$AP Rocky《HELICOPTER》（4D 捕捉音乐录影带）（A$AP Rocky – HELICOPTER (4D-captured music video)） — Evercoast (2026-01-12)
+- 类型: 体验 / 艺术作品 · 时序: 预先生成 · 获取方式: 产品 / 应用
+- 输入: 多视角拍摄 / 扫描 → 输出: 平面视频, 动态三维 / 4D
+- 核心想法: 一部面向大众的作品把 4D 捕捉的人当作可以事后“重拍”的素材，说明 4D 媒体的捕捉环节已从演示走进商业制作。
+- 内容: A$AP Rocky《HELICOPTER》的官方音乐录影带（2026 年 1 月）由 Evercoast 多相机系统捕捉为 4D 高斯泼溅的表演者合成到各个场景中；Evercoast 称片中几乎所有人物都是用其平台拍摄并生成的。
+- 实现方式: 表演者在同步多相机阵列上拍摄（据 Radiancefields.com 报道为 56 台相机），再用 Evercoast 的软件（很可能是其 Cloudbreak 服务）重建为 4D 高斯泼溅序列，由视效团队沿新的虚拟镜头路径渲染。
+- 参数: 56-camera rig (reported) · 4D Gaussian splat performers
+- 能力维度: 感知真实感, 创作可及性
+- 视频: https://www.youtube.com/watch?v=GTRbualP7-A
+- 项目主页: https://evercoast.com/
 
 #### Gracia 体积高斯视频（Gracia） — Gracia (2025)
 - 类型: 产品 / 应用 · 时序: 预先生成 · 获取方式: 产品 / 应用
@@ -4247,7 +5746,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 产品 / 应用 · 时序: 实时流式 · 获取方式: 产品 / 应用
 - 输入: 多视角拍摄 / 扫描, 语音与音频, 身体、面部与视线追踪 → 输出: 虚拟人（脸 / 身体）, 动态三维 / 4D
 - 核心想法: 体积式远程临场已经是可以买到的产品，但据报道每台约 2.5 万美元，并且只支持一对一通话。
-- 内容: Google Beam 是 Project Starline 的商用后继：AI 模型把多路二维相机画面转换为远端人物的三维渲染，在光场显示屏上呈现，内置于 HP Dimension 显示设备出售。
+- 内容: Google Beam 是 Project Starline 的商用后继：AI 模型把多路二维相机画面转换为远端人物的三维渲染，在光场显示屏上呈现，内置于 HP Dimension 显示设备出售。Google 于 2026 年 9 月 23 日表示，Beam 设备已通过 18 家渠道合作伙伴向六个国家（美国、加拿大、英国、法国、德国、日本）的客户发货，并自 2026 年 10 月起可在部分 Industrious 共享办公空间预约使用。
 - 实现方式: Google 称其使用六相机阵列与 AI 体积视频模型，在三维光场显示屏上以 60 帧/秒和毫米级头部追踪进行渲染。
 - 参数: 6 cameras · 60 fps · 65-inch light-field display (HP Dimension) · 1:1 calls · ~$25,000 per unit (reported)
 - 能力维度: 感知真实感, 时间响应性
@@ -4304,6 +5803,17 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 
 手机与头显捕捉、训练和查看工具：Luma、Polycam、Scaniverse、Postshot、Hyperscape、SuperSplat……
 
+#### Volinga：Unreal Engine 中的 4D 高斯泼溅（Volinga 4DGS for Unreal Engine） — Volinga (2026-07-21)
+- 类型: 产品 / 应用 · 时序: 预先生成 · 获取方式: 产品 / 应用
+- 输入: 多视角拍摄 / 扫描 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场
+- 核心想法: 捕捉到的动态表演可以像其他资产一样在游戏引擎中摆放、打光和安排时序，4D 录像因此能成为人工编排的交互场景中的一个元素。
+- 内容: Volinga 在 2026 年 7 月更新了其套件与 Unreal Engine 插件，使 4D 高斯泼溅捕捉能以时间轴资产的形式在 Unreal 中播放：来自 Gracia、Houdini 等工具的逐帧 PLY 序列被打包为一个压缩的 NVOL 文件，由 Unreal 的 Sequencer 驱动，并支持光照交互、裁剪体积与 OCIO 色彩管理。
+- 实现方式: Volinga Suite 把成千上万个逐帧 PLY 转换为一个近乎无损的 NVOL 资产；Volinga Renderer 插件（Unreal Engine 5.8，测试版）通过 Sequencer 轨道播放这些帧，每个场景中的 4DGS 资产数量不设上限。
+- 参数: Unreal Engine 5.8 · PLY / SPZ / SOG import · NVOL container · free watermarked trial, then subscriptions
+- 能力维度: 创作可及性, 实验控制
+- 视频: https://www.youtube.com/watch?v=OQwaF0ihjH4
+- 项目主页: https://volinga.ai/
+
 #### Meta Horizon Hyperscape 空间捕捉（Meta Horizon Hyperscape Capture） — Meta (2025-09-17)
 - 类型: 产品 / 应用 · 时序: 预先生成 · 获取方式: 产品 / 应用, 候补 / 抢先体验
 - 输入: 透视画面与实时环境, 多视角拍摄 / 扫描 → 输出: 高斯泼溅 / 辐射场, 三维场景 / 世界
@@ -4319,7 +5829,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 开源工具 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
 - 输入: 场景规格、代码与规则 → 输出: 高斯泼溅 / 辐射场, 三维场景 / 世界
 - 核心想法: 让捕捉或生成的泼溅世界可以包上网页交互，这是把它们呈现给研究参与者的最省成本的途径。
-- 内容: Spark 是 World Labs 面向 three.js 的开源高斯泼溅渲染器；Spark 2.0（2026 年 4 月）可把超过 1 亿个泼溅的世界流式加载进普通网页。
+- 内容: Spark 是 World Labs 面向 three.js 的开源高斯泼溅渲染器；Spark 2.0（2026 年 4 月）可把超过 1 亿个泼溅的世界流式加载进普通网页。2026 年 9 月 28 日，AMD 同意收购 World Labs（预计 2026 年底完成交割）；Spark 仍采用 MIT 许可证。
 - 实现方式: 一个 three.js 渲染器，具备 GPU 排序、细节层次与流式加载，并支持可编程的逐泼溅效果用于编辑与动画。
 - 参数: 100M+ splats streamed in the browser (Spark 2.0)
 - 能力维度: 创作可及性, 情境可达性
@@ -4404,6 +5914,379 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 项目主页: https://docs.nerf.studio/
 - 代码: https://github.com/nerfstudio-project/nerfstudio
 
+### 4D 物体生成
+
+由文字、单张图像或视频生成会动的三维物体与角色，以动态高斯或变形网格表示：DreamGaussian4D、L4GM、SV4D……
+
+#### 4DAnyone 单目视频生成 4D 人体（4DAnyone） — Yudong Jin, 蚂蚁灵波科技 (2026-08-20)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 视频 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场, 虚拟人（脸 / 身体）
+- 核心想法: 一台相机即可得到可自由换视角的人物：缺失的视角靠生成而非拍摄，省去了体积视频的多机位采集环节。
+- 内容: 4DAnyone 能把一段随手拍摄的人物单目视频（无需标定、无需绑定骨骼）变成可从任意视角回放的 4D 高斯人体。代码与模型以 Apache-2.0 开源。
+- 实现方式: 相机可控的视频扩散模型生成数十路一致的新视角视频，采用“参考上下文打包”（固定长度的参考上下文）与“目标上下文路由”（去噪过程中轮换视角分组），再用 4D 高斯泼溅拟合；训练数据混合了游戏引擎数据集 MVGameHuman、光场舞台数据与真实视频。
+- 能力维度: 感知真实感, 创作可及性
+- 论文: https://arxiv.org/abs/2608.20335 (SIGGRAPH Asia 2026)
+- 视频: https://4danyone.github.io/assets/videos/teaser.mp4
+- 图片: https://4danyone.github.io/assets/images/social-card.jpg
+- 项目主页: https://4danyone.github.io/
+- 代码: https://github.com/ant-research/4DAnyone
+
+#### Lift4D 野外单目视频 4D 重建与补全（Lift4D） — Yehonathan Litman (2026-06-22)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 视频 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场
+- 核心想法: 生成式先验弥补了单个相机所见与完整 4D 物体之间的差距，这是把真实运动物体带进三维场景所需的一步。
+- 内容: Lift4D 把一段随手拍摄的形变动物或物体单目视频变成完整的运动三维高斯模型，并补全相机从未拍到的那一侧。
+- 实现方式: 通过因果潜变量条件改造单视角三维重建模型，得到时间上一致的逐帧形状，用来初始化可形变三维高斯；再在遮挡感知的优化中对照视频细化，并用视角条件扩散先验补全未见区域。
+- 能力维度: 感知真实感, 持久性
+- 论文: https://arxiv.org/abs/2606.23688 (SIGGRAPH Asia 2026)
+- 视频: https://lift4d.github.io/static/videos/teaser_wide.mp4
+- 项目主页: https://lift4d.github.io/
+- 代码: https://github.com/yehonathanlitman/Lift4D
+
+#### R-DMesh 视频引导的三维动画（R-DMesh） — Zijie Wu, 腾讯混元 (2026-05-13)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 视频 → 输出: 动态三维 / 4D, 网格 / 三维资产
+- 核心想法: 视频成为任意三维资产的动作控制手柄：先拍摄或生成动作，再迁移到网格上。
+- 内容: 腾讯混元的 R-DMesh 能让用户提供的静态三维网格跟随参考视频中的动作运动，即使网格的初始姿态与视频首帧不一致也能对齐。代码与权重已于 2026 年 5 月发布。
+- 实现方式: VAE 把输入分解为基础网格、相对运动轨迹以及一个学习得到的“校正跳变”偏移，先把网格移到视频的起始姿态；再由以预训练视频潜变量为条件的整流流扩散 Transformer 生成运动，训练数据为包含 50 多万条动态网格序列的 Video-RDMesh。
+- 能力维度: 创作可及性, 实验控制
+- 论文: https://arxiv.org/abs/2605.13838 (SIGGRAPH 2026)
+- 视频: https://www.youtube.com/watch?v=xBrMjPnH3_w
+- 图片: https://r-dmesh.github.io/assets/pipeline.png
+- 项目主页: https://r-dmesh.github.io/
+- 代码: https://github.com/Tencent-Hunyuan/R-DMesh
+
+#### ActionMesh 动画三维网格生成（ActionMesh） — Remy Sabathier, Meta (2026-01-22)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 视频, 文字提示, 图像 → 输出: 动态三维 / 4D, 网格 / 三维资产
+- 核心想法: 生成的 4D 结果以普通动画网格的形式在大约一分钟内交付，正是游戏引擎与 XR 工具早已在用的格式。
+- 内容: Meta 的 ActionMesh 能把一段短视频、一张图像或一句文字（也可以是一个三维网格加一句动作描述）变成拓扑固定的动画三维网格，可以贴图、重定向并导入常规三维软件。代码、权重和 Hugging Face 演示均以 Meta 的许可证公开。
+- 实现方式: “时序三维扩散”：在现有三维扩散模型上加入时间轴，生成逐帧形状的同步潜变量，再由时序三维自编码器把它们转换为同一参考网格的形变，得到无需骨骼、拓扑一致的动画。
+- 参数: ≈45–75 s per animation on one H100 (developer figures) · 12 GB VRAM low-RAM mode · ActionBench: 128 video–animated point-cloud pairs
+- 能力维度: 创作可及性, 时间响应性, 持久性
+- 论文: https://arxiv.org/abs/2601.16148 (CVPR 2026)
+- 视频: https://www.youtube.com/watch?v=Uc_CL_D8KiU
+- 图片: https://remysabathier.github.io/actionmesh/videos/thumbnail/actionmesh.gif
+- 项目主页: https://remysabathier.github.io/actionmesh/
+- 代码: https://github.com/facebookresearch/actionmesh
+
+#### 高斯变化场扩散（GVFDiffusion）视频生成 4D（Gaussian Variation Field Diffusion (GVFDiffusion)） — Bowen Zhang, 微软 (2025-07-31)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 视频 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场
+- 核心想法: 原生 4D 扩散模型：生成发生在压缩后的三维高斯动画空间中，而不是为每个物体蒸馏视频模型。
+- 内容: 把一段物体运动的单目视频（例如一个奔跑的角色）变成可从各个方向观看的动画三维高斯物体；也能按照视频为现有三维模型添加动画。
+- 实现方式: 4DMesh-to-GS 变化场 VAE 把 Objaverse 动画物体的规范高斯及其逐帧变化编码为紧凑潜变量，再由以输入视频和规范高斯为条件的时序扩散 Transformer 生成这些潜变量。
+- 能力维度: 感知真实感, 创作可及性
+- 论文: https://arxiv.org/abs/2507.23785 (ICCV 2025)
+- 视频: https://www.youtube.com/watch?v=u1SzuKIYAsE
+- 图片: https://gvfdiffusion.github.io/static/images/Pipeline.jpg
+- 项目主页: https://gvfdiffusion.github.io/
+- 代码: https://github.com/ForeverFancy/GVFDiffusion
+
+#### AnimateAnyMesh 文本驱动的网格动画（AnimateAnyMesh） — Zijie Wu (2025-06-11)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示 → 输出: 动态三维 / 4D, 网格 / 三维资产
+- 核心想法: 网格动画变成“输入提示、等几秒”的一步，让生成场景中的动态道具可以低成本地变换。
+- 内容: AnimateAnyMesh 能在几秒内根据文字提示为任意三维网格生成动画（例如让一条龙扇动翅膀），无需绑定骨骼，也无需逐物体优化。
+- 实现方式: DyMeshVAE 把动态网格序列压缩为潜在轨迹并保留局部拓扑，再由整流流模型根据文字生成这些潜变量；训练数据为 DyMesh 数据集，作者称其包含 400 多万条带文字标注的动态网格序列。
+- 参数: a few seconds per animation (developer claim) · arbitrary mesh topology
+- 能力维度: 创作可及性, 时间响应性
+- 论文: https://arxiv.org/abs/2506.09982 (ICCV 2025)
+- 视频: https://www.youtube.com/watch?v=q8xH9B0S4y0
+- 图片: https://animateanymesh.github.io/AnimateAnyMesh/img/AnimateAnyMesh.png
+- 项目主页: https://animateanymesh.github.io/AnimateAnyMesh/
+- 代码: https://github.com/JarrentWu1031/AnimateAnyMesh
+
+#### SV4D 2.0 — Stability AI (2025-03-20)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 视频 → 输出: 动态三维 / 4D, 平面视频
+- 核心想法: 说明开放权重的物体级 4D 路线正走向可用的动画资产。
+- 内容: SV4D 2.0 改进了 Stability AI 的视频到 4D 模型，生成的多视角视频更清晰、更一致，在大幅运动下也更稳定，并可被优化为 4D 资产。
+- 实现方式: 融合三维注意力与帧注意力且不再依赖参考多视角，使用更多更干净的动画训练数据，并采用由 3D 到 4D 的渐进训练来提升一致性，输出再经两阶段 4D 优化细化。
+- 能力维度: 感知真实感, 持久性
+- 论文: https://arxiv.org/abs/2503.16396 (arXiv 2025)
+- 视频: https://www.youtube.com/watch?v=dtqj-s50ynU
+- 项目主页: https://sv4d20.github.io/
+- 代码: https://github.com/Stability-AI/generative-models
+
+#### Stable Video 4D（SV4D）（Stable Video 4D (SV4D)） — Stability AI (2024-07-24)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 视频 → 输出: 动态三维 / 4D, 平面视频
+- 核心想法: 一个开放权重的多视角视频模型，实验室可以本地运行并锁定版本，用于物体级 4D 内容。
+- 内容: Stability AI 的 SV4D 输入一段物体视频，生成围绕该物体的、彼此一致的新视角视频，再据此拟合动态三维表示。
+- 实现方式: 在 Stable Video Diffusion 上加入视角注意力与帧注意力，联合去噪“视角 × 帧”网格，输出用于监督动态 NeRF。
+- 能力维度: 创作可及性, 情境多样性
+- 论文: https://arxiv.org/abs/2407.17470 (arXiv 2024)
+- 视频: https://www.youtube.com/watch?v=RBP8vdAWTgk
+- 项目主页: https://sv4d.github.io/
+- 代码: https://github.com/Stability-AI/generative-models
+
+#### Animate3D 为任意三维模型生成动画（Animate3D） — Yanqin Jiang (2024-07-16)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场
+- 核心想法: 把 4D 生成当作给现有资产添加动画的一道工序，而不是从零生成新物体。
+- 内容: Animate3D 以现有的静态三维模型和一句文字提示为输入，让模型动起来，并在各个视角下保持外观与形状一致。
+- 实现方式: 以静态物体的多视角渲染为条件、在新建的多视角视频数据集 MV-Video 上训练的多视角视频扩散模型（MV-VDM）生成一致的运动；先从这些视频中重建运动，再用 4D 分数蒸馏细化。
+- 能力维度: 创作可及性, 持久性
+- 论文: https://arxiv.org/abs/2407.11398 (NeurIPS 2024)
+- 视频: https://www.youtube.com/watch?v=qkaeeGzLnY8
+- 项目主页: https://animate3d.github.io/
+- 代码: https://github.com/yanqinJiang/Animate3D
+
+#### L4GM — Jiawei Ren, 英伟达 (2024-06-14)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 视频 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场
+- 核心想法: 把 4D 物体生成变成一次前向，快到可以嵌入交互式工具之中。
+- 内容: NVIDIA 的 L4GM（大型 4D 高斯重建模型）能在约一秒内把物体的单视角视频变成带动画的三维高斯物体。
+- 实现方式: 在多视角 LGM 骨干上加入时间自注意力，用 Objaverse 动画物体的渲染数据训练，并配合插帧模型提高帧率。
+- 参数: about 1 s per video (paper)
+- 能力维度: 时间响应性, 创作可及性
+- 论文: https://arxiv.org/abs/2406.10324 (NeurIPS 2024)
+- 视频: https://research.nvidia.com/labs/toronto-ai/l4gm/assets/4d_scenes/regular_assets/w_interp_000000.mp4
+- 图片: https://research.nvidia.com/labs/toronto-ai/l4gm/assets/figures/framework_largertext.png
+- 项目主页: https://research.nvidia.com/labs/toronto-ai/l4gm/
+- 代码: https://github.com/nv-tlabs/L4GM-official
+
+#### PhysDreamer 基于物理的三维物体交互（PhysDreamer） — Tianyuan Zhang, Hong-Xing (Koven) Yu (2024-04-19)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 多视角拍摄 / 扫描, 键盘与手柄动作 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场
+- 核心想法: 把视频模型当作物理属性的来源，使生成的运动成为人的动作的后果，而不是一段固定的片段。
+- 内容: PhysDreamer 让一个捕捉得到的三维物体（例如花或盆栽）在被戳、被拉时作出物理响应：它会摇摆、弯曲再弹回，这种动态是从视频生成模型中学来的。
+- 实现方式: 先用视频生成模型让静态三维高斯物体的渲染图动起来，再优化空间变化的材料场（杨氏模量），使可微物质点法（MPM）仿真与该视频一致，之后即可仿真新的外力；真实感通过用户研究评估。
+- 能力维度: 反应性, 行为似真性
+- 论文: https://arxiv.org/abs/2404.13026 (ECCV 2024)
+- 视频: https://physdreamer.github.io/assets/videos/teaser_videos/teaser_video_morph.mp4
+- 图片: https://physdreamer.github.io/assets/thumbnails/red_rose.png
+- 项目主页: https://physdreamer.github.io/
+- 代码: https://github.com/a1600012888/PhysDreamer
+
+#### DreamGaussian4D — Jiawei Ren (2023-12-28)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 视频 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场, 网格 / 三维资产
+- 核心想法: 把 4D 物体生成缩短到几分钟，并变成游戏引擎能加载的格式。
+- 内容: DreamGaussian4D 以参考视频驱动，由单张图像生成的三维高斯物体动起来，并导出为带动画的网格，耗时几分钟而非几小时。
+- 实现方式: DreamGaussianHD 生成的静态高斯物体由 HexPlane 形变网络变形，以拟合图生视频得到的驱动片段，再通过视频到视频的纹理优化细化。
+- 能力维度: 创作可及性, 时间响应性
+- 论文: https://arxiv.org/abs/2312.17142 (arXiv 2023)
+- 视频: https://jiawei-ren.github.io/projects/dreamgaussian4d/videos/teaser.mp4
+- 项目主页: https://jiawei-ren.github.io/projects/dreamgaussian4d/
+- 代码: https://github.com/jiawei-ren/dreamgaussian4d
+
+#### Align Your Gaussians 动态高斯文本生成 4D（Align Your Gaussians (AYG)） — Huan Ling, 英伟达 (2023-12-21)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 文字提示 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场
+- 核心想法: 高斯表示的 4D 内容可以像片段一样组合：分别生成的运动物体可以放进同一个场景。
+- 内容: 英伟达的 Align Your Gaussians 把文字提示变成由运动高斯组成的动画三维物体，还能把多段动画串联、组合成包含多个角色的更长场景。
+- 实现方式: 以带形变场的动态三维高斯为表示，用文生图、多视角与文生视频模型（VideoLDM）的组合分数蒸馏进行优化，对高斯运动加入正则，并以自回归方式延长序列。
+- 能力维度: 创作可及性, 情境多样性
+- 论文: https://arxiv.org/abs/2312.13763 (CVPR 2024)
+- 视频: https://research.nvidia.com/labs/toronto-ai/AlignYourGaussians/assets/4d_scenes/christmas_composed.mp4
+- 图片: https://research.nvidia.com/labs/toronto-ai/AlignYourGaussians/assets/figures/ayg_paper_preview.png
+- 项目主页: https://research.nvidia.com/labs/toronto-ai/AlignYourGaussians/
+
+#### 4D-fy 文本生成 4D（4D-fy） — Sherwin Bahmani (2023-11-29)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示 → 输出: 动态三维 / 4D
+- 核心想法: 文本到 4D 需要同时向多个“老师”学习：图像模型管外观，多视角模型管形状，视频模型管运动。
+- 内容: 4D-fy 能根据一句文字提示生成一段会动的三维场景（例如一只开车的熊），在播放时可以从任意角度观看。
+- 实现方式: 以多分辨率哈希编码的 4D 辐射场为表示，针对每个提示用“混合分数蒸馏”优化，交替使用文生图、三维感知多视角与文生视频扩散模型的梯度。
+- 能力维度: 感知真实感, 创作可及性
+- 论文: https://arxiv.org/abs/2311.17984 (CVPR 2024)
+- 视频: https://sherwinbahmani.github.io/4dfy/data/videos/ours/a_bear_driving_a_car.mp4
+- 图片: https://sherwinbahmani.github.io/4dfy/data/method.png
+- 项目主页: https://sherwinbahmani.github.io/4dfy/
+- 代码: https://github.com/sherwinbahmani/4dfy
+
+#### MAV3D 文本生成 4D 动态场景（MAV3D (Make-A-Video3D)） — Uriel Singer, Meta (2023-01-26)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 文字提示, 图像 → 输出: 动态三维 / 4D
+- 核心想法: 第一个文本到 4D 系统，确立了“从视频模型借用运动”的范式。
+- 内容: Meta 的 MAV3D 仅凭文字提示就能生成短小的动态三维场景（例如可从任意角度观看的动画柯基），方法是蒸馏一个文生视频模型。
+- 实现方式: 用 Make-A-Video 的分数蒸馏优化一个 HexPlane 动态 NeRF，采用由静态到动态的训练日程并进行超分辨率微调。
+- 能力维度: 创作可及性, 情境多样性
+- 论文: https://arxiv.org/abs/2301.11280 (ICML 2023)
+- 视频: https://make-a-video3d.github.io/assets/rotating_grid.mp4
+- 图片: https://make-a-video3d.github.io/assets/images/teaser.png
+- 项目主页: https://make-a-video3d.github.io/
+
+### 4D 场景与世界生成
+
+借助视频先验生成或补全的运动场景与世界，可随时间推移从新视角观看：CAT4D、4Real、4DNeX、BulletGen……
+
+#### OuroWorld 让三维世界变成循环动态照片（OuroWorld） — You-Zhe Xie, Alaya Lab (2026-10-08)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 多视角拍摄 / 扫描 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场
+- 核心想法: 让静止的生成世界“活”起来的低成本办法：无缝循环的环境运动给场景加入时间，而不需要完整的世界模型。
+- 内容: OuroWorld 以一个静态三维高斯世界（例如由 Marble 或 Lyra 2.0 生成的世界）为输入，让它变成无限循环的三维动态照片：水流动、植物摇曳、光线变化，可从任意位置观看。
+- 实现方式: 视觉语言模型推断合理的动态并引导视频模型生成参考视频，再提升并补全为多视角视频；随后拟合一个对不一致具有鲁棒性的周期性 4D 高斯模型，其傅里叶级数形变场保证循环，锚定参考视角的漂移场吸收视角间的不一致。
+- 能力维度: 感知真实感, 情境多样性
+- 论文: https://arxiv.org/abs/2610.12461 (arXiv 2026)
+- 视频: https://www.youtube.com/watch?v=QCJ4u7f3K-8
+- 图片: https://ouroworld.userwei.com/og.jpg
+- 项目主页: https://ouroworld.userwei.com/
+- 代码: https://github.com/youzhe0305/OuroWorld
+
+#### InSpatio-World 实时 4D 世界模拟器（InSpatio-World） — InSpatio 空间智能 (2026-04-08)
+- 类型: 模型 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
+- 输入: 视频, 镜头路径 / 位姿 → 输出: 交互式帧流, 动态三维 / 4D
+- 核心想法: 从视频素材实时得到 4D：一次被录下的事件变成可以重新进入、从新位置观看的地方，同时生成始终锚定原视频。
+- 内容: InSpatio-World 能把单段参考视频变成可实时漫游的动态场景：人可以一边改变视角，一边暂停、放慢或倒放时间。1.3B 权重（Apache-2.0）与网页演示均已公开。
+- 实现方式: 基于 Wan2.1 的时空自回归（STAR）视频模型以参考视频沿用户路径渲染的深度点云为条件，维护参考帧与历史帧的隐式时空缓存，并通过联合分布匹配蒸馏（JDMD）实现实时生成。
+- 参数: 1.3B open weights · real-time navigation · first among real-time methods on WorldScore-Dynamic (developer claim)
+- 能力维度: 时间响应性, 持久性, 情境可达性
+- 论文: https://arxiv.org/abs/2604.07209 (arXiv 2026)
+- 视频: https://inspatio.github.io/inspatio-world/static/videos/0311_ar_14B_ema_grid9_0.mp4
+- 项目主页: https://inspatio.github.io/inspatio-world/
+- 代码: https://github.com/inspatio/inspatio-world
+
+#### NeoVerse 基于真实单目视频的 4D 世界模型（NeoVerse） — Yuxue Yang (2026-01-01)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 视频, 镜头路径 / 位姿 → 输出: 动态三维 / 4D, 平面视频
+- 核心想法: 用日常单目视频而非稀缺的多视角采集数据训练 4D 世界模型，扩大了它能处理的场景范围。
+- 内容: NeoVerse 能把一段普通单目视频重建为运动的 4D 场景，并沿原视频从未走过的相机路径生成新视频，例如子弹时间镜头。代码与权重以 Apache-2.0 开源。
+- 实现方式: 先对输入视频进行无需位姿的前馈式 4D 重建并沿新轨迹渲染，再由训练时在线模拟单目退化模式的视频扩散模型把渲染结果变成干净的新轨迹视频。
+- 能力维度: 情境可达性, 持久性
+- 获奖与认可: CVPR 2026 Highlight; Best Paper, VideoWorldModel Workshop
+- 论文: https://arxiv.org/abs/2601.00393 (CVPR 2026)
+- 视频: https://www.youtube.com/watch?v=1k8Ikf8zbZw
+- 图片: https://neoverse-4d.github.io/resources/teaser.png
+- 项目主页: https://neoverse-4d.github.io/
+- 代码: https://github.com/IamCreateAI/NeoVerse
+
+#### 4DNeX — Zhaoxi Chen (2025-08-18)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像 → 输出: 动态三维 / 4D, 平面视频
+- 核心想法: 无需逐场景优化的图像到 4D，是通过改造开源视频模型实现的。
+- 内容: 4DNeX 只需一次前向，就能从单张图像生成动态三维点云场景，让一张静态照片变成可以从新角度观看的短暂运动场景。
+- 实现方式: 微调预训练视频扩散模型，使其联合输出 RGB 与 XYZ 点图序列，在大规模精选 4D 数据集（4DNeX-10M）上训练。
+- 能力维度: 创作可及性, 情境多样性
+- 论文: https://arxiv.org/abs/2508.13154 (arXiv 2025)
+- 视频: https://www.youtube.com/watch?v=jaXNU1-0zgk
+- 项目主页: https://4dnex.github.io/
+- 代码: https://github.com/3DTopia/4DNeX
+
+#### BulletGen — Denis Rozumny, Jonathon Luiten, Meta (2025-06-23)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 视频 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场
+- 核心想法: 把生成当作重建中的修补工具：保留拍到的运动，同时填补空缺。
+- 内容: Meta 的 BulletGen 在定格的子弹时间时刻生成相机从未看到的视角，并用它们监督重建，从而改进随手单目视频的 4D 高斯重建。
+- 实现方式: 在单个定格时间步上，把扩散视频模型与当前 4D 高斯场景对齐，生成的帧作为监督加入迭代优化，同时改善二维/三维追踪。
+- 能力维度: 情境可达性, 感知真实感
+- 论文: https://arxiv.org/abs/2506.18601 (CVPR 2026 Workshop (4D World Models))
+- 图片: https://arxiv.org/html/2506.18601v2/imgs/teaser/skating/v1_our.png https://arxiv.org/html/2506.18601v2/x1.png
+- 项目主页: https://arxiv.org/abs/2506.18601
+
+#### 4Real-Video-V2 4D 场景生成（4Real-Video-V2） — Chaoyang Wang, Snap Inc. (2025-06-18)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 文字提示, 多视角拍摄 / 扫描 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场, 平面视频
+- 核心想法: 4Real（2024）与 4Real-Video（CVPR 2025）的后续：无需逐场景优化的 4D 场景生成，从提示直接得到动态高斯。
+- 内容: Snap Research 的 4Real-Video-V2 能根据文字提示生成运动场景（也可为捕捉的三维场景或资产添加动画），输出“视角 × 时间”的视频网格，并通过一次前向把每个时间步提升为三维高斯。
+- 实现方式: 4D 视频扩散模型采用融合的视角—时间稀疏注意力（token 只关注同一帧、同一时刻或同一视角的 token，不给基础视频模型增加参数）生成网格，再由带高斯头的前馈重建模型恢复相机与逐帧高斯。
+- 能力维度: 感知真实感, 持久性
+- 论文: https://arxiv.org/abs/2506.18839 (arXiv 2025)
+- 视频: https://snap-research.github.io/4Real-Video-V2/supp_demo/4real-video-v2-teaser.mp4
+- 项目主页: https://snap-research.github.io/4Real-Video-V2/
+
+#### WonderPlay 由单图与动作生成动态三维场景（WonderPlay） — Zizhang Li, Hong-Xing (Koven) Yu (2025-05-23)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 键盘与手柄动作 → 输出: 动态三维 / 4D, 三维场景 / 世界
+- 核心想法: 把物理求解器与视频生成器结合，让生成的三维场景有“后果”而不只是运动，更接近一个情境而非一段片段。
+- 内容: WonderPlay 能把一张图像变成会对动作作出反应的三维场景：人可以加一阵风、推一下玻璃杯或倒入蜂蜜，场景中的布料、液体、烟雾或刚体随之运动。
+- 实现方式: 混合生成式模拟器：物理求解器针对输入动作预测粗略的三维动态，以此为条件让视频生成器生成真实运动，再用生成的视频循环更新动态三维场景。
+- 能力维度: 反应性, 行为似真性
+- 获奖与认可: ICCV 2025 Highlight
+- 论文: https://arxiv.org/abs/2505.18151 (ICCV 2025)
+- 视频: https://www.youtube.com/watch?v=vzO4VyBE7T0
+- 图片: https://kyleleey.github.io/WonderPlay/assets/teaser/full_scene.jpg
+- 项目主页: https://kyleleey.github.io/WonderPlay/
+- 代码: https://github.com/kyleleey/WonderPlay
+
+#### Free4D 免训练 4D 场景生成（Free4D） — Tianqi Liu (2025-03-26)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 文字提示 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场
+- 核心想法: 把现有的图生视频与多视角模型蒸馏成一致的 4D 场景，使场景级 4D 不必等待大规模 4D 训练数据。
+- 内容: Free4D 能从一张图像或一句文字构建 4D 高斯场景，让静态画面动起来，并可在运动过程中从新视角探索，且无需训练专门模型。
+- 实现方式: 先用图生视频模型让图像动起来并初始化粗略的 4D 结构；再通过自适应引导与潜变量替换生成一致的多视角视频，最后以基于调制的细化优化 4D 高斯表示。
+- 能力维度: 创作可及性, 持久性
+- 论文: https://arxiv.org/abs/2503.20785 (ICCV 2025)
+- 视频: https://www.youtube.com/watch?v=GpHnoSczlhA
+- 项目主页: https://free4d.github.io
+- 代码: https://github.com/TQTQliu/Free4D
+
+#### Aether 几何感知的统一世界模型（Aether） — Haoyi Zhu, 上海人工智能实验室 (2025-03-24)
+- 类型: 模型 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 镜头路径 / 位姿 → 输出: 动态三维 / 4D, 平面视频
+- 核心想法: 一个预测结果自带 4D 几何的世界模型，它“想象”出的内容可以在三维中检查和度量，而不只是看像素。
+- 内容: 上海人工智能实验室的 Aether 是一个开源世界模型：能把视频重建为带相机轨迹的运动三维几何，根据图像与相机轨迹预测未来视频，并在起始图像与目标图像之间规划路径。
+- 实现方式: 对视频扩散模型（CogVideoX）进行后训练，使其联合输出视频、深度与相机射线图，用于重建、动作条件预测与目标条件规划；只使用合成 4D 数据，作者称可零样本迁移到真实视频。
+- 能力维度: 实验控制, 行为似真性
+- 获奖与认可: ICCV 2025 RIWM workshop Outstanding Paper
+- 论文: https://arxiv.org/abs/2503.18945 (ICCV 2025)
+- 视频: https://www.youtube.com/watch?v=BGj3BIbZ74A
+- 项目主页: https://aether-world.github.io/
+- 代码: https://github.com/InternRobotics/Aether
+
+#### CityDreamer4D 无边界 4D 城市生成（CityDreamer4D） — Haozhe Xie (2025-01-15)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 场景规格、代码与规则 → 输出: 动态三维 / 4D, 三维场景 / 世界
+- 核心想法: 把城市拆分为静态背景与动态参与者，使车流可以变化而地点保持不变，为街道尺度的生成情境提供了模板。
+- 内容: CityDreamer4D 能生成无边界的 4D 城市，包含建筑、道路与行驶中的车流，相机可以在车辆行驶时于其中飞行穿梭。
+- 实现方式: 组合式神经场：建筑、道路、背景与车辆实例各有生成器，由鸟瞰布局与交通场景驱动，在 OpenStreetMap、Google Earth 与 CityTopia 数据集上训练。
+- 能力维度: 情境可达性, 情境多样性
+- 论文: https://arxiv.org/abs/2501.08983 (IEEE TPAMI 2026)
+- 视频: https://www.youtube.com/watch?v=PF6W0Nd27Tk
+- 图片: https://www.infinitescript.com/projects/CityDreamer4D/CityDreamer4D-Thumbnail.webp
+- 项目主页: https://haozhexie.com/project/city-dreamer-4d
+- 代码: https://github.com/hzxie/CityDreamer4D
+
+#### CAT4D — Rundi Wu, 谷歌 DeepMind (2024-11-27)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 视频 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场
+- 核心想法: 生成补足了单个相机看不到的部分，这正是一段随手视频能变成可漫游时刻的途径。
+- 内容: Google DeepMind 的 CAT4D 先用多视角视频扩散模型生成缺失的相机视角，再把单目动态场景视频变成 4D 高斯场景。
+- 实现方式: 在静态、动态与合成数据混合上训练的多视角视频扩散模型，可在指定时间采样新视角，交替采样策略保证一致性，然后拟合 4D 高斯。
+- 能力维度: 情境可达性, 持久性
+- 论文: https://arxiv.org/abs/2411.18613 (CVPR 2025)
+- 视频: https://cat-4d.github.io/videos/howitworks_cat4d.mp4
+- 图片: https://cat-4d.github.io/img/rep_img.jpg
+- 项目主页: https://cat-4d.github.io/
+
+#### DimensionX 单图生成三维与 4D 场景（DimensionX） — Wenqiang Sun (2024-11-07)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 开源权重 / 代码
+- 输入: 图像 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场, 平面视频
+- 核心想法: 在同一个视频模型中把“移动相机”与“让时间流逝”分开，就能以较低成本把任意图像变成三维或 4D 场景。
+- 内容: DimensionX 能把一张照片变成三维场景（相机移动、时间静止）或 4D 场景（时间流动、可从多个角度观看），并重建为高斯泼溅。
+- 实现方式: ST-Director 在 CogVideoX-5B 图生视频模型上训练维度感知的 LoRA，分别控制空间与时间变化；生成的视角集合再被重建为三维或 4D 高斯。
+- 能力维度: 创作可及性, 情境多样性
+- 论文: https://arxiv.org/abs/2411.04928 (ICCV 2025)
+- 视频: https://www.youtube.com/watch?v=ViDQI1HMY2U
+- 图片: https://chenshuo20.github.io/DimensionX/DimensionX/images/woman.png
+- 项目主页: https://chenshuo20.github.io/DimensionX/
+- 代码: https://github.com/wenqsun/DimensionX
+
+#### 4DiM 用扩散模型控制空间与时间（4DiM） — Daniel Watson, 谷歌 DeepMind (2024-07-10)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 图像, 镜头路径 / 位姿 → 输出: 动态三维 / 4D, 图像 / 全景图
+- 核心想法: 把相机位姿与时间作为同一扩散模型的两个独立控制量，这正是后来的 4D 场景生成器采用的基本接口。
+- 内容: Google DeepMind 的 4DiM 能根据一张或几张照片，在任意指定的相机位置与时间点生成真实场景的新视角画面，例如让相机在房间中移动，或为一段视频换一个角度。
+- 实现方式: 级联扩散模型以输入图像、相机位姿和时间戳为条件，在带位姿的三维数据、带位姿的视频（4D）与无位姿视频上联合训练，并用单目度量深度把运动恢复结构得到的位姿校准到真实尺度。
+- 能力维度: 实验控制, 持久性
+- 论文: https://arxiv.org/abs/2407.07860 (ICLR 2025)
+- 图片: https://4d-diffusion.github.io/new_samples/banner/table.gif https://4d-diffusion.github.io/new_samples/sv_reangle/hyp.gif
+- 项目主页: https://4d-diffusion.github.io
+
+#### 4Real — Heng Yu, Snap Inc. (2024-06-11)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 文字提示 → 输出: 动态三维 / 4D, 高斯泼溅 / 辐射场
+- 核心想法: 把文本到 4D 从白底上的物体推进到完整场景。
+- 内容: Snap Research 与卡内基梅隆大学的 4Real 可根据文字提示生成带背景的照片级动态场景，可从一定角度范围观看，而不是孤立的卡通式物体。
+- 实现方式: 文生视频模型先生成参考视频和定格环绕视频，由环绕视频构建标准三维高斯场景，再通过分数蒸馏使其变形以匹配参考视频。
+- 能力维度: 感知真实感, 情境多样性
+- 论文: https://arxiv.org/abs/2406.07472 (NeurIPS 2024)
+- 视频: https://snap-research.github.io/4Real/resources/teaser-1080p.mp4
+- 图片: https://snap-research.github.io/4Real/resources/racoon_sync.gif
+- 项目主页: https://snap-research.github.io/4Real/
+
 ## 智能体与模拟社会
 
 由语言模型驱动、在世界中记忆、计划与行动的角色与群体：生成情境里“社会”的一面。
@@ -4412,11 +6295,25 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 
 带记忆与反思的可信智能体，从 Smallville 到整个人群的模拟。
 
+#### Emergence World — Emergence AI (2026-05-14)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 仅限研究
+- 输入: 场景规格、代码与规则, 文字提示 → 输出: 智能体行为与动作, 对话 / 文本
+- 核心想法: 持续数周、全程记录的智能体社会，让行为漂移、从众与崩溃变得可以测量；而同一个人设的表现，会随与它共处同一世界的模型不同而改变。
+- 内容: 一个持续运行的大语言模型智能体小镇：智能体拥有记忆、日记与人际关系，可使用 120 多种工具，能修订自己的宪章，并受能量经济约束，还接入了纽约实时天气与新闻。在 Emergence AI 的第一项研究中，五个各有 10 名智能体、只在底层模型上不同的世界，在 15 天内走向截然不同的结局：有的世界没有一起犯罪记录，有的多达数百起；第二季（2026 年 9 月）又向其中投放了错误信息与提示注入攻击。
+- 实现方式: 与模型无关的多智能体模拟：40 多个地点，每个智能体有情景记忆、反思日记与关系状态三种记忆，三层工具目录，提案需 70% 赞成才通过，能量随时间衰减；多个平行世界从相同条件出发，只改变底层基础模型，并记录每一个动作。
+- 参数: 10 agents per world · 40+ locations · 120+ tools · 15–16-day runs · Season 2: 8 worlds, >850,000 LLM calls
+- 能力维度: 持久性, 实验控制, 行为似真性
+- 论文: https://arxiv.org/abs/2606.08367 (arXiv)
+- 视频: https://www.youtube.com/watch?v=fbDd_ph305Q
+- 图片: https://images.squarespace-cdn.com/content/69af1b77df627e3fed4f484d/d2931bac-6772-4a44-b382-c21f0b645f82/Emergence-World.jpg
+- 项目主页: https://www.emergence.ai/blog/emergence-world-a-laboratory-for-evaluating-long-horizon-agent-autonomy
+- 代码: https://github.com/EmergenceAI/Emergence-World
+
 #### Simile — Simile, Joon Sung Park (2026-02-12)
 - 类型: 平台 / API · 时序: 回合制 · 获取方式: 产品 / 应用
 - 输入: 文字提示 → 输出: 对话 / 文本, 智能体行为与动作
 - 核心想法: 人群模拟已经成为产品；它的准确性声明，正是行为研究者把这类“数字孪生”当作被试之前必须检验的内容。
-- 内容: 一个商业平台，用访谈与问卷数据构建的智能体，模拟真实客户群体对产品发布、价格调整或营销活动的反应，延续斯坦福 1,000 人研究的思路。
+- 内容: 一个商业平台，用访谈与问卷数据构建的智能体，模拟真实客户群体对产品发布、价格调整或营销活动的反应，延续斯坦福 1,000 人研究的思路。2026 年 7 月，Simile 以 20 亿美元投后估值融资逾 2 亿美元，并称已建成人类行为基础模型，以及可预测每次模拟准确度的置信度模型。
 - 实现方式: 很可能沿用以访谈为基础人设的生成式智能体架构，并通过比较模拟回答与留出的真人回答分布来验证；Simile 披露了与企业（如 CVS Health）的合作研究，但未公开完整模型细节。
 - 能力维度: 情境多样性, 情境可达性, 行为似真性
 - 视频: https://www.youtube.com/watch?v=_7FuglsjhbM
@@ -4479,6 +6376,19 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 项目主页: https://github.com/altera-al/project-sid
 - 代码: https://github.com/altera-al/project-sid
 
+#### Centaur：人类认知基础模型（Centaur） — Marcel Binz (2024-10-26)
+- 类型: 模型 · 时序: 回合制 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示 → 输出: 智能体行为与动作
+- 核心想法: 一个可用于任何能写成文字的实验的“模拟被试”；它让生成情境的预实验变得廉价，但与群体平均一致，并不等于能代表任何一个具体的人。
+- 内容: 一个经过微调、能逐个试次预测人在心理学实验中如何行动的语言模型：只要用自然语言描述实验，它就能像被试一样作出选择。《自然》论文（2025 年 7 月）报告，它对未参与训练的被试的预测优于现有认知模型，并能推广到新的情境设定、任务变化与新领域。
+- 实现方式: 在 Psych-101 上用 QLoRA 微调 Llama 3.1 70B；Psych-101 把 160 项实验（6 万多名被试、1,000 多万次选择）的逐试次数据转写成自然语言；评估包括未参与训练的被试、修改后的任务以及与人类神经活动的对齐程度。
+- 参数: Llama 3.1 70B + QLoRA · Psych-101: 160 experiments, 60,000+ participants, 10M+ choices
+- 能力维度: 行为似真性, 情境可达性, 实验控制
+- 论文: https://doi.org/10.1038/s41586-025-09215-4 (Nature 2025)
+- 视频: https://www.youtube.com/watch?v=dndPhyJJcTE
+- 项目主页: https://www.nature.com/articles/s41586-025-09215-4
+- 代码: https://huggingface.co/marcelbinz/Llama-3.1-Centaur-70B
+
 #### Concordia — 谷歌 DeepMind (2023-12-06)
 - 类型: 开源工具 · 时序: 回合制 · 获取方式: 开源权重 / 代码
 - 输入: 文字提示, 场景规格、代码与规则 → 输出: 对话 / 文本, 智能体行为与动作
@@ -4521,6 +6431,58 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 ### 在三维世界中行动的智能体
 
 在游戏与生成世界中感知并行动的智能体：Voyager、SIMA、玩游戏的智能体。
+
+#### Gemini 4 Argon 智能体团队通关 Minecraft（A team of Gemini 4 Argon agents beats Minecraft） — 谷歌 DeepMind (2026-10-15)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
+- 输入: 文字提示, 场景规格、代码与规则 → 输出: 智能体行为与动作, 对话 / 文本
+- 核心想法: 一组智能体已能在游戏世界中跨越数千个相互依赖的步骤、连续一天保持目标一致；不过它们依靠的接口直接告诉它们人类玩家需要亲眼看到的信息。
+- 内容: 四个 Gemini 4 Argon 智能体各自通过开源库 Mineflayer 操控一名 Minecraft 玩家，借助游戏内聊天与共享笔记协作，从随机生成的生存世界中赤手空拳起步，在 27 小时 14 分钟后击败末影龙，期间编写了 2,783 个程序、死亡 605 次。Google DeepMind 称这是 AI 智能体首次端到端自主通关 Minecraft。
+- 实现方式: 不预设角色、游戏逻辑或技能：智能体自行规划、编写并调试调用 Mineflayer 的程序；Mineflayer 直接提供方块与实体信息以及寻路，而不是画面像素；一个观察者智能体与研究人员通过实时面板查看每个程序、消息与游戏事件。
+- 参数: 4 agents · 27 h 14 min · 2,783 programs · ~24,000 model calls · ~1.35B input tokens · ~US$520 at introductory list price
+- 能力维度: 持久性, 适应性, 实验控制
+- 论文: https://arxiv.org/abs/2610.22319 (arXiv)
+- 图片: https://arxiv.org/html/2610.22319v1/overview.png https://arxiv.org/html/2610.22319v1/timeline.png
+- 项目主页: https://arxiv.org/abs/2610.22319
+
+#### Player-1 — Mingyu Ouyang, 腾讯 ARC 实验室 (2026-10-14)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 开源权重 / 代码, 仅限研究
+- 输入: 图像, 文字提示 → 输出: 智能体行为与动作
+- 核心想法: 廉价、可随机化的合成游戏可以代替人工收集的示范，成为智能体学习行动的场所；生成的世界也可以承担同样的角色。
+- 内容: 把计算机操作模型变成游戏智能体的训练方法。智能体先在来自 172 款游戏的 6,044 条游戏轨迹上微调，再在 16 个合成的二维与三维训练游戏中通过强化学习练习，随后去完成从未训练过的 Minecraft、ViZDoom 与 GameWorld 任务。
+- 实现方式: 以 Qwen3.5 为基础的计算机操作模型（9B 与 35B-A3B）获得扩展的键鼠动作空间（相对指针移动、持续按键、组合动作），先在带指令与推理标注的轨迹上监督微调，再在 Player-1-Gym 中做多环境 PPO 强化学习；奖励直接由游戏状态计算，外观、镜头、场景与操控参数均随机化。
+- 参数: Player-1-9B · MineDojo-300 success 10.54% (SFT) → 38.33% (RL), best external baseline 12.63% · 16 synthetic environments
+- 能力维度: 情境多样性, 反应性
+- 论文: https://arxiv.org/abs/2610.20584 (arXiv)
+- 视频: https://player-1-project.github.io/assets/introduction/overview.mp4
+- 图片: https://player-1-project.github.io/assets/base_3d_combat_arena.webp
+- 项目主页: https://player-1-project.github.io/
+- 代码: https://github.com/TencentARC/Player-1
+
+#### PROWL-2 — Odyssey (2026-10-01)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入:  → 输出: 智能体行为与动作
+- 核心想法: 在让智能体从生成的世界中学习之前，先检查这个世界：模型推演错的片段不用于训练，而是转去修正模型本身。
+- 内容: Odyssey 提出的训练框架：一组智能体在学习得到的世界模型中训练，同时在世界模型预测出错的地方对其进行修复。演示场景包括《星际争霸 II》小队作战（SMACv2）和多台四足机器人的协作任务。
+- 实现方式: 智能体在世界模型生成的推演中训练，起始状态按学习潜力排序（无监督环境设计）；一个“开发者”智能体在真实环境中寻找模型预测错误之处；保真度闸门把想象轨迹与记录的真实轨迹对比，保真度低的起始状态先交给世界模型修复，直到模型能正确预测后才重新用于训练。
+- 参数: SMACv2 9 scenarios (5v5, 10v10, 10v11) · up to 91% relative gain over the baseline world-model learner · MQE Gate-3 success 29.8% → 70.4%
+- 能力维度: 适应性, 情境多样性, 行为似真性
+- 论文: https://prowl.odyssey.ml/PROWL-2.pdf (Preprint)
+- 视频: https://framerusercontent.com/assets/ZIdJUCh5QSXs3cQHda1vkpy32s.mp4
+- 图片: https://framerusercontent.com/assets/n4yXH1c5rgVzfkISH5AOF0HEZUc.jpg
+- 项目主页: https://odyssey.ml/introducing-prowl-2
+
+#### GameWorld — Mingyu Ouyang (2026-04-08)
+- 类型: 数据集 / 基准 · 时序: 回合制 · 获取方式: 开源权重 / 代码
+- 输入: 图像, 文字提示 → 输出: 智能体行为与动作
+- 核心想法: 依据游戏状态而不是评审模型来打分，让智能体在世界中的行为可核验、可重复，这正是实验平台所需的特性。
+- 内容: 一个包含 34 款网页游戏、170 项任务的基准，用来测试多模态模型作为游戏智能体的能力：既可以作为直接按键、移动鼠标的计算机操作智能体，也可以通过解析后的语义动作空间行动；每项任务都依据游戏自身的状态评分。在 18 组模型与接口的组合中，表现最好的智能体仍远不及人类玩家。
+- 实现方式: 游戏在浏览器中运行，提供两种智能体接口：原始键鼠操作与确定性的语义动作解析；结果指标直接从游戏状态读取，并通过多次完整重跑检验基准的稳定性。
+- 参数: 34 games · 170 tasks · 18 model-interface pairs
+- 能力维度: 实验控制, 反应性
+- 论文: https://arxiv.org/abs/2604.07429 (arXiv)
+- 视频: https://gameworld-project.github.io/static/figures/GameworldPromoShort.mp4
+- 图片: https://gameworld-project.github.io/static/figures/gameworld/teaser-wo-logo-transparent.png
+- 项目主页: https://gameworld-project.github.io/
 
 #### NitroGen — 英伟达 (2026-01-04)
 - 类型: 模型 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
@@ -4600,6 +6562,19 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 项目主页: https://baai-agents.github.io/Cradle/
 - 代码: https://github.com/BAAI-Agents/Cradle
 
+#### Mindcraft — Kolby Nottingham (2024-02-17)
+- 类型: 开源工具 · 时序: 回合制 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示 → 输出: 智能体行为与动作, 对话 / 文本
+- 核心想法: 一种低成本、易改造的方式，把会说话、会行动的 AI 玩家放进与人共享的三维世界，几乎是现成的多智能体社会试验平台。
+- 内容: 一个开源机器人框架：大语言模型智能体以玩家身份加入 Minecraft 服务器，可以与人交谈，会采矿、合成、建造、战斗与聊天，为新任务自行编写代码，并与其他机器人合作或争执。Emergent Garden 频道中多个模型一起生存的视频让它广为人知；2025 年基于它构建的 MineCollab 基准用于测试协作能力。
+- 实现方式: 基于 Mineflayer 机器人库的 Node.js 智能体循环：大语言模型（默认 OpenAI，也支持其他服务商与本地模型）读取聊天与游戏状态，调用内置命令或编写沙箱化的 JavaScript，并记录自身进展；在 MineCollab 中，当智能体必须交流详细计划时，表现最多下降 15%，作者认为沟通是主要瓶颈。
+- 能力维度: 共创与能动性, 反应性, 创作可及性
+- 论文: https://arxiv.org/abs/2504.17950 (arXiv)
+- 视频: https://www.youtube.com/watch?v=NTHWMk5pcYs
+- 图片: https://mindcraft-minecollab.github.io/steve.png
+- 项目主页: https://kolbynottingham.com/mindcraft/
+- 代码: https://github.com/mindcraft-bots/mindcraft
+
 #### Voyager — Guanzhi Wang, 英伟达 (2023-05-25)
 - 类型: 研究演示 · 时序: 回合制 · 获取方式: 开源权重 / 代码
 - 输入: 文字提示 → 输出: 智能体行为与动作
@@ -4612,6 +6587,34 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://voyager.minedojo.org/assets/images/components.png
 - 项目主页: https://voyager.minedojo.org/
 - 代码: https://github.com/MineDojo/Voyager
+
+#### 视频预训练（VPT）（Video PreTraining (VPT)） — OpenAI (2022-06-23)
+- 类型: 模型 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
+- 输入: 视频 → 输出: 智能体行为与动作
+- 核心想法: 只要用少量标注数据训练模型去推断视频中缺失的操作，互联网视频就能教会智能体行动；NitroGen 等后来的游戏智能体正是放大了这一方法。
+- 内容: 一个 Minecraft 智能体：通过观看约 7 万小时无标注的 YouTube 游戏视频，学会以每秒 20 帧、用普通键盘鼠标玩游戏；微调后能制作钻石工具，这一任务熟练玩家约需 20 分钟、约 2.4 万次操作。
+- 实现方式: 先用约 2,000 小时外包玩家的游戏记录训练逆动力学模型，为网络视频标注操作；再在这些伪标注视频上预训练大型行为克隆策略，并通过模仿学习与强化学习微调。
+- 参数: ~70,000 h of video · 20 Hz keyboard and mouse · diamond pickaxe after RL fine-tuning
+- 能力维度: 情境多样性, 反应性
+- 论文: https://arxiv.org/abs/2206.11795 (NeurIPS 2022)
+- 视频: https://www.youtube.com/watch?v=fJn9B64Znrk
+- 项目主页: https://openai.com/index/vpt/
+- 代码: https://github.com/openai/Video-Pre-Training
+
+#### MineDojo — Linxi (Jim) Fan, 英伟达 (2022-06-17)
+- 类型: 数据集 / 基准 · 时序: 实时流式 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示, 视频 → 输出: 智能体行为与动作
+- 核心想法: 把一款游戏以及人们发布的相关内容，变成开放式智能体共享的基准；此后的大多数 Minecraft 智能体都在它上面接受评测。
+- 内容: 一个 Minecraft 研究框架：在程序化生成的世界中提供数千个以语言描述的开放式任务，并配套由 YouTube 视频、维基页面与 Reddit 帖子组成的互联网规模知识库，以及用作智能体奖励的视频-语言模型 MineCLIP。
+- 实现方式: 在 MineRL 之上构建的模拟器套件，包含程序化任务与创造性任务；MineCLIP 在时间对齐的 YouTube 视频与字幕对上做对比学习，评估智能体最近画面与文字目标的匹配程度，作为强化学习的奖励。
+- 参数: 3,000+ tasks · 730,000+ YouTube videos · 7,000+ wiki pages · 340,000+ Reddit posts
+- 能力维度: 情境多样性, 情境可达性
+- 获奖与认可: NeurIPS 2022 Outstanding Paper Award
+- 论文: https://arxiv.org/abs/2206.08853 (NeurIPS 2022 Datasets and Benchmarks)
+- 视频: https://minedojo.org/videos/pull_video.mp4
+- 图片: https://minedojo.org/images/card/youtube.png
+- 项目主页: https://minedojo.org/
+- 代码: https://github.com/MineDojo/MineDojo
 
 #### XLand：开放式学习智能体（XLand: Open-Ended Learning Agents） — 谷歌 DeepMind (2021)
 - 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
@@ -4639,6 +6642,33 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 ### NPC 与角色平台
 
 游戏与 XR 中对话角色的引擎：Inworld、Convai、ACE，以及已上线游戏中的 AI NPC。
+
+#### WorldMind — Zhiyang Deng, 腾讯 (2026-08-18)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 仅限研究
+- 输入: 键盘与手柄动作 → 输出: 交互式帧流, 智能体行为与动作
+- 核心想法: 把生成角色“决定做什么”与“如何被画出来”分开，就得到一个可检查的决策层；实验要控制并记录 NPC 行为，正需要这样的接口。
+- 内容: 一个游戏世界模型：首领角色的下一步动作，由从生成画面中重建出的显式游戏状态来决定，而不是隐含在视频生成器里，或由外部直接给定。项目页展示了连续一小时的闭环首领战。
+- 实现方式: 四层闭环：理解层从生成画面中构建紧凑状态，决策层规划 NPC 动作，控制层将其转为时间对齐的条件，经蒸馏的视频生成器渲染结果；训练数据为 BOSS-140K，即由智能体自动采集、与游戏内部状态配对的游戏视频。
+- 参数: BOSS-140K dataset · 1-hour continuous rollout · two-step distilled generator · preferred over baselines in ~70% of pairwise comparisons
+- 能力维度: 行为似真性, 反应性, 实验控制
+- 论文: https://arxiv.org/abs/2608.21439 (arXiv)
+- 视频: https://teawhite.cn/WorldMind/assets/rollout-1h-6x.mp4
+- 图片: https://teawhite.cn/WorldMind/assets/teaser.webp
+- 项目主页: https://teawhite.cn/WorldMind/
+
+#### NVIDIA ACE 游戏智能体 SDK（NVIDIA ACE Game Agent SDK） — 英伟达 (2026-06-16)
+- 类型: 开源工具 · 时序: 回合制 · 获取方式: 开源权重 / 代码
+- 输入: 语音与音频, 文字提示, 场景规格、代码与规则 → 输出: 对话 / 文本, 智能体行为与动作, 语音 / 声音
+- 核心想法: PUBG Ally 与《全面战争》顾问所用的 NPC 技术栈，如今成了免费的本地工具包；实验室无需云端费用、也不必担心供应商更换底层模型，就能运行会说话、会行动的角色。
+- 内容: 一个开源的 C/C++ 框架，于 Unreal Fest 2026 以测试版发布，用于构建完全在玩家 RTX GPU 上运行的游戏角色：包括保存对话历史并驱动多步工具调用的智能体 API、无状态的对话 API，以及面向游戏自身数据的检索 API。同时推出的 Unreal Engine 5 插件提供本地语音识别、小语言模型与语音合成。
+- 实现方式: 针对 RTX 硬件上小模型优化的轻量智能体循环，支持工具调用与语义-词法混合检索；UE5 插件内置 nemo-conformer-ctc-120m 语音识别、GGUF 格式的 Qwen 3.5 4B 模型与 Chatterbox Turbo 350M 语音合成，可通过蓝图或 C++ 调用。
+- 参数: C/C++ · on-device (GeForce RTX) · Qwen 3.5 4B SLM · ASR 120M · TTS 350M · beta
+- 能力维度: 创作可及性, 时间响应性, 实验控制
+- 视频: https://www.youtube.com/watch?v=4syKq_OrbGA
+- 图片: https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ai-game-character.gif
+- 项目主页: https://developer.nvidia.com/blog/build-on-device-ai-companions-with-the-nvidia-ace-game-agent-sdk-and-unreal-engine-5-plugins/
+- API 文档: https://developer.nvidia.com/ace-for-games
+- 代码: https://github.com/NVIDIA/game-agent-sdk
 
 #### 《全面战争：法老》AI 顾问（NVIDIA ACE 演示）（Total War: PHARAOH AI advisor (NVIDIA ACE demo)） — 英伟达 (2026-01-05)
 - 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
@@ -4683,6 +6713,28 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 视频: https://www.youtube.com/watch?v=M7spbUI40NQ
 - 项目主页: https://www.fortnite.com/news/bring-npcs-to-life-with-ai-powered-conversations
 
+#### GARP：实时生成式智能体村庄（GARP (Generative Agents Realtime Playground)） — Studio Atelico (2025-01-08)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 仅限研究
+- 输入: 文字提示 → 输出: 智能体行为与动作, 对话 / 文本
+- 核心想法: 生成式智能体小镇不再需要云端预算：在本地运行时，一整个群体可以在游戏或 VR 场景中实时生活。
+- 内容: 一个技术演示：村庄里有 20 多个生成式智能体，各有性格、记忆与日程，会建立关系、相互回应；它仿照斯坦福的 Smallville 重新实现，在一块 NVIDIA RTX 3090 上实时运行，而不是依赖缓慢且收费的云端回合。
+- 实现方式: Atelico 的本地端引擎运行自研小语言模型，配合认知记忆架构与可热切换的适配器；Atelico 称原版 Smallville 以回合方式运行，每模拟一个游戏日约需 500 美元，而 GARP 在本地运行，没有按次费用。
+- 参数: 20+ agents · real-time · one RTX 3090
+- 能力维度: 行为似真性, 持久性, 时间响应性
+- 视频: https://www.youtube.com/watch?v=xT_vi2maxuM
+- 图片: https://atelico.studio/images/og/home.png
+- 项目主页: https://atelico.studio
+
+#### 《MIR5》AI 首领 Asterion（MIR5 AI boss Asterion） — Wemade Next, 英伟达 (2025-01-06)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 仅限研究
+- 输入: 键盘与手柄动作 → 输出: 智能体行为与动作
+- 核心想法: 把生成式角色用作对手而不是帮手：一个会适应人习惯的对手，正是自适应训练情境在游戏中的对应物。
+- 内容: Wemade Next 为 MMORPG《MIR5》打造的首领角色，在 CES 2025 上展示：它会分析对手玩家的技能、装备与战术，回忆以往的战斗并调整攻击方式，因此同一个首领每次的战斗过程都不相同。截至 2026 年 10 月，尚未确认这一 AI 首领已在正式游戏中上线。
+- 实现方式: 为《MIR5》调优、通过 NVIDIA ACE 提供的小语言模型感知战斗情况，把当前队伍与以往战斗对比，并选择首领的下一步动作，而不是按预设套路行动。
+- 能力维度: 适应性, 反应性
+- 视频: https://www.youtube.com/watch?v=-8XeiZ4djKw
+- 项目主页: https://www.nvidia.com/en-us/geforce/news/nvidia-ace-autonomous-ai-companions-pubg-naraka-bladepoint/
+
 #### 《永劫无间》AI 队友（NARAKA: BLADEPOINT AI Teammate） — 网易游戏, 英伟达 (2025-01-06)
 - 类型: 产品 / 应用 · 时序: 实时流式 · 获取方式: 产品 / 应用
 - 输入:  → 输出: 智能体行为与动作
@@ -4698,7 +6750,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 产品 / 应用 · 时序: 实时流式 · 获取方式: 候补 / 抢先体验
 - 输入: 语音与音频 → 输出: 智能体行为与动作, 对话 / 文本, 语音 / 声音
 - 核心想法: 一个在快节奏竞技游戏中既能说话又能行动的队友，运行在玩家自己的 GPU 上，而不是云端。
-- 内容: 《绝地求生》中可语音交流的 AI 队友：用游戏术语报点、分享物资、驾驶载具并与玩家并肩作战。魁匠团称之为“可共玩角色”（CPC）；在 CES 2025 与 GDC 2026 展示后，计划于 2026 年夏季通过 PUBG 街机模式测试版上线。
+- 内容: 《绝地求生》中可语音交流的 AI 队友：用游戏术语报点、分享物资、驾驶载具并与玩家并肩作战。魁匠团称之为“可共玩角色”（CPC）；在 CES 2025 与 GDC 2026 展示后，于 2026 年 6 月 17 日至 30 日在 Steam 版 PUBG 街机模式中以“Ally 双排模式”进行了为期两周的公开测试。
 - 实现方式: 最初通过英伟达 ACE 使用 Mistral-NeMo-Minitron-8B 小语言模型展示；随后魁匠团从“行为树 + 小模型”的工作流，转向在蒸馏后的本地 Nemotron 模型上运行的自主工具调用智能体循环，并加入长期记忆（CES 2026 宣布）。
 - 能力维度: 反应性, 时间响应性, 适应性
 - 视频: https://www.youtube.com/watch?v=ukV-ZUJ1mTo
@@ -4716,6 +6768,18 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 视频: https://www.youtube.com/watch?v=Pk9z1upOj3U
 - 图片: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456740/89acee5c3d965af802002617d6c130e5e03bd240/header.jpg?t=1792094410
 - 项目主页: https://www.nvidia.com/en-us/geforce/news/nvidia-ace-naraka-bladepoint-inzoi-launch-this-month/
+
+#### AI People（AI NPC 沙盒游戏）（AI People） — GoodAI (2024-09-19)
+- 类型: 产品 / 应用 · 时序: 回合制 · 获取方式: 产品 / 应用
+- 输入: 文字提示 → 输出: 智能体行为与动作, 对话 / 文本
+- 核心想法: 让玩家自己设定情境与角色，再观察大语言模型角色如何演绎；但云端成本与不明朗的商业模式也可能让这样的世界终止。
+- 内容: 一款沙盒游戏：每个角色都是有自己情绪与动机的大语言模型智能体；玩家与他们交谈，创建并分享自定义情境，在约十分钟的游玩中观察故事自然展开。测试版于 2024 年 9 月 19 日开放，月费 10 美元；到 2026 年 10 月，游戏网站已跳转到 GoodAI 首页，现状不明。
+- 实现方式: 云端大语言模型根据情境描述与每个角色的记忆，驱动 NPC 的对话、情绪与行动选择，这也是 GoodAI 采用订阅收费的原因；GoodAI 也是 CES 2025 上列出的 NVIDIA ACE 合作方。
+- 参数: ~10-minute sessions · US$10/month (alpha)
+- 能力维度: 行为似真性, 共创与能动性, 创作可及性
+- 视频: https://www.youtube.com/watch?v=3XtqQBt-W0Y
+- 图片: https://www.goodai.com/wp-content/uploads/2024/08/AIPeople_Banner_02_ALPHA-1024x576.jpg
+- 项目主页: https://www.goodai.com/ai-people-alpha-release-date-announced/
 
 #### Covert Protocol — 英伟达, Inworld AI (2024-03-19)
 - 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
@@ -4762,6 +6826,19 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://cdn.prod.website-files.com/6642c397a9d95685228ac4f3/6644f0c6bc2113e41247eb9e_Suck%20Up!.png
 - 项目主页: https://www.playsuckup.com/
 
+#### Mantella（《上古卷轴 V》AI NPC 模组）（Mantella） — Art from the Machine (2023-08-19)
+- 类型: 开源工具 · 时序: 回合制 · 获取方式: 开源权重 / 代码
+- 输入: 语音与音频 → 输出: 语音 / 声音, 对话 / 文本
+- 核心想法: 一个大型手工构建的世界，加上语音识别、大语言模型与声音克隆，就能与其中全部角色进行开放式对话；这为在现成三维世界中搭建对话场景提供了低成本的模板。
+- 内容: 一个免费模组：玩家可以直接开口与《上古卷轴 V：天际》（后来也包括《辐射 4》）中的 1,000 多个 NPC 交谈，并听到他们以各自的合成声音回答；角色会记住之前的对话，也能感知游戏中发生的事件。
+- 实现方式: 用 Whisper 或 Moonshine 转写语音，由云端或本地大语言模型根据每个 NPC 的人物小传、对话记忆与当前游戏事件生成回复，再用 xVASynth、Piper 或 XTTS 以角色原有的游戏嗓音说出并口型同步。
+- 参数: 1,000+ NPCs · Skyrim, Fallout 4
+- 能力维度: 反应性, 持久性, 共创与能动性
+- 视频: https://www.youtube.com/watch?v=FLmbd48r2Wo
+- 图片: https://raw.githubusercontent.com/art-from-the-machine/Mantella/main/img/mantella_trailer.gif
+- 项目主页: https://art-from-the-machine.github.io/Mantella/index.html
+- 代码: https://github.com/art-from-the-machine/Mantella
+
 #### NVIDIA ACE 游戏演示：Kairos（NVIDIA ACE for Games: Kairos demo） — 英伟达, Convai (2023-05-28)
 - 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
 - 输入: 语音与音频 → 输出: 对话 / 文本, 语音 / 声音, 虚拟人（脸 / 身体）
@@ -4780,6 +6857,65 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 ### MR / VR 中的现场共创
 
 通过说话、草图或手势，把内容放进身边的空间：Editing Reality、LLMR、Social Conjuring……
+
+#### XARA：生成扩展现实实验的多模态智能体系统（XARA） — Tareq Alsaleh (2026-10-15)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
+- 输入: 语音与音频, 草图与手势 → 输出: 三维场景 / 世界, 智能体行为与动作
+- 核心想法: 面向行为研究者本人的语音式实验场景生成，场景可以保存并作为实验条件反复使用。
+- 内容: 交通研究者置身沉浸式 Unity 场景中，用语音下达指令，例如添加车辆、行人或街道设施并设定它们的运动；大语言模型流程据此搭建并保存驾驶、过街或街道设计情境，供行为实验使用。
+- 实现方式: 双大语言模型架构先转写语音，再把它转成结构化指令并实时作用于 Unity XR 场景（创建物体、空间操作、动画控制与场景保存），并用手势辅助摆放；论文为系统描述，尚无用户研究。
+- 能力维度: 创作可及性, 实验控制, 情境可达性
+- 论文: https://arxiv.org/abs/2610.21067 (arXiv 2026)
+- 视频: https://www.youtube.com/watch?v=A6PlUJB6QJU
+- 图片: https://arxiv.org/html/2610.21067v1/transform5.png
+- 项目主页: https://arxiv.org/abs/2610.21067
+
+#### 生成式教程：为现实任务实时生成贴合情境的可视化指导（Generative Tutorial） — Muzhe Wu (2026-09-21)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
+- 输入: 透视画面与实时环境 → 输出: 图像 / 全景图, 平面视频
+- 核心想法: 指导根据现场画面生成，而不是事先录好的视频；参与者完成得更好，但生成错误会影响他们对指导的信任程度。
+- 内容: 一个 AR 原型在用户做手工任务时观察其工作台，并为每一步生成目标图和简短示范视频，画面里是用户自己的工具和材料以及它们当前的状态。
+- 实现方式: 先用 15 个现实任务对现有图像与视频生成模型做形成性测试，据此搭建流程：预测前序动作的视觉结果，并根据观察到的工作台生成每一步的图像与视频；24 人的实验室研究将其与预先制作的指导作比较。
+- 能力维度: 适应性, 反应性
+- 论文: https://arxiv.org/abs/2609.24955 (arXiv 2026)
+- 图片: https://arxiv.org/html/2609.24955v1/figures/teaser.png
+- 项目主页: https://arxiv.org/abs/2609.24955
+
+#### Generative Proxy：为 AR 眼镜合成用于现实世界交互的代理式界面（Generative Proxy） — Xianhao Carton Liu, Mar Gonzalez-Franco (2026-08-10)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
+- 输入: 场景规格、代码与规则, 透视画面与实时环境, 文字提示 → 输出: 三维场景 / 世界
+- 核心想法: 佩戴者操作的是房间的生成式抽象，而不是房间本身；现实中哪些部分可被操控、以何种方式操控，由生成器按设备和意图来决定。
+- 内容: 在没有大视场显示、也没有手部和眼动追踪的轻量 AR 眼镜上，系统会生成代理界面：为远处、杂乱或被遮挡的真实物体生成虚拟替身，佩戴者用设备有限的输入方式就能操作它们，界面会按场景、任务和设备量身生成。
+- 实现方式: 生成过程被表述为基于三类规格（场景、意图、设备能力）的约束合成，先枚举出有效的代理界面；再依据直接操纵理论中的语义距离与动作距离对候选排序，排序结合了基于规则的代价、大语言模型给出的人机工效评分，以及对入围候选的大语言模型一致性检查。原型运行于 Apple Vision Pro、Meta Quest 3、Meta Ray-Ban Display 和 Project Aria，并支持手表、手机与 Neural Band 输入；12 位 XR 开发者与研究者对生成界面给出了正面评价。
+- 能力维度: 创作可及性, 适应性
+- 论文: https://arxiv.org/abs/2608.08971 (UIST 2026)
+- 视频: https://www.youtube.com/watch?v=N1YcwAxcPaQ
+- 图片: https://arxiv.org/html/2608.08971v1/figs/Teaser.png
+- 项目主页: https://arxiv.org/abs/2608.08971
+
+#### PartInteractor：面向 XR 持续共创的意图驱动、部件感知三维创作（PartInteractor） — Jianan Jiang (2026-08-02)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
+- 输入: 语音与音频, 草图与手势, 图像 → 输出: 网格 / 三维资产
+- 核心想法: 把生成的物体当作部件层级来处理，一次性的“提示到物体”就变成了可持续的编辑，场景修改无需从头再来。
+- 内容: 用户在 XR 头显中用语音描述、画草图或拍照来表达想要的物体；系统把它生成为由若干命名部件组成的三维资产，用户随后可以逐个部件地抓取、替换、换风格或重新生成。
+- 实现方式: 由 LLM/VLM 解析器把语音、现场草图或头显拍摄的图像转成候选二维概念图（检索加生成），再用部件感知的图生三维模型生成按语义拆分的资产，在头显中按部件操作；并与整体重新生成的方式作对比评估。
+- 能力维度: 创作可及性, 共创与能动性
+- 论文: https://arxiv.org/abs/2608.01335 (UIST 2026)
+- 视频: https://horizonjohn.github.io/PartInteractor/static/videos/PartInteractor.mp4
+- 图片: https://horizonjohn.github.io/PartInteractor/static/images/application.png
+- 项目主页: https://horizonjohn.github.io/PartInteractor/
+- 代码: https://github.com/SNeC-Lab-PSU/PartInteractor
+
+#### CoGen3D：为虚拟现实生成三维资产的人机协同设计智能体流程（CoGen3D） — Weiwei Jiang (2026-07-04)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
+- 输入: 文字提示 → 输出: 网格 / 三维资产, 图像 / 全景图
+- 核心想法: 共同设计的资产与更高的投入度和情绪反应的变化相关，但人们仍更喜欢概念图而不是最终的三维模型，这反映出图像到三维之间的质量落差。
+- 内容: 智能体先就用户想为 VR 场景添加的物体进行提问，给出概念图供确认，再生成三维资产并放入沉浸式场景；一项 120 人的研究比较了共同设计资产的人和只体验场景的人。
+- 实现方式: 分阶段流程：由大语言模型智能体对话式地引出意图，确认概念图，再进行图生三维并直接部署到 Meta Quest 3 上六个情绪基调不同的 VR 场景；60 名设计者与 60 名验证者参与。
+- 能力维度: 创作可及性, 共创与能动性
+- 论文: https://arxiv.org/abs/2607.03731 (arXiv 2026)
+- 图片: https://arxiv.org/html/2607.03731v1/system_design.png
+- 项目主页: https://arxiv.org/abs/2607.03731
 
 #### 编辑现实：混合现实中与生成式 AI 的现场共创（Editing Reality） — Suibi Che-Chuan Weng, Ryo Suzuki (2026-06-12)
 - 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
@@ -5014,6 +7150,17 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 
 扩散模型与视频到视频模型，在你观看时重绘透视画面或摄像头画面。
 
+#### ShadAR：在增强现实中用提示实时改写视觉（ShadAR） — Yanni Mei (2026-10-14)
+- 类型: 研究演示 · 时序: 实时流式 · 获取方式: 仅限研究
+- 输入: 文字提示, 透视画面与实时环境 → 输出: 交互式帧流
+- 核心想法: 通过提示实时改写人所看到的画面，甚至可以用关于情绪或行为的“目标式”提示，让感知本身成为可生成、可操控的条件。
+- 内容: 佩戴者写下希望透视画面发生的变化，比如“把所有人都模糊掉”或“让我笑一笑”，大语言模型随即编写像素着色器，实时作用在摄像头画面中对应的区域上。
+- 实现方式: 由大语言模型（论文中为 GPT-5.2）理解提示，目标检测器（YOLO）在透视画面中定位目标，再把生成的着色器注入透视渲染管线；一项由 21 位 HCI 研究者参与的探索性研究梳理了应用领域与提示方式。
+- 能力维度: 反应性, 创作可及性
+- 论文: https://arxiv.org/abs/2610.19998 (UIST 2026)
+- 图片: https://arxiv.org/html/2610.19998v1/teaser.jpeg
+- 项目主页: https://arxiv.org/abs/2610.19998
+
 #### Spectacles 上的实时 AI 风格迁移（Real-time AI style transfer on Spectacles） — Alessio Grancini (2026-07-28)
 - 类型: 研究演示 · 时序: 实时流式 · 获取方式: 仅限研究
 - 输入: 透视画面与实时环境 → 输出: 交互式帧流
@@ -5063,7 +7210,8 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 输入: 语音与音频, 透视画面与实时环境 → 输出: 交互式帧流
 - 核心想法: 实时视频到视频模型能把任何房间变成按提示选择的世界，但你看到的东西不再与你摸到的一致。
 - 内容: 在 Meta Quest 上，佩戴者说出一个提示，就能看到自己房间的透视画面被实时视频模型当场改造；该应用在 SideQuest 上免费提供，并且开源。
-- 实现方式: 通过 QuestCameraKit 获取透视摄像头画面，流式发送到 Decart 的实时视频到视频模型（很可能是经由 WebRTC 的 MirageLSD），再把重绘后的画面渲染回头显。
+- 实现方式: 通过 QuestCameraKit 获取透视摄像头画面，经 WebRTC 流式发送到 Decart 的实时视频到视频模型，再把重绘后的画面渲染回头显；自 2026 年 7 月起，应用中的模型名为 Lucy-Restyle-2（由 Mirage 更名，61 种世界风格）和 Lucy（15 种人物变换）。
+- 参数: 720p · 30 fps · <200 ms latency (developer-reported)
 - 能力维度: 时间响应性, 情境多样性
 - 视频: https://x.com/DecartAI/status/1974534910623859128
 - 项目主页: https://github.com/DecartAI/Decart-XR
@@ -5116,6 +7264,42 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 图片: https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e24f1e2a-3433-4a17-a6d6-3cdd234543f0/robot-archetype-06-care-or-control/public
 - 项目主页: https://amber.botao.hu/project/generative-enactments
 
+#### 加拉帕戈斯：最后的伊甸园（Galápagos: The Last Eden） — Atlantic Studios, 谷歌 (2026-09-11)
+- 类型: 体验 / 艺术作品 · 时序: 回合制
+- 输入: 语音与音频 → 输出: 对话 / 文本, 语音 / 声音
+- 核心想法: 把一位能对话的历史人物放进实拍的纪录片世界，让向导回答观众自己的问题，而不是只念固定台词。
+- 内容: 一部为 XR 眼镜制作、由 Margot Robbie 旁白的自然历史体验，在 2026 年威尼斯沉浸单元展出：观众走进 16K 三维拍摄的加拉帕戈斯群岛，还可以向一位由 Gemini 驱动的数字达尔文提问。
+- 实现方式: 以 16K 立体三维拍摄素材在 Android XR 眼镜上进行空间呈现，其中的达尔文角色对话由 Gemini 生成（据联合制作方 Google 100 Zeros 团队介绍）。
+- 参数: 16K 3D capture · XR glasses
+- 能力维度: 行为似真性, 情境可达性
+- 获奖与认可: Venice Immersive 2026 (83rd Venice International Film Festival)
+- 图片: https://static.labiennale.org/files/styles/seo_thumbnail/public/cinema/2026/Schede_film/970x647/Ve_Immersive/galapagos_the_last_eden.jpg?itok=2TXE0uhw
+- 项目主页: https://www.labiennale.org/en/cinema/2026/venice-immersive/galapagos-last-eden
+
+#### Nevatars — Andy Serkis, 谷歌 (2026-09-11)
+- 类型: 体验 / 艺术作品 · 时序: 回合制
+- 输入: 语音与音频, 透视画面与实时环境 → 输出: 虚拟人（脸 / 身体）, 对话 / 文本, 语音 / 声音
+- 核心想法: 一部由明星主导的电影节作品，让按剧本塑造的角色以开放对话回应观众，考验一个精心编排的故事能容纳多少即兴。
+- 内容: 一部 31 分钟、为 XR 眼镜打造的混合现实动画电影，在 2026 年威尼斯沉浸单元首映：被遗弃的数字角色出现在观众的房间里并与之交谈；Google 称片中充满由 Gemini 驱动的对话与互动时刻。
+- 实现方式: 在 Android XR 的透视混合现实中呈现人工制作的动画与表演捕捉，对话段落由 Gemini 和 Vertex AI 驱动（据 Google 介绍）；由 Imaginarium、Boona、Google 100 Zeros 与 3Dar 联合制作。
+- 参数: 31 min · XR glasses
+- 能力维度: 共创与能动性, 行为似真性
+- 获奖与认可: Venice Immersive 2026 (83rd Venice International Film Festival)
+- 视频: https://www.youtube.com/watch?v=Es6SDpbiyM8
+- 图片: https://static.labiennale.org/files/styles/seo_thumbnail/public/cinema/2026/Schede_film/970x647/Ve_Immersive/nevatars2.jpg?itok=j3wvW8K0
+- 项目主页: https://www.labiennale.org/en/cinema/2026/venice-immersive/nevatars
+
+#### MemoryDiorama：把日常照片变成动态三维模型，帮助唤起记忆（MemoryDiorama） — Keiichi Ihara, Ryo Suzuki (2026-04-08)
+- 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
+- 输入: 图像 → 输出: 三维场景 / 世界, 动作 / 动画
+- 核心想法: 围绕个人照片生成的情境可以充当记忆线索：参与者回忆起更多细节，这也提示生成式重现可能影响自传体记忆。
+- 内容: 在 Meta Quest 3 的混合现实中，把一张日常照片变成会动的三维立体模型，加入从照片推断出的生成物体、人物动作、天气与粒子效果，帮助人回忆照片中的那一刻。
+- 实现方式: 基于大语言模型的场景分析从照片中提取地点、物体、光照与氛围，再经三维物体生成、动画与空间排布搭建立体模型；被试内研究（N=18）比较了仅照片、静态模型与 MemoryDiorama 三种条件。
+- 能力维度: 感知真实感, 情境可达性
+- 论文: https://arxiv.org/abs/2604.06773 (arXiv 2026)
+- 图片: https://arxiv.org/html/2604.06773v1/figures/teaser_v1.2.jpg
+- 项目主页: https://arxiv.org/abs/2604.06773
+
 #### CinemaWorld：用生成式 AR 延展电影（CinemaWorld） — Keiichi Ihara, Ryo Suzuki (2026-03-09)
 - 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
 - 输入: 视频, 透视画面与实时环境 → 输出: 三维场景 / 世界
@@ -5128,6 +7312,18 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 视频: https://ryosuzuki.org/static/video/cinemaworld.mp4
 - 图片: https://arxiv.org/html/2603.08060v1/figures/teaser_ver1.1.jpg
 - 项目主页: https://ryosuzuki.org/cinemaworld
+
+#### PlayWrite：在 XR 中通过“玩”与 AI 共写故事（PlayWrite） — Esen K. Tütüncü, Autodesk Research (2026-03-02)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
+- 输入: 草图与手势, 语音与音频 → 输出: 对话 / 文本
+- 核心想法: 让在空间中摆弄角色、而不是输入提示，成为故事生成的输入；这种模式可以迁移到“通过演出来编写情境”。
+- 内容: 写作者戴上混合现实头显，在桌面上移动小型虚拟角色和道具，并边玩边说出情节；AI 智能体把这些动作解读为故事节拍，以可重新排列的“故事弹珠”呈现，再由大语言模型把排好的序列写成完整叙事。
+- 实现方式: 多智能体流程（环境、社交、叙述者与意图帧智能体）把操作、空间关系与语音压缩为“意图帧”，再由大语言模型写成文本；对 13 位写作者进行了用户研究。
+- 能力维度: 共创与能动性, 创作可及性
+- 论文: https://arxiv.org/abs/2603.02366 (CHI 2026)
+- 视频: https://www.youtube.com/watch?v=RHvioD_b2Hc
+- 图片: https://arxiv.org/html/2603.02366v1/images/teaser-place-holder.png
+- 项目主页: https://arxiv.org/abs/2603.02366
 
 #### 走进 AI 生成的电影场景（Step inside an AI-generated movie scene） — Stijn Spanhove (2025-12-29)
 - 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
@@ -5216,7 +7412,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 输入: 文字提示, 语音与音频, 透视画面与实时环境 → 输出: 智能体行为与动作
 - 核心想法: 降低把感知、渲染与生成模型连在一起的成本，而这正是大多数 AI + XR 原型卡住的环节。
 - 内容: 谷歌开源的 WebXR 框架，提供用户、世界、同伴、界面、上下文与智能体等即插即用模块，让 AI + XR 原型（Gemini 助手、场景理解）可以在 Chrome 和 Android XR 头显上运行。
-- 实现方式: 基于 WebXR、three.js、TensorFlow 与 Gemini 的模块化架构，附带模板、示例与演示，也是 Vibe Coding XR 的基础。
+- 实现方式: 基于 WebXR、three.js、TensorFlow 与 Gemini 的模块化架构，附带模板、示例与演示，也是 Vibe Coding XR 的基础。截至 2026 年 10 月仍在活跃开发（2026-10-15 发布 v0.23.0），v0.19.0 起加入三维场景编辑器与虚拟形象。
 - 能力维度: 创作可及性, 实验控制
 - 论文: https://arxiv.org/abs/2509.25504 (arXiv 2025)
 - 视频: https://www.youtube.com/watch?v=75QJHTsAoB8
@@ -5234,6 +7430,17 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 能力维度: 创作可及性
 - 视频: https://www.youtube.com/watch?v=viXoK-MJRls
 - 项目主页: https://www.meta.com/blog/connect-2025-day-one-keynote-ai-glasses-ray-ban-display-neural-band-metaverse-news/
+- API 文档: https://developers.meta.com/horizon-worlds/
+
+#### Meta Horizon Worlds 具身大语言模型 NPC（Meta Horizon Worlds embodied LLM NPCs） — Meta (2025-08-27)
+- 类型: 平台 / API · 时序: 回合制 · 获取方式: 产品 / 应用
+- 输入: 语音与音频, 场景规格、代码与规则 → 输出: 对话 / 文本, 语音 / 声音
+- 核心想法: 把大语言模型角色放进一个大型社交 VR 平台的标准工具箱，预设台词与约束规则成为创作者手中的控制杆。
+- 内容: 创作者在 Worlds Desktop Editor 中设定角色的名字、背景故事、性格、约束规则与声音，玩家随后就能在 VR 或手机世界里用语音与这个有形体的 NPC 交谈，回应由预设台词和大语言模型生成的话语混合而成。
+- 实现方式: Character Builder 的设定与 TypeScript 提供的世界状态上下文共同约束一个大语言模型（据 UploadVR 报道为 Llama 4），回复由合成语音读出；与文本生成地形的 Environment Generation 同时发布，据报道 2025 年 9 月向所有创作者开放，但只有美国成年用户可以与之对话。
+- 能力维度: 创作可及性, 行为似真性
+- 视频: https://www.youtube.com/watch?v=FNeR-ESSRnY
+- 项目主页: https://developers.meta.com/horizon/blog/environment-generation-embodied-conversational-llm-npcs-genai-tools/
 - API 文档: https://developers.meta.com/horizon-worlds/
 
 #### Spectacles AI 更新与 Snap3D（Spectacles AI release with Snap3D） — Snap Inc. (2025-06-10)
@@ -5265,6 +7472,39 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 ### 临场感、似真性与方法论
 
 人为何会对虚拟情境作出反应，以及如何设计与验证这些情境：Slater、Steuer、Blascovich、Brunswik……
+
+#### 走出实验室：基于 VERA 平台的大规模远程 VR 晕动症研究（Beyond the Lab: Large-Scale Remote Cybersickness Research in Virtual Reality Using the VERA Platform） — Matt Gottsacker, Jeremy Bailenson, Tabitha Peck (2026-09-04)
+- 类型: 行为研究 · 时序: 脚本 / 规则驱动
+- 输入: 身体、面部与视线追踪 → 输出: 人工制作的 VR 情境
+- 核心想法: 无人监督的远程 VR 研究能以九倍样本复现实验室结果，但样本是有经验的头显用户，而非普通公众。
+- 内容: 由美国国家科学基金会资助的“虚拟体验研究加速器”（VERA）通过 Prolific 招募 263 名参与者，让他们在自己的 Meta Quest 头显上运行标准的晕动症测试平台。结果在方向与时间进程上与已发表的实验室研究（N=30）一致，更大的样本还证实了性别、易感性与预期的影响。
+- 实现方式: 通过 VERA 部署 Cybersicker 测试平台的远程版本，在 SSQ、FMS 与症状出现轨迹上，与实验室数据及人口学匹配的远程子样本比较；并对人口学与个体差异因素做回归分析。
+- 参数: remote N=263 vs in-lab N=30 · consumer Meta Quest headsets
+- 能力维度: 实验控制, 情境多样性
+- 论文: https://arxiv.org/abs/2609.26203 (arXiv preprint (2026; under review at IEEE TVCG))
+- 视频: https://www.youtube.com/watch?v=KMgAFx1MHmg
+- 图片: https://arxiv.org/html/2609.26203v1/figs/CybersickerInCart4.png
+- 项目主页: https://arxiv.org/abs/2609.26203
+
+#### 用于心理学、行为与认知研究的沉浸式虚拟现实实验工具箱：范围综述（Toolboxes for creating immersive virtual reality experiments in psychological, behavioral, and cognitive research: A scoping review） — Mehrnaz Hosseinzadeh (2026-07-03)
+- 类型: 论文 / 综述
+- 输入: 场景规格、代码与规则 → 输出: 人工制作的 VR 情境
+- 核心想法: 在“生成”之前，瓶颈是“创作”：这份梳理展示了不会编程的研究者目前已能搭建并控制 VR 实验的多大部分。
+- 内容: 一篇范围综述：梳理心理学、行为科学与认知神经科学研究者用来搭建头显实验的软件工具箱，并据此为不会编程的研究者提供选型决策框架。
+- 实现方式: 对已发表的 VR 实验工具箱做范围综述，按可用性与应用特征整理成证据地图与决策支持框架。
+- 能力维度: 创作可及性, 实验控制
+- 论文: https://doi.org/10.1016/j.chbr.2026.101194 (Computers in Human Behavior Reports (2026))
+
+#### 当虚拟空间与真实空间一致时，“房间里的大象”会放大不适感（An elephant in the room amplifies discomfort when the virtual reality space matches physical reality） — Michael Wiesing, Mel Slater (2026-05)
+- 类型: 行为研究 · 时序: 脚本 / 规则驱动
+- 输入: 透视画面与实时环境, 身体、面部与视线追踪 → 输出: 人工制作的 VR 情境
+- 核心想法: 把威胁放进参与者自己的房间会让人更难受——对于把内容写进真实环境的生成式 MR，这既是设计问题也是伦理问题。
+- 内容: 29 名参与者在三种房间里遇到狼、狗、兔子或松鼠：通过混合现实透视看到的真实实验室、该实验室的 VR 复制品，或一个无关的虚拟客厅；牛顿摆可开可关。一个概率智能体请他们每次只改变一个因素；最令人不适的配置是混合现实中出现狼且牛顿摆在摆动。
+- 实现方式: 被试内范式（动物 × 房间 × 牛顿摆）：参与者在概率智能体的提示下在各配置间切换；用马尔可夫转移矩阵对配置的不适程度排序。
+- 参数: N=29 · 4 animals × 3 rooms × cradle on/off
+- 能力维度: 感知真实感, 实验控制
+- 论文: https://doi.org/10.1016/j.isci.2026.115951 (iScience (2026))
+- 视频: https://www.youtube.com/watch?v=PdUq-_6ba5s
 
 #### 把虚拟现实误当作现实：一项实验研究（Confusing virtual reality with reality – An experimental study） — Michael Wiesing, Mel Slater (2025-05-13)
 - 类型: 行为研究 · 时序: 脚本 / 规则驱动
@@ -5304,6 +7544,17 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 实现方式: 与 Maria V. Sanchez-Vives 合作的叙述性综述，围绕临场感、身体拥有感与应用领域展开。
 - 能力维度: 情境可达性, 感知真实感
 - 论文: https://doi.org/10.3389/frobt.2016.00074 (Frontiers in Robotics and AI 3 (2016))
+
+#### 真实与虚拟环境中疏散行为的社会影响（Social Influence on Evacuation Behavior in Real and Virtual Environments） — Max Kinateder (2016-07-25)
+- 类型: 行为研究 · 时序: 脚本 / 规则驱动
+- 输入: 身体、面部与视线追踪 → 输出: 人工制作的 VR 情境, 虚拟人（脸 / 身体）
+- 核心想法: 真实与虚拟的匹配对照显示了哪些效应能延续（正向社会影响）、哪些会减弱（紧迫感、负向影响）——任何生成的紧急情境都需要这类验证。
+- 内容: 火警响起时，150 名参与者要决定是否撤离：独自一人，或身边有一位要么离开、要么留下的旁观者；一半人在真实实验室，另一半在配有虚拟旁观者的、与之匹配的 VR 复制场景中。两种环境中都出现了同样的社会影响，但人们对虚拟火警的反应较弱，留下不走的旁观者在 VR 中的“拖住”作用也较弱。
+- 实现方式: 单次试验的被试间实验，设三种旁观者条件，分别在真实实验室与在头戴显示器中呈现的匹配虚拟环境中进行。
+- 参数: N=150 · 3 conditions × real / VR
+- 能力维度: 实验控制, 情境可达性
+- 论文: https://doi.org/10.3389/frobt.2016.00043 (Frontiers in Robotics and AI 3 (2016))
+- 图片: https://www.frontiersin.org/files/Articles/204625/xml-images/frobt-03-00043-g001.webp
 
 #### 地点错觉与似真错觉可在沉浸式虚拟环境中引发真实行为（Place illusion and plausibility can lead to realistic behaviour in immersive virtual environments） — Mel Slater (2009)
 - 类型: 论文 / 综述
@@ -5345,6 +7596,18 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 ### 社会心理学 VR 实验
 
 在沉浸式情境中研究服从、旁观者、具身与社会互动。
+
+#### 借助虚拟现实与手机应用中的“未来自我”激发面向未来的思考与目标达成：随机对照试验（Stimulating Future-Oriented Thinking and Goal-Achievement Through the Future Self Using Virtual Reality and a Smartphone App: Randomized Controlled Trial） — Jean-Louis van Gelder (2026-03-10)
+- 类型: 行为研究 · 时序: 脚本 / 规则驱动
+- 输入: 语音与音频, 身体、面部与视线追踪 → 输出: 人工制作的 VR 情境, 虚拟人（脸 / 身体）
+- 核心想法: 同一套“未来自我”干预分别用手机和头显实施：VR 显著提高了每周目标达成（d=0.88），但两种形式对未来自我认同的提升大多在六个月后消退。
+- 内容: FutureU：大一学生与“十年后的自己”——一个按年龄老化处理的自我化身——见面，方式是手机应用，或三次各约 30 分钟的 VR 会话；在 VR 中，他们轮流化身为现在的自己和未来的自己，并回答自己事先录下的问题。一项三臂随机对照试验（N=321，每组 107 人）在六个月内比较了应用、VR 与目标设定对照组。
+- 实现方式: 平行三臂随机对照试验，区组随机化；VR 会话使用由照片生成的全身“未来自我”化身、在现在与未来自我之间切换身体，并由研究者操控的机器人向导引导；用潜变量增长曲线模型分析六个时间点的结局。
+- 参数: N=321 · 3 arms × 107 · 3 × 30 min VR · 6-month follow-up
+- 能力维度: 适应性, 实验控制
+- 论文: https://doi.org/10.2196/84420 (Journal of Medical Internet Research (2026))
+- 视频: https://www.youtube.com/watch?v=4s5NDsyt6V4
+- 项目主页: https://doi.org/10.2196/84420
 
 #### 在虚拟现实中以性骚扰受害者视角具身体验，可降低随后米尔格拉姆服从情境中的行动从众（An Embodied Perspective as a Victim of Sexual Harassment in Virtual Reality Reduces Action Conformity in a Later Milgram Obedience Scenario） — Solène Neyret, Mel Slater (2020)
 - 类型: 行为研究 · 时序: 脚本 / 规则驱动
@@ -5400,6 +7663,27 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 论文: https://doi.org/10.1016/j.concog.2013.04.016 (Consciousness and Cognition 22(3))
 - 视频: https://www.youtube.com/watch?v=HliN3iOX090
 
+#### 对虚拟儿童身体的错觉拥有感导致高估物体尺寸并改变内隐态度（Illusory ownership of a virtual child body causes overestimation of object sizes and implicit attitude changes） — Domna Banakou, Mel Slater (2013-07-15)
+- 类型: 行为研究 · 时序: 脚本 / 规则驱动
+- 输入: 身体、面部与视线追踪 → 输出: 人工制作的 VR 情境, 虚拟人（脸 / 身体）
+- 核心想法: 被赋予的身体会改变知觉与内隐态度，而不只是感受——化身的选择本身就是实验变量。
+- 内容: 30 名成年人在 VR 中被赋予一个 4 岁儿童的身体，或一个缩小到儿童身高的成人身体，且身体动作同步。两种条件都产生了强烈的身体拥有感，但只有儿童身体让人更高估物体尺寸，并更快地把自己与儿童特质联系起来；第二项实验（n=16）中，动作不同步消除了拥有感错觉及儿童身体特有的效应。
+- 实现方式: 组间具身实验：头显第一人称视角配合全身动作捕捉，测量物体尺寸估计与内隐联想测验；第二项实验以视觉-运动不同步作为对照。
+- 参数: Exp. 1 N=30 · Exp. 2 n=16
+- 能力维度: 感知真实感, 实验控制
+- 论文: https://doi.org/10.1073/pnas.1306779110 (PNAS 110(31) (2013))
+- 视频: https://www.youtube.com/watch?v=8Oy83OVgbSM
+
+#### 虚拟超级英雄：用虚拟现实中的超能力促进亲社会行为（Virtual Superheroes: Using Superpowers in Virtual Reality to Encourage Prosocial Behavior） — Robin S. Rosenberg, Jeremy Bailenson (2013-01-30)
+- 类型: 行为研究 · 时序: 脚本 / 规则驱动
+- 输入: 身体、面部与视线追踪 → 输出: 人工制作的 VR 情境
+- 核心想法: 在 VR 中被赋予的“能力”——而不只是角色或故事——也能延续到头显之外的助人行为。
+- 内容: 参与者要么像超人一样挥动手臂在虚拟城市上空飞行，要么作为乘客坐直升机；任务是寻找一个急需胰岛素的糖尿病儿童，或只是游览城市。之后，无论任务是什么，飞行组都比直升机组更多地帮实验者捡起洒落的笔。
+- 实现方式: 2（超人飞行 / 直升机乘客）× 2（救援 / 游览任务）被试间实验，采用全身追踪；之后以安排好的“笔掉在地上”情境测量助人行为。
+- 能力维度: 情境可达性, 实验控制
+- 论文: https://doi.org/10.1371/journal.pone.0055003 (PLoS ONE 8(1) (2013))
+- 图片: https://journals.plos.org/plosone/article/figure/image?size=inline&id=10.1371/journal.pone.0055003.g001
+
 #### 以年龄增长后的“未来自我”形象提升储蓄行为（Increasing Saving Behavior Through Age-Progressed Renderings of the Future Self） — Hal Hershfield, Jeremy Bailenson (2011)
 - 类型: 行为研究 · 时序: 脚本 / 规则驱动
 - 输入: 身体、面部与视线追踪 → 输出: 虚拟人（脸 / 身体）, 人工制作的 VR 情境
@@ -5430,6 +7714,15 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 论文: https://doi.org/10.1371/journal.pone.0000039 (PLoS ONE 1(1): e39)
 - 视频: https://www.youtube.com/watch?v=RjUNg3pkEag
 
+#### 沉浸式虚拟环境中的人际距离（Interpersonal Distance in Immersive Virtual Environments） — Jeremy Bailenson, Jim Blascovich (2003)
+- 类型: 行为研究 · 时序: 脚本 / 规则驱动
+- 输入: 身体、面部与视线追踪 → 输出: 人工制作的 VR 情境, 虚拟人（脸 / 身体）
+- 核心想法: 人们会尊重虚拟人的个人空间，这让人际距离成为一种低成本、内隐的指标，用来判断生成的角色是否被当作社会性存在。
+- 内容: 参与者在虚拟房间里从虚拟人身边走过，或被虚拟人走近；研究者操纵了性别、注视方式，以及该人物据称由人还是由计算机控制。人们与虚拟人正面保持的距离大于背面，会给保持对视的智能体留出更多空间，而当智能体闯入个人空间时退得最远。
+- 实现方式: 两项沉浸式虚拟环境实验，参与者在头部追踪下行走；操纵参与者与虚拟人的性别、注视行为以及“智能体/化身”的说法，通过追踪记录最小距离与路径。
+- 能力维度: 行为似真性, 实验控制
+- 论文: https://doi.org/10.1177/0146167203029007002 (Personality and Social Psychology Bulletin 29(7) (2003))
+
 #### 面对三种虚拟听众时的公开演讲焦虑实验（An Experiment on Public Speaking Anxiety in Response to Three Different Types of Virtual Audience） — David-Paul Pertaub, Mel Slater (2002)
 - 类型: 行为研究 · 时序: 脚本 / 规则驱动
 - 输入: 语音与音频, 身体、面部与视线追踪 → 输出: 人工制作的 VR 情境, 虚拟人（脸 / 身体）
@@ -5444,6 +7737,18 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 ### 犯罪学与极端情境
 
 入室盗窃、攻击、威胁与紧急情况：无法真实布置的情境。
+
+#### 感知种族与性别对警察用语的影响：来自 VR 模拟的实验证据（The Effect of Perceived Race and Gender on Police Language Use: Experimental Evidence from VR Simulations） — Sandra C. Sandoval, Rashawn Ray (2026-08-05)
+- 类型: 行为研究 · 时序: 脚本 / 规则驱动
+- 输入: 语音与音频 → 输出: 人工制作的 VR 情境, 对话 / 文本
+- 核心想法: 随机分配虚拟人物的身份，让一个 VR 场景变成检验警察逐轮实际话语中偏见的因果实验。
+- 内容: 对一组 VR 现场实验的再分析：70 名美国警察在三个场景（住宅、公交站、便利店）中与虚拟角色对话，角色的种族与性别随机分配。多数警察对被呈现为黑人男性的角色说话时更不客气，在已知该角色是嫌疑人时尤其明显。
+- 实现方式: 基于 Doan 等人的 VR 实验数据，对 3,897 条警察话语的众包“恭敬程度”评分（0–10）做话语层面的因果分析；用大语言模型提取文本特征、做倾向得分加权，并用大语言模型生成的改写句验证效应估计；论文还贡献了一个标注数据集。
+- 参数: 70 officers · 208 scenes · 3,897 utterances
+- 能力维度: 实验控制, 情境可达性
+- 论文: https://arxiv.org/abs/2608.05050 (arXiv preprint (2026))
+- 视频: https://www.youtube.com/watch?v=ZH3XgnpBGHM
+- 项目主页: https://arxiv.org/abs/2608.05050
 
 #### 用虚拟现实考察警察在协同出警互动中的决策（Using Virtual Reality to Examine Officer Decision-Making in Police Co-Response Interactions） — Connor Powelson (2025-07-21)
 - 类型: 行为研究 · 时序: 脚本 / 规则驱动
@@ -5464,6 +7769,17 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 能力维度: 实验控制, 创作可及性
 - 论文: https://doi.org/10.21428/cb6ab371.f1f780ee (CrimRxiv (2025))
 - 视频: https://www.youtube.com/watch?v=2BST0F-Nq_8
+
+#### MAXLab 攻击与旁观者干预情境集（MAXLab_ABISS）（The MAXLab Aggression and Bystander Intervention Scenario Set (MAXLab_ABISS)） — Jean-Louis van Gelder (2024-10-18)
+- 类型: 数据集 / 基准 · 时序: 脚本 / 规则驱动 · 获取方式: 仅限研究
+- 输入:  → 输出: 360° / 立体视频
+- 核心想法: 共享且可模块化的刺激材料，让暴力情境可以跨实验室、跨语言比较——这正是生成式变体需要达到的人工制作基线。
+- 内容: 一套以酒吧为场景、可模块化组合的 360° 视频，提供英语、德语和荷兰语版本，让参与者置身于被陌生人羞辱、目睹年轻女性被骚扰或酒吧斗殴等情境，研究者可借此测量与暴力和干预相关的情绪与决策。两个样本（n=101、n=55）显示这些场景能引发预期的情绪。
+- 实现方式: 在头显中观看的模块化 360° 视频场景，论文公开了制作过程、技术规格与研究者获取方式；在两个样本中以决策时刻的自评情绪进行验证。
+- 参数: 360° video · EN / DE / NL · validation n=101 and n=55
+- 能力维度: 实验控制, 情境可达性
+- 论文: https://doi.org/10.1007/s11292-024-09645-6 (Journal of Experimental Criminology (2024))
+- 视频: https://www.youtube.com/watch?v=T2p8UqTWN84
 
 #### 写给犯罪学家的虚拟现实：一份路线图（Virtual Reality for Criminologists: A Road Map） — Jean-Louis van Gelder (2023-08-08)
 - 类型: 论文 / 综述
@@ -5520,6 +7836,28 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 ### 模拟训练与虚拟人
 
 用于练习沟通与判断的虚拟病人、访谈者与队友。
+
+#### 用于 VR 警务训练的虚拟人：抵抗程度与手段可调的嫌疑人动态模型（Virtual Human for Police Training in Virtual Reality: A Dynamic Model of a Suspect With Modulated Resistance and Means） — Yvain Tisserand (2026-06-01)
+- 类型: 行为研究 · 时序: 脚本 / 规则驱动
+- 输入: 身体、面部与视线追踪, 语音与音频 → 输出: 虚拟人（脸 / 身体）, 智能体行为与动作, 语音 / 声音
+- 核心想法: 两个可解释的“旋钮”就能让受过训练的警察产生可区分的威胁评估——这是大语言模型驱动的嫌疑人日后必须与之比较的可控基线。
+- 内容: 一个警务处置场景中的虚拟嫌疑人，其表情、姿态、视线、移动与声音由两个参数驱动：抵抗程度（从服从到攻击）与手段（徒手或扳手）。58 名日内瓦在职警察在 VR 中各自处理了六种“抵抗 × 手段”组合场景；抵抗程度主要改变感知到的危险与意图，手段则改变感知到的能力与机会。
+- 实现方式: 基于“相称使用武力”原则的状态机行为模型，用 Unity 开发并在 HTC Vive Pro Eye 上运行；受限语音识别，由教官确认指令；被试内评估，场景顺序平衡，问卷在 VR 内完成。
+- 参数: N=58 officers · 6 scenarios within-subjects
+- 能力维度: 行为似真性, 实验控制
+- 论文: https://doi.org/10.1002/cav.70129 (Computer Animation and Virtual Worlds (CASA XR 2026))
+
+#### 帮助自闭症人士与警察互动的虚拟现实干预：面向自闭症青少年与成人的随机对照临床试验（Virtual Reality Intervention to Empower Autistic People to Interact With Police: A Randomized Controlled Clinical Trial for Autistic Teens and Adults） — Joseph P. McCleery, Floreo (2026-05-06)
+- 类型: 行为研究 · 时序: 脚本 / 规则驱动
+- 输入: 身体、面部与视线追踪 → 输出: 人工制作的 VR 情境, 虚拟人（脸 / 身体）
+- 核心想法: 结局在与真实警察的现场接触中测量——这是多数 VR 训练研究省略的迁移检验；三项结局中只有一项显示出可靠的组间差异。
+- 内容: 47 名 12 至 60 岁的自闭症人士被随机分配，接受三次各 45 分钟的 Floreo VR 警察安全模块训练或视频示范训练，然后在与真实警察的现场互动中接受测试。现场互动中的小动作只在 VR 组减少；对“按预期回应”和整体表现，组别 × 时间交互作用不显著，但计划内检验显示 VR 训练后有所改善。
+- 实现方式: 平行随机对照试验（Floreo VR 对比 BeSAFE 视频示范），三次训练间隔约九天，在训练前后的真实警察互动中对行为编码；由美国国立卫生研究院资助，与费城儿童医院自闭症研究中心合作。
+- 参数: N=47 · ages 12–60 · 3 × 45 min
+- 能力维度: 情境可达性, 实验控制
+- 论文: https://doi.org/10.1007/s10803-026-07339-8 (Journal of Autism and Developmental Disorders (2026))
+- 视频: https://www.youtube.com/watch?v=eFVottnTn-w
+- 项目主页: https://floreovr.com/research
 
 #### Talespin CoPilot Designer — Talespin (2021)
 - 类型: 产品 / 应用 · 时序: 预先生成 · 获取方式: 产品 / 应用
@@ -5643,6 +7981,17 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 
 在虚拟情境中进行的暴露治疗、辅导与心理治疗。
 
+#### 针对精神病痛苦幻听的数字化身疗法：II/III 期 AVATAR2 试验（Digital AVATAR therapy for distressing voices in psychosis: the phase 2/3 AVATAR2 trial） — Philippa Garety (2024-10-28)
+- 类型: 行为研究 · 时序: 实时流式
+- 输入: 语音与音频 → 输出: 虚拟人（脸 / 身体）, 语音 / 声音
+- 核心想法: 内心声音的可控化身可以被直面和改变，但获益在第 28 周已消退——提醒沉浸式治疗试验需要长期随访。
+- 内容: 听到痛苦幻听的人与一个数字面孔进行由治疗师引导的对话，这个面孔的声音由治疗师通过实时变声现场发出。在一项有 345 名参与者的多中心 II/III 期试验中，简短版（6 次）和扩展版（12 次）分别叠加常规治疗，都在第 16 周降低了与幻听相关的痛苦，但第 28 周时效果不再显著。
+- 实现方式: 多中心、评估者盲法随机试验，比较 AVATAR 简短版和扩展版（均叠加常规治疗）与单纯常规治疗，采用意向性分析；治疗师通过实时变声为化身配音。
+- 参数: N=345 · 3 arms · follow-up 16 and 28 weeks
+- 能力维度: 反应性, 适应性
+- 论文: https://doi.org/10.1038/s41591-024-03252-8 (Nature Medicine (2024))
+- 视频: https://www.youtube.com/watch?v=8BwQu8oS8XY
+
 #### 以不可察觉的变化消除焦虑：针对公开演讲恐惧的单次暴露疗法范式可行性研究（Desensitizing Anxiety Through Imperceptible Change: Feasibility Study on a Paradigm for Single-Session Exposure Therapy for Fear of Public Speaking） — Domna Banakou, Mel Slater (2024-07-22)
 - 类型: 行为研究 · 时序: 脚本 / 规则驱动
 - 输入: 语音与音频, 身体、面部与视线追踪 → 输出: 人工制作的 VR 情境, 虚拟人（脸 / 身体）
@@ -5670,7 +8019,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 产品 / 应用 · 时序: 脚本 / 规则驱动 · 获取方式: 产品 / 应用
 - 输入: 身体、面部与视线追踪 → 输出: 人工制作的 VR 情境, 音效、音乐与空间音频
 - 核心想法: 脚本化 VR 已成为受监管的医疗器械；任何生成式或自适应的后继者都要跨过同样的证据门槛。
-- 内容: 用于慢性下背痛的处方型居家 VR 项目，通过每日简短课程教授呼吸、放松、注意力转移等疼痛管理技巧；2021 年获美国 FDA De Novo 授权。
+- 内容: 用于慢性下背痛的处方型居家 VR 项目，通过每日简短课程教授呼吸、放松、注意力转移等疼痛管理技巧；2021 年获美国 FDA De Novo 授权。此后又获两次 FDA 510(k) 许可（2024 年 12 月；2025 年 8 月，适用于 Pico G3 头显），产品网站截至 2026 年 10 月仍在运行。
 - 实现方式: 基于认知行为疗法与正念的预制模块，在家中通过一体机头显交付，并在与假 VR 对照的随机试验中接受评估。
 - 能力维度: 适应性, 情境可达性
 - 视频: https://www.youtube.com/watch?v=iDM1vHLlH9Q
@@ -5770,6 +8119,37 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 能力维度: 创作可及性, 情境多样性
 - 论文: https://doi.org/10.1080/10447318.2025.2565392 (International Journal of Human-Computer Interaction (2026; online 2025-09-30))
 
+#### 生成式 AI 辅助的虚拟现实牙科技能训练对学习表现、视觉行为与皮层激活的影响：分层随机对照试验（Effects of Generative AI-Supported Virtual Reality Dental Skill Training on Learning Performance, Visual Behavior, and Cortical Activation Among Dental Students: Stratified Randomized Controlled Trial） — Yuting Wen (2026-10-01)
+- 类型: 行为研究 · 时序: 回合制
+- 输入: 文字提示, 身体、面部与视线追踪 → 输出: 人工制作的 VR 情境, 对话 / 文本
+- 核心想法: 生成式 AI 作为人工制作的模拟器中的导师（而不是模拟器本身），可以在随机设计中与人类教师正面比较。
+- 内容: 牙科学生在 VR 模拟器中进行为期七天的操作技能训练，一组只有 ChatGPT 指导、没有人类导师（n=62），另一组由教师现场指导（n=61）。ChatGPT 组的操作技能测试得分更高（77.3 对 67.4，d=0.70）；训练中同时记录了眼动与功能性近红外光谱数据。
+- 实现方式: 按理论基线分层的随机对照试验，比较生成式 AI 辅助与教师主导的 VR 牙科训练；研究助理仅出于安全目的审查 AI 输出；结局包括操作考核、眼动追踪、功能性近红外光谱、视觉空间测验与问卷。
+- 参数: N=123 (62 + 61) · 7 days · d=0.70
+- 能力维度: 适应性, 实验控制
+- 论文: https://doi.org/10.2196/90938 (Journal of Medical Internet Research (2026))
+
+#### AI 幻觉的信号：为 VR 中的具身对话智能体设计幻觉提示（Signals of AI Hallucination: Designing Hallucination-Aware Cues for Embodied Conversational Agents in VR） — Xiaoran Yang (2026-09-23)
+- 类型: 行为研究 · 时序: 回合制
+- 输入: 语音与音频 → 输出: 虚拟人（脸 / 身体）, 语音 / 声音, 对话 / 文本
+- 核心想法: 生成的角色难免说错话；角色自己如何表达“不确定”，既影响人们能否发现错误，也影响他们有多信任它。
+- 内容: 在 VR 中，一个由 GPT-4o 驱动的具身智能体回答问题，并以三种方式之一提示不确定性与来源：手势与姿态、状态图标，或带引用的彩色标注文本。被试内研究（N=24）显示，与无提示相比，三种方式都帮助人们识别出幻觉内容；具身提示提高了信任与沉浸感，文本提示最容易理解。
+- 实现方式: 被试内比较具身、图标与文本三种提示和无提示基线，后端采用基于忠实度的幻觉检测；收集幻觉识别日志、信任、沉浸感与任务负荷问卷及访谈。
+- 参数: N=24 · 4 conditions within-subjects
+- 能力维度: 实验控制, 行为似真性
+- 论文: https://arxiv.org/abs/2609.28812 (ISMAR 2026 (IEEE TVCG))
+- 图片: https://arxiv.org/html/2609.28812v1/Group49.png
+
+#### 从抓取到表达：面向自闭症人士、基于生成式 AI 并与环境关联的 VR 沟通训练（From Grasping to Speaking: Generative AI-Based Environment-Grounded VR Communication Training for Autistic Individuals） — Ziming Li (2026-09-22)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
+- 输入: 语音与音频, 身体、面部与视线追踪 → 输出: 虚拟人（脸 / 身体）, 对话 / 文本, 语音 / 声音
+- 核心想法: 让智能体的话语与手头任务相关联，把软技能练习从孤立的聊天变成嵌入工作中的沟通。
+- 内容: 这是该团队大语言模型职场沟通训练系统的后续工作：智能体生成的对话与 VR 工作场景以及受训者手上的动作相关联。ASSETS 2026 上的一项探索性研究有 9 名自闭症受训者和 7 名就业辅导员参与，比较了仅对话、对话加物体、对话加物体与抓取三种条件；两类参与者都更喜欢关联程度最高的条件。
+- 实现方式: 提示词框架把 VR 物体状态与手部交互事件输入大语言模型智能体；以可用性、工作负荷与偏好为指标，对三种关联条件做探索性的被试内比较。
+- 参数: 9 autistic trainees · 7 job coaches · 3 conditions
+- 能力维度: 反应性, 行为似真性
+- 视频: https://www.youtube.com/watch?v=54krjoYva5Q
+
 #### 与港海豹一起 VR 潜水可增强海洋联结感，而对话式 AI 对护海参与的影响取决于此前与海豹的接触经历（VR scuba diving with harbor seals increases ocean connectedness, and the effect of conversational AI on pro-environmental engagement depends on prior experience with seals） — Gustav Bøg Petersen, Jeremy Bailenson (2026-09-07)
 - 类型: 行为研究 · 时序: 回合制
 - 输入: 语音与音频 → 输出: 人工制作的 VR 情境, 虚拟人（脸 / 身体）, 对话 / 文本
@@ -5779,6 +8159,40 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 参数: N=106 (53 + 53 yoked controls)
 - 能力维度: 实验控制, 反应性
 - 论文: https://doi.org/10.1016/j.cexr.2026.100181 (Computers & Education: X Reality (2026))
+
+#### CyberSelf：在虚拟现实中以具身自我疏离提供情绪支持（CyberSelf: Embodied Self-Distancing for Emotional Support in Virtual Reality） — Bing Li (2026-07-09)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
+- 输入: 语音与音频, 视频 → 输出: 虚拟人（脸 / 身体）, 语音 / 声音, 对话 / 文本
+- 核心想法: “像自己”的程度变成可调参数：生成的相似性（文本、声音、面孔）可以逐层打开，并分别测量其对情绪调节的作用。
+- 内容: 用户在 VR 中与“数字分身”对话：这个化身由约 20 秒的面部视频重建，用其克隆的声音说话，对话由大语言模型驱动。短期研究（n=24）比较了纯文本、文本+声音、文本+声音+外貌三种条件；为期四周的研究（n=12）以压力较大的博士生为对象，检验了反复使用的效果。
+- 实现方式: 用 Unreal Engine 5 从短视频重建化身，结合声音克隆、Whisper 语音输入与大语言模型对话；被试内比较三种表征层级，测量问卷与生理指标，并开展为期四周的自我关怀纵向研究。
+- 参数: N=36 (24 short-term + 12 four-week) · ~20 s face video + ~19 s voice sample
+- 能力维度: 适应性, 感知真实感
+- 论文: https://arxiv.org/abs/2608.07521 (arXiv preprint (2026))
+- 图片: https://arxiv.org/html/2608.07521v1/teaser.png
+- 项目主页: https://arxiv.org/abs/2608.07521
+
+#### 面向 VR 演讲练习的大语言模型教练智能体：设计与评估（Designing and evaluating LLM-driven coaching agents for VR public speaking practice） — Enyao Chang (2026-07-08)
+- 类型: 行为研究 · 时序: 回合制
+- 输入: 语音与音频, 身体、面部与视线追踪 → 输出: 虚拟人（脸 / 身体）, 语音 / 声音, 对话 / 文本
+- 核心想法: 注意力匹配的对照组分离出了大语言模型的贡献：起作用的是量身定制的指导，而不只是“有个会说话的智能体”。
+- 内容: 在 VR 礼堂中，具身的虚拟评委在每次演讲后给出口头的、针对表现的指导，内容由文心一言（ERNIE Bot）根据语音识别与视线线索生成。两臂随机研究（N=120）显示：与注意力匹配的通用反馈相比，自适应指导更明显地降低了自评演讲焦虑，差异在一周和一个月随访时仍可见。
+- 实现方式: VR 系统集成语音识别、语音合成、视线线索，并以三级结构化提示调用文心一言；60/60 随机用户研究，重复测量状态焦虑与 PRCA 量表，并在一周和一个月后随访。
+- 参数: N=120 (60 + 60) · follow-up 1 week and 1 month
+- 能力维度: 适应性, 时间响应性
+- 论文: https://doi.org/10.3389/fpsyg.2026.1886780 (Frontiers in Psychology (2026))
+- 图片: https://www.frontiersin.org/files/Articles/1886780/xml-images/fpsyg-17-1886780-g0001.webp https://www.frontiersin.org/files/Articles/1886780/xml-images/fpsyg-17-1886780-g0002.webp
+- 项目主页: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1886780/full
+
+#### 探索沉浸式三方协作决策中具身虚拟智能体的调解作用（Exploring Mediation by an Embodied Virtual Agent in Immersive Triadic Collaborative Decision-Making） — Binyang Han (2026-05)
+- 类型: 行为研究 · 时序: 回合制
+- 输入: 语音与音频 → 输出: 虚拟人（脸 / 身体）, 语音 / 声音, 对话 / 文本
+- 核心想法: 大语言模型“队友”在群体中的价值在于它如何塑造社会互动；它的策略是涌现的而非预设的，因此也更难控制。
+- 内容: 目标相互冲突的两名用户在 XR 中共同设计一间办公室，由一个大语言模型驱动的智能体进行调解；智能体或有具身形象，或只是无形的声音，并与无智能体条件比较（论文报告 n=24 组）。具身形象提高了共同临场感与感知到的协作质量，但没有提高任务效率；智能体还在未经专门编程的情况下，自发采用了促进式与评估式的调解策略。
+- 实现方式: XR 协作研究，操纵智能体是否在场及是否具身，测量共同临场感、协作、偏好与效率，并对照冲突解决模式对智能体的调解策略做质性编码。
+- 参数: pairs (n=24 reported) · 3 agent conditions
+- 能力维度: 行为似真性, 共创与能动性
+- 论文: https://doi.org/10.1109/tvcg.2026.3679103 (IEEE VR 2026 (IEEE TVCG))
 
 #### CoEmpaTeam：在虚拟现实中用大语言模型化身与动态角色扮演提升认知共情（CoEmpaTeam: Enhancing Cognitive Empathy using LLM-based Avatars and Dynamic Role Play in Virtual Reality） — Dehui Kong (2026-04-13)
 - 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
@@ -5802,6 +8216,17 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 论文: https://doi.org/10.1371/journal.pone.0340829 (PLOS ONE (2026))
 - 图片: https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0340829.g001&size=large
 
+#### 什么让 VR 中的虚拟名人智能体值得信任？风格化与声音的作用（What Makes a Virtual Celebrity Agent Trustworthy in VR? Exploring the Role of Stylization and Voice） — Yang Gao (2026-03)
+- 类型: 行为研究 · 时序: 脚本 / 规则驱动
+- 输入: 视频 → 输出: 虚拟人（脸 / 身体）, 语音 / 声音
+- 核心想法: 同一人物的生成版与手工版可以当作刺激来比较；在这里，外观对信任的影响大于声音是否克隆。
+- 内容: 研究者为电视角色 Sheldon Cooper 制作了六个 VR 版本——手工雕刻、AI 重建或非风格化外观，各配克隆声音或合成声音——并与原始视频片段比较。3×2 被试内实验（N=30）显示：外观风格影响信任、真实感、熟悉度与社会临场感；声音类型只影响真实感与熟悉度。
+- 实现方式: 3（外观风格）× 2（声音类型）被试内 VR 实验，以视频为基线，测量信任、真实感、熟悉度与社会临场感问卷，并记录人际距离。
+- 参数: N=30 · 3×2 within-subjects
+- 能力维度: 感知真实感, 实验控制
+- 论文: https://doi.org/10.1109/tvcg.2026.3680715 (IEEE VR 2026 (IEEE TVCG))
+- 视频: https://www.youtube.com/watch?v=1aSmlWFmQNQ
+
 #### 人工智能用于虚拟现实暴露疗法（VRET）：一项系统综述（Artificial intelligence (AI) for virtual reality exposure therapy (VRET): A systematic review） — Kamilla Bergsnev (2026-03-26)
 - 类型: 论文 / 综述
 - 输入: 身体、面部与视线追踪, 语音与音频 → 输出: 人工制作的 VR 情境
@@ -5811,6 +8236,16 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 参数: 23 of 377 records
 - 能力维度: 适应性, 实验控制
 - 论文: https://doi.org/10.1038/s41398-026-03936-4 (Translational Psychiatry (2026))
+
+#### EmSim：面向执法人员冲突降级训练的 AI 驱动 VR 模拟（EmSim: AI-Driven VR Simulation for De-Escalation Training in Law Enforcement） — Duo Wang (2026-01-26)
+- 类型: 研究演示 · 时序: 回合制 · 获取方式: 仅限研究
+- 输入: 语音与音频 → 输出: 虚拟人（脸 / 身体）, 语音 / 声音, 对话 / 文本
+- 核心想法: 同一场景中大语言模型扮演两个角色：一个扮演情绪激动的人，另一个为学员的话打分并沿升级路径推动场景，让后果取决于所说的话。
+- 内容: 警校学员与一位情绪激动的虚拟人（基于 Unreal Engine 数字人、由 Convai 驱动语音对话）自由交谈；GPT-4-turbo 评估器按共情量表为每句话打分，分数决定场景是升级还是缓和，教官仪表盘实时显示这些分数。一项有 14 名学员和 5 名教官参与的试点研究发现了两种策略：谨慎降级与试探边界。
+- 实现方式: Unreal Engine 场景配合 Convai 语音对语音角色，由 PC 串流到 Meta Quest 3；GPT-4-turbo 按量表为每句话打分，结果输入升级状态管理器和教官网页仪表盘；混合方法试点，分析行为轨迹与课后访谈。
+- 参数: pilot: 14 police trainees · 5 trainers
+- 能力维度: 反应性, 情境可达性
+- 论文: https://doi.org/10.1109/AIXVR67263.2026.00014 (IEEE AIxVR 2026)
 
 #### 融合虚拟现实与大语言模型，用于手术室团队非技术技能的训练与评估（Integrating Virtual Reality and Large Language Models for Team-Based Non-Technical Skills Training and Evaluation in the Operating Room） — Jacob Barker (2026-01-19)
 - 类型: 研究演示 · 时序: 预先生成 · 获取方式: 仅限研究
@@ -5898,7 +8333,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 平台 / API · 时序: 预先生成 · 获取方式: 公开 API
 - 输入: 文字提示, 图像, 视频 → 输出: 高斯泼溅 / 辐射场, 三维场景 / 世界
 - 核心想法: 把“搭建房间”变成一次返回显式三维世界的 API 调用：实验室可以生成同一场景的多种变体，再让每位被试面对完全相同的版本。
-- 内容: World Labs 为 Marble 世界模型开放的公开 API：输入文字、一张或多张图片、360° 全景图或一段视频，就能得到可在浏览器中渲染、也可导出到其他工具的可漫游三维世界。World Labs 介绍的用例包括把二维电影变成可探索的空间（Escape.ai），以及为 Isaac Sim、MuJoCo 等机器人仿真器生成环境。
+- 内容: World Labs 为 Marble 世界模型开放的公开 API：输入文字、一张或多张图片、360° 全景图或一段视频，就能得到可在浏览器中渲染、也可导出到其他工具的可漫游三维世界。World Labs 介绍的用例包括把二维电影变成可探索的空间（Escape.ai），以及为 Isaac Sim、MuJoCo 等机器人仿真器生成环境。2026-09-28，World Labs 签署协议并入 AMD，交易预计于 2026 年底前完成。
 - 实现方式: 异步的世界生成请求调用 Marble，把输入提升为三维高斯泼溅场景，并可导出网格。
 - 参数: inputs: text, image, multi-image, 360° panorama, video · output: Gaussian splats + mesh · launched 2026-01-21
 - 能力维度: 创作可及性, 持久性, 情境可达性
@@ -6109,6 +8544,18 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 
 把生成内容呈现给人的游戏引擎、WebXR 与泼溅渲染器。
 
+#### Playground（含 Unity Spark）（Playground (with Unity Spark)） — 谷歌, Unity (2026-10-07)
+- 类型: 平台 / API · 时序: 回合制 · 获取方式: 产品 / 应用, 候补 / 抢先体验
+- 输入: 文字提示 → 输出: 三维场景 / 世界, 智能体行为与动作
+- 核心想法: 从提示词到可玩游戏，发布与排行榜一并内置；这正是研究者快速制作任务变体所需的创作循环，但产出的是轻量浏览器游戏，而不是沉浸式场景。
+- 内容: Google 推出的实验性浏览器平台，2026-10-07 起向 18 岁以上用户开放：用文字描述一款游戏即可立刻试玩，想改物理、规则、角色或环境也只需开口，完成后可以发布到社区画廊，带排行榜，部分类型还支持多人游戏。Google 与 Unity 同日宣布，Unity 的零代码游戏制作工具 Unity Spark（基于 Asset Store 美术资源与网页编辑器）将在 2026 年晚些时候接入 Playground；截至 2026 年 10 月，Spark 只开放了候补名单。
+- 实现方式: 通过对话界面，由 Google 未具名的 AI 模型根据提示生成并修改游戏；Play Games 账号提供身份与排行榜，Unity Spark 计划补上 Unity 的运行时与美术师制作的资源。
+- 参数: browser-based · 18+ · text-prompt creation · leaderboards, multiplayer in select genres · Unity Spark: waitlist, later in 2026
+- 能力维度: 创作可及性, 共创与能动性
+- 视频: https://www.youtube.com/watch?v=Dxvrvfyicp0
+- 图片: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/THUMBNAIL_BLOG.width-1300.png https://cdn.sanity.io/images/fuvbjjlp/production/2d99684e1ccd449afd498dbf61024c79f5ce48d5-1920x1080.png
+- 项目主页: https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/
+
 #### Roblox Build 与 AI 创作工具（Roblox Build and AI creation tools） — Roblox (2026-09-11)
 - 类型: 平台 / API · 时序: 回合制 · 获取方式: 产品 / 应用, 候补 / 抢先体验
 - 输入: 文字提示, 图像 → 输出: 三维场景 / 世界, 网格 / 三维资产, 智能体行为与动作
@@ -6151,7 +8598,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 平台 / API · 时序: 回合制 · 获取方式: 产品 / 应用, 候补 / 抢先体验
 - 输入: 文字提示, 图像, 场景规格、代码与规则 → 输出: 三维场景 / 世界, 网格 / 三维资产
 - 核心想法: 当智能体可以直接修改场景图时，情境脚本与它的三维实现就能在同一段对话中一起修改。
-- 内容: Unity 为自家引擎提供的 AI 工具：能读取当前场景并执行编辑器操作的智能体助手、AI 网关、MCP 服务器与命令行工具，以及面向 Claude Code、Codex 和 Grok 的官方插件。Unity AI 公开测试于 2026-05-04 向所有 Unity 6 及以上版本开发者开放；此后 Unity 不再使用“Unity AI”这一品牌名，并于 2026-10-07 宣布推出无需写代码、用提示词做游戏的 Unity Spark（封闭测试）。
+- 内容: Unity 为自家引擎提供的 AI 工具：能读取当前场景并执行编辑器操作的智能体助手、AI 网关、MCP 服务器与命令行工具，以及面向 Claude Code、Codex 和 Grok 的官方插件。Unity AI 公开测试于 2026-05-04 向所有 Unity 6 及以上版本开发者开放；此后 Unity 不再使用“Unity AI”这一品牌名，并于 2026-10-07 与 Google 共同宣布无需写代码、用提示词做游戏的 Unity Spark，将在 2026 年晚些时候接入 Google 的 Playground（截至 2026 年 10 月仅开放候补名单）。2026-07-21 公布的 Unity 7 将为编程智能体提供免费的 MCP 服务器，计划 2026 年 12 月进入测试，2027 年第一季度正式发布。
 - 实现方式: 一个掌握 Unity 专用工具与项目上下文（场景层级、组件、资源）的大语言模型智能体发出编辑器指令；外部智能体通过 Unity CLI 以 MCP 接入。
 - 参数: Unity 6+ · CLI, MCP server and plugins free · in-editor assistant in Pro / Enterprise / Industry, $10/month for Personal after trial · open beta 2026-05-04
 - 能力维度: 创作可及性
@@ -6199,9 +8646,9 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 平台 / API · 时序: 实时流式 · 获取方式: 产品 / 应用
 - 输入: 场景规格、代码与规则, 视频 → 输出: 三维场景 / 世界, 虚拟人（脸 / 身体）, 动作 / 动画
 - 核心想法: 为生成内容提供照片级、可确定复现的运行环境：生成层可以放在 MetaHuman 与脚本里，时序与日志则由引擎精确保证。
-- 内容: Epic 的实时引擎，许多高保真 VR 研究与虚拟制片舞台都用它，具备 Nanite 几何、Lumen 光照与 MetaHuman 数字人。Unreal Engine 5.8（2026-06-23）加入了可生成数百人群的 MetaHuman Collections、用网络摄像头即可完成的全身无标记 MetaHuman 动捕、以 MIT 许可开源的 OpenRigLogic，以及一个实验性 MCP 插件，让任意大语言模型都能查看并操控编辑器。
+- 内容: Epic 的实时引擎，许多高保真 VR 研究与虚拟制片舞台都用它，具备 Nanite 几何、Lumen 光照与 MetaHuman 数字人。Unreal Engine 5.8（2026-06-17）加入了可生成数百人群的 MetaHuman Collections、用网络摄像头即可完成的全身无标记 MetaHuman 动捕、以 MIT 许可开源的 OpenRigLogic，以及一个实验性 MCP 插件，让任意大语言模型都能查看并操控编辑器。
 - 实现方式: C++ 引擎，配有 Blueprint 可视化脚本；Nanite 虚拟化几何与 Lumen 全局光照实时渲染，MetaHuman 工具为扫描或生成的角色绑定骨骼并驱动动画。
-- 参数: UE 5.0 released 2022-04-05 · UE 5.8 released 2026-06-23 · free, 5% royalty above $1M gross for games
+- 参数: UE 5.0 released 2022-04-05 · UE 5.8 released 2026-06-17 · free, 5% royalty above $1M gross for games
 - 能力维度: 感知真实感, 创作可及性, 实验控制
 - 视频: https://www.youtube.com/watch?v=ExFF5gXVhDU
 - 图片: https://cms-assets.unrealengine.com/AiKUh5PQCTaOFnmJDZJBfz/resize=width:1200/cmqhyducc6qq007n7n99x5sjf
@@ -6252,6 +8699,18 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 
 生成世界最终运行的硬件。
 
+#### Meta VR 眼镜（Meta VR Glasses） — Meta (2026-09-23)
+- 类型: 设备 · 获取方式: 候补 / 抢先体验
+- 输入: 语音与音频, 身体、面部与视线追踪, 透视画面与实时环境 → 输出: 360° / 立体视频, 三维场景 / 世界, 虚拟人（脸 / 身体）
+- 核心想法: 把 VR 的重量降到能戴着看完一整部电影、撑过一次长时间体验的程度；对于更长的生成情境，这一点和分辨率同样重要。不过在 2027 年春季之前，它还只是发布，实验室还用不上。
+- 内容: Meta 做成眼镜形态的 VR 设备，于 2026-09-23 的 Connect 大会发布：戴在脸上的部分约 100 克，计算、电池与存储放在通过光纤连接的口袋计算盒里；配备 5K Micro-OLED 显示屏（每度 37 像素）、彩色透视，以及眼动、手势与语音操控，Meta 的 AI 智能体直接集成在操作系统中。现有 Quest 应用可以在上面运行，它还新增了照片级真实的“全息影像”视频通话，将于 2027 年春季以 1,299.99 美元开售。
+- 实现方式: 分体式设计：眼镜部分只放传感器、Micro-OLED 屏幕与定制的折叠光路（pancake）镜片，经连线接驳的计算盒搭载高通骁龙 Reality Elite，负责计算并内置电池，Meta 称可连续播放视频最长三小时。
+- 参数: ~100 g glasses + tethered puck · 5K micro-OLED · 37 ppd · Snapdragon Reality Elite · up to 3 h media playback · $1,299.99 · on sale spring 2027
+- 能力维度: 感知真实感, 情境可达性
+- 视频: https://www.youtube.com/watch?v=xyD_bmMy5nQ
+- 图片: https://about.fb.com/wp-content/uploads/2026/09/Introducing-Meta-VR-Glasses_-A-Cinema-Courtside-Seat-and-Workspace-in-Just-100-GramsIntroducing-Meta-VR-Glasses_-A-Cinema-Courtside-Seat-and-Workspace-in-Just-100-Grams_social.jpg?w=1200
+- 项目主页: https://about.fb.com/news/2026/09/introducing-meta-vr-glasses-3d-movies-immersive-live-sports-100-grams/
+
 #### Steam Frame — Valve (2025-11-12)
 - 类型: 设备 · 获取方式: 产品 / 应用
 - 输入: 身体、面部与视线追踪, 键盘与手柄动作 → 输出: 三维场景 / 世界, 人工制作的 VR 情境
@@ -6280,7 +8739,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 设备 · 获取方式: 产品 / 应用
 - 输入: 身体、面部与视线追踪, 语音与音频, 透视画面与实时环境 → 输出: 360° / 立体视频, 三维场景 / 世界, 虚拟人（脸 / 身体）
 - 核心想法: 展示生成场景与视频保真度最高的主流设备，内置眼动与手势追踪，但价格限制了实验室的采购数量。
-- 内容: Apple 的混合现实头显，2025-10-15 升级为 M5 芯片，刷新率最高 120 Hz，配 Dual Knit 头带，售价 3,499 美元。在生成内容方面，它搭载 visionOS 26 的空间场景（用生成式深度让二维照片可被探索）、用于视频通话的 Persona、180° / 360° 与广角视频播放，以及 Apple Immersive 视频。
+- 内容: Apple 的混合现实头显，2025-10-15 升级为 M5 芯片，刷新率最高 120 Hz，配 Dual Knit 头带，售价 3,499 美元。在生成内容方面，它搭载 visionOS 26 的空间场景（用生成式深度让二维照片可被探索）、用于视频通话的 Persona、180° / 360° 与广角视频播放，以及 Apple Immersive 视频。在 2026-06-08 的 WWDC 上预览、于 2026 年秋季推出的 visionOS 27，可以把全景照片变成空间场景并用作环境（Environments）。
 - 实现方式: 双 micro-OLED 显示屏（共 2,300 万像素），由 M5 与 R1 传感芯片驱动，支持眼动、手势与空间追踪。
 - 参数: M5 + R1 · micro-OLED, 23M pixels total · up to 120 Hz · $3,499 · on sale 2025-10-22
 - 能力维度: 感知真实感, 情境可达性
@@ -6293,7 +8752,7 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 设备 · 获取方式: 产品 / 应用
 - 输入: 语音与音频, 身体、面部与视线追踪, 透视画面与实时环境 → 输出: 对话 / 文本, 图像 / 全景图
 - 核心想法: 在日常活动中显示生成文字与图像的抬头通道：它不是沉浸式显示，却随时可用。
-- 内容: Meta 首款内置显示屏的消费级眼镜：Ray-Ban 镜框中带一块单眼全彩镜片内显示，由 Meta Neural Band 肌电腕带操控，售价 799 美元。在生成内容方面，它可以在佩戴者视野中显示带图像的 Meta AI 回答、实时字幕与翻译，以及导航。
+- 内容: Meta 首款内置显示屏的消费级眼镜：Ray-Ban 镜框中带一块单眼全彩镜片内显示，由 Meta Neural Band 肌电腕带操控，售价 799 美元。在生成内容方面，它可以在佩戴者视野中显示带图像的 Meta AI 回答、实时字幕与翻译，以及导航。2026-09-23 的 Connect 大会上，Meta 开放了线上订购，新增英国、加拿大、法国、意大利与德国市场，并推出抢先体验的“Hologram”：在 WhatsApp 通话中用语音驱动佩戴者照片级真实的面部形象。
 - 实现方式: 右侧镜片内置投影与波导，镜框上有摄像头与麦克风，腕带通过表面肌电解码手指手势。
 - 参数: monocular in-lens display, 600×600 px · $799 incl. Neural Band · US launch 2025-09-30
 - 能力维度: 情境可达性, 时间响应性
@@ -6305,9 +8764,9 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 类型: 设备 · 获取方式: 候补 / 抢先体验
 - 输入: 语音与音频, 身体、面部与视线追踪, 透视画面与实时环境 → 输出: 三维场景 / 世界, 对话 / 文本
 - 核心想法: 无需连线的 AR 眼镜，把生成内容放进佩戴者的真实环境；出品方已经在手机端大规模运行生成式滤镜。
-- 内容: Snap 面向消费者的一体式光学透视 AR 眼镜，2025-06-10 宣布将于 2026 年推出，并在 2026-09-16 的 SPECS 发布会上正式亮相：预订价 2,195 美元（带蜂窝网络充电盒套装 2,395 美元），2026 年秋季晚些时候在美国、英国和法国发货。它运行 SPECS OS 与 Lens Studio 开发的应用（包括生成式 AI 滤镜），并搭载横跨 iPhone、Mac 与眼镜的预判式 AI 服务 SPECS Intelligence。
+- 内容: Snap 面向消费者的一体式光学透视 AR 眼镜，2025-06-10 宣布将于 2026 年推出，2026-06-16 在 AWE 上开放预订（2,195 美元），并在 2026-09-16 的 SPECS 发布会上正式亮相（带蜂窝网络充电盒套装 2,395 美元），2026 年秋季晚些时候在美国、英国和法国发货。它运行 SPECS OS 与 Lens Studio 开发的应用（包括生成式 AI 滤镜），并搭载横跨 iPhone、Mac 与眼镜的预判式 AI 服务 SPECS Intelligence。
 - 实现方式: 计算单元集成在眼镜上，无需外接计算盒，采用光学透视波导显示，支持手势与语音输入；以 Lens Studio 为创作工具，并调用云端 AI 服务。
-- 参数: pre-order $2,195 (from 2026-09-16) · ships fall 2026 (US, UK, France) · standalone, no puck
+- 参数: 51° FOV · pre-order $2,195 (from 2026-06-16) · ships fall 2026 (US, UK, France) · standalone, no puck
 - 能力维度: 情境可达性, 反应性
 - 视频: https://www.youtube.com/watch?v=_RHEDU7neds
 - 项目主页: https://investor.snap.com/news/news-details/2026/SPECS-Make-Computing-More-Human-with-New-Experiences-Partnerships-and-SPECS-Intelligence/default.aspx
@@ -6341,6 +8800,95 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 
 这些模型学习所用的数据，以及比较它们的测试。
 
+#### AA-3D — Artificial Analysis (2026-10-12)
+- 类型: 数据集 / 基准 · 获取方式: 产品 / 应用
+- 输入: 文字提示 → 输出: 三维场景 / 世界
+- 核心想法: 衡量的是通往生成世界的“写代码”路线：由智能体搭建、显式且可编辑的场景，而不是视频模型输出的像素；排名靠前的模型都很早就开始查看自己场景的渲染图。
+- 内容: Artificial Analysis 推出的基准，评测 AI 模型搭建交互式三维场景的能力：每个模型作为智能体在离线沙盒里工作（配有 Blender、Rapier 物理引擎、Python、无头浏览器与 CC0 资源库），最长三小时、250 轮，把一份文字需求变成一个 three.js 网页。招募的评审在同一需求生成的两个场景之间盲选；上线时（v1.0），Claude Sonnet 5.5 以 1,194 Elo 居首，与另外三个 Anthropic 和 OpenAI 模型在统计上并列。
+- 实现方式: 55 个需求覆盖地标、机械、自然现象、人体、游戏、太空与故事等领域；智能体编写代码、渲染并查看截图后再修改；人工盲选两两投票拟合为带 95% 置信区间的 Elo 分数，并报告每个场景的成本（0.20–32.08 美元）。
+- 参数: 55 briefs · 1,000+ scenes · 20+ models · ≤3 h / 250 turns per scene · output: three.js page · Elo from blind votes
+- 能力维度: 创作可及性, 感知真实感
+- 视频: https://x.com/ArtificialAnlys/status/2109791341802885209
+- 图片: https://artificialanalysiscdn.com/article-assets/2026/aa-3d.jpg
+- 项目主页: https://artificialanalysis.ai/articles/aa-3d
+
+#### TurnBench — Sesame (2026-08-25)
+- 类型: 数据集 / 基准 · 获取方式: 开源权重 / 代码
+- 输入: 语音与音频 → 输出: 语音 / 声音
+- 核心想法: 人在对方说完前约 151 毫秒（中位数）就开始接话；榜上没有一个系统能做到这一点而不频繁抢话，这限定了生成的对话伙伴能有多自然。
+- 内容: 由 Sesame 牵头、联合多位学界作者推出的轮流发言基准：30 小时录音棚录制的双人对话，覆盖六种对话类型，每段由三人独立标注“说完一轮”与“打断”事件，并设公开排行榜，按召回率、误报率与延迟打分。排行榜把专门的话轮检测器与 Tavus Sparrow-2、Gemini 3.1 Live、OpenAI Realtime 和 Moshi 放在一起比较。
+- 实现方式: 双声道双人对话录音（154 段对话、106 名演员，Fleiss κ = 0.78），测试集标签不公开；系统输出事件时间点，在误报率不超过 0.15 的约束下评分；另附按同一规范标注的 104 小时训练集；论文发表于 IEEE SLT 2026。
+- 参数: 30 h test corpus · 6 conversation types · 104 h training set · metrics: recall, FPR, p50 latency · 14 systems in paper
+- 能力维度: 时间响应性, 实验控制
+- 论文: https://arxiv.org/abs/2608.25218 (IEEE SLT 2026)
+- 图片: https://www.sesame.com/assets/images/blog/turnbench-og.png https://arxiv.org/html/2608.25218v2/figs/scoring-schematic.png
+- 项目主页: https://www.sesame.com/blog/turnbench
+- 代码: https://github.com/SesameAILabs/turnbench
+
+#### 语音智能体竞技场（Speech Agent Arena） — Artificial Analysis (2026-08-24)
+- 类型: 数据集 / 基准 · 获取方式: 产品 / 应用
+- 输入: 语音与音频 → 输出: 语音 / 声音, 对话 / 文本
+- 核心想法: 人们更愿意交谈的模型，不一定是能把事办成的那个：一个听起来很到位的智能体，可能在工具调用失败后仍声称已经完成。
+- 内容: Artificial Analysis 为语音智能体设立的竞技场：经过筛选的付费参与者在同一情境下分别与两个匿名的语音到语音模型或级联系统实时对话（15 个需要调用工具的任务，如点外卖；20 个不需要的任务），再选出更喜欢的一方。上线时，Gemini 3.1 Flash Live 在偏好上领先，Grok Voice 与 GPT-Realtime 系列在任务完成率上领先；它与该公司 2026-06-23 推出的 Speech to Speech Index 互为补充，后者综合了 Big Bench Audio、Full-Duplex-Bench 的一部分与 τ-Voice。
+- 实现方式: 参与者分别完成两段实时对话后进行盲选两两投票，拟合为 Elo 分数；另以最终工具调用是否正确来计算任务完成率。为减少过拟合，大多数情境提示与工具定义不公开。
+- 参数: 35 scenarios (15 agentic, 20 non-agentic) · preference Elo + task success rate · native and cascaded systems
+- 能力维度: 时间响应性, 行为似真性
+- 图片: https://cdn.sanity.io/images/6vfeftx9/articles/d0023e187a3cc35d55aa8f6c6763688741f63c18-1254x1254.png?w=1200
+- 项目主页: https://artificialanalysis.ai/articles/announcing-the-speech-agent-arena
+
+#### GENEA 手势生成挑战赛 2026（GENEA Challenge 2026） — Rajmund Nagy (2026-08-11)
+- 类型: 数据集 / 基准 · 获取方式: 仅限研究
+- 输入: 语音与音频 → 输出: 动作 / 动画
+- 核心想法: 生成的身体还不会“听”：手势模型动作可以很自然，却对谈话对象视而不见，而社交情境检验的恰恰是这一点。
+- 内容: 第四届 GENEA Challenge：对语音驱动手势生成的大规模人工评测。五支队伍的系统都在 Meta 的双人对话数据集 Seamless Interaction 上训练，共开展四项用户研究（869 名评审、23,000 多票）。在每项研究中，真实动作捕捉都是上限；在语音对齐上，最好的系统得分 32%，真实动作为 62%；在双人研究中，没有一个系统在回应对方方面明显高于随机水平。
+- 实现方式: 通过解耦的众包研究分别评估动作真实感与语音对齐；在双人错配研究中替换对话者以检验“倾听”；并在 Grounded Gestures 子集上新增文本错配研究，检验语义手势。
+- 参数: 5 systems · 4 user studies · 23,000+ votes · 869 raters · Seamless Interaction dataset
+- 能力维度: 行为似真性, 反应性
+- 论文: https://arxiv.org/abs/2608.10839 (arXiv 2026)
+- 图片: https://arxiv.org/html/2608.10839v1/seamless-humanlikeness__pairwise_win_fraction.png
+- 项目主页: https://genea-workshop.github.io/2026/challenge/
+
+#### CaliBench — Odyssey (2026-08-10)
+- 类型: 数据集 / 基准 · 获取方式: 开源权重 / 代码
+- 输入: 图像 → 输出: 平面视频
+- 核心想法: 一个每次都以同样方式展开的生成情境，并不是对偶然性的模拟；对依赖结果多样性的研究来说，校准与真实感同样重要。
+- 内容: Odyssey 推出的基准，问的是视频世界模型能否复现物理结果的正确分布，而不只是生成一段看似合理的视频：从同一起始帧出发，模型对高尔顿板、岔路、骰子、扑克牌或轮盘生成多次推演，再把结果与已知分布比较。在六个图生视频模型（包括 Veo 3.1、Seedance 2.0 与 Runway Gen-4.5）上，Odyssey 报告普遍存在模式坍缩，Veo 3.1 在每个随机种子下都掷出同一个点数。
+- 实现方式: 由视觉语言模型（Gemini 3.1 Pro，与人工标注一致率约 93%）从每段生成视频中读出结果，报告“可判读率”（结果清晰可读的比例）与“校准度”（与解析分布之间的归一化总变差距离）；论文发表于 TMLR。
+- 参数: 9 scenes · 32 generations per model and scene · 6 image-to-video models · metric: mnTV
+- 能力维度: 行为似真性, 情境多样性
+- 论文: https://arxiv.org/abs/2608.16829 (TMLR 2026)
+- 视频: https://framerusercontent.com/assets/3Qzar3JAlowjShHI2HIZ40khA4.mp4
+- 图片: https://framerusercontent.com/assets/uvhuHUqb9mf5tVnGa97Xmjqne58.jpg
+- 项目主页: https://odyssey.ml/introducing-calibench
+- 代码: https://github.com/odysseyml/CaliBench
+
+#### WorldRoamBench — Ting-Bing Xu (2026-06-30)
+- 类型: 数据集 / 基准 · 获取方式: 仅限研究
+- 输入: 键盘与手柄动作, 图像 → 输出: 交互式帧流
+- 核心想法: 一个模型可以在平均意义上很好地沿路径行进，却仍会漏掉单次按键；而遵守碰撞约束又可能让它偏离预定路线。平均分掩盖了参与者真正会感受到的东西。
+- 内容: 由高德地图（阿里巴巴）与南京大学、清华大学、北京大学共同推出的基准，用 1,000 多个第一人称与第三人称测试用例（室内、自然、城市场景）检验交互式世界模型在 10–60 秒推演中的表现。它对逐帧动作跟随、画面漂移、交互物理（碰撞、穿模、重力、反射、阴影）与记忆分别打分，并维护一个包含 Genie 3 在内、覆盖 10 多个开源与闭源模型的排行榜；截至 2026 年 10 月，数据集下载仍标注为“即将推出”。
+- 实现方式: 在统一的测试集上运行各模型，由动作、视觉、物理与记忆四个模块打分；记忆通过重建场景点云来衡量，从而把“遗忘”与动作跟随偏差区分开。
+- 参数: 1,000+ cases · 10–60 s rollouts · 4 dimensions · 10+ models (open and closed)
+- 能力维度: 持久性, 反应性
+- 论文: https://arxiv.org/abs/2606.31672 (arXiv 2026)
+- 视频: https://worldroam.amap.com/scoring_gallery/memory/case2-Urban-0016/Urban-0016-Good-Genie3.mp4
+- 图片: https://worldroam.amap.com/figs/evaluation_framework.png
+- 项目主页: https://worldroam.amap.com/
+
+#### MBench — Shengjun Zhang, 腾讯 (2026-05-30)
+- 类型: 数据集 / 基准 · 获取方式: 开源权重 / 代码
+- 输入: 文字提示, 键盘与手柄动作 → 输出: 平面视频, 交互式帧流
+- 核心想法: 把生成世界是否保住了物体、场地与因果规则分开衡量；这正是参与者回到原处时会检查的三件事。
+- 内容: 清华大学与腾讯微信视觉团队推出的基准，检验视频世界模型“记不记得住”：它把记忆拆成实体、环境与因果三类一致性，下设十二个子维度，从物体几何、人物身份到对极几何一致性、光照与状态演化，测试素材是精选的真实拍摄长视频。论文评测了八个文本条件续写模型与六个动作条件世界模型（包括 Matrix-Game 3.0、HY-WorldPlay 与 Yume-1.5），发现长期保持状态是它们共同的短板。
+- 实现方式: 测试用例取自真实长视频，评分结合基于规则的指标（如对极几何与重投影一致性）和视觉语言模型问答，文本条件与动作条件模型分开评测。
+- 参数: 3 dimensions · 12 sub-dimensions · 8 text-conditioned + 6 action-conditioned models · dataset on Hugging Face
+- 能力维度: 持久性, 实验控制
+- 论文: https://arxiv.org/abs/2606.00793 (arXiv 2026)
+- 视频: https://huggingface.co/datasets/PeanutUp/PeanutUpproject-page-videos/resolve/main/assets/geometry_1.mp4
+- 图片: https://peanutup.github.io/MBench-project/assets/dimension.jpg
+- 项目主页: https://peanutup.github.io/MBench-project/
+- 代码: https://github.com/study-overflow/MBench
+
 #### Arena 视频竞技场（Arena Video Arena (LMArena)） — Arena (formerly LMArena) (2026-01-21)
 - 类型: 数据集 / 基准 · 获取方式: 产品 / 应用
 - 输入: 文字提示, 图像 → 输出: 平面视频
@@ -6351,6 +8899,18 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 能力维度: 感知真实感, 实验控制
 - 视频: https://www.youtube.com/watch?v=6Z1z6ztfx60
 - 项目主页: https://arena.ai
+
+#### Embody 3D 动作与行为数据集（Embody 3D） — Meta (2025-10-17)
+- 类型: 数据集 / 基准 · 获取方式: 开源权重 / 代码
+- 输入: 多视角拍摄 / 扫描 → 输出: 动作 / 动画, 语音 / 声音
+- 核心想法: 以三维方式记录的多人、带情绪的日常互动，并为每人单独录音：这正是虚拟人学会倾听与回应、而不只是比划手势所需的训练素材。
+- 内容: Meta Codec Avatars 实验室发布的动作与行为数据集：在多机位采集棚中记录了 439 名参与者共 500 人·小时的三维动作追踪数据（超过 5,400 万帧）。除了指定动作、手势与行走，它还记录了多人讨论、不同情绪状态下的对话、协作活动以及在类公寓空间中的共同生活，并提供手部追踪、体型、文字标注和每位参与者单独的音轨。
+- 实现方式: 多机位同步采集并完成标定，估计每位参与者的体型，进行多人三维姿态追踪，并用麦克风波束成形分离每位说话者的声音。
+- 参数: 500 person-hours · 439 participants · 54M+ frames · body + hands + shape · per-person audio · text annotations
+- 能力维度: 行为似真性, 情境多样性
+- 论文: https://arxiv.org/abs/2510.16258 (arXiv 2025)
+- 图片: https://arxiv.org/html/2510.16258v1/imgs/teaser.jpg https://arxiv.org/html/2510.16258v1/imgs/dyadic_conversation.png
+- 项目主页: https://www.meta.com/emerging-tech/codec-avatars/embody-3d
 
 #### WorldScore — Haoyi Duan (2025-04-01)
 - 类型: 数据集 / 基准 · 获取方式: 开源权重 / 代码
@@ -6380,6 +8940,19 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 项目主页: https://vchitect.github.io/VBench-2.0-project/
 - 代码: https://github.com/Vchitect/VBench
 
+#### Full-Duplex-Bench — Guan-Ting Lin (2025-03-06)
+- 类型: 数据集 / 基准 · 获取方式: 开源权重 / 代码
+- 输入: 语音与音频 → 输出: 语音 / 声音
+- 核心想法: 把“这像不像一场对话”变成实验室可以复现的数字：模型何时等待、何时附和、何时让出话轮。
+- 内容: 台湾大学与加州大学伯克利分校推出的开源全双工口语对话模型评测套件，评估停顿处理、附和回应、顺畅的轮流发言与用户打断（v1，ASRU 2025）。后续版本加入重叠语音（v1.5）、通过 WebRTC 由自动 AI 考官主持的实时多轮会话（v2），以及在真实不流利语音下的工具调用（v3，2026 年）；Artificial Analysis 在其 Speech to Speech Index 中用它的一部分来评“对话动态”。
+- 实现方式: 把预先录制的（从 v2 起也包括实时的）用户音频流式输入模型，基于时间对齐转写的自动指标（接管率、延迟、附和频率）为每种行为打分；v2 另加一个与模型对话并评分的大语言模型考官。
+- 参数: v1 (2025-03) · v1.5 (2025-07) · v2 (2025-10, WebRTC examiner) · v3 (2026-04, tool use + disfluency)
+- 能力维度: 时间响应性, 反应性
+- 论文: https://arxiv.org/abs/2503.04721 (ASRU 2025)
+- 图片: https://daniellin94144.github.io/FDB-v3-demo/FDBv3.drawio.png
+- 项目主页: https://github.com/DanielLin94144/Full-Duplex-Bench
+- 代码: https://github.com/DanielLin94144/Full-Duplex-Bench
+
 #### Artificial Analysis 视频竞技场（Artificial Analysis Video Arena） — Artificial Analysis (2024)
 - 类型: 数据集 / 基准 · 获取方式: 产品 / 应用
 - 输入: 文字提示, 图像, 视频 → 输出: 平面视频
@@ -6402,6 +8975,19 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - 论文: https://arxiv.org/abs/2506.18787 (arXiv 2025)
 - 图片: https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/3d-arena/3d-arena.png
 - 项目主页: https://huggingface.co/spaces/dylanebert/3d-arena
+
+#### Panda-70M 视频字幕数据集（Panda-70M） — Tsai-Shien Chen, Snap Inc. (2024-02-29)
+- 类型: 数据集 / 基准 · 获取方式: 开源权重 / 代码
+- 输入:  → 输出: 平面视频
+- 核心想法: 开源视频模型对场景如何运动的认识，很大一部分来自这类语料：自动加字幕的网络片段，也带着网络内容的偏差。
+- 内容: 包含 7,070 万段带字幕视频片段（约 16.7 万小时）的数据集，片段切自 380 万条 YouTube 长视频，由 Snap Research 联合加州大学默塞德分校等在 CVPR 2024 发布。它被广泛用作开源视频生成模型的预训练数据。
+- 实现方式: 先把长视频切成语义连贯的片段，再由多个跨模态“教师”模型（输入画面、标题与字幕的图像和视频描述模型）为每段提出候选字幕，最后由微调过的检索模型挑出最合适的一条。
+- 参数: 70.7M clips · ~167k hours · from 3.8M videos (HD-VILA-100M) · CVPR 2024
+- 能力维度: 情境多样性
+- 论文: https://arxiv.org/abs/2402.19479 (CVPR 2024)
+- 视频: https://www.youtube.com/watch?v=m2NQ5k1oTcs
+- 项目主页: https://snap-research.github.io/Panda-70M
+- 代码: https://github.com/snap-research/Panda-70M
 
 #### DL3DV-10K — Lu Ling (2023-12-26)
 - 类型: 数据集 / 基准 · 获取方式: 开源权重 / 代码
@@ -6632,86 +9218,113 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 
 ## 机构与创作者
 
-- **Google DeepMind** (32) — 谷歌旗下的人工智能研究实验室. 谷歌的人工智能实验室（Gemini、Genie、Veo）。其 SIMA 项目训练能在商业三维游戏中听从语言指令的智能体，SIMA 2 还进入了 Genie 3 生成的世界；它也维护用于生成式社会模拟的 Concordia 库。 https://deepmind.google
-- **Meta** (29) — Meta AI 研究院 / FAIR / Reality Labs 现实实验室. Meta 的 AI 研究（FAIR）与 Reality Labs 团队；在三维资产方面发布了 Meta 3D Gen、SAM 3D Objects 与 Body、ShapeR 以及 Meta Motivo 人形模型。 https://ai.meta.com
-- **NVIDIA** (29) — GPU 与人工智能计算公司. GPU 厂商，并推出 ACE：一套面向游戏角色的语音、语言与面部动画模型；其研究团队还开发了 Voyager 与 NitroGen 等游戏智能体。 https://research.nvidia.com
-- **Google** (21) — 谷歌研究院、Google Labs 与 Google AR. 谷歌在 DeepMind 之外的研究与产品团队；谷歌研究院发表了 DreamFusion，这篇 2022 年的论文开启了借助二维扩散模型的文生三维路线。 https://research.google
-- **ByteDance Seed** (16) — 字节跳动的基础模型研究团队. 构建字节跳动基础模型（豆包、Seedance、UI-TARS）的研究团队；2025 年发布游戏智能体 Game-TARS 与 Lumine。 https://seed.bytedance.com
-- **Mel Slater** (14) — 虚拟现实研究者，巴塞罗那大学 EventLab 联合主任. 从计算机科学转向临场感研究，提出“地点错觉”与“似真错觉”，主持了虚拟米尔格拉姆、旁观者与身体拥有感等一系列实验。
-- **Tencent Hunyuan** (14) — 腾讯的基础模型团队. 腾讯混元团队发布覆盖文本、图像、视频、三维（混元3D 1.0 至 3.x、HY 3D Studio）和动作（HY-Motion）的开源与闭源模型。 https://hunyuan.tencent.com
-- **Microsoft** (13) — 微软研究院. 微软研究院发布了 TRELLIS（2024）和 TRELLIS.2（2025），两者都是基于结构化三维潜变量、采用 MIT 许可的三维生成模型。 https://www.microsoft.com/research
-- **Kuaishou** (11) — 短视频公司（可灵团队）. 快手开发可灵视频模型并开源了 LivePortrait，其可灵团队还发布了实时自回归数字人模型 MIDAS。 https://www.kuaishou.com
-- **Alibaba Tongyi (Qwen)** (9) — 阿里巴巴通义实验室与 Qwen 团队. 阿里巴巴通义实验室开发千问 Qwen 系列、万相 Wan 视频模型以及 Fun-Audio / CosyVoice 语音模型，其中许多以开源权重发布。 https://wan.video
-- **OpenAI** (9) — 人工智能研究与产品公司. GPT、Sora 与实时语音模型的开发者；2019 年的多智能体捉迷藏研究展示了智能体在三维物理世界中自发学会使用工具。 https://openai.com
-- **Runway** (9) — AI 视频公司. Gen 与 Aleph 视频模型的开发者，也做世界模型研究（GWM-1）；同时提供应用与开发者 API。 https://runwayml.com
-- **Stability AI** (7) — 开源生成模型公司. Stable Diffusion 的开发公司，也发布了开源三维模型：TripoSR（与 Tripo AI 合作）、Stable Fast 3D、SPAR3D 和 Stable Video 3D。 https://stability.ai
+- **Google DeepMind** (39) — 谷歌旗下的人工智能研究实验室. 谷歌的人工智能实验室（Gemini、Genie、Veo）。其 SIMA 项目训练能在商业三维游戏中听从语言指令的智能体，SIMA 2 还进入了 Genie 3 生成的世界；它也维护用于生成式社会模拟的 Concordia 库。 https://deepmind.google
+- **Meta** (39) — Meta AI 研究院 / FAIR / Reality Labs 现实实验室. Meta 的 AI 研究（FAIR）与 Reality Labs 团队；在三维资产方面发布了 Meta 3D Gen、SAM 3D Objects 与 Body、ShapeR 以及 Meta Motivo 人形模型。 https://ai.meta.com
+- **NVIDIA** (38) — GPU 与人工智能计算公司. GPU 厂商，并推出 ACE：一套面向游戏角色的语音、语言与面部动画模型；其研究团队还开发了 Voyager 与 NitroGen 等游戏智能体。 https://research.nvidia.com
+- **Google** (27) — 谷歌研究院、Google Labs 与 Google AR. 谷歌在 DeepMind 之外的研究与产品团队；谷歌研究院发表了 DreamFusion，这篇 2022 年的论文开启了借助二维扩散模型的文生三维路线。 https://research.google
+- **ByteDance Seed** (21) — 字节跳动的基础模型研究团队. 构建字节跳动基础模型（豆包、Seedance、UI-TARS）的研究团队；2025 年发布游戏智能体 Game-TARS 与 Lumine。 https://seed.bytedance.com
+- **Tencent Hunyuan** (17) — 腾讯的基础模型团队. 腾讯混元团队发布覆盖文本、图像、视频、三维（混元3D 1.0 至 3.x、HY 3D Studio）和动作（HY-Motion）的开源与闭源模型。 https://hunyuan.tencent.com
+- **Mel Slater** (16) — 虚拟现实研究者，巴塞罗那大学 EventLab 联合主任. 从计算机科学转向临场感研究，提出“地点错觉”与“似真错觉”，主持了虚拟米尔格拉姆、旁观者与身体拥有感等一系列实验。
+- **Microsoft** (15) — 微软研究院. 微软研究院发布了 TRELLIS（2024）和 TRELLIS.2（2025），两者都是基于结构化三维潜变量、采用 MIT 许可的三维生成模型。 https://www.microsoft.com/research
+- **Alibaba Tongyi (Qwen)** (14) — 阿里巴巴通义实验室与 Qwen 团队. 阿里巴巴通义实验室开发千问 Qwen 系列、万相 Wan 视频模型以及 Fun-Audio / CosyVoice 语音模型，其中许多以开源权重发布。 https://wan.video
+- **Kuaishou** (13) — 短视频公司（可灵团队）. 快手开发可灵视频模型并开源了 LivePortrait，其可灵团队还发布了实时自回归数字人模型 MIDAS。 https://www.kuaishou.com
+- **OpenAI** (11) — 人工智能研究与产品公司. GPT、Sora 与实时语音模型的开发者；2019 年的多智能体捉迷藏研究展示了智能体在三维物理世界中自发学会使用工具。 https://openai.com
+- **Runway** (10) — AI 视频公司. Gen 与 Aleph 视频模型的开发者，也做世界模型研究（GWM-1）；同时提供应用与开发者 API。 https://runwayml.com
+- **Stability AI** (9) — 开源生成模型公司. Stable Diffusion 的开发公司，也发布了开源三维模型：TripoSR（与 Tripo AI 合作）、Stable Fast 3D、SPAR3D 和 Stable Video 3D。 https://stability.ai
+- **Snap Inc.** (8) — 相机公司；Snapchat、Lens Studio 与 Spectacles / SPECS AR 眼镜. Snapchat 镜头（每天使用数十亿次）的开发者，也推出独立 AR 眼镜：面向开发者的 Spectacles（2024）与消费级 SPECS（2026）。 https://research.snap.com
+- **Tripo AI (VAST)** (8) — 三维生成公司（VAST）. VAST 开发 Tripo 三维生成模型与 Tripo Studio，并发布 TripoSR（与 Stability AI 合作）、TripoSG、UniRig、TripoSplat 等开源研究。 https://www.tripo3d.ai/
+- **Jeremy Bailenson** (7) — 斯坦福大学虚拟人交互实验室（VHIL）创始主任. 传播学学者，研究化身、虚拟身体与沉浸式媒体如何改变态度与行为，从“普罗透斯效应”到大规模 VR 实地研究。 https://vhil.stanford.edu/
+- **Odyssey** (7) — 世界模型 AI 实验室. 由 Oliver Cameron 与 Jeff Hawke 于 2023 年创立的 AI 实验室，致力于通用世界模型，先后发布 Odyssey-1、-2、-3、多智能体 Agora 系列模型及 API。 https://odyssey.ml
+- **Tencent ARC Lab** (7) — 腾讯 PCG 应用研究中心. 腾讯从事视觉生成与编辑研究的实验室，成果包括 StereoCrafter 与 Rolling Forcing。 https://arc.tencent.com
+- **World Labs** (7) — 空间智能公司. 由李飞飞等人创立，开发 Marble 世界模型与 Spark 泼溅渲染器。 https://www.worldlabs.ai
 - **Apple** (6) — 消费科技公司. Apple Vision Pro 会为佩戴者生成 Persona：一个由面部扫描重建、由头显传感器驱动的三维化身。 https://machinelearning.apple.com
 - **Decart** (6) — 构建实时生成视频与世界模型的 AI 实验室. 初创公司，推出实时生成的类 Minecraft 世界 Oasis 与实时视频到视频模型 MirageLSD，并通过 API 提供。 https://decart.ai
-- **World Labs** (6) — 空间智能公司. 由李飞飞等人创立，开发 Marble 世界模型与 Spark 泼溅渲染器。 https://www.worldlabs.ai
-- **Deemos (Hyper3D Rodin)** (5) — Hyper3D Rodin 背后的三维生成公司. 源自上海科技大学的公司，开发 Rodin 系列三维生成模型（Gen-1 基于 CLAY 研究模型，之后有 Gen-1.5、Gen-2、Gen-2.5）和 ChatAvatar 人脸生成，通过 hyper3d.ai 和 API 提供服务。 https://hyper3d.ai
+- **Deemos (Hyper3D Rodin)** (6) — Hyper3D Rodin 背后的三维生成公司. 源自上海科技大学的公司，开发 Rodin 系列三维生成模型（Gen-1 基于 CLAY 研究模型，之后有 Gen-1.5、Gen-2、Gen-2.5）和 ChatAvatar 人脸生成，通过 hyper3d.ai 和 API 提供服务。 https://hyper3d.ai
+- **USC Institute for Creative Technologies** (6) — 南加州大学下属的大学附属研究中心. 1999 年在美国陆军资助下成立，把人工智能、图形与叙事结合用于训练和健康；虚拟人工具包、SimSensei 与 Bravemind 均出自这里。 https://ict.usc.edu/
+- **Jean-Louis van Gelder** (5) — 马克斯·普朗克犯罪、安全与法律研究所所长；莱顿大学教授. 犯罪学家与心理学家，用 VR 研究犯罪决策（虚拟入室盗窃项目）和“未来自我”干预。 https://csl.mpg.de/en
 - **Luma AI** (5) — 生成式 AI 公司（三维拍摄、视频）. 以 NeRF 拍摄应用和 Genie 文生三维起家，之后把重心转向视频生成（Dream Machine、Ray 系列模型）。 https://lumalabs.ai
 - **Skywork (Kunlun Tech)** (5) — 昆仑万维旗下人工智能业务. 昆仑万维的人工智能业务，开源 SkyReels 视频模型与 Matrix 世界模型。 https://www.skywork.ai
-- **Snap Inc.** (5) — 相机公司；Snapchat、Lens Studio 与 Spectacles / SPECS AR 眼镜. Snapchat 镜头（每天使用数十亿次）的开发者，也推出独立 AR 眼镜：面向开发者的 Spectacles（2024）与消费级 SPECS（2026）。 https://research.snap.com
 - **Tavus** (5) — 实时对话视频 AI 公司. Tavus 开发面对面 AI 对话所需的模型：Phoenix（渲染）、Raven（感知）、Sparrow（轮流发言），以及 2026 年 10 月发布的统一全双工视频到视频模型 Griffin。其对话视频接口（CVI）API 和面向个人用户的 PALs 都基于这些模型。 https://www.tavus.io
-- **Tripo AI (VAST)** (5) — 三维生成公司（VAST）. VAST 开发 Tripo 三维生成模型与 Tripo Studio，并发布 TripoSR（与 Stability AI 合作）、TripoSG、UniRig、TripoSplat 等开源研究。 https://www.tripo3d.ai/
-- **USC Institute for Creative Technologies** (5) — 南加州大学下属的大学附属研究中心. 1999 年在美国陆军资助下成立，把人工智能、图形与叙事结合用于训练和健康；虚拟人工具包、SimSensei 与 Bravemind 均出自这里。 https://ict.usc.edu/
+- **Adobe** (4) — 创意软件公司（Adobe 研究院）. Photoshop 和 Substance 3D 的开发商；Adobe 研究院参与了 LRM，这是首个用于单张图像三维重建的大型重建模型。 https://research.adobe.com
+- **Alaya Lab** (4) — AI 游戏与世界模型实验室. 一家研究 AI 游戏创作、世界模型与游戏智能体的实验室，发布了 Yume 交互世界模型（2025）、Sekai 探索数据集以及开源的 AlayaWorld 框架（2026）。 https://alayalab.ai/
+- **ElevenLabs** (4) — AI 音频公司. ElevenLabs 开发语音合成、声音克隆、对话智能体、音效与音乐模型，在媒体制作中被广泛使用。 https://elevenlabs.io
 - **Epic Games** (4) — 游戏开发商与引擎厂商（Fortnite、Unreal Engine）. Fortnite 与 Unreal Engine 的开发商；2025 年在 Fortnite 中上线可语音对话的 AI 达斯·维达，随后以 Persona 装置（后更名 Conversations）向创作者开放这项技术。 https://www.unrealengine.com
-- **Jeremy Bailenson** (4) — 斯坦福大学虚拟人交互实验室（VHIL）创始主任. 传播学学者，研究化身、虚拟身体与沉浸式媒体如何改变态度与行为，从“普罗透斯效应”到大规模 VR 实地研究。 https://vhil.stanford.edu/
+- **Hong-Xing (Koven) Yu** (4) — 斯坦福大学研究者. 斯坦福大学吴佳俊组的计算机视觉研究者，WonderJourney 与 WonderWorld 的第一作者。 https://kovenyu.com
 - **Kyutai** (4) — 非营利开放科学 AI 实验室. Kyutai 是位于巴黎的非营利研究实验室，由 Iliad、CMA CGM 与 Schmidt Sciences 资助，语音模型均公开发布。 https://kyutai.org
 - **Meshy** (4) — AI 三维生成公司. Meshy 的开发公司，提供文生三维、图生三维、AI 贴图、自动绑定与动画的网页、应用和 API；模型从 Meshy-1（2023 年）迭代到 Meshy 7.1（2026 年 9 月）。 https://www.meshy.ai/
-- **Adobe** (3) — 创意软件公司（Adobe 研究院）. Photoshop 和 Substance 3D 的开发商；Adobe 研究院参与了 LRM，这是首个用于单张图像三维重建的大型重建模型。 https://research.adobe.com
+- **PixVerse** (4) — AI 视频公司（爱诗科技）. 总部位于北京的 PixVerse 视频生成器与应用的开发者，由爱诗科技打造；2026 年推出实时世界模型 R1 与 R2。 https://pixverse.ai
+- **Robbyant** (4) — 蚂蚁集团具身智能公司. 蚂蚁集团旗下的具身智能公司，发布面向机器人与空间感知的开源 LingBot 系列模型。 https://technology.robbyant.com
+- **Roblox** (4) — 在线游戏平台. 用户在此搭建并游玩各类体验的平台；其基础 AI 团队开发了部分开源的 Cube 三维基础模型，以及在游戏内使用的三维与 4D 生成功能。 https://corp.roblox.com
+- **Ryo Suzuki** (4) — 科罗拉多大学博尔德分校 ATLAS 研究所与计算机系助理教授，Programmable Reality Lab 负责人. 人机交互研究者，研究 AR/VR、实体界面与 AI 的交叉；实验室的“生成式 AR”方向希望把物理世界变成生成式 AI 的画布。 https://ryosuzuki.org
+- **StepFun** (4) — 中国基础模型公司. 阶跃星辰开发 Step 系列语言、多模态与音频模型，并开源了其中多款。 https://www.stepfun.com
+- **Wayve** (4) — 具身智能自动驾驶公司. 总部位于伦敦的公司，开发端到端驾驶模型，并自 2023 年起推出 GAIA 系列生成式驾驶世界模型。 https://wayve.ai
+- **Artificial Analysis** (3) — 独立 AI 基准评测公司. 跨服务商评测模型的质量、价格与速度，并运营图像与视频盲投竞技场。 https://artificialanalysis.ai
 - **Character.AI** (3) — 面向大众的 AI 角色平台. Character.AI 运营一个大型 AI 角色聊天平台，并开发视频模型（AvatarFX、TalkingMachines）为角色配上面孔。 https://character.ai
 - **Doron Friedman** (3) — 赖克曼大学先进现实实验室负责人. 研究虚拟人、远程临场与面向心理健康的 VR；其实验室开发由大语言模型驱动的虚拟人和自动化情境生成流程。
-- **ElevenLabs** (3) — AI 音频公司. ElevenLabs 开发语音合成、声音克隆、对话智能体、音效与音乐模型，在媒体制作中被广泛使用。 https://elevenlabs.io
 - **Hume AI** (3) — 语音 AI、表达测量与评测公司. Hume AI 开发共情语音接口 EVI、Octave 语音合成模型以及开源的 TADA 模型；2026 年其主打表达测量 API（50 多种语言、600 多个表达维度），以及用于评测真实场景语音 AI 的工具与基准，包括 RW-Voice-EQ Bench。 https://www.hume.ai
-- **Jean-Louis van Gelder** (3) — 马克斯·普朗克犯罪、安全与法律研究所所长；莱顿大学教授. 犯罪学家与心理学家，用 VR 研究犯罪决策（虚拟入室盗窃项目）和“未来自我”干预。 https://csl.mpg.de/en
+- **Inworld AI** (3) — 实时 AI 公司，前身是游戏 AI 角色引擎. 2021 年成立，最初为游戏 AI 角色打造引擎，育碧 NEO NPC 与英伟达 Covert Protocol 演示都使用了它。到 2026 年，它主要推广实时语音模型（TTS、STT、语音到语音）以及面向消费级 AI 应用的运行时。 https://inworld.ai/
+- **Jiwen Yu** (3) — 香港大学研究者. 香港大学博士研究者，与快手可灵团队合作研究交互式视频生成。 https://yujiwen.github.io
 - **Joon Sung Park** (3) — 人机交互研究者，Simile 联合创始人兼 CEO. 斯坦福大学计算机科学博士，2023 年以 Smallville 论文提出生成式智能体，随后用 1,052 名美国人的两小时访谈构建个体智能体。与 Michael Bernstein、Percy Liang 共同创办 Simile。
-- **Odyssey** (3) — 世界模型 AI 实验室. 由 Oliver Cameron 与 Jeff Hawke 于 2023 年创立的 AI 实验室，致力于通用世界模型，先后发布 Odyssey-1、-2、-3、多智能体 Agora 系列模型及 API。 https://odyssey.ml
-- **Robbyant** (3) — 蚂蚁集团具身智能公司. 蚂蚁集团旗下的具身智能公司，发布面向机器人与空间感知的开源 LingBot 系列模型。 https://technology.robbyant.com
-- **Roblox** (3) — 在线游戏平台. 用户在此搭建并游玩各类体验的平台；其基础 AI 团队开发了部分开源的 Cube 三维基础模型，以及在游戏内使用的三维与 4D 生成功能。 https://corp.roblox.com
-- **Ryo Suzuki** (3) — 科罗拉多大学博尔德分校 ATLAS 研究所与计算机系助理教授，Programmable Reality Lab 负责人. 人机交互研究者，研究 AR/VR、实体界面与 AI 的交叉；实验室的“生成式 AR”方向希望把物理世界变成生成式 AI 的画布。 https://ryosuzuki.org
+- **Keiichi Ihara** (3) — Programmable Reality Lab（科罗拉多大学博尔德分校）与筑波大学博士生. 人机交互研究者，构建把电影、教学视频等二维媒介转化为空间内容的混合现实系统。
+- **Lightricks** (3) — 创意应用公司，LTX 模型开发者. Facetune 与 LTX Studio 的开发者，发布开源的 LTX-Video、LTX-2 与 LTX-2.5 模型。 https://ltx.io
+- **MiniMax** (3) — 大模型公司（海螺 AI）. 海螺视频模型、MiniMax 语言模型与语音模型的开发者；2026 年 7 月以开源权重发布 H3 视频模型。 https://www.minimax.io
+- **Shengshu Technology (Vidu)** (3) — 源自清华大学的视频生成公司. 由清华大学研究者创立；2024 年 4 月发布 Vidu，此后推出 Q 系列与实时 S 系列模型。 https://www.vidu.com
 - **Stijn Spanhove** (3) — In The Pocket 公司 XR 开发者；Snap Spectacles 创作者. 持续发布把 AR 眼镜、Vision Pro 与生成模型结合起来的短小概念验证。
+- **Tencent** (3) — 中国科技与游戏公司. 总部位于深圳的互联网与游戏公司；除混元外，其多个研究团队也发表交互式视频方面的工作。 https://www.tencent.com
+- **ZJU3DV** (3) — 浙江大学三维视觉组. 浙江大学 CAD&CG 国家重点实验室周晓巍、彭思达团队，长期研究动态人体与场景捕捉。 https://zju3dv.github.io/
 - **Agora** (2) — 实时互动平台. 运营面向音视频 SDK 的全球实时网络，推出对话式 AI 引擎，并支持开源 TEN Framework。 https://www.agora.io
 - **Albert "Skip" Rizzo** (2) — 南加州大学创意技术研究所医学虚拟现实部门主任. 临床心理学家，开发了用于 PTSD 暴露疗法的 Virtual Iraq/Afghanistan 与 Bravemind，并主持虚拟病人研究。
+- **Alibaba Token Hub (ATH)** (2) — 阿里巴巴集团旗下推出 HappyHorse 与 HappyOyster 的事业群. 阿里巴巴集团旗下事业群，其 AI 创新事业部（前身为淘天集团未来生活实验室）研发通过阿里云百炼提供的 HappyHorse 音视频模型；2026 年还推出了世界模型产品 HappyOyster。 https://www.happyoyster.cn/
+- **Amap (Alibaba)** (2) — 阿里巴巴集团旗下的地图与导航服务，其视觉实验室（CV Lab）研发生成式三维地球与世界模型. 高德是阿里巴巴集团的数字地图与导航服务；其视觉实验室于 2026 年发布了生成式三维地球模型 ABot-Earth。 https://abot-earth.amap.com/
 - **Bernhard Kerbl** (2) — Inria / 维也纳工业大学研究者. 3D 高斯泼溅（SIGGRAPH 2023）共同第一作者，也是其超大场景层级版本的第一作者。
 - **Botao 'Amber' Hu** (2) — 牛津大学研究者；Reality Design Lab 创始人；HoloKit 发明者. 设计师与研究者（清华大学本科、斯坦福大学人工智能硕士），主持 Reality Design Lab 在具身与社交混合现实、思辨设计和生成式未来构想方面的研究；实验室作品曾在 SIGGRAPH、CHI、TEI 与 Ars Electronica 展出。 https://reality.design
 - **Chuan Guo** (2) — 人体动作生成研究者. 研究者（阿尔伯塔大学，后进入业界），创建了 HumanML3D 数据集（CVPR 2022）和 MoMask（CVPR 2024）。 https://ericguo5513.github.io/
 - **Convai** (2) — 面向游戏与 XR 角色的对话式 AI 平台. 为 Unreal Engine、Unity 与网页三维场景提供能说话、感知和行动的角色引擎与插件；2023 年与英伟达用 ACE 合作制作了 Kairos 演示。 https://convai.com/
 - **Daniel Freeman** (2) — 牛津大学临床心理学教授. 主持牛津大学针对恐高、偏执以及精神病患者广场回避（gameChange）的自动化 VR 治疗研究。 https://gamechangevr.com/
+- **Domna Banakou** (2) — 虚拟具身研究者（巴塞罗那大学 EventLab）. 研究虚拟身体与场景的渐进变化如何改变知觉、态度与焦虑。
 - **Evonne Ng** (2) — 双人互动行为与手势生成研究者. Evonne Ng（加州大学伯克利分校，后加入 Meta）主导了 Learning to Listen（CVPR 2022）和 Audio2Photoreal（2024），建模对话中倾听者的脸和身体如何回应。 https://evonneng.github.io
-- **Hong-Xing (Koven) Yu** (2) — 斯坦福大学研究者. 斯坦福大学吴佳俊组的计算机视觉研究者，WonderJourney 与 WonderWorld 的第一作者。 https://kovenyu.com
+- **Haozhe Xie** (2) — 南洋理工大学 S-Lab 研究者. 南洋理工大学刘子纬 S-Lab 的研究者，CityDreamer 与 CityDreamer4D 的第一作者。 https://www.infinitescript.com
+- **HeyGen** (2) — AI 视频虚拟人平台. HeyGen 提供 AI 虚拟人视频制作，并通过 LiveAvatar 提供实时虚拟人流式 API。 https://www.heygen.com
+- **Huadai Liu** (2) — 音频生成研究者（浙江大学）. Huadai Liu 在浙江大学研究文本、视频与空间音频的生成。
+- **InSpatio** (2) — 构建三维与 4D 世界模型的中国空间智能初创公司. 其 INSPATIO-WORLD 论文与浙江大学三维视觉研究者（章国锋、鲍虎军）合著；公司发布了 InSpatio-World、InSpatio-WorldFM、QuerySplat 等开源模型。 https://www.inspatio.com/
 - **Inria GraphDeco** (2) — Inria 图形学研究组. 由 George Drettakis 领导的 Inria 蔚蓝海岸大学研究组，3D 高斯泼溅及其层级扩展的出处。 https://team.inria.fr/graphdeco/
-- **Inworld AI** (2) — 实时 AI 公司，前身是游戏 AI 角色引擎. 2021 年成立，最初为游戏 AI 角色打造引擎，育碧 NEO NPC 与英伟达 Covert Protocol 演示都使用了它。到 2026 年，它主要推广实时语音模型（TTS、STT、语音到语音）以及面向消费级 AI 应用的运行时。 https://inworld.ai/
+- **Jia-Peng Zhang** (2) — 清华大学研究者. 清华大学研究者，与 VAST 合作的 UniRig（SIGGRAPH 2025）第一作者。 https://zjp-shadow.github.io/
 - **Jianyuan Wang** (2) — 牛津 VGG / Meta AI 研究者. VGGT（CVPR 2025 最佳论文）与 VGGT-Ω（CVPR 2026 Oral）第一作者，牛津视觉几何组与 Meta 的合作工作。
 - **Jiawei Ren** (2) — 南洋理工大学 S-Lab / NVIDIA 研究者. DreamGaussian4D 与 L4GM（NeurIPS 2024，与 NVIDIA 合作）的第一作者。
-- **Jiwen Yu** (2) — 香港大学研究者. 香港大学博士研究者，与快手可灵团队合作研究交互式视频生成。 https://yujiwen.github.io
+- **Jim Blascovich** (2) — 社会心理学家，加州大学圣塔芭芭拉分校. 共同创办加州大学圣塔芭芭拉分校的虚拟环境与行为研究中心，倡导把沉浸式 VR 作为社会心理学的研究方法。
 - **Jonathan T. Barron** (2) — Google DeepMind 研究科学家. Google 研究者，mip-NeRF、mip-NeRF 360、Zip-NeRF 等工作以及多项辐射场质量基准的作者。
 - **Jonathon Luiten** (2) — Meta 研究者. Dynamic 3D Gaussians（3DV 2024）第一作者，在 Meta 参与了 BulletGen。
 - **Junxuan Li** (2) — Meta Codec Avatars 实验室研究科学家. Junxuan Li 是 URAvatar（SIGGRAPH Asia 2024）和大规模 Codec Avatars（CVPR 2026）的第一作者。 https://junxuan-li.github.io
 - **KRAFTON** (2) — 电子游戏发行商. 韩国游戏公司，发行《绝地求生》与 inZOI；与英伟达 ACE 合作推出运行在本地小语言模型上的“可共玩角色”（CPC）。 https://www.krafton.com/
-- **Keiichi Ihara** (2) — Programmable Reality Lab（科罗拉多大学博尔德分校）与筑波大学博士生. 人机交互研究者，构建把电影、教学视频等二维媒介转化为空间内容的混合现实系统。
 - **Lei Zhang** (2) — 人机交互研究者（密歇根大学博士，现任职于新泽西理工学院）. 研究沉浸式创作中的人机共创，从 VRCopilot（密歇根大学）到 Capybara（与普林斯顿 HCI 实验室合作）。
-- **Lightricks** (2) — 创意应用公司，LTX 模型开发者. Facetune 与 LTX Studio 的开发者，发布开源的 LTX-Video、LTX-2 与 LTX-2.5 模型。 https://ltx.io
+- **Mar Gonzalez-Franco** (2) — XR 研究科学家（Google；曾任职于微软研究院）. 从事化身、具身与社交 XR 研究的神经科学家与工程师，主导了米尔格拉姆范式的 VR 复现研究。
 - **Matthew Tancik** (2) — 研究者，Nerfstudio 联合创建者. NeRF 合著者，在伯克利主导了 Nerfstudio，后加入 Luma AI。
-- **MiniMax** (2) — 大模型公司（海螺 AI）. 海螺视频模型、MiniMax 语言模型与语音模型的开发者；2026 年 7 月以开源权重发布 H3 视频模型。 https://www.minimax.io
+- **Meituan** (2) — 科技公司（MeiGen / LongCat 团队）. 美团的 MeiGen 团队发布了 MultiTalk 和 InfiniteTalk，这是用于音频驱动说话视频与配音的开源模型。 https://www.meituan.com
+- **Michael Wiesing** (2) — 巴塞罗那大学 EventLab 研究员. 研究 VR 体验如何延续到物理现实中的信念与行动。
+- **Mingyu Ouyang** (2) — 人工智能研究者（新加坡国立大学）. 新加坡国立大学研究者；Player-1（2026）的第一作者，该工作完成于腾讯 ARC 实验室实习期间。
 - **NAVER LABS Europe** (2) — NAVER 的欧洲研究院. 韩国 NAVER 公司位于格勒诺布尔的研究中心，DUSt3R / MASt3R 系列三维基础模型的出处。 https://europe.naverlabs.com/
 - **Niantic Spatial** (2) — 从 Niantic 独立出来的地理空间 AI 公司. 在 Niantic 于 2025 年出售游戏业务后，专注大型地理空间模型、视觉定位与 AR 地图。 https://www.nianticspatial.com/
-- **PixVerse** (2) — AI 视频公司（爱诗科技）. 总部位于北京的 PixVerse 视频生成器与应用的开发者，由爱诗科技打造；2026 年推出实时世界模型 R1 与 R2。 https://pixverse.ai
 - **PlayCanvas** (2) — 网页图形引擎公司（Snap 旗下）. 开发开源 PlayCanvas 引擎与 SuperSplat 高斯泼溅编辑器。 https://playcanvas.com/
 - **Qianqian Wang** (2) — 加州大学伯克利分校研究者. 伯克利研究者，Shape of Motion 与 CUT3R 第一作者。
 - **Reality Design Lab** (2) — 由 Botao 'Amber' Hu 主持的混合现实独立设计研究实验室. 以“设计新现实”为宗旨，创作混合现实艺术作品，开发开源工具（HoloKit、HoloMask、Unity 版 MultipeerConnectivity），并开展教学项目；作品曾在 SIGGRAPH、CHI、IEEE VR 与 Ars Electronica 展出。 https://reality.design
+- **Ruofei Du** (2) — Google XR 交互感知与图形负责人. 研究面向 XR 的交互图形与 AI，主导 XR Blocks，参与 Thing2Reality 与 Sensible Agent。 https://duruofei.com
 - **Samsung Electronics** (2) — 电子公司；Galaxy XR 头显制造商. 与谷歌、高通共同开发 Android XR，并于 2025 年 10 月推出 Galaxy XR 头显。 https://www.samsung.com
-- **Shengshu Technology (Vidu)** (2) — 源自清华大学的视频生成公司. 由清华大学研究者创立；2024 年 4 月发布 Vidu，此后推出 Q 系列与实时 S 系列模型。 https://www.vidu.com
+- **Sesame** (2) — 语音 AI 与硬件公司. Sesame 由 Oculus 联合创始人 Brendan Iribe 参与创立，开发对话式语音智能体与对话语音模型 CSM，并已宣布眼镜产品。 https://www.sesame.com
+- **Shanghai AI Laboratory** (2) — 位于上海的公共人工智能研究机构. 大型公共科研机构（又称浦江实验室），研究基础模型、具身智能与三维视觉，π³ 重建模型出自这里。 https://www.shlab.org.cn/
 - **SpAItial** (2) — 三维世界模型初创公司（Echo）. 由慕尼黑工业大学教授 Matthias Niessner 联合创立的初创公司，研发空间基础模型；2025 年获 1300 万美元种子轮融资，先后发布 Echo（2025 年 12 月）和 Echo-2（2026 年 4 月）。 https://www.spaitial.ai
-- **StepFun** (2) — 中国基础模型公司. 阶跃星辰开发 Step 系列语言、多模态与音频模型，并开源了其中多款。 https://www.stepfun.com
+- **Suno** (2) — AI 音乐公司. Suno 打造了被广泛使用的歌曲生成器，能根据提示写出并演唱完整歌曲。 https://suno.com
+- **Tabitha Peck** (2) — 戴维森学院计算机科学家. 研究虚拟具身与化身效应，2013 年与 Mel Slater 团队合作的“黑人化身与内隐偏见”研究的第一作者。
 - **Ubisoft** (2) — 电子游戏发行商. 《刺客信条》《全境封锁》的法国发行商；其巴黎团队在 2024 年展示 NEO NPC 原型，2025 年推出可游玩的 Teammates 实验。 https://www.ubisoft.com/
-- **Wayve** (2) — 具身智能自动驾驶公司. 总部位于伦敦的公司，开发端到端驾驶模型，并自 2023 年起推出 GAIA 系列生成式驾驶世界模型。 https://wayve.ai
+- **Unity** (2) — 游戏引擎公司. Unity 引擎的开发者，大量 XR 与移动游戏以及许多 VR 研究实验室都在用它。 https://unity.com
 - **Weihao Tan** (2) — 人工智能研究者，游戏智能体方向. Cradle（2024）与 Lumine（2025，字节跳动 Seed）的第一作者：前者通过截图和键鼠输出游玩《荒野大镖客 2》，后者能实时完成数小时的《原神》任务。
-- **ZJU3DV** (2) — 浙江大学三维视觉组. 浙江大学 CAD&CG 国家重点实验室周晓巍、彭思达团队，长期研究动态人体与场景捕捉。 https://zju3dv.github.io/
 - **Zhaoxi Chen** (2) — 南洋理工大学 S-Lab 博士研究者. 前馈式图像到 4D 模型 4DNeX 的第一作者。 https://frozenburning.github.io
+- **Zijie Wu** (2) — 华中科技大学博士研究者. AnimateAnyMesh（ICCV 2025，与阿里巴巴达摩院合作）和 R-DMesh（SIGGRAPH 2026，与腾讯混元合作）的第一作者。
+- **Ziming Li** (2) — 罗切斯特理工学院研究员. Roshan Peiris 实验室中面向自闭症人士的大语言模型 VR 职场沟通训练研究（CHI EA 2024）的第一作者。
 - **Ziqi Huang** (2) — 南洋理工大学 S-Lab 研究者. 在刘子纬课题组研究视频生成及其评测，VBench 与 VBench++ 的第一作者。 https://ziqihuangg.github.io
+- **xAI (SpaceXSI)** (2) — Grok 背后的 AI 公司；其 2026 年的页面使用 SpaceXSI 名称. xAI 开发 Grok 系列模型，以及 Grok Voice 语音到语音与语音转写 API。 https://x.ai
 - **1X Technologies** (1) — 人形机器人公司. 挪威与美国背景的人形机器人公司，产品包括 EVE 与 NEO。 https://www.1x.tech
 - **4DV.ai** (1) — 4D 高斯视频创业公司. 基于高斯泼溅开发 4D 视频拍摄、播放与编辑工具的创业公司，CEO 孙佳明是 FreeTimeGS 的合著者。据 Radiancefields.com 报道，其 Infinite Studio 演示获得 SIGGRAPH 2025 Real-Time Live 最佳展示奖。 https://www.4dv.ai
+- **Aashish Rai** (1) — 布朗大学交互式三维视觉与学习实验室博士研究者. PackUV（CVPR 2026）与 UVGS 的第一作者，这两项工作把高斯泼溅映射为 UV 图像，使其能像视频一样存储与传输。
 - **Ailing Zeng** (1) — 人体动作与角色生成研究者. Ailing Zeng 是 LPM 1.0（2026）的第一作者和共同负责人，这是一个面向实时对话的 17B 视频角色表演模型。 https://large-performance-model.github.io
 - **Akilan Amithasagaran** (1) — CLiVR（2025）第一作者. 与医学教育合作者一起开发了 CLiVR——一个基于 Meta Quest 3、由大语言模型驱动的虚拟病人系统。
 - **Akio Kodaira** (1) — 实时扩散流水线开发者. StreamDiffusion 的主要作者，与 UC Berkeley 等研究者合作完成。
@@ -6725,16 +9338,21 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - **Amazon** (1) — 亚马逊（AWS 与 Amazon AGI）. 亚马逊开发 Nova 系列基础模型，在 AWS Bedrock 上提供服务。 https://aws.amazon.com/ai/generative-ai/nova/
 - **Amina Kobenova** (1) — 人机交互研究者；与微软合作者完成 Social Conjuring 的第一作者. 研究虚拟世界中借助生成式 AI 的多人社交创作；合作者包括 Judith Amores 与 Jaron Lanier。
 - **Amir Bar** (1) — Meta FAIR 研究员，导航世界模型第一作者. 计算机视觉研究者（Meta FAIR、特拉维夫大学），研究视觉预测与世界模型。 https://www.amirbar.net
+- **Amir Mann** (1) — 以色列理工学院研究者. 以色列理工学院研究者（与 Or Litany 合作），VideoMDM 第一作者；该工作用视频中的二维姿态训练三维动作扩散模型。 https://videomdm.github.io/
 - **Anam** (1) — 实时交互虚拟人公司. Anam 开发 CARA 系列实时虚拟人扩散模型，并提供面对面 AI 智能体的 API。 https://anam.ai
 - **Andreessen Horowitz (a16z)** (1) — 风险投资机构（a16z 基础设施团队）. 风险投资机构，其基础设施团队于 2023 年与 Convex 合作发布 AI Town：一个 MIT 许可、可在浏览器中运行的 LLM 角色小镇起步套件。 https://a16z.com/
 - **Andrew Liu** (1) — Google Research 研究者. Infinite Nature（ICCV 2021）的第一作者，与 Noah Snavely、Angjoo Kanazawa 等在 Google Research 合作。
+- **Andy Serkis** (1) — 演员、导演，Imaginarium Productions 联合创始人. 以动作捕捉表演闻名的演员与导演（咕噜、凯撒），其伦敦工作室 Imaginarium 从事表演捕捉与沉浸式叙事。 http://www.imaginariumuk.com
 - **Anuttacon** (1) — AI 游戏工作室. 由米哈游联合创始人蔡浩宇创办的 AI 原生游戏工作室；2025 年发布《Whispers from the Star》。 https://www.anuttacon.com/
 - **Anything World** (1) — AI 绑定与动画公司. 为任意三维模型（包括动物和交通工具）提供自动绑定与动画的公司，提供网页应用和游戏引擎插件。 https://anything.world/
 - **AppliedVR** (1) — 数字疗法公司. RelieVRx 的开发商，这是一款经美国 FDA De Novo 途径授权、用于慢性下背痛的居家 VR 项目。 https://www.appliedvr.io/
 - **Arcturus** (1) — 体积视频软件公司. HoloSuite 的开发者，这套工具用于编辑、压缩与流式传输体积视频，后来转向基于高斯泼溅的体育回放。 https://arcturus.studio/
 - **Arena (formerly LMArena)** (1) — 众包 AI 评测平台. 源自加州大学伯克利分校的 LMSYS Chatbot Arena，运营文本、视觉、图像与视频模型的公开盲投排行榜。 https://arena.ai
 - **Ars Electronica Futurelab** (1) — Ars Electronica 的艺术与科技研究实验室. 处于艺术、技术与社会交叉点的跨学科实验室，以 Deep Space 8K 及与产业伙伴的合作闻名。 https://ars.electronica.art/futurelab/en/
-- **Artificial Analysis** (1) — 独立 AI 基准评测公司. 跨服务商评测模型的质量、价格与速度，并运营图像与视频盲投竞技场。 https://artificialanalysis.ai
+- **Art from the Machine** (1) — 独立模组开发者. 以化名活动的开发者，开发了开源模组 Mantella，让《上古卷轴 V：天际》与《辐射 4》中的 NPC 能进行由语言模型驱动的语音对话。
+- **Astronex** (1) — 机器人与世界模型团队. 开源实时世界模型基座 Astronex-World 1.0（2026）的发布团队，通过 GitHub 组织 Astronex-Robotics 发布；其他公开信息很少。 https://world.astronex.com.cn/
+- **Atlantic Studios** (1) — 由 Anthony Geffen 创立的纪实与沉浸式内容制作公司. 伦敦制作公司（原名 Atlantic Productions），以与 David Attenborough 合作的自然历史影片和 VR、XR 纪录片知名。 https://www.atlanticstudios.co.uk
+- **Autodesk Research** (1) — Autodesk 的研究部门. 专注设计、制造与人机交互的产业研究团队，长期在 UIST 和 CHI 发表创作工具方面的研究。 https://www.research.autodesk.com/
 - **Avaturn Live** (1) — 实时交互虚拟人公司. Avaturn Live 开发实时交互虚拟人，发布了包含模型权重、渲染器和服务后端的开源方案 AVTR-1。 https://avaturn.live
 - **Axon** (1) — 公共安全科技公司（TASER 电击器、执法记录仪）. TASER 电击武器与警用执法记录仪的制造商，也为警员提供 VR 训练。 https://www.axon.com/products/vr
 - **Bangbang Yang** (1) — 字节跳动 PICO 混合现实团队研究者. 研究面向 XR 的神经渲染与场景编辑。 https://ybbbbt.com/
@@ -6744,19 +9362,29 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - **Ben Poole** (1) — 谷歌研究科学家. 谷歌研究员，DreamFusion 第一作者，该论文提出了用于文生三维的分数蒸馏采样（SDS）。
 - **Biao Jiang** (1) — 复旦大学研究者. 复旦大学研究者，与腾讯合作的 MotionGPT（NeurIPS 2023）第一作者。
 - **Binbin Huang** (1) — 上海科技大学研究者. 2D 高斯泼溅（SIGGRAPH 2024）第一作者。
+- **Bing Li** (1) — 山东大学研究者. CyberSelf 的第一作者：在这个 VR 系统中，人们与一个外貌和声音都像自己的大语言模型化身对话。
+- **Binyang Han** (1) — 新西兰坎特伯雷大学研究者. IEEE VR 2026 一项研究的第一作者：在 XR 中，一个大语言模型驱动的具身智能体在目标冲突的两人之间进行调解。
 - **Blockade Labs** (1) — Skybox AI 的开发者. 开发 Skybox AI 的初创公司：一个生成 360° 等距柱状天空盒与环境的网页工具和 API。 https://www.blockadelabs.com
 - **Bodyswaps** (1) — 软技能培训公司. 为学生和员工打造在 VR 与浏览器中进行的 AI 化身角色扮演，并提供自动反馈。 https://bodyswaps.co/
+- **Bowen Zhang** (1) — 中国科学技术大学博士研究者. 与微软亚洲研究院合作的视频到 4D 扩散模型 Gaussian Variation Field Diffusion（ICCV 2025）的第一作者。
 - **Boyuan Chen** (1) — 麻省理工学院研究者，Diffusion Forcing 第一作者. 麻省理工学院的博士研究者，研究视频世界模型与机器人学习。 https://boyuan.space
 - **CAMEL-AI** (1) — 开源多智能体研究社区. CAMEL 多智能体框架与 OASIS 背后的开源社区；OASIS 是可容纳一百万个 LLM 智能体的社交媒体模拟器。 https://www.camel-ai.org/
+- **Chaoyang Wang** (1) — Snap Research 研究科学家. Snap 4D 视频扩散模型系列 4Real-Video 与 4Real-Video-V2 的第一作者。
 - **Chaoyue Song** (1) — 南洋理工大学博士研究者. 南洋理工大学研究者，与字节跳动 Seed 合作的 Puppeteer（NeurIPS 2025 亮点论文）和 MagicArticulate 第一作者。 https://chaoyuesong.github.io/
 - **Chen Tessler** (1) — 英伟达研究科学家. 英伟达研究科学家，研究基于物理的角色控制；MaskedMimic（SIGGRAPH Asia 2024）第一作者，并维护 ProtoMotions。
+- **Chengqian Ma** (1) — 北京大学研究者. Chengqian Ma 是 Motion-Omni（2026）的第一作者。这是一个开源的语音对话模型，可在生成语音的同时生成面部、手部和全身动作。 https://step-out.github.io/Motion-Omni-Page/
+- **Chong Bao** (1) — 浙江大学 CAD&CG 国家重点实验室研究者. Chong Bao 是浙江大学 CAD&CG 国家重点实验室的研究者，Archon（CVPR 2026）的第一作者；该统一多模态数字人模型与 Google 和 Google DeepMind 合作完成。 https://zju3dv.github.io/archon/
+- **Chuanrui Zhang** (1) — 南洋理工大学博士研究者，字节跳动 Seed 实习生. SIMART（SIGGRAPH 2026）第一作者，该工作在字节跳动 Seed 实习期间与南洋理工大学合作完成。 https://simart-mllm.github.io/
+- **Chuhan Zhang** (1) — Google DeepMind 研究科学家. D4RT 的第一作者，该论文获 CVPR 2026 最佳论文奖，研究前馈式 4D 重建与追踪。
 - **Claire Nee** (1) — 朴次茅斯大学司法心理学教授. 研究入室盗窃者的专业技能与决策，共同领导虚拟入室盗窃项目。
+- **Cong Wei** (1) — 滑铁卢大学博士研究者. Cong Wei 是滑铁卢大学的博士研究者，MoCha（2025）的第一作者。该工作与 Meta GenAI 团队合作完成，可根据语音和文本生成电影风格的说话角色，包括两个角色之间的对话。 https://congwei1230.github.io/MoCha/
 - **Connor Powelson** (1) — 刑事司法研究者. 2025 年一项关于警察在精神健康协同出警中如何决策的 VR 出声思维研究的第一作者。
 - **Cyrus Vachha** (1) — 加州大学伯克利分校电子工程与计算机系研究者. 研究沉浸式三维创作与辐射场（NeRF、高斯泼溅），与 Björn Hartmann 合作。
 - **D-ID** (1) — 数字人与可视化 AI 智能体公司. D-ID 能让照片中的人脸动起来，并提供实时的可视化 AI 智能体；2026 年推出面向交互与脚本场景的 V4 Expressive 虚拟人。 https://www.d-id.com
 - **Daily** (1) — WebRTC 音视频基础设施公司. 提供实时视频 API，维护开源智能体框架 Pipecat 与 Pipecat Cloud。 https://www.daily.co
 - **Dan Pollak** (1) — 赖克曼大学先进现实实验室研究员. Inceptor 的第一作者，该流程可为心理健康训练生成社会 VR 片段。
 - **Daniel Duckworth** (1) — Google DeepMind 研究工程师. Google 研究者，SMERF 第一作者，这是一种可在浏览器中流式加载大场景的辐射场。
+- **Daniel Watson** (1) — Google DeepMind 研究科学家. 4DiM 及谷歌早期三维新视角扩散工作 3DiM 的共同第一作者。
 - **Danijar Hafner** (1) — 研究科学家，Dreamer 系列智能体作者. Google DeepMind 研究科学家，以 Dreamer 系列世界模型智能体闻名。 https://danijar.com
 - **Danlin Huang** (1) — 设计研究者，中国美术学院创新设计学院. 与 Reality Design Lab 合作创作以身体为中心的思辨混合现实作品，如 Body Oracle 与 FungiSync。
 - **David Charatan** (1) — 麻省理工学院博士研究者. 麻省理工学院研究者，pixelSplat（CVPR 2024）第一作者。
@@ -6767,20 +9395,32 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - **Dehui Kong** (1) — 卡尔斯鲁厄理工学院研究员. CoEmpaTeam（CHI 2026）的第一作者，这是一个用大语言模型化身训练认知共情的 VR 系统。
 - **Denis Rozumny** (1) — Meta 研究者. Meta 研究者，BulletGen 第一作者。
 - **Dian Zheng** (1) — 上海人工智能实验室、中山大学研究者. VBench-2.0 的第一作者，该基准检验生成视频在物理与常识上的可信度。
-- **Domna Banakou** (1) — 虚拟具身研究者（巴塞罗那大学 EventLab）. 研究虚拟身体与场景的渐进变化如何改变知觉、态度与焦虑。
+- **Duo Wang** (1) — 伊利诺伊大学厄巴纳-香槟分校传媒学院研究者. EmSim 的第一作者：这是一个由大语言模型评分、在警校学员中试用的 VR 冲突降级模拟器。
+- **Duowen Chen** (1) — 仿真与图形学研究者（佐治亚理工学院）. Duowen Chen 在佐治亚理工学院 Bo Zhu 课题组研究生成式三维世界中的仿真与声音。
 - **Dylan Ebert** (1) — Hugging Face 机器学习工程师. 在 Hugging Face 从事三维机器学习，3D Arena 的创建者。
 - **Dynamics Lab** (1) — 生成式游戏引擎初创公司. 推出 Mirage（2025 年 7 月）与 Mirage 2（2025 年 8 月）这两款可在浏览器中游玩的生成式世界引擎的初创公司；2026 年 10 月核查时，其网站与发布帖均已下线。
 - **Egon Brunswik** (1) — 心理学家，加州大学伯克利分校（1903–1955）. 出生于匈牙利的心理学家，提出概率功能主义与“透镜模型”，主张实验应像抽样被试一样认真地抽样情境。
 - **Eloi Alonso** (1) — 研究者，DIAMOND 第一作者. 日内瓦大学的机器学习研究者，研究用于强化学习的扩散世界模型。
+- **Emergence AI** (1) — 带有研究实验室的智能体系统公司. 总部位于纽约的公司，为企业构建自主智能体系统。其研究实验室运营 Emergence World，一个长期运行的大语言模型智能体社会模拟。 https://www.emergence.ai/
+- **Enyao Chang** (1) — 北京交通大学软件学院研究者. 2026 年一项关于 VR 演讲练习中大语言模型驱动的“教练评委”的随机研究的第一作者。
 - **Erzhen Hu** (1) — 弗吉尼亚大学计算机系博士研究者. 研究 XR 通信，与 Google XR 合作者完成 Thing2Reality 的第一作者。
+- **Esen K. Tütüncü** (1) — 巴塞罗那大学神经科学研究所研究者. HCI 与 XR 研究者，PlayWrite 的第一作者，该项目与 Autodesk Research（多伦多、旧金山）合作完成。
 - **Etched** (1) — AI 芯片公司. 设计 Transformer 专用推理芯片 Sohu 的初创公司，与 Decart 合作开发了 Oasis。 https://www.etched.com
+- **Evercoast** (1) — 4D 体积捕捉公司. 旗下 Mavericks 采集软件与 Cloudbreak 处理软件可把同步多相机画面转换为 4D 空间视频，用于音乐、体育、虚拟制片与机器人数据。 https://evercoast.com/
+- **Eyeline Labs (Netflix)** (1) — Netflix 旗下 Eyeline 制作技术团队的研究实验室. 隶属 Netflix 的研究实验室，研究面向影视制作的生成式视频与拍摄技术，成果包括 Vista4D（CVPR 2026 Highlight）。 https://eyeline-labs.github.io/Vista4D/
+- **Fangfu Liu** (1) — 研究者，Gamma-World 第一作者（与 NVIDIA 合作）. Gamma-World（2026）的第一作者；该多智能体交互世界模型来自 NVIDIA Research 空间智能实验室。
 - **Fernanda De La Torre** (1) — 麻省理工学院脑与认知科学系研究者；与微软合作的 LLMR 第一作者. 主导 LLMR：微软用语言模型创建与修改交互式混合现实世界的框架。
 - **Fernanda Herrera** (1) — 斯坦福虚拟人交互实验室研究员. 主导了比较 VR 与传统换位思考的大规模《Becoming Homeless》研究。
 - **Figmin XR** (1) — 混合现实创作应用 Figmin XR 背后的独立团队. 开发 Figmin XR：一款跨平台（Quest、Vision Pro、HoloLens）的应用，用于搭建和分享混合现实场景、玩具与可编程物体。 https://figmin.com
+- **Fish Audio** (1) — 语音 AI 公司（Hanabi AI Inc.）. Fish Audio 运营语音合成与声音克隆平台，并发布开源权重的语音合成模型，从 Fish Speech 到 Drama 3。 https://fish.audio
+- **Floreo** (1) — 为自闭症及神经多样性学习者提供临床设计课程的 VR 平台. 在头显上提供 VR 课程（社交技能、安全、与警察互动），由辅导者跟进并引导学习者；联合创始人兼 CEO 为 Vijay Ravindran。 https://floreovr.com/
 - **Gale Lucas** (1) — 南加州大学创意技术研究所研究员. 社会心理学家，发现人们在相信虚拟人由计算机控制时会披露更多。
 - **General Intuition** (1) — 研究在时空中行动的智能体的 AI 实验室. 从游戏片段平台 Medal 分拆出来的 AI 实验室，利用大规模游戏视频档案训练智能体与世界模型。 https://generalintuition.com
 - **Genmo** (1) — 开源视频模型初创公司. 发布了 100 亿参数、Apache 2.0 许可的开源文生视频模型 Mochi 1。 https://www.genmo.ai
+- **GoodAI** (1) — 人工智能研究公司与游戏开发商. 总部位于布拉格的人工智能研究公司，由 Marek Rosa（Keen Software House 创始人）创办；开发了由大语言模型驱动 NPC 的沙盒游戏 AI People。 https://www.goodai.com/
 - **Gracia** (1) — 体积高斯视频公司. 将 4D 高斯泼溅视频流式传输到 Quest、Pico、Apple Vision Pro、桌面与浏览器的公司，2026 年起把重点表述为面向物理 AI 的世界重建模型。 https://gracia.ai/
+- **Gradium** (1) — 由 Kyutai 的 Moshi 研究者创立的语音 AI 公司. Gradium 为语音智能体提供流式语音合成、语音识别、翻译与声音设计；到 2026 年 7 月其种子轮融资达到 1 亿美元。 https://gradium.ai
+- **Guan-Ting Lin** (1) — 台湾大学研究者. 李宏毅课题组的语音研究者，Full-Duplex-Bench 的第一作者，该基准与加州大学伯克利分校的合作者共同开发。
 - **Guanjun Wu** (1) — 华中科技大学研究者. 《4D Gaussian Splatting for Real-Time Dynamic Scene Rendering》（CVPR 2024）第一作者。
 - **Guanzhi Wang** (1) — 人工智能研究者（加州理工学院、英伟达）. 加州理工学院博士研究者，与英伟达合作；Voyager（2023）的第一作者，该智能体通过编写并保存代码技能来探索 Minecraft。
 - **Guibao Shen** (1) — 立体转换研究者. 香港科技大学（广州）研究者，StereoPilot 第一作者，该工作在快手可灵团队实习期间完成。
@@ -6788,76 +9428,118 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - **Gustav Bøg Petersen** (1) — 与斯坦福虚拟人交互实验室合作的研究者. 研究 VR 中的学习与环境态度，OceanSpeak 对话式 AI 研究的第一作者。
 - **Guy Tevet** (1) — 特拉维夫大学研究者. 特拉维夫大学研究者（与 Amit Bermano、Daniel Cohen-Or 合作），人体动作扩散模型 MDM（ICLR 2023）第一作者。 https://guytevet.github.io/
 - **Habin Lim** (1) — 高丽大学研究者. Habin Lim 是 FacePlex（2026）的共同第一作者。该模型来自高丽大学与 Klleon，可全双工地生成语音与面部动作，并用高斯泼溅渲染。 https://hahminlew.github.io/faceplex
+- **Haiyu Zhang** (1) — 研究者，WorldPlay2 第一作者. WorldPlay2（2026）的共同第一作者；该工作是腾讯混元实时世界模型 WorldPlay 的后续研究，作者与 WorldPlay 多有重合。
 - **Hal Hershfield** (1) — 加州大学洛杉矶分校安德森管理学院市场营销与行为决策教授. 研究“未来自我”心理学；与斯坦福 VHIL 合作发现，见到自己变老的化身会增加储蓄。
+- **Hanmo Chen** (1) — 音视频联合生成研究者（西安电子科技大学与 vivo 蓝图影像实验室）. Hanmo Chen 在西安电子科技大学和 vivo 蓝图影像实验室研究音视频联合生成。
 - **Hanwen Liang** (1) — 多伦多大学研究者. 多伦多大学的博士研究者，与 Snap Research 合作完成 Wonderland 并任第一作者。
 - **Hanxue Liang** (1) — 剑桥大学 / NVIDIA 研究者. NVIDIA 前馈式子弹时间重建模型 BTimer 的第一作者。
+- **Hao Zhang** (1) — 伊利诺伊大学厄巴纳-香槟分校博士研究者，Snap 研究实习生. 伊利诺伊大学厄巴纳-香槟分校研究者，与 Snap Research 合作完成的 RigMo 第一作者。 https://haoz19.github.io/
 - **Haotong Lin** (1) — 字节跳动 Seed / 浙江大学研究者. Depth Anything 3 第一作者。
+- **Haoxuan Che** (1) — 香港科技大学研究者，GameGen-X 第一作者. GameGen-X（2024）的第一作者；该模型是用于生成并交互控制开放世界游戏视频的扩散 Transformer。
 - **Haoyi Duan** (1) — 斯坦福大学研究者. 与吴佳俊、李飞飞合作，WorldScore 的第一作者。 https://haoyi-duan.github.io
+- **Haoyi Zhu** (1) — 上海人工智能实验室研究者. 上海人工智能实验室开源几何感知世界模型 Aether 的第一作者。
 - **Haoyu Wang** (1) — 伦敦帝国理工学院戴森设计工程学院研究者. 研究混合现实中的触觉与生成式 AI，与多伦多大学 Dynamic Graphics Project 合作者共同完成 Prop-Chromeleon。
-- **Haozhe Xie** (1) — 南洋理工大学 S-Lab 研究者. 南洋理工大学刘子纬 S-Lab 的研究者，CityDreamer 与 CityDreamer4D 的第一作者。 https://www.infinitescript.com
+- **Haoyuan Li** (1) — 研究者，PanoWorld 第一作者. PanoWorld（2026）的第一作者；该具备长程记忆的全景世界模型由 Insta360 研究团队与中国科学院自动化研究所合作完成。
 - **Hedra** (1) — 生成式角色视频公司. Hedra 开发音频驱动的角色视频模型（Character-3）和制作会说话角色的工作室。 https://www.hedra.com
 - **Heng Yu** (1) — 卡内基梅隆大学博士研究者. 4Real（NeurIPS 2024）第一作者，与 Snap Research 合作完成。
-- **HeyGen** (1) — AI 视频虚拟人平台. HeyGen 提供 AI 虚拟人视频制作，并通过 LiveAvatar 提供实时虚拟人流式 API。 https://www.heygen.com
 - **Ho Kei Cheng** (1) — 计算机视觉研究者（伊利诺伊大学厄巴纳-香槟分校）. Ho Kei（Rex）Cheng 以视频目标分割（XMem、Cutie）以及与 Sony AI 合作开发的 MMAudio 视频配音模型而知名。 https://hkchengrex.com
-- **Huadai Liu** (1) — 音频生成研究者（浙江大学）. Huadai Liu 在浙江大学研究文本、视频与空间音频的生成。
+- **Horizon Robotics** (1) — 中国的车载与机器人 AI 芯片及软件公司. 地平线研发 AI 处理器与智能驾驶软件；其机器人团队开源了 EmbodiedGen 工具包（2025）和 EmbodiedGen V2（2026）。
+- **Huan Ling** (1) — 英伟达多伦多 AI 实验室研究科学家. 英伟达基于动态三维高斯的文本到 4D 方法 Align Your Gaussians 的第一作者。 https://www.cs.toronto.edu/~linghuan/
 - **Hugues Bruyère** (1) — Dpt.（蒙特利尔）合伙人与创新负责人. 创意技术专家，用实时生成模型制作交互装置与混合现实体验原型。
 - **Hunter Hoffman** (1) — 华盛顿大学研究科学家. 与 David Patterson 合作开发 SnowWorld，在烧伤换药时分散患者对疼痛的注意。
+- **Insta360** (1) — 拥有 AI 研究团队的全景相机厂商. 消费级全景相机厂商；其研究团队与中国科学院自动化研究所合作，于 2026 年发布全景世界模型 PanoWorld。 https://www.insta360.com/
+- **JD.com** (1) — 中国电商与科技公司. 中国零售与科技集团，其 JoyAI 团队通过 jd-opensource 发布开源模型。 https://www.jd.com
 - **Jacob Barker** (1) — VORTeX（2026）第一作者. 开发用于训练和评估外科团队协作的“虚拟手术室团队体验”（VORTeX）。
 - **Jaewook Lee** (1) — 华盛顿大学 Makeability Lab 博士研究者. 研究 AI 驱动的增强现实，与 Niantic Spatial 合作主导 ImaginateAR。
 - **Jaeyeon Kim** (1) — 视听学习研究者（首尔大学）. Jaeyeon Kim 在首尔大学视觉与学习实验室研究视听生成。 https://jaeyeonkim99.github.io/visage/
 - **Jaeyoung Chung** (1) — 首尔国立大学计算机视觉实验室研究者. 首尔国立大学 Kyoung Mu Lee 实验室的研究者，LucidDreamer 的共同第一作者。
 - **Jawset** (1) — Postshot 开发商. 开发 Postshot 的小型软件公司，Postshot 是在本地 GPU 上训练和编辑辐射场与高斯泼溅的桌面应用。 https://www.jawset.com/
-- **Jia-Peng Zhang** (1) — 清华大学研究者. 清华大学研究者，与 VAST 合作的 UniRig（SIGGRAPH 2025）第一作者。 https://zjp-shadow.github.io/
+- **Jiahao Lu** (1) — 香港科技大学博士研究者. GAE（2026）的共同第一作者；该工作与腾讯 ARC 实验室合作，为世界生成提出了几何原生的潜空间。 https://jiah-cloud.github.io/GAE.github.io/
+- **Jianan Jiang** (1) — 宾夕法尼亚州立大学 SNeC 实验室博士研究者. 研究扩展现实中的生成式三维创作，在宾州州立大学与 Bin Li 合作。 https://horizonjohn.github.io/
 - **Jianhong Bai** (1) — 镜头可控视频研究者. 浙江大学研究者，与快手可灵团队合作完成 ReCamMaster。 https://jianhongbai.github.io/
 - **Jiaxiang Tang** (1) — 北京大学博士研究者. 北京大学研究者，DreamGaussian（ICLR 2024 口头报告）第一作者，是较早把三维高斯泼溅用于生成的工作。 https://me.kiui.moe/
-- **Jim Blascovich** (1) — 社会心理学家，加州大学圣塔芭芭拉分校. 共同创办加州大学圣塔芭芭拉分校的虚拟环境与行为研究中心，倡导把沉浸式 VR 作为社会心理学的研究方法。
+- **Jiaxin Huang** (1) — 浙江大学 X-D Lab（廖依伊课题组）研究者. Gen3R（CVPR 2026）的第一作者，该工作把视频扩散模型与 VGGT 重建模型耦合在一起。 https://xdimlab.github.io/Gen3R/
 - **Jing Tan** (1) — 沉浸式视频生成研究者. 香港中文大学研究者，Imagine360 第一作者。
+- **Jingjing Jiang** (1) — 名古屋大学研究者. Jingjing Jiang 是 Moshi-Face（Interspeech 2026）的第一作者，来自名古屋大学信息学研究科东中龙一郎（Ryuichiro Higashinaka）的对话系统团队。 https://arxiv.org/abs/2606.21970
+- **Jingwei Ma** (1) — 全景视频合成研究者. 华盛顿大学研究者，与 Google DeepMind 合作的 VidPanos（SIGGRAPH Asia 2024）第一作者。 https://vidpanos.github.io/
 - **Jonathan Steuer** (1) — 传播学研究者（1992 年时在斯坦福大学）. 1992 年发表论文，以“远程临场”体验及其两个决定因素——生动性与交互性——来定义虚拟现实。
 - **Jonathan Tseng** (1) — 斯坦福大学研究者. 斯坦福大学研究者（与 C. Karen Liu 合作），由音乐生成可编辑舞蹈的 EDGE（CVPR 2023）第一作者。 https://edge-dance.github.io/
+- **Joseph P. McCleery** (1) — 费城的自闭症研究者. 临床科学家，自 2018 年起与费城儿童医院自闭症研究中心合作，在自闭症青少年与成人中测试 Floreo 的 VR 警察安全模块。
+- **Junliang Guo** (1) — 微软研究院研究者，MineWorld 第一作者. MineWorld（2025）的第一作者；MineWorld 是微软研究院开源的 Minecraft 实时交互世界模型。
+- **Junyi Wu** (1) — 研究者，World-T3 第一作者. World-T3（2026）的第一作者；该实时视频世界模型采用测试时训练记忆，由伊利诺伊大学芝加哥分校与 Meta Reality Labs 合作完成。
 - **Junyi Zhang** (1) — 加州大学伯克利分校博士研究者. MonST3R（ICLR 2025）第一作者。
+- **Justin Cui** (1) — 长视频生成研究者. 加州大学洛杉矶分校研究者，Self-Forcing++ 第一作者，该工作与字节跳动 Seed 合作完成。
 - **K R Prajwal** (1) — 唇形同步与语音驱动视频研究者. K R Prajwal 当时在印度海得拉巴国际信息技术学院（IIIT Hyderabad），是 Wav2Lip（ACM Multimedia 2020）的第一作者。
 - **K. Anders Ericsson** (1) — 心理学家，佛罗里达州立大学（1947–2020）. 瑞典心理学家，开创了专家表现研究，并界定了“刻意练习”的概念。
 - **Kaifeng Zhao** (1) — 苏黎世联邦理工学院博士研究者. 苏黎世联邦理工学院研究者（与 Siyu Tang 合作），在英伟达完成的 ARDY（SIGGRAPH 2026）第一作者。 https://research.nvidia.com/labs/sil/projects/ardy/
 - **Kaixin Yao** (1) — 上海科技大学与影眸科技研究者. CAST（SIGGRAPH 2025 最佳论文）的第一作者，该工作由上海科技大学与影眸科技完成。
 - **Kamilla Bergsnev** (1) — 2026 年一篇关于 AI 用于 VR 暴露疗法的系统综述的第一作者. 系统梳理了人工智能如何被用来定制 VR 暴露疗法的研究者。
+- **Kandinsky Lab** (1) — Kandinsky 图像与视频模型的研发团队. 发布 Kandinsky 图像、视频与世界模型的研究团队，多数模型为开源权重；Kandinsky 6.0 Video（2026）可生成带同步音频的视频。 https://kandinskylab.ai
+- **Kartik Teotia** (1) — 马克斯·普朗克信息学研究所研究者. Kartik Teotia 在马克斯·普朗克信息学研究所 Christian Theobalt 团队研究对话式三维头部化身，是 STEER（SIGGRAPH Asia 2026）的第一作者。 https://kartik-teotia.github.io/STEER/
+- **Ke Xing** (1) — 立体视频生成研究者. 北京交通大学研究者（与 Dzine AI 合作），StereoWorld（CVPR 2026）第一作者。 https://ke-xing.github.io/StereoWorld/
+- **Kevin Xie** (1) — NVIDIA 多伦多 AI 实验室研究者. NVIDIA 多伦多 AI 实验室研究者，VideoPanda 共同第一作者。 https://research.nvidia.com/labs/toronto-ai/VideoPanda/
+- **Kim Youwang** (1) — POSTECH 博士研究者. Kim Youwang 是 POSTECH 的博士研究者，FiCA（2026）的第一作者。该工作在 Meta Codec Avatars 实验室实习期间完成，可从一张人像照片生成可驱动的高斯 Codec Avatar。 https://youwangk.github.io/FiCA.html
+- **Kiwhan Song** (1) — MIT 研究者，《历史引导视频扩散》第一作者. 《历史引导视频扩散》（ICML 2025）的第一作者；该工作与 Boyuan Chen、Max Simchowitz、Yilun Du、Russ Tedrake、Vincent Sitzmann 合作提出 Diffusion Forcing Transformer。
+- **Koji Inoue** (1) — 京都大学研究者. Koji Inoue 在京都大学河原达也（Tatsuya Kawahara）实验室研究对话机器人与虚拟人的语音对话和倾听行为（附和、话轮转换、点头）。
+- **Kolby Nottingham** (1) — 人工智能研究者. 研究游戏中的语言模型智能体；与 Max Robinson 共同开发 Mindcraft，后者的 YouTube 频道 Emergent Garden 让这个机器人广为人知。 https://kolbynottingham.com/
 - **Konstantin W. Kühlem** (1) — 亚琛工业大学视觉计算研究所研究员. VR 中具身对话智能体低延迟大语言模型对话系统（IVA 2025）的第一作者。
 - **Krea** (1) — 实时创意 AI 工具公司. 以实时图像生成著称的创意工具公司；2025 年 10 月发布开源的 Krea Realtime 14B 视频模型。 https://www.krea.ai
+- **Kunhao Liu** (1) — 流式视频生成研究者. 南洋理工大学研究者，Rolling Forcing（ICLR 2026）第一作者，该工作与腾讯 ARC 实验室合作完成。 https://kunhao-liu.github.io/
 - **Kyle Johnsen** (1) — 计算机科学家（佛罗里达大学，后任职于佐治亚大学）. 与 Benjamin Lok 团队合作构建并验证了用于医学问诊训练的真人大小虚拟病人。
+- **Leia Inc.** (1) — 3D 显示与空间 AI 公司（Immersity）. 可切换 2D/3D 光场显示屏与 Immersity 平台的开发者，其软件估计普通照片和视频的深度，从而以 3D 方式呈现。 https://www.immersity.ai
 - **LemonSlice** (1) — 交互式虚拟人模型公司. LemonSlice 开发用于交互式虚拟人的实时视频扩散模型（2025 年的 LemonSlice-2、2026 年的 Character World Model-1），可从一张图像驱动任意角色。 https://lemonslice.com
+- **Liangyang Ouyang** (1) — 东京大学博士研究者，HelloWorld 第一作者. HelloWorld（2026）的第一作者；该视频世界模型让画面中的角色能对用户做出社交回应，由 Alaya Lab 与东京大学佐藤洋一实验室合作完成。
 - **Light in the Head** (1) — Marc Da Costa 与 Matthew Niederhauser 的工作室. 使用机器学习、VR 与装置创作的艺术家二人组，也是 Sensorium 的联合创始人。
 - **Lihan Jiang** (1) — 中国科学技术大学 / 上海人工智能实验室研究者. AnySplat（SIGGRAPH Asia 2025）第一作者。
 - **Lihe Yang** (1) — 香港大学研究者. 香港大学赵恒爽组的博士研究者，与字节跳动（TikTok）合作的 Depth Anything 与 Depth Anything V2 的第一作者。 https://liheyoung.github.io
+- **Lingen Li** (1) — 全景视频生成研究者. 香港中文大学研究者，CubeComposer（CVPR 2026）第一作者，该工作与腾讯 ARC 实验室合作完成。 https://lg-li.github.io/
+- **Linxi (Jim) Fan** (1) — 人工智能研究者（英伟达）. 英伟达研究科学家，研究具身智能体与机器人基础模型；MineDojo（2022）的第一作者，也是 Voyager（2023）的合作者。 https://jimfan.me/
 - **Linyi Jin** (1) — 密歇根大学 / Google DeepMind 博士研究者. Stereo4D（CVPR 2025）第一作者，与 Google DeepMind 合作，利用互联网 VR180 视频构建。
+- **Linzhan Mou** (1) — 普林斯顿大学博士研究者. 普林斯顿大学图形学研究者（与 Adam Finkelstein、Szymon Rusinkiewicz 合作），UniMate（SIGGRAPH Asia 2026）第一作者。 https://linzhanmou.com/unimate/
 - **Liquid City** (1) — 由 Keiichi Matsuda 创立的设计工作室. 由设计师、电影人 Keiichi Matsuda（Hyper-Reality、Merger）领导的工作室，设计 AR、AI 智能体与空间界面。 https://www.liquid.city
 - **LiveKit** (1) — 实时音视频基础设施公司. 开发开源 WebRTC 媒体服务器、LiveKit Agents 框架与 LiveKit Cloud。 https://livekit.io
 - **Longwen Zhang** (1) — 上海科技大学 / 影眸科技研究者. CLAY（SIGGRAPH 2024）第一作者，该原生三维生成模型后来成为 Rodin Gen-1。
 - **Lu Ling** (1) — 普渡大学研究者. DL3DV-10K 的第一作者，这是一个面向三维视觉的大型真实场景视频数据集。 https://dl3dv-10k.github.io/DL3DV-10K/
 - **Lukas Höllein** (1) — 慕尼黑工业大学研究者. 慕尼黑工业大学 Matthias Niessner 视觉计算与 AI 实验室的博士研究者，Text2Room 的第一作者。 https://lukashoel.github.io
 - **Lvmin Zhang** (1) — 可控生成研究者. 斯坦福博士研究者，ControlNet、IC-Light 与 FramePack 的作者。
-- **Mar Gonzalez-Franco** (1) — XR 研究科学家（Google；曾任职于微软研究院）. 从事化身、具身与社交 XR 研究的神经科学家与工程师，主导了米尔格拉姆范式的 VR 复现研究。
+- **Manycore Tech** (1) — 杭州公司，运营酷家乐室内设计平台，并开源空间智能模型. 群核科技运营酷家乐室内设计平台，并开源了 SpatialLM（2025）和 SpatialGen（2025）等空间智能模型。 https://manycoretech.com/
+- **Marcel Binz** (1) — 认知科学家（慕尼黑亥姆霍兹中心）. 慕尼黑亥姆霍兹中心“以人为本人工智能研究所”的研究者，构建人类认知的机器学习模型；Centaur（《自然》，2025）的第一作者。
 - **Martin de La Gorce** (1) — 微软研究者. 微软研究者，VoluMe（2025）第一作者。
+- **Math Magic (Hi3D)** (1) — Hi3D 背后的三维生成公司. 深圳公司，开发 Hi3D（原名 Hitem3D）图生三维平台，面向游戏、设计和 3D 打印，提供模型拆分和多色打印准备等功能。 https://www.hi3d.ai
 - **Matt Deitke** (1) — AI 研究者（Objaverse、Objaverse-XL）. 在艾伦人工智能研究所主导了 Objaverse 与 Objaverse-XL 三维数据集。 https://mattdeitke.com
+- **Matt Gottsacker** (1) — 中佛罗里达大学研究者. 2026 年 VERA 论文的第一作者，该研究让 263 名参与者用自己的头显远程完成晕动症实验。
+- **Matt Zhou** (1) — 剑桥大学研究者. Articraft 第一作者；该系统由剑桥大学 Shangzhe Wu 课题组与牛津大学视觉几何组（VGG）合作完成，用智能体生成可活动的三维资产。 https://articraft3d.github.io/
 - **Matthew J. Smith** (1) — 社会工作研究者（西北大学，后任职于密歇根大学）. 以虚拟面试官 Molly Porter 为核心的虚拟现实求职面试训练试验的第一作者。
+- **Max Kinateder** (1) — 研究火灾与疏散中人类行为的研究者. 用 VR 研究疏散决策的心理学家；2016 年的真实与虚拟环境对比研究是他与 William H. Warren 在布朗大学完成的。
 - **Mehdi Moussaïd** (1) — 马克斯·普朗克人类发展研究所研究科学家. 研究人群行为与集体动力学，包括让真实参与者在共享虚拟环境中进行人群疏散实验。
-- **Meituan** (1) — 科技公司（MeiGen / LongCat 团队）. 美团的 MeiGen 团队发布了 MultiTalk 和 InfiniteTalk，这是用于音频驱动说话视频与配音的开源模型。 https://www.meituan.com
+- **Mehrnaz Hosseinzadeh** (1) — 认知与行为科学研究者. 2026 年一篇关于心理学与认知神经科学中沉浸式 VR 实验搭建工具的范围综述的第一作者。
 - **Meng-Li Shih** (1) — 研究者（弗吉尼亚理工，后至华盛顿大学）. 《3D Photography using Context-aware Layered Depth Inpainting》（CVPR 2020）的第一作者，合作者包括黄嘉斌与 Johannes Kopf。 https://shihmengli.github.io
-- **Michael Wiesing** (1) — 巴塞罗那大学 EventLab 研究员. 研究 VR 体验如何延续到物理现实中的信念与行动。
+- **Michal Geyer** (1) — 视频合成研究者. 魏茨曼科学研究所研究者，Eye2Eye 第一作者（工作在 Google DeepMind 完成）。 https://video-eye2eye.github.io/
 - **Midjourney** (1) — 独立图像与视频生成实验室. 自筹资金的实验室，以审美导向的图像模型著称；2025 年 6 月发布首个视频模型。 https://www.midjourney.com
+- **Mirelo** (1) — 制作视频生成音效模型的音频 AI 公司. Mirelo 开发为视频添加音效、拟音与环境声的生成模型，通过在线工作室、API 和剪辑软件插件提供。 https://mirelo.ai
 - **Moonvalley** (1) — 面向影视创作者的视频生成公司. 与工作室 Asteria 一同开发只用授权素材训练的视频模型 Marey。 https://www.moonvalley.com
 - **Moreah Zisquit** (1) — 赖克曼大学研究员. 2025 年一项在 VR 自我对话咨询中加入 AI 智能体的形成性研究的第一作者。
+- **Moxin** (1) — 基于 NPU 构建世界模型的公司. MoWorld（2026）的开发公司；它称 MoWorld 是首个基于神经网络处理器（NPU）构建的实时交互世界模型，曾在 2026 年世界人工智能大会展出，并于 2026 年 9 月开源。 https://moxin-tech.github.io/moworld/
 - **Mursion** (1) — 沉浸式模拟训练公司. 源于“人在回路”教学模拟器的研究；由受过训练的模拟专员实时为化身配音并操控其行为，公司如今主打 AI 驱动的模拟。 https://www.mursion.com/
+- **Muyao Niu** (1) — 东京大学博士研究者，与 Alaya Lab 合作. WorldSculpt（2026）的第一作者，该项目由 Alaya Lab 与东京大学合作完成。 https://alaya-lab.github.io/WorldSculpt/
+- **Muzhe Wu** (1) — 密歇根大学博士研究者. 与 Anhong Guo、Xu Wang 合作，研究为现实任务生成的 AI 指导。
 - **Naisha Agarwal** (1) — 加州大学洛杉矶分校研究者；微软研究院合作者. 与微软研究院的 Judith Amores、Andrew D. Wilson 合作主导 Storycaster。
 - **Nels Numan** (1) — 伦敦大学学院博士研究者；微软研究院合作者. 研究协作式混合现实与远程临场，SpaceBlender 第一作者，也是 XR Blocks 的合作者。
 - **NetEase Games** (1) — 电子游戏开发商与发行商. 中国游戏公司，旗下有《逆水寒》《蛋仔派对》《永劫无间》；2023 年在《逆水寒》手游中上线 LLM 驱动的 NPC，2025 年在《永劫无间》手游 PC 版中上线基于英伟达 ACE、本地运行的 AI 队友。 https://www.neteasegames.com/
 - **Nick Yee** (1) — 化身与网络游戏研究者（斯坦福 VHIL；后联合创办 Quantic Foundry）. 在斯坦福读博期间与 Jeremy Bailenson 一起提出“普罗透斯效应”，之后大规模研究玩家动机。
 - **Nicolas Moenne-Loccoz** (1) — NVIDIA 研究者. NVIDIA 研究者，3D Gaussian Ray Tracing（3DGRT）第一作者。
+- **Nicolas von Lützow** (1) — 慕尼黑工业大学视觉计算与人工智能实验室博士研究者. GaussianGPT（ECCV 2026 口头报告）的第一作者，该工作完成于慕尼黑工业大学 Matthias Niessner 的研究组。 https://nicolasvonluetzow.github.io/GaussianGPT/
 - **Nikhil Keetha** (1) — 卡内基梅隆大学 / Meta 博士研究者. MapAnything 第一作者，这是 Meta 与卡内基梅隆大学合作的公制三维重建模型。
+- **Noiz AI** (1) — 音视频生成式 AI 公司. 与香港科技大学合作发布 HelixWorld（2026）的公司；HelixWorld 是一个同时生成视频与空间立体声的实时世界模型。 https://helixworld.org/
 - **Nozomu Iwai** (1) — Preferred Networks 研究者. Preferred Networks 研究者，与 Fabrice Matulic 合作完成 AR 会说话物件研究（CHI 2025 扩展摘要）的第一作者。
 - **OpenBMB** (1) — 面壁智能与清华 NLP 实验室的开源模型社区. OpenBMB 是 MiniCPM 系列模型背后的开源项目，由面壁智能与清华大学自然语言处理实验室主导。 https://www.openbmb.cn
 - **Overworld** (1) — 开源世界模型初创公司. 发布可在消费级显卡本地运行的开源实时扩散世界模型（Waypoint）及开源客户端 Biome 的初创公司。 https://over.world
 - **Patrick Kenny** (1) — 南加州大学创意技术研究所研究员（2000 年代）. 在 USC ICT 主持虚拟人与虚拟病人项目，包括 2007 年 I/ITSEC 上关于构建训练用交互式虚拟人的综述。
 - **Patrick McClanahan** (1) — 犯罪学研究者，宾夕法尼亚虚拟入室盗窃项目（马克斯·普朗克犯罪、安全与法律研究所）. 主导虚拟入室盗窃项目的宾夕法尼亚分支，把 VR 盗窃任务带进美国监狱，并以开放获取方式公开了虚拟街区。
 - **Peiwen Sun** (1) — 空间音频生成研究者（香港科技大学）. Peiwen Sun 在香港科技大学研究语言驱动的音频生成。 https://peiwensun2000.github.io/bewo/
+- **Peng Dai** (1) — 立体与空间视频研究者. 香港大学研究者，与 Google 合作的 S²VG 第一作者。 https://daipengwa.github.io/S-2VG_ProjectPage/
+- **Pengjun Fang** (1) — 音频生成研究者（香港科技大学与 Noiz AI）. Pengjun Fang 在香港科技大学和初创公司 Noiz AI 研究视频到音频的生成。
+- **Philippa Garety** (1) — 伦敦国王学院临床心理学教授. 临床心理学家，主持了针对精神病患者痛苦幻听的数字化身疗法 AVATAR2 试验。
 - **Pika** (1) — 面向大众的视频生成初创公司. 2023 年由斯坦福博士生创立，以 Pika 1.0 和趣味化编辑特效著称。 https://pika.art
 - **Polycam** (1) — 三维捕捉应用公司. 一款覆盖 LiDAR、摄影测量与高斯泼溅的手机、网页与无人机三维捕捉应用的开发商。 https://poly.cam/
 - **Preferred Networks** (1) — 日本人工智能公司. 总部位于东京的 AI 公司，开发深度学习模型与 AI 芯片，并开展包括 AR 与角色交互在内的应用研究。 https://www.preferred.jp/en/
@@ -6865,21 +9547,34 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - **Proxima** (1) — 独立游戏工作室. 《Suck Up!》背后的小型工作室；在这款喜剧游戏里，玩家要说服由 AI 驱动的镇民让吸血鬼进门。 https://www.playsuckup.com/
 - **Qi Wu** (1) — NVIDIA 研究者. NVIDIA 研究者，3DGUT（CVPR 2025）第一作者。
 - **Qian Wang** (1) — 全景视频生成研究者. 北京大学深圳研究生院研究者，360DVD 第一作者。
+- **Qirui Wu** (1) — 西蒙菲莎大学博士研究者，英伟达实习生. 西蒙菲莎大学研究者（与 Angel X. Chang 合作），与英伟达学习与感知研究组合作完成的 GATOR 第一作者。 https://research.nvidia.com/labs/lpr/gator/
+- **Rafail Fridman** (1) — 魏茨曼科学研究所研究者（Tali Dekel 课题组）. SceneScape（NeurIPS 2023）的第一作者，该工作以统一网格实现文本驱动的无限场景生成。 https://scenescape.github.io/
+- **Rajmund Nagy** (1) — 瑞典皇家理工学院博士研究者. 在瑞典皇家理工学院与 Gustav Eje Henter 合作研究手势生成，GENEA Challenge 2026 报告的第一作者。 https://genea-workshop.github.io/2026/challenge/
 - **Ramon Oliva** (1) — 巴塞罗那大学 EventLab 研究员. 与 Mel Slater 团队开发 VR 系统并开展社交 VR 研究，包括 2026 年关于会议小组讨论中化身互换与大语言模型驱动的艾伦·图灵的研究。
+- **Rashawn Ray** (1) — 马里兰大学社会学家；应用社会科学研究实验室（LASSR）执行主任. 研究种族、警务与不平等；其实验室用 VR 模拟让在职警察参与，研究内隐偏见与冲突降级。
+- **Remy Sabathier** (1) — Meta 与伦敦大学学院研究者. ActionMesh（CVPR 2026）的第一作者，这是 Meta 的开源模型，可将视频、图像或文字变成动画三维网格。 https://remysabathier.github.io/
 - **Replicate** (1) — 模型托管平台（并入 Cloudflare）. 以带版本号的 HTTP 接口运行开源与闭源模型，Cog 容器格式的创建者。 https://replicate.com
 - **Roberto Coviello** (1) — XR 与 AI 工程师；QuestCameraKit 作者. 维护 QuestCameraKit：基于 Meta Quest 透视摄像头 API 的开源示例集。 https://xrdevrob.com
+- **Robin S. Rosenberg** (1) — 临床心理学家；斯坦福虚拟人交互实验室的合作者. 研究“超级英雄心理学”的心理学家，2013 年斯坦福虚拟人交互实验室“在 VR 中像超级英雄一样飞行”研究的第一作者。
+- **Ruijie Zhu** (1) — 新加坡南洋理工大学博士研究者（腾讯 ARC Lab 实习）. MotionCrafter（CVPR 2026 Highlight）第一作者，该方法用 4D VAE 从单目视频重建 4D 几何与场景流。
+- **Ruili Feng** (1) — 阿里通义实验室研究者，The Matrix 第一作者. The Matrix（2024）的第一作者；该世界模拟器由阿里通义实验室与香港大学、滑铁卢大学和 Vector Institute 合作完成。
 - **Ruiqi Gao** (1) — Google DeepMind 研究科学家. Google DeepMind 的生成模型研究者，CAT3D 与 CAT4D 的共同第一作者。
 - **Rundi Wu** (1) — 哥伦比亚大学 / Google DeepMind 博士研究者. CAT4D（CVPR 2025）第一作者，在 Google DeepMind 完成。
-- **Ruofei Du** (1) — Google XR 交互感知与图形负责人. 研究面向 XR 的交互图形与 AI，主导 XR Blocks，参与 Thing2Reality 与 Sensible Agent。 https://duruofei.com
+- **Runjia Li** (1) — 牛津大学 VGG 博士研究者，VMem 第一作者. VMem（ICCV 2025 Highlight）的第一作者；该工作与 Philip Torr、Andrea Vedaldi、Tomas Jakab 合作，提出以面元为索引的视图记忆，使交互式场景视频保持一致。
 - **Ruoshi Liu** (1) — 哥伦比亚大学博士研究者. 哥伦比亚大学研究者（Carl Vondrick 实验室，与丰田研究院合作），Zero-1-to-3 第一作者。 https://ruoshiliu.github.io/
+- **Ryan Po** (1) — 斯坦福大学博士研究者，《长上下文状态空间视频世界模型》第一作者. 《长上下文状态空间视频世界模型》（2025）的第一作者，合作者来自斯坦福大学、普林斯顿大学与 Adobe Research。
+- **Ryu Furusawa** (1) — 影像艺术家. Ryu Furusawa 是日本影像艺术家，擅长在时间与空间上重组拍摄的影像。 https://ryufurusawa.com
 - **Ryutaro Kurai** (1) — Cluster 公司研究者（Cluster Metaverse Lab）. 日本社交 VR 平台 Cluster 的研究者，为平台用户开发基于大语言模型的创作工具。
 - **SHOTPROS** (1) — 欧盟“地平线 2020”VR 警务训练研究项目（2019–2022）. 由警务机构、大学与企业组成的联合体，研究压力下的决策与行动，并构建了一套 VR 训练框架。 https://shotpros.eu/
 - **Sand AI** (1) — 视频生成初创公司. 2025 年 4 月开源了 240 亿参数的自回归视频模型 MAGI-1。 https://sand.ai
-- **Sesame** (1) — 语音 AI 与硬件公司. Sesame 由 Oculus 联合创始人 Brendan Iribe 参与创立，开发对话式语音智能体与对话语音模型 CSM，并已宣布眼镜产品。 https://www.sesame.com
+- **Sandra C. Sandoval** (1) — 马里兰大学研究者. 研究语言、因果推断与警务；2026 年一项分析警察在 VR 模拟中如何与虚拟角色对话的研究的第一作者。
+- **Sensen Gao** (1) — 南洋理工大学研究者. PixWorld（2026）的共同第一作者，该工作由南洋理工大学与 PixVerse 背后的爱诗科技合作完成。 https://sensengao.github.io/PixWorld/
 - **Seung Wook Kim** (1) — 英伟达研究员，GameGAN 第一作者. 英伟达多伦多 AI 实验室研究员，研究游戏与驾驶的神经模拟。
 - **Shenghai Yuan** (1) — 实时视频生成研究者. 北京大学研究者（袁粒课题组，与字节跳动合作），Helios 第一作者。
+- **Shengjun Zhang** (1) — 清华大学研究者. 与张章共同担任 MBench 第一作者，来自清华大学段岳圻课题组，并与腾讯微信视觉团队合作。
 - **Shenhan Qian** (1) — 慕尼黑工业大学博士研究者. Shenhan Qian 在慕尼黑工业大学 Matthias Niessner 组，是 GaussianAvatars（CVPR 2024）的第一作者。 https://shenhanqian.github.io
 - **Sherry Yang** (1) — 研究者，UniSim 第一作者. 研究者（发表 UniSim 时任职于 Google DeepMind 与加州大学伯克利分校），研究把视频模型用作真实世界模拟器。
+- **Sherwin Bahmani** (1) — 多伦多大学博士研究者. 4D-fy 的第一作者，这是 2023—2024 年被引用最多的文本到 4D 方法之一。 https://sherwinbahmani.github.io/
 - **Shijie Zhou** (1) — 加州大学洛杉矶分校研究者. 加州大学洛杉矶分校 Achuta Kadambi 实验室的博士研究者，DreamScene360 的第一作者。
 - **Shitao Tang** (1) — 西蒙菲莎大学研究者. 西蒙菲莎大学 Yasutaka Furukawa 组的博士研究者，MVDiffusion 的第一作者。
 - **Shuai Yang** (1) — 长视频生成研究者. 就职于 NVIDIA 与香港科技大学（广州）的研究者，LongLive 第一作者。
@@ -6889,54 +9584,83 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - **Siddharth Ahuja** (1) — BlenderMCP 开发者. 独立开发者，发布了开源的 BlenderMCP：连接语言模型与 Blender 的 Model Context Protocol 桥接工具。
 - **Sijie Zhao** (1) — 立体视频生成研究者. 腾讯研究者，StereoCrafter 共同第一作者。
 - **Simile** (1) — 人类行为模拟公司. 由 Joon Sung Park、Michael Bernstein 与 Percy Liang 创办，把生成式智能体研究做成对客户与人群的模拟。2026 年 2 月公开亮相。 https://www.simile.com/
+- **Sixiao Zheng** (1) — 可控视频世界模型研究者. 复旦大学研究者，与腾讯 ARC 实验室合作的 VerseCrafter（CVPR 2026）第一作者。 https://sixiaozheng.github.io/VerseCrafter_page/
+- **Siyin Wang** (1) — 清华大学博士研究者. Siyin Wang 是清华大学张超团队的博士研究者，ELLSA 2（2026）的第一作者。该模型与字节跳动合作，基于 SALMONN-omni 系列构建，是一个同时生成手势和面部表情的全双工对话模型。
 - **Sofia Adelaide Osimo** (1) — 虚拟具身研究者（巴塞罗那大学 EventLab）. 2015 年“自我咨询”研究的第一作者：参与者在自己的身体与西格蒙德·弗洛伊德的身体之间切换。
 - **Sofia Seinfeld** (1) — 虚拟具身研究者（巴塞罗那大学 EventLab）. 让家暴罪犯“进入”受害者身体的那项研究的第一作者。
 - **Solène Neyret** (1) — 巴塞罗那大学 EventLab 研究员. 研究 VR 中的具身换位思考如何改变从众行为与群体中的伤害行为。
+- **Sony Group** (1) — 电子与娱乐集团（Sony AI、Creative AI Lab）. 索尼的 Creative AI Lab 研究生成式音频，包括音效生成和 SpecMaskFoley 等视频生成音频模型。 https://www.sony.com
 - **Soul AI Lab** (1) — 社交应用 Soul 的 AI 实验室. Soul AI Lab 是社交平台 Soul 的研究部门，开源了 14B 实时流式虚拟人模型 SoulX-FlashTalk。
 - **Stanislaw Szymanowicz** (1) — 牛津大学视觉几何组研究者. 牛津大学视觉几何组的博士研究者（Splatter Image、Flash3D），与 Google 合作完成 Bolt3D 并任第一作者。 https://szymanowiczs.github.io
 - **Stanley J. Hamstra** (1) — 医学教育研究者（渥太华大学；美国毕业后医学教育认证委员会）. 研究基于模拟的训练，2014 年重新审视模拟“保真度”一文的第一作者。
 - **Strivr** (1) — 沉浸式培训公司. 2015 年从斯坦福 VHIL 衍生，先用 360° VR 训练运动员，后把 VR 培训推广到沃尔玛等企业；截至 2026 年主推基于智能眼镜的 AI 质检。 https://www.strivr.com/
+- **Studio Atelico** (1) — 面向游戏的本地端 AI 引擎开发商. 由来自 Uber、Meta、世嘉与 Creative Assembly 的 AI 与游戏从业者创办的工作室，开发让角色在玩家自己的 GPU 上运行的 Atelico AI 引擎。 https://atelico.studio
 - **Suibi Che-Chuan Weng** (1) — 科罗拉多大学博尔德分校 ATLAS 研究所人机交互研究者. 研究创意混合现实与生成式 AI，Editing Reality（DIS 2026）第一作者。
-- **Suno** (1) — AI 音乐公司. Suno 打造了被广泛使用的歌曲生成器，能根据提示写出并演唱完整歌曲。 https://suno.com
 - **Sylvia Xueni Pan** (1) — 伦敦大学金史密斯学院虚拟社会互动研究者. 研究人与虚拟角色的社会互动，与 Antonia Hamilton 合写了用 VR 研究社会互动的经典综述。
 - **Synthesia** (1) — 企业级 AI 视频与虚拟人平台. Synthesia 为企业培训和内部沟通制作 AI 虚拟人视频，2026 年加入实时交互虚拟人和用于角色扮演与访谈的 Sessions 平台。 https://www.synthesia.io
-- **Tabitha Peck** (1) — 戴维森学院计算机科学家. 研究虚拟具身与化身效应，2013 年与 Mel Slater 团队合作的“黑人化身与内隐偏见”研究的第一作者。
 - **Taekyung Ki** (1) — 韩国科学技术院（KAIST）博士研究者. Taekyung Ki 是 Avatar Forcing（CVPR 2026）的第一作者，该模型是能对用户声音与动作作出反应的实时交互头部虚拟人。 https://taekyungki.github.io
 - **Talespin** (1) — 沉浸式软技能培训公司，现已并入 Cornerstone. 开发带虚拟人的 VR 软技能模拟和无代码创作工具 CoPilot Designer；talespin.com 现已跳转至 Cornerstone 的沉浸式学习平台。 https://www.cornerstoneondemand.com/platform/immersive-learning/
-- **Tencent** (1) — 中国科技与游戏公司. 总部位于深圳的互联网与游戏公司；除混元外，其多个研究团队也发表交互式视频方面的工作。 https://www.tencent.com
-- **Tencent ARC Lab** (1) — 腾讯 PCG 应用研究中心. 腾讯从事视觉生成与编辑研究的实验室，成果包括 StereoCrafter 与 Rolling Forcing。 https://arc.tencent.com
+- **Tareq Alsaleh** (1) — 多伦多都会大学交通创新实验室（LiTrans）研究者. Bilal Farooq 领导的 LiTrans 实验室的交通研究者，该实验室用 VR 与 XR 做出行行为实验。
 - **The Khronos Group** (1) — 图形与空间计算标准联盟. 制定 glTF、OpenXR、Vulkan 与 WebGL 的开放行业联盟。 https://www.khronos.org
 - **Thomas Müller** (1) — NVIDIA 研究者. NVIDIA 研究者，Instant Neural Graphics Primitives（instant-ngp）第一作者。
+- **Tianqi Liu** (1) — 华中科技大学与南洋理工大学 S-Lab 博士研究者. Free4D（ICCV 2025）与 Light-X 的第一作者，研究借助视频模型的 4D 场景生成与渲染。
 - **Tianwei Yin** (1) — 快速生成模型研究者. MIT 博士研究者，DMD 蒸馏与 CausVid 的第一作者。
 - **Tianye Li** (1) — Meta Reality Labs 研究者. Neural 3D Video Synthesis（DyNeRF，CVPR 2022）第一作者，该工作在 Meta Reality Labs Research 完成。
 - **Tianyi Xiao** (1) — 苏黎世联邦理工学院制图与地理信息研究所研究者. 研究空间认知、草图地图与增强现实。
+- **Tianyuan Zhang** (1) — 麻省理工学院 CSAIL 博士研究者. PhysDreamer（ECCV 2024 口头报告）的第一作者，该方法让静态三维物体获得从视频模型中学到的物理响应。
+- **Ting-Bing Xu** (1) — 高德地图视觉实验室（阿里巴巴）研究者. WorldRoamBench 的第一作者；该基准由高德地图视觉实验室与南京大学、清华大学、北京大学共同构建。
+- **Ting-Hsuan Chen** (1) — 360° 视频生成研究者. 南加州大学研究者，与博世研究院、阳明交通大学合作的 Pantheon360（CVPR 2026）共同第一作者。 https://koi953215.github.io/pantheon360_page/
 - **Tinghui Zhou** (1) — 计算机视觉研究者（加州大学伯克利分校博士）. Stereo Magnification（SIGGRAPH 2018）的第一作者，该论文提出了多平面图像表示与 RealEstate10K 数据集。 https://tinghuiz.github.io
 - **Tom Craig** (1) — 伦敦国王学院社会精神病学教授. 主持 AVATAR 疗法试验：幻听者与由治疗师配音、代表其“迫害者”的化身对话。
 - **Tomoki Itamiya** (1) — 爱知工科大学教授. 开发 AR 与 VR 防灾教育工具，例如叠加在真实房间与街道上的洪水和地震模拟。
 - **Tong Wu** (1) — 斯坦福大学研究者. 斯坦福大学 Gordon Wetzstein 组的研究者，研究具备三维感知的视频生成。
 - **Transitional Forms** (1) — 由 Pietro Gagliano 创立的 AI 娱乐工作室. 围绕实时 AI 智能体创作故事与游戏的工作室，作品从与加拿大国家电影局合作的动态电影 Agence，到多智能体故事模拟。 https://www.transforms.ai
+- **Tsai-Shien Chen** (1) — 加州大学默塞德分校 / Snap Research 研究者. Panda-70M 的第一作者，该工作完成于其在 Snap Research 实习期间。
 - **Tsinghua University FIB Lab** (1) — 清华大学电子工程系研究实验室. 由李勇领导的实验室，研究城市科学与大语言模型智能体；2025 年发布 AgentSociety 模拟器。
 - **Tu Anh Nguyen** (1) — 语音研究者（Meta AI / ENS–Inria）. Tu Anh Nguyen 在 Meta AI 与巴黎认知机器学习团队从事无文本口语语言建模研究。
-- **Unity** (1) — 游戏引擎公司. Unity 引擎的开发者，大量 XR 与移动游戏以及许多 VR 研究实验室都在用它。 https://unity.com
 - **Uriel Singer** (1) — Meta AI 研究科学家. Meta 研究者，Make-A-Video 与 MAV3D（文本到 4D，2023）的第一作者。
+- **Uthana** (1) — AI 人体动作公司. Uthana 提供文生动作、视频转动作、自动绑定与动作重定向模型，面向游戏动画和人形机器人训练，可通过网页应用、API 以及 Blender、Maya 和 Unity AI 插件使用。 https://uthana.com/
 - **Valve** (1) — 游戏公司、Steam 运营方. 运营 Steam，生产 Index、Steam Deck 与 Steam Frame 头显。 https://store.steampowered.com
 - **Varjo** (1) — XR 头显与重建公司. 芬兰高分辨率 XR 头显厂商，推出了 Teleport 云服务，把手机或相机素材转换为高斯泼溅场景。 https://varjo.com/
 - **Vincent Leroy** (1) — NAVER LABS Europe 研究者. NAVER LABS Europe 研究者，MASt3R（ECCV 2024）第一作者。
 - **Volcano Engine (BytePlus)** (1) — 字节跳动旗下云平台. 字节跳动的云服务与模型即服务业务，海外品牌为 BytePlus。 https://www.volcengine.com
+- **Volinga** (1) — 面向虚拟制片的高斯泼溅工具公司. 从 Arquimea 研究中心分拆出来的西班牙公司，2023 年 1 月推出 Unreal Engine 的 NeRF 插件，同年转向高斯泼溅，现销售训练套件与 Unreal 渲染器。 https://volinga.ai/
 - **W3C Immersive Web Working Group** (1) — 网页标准组织. 万维网联盟（W3C）中负责制定 WebXR 设备 API 及其模块的工作组。 https://www.w3.org/immersive-web/
+- **Wangbo Yu** (1) — 北京大学博士研究者. ViewCrafter（2024，TPAMI 2025）及其后续视频世界模型 WorldCrafter（2026）的第一作者。
 - **Waymo** (1) — Alphabet 旗下的自动驾驶公司. Alphabet 旗下的自动驾驶公司，在多座美国城市运营无人驾驶网约车。 https://waymo.com
+- **Weiwei Jiang** (1) — 南京信息工程大学研究者. 研究人机协同设计与虚拟现实的 HCI 学者，与日本、澳大利亚、丹麦和德国的合作者共同完成 CoGen3D。
 - **Weixi Feng** (1) — 加州大学圣巴巴拉分校研究者. 加州大学圣巴巴拉分校王威廉组的博士研究者，LayoutGPT 的第一作者。 https://weixi-feng.github.io
+- **Weiyu Li** (1) — 香港科技大学博士研究者，Meta AI 研究实习生. 香港科技大学研究者（与谭平合作），与 Meta AI 合作完成的 MeshFlow（CVPR 2026 Highlight）第一作者。 https://wyysf-98.github.io/
+- **Wemade Next** (1) — 游戏开发商（Wemade 子公司）. 韩国游戏开发商，Wemade 旗下子公司，开发《传奇》（Legend of Mir）系列 MMORPG，包括 MIR4 与 MIR5。
+- **Wenqiang Sun** (1) — 香港科技大学博士研究者. DimensionX 的共同第一作者，这是香港科技大学与清华大学的开源图像到三维 / 4D 场景方法。
 - **XREAL** (1) — AR 眼镜公司. 中国显示眼镜厂商（原名 Nreal），与 Google 合作开发 Android XR 眼镜 XREAL AURA。 https://www.xreal.com
+- **Xianhao Carton Liu** (1) — 明尼苏达大学 HCI 研究者. 研究增强现实中通过代理界面操作现实物体的 HCI 学者，与陈朱天（Zhu-Tian Chen）、Mar Gonzalez-Franco 合作。
+- **Xiaofeng Mao** (1) — 研究者，Yume 第一作者. Yume（2025）与 Yume 1.5 的第一作者；这两个开源交互世界生成模型后来以 Alaya Lab 的名义发布。
+- **Xiaoran Yang** (1) — 研究 XR 中大语言模型智能体的人机交互研究者. ISMAR 2026 一项研究的第一作者，研究 VR 中的具身对话智能体如何提示不确定性与信息来源。
 - **Xindi Wu** (1) — 普林斯顿大学与英伟达研究者. 普林斯顿大学博士研究者，与英伟达合作研究视频世界模型的记忆机制。
 - **Xinyang Li** (1) — 厦门大学 MAC 实验室博士研究者. FlashWorld 的第一作者，该工作与腾讯混元合作完成。
 - **Xinyu Ning** (1) — 生成式 AI 与 XR 系统综述的第一作者（Lik-Hang Lee 团队）. 梳理了 2023–2025 年生成式 AI 与扩展现实结合研究的研究者。
+- **Xinyu Wang** (1) — 流式视频编辑研究者. 清华大学研究者，LiveEdit（ECCV 2026）第一作者。 https://live-edit.github.io/
 - **Xuanchi Ren** (1) — NVIDIA 研究科学家. NVIDIA 多伦多 AI 实验室研究者，GEN3C 的第一作者，Lyra 的合作者。 https://xuanchiren.com
 - **Xudong Xu** (1) — 视听学习研究者. Xudong Xu 研究视听学习与三维感知生成；Sounding Bodies 与 Meta Reality Labs Research 合作完成。
 - **Xueyang Wang** (1) — 清华大学研究者. 研究跨现实创作与空间锚定的生成，Roomify（CHI 2026）第一作者。
 - **Xun Huang** (1) — 生成式视频研究者. 研究科学家（Self Forcing 发表时任职于 Adobe Research），以 AdaIN 风格迁移和实时视频扩散研究著称。
+- **Yang Gao** (1) — 北京航空航天大学研究者. IEEE VR 2026 一项研究的第一作者，研究 AI 重建外观与克隆声音如何影响人们对虚拟名人智能体的信任。
+- **Yanni Mei** (1) — 达姆施塔特工业大学博士研究者. 研究增强现实中感知操控的 HCI 学者，与 Jan Gugenheimer、Florian Müller 合作。
+- **Yanqin Jiang** (1) — 中国科学院自动化研究所博士研究者. Consistent4D 与 Animate3D 的第一作者，这两项工作分别是视频到 4D 和为现有三维模型添加动画的早期参照。
+- **Yehonathan Litman** (1) — 卡内基梅隆大学博士研究者. Lift4D（SIGGRAPH Asia 2026）的第一作者，该方法把形变物体的单目视频提升为完整的 4D 高斯。
+- **Yi-Hua Huang** (1) — 香港大学博士研究者. 香港大学齐晓娟课题组研究者，与 VAST 合作完成的 AniGen（SIGGRAPH 2026）第一作者。 https://yihua7.github.io/website/
 - **Yicong Hong** (1) — Adobe 研究院研究科学家. Adobe 研究院研究员，《LRM：用于单张图像三维重建的大型重建模型》（ICLR 2024）第一作者。
 - **Yifan Wang** (1) — 浙江大学研究者. 浙江大学三维视觉组研究者，FreeTimeGS（CVPR 2025）第一作者。
+- **Yongzhen Hu** (1) — 浙江大学三维视觉组研究者. InfiniSplat v2（2026）共同第一作者，这是一个可接受任意数量输入视角的前馈式高斯重建模型。
+- **You-Zhe Xie** (1) — 阳明交通大学与 Alaya Lab 研究者. OuroWorld（2026）的第一作者，该方法把静态三维高斯世界变成循环播放的三维动态照片。 https://www.youzhexie.me/
+- **Yu Zhang** (1) — 华东师范大学研究者. Yu Zhang 是 EmbodiedHead（ECCV 2026）的第一作者。该工作来自华东师范大学计算机科学与技术学院，为大模型智能体提供可实时倾听和说话的头部虚拟人。 https://vpx-ecnu.github.io/EmbodiedHead-Website/
+- **Yudong Jin** (1) — 浙江大学与蚂蚁灵波科技博士研究者. 4DAnyone（SIGGRAPH Asia 2026）的共同第一作者，该方法把一段随手拍的人物视频变成 4D 高斯人体。
 - **Yue Yang** (1) — 宾夕法尼亚大学研究者. 宾夕法尼亚大学的博士研究者，与艾伦人工智能研究所合作主导了 Holodeck。 https://yueyang1996.github.io
+- **Yuting Wen** (1) — 口腔医学教育研究者. 2026 年一项随机试验的第一作者，比较了 VR 牙科技能训练中 ChatGPT 指导与教师现场指导的效果。
+- **Yuwei Guo** (1) — 视频生成研究者. 香港中文大学研究者，AnimateDiff（ICLR 2024）第一作者。
+- **Yuxue Yang** (1) — 中国科学院自动化研究所与 CreateAI 博士研究者. NeoVerse（CVPR 2026 Highlight）的第一作者，这是一个在真实单目视频上训练的 4D 世界模型。
+- **Yvain Tisserand** (1) — 日内瓦大学瑞士情感科学中心研究者. 为 VR 训练与情感研究构建虚拟人；2026 年一项研究的第一作者，该研究用日内瓦警察测试了一个基于规则的虚拟嫌疑人。
 - **Zehao Yu** (1) — 图宾根大学研究者. Andreas Geiger 团队的博士研究者，Mip-Splatting 第一作者。
 - **Zeqi Xiao** (1) — 研究者，WorldMem 第一作者. 南洋理工大学 S-Lab 研究者，研究一致的视频世界模拟。 https://xizaoqu.github.io
 - **Zhan Li** (1) — 波特兰州立大学 / OPPO 美国研究院研究者. Spacetime Gaussian Feature Splatting（CVPR 2024）第一作者。
@@ -6944,9 +9668,14 @@ Codec Avatars、高斯头部与全身化身、MetaHuman、Personas、NVIDIA ACE�
 - **Zhen Xu** (1) — 浙江大学研究者. 浙江大学三维视觉组研究者，EasyVolcap 的作者，《Representing Long Volumetric Video with Temporal Gaussian Hierarchy》（SIGGRAPH Asia 2024）第一作者。
 - **Zhengqi Li** (1) — Google DeepMind 研究科学家. 研究动态场景重建的 Google 研究者，MegaSaM（CVPR 2025）第一作者。
 - **Zhipu AI** (1) — 源自清华大学的大模型公司. GLM 语言模型及开源 CogVideoX 视频模型（“清影”产品底座）的开发者。 https://www.zhipuai.cn
+- **Zhiyang Deng** (1) — 人工智能研究者（腾讯、新加坡国立大学）. 新加坡国立大学研究者；WorldMind（2026）的共同第一作者，该工作完成于腾讯研究实习期间。
 - **Zhiyang Guo** (1) — 中国科学技术大学博士研究者. Make-It-Animatable（CVPR 2025）第一作者，可在一秒内为人形网格和高斯泼溅完成绑定。 https://jasongzy.github.io/
 - **Zhuangze Hou** (1) — 香港城市大学创意媒体学院研究者. 研究虚拟现实中由 AI 辅助的空间设计，EchoLadder（UIST 2025）第一作者。
-- **Ziming Li** (1) — 罗切斯特理工学院研究员. Roshan Peiris 实验室中面向自闭症人士的大语言模型 VR 职场沟通训练研究（CHI EA 2024）的第一作者。
+- **Ziang Cao** (1) — 南洋理工大学（S-Lab）博士研究者. 南洋理工大学刘子纬课题组研究者，PhysX 系列物理三维生成工作的第一作者，包括 PhysX-Anything（CVPR 2026）和 PhysX-Omni。 https://physx-omni.github.io/
+- **Zikai Liao** (1) — 石溪大学研究者. Zikai Liao 是 GLARE（NeurIPS 2026）的第一作者。该工作来自石溪大学与 Atmanity Inc.，提供倾听头像的数据集与模型。
+- **Zitong Lan** (1) — 声学与空间音频研究者（宾夕法尼亚大学）. Zitong Lan 在宾夕法尼亚大学 Mingmin Zhao 课题组研究声学仿真与空间音频。
+- **Ziyi Liu** (1) — 普渡大学博士研究者. Ziyi Liu 是普渡大学的博士研究者，AgentHands（CHI 2026）的第一作者。该工作与 Google XR 合作完成，为 XR 对话智能体配上一双与语音同步、指向真实物体的手。 https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/
 - **Ziyi Wu** (1) — 生成式三维与视频研究者. 多伦多大学博士研究者；360Anything 第一作者，该工作在 Google DeepMind 完成。
+- **Zizhang Li** (1) — 斯坦福大学博士研究者. 吴佳俊组 WonderPlay（ICCV 2025 Highlight）的共同第一作者。
 - **bilibili** (1) — 中国视频平台（Index 团队）. 哔哩哔哩是中国视频社区，其 Index 团队开发开源的 IndexTTS 语音模型。 https://www.bilibili.com
 - **fal** (1) — 生成式媒体推理平台. 通过一个 API 托管 1,000 多个图像、视频、音频与三维模型，并提供 Serverless GPU。 https://fal.ai

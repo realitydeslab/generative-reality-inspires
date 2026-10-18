@@ -1,0 +1,848 @@
+{
+ "batch": "spatial-4d-2026-10",
+ "creators": [
+  {
+   "id": "chuhan-zhang",
+   "name": "Chuhan Zhang",
+   "kind": "person",
+   "role": "Research scientist, Google DeepMind",
+   "bio": "First author of D4RT, the CVPR 2026 best paper on feed-forward 4D reconstruction and tracking.",
+   "why": "Showed that one queried transformer can recover depth, cameras and 3D motion from a video in seconds.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "role_zh": "Google DeepMind 研究科学家",
+   "bio_zh": "D4RT 的第一作者，该论文获 CVPR 2026 最佳论文奖，研究前馈式 4D 重建与追踪。",
+   "why_zh": "证明了一个可查询的 Transformer 就能在几秒内从视频中恢复深度、相机与三维运动。",
+   "links": {},
+   "connected_to": [
+    "google-deepmind"
+   ],
+   "discovered_via": "google-deepmind"
+  },
+  {
+   "id": "shanghai-ai-lab",
+   "name": "Shanghai AI Laboratory",
+   "name_zh": "上海人工智能实验室",
+   "kind": "lab",
+   "role": "Public AI research institute in Shanghai",
+   "bio": "Large state-backed research institute (also known as PJLab) working on foundation models, embodied AI and 3D vision; home of the π³ reconstruction model.",
+   "why": "One of the Chinese labs whose open 3D geometry models are widely used as reconstruction backbones.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "role_zh": "位于上海的公共人工智能研究机构",
+   "bio_zh": "大型公共科研机构（又称浦江实验室），研究基础模型、具身智能与三维视觉，π³ 重建模型出自这里。",
+   "why_zh": "其开源三维几何模型被广泛用作重建骨干网络，是这一方向的重要中国实验室之一。",
+   "based": "Shanghai, CN",
+   "based_zh": "中国上海",
+   "links": {
+    "site": "https://www.shlab.org.cn/"
+   },
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "ruijie-zhu",
+   "name": "Ruijie Zhu",
+   "kind": "person",
+   "role": "PhD researcher, NTU Singapore (intern at Tencent ARC Lab)",
+   "bio": "First author of MotionCrafter (CVPR 2026 Highlight), which reconstructs 4D geometry and scene flow from monocular video with a 4D VAE.",
+   "why": "Shows how video-diffusion priors can be turned into measurement of real motion rather than generation.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "role_zh": "新加坡南洋理工大学博士研究者（腾讯 ARC Lab 实习）",
+   "bio_zh": "MotionCrafter（CVPR 2026 Highlight）第一作者，该方法用 4D VAE 从单目视频重建 4D 几何与场景流。",
+   "why_zh": "展示了视频扩散先验如何被用来测量真实运动，而不是生成新内容。",
+   "links": {},
+   "connected_to": [
+    "tencent-arc"
+   ],
+   "discovered_via": "tencent-arc"
+  },
+  {
+   "id": "aashish-rai",
+   "name": "Aashish Rai",
+   "kind": "person",
+   "role": "PhD researcher, Brown University (Interactive 3D Vision & Learning Lab)",
+   "bio": "First author of PackUV (CVPR 2026) and UVGS, which map Gaussian splats into UV images so they can be stored and streamed like video.",
+   "why": "Connects 4D Gaussian capture to ordinary video codecs and streaming.",
+   "disciplines": [
+    "graphics"
+   ],
+   "role_zh": "布朗大学交互式三维视觉与学习实验室博士研究者",
+   "bio_zh": "PackUV（CVPR 2026）与 UVGS 的第一作者，这两项工作把高斯泼溅映射为 UV 图像，使其能像视频一样存储与传输。",
+   "why_zh": "把 4D 高斯捕捉与普通视频编解码和流媒体连接起来。",
+   "links": {
+    "youtube": "https://www.youtube.com/@aashishrai9672"
+   },
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "yongzhen-hu",
+   "name": "Yongzhen Hu",
+   "kind": "person",
+   "role": "Researcher, Zhejiang University (ZJU3DV)",
+   "bio": "Co-first author of InfiniSplat v2 (2026), a feed-forward Gaussian reconstructor for any number of input views.",
+   "why": "Pushes feed-forward splats toward views far from the captured ones, the case that matters when people walk around a scene in VR.",
+   "disciplines": [
+    "graphics"
+   ],
+   "role_zh": "浙江大学三维视觉组研究者",
+   "bio_zh": "InfiniSplat v2（2026）共同第一作者，这是一个可接受任意数量输入视角的前馈式高斯重建模型。",
+   "why_zh": "让前馈式泼溅在远离拍摄视角的位置也保持质量，这正是人在 VR 中绕场景走动时最重要的情形。",
+   "links": {},
+   "connected_to": [
+    "zju3dv"
+   ],
+   "discovered_via": "zju3dv"
+  },
+  {
+   "id": "volinga",
+   "name": "Volinga",
+   "kind": "company",
+   "role": "Gaussian splatting tools for virtual production",
+   "bio": "Spanish company spun out of the Arquimea Research Center; it launched an Unreal Engine NeRF plugin in January 2023, moved to Gaussian splats later that year and sells a training suite plus an Unreal renderer.",
+   "why": "Brings captured static and moving splats into the engine and LED-volume pipelines where scenes are authored.",
+   "disciplines": [
+    "graphics",
+    "media-art"
+   ],
+   "role_zh": "面向虚拟制片的高斯泼溅工具公司",
+   "bio_zh": "从 Arquimea 研究中心分拆出来的西班牙公司，2023 年 1 月推出 Unreal Engine 的 NeRF 插件，同年转向高斯泼溅，现销售训练套件与 Unreal 渲染器。",
+   "why_zh": "把捕捉得到的静态与动态泼溅带进引擎和 LED 虚拟制片流程，也就是场景被创作的地方。",
+   "based": "Canary Islands, ES",
+   "based_zh": "西班牙加那利群岛",
+   "links": {
+    "site": "https://volinga.ai/",
+    "youtube": "https://www.youtube.com/@Volinga"
+   },
+   "connected_to": [],
+   "discovered_via": "gracia-ai"
+  },
+  {
+   "id": "evercoast",
+   "name": "Evercoast",
+   "kind": "company",
+   "role": "4D volumetric capture company",
+   "bio": "Company whose Mavericks capture and Cloudbreak processing software turn synchronized multi-camera footage into 4D spatial video for music, sports, virtual production and robotics data.",
+   "why": "Its splat-based capture put 4D-recorded performers into a mainstream music video in 2026.",
+   "disciplines": [
+    "graphics",
+    "media-art"
+   ],
+   "role_zh": "4D 体积捕捉公司",
+   "bio_zh": "旗下 Mavericks 采集软件与 Cloudbreak 处理软件可把同步多相机画面转换为 4D 空间视频，用于音乐、体育、虚拟制片与机器人数据。",
+   "why_zh": "它基于泼溅的捕捉在 2026 年把 4D 录制的表演者带进了主流音乐录影带。",
+   "links": {
+    "site": "https://evercoast.com/",
+    "youtube": "https://www.youtube.com/@evercoastAI"
+   },
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "chuhan-zhang--d4rt",
+   "creator_ids": [
+    "chuhan-zhang",
+    "google-deepmind"
+   ],
+   "title": "D4RT",
+   "year": 2025,
+   "date": "2025-12-09",
+   "field": "spatial-4d",
+   "sub": "dynamic",
+   "modalities": [
+    "dynamic-4d",
+    "scene-3d"
+   ],
+   "inputs": [
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "responsiveness",
+    "persistence"
+   ],
+   "kind": "research",
+   "description": "D4RT is a single Google DeepMind model that takes an ordinary video and returns its depth, camera path and the 3D position of any pixel at any moment, so moving people and objects are tracked as one consistent 4D scene. It won the CVPR 2026 Best Paper award; as of October 2026 no code or weights are public.",
+   "description_zh": "D4RT 是 Google DeepMind 的一个统一模型：输入一段普通视频，就能给出深度、相机轨迹，以及任意像素在任意时刻的三维位置，把运动中的人和物体作为一个连贯的 4D 场景来追踪。它获得了 CVPR 2026 最佳论文奖；截至 2026 年 10 月，代码和权重仍未公开。",
+   "idea_en": "Turning a filmed situation into a moving 3D record becomes a matter of seconds, which makes captured real events a practical source for replayable 4D scenes rather than a lab-only process.",
+   "idea_zh": "把拍下的情境变成会动的三维记录只需几秒钟，真实事件因此可以实际地成为可回放 4D 场景的素材，而不再只是实验室里的流程。",
+   "method": "An encoder-decoder transformer compresses the whole video into a global scene representation; a lightweight decoder is queried with a pixel, a source time, a target time and a camera frame to return that point's 3D position, giving depth, tracking and camera estimates from one model.",
+   "method_zh": "编码器-解码器 Transformer 先把整段视频压缩为全局场景表示；轻量解码器再以“像素、源时刻、目标时刻、相机坐标系”为查询，返回该点的三维位置，由同一个模型同时得到深度、追踪与相机估计。",
+   "specs": "1-min video in ~5 s on one TPU chip · 18–300× faster than prior state of the art (DeepMind)",
+   "keywords": [
+    "4D reconstruction",
+    "3D tracking",
+    "feed-forward",
+    "query decoder",
+    "CVPR 2026 best paper"
+   ],
+   "video": {
+    "url": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/media/D4RT_blog_figure-1-light.mp4"
+   },
+   "images": [
+    "https://lh3.googleusercontent.com/ozG6v7VcBOV2eYZ8TnGTAe1Z-7EjkNiBPHxdQEG1wy_F5QwRN_4IJ_jJYMNQiOMHEWyNMZg3tmC00bzGQX0IYfXHMVuoQS6OLptEV-H6CUpIOnWOaQ=w1200-h630-n-nu-rw",
+    "https://storage.googleapis.com/d4rt_assets/D4RT_capabilities_left.gif"
+   ],
+   "paper": {
+    "title": "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time",
+    "venue": "CVPR 2026",
+    "arxiv": "2512.08924",
+    "url": "https://arxiv.org/abs/2512.08924"
+   },
+   "source_url": "https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/",
+   "collections": [
+    "cvpr",
+    "trend-feed-forward",
+    "trend-4d-media"
+   ],
+   "exhibited": [
+    "CVPR 2026 Best Paper"
+   ]
+  },
+  {
+   "id": "tencent-hunyuan--worldmirror",
+   "creator_ids": [
+    "tencent-hunyuan"
+   ],
+   "title": "HunyuanWorld-Mirror (WorldMirror)",
+   "year": 2025,
+   "date": "2025-10-22",
+   "field": "spatial-4d",
+   "sub": "feed-forward",
+   "also": [
+    "worlds-3d"
+   ],
+   "modalities": [
+    "scene-3d",
+    "splats"
+   ],
+   "inputs": [
+    "image",
+    "video",
+    "camera"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "control",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "WorldMirror is Tencent Hunyuan's open feed-forward reconstructor: from photos or video frames it predicts point clouds, depth, normals, cameras and 3D Gaussians in one pass, and it can take known camera poses, intrinsics or depth as extra prompts. WorldMirror 2.0 (April 2026) ships as the reconstruction stage of HY-World 2.0; the original paper was accepted to ICML 2026.",
+   "description_zh": "WorldMirror 是腾讯混元开源的前馈式重建模型：输入照片或视频帧，一次前向即可预测点云、深度、法线、相机参数与三维高斯，并能把已知的相机位姿、内参或深度作为额外提示输入。WorldMirror 2.0（2026 年 4 月）作为 HY-World 2.0 的重建模块发布；原论文已被 ICML 2026 接收。",
+   "idea_en": "Whatever is already known about a capture (poses from a tracked headset, depth from a phone) can be fed in to make the reconstruction better, instead of being thrown away.",
+   "idea_zh": "关于一次拍摄已经知道的信息（头显追踪得到的位姿、手机测得的深度）可以直接输入、让重建更准确，而不必丢弃。",
+   "method": "A transformer encodes multi-view images together with optional prior tokens (camera pose, intrinsics, depth) and decodes them with task heads for points, depth, normals, cameras and 3DGS; Tencent reports that adding priors improves every task.",
+   "method_zh": "Transformer 将多视角图像与可选的先验标记（相机位姿、内参、深度）一起编码，再由点云、深度、法线、相机与 3DGS 等任务头解码；腾讯报告称加入先验能提升所有任务的表现。",
+   "specs": "one forward pass · outputs points, depth, normals, cameras, 3DGS · exports to COLMAP",
+   "keywords": [
+    "any-prior prompting",
+    "3D Gaussians",
+    "feed-forward reconstruction",
+    "Tencent",
+    "open weights"
+   ],
+   "video": {
+    "url": "https://github.com/user-attachments/assets/146a9a25-5eb7-4400-aa09-5b58e1d10a5e"
+   },
+   "images": [
+    "https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanWorld-Mirror/main/assets/teaser.jpg"
+   ],
+   "paper": {
+    "title": "WorldMirror: Universal 3D World Reconstruction with Any-Prior Prompting",
+    "venue": "ICML 2026",
+    "arxiv": "2510.10726",
+    "url": "https://arxiv.org/abs/2510.10726"
+   },
+   "source_url": "https://3d-models.hunyuan.tencent.com/world/",
+   "code_url": "https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror",
+   "collections": [
+    "ml-conf",
+    "trend-feed-forward",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "shanghai-ai-lab--pi3",
+   "creator_ids": [
+    "shanghai-ai-lab"
+   ],
+   "title": "π³ (Pi3)",
+   "year": 2025,
+   "date": "2025-07-17",
+   "field": "spatial-4d",
+   "sub": "feed-forward",
+   "modalities": [
+    "scene-3d"
+   ],
+   "inputs": [
+    "image",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "π³ is an open feed-forward model from Shanghai AI Lab that turns an unordered set of photos or video frames into camera poses and point maps without treating any frame as the reference, so the result does not depend on input order. It was accepted to ICLR 2026 and is used alongside VGGT as a backbone by later reconstruction methods.",
+   "description_zh": "π³ 是上海人工智能实验室开源的前馈式模型：把一组无序的照片或视频帧转换为相机位姿与点图，而不把任何一帧当作参考帧，因此结果与输入顺序无关。它被 ICLR 2026 接收，并与 VGGT 一起被后续重建方法用作骨干网络。",
+   "idea_en": "Dropping the reference view makes reconstruction of casually gathered, unordered footage (for example many people's phone clips of one place) more stable.",
+   "idea_zh": "去掉参考视角之后，随手收集、顺序混乱的素材（例如许多人用手机拍下的同一地点）也能更稳定地被重建。",
+   "method": "A fully permutation-equivariant transformer with no reference-frame tokens predicts affine-invariant camera poses and scale-invariant local point maps for every view.",
+   "method_zh": "完全置换等变的 Transformer，不设参考帧标记，为每个视角预测仿射不变的相机位姿与尺度不变的局部点图。",
+   "specs": "BSD-3 code and weights · ~2.2k GitHub stars (Oct 2026)",
+   "keywords": [
+    "permutation-equivariant",
+    "reference-free",
+    "point maps",
+    "camera pose",
+    "Shanghai AI Lab"
+   ],
+   "video": {
+    "url": "https://yyfz.github.io/pi3/assets/videos/teaser.mp4"
+   },
+   "paper": {
+    "title": "π³: Permutation-Equivariant Visual Geometry Learning",
+    "venue": "ICLR 2026",
+    "arxiv": "2507.13347",
+    "url": "https://arxiv.org/abs/2507.13347"
+   },
+   "source_url": "https://yyfz.github.io/pi3/",
+   "code_url": "https://github.com/yyfz/Pi3",
+   "collections": [
+    "ml-conf",
+    "trend-feed-forward",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "ruijie-zhu--motioncrafter",
+   "creator_ids": [
+    "ruijie-zhu",
+    "tencent-arc"
+   ],
+   "title": "MotionCrafter",
+   "year": 2026,
+   "date": "2026-02-09",
+   "field": "spatial-4d",
+   "sub": "dynamic",
+   "modalities": [
+    "dynamic-4d"
+   ],
+   "inputs": [
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence"
+   ],
+   "kind": "model",
+   "description": "MotionCrafter takes one ordinary video and returns a dense 3D point map for every frame together with the 3D motion of every point (scene flow), all in one shared coordinate frame. It was a CVPR 2026 Highlight; code, weights and a demo are public.",
+   "description_zh": "MotionCrafter 输入一段普通视频，为每一帧输出稠密的三维点图，以及每个点的三维运动（场景流），全部位于同一个坐标系中。它入选 CVPR 2026 Highlight，代码、权重与在线演示均已公开。",
+   "idea_en": "Video generators already encode how things move; MotionCrafter uses that knowledge to measure the motion in real footage instead of inventing new footage.",
+   "idea_zh": "视频生成模型已经学到了物体如何运动；MotionCrafter 用这些知识去测量真实画面中的运动，而不是生成新的画面。",
+   "method": "A 4D VAE encodes point maps and scene flow into latents that a fine-tuned video diffusion backbone predicts from the RGB video; the authors report that forcing these latents to match RGB VAE latents hurts, and use a new normalization instead.",
+   "method_zh": "4D VAE 把点图与场景流编码为潜变量，再由微调过的视频扩散骨干根据 RGB 视频预测这些潜变量；作者发现强行让它们与 RGB VAE 潜变量对齐反而有害，因此改用新的归一化方式。",
+   "specs": "+38.6% geometry, +25.0% scene flow vs. prior best (authors)",
+   "keywords": [
+    "scene flow",
+    "4D VAE",
+    "video diffusion prior",
+    "monocular video",
+    "Tencent ARC"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=oc0fRoZTyk8"
+   },
+   "paper": {
+    "title": "MotionCrafter: Dense Geometry and Motion Reconstruction with a 4D VAE",
+    "venue": "CVPR 2026",
+    "arxiv": "2602.08961",
+    "url": "https://arxiv.org/abs/2602.08961"
+   },
+   "source_url": "https://ruijiezhu94.github.io/MotionCrafter_Page/",
+   "code_url": "https://github.com/TencentARC/MotionCrafter",
+   "collections": [
+    "cvpr",
+    "trend-open-weights"
+   ],
+   "exhibited": [
+    "CVPR 2026 Highlight"
+   ]
+  },
+  {
+   "id": "aashish-rai--packuv",
+   "creator_ids": [
+    "aashish-rai"
+   ],
+   "title": "PackUV",
+   "year": 2026,
+   "date": "2026-02-26",
+   "field": "spatial-4d",
+   "sub": "volumetric",
+   "modalities": [
+    "dynamic-4d",
+    "splats"
+   ],
+   "inputs": [
+    "multi-view"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "persistence",
+    "perceptual-realism"
+   ],
+   "kind": "research",
+   "description": "PackUV stores a 4D Gaussian volumetric video as a sequence of packed UV image atlases, so a multi-camera capture can be compressed and streamed with ordinary video codecs and stays consistent over sequences of up to 30 minutes. It comes with PackUV-2B, 100 sequences filmed by more than 50 synchronized cameras.",
+   "description_zh": "PackUV 把 4D 高斯体积视频存成一串打包好的 UV 图像图集，使多相机拍摄的内容可以用普通视频编解码器压缩与传输，并在长达 30 分钟的序列中保持一致。它同时发布了 PackUV-2B 数据集：100 段由 50 台以上同步相机拍摄的序列。",
+   "idea_en": "If a 4D capture is just a stack of video files, existing streaming infrastructure can deliver recorded people and events into headsets without a bespoke player stack.",
+   "idea_zh": "如果 4D 捕捉只是一叠视频文件，现有的流媒体基础设施就能把录下的人和事件送进头显，而不必另建专用播放系统。",
+   "method": "PackUV-GS fits Gaussian parameters directly in a multi-scale UV atlas for each frame, using flow-guided labelling of dynamic Gaussians and video keyframing to stabilise static regions and handle large motion and disocclusion.",
+   "method_zh": "PackUV-GS 直接在每帧的多尺度 UV 图集中拟合高斯参数，并借助光流引导的动态高斯标注与视频关键帧机制，稳定静态区域、处理大幅运动与遮挡变化。",
+   "specs": "sequences up to 30 min · codec-compatible atlases (e.g. FFV1) · PackUV-2B: 100 sequences, 50+ cameras, 2B frames",
+   "keywords": [
+    "volumetric video",
+    "UV atlas",
+    "video codec",
+    "long sequences",
+    "multi-view dataset"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=tY1J1iRzzow"
+   },
+   "paper": {
+    "title": "PackUV: Packed Gaussian UV Maps for 4D Volumetric Video",
+    "venue": "CVPR 2026",
+    "arxiv": "2602.23040",
+    "url": "https://arxiv.org/abs/2602.23040"
+   },
+   "source_url": "https://ivl.cs.brown.edu/packuv",
+   "collections": [
+    "cvpr",
+    "trend-4d-media"
+   ]
+  },
+  {
+   "id": "yongzhen-hu--infinisplat-v2",
+   "creator_ids": [
+    "yongzhen-hu",
+    "zju3dv"
+   ],
+   "title": "InfiniSplat v2",
+   "year": 2026,
+   "date": "2026-10-14",
+   "field": "spatial-4d",
+   "sub": "feed-forward",
+   "modalities": [
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image",
+    "video",
+    "camera"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "InfiniSplat v2 from Zhejiang University's ZJU3DV group predicts a 3D Gaussian scene directly from any number of photos, with or without known camera poses, and targets views that stay clean when the camera moves far from the inputs. Weights and a Hugging Face demo were released with the paper on 14 October 2026.",
+   "description_zh": "浙江大学三维视觉组的 InfiniSplat v2 可以从任意数量的照片直接预测三维高斯场景，相机位姿已知或未知均可，目标是在相机远离输入视角时画面依然干净。2026 年 10 月 14 日随论文发布了权重和 Hugging Face 演示。",
+   "idea_en": "Feed-forward splats are now judged by how they look from far-off viewpoints, the case that matters when people walk around a reconstructed place in VR.",
+   "idea_zh": "前馈式泼溅如今要看它在远离拍摄位置时的效果，而这正是人在 VR 中绕着重建场景走动时最关键的情形。",
+   "method": "A dual-branch network keeps a pretrained geometry branch frozen and learns Gaussian attributes separately, with opacity suppressing inconsistent points; training aligns predictions to scale-aligned ground-truth cameras and supervises large-angle target views.",
+   "method_zh": "双分支网络冻结预训练的几何分支，单独学习高斯属性，并用不透明度抑制不一致的点；训练时将预测与尺度对齐的真实相机对齐，并对大角度目标视角进行监督。",
+   "specs": "mean LPIPS −25.8%, DISTS −32.9% vs. compared methods (pose-conditioned, 6 datasets; authors)",
+   "keywords": [
+    "feed-forward 3DGS",
+    "pose-free",
+    "any views",
+    "ZJU3DV",
+    "2026"
+   ],
+   "video": {
+    "url": "https://huggingface.co/datasets/Edisoneh/InfiniSplat-v2-assets/resolve/8e50354da224daebc35bdd9e99cae947e0c1ea40/assets/demo/infinisplat-v2-demo-v14-preview.mp4"
+   },
+   "images": [
+    "https://zju3dv.github.io/InfiniSplat2/assets/demo/cover.png"
+   ],
+   "paper": {
+    "title": "InfiniSplat v2: Analyzing and Improving Feed-Forward 3DGS from Any Views",
+    "venue": "arXiv 2026",
+    "arxiv": "2610.20341",
+    "url": "https://arxiv.org/abs/2610.20341"
+   },
+   "source_url": "https://zju3dv.github.io/InfiniSplat2/",
+   "code_url": "https://github.com/zju3dv/InfiniSplat",
+   "collections": [
+    "trend-feed-forward",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "volinga--4dgs-unreal",
+   "creator_ids": [
+    "volinga"
+   ],
+   "title": "Volinga 4DGS for Unreal Engine",
+   "year": 2026,
+   "date": "2026-07-21",
+   "field": "spatial-4d",
+   "sub": "capture-tools",
+   "also": [
+    "infra"
+   ],
+   "modalities": [
+    "dynamic-4d",
+    "splats"
+   ],
+   "inputs": [
+    "multi-view"
+   ],
+   "timing": "offline",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "authoring",
+    "control"
+   ],
+   "kind": "product",
+   "description": "Volinga's July 2026 update to its Suite and Unreal Engine plugin plays 4D Gaussian splat captures inside Unreal as timeline assets: per-frame PLY sequences from tools such as Gracia or Houdini are packed into one compressed NVOL file and driven by Unreal's Sequencer, with lighting interaction, culling and OCIO colour management.",
+   "description_zh": "Volinga 在 2026 年 7 月更新了其套件与 Unreal Engine 插件，使 4D 高斯泼溅捕捉能以时间轴资产的形式在 Unreal 中播放：来自 Gracia、Houdini 等工具的逐帧 PLY 序列被打包为一个压缩的 NVOL 文件，由 Unreal 的 Sequencer 驱动，并支持光照交互、裁剪体积与 OCIO 色彩管理。",
+   "idea_en": "A captured moving performance can be placed, lit and timed in a game engine like any other asset, so a 4D recording can become one element of an authored, interactive scene.",
+   "idea_zh": "捕捉到的动态表演可以像其他资产一样在游戏引擎中摆放、打光和安排时序，4D 录像因此能成为人工编排的交互场景中的一个元素。",
+   "method": "Volinga Suite converts thousands of per-frame PLYs into a single near-lossless NVOL asset; the Volinga Renderer plugin (Unreal Engine 5.8, beta) plays the frames through Sequencer tracks with no cap on 4DGS assets per scene.",
+   "method_zh": "Volinga Suite 把成千上万个逐帧 PLY 转换为一个近乎无损的 NVOL 资产；Volinga Renderer 插件（Unreal Engine 5.8，测试版）通过 Sequencer 轨道播放这些帧，每个场景中的 4DGS 资产数量不设上限。",
+   "specs": "Unreal Engine 5.8 · PLY / SPZ / SOG import · NVOL container · free watermarked trial, then subscriptions",
+   "keywords": [
+    "4DGS",
+    "Unreal Engine",
+    "virtual production",
+    "Sequencer",
+    "NVOL"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=OQwaF0ihjH4"
+   },
+   "source_url": "https://volinga.ai/",
+   "collections": [
+    "trend-4d-media"
+   ]
+  },
+  {
+   "id": "evercoast--asap-rocky-helicopter",
+   "creator_ids": [
+    "evercoast"
+   ],
+   "title": "A$AP Rocky – HELICOPTER (4D-captured music video)",
+   "year": 2026,
+   "date": "2026-01-12",
+   "field": "spatial-4d",
+   "sub": "volumetric",
+   "also": [
+    "video"
+   ],
+   "modalities": [
+    "flat-video",
+    "dynamic-4d"
+   ],
+   "inputs": [
+    "multi-view"
+   ],
+   "timing": "offline",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "experience",
+   "description": "The official music video for A$AP Rocky's “HELICOPTER” (January 2026) was built from performers captured as 4D Gaussian splats by Evercoast's multi-camera system and then composed into the video's scenes; Evercoast says nearly every human in the video was shot and generated with its platform.",
+   "description_zh": "A$AP Rocky《HELICOPTER》的官方音乐录影带（2026 年 1 月）由 Evercoast 多相机系统捕捉为 4D 高斯泼溅的表演者合成到各个场景中；Evercoast 称片中几乎所有人物都是用其平台拍摄并生成的。",
+   "idea_en": "A mass-audience release treated 4D-captured people as footage that can be re-shot after the fact, a sign that the capture side of 4D media has moved from demos into commercial production.",
+   "idea_zh": "一部面向大众的作品把 4D 捕捉的人当作可以事后“重拍”的素材，说明 4D 媒体的捕捉环节已从演示走进商业制作。",
+   "method": "Performers were filmed on a synchronized multi-camera rig (56 cameras, as reported by Radiancefields.com) and reconstructed with Evercoast's software (likely its Cloudbreak service) into 4D Gaussian splat sequences, which the VFX team rendered from new virtual camera paths.",
+   "method_zh": "表演者在同步多相机阵列上拍摄（据 Radiancefields.com 报道为 56 台相机），再用 Evercoast 的软件（很可能是其 Cloudbreak 服务）重建为 4D 高斯泼溅序列，由视效团队沿新的虚拟镜头路径渲染。",
+   "specs": "56-camera rig (reported) · 4D Gaussian splat performers",
+   "keywords": [
+    "music video",
+    "4DGS",
+    "volumetric capture",
+    "virtual camera",
+    "A$AP Rocky"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=GTRbualP7-A"
+   },
+   "source_url": "https://evercoast.com/",
+   "collections": [
+    "trend-4d-media"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "Zip-NeRF (Barron et al., ICCV 2023)",
+   "why": "Below salience bar for this round: the NeRF lineage is already anchored by NeRF, mip-NeRF 360 and SMERF (its distilled successor).",
+   "link": "https://jonbarron.info/zipnerf/",
+   "found_via": "spatial-4d",
+   "status": "off_topic"
+  },
+  {
+   "name": "MVSplat (ECCV 2024)",
+   "why": "Below salience bar: sparse-view feed-forward Gaussians are covered by pixelSplat and AnySplat.",
+   "link": "https://donydchen.github.io/mvsplat/",
+   "found_via": "spatial-4d",
+   "status": "off_topic"
+  },
+  {
+   "name": "Fast3R (Meta, CVPR 2025)",
+   "why": "Below salience bar: many-view feed-forward reconstruction is covered by VGGT, π³ and VGGT-Ω.",
+   "link": "https://fast3r-3d.github.io/",
+   "found_via": "spatial-4d",
+   "status": "off_topic"
+  },
+  {
+   "name": "π³ / Pi3 (2025)",
+   "why": "Added in spatial-4d-2026-10 as shanghai-ai-lab--pi3 (ICLR 2026).",
+   "link": "https://yyfz.github.io/pi3/",
+   "found_via": "spatial-4d",
+   "status": "duplicate"
+  },
+  {
+   "name": "Long-LRM (Adobe, ICCV 2025)",
+   "why": "Below salience bar: feed-forward scene Gaussians are covered by AnySplat, WorldMirror and InfiniSplat v2.",
+   "link": "https://arthurhero.github.io/projects/llrm/",
+   "found_via": "spatial-4d",
+   "status": "off_topic"
+  },
+  {
+   "name": "InfiniSplat v2 (ZJU, 2026-10-14)",
+   "why": "Added in spatial-4d-2026-10 as yongzhen-hu--infinisplat-v2.",
+   "link": "https://zju3dv.github.io/InfiniSplat2/",
+   "found_via": "spatial-4d",
+   "status": "duplicate"
+  },
+  {
+   "name": "MotionCrafter (Tencent ARC, CVPR 2026 Highlight)",
+   "why": "Added in spatial-4d-2026-10 as ruijie-zhu--motioncrafter.",
+   "link": "https://ruijiezhu94.github.io/MotionCrafter_Page/",
+   "found_via": "spatial-4d",
+   "status": "duplicate"
+  },
+  {
+   "name": "Lift4D (CMU, SIGGRAPH Asia 2026)",
+   "why": "Completes unobserved regions of a moving object with image-to-3D and novel-view diffusion priors, so it belongs to generative-4d-objects; handed to the gen4d agent (temp/spatial-4d/update/gen4d-handoff.txt).",
+   "link": "https://lift4d.github.io",
+   "found_via": "spatial-4d",
+   "status": "off_topic"
+  },
+  {
+   "name": "HY-World 2.0 (Tencent Hunyuan, 2026-04)",
+   "why": "Already in worlds-3d as tencent-hunyuan--hy-world-2 (includes WorldMirror 2.0).",
+   "link": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+   "found_via": "spatial-4d",
+   "status": "duplicate"
+  },
+  {
+   "name": "HunyuanWorld-Mirror (Tencent Hunyuan, 2025-10)",
+   "why": "Added in spatial-4d-2026-10 as tencent-hunyuan--worldmirror (ICML 2026); also covers the worlds-3d lead on WorldMirror / WorldMirror 2.0.",
+   "link": "https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror",
+   "found_via": "worlds-3d",
+   "status": "duplicate"
+  },
+  {
+   "name": "Khronos glTF KHR_gaussian_splatting (2026-02)",
+   "why": "Already in infra as khronos-group--gltf-gaussian-splatting.",
+   "link": "https://www.khronos.org/news/press/gltf-gaussian-splatting-press-release",
+   "found_via": "spatial-4d",
+   "status": "duplicate"
+  },
+  {
+   "name": "Nokia VolStream (open source, 2026-08) and GS4-over-DASH demo (IBC 2026)",
+   "why": "Open RGB-D volumetric capture-to-stream stack on MPEG V3C/MIV (11 GitHub stars by Oct 2026) and an IBC 2026 demo of MPEG-coded dynamic splats over DASH; only a blog image, no official video found.",
+   "link": "https://www.nokia.com/blog/bringing-real-time-volumetric-video-streaming-to-the-developer-community/",
+   "found_via": "spatial-4d",
+   "status": "no_media"
+  },
+  {
+   "name": "Volinga 4DGS for Unreal Engine",
+   "why": "Added in spatial-4d-2026-10 as volinga--4dgs-unreal (official video 2026-07-21).",
+   "link": "https://www.youtube.com/watch?v=OQwaF0ihjH4",
+   "found_via": "spatial-4d",
+   "status": "duplicate"
+  },
+  {
+   "name": "Corridor Crew × 4DV.ai (2026-03-29)",
+   "why": "Third-party video about 4DV.ai, which already has an official video in 4dv-ai--4d-video.",
+   "link": "https://www.youtube.com/watch?v=X8yRlA7jqEQ",
+   "found_via": "spatial-4d",
+   "status": "duplicate"
+  },
+  {
+   "name": "8i volumetric holograms",
+   "why": "Below salience bar: early volumetric capture is anchored by Microsoft's free-viewpoint video (2015) and Arcturus HoloSuite; little current activity.",
+   "link": "https://8i.com/",
+   "found_via": "spatial-4d",
+   "status": "off_topic"
+  },
+  {
+   "name": "KIRI Engine (3DGS scanning app)",
+   "why": "Below salience bar: phone splat capture is covered by Polycam, Scaniverse and Luma; its Blender add-on (3DGS Render 5.0 with 4DGS export) is a candidate if the capture-tools sub needs a Blender path.",
+   "link": "https://www.kiriengine.app/",
+   "found_via": "spatial-4d",
+   "status": "off_topic"
+  },
+  {
+   "name": "ooosplat (2026-08)",
+   "why": "Below salience bar: hobbyist one-click local video-to-splat app (about 2k GitHub stars in two months); local training is covered by Postshot and nerfstudio.",
+   "link": "https://github.com/ooolabdev/ooosplat",
+   "found_via": "spatial-4d",
+   "status": "off_topic"
+  },
+  {
+   "name": "Google DeepMind D4RT (2026-01)",
+   "why": "Added in spatial-4d-2026-10 as chuhan-zhang--d4rt (CVPR 2026 Best Paper).",
+   "link": "https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "PackUV: Packed Gaussian UV maps for 4D volumetric video (2026)",
+   "why": "Added in spatial-4d-2026-10 as aashish-rai--packuv (CVPR 2026).",
+   "link": "https://arxiv.org/abs/2602.23040",
+   "found_via": "trends",
+   "status": "duplicate"
+  },
+  {
+   "name": "Beyond Monoscopic Viewing: A Study on 3D Gaussian Splatting Quality in VR (2026-09-29)",
+   "why": "Linköping University HMD study: standard image metrics miss floaters that become salient in stereo; useful for perceptual-realism claims, but a 12-page paper with no project page or video.",
+   "link": "https://arxiv.org/abs/2609.38525",
+   "found_via": "trends",
+   "status": "no_media"
+  },
+  {
+   "name": "Spark 2.0 (World Labs, 2026-04-14)",
+   "why": "Already folded into world-labs--spark as a status edit.",
+   "link": "https://www.worldlabs.ai/blog/spark-2.0",
+   "found_via": "worlds-3d",
+   "status": "duplicate"
+  },
+  {
+   "name": "4RC: 4D Reconstruction via Conditional Querying Anytime and Anywhere (NTU, ICML 2026)",
+   "why": "Feed-forward 4D reconstruction with an encode-once, query-anywhere decoder, close to D4RT; 251 GitHub stars; add if the dynamic sub needs an open counterpart to D4RT.",
+   "link": "https://yihangluo.com/projects/4RC/",
+   "found_via": "chuhan-zhang",
+   "status": "open"
+  },
+  {
+   "name": "ByteDance MultiMedia Lab 4D media system / LiveGS (SIGGRAPH 2025 E-Tech; Volcano Engine FORCE 2025-12)",
+   "why": "Volumetric: multi-camera 4DGS on demand, LiveGS real-time feed-forward 4DGS streaming at 10–20 Mbps (iPhone 15 playback ~30 fps) and holographic calls; reported by Radiancefields.com 2026-09-02, no official video or project page found.",
+   "link": "https://radiancefields.com/bytedance-multimedia-lab-builds-a-4d-media-system-for-live-and-on-demand-6dof-video",
+   "found_via": "bytedance-seed",
+   "status": "no_media"
+  },
+  {
+   "name": "NEXIA VIDEO (NEXIA Entertainment, Tokyo, 2026)",
+   "why": "Commissioned 4DGS free-viewpoint service for live and sports video; only a flat MP4 sample, reportedly reusing 4DV.ai footage, no viewer or specs.",
+   "link": "https://radiancefields.com/nexia-entertainment-launches-commercial-4d-gaussian-splatting-for-live-and-sports-video",
+   "found_via": "4dv-ai",
+   "status": "off_topic"
+  },
+  {
+   "name": "three.js r186 native Gaussian splat renderer (2026-09)",
+   "why": "infra/engines: the default web 3D library now loads PLY / SPZ / glTF splats natively (WebGPU/TSL, splat raycasting); belongs to infra.",
+   "link": "https://radiancefields.com/three.js-ships-its-native-gaussian-splat-renderer-and-splat-raycasting-in-r186",
+   "found_via": "world-labs",
+   "status": "open"
+  },
+  {
+   "name": "Blender 5.3 native Gaussian splat import and rendering (alpha, 2026-09)",
+   "why": "infra/engines: PLY and SPZ splats in Workbench, EEVEE and Cycles with geometry nodes; still alpha in October 2026.",
+   "link": "https://radiancefields.com/blender-5.3-will-bring-native-3d-gaussian-splat-import-and-rendering",
+   "found_via": "playcanvas",
+   "status": "open"
+  },
+  {
+   "name": "MPEG call for dynamic Gaussian splat test material (WG 5 N 422, 2026-08)",
+   "why": "infra/standards: MPEG is preparing a Call for Proposals on static and dynamic 3DGS coding (test material due 2026-10-15); signal for trend-4d-media.",
+   "link": "https://radiancefields.com/mpeg-calls-for-dynamic-gaussian-splat-test-material-ahead-of-a-coding-call-for-proposals",
+   "found_via": "khronos-group",
+   "status": "open"
+  },
+  {
+   "name": "Niantic Spatial Gaussian splat relighting (beta, 2026-09-19)",
+   "why": "Design-partner beta that relights captured splats (sun, sky, rain) via the aligned mesh and precomputed radiance transfer; candidate status edit for niantic-spatial--scaniverse once public.",
+   "link": "https://radiancefields.com/niantic-spatial-launches-gaussian-splat-relighting",
+   "found_via": "niantic-spatial",
+   "status": "open"
+  },
+  {
+   "name": "Splat.js (Arrival.Space, 2026-08)",
+   "why": "MIT WebGPU library running SfM and 3DGS training in a browser tab; 137 GitHub stars; below salience bar for now.",
+   "link": "https://github.com/arrival-space/splat.js",
+   "found_via": "playcanvas",
+   "status": "open"
+  },
+  {
+   "name": "Zebra3D (AMD, 2026-10-08)",
+   "why": "Efficient hybrid feed-forward 3D foundation models from AMD research; watch given AMD's pending World Labs acquisition.",
+   "link": "https://arxiv.org/abs/2610.12727",
+   "found_via": "world-labs",
+   "status": "open"
+  },
+  {
+   "name": "Houdini 22 native Gaussian splats (SideFX, 2026-06)",
+   "why": "infra/engines: SideFX made splats a first-class Houdini type (rigging, relighting, reconstruction); with three.js r186, Blender 5.3 and 3ds Max 2027.2 a signal for trend-explicit-3d.",
+   "link": "https://radiancefields.com/houdini-22-makes-gaussian-splats-a-first-class-citizen-%E2%80%94-rigging-relighting-and-reconstruction",
+   "found_via": "playcanvas",
+   "status": "open"
+  },
+  {
+   "name": "LSRM: Large Sparse Reconstruction Model (Meta Reality Labs, 2026-04)",
+   "why": "Object-centric feed-forward reconstruction and inverse rendering with scaled sparse-attention context; gated CC-BY-NC weights on Hugging Face (2026-05-19); no project page or video found; may belong to assets/objects.",
+   "link": "https://arxiv.org/abs/2604.05182",
+   "found_via": "meta",
+   "status": "no_media"
+  },
+  {
+   "name": "Gracia: first streamed 4DGS (2026-03) and DNE × Gracia streamed 4DGS music performance",
+   "why": "Reported by Radiancefields.com (keyframes + motion deltas, ~80 Mbps full / 17 Mbps economy, PortAventura World 4DGS character); gracia.ai now leads with 'World Reconstruction Models for Physical AI'; needs an official source before a status edit. Covered by work gracia-ai--gracia (2026-10 update).",
+   "link": "https://radiancefields.com/4d-gaussian-splatting",
+   "found_via": "gracia-ai",
+   "status": "duplicate"
+  }
+ ]
+}

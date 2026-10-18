@@ -2586,8 +2586,8 @@
     "authoring"
    ],
    "kind": "product",
-   "description": "A visionOS 26 feature that turns any 2D photo into a spatial scene with depth and multiple perspectives, so the viewer can lean in and look around it on Apple Vision Pro (and as parallax on the iOS 26 Lock Screen), and developers get a Spatial Scene API. With visionOS 27, announced at WWDC on 2026-06-08, Vision Pro users can also turn panoramas into spatial scenes and use them as personal Environments.",
-   "description_zh": "visionOS 26 的功能：把任意二维照片变成带深度、可从多个角度观看的空间场景，在 Apple Vision Pro 上可以凑近、环顾（iOS 26 锁定屏幕上则呈现为视差效果）；开发者可使用 Spatial Scene API。2026 年 6 月 8 日 WWDC 发布的 visionOS 27 进一步让 Vision Pro 用户把全景照片变成空间场景，并设为个人“环境”。",
+   "description": "A visionOS 26 feature that turns any 2D photo into a spatial scene with depth and multiple perspectives, so the viewer can lean in and look around it on Apple Vision Pro (and as parallax on the iOS 26 Lock Screen), and developers get a Spatial Scene API. With visionOS 27, announced at WWDC on 2026-06-08 and released on 2026-09-14, Vision Pro users can also turn panoramas into spatial scenes and use them as personal Environments.",
+   "description_zh": "visionOS 26 的功能：把任意二维照片变成带深度、可从多个角度观看的空间场景，在 Apple Vision Pro 上可以凑近、环顾（iOS 26 锁定屏幕上则呈现为视差效果）；开发者可使用 Spatial Scene API。2026 年 6 月 8 日 WWDC 发布、9 月 14 日正式推送的 visionOS 27 进一步让 Vision Pro 用户把全景照片变成空间场景，并设为个人“环境”。",
    "idea_en": "Photo-to-3D now ships by default in a headset OS, so personal photos become a ready source of familiar, real places for immersive studies.",
    "idea_zh": "照片转三维已成为头显系统的默认功能，个人照片因此成为沉浸式研究中现成的、熟悉的真实场所来源。",
    "method": "Apple describes 'a new generative AI algorithm and computational depth' that infers geometry and fills disoccluded regions to create multiple perspectives; the model is not published (Apple's SHARP research addresses the same task).",
@@ -3313,17 +3313,17 @@
  "leads": [
   {
    "name": "HY-Pano 2.0 (Tencent Hunyuan, open weights May 2026)",
-   "why": "Open ~80B text/image-to-360° panorama model; the panorama stage of HY-World 2.0. Could be its own panorama work.",
+   "why": "Open ~80B text/image-to-360° panorama model; the panorama stage of HY-World 2.0. Could be its own panorama work. Covered by work tencent-hunyuan--hy-world-2 (2026-10 update).",
    "link": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
    "found_via": "tencent-hunyuan",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "HunyuanWorld 1.1 / WorldMirror (Oct 2025) and WorldMirror 2.0 (Apr 2026)",
-   "why": "Feed-forward 3D reconstruction from video or multi-view images; belongs to spatial-4d / feed-forward.",
+   "why": "Feed-forward 3D reconstruction from video or multi-view images; belongs to spatial-4d / feed-forward. Covered by work tencent-hunyuan--worldmirror (2026-10 update).",
    "link": "https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror",
    "found_via": "tencent-hunyuan",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "HY-World 1.5 / WorldPlay (Dec 2025)",
@@ -3376,10 +3376,10 @@
   },
   {
    "name": "ViewCrafter (2024)",
-   "why": "Video-diffusion novel view synthesis with point-cloud guidance; author video WGIEmu9eXmU exists.",
+   "why": "Video-diffusion novel view synthesis with point-cloud guidance; author video WGIEmu9eXmU exists. Covered by work wangbo-yu--viewcrafter (2026-10 update).",
    "link": "https://drexubery.github.io/ViewCrafter/",
    "found_via": "xuanchi-ren",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "Marigold (CVPR 2024 oral)",
@@ -3404,38 +3404,38 @@
   },
   {
    "name": "SceneScape (2023)",
-   "why": "Text-driven consistent perpetual scene generation with mesh; project page has mp4s.",
+   "why": "Text-driven consistent perpetual scene generation with mesh; project page has mp4s. Covered by work rafail-fridman--scenescape (2026-10 update).",
    "link": "https://scenescape.github.io/",
    "found_via": "lukas-hollein",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "GaussianGPT (ECCV 2026 oral)",
-   "why": "Autoregressive generation and completion of 3D Gaussian scenes.",
+   "why": "Autoregressive generation and completion of 3D Gaussian scenes. Covered by work nicolas-von-lutzow--gaussiangpt (2026-10 update).",
    "link": "https://github.com/nicolasvonluetzow/GaussianGPT",
    "found_via": "spaitial",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "Gen3R (CVPR 2026)",
-   "why": "3D scene generation unified with feed-forward reconstruction.",
+   "why": "3D scene generation unified with feed-forward reconstruction. Covered by work jiaxin-huang--gen3r (2026-10 update).",
    "link": "https://github.com/JaceyHuang/Gen3R",
    "found_via": "nvidia",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "PixWorld / OneWorld (2026)",
-   "why": "Unified scene generation and reconstruction in pixel space / with a 3D representation autoencoder.",
+   "why": "Unified scene generation and reconstruction in pixel space / with a 3D representation autoencoder. Covered by work sensen-gao--pixworld (2026-10 update).",
    "link": "https://github.com/SensenGao/PixWorld",
    "found_via": "nvidia",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "GAE: Geometry-native latent space for 3D-consistent world generation (TencentARC, Sep 2026)",
-   "why": "New 2026 latent representation for world generation.",
+   "why": "New 2026 latent representation for world generation. Covered by work jiahao-lu--gae (2026-10 update).",
    "link": "https://github.com/TencentARC/GAE-GeometricAutoEncoder",
    "found_via": "tencent-hunyuan",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "CityDreamer4D (2025)",

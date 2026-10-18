@@ -1,0 +1,1107 @@
+{
+ "batch": "worlds-3d-2026-10",
+ "creators": [
+  {
+   "id": "amap",
+   "name": "Amap (Alibaba)",
+   "name_zh": "高德地图",
+   "kind": "company",
+   "role": "Alibaba Group's mapping and navigation service, whose CV Lab builds generative 3D Earth and world models",
+   "role_zh": "阿里巴巴集团旗下的地图与导航服务，其视觉实验室（CV Lab）研发生成式三维地球与世界模型",
+   "bio": "Amap (Gaode) is the digital map and navigation service of Alibaba Group; its CV Lab released the ABot-Earth generative 3D Earth model in 2026.",
+   "bio_zh": "高德是阿里巴巴集团的数字地图与导航服务；其视觉实验室于 2026 年发布了生成式三维地球模型 ABot-Earth。",
+   "why": "A map company is turning satellite imagery into generated, walkable 3D cities at city and planet scale.",
+   "why_zh": "一家地图公司正在把卫星影像变成可漫游的生成式三维城市，规模从城市延伸到整个星球。",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://abot-earth.amap.com/",
+    "github": "https://github.com/amap-cvlab"
+   },
+   "connected_to": [
+    "alibaba-tongyi"
+   ],
+   "discovered_via": "seed",
+   "based": "Beijing, China",
+   "based_zh": "中国北京"
+  },
+  {
+   "id": "jiahao-lu",
+   "name": "Jiahao Lu",
+   "kind": "person",
+   "role": "PhD researcher, The Hong Kong University of Science and Technology",
+   "role_zh": "香港科技大学博士研究者",
+   "bio": "Co-first author of GAE (2026), a geometry-native latent space for world generation developed with Tencent ARC Lab.",
+   "bio_zh": "GAE（2026）的共同第一作者；该工作与腾讯 ARC 实验室合作，为世界生成提出了几何原生的潜空间。",
+   "why": "GAE argues that 3D consistency in generated worlds is a representation problem, not only a modelling one.",
+   "why_zh": "GAE 认为，生成世界的三维一致性不只是建模问题，也是表示问题。",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://jiah-cloud.github.io/GAE.github.io/"
+   },
+   "connected_to": [
+    "tencent-arc"
+   ],
+   "discovered_via": "seed",
+   "based": "Hong Kong, China",
+   "based_zh": "中国香港"
+  },
+  {
+   "id": "wangbo-yu",
+   "name": "Wangbo Yu",
+   "kind": "person",
+   "role": "PhD researcher, Peking University",
+   "role_zh": "北京大学博士研究者",
+   "bio": "First author of ViewCrafter (2024, TPAMI 2025) and of the follow-up WorldCrafter video world model (2026).",
+   "bio_zh": "ViewCrafter（2024，TPAMI 2025）及其后续视频世界模型 WorldCrafter（2026）的第一作者。",
+   "why": "ViewCrafter's point-cloud-guided video diffusion became a template for camera-controlled scene generation.",
+   "why_zh": "ViewCrafter 以点云引导视频扩散的做法，成为相机可控场景生成的常用范式。",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "github": "https://github.com/Drexubery"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Shenzhen, China",
+   "based_zh": "中国深圳"
+  },
+  {
+   "id": "nicolas-von-lutzow",
+   "name": "Nicolas von Lützow",
+   "kind": "person",
+   "role": "PhD researcher, Visual Computing & AI Lab, Technical University of Munich",
+   "role_zh": "慕尼黑工业大学视觉计算与人工智能实验室博士研究者",
+   "bio": "First author of GaussianGPT (ECCV 2026 oral), developed in Matthias Niessner's group at TUM.",
+   "bio_zh": "GaussianGPT（ECCV 2026 口头报告）的第一作者，该工作完成于慕尼黑工业大学 Matthias Niessner 的研究组。",
+   "why": "GaussianGPT is an early fully autoregressive generator of explicit 3D scenes, an alternative to diffusion.",
+   "why_zh": "GaussianGPT 是较早的完全自回归式显式三维场景生成器，为扩散模型之外提供了另一条路线。",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://nicolasvonluetzow.github.io/GaussianGPT/",
+    "github": "https://github.com/nicolasvonluetzow"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Munich, Germany",
+   "based_zh": "德国慕尼黑"
+  },
+  {
+   "id": "jiaxin-huang",
+   "name": "Jiaxin Huang",
+   "kind": "person",
+   "role": "Researcher, X-D Lab (Yiyi Liao), Zhejiang University",
+   "role_zh": "浙江大学 X-D Lab（廖依伊课题组）研究者",
+   "bio": "First author of Gen3R (CVPR 2026), which couples a video diffusion model with the VGGT reconstruction model.",
+   "bio_zh": "Gen3R（CVPR 2026）的第一作者，该工作把视频扩散模型与 VGGT 重建模型耦合在一起。",
+   "why": "Gen3R makes every generated view arrive with camera poses, depth and a point cloud that can be checked.",
+   "why_zh": "Gen3R 让每个生成视角都附带可检验的相机位姿、深度和点云。",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://xdimlab.github.io/Gen3R/",
+    "github": "https://github.com/JaceyHuang"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Hangzhou, China",
+   "based_zh": "中国杭州"
+  },
+  {
+   "id": "horizon-robotics",
+   "name": "Horizon Robotics",
+   "name_zh": "地平线",
+   "kind": "company",
+   "role": "Chinese maker of AI processors and software for vehicles and robots",
+   "role_zh": "中国的车载与机器人 AI 芯片及软件公司",
+   "bio": "Horizon Robotics develops AI processors and driving software; its robotics team released the open EmbodiedGen toolkit (2025) and EmbodiedGen V2 (2026).",
+   "bio_zh": "地平线研发 AI 处理器与智能驾驶软件；其机器人团队开源了 EmbodiedGen 工具包（2025）和 EmbodiedGen V2（2026）。",
+   "why": "It is one of the Chinese companies open-sourcing generators of simulation-ready 3D worlds.",
+   "why_zh": "它是开源“可直接仿真”的三维世界生成器的中国公司之一。",
+   "disciplines": [
+    "robotics",
+    "graphics"
+   ],
+   "links": {
+    "github": "https://github.com/HorizonRobotics"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Beijing, China",
+   "based_zh": "中国北京"
+  },
+  {
+   "id": "muyao-niu",
+   "name": "Muyao Niu",
+   "kind": "person",
+   "role": "PhD researcher, The University of Tokyo; works with Alaya Lab",
+   "role_zh": "东京大学博士研究者，与 Alaya Lab 合作",
+   "bio": "First author of WorldSculpt (2026), a joint project of Alaya Lab and the University of Tokyo.",
+   "bio_zh": "WorldSculpt（2026）的第一作者，该项目由 Alaya Lab 与东京大学合作完成。",
+   "why": "WorldSculpt shows how generated or captured worlds can be broken into separate, editable objects.",
+   "why_zh": "WorldSculpt 展示了如何把生成或拍摄得到的世界拆成一个个可单独编辑的物体。",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://alaya-lab.github.io/WorldSculpt/"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Tokyo, Japan",
+   "based_zh": "日本东京"
+  },
+  {
+   "id": "manycore",
+   "name": "Manycore Tech",
+   "name_zh": "群核科技",
+   "kind": "company",
+   "role": "Hangzhou company behind the Kujiale interior-design platform; open-sources spatial AI models",
+   "role_zh": "杭州公司，运营酷家乐室内设计平台，并开源空间智能模型",
+   "bio": "Manycore Tech runs the Kujiale interior-design platform and has open-sourced spatial AI models such as SpatialLM (2025) and SpatialGen (2025).",
+   "bio_zh": "群核科技运营酷家乐室内设计平台，并开源了 SpatialLM（2025）和 SpatialGen（2025）等空间智能模型。",
+   "why": "Its large store of designed interiors feeds layout-controlled indoor scene generation.",
+   "why_zh": "它积累的大量室内设计数据，支撑起可由布局控制的室内场景生成。",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://manycoretech.com/",
+    "github": "https://github.com/manycore-research",
+    "huggingface": "https://huggingface.co/manycore-research"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Hangzhou, China",
+   "based_zh": "中国杭州"
+  },
+  {
+   "id": "rafail-fridman",
+   "name": "Rafail Fridman",
+   "kind": "person",
+   "role": "Researcher, Weizmann Institute of Science (Tali Dekel's group)",
+   "role_zh": "魏茨曼科学研究所研究者（Tali Dekel 课题组）",
+   "bio": "First author of SceneScape (NeurIPS 2023), text-driven perpetual scene generation with a unified mesh.",
+   "bio_zh": "SceneScape（NeurIPS 2023）的第一作者，该工作以统一网格实现文本驱动的无限场景生成。",
+   "why": "SceneScape was one of the first methods to keep an explicit 3D memory during an endless generated walk.",
+   "why_zh": "SceneScape 是最早在无限生成的漫游中保留显式三维记忆的方法之一。",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://scenescape.github.io/",
+    "github": "https://github.com/RafailFridman"
+   },
+   "connected_to": [],
+   "discovered_via": "seed",
+   "based": "Rehovot, Israel",
+   "based_zh": "以色列雷霍沃特"
+  },
+  {
+   "id": "sensen-gao",
+   "name": "Sensen Gao",
+   "kind": "person",
+   "role": "Researcher, Nanyang Technological University",
+   "role_zh": "南洋理工大学研究者",
+   "bio": "Co-first author of PixWorld (2026), developed at Nanyang Technological University with AIsphere, the company behind PixVerse.",
+   "bio_zh": "PixWorld（2026）的共同第一作者，该工作由南洋理工大学与 PixVerse 背后的爱诗科技合作完成。",
+   "why": "PixWorld treats 3D scene generation and reconstruction as one pixel-space diffusion problem.",
+   "why_zh": "PixWorld 把三维场景生成与重建视为同一个像素空间扩散问题。",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://sensengao.github.io/PixWorld/",
+    "github": "https://github.com/SensenGao"
+   },
+   "connected_to": [
+    "pixverse"
+   ],
+   "discovered_via": "seed",
+   "based": "Singapore",
+   "based_zh": "新加坡"
+  }
+ ],
+ "works": [
+  {
+   "id": "amap--abot-earth",
+   "creator_ids": [
+    "amap"
+   ],
+   "title": "ABot-Earth",
+   "year": 2026,
+   "date": "2026-06-08",
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image",
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "product",
+    "preview"
+   ],
+   "lenses": [
+    "situational-reach",
+    "persistence",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "Amap's generative 3D Earth model builds walkable 3D Gaussian-splat city districts from satellite imagery, in under ten minutes per square kilometre, and streams them with level of detail in a public web viewer where visitors fly between generated cities, the Moon and Mars. Version 0.5 (technical report, June 2026) was followed by 0.7 on 2026-09-10; creating your own 1 km² tile from text or a reference image is whitelist-only as of October 2026.",
+   "description_zh": "高德的生成式三维地球模型：以卫星影像为条件生成可漫游的三维高斯泼溅城市街区，每平方公里不到 10 分钟，并以分级细节（LOD）在公开的网页浏览器中流式加载，访客可以在生成的城市、月球和火星之间穿梭。0.5 版技术报告发布于 2026 年 6 月，0.7 版于 2026 年 9 月 10 日上线；截至 2026 年 10 月，用文字或参考图创作自己的 1 平方公里地块仍仅向白名单用户开放。",
+   "idea_en": "Grounding generation in satellite imagery yields city-scale scenes that follow a real place's layout, so a study could stage an encounter on a recognisable street without capturing it on foot.",
+   "idea_zh": "以卫星影像为生成依据，得到的城市级场景遵循真实地点的布局，研究可以在一条可辨认的街道上布置情境，而无需实地采集。",
+   "method": "A generative model formulated directly on 3D Gaussian splats is trained on a corpus of real-world urban reconstructions and, at inference, synthesises geometry and texture conditioned only on geo-referenced satellite tiles, packed into hierarchical LOD for web map engines.",
+   "method_zh": "直接在三维高斯泼溅表示上构建的生成模型，用大量真实城市重建数据训练；推理时仅以带地理坐标的卫星影像为条件合成几何与纹理，并打包成分级 LOD，供网页地图引擎实时渲染。",
+   "specs": "< 10 min per km² · 1 km² tiles · hierarchical LOD · web viewer",
+   "keywords": [
+    "generative 3D Earth",
+    "satellite imagery",
+    "3D Gaussian splatting",
+    "city-scale",
+    "level of detail",
+    "UAV navigation"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=Qv64FpsEi2Q"
+   },
+   "images": [
+    "https://raw.githubusercontent.com/amap-cvlab/ABot-Earth-0.5/main/src/fig_teaser.jpg"
+   ],
+   "paper": {
+    "title": "ABot-Earth 0.5: Generative 3D Earth Model",
+    "venue": "Technical report 2026",
+    "arxiv": "2606.09967",
+    "url": "https://arxiv.org/abs/2606.09967"
+   },
+   "source_url": "https://abot-earth.amap.com/",
+   "collections": [
+    "trend-explicit-3d",
+    "trend-grounded",
+    "trend-physical-ai"
+   ]
+  },
+  {
+   "id": "jiahao-lu--gae",
+   "creator_ids": [
+    "jiahao-lu",
+    "tencent-arc"
+   ],
+   "title": "GAE (Geometry-Native Autoencoder)",
+   "year": 2026,
+   "date": "2026-09-21",
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "flat-video",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image",
+    "text",
+    "camera"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "An open 1B-parameter generator from HKUST and Tencent ARC Lab that turns one image and a prompt into a camera-controlled multi-view video whose every frame also decodes into depth, camera poses and point maps, so the generated world comes out as consistent 3D rather than pixels alone.",
+   "description_zh": "香港科技大学与腾讯 ARC 实验室推出的开源 10 亿参数生成模型：由一张图像和一句提示生成相机可控的多视角视频，每一帧同时可解码为深度、相机位姿和点图，生成的世界因此直接带有一致的三维结构，而不只是像素。",
+   "idea_en": "Generating in a latent that already encodes geometry, instead of checking geometry afterwards, is one route to video-like worlds that stay put when you look back.",
+   "idea_zh": "在本身就编码几何的潜空间里生成，而不是事后再补几何，是让类视频世界在回头看时仍保持不变的一条路径。",
+   "method": "Features of a geometry foundation model are reparameterised into a compact latent (the geometry-native autoencoder) that decodes jointly to appearance, depth, cameras and point maps, and a standard conditional flow-matching model generates directly in that latent; with the generator and training protocol held fixed, the authors report better visual quality and measured 3D coherence than with an appearance-only latent.",
+   "method_zh": "把几何基础模型的特征重新参数化为一个紧凑潜空间（几何原生自编码器），它可同时解码出外观、深度、相机与点图；再用标准的条件流匹配模型直接在该潜空间中生成。作者报告，在生成器与训练流程不变的对照中，换用该潜空间后，画质和独立测量的三维一致性都优于只编码外观的潜空间。",
+   "specs": "1B parameters · image + prompt → multi-view video with depth, cameras and point maps",
+   "keywords": [
+    "geometry-native latent",
+    "flow matching",
+    "3D consistency",
+    "world generation",
+    "open weights"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=DpPD85IK-Ko"
+   },
+   "images": [
+    "https://jiah-cloud.github.io/GAE.github.io/assets/overview/GAE-teaser-poster.jpg"
+   ],
+   "paper": {
+    "title": "GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation",
+    "venue": "arXiv 2026",
+    "arxiv": "2609.24981",
+    "url": "https://arxiv.org/abs/2609.24981"
+   },
+   "source_url": "https://jiah-cloud.github.io/GAE.github.io/",
+   "code_url": "https://github.com/TencentARC/GAE-GeometricAutoEncoder",
+   "collections": [
+    "trend-explicit-3d",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "wangbo-yu--viewcrafter",
+   "creator_ids": [
+    "wangbo-yu"
+   ],
+   "title": "ViewCrafter",
+   "year": 2024,
+   "date": "2024-09-03",
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "flat-video",
+    "splats"
+   ],
+   "inputs": [
+    "image",
+    "camera"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "control"
+   ],
+   "kind": "research",
+   "description": "From one or a few photos, ViewCrafter generates new views along a chosen camera path with a video diffusion model guided by a point cloud, then fits 3D Gaussians to the result so the scene can be viewed in real time; code and weights are open.",
+   "description_zh": "ViewCrafter 从一张或几张照片出发，用以点云为引导的视频扩散模型沿指定镜头路径生成新视角，再用这些画面拟合三维高斯，使场景可以实时浏览；代码与权重均已开源。",
+   "idea_en": "Coarse 3D points tell the video model where things are and the video model fills in how they look: a division of labour many later world generators adopted.",
+   "idea_zh": "粗略的三维点告诉视频模型物体在哪里，视频模型补上它们看起来的样子：后来许多世界生成器都采用了这种分工。",
+   "method": "A point cloud reconstructed from the input images is rendered along the target trajectory and conditions an image-to-video diffusion model; iterative view synthesis with camera-trajectory planning extends coverage, and the generated frames are used to optimise 3D Gaussian splats.",
+   "method_zh": "先由输入图像重建点云，沿目标轨迹渲染后作为图生视频扩散模型的条件；再通过迭代视角合成与镜头轨迹规划逐步扩大覆盖范围，最后用生成的画面优化三维高斯泼溅。",
+   "keywords": [
+    "novel view synthesis",
+    "video diffusion",
+    "point-cloud guidance",
+    "3D Gaussian splatting",
+    "precursor"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=WGIEmu9eXmU"
+   },
+   "images": [
+    "https://drexubery.github.io/ViewCrafter/static/images/room.png"
+   ],
+   "paper": {
+    "title": "ViewCrafter: Taming Video Diffusion Models for High-fidelity Novel View Synthesis",
+    "venue": "IEEE TPAMI 2025",
+    "arxiv": "2409.02048",
+    "url": "https://arxiv.org/abs/2409.02048"
+   },
+   "source_url": "https://drexubery.github.io/ViewCrafter/",
+   "code_url": "https://github.com/Drexubery/ViewCrafter",
+   "collections": [
+    "trend-explicit-3d",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "odyssey--explorer",
+   "creator_ids": [
+    "odyssey"
+   ],
+   "title": "Explorer",
+   "year": 2024,
+   "date": "2024-12-18",
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "preview"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "Odyssey's first world model turned a single image into a photorealistic 3D Gaussian-splat world in about ten minutes, which artists could open and hand-edit in Unreal, Houdini or Blender; Odyssey tested the worlds on a virtual-production stage at Garden Studios in London. Access was by contact request rather than a public app, and Odyssey has since moved to real-time interactive video world models (Odyssey-2, Odyssey-3).",
+   "description_zh": "Odyssey 的第一个世界模型：约 10 分钟把一张图像变成照片级的三维高斯泼溅世界，艺术家可以在 Unreal、Houdini 或 Blender 中打开并手工修改；Odyssey 还在伦敦 Garden Studios 的虚拟制片棚里测试了这些世界。它通过联系申请提供，而非公开应用；Odyssey 此后转向实时交互的视频世界模型（Odyssey-2、Odyssey-3）。",
+   "idea_en": "Choosing splats as the output meant a generated world could go straight into film and game tools for hand-editing, trading real-time generation for an editable asset.",
+   "idea_zh": "选择高斯泼溅作为输出，意味着生成的世界可以直接进入影视和游戏工具供人手工修改：放弃实时生成，换来可编辑的资产。",
+   "method": "An image-to-world generative model (architecture unpublished) outputs a 3D Gaussian-splat scene; Odyssey reported average generation times of about 10 minutes and early experiments with moving elements such as snow, water and fire.",
+   "method_zh": "图像到世界的生成模型（架构未公开）输出三维高斯泼溅场景；Odyssey 称平均生成时间约 10 分钟，并在早期实验中加入了雪、水、火等运动元素。",
+   "specs": "~10 min per world · Gaussian-splat output",
+   "keywords": [
+    "image-to-world",
+    "Gaussian splatting",
+    "virtual production",
+    "precursor"
+   ],
+   "video": {
+    "url": "https://framerusercontent.com/assets/nOPsdj7d3r5UPEOKBgvQiQtqjE.mp4"
+   },
+   "images": [
+    "https://framerusercontent.com/assets/RtVCbwsEdQy3SKNwI2I8GB4Mhbk.png"
+   ],
+   "source_url": "https://odyssey.world/introducing-explorer",
+   "collections": [
+    "trend-explicit-3d"
+   ]
+  },
+  {
+   "id": "nicolas-von-lutzow--gaussiangpt",
+   "creator_ids": [
+    "nicolas-von-lutzow"
+   ],
+   "title": "GaussianGPT",
+   "year": 2026,
+   "date": "2026-03-27",
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "diversity",
+    "control"
+   ],
+   "kind": "research",
+   "description": "A transformer that writes a 3D Gaussian-splat room token by token, the way a language model writes text, so one model can generate a scene from scratch, complete a partial one or extend a room outward, with sampling temperature controlling how varied the result is; code and checkpoints are open.",
+   "description_zh": "一个像语言模型写文字那样逐个 token 写出三维高斯泼溅房间的 Transformer：同一个模型既能从零生成场景，也能补全残缺场景或向外扩展房间，并用采样温度控制结果的多样程度；代码与检查点已开源。",
+   "idea_en": "Building a scene step by step makes 'keep this part, regenerate the rest' a native operation, which is what controlled variation of a setting needs.",
+   "idea_zh": "逐步搭建场景，让“保留这部分、重新生成其余部分”成为原生操作，这正是有控制地改变一个情境所需要的。",
+   "method": "A sparse 3D convolutional autoencoder with vector quantisation compresses Gaussians into a discrete latent grid; the serialised tokens are modelled by a causal transformer with 3D rotary position embeddings, trained on synthetic indoor scenes (3D-FRONT, Aria Synthetic Environments).",
+   "method_zh": "带向量量化的稀疏三维卷积自编码器把高斯基元压缩成离散潜网格；序列化后的 token 由带三维旋转位置编码的因果 Transformer 建模，训练数据为合成室内场景（3D-FRONT、Aria Synthetic Environments）。",
+   "keywords": [
+    "autoregressive",
+    "3D Gaussian splatting",
+    "scene completion",
+    "outpainting",
+    "next-token prediction"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=zVnMHkFzHDg"
+   },
+   "paper": {
+    "title": "GaussianGPT: Towards Autoregressive 3D Gaussian Scene Generation",
+    "venue": "ECCV 2026 (oral)",
+    "arxiv": "2603.26661",
+    "url": "https://arxiv.org/abs/2603.26661"
+   },
+   "source_url": "https://nicolasvonluetzow.github.io/GaussianGPT/",
+   "code_url": "https://github.com/nicolasvonluetzow/GaussianGPT",
+   "collections": [
+    "trend-explicit-3d",
+    "iccv-eccv"
+   ]
+  },
+  {
+   "id": "jiaxin-huang--gen3r",
+   "creator_ids": [
+    "jiaxin-huang"
+   ],
+   "title": "Gen3R",
+   "year": 2026,
+   "date": "2026-01-07",
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "flat-video",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image",
+    "multi-view"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "perceptual-realism"
+   ],
+   "kind": "research",
+   "description": "Gen3R generates a scene from one or a few images as an RGB video together with its 3D geometry (camera poses, depth maps and a global point cloud), by letting a video diffusion model and the VGGT reconstruction model share aligned latents; code and checkpoints are open.",
+   "description_zh": "Gen3R 由一张或几张图像生成场景：输出 RGB 视频及其三维几何（相机位姿、深度图和全局点云），做法是让视频扩散模型与 VGGT 重建模型共享对齐的潜变量；代码与检查点已开源。",
+   "idea_en": "Coupling a generator with a reconstruction model means every generated view arrives with geometry that can be checked, a step from plausible footage toward measurable space.",
+   "idea_zh": "把生成器与重建模型耦合，每个生成视角都带有可检验的几何，从“看起来合理的画面”向“可测量的空间”迈进一步。",
+   "method": "An adapter on VGGT's tokens produces geometric latents regularised to align with a pre-trained video diffusion model's appearance latents; the two are generated jointly and decoded into frames, cameras, depth and point clouds.",
+   "method_zh": "在 VGGT 的 token 上训练适配器，得到与预训练视频扩散模型外观潜变量对齐的几何潜变量；两者联合生成，再解码为画面、相机、深度与点云。",
+   "keywords": [
+    "feed-forward reconstruction",
+    "VGGT",
+    "video diffusion",
+    "single-image scene",
+    "open weights"
+   ],
+   "video": {
+    "url": "https://xdimlab.github.io/Gen3R/static/videos/teaser.mp4"
+   },
+   "images": [
+    "https://raw.githubusercontent.com/JaceyHuang/Gen3R/main/assets/teaser.png"
+   ],
+   "paper": {
+    "title": "Gen3R: 3D Scene Generation Meets Feed-Forward Reconstruction",
+    "venue": "CVPR 2026",
+    "arxiv": "2601.04090",
+    "url": "https://arxiv.org/abs/2601.04090"
+   },
+   "source_url": "https://xdimlab.github.io/Gen3R/",
+   "code_url": "https://github.com/JaceyHuang/Gen3R",
+   "collections": [
+    "trend-feed-forward",
+    "trend-explicit-3d",
+    "cvpr"
+   ]
+  },
+  {
+   "id": "sensen-gao--pixworld",
+   "creator_ids": [
+    "sensen-gao",
+    "pixverse"
+   ],
+   "title": "PixWorld",
+   "year": 2026,
+   "date": "2026-07-06",
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image",
+    "multi-view",
+    "camera"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "perceptual-realism"
+   ],
+   "kind": "research",
+   "description": "One open diffusion model that both reconstructs the views it is given and generates the ones it is not: posed input images go in, and a pixel-aligned 3D Gaussian scene comes out in a single forward pass, from NTU and AIsphere (PixVerse).",
+   "description_zh": "一个同时完成重建与生成的开源扩散模型：对给定的视角做重建，对缺失的视角做生成；输入带位姿的图像，单次前向即可输出像素对齐的三维高斯场景。由南洋理工大学与爱诗科技（PixVerse）合作完成。",
+   "idea_en": "When reconstruction and generation are one model, how much of a scene is captured versus invented becomes a matter of how many views you supply.",
+   "idea_zh": "当重建与生成是同一个模型时，场景中有多少是拍到的、有多少是想象的，就取决于你提供了多少视角。",
+   "method": "Posed multi-view inputs are split into a clean subset (reconstruction) and a noisy subset (generation), processed by a two-stream diffusion transformer and decoded into pixel-aligned 3D Gaussians, with a flow-matching loss defined on rendered images plus a geometry-perception loss.",
+   "method_zh": "把带位姿的多视角输入分成干净子集（重建）和加噪子集（生成），由双流扩散 Transformer 处理并解码为像素对齐的三维高斯；损失直接定义在渲染图像上的流匹配目标，并加入几何感知损失。",
+   "keywords": [
+    "pixel-space diffusion",
+    "unified generation and reconstruction",
+    "3D Gaussian splatting",
+    "feed-forward"
+   ],
+   "video": {
+    "url": "https://sensengao.github.io/PixWorld/static/videos/demo_v32.mp4"
+   },
+   "images": [
+    "https://sensengao.github.io/PixWorld/static/images/demo_v32_poster.png"
+   ],
+   "paper": {
+    "title": "PixWorld: Unifying 3D Scene Generation and Reconstruction in Pixel Space",
+    "venue": "arXiv 2026",
+    "arxiv": "2607.05373",
+    "url": "https://arxiv.org/abs/2607.05373"
+   },
+   "source_url": "https://sensengao.github.io/PixWorld/",
+   "code_url": "https://github.com/SensenGao/PixWorld",
+   "collections": [
+    "trend-feed-forward",
+    "trend-explicit-3d"
+   ]
+  },
+  {
+   "id": "nvidia--simfoundry",
+   "creator_ids": [
+    "nvidia"
+   ],
+   "title": "SimFoundry",
+   "year": 2026,
+   "date": "2026-06-26",
+   "field": "worlds-3d",
+   "sub": "layout",
+   "modalities": [
+    "scene-3d",
+    "mesh",
+    "splats"
+   ],
+   "inputs": [
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "control",
+    "situational-reach",
+    "diversity"
+   ],
+   "kind": "research",
+   "description": "From a short video of a real tabletop or room, NVIDIA's SimFoundry builds a physics-ready simulation scene (a Gaussian-splat background plus textured object meshes, including articulated ones) in under an hour, then generates 'digital cousins' that vary objects, layout and task; the code was released under Apache 2.0 in August 2026.",
+   "description_zh": "NVIDIA 的 SimFoundry 由一段真实桌面或房间的短视频，在一小时内自动搭建可做物理仿真的场景（高斯泼溅背景加带纹理的物体网格，包括可活动的关节物体），再生成改变物体、布局与任务的“数字表亲”；代码于 2026 年 8 月以 Apache 2.0 许可开源。",
+   "idea_en": "A real setting becomes a family of controlled variants with the same affordances, and the authors show that evaluation in those variants predicts real-world results, the property a study would want from a simulated room.",
+   "idea_zh": "一个真实场景变成一组功能可供性相同、受控变化的变体，作者还表明在这些变体中的评估能预测真实世界的结果：这正是研究希望模拟房间具备的性质。",
+   "method": "A modular pipeline segments every object (SAM 3), estimates depth (Depth Anything 3) and pose (FoundationPose), generates textured meshes (Hunyuan3D-2) and compiles an OmniGibson scene with physical parameters, task proposals and affordance-preserving variations.",
+   "method_zh": "模块化流程：分割每个物体（SAM 3）、估计深度（Depth Anything 3）与位姿（FoundationPose）、生成带纹理网格（Hunyuan3D-2），再编译成带物理参数、任务建议和保持可供性的变体的 OmniGibson 场景。",
+   "specs": "video → sim scene in < 1 h · sim-vs-real policy evaluation: mean Pearson r = 0.911 (7 tasks, 5 policy architectures)",
+   "keywords": [
+    "real-to-sim",
+    "digital cousins",
+    "OmniGibson",
+    "robot learning",
+    "simulation-ready"
+   ],
+   "video": {
+    "url": "https://research.nvidia.com/labs/gear/simfoundry/videos/Simfoundry_Teaser.mp4"
+   },
+   "paper": {
+    "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+    "venue": "arXiv 2026",
+    "arxiv": "2606.28276",
+    "url": "https://arxiv.org/abs/2606.28276"
+   },
+   "source_url": "https://research.nvidia.com/labs/gear/simfoundry/",
+   "code_url": "https://github.com/NVlabs/SimFoundry",
+   "collections": [
+    "trend-physical-ai",
+    "trend-grounded",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "horizon-robotics--embodiedgen-v2",
+   "creator_ids": [
+    "horizon-robotics"
+   ],
+   "title": "EmbodiedGen V2",
+   "year": 2026,
+   "date": "2026-07-08",
+   "field": "worlds-3d",
+   "sub": "layout",
+   "modalities": [
+    "scene-3d",
+    "mesh"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "authoring",
+    "situational-reach",
+    "diversity"
+   ],
+   "kind": "open-source",
+   "description": "Horizon Robotics' open toolkit turns text, images and natural-language dialogue into simulation-ready assets, task-driven rooms and large multi-room scenes that load in Isaac Sim, MuJoCo, Genesis, SAPIEN and PyBullet; version 2 (July 2026) follows EmbodiedGen (June 2025).",
+   "description_zh": "地平线的开源工具包：把文字、图像和自然语言对话变成可直接仿真的资产、按任务生成的房间以及大型多房间场景，可在 Isaac Sim、MuJoCo、Genesis、SAPIEN 和 PyBullet 中加载；第二版（2026 年 7 月）接续 2025 年 6 月的 EmbodiedGen。",
+   "idea_en": "Authoring a task environment by conversation ('vibe coding' the scene) lowers the cost of building many variants of the same situation.",
+   "idea_zh": "通过对话来搭建任务环境（用“氛围编程”写场景），降低了为同一情境制作大量变体的成本。",
+   "method": "A unified sim-ready representation links generated assets (with collision and affordance data), task-driven layouts, multi-room scene generation and a stateful LLM coding loop; the authors report 96.5% human acceptance of assets and 83.3% of task worlds usable without manual fixes.",
+   "method_zh": "以统一的“可仿真”表示串起生成资产（含碰撞与可供性数据）、按任务布局、多房间场景生成和有状态的语言模型编程循环；作者报告资产的人工认可率为 96.5%，83.3% 的任务世界无需人工修改即可使用。",
+   "specs": "96.5% asset acceptance · 83.3% task worlds usable as generated · Isaac Sim / MuJoCo / Genesis / SAPIEN / PyBullet",
+   "keywords": [
+    "sim-ready",
+    "embodied AI",
+    "vibe coding",
+    "multi-room scenes",
+    "cross-simulator"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=MIkJJSVM8L4"
+   },
+   "images": [
+    "https://horizonrobotics.github.io/EmbodiedGen/assets/img/overview.jpg"
+   ],
+   "paper": {
+    "title": "EmbodiedGen V2: An Agentic, Simulation-Ready 3D World Engine for Embodied AI",
+    "venue": "Technical report 2026",
+    "arxiv": "2607.07459",
+    "url": "https://arxiv.org/abs/2607.07459"
+   },
+   "source_url": "https://horizonrobotics.github.io/EmbodiedGen/",
+   "code_url": "https://github.com/HorizonRobotics/EmbodiedGen",
+   "collections": [
+    "trend-physical-ai",
+    "trend-agents-in-worlds",
+    "trend-china-open"
+   ]
+  },
+  {
+   "id": "muyao-niu--worldsculpt",
+   "creator_ids": [
+    "muyao-niu"
+   ],
+   "title": "WorldSculpt",
+   "year": 2026,
+   "date": "2026-09-04",
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "mesh",
+    "scene-3d"
+   ],
+   "inputs": [
+    "video",
+    "multi-view"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "control",
+    "persistence",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "WorldSculpt turns a video of a cluttered room, given instance masks and 3D boxes, into hundreds of separate, complete object meshes in one shared frame; the authors also run it on Marble-generated splat worlds to break them into editable objects. Code, model and a benchmark are open.",
+   "description_zh": "WorldSculpt 把一段杂乱房间的视频（附实例掩码与三维包围盒）变成同一坐标系下数百个独立、完整的物体网格；作者还把它用于 Marble 生成的泼溅世界，将其拆成可编辑的物体。代码、模型与基准均已开源。",
+   "idea_en": "Splitting a world into individual objects is what makes it editable item by item: move the chair, remove the bag, keep everything else identical across conditions.",
+   "idea_zh": "把世界拆成一个个物体，才能逐件编辑：挪动椅子、拿走包，其余一切在不同实验条件间保持不变。",
+   "method": "Pixal3D, a single-object 3D generative prior, is extended with a multi-view conditioning pathway so that each object is completed from occluded views and placed by its 3D box in a shared world frame.",
+   "method_zh": "在单物体三维生成先验 Pixal3D 上加入多视角条件通路，使每个物体都能从被遮挡的多个视角补全，并按其三维包围盒放置到共享的世界坐标系中。",
+   "specs": "hundreds of objects per scene · per-object meshes",
+   "keywords": [
+    "compositional scene",
+    "per-object meshes",
+    "generative prior",
+    "Marble",
+    "editing"
+   ],
+   "video": {
+    "url": "https://alaya-lab.github.io/WorldSculpt/assets/videos/demo_video.mp4"
+   },
+   "images": [
+    "https://alaya-lab.github.io/WorldSculpt/assets/figures/teaser.webp"
+   ],
+   "paper": {
+    "title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
+    "venue": "arXiv 2026",
+    "arxiv": "2609.05416",
+    "url": "https://arxiv.org/abs/2609.05416"
+   },
+   "source_url": "https://alaya-lab.github.io/WorldSculpt/",
+   "code_url": "https://github.com/AlayaLab/WorldSculpt",
+   "collections": [
+    "trend-explicit-3d",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "manycore--spatialgen",
+   "creator_ids": [
+    "manycore"
+   ],
+   "title": "SpatialGen",
+   "year": 2025,
+   "date": "2025-08",
+   "field": "worlds-3d",
+   "sub": "layout",
+   "modalities": [
+    "splats",
+    "scene-3d",
+    "image"
+   ],
+   "inputs": [
+    "spec",
+    "text",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "control",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "Manycore's open model generates a 3D indoor scene from a semantic room layout plus a text prompt or reference image: it synthesises matching colour, geometry and semantic views from many viewpoints and fuses them into Gaussian splats (3DV 2026).",
+   "description_zh": "群核科技的开源模型：根据语义房间布局加一句文字或一张参考图生成三维室内场景，从多个视点合成彼此一致的颜色、几何与语义视图，再融合为高斯泼溅（3DV 2026）。",
+   "idea_en": "Fixing the floor plan and furniture boxes while sampling appearance separates what an experimenter controls from what the model varies.",
+   "idea_zh": "固定平面布局和家具包围盒、只让外观随机变化，把实验者控制的部分和模型变化的部分分开了。",
+   "method": "A multi-view, multi-modal diffusion model conditioned on a 3D layout and a reference image (generated from text if needed) predicts colour images, scene-coordinate maps and semantic maps per view, which are optimised into 3D Gaussians; it is trained on a synthetic dataset of 12,328 annotated scenes with 57,440 rooms and 4.7M renderings.",
+   "method_zh": "多视角、多模态扩散模型以三维布局和参考图（需要时由文字生成）为条件，逐视角预测颜色图、场景坐标图和语义图，再优化为三维高斯；训练数据为包含 12,328 个标注场景、57,440 个房间和 470 万张渲染图的合成数据集。",
+   "specs": "training data: 12,328 scenes · 57,440 rooms · 4.7M renderings",
+   "keywords": [
+    "layout-guided",
+    "indoor scenes",
+    "multi-view diffusion",
+    "Gaussian splatting",
+    "synthetic dataset"
+   ],
+   "video": {
+    "url": "https://manycore-research.github.io/SpatialGen/assets/teaser.mp4"
+   },
+   "images": [
+    "https://manycore-research.github.io/SpatialGen/static/images/teaser.jpg"
+   ],
+   "paper": {
+    "title": "SpatialGen: Layout-guided 3D Indoor Scene Generation",
+    "venue": "3DV 2026",
+    "arxiv": "2509.14981",
+    "url": "https://arxiv.org/abs/2509.14981"
+   },
+   "source_url": "https://manycore-research.github.io/SpatialGen/",
+   "code_url": "https://github.com/manycore-research/SpatialGen",
+   "collections": [
+    "trend-china-open",
+    "trend-open-weights",
+    "trend-explicit-3d"
+   ]
+  },
+  {
+   "id": "rafail-fridman--scenescape",
+   "creator_ids": [
+    "rafail-fridman"
+   ],
+   "title": "SceneScape",
+   "year": 2023,
+   "date": "2023-02-02",
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "flat-video",
+    "mesh"
+   ],
+   "inputs": [
+    "text",
+    "camera"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "diversity"
+   ],
+   "kind": "research",
+   "description": "SceneScape turns a text prompt and a camera path into a long walk-through video of an imagined place (a cave, a haunted house, a medieval forge) by building one textured mesh as it goes, so surfaces seen earlier stay consistent; NeurIPS 2023, open code.",
+   "description_zh": "SceneScape 由一句文字和一条镜头路径生成穿行于想象场所（洞穴、鬼屋、中世纪铁匠铺）的长视频，边走边构建同一个带纹理的网格，使先前看到的表面保持一致；NeurIPS 2023，代码开源。",
+   "idea_en": "Keeping an explicit mesh while painting new views with an image model was one of the first ways to make an endless generated walk remember where it had been.",
+   "idea_zh": "一边用图像模型绘制新视角、一边维护显式网格，是让无限生成的漫游“记得走过哪里”的最早做法之一。",
+   "method": "Each new frame is rendered from a unified mesh, its missing regions are filled by a pre-trained text-to-image inpainting model, a monocular depth model fine-tuned at test time for consistency lifts the new content, and it is fused back into the mesh.",
+   "method_zh": "每一帧先从统一网格渲染，缺失区域由预训练的文生图补全模型填充，再用测试时微调以保持一致的单目深度模型把新内容提升到三维，并融合回网格。",
+   "keywords": [
+    "perpetual view generation",
+    "text-to-3D scene",
+    "mesh",
+    "test-time depth fine-tuning",
+    "precursor"
+   ],
+   "video": {
+    "url": "https://scenescape.github.io/joined_videos/haunted_house.mp4"
+   },
+   "paper": {
+    "title": "SceneScape: Text-Driven Consistent Scene Generation",
+    "venue": "NeurIPS 2023",
+    "arxiv": "2302.01133",
+    "url": "https://arxiv.org/abs/2302.01133"
+   },
+   "source_url": "https://scenescape.github.io/",
+   "code_url": "https://github.com/RafailFridman/SceneScape",
+   "collections": [
+    "ml-conf",
+    "trend-explicit-3d"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "HY-Pano 2.0 (Tencent Hunyuan, open weights 2026-05-11)",
+   "why": "Panorama stage of HY-World 2.0, released in the same repository without its own launch or video; already described in tencent-hunyuan--hy-world-2.",
+   "link": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+   "found_via": "tencent-hunyuan",
+   "status": "duplicate"
+  },
+  {
+   "name": "Hyper3D WorldGen",
+   "why": "Already in worlds-3d.json as deemos--hyper3d-worldgen.",
+   "link": "https://www.youtube.com/watch?v=-rhncMVVtGM",
+   "found_via": "deemos",
+   "status": "duplicate"
+  },
+  {
+   "name": "Hunyuan3D-WorldClaw (2026-08)",
+   "why": "Already in worlds-3d.json as tencent-hunyuan--worldclaw.",
+   "link": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+   "found_via": "tencent-hunyuan",
+   "status": "duplicate"
+  },
+  {
+   "name": "HY-World 2.0 (Tencent Hunyuan, 2026-04)",
+   "why": "Already in worlds-3d.json as tencent-hunyuan--hy-world-2 (including the July 2026 HY World 2.1 update).",
+   "link": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+   "found_via": "tencent-hunyuan",
+   "status": "duplicate"
+  },
+  {
+   "name": "visionOS 27 spatial scenes from panoramas (WWDC 2026-06-08)",
+   "why": "Folded into apple--spatial-scenes; this round added the visionOS 27 release date (2026-09-14, Apple security releases page).",
+   "link": "https://support.apple.com/en-us/100100",
+   "found_via": "apple",
+   "status": "duplicate"
+  },
+  {
+   "name": "World Labs joining AMD (2026-09-28)",
+   "why": "Corporate event, not a work: definitive agreement, close expected by end of 2026, Fei-Fei Li to become AMD EVP and Chief Scientist. Trend evidence only.",
+   "link": "https://www.worldlabs.ai/blog/amd-announcement",
+   "found_via": "world-labs",
+   "status": "off_topic"
+  },
+  {
+   "name": "Immersity AI (Leia)",
+   "why": "2D-to-stereo conversion plus switchable 3D-display hardware for OEMs; closer to video/immersive or infra/devices than to generated 3D scenes.",
+   "link": "https://www.immersity.ai/",
+   "found_via": "apple",
+   "status": "off_topic"
+  },
+  {
+   "name": "World Labs R2S2R engine and SceniX acquisition (2026-07-21 / 2026-07-28)",
+   "why": "world-models (simulation) / trend-physical-ai: World Labs acquired SceniX and showed real-to-sim-to-real robot training with zero real-world data; no model release yet.",
+   "link": "https://www.worldlabs.ai/blog/real-to-sim-to-real",
+   "found_via": "world-labs",
+   "status": "open"
+  },
+  {
+   "name": "ByteDance real-time 3D world model (reported 2026-09-08)",
+   "why": "Bloomberg-relayed report of a voice- and motion-responsive 3D world model, possibly for Pico; no official ByteDance announcement as of 2026-10-17. Third-party source only.",
+   "link": "https://tech-insider.org/bytedance-real-time-3d-world-model-meta-google-2026/",
+   "found_via": "bytedance-seed",
+   "status": "open"
+  },
+  {
+   "name": "MoWorld (Moxin, arXiv 2607.06216, open 2026-09)",
+   "why": "world-models: real-time interactive video world model on Ascend NPUs (up to 50 fps reported), shown at WAIC 2026; open weights.",
+   "link": "https://github.com/Moxin-Tech/moworld_base",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "PanoWorld (Insta360, arXiv 2607.09661)",
+   "why": "world-models / video: panoramic world model with long-range memory and the World360 drone dataset; YouTube KbA3mKTpSCU, HF weights.",
+   "link": "https://lihaoy-ux.github.io/panoworld-page/",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Pantheon360 (CVPR 2026, arXiv 2605.25449)",
+   "why": "video/immersive: controllable 360° video generation with an explicit 3D cache for digital-twin capture; project mp4s. Covered by work ting-hsuan-chen--pantheon360 (2026-10 update).",
+   "link": "https://koi953215.github.io/pantheon360_page/",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "OuroWorld (arXiv 2610.12461)",
+   "why": "Added by the gen4d batch as you-zhe-xie--ouroworld (spatial-4d / generative-4d-scenes): animates any 3D world as endlessly looping 3D cinemagraphs.",
+   "link": "https://ouroworld.userwei.com/",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "WorldCrafter (arXiv 2609.24984)",
+   "why": "world-models: consistent video world model with implicit 3D-aware memory, by the ViewCrafter author.",
+   "link": "https://drexubery.github.io/WorldCrafter",
+   "found_via": "wangbo-yu",
+   "status": "open"
+  },
+  {
+   "name": "ABot-World-0 (arXiv 2607.19191) and DreamX-World 1.0 (arXiv 2606.16993)",
+   "why": "world-models: Amap's interactive world-rollout models (single desktop GPU; general-purpose interactive world model).",
+   "link": "https://abot-world.amap.com/",
+   "found_via": "amap",
+   "status": "open"
+  },
+  {
+   "name": "Puffin-World (arXiv 2609.04196)",
+   "why": "world-models: unified multimodal model with native 3D world states (understanding and generation); open weights.",
+   "link": "https://kangliao929.github.io/projects/puffin-world/",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "WorldAuditBench (arXiv 2609.40325) and ExeWorldBench (arXiv 2610.15166)",
+   "why": "infra/benchmarks: auditing interactive 3D worlds with multimodal agents; benchmarking code-built executable 3D worlds.",
+   "link": "https://ucsb-nlp-chang.github.io/WorldAuditBench/",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Building Rome from a Single Image (Applied Intuition, arXiv 2610.08790)",
+   "why": "Single photo to metric indoor/outdoor scene mesh by re-purposing TRELLIS 2, open weights; released 2026-10-06, too new to judge salience.",
+   "link": "https://build-rome.github.io/",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "HARMONY (arXiv 2609.26793), Tetris3D (arXiv 2610.10539), SceneMosaic (arXiv 2609.05594), LEGO-Anything (arXiv 2609.36380)",
+   "why": "Autumn-2026 agentic and compositional scene generation (image-to-scene, objects that fit, sim-ready layouts, coding agents); lower salience so far.",
+   "link": "https://lego-anything.com/",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "SynCity 3000 (arXiv 2607.05392)",
+   "why": "Scene-scale 3D diffusion bootstrapped from the training-free SynCity pipeline; project mp4s.",
+   "link": "https://research.paulengstler.com/syncity-3k/",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Canvas360 (Insta360, arXiv 2607.08765)",
+   "why": "In-context panoramic generation with geometric-aware pretraining; project page has images but no video.",
+   "link": "https://zry000.github.io/Canvas360/",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Explorer 1.3B (ExplorerAI, 2026-09) and MoWorld-3D (2026-07-16)",
+   "why": "Chinese generative Gaussian world models reported in news only; no official page, repository or video found.",
+   "link": "https://github.com/Moxin-Tech/moworld",
+   "found_via": "seed",
+   "status": "no_media"
+  }
+ ]
+}

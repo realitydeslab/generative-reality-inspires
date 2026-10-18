@@ -1,0 +1,70 @@
+{
+ "alibaba-tongyi--qwen3-5-omni": {
+  "zh": "通义千问 Qwen3.5-Omni",
+  "src": "established"
+ },
+ "stepfun--stepaudio-3-realtime": {
+  "zh": "阶跃星辰 StepAudio 3 Realtime",
+  "src": "established"
+ },
+ "stepfun--stepaudio-3-gen": {
+  "zh": "阶跃星辰 StepAudio 3 Gen 全要素音频生成",
+  "src": "translated"
+ },
+ "bytedance-seed--seed-speech-2": {
+  "zh": "Seed Speech 2.0 语音合成与识别",
+  "src": "translated"
+ },
+ "google-deepmind--gemini-live-translate": {
+  "zh": "Gemini 实时语音翻译",
+  "src": "translated"
+ },
+ "google-deepmind--gemini-3-8-flash-tts": {
+  "zh": "Gemini 3.8 Flash 语音合成",
+  "src": "translated"
+ },
+ "inworld-ai--realtime-tts-2": {
+  "zh": "Realtime TTS-2 实时语音合成",
+  "src": "translated"
+ },
+ "fish-audio--drama-3": {
+  "zh": "Drama 3 多角色语音合成",
+  "src": "translated"
+ },
+ "mirelo--sfx-2": {
+  "zh": "Mirelo SFX 2.0 视频生成音效",
+  "src": "translated"
+ },
+ "elevenlabs--instant-soundtracks": {
+  "zh": "Instant Soundtracks 视频即时配乐",
+  "src": "translated"
+ },
+ "minimax--music-3": {
+  "zh": "MiniMax Music 3.0 音乐生成模型",
+  "src": "translated"
+ },
+ "pengjun-fang--worldsonus": {
+  "zh": "WorldSonus：为世界模型配上声音",
+  "src": "translated"
+ },
+ "duowen-chen--audible-world-models": {
+  "zh": "Audible World Models：为三维世界生成空间感知的声音",
+  "src": "translated"
+ },
+ "zitong-lan--omnidream": {
+  "zh": "OmniDream：从任意视频生成沉浸式视听体验",
+  "src": "translated"
+ },
+ "hanmo-chen--stereobind": {
+  "zh": "StereoBind：音视频联合生成中的动态立体声",
+  "src": "translated"
+ },
+ "huadai-liu--thinksound": {
+  "zh": "ThinkSound：思维链引导的视频配音",
+  "src": "translated"
+ },
+ "kuaishou--kling-foley": {
+  "zh": "可灵 Kling-Foley 视频拟音",
+  "src": "established"
+ }
+}

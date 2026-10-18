@@ -1,0 +1,1630 @@
+{
+ "batch": "behavioral-2026-10",
+ "creators": [
+  {
+   "id": "sandra-c-sandoval",
+   "name": "Sandra C. Sandoval",
+   "kind": "person",
+   "role": "Researcher at the University of Maryland",
+   "bio": "Works on language, causal inference and policing; first author of a 2026 analysis of how police officers speak to virtual characters in VR simulations.",
+   "why": "Shows how VR scenes with randomly assigned characters can be read as causal experiments on bias in real officers' speech.",
+   "disciplines": [
+    "social-science",
+    "ml"
+   ],
+   "role_zh": "马里兰大学研究者",
+   "bio_zh": "研究语言、因果推断与警务；2026 年一项分析警察在 VR 模拟中如何与虚拟角色对话的研究的第一作者。",
+   "why_zh": "展示了随机分配虚拟角色的 VR 场景，如何被当作关于真实警察言语偏见的因果实验来分析。",
+   "based": "College Park, MD, USA",
+   "based_zh": "美国马里兰州大学公园市",
+   "links": {},
+   "connected_to": [
+    "rashawn-ray"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "rashawn-ray",
+   "name": "Rashawn Ray",
+   "kind": "person",
+   "role": "Sociologist at the University of Maryland; executive director of the Lab for Applied Social Science Research (LASSR)",
+   "bio": "Studies race, policing and inequality; his lab runs VR simulations with police officers to study implicit bias and de-escalation.",
+   "why": "His VR field experiments with serving officers are among the few immersive studies run with police rather than students.",
+   "disciplines": [
+    "social-science"
+   ],
+   "role_zh": "马里兰大学社会学家；应用社会科学研究实验室（LASSR）执行主任",
+   "bio_zh": "研究种族、警务与不平等；其实验室用 VR 模拟让在职警察参与，研究内隐偏见与冲突降级。",
+   "why_zh": "他与在职警察开展的 VR 现场实验，是少数以警察而非学生为对象的沉浸式研究之一。",
+   "based": "College Park, MD, USA",
+   "based_zh": "美国马里兰州大学公园市",
+   "links": {
+    "youtube": "https://www.youtube.com/@SociologistRay"
+   },
+   "connected_to": [],
+   "discovered_via": "sandra-c-sandoval"
+  },
+  {
+   "id": "yang-gao-beihang",
+   "name": "Yang Gao",
+   "kind": "person",
+   "role": "Researcher at Beihang University",
+   "bio": "First author of an IEEE VR 2026 study on how AI-reconstructed appearance and cloned voices affect trust in virtual celebrity agents.",
+   "why": "One of the first controlled comparisons of generated and hand-made versions of the same virtual person.",
+   "disciplines": [
+    "hci"
+   ],
+   "role_zh": "北京航空航天大学研究者",
+   "bio_zh": "IEEE VR 2026 一项研究的第一作者，研究 AI 重建外观与克隆声音如何影响人们对虚拟名人智能体的信任。",
+   "why_zh": "最早对同一虚拟人的“生成版”与“手工版”进行受控比较的研究之一。",
+   "based": "Beijing, China",
+   "based_zh": "中国北京",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "enyao-chang",
+   "name": "Enyao Chang",
+   "kind": "person",
+   "role": "Researcher at the School of Software Engineering, Beijing Jiaotong University",
+   "bio": "First author of a 2026 randomized study of LLM-driven coaching judges for VR public-speaking practice.",
+   "why": "Ran one of the larger randomized trials of LLM agents inside a VR training task, with one-month follow-up.",
+   "disciplines": [
+    "hci",
+    "behavioral"
+   ],
+   "role_zh": "北京交通大学软件学院研究者",
+   "bio_zh": "2026 年一项关于 VR 演讲练习中大语言模型驱动的“教练评委”的随机研究的第一作者。",
+   "why_zh": "开展了规模较大的、在 VR 训练任务中使用大语言模型智能体的随机试验之一，并随访一个月。",
+   "based": "Beijing, China",
+   "based_zh": "中国北京",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "matt-gottsacker",
+   "name": "Matt Gottsacker",
+   "kind": "person",
+   "role": "Researcher at the University of Central Florida",
+   "bio": "First author of the 2026 VERA paper that ran a remote cybersickness study with 263 participants on their own headsets.",
+   "why": "VERA tests whether VR experiments can leave the lab at scale and still replicate lab findings.",
+   "disciplines": [
+    "hci",
+    "behavioral"
+   ],
+   "role_zh": "中佛罗里达大学研究者",
+   "bio_zh": "2026 年 VERA 论文的第一作者，该研究让 263 名参与者用自己的头显远程完成晕动症实验。",
+   "why_zh": "VERA 检验了 VR 实验能否大规模走出实验室，同时仍能复现实验室结果。",
+   "based": "Orlando, FL, USA",
+   "based_zh": "美国佛罗里达州奥兰多",
+   "links": {},
+   "connected_to": [
+    "jeremy-bailenson",
+    "tabitha-peck"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "bing-li-sdu",
+   "name": "Bing Li",
+   "kind": "person",
+   "role": "Researcher at Shandong University",
+   "bio": "First author of CyberSelf, a VR system in which people talk with an LLM-driven avatar that looks and sounds like themselves.",
+   "why": "CyberSelf builds a generated doppelgänger from about 20 seconds of face video and voice, then studies it as a therapeutic tool.",
+   "disciplines": [
+    "hci"
+   ],
+   "role_zh": "山东大学研究者",
+   "bio_zh": "CyberSelf 的第一作者：在这个 VR 系统中，人们与一个外貌和声音都像自己的大语言模型化身对话。",
+   "why_zh": "CyberSelf 只用约 20 秒的面部视频与语音就生成“数字分身”，并把它作为心理支持工具来研究。",
+   "based": "Jinan, China",
+   "based_zh": "中国济南",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "trends"
+  },
+  {
+   "id": "joseph-p-mccleery",
+   "name": "Joseph P. McCleery",
+   "kind": "person",
+   "role": "Autism researcher in Philadelphia",
+   "bio": "Clinical scientist who has tested Floreo's VR Police Safety Module with autistic teens and adults since 2018, in partnership with the Center for Autism Research at the Children's Hospital of Philadelphia.",
+   "why": "His trials measure VR training effects in live encounters with police officers, not only inside the headset.",
+   "disciplines": [
+    "behavioral",
+    "medicine"
+   ],
+   "role_zh": "费城的自闭症研究者",
+   "bio_zh": "临床科学家，自 2018 年起与费城儿童医院自闭症研究中心合作，在自闭症青少年与成人中测试 Floreo 的 VR 警察安全模块。",
+   "why_zh": "他的试验在与真实警察的现场互动中测量 VR 训练的效果，而不只看头显里的表现。",
+   "based": "Philadelphia, PA, USA",
+   "based_zh": "美国宾夕法尼亚州费城",
+   "links": {},
+   "connected_to": [
+    "floreo"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "floreo",
+   "name": "Floreo",
+   "kind": "company",
+   "role": "VR platform for clinically designed lessons for autistic and neurodiverse learners",
+   "bio": "Delivers VR lessons (social skills, safety, police interactions) on a headset while a coach follows and guides the learner; co-founded by CEO Vijay Ravindran.",
+   "why": "One of the few VR training products evaluated in randomized trials with transfer to real-world encounters.",
+   "disciplines": [
+    "medicine",
+    "behavioral"
+   ],
+   "role_zh": "为自闭症及神经多样性学习者提供临床设计课程的 VR 平台",
+   "bio_zh": "在头显上提供 VR 课程（社交技能、安全、与警察互动），由辅导者跟进并引导学习者；联合创始人兼 CEO 为 Vijay Ravindran。",
+   "why_zh": "少数在随机试验中接受评估、并检验向真实场景迁移效果的 VR 训练产品之一。",
+   "links": {
+    "site": "https://floreovr.com/"
+   },
+   "connected_to": [
+    "joseph-p-mccleery"
+   ],
+   "discovered_via": "joseph-p-mccleery"
+  },
+  {
+   "id": "philippa-garety",
+   "name": "Philippa Garety",
+   "kind": "person",
+   "role": "Professor of clinical psychology, King's College London",
+   "bio": "Clinical psychologist who led the AVATAR2 trial of digital avatar therapy for distressing voices in psychosis.",
+   "why": "AVATAR2 is the largest trial so far of therapy delivered through dialogue with a digital embodiment of a patient's voice.",
+   "disciplines": [
+    "medicine",
+    "behavioral"
+   ],
+   "role_zh": "伦敦国王学院临床心理学教授",
+   "bio_zh": "临床心理学家，主持了针对精神病患者痛苦幻听的数字化身疗法 AVATAR2 试验。",
+   "why_zh": "AVATAR2 是迄今规模最大的、通过与患者“声音”的数字化身对话来实施治疗的试验。",
+   "based": "London, UK",
+   "based_zh": "英国伦敦",
+   "links": {},
+   "connected_to": [
+    "tom-craig"
+   ],
+   "discovered_via": "tom-craig"
+  },
+  {
+   "id": "xiaoran-yang",
+   "name": "Xiaoran Yang",
+   "kind": "person",
+   "role": "HCI researcher working on LLM-driven agents in XR",
+   "bio": "First author of an ISMAR 2026 study on how embodied conversational agents in VR can signal uncertainty and sources.",
+   "why": "Treats hallucination as a design problem for generated characters, not only for chat interfaces.",
+   "disciplines": [
+    "hci"
+   ],
+   "role_zh": "研究 XR 中大语言模型智能体的人机交互研究者",
+   "bio_zh": "ISMAR 2026 一项研究的第一作者，研究 VR 中的具身对话智能体如何提示不确定性与信息来源。",
+   "why_zh": "把“幻觉”当作生成角色的设计问题，而不仅仅是聊天界面的问题。",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "robin-s-rosenberg",
+   "name": "Robin S. Rosenberg",
+   "kind": "person",
+   "role": "Clinical psychologist; collaborator of Stanford's Virtual Human Interaction Lab",
+   "bio": "Psychologist who writes on the psychology of superheroes and was first author of the 2013 VHIL study on flying like a superhero in VR.",
+   "why": "Virtual Superheroes showed that an ability granted in VR can carry over into helping behavior outside it.",
+   "disciplines": [
+    "behavioral"
+   ],
+   "role_zh": "临床心理学家；斯坦福虚拟人交互实验室的合作者",
+   "bio_zh": "研究“超级英雄心理学”的心理学家，2013 年斯坦福虚拟人交互实验室“在 VR 中像超级英雄一样飞行”研究的第一作者。",
+   "why_zh": "“虚拟超级英雄”研究表明，在 VR 中获得的能力会延续到现实中的助人行为。",
+   "based": "California, USA",
+   "based_zh": "美国加利福尼亚州",
+   "links": {},
+   "connected_to": [
+    "jeremy-bailenson"
+   ],
+   "discovered_via": "jeremy-bailenson"
+  },
+  {
+   "id": "max-kinateder",
+   "name": "Max Kinateder",
+   "kind": "person",
+   "role": "Researcher on human behavior in fire and evacuation",
+   "bio": "Psychologist who uses VR to study evacuation decisions; the 2016 real-versus-virtual comparison was carried out with William H. Warren at Brown University.",
+   "why": "Ran one of the few direct validation studies comparing the same emergency in a real room and its VR replica.",
+   "disciplines": [
+    "behavioral"
+   ],
+   "role_zh": "研究火灾与疏散中人类行为的研究者",
+   "bio_zh": "用 VR 研究疏散决策的心理学家；2016 年的真实与虚拟环境对比研究是他与 William H. Warren 在布朗大学完成的。",
+   "why_zh": "完成了少数直接比较真实房间与其 VR 复制品中同一紧急情况的验证研究之一。",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "mehrnaz-hosseinzadeh",
+   "name": "Mehrnaz Hosseinzadeh",
+   "kind": "person",
+   "role": "Researcher in cognitive and behavioral science",
+   "bio": "First author of a 2026 scoping review of toolboxes for building immersive VR experiments in psychology and cognitive neuroscience.",
+   "why": "Maps which experiment-building tools non-programmer researchers can use, a precondition for authoring accessibility.",
+   "disciplines": [
+    "behavioral"
+   ],
+   "role_zh": "认知与行为科学研究者",
+   "bio_zh": "2026 年一篇关于心理学与认知神经科学中沉浸式 VR 实验搭建工具的范围综述的第一作者。",
+   "why_zh": "梳理了不会编程的研究者能用哪些实验搭建工具，这是“创作可及性”的前提。",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "yvain-tisserand",
+   "name": "Yvain Tisserand",
+   "kind": "person",
+   "role": "Researcher at the Swiss Center for Affective Sciences, University of Geneva",
+   "bio": "Builds virtual humans for VR training and affective research; first author of a 2026 study of a rule-based virtual suspect tested with Geneva police officers.",
+   "why": "Shows how two interpretable parameters can make a virtual suspect's threat both believable and experimentally controlled.",
+   "disciplines": [
+    "hci",
+    "behavioral"
+   ],
+   "role_zh": "日内瓦大学瑞士情感科学中心研究者",
+   "bio_zh": "为 VR 训练与情感研究构建虚拟人；2026 年一项研究的第一作者，该研究用日内瓦警察测试了一个基于规则的虚拟嫌疑人。",
+   "why_zh": "展示了两个可解释参数如何让虚拟嫌疑人的威胁既可信又可被实验控制。",
+   "based": "Geneva, Switzerland",
+   "based_zh": "瑞士日内瓦",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "duo-wang-uiuc",
+   "name": "Duo Wang",
+   "kind": "person",
+   "role": "Researcher at the College of Media, University of Illinois Urbana-Champaign",
+   "bio": "First author of EmSim, an LLM-scored VR de-escalation simulator piloted with police trainees.",
+   "why": "In EmSim, an LLM's scoring of the trainee's words decides whether the virtual person calms down or escalates.",
+   "disciplines": [
+    "hci"
+   ],
+   "role_zh": "伊利诺伊大学厄巴纳-香槟分校传媒学院研究者",
+   "bio_zh": "EmSim 的第一作者：这是一个由大语言模型评分、在警校学员中试用的 VR 冲突降级模拟器。",
+   "why_zh": "在 EmSim 中，大语言模型对学员话语的判断决定虚拟人是平静下来还是升级冲突。",
+   "based": "Champaign, IL, USA",
+   "based_zh": "美国伊利诺伊州香槟",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "yuting-wen",
+   "name": "Yuting Wen",
+   "kind": "person",
+   "role": "Dental education researcher",
+   "bio": "First author of a 2026 randomized trial comparing ChatGPT guidance with teacher-led instruction in VR dental skill training.",
+   "why": "One of the few randomized trials of generative AI as the tutor inside an immersive skills simulator, with eye tracking and fNIRS.",
+   "disciplines": [
+    "medicine"
+   ],
+   "role_zh": "口腔医学教育研究者",
+   "bio_zh": "2026 年一项随机试验的第一作者，比较了 VR 牙科技能训练中 ChatGPT 指导与教师现场指导的效果。",
+   "why_zh": "少数以随机试验检验生成式 AI 在沉浸式技能模拟器中担任“导师”的研究之一，并结合了眼动追踪与功能性近红外光谱。",
+   "based": "China",
+   "based_zh": "中国",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "binyang-han",
+   "name": "Binyang Han",
+   "kind": "person",
+   "role": "Researcher at the University of Canterbury, New Zealand",
+   "bio": "First author of an IEEE VR 2026 study of an LLM-driven embodied agent that mediates between two people with conflicting goals in XR.",
+   "why": "Moves LLM agents in XR from one-to-one tutoring to shaping a group's social dynamics.",
+   "disciplines": [
+    "hci"
+   ],
+   "role_zh": "新西兰坎特伯雷大学研究者",
+   "bio_zh": "IEEE VR 2026 一项研究的第一作者：在 XR 中，一个大语言模型驱动的具身智能体在目标冲突的两人之间进行调解。",
+   "why_zh": "把 XR 中的大语言模型智能体从一对一辅导推进到影响群体的社会互动。",
+   "based": "Christchurch, New Zealand",
+   "based_zh": "新西兰基督城",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "jean-louis-van-gelder--futureu-rct",
+   "creator_ids": [
+    "jean-louis-van-gelder"
+   ],
+   "title": "Stimulating Future-Oriented Thinking and Goal-Achievement Through the Future Self Using Virtual Reality and a Smartphone App: Randomized Controlled Trial",
+   "year": 2026,
+   "date": "2026-03-10",
+   "field": "behavioral",
+   "sub": "social-psych",
+   "modalities": [
+    "vr-scenario",
+    "avatar"
+   ],
+   "inputs": [
+    "speech",
+    "body"
+   ],
+   "timing": "scripted",
+   "lenses": [
+    "adaptation",
+    "control"
+   ],
+   "kind": "study",
+   "description": "FutureU: first-year students met an age-progressed avatar of themselves ten years older, either in a smartphone app or in three 30-minute VR sessions where they alternated between embodying their present and future self and answered their own recorded questions. A three-arm RCT (N=321, 107 per arm) compared app, VR and a goal-setting control over six months.",
+   "description_zh": "FutureU：大一学生与“十年后的自己”——一个按年龄老化处理的自我化身——见面，方式是手机应用，或三次各约 30 分钟的 VR 会话；在 VR 中，他们轮流化身为现在的自己和未来的自己，并回答自己事先录下的问题。一项三臂随机对照试验（N=321，每组 107 人）在六个月内比较了应用、VR 与目标设定对照组。",
+   "idea_en": "The same future-self intervention delivered by phone and by headset: VR raised weekly goal achievement (d=0.88), but most gains in future-self identification faded by six months in both formats.",
+   "idea_zh": "同一套“未来自我”干预分别用手机和头显实施：VR 显著提高了每周目标达成（d=0.88），但两种形式对未来自我认同的提升大多在六个月后消退。",
+   "method": "Parallel three-arm RCT with block randomization; VR sessions used a photo-based full-body future-self avatar, body swapping between present and future self, and a researcher-controlled robot guide; outcomes modelled with latent growth curves over six time points.",
+   "method_zh": "平行三臂随机对照试验，区组随机化；VR 会话使用由照片生成的全身“未来自我”化身、在现在与未来自我之间切换身体，并由研究者操控的机器人向导引导；用潜变量增长曲线模型分析六个时间点的结局。",
+   "specs": "N=321 · 3 arms × 107 · 3 × 30 min VR · 6-month follow-up",
+   "keywords": [
+    "future self",
+    "FutureU",
+    "body swapping",
+    "randomized controlled trial",
+    "goal achievement",
+    "interview video"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=4s5NDsyt6V4"
+   },
+   "paper": {
+    "doi": "10.2196/84420",
+    "venue": "Journal of Medical Internet Research (2026)",
+    "title": "Stimulating Future-Oriented Thinking and Goal-Achievement Through the Future Self Using Virtual Reality and a Smartphone App: Randomized Controlled Trial",
+    "url": "https://doi.org/10.2196/84420"
+   },
+   "source_url": "https://doi.org/10.2196/84420"
+  },
+  {
+   "id": "sandra-c-sandoval--police-deference-vr",
+   "creator_ids": [
+    "sandra-c-sandoval",
+    "rashawn-ray"
+   ],
+   "title": "The Effect of Perceived Race and Gender on Police Language Use: Experimental Evidence from VR Simulations",
+   "year": 2026,
+   "date": "2026-08-05",
+   "field": "behavioral",
+   "sub": "criminology",
+   "modalities": [
+    "vr-scenario",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "scripted",
+   "lenses": [
+    "control",
+    "situational-reach"
+   ],
+   "kind": "study",
+   "description": "Re-analysis of VR field experiments in which 70 U.S. police officers talked with virtual characters in three scenes (a house, a bus stop, a convenience store), with the character's race and gender assigned at random. Most officers spoke less deferentially to characters depicted as Black men, especially when the character was known to be a suspect.",
+   "description_zh": "对一组 VR 现场实验的再分析：70 名美国警察在三个场景（住宅、公交站、便利店）中与虚拟角色对话，角色的种族与性别随机分配。多数警察对被呈现为黑人男性的角色说话时更不客气，在已知该角色是嫌疑人时尤其明显。",
+   "idea_en": "Randomly assigning who the virtual person is turns a VR scene into a causal test of bias in what officers actually say, turn by turn.",
+   "idea_zh": "随机分配虚拟人物的身份，让一个 VR 场景变成检验警察逐轮实际话语中偏见的因果实验。",
+   "method": "Utterance-level causal analysis of crowd-rated deference (0–10) in 3,897 officer statements from Doan et al.'s VR experiments, with LLM text features, propensity weighting and LLM-generated paraphrases used to validate effect estimates; the paper contributes an annotated dataset.",
+   "method_zh": "基于 Doan 等人的 VR 实验数据，对 3,897 条警察话语的众包“恭敬程度”评分（0–10）做话语层面的因果分析；用大语言模型提取文本特征、做倾向得分加权，并用大语言模型生成的改写句验证效应估计；论文还贡献了一个标注数据集。",
+   "specs": "70 officers · 208 scenes · 3,897 utterances",
+   "keywords": [
+    "police",
+    "implicit bias",
+    "deference",
+    "causal inference",
+    "LASSR",
+    "video shows the source VR program"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=ZH3XgnpBGHM"
+   },
+   "paper": {
+    "arxiv": "2608.05050",
+    "venue": "arXiv preprint (2026)",
+    "title": "The Effect of Perceived Race and Gender on Police Language Use: Experimental Evidence from VR Simulations",
+    "url": "https://arxiv.org/abs/2608.05050"
+   },
+   "source_url": "https://arxiv.org/abs/2608.05050"
+  },
+  {
+   "id": "yang-gao-beihang--virtual-celebrity-trust",
+   "creator_ids": [
+    "yang-gao-beihang"
+   ],
+   "title": "What Makes a Virtual Celebrity Agent Trustworthy in VR? Exploring the Role of Stylization and Voice",
+   "year": 2026,
+   "date": "2026-03",
+   "field": "behavioral",
+   "sub": "genai-research",
+   "modalities": [
+    "avatar",
+    "speech"
+   ],
+   "inputs": [
+    "video"
+   ],
+   "timing": "scripted",
+   "lenses": [
+    "perceptual-realism",
+    "control"
+   ],
+   "kind": "study",
+   "description": "Six VR versions of the TV character Sheldon Cooper, hand-sculpted, AI-reconstructed or non-stylized, each speaking with a cloned or a synthesized voice, were compared with the original video clip. In a 3×2 within-subjects study (N=30), visual style changed trust, realism, familiarity and social presence; voice type changed only realism and familiarity.",
+   "description_zh": "研究者为电视角色 Sheldon Cooper 制作了六个 VR 版本——手工雕刻、AI 重建或非风格化外观，各配克隆声音或合成声音——并与原始视频片段比较。3×2 被试内实验（N=30）显示：外观风格影响信任、真实感、熟悉度与社会临场感；声音类型只影响真实感与熟悉度。",
+   "idea_en": "Generated and hand-made versions of the same person can be compared as stimuli; here appearance mattered more for trust than whether the voice was cloned.",
+   "idea_zh": "同一人物的生成版与手工版可以当作刺激来比较；在这里，外观对信任的影响大于声音是否克隆。",
+   "method": "3 (visual style) × 2 (vocal type) within-subjects VR experiment with a video baseline, questionnaires on trust, realism, familiarity and social presence, and interpersonal-distance logging.",
+   "method_zh": "3（外观风格）× 2（声音类型）被试内 VR 实验，以视频为基线，测量信任、真实感、熟悉度与社会临场感问卷，并记录人际距离。",
+   "specs": "N=30 · 3×2 within-subjects",
+   "keywords": [
+    "virtual agent",
+    "voice cloning",
+    "AI reconstruction",
+    "trust",
+    "social presence",
+    "IEEE VR 2026"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=1aSmlWFmQNQ"
+   },
+   "paper": {
+    "doi": "10.1109/tvcg.2026.3680715",
+    "venue": "IEEE VR 2026 (IEEE TVCG)",
+    "title": "What Makes a Virtual Celebrity Agent Trustworthy in VR? Exploring the Role of Stylization and Voice",
+    "url": "https://doi.org/10.1109/tvcg.2026.3680715"
+   },
+   "collections": [
+    "ieee-vr",
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "enyao-chang--llm-coaching-vr-public-speaking",
+   "creator_ids": [
+    "enyao-chang"
+   ],
+   "title": "Designing and evaluating LLM-driven coaching agents for VR public speaking practice",
+   "year": 2026,
+   "date": "2026-07-08",
+   "field": "behavioral",
+   "sub": "genai-research",
+   "modalities": [
+    "avatar",
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "body"
+   ],
+   "timing": "turn-based",
+   "lenses": [
+    "adaptation",
+    "responsiveness"
+   ],
+   "kind": "study",
+   "description": "Embodied virtual judges in a VR auditorium give spoken, performance-contingent coaching after each speech, generated by ERNIE Bot from speech recognition and gaze cues. In a two-arm randomized study (N=120), adaptive coaching reduced self-reported speaking anxiety more than attention-matched generic feedback, and the difference was still visible at one-week and one-month follow-ups.",
+   "description_zh": "在 VR 礼堂中，具身的虚拟评委在每次演讲后给出口头的、针对表现的指导，内容由文心一言（ERNIE Bot）根据语音识别与视线线索生成。两臂随机研究（N=120）显示：与注意力匹配的通用反馈相比，自适应指导更明显地降低了自评演讲焦虑，差异在一周和一个月随访时仍可见。",
+   "idea_en": "An attention-matched control isolates what the LLM adds: tailored coaching, not just the presence of a talking agent.",
+   "idea_zh": "注意力匹配的对照组分离出了大语言模型的贡献：起作用的是量身定制的指导，而不只是“有个会说话的智能体”。",
+   "method": "VR system with ASR, TTS, gaze-related cues and structured prompting of ERNIE Bot at three coaching levels; randomized 60/60 user study with repeated state-anxiety and PRCA measures and follow-ups after one week and one month.",
+   "method_zh": "VR 系统集成语音识别、语音合成、视线线索，并以三级结构化提示调用文心一言；60/60 随机用户研究，重复测量状态焦虑与 PRCA 量表，并在一周和一个月后随访。",
+   "specs": "N=120 (60 + 60) · follow-up 1 week and 1 month",
+   "keywords": [
+    "public speaking anxiety",
+    "LLM coaching",
+    "ERNIE Bot",
+    "randomized",
+    "virtual audience"
+   ],
+   "images": [
+    "https://www.frontiersin.org/files/Articles/1886780/xml-images/fpsyg-17-1886780-g0001.webp",
+    "https://www.frontiersin.org/files/Articles/1886780/xml-images/fpsyg-17-1886780-g0002.webp"
+   ],
+   "paper": {
+    "doi": "10.3389/fpsyg.2026.1886780",
+    "venue": "Frontiers in Psychology (2026)",
+    "title": "Designing and evaluating LLM-driven coaching agents for VR public speaking practice",
+    "url": "https://doi.org/10.3389/fpsyg.2026.1886780"
+   },
+   "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1886780/full",
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "matt-gottsacker--vera-remote-cybersickness",
+   "creator_ids": [
+    "matt-gottsacker",
+    "jeremy-bailenson",
+    "tabitha-peck"
+   ],
+   "title": "Beyond the Lab: Large-Scale Remote Cybersickness Research in Virtual Reality Using the VERA Platform",
+   "year": 2026,
+   "date": "2026-09-04",
+   "field": "behavioral",
+   "sub": "theory",
+   "modalities": [
+    "vr-scenario"
+   ],
+   "inputs": [
+    "body"
+   ],
+   "timing": "scripted",
+   "lenses": [
+    "control",
+    "diversity"
+   ],
+   "kind": "study",
+   "description": "The NSF-funded Virtual Experience Research Accelerator (VERA) recruited 263 participants through Prolific to run a standard cybersickness testbed on their own Meta Quest headsets. Results matched a published in-lab study (N=30) in direction and time course, and the larger sample confirmed effects of sex, susceptibility and expectation.",
+   "description_zh": "由美国国家科学基金会资助的“虚拟体验研究加速器”（VERA）通过 Prolific 招募 263 名参与者，让他们在自己的 Meta Quest 头显上运行标准的晕动症测试平台。结果在方向与时间进程上与已发表的实验室研究（N=30）一致，更大的样本还证实了性别、易感性与预期的影响。",
+   "idea_en": "Remote, unsupervised VR studies can reproduce lab findings at nine times the sample, but the sample is experienced headset owners, not the general public.",
+   "idea_zh": "无人监督的远程 VR 研究能以九倍样本复现实验室结果，但样本是有经验的头显用户，而非普通公众。",
+   "method": "Remote adaptation of the Cybersicker testbed deployed via VERA, compared with an in-lab dataset and a demographically matched remote subset on SSQ, FMS and symptom-onset trajectories; regression on demographic and individual-difference predictors.",
+   "method_zh": "通过 VERA 部署 Cybersicker 测试平台的远程版本，在 SSQ、FMS 与症状出现轨迹上，与实验室数据及人口学匹配的远程子样本比较；并对人口学与个体差异因素做回归分析。",
+   "specs": "remote N=263 vs in-lab N=30 · consumer Meta Quest headsets",
+   "keywords": [
+    "VERA",
+    "remote VR studies",
+    "cybersickness",
+    "crowdsourcing",
+    "replication",
+    "symposium talk video"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=KMgAFx1MHmg"
+   },
+   "images": [
+    "https://arxiv.org/html/2609.26203v1/figs/CybersickerInCart4.png"
+   ],
+   "paper": {
+    "arxiv": "2609.26203",
+    "venue": "arXiv preprint (2026; under review at IEEE TVCG)",
+    "title": "Beyond the Lab: Large-Scale Remote Cybersickness Research in Virtual Reality Using the VERA Platform",
+    "url": "https://arxiv.org/abs/2609.26203"
+   },
+   "source_url": "https://arxiv.org/abs/2609.26203"
+  },
+  {
+   "id": "bing-li-sdu--cyberself",
+   "creator_ids": [
+    "bing-li-sdu"
+   ],
+   "title": "CyberSelf: Embodied Self-Distancing for Emotional Support in Virtual Reality",
+   "year": 2026,
+   "date": "2026-07-09",
+   "field": "behavioral",
+   "sub": "genai-research",
+   "modalities": [
+    "avatar",
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "video"
+   ],
+   "timing": "turn-based",
+   "lenses": [
+    "adaptation",
+    "perceptual-realism"
+   ],
+   "kind": "research",
+   "description": "Users talk in VR with a doppelgänger: an avatar reconstructed from a 20-second face video, speaking in their cloned voice, with LLM-driven dialogue. A short-term study (n=24) compared text, text+voice and text+voice+appearance; a four-week study (n=12) with stressed PhD students tested repeated use.",
+   "description_zh": "用户在 VR 中与“数字分身”对话：这个化身由约 20 秒的面部视频重建，用其克隆的声音说话，对话由大语言模型驱动。短期研究（n=24）比较了纯文本、文本+声音、文本+声音+外貌三种条件；为期四周的研究（n=12）以压力较大的博士生为对象，检验了反复使用的效果。",
+   "idea_en": "Self-resemblance becomes a dial: each layer of generated likeness (text, voice, face) can be switched on separately and its effect on emotion regulation measured.",
+   "idea_zh": "“像自己”的程度变成可调参数：生成的相似性（文本、声音、面孔）可以逐层打开，并分别测量其对情绪调节的作用。",
+   "method": "Unreal Engine 5 avatar reconstruction from a short face video, voice cloning, Whisper speech input and LLM dialogue; within-subjects comparison of three representation levels with questionnaires and physiological measures, plus a four-week longitudinal self-compassion study.",
+   "method_zh": "用 Unreal Engine 5 从短视频重建化身，结合声音克隆、Whisper 语音输入与大语言模型对话；被试内比较三种表征层级，测量问卷与生理指标，并开展为期四周的自我关怀纵向研究。",
+   "specs": "N=36 (24 short-term + 12 four-week) · ~20 s face video + ~19 s voice sample",
+   "keywords": [
+    "self-distancing",
+    "doppelgänger",
+    "voice cloning",
+    "emotional support",
+    "self-avatar"
+   ],
+   "access": [
+    "research"
+   ],
+   "images": [
+    "https://arxiv.org/html/2608.07521v1/teaser.png"
+   ],
+   "paper": {
+    "arxiv": "2608.07521",
+    "venue": "arXiv preprint (2026)",
+    "title": "CyberSelf: Embodied Self-Distancing for Emotional Support in Virtual Reality",
+    "url": "https://arxiv.org/abs/2608.07521"
+   },
+   "source_url": "https://arxiv.org/abs/2608.07521",
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "michael-wiesing--elephant-in-the-room",
+   "creator_ids": [
+    "michael-wiesing",
+    "mel-slater"
+   ],
+   "title": "An elephant in the room amplifies discomfort when the virtual reality space matches physical reality",
+   "year": 2026,
+   "date": "2026-05",
+   "field": "behavioral",
+   "sub": "theory",
+   "modalities": [
+    "vr-scenario"
+   ],
+   "inputs": [
+    "surroundings",
+    "body"
+   ],
+   "timing": "scripted",
+   "lenses": [
+    "perceptual-realism",
+    "control"
+   ],
+   "kind": "study",
+   "description": "Twenty-nine participants met a wolf, dog, rabbit or squirrel in three rooms: the real lab seen through mixed-reality passthrough, a VR replica of that lab, or an unrelated virtual living room, with a Newton's cradle on or off. A probabilistic agent asked them to change one factor at a time; the most discomforting configuration was the wolf in mixed reality with the cradle running.",
+   "description_zh": "29 名参与者在三种房间里遇到狼、狗、兔子或松鼠：通过混合现实透视看到的真实实验室、该实验室的 VR 复制品，或一个无关的虚拟客厅；牛顿摆可开可关。一个概率智能体请他们每次只改变一个因素；最令人不适的配置是混合现实中出现狼且牛顿摆在摆动。",
+   "idea_en": "A threat placed in the participant's own room feels worse, which matters for generative MR that writes content into real surroundings, for both design and ethics.",
+   "idea_zh": "把威胁放进参与者自己的房间会让人更难受——对于把内容写进真实环境的生成式 MR，这既是设计问题也是伦理问题。",
+   "method": "Within-subjects paradigm (animal × room × cradle) in which participants moved between configurations at a probabilistic agent's prompting; transitions were modelled as Markov matrices to rank configurations by discomfort.",
+   "method_zh": "被试内范式（动物 × 房间 × 牛顿摆）：参与者在概率智能体的提示下在各配置间切换；用马尔可夫转移矩阵对配置的不适程度排序。",
+   "specs": "N=29 · 4 animals × 3 rooms × cradle on/off",
+   "keywords": [
+    "mixed reality",
+    "place illusion",
+    "discomfort",
+    "EventLab",
+    "Markov chain"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=PdUq-_6ba5s"
+   },
+   "paper": {
+    "doi": "10.1016/j.isci.2026.115951",
+    "venue": "iScience (2026)",
+    "title": "An elephant in the room amplifies discomfort when the virtual reality space matches physical reality",
+    "url": "https://doi.org/10.1016/j.isci.2026.115951"
+   }
+  },
+  {
+   "id": "jean-louis-van-gelder--maxlab-abiss",
+   "creator_ids": [
+    "jean-louis-van-gelder"
+   ],
+   "title": "The MAXLab Aggression and Bystander Intervention Scenario Set (MAXLab_ABISS)",
+   "year": 2024,
+   "date": "2024-10-18",
+   "field": "behavioral",
+   "sub": "criminology",
+   "modalities": [
+    "immersive-video"
+   ],
+   "inputs": [],
+   "timing": "scripted",
+   "lenses": [
+    "control",
+    "situational-reach"
+   ],
+   "kind": "dataset",
+   "access": [
+    "research"
+   ],
+   "description": "A modular set of 360° videos set in a bar, available in English, German and Dutch, that places participants in a stranger's insult, the harassment of a young woman or a bar fight, so researchers can measure emotions and decisions about violence and intervention. Two samples (n=101, n=55) showed the scenes evoked the targeted emotions.",
+   "description_zh": "一套以酒吧为场景、可模块化组合的 360° 视频，提供英语、德语和荷兰语版本，让参与者置身于被陌生人羞辱、目睹年轻女性被骚扰或酒吧斗殴等情境，研究者可借此测量与暴力和干预相关的情绪与决策。两个样本（n=101、n=55）显示这些场景能引发预期的情绪。",
+   "idea_en": "A shared, modular stimulus set makes violent situations comparable across labs and languages: the authored baseline that generated variants would have to match.",
+   "idea_zh": "共享且可模块化的刺激材料，让暴力情境可以跨实验室、跨语言比较——这正是生成式变体需要达到的人工制作基线。",
+   "method": "Modular 360° video scenes viewed in a headset, published with production notes, technical specifications and an access procedure for researchers; validated against self-reported emotions at the moment of decision in two samples.",
+   "method_zh": "在头显中观看的模块化 360° 视频场景，论文公开了制作过程、技术规格与研究者获取方式；在两个样本中以决策时刻的自评情绪进行验证。",
+   "specs": "360° video · EN / DE / NL · validation n=101 and n=55",
+   "keywords": [
+    "bystander intervention",
+    "aggression",
+    "360° video",
+    "stimulus set",
+    "MAXLab"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=T2p8UqTWN84"
+   },
+   "paper": {
+    "doi": "10.1007/s11292-024-09645-6",
+    "venue": "Journal of Experimental Criminology (2024)",
+    "title": "The MAXLab aggression and bystander intervention scenario set (MAXLab_ABISS): A modular scenario set for studying decision making in situations of interpersonal violence in virtual reality",
+    "url": "https://doi.org/10.1007/s11292-024-09645-6"
+   }
+  },
+  {
+   "id": "joseph-p-mccleery--floreo-police-safety-rct",
+   "creator_ids": [
+    "joseph-p-mccleery",
+    "floreo"
+   ],
+   "title": "Virtual Reality Intervention to Empower Autistic People to Interact With Police: A Randomized Controlled Clinical Trial for Autistic Teens and Adults",
+   "year": 2026,
+   "date": "2026-05-06",
+   "field": "behavioral",
+   "sub": "training",
+   "modalities": [
+    "vr-scenario",
+    "avatar"
+   ],
+   "inputs": [
+    "body"
+   ],
+   "timing": "scripted",
+   "lenses": [
+    "situational-reach",
+    "control"
+   ],
+   "kind": "study",
+   "description": "Forty-seven autistic people aged 12 to 60 were randomized to three 45-minute sessions of Floreo's VR Police Safety Module or of a video-modeling program, then were tested in live interactions with police officers. Fidgeting during those live interactions fell only in the VR group; for responding as expected and overall behavior, the group-by-time interactions were not significant, though planned tests showed gains after VR.",
+   "description_zh": "47 名 12 至 60 岁的自闭症人士被随机分配，接受三次各 45 分钟的 Floreo VR 警察安全模块训练或视频示范训练，然后在与真实警察的现场互动中接受测试。现场互动中的小动作只在 VR 组减少；对“按预期回应”和整体表现，组别 × 时间交互作用不显著，但计划内检验显示 VR 训练后有所改善。",
+   "idea_en": "The outcome was measured in live encounters with officers, the transfer test most VR training studies skip, and only one of three outcomes showed a reliable group difference.",
+   "idea_zh": "结局在与真实警察的现场接触中测量——这是多数 VR 训练研究省略的迁移检验；三项结局中只有一项显示出可靠的组间差异。",
+   "method": "Parallel RCT (Floreo VR vs. BeSAFE video modeling), three sessions about nine days apart, with behavior coded during live police interactions before and after training; NIH-funded, with the Center for Autism Research at the Children's Hospital of Philadelphia.",
+   "method_zh": "平行随机对照试验（Floreo VR 对比 BeSAFE 视频示范），三次训练间隔约九天，在训练前后的真实警察互动中对行为编码；由美国国立卫生研究院资助，与费城儿童医院自闭症研究中心合作。",
+   "specs": "N=47 · ages 12–60 · 3 × 45 min",
+   "keywords": [
+    "autism",
+    "police interaction",
+    "transfer",
+    "randomized controlled trial",
+    "third-party video"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=eFVottnTn-w"
+   },
+   "paper": {
+    "doi": "10.1007/s10803-026-07339-8",
+    "venue": "Journal of Autism and Developmental Disorders (2026)",
+    "title": "Virtual Reality Intervention to Empower Autistic People to Interact With Police: A Randomized Controlled Clinical Trial for Autistic Teens and Adults",
+    "url": "https://doi.org/10.1007/s10803-026-07339-8"
+   },
+   "source_url": "https://floreovr.com/research"
+  },
+  {
+   "id": "ziming-li--grasping-to-speaking",
+   "creator_ids": [
+    "ziming-li"
+   ],
+   "title": "From Grasping to Speaking: Generative AI-Based Environment-Grounded VR Communication Training for Autistic Individuals",
+   "year": 2026,
+   "date": "2026-09-22",
+   "field": "behavioral",
+   "sub": "genai-research",
+   "modalities": [
+    "avatar",
+    "dialogue",
+    "speech"
+   ],
+   "inputs": [
+    "speech",
+    "body"
+   ],
+   "timing": "turn-based",
+   "lenses": [
+    "reactivity",
+    "behavioral-plausibility"
+   ],
+   "kind": "research",
+   "access": [
+    "research"
+   ],
+   "description": "Follow-up to the team's LLM job-communication trainer in which agents generate dialogue grounded in the VR workplace and in what the trainee's hands are doing. An exploratory ASSETS 2026 study with 9 autistic trainees and 7 job coaches compared conversation only, conversation with objects, and conversation with objects and grasping; both groups preferred the most grounded condition.",
+   "description_zh": "这是该团队大语言模型职场沟通训练系统的后续工作：智能体生成的对话与 VR 工作场景以及受训者手上的动作相关联。ASSETS 2026 上的一项探索性研究有 9 名自闭症受训者和 7 名就业辅导员参与，比较了仅对话、对话加物体、对话加物体与抓取三种条件；两类参与者都更喜欢关联程度最高的条件。",
+   "idea_en": "Grounding the agent's talk in the task at hand moves soft-skills practice from isolated chat to communication embedded in work.",
+   "idea_zh": "让智能体的话语与手头任务相关联，把软技能练习从孤立的聊天变成嵌入工作中的沟通。",
+   "method": "Prompting schema that feeds VR object state and hand-interaction events to LLM agents; exploratory within-subjects comparison of three grounding conditions with usability, workload and preference measures.",
+   "method_zh": "提示词框架把 VR 物体状态与手部交互事件输入大语言模型智能体；以可用性、工作负荷与偏好为指标，对三种关联条件做探索性的被试内比较。",
+   "specs": "9 autistic trainees · 7 job coaches · 3 conditions",
+   "keywords": [
+    "autism",
+    "job communication",
+    "environment grounding",
+    "grasp interaction",
+    "ASSETS 2026"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=54krjoYva5Q"
+   },
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "xiaoran-yang--hallucination-cues-eca-vr",
+   "creator_ids": [
+    "xiaoran-yang"
+   ],
+   "title": "Signals of AI Hallucination: Designing Hallucination-Aware Cues for Embodied Conversational Agents in VR",
+   "year": 2026,
+   "date": "2026-09-23",
+   "field": "behavioral",
+   "sub": "genai-research",
+   "modalities": [
+    "avatar",
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "lenses": [
+    "control",
+    "behavioral-plausibility"
+   ],
+   "kind": "study",
+   "description": "A GPT-4o-driven embodied agent in VR answered questions while signalling uncertainty and sources in one of three ways: gestures and posture, status icons, or color-coded text with citations. In a within-subjects study (N=24), all three helped people spot hallucinated content compared with no cues; embodied cues raised trust and immersion, and text cues were the easiest to interpret.",
+   "description_zh": "在 VR 中，一个由 GPT-4o 驱动的具身智能体回答问题，并以三种方式之一提示不确定性与来源：手势与姿态、状态图标，或带引用的彩色标注文本。被试内研究（N=24）显示，与无提示相比，三种方式都帮助人们识别出幻觉内容；具身提示提高了信任与沉浸感，文本提示最容易理解。",
+   "idea_en": "Generated characters will sometimes say false things; how the character itself signals doubt changes both whether people catch it and how much they trust it.",
+   "idea_zh": "生成的角色难免说错话；角色自己如何表达“不确定”，既影响人们能否发现错误，也影响他们有多信任它。",
+   "method": "Within-subjects comparison of embodied, icon and text cues against a no-cue baseline, with a faithfulness-based hallucination detector as backend; hallucination-identification logs, trust, immersion and task-load questionnaires, and interviews.",
+   "method_zh": "被试内比较具身、图标与文本三种提示和无提示基线，后端采用基于忠实度的幻觉检测；收集幻觉识别日志、信任、沉浸感与任务负荷问卷及访谈。",
+   "specs": "N=24 · 4 conditions within-subjects",
+   "keywords": [
+    "hallucination",
+    "uncertainty cues",
+    "embodied conversational agent",
+    "trust",
+    "ISMAR 2026"
+   ],
+   "images": [
+    "https://arxiv.org/html/2609.28812v1/Group49.png"
+   ],
+   "paper": {
+    "arxiv": "2609.28812",
+    "venue": "ISMAR 2026 (IEEE TVCG)",
+    "title": "Signals of AI Hallucination: Designing Hallucination-Aware Cues for Embodied Conversational Agents in VR",
+    "url": "https://arxiv.org/abs/2609.28812"
+   },
+   "collections": [
+    "ieee-vr",
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "philippa-garety--avatar2",
+   "creator_ids": [
+    "philippa-garety"
+   ],
+   "title": "Digital AVATAR therapy for distressing voices in psychosis: the phase 2/3 AVATAR2 trial",
+   "year": 2024,
+   "date": "2024-10-28",
+   "field": "behavioral",
+   "sub": "clinical",
+   "modalities": [
+    "avatar",
+    "speech"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "real-time",
+   "lenses": [
+    "reactivity",
+    "adaptation"
+   ],
+   "kind": "study",
+   "description": "People who hear distressing voices held therapist-facilitated dialogues with a digital face whose voice the therapist produced live through voice conversion. In a multisite phase 2/3 trial with 345 participants, a brief (6-session) and an extended (12-session) form, each added to usual care, reduced voice-related distress at 16 weeks but not at 28 weeks.",
+   "description_zh": "听到痛苦幻听的人与一个数字面孔进行由治疗师引导的对话，这个面孔的声音由治疗师通过实时变声现场发出。在一项有 345 名参与者的多中心 II/III 期试验中，简短版（6 次）和扩展版（12 次）分别叠加常规治疗，都在第 16 周降低了与幻听相关的痛苦，但第 28 周时效果不再显著。",
+   "idea_en": "A controllable embodiment of an inner voice can be confronted and changed, but the benefit faded by 28 weeks, a reminder that immersive therapy trials need long follow-up.",
+   "idea_zh": "内心声音的可控化身可以被直面和改变，但获益在第 28 周已消退——提醒沉浸式治疗试验需要长期随访。",
+   "method": "Multisite, assessor-blinded randomized trial of AVATAR-Brief and AVATAR-Extended plus treatment as usual versus usual care alone, intention-to-treat analysis; therapists voice the avatar through real-time voice conversion.",
+   "method_zh": "多中心、评估者盲法随机试验，比较 AVATAR 简短版和扩展版（均叠加常规治疗）与单纯常规治疗，采用意向性分析；治疗师通过实时变声为化身配音。",
+   "specs": "N=345 · 3 arms · follow-up 16 and 28 weeks",
+   "keywords": [
+    "AVATAR therapy",
+    "psychosis",
+    "voice hearing",
+    "phase 2/3 trial",
+    "launch event video"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=8BwQu8oS8XY"
+   },
+   "paper": {
+    "doi": "10.1038/s41591-024-03252-8",
+    "venue": "Nature Medicine (2024)",
+    "title": "Digital AVATAR therapy for distressing voices in psychosis: the phase 2/3 AVATAR2 trial",
+    "url": "https://doi.org/10.1038/s41591-024-03252-8"
+   }
+  },
+  {
+   "id": "jeremy-bailenson--interpersonal-distance-ive",
+   "creator_ids": [
+    "jeremy-bailenson",
+    "jim-blascovich"
+   ],
+   "title": "Interpersonal Distance in Immersive Virtual Environments",
+   "year": 2003,
+   "field": "behavioral",
+   "sub": "social-psych",
+   "modalities": [
+    "vr-scenario",
+    "avatar"
+   ],
+   "inputs": [
+    "body"
+   ],
+   "timing": "scripted",
+   "lenses": [
+    "behavioral-plausibility",
+    "control"
+   ],
+   "kind": "study",
+   "description": "Participants walked through a virtual room past a virtual human, or were approached by one, while the researchers varied gender, gaze and whether the figure was said to be controlled by a person or a computer. People kept more distance from a virtual human's front than its back, gave more room to agents that held mutual gaze, and moved farthest away when agents invaded their personal space.",
+   "description_zh": "参与者在虚拟房间里从虚拟人身边走过，或被虚拟人走近；研究者操纵了性别、注视方式，以及该人物据称由人还是由计算机控制。人们与虚拟人正面保持的距离大于背面，会给保持对视的智能体留出更多空间，而当智能体闯入个人空间时退得最远。",
+   "idea_en": "People respect the personal space of virtual humans, which makes proxemics a cheap, implicit measure of whether a generated character is treated as social.",
+   "idea_zh": "人们会尊重虚拟人的个人空间，这让人际距离成为一种低成本、内隐的指标，用来判断生成的角色是否被当作社会性存在。",
+   "method": "Two IVET experiments with head-tracked walking, manipulating participant and virtual-human gender, gaze behavior, and agent versus avatar framing; minimum distance and path recorded by tracking.",
+   "method_zh": "两项沉浸式虚拟环境实验，参与者在头部追踪下行走；操纵参与者与虚拟人的性别、注视行为以及“智能体/化身”的说法，通过追踪记录最小距离与路径。",
+   "keywords": [
+    "proxemics",
+    "interpersonal distance",
+    "agents vs avatars",
+    "gaze",
+    "paper only"
+   ],
+   "paper": {
+    "doi": "10.1177/0146167203029007002",
+    "venue": "Personality and Social Psychology Bulletin 29(7) (2003)",
+    "title": "Interpersonal Distance in Immersive Virtual Environments",
+    "url": "https://doi.org/10.1177/0146167203029007002"
+   }
+  },
+  {
+   "id": "robin-s-rosenberg--virtual-superheroes",
+   "creator_ids": [
+    "robin-s-rosenberg",
+    "jeremy-bailenson"
+   ],
+   "title": "Virtual Superheroes: Using Superpowers in Virtual Reality to Encourage Prosocial Behavior",
+   "year": 2013,
+   "date": "2013-01-30",
+   "field": "behavioral",
+   "sub": "social-psych",
+   "modalities": [
+    "vr-scenario"
+   ],
+   "inputs": [
+    "body"
+   ],
+   "timing": "scripted",
+   "lenses": [
+    "situational-reach",
+    "control"
+   ],
+   "kind": "study",
+   "description": "Participants either flew over a virtual city by moving their arms like Superman or rode as a passenger in a helicopter, while searching for a diabetic child who needed insulin or simply touring. Afterwards, those who had flown helped the experimenter pick up spilled pens more than the helicopter passengers, whatever their task had been.",
+   "description_zh": "参与者要么像超人一样挥动手臂在虚拟城市上空飞行，要么作为乘客坐直升机；任务是寻找一个急需胰岛素的糖尿病儿童，或只是游览城市。之后，无论任务是什么，飞行组都比直升机组更多地帮实验者捡起洒落的笔。",
+   "idea_en": "A capability granted in VR, not only a role or a story, can carry over into helping behavior outside the headset.",
+   "idea_zh": "在 VR 中被赋予的“能力”——而不只是角色或故事——也能延续到头显之外的助人行为。",
+   "method": "2 (super-flight vs. helicopter passenger) × 2 (rescue vs. tour task) between-subjects experiment with full-body tracking, followed by a staged spilled-pens helping measure.",
+   "method_zh": "2（超人飞行 / 直升机乘客）× 2（救援 / 游览任务）被试间实验，采用全身追踪；之后以安排好的“笔掉在地上”情境测量助人行为。",
+   "keywords": [
+    "prosocial behavior",
+    "superpowers",
+    "embodiment",
+    "VHIL",
+    "helping"
+   ],
+   "images": [
+    "https://journals.plos.org/plosone/article/figure/image?size=inline&id=10.1371/journal.pone.0055003.g001"
+   ],
+   "paper": {
+    "doi": "10.1371/journal.pone.0055003",
+    "venue": "PLoS ONE 8(1) (2013)",
+    "title": "Virtual Superheroes: Using Superpowers in Virtual Reality to Encourage Prosocial Behavior",
+    "url": "https://doi.org/10.1371/journal.pone.0055003"
+   }
+  },
+  {
+   "id": "max-kinateder--evacuation-real-virtual",
+   "creator_ids": [
+    "max-kinateder"
+   ],
+   "title": "Social Influence on Evacuation Behavior in Real and Virtual Environments",
+   "year": 2016,
+   "date": "2016-07-25",
+   "field": "behavioral",
+   "sub": "theory",
+   "modalities": [
+    "vr-scenario",
+    "avatar"
+   ],
+   "inputs": [
+    "body"
+   ],
+   "timing": "scripted",
+   "lenses": [
+    "control",
+    "situational-reach"
+   ],
+   "kind": "study",
+   "description": "When a fire alarm went off, 150 participants decided whether to evacuate, alone or next to a bystander who either left or stayed; half were in the real lab and half in a matched VR replica with a virtual bystander. The same social influence appeared in both, but people responded less to the virtual alarm, and a bystander who stayed held people back less in VR.",
+   "description_zh": "火警响起时，150 名参与者要决定是否撤离：独自一人，或身边有一位要么离开、要么留下的旁观者；一半人在真实实验室，另一半在配有虚拟旁观者的、与之匹配的 VR 复制场景中。两种环境中都出现了同样的社会影响，但人们对虚拟火警的反应较弱，留下不走的旁观者在 VR 中的“拖住”作用也较弱。",
+   "idea_en": "A matched real-versus-virtual test shows which effects carry over (positive social influence) and which shrink (urgency, negative influence), the kind of validation any generated emergency would need.",
+   "idea_zh": "真实与虚拟的匹配对照显示了哪些效应能延续（正向社会影响）、哪些会减弱（紧迫感、负向影响）——任何生成的紧急情境都需要这类验证。",
+   "method": "One-trial between-subjects experiment with three bystander conditions, run in a physical laboratory and in a matched virtual environment presented in a head-mounted display.",
+   "method_zh": "单次试验的被试间实验，设三种旁观者条件，分别在真实实验室与在头戴显示器中呈现的匹配虚拟环境中进行。",
+   "specs": "N=150 · 3 conditions × real / VR",
+   "keywords": [
+    "evacuation",
+    "fire alarm",
+    "validation",
+    "real vs virtual",
+    "social influence"
+   ],
+   "images": [
+    "https://www.frontiersin.org/files/Articles/204625/xml-images/frobt-03-00043-g001.webp"
+   ],
+   "paper": {
+    "doi": "10.3389/frobt.2016.00043",
+    "venue": "Frontiers in Robotics and AI 3 (2016)",
+    "title": "Social Influence on Evacuation Behavior in Real and Virtual Environments",
+    "url": "https://doi.org/10.3389/frobt.2016.00043"
+   }
+  },
+  {
+   "id": "domna-banakou--virtual-child-body",
+   "creator_ids": [
+    "domna-banakou",
+    "mel-slater"
+   ],
+   "title": "Illusory ownership of a virtual child body causes overestimation of object sizes and implicit attitude changes",
+   "year": 2013,
+   "date": "2013-07-15",
+   "field": "behavioral",
+   "sub": "social-psych",
+   "modalities": [
+    "vr-scenario",
+    "avatar"
+   ],
+   "inputs": [
+    "body"
+   ],
+   "timing": "scripted",
+   "lenses": [
+    "perceptual-realism",
+    "control"
+   ],
+   "kind": "study",
+   "description": "Thirty adults were embodied in VR either as a 4-year-old child or as an adult body shrunk to the child's height, with body movements synchronized. Both produced strong body ownership, but only the child body made people overestimate object sizes more and associate themselves faster with child-like attributes; in a second experiment (n=16), asynchronous movement removed the illusion and the child-specific effects.",
+   "description_zh": "30 名成年人在 VR 中被赋予一个 4 岁儿童的身体，或一个缩小到儿童身高的成人身体，且身体动作同步。两种条件都产生了强烈的身体拥有感，但只有儿童身体让人更高估物体尺寸，并更快地把自己与儿童特质联系起来；第二项实验（n=16）中，动作不同步消除了拥有感错觉及儿童身体特有的效应。",
+   "idea_en": "The body you are given changes perception and implicit attitudes, not only how you feel: avatar choice is an experimental variable.",
+   "idea_zh": "被赋予的身体会改变知觉与内隐态度，而不只是感受——化身的选择本身就是实验变量。",
+   "method": "Between-groups embodiment experiment with full-body motion capture and first-person view in an HMD, object-size estimation and an implicit association test; a second experiment with asynchronous visuomotor feedback as control.",
+   "method_zh": "组间具身实验：头显第一人称视角配合全身动作捕捉，测量物体尺寸估计与内隐联想测验；第二项实验以视觉-运动不同步作为对照。",
+   "specs": "Exp. 1 N=30 · Exp. 2 n=16",
+   "keywords": [
+    "body ownership",
+    "embodiment",
+    "child body",
+    "implicit association test",
+    "EventLab"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=8Oy83OVgbSM"
+   },
+   "paper": {
+    "doi": "10.1073/pnas.1306779110",
+    "venue": "PNAS 110(31) (2013)",
+    "title": "Illusory ownership of a virtual child body causes overestimation of object sizes and implicit attitude changes",
+    "url": "https://doi.org/10.1073/pnas.1306779110"
+   }
+  },
+  {
+   "id": "mehrnaz-hosseinzadeh--vr-experiment-toolboxes-review",
+   "creator_ids": [
+    "mehrnaz-hosseinzadeh"
+   ],
+   "title": "Toolboxes for creating immersive virtual reality experiments in psychological, behavioral, and cognitive research: A scoping review",
+   "year": 2026,
+   "date": "2026-07-03",
+   "field": "behavioral",
+   "sub": "theory",
+   "modalities": [
+    "vr-scenario"
+   ],
+   "inputs": [
+    "spec"
+   ],
+   "lenses": [
+    "authoring",
+    "control"
+   ],
+   "kind": "paper",
+   "description": "Scoping review that maps the software toolboxes researchers use to build head-mounted-display experiments in psychology, behavioral science and cognitive neuroscience, and turns the map into a decision framework for researchers who do not program.",
+   "description_zh": "一篇范围综述：梳理心理学、行为科学与认知神经科学研究者用来搭建头显实验的软件工具箱，并据此为不会编程的研究者提供选型决策框架。",
+   "idea_en": "Before generation, the bottleneck is authoring: this map shows how much of a VR experiment non-programmers can already build and control.",
+   "idea_zh": "在“生成”之前，瓶颈是“创作”：这份梳理展示了不会编程的研究者目前已能搭建并控制 VR 实验的多大部分。",
+   "method": "Scoping review of published VR experiment toolboxes, charting usability and application features into an evidence map and a decision-support framework.",
+   "method_zh": "对已发表的 VR 实验工具箱做范围综述，按可用性与应用特征整理成证据地图与决策支持框架。",
+   "keywords": [
+    "scoping review",
+    "experiment toolboxes",
+    "Unity",
+    "experimental control",
+    "paper only"
+   ],
+   "paper": {
+    "doi": "10.1016/j.chbr.2026.101194",
+    "venue": "Computers in Human Behavior Reports (2026)",
+    "title": "Toolboxes for creating immersive virtual reality experiments in psychological, behavioral, and cognitive research: A scoping review",
+    "url": "https://doi.org/10.1016/j.chbr.2026.101194"
+   }
+  },
+  {
+   "id": "yvain-tisserand--virtual-suspect-resistance-means",
+   "creator_ids": [
+    "yvain-tisserand"
+   ],
+   "title": "Virtual Human for Police Training in Virtual Reality: A Dynamic Model of a Suspect With Modulated Resistance and Means",
+   "year": 2026,
+   "date": "2026-06-01",
+   "field": "behavioral",
+   "sub": "training",
+   "modalities": [
+    "avatar",
+    "behavior",
+    "speech"
+   ],
+   "inputs": [
+    "body",
+    "speech"
+   ],
+   "timing": "scripted",
+   "lenses": [
+    "behavioral-plausibility",
+    "control"
+   ],
+   "kind": "study",
+   "description": "A virtual suspect in a police intervention whose face, posture, gaze, movement and voice are driven by two parameters: resistance (from compliance to aggression) and means (bare hands or a wrench). Fifty-eight active-duty Geneva police officers each handled six resistance × means scenarios in VR; resistance mainly changed perceived danger and intent, means changed perceived capacity and opportunity.",
+   "description_zh": "一个警务处置场景中的虚拟嫌疑人，其表情、姿态、视线、移动与声音由两个参数驱动：抵抗程度（从服从到攻击）与手段（徒手或扳手）。58 名日内瓦在职警察在 VR 中各自处理了六种“抵抗 × 手段”组合场景；抵抗程度主要改变感知到的危险与意图，手段则改变感知到的能力与机会。",
+   "idea_en": "Two interpretable dials produce distinct threat appraisals in trained officers, the controllable baseline that LLM-driven suspects will have to be compared with.",
+   "idea_zh": "两个可解释的“旋钮”就能让受过训练的警察产生可区分的威胁评估——这是大语言模型驱动的嫌疑人日后必须与之比较的可控基线。",
+   "method": "State-machine behavior model grounded in proportional-use-of-force doctrine, built in Unity with an HTC Vive Pro Eye; constrained speech recognition with instructor validation of commands; within-subjects evaluation with counterbalanced scenario order and in-VR questionnaires.",
+   "method_zh": "基于“相称使用武力”原则的状态机行为模型，用 Unity 开发并在 HTC Vive Pro Eye 上运行；受限语音识别，由教官确认指令；被试内评估，场景顺序平衡，问卷在 VR 内完成。",
+   "specs": "N=58 officers · 6 scenarios within-subjects",
+   "keywords": [
+    "police training",
+    "use of force",
+    "threat appraisal",
+    "virtual suspect",
+    "rule-based agent",
+    "paper only"
+   ],
+   "paper": {
+    "doi": "10.1002/cav.70129",
+    "venue": "Computer Animation and Virtual Worlds (CASA XR 2026)",
+    "title": "Virtual Human for Police Training in Virtual Reality: A Dynamic Model of a Suspect With Modulated Resistance and Means",
+    "url": "https://doi.org/10.1002/cav.70129"
+   }
+  },
+  {
+   "id": "duo-wang-uiuc--emsim",
+   "creator_ids": [
+    "duo-wang-uiuc"
+   ],
+   "title": "EmSim: AI-Driven VR Simulation for De-Escalation Training in Law Enforcement",
+   "year": 2026,
+   "date": "2026-01-26",
+   "field": "behavioral",
+   "sub": "genai-research",
+   "modalities": [
+    "avatar",
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "lenses": [
+    "reactivity",
+    "situational-reach"
+   ],
+   "kind": "research",
+   "access": [
+    "research"
+   ],
+   "description": "Police trainees talk freely with an emotionally distressed virtual person (an Unreal Engine digital human voiced through Convai) while a GPT-4-turbo evaluator scores each utterance against an empathy rubric; the scores decide whether the scenario escalates or calms, and a trainer dashboard shows them live. A pilot with 14 trainees and 5 trainers found two strategies, careful de-escalation and boundary testing.",
+   "description_zh": "警校学员与一位情绪激动的虚拟人（基于 Unreal Engine 数字人、由 Convai 驱动语音对话）自由交谈；GPT-4-turbo 评估器按共情量表为每句话打分，分数决定场景是升级还是缓和，教官仪表盘实时显示这些分数。一项有 14 名学员和 5 名教官参与的试点研究发现了两种策略：谨慎降级与试探边界。",
+   "idea_en": "Two LLM roles in one scene: one plays the distressed person, another scores the trainee's words and moves the scene along an escalation path, so consequences follow from what is said.",
+   "idea_zh": "同一场景中大语言模型扮演两个角色：一个扮演情绪激动的人，另一个为学员的话打分并沿升级路径推动场景，让后果取决于所说的话。",
+   "method": "Unreal Engine scene with a Convai speech-to-speech character streamed from a PC to Meta Quest 3; rubric-guided GPT-4-turbo scoring of each utterance feeds an escalation state manager and a web dashboard for trainers; mixed-methods pilot with behavioral trajectories and post-session interviews.",
+   "method_zh": "Unreal Engine 场景配合 Convai 语音对语音角色，由 PC 串流到 Meta Quest 3；GPT-4-turbo 按量表为每句话打分，结果输入升级状态管理器和教官网页仪表盘；混合方法试点，分析行为轨迹与课后访谈。",
+   "specs": "pilot: 14 police trainees · 5 trainers",
+   "keywords": [
+    "de-escalation",
+    "police training",
+    "LLM evaluator",
+    "empathy rubric",
+    "pilot study",
+    "paper only"
+   ],
+   "paper": {
+    "doi": "10.1109/AIXVR67263.2026.00014",
+    "venue": "IEEE AIxVR 2026",
+    "title": "EmSim: AI-Driven VR Simulation for De-Escalation Training in Law Enforcement",
+    "url": "https://doi.org/10.1109/AIXVR67263.2026.00014"
+   },
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "yuting-wen--genai-vr-dental-rct",
+   "creator_ids": [
+    "yuting-wen"
+   ],
+   "title": "Effects of Generative AI-Supported Virtual Reality Dental Skill Training on Learning Performance, Visual Behavior, and Cortical Activation Among Dental Students: Stratified Randomized Controlled Trial",
+   "year": 2026,
+   "date": "2026-10-01",
+   "field": "behavioral",
+   "sub": "genai-research",
+   "modalities": [
+    "vr-scenario",
+    "dialogue"
+   ],
+   "inputs": [
+    "text",
+    "body"
+   ],
+   "timing": "turn-based",
+   "lenses": [
+    "adaptation",
+    "control"
+   ],
+   "kind": "study",
+   "description": "Dental students practised operative skills in a VR simulator for seven days with either ChatGPT guidance and no human tutor (n=62) or on-site instructor guidance (n=61). The ChatGPT group scored higher on the operative skills test (77.3 vs. 67.4, d=0.70), with eye tracking and fNIRS recorded during training.",
+   "description_zh": "牙科学生在 VR 模拟器中进行为期七天的操作技能训练，一组只有 ChatGPT 指导、没有人类导师（n=62），另一组由教师现场指导（n=61）。ChatGPT 组的操作技能测试得分更高（77.3 对 67.4，d=0.70）；训练中同时记录了眼动与功能性近红外光谱数据。",
+   "idea_en": "Generative AI as the tutor inside an authored simulator, not as the simulator itself, can be tested against a human teacher in a randomized design.",
+   "idea_zh": "生成式 AI 作为人工制作的模拟器中的导师（而不是模拟器本身），可以在随机设计中与人类教师正面比较。",
+   "method": "Stratified randomized controlled trial (by baseline theory score) of GenAI-assisted vs. teacher-led VR dental training; research assistants screened AI outputs only for safety; outcomes were operative exams, eye tracking, fNIRS, visual-spatial tests and questionnaires.",
+   "method_zh": "按理论基线分层的随机对照试验，比较生成式 AI 辅助与教师主导的 VR 牙科训练；研究助理仅出于安全目的审查 AI 输出；结局包括操作考核、眼动追踪、功能性近红外光谱、视觉空间测验与问卷。",
+   "specs": "N=123 (62 + 61) · 7 days · d=0.70",
+   "keywords": [
+    "dental education",
+    "ChatGPT",
+    "VR simulator",
+    "fNIRS",
+    "eye tracking",
+    "paper only"
+   ],
+   "paper": {
+    "doi": "10.2196/90938",
+    "venue": "Journal of Medical Internet Research (2026)",
+    "title": "Effects of Generative AI-Supported Virtual Reality Dental Skill Training on Learning Performance, Visual Behavior, and Cortical Activation Among Dental Students: Stratified Randomized Controlled Trial",
+    "url": "https://doi.org/10.2196/90938"
+   },
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "binyang-han--llm-agent-triadic-mediation",
+   "creator_ids": [
+    "binyang-han"
+   ],
+   "title": "Exploring Mediation by an Embodied Virtual Agent in Immersive Triadic Collaborative Decision-Making",
+   "year": 2026,
+   "date": "2026-05",
+   "field": "behavioral",
+   "sub": "genai-research",
+   "modalities": [
+    "avatar",
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "lenses": [
+    "behavioral-plausibility",
+    "co-creation"
+   ],
+   "kind": "study",
+   "description": "Pairs of users with conflicting goals designed an office together in XR while an LLM-driven agent mediated, either embodied or as a disembodied voice, compared with no agent (reported as n=24 pairs). Embodiment raised co-presence and perceived collaboration but not task efficiency, and the agent adopted facilitating and evaluating mediation strategies without being programmed to.",
+   "description_zh": "目标相互冲突的两名用户在 XR 中共同设计一间办公室，由一个大语言模型驱动的智能体进行调解；智能体或有具身形象，或只是无形的声音，并与无智能体条件比较（论文报告 n=24 组）。具身形象提高了共同临场感与感知到的协作质量，但没有提高任务效率；智能体还在未经专门编程的情况下，自发采用了促进式与评估式的调解策略。",
+   "idea_en": "An LLM teammate's value in a group lies in how it shapes the social dynamics, and its strategies emerge rather than being scripted, which makes them harder to control.",
+   "idea_zh": "大语言模型“队友”在群体中的价值在于它如何塑造社会互动；它的策略是涌现的而非预设的，因此也更难控制。",
+   "method": "XR collaboration study varying agent presence and embodiment, with co-presence, collaboration, preference and efficiency measures and qualitative coding of the agent's mediation strategies against conflict-resolution modes.",
+   "method_zh": "XR 协作研究，操纵智能体是否在场及是否具身，测量共同临场感、协作、偏好与效率，并对照冲突解决模式对智能体的调解策略做质性编码。",
+   "specs": "pairs (n=24 reported) · 3 agent conditions",
+   "keywords": [
+    "mediation",
+    "teamwork",
+    "conflict resolution",
+    "embodied agent",
+    "IEEE VR 2026",
+    "paper only"
+   ],
+   "paper": {
+    "doi": "10.1109/tvcg.2026.3679103",
+    "venue": "IEEE VR 2026 (IEEE TVCG)",
+    "title": "Exploring Mediation by an Embodied Virtual Agent in Immersive Triadic Collaborative Decision-Making",
+    "url": "https://doi.org/10.1109/tvcg.2026.3679103"
+   },
+   "collections": [
+    "ieee-vr",
+    "trend-genai-behavioral"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "Min & Jeong: Public Speaking Q&A Practice with LLM-Generated Personas in VR (ISMAR-Adjunct 2024)",
+   "why": "Adjunct poster with a pilot (N=20); no video or image found; low salience next to the 2026 RCT by Chang et al.",
+   "link": "https://doi.org/10.1109/ismar-adjunct64951.2024.00143",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Li & Peiris: From Grasping to Speaking (ASSETS 2026)",
+   "why": "Added this round as ziming-li--grasping-to-speaking.",
+   "link": "https://www.youtube.com/watch?v=54krjoYva5Q",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "van Gelder et al. 2026: FutureU VR and smartphone future-self RCT (JMIR)",
+   "why": "Added this round as jean-louis-van-gelder--futureu-rct.",
+   "link": "https://doi.org/10.2196/84420",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Bar Fight VR Study: bystander intervention and misinformation memory (OSF preregistration)",
+   "why": "Preregistration only; no results published as of 2026-10-18. The underlying 360° bar scenarios are added as jean-louis-van-gelder--maxlab-abiss.",
+   "link": "https://doi.org/10.17605/osf.io/be5su",
+   "found_via": "jean-louis-van-gelder",
+   "status": "no_media"
+  },
+  {
+   "name": "Norr, Rizzo, Reger et al. 2025: Virtual Standardized Patient for Suicide Safety Planning (IJHCI)",
+   "why": "Design paper for a screen-based VA/DoD virtual standardized patient; pilot RCT still pending; no public video found.",
+   "link": "https://doi.org/10.1080/10447318.2025.2555704",
+   "found_via": "albert-rizzo",
+   "status": "no_media"
+  },
+  {
+   "name": "VERA: large-scale remote VR research (arXiv 2609.26203)",
+   "why": "Added this round as matt-gottsacker--vera-remote-cybersickness.",
+   "link": "https://arxiv.org/abs/2609.26203",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Bailenson et al. 2003: Interpersonal Distance in Immersive Virtual Environments (PSPB)",
+   "why": "Added this round as jeremy-bailenson--interpersonal-distance-ive.",
+   "link": "https://doi.org/10.1177/0146167203029007002",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Kinateder & Warren 2016: Social Influence on Evacuation Behavior in Real and Virtual Environments",
+   "why": "Added this round as max-kinateder--evacuation-real-virtual.",
+   "link": "https://doi.org/10.3389/frobt.2016.00043",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Kleygrewe et al. 2023: VR training for police officers compared with real-life training (Police Practice and Research)",
+   "why": "SHOTPROS output comparing VR and real-life training responses; abstract and figures could not be retrieved (publisher blocks), no footage; SHOTPROS is covered by shotpros--police-vr-training.",
+   "link": "https://doi.org/10.1080/15614263.2023.2176307",
+   "found_via": "shotpros",
+   "status": "no_media"
+  },
+  {
+   "name": "Violakis 2025: Leveraging LLMs for simulation-based learning in police and law enforcement (Policing)",
+   "why": "LLM-driven text simulations (crisis negotiation, interrogation) without an immersive interface; outside the field's immersive scope.",
+   "link": "https://doi.org/10.1093/police/paaf012",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Laine et al. 2026: Role-play training based on conversational AI and immersive VR (IJHCS)",
+   "why": "Platform, proof of concept and user study (issue dated January 2027); abstract not indexed and publisher page not reachable, so sample and design could not be verified.",
+   "link": "https://doi.org/10.1016/j.ijhcs.2026.103917",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "AVATAR2 trial (Garety et al., Nature Medicine 2024)",
+   "why": "Added this round as philippa-garety--avatar2.",
+   "link": "https://doi.org/10.1038/s41591-024-03252-8",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Wiesing et al. 2026: An elephant in the room (iScience)",
+   "why": "Added this round as michael-wiesing--elephant-in-the-room.",
+   "link": "https://doi.org/10.1016/j.isci.2026.115951",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Banakou et al. 2013: Illusory ownership of a virtual child body (PNAS)",
+   "why": "Added this round as domna-banakou--virtual-child-body.",
+   "link": "https://www.youtube.com/watch?v=8Oy83OVgbSM",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Rosenberg, Baughman & Bailenson 2013: Virtual Superheroes (PLoS ONE)",
+   "why": "Added this round as robin-s-rosenberg--virtual-superheroes.",
+   "link": "https://doi.org/10.1371/journal.pone.0055003",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Apex Officer VR de-escalation and mental-health simulator",
+   "why": "Scripted commercial police VR trainer in the same category as axon--axon-vr-training; official site could not be read to verify specs; not added to avoid padding. Official videos: NENhR2Tyj8Q, tXS1c-EaZNM.",
+   "link": "https://www.youtube.com/watch?v=NENhR2Tyj8Q",
+   "found_via": "axon",
+   "status": "duplicate"
+  },
+  {
+   "name": "VirtualSpeech generative AI VR role-plays",
+   "why": "Commercial soft-skills platform with AI role-plays on web, VR and MR (developer claims 350k+ practice sessions); same category as bodyswaps--ai-roleplays, not added to avoid padding. Official videos: EBKbQIiOJg0 (2024-02-21), ANkgQnJukwI (2026-02-16).",
+   "link": "https://virtualspeech.com/",
+   "found_via": "bodyswaps",
+   "status": "duplicate"
+  },
+  {
+   "name": "Toolboxes for creating immersive VR experiments: scoping review (CHB Reports 2026)",
+   "why": "Added this round as mehrnaz-hosseinzadeh--vr-experiment-toolboxes-review.",
+   "link": "https://doi.org/10.1016/j.chbr.2026.101194",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "CyberSelf: embodied self-distancing in VR (arXiv 2608.07521)",
+   "why": "Added this round as bing-li-sdu--cyberself.",
+   "link": "https://arxiv.org/abs/2608.07521",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Hauck et al. 2026: AI-driven virtual patient for breaking bad news (arXiv 2607.22118)",
+   "why": "LLM dialogue + real-time facial animation in VR; formative study with 7 medical experts only; no video or project page.",
+   "link": "https://arxiv.org/abs/2607.22118",
+   "found_via": "trends",
+   "status": "no_media"
+  },
+  {
+   "name": "Kor et al. 2026: GenAI-assisted vs. facilitator-led debriefing after immersive VR nursing simulation (Nurse Education Today)",
+   "why": "Quasi-experimental, N=178 (102 vs. 76, allocated by enrolment); GenAI is the debriefer, not the situation; no media; candidate if the field wants more GenAI-in-training evidence.",
+   "link": "https://doi.org/10.1016/j.nedt.2026.107275",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Muñoz, Lavoie et al. 2026: Modeling affective and autonomic user states in immersive de-escalation training (Frontiers in Computer Science)",
+   "why": "Multimodal physiological study with 11 active-duty police officers; small pilot.",
+   "link": "https://doi.org/10.3389/fcomp.2026.1864858",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Nierula et al. 2026: From Multimodal Signals to Adaptive XR Experiences for De-escalation Training (IUI Workshops, arXiv 2604.11570)",
+   "why": "Early-stage sensing layer (speech, gesture, EMG, EEG, arousal) for adaptive police de-escalation VR; preliminary results only.",
+   "link": "https://arxiv.org/abs/2604.11570",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Crisis Support VR (Västra Götaland, Sweden): GenAI virtual patients for psychological first aid (Frontiers in Digital Health 2026)",
+   "why": "Action-research survey of 32 crisis-support staff; no outcome data and no video found.",
+   "link": "https://doi.org/10.3389/fdgth.2026.1805454",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Silber & Moller 2026: VR + GenAI exposure and response prevention platform for OCD (PsyArXiv)",
+   "why": "Acceptability pilot with 8 clinical psychology trainees; generated exposure stimuli; preprint.",
+   "link": "https://doi.org/10.31234/osf.io/zmhpj_v1",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Timmer, de Vries & Gosselt: The virtual crime scene, VR context reinstatement for eyewitness statements (PsyArXiv)",
+   "why": "Staged incident with N=98; VR reinstatement reduced confabulation; preprint first posted 2023 (v3 2026), not yet peer-reviewed.",
+   "link": "https://doi.org/10.31234/osf.io/t8hqa_v3",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Solymosi, Caughey, Chataway & Moir 2026: Evaluating bystander intervention from a victim perspective using VR (CrimRxiv)",
+   "why": "2026 criminology preprint; abstract not indexed and page not reachable here.",
+   "link": "https://doi.org/10.21428/cb6ab371.05142d61",
+   "found_via": "jean-louis-van-gelder",
+   "status": "open"
+  },
+  {
+   "name": "GenAI-supported virtual patients in health care education: systematic review (JMIR 2026)",
+   "why": "Review of generative-AI virtual patients (mostly screen-based); candidate genai-research paper for the next round.",
+   "link": "https://doi.org/10.2196/82756",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Effectiveness of AI-enhanced virtual patients for psychiatric interview training: meta-analysis (Frontiers in Medicine 2026)",
+   "why": "Meta-analysis of AI virtual patients for psychiatric interviewing; candidate review paper.",
+   "link": "https://doi.org/10.3389/fmed.2026.1834636",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Cao, Pan, ... Prpa, Kitson: Quantifying Latencies, conversation analysis of human-agent interaction in VR (CHI 2026)",
+   "why": "Directly about turn-taking latency with agents in VR; abstract not indexed, no video found.",
+   "link": "https://doi.org/10.1145/3772318.3790947",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Salagean et al.: Virtual Selves, Real Emotions, photorealistic avatar personalization and emotion in VR (CHI 2026)",
+   "why": "Personalized photorealistic self-avatars and emotion; abstract not indexed, no video found.",
+   "link": "https://doi.org/10.1145/3772318.3791423",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Rivière et al. 2026: What's in a BIP? Lived experiences of breaks in presence (Journal of Virtual Reality; arXiv 2604.09146)",
+   "why": "Micro-phenomenology of 57 break-in-presence episodes from 14 users; theory-relevant but small and without media.",
+   "link": "https://arxiv.org/abs/2604.09146",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Torshizi & Marsella 2026: LLM-based selection of incongruent verbal and nonverbal behavior for virtual humans (arXiv 2608.22731)",
+   "why": "Belongs to avatars/nonverbal: LLM chooses mismatched gestures and expressions for counselling virtual patients, with a human-subject evaluation.",
+   "link": "https://arxiv.org/abs/2608.22731",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Calzolari, ... Musse 2026: LLM-Driven Personalities for Decision Making in Emergency Simulations (arXiv 2606.31038)",
+   "why": "Belongs to agents: OCEAN-prompted LLM agents in a simulated evacuation; no human participants.",
+   "link": "https://arxiv.org/abs/2606.31038",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "GenTouchVR: Generating a Touchable Virtual Reality Environment from a Single Image (IEEE VR 2026, TVCG)",
+   "why": "Belongs to genxr or worlds-3d: image-to-VR environment generation with touch; not in any batch as of 2026-10-18.",
+   "link": "https://doi.org/10.1109/tvcg.2026.3680620",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "LIVE-GS: LLM Powers Interactive VR Experience with Physics-Aware Gaussian Splatting (IEEE VR 2026, TVCG)",
+   "why": "Belongs to genxr: LLM-driven interaction with physics-aware Gaussian-splat scenes in VR; not in any batch as of 2026-10-18.",
+   "link": "https://doi.org/10.1109/tvcg.2026.3680710",
+   "found_via": "seed",
+   "status": "open"
+  }
+ ]
+}

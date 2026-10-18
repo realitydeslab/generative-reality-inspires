@@ -1,0 +1,34 @@
+{
+  "google-deepmind--gemini-4-argon-minecraft": {
+    "zh": "Gemini 4 Argon 智能体团队通关 Minecraft",
+    "src": "translated"
+  },
+  "wemade-next--mir5-asterion": {
+    "zh": "《MIR5》AI 首领 Asterion",
+    "src": "translated"
+  },
+  "goodai--ai-people": {
+    "zh": "AI People（AI NPC 沙盒游戏）",
+    "src": "translated"
+  },
+  "studio-atelico--garp": {
+    "zh": "GARP：实时生成式智能体村庄",
+    "src": "translated"
+  },
+  "openai--vpt": {
+    "zh": "视频预训练（VPT）",
+    "src": "translated"
+  },
+  "marcel-binz--centaur": {
+    "zh": "Centaur：人类认知基础模型",
+    "src": "translated"
+  },
+  "nvidia--ace-game-agent-sdk": {
+    "zh": "NVIDIA ACE 游戏智能体 SDK",
+    "src": "translated"
+  },
+  "art-from-the-machine--mantella": {
+    "zh": "Mantella（《上古卷轴 V》AI NPC 模组）",
+    "src": "translated"
+  }
+}

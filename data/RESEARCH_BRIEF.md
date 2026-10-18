@@ -5,7 +5,7 @@ generative.reality.design that surveys **generative immersive technology**: the 
 studies and devices with which situations can be *generated* and *entered*. Made by Reality Design Lab as idea material
 for researchers, designers and students, and as the living survey behind a research agenda on **generative immersion for
 behavioral science** (how generated, adaptive situations could be used to study and train human behavior).
-Today is **2026-10-17**. Working dir: `/Users/amber/Projects/HoloKit/HoloKit2/generative-reality-inspire`.
+Today is **2026-10-17**. Working dir: `/Users/amber/Projects/Oxford/generative-reality-inspires`.
 
 Read first: `data/SCHEMA.md` (JSON format, language rule), `data/taxonomy.json` (fields / subs / outputs (`modalities`) /
 inputs / timings / access / lenses / kinds / collections / disciplines) and `plan/AGENTS.md` (which batch owns what, canonical creator ids).

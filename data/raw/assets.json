@@ -1194,8 +1194,8 @@
         "co-creation"
       ],
       "kind": "product",
-      "description": "A conversational agent inside Meshy: a person describes an idea or uploads a photo or sketch, and the agent brainstorms directions, generates concept images in batches, turns the chosen one into a downloadable 3D model, and can rig and animate characters through chat.",
-      "description_zh": "Meshy 内置的对话式智能体：用户描述想法或上传照片、草图，智能体会提出方向、批量生成概念图，把选中的方案变成可下载的三维模型，还能通过对话为角色绑定和制作动画。",
+      "description": "A conversational agent inside Meshy: a person describes an idea or uploads a photo or sketch, and the agent brainstorms directions, generates concept images in batches, turns the chosen one into a downloadable 3D model, and can rig and animate characters through chat; Meshy opened it to all users on 14 October 2026.",
+      "description_zh": "Meshy 内置的对话式智能体：用户描述想法或上传照片、草图，智能体会提出方向、批量生成概念图，把选中的方案变成可下载的三维模型，还能通过对话为角色绑定和制作动画；2026 年 10 月 14 日起向所有 Meshy 用户开放。",
       "idea_en": "Moves asset generation from a single prompt box to a dialogue that plans and iterates, the pattern a researcher could use to author scenario props by talking.",
       "idea_zh": "把资产生成从单个提示框变成能规划、能迭代的对话，研究者也可以用这种方式“说”出情境所需的道具。",
       "method": "An LLM-driven agent that orchestrates Meshy's image generation, image-to-3D, texturing, rigging and animation tools in one chat; Meshy also exposes these tools to outside agents through an MCP server.",
@@ -2490,8 +2490,8 @@
         "perceptual-realism"
       ],
       "kind": "model",
-      "description": "Tripo's character model that generates animation-ready characters with clean quad topology from an image or a prompt; it appeared as a preview on 6 September 2026 and was released officially on 1 October 2026.",
-      "description_zh": "Tripo 的角色模型，可由图像或提示词生成带干净四边形拓扑、可直接做动画的角色；2026 年 9 月 6 日发布预览，10 月 1 日正式上线。",
+      "description": "Tripo's character model that generates animation-ready characters with clean quad topology from an image or a prompt; it appeared as a preview on 6 September 2026 and was released officially on 1 October 2026. Tripo's rebuilt auto-rigging (October 2026) adds hand bones, five engine skeleton presets and 1–10-second text-to-motion clips that can be chained in up to five segments.",
+      "description_zh": "Tripo 的角色模型，可由图像或提示词生成带干净四边形拓扑、可直接做动画的角色；2026 年 9 月 6 日发布预览，10 月 1 日正式上线。2026 年 10 月 Tripo 重做了自动绑定：加入手部骨骼和五种引擎骨骼预设，并可由文字生成 1–10 秒的动作片段，最多串联五段。",
       "idea_en": "Quad topology with sensible edge flow is what lets a generated character deform properly when it moves; P2.0 targets the gap between a statue and an actor.",
       "idea_zh": "布线合理的四边形拓扑，是生成角色在运动时能正确变形的前提；P2.0 针对的正是“雕像”与“演员”之间的差距。",
       "method": "Proprietary; VAST has not published the architecture.",
@@ -3090,10 +3090,10 @@
     },
     {
       "name": "Hyper3D WorldGen",
-      "why": "Deemos scene-level generation of editable 3D worlds with separate objects; belongs to worlds-3d.",
+      "why": "Deemos scene-level generation of editable 3D worlds with separate objects; belongs to worlds-3d. Covered by work deemos--hyper3d-worldgen (2026-10 update).",
       "link": "https://www.youtube.com/watch?v=-rhncMVVtGM",
       "found_via": "deemos",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "Rodin Gen-1.5 (2025-03-11)",
@@ -3153,10 +3153,10 @@
     },
     {
       "name": "Hunyuan3D-WorldClaw (2026-08)",
-      "why": "Agentic 3D open-world generation at scale; belongs to worlds-3d.",
+      "why": "Agentic 3D open-world generation at scale; belongs to worlds-3d. Covered by work tencent-hunyuan--worldclaw (2026-10 update).",
       "link": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
       "found_via": "tencent-hunyuan",
-      "status": "open"
+      "status": "duplicate"
     },
     {
       "name": "Step1X-3D (StepFun, 2025-05)",

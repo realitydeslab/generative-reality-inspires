@@ -1,0 +1,1638 @@
+{
+ "batch": "assets-2026-10",
+ "creators": [
+  {
+   "id": "yi-hua-huang",
+   "name": "Yi-Hua Huang",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, The University of Hong Kong",
+   "based": "Hong Kong, CN",
+   "bio": "Researcher in Xiaojuan Qi's group at the University of Hong Kong and first author of AniGen (SIGGRAPH 2026), developed with VAST.",
+   "why": "AniGen generates a mesh together with its skeleton and skinning, so a generated object can be animated at once.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://yihua7.github.io/website/",
+    "github": "https://github.com/VAST-AI-Research/AniGen"
+   },
+   "role_zh": "香港大学博士研究者",
+   "bio_zh": "香港大学齐晓娟课题组研究者，与 VAST 合作完成的 AniGen（SIGGRAPH 2026）第一作者。",
+   "why_zh": "AniGen 同时生成网格、骨骼和蒙皮权重，生成的物体可以直接拿去做动画。",
+   "based_zh": "中国香港",
+   "connected_to": [
+    "tripo-ai"
+   ],
+   "discovered_via": "tripo-ai"
+  },
+  {
+   "id": "hao-zhang",
+   "name": "Hao Zhang",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, UIUC; research intern at Snap",
+   "based": "Urbana-Champaign, US",
+   "bio": "University of Illinois Urbana-Champaign researcher and first author of RigMo, developed with Snap Research.",
+   "why": "RigMo learns rigs and motion together from raw deforming meshes, without hand-made skeletons.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://haoz19.github.io/"
+   },
+   "role_zh": "伊利诺伊大学厄巴纳-香槟分校博士研究者，Snap 研究实习生",
+   "bio_zh": "伊利诺伊大学厄巴纳-香槟分校研究者，与 Snap Research 合作完成的 RigMo 第一作者。",
+   "why_zh": "RigMo 直接从原始的形变网格序列中同时学习绑定和动作，不需要人工制作的骨骼。",
+   "based_zh": "美国厄巴纳-香槟",
+   "connected_to": [
+    "snap"
+   ],
+   "discovered_via": "snap"
+  },
+  {
+   "id": "amir-mann",
+   "name": "Amir Mann",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, Technion",
+   "based": "Haifa, IL",
+   "bio": "Technion researcher (with Or Litany) and first author of VideoMDM, which trains a 3D motion diffusion model from 2D video poses.",
+   "why": "VideoMDM points to ordinary video, not motion capture, as the data source for motion generators.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://videomdm.github.io/",
+    "github": "https://github.com/Amir-Mann/VideoMDM_release"
+   },
+   "role_zh": "以色列理工学院研究者",
+   "bio_zh": "以色列理工学院研究者（与 Or Litany 合作），VideoMDM 第一作者；该工作用视频中的二维姿态训练三维动作扩散模型。",
+   "why_zh": "VideoMDM 表明，动作生成模型的数据可以来自普通视频，而不一定要靠动作捕捉。",
+   "based_zh": "以色列海法",
+   "connected_to": [
+    "nvidia"
+   ],
+   "discovered_via": "nvidia"
+  },
+  {
+   "id": "chuanrui-zhang",
+   "name": "Chuanrui Zhang",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, Nanyang Technological University; intern at ByteDance Seed",
+   "based": "Singapore, SG",
+   "bio": "First author of SIMART (SIGGRAPH 2026), developed during an internship at ByteDance Seed with Nanyang Technological University.",
+   "why": "SIMART turns a single generated mesh into parts and joints that a physics simulator can use.",
+   "disciplines": [
+    "graphics",
+    "robotics"
+   ],
+   "links": {
+    "site": "https://simart-mllm.github.io/"
+   },
+   "role_zh": "南洋理工大学博士研究者，字节跳动 Seed 实习生",
+   "bio_zh": "SIMART（SIGGRAPH 2026）第一作者，该工作在字节跳动 Seed 实习期间与南洋理工大学合作完成。",
+   "why_zh": "SIMART 能把一个整体生成的网格拆成物理仿真器可用的部件和关节。",
+   "based_zh": "新加坡",
+   "connected_to": [
+    "bytedance-seed"
+   ],
+   "discovered_via": "bytedance-seed"
+  },
+  {
+   "id": "matt-zhou",
+   "name": "Matt Zhou",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, University of Cambridge",
+   "based": "Cambridge, UK",
+   "bio": "First author of Articraft, an agentic system for articulated 3D assets built with Shangzhe Wu's group at Cambridge and Oxford's Visual Geometry Group.",
+   "why": "Articraft has a language model write programs that build articulated objects, which can be loaded into VR and simulators.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://articraft3d.github.io/",
+    "github": "https://github.com/articraftresearch/Articraft"
+   },
+   "role_zh": "剑桥大学研究者",
+   "bio_zh": "Articraft 第一作者；该系统由剑桥大学 Shangzhe Wu 课题组与牛津大学视觉几何组（VGG）合作完成，用智能体生成可活动的三维资产。",
+   "why_zh": "Articraft 让语言模型编写程序来搭建可活动的物体，生成结果可载入 VR 和仿真器。",
+   "based_zh": "英国剑桥",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "uthana",
+   "name": "Uthana",
+   "name_zh": "",
+   "kind": "company",
+   "role": "AI human-motion company",
+   "bio": "Uthana makes text-to-motion, video-to-motion, auto-rigging and retargeting models for game animation and for humanoid-robot training, offered through a web app, an API and plugins for Blender, Maya and Unity AI.",
+   "why": "One of the few companies selling generated body motion as a product with an API.",
+   "disciplines": [
+    "games",
+    "ml"
+   ],
+   "links": {
+    "site": "https://uthana.com/",
+    "youtube": "https://www.youtube.com/@UthanaInc",
+    "x": "https://x.com/Uthana_Inc"
+   },
+   "role_zh": "AI 人体动作公司",
+   "bio_zh": "Uthana 提供文生动作、视频转动作、自动绑定与动作重定向模型，面向游戏动画和人形机器人训练，可通过网页应用、API 以及 Blender、Maya 和 Unity AI 插件使用。",
+   "why_zh": "少数把生成的人体动作做成产品并提供 API 的公司之一。",
+   "connected_to": [
+    "unity"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "math-magic",
+   "name": "Math Magic (Hi3D)",
+   "name_zh": "",
+   "kind": "company",
+   "role": "3D generation company behind Hi3D",
+   "based": "Shenzhen, CN",
+   "bio": "Shenzhen company that develops Hi3D (formerly Hitem3D), an image-to-3D platform aimed at games, design and 3D printing, with model splitting and multi-colour print preparation.",
+   "why": "One of the commercial image-to-3D services compared head to head with Meshy, Rodin and Hunyuan3D in 2026.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://www.hi3d.ai",
+    "youtube": "https://www.youtube.com/@hi3d_official",
+    "x": "https://x.com/Hitem3D"
+   },
+   "role_zh": "Hi3D 背后的三维生成公司",
+   "bio_zh": "深圳公司，开发 Hi3D（原名 Hitem3D）图生三维平台，面向游戏、设计和 3D 打印，提供模型拆分和多色打印准备等功能。",
+   "why_zh": "2026 年与 Meshy、Rodin、混元3D 同台比较的商用图生三维服务之一。",
+   "based_zh": "中国深圳",
+   "connected_to": [],
+   "discovered_via": "meshy"
+  },
+  {
+   "id": "ziang-cao",
+   "name": "Ziang Cao",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, Nanyang Technological University (S-Lab)",
+   "based": "Singapore, SG",
+   "bio": "Researcher in Ziwei Liu's group at NTU and first author of the PhysX line of physical 3D generation work, including PhysX-Anything (CVPR 2026) and PhysX-Omni.",
+   "why": "PhysX-Omni generates objects with scale, material, joints and deformability, the properties a simulator needs.",
+   "disciplines": [
+    "graphics",
+    "robotics"
+   ],
+   "links": {
+    "site": "https://physx-omni.github.io/",
+    "github": "https://github.com/physx-omni/PhysX-Omni"
+   },
+   "role_zh": "南洋理工大学（S-Lab）博士研究者",
+   "bio_zh": "南洋理工大学刘子纬课题组研究者，PhysX 系列物理三维生成工作的第一作者，包括 PhysX-Anything（CVPR 2026）和 PhysX-Omni。",
+   "why_zh": "PhysX-Omni 生成的物体带有尺度、材质、关节和可变形属性，正是仿真器所需要的。",
+   "based_zh": "新加坡",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "linzhan-mou",
+   "name": "Linzhan Mou",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, Princeton University",
+   "based": "Princeton, US",
+   "bio": "Princeton graphics researcher (with Adam Finkelstein and Szymon Rusinkiewicz) and first author of UniMate (SIGGRAPH Asia 2026).",
+   "why": "UniMate generates motion for any rigged skeleton from a prompt, closing the step after auto-rigging.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://linzhanmou.com/unimate/",
+    "github": "https://github.com/Friedrich-M/UniMate"
+   },
+   "role_zh": "普林斯顿大学博士研究者",
+   "bio_zh": "普林斯顿大学图形学研究者（与 Adam Finkelstein、Szymon Rusinkiewicz 合作），UniMate（SIGGRAPH Asia 2026）第一作者。",
+   "why_zh": "UniMate 能根据提示词为任意已绑定的骨骼生成动作，补上了自动绑定之后的那一步。",
+   "based_zh": "美国普林斯顿",
+   "connected_to": [],
+   "discovered_via": "chaoyue-song"
+  },
+  {
+   "id": "weiyu-li",
+   "name": "Weiyu Li",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, HKUST; research intern at Meta AI",
+   "based": "Hong Kong, CN",
+   "bio": "HKUST researcher (with Ping Tan) and first author of MeshFlow (CVPR 2026 Highlight), developed with Meta AI.",
+   "why": "MeshFlow generates artist-style mesh topology in about a second instead of token by token.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://wyysf-98.github.io/",
+    "github": "https://github.com/facebookresearch/meshflow"
+   },
+   "role_zh": "香港科技大学博士研究者，Meta AI 研究实习生",
+   "bio_zh": "香港科技大学研究者（与谭平合作），与 Meta AI 合作完成的 MeshFlow（CVPR 2026 Highlight）第一作者。",
+   "why_zh": "MeshFlow 约一秒即可生成艺术家风格的网格拓扑，而不必逐个 token 解码。",
+   "based_zh": "中国香港",
+   "connected_to": [
+    "meta"
+   ],
+   "discovered_via": "meta"
+  },
+  {
+   "id": "qirui-wu",
+   "name": "Qirui Wu",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, Simon Fraser University; intern at NVIDIA",
+   "based": "Vancouver, CA",
+   "bio": "Simon Fraser University researcher (with Angel X. Chang) and first author of GATOR, developed with NVIDIA's Learning and Perception Research group.",
+   "why": "GATOR turns casual photos of a room into complete, posed object assets that a simulator can use.",
+   "disciplines": [
+    "graphics",
+    "robotics"
+   ],
+   "links": {
+    "site": "https://research.nvidia.com/labs/lpr/gator/"
+   },
+   "role_zh": "西蒙菲莎大学博士研究者，英伟达实习生",
+   "bio_zh": "西蒙菲莎大学研究者（与 Angel X. Chang 合作），与英伟达学习与感知研究组合作完成的 GATOR 第一作者。",
+   "why_zh": "GATOR 能把随手拍的房间照片变成完整、带位姿、可用于仿真的物体资产。",
+   "based_zh": "加拿大温哥华",
+   "connected_to": [
+    "nvidia"
+   ],
+   "discovered_via": "nvidia"
+  }
+ ],
+ "works": [
+  {
+   "id": "tencent-hunyuan--hunyuan3d-buffalo-1",
+   "creator_ids": [
+    "tencent-hunyuan"
+   ],
+   "title": "Hunyuan3D-Buffalo 1.0",
+   "year": 2026,
+   "date": "2026-08-05",
+   "field": "assets",
+   "sub": "objects",
+   "modalities": [
+    "mesh",
+    "dialogue"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "control"
+   ],
+   "kind": "research",
+   "description": "Tencent Hunyuan3D's single model that describes a 3D asset, generates one from text, edits it from a written instruction and pulls out a named part; it was published as a technical report with a project page in August 2026, with code announced but not released as of October 2026.",
+   "description_zh": "腾讯混元3D 的统一模型：能描述一个三维资产、由文字生成资产、按文字指令编辑资产，并按名称提取其中的部件；2026 年 8 月以技术报告和项目主页形式发布，截至 2026 年 10 月代码已预告但尚未公开。",
+   "idea_en": "Puts describe, make, change and take apart into one model, so a prop can be revised by instruction instead of regenerated from scratch.",
+   "idea_zh": "把“描述、生成、修改、拆分”放进同一个模型，道具可以按指令修改，而不必每次从头重新生成。",
+   "method": "Hunyuan3D-VLM provides semantic, structural and spatial conditions to a Hunyuan3D DiT generator, which also receives the source asset for editing and part generation; trained on an 87M-sample 3D corpus whose 12M editing pairs were produced with Nano3D-v2.",
+   "method_zh": "Hunyuan3D-VLM 为 Hunyuan3D DiT 生成器提供语义、结构与空间条件，编辑和部件生成时还把原始资产一并输入；训练语料共 8700 万条三维样本，其中 1200 万条编辑样本由 Nano3D-v2 生成。",
+   "specs": "87M training samples: 25M understanding · 50M text-to-3D · 12M editing",
+   "keywords": [
+    "Hunyuan3D",
+    "unified multimodal model",
+    "3D editing",
+    "part generation",
+    "3D understanding"
+   ],
+   "video": {
+    "url": "https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/intro.mp4"
+   },
+   "images": [
+    "https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/statics/images/Pipeline.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2608.02711",
+    "arxiv": "2608.02711",
+    "venue": "arXiv 2026 (technical report)",
+    "title": "Hunyuan3D-Buffalo 1.0: A Unified Multimodal Model for Scalable 3D Generation, Understanding, and Editing"
+   },
+   "source_url": "https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/",
+   "code_url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-Buffalo1.0",
+   "collections": [
+    "trend-omni"
+   ]
+  },
+  {
+   "id": "roblox--cubepart",
+   "creator_ids": [
+    "roblox"
+   ],
+   "title": "CubePart",
+   "year": 2026,
+   "date": "2026-05-27",
+   "field": "assets",
+   "sub": "objects",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [
+    "text",
+    "spec"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "control",
+    "authoring",
+    "behavioral-plausibility"
+   ],
+   "kind": "model",
+   "description": "Roblox's open part-controllable 3D generator: given a prompt and a list of part names (for example a helicopter's body, rotor and tail), it returns one complete mesh per named part that together form the object, ready to be scripted or animated in a game.",
+   "description_zh": "Roblox 开源的部件可控三维生成模型：给出提示词和一份部件名称列表（例如直升机的机身、旋翼和尾部），它为每个部件生成一个完整网格，组合起来就是整个物体，可直接在游戏里编写脚本或做动画。",
+   "idea_en": "Lets the author decide which parts an object has before it is generated, so a door that must open or a rotor that must spin exists as its own piece.",
+   "idea_zh": "让创作者在生成之前就决定物体由哪些部件组成，需要能开的门、能转的旋翼从一开始就是独立的部件。",
+   "method": "A two-stage generator that first synthesises the global shape and then decodes it into one mesh per element of an open-vocabulary parts schema, trained on a large part-labelled 3D dataset built with a scalable labelling pipeline.",
+   "method_zh": "两阶段生成：先合成整体形状，再按开放词汇的部件清单逐个解码出每个部件的网格；训练数据是用可扩展标注流程构建的大规模部件标注三维数据集。",
+   "keywords": [
+    "part-controllable generation",
+    "open vocabulary",
+    "Roblox Cube",
+    "game assets",
+    "SIGGRAPH 2026"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=Afp_jkabSL0"
+   },
+   "images": [
+    "https://cubepart.github.io/static/images/social-card.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2605.28763",
+    "arxiv": "2605.28763",
+    "venue": "SIGGRAPH 2026",
+    "title": "CubePart: An Open-Vocabulary Part-Controllable 3D Generator"
+   },
+   "source_url": "https://cubepart.github.io/",
+   "code_url": "https://huggingface.co/Roblox/cubepart",
+   "collections": [
+    "siggraph",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "yi-hua-huang--anigen",
+   "creator_ids": [
+    "yi-hua-huang",
+    "tripo-ai"
+   ],
+   "title": "AniGen",
+   "year": 2026,
+   "date": "2026-04-09",
+   "field": "assets",
+   "sub": "characters",
+   "modalities": [
+    "mesh",
+    "motion"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "authoring",
+    "behavioral-plausibility"
+   ],
+   "kind": "research",
+   "description": "Open model from the University of Hong Kong and VAST that turns a single image into a rigged 3D asset, generating the mesh, an articulated skeleton and skinning weights together for animals, humanoids and machines, so it can be driven by existing motion data straight away.",
+   "description_zh": "香港大学与 VAST 的开源模型，可由单张图像生成已绑定的三维资产：网格、关节骨骼和蒙皮权重一起生成，适用于动物、人形和机械，生成后可直接用现成的动作数据驱动。",
+   "idea_en": "Rigging is generated with the shape rather than guessed afterwards, which removes the step where most generated characters fail to move properly.",
+   "idea_zh": "骨骼绑定与形状一起生成，而不是事后再推断，省去了多数生成角色“动不起来”的那一步。",
+   "method": "Shape, skeleton and skin are represented as mutually consistent fields over a shared domain (S³ Fields), with a confidence-decaying skeleton field and a dual skin feature field, generated by a two-stage flow-matching pipeline built on TRELLIS-style structured latents.",
+   "method_zh": "把形状、骨骼和蒙皮表示为同一空间域上相互一致的场（S³ Fields），配合置信度衰减的骨骼场和双重蒙皮特征场，由基于 TRELLIS 式结构化潜空间的两阶段流匹配管线生成。",
+   "keywords": [
+    "animatable 3D",
+    "auto-rigging",
+    "skinning",
+    "image-to-3D",
+    "VAST",
+    "SIGGRAPH 2026"
+   ],
+   "video": {
+    "url": "https://yihua7.github.io/AniGen_web/assets/videos/demo/AniGen_video_h264.mp4"
+   },
+   "images": [
+    "https://yihua7.github.io/AniGen_web/assets/images/teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2604.08746",
+    "arxiv": "2604.08746",
+    "venue": "SIGGRAPH 2026",
+    "title": "AniGen: Unified S³ Fields for Animatable 3D Asset Generation"
+   },
+   "source_url": "https://yihua7.github.io/AniGen_web/",
+   "code_url": "https://github.com/VAST-AI-Research/AniGen",
+   "collections": [
+    "siggraph",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "hao-zhang--rigmo",
+   "creator_ids": [
+    "hao-zhang",
+    "snap"
+   ],
+   "title": "RigMo",
+   "year": 2026,
+   "date": "2026-01-10",
+   "field": "assets",
+   "sub": "characters",
+   "modalities": [
+    "mesh",
+    "motion"
+   ],
+   "inputs": [
+    "spec"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "behavioral-plausibility"
+   ],
+   "kind": "research",
+   "description": "Snap Research model that learns a rig and its motion together from raw deforming mesh sequences, with no skeleton annotations, and turns arbitrary moving meshes into animatable assets with explicit bones, skinning weights and motion; code and data were announced as coming soon.",
+   "description_zh": "Snap Research 的模型，直接从原始的形变网格序列中同时学习绑定和动作，不需要骨骼标注，把任意运动中的网格变成带显式骨骼、蒙皮权重和动作的可动画资产；代码与数据已宣布即将公开。",
+   "idea_en": "Treats rig and motion as one learning problem, a route to animating creatures and objects that have no standard skeleton.",
+   "idea_zh": "把绑定和动作当作同一个学习问题，为没有标准骨骼的生物和物体做动画提供了一条路。",
+   "method": "Per-vertex deformations are encoded into a rig latent that decodes to Gaussian bones and skinning weights and a motion latent that yields time-varying SE(3) transforms; a Motion-DiT then generates motion in this latent space.",
+   "method_zh": "把逐顶点形变编码为两个潜变量：绑定潜变量解码为高斯骨骼和蒙皮权重，动作潜变量输出随时间变化的 SE(3) 变换；再用 Motion-DiT 在该潜空间中生成动作。",
+   "keywords": [
+    "rigging",
+    "motion generation",
+    "Gaussian bones",
+    "Snap Research",
+    "feed-forward"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=0H0lsM3USVM"
+   },
+   "images": [
+    "https://rigmo-page.github.io/pdf2png/teaser/teaser-1.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2601.06378",
+    "arxiv": "2601.06378",
+    "venue": "arXiv 2026",
+    "title": "RigMo: Unifying Rig and Motion Learning for Generative Animation"
+   },
+   "source_url": "https://rigmo-page.github.io/"
+  },
+  {
+   "id": "nvidia--kimodo",
+   "creator_ids": [
+    "nvidia"
+   ],
+   "title": "Kimodo",
+   "year": 2026,
+   "date": "2026-03-16",
+   "field": "assets",
+   "sub": "motion",
+   "modalities": [
+    "motion"
+   ],
+   "inputs": [
+    "text",
+    "spec"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "control",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "NVIDIA's open kinematic motion diffusion model, trained on 700 hours of optical motion capture, that generates 3D human and humanoid-robot motion from text plus constraints such as full-body keyframes, sparse joint targets, 2D waypoints and paths; released with SOMA, SMPL-X and Unitree G1 variants and a public benchmark, and updated to v1.2 in October 2026.",
+   "description_zh": "英伟达开源的运动学动作扩散模型，用 700 小时光学动捕数据训练，可由文字加上全身关键帧、稀疏关节目标、二维路径点和路径等约束生成三维人体及人形机器人动作；发布了 SOMA、SMPL-X 和宇树 G1 版本以及公开基准，并于 2026 年 10 月更新到 v1.2。",
+   "idea_en": "A downloadable, constraint-following motion generator: an author can pin where a character must be and what it must do, and get plausible motion in between.",
+   "idea_zh": "一个可下载、能遵守约束的动作生成模型：作者可以规定角色必须在哪里、做什么，中间的动作由模型合理补全。",
+   "method": "A two-stage transformer denoiser that predicts root trajectory and body pose separately over a purpose-built motion representation, which keeps motion artefacts low while letting constraints be injected flexibly; trained on the Bones Rigplay and BONES-SEED mocap datasets.",
+   "method_zh": "基于专门设计的动作表示，两阶段 Transformer 去噪器分别预测根轨迹和身体姿态，在减少动作瑕疵的同时能灵活注入约束；训练数据为 Bones Rigplay 和 BONES-SEED 动捕数据集。",
+   "specs": "700 h optical mocap · SOMA 77-joint, SMPL-X and Unitree G1 skeletons",
+   "keywords": [
+    "text-to-motion",
+    "motion diffusion",
+    "kinematic constraints",
+    "humanoid robots",
+    "NVIDIA",
+    "open weights"
+   ],
+   "video": {
+    "url": "https://research.nvidia.com/labs/sil/projects/kimodo/assets/videos/teaser.mp4"
+   },
+   "images": [
+    "https://research.nvidia.com/labs/sil/projects/kimodo/assets/soma_fullbody_highlight.png"
+   ],
+   "paper": {
+    "url": "https://research.nvidia.com/labs/sil/projects/kimodo/assets/kimodo_tech_report.pdf",
+    "venue": "NVIDIA technical report 2026",
+    "title": "Kimodo: Scaling Controllable Human Motion Generation"
+   },
+   "source_url": "https://research.nvidia.com/labs/sil/projects/kimodo/",
+   "code_url": "https://github.com/nv-tlabs/kimodo",
+   "collections": [
+    "trend-open-weights",
+    "trend-physical-ai"
+   ]
+  },
+  {
+   "id": "amir-mann--videomdm",
+   "creator_ids": [
+    "amir-mann"
+   ],
+   "title": "VideoMDM",
+   "year": 2026,
+   "date": "2026-06-11",
+   "field": "assets",
+   "sub": "motion",
+   "modalities": [
+    "motion"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "diversity"
+   ],
+   "kind": "research",
+   "description": "Technion and NVIDIA research that trains a 3D human motion diffusion model from 2D poses extracted from ordinary monocular video, with no 3D ground truth; on HumanML3D it nearly matches the fully 3D-supervised MDM, and on Fit3D and NBA footage it learns motions that people preferred.",
+   "description_zh": "以色列理工学院与英伟达的研究：只用从普通单目视频中提取的二维姿态，不用任何三维真值，就训练出三维人体动作扩散模型；在 HumanML3D 上几乎追平全三维监督的 MDM，在 Fit3D 和 NBA 视频上学到的动作更受人类评审偏好。",
+   "idea_en": "If motion generators can learn from video instead of motion capture, the range of behaviours they can produce stops being limited by what was recorded in a mocap studio.",
+   "idea_zh": "如果动作生成模型能从视频而不是动捕中学习，它能生成的行为种类就不再受限于动捕棚里录过什么。",
+   "method": "A pretrained 2D-to-3D lifter gives noisy 3D pose sequences that are diffused and denoised in 3D, then supervised in 2D by reprojecting the prediction against accurate keypoints with a depth-weighted loss, plus 3D regularisers adapted to 2D.",
+   "method_zh": "用预训练的二维到三维提升模型得到带噪声的三维姿态序列，在三维空间中加噪去噪，再把预测重投影到二维、用深度加权损失与准确的关键点比对来监督，并把常用的三维正则项改造到二维设定。",
+   "specs": "HumanML3D FID 0.88 (vs 0.54 for 3D-supervised MDM)",
+   "keywords": [
+    "text-to-motion",
+    "2D supervision",
+    "motion diffusion",
+    "monocular video",
+    "Technion"
+   ],
+   "video": {
+    "url": "https://videomdm.github.io/hero-figure.mp4"
+   },
+   "images": [
+    "https://videomdm.github.io/figures/method.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2606.13364",
+    "arxiv": "2606.13364",
+    "venue": "arXiv 2026",
+    "title": "VideoMDM: Towards 3D Human Motion Generation From 2D Supervision"
+   },
+   "source_url": "https://videomdm.github.io/",
+   "code_url": "https://github.com/Amir-Mann/VideoMDM_release"
+  },
+  {
+   "id": "deemos--hyper3d-agentic-mode",
+   "creator_ids": [
+    "deemos"
+   ],
+   "title": "Hyper3D Agentic Mode",
+   "year": 2026,
+   "date": "2026-10-10",
+   "field": "assets",
+   "sub": "objects",
+   "also": [
+    "agents"
+   ],
+   "modalities": [
+    "mesh",
+    "motion"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "authoring",
+    "co-creation"
+   ],
+   "kind": "product",
+   "description": "An agent mode in Deemos's Hyper3D (Rodin) app that interprets what a person asks for, rewrites the input and chooses how to model it, producing editable n-gon models with adjustable dimensions for CAD, architecture and product design, and adding animation; Deemos calls it 'vibe modeling'.",
+   "description_zh": "Deemos 旗下 Hyper3D（Rodin）应用中的智能体模式：它理解用户的意图、改写输入并决定建模方式，生成可编辑、尺寸可调的 N 边形（n-gon）模型，面向 CAD、建筑和产品设计，也能为模型添加动画；Deemos 称之为“氛围建模”（vibe modeling）。",
+   "idea_en": "Following Meshy's 3D Agent, the main asset vendors now put a planning agent in front of the generator; the person states intent and the agent decides the steps.",
+   "idea_zh": "继 Meshy 3D 智能体之后，主要的三维资产厂商都在生成器前面加了一个负责规划的智能体：人只需说明意图，步骤由智能体决定。",
+   "method": "Proprietary; Deemos describes an agentic layer that optimises the prompt and selects a modelling route over its Rodin generators, but has not published the design.",
+   "method_zh": "专有系统；Deemos 称其为一个智能体层，负责优化提示词并在自家 Rodin 生成器之上选择建模路线，具体设计未公开。",
+   "keywords": [
+    "agentic 3D",
+    "vibe modeling",
+    "Rodin",
+    "Hyper3D",
+    "n-gon",
+    "CAD"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=heJjHOAUWLU"
+   },
+   "images": [
+    "https://storage.deemos.dev/assets/og-banner.png"
+   ],
+   "source_url": "https://hyper3d.ai/"
+  },
+  {
+   "id": "chuanrui-zhang--simart",
+   "creator_ids": [
+    "chuanrui-zhang",
+    "bytedance-seed"
+   ],
+   "title": "SIMART",
+   "year": 2026,
+   "date": "2026-03-24",
+   "field": "assets",
+   "sub": "objects",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [
+    "image",
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "reactivity"
+   ],
+   "kind": "research",
+   "description": "ByteDance Seed and NTU model that takes a monolithic mesh, such as the output of an image-to-3D generator, and splits it into parts with predicted joints, returning a URDF that opens in physics simulators so drawers slide and lids hinge; weights are open under Apache 2.0.",
+   "description_zh": "字节跳动 Seed 与南洋理工大学的模型：输入一个整体网格（例如图生三维模型的输出），把它拆分为部件并预测关节，输出可在物理仿真器中打开的 URDF，让抽屉能拉、盖子能翻；权重以 Apache 2.0 协议开源。",
+   "idea_en": "Turns a generated statue of a cabinet into a cabinet that opens, the step between a prop that is looked at and one that is used.",
+   "idea_zh": "把一个“雕塑般”的生成柜子变成能打开的柜子，这是从“只能看的道具”到“能用的道具”之间的一步。",
+   "method": "A sparse 3D VQ-VAE encodes the mesh into about 70% fewer tokens than dense voxels; a multimodal LLM fuses these with image and text inputs to ground parts and estimate joint parameters, output as URDF metadata plus part segments.",
+   "method_zh": "稀疏三维 VQ-VAE 把网格编码为比稠密体素少约 70% 的 token；多模态大模型将其与图像和文本输入融合，完成部件定位和关节参数估计，输出 URDF 元数据和分割后的部件。",
+   "specs": "~70% fewer 3D tokens than dense voxels",
+   "keywords": [
+    "articulated objects",
+    "URDF",
+    "sim-ready",
+    "multimodal LLM",
+    "ByteDance Seed",
+    "SIGGRAPH 2026"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=Facqav-LthQ"
+   },
+   "images": [
+    "https://simart-mllm.github.io/static/videos/teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2603.23386",
+    "arxiv": "2603.23386",
+    "venue": "SIGGRAPH 2026",
+    "title": "SIMART: Decomposing Monolithic Meshes into Sim-ready Articulated Assets via MLLM"
+   },
+   "source_url": "https://simart-mllm.github.io/",
+   "code_url": "https://github.com/ByteDance-Seed/SimArt",
+   "collections": [
+    "siggraph",
+    "trend-physical-ai",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "matt-zhou--articraft",
+   "creator_ids": [
+    "matt-zhou"
+   ],
+   "title": "Articraft",
+   "year": 2026,
+   "date": "2026-05-14",
+   "field": "assets",
+   "sub": "objects",
+   "also": [
+    "agents"
+   ],
+   "modalities": [
+    "mesh",
+    "scene-3d"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "reactivity",
+    "diversity",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Cambridge and Oxford system in which a language model writes the program that builds an articulated object from a description and optional reference image, producing assets with parts and joints that the authors load into VR for hands-on interaction and into simulators for robot manipulation.",
+   "description_zh": "剑桥大学与牛津大学的系统：由语言模型根据文字描述（可附参考图）编写搭建程序，生成带部件和关节的可活动物体；作者把这些资产载入 VR 供人亲手操作，也载入仿真器用于机器人操作。",
+   "idea_en": "Generating an object as code makes every hinge and drawer explicit and testable, so a generated room can be touched in a headset, not only looked at.",
+   "idea_zh": "把物体生成为代码，每个铰链和抽屉都显式可测，于是生成的房间可以在头显里伸手去碰，而不只是看。",
+   "method": "An LLM agent writes code against a domain-specific SDK for parts, geometry, joints and tests inside a restricted harness that validates each asset and returns structured feedback, so the model never edits URDF directly.",
+   "method_zh": "大模型智能体在受限的运行框架中，调用一个专用 SDK 编写代码来定义部件、组合几何、设定关节并编写测试；框架验证每个资产并返回结构化反馈，模型无需直接编写 URDF。",
+   "keywords": [
+    "articulated assets",
+    "LLM agent",
+    "program synthesis",
+    "URDF",
+    "VR interaction",
+    "robotics"
+   ],
+   "video": {
+    "url": "https://articraft3d.github.io/webpage/vr/vr_demo.mp4"
+   },
+   "images": [
+    "https://articraft3d.github.io/webpage/teaser.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2605.15187",
+    "arxiv": "2605.15187",
+    "venue": "arXiv 2026",
+    "title": "Articraft: An Agentic System for Scalable Articulated 3D Asset Generation"
+   },
+   "source_url": "https://articraft3d.github.io/",
+   "code_url": "https://github.com/articraftresearch/Articraft",
+   "collections": [
+    "trend-physical-ai"
+   ]
+  },
+  {
+   "id": "stability-ai--spar3d",
+   "creator_ids": [
+    "stability-ai"
+   ],
+   "title": "SPAR3D (Stable Point Aware 3D)",
+   "year": 2025,
+   "date": "2025-01-08",
+   "field": "assets",
+   "sub": "objects",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open",
+    "api"
+   ],
+   "lenses": [
+    "control",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "Stability AI's open single-image-to-mesh model that first samples a point cloud of the object, which a person can edit, and then builds the textured mesh from it in under a second, including the unseen back of the object.",
+   "description_zh": "Stability AI 的开源单图生成网格模型：先采样物体的点云（用户可以编辑），再在一秒内由点云生成带纹理的网格，包括图像中看不到的背面。",
+   "idea_en": "Inserts an editable intermediate between photo and mesh, so a person can fix the hidden side of an object instead of accepting the model's guess.",
+   "idea_zh": "在照片和网格之间加入一个可编辑的中间结果，人可以修正物体被遮住的那一面，而不必全盘接受模型的猜测。",
+   "method": "A point diffusion model samples a sparse point cloud from the image, and a feed-forward meshing stage conditioned on the image and points predicts geometry, texture and materials; released under the Stability AI Community License.",
+   "method_zh": "点扩散模型先由图像采样稀疏点云，再由以图像和点云为条件的前馈网格化阶段预测几何、纹理与材质；以 Stability AI 社区许可证发布。",
+   "specs": "<1 s per mesh (developer claim)",
+   "keywords": [
+    "image-to-3D",
+    "point cloud",
+    "editable",
+    "Stability AI",
+    "open weights"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=mlO3Nc3Nsng"
+   },
+   "images": [
+    "https://static1.squarespace.com/static/6213c340453c3f502425776e/62f2452bc121595f4d87c713/677c55948f46f6565bb34016/1736395384697/SPAR3D_Hero+Thumbnail_Blog+1_1.png?format=1500w"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2501.04689",
+    "arxiv": "2501.04689",
+    "venue": "CVPR 2025",
+    "title": "SPAR3D: Stable Point-Aware Reconstruction of 3D Objects from Single Images"
+   },
+   "source_url": "https://stability.ai/news/stable-point-aware-3d",
+   "code_url": "https://github.com/Stability-AI/stable-point-aware-3d",
+   "collections": [
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "uthana--uthana",
+   "creator_ids": [
+    "uthana"
+   ],
+   "title": "Uthana",
+   "year": 2025,
+   "field": "assets",
+   "sub": "motion",
+   "modalities": [
+    "motion"
+   ],
+   "inputs": [
+    "text",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "product",
+    "api"
+   ],
+   "lenses": [
+    "authoring",
+    "perceptual-realism"
+   ],
+   "kind": "product",
+   "description": "Web app and API that generate editable skeletal animation from a text prompt or a video and retarget it to a person's own character or to humanoid robots; Text-to-Motion 3.0 (14 July 2026) follows longer prompts about pacing, posture and style, and Uthana runs inside Unity AI since May 2026.",
+   "description_zh": "可由文字提示或视频生成可编辑骨骼动画的网页应用与 API，并能把动作重定向到用户自己的角色或人形机器人上；Text-to-Motion 3.0（2026 年 7 月 14 日）能理解关于节奏、姿态和风格的长提示，2026 年 5 月起已接入 Unity AI。",
+   "idea_en": "Generated motion delivered the way animators already work (on their own character's rig, inside Unity, Blender or Maya), which is what makes it usable for authoring the characters of a situation.",
+   "idea_zh": "生成的动作以动画师现有的工作方式交付（直接用在自己角色的骨骼上，可在 Unity、Blender 或 Maya 中使用），这才让它能真正用来为情境中的角色编排动作。",
+   "method": "Proprietary motion models, with separate text-to-motion, video-to-motion, locomotion and retargeting models; Uthana also sells studio-captured motion data, likely its training source, and has not published the architecture.",
+   "method_zh": "专有动作模型，文生动作、视频转动作、行走运动和重定向分别由不同模型完成；Uthana 同时出售棚内动捕数据，这很可能就是其训练数据来源，架构未公开。",
+   "keywords": [
+    "text-to-motion",
+    "video-to-motion",
+    "retargeting",
+    "game animation",
+    "Unity AI",
+    "API"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=WHmV8kD-_xo"
+   },
+   "source_url": "https://uthana.com/blog/text-to-motion-30-sets-a-new-bar-for-ai-animation",
+   "api_url": "https://uthana.com/"
+  },
+  {
+   "id": "math-magic--hi3d-3",
+   "creator_ids": [
+    "math-magic"
+   ],
+   "title": "Hi3D 3.0 (Twinkle3D)",
+   "year": 2026,
+   "date": "2026-08-18",
+   "field": "assets",
+   "sub": "objects",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [
+    "image",
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "Third-generation Hi3D image-to-3D model, built on a geometry model called Twinkle3D, that Math Magic says reconstructs geometry at 2048³ voxel resolution with textures up to 8K, aimed at small identity details such as engravings, holes and seams; announced on 23 July and live from 18 August 2026.",
+   "description_zh": "第三代 Hi3D 图生三维模型，基于名为 Twinkle3D 的几何模型；Math Magic 称其几何重建分辨率达 2048³ 体素、纹理最高 8K，重点还原刻字、孔洞、接缝等体现物体特征的细节；2026 年 7 月 23 日发布预告，8 月 18 日上线。",
+   "idea_en": "Shows the commercial image-to-3D race moving to geometric fidelity (whether the copy has the same holes and engravings), measured with published side-by-side comparisons rather than a score.",
+   "idea_zh": "表明商用图生三维的竞争转向几何保真度（复制出来的物体是否有同样的孔洞和刻字），并用公开的并排对比而不是单一分数来展示。",
+   "method": "Proprietary; Math Magic describes a new high-precision 3D representation at 2048³ voxels and an upgraded UV-completion algorithm, without a published paper.",
+   "method_zh": "专有模型；Math Magic 称其采用了新的 2048³ 体素高精度三维表示和升级的 UV 补全算法，未发表论文。",
+   "specs": "2048³ voxel geometry · up to 8K PBR textures (developer claims)",
+   "keywords": [
+    "image-to-3D",
+    "Hi3D",
+    "Hitem3D",
+    "Twinkle3D",
+    "3D printing",
+    "geometric fidelity"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=1_aWAwd3NEk"
+   },
+   "source_url": "https://www.prnewswire.com/news-releases/hi3d-announces-v3-0-for-august-launch-publishes-side-by-side-comparison-of-leading-ai-3d-tools-302838563.html"
+  },
+  {
+   "id": "ziang-cao--physx-omni",
+   "creator_ids": [
+    "ziang-cao"
+   ],
+   "title": "PhysX-Omni",
+   "year": 2026,
+   "date": "2026-05-20",
+   "field": "assets",
+   "sub": "objects",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "reactivity"
+   ],
+   "kind": "research",
+   "description": "Open model from NTU that generates simulation-ready objects from a single image across rigid, deformable and articulated types, predicting geometry together with absolute scale, material, affordance, joints and a function description; released with the PhysXVerse dataset and the PhysX-Bench benchmark.",
+   "description_zh": "南洋理工大学的开源模型，可由单张图像生成可直接仿真的物体，覆盖刚体、可变形体和铰接体三类，同时预测几何、绝对尺度、材质、可供性、关节和功能描述；一并发布了 PhysXVerse 数据集和 PhysX-Bench 基准。",
+   "idea_en": "A generated object that knows how big and how heavy it is and how it bends or opens can behave plausibly when a person or robot touches it.",
+   "idea_zh": "一个知道自己多大、多重、怎样弯曲或打开的生成物体，在人或机器人触碰它时才能表现得合理。",
+   "method": "A fine-tuned Qwen2.5-VL vision-language model reasons coarse to fine over global physical properties and part-level geometry, using a geometry representation designed for VLMs that encodes high-resolution 3D structure without compression.",
+   "method_zh": "经微调的 Qwen2.5-VL 视觉语言模型由粗到细地推理整体物理属性和部件级几何，并采用专为视觉语言模型设计、无需压缩即可编码高分辨率三维结构的几何表示。",
+   "keywords": [
+    "sim-ready",
+    "physical 3D",
+    "articulated",
+    "deformable",
+    "vision-language model",
+    "benchmark"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=ZCgj4ffz4yk"
+   },
+   "images": [
+    "https://physx-omni.github.io/static/videos/teaser2.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2605.21572",
+    "arxiv": "2605.21572",
+    "venue": "arXiv 2026",
+    "title": "PhysX-Omni: Unified Simulation-Ready Physical 3D Generation for Rigid, Deformable, and Articulated Objects"
+   },
+   "source_url": "https://physx-omni.github.io/",
+   "code_url": "https://github.com/physx-omni/PhysX-Omni",
+   "collections": [
+    "trend-physical-ai",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "jia-peng-zhang--skintokens",
+   "creator_ids": [
+    "jia-peng-zhang",
+    "tripo-ai"
+   ],
+   "title": "SkinTokens (TokenRig)",
+   "year": 2026,
+   "date": "2026-02-04",
+   "field": "assets",
+   "sub": "characters",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Successor to UniRig from Tsinghua University and VAST: given any 3D mesh, from anime characters to quadrupeds, it generates the skeleton and the per-vertex skinning weights as one token sequence, ready to import into standard animation tools; weights and a demo are on Hugging Face.",
+   "description_zh": "清华大学与 VAST 推出的 UniRig 后继工作：输入任意三维网格（从动漫角色到四足动物），把骨骼和逐顶点蒙皮权重作为同一个 token 序列一次生成，可直接导入常用动画工具；权重和演示已发布在 Hugging Face。",
+   "idea_en": "Rigging, the step that decides whether a generated character can move at all, becomes a single generation pass that can be improved with reinforcement learning.",
+   "idea_zh": "骨骼绑定决定了生成角色能不能动起来；现在它变成一次生成就能完成的步骤，还可以用强化学习继续改进。",
+   "method": "An FSQ-CVAE compresses sparse skinning weights into discrete SkinTokens; TokenRig predicts skeleton parameters and SkinTokens autoregressively in one sequence, then a reinforcement-learning stage with geometric and semantic rewards refines the rigs.",
+   "method_zh": "用 FSQ-CVAE 把稀疏的蒙皮权重压缩为离散的 SkinTokens；TokenRig 在同一序列中自回归预测骨骼参数和 SkinTokens，再通过带几何与语义奖励的强化学习阶段改进绑定结果。",
+   "specs": "98–133% better skinning accuracy, 17–22% better bone prediction than baselines (author claims)",
+   "keywords": [
+    "auto-rigging",
+    "skinning",
+    "UniRig",
+    "autoregressive",
+    "VAST",
+    "Tsinghua"
+   ],
+   "video": {
+    "url": "https://zjp-shadow.github.io/works/SkinTokens/static/videos/show.mp4"
+   },
+   "images": [
+    "https://zjp-shadow.github.io/works/SkinTokens/static/images/wild.webp"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2602.04805",
+    "arxiv": "2602.04805",
+    "venue": "ACM TOG 2026",
+    "title": "Skin Tokens: A Learned Compact Representation for Unified Autoregressive Rigging"
+   },
+   "source_url": "https://zjp-shadow.github.io/works/SkinTokens/",
+   "code_url": "https://github.com/VAST-AI-Research/SkinTokens",
+   "collections": [
+    "siggraph",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "linzhan-mou--unimate",
+   "creator_ids": [
+    "linzhan-mou"
+   ],
+   "title": "UniMate",
+   "year": 2026,
+   "date": "2026-09-04",
+   "field": "assets",
+   "sub": "characters",
+   "modalities": [
+    "motion"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "authoring",
+    "diversity"
+   ],
+   "kind": "research",
+   "description": "Princeton model that animates any rigged 3D asset from a text prompt, whether a human, a cat, a snake or an eagle, without per-skeleton training or reference motion; it also supports motion editing and in-betweening, with code, models and a dataset released.",
+   "description_zh": "普林斯顿大学的模型：输入任意已绑定骨骼的三维资产和一段文字提示，就能为其生成动画，无论是人、猫、蛇还是鹰，无需针对每种骨骼单独训练或提供参考动作；还支持动作编辑和中间帧补全，代码、模型和数据集均已公开。",
+   "idea_en": "Text-to-motion stops being human-only: any creature or object an author rigs can be told what to do.",
+   "idea_zh": "文生动作不再只适用于人：创作者绑定好的任何生物或物体，都可以用文字告诉它做什么。",
+   "method": "A topology-aware diffusion transformer that builds the skeleton graph into attention through a graph-aware bias from pairwise joint relations and related mechanisms, trained on a multi-skeleton motion dataset.",
+   "method_zh": "拓扑感知的扩散 Transformer，通过基于关节两两关系的图感知注意力偏置等机制把骨骼图结构融入注意力，在多骨骼动作数据集上训练。",
+   "keywords": [
+    "text-to-motion",
+    "arbitrary skeletons",
+    "character animation",
+    "diffusion transformer",
+    "SIGGRAPH Asia 2026"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=xbndC-dEuVw"
+   },
+   "images": [
+    "https://linzhanmou.com/unimate/assets/images/og-teaser.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2609.05415",
+    "arxiv": "2609.05415",
+    "venue": "SIGGRAPH Asia 2026",
+    "title": "UniMate: One Unified Model to Animate Diverse Skeletons"
+   },
+   "source_url": "https://linzhanmou.com/unimate/",
+   "code_url": "https://github.com/Friedrich-M/UniMate",
+   "collections": [
+    "siggraph"
+   ]
+  },
+  {
+   "id": "weiyu-li--meshflow",
+   "creator_ids": [
+    "weiyu-li",
+    "meta"
+   ],
+   "title": "MeshFlow",
+   "year": 2026,
+   "date": "2026-06-03",
+   "field": "assets",
+   "sub": "objects",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "authoring",
+    "perceptual-realism"
+   ],
+   "kind": "research",
+   "description": "Meta AI and HKUST model that generates artist-style meshes, with clean polygon layouts rather than dense scanned-looking triangles, in about one second, conditioned on input geometry and an optional reference image; weights are released under Meta's non-commercial research licence.",
+   "description_zh": "Meta AI 与香港科技大学的模型，约一秒即可生成艺术家风格的网格（布线干净，而不是扫描式的密集三角面），以输入几何为条件，并可附参考图像；权重以 Meta 非商用研究许可发布。",
+   "idea_en": "Artist topology used to require slow token-by-token generation; generating it in parallel makes clean, game-ready meshes cheap enough to produce on demand.",
+   "idea_zh": "艺术家风格的拓扑过去只能缓慢地逐 token 生成；并行生成让干净、可直接用于游戏的网格便宜到可以按需生产。",
+   "method": "A MeshVAE trained with a contrastive loss maps continuous vertex positions and discrete connectivity into a compact continuous latent, which a flow-matching diffusion transformer denoises in parallel, avoiding coordinate quantization and scaling linearly with mesh size.",
+   "method_zh": "用对比损失训练的 MeshVAE 把连续的顶点位置和离散的连接关系映射到紧凑的连续潜空间，再由流匹配扩散 Transformer 并行去噪；无需坐标量化，计算量随网格规模线性增长。",
+   "specs": "~1 s per mesh · ~18× faster than autoregressive mesh generation (author claims)",
+   "keywords": [
+    "artist mesh",
+    "topology",
+    "flow matching",
+    "MeshVAE",
+    "Meta",
+    "CVPR 2026 Highlight"
+   ],
+   "video": {
+    "url": "https://mesh-flow.github.io/assets/media/denoise_teaser.mp4"
+   },
+   "images": [
+    "https://raw.githubusercontent.com/facebookresearch/meshflow/main/assets/teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2606.04621",
+    "arxiv": "2606.04621",
+    "venue": "CVPR 2026 (Highlight)",
+    "title": "MeshFlow: Efficient Artistic Mesh Generation via MeshVAE and Flow-based Diffusion Transformer"
+   },
+   "source_url": "https://mesh-flow.github.io/",
+   "code_url": "https://github.com/facebookresearch/meshflow",
+   "collections": [
+    "cvpr"
+   ],
+   "exhibited": [
+    "CVPR 2026 Highlight"
+   ]
+  },
+  {
+   "id": "tripo-ai--triposg",
+   "creator_ids": [
+    "tripo-ai"
+   ],
+   "title": "TripoSG",
+   "year": 2025,
+   "date": "2025-02-10",
+   "field": "assets",
+   "sub": "objects",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "VAST's open 1.5-billion-parameter image-to-shape model, released under the MIT licence with a scribble-conditioned variant, that generates detailed watertight geometry from a single image and became a common open baseline for 3D shape generation in 2025.",
+   "description_zh": "VAST 开源的 15 亿参数图生形状模型，以 MIT 协议发布，另有草图条件版本；可由单张图像生成细节丰富的封闭几何，成为 2025 年三维形状生成常用的开源基线之一。",
+   "idea_en": "An open, permissively licensed shape generator close to commercial quality, which lets a lab pin and inspect the model that makes its props.",
+   "idea_zh": "一个接近商用水准、许可宽松的开源形状生成模型，让实验室可以固定版本并检查生成道具所用的模型。",
+   "method": "A rectified-flow transformer over the latent space of a 3D VAE trained with SDF, normal and eikonal losses, plus a data pipeline that curates about 2M high-quality 3D samples.",
+   "method_zh": "在三维 VAE 潜空间上训练的整流流 Transformer，VAE 采用 SDF、法线和 eikonal 损失训练，并配有一条筛选约 200 万个高质量三维样本的数据管线。",
+   "specs": "1.5B parameters",
+   "keywords": [
+    "image-to-3D",
+    "rectified flow",
+    "open weights",
+    "MIT licence",
+    "VAST"
+   ],
+   "images": [
+    "https://raw.githubusercontent.com/VAST-AI-Research/TripoSG/main/assets/doc/triposg_teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2502.06608",
+    "arxiv": "2502.06608",
+    "venue": "arXiv 2025",
+    "title": "TripoSG: High-Fidelity 3D Shape Synthesis using Large-Scale Rectified Flow Models"
+   },
+   "source_url": "https://github.com/VAST-AI-Research/TripoSG",
+   "code_url": "https://huggingface.co/VAST-AI/TripoSG",
+   "collections": [
+    "trend-open-weights",
+    "trend-china-open"
+   ]
+  },
+  {
+   "id": "openai--shap-e",
+   "creator_ids": [
+    "openai"
+   ],
+   "title": "Shap-E (and Point-E)",
+   "year": 2023,
+   "date": "2023-05-03",
+   "field": "assets",
+   "sub": "objects",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "authoring",
+    "diversity"
+   ],
+   "kind": "research",
+   "description": "OpenAI's open text- and image-to-3D models: Point-E (December 2022) generated coloured point clouds in one to two minutes on a single GPU, and Shap-E (May 2023) generated implicit functions that render as textured meshes or neural radiance fields in seconds.",
+   "description_zh": "OpenAI 开源的文生 / 图生三维模型：Point-E（2022 年 12 月）可在单张 GPU 上用一到两分钟生成彩色点云，Shap-E（2023 年 5 月）生成隐式函数，几秒内即可渲染为带纹理的网格或神经辐射场。",
+   "idea_en": "The first widely used feed-forward text-to-3D models: fast and open but rough, the baseline that later native 3D generators were measured against.",
+   "idea_zh": "最早被广泛使用的前馈式文生三维模型：快速、开源但粗糙，是后来原生三维生成模型的比较基线。",
+   "method": "Shap-E trains an encoder that maps 3D assets to the parameters of an implicit function (usable as a mesh or NeRF), then a conditional diffusion model over those parameters; Point-E chains a text-to-image model with an image-to-point-cloud diffusion model.",
+   "method_zh": "Shap-E 先训练一个编码器，把三维资产映射为隐式函数的参数（可作为网格或 NeRF 渲染），再在这些参数上训练条件扩散模型；Point-E 则把文生图模型与图像到点云的扩散模型串联起来。",
+   "keywords": [
+    "text-to-3D",
+    "implicit function",
+    "point cloud",
+    "OpenAI",
+    "precursor"
+   ],
+   "images": [
+    "https://raw.githubusercontent.com/openai/shap-e/main/samples/a_chair_that_looks_like_an_avocado/2.gif",
+    "https://raw.githubusercontent.com/openai/shap-e/main/samples/a_penguin/1.gif"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2305.02463",
+    "arxiv": "2305.02463",
+    "venue": "arXiv 2023",
+    "title": "Shap-E: Generating Conditional 3D Implicit Functions"
+   },
+   "source_url": "https://github.com/openai/shap-e",
+   "code_url": "https://github.com/openai/shap-e"
+  },
+  {
+   "id": "qirui-wu--gator",
+   "creator_ids": [
+    "qirui-wu",
+    "nvidia"
+   ],
+   "title": "GATOR",
+   "year": 2026,
+   "date": "2026-10-08",
+   "field": "assets",
+   "sub": "objects",
+   "also": [
+    "spatial-4d",
+    "agents"
+   ],
+   "modalities": [
+    "mesh",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "persistence",
+    "behavioral-plausibility"
+   ],
+   "kind": "research",
+   "description": "NVIDIA and Simon Fraser University system that recovers complete textured object assets, with their pose in the room, from one or a few casual photos, then lets an agent repair each mesh in Blender by comparing renders with the photos; the composed rooms are shown running in physics simulation with humanoid robots.",
+   "description_zh": "英伟达与西蒙菲莎大学的系统：由一张或几张随手拍的照片恢复完整、带纹理的物体资产及其在房间中的位姿，再由智能体在 Blender 中对照照片与渲染结果修补每个网格；组合出的房间被放进物理仿真，与人形机器人一起演示。",
+   "idea_en": "Generation fills in what the camera did not see, and an agent checks the result against what it did see, a route from a quick capture of a real room to an interactive copy of it.",
+   "idea_zh": "生成负责补全相机没拍到的部分，智能体再拿拍到的部分来核对结果，这是从一次快速拍摄到真实房间的可交互副本的一条路径。",
+   "method": "A local modality mixer couples patch-aligned RGB, target-mask and pointmap features with text-guided adapters for structure, geometry and appearance; an image-grounded edit-render-review agent then refines each asset within a ten-minute budget, keeping edits only when renders match the evidence.",
+   "method_zh": "局部模态混合模块把逐块对齐的 RGB、目标掩码和点图特征结合起来，并通过文本引导的适配器分别控制结构、几何与外观；之后由“编辑—渲染—复查”的图像驱动智能体在每个物体十分钟的预算内进行修补，只有渲染结果与观测相符时才保留修改。",
+   "specs": "10-minute agentic refinement budget per object",
+   "keywords": [
+    "object reconstruction",
+    "agentic refinement",
+    "sim-ready",
+    "Blender agent",
+    "NVIDIA",
+    "real-to-sim"
+   ],
+   "video": {
+    "url": "https://research.nvidia.com/labs/lpr/gator/assets/video/gator-overview.mp4"
+   },
+   "images": [
+    "https://research.nvidia.com/labs/lpr/gator/assets/social-card.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2610.11215",
+    "arxiv": "2610.11215",
+    "venue": "arXiv 2026",
+    "title": "GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images"
+   },
+   "source_url": "https://research.nvidia.com/labs/lpr/gator/",
+   "collections": [
+    "trend-grounded",
+    "trend-physical-ai"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "Meshy-5 (2025-03-27 preview)",
+   "why": "Intermediate Meshy version; the gallery keeps Meshy 4 (meshy--meshy-4) and Meshy 7 (meshy--meshy-7) as the lineage's milestones.",
+   "link": "https://www.youtube.com/watch?v=di8A-S2VYP0",
+   "found_via": "meshy",
+   "status": "duplicate"
+  },
+  {
+   "name": "Hyper3D Agentic Mode (2026-10-10)",
+   "why": "Added in assets-2026-10 as deemos--hyper3d-agentic-mode.",
+   "link": "https://www.youtube.com/watch?v=heJjHOAUWLU",
+   "found_via": "deemos",
+   "status": "duplicate"
+  },
+  {
+   "name": "Rodin Gen-1.5 (2025-03-11)",
+   "why": "Intermediate Rodin release; covered as the baseline named in deemos--rodin-gen-2.",
+   "link": "https://www.youtube.com/watch?v=Wzq22lHmCAc",
+   "found_via": "deemos",
+   "status": "duplicate"
+  },
+  {
+   "name": "TripoSG",
+   "why": "Added in assets-2026-10 as tripo-ai--triposg (image + paper; no official video found).",
+   "link": "https://github.com/VAST-AI-Research/TripoSG",
+   "found_via": "tripo-ai",
+   "status": "duplicate"
+  },
+  {
+   "name": "Tripo H3.1 HD model (2026-05-17)",
+   "why": "Point release folded into tripo-ai--tripo-3, whose description names H3.1.",
+   "link": "https://www.youtube.com/watch?v=iwplx75jVes",
+   "found_via": "tripo-ai",
+   "status": "duplicate"
+  },
+  {
+   "name": "AniGen (arXiv 2604.08746)",
+   "why": "Added in assets-2026-10 as yi-hua-huang--anigen.",
+   "link": "https://arxiv.org/abs/2604.08746",
+   "found_via": "tripo-ai",
+   "status": "duplicate"
+  },
+  {
+   "name": "Hunyuan3D 2.1 / 2.5 / Part / Omni",
+   "why": "Point releases folded into tencent-hunyuan--hunyuan3d-2 (2.1 open PBR) and tencent-hunyuan--hunyuan3d-3; the 2026 unified model is added as tencent-hunyuan--hunyuan3d-buffalo-1.",
+   "link": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1",
+   "found_via": "tencent-hunyuan",
+   "status": "duplicate"
+  },
+  {
+   "name": "Hunyuan3D-Buffalo 1.0 (2026-08)",
+   "why": "Added in assets-2026-10 as tencent-hunyuan--hunyuan3d-buffalo-1.",
+   "link": "https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/",
+   "found_via": "tencent-hunyuan",
+   "status": "duplicate"
+  },
+  {
+   "name": "CubePart (Roblox, 2026-05)",
+   "why": "Added in assets-2026-10 as roblox--cubepart.",
+   "link": "https://cubepart.github.io/",
+   "found_via": "roblox",
+   "status": "duplicate"
+  },
+  {
+   "name": "InstantMesh (Tencent ARC, 2024)",
+   "why": "No playable official video: the README demo is a GitHub asset link the gallery cannot embed, and there is no project page; historical open baseline, not added.",
+   "link": "https://github.com/TencentARC/InstantMesh",
+   "found_via": "tencent-arc",
+   "status": "no_media"
+  },
+  {
+   "name": "SPAR3D (Stability AI, 2025-01)",
+   "why": "Added in assets-2026-10 as stability-ai--spar3d.",
+   "link": "https://spar3d.github.io/",
+   "found_via": "stability-ai",
+   "status": "duplicate"
+  },
+  {
+   "name": "Shap-E / Point-E (OpenAI)",
+   "why": "Added in assets-2026-10 as openai--shap-e (both models in one work; images + paper).",
+   "link": "https://github.com/openai/shap-e",
+   "found_via": "openai",
+   "status": "duplicate"
+  },
+  {
+   "name": "CSM (Common Sense Machines)",
+   "why": "No current official source: csm.ai no longer resolves (checked 2026-10-17) and the newest official YouTube upload is about a year old; status unverifiable, not added.",
+   "link": "https://www.youtube.com/watch?v=nuFssZJJ_NA",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Kimodo (NVIDIA)",
+   "why": "Added in assets-2026-10 as nvidia--kimodo.",
+   "link": "https://research.nvidia.com/labs/sil/projects/kimodo/",
+   "found_via": "nvidia",
+   "status": "duplicate"
+  },
+  {
+   "name": "VideoMDM (2026-06)",
+   "why": "Added in assets-2026-10 as amir-mann--videomdm.",
+   "link": "https://videomdm.github.io/",
+   "found_via": "nvidia",
+   "status": "duplicate"
+  },
+  {
+   "name": "RigMo (Snap Research, 2026-01)",
+   "why": "Added in assets-2026-10 as hao-zhang--rigmo.",
+   "link": "https://rigmo-page.github.io/",
+   "found_via": "snap",
+   "status": "duplicate"
+  },
+  {
+   "name": "Uthana",
+   "why": "Added in assets-2026-10 as uthana--uthana.",
+   "link": "https://uthana.com/",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Hi3D 3.0",
+   "why": "Added in assets-2026-10 as math-magic--hi3d-3 (Hi3D by Math Magic, Shenzhen).",
+   "link": "https://www.hi3d.ai",
+   "found_via": "meshy",
+   "status": "duplicate"
+  },
+  {
+   "name": "Roblox Cube 4D generation",
+   "why": "Already in the data as roblox--cube-4d.",
+   "link": "https://corp.roblox.com/engineering/cube",
+   "found_via": "roblox",
+   "status": "duplicate"
+  },
+  {
+   "name": "TripoSplat (VAST, 2026-06)",
+   "why": "Already in the data as tripo-ai--triposplat.",
+   "link": "https://github.com/VAST-AI-Research/TripoSplat",
+   "found_via": "tripo-ai",
+   "status": "duplicate"
+  },
+  {
+   "name": "R-DMesh (SIGGRAPH 2026)",
+   "why": "Added by the gen4d batch as zijie-wu--r-dmesh (spatial-4d/generative-4d-objects).",
+   "link": "https://r-dmesh.github.io/",
+   "found_via": "tencent-hunyuan",
+   "status": "duplicate"
+  },
+  {
+   "name": "ActionMesh (Meta, 2026-01)",
+   "why": "Added by the gen4d batch as remy-sabathier--actionmesh (spatial-4d/generative-4d-objects).",
+   "link": "https://remysabathier.github.io/actionmesh/",
+   "found_via": "meta",
+   "status": "duplicate"
+  },
+  {
+   "name": "Meshy T2: Fast Native Mesh Generation with Flow Matching (2026-07-28)",
+   "why": "assets/objects: Meshy's research paper on artist-topology meshes via flow matching (arXiv 2607.28675); code 'preparing', no video found.",
+   "link": "https://arxiv.org/abs/2607.28675",
+   "found_via": "meshy",
+   "status": "open"
+  },
+  {
+   "name": "AutoPartGen (Meta; weights 2026-06-09)",
+   "why": "assets/objects: autoregressive part-by-part 3D generation (arXiv 2507.13346); gated non-commercial weights on Hugging Face.",
+   "link": "https://huggingface.co/facebook/autopartgen",
+   "found_via": "meta",
+   "status": "open"
+  },
+  {
+   "name": "Pixal3D (Tencent ARC, SIGGRAPH 2026)",
+   "why": "assets/objects: pixel-aligned image-to-3D generation, open MIT weights (arXiv 2605.10922); project-page video.",
+   "link": "https://ldyang694.github.io/projects/pixal3d/",
+   "found_via": "tencent-arc",
+   "status": "open"
+  },
+  {
+   "name": "FrankenMotion (CVPR 2026)",
+   "why": "assets/motion: part-level text-to-motion with an LLM-annotated dataset (arXiv 2601.10909).",
+   "link": "https://coral79.github.io/frankenmotion/",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "MegaParts (Shanghai AI Lab, 2026-08)",
+   "why": "assets/objects: part-aware generation scaled to 300 parts (arXiv 2608.14783).",
+   "link": "https://expmaster.github.io/megaparts_webpage/",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Kaininja (Alaya Lab, 2026-09)",
+   "why": "assets/objects: extends TRELLIS.2-style native 3D generators to part-level output (arXiv 2609.15659).",
+   "link": "https://alaya-lab.github.io/KaiNinja/",
+   "found_via": "microsoft",
+   "status": "open"
+  },
+  {
+   "name": "Procedura (2026-08)",
+   "why": "assets/objects: LLM agent writes objects as parametric procedural assemblies with typed mates (arXiv 2608.26238); compare Articraft.",
+   "link": "https://spatiaos.github.io/projects/procedura/",
+   "found_via": "matt-zhou",
+   "status": "open"
+  },
+  {
+   "name": "DeformSmith (2026-09)",
+   "why": "assets/objects: physics-harness-guided generation of deformable assets for robot manipulation (arXiv 2609.18620).",
+   "link": "https://arxiv.org/abs/2609.18620",
+   "found_via": "ziang-cao",
+   "status": "open"
+  },
+  {
+   "name": "USDCraft (2026-10)",
+   "why": "assets/objects: programmatic modelling of articulated 3D assets for simulation (arXiv 2610.11322); compare Articraft and SIMART.",
+   "link": "https://arxiv.org/abs/2610.11322",
+   "found_via": "matt-zhou",
+   "status": "open"
+  },
+  {
+   "name": "Luce: Relightable Gaussians for 3D Asset Generation (2026-08)",
+   "why": "assets/objects: relightable Gaussian-splat assets (arXiv 2608.23943).",
+   "link": "https://arxiv.org/abs/2608.23943",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Kirin: Animal Motion Generation from In-the-Wild Video (2026-09)",
+   "why": "assets/motion: animal motion learned from video (arXiv 2609.01823).",
+   "link": "https://arxiv.org/abs/2609.01823",
+   "found_via": "amir-mann",
+   "status": "open"
+  },
+  {
+   "name": "Sonic-AMG: Streaming Human Motion Generation from Spatial Audio (2026-10)",
+   "why": "assets/motion: streaming body motion driven by spatial audio (arXiv 2610.13300).",
+   "link": "https://arxiv.org/abs/2610.13300",
+   "found_via": "kaifeng-zhao",
+   "status": "open"
+  },
+  {
+   "name": "Sculpt4D (Tencent ARC, 2026-04)",
+   "why": "Triaged by the gen4d batch (spatial-4d-gen4d.json, status no_media: project page has only still images); 4D shape generation built on Hunyuan3D 2.1 (arXiv 2604.21592).",
+   "link": "https://huggingface.co/TencentARC/Sculpt4D",
+   "found_via": "tencent-arc",
+   "status": "duplicate"
+  },
+  {
+   "name": "BLARM: Animating 3D Objects from Video (2026-08)",
+   "why": "Triaged by the gen4d batch (spatial-4d-gen4d.json, status no_media: no page, video or code); animates a 3D object from video (arXiv 2608.31113).",
+   "link": "https://arxiv.org/abs/2608.31113",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Wan-Animate-2 (Alibaba, 2026-08)",
+   "why": "avatars: character image animation from a driving video (arXiv 2608.06009).",
+   "link": "https://arxiv.org/abs/2608.06009",
+   "found_via": "alibaba-tongyi",
+   "status": "open"
+  },
+  {
+   "name": "HelloWorld: Socially Interactive Characters in Video World Models (2026-08)",
+   "why": "world-models or agents: characters that respond socially inside a video world model (arXiv 2608.05070). Covered by work liangyang-ouyang--helloworld (2026-10 update).",
+   "link": "https://arxiv.org/abs/2608.05070",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Mira-Scene (VAST, 2026-10)",
+   "why": "worlds-3d: pixel-aligned layouts for generative 3D scene reconstruction.",
+   "link": "https://github.com/VAST-AI-Research/Mira-Scene",
+   "found_via": "tripo-ai",
+   "status": "open"
+  },
+  {
+   "name": "PAT3D: Physics-Augmented Text-to-3D Scene Generation",
+   "why": "worlds-3d/layout: text-to-scene with differentiable rigid-body simulation for physically plausible, simulation-ready scenes (lead from a Perplexity answer; verify).",
+   "link": "https://simulation-intelligence.github.io/PAT3D/",
+   "found_via": "seed",
+   "status": "open"
+  }
+ ]
+}

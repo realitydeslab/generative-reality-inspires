@@ -1,0 +1,18 @@
+{
+  "tencent-hunyuan--hunyuan3d-buffalo-1": {"zh": "混元3D-Buffalo 1.0", "src": "established"},
+  "roblox--cubepart": {"zh": "CubePart：开放词汇、部件可控的三维生成", "src": "translated"},
+  "yi-hua-huang--anigen": {"zh": "AniGen：可直接做动画的三维资产生成", "src": "translated"},
+  "hao-zhang--rigmo": {"zh": "RigMo：绑定与动作的统一学习", "src": "translated"},
+  "nvidia--kimodo": {"zh": "Kimodo：可控人体动作生成", "src": "translated"},
+  "amir-mann--videomdm": {"zh": "VideoMDM：用二维监督训练三维人体动作生成", "src": "translated"},
+  "deemos--hyper3d-agentic-mode": {"zh": "Hyper3D 智能体模式", "src": "translated"},
+  "chuanrui-zhang--simart": {"zh": "SIMART：把整体网格拆解为可仿真的铰接资产", "src": "translated"},
+  "matt-zhou--articraft": {"zh": "Articraft：规模化生成可活动三维资产的智能体系统", "src": "translated"},
+  "stability-ai--spar3d": {"zh": "SPAR3D（稳定点感知三维）", "src": "translated"},
+  "ziang-cao--physx-omni": {"zh": "PhysX-Omni：统一的可仿真物理三维生成", "src": "translated"},
+  "jia-peng-zhang--skintokens": {"zh": "SkinTokens（TokenRig）：统一自回归骨骼绑定", "src": "translated"},
+  "linzhan-mou--unimate": {"zh": "UniMate：为任意骨骼生成动画的统一模型", "src": "translated"},
+  "weiyu-li--meshflow": {"zh": "MeshFlow：高效的艺术家风格网格生成", "src": "translated"},
+  "qirui-wu--gator": {"zh": "GATOR：生成式、智能体驱动的三维物体重建", "src": "translated"},
+  "openai--shap-e": {"zh": "Shap-E（及 Point-E）", "src": "keep"}
+}

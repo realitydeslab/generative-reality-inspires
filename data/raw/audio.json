@@ -980,7 +980,7 @@
    "idea_zh": "OpenAI 自己告别了回合制语音：主流的 ChatGPT 语音如今会重叠发言、会附和，全双工的对话节奏不再只是研究原型的特性。",
    "method": "Full-duplex architecture that processes input continuously while generating output, with background delegation to a reasoning model; outputs carry SynthID watermarks since 31 July 2026.",
    "method_zh": "全双工架构：在生成输出的同时持续处理输入，并把推理任务委托给后台模型；自 2026 年 7 月 31 日起输出带有 SynthID 水印。",
-   "specs": "GPT-Live-1 and GPT-Live-1 mini · ChatGPT · API GA 2026-09-10 (v1/live/sessions)",
+   "specs": "GPT-Live-1 and GPT-Live-1 mini · ChatGPT · API GA 2026-09-10 (v1/live/sessions) · $0.05/min billed per second (backend model billed separately)",
    "keywords": [
     "full-duplex",
     "ChatGPT Voice",
@@ -1085,6 +1085,7 @@
    "idea_zh": "说话时在后台推理，缩小了“反应快”和“想得深”之间的差距，适合需要一边保持回应、一边处理复杂情境逻辑的角色。",
    "method": "Audio-to-audio Gemini models with interleaved reasoning and default asynchronous function calling, succeeding gemini-3.1-flash-live-preview (March 2026).",
    "method_zh": "音频到音频的 Gemini 模型，支持交错推理与默认异步函数调用，接替 2026 年 3 月的 gemini-3.1-flash-live-preview。",
+   "specs": "audio $0.005/min in · $0.018/min out (paid tier)",
    "keywords": [
     "Live API",
     "audio-to-audio",
@@ -1127,8 +1128,8 @@
     "behavioral-plausibility"
    ],
    "kind": "model",
-   "description": "Sesame's Conversational Speech Model, presented through the voice companions Maya and Miles, which pause, laugh, change tone and correct themselves in ways many listeners found hard to tell from a person. A 1B CSM was released as open weights in March 2025; in 2026 Sesame offers its agents in iOS and Android apps, with eyewear announced.",
-   "description_zh": "Sesame 的对话语音模型，通过语音伴侣 Maya 与 Miles 展示：它们会停顿、发笑、变换语气、自我纠正，许多听众难以分辨是否真人。1B 规模的 CSM 于 2025 年 3 月开源权重；2026 年 Sesame 已在 iOS 与 Android 应用中提供其智能体，并宣布了眼镜产品。",
+   "description": "Sesame's Conversational Speech Model, presented through the voice companions Maya and Miles, which pause, laugh, change tone and correct themselves in ways many listeners found hard to tell from a person. A 1B CSM was released as open weights in March 2025; since 6 October 2026 Sesame's voice assistants are available to everyone in its iOS and Android apps, with glasses planned for 2027.",
+   "description_zh": "Sesame 的对话语音模型，通过语音伴侣 Maya 与 Miles 展示：它们会停顿、发笑、变换语气、自我纠正，许多听众难以分辨是否真人。1B 规模的 CSM 于 2025 年 3 月开源权重；自 2026 年 10 月 6 日起，Sesame 的语音助手在其 iOS 与 Android 应用中向所有人开放，眼镜计划于 2027 年推出。",
    "idea_en": "Targets 'voice presence': the conversation so far, not only the text, decides prosody, which is the cue that makes a virtual interlocutor feel present.",
    "idea_zh": "瞄准“声音临场感”：决定语调的不只是文本，还有此前的对话上下文，而这正是让虚拟对话者显得“在场”的线索。",
    "method": "Two autoregressive Transformers over interleaved text and audio tokens (a backbone predicts the first RVQ codebook from conversation history, a small decoder the rest), trained on about one million hours of mostly English audio.",
@@ -1181,8 +1182,8 @@
     "adaptation"
    ],
    "kind": "model",
-   "description": "Hume's third Empathic Voice Interface, a speech-language model that can create a new voice and personality from a text prompt in under a second and then converse in it. In Hume's blind comparison it was rated above GPT-4o on empathy, expressiveness, naturalness, interruption quality and response speed.",
-   "description_zh": "Hume 的第三代共情语音接口，一个语音-语言模型：能在一秒内根据文字提示生成新的声音和性格，并用它对话。在 Hume 的盲测比较中，它在同理心、表现力、自然度、被打断时的表现和响应速度上的评分高于 GPT-4o。",
+   "description": "Hume's third Empathic Voice Interface, a speech-language model that can create a new voice and personality from a text prompt in under a second and then converse in it. In Hume's blind comparison it was rated above GPT-4o on empathy, expressiveness, naturalness, interruption quality and response speed. Hume announced on 2 October 2026 that it is sunsetting its EVI and TTS APIs; access ends on 13 November 2026.",
+   "description_zh": "Hume 的第三代共情语音接口，一个语音-语言模型：能在一秒内根据文字提示生成新的声音和性格，并用它对话。在 Hume 的盲测比较中，它在同理心、表现力、自然度、被打断时的表现和响应速度上的评分高于 GPT-4o。Hume 于 2026 年 10 月 2 日宣布停止提供 EVI 与 TTS API，访问将于 2026 年 11 月 13 日结束。",
    "idea_en": "Prompt-designed voices with emotional delivery make it cheap to cast many distinct virtual characters for one study.",
    "idea_zh": "通过提示设计、带情绪表达的声音，让一项研究可以低成本地“选角”出许多不同的虚拟角色。",
    "method": "A single voice-to-voice speech-language model that streams user speech in and produces speech and language together, consulting reasoning models and web search while it talks.",
@@ -1200,7 +1201,10 @@
    "api_url": "https://dev.hume.ai/docs/speech-to-speech-evi/overview",
    "video": {
     "url": "https://www.youtube.com/watch?v=SyO7sRtkcRE"
-   }
+   },
+   "collections": [
+    "trend-platform-risk"
+   ]
   },
   {
    "id": "alibaba-tongyi--qwen3-omni",
@@ -1654,8 +1658,8 @@
     "authoring"
    ],
    "kind": "model",
-   "description": "Hume's LLM-based text-to-speech, which infers how a line should be delivered from the script (whispering a secret, shouting in triumph) and creates new voices from a text description. Octave 2 later extended it to more languages.",
-   "description_zh": "Hume 基于大模型的语音合成：能从剧本中推断台词该怎么说（低声说出秘密、得意地高喊），并能根据文字描述创造新的声音。之后的 Octave 2 扩展到更多语言。",
+   "description": "Hume's LLM-based text-to-speech, which infers how a line should be delivered from the script (whispering a secret, shouting in triumph) and creates new voices from a text description. Octave 2 later extended it to more languages. Hume announced on 2 October 2026 that it is sunsetting its EVI and TTS APIs; access ends on 13 November 2026.",
+   "description_zh": "Hume 基于大模型的语音合成：能从剧本中推断台词该怎么说（低声说出秘密、得意地高喊），并能根据文字描述创造新的声音。之后的 Octave 2 扩展到更多语言。Hume 于 2026 年 10 月 2 日宣布停止提供 EVI 与 TTS API，访问将于 2026 年 11 月 13 日结束。",
    "idea_en": "Voice design by description lets an experimenter specify a character ('a nervous young paramedic') instead of searching a stock voice library.",
    "idea_zh": "用描述来设计声音，实验者可以直接指定角色（“一位紧张的年轻急救员”），而不必在现成声音库里翻找。",
    "method": "A speech-language model trained to understand and synthesise speech, predicting tune, rhythm and timbre from text, acting instructions and context.",
@@ -2457,10 +2461,10 @@
  "leads": [
   {
    "name": "Qwen3.5-Omni (Alibaba, 2026)",
-   "why": "Successor to Qwen3-Omni with official videos from Qwen and Tongyi Lab (Mar-Apr 2026); appears API-only (qwen3.5-omni-plus on Model Studio). Verify specs, date and whether it is full-duplex.",
+   "why": "Successor to Qwen3-Omni with official videos from Qwen and Tongyi Lab (Mar-Apr 2026); appears API-only (qwen3.5-omni-plus on Model Studio). Verify specs, date and whether it is full-duplex. Covered by work alibaba-tongyi--qwen3-5-omni (2026-10 update).",
    "link": "https://www.youtube.com/watch?v=-iTkqXlhLK8",
    "found_via": "alibaba-tongyi",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "GPT-Realtime-2.1 / 2.1-mini (OpenAI)",
@@ -2478,17 +2482,17 @@
   },
   {
    "name": "Grok Voice 3.0 (xAI)",
-   "why": "Reported 2026-10-14 as topping a speech-to-speech index; only a press report found, no official page checked.",
+   "why": "Reported 2026-10-14 as topping a speech-to-speech index; only a press report found, no official page checked. Covered by work xai--grok-voice-3 (2026-10 update).",
    "link": "https://siliconangle.com/2026/10/14/grok-voice-3-0-from-spacexsi-outscores-openai-and-google-on-speech-to-speech-index/",
    "found_via": "",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "Gemini speech-to-speech translation (Google)",
-   "why": "Live speech translation in Gemini (official video, ~Dec 2025); could join Hibiki-Zero as a translation entry.",
+   "why": "Live speech translation in Gemini (official video, ~Dec 2025); could join Hibiki-Zero as a translation entry. Covered by work google-deepmind--gemini-live-translate (2026-10 update).",
    "link": "https://www.youtube.com/watch?v=xdPIwgDriTg",
    "found_via": "google-deepmind",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "Gemini 3.8 Flash TTS (Google)",
@@ -2527,10 +2531,10 @@
   },
   {
    "name": "Seed Speech 2.0 (ByteDance / BytePlus)",
-   "why": "TTS + ASR stack with prompt-controlled emotion (official 31 s BytePlus video, 2026-03-16).",
+   "why": "TTS + ASR stack with prompt-controlled emotion (official 31 s BytePlus video, 2026-03-16). Covered by work bytedance-seed--seed-speech-2 (2026-10 update).",
    "link": "https://www.youtube.com/watch?v=Rno7SlzOPh8",
    "found_via": "bytedance-seed",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "Stable Audio 3 (Stability AI)",
@@ -2590,10 +2594,10 @@
   },
   {
    "name": "Full-Duplex-Bench",
-   "why": "Benchmark for turn-taking in full-duplex spoken dialogue models (arXiv 2503.04721, ASRU 2025): belongs to infra/benchmarks.",
+   "why": "Benchmark for turn-taking in full-duplex spoken dialogue models (arXiv 2503.04721, ASRU 2025): belongs to infra/benchmarks. Covered by work guan-ting-lin--full-duplex-bench (2026-10 update).",
    "link": "https://arxiv.org/abs/2503.04721",
    "found_via": "nvidia",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "Hume EVI 4 / Octave 2",
@@ -2604,24 +2608,24 @@
   },
   {
    "name": "ElevenLabs Instant Soundtracks",
-   "why": "Official video 2026-10-15; generated soundtracks for video, check whether it is a new model or a product feature.",
+   "why": "Official video 2026-10-15; generated soundtracks for video, check whether it is a new model or a product feature. Covered by work elevenlabs--instant-soundtracks (2026-10 update).",
    "link": "https://www.youtube.com/watch?v=WtPiZ0ym13k",
    "found_via": "elevenlabs",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "Inworld Realtime TTS-2",
-   "why": "Reported 2026-10-11 in Inworld release notes; low-latency TTS for agents, unverified.",
+   "why": "Reported 2026-10-11 in Inworld release notes; low-latency TTS for agents, unverified. Covered by work inworld-ai--realtime-tts-2 (2026-10 update).",
    "link": "https://docs.inworld.ai/release-notes/tts",
    "found_via": "inworld-ai",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "Gradium (Kyutai spin-off)",
-   "why": "Real-time voice API for agents (TTS with sub-50 ms latency claimed, STT, live translation, cloning, voice design, on-device TTS); CEO Neil Zeghidour, out of stealth Dec 2025, seed extended to $100M on 2026-07-08; official YouTube channel @Gradium AI. Platform, so likely infra/apis.",
+   "why": "Real-time voice API for agents (TTS with sub-50 ms latency claimed, STT, live translation, cloning, voice design, on-device TTS); CEO Neil Zeghidour, out of stealth Dec 2025, seed extended to $100M on 2026-07-08; official YouTube channel @Gradium AI. Platform, so likely infra/apis. Covered by work gradium--voice-platform (2026-10 update).",
    "link": "https://gradium.ai",
    "found_via": "kyutai",
-   "status": "open"
+   "status": "duplicate"
   },
   {
    "name": "RW-Voice-EQ Bench (Hume AI)",
@@ -2639,10 +2643,10 @@
   },
   {
    "name": "Kling-Foley / ThinkSound",
-   "why": "Chinese video-to-audio models (Kuaishou, Alibaba Tongyi, 2025) compared on the HunyuanVideo-Foley page; candidates for a second round.",
+   "why": "Chinese video-to-audio models (Kuaishou, Alibaba Tongyi, 2025) compared on the HunyuanVideo-Foley page; candidates for a second round. Covered by work tencent-hunyuan--hunyuanvideo-foley (2026-10 update).",
    "link": "https://szczesnys.github.io/hunyuanvideo-foley/",
    "found_via": "tencent-hunyuan",
-   "status": "open"
+   "status": "duplicate"
   }
  ]
 }

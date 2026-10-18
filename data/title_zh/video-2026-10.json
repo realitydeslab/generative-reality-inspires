@@ -1,0 +1,70 @@
+{
+  "alibaba-tongyi--wan-s2v": {
+    "zh": "通义万相 Wan-S2V",
+    "src": "established"
+  },
+  "adobe--firefly-video-model": {
+    "zh": "Firefly 视频模型",
+    "src": "established"
+  },
+  "lingen-li--cubecomposer": {
+    "zh": "CubeComposer：从透视视频时空自回归生成 4K 360° 视频",
+    "src": "translated"
+  },
+  "ke-xing--stereoworld": {
+    "zh": "StereoWorld：几何感知的单目转立体视频生成",
+    "src": "translated"
+  },
+  "jingwei-ma--vidpanos": {
+    "zh": "VidPanos：从随手摇拍视频生成全景视频",
+    "src": "translated"
+  },
+  "kevin-xie--videopanda": {
+    "zh": "VideoPanda：基于多视角注意力的全景视频扩散",
+    "src": "translated"
+  },
+  "michal-geyer--eye2eye": {
+    "zh": "Eye2Eye：单目转立体视频合成的简单方法",
+    "src": "translated"
+  },
+  "peng-dai--s2vg": {
+    "zh": "S²VG：基于去噪帧矩阵的 3D 立体与空间视频生成",
+    "src": "translated"
+  },
+  "xinyu-wang-thu--liveedit": {
+    "zh": "LiveEdit：基于扩散的实时流式视频编辑",
+    "src": "translated"
+  },
+  "justin-cui--self-forcing-plus-plus": {
+    "zh": "Self-Forcing++：迈向分钟级高质量视频生成",
+    "src": "translated"
+  },
+  "kunhao-liu--rolling-forcing": {
+    "zh": "Rolling Forcing：实时自回归长视频扩散",
+    "src": "translated"
+  },
+  "yuwei-guo--animatediff": {
+    "zh": "AnimateDiff：无需专门调优即可让个性化文生图模型动起来",
+    "src": "translated"
+  },
+  "jd-com--joyai-video-edit": {
+    "zh": "京东 JoyAI-Video-Edit：实时开放式视频编辑",
+    "src": "translated"
+  },
+  "ting-hsuan-chen--pantheon360": {
+    "zh": "Pantheon360：用 3D 感知 360° 视频扩散生成数字孪生",
+    "src": "translated"
+  },
+  "sixiao-zheng--versecrafter": {
+    "zh": "VerseCrafter：具备 4D 几何控制的动态真实视频世界模型",
+    "src": "translated"
+  },
+  "eyeline-labs--vista4d": {
+    "zh": "Vista4D：基于 4D 点云的视频重拍",
+    "src": "translated"
+  },
+  "stability-ai--4director": {
+    "zh": "4Director：用刚体 3D 几何控制视频世界模型",
+    "src": "translated"
+  }
+}

@@ -911,8 +911,8 @@
         "control"
       ],
       "kind": "model",
-      "description": "Sand AI's MAGI-1 (2025-04-21) is an open 24-billion-parameter autoregressive video model that generates video chunk by chunk, enabling streaming output, unlimited extension and prompt changes per chunk.",
-      "description_zh": "Sand AI 的 MAGI-1（2025-04-21）是 240 亿参数的开源自回归视频模型，逐块生成视频，支持流式输出、无限延展和逐块更换提示。",
+      "description": "Sand AI's MAGI-1 (2025-04-21) is an open 24-billion-parameter autoregressive video model that generates video chunk by chunk, enabling streaming output, unlimited extension and prompt changes per chunk. Sand AI followed with MAGI-2 Preview (2026-08-05), an open 114-billion-parameter mixture-of-experts model with 6 billion active parameters that generates 10-second clips with sound.",
+      "description_zh": "Sand AI 的 MAGI-1（2025-04-21）是 240 亿参数的开源自回归视频模型，逐块生成视频，支持流式输出、无限延展和逐块更换提示。Sand AI 随后于 2026-08-05 发布 MAGI-2 Preview：开源的 1140 亿参数混合专家模型，每个 token 激活 60 亿参数，可生成带声音的 10 秒片段。",
       "idea_en": "Chunk-wise autoregression gives second-by-second control over how a scene unfolds.",
       "idea_zh": "分块自回归让人能逐秒控制场景如何展开。",
       "method": "Autoregressive denoising over 24-frame chunks, with later chunks kept noisier while earlier ones are refined, on a transformer-based VAE.",
@@ -968,8 +968,8 @@
         "authoring"
       ],
       "kind": "model",
-      "description": "Skywork's SkyReels-V2 (2025-04) is an open 'infinite-length film' model that keeps extending a video while holding shots consistent, trained with film-grammar annotations.",
-      "description_zh": "昆仑万维 Skywork 的 SkyReels-V2（2025 年 4 月）是开源的“无限时长电影”模型，可在保持镜头一致的同时不断延展视频，训练时使用了电影语法标注。",
+      "description": "Skywork's SkyReels-V2 (2025-04) is an open 'infinite-length film' model that keeps extending a video while holding shots consistent, trained with film-grammar annotations. Skywork released SkyReels V3, which adds multi-subject reference-to-video, audio-guided and video-to-video generation, as open weights on 2026-01-29.",
+      "description_zh": "昆仑万维 Skywork 的 SkyReels-V2（2025 年 4 月）是开源的“无限时长电影”模型，可在保持镜头一致的同时不断延展视频，训练时使用了电影语法标注。Skywork 于 2026-01-29 以开源权重发布 SkyReels V3，新增多主体参考生视频、音频引导生成与视频到视频生成。",
       "idea_en": "Diffusion forcing turns a clip model into a continuous storyteller, though drift still accumulates over minutes.",
       "idea_zh": "扩散强制（diffusion forcing）把片段模型变成连续讲故事的模型，但时长到数分钟时漂移仍会累积。",
       "method": "Diffusion-forcing framework (per-token noise levels) with a multimodal captioner (SkyCaptioner) for shot language and reinforcement learning for motion quality.",

@@ -1,0 +1,1099 @@
+{
+ "batch": "genxr-2026-10",
+ "creators": [
+  {
+   "id": "jianan-jiang",
+   "name": "Jianan Jiang",
+   "kind": "person",
+   "role": "PhD researcher, SNeC Lab, The Pennsylvania State University",
+   "based": "University Park, PA, USA",
+   "bio": "HCI researcher on generative 3D authoring in extended reality, working with Bin Li at Penn State.",
+   "why": "PartInteractor makes generated XR objects editable part by part instead of regenerating them whole.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {
+    "site": "https://horizonjohn.github.io/"
+   },
+   "role_zh": "宾夕法尼亚州立大学 SNeC 实验室博士研究者",
+   "bio_zh": "研究扩展现实中的生成式三维创作，在宾州州立大学与 Bin Li 合作。",
+   "why_zh": "PartInteractor 让 XR 中生成的物体可以逐个部件编辑，而不必整体重新生成。",
+   "based_zh": "美国宾夕法尼亚州大学园",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "andy-serkis",
+   "name": "Andy Serkis",
+   "kind": "person",
+   "role": "Actor, director and co-founder of Imaginarium Productions",
+   "based": "London, UK",
+   "bio": "Performance-capture actor and director (Gollum, Caesar) whose London studio Imaginarium works on performance capture and immersive storytelling.",
+   "why": "Co-directed Nevatars, a mixed-reality film for XR glasses in which animated characters hold Gemini-powered conversations with the viewer.",
+   "disciplines": [
+    "media-art"
+   ],
+   "links": {
+    "site": "http://www.imaginariumuk.com"
+   },
+   "role_zh": "演员、导演，Imaginarium Productions 联合创始人",
+   "bio_zh": "以动作捕捉表演闻名的演员与导演（咕噜、凯撒），其伦敦工作室 Imaginarium 从事表演捕捉与沉浸式叙事。",
+   "why_zh": "联合执导 Nevatars：一部为 XR 眼镜打造的混合现实电影，动画角色通过 Gemini 与观众对话。",
+   "based_zh": "英国伦敦",
+   "connected_to": [
+    "google"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "atlantic-studios",
+   "name": "Atlantic Studios",
+   "kind": "studio",
+   "role": "Factual and immersive production company founded by Anthony Geffen",
+   "based": "London, UK",
+   "bio": "London studio (formerly Atlantic Productions) known for natural-history films with David Attenborough and for VR and XR documentaries.",
+   "why": "Its Galápagos: The Last Eden lets viewers talk to a Gemini-powered Charles Darwin inside a 3D natural-history film.",
+   "disciplines": [
+    "media-art"
+   ],
+   "links": {
+    "site": "https://www.atlanticstudios.co.uk"
+   },
+   "role_zh": "由 Anthony Geffen 创立的纪实与沉浸式内容制作公司",
+   "bio_zh": "伦敦制作公司（原名 Atlantic Productions），以与 David Attenborough 合作的自然历史影片和 VR、XR 纪录片知名。",
+   "why_zh": "其作品《Galápagos: The Last Eden》让观众在三维自然历史影片中与由 Gemini 驱动的达尔文对话。",
+   "based_zh": "英国伦敦",
+   "connected_to": [
+    "google"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "esen-tutuncu",
+   "name": "Esen K. Tütüncü",
+   "kind": "person",
+   "role": "Researcher, Institute of Neurosciences, University of Barcelona",
+   "based": "Barcelona, Spain",
+   "bio": "HCI and XR researcher; first author of PlayWrite, built with Autodesk Research in Toronto and San Francisco.",
+   "why": "PlayWrite turns playing with virtual characters on a table into a story an AI writes up with you.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "巴塞罗那大学神经科学研究所研究者",
+   "bio_zh": "HCI 与 XR 研究者，PlayWrite 的第一作者，该项目与 Autodesk Research（多伦多、旧金山）合作完成。",
+   "why_zh": "PlayWrite 把在桌面上摆弄虚拟角色的过程，变成与 AI 一起写出来的故事。",
+   "based_zh": "西班牙巴塞罗那",
+   "connected_to": [
+    "autodesk-research"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "autodesk-research",
+   "name": "Autodesk Research",
+   "kind": "lab",
+   "role": "Research division of Autodesk",
+   "based": "Toronto, Canada",
+   "bio": "Industrial research group on design, making and human-computer interaction, with a long record of UIST and CHI work on creative tools.",
+   "why": "Explores how generative AI can be steered by embodied, spatial interaction rather than text prompts.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {
+    "site": "https://www.research.autodesk.com/",
+    "youtube": "https://www.youtube.com/@AutodeskResearch"
+   },
+   "role_zh": "Autodesk 的研究部门",
+   "bio_zh": "专注设计、制造与人机交互的产业研究团队，长期在 UIST 和 CHI 发表创作工具方面的研究。",
+   "why_zh": "探索如何用具身的空间交互、而不是文字提示，来引导生成式 AI。",
+   "based_zh": "加拿大多伦多",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "weiwei-jiang",
+   "name": "Weiwei Jiang",
+   "kind": "person",
+   "role": "Researcher, Nanjing University of Information Science and Technology",
+   "based": "Nanjing, China",
+   "bio": "HCI researcher on human-AI co-design and virtual reality; led CoGen3D with collaborators in Japan, Australia, Denmark and Germany.",
+   "why": "CoGen3D tests at scale (N=120) whether people who co-design a VR scene's assets with an agent experience the scene differently.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "南京信息工程大学研究者",
+   "bio_zh": "研究人机协同设计与虚拟现实的 HCI 学者，与日本、澳大利亚、丹麦和德国的合作者共同完成 CoGen3D。",
+   "why_zh": "CoGen3D 以较大样本（N=120）检验：与智能体共同设计 VR 场景资产的人，体验场景时是否有所不同。",
+   "based_zh": "中国南京",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "muzhe-wu",
+   "name": "Muzhe Wu",
+   "kind": "person",
+   "role": "PhD researcher, University of Michigan",
+   "based": "Ann Arbor, MI, USA",
+   "bio": "HCI researcher working with Anhong Guo and Xu Wang on AI-generated guidance for physical tasks.",
+   "why": "Generative Tutorial generates goal images and demonstration videos of the user's own workspace in AR, instead of replaying a tutorial shot elsewhere.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "密歇根大学博士研究者",
+   "bio_zh": "与 Anhong Guo、Xu Wang 合作，研究为现实任务生成的 AI 指导。",
+   "why_zh": "Generative Tutorial 在 AR 中生成用户自己工作台的目标图与示范视频，而不是回放在别处拍摄的教程。",
+   "based_zh": "美国密歇根州安娜堡",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "yanni-mei",
+   "name": "Yanni Mei",
+   "kind": "person",
+   "role": "PhD researcher, Technical University of Darmstadt",
+   "based": "Darmstadt, Germany",
+   "bio": "HCI researcher on perceptual manipulation in augmented reality, working with Jan Gugenheimer and Florian Müller.",
+   "why": "ShadAR lets a wearer rewrite how their passthrough view looks by typing what they want to see, or how they want to feel.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "达姆施塔特工业大学博士研究者",
+   "bio_zh": "研究增强现实中感知操控的 HCI 学者，与 Jan Gugenheimer、Florian Müller 合作。",
+   "why_zh": "ShadAR 让佩戴者只需写下想看到什么、甚至想有什么感受，就能改写透视画面的样子。",
+   "based_zh": "德国达姆施塔特",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "tareq-alsaleh",
+   "name": "Tareq Alsaleh",
+   "kind": "person",
+   "role": "Researcher, Laboratory of Innovations in Transportation (LiTrans), Toronto Metropolitan University",
+   "based": "Toronto, Canada",
+   "bio": "Transportation researcher in Bilal Farooq's LiTrans lab, which uses VR and XR for behavioural travel experiments.",
+   "why": "XARA lets transportation researchers build XR experiment scenes by speaking, without Unity skills.",
+   "disciplines": [
+    "behavioral",
+    "hci"
+   ],
+   "links": {
+    "youtube": "https://www.youtube.com/@litranslab"
+   },
+   "role_zh": "多伦多都会大学交通创新实验室（LiTrans）研究者",
+   "bio_zh": "Bilal Farooq 领导的 LiTrans 实验室的交通研究者，该实验室用 VR 与 XR 做出行行为实验。",
+   "why_zh": "XARA 让交通研究者用说话的方式搭建 XR 实验场景，无需掌握 Unity。",
+   "based_zh": "加拿大多伦多",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "xianhao-carton-liu",
+   "name": "Xianhao Carton Liu",
+   "kind": "person",
+   "role": "HCI researcher, University of Minnesota",
+   "based": "Minneapolis, USA",
+   "bio": "HCI researcher on proxy-based interfaces for acting on real-world objects in AR, working with Zhu-Tian Chen and Mar Gonzalez-Franco.",
+   "why": "Generative Proxy generates, for each device and task, the virtual stand-ins through which a glasses wearer operates the physical world.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "明尼苏达大学 HCI 研究者",
+   "bio_zh": "研究增强现实中通过代理界面操作现实物体的 HCI 学者，与陈朱天（Zhu-Tian Chen）、Mar Gonzalez-Franco 合作。",
+   "why_zh": "Generative Proxy 会针对每种设备和任务生成虚拟替身，眼镜佩戴者通过这些替身来操作物理世界。",
+   "based_zh": "美国明尼阿波利斯",
+   "connected_to": [
+    "mar-gonzalez-franco"
+   ],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "jianan-jiang--partinteractor",
+   "creator_ids": [
+    "jianan-jiang"
+   ],
+   "title": "PartInteractor",
+   "year": 2026,
+   "date": "2026-08-02",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [
+    "speech",
+    "sketch",
+    "image"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "co-creation"
+   ],
+   "kind": "research",
+   "description": "In an XR headset, a user describes, sketches or photographs an object; the system generates it as a 3D asset split into named parts, which the user can then grab, swap, restyle or regenerate one component at a time.",
+   "description_zh": "用户在 XR 头显中用语音描述、画草图或拍照来表达想要的物体；系统把它生成为由若干命名部件组成的三维资产，用户随后可以逐个部件地抓取、替换、换风格或重新生成。",
+   "idea_en": "Treating generated objects as part hierarchies turns one-shot prompt-to-object generation into an ongoing edit, so a scene can be revised without starting over.",
+   "idea_zh": "把生成的物体当作部件层级来处理，一次性的“提示到物体”就变成了可持续的编辑，场景修改无需从头再来。",
+   "method": "An LLM/VLM interpreter turns speech, in-situ sketches or headset images into candidate 2D concepts (retrieval plus generation), then part-aware image-to-3D generation produces semantically decomposed assets that are manipulated per component in the headset; evaluated against whole-object regeneration.",
+   "method_zh": "由 LLM/VLM 解析器把语音、现场草图或头显拍摄的图像转成候选二维概念图（检索加生成），再用部件感知的图生三维模型生成按语义拆分的资产，在头显中按部件操作；并与整体重新生成的方式作对比评估。",
+   "keywords": [
+    "part-aware 3D generation",
+    "XR authoring",
+    "intent scaffolding",
+    "speech and sketch"
+   ],
+   "video": {
+    "url": "https://horizonjohn.github.io/PartInteractor/static/videos/PartInteractor.mp4"
+   },
+   "images": [
+    "https://horizonjohn.github.io/PartInteractor/static/images/application.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2608.01335",
+    "doi": "",
+    "arxiv": "2608.01335",
+    "venue": "UIST 2026",
+    "title": "PartInteractor: Intent-Driven Part-Aware 3D Authoring for Continuous Co-Creation in XR"
+   },
+   "source_url": "https://horizonjohn.github.io/PartInteractor/",
+   "code_url": "https://github.com/SNeC-Lab-PSU/PartInteractor",
+   "collections": [
+    "uist",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "andy-serkis--nevatars",
+   "creator_ids": [
+    "andy-serkis",
+    "google"
+   ],
+   "title": "Nevatars",
+   "year": 2026,
+   "date": "2026-09-11",
+   "field": "genxr",
+   "sub": "narrative",
+   "modalities": [
+    "avatar",
+    "dialogue",
+    "speech"
+   ],
+   "inputs": [
+    "speech",
+    "surroundings"
+   ],
+   "timing": "turn-based",
+   "access": [],
+   "lenses": [
+    "co-creation",
+    "behavioral-plausibility"
+   ],
+   "kind": "experience",
+   "description": "A 31-minute mixed-reality animated film for XR glasses, premiered at Venice Immersive 2026, in which discarded digital characters appear in the viewer's room and talk with them; Google describes it as filled with Gemini-powered conversations and interactive moments.",
+   "description_zh": "一部 31 分钟、为 XR 眼镜打造的混合现实动画电影，在 2026 年威尼斯沉浸单元首映：被遗弃的数字角色出现在观众的房间里并与之交谈；Google 称片中充满由 Gemini 驱动的对话与互动时刻。",
+   "idea_en": "A star-led festival film that lets scripted characters answer the viewer in open conversation, a test of how much improvisation an authored story can absorb.",
+   "idea_zh": "一部由明星主导的电影节作品，让按剧本塑造的角色以开放对话回应观众，考验一个精心编排的故事能容纳多少即兴。",
+   "method": "Authored animation and performance capture staged in passthrough mixed reality on Android XR, with conversational segments driven by Gemini and Vertex AI (per Google); produced by Imaginarium, Boona, Google 100 Zeros and 3Dar.",
+   "method_zh": "在 Android XR 的透视混合现实中呈现人工制作的动画与表演捕捉，对话段落由 Gemini 和 Vertex AI 驱动（据 Google 介绍）；由 Imaginarium、Boona、Google 100 Zeros 与 3Dar 联合制作。",
+   "specs": "31 min · XR glasses",
+   "keywords": [
+    "Venice Immersive 2026",
+    "Android XR",
+    "Gemini",
+    "mixed-reality film",
+    "conversational characters"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=Es6SDpbiyM8"
+   },
+   "images": [
+    "https://static.labiennale.org/files/styles/seo_thumbnail/public/cinema/2026/Schede_film/970x647/Ve_Immersive/nevatars2.jpg?itok=j3wvW8K0"
+   ],
+   "source_url": "https://www.labiennale.org/en/cinema/2026/venice-immersive/nevatars",
+   "exhibited": [
+    "Venice Immersive 2026 (83rd Venice International Film Festival)"
+   ]
+  },
+  {
+   "id": "atlantic-studios--galapagos-last-eden",
+   "creator_ids": [
+    "atlantic-studios",
+    "google"
+   ],
+   "title": "Galápagos: The Last Eden",
+   "year": 2026,
+   "date": "2026-09-11",
+   "field": "genxr",
+   "sub": "narrative",
+   "modalities": [
+    "dialogue",
+    "speech"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "access": [],
+   "lenses": [
+    "behavioral-plausibility",
+    "situational-reach"
+   ],
+   "kind": "experience",
+   "description": "An XR-glasses natural-history experience narrated by Margot Robbie and shown at Venice Immersive 2026: viewers step into 16K 3D footage of the Galápagos and can ask questions of a Gemini-powered digital Charles Darwin.",
+   "description_zh": "一部为 XR 眼镜制作、由 Margot Robbie 旁白的自然历史体验，在 2026 年威尼斯沉浸单元展出：观众走进 16K 三维拍摄的加拉帕戈斯群岛，还可以向一位由 Gemini 驱动的数字达尔文提问。",
+   "idea_en": "Puts a conversational historical figure inside a captured documentary world, so the guide answers the visitor's own questions rather than a fixed script.",
+   "idea_zh": "把一位能对话的历史人物放进实拍的纪录片世界，让向导回答观众自己的问题，而不是只念固定台词。",
+   "method": "Stereoscopic 16K 3D capture presented spatially on Android XR glasses, with a Darwin character whose dialogue is generated by Gemini (per Google's 100 Zeros team, which co-produced).",
+   "method_zh": "以 16K 立体三维拍摄素材在 Android XR 眼镜上进行空间呈现，其中的达尔文角色对话由 Gemini 生成（据联合制作方 Google 100 Zeros 团队介绍）。",
+   "specs": "16K 3D capture · XR glasses",
+   "keywords": [
+    "Venice Immersive 2026",
+    "Android XR",
+    "Gemini",
+    "natural history",
+    "conversational character"
+   ],
+   "images": [
+    "https://static.labiennale.org/files/styles/seo_thumbnail/public/cinema/2026/Schede_film/970x647/Ve_Immersive/galapagos_the_last_eden.jpg?itok=2TXE0uhw"
+   ],
+   "source_url": "https://www.labiennale.org/en/cinema/2026/venice-immersive/galapagos-last-eden",
+   "exhibited": [
+    "Venice Immersive 2026 (83rd Venice International Film Festival)"
+   ]
+  },
+  {
+   "id": "esen-tutuncu--playwrite",
+   "creator_ids": [
+    "esen-tutuncu",
+    "autodesk-research"
+   ],
+   "title": "PlayWrite",
+   "year": 2026,
+   "date": "2026-03-02",
+   "field": "genxr",
+   "sub": "narrative",
+   "modalities": [
+    "dialogue"
+   ],
+   "inputs": [
+    "sketch",
+    "speech"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "co-creation",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Wearing a mixed-reality headset at a table, a writer moves small virtual characters and props and talks through scenes; AI agents read this play as story beats shown as rearrangeable 'story marbles', and an LLM writes the assembled sequence into a narrative.",
+   "description_zh": "写作者戴上混合现实头显，在桌面上移动小型虚拟角色和道具，并边玩边说出情节；AI 智能体把这些动作解读为故事节拍，以可重新排列的“故事弹珠”呈现，再由大语言模型把排好的序列写成完整叙事。",
+   "idea_en": "Makes play with characters in space, not typed prompts, the input to story generation, a pattern that transfers to authoring scenarios by enacting them.",
+   "idea_zh": "让在空间中摆弄角色、而不是输入提示，成为故事生成的输入；这种模式可以迁移到“通过演出来编写情境”。",
+   "method": "A multi-agent pipeline (environment, social, narrator and intent-frame agents) condenses manipulation, spatial relations and speech into Intent Frames that an LLM turns into prose; studied with 13 writers.",
+   "method_zh": "多智能体流程（环境、社交、叙述者与意图帧智能体）把操作、空间关系与语音压缩为“意图帧”，再由大语言模型写成文本；对 13 位写作者进行了用户研究。",
+   "keywords": [
+    "narrative co-authoring",
+    "mixed reality",
+    "multi-agent LLM",
+    "embodied play"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=RHvioD_b2Hc"
+   },
+   "images": [
+    "https://arxiv.org/html/2603.02366v1/images/teaser-place-holder.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2603.02366",
+    "doi": "10.1145/3772318.3791159",
+    "arxiv": "2603.02366",
+    "venue": "CHI 2026",
+    "title": "PlayWrite: A Multimodal System for AI Supported Narrative Co-Authoring Through Play in XR"
+   },
+   "source_url": "https://arxiv.org/abs/2603.02366",
+   "collections": [
+    "chi",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "keiichi-ihara--memorydiorama",
+   "creator_ids": [
+    "keiichi-ihara",
+    "ryo-suzuki"
+   ],
+   "title": "MemoryDiorama",
+   "year": 2026,
+   "date": "2026-04-08",
+   "field": "genxr",
+   "sub": "narrative",
+   "modalities": [
+    "scene-3d",
+    "motion"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "situational-reach"
+   ],
+   "kind": "research",
+   "description": "Turns an everyday photo into an animated 3D diorama in mixed reality on Meta Quest 3, adding generated objects, human motion, weather and particle effects inferred from the photo, to help people recall the moment it shows.",
+   "description_zh": "在 Meta Quest 3 的混合现实中，把一张日常照片变成会动的三维立体模型，加入从照片推断出的生成物体、人物动作、天气与粒子效果，帮助人回忆照片中的那一刻。",
+   "idea_en": "Generated context around a personal photo can act as a memory cue: participants recalled more details, a hint that generated re-enactments can shape autobiographical memory.",
+   "idea_zh": "围绕个人照片生成的情境可以充当记忆线索：参与者回忆起更多细节，这也提示生成式重现可能影响自传体记忆。",
+   "method": "LLM-based scene analysis extracts place, objects, lighting and atmosphere from a photo, then 3D object generation, animation and spatial composition build the diorama; a within-subject study (N=18) compared photo only, static diorama and MemoryDiorama.",
+   "method_zh": "基于大语言模型的场景分析从照片中提取地点、物体、光照与氛围，再经三维物体生成、动画与空间排布搭建立体模型；被试内研究（N=18）比较了仅照片、静态模型与 MemoryDiorama 三种条件。",
+   "keywords": [
+    "memory recall",
+    "mixed reality",
+    "3D generation",
+    "Meta Quest 3",
+    "Ryo Suzuki lab"
+   ],
+   "images": [
+    "https://arxiv.org/html/2604.06773v1/figures/teaser_v1.2.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2604.06773",
+    "doi": "",
+    "arxiv": "2604.06773",
+    "venue": "arXiv 2026",
+    "title": "MemoryDiorama: Generating Dynamic 3D Diorama from Everyday Photos for Memory Recall"
+   },
+   "source_url": "https://arxiv.org/abs/2604.06773",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "weiwei-jiang--cogen3d",
+   "creator_ids": [
+    "weiwei-jiang"
+   ],
+   "title": "CoGen3D",
+   "year": 2026,
+   "date": "2026-07-04",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "mesh",
+    "image"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "co-creation"
+   ],
+   "kind": "research",
+   "description": "An agent interviews a user about the object they want for a VR scene, shows a concept image for confirmation, then generates a 3D asset and places it in the immersive scene; a 120-person study compared people who co-designed assets with people who only experienced the scenes.",
+   "description_zh": "智能体先就用户想为 VR 场景添加的物体进行提问，给出概念图供确认，再生成三维资产并放入沉浸式场景；一项 120 人的研究比较了共同设计资产的人和只体验场景的人。",
+   "idea_en": "Co-designed assets were linked to higher engagement and shifted emotional responses, while people still preferred the concept images to the final 3D models, a measure of the image-to-3D quality gap.",
+   "idea_zh": "共同设计的资产与更高的投入度和情绪反应的变化相关，但人们仍更喜欢概念图而不是最终的三维模型，这反映出图像到三维之间的质量落差。",
+   "method": "Staged pipeline: conversational intent elicitation by an LLM agent, concept-image confirmation, image-to-3D generation and direct deployment to six affectively different VR scenes on Meta Quest 3; 60 designers and 60 validators.",
+   "method_zh": "分阶段流程：由大语言模型智能体对话式地引出意图，确认概念图，再进行图生三维并直接部署到 Meta Quest 3 上六个情绪基调不同的 VR 场景；60 名设计者与 60 名验证者参与。",
+   "keywords": [
+    "human-AI co-design",
+    "image-to-3D",
+    "VR authoring",
+    "affective scenes",
+    "N=120"
+   ],
+   "images": [
+    "https://arxiv.org/html/2607.03731v1/system_design.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2607.03731",
+    "doi": "",
+    "arxiv": "2607.03731",
+    "venue": "arXiv 2026",
+    "title": "CoGen3D: An Agentic Human-AI Co-Design Pipeline for 3D Asset Generation for Virtual Reality"
+   },
+   "source_url": "https://arxiv.org/abs/2607.03731",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "muzhe-wu--generative-tutorial",
+   "creator_ids": [
+    "muzhe-wu"
+   ],
+   "title": "Generative Tutorial",
+   "year": 2026,
+   "date": "2026-09-21",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "image",
+    "flat-video"
+   ],
+   "inputs": [
+    "surroundings"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "adaptation",
+    "reactivity"
+   ],
+   "kind": "research",
+   "description": "An AR prototype watches the user's workspace during a physical task and generates, for each next step, a goal image and a short demonstration video that show the user's own tools and materials in their current state.",
+   "description_zh": "一个 AR 原型在用户做手工任务时观察其工作台，并为每一步生成目标图和简短示范视频，画面里是用户自己的工具和材料以及它们当前的状态。",
+   "idea_en": "Guidance generated from the live scene rather than pre-recorded footage; participants performed better, but generation errors changed how far they trusted the instructions.",
+   "idea_zh": "指导根据现场画面生成，而不是事先录好的视频；参与者完成得更好，但生成错误会影响他们对指导的信任程度。",
+   "method": "A formative test of current image and video generators on 15 physical tasks informed a pipeline that predicts the visual outcome of preceding actions and generates step images and videos from the observed workspace; a 24-participant lab study compared it with pre-authored guidance.",
+   "method_zh": "先用 15 个现实任务对现有图像与视频生成模型做形成性测试，据此搭建流程：预测前序动作的视觉结果，并根据观察到的工作台生成每一步的图像与视频；24 人的实验室研究将其与预先制作的指导作比较。",
+   "keywords": [
+    "AR guidance",
+    "video generation",
+    "physical tasks",
+    "contextual instructions"
+   ],
+   "images": [
+    "https://arxiv.org/html/2609.24955v1/figures/teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2609.24955",
+    "doi": "",
+    "arxiv": "2609.24955",
+    "venue": "arXiv 2026",
+    "title": "Generative Tutorial: Towards Live Contextualized Visual Instructions for Physical Tasks"
+   },
+   "source_url": "https://arxiv.org/abs/2609.24955",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "meta--horizon-worlds-llm-npcs",
+   "creator_ids": [
+    "meta"
+   ],
+   "title": "Meta Horizon Worlds embodied LLM NPCs",
+   "year": 2025,
+   "date": "2025-08-27",
+   "field": "genxr",
+   "sub": "platform",
+   "also": [
+    "agents"
+   ],
+   "modalities": [
+    "dialogue",
+    "speech"
+   ],
+   "inputs": [
+    "speech",
+    "spec"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "authoring",
+    "behavioral-plausibility"
+   ],
+   "kind": "platform",
+   "description": "Creators in the Worlds Desktop Editor define a character's name, backstory, personality, guardrails and voice, and players then talk to the embodied NPC by voice in VR or mobile worlds, with replies mixing scripted lines and LLM-generated speech.",
+   "description_zh": "创作者在 Worlds Desktop Editor 中设定角色的名字、背景故事、性格、约束规则与声音，玩家随后就能在 VR 或手机世界里用语音与这个有形体的 NPC 交谈，回应由预设台词和大语言模型生成的话语混合而成。",
+   "idea_en": "Puts LLM characters into the standard toolset of a large social VR platform, with scripted lines and guardrails as the creator's levers of control.",
+   "idea_zh": "把大语言模型角色放进一个大型社交 VR 平台的标准工具箱，预设台词与约束规则成为创作者手中的控制杆。",
+   "method": "Character Builder settings plus TypeScript world-state context condition an LLM (UploadVR reports Llama 4) whose replies are voiced by synthetic TTS; announced with text-to-landscape Environment Generation, and reported open to all creators in September 2025 with conversations limited to adult users in the US.",
+   "method_zh": "Character Builder 的设定与 TypeScript 提供的世界状态上下文共同约束一个大语言模型（据 UploadVR 报道为 Llama 4），回复由合成语音读出；与文本生成地形的 Environment Generation 同时发布，据报道 2025 年 9 月向所有创作者开放，但只有美国成年用户可以与之对话。",
+   "keywords": [
+    "Horizon Worlds",
+    "NPC",
+    "Character Builder",
+    "Llama",
+    "Worlds Desktop Editor"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=FNeR-ESSRnY"
+   },
+   "source_url": "https://developers.meta.com/horizon/blog/environment-generation-embodied-conversational-llm-npcs-genai-tools/",
+   "api_url": "https://developers.meta.com/horizon-worlds/",
+   "collections": [
+    "trend-agents-in-worlds"
+   ]
+  },
+  {
+   "id": "yanni-mei--shadar",
+   "creator_ids": [
+    "yanni-mei"
+   ],
+   "title": "ShadAR",
+   "year": 2026,
+   "date": "2026-10-14",
+   "field": "genxr",
+   "sub": "restyle",
+   "modalities": [
+    "frame-stream"
+   ],
+   "inputs": [
+    "text",
+    "surroundings"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "reactivity",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "A wearer types what should change in their passthrough view, such as 'blur all people' or 'make me laugh', and an LLM writes a pixel shader that is applied live to the matching region of the camera image.",
+   "description_zh": "佩戴者写下希望透视画面发生的变化，比如“把所有人都模糊掉”或“让我笑一笑”，大语言模型随即编写像素着色器，实时作用在摄像头画面中对应的区域上。",
+   "idea_en": "Prompted, real-time edits of what a person sees, including end-goal prompts about mood or behaviour, make perception itself a generated and manipulable condition.",
+   "idea_zh": "通过提示实时改写人所看到的画面，甚至可以用关于情绪或行为的“目标式”提示，让感知本身成为可生成、可操控的条件。",
+   "method": "An LLM (GPT-5.2 per the paper) interprets the prompt, an object detector (YOLO) localises targets in the passthrough view, and the generated shader is injected into the passthrough pipeline; an exploratory study with 21 HCI researchers mapped application domains and prompt patterns.",
+   "method_zh": "由大语言模型（论文中为 GPT-5.2）理解提示，目标检测器（YOLO）在透视画面中定位目标，再把生成的着色器注入透视渲染管线；一项由 21 位 HCI 研究者参与的探索性研究梳理了应用领域与提示方式。",
+   "keywords": [
+    "passthrough manipulation",
+    "LLM-generated shaders",
+    "perceptual augmentation",
+    "end-goal prompts"
+   ],
+   "images": [
+    "https://arxiv.org/html/2610.19998v1/teaser.jpeg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2610.19998",
+    "doi": "",
+    "arxiv": "2610.19998",
+    "venue": "UIST 2026",
+    "title": "ShadAR: Real-time Prompting On-demand Visual Augmentation in Augmented Reality"
+   },
+   "source_url": "https://arxiv.org/abs/2610.19998",
+   "collections": [
+    "uist",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "tareq-alsaleh--xara",
+   "creator_ids": [
+    "tareq-alsaleh"
+   ],
+   "title": "XARA",
+   "year": 2026,
+   "date": "2026-10-15",
+   "field": "genxr",
+   "sub": "in-situ",
+   "also": [
+    "behavioral"
+   ],
+   "modalities": [
+    "scene-3d",
+    "behavior"
+   ],
+   "inputs": [
+    "speech",
+    "sketch"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "control",
+    "situational-reach"
+   ],
+   "kind": "research",
+   "description": "Inside an immersive Unity scene, a transportation researcher speaks commands such as adding cars, pedestrians or street furniture and setting their movement, and an LLM pipeline builds and saves the driving, crossing or street-design scenario for a behavioural experiment.",
+   "description_zh": "交通研究者置身沉浸式 Unity 场景中，用语音下达指令，例如添加车辆、行人或街道设施并设定它们的运动；大语言模型流程据此搭建并保存驾驶、过街或街道设计情境，供行为实验使用。",
+   "idea_en": "Voice-driven generation of experiment scenes aimed at behavioural researchers themselves, with saved scenes that can be rerun as conditions.",
+   "idea_zh": "面向行为研究者本人的语音式实验场景生成，场景可以保存并作为实验条件反复使用。",
+   "method": "A dual-LLM architecture transcribes speech, translates it into structured commands and applies them to a Unity XR scene in real time (object creation, spatial manipulation, animation, persistence), with hand gestures for placement; described as a system paper without a user study.",
+   "method_zh": "双大语言模型架构先转写语音，再把它转成结构化指令并实时作用于 Unity XR 场景（创建物体、空间操作、动画控制与场景保存），并用手势辅助摆放；论文为系统描述，尚无用户研究。",
+   "keywords": [
+    "experiment generation",
+    "transportation research",
+    "voice commands",
+    "Unity",
+    "LLM agents"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=A6PlUJB6QJU"
+   },
+   "images": [
+    "https://arxiv.org/html/2610.21067v1/transform5.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2610.21067",
+    "doi": "",
+    "arxiv": "2610.21067",
+    "venue": "arXiv 2026",
+    "title": "XARA: A Multimodal Agentic System for eXtended Reality Experiment Generation"
+   },
+   "source_url": "https://arxiv.org/abs/2610.21067",
+   "collections": [
+    "trend-in-situ-xr",
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "xianhao-carton-liu--generative-proxy",
+   "creator_ids": [
+    "xianhao-carton-liu",
+    "mar-gonzalez-franco"
+   ],
+   "title": "Generative Proxy",
+   "year": 2026,
+   "date": "2026-08-10",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "scene-3d"
+   ],
+   "inputs": [
+    "spec",
+    "surroundings",
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "adaptation"
+   ],
+   "kind": "research",
+   "description": "On lightweight AR glasses without a wide display or hand and eye tracking, the system generates proxy interfaces: virtual stand-ins for distant, cluttered or occluded real objects that the wearer operates with the device's limited inputs, tailored to the scene, the task and the device.",
+   "description_zh": "在没有大视场显示、也没有手部和眼动追踪的轻量 AR 眼镜上，系统会生成代理界面：为远处、杂乱或被遮挡的真实物体生成虚拟替身，佩戴者用设备有限的输入方式就能操作它们，界面会按场景、任务和设备量身生成。",
+   "idea_en": "The wearer acts on a generated abstraction of the room rather than on the room itself, so which parts of reality become controllable, and how, is decided per device and intent by a generator.",
+   "idea_zh": "佩戴者操作的是房间的生成式抽象，而不是房间本身；现实中哪些部分可被操控、以何种方式操控，由生成器按设备和意图来决定。",
+   "method": "Generation is a constrained synthesis over three specifications (scene, intent, device capabilities) that enumerates valid proxy UIs; candidates are ranked by semantic and articulatory distance from direct-manipulation theory, combining rule-based costs with LLM ergonomic scores and an LLM coherence check on the shortlist. Prototypes ran on Apple Vision Pro, Meta Quest 3, Meta Ray-Ban Display and Project Aria with watch, phone and Neural Band input; 12 XR developers and researchers rated the generated UIs positively.",
+   "method_zh": "生成过程被表述为基于三类规格（场景、意图、设备能力）的约束合成，先枚举出有效的代理界面；再依据直接操纵理论中的语义距离与动作距离对候选排序，排序结合了基于规则的代价、大语言模型给出的人机工效评分，以及对入围候选的大语言模型一致性检查。原型运行于 Apple Vision Pro、Meta Quest 3、Meta Ray-Ban Display 和 Project Aria，并支持手表、手机与 Neural Band 输入；12 位 XR 开发者与研究者对生成界面给出了正面评价。",
+   "keywords": [
+    "proxy-based interfaces",
+    "AR glasses",
+    "constrained UI synthesis",
+    "LLM ranking",
+    "device-adaptive interfaces"
+   ],
+   "images": [
+    "https://arxiv.org/html/2608.08971v1/figs/Teaser.png"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=N1YcwAxcPaQ"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2608.08971",
+    "doi": "",
+    "arxiv": "2608.08971",
+    "venue": "UIST 2026",
+    "title": "Generative Proxy: Synthesizing Proxy-Based Interfaces for Real-World Interaction Across AR Glasses"
+   },
+   "source_url": "https://arxiv.org/abs/2608.08971",
+   "collections": [
+    "uist",
+    "trend-in-situ-xr"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "Meta Horizon Create and Horizon Studio, agentic mobile-game creation (2026-09-24)",
+   "why": "Folded into meta--horizon-studio-genai, whose method already records the September 2026 repositioning as a browser tool for mobile games.",
+   "link": "https://developers.meta.com/blog/meta-connect-recap-horizon-create-and-horizon-studio/",
+   "found_via": "meta",
+   "status": "duplicate"
+  },
+  {
+   "name": "SPECS consumer AR glasses and SPECS Intelligence (2026-09-16)",
+   "why": "Device and anticipatory assistant; the launch Lenses (Harry Potter, Apollo 11, NBA) are authored, not generated. Belongs to infra/devices.",
+   "link": "https://newsroom.snap.com/making-computing-more-human-with-specs",
+   "found_via": "snap",
+   "status": "off_topic"
+  },
+  {
+   "name": "Android XR intelligent eyewear with Gemini (Google I/O 2026-05-19)",
+   "why": "Audio and display glasses with an assistant; belongs to infra/devices.",
+   "link": "https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/",
+   "found_via": "google",
+   "status": "off_topic"
+  },
+  {
+   "name": "visionOS 27: Reality Composer Pro 3 generative asset creation (WWDC26)",
+   "why": "Apple's developer guide mentions 'generative intelligence to help with asset creation' in one line; no demo or documentation of the feature as of 2026-10-17.",
+   "link": "https://developer.apple.com/wwdc26/guides/visionos/",
+   "found_via": "apple",
+   "status": "no_media"
+  },
+  {
+   "name": "Snap Lens Fest 2025: Realistic StyleGen, Enhanced FaceGen, AI Clips",
+   "why": "Phone Lenses rather than glasses or headsets; outside genxr scope.",
+   "link": "https://newsroom.snap.com/lens-fest-2025",
+   "found_via": "snap",
+   "status": "off_topic"
+  },
+  {
+   "name": "Guided Reality (Zhao et al., UIST 2025)",
+   "why": "LLM- and vision-model-composed AR task guidance; overlays instructions rather than generating situations. Generative Tutorial (muzhe-wu--generative-tutorial) covers generated in-situ guidance.",
+   "link": "https://arxiv.org/abs/2508.03547",
+   "found_via": "ryo-suzuki",
+   "status": "off_topic"
+  },
+  {
+   "name": "Augmented Physics (Gunturu et al., UIST 2024)",
+   "why": "Tablet AR that turns textbook diagrams into physics simulations via segmentation; not headset or glasses generation.",
+   "link": "https://doi.org/10.1145/3654777.3676392",
+   "found_via": "ryo-suzuki",
+   "status": "off_topic"
+  },
+  {
+   "name": "Scene2Hap (Jingu et al., CHI 2026)",
+   "why": "Generates scene-wide haptics for VR with multimodal LLMs; haptics has no output modality in the taxonomy.",
+   "link": "https://arxiv.org/abs/2504.19611",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Reality Copilot (Yu et al., 2026)",
+   "why": "Voice-first LMM assistant in MR that can generate 3D content; backend code on GitHub but no demo video or project page found.",
+   "link": "https://arxiv.org/abs/2602.11025",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "SyncSpace (Zhang et al., 2026)",
+   "why": "Layout-conditioned Gaussian-splat reskinning of a room in MR; 2-page abstract, no video found as of 2026-10-17.",
+   "link": "https://arxiv.org/abs/2607.10050",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Say It, See It (ISMAR 2025 UNAI workshop)",
+   "why": "Evaluation of speech-to-3D methods in AR; workshop paper without video.",
+   "link": "https://arxiv.org/abs/2508.12498",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Generative Augmented Reality: Paradigms, Technologies, and Future Applications (2025)",
+   "why": "Unreviewed survey preprint; below the salience bar next to the agenda-core GenAI-meets-XR review (Ning et al. 2026).",
+   "link": "https://arxiv.org/abs/2511.16783",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "'GPT-6 Astra' restyles a room as Studio Ghibli on Apple Vision Pro (Wenbo Tao, 2026-09-27)",
+   "why": "Only X demo posts; the 'Astra' tool has no official page or documentation as of 2026-10-17 (web search found none).",
+   "link": "https://x.com/wenbq_me/status/2104174834276061569",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Astra turns a home scan into an editable scene with a portal (Bilawal Sidhu, 2026-09-07)",
+   "why": "Same undocumented 'Astra' tool; third-party X post only.",
+   "link": "https://x.com/bilawalsidhu/status/2096810261730505075",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Vibe-coded AR game inside Quest 3 with Gemini 3 (Jon Barron, 2025-11-18)",
+   "why": "Covered by ruofei-du--vibe-coding-xr (same Gemini-to-WebXR pattern).",
+   "link": "https://x.com/jon_barron/status/1990909319701758157",
+   "found_via": "google",
+   "status": "duplicate"
+  },
+  {
+   "name": "Moon Story / Scientific and Fantastical (Landay lab, CHI 2024)",
+   "why": "Mobile AR story app; only the dialogue is generated, scenes are authored.",
+   "link": "https://www.youtube.com/watch?v=ZpKhhMcS8Jw",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "VideoCraft (Boyu Li, HKUST-GZ, 2025)",
+   "why": "MR layout plus video-to-video concept videos; still no paper, project page or venue found (not in the CHI 2026 or UIST 2026 programs).",
+   "link": "https://www.youtube.com/watch?v=uvozXgniRok",
+   "found_via": "ryo-suzuki",
+   "status": "no_media"
+  },
+  {
+   "name": "Nevatars (Andy Serkis, Venice Immersive 2026)",
+   "why": "Added as andy-serkis--nevatars.",
+   "link": "https://www.labiennale.org/en/cinema/2026/venice-immersive/nevatars",
+   "found_via": "google",
+   "status": "duplicate"
+  },
+  {
+   "name": "EPIC: Epipolar-Consistent 360° Immersive Stereo Video Generation (2026)",
+   "why": "Belongs to video/immersive.",
+   "link": "https://arxiv.org/abs/2609.38689",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "LiveEdit: real-time diffusion-based streaming video editing (ECCV 2026)",
+   "why": "Belongs to video/realtime.",
+   "link": "https://arxiv.org/abs/2606.26740",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Meta Horizon Worlds AI NPCs (generative NPC tools in the Horizon editor)",
+   "why": "Added as meta--horizon-worlds-llm-npcs (lead from the agents batch).",
+   "link": "https://developers.meta.com/horizon-worlds/",
+   "found_via": "meta",
+   "status": "duplicate"
+  },
+  {
+   "name": "visionOS 27 spatial scenes from panoramas (WWDC 2026-06-08)",
+   "why": "A one-line extension of Spatial Scenes ('turn panoramas into spatial scenes and use them as personal Environments'), shown only as a press-release image; belongs as a status edit to worlds-3d apple--spatial-scenes.",
+   "link": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+   "found_via": "apple",
+   "status": "duplicate"
+  },
+  {
+   "name": "Zillow Immersive (Spatial Scene API)",
+   "why": "An app built on Apple's Spatial Scene API for listings; a wrapper around Apple's model rather than its own generation.",
+   "link": "https://www.apple.com/newsroom/2025/06/visionos-26-introduces-powerful-new-spatial-experiences-for-apple-vision-pro/",
+   "found_via": "apple",
+   "status": "off_topic"
+  },
+  {
+   "name": "Runway Continuum (Runway Labs, 2026-10-01)",
+   "why": "A desktop operating-system research app built on real-time video interfaces (Portals, Visual Thinking, Responsive Video Interfaces, Interactive Worlds) and powered by interface world models such as Solaris; screen-based, not XR. At most a world-models or video/realtime lead. Official video K7Q7FESRHJY.",
+   "link": "https://www.youtube.com/watch?v=K7Q7FESRHJY",
+   "found_via": "runway",
+   "status": "off_topic"
+  },
+  {
+   "name": "TranslateAR (Kim et al., UIST 2026 demo)",
+   "why": "Regenerates foreign-language text surfaces in the live camera view while preserving their style, using a slow generative pass after an instant overlay; phone AR, so outside genxr's headset/glasses scope. Demo video rvwnNaRfRxA.",
+   "link": "https://www.youtube.com/watch?v=rvwnNaRfRxA",
+   "found_via": "jaewook-lee",
+   "status": "off_topic"
+  },
+  {
+   "name": "ReRoom (Yang et al., 2026)",
+   "why": "MR in-situ room-layout generation on Quest 3 with a skill-guided layout agent; no video or project page yet.",
+   "link": "https://arxiv.org/abs/2609.03596",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Foresee (Sun et al., 2026)",
+   "why": "AR guidance with generated consequence previews (image editing plus video generation), N=24; no video yet. Close to muzhe-wu--generative-tutorial.",
+   "link": "https://arxiv.org/abs/2610.16469",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "GestuProp (Yao et al., CHI 2026)",
+   "why": "VR prop generation driven by co-speech gestures (N=14); no video found.",
+   "link": "https://doi.org/10.1145/3772318.3790491",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Empowered XR through Generative AI: Balancing Superpowers and Risks (Tang et al., CHI 2026)",
+   "why": "Taxonomy of LLM-enabled XR 'superpowers' and risks from 135 works, with a presentation video (azB-6roN0no); a review, candidate paper work for a later round.",
+   "link": "https://doi.org/10.1145/3772318.3791307",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "MiXR (Faruqi et al., DIS 2026 demo)",
+   "why": "AR remixing of parts harvested from real objects into fabrication-ready 3D models via generative AI; demo abstract only, no video found.",
+   "link": "https://programs.sigchi.org/dis/2026",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "'From remembering to shaping' (Yang et al., DIS 2026)",
+   "why": "Two-person collaborative VR in which GenAI instantiates shared memories of heritage sites as 3D artifacts; no video found.",
+   "link": "https://programs.sigchi.org/dis/2026",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "AgentHands (Qian, Du et al., Google XR, CHI 2026; blog 2026-08-25)",
+   "why": "LLM-generated, spatially grounded hand gestures for conversational agents in XR, with official mp4s; belongs to avatars/nonverbal (also genxr); passed to the avatars agent.",
+   "link": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
+   "found_via": "ruofei-du",
+   "status": "off_topic"
+  },
+  {
+   "name": "Training Under Pressure (Wei & Zhang, UIST 2026)",
+   "why": "Multi-stressor VR public-speaking training with AI-generated adversarial Q&A, N=12; belongs to behavioral/training.",
+   "link": "https://uist.acm.org/2026/program/",
+   "found_via": "lei-zhang",
+   "status": "off_topic"
+  },
+  {
+   "name": "Signals of AI Hallucination (Yang et al., ISMAR 2026 / TVCG)",
+   "why": "Hallucination-aware cues for embodied conversational agents in VR; belongs to agents or avatars.",
+   "link": "https://arxiv.org/abs/2609.28812",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Mirroring the Past: Ancestral Digital Self (Gong et al., 2026)",
+   "why": "AI-generated self-resembling pedagogical agent in prerecorded videos (N=36); flat video, belongs to behavioral/genai-research.",
+   "link": "https://arxiv.org/abs/2608.09719",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Quantum Cinema (Zhang et al., 2026)",
+   "why": "Browser-based cinematic tour of quantum hardware using World Labs-generated worlds; not XR, an application of worlds-3d tools.",
+   "link": "https://arxiv.org/abs/2606.17102",
+   "found_via": "world-labs",
+   "status": "off_topic"
+  },
+  {
+   "name": "Masterpiece X in-headset text-to-3D (Quest)",
+   "why": "VR app with prompt-to-3D generation; the company has since pivoted to the desktop WorldEngen editor. Below the salience bar next to figmin-xr--ai-creation-tools.",
+   "link": "https://www.masterpiecex.com/",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "SnapPhysics (Kang et al., ISMAR 2026)",
+   "why": "Single-image 3D reconstruction plus VLM-estimated mass, friction and centre of gravity for physically interactive MR scenes; reconstruction rather than generation, so spatial-4d's boundary. Project page has an AR demo mp4 and YouTube P7vUr-rx83o.",
+   "link": "https://snapphysics-ismar2026.github.io/",
+   "found_via": "arxiv-ismar-2026",
+   "status": "off_topic"
+  },
+  {
+   "name": "Augmenting Human Performance with an XR Agent Learning from Online Behavior and BCI Evidence (Li et al., UIST 2026)",
+   "why": "XR agent that learns from user behaviour and BCI signals; agents field, not generative content in XR.",
+   "link": "https://arxiv.org/abs/2608.30369",
+   "found_via": "arxiv-uist-2026",
+   "status": "off_topic"
+  }
+ ]
+}
