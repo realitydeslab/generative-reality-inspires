@@ -350,12 +350,17 @@ def load_titles_zh(folder: Path, work_ids: set) -> dict:
 
 def classify_leads(leads: list, creators: dict) -> tuple[list, list]:
     names = {re.sub(r"[^a-z]", "", c.get("name", "").lower()) for c in creators.values()}
-    open_, checked, seen = [], [], set()
+    # one lead per name; a later batch that closed it (duplicate / no_media / off_topic) wins over an earlier open copy
+    by_key: dict[str, dict] = {}
     for lead in leads:
         key = re.sub(r"[^a-z]", "", (lead.get("name") or "").lower())
-        if not key or key in seen:
+        if not key:
             continue
-        seen.add(key)
+        if key not in by_key or (by_key[key].get("status", "open") == "open" and lead.get("status", "open") != "open"):
+            by_key[key] = lead
+    open_: list[dict] = []
+    checked: list[dict] = []
+    for key, lead in by_key.items():
         status = "covered" if key in names else lead.get("status", "open")
         (open_ if status == "open" else checked).append({**lead, "status": status})
     return open_, checked
