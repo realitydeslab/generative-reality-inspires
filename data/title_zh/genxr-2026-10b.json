@@ -1,0 +1,38 @@
+{
+ "yichen-chai--generativesurface": {
+  "zh": "GenerativeSurface：生成式 AI 辅助的混合现实三维概念设计语义支架",
+  "src": "translated"
+ },
+ "cheng-chih-tsai--dreamcraft": {
+  "zh": "DreamCraft：VR 沉浸式原型的场景级与物体级生成流程",
+  "src": "translated"
+ },
+ "dohui-lee--hoicraft": {
+  "zh": "HOICraft：基于视觉语言模型的 VR 部件级手物交互现场创作工具",
+  "src": "translated"
+ },
+ "jiayuan-wen--adaptive-generative-music-vr": {
+  "zh": "VR 中的自适应生成音乐：调节沉浸感与表现",
+  "src": "translated"
+ },
+ "yiliu-tang--empowered-xr-genai": {
+  "zh": "生成式 AI 赋能的 XR：在超能力与风险之间权衡",
+  "src": "translated"
+ },
+ "chen-yang--one-word-one-world": {
+  "zh": "“一语一世界”：生成式 AI 驱动的实时 VR 共创",
+  "src": "translated"
+ },
+ "junlong-chen--confabulation-taxonomy": {
+  "zh": "大语言模型辅助沉浸式场景编辑中的虚构现象与感知—现实差距",
+  "src": "translated"
+ },
+ "duotun-wang--visual-genai-mr-survey": {
+  "zh": "混合现实中的视觉生成式 AI 综述",
+  "src": "translated"
+ },
+ "sruti-srinidhi--genassist": {
+  "zh": "GenAssist：交互式提示驱动的 XR 程序生成",
+  "src": "translated"
+ }
+}

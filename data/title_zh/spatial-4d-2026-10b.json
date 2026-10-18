@@ -1,0 +1,34 @@
+{
+ "zhibing-li--ss4d": {
+  "zh": "SS4D 基于结构化时空潜变量的原生 4D 生成",
+  "src": "translated"
+ },
+ "hongyuan-chen--motion-3-to-4": {
+  "zh": "Motion 3-to-4 由三维动作重建实现 4D 合成",
+  "src": "translated"
+ },
+ "jiraphon-yenphraphai--shapegen4d": {
+  "zh": "ShapeGen4D 从视频生成高质量 4D 形状",
+  "src": "translated"
+ },
+ "chen-geng--neurok": {
+  "zh": "NeuROK 生成式 4D 神经物体运动学",
+  "src": "translated"
+ },
+ "liyuan-zhu--world-from-motion": {
+  "zh": "World from Motion 单目视频的生成式动态高斯重建",
+  "src": "translated"
+ },
+ "yuyang-zhao--genxd": {
+  "zh": "GenXD 生成任意三维与 4D 场景",
+  "src": "translated"
+ },
+ "hongxin-zhang--gs-agent": {
+  "zh": "GS-Agent 以生成式仿真构建 4D 物理世界",
+  "src": "translated"
+ },
+ "yihang-luo--4rc": {
+  "zh": "4RC 随时随地条件查询的 4D 重建",
+  "src": "translated"
+ }
+}

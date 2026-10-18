@@ -1,0 +1,218 @@
+{
+ "batch": "infra-2026-10c",
+ "creators": [
+  {
+   "id": "sungnyun-kim",
+   "name": "Sungnyun Kim",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, Kim Jaechul Graduate School of AI, KAIST",
+   "based": "Seoul, South Korea",
+   "bio": "Works with Se-Young Yun at KAIST AI on speech and dialogue models; first author of DyaFDB (2026).",
+   "why": "DyaFDB evaluates full-duplex voice models by letting two of them talk to each other.",
+   "disciplines": [
+    "speech",
+    "ml"
+   ],
+   "links": {
+    "github": "https://github.com/sungnyun"
+   },
+   "role_zh": "韩国科学技术院（KAIST）金在哲人工智能研究生院博士研究者",
+   "bio_zh": "在 KAIST AI 与 Se-Young Yun 合作研究语音与对话模型，DyaFDB（2026）第一作者。",
+   "why_zh": "DyaFDB 让两个全双工语音模型彼此对话，以此评估它们。",
+   "based_zh": "韩国首尔",
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "inworld-ai--unreal-ai-runtime",
+   "creator_ids": [
+    "inworld-ai"
+   ],
+   "title": "Inworld Unreal AI Runtime",
+   "year": 2025,
+   "date": "2025-10-29",
+   "field": "infra",
+   "sub": "realtime-stack",
+   "also": [
+    "agents"
+   ],
+   "modalities": [
+    "dialogue",
+    "speech",
+    "behavior"
+   ],
+   "inputs": [
+    "speech",
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "authoring",
+    "control"
+   ],
+   "kind": "platform",
+   "description": "Inworld's plug-in for Unreal Engine that bundles speech-to-text, LLMs and text-to-speech behind one API key (100+ models from several providers), with a visual graph editor for building pipelines such as speech-to-speech NPC dialogue, NPC and chatbot templates, and built-in logs, traces and cost dashboards.",
+   "description_zh": "Inworld 面向 Unreal Engine 的插件：用一个 API 密钥统一调用语音识别、大语言模型和语音合成（来自多家提供商的 100 多个模型），配有可视化节点图编辑器来搭建语音到语音的 NPC 对话等流水线，并提供 NPC 与聊天机器人模板，以及内置的日志、链路追踪和成本面板。",
+   "idea_en": "The NPC stack becomes a configurable graph with tracing, so one character pipeline can be switched between models and every step logged, the kind of inspection a study needs.",
+   "idea_zh": "NPC 技术栈变成一张可配置、可追踪的流程图：同一个角色流水线可以在不同模型之间切换，每一步都有记录，这正是研究所需要的可检查性。",
+   "method": "Unreal Engine SDK exposing STT, LLM and TTS building blocks through a unified multi-provider API and a node-graph editor, with templates (including Inworld's Character Template) and observability and experimentation tools; a Unity AI Runtime SDK entered early access the same day. It follows Inworld's earlier character engine, which the launch post names as the company's starting point with game developers.",
+   "method_zh": "Unreal Engine SDK，通过统一的多提供商 API 和节点图编辑器提供语音识别、大语言模型与语音合成模块，附带模板（包括 Inworld 的 Character Template）以及可观测性与实验工具；同日推出 Unity AI Runtime SDK 抢先体验版。它承接 Inworld 早期的角色引擎；发布文章称后者是公司服务游戏开发者的起点。",
+   "specs": "100+ models via one API key · Unreal Engine (Unity in early access)",
+   "keywords": [
+    "AI NPC",
+    "Unreal Engine",
+    "STT-LLM-TTS pipeline",
+    "graph editor",
+    "observability"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=XvEx7_jhnBc"
+   },
+   "images": [
+    "https://static.inworld.ai/public-website-2025/images/content/712fb09391e460fe1ce715a9bd49f9f05ebb30b4-1400x788.jpg"
+   ],
+   "source_url": "https://inworld.ai/blog/introducing-unreal-ai-runtime-sdk"
+  },
+  {
+   "id": "sungnyun-kim--dyafdb",
+   "creator_ids": [
+    "sungnyun-kim"
+   ],
+   "title": "DyaFDB",
+   "year": 2026,
+   "date": "2026-10-06",
+   "field": "infra",
+   "sub": "benchmarks",
+   "also": [
+    "audio",
+    "agents"
+   ],
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "responsiveness",
+    "behavioral-plausibility"
+   ],
+   "kind": "dataset",
+   "description": "Instead of testing a full-duplex voice model against recordings or a scripted examiner, DyaFDB has two models talk to each other in assigned roles with shared or conflicting goals (booking a room, guarding a secret), then scores both sides offline with an external judge.",
+   "description_zh": "DyaFDB 不再让全双工语音模型面对录音或照本宣科的考官，而是让两个模型按分配的角色直接对话，目标或一致或冲突（订会议室、守住秘密），再由外部评审在事后为双方打分。",
+   "idea_en": "Turn-taking, overlap and interruption are joint products of two speakers, so a virtual human has to be tested against a partner that reacts; each model reshapes how the other behaves.",
+   "idea_zh": "轮流发言、重叠与打断是两个说话者共同造成的，所以虚拟人必须在会作出反应的对象面前测试；每个模型都会改变对方的表现。",
+   "method": "Two full-duplex models are bridged in an 80 ms lockstep loop, each with a private role brief in a shared situation; four tasks (e.g., information pooling, attack and defence of a secret) as 140 scenarios and 7,560 recorded conversations across six self- and cross-play pairings of PersonaPlex, MiniCPM-o and Raon-SpeechChat, scored by an external judge. Scenarios, role prompts and recording protocols are announced for release.",
+   "method_zh": "用 80 毫秒步进同步的桥接把两个全双工模型连起来，各自拿到一份私密的角色说明，处在同一情境中；共四类任务（如信息汇集、秘密的攻防），140 个场景、7,560 段录制对话，覆盖 PersonaPlex、MiniCPM-o 与 Raon-SpeechChat 的六种自对与互对组合，由外部评审打分。场景、角色提示与录制规程已宣布将公开。",
+   "specs": "4 tasks · 140 scenarios · 7,560 conversations · 80 ms lockstep",
+   "keywords": [
+    "full-duplex evaluation",
+    "dyadic benchmark",
+    "spoken dialogue",
+    "role-play",
+    "turn-taking",
+    "KAIST"
+   ],
+   "video": {
+    "url": "https://dyafdb.github.io/media/dyafdb-promo.mp4"
+   },
+   "images": [
+    "https://dyafdb.github.io/og.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2610.08125",
+    "doi": "",
+    "arxiv": "2610.08125",
+    "venue": "arXiv 2026",
+    "title": "Conversation Is a Two-Body Problem: Dyadic Evaluation of Full-Duplex Dialogue Models"
+   },
+   "source_url": "https://dyafdb.github.io/",
+   "code_url": "https://github.com/sungnyun/dyafdb",
+   "collections": [
+    "trend-full-duplex"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "DyaFDB: Conversation Is a Two-Body Problem (arXiv 2610.08125)",
+   "why": "Added as sungnyun-kim--dyafdb.",
+   "link": "https://dyafdb.github.io/",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Hume Real World VoiceEQ leaderboards",
+   "why": "Same benchmark as RW-Voice-EQ Bench (arXiv 2607.14846, Hugging Face space HumeAI/rw-voice-eq), closed as no_media in infra-2026-10; re-checked 2026-10-18: the arXiv HTML has no figures and there is no video.",
+   "link": "https://huggingface.co/spaces/HumeAI/rw-voice-eq",
+   "found_via": "hume-ai",
+   "status": "no_media"
+  },
+  {
+   "name": "RW-Voice-EQ Bench (Hume AI)",
+   "why": "Closed as no_media in infra-2026-10 under 'RW-Voice-EQ Bench (Hume AI, arXiv 2607.14846)'; still no video or figure as of 2026-10-18.",
+   "link": "https://arxiv.org/abs/2607.14846",
+   "found_via": "hume-ai",
+   "status": "no_media"
+  },
+  {
+   "name": "WorldAuditBench: interactive 3D world auditing with multimodal agents (UCSB / MIT, arXiv 2609.40325)",
+   "why": "Below the salience bar as of 2026-10-18: no venue, no uptake, and the project page shows its demos only through JavaScript, with no video.",
+   "link": "https://ucsb-nlp-chang.github.io/WorldAuditBench/",
+   "found_via": "worlds-3d",
+   "status": "off_topic"
+  },
+  {
+   "name": "ExeWorldBench: code-based executable 3D world modeling (arXiv 2610.15166)",
+   "why": "Still no project page, video or adoption as of 2026-10-18.",
+   "link": "https://arxiv.org/abs/2610.15166",
+   "found_via": "worlds-3d",
+   "status": "no_media"
+  },
+  {
+   "name": "Gemini Omni Flash (conversational video generation and editing)",
+   "why": "Covered by google-deepmind--gemini-omni (video) and the Gemini API work google--gemini-api-video (infra).",
+   "link": "https://ai.google.dev/gemini-api/docs/omni",
+   "found_via": "google",
+   "status": "duplicate"
+  },
+  {
+   "name": "Unity Spark (no-code prompt-to-game)",
+   "why": "Covered by google--playground-unity-spark (infra-2026-10).",
+   "link": "https://www.youtube.com/watch?v=IkcK7aeMw5A",
+   "found_via": "unity",
+   "status": "duplicate"
+  },
+  {
+   "name": "Samsung / Google Android XR glasses (Gentle Monster, Warby Parker)",
+   "why": "Same decision as infra-2026-10: audio-only glasses ship first, so nothing generated is seen; re-check when the display model ships (expected 2027).",
+   "link": "https://www.youtube.com/watch?v=Q7he8vmsEow",
+   "found_via": "samsung",
+   "status": "off_topic"
+  },
+  {
+   "name": "Beyond Monoscopic Viewing: 3DGS quality in VR (2026)",
+   "why": "Triaged in spatial-4d-2026-10 as no_media ('Beyond Monoscopic Viewing: A Study on 3D Gaussian Splatting Quality in VR'): Linköping HMD study, no project page or video.",
+   "link": "https://arxiv.org/abs/2609.38525",
+   "found_via": "trends",
+   "status": "no_media"
+  },
+  {
+   "name": "AMI Labs (Yann LeCun)",
+   "why": "An organisation, not a work: covered in the Resources tab under person--yann-lecun (description and an AMI Labs link). A separate AMI Labs org entry is for the resources batch to decide.",
+   "link": "https://amilabs.xyz/",
+   "found_via": "trends",
+   "status": "duplicate"
+  }
+ ]
+}

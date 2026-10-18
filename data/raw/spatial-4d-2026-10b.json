@@ -1,0 +1,750 @@
+{
+ "batch": "spatial-4d-2026-10b",
+ "creators": [
+  {
+   "id": "zhibing-li",
+   "name": "Zhibing Li",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, The Chinese University of Hong Kong",
+   "based": "Hong Kong, CN",
+   "bio": "Researcher in Dahua Lin's group at CUHK and co-first author of SS4D (SIGGRAPH Asia 2025), with Shanghai AI Laboratory.",
+   "why": "SS4D is a 4D generator trained directly on 4D data that turns a monocular video into a moving 3D object.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://lizb6626.github.io/"
+   },
+   "role_zh": "香港中文大学博士研究者",
+   "bio_zh": "香港中文大学林达华课题组研究者，与上海人工智能实验室合作完成的 SS4D（SIGGRAPH Asia 2025）共同第一作者。",
+   "why_zh": "SS4D 是直接在 4D 数据上训练的生成器，能把单目视频变成会动的三维物体。",
+   "based_zh": "中国香港",
+   "connected_to": [
+    "shanghai-ai-lab"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "hongyuan-chen",
+   "name": "Hongyuan Chen",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, Westlake University",
+   "based": "Hangzhou, CN",
+   "bio": "Researcher in Anpei Chen's group at Westlake University and first author of Motion 3-to-4 (CVPR 2026).",
+   "why": "Motion 3-to-4 separates shape from motion, so a video can animate a 3D mesh with consistent geometry from all sides.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://hyuanchen.github.io/"
+   },
+   "role_zh": "西湖大学研究者",
+   "bio_zh": "西湖大学 Anpei Chen 课题组研究者，Motion 3-to-4（CVPR 2026）第一作者。",
+   "why_zh": "Motion 3-to-4 把形状与运动分开处理，一段视频就能驱动三维网格，且各个角度的几何保持一致。",
+   "based_zh": "中国杭州",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "jiraphon-yenphraphai",
+   "name": "Jiraphon Yenphraphai",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, Purdue University",
+   "based": "West Lafayette, US",
+   "bio": "Purdue PhD researcher (with Raymond A. Yeh) and first author of ShapeGen4D (ICLR 2026), carried out with Snap Research.",
+   "why": "ShapeGen4D generates mesh sequences from video that can change volume and topology, cases that rigs cannot capture.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://domejiraphon.github.io/"
+   },
+   "role_zh": "普渡大学博士研究者",
+   "bio_zh": "普渡大学博士研究者（导师 Raymond A. Yeh），与 Snap Research 合作完成的 ShapeGen4D（ICLR 2026）第一作者。",
+   "why_zh": "ShapeGen4D 能从视频生成体积和拓扑都会变化的网格序列，而这是骨骼绑定无法表现的。",
+   "based_zh": "美国西拉法叶",
+   "connected_to": [
+    "snap"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "chen-geng",
+   "name": "Chen Geng",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, Stanford University",
+   "based": "Stanford, US",
+   "bio": "Researcher in Jiajun Wu's group at Stanford and first author of NeuROK (CVPR 2026).",
+   "why": "NeuROK turns a scanned static object into one that deforms plausibly when acted on, without physical annotations.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://chen-geng.com"
+   },
+   "role_zh": "斯坦福大学博士研究者",
+   "bio_zh": "斯坦福大学 Jiajun Wu 课题组研究者，NeuROK（CVPR 2026）第一作者。",
+   "why_zh": "NeuROK 能把扫描得到的静态物体变成受力时会合理形变的物体，无需物理标注。",
+   "based_zh": "美国斯坦福",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "liyuan-zhu",
+   "name": "Liyuan Zhu",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, Stanford University",
+   "based": "Stanford, US",
+   "bio": "Stanford PhD researcher (with Iro Armeni and Gordon Wetzstein) and first author of World from Motion (NeurIPS 2026), carried out with NVIDIA.",
+   "why": "World from Motion uses a video model to fill in and correct 4D Gaussian scenes reconstructed from a single video.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://www.zhuliyuan.net/"
+   },
+   "role_zh": "斯坦福大学博士研究者",
+   "bio_zh": "斯坦福大学博士研究者（与 Iro Armeni、Gordon Wetzstein 合作），与 NVIDIA 合作完成的 World from Motion（NeurIPS 2026）第一作者。",
+   "why_zh": "World from Motion 借助视频模型补全并修正从单段视频重建的 4D 高斯场景。",
+   "based_zh": "美国斯坦福",
+   "connected_to": [
+    "nvidia"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "yuyang-zhao",
+   "name": "Yuyang Zhao",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, National University of Singapore",
+   "based": "Singapore, SG",
+   "bio": "Researcher in Gim Hee Lee's group at NUS and first author of GenXD (ICLR 2025), developed with Microsoft.",
+   "why": "GenXD trains one model on both 3D and 4D data and released the CamVid-30K dataset of real-world 4D scenes.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {},
+   "role_zh": "新加坡国立大学研究者",
+   "bio_zh": "新加坡国立大学 Gim Hee Lee 课题组研究者，与微软合作完成的 GenXD（ICLR 2025）第一作者。",
+   "why_zh": "GenXD 用同一个模型同时学习三维与 4D 数据，并发布了真实世界 4D 场景数据集 CamVid-30K。",
+   "based_zh": "新加坡",
+   "connected_to": [
+    "microsoft"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "hongxin-zhang",
+   "name": "Hongxin Zhang",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, UMass Amherst",
+   "based": "Amherst, US",
+   "bio": "Researcher in Chuang Gan's Embodied AGI lab at UMass Amherst, also affiliated with Genesis AI, and first author of GS-Agent (2026).",
+   "why": "GS-Agent builds 4D worlds as physics simulations written by LLM agents, so they stay physically consistent and can be re-run.",
+   "disciplines": [
+    "ml",
+    "robotics"
+   ],
+   "links": {
+    "site": "https://icefoxzhx.github.io/"
+   },
+   "role_zh": "麻省大学阿默斯特分校博士研究者",
+   "bio_zh": "麻省大学阿默斯特分校 Chuang Gan 具身智能实验室研究者，同时隶属 Genesis AI，GS-Agent（2026）第一作者。",
+   "why_zh": "GS-Agent 让大语言模型智能体把 4D 世界写成物理仿真，因而物理上保持一致，也可以重复运行。",
+   "based_zh": "美国阿默斯特",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "yihang-luo",
+   "name": "Yihang Luo",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, S-Lab, Nanyang Technological University",
+   "based": "Singapore, SG",
+   "bio": "Researcher in Chen Change Loy's group at NTU's S-Lab and first author of 4RC (ICML 2026).",
+   "why": "4RC reconstructs the dense geometry and motion of a dynamic scene from a monocular video in one forward pass.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://yihangluo.com/"
+   },
+   "role_zh": "南洋理工大学 S-Lab 博士研究者",
+   "bio_zh": "南洋理工大学 S-Lab 吕健勤（Chen Change Loy）课题组研究者，4RC（ICML 2026）第一作者。",
+   "why_zh": "4RC 一次前向即可从单目视频重建动态场景的稠密几何与运动。",
+   "based_zh": "新加坡",
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "zhibing-li--ss4d",
+   "creator_ids": [
+    "zhibing-li",
+    "shanghai-ai-lab"
+   ],
+   "title": "SS4D",
+   "year": 2025,
+   "date": "2025-12-16",
+   "field": "spatial-4d",
+   "sub": "generative-4d-objects",
+   "modalities": [
+    "dynamic-4d"
+   ],
+   "inputs": [
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "Native 4D generative model from CUHK and Shanghai AI Laboratory that turns a single monocular video of a moving object into a dynamic 3D object, trained directly on 4D data instead of optimising a 3D or video model for each object. Code and weights are MIT-licensed.",
+   "description_zh": "香港中文大学与上海人工智能实验室的原生 4D 生成模型：把一段运动物体的单目视频直接转换为动态三维物体；它直接在 4D 数据上训练，而不是针对每个物体去优化三维或视频模型。代码与权重以 MIT 许可证开放。",
+   "idea_en": "A phone video of a moving object becomes a 4D asset viewable from any side in one model pass, instead of hours of per-object optimisation.",
+   "idea_zh": "手机拍下的运动物体视频，经一次模型推理就能变成可从任意角度观看的 4D 资产，不必再为每个物体花数小时优化。",
+   "method": "Extends a pretrained single-image-to-3D generator with structured spacetime latents: dedicated temporal layers reason across frames, factorised 4D convolutions and temporal downsampling compress long sequences, and training is made robust to occlusion.",
+   "method_zh": "在预训练的单图生三维生成器上加入结构化时空潜变量：专门的时间层跨帧推理，分解式 4D 卷积与时间下采样压缩长序列，训练策略增强对遮挡的鲁棒性。",
+   "specs": "MIT code and weights",
+   "keywords": [
+    "video-to-4D",
+    "native 4D generation",
+    "structured latents",
+    "dynamic 3D object"
+   ],
+   "video": {
+    "url": "https://lizb6626.github.io/SS4D/static/videos/ss4d_demo_video.mp4"
+   },
+   "images": [
+    "https://lizb6626.github.io/SS4D/static/images/overview.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2512.14284",
+    "arxiv": "2512.14284",
+    "venue": "SIGGRAPH Asia 2025 (ACM TOG)",
+    "title": "SS4D: Native 4D Generative Model via Structured Spacetime Latents"
+   },
+   "source_url": "https://lizb6626.github.io/SS4D/",
+   "code_url": "https://github.com/Lizb6626/SS4D",
+   "collections": [
+    "siggraph",
+    "trend-4d-generation",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "hongyuan-chen--motion-3-to-4",
+   "creator_ids": [
+    "hongyuan-chen"
+   ],
+   "title": "Motion 3-to-4",
+   "year": 2026,
+   "date": "2026-01-20",
+   "field": "spatial-4d",
+   "sub": "generative-4d-objects",
+   "modalities": [
+    "dynamic-4d",
+    "mesh"
+   ],
+   "inputs": [
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Westlake University feed-forward model that turns a monocular video of a moving object, plus an optional 3D mesh of it, into an animated mesh: it generates or takes the shape once and then reconstructs per-frame vertex motion, which keeps the geometry consistent from every side. Code is public.",
+   "description_zh": "西湖大学的前馈模型：输入一段运动物体的单目视频（可选再加一个该物体的三维网格），输出动画网格；它只生成或读取一次形状，再逐帧重建顶点运动，因此从任何角度看几何都保持一致。代码已公开。",
+   "idea_en": "Separating what an object is from how it moves lets any video of a motion animate a given 3D asset.",
+   "idea_zh": "把“物体是什么”和“它怎么动”分开，任何一段动作视频都能拿来驱动给定的三维资产。",
+   "method": "Decomposes 4D synthesis into static 3D shape generation and motion reconstruction: on a canonical reference mesh, a compact motion latent predicts per-frame vertex trajectories, with a frame-wise transformer that handles sequences of varying length.",
+   "method_zh": "把 4D 合成拆分为静态三维形状生成与动作重建：在标准参考网格上，用紧凑的动作潜变量预测逐帧顶点轨迹，逐帧 Transformer 可处理不同长度的序列。",
+   "keywords": [
+    "video-to-4D",
+    "animated mesh",
+    "feed-forward",
+    "motion reconstruction"
+   ],
+   "video": {
+    "url": "https://motion3-to-4.github.io/static/videos/animation/fox.mp4"
+   },
+   "images": [
+    "https://motion3-to-4.github.io/static/images/motion324.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2601.14253",
+    "arxiv": "2601.14253",
+    "venue": "CVPR 2026",
+    "title": "Motion 3-to-4: 3D Motion Reconstruction for 4D Synthesis"
+   },
+   "source_url": "https://motion3-to-4.github.io/",
+   "code_url": "https://github.com/Inception3D/Motion324",
+   "collections": [
+    "cvpr",
+    "trend-4d-generation"
+   ]
+  },
+  {
+   "id": "jiraphon-yenphraphai--shapegen4d",
+   "creator_ids": [
+    "jiraphon-yenphraphai",
+    "snap"
+   ],
+   "title": "ShapeGen4D",
+   "year": 2025,
+   "date": "2025-10-07",
+   "field": "spatial-4d",
+   "sub": "generative-4d-objects",
+   "modalities": [
+    "dynamic-4d",
+    "mesh"
+   ],
+   "inputs": [
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "persistence"
+   ],
+   "kind": "research",
+   "description": "Snap Research model (with Purdue and KAUST) that generates a textured mesh sequence end to end from a monocular video, capturing non-rigid motion, volume changes and even changes of topology without per-frame optimisation. No code had been released as of October 2026.",
+   "description_zh": "Snap Research（与普渡大学、阿卜杜拉国王科技大学合作）的模型：从单目视频端到端生成带纹理的网格序列，能捕捉非刚性运动、体积变化乃至拓扑变化，无需逐帧优化。截至 2026 年 10 月未公开代码。",
+   "idea_en": "Objects that stretch, split or merge can be lifted from video into 4D, the cases where rig-based animation breaks down.",
+   "idea_zh": "会拉伸、分裂或合并的物体也能从视频提升为 4D，而这些正是骨骼动画应付不了的情形。",
+   "method": "Adapts a large pretrained 3D generator to video with temporal attention over all frames, time-aware point sampling and 4D latent anchoring for consistent geometry and texture, and noise shared across frames for stability.",
+   "method_zh": "在大型预训练三维生成器上加入覆盖全部帧的时间注意力、时间感知的点采样与 4D 潜变量锚定，以保持几何和纹理一致，并在各帧之间共享噪声以提高稳定性。",
+   "keywords": [
+    "video-to-4D",
+    "mesh sequence",
+    "topology change",
+    "Snap Research"
+   ],
+   "video": {
+    "url": "https://shapegen4d.github.io/assets/teaser5.mp4"
+   },
+   "images": [
+    "https://shapegen4d.github.io/assets/method_v4.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2510.06208",
+    "arxiv": "2510.06208",
+    "venue": "ICLR 2026",
+    "title": "ShapeGen4D: Towards High Quality 4D Shape Generation from Videos"
+   },
+   "source_url": "https://shapegen4d.github.io/",
+   "collections": [
+    "ml-conf",
+    "trend-4d-generation"
+   ]
+  },
+  {
+   "id": "chen-geng--neurok",
+   "creator_ids": [
+    "chen-geng"
+   ],
+   "title": "NeuROK",
+   "year": 2026,
+   "date": "2026-05-28",
+   "field": "spatial-4d",
+   "sub": "generative-4d-objects",
+   "modalities": [
+    "dynamic-4d"
+   ],
+   "inputs": [
+    "multi-view",
+    "action"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "reactivity"
+   ],
+   "kind": "research",
+   "description": "Stanford model that turns a static 3D object, including one scanned with a smartphone, into an interactable 4D asset that deforms plausibly under a given initial physical condition, without physical annotations or category-specific assumptions; the demos make objects in scanned offices and kitchens respond to interaction.",
+   "description_zh": "斯坦福大学的模型：把静态三维物体（包括用智能手机扫描的物体）变成可交互的 4D 资产，在给定的初始物理条件下产生合理的形变，不需要物理标注，也不对物体类别做结构假设；演示中，扫描得到的办公室和厨房里的物体都能对交互做出反应。",
+   "idea_en": "A scanned room can be made touchable: its objects bend and wobble plausibly when acted on, without a hand-built physics rig for each.",
+   "idea_zh": "扫描下来的房间也能“摸得着”：物体被作用时会合理地弯曲、晃动，而不必为每件物体手工搭建物理装置。",
+   "method": "A transformer encoder-decoder trained on a curated large-scale 4D dataset learns a latent space of an object's possible deformation states and a decoder from latent to deformed shape; dynamics are then simulated in that low-dimensional latent space with Lagrangian mechanics, solved as an ODE.",
+   "method_zh": "在大规模整理的 4D 数据集上训练 Transformer 编码—解码器，学习物体所有可能形变状态的潜空间，以及从潜变量到形变形状的解码器；随后从拉格朗日力学出发，在这一低维潜空间中以常微分方程求解来模拟动力学。",
+   "keywords": [
+    "neural simulation",
+    "4D dynamics",
+    "Lagrangian mechanics",
+    "interactive assets"
+   ],
+   "video": {
+    "url": "https://chen-geng.com/neurok/static/videos/demos/office2.mp4"
+   },
+   "images": [
+    "https://chen-geng.com/neurok/static/og-card.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2605.30347",
+    "arxiv": "2605.30347",
+    "venue": "CVPR 2026",
+    "title": "NeuROK: Generative 4D Neural Object Kinematics"
+   },
+   "source_url": "https://chen-geng.com/neurok",
+   "collections": [
+    "cvpr",
+    "trend-4d-generation"
+   ]
+  },
+  {
+   "id": "liyuan-zhu--world-from-motion",
+   "creator_ids": [
+    "liyuan-zhu",
+    "nvidia"
+   ],
+   "title": "World from Motion",
+   "year": 2026,
+   "date": "2026-07-01",
+   "field": "spatial-4d",
+   "sub": "generative-4d-scenes",
+   "modalities": [
+    "dynamic-4d",
+    "splats"
+   ],
+   "inputs": [
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "persistence",
+    "perceptual-realism"
+   ],
+   "kind": "research",
+   "description": "NVIDIA and Stanford method that turns an ordinary monocular video of a dynamic scene, such as a street, a store or a dancer, into a dynamic 3D Gaussian scene that can be rendered from new viewpoints: a video model conditioned on the initial reconstruction fills in unseen regions and fixes artefacts, and its output is distilled back into one consistent 4D representation. The project page includes a browser viewer of the results.",
+   "description_zh": "NVIDIA 与斯坦福大学的方法：把一段普通的动态场景单目视频（例如街道、商店或舞者）转换为可从新视角渲染的动态三维高斯场景；以初始重建为条件的视频模型负责补全看不到的区域、修正瑕疵，其输出再蒸馏回同一个一致的 4D 表示。项目主页提供了可在浏览器中查看结果的查看器。",
+   "idea_en": "A single handheld clip can become a walk-around 4D scene, with the unseen sides filled in by a video model rather than left as holes.",
+   "idea_zh": "一段手持拍摄的视频就能变成可以绕着走的 4D 场景，看不到的那一面由视频模型补上，而不是留下空洞。",
+   "method": "A video generator is conditioned on dense pixel-aligned renderings of appearance, geometry and 3D scene motion along input and target camera paths; trained on aligned multi-view video pairs with simulated monocular-reconstruction artefacts, its generations for new viewpoints are distilled into a single dynamic 3DGS.",
+   "method_zh": "视频生成器以沿输入与目标相机路径渲染的外观、几何和三维场景运动等稠密像素对齐图为条件；用带有模拟单目重建瑕疵的对齐多视角视频对训练，再把它为新视角生成的画面蒸馏进同一个动态 3DGS。",
+   "keywords": [
+    "generative reconstruction",
+    "dynamic Gaussian splatting",
+    "video prior",
+    "monocular video"
+   ],
+   "video": {
+    "url": "https://research.nvidia.com/labs/amri/projects/world-from-motion/videos_compressed/talk/world_from_motion_talk.mp4"
+   },
+   "images": [
+    "https://research.nvidia.com/labs/amri/projects/world-from-motion/thumbnails/og_image.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2607.01202",
+    "arxiv": "2607.01202",
+    "venue": "NeurIPS 2026",
+    "title": "World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video"
+   },
+   "source_url": "https://research.nvidia.com/labs/amri/projects/world-from-motion/",
+   "collections": [
+    "ml-conf",
+    "trend-4d-generation"
+   ]
+  },
+  {
+   "id": "yuyang-zhao--genxd",
+   "creator_ids": [
+    "yuyang-zhao",
+    "microsoft"
+   ],
+   "title": "GenXD",
+   "year": 2024,
+   "date": "2024-11-04",
+   "field": "spatial-4d",
+   "sub": "generative-4d-scenes",
+   "modalities": [
+    "dynamic-4d",
+    "scene-3d",
+    "flat-video"
+   ],
+   "inputs": [
+    "image",
+    "camera"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "diversity",
+    "persistence"
+   ],
+   "kind": "model",
+   "description": "Model from the National University of Singapore and Microsoft that generates either static 3D or moving 4D scenes from one or more images: it outputs camera-controlled videos and consistent multi-view frames that can be lifted into 3D or 4D Gaussian representations. It introduced CamVid-30K, a real-world 4D scene dataset mined from videos; code, model and data are public.",
+   "description_zh": "新加坡国立大学与微软的模型：根据一张或多张图像生成静态三维场景或运动的 4D 场景，输出沿指定镜头路径的视频和一致的多视角画面，可再提升为三维或 4D 高斯表示。它还发布了从视频中挖掘得到的真实世界 4D 场景数据集 CamVid-30K；代码、模型与数据均已公开。",
+   "idea_en": "One model learns from both static scans and everyday video, so the shortage of 4D data matters less.",
+   "idea_zh": "一个模型同时学习静态扫描和日常视频，4D 数据稀缺的问题因此缓解不少。",
+   "method": "A curation pipeline estimates camera poses and object-motion strength from videos to build CamVid-30K; multiview-temporal modules disentangle camera and object motion so that one diffusion model trains on 3D and 4D data, and masked latent conditions accept any number of input views.",
+   "method_zh": "数据整理流程从视频中估计相机位姿与物体运动强度，构建 CamVid-30K；多视角—时间模块把相机运动与物体运动解耦，使同一个扩散模型可以同时用三维和 4D 数据训练，掩码潜变量条件则支持任意数量的输入视角。",
+   "specs": "CamVid-30K dataset · Apache-2.0 code",
+   "keywords": [
+    "3D and 4D scene generation",
+    "CamVid-30K",
+    "multi-view video diffusion",
+    "camera control"
+   ],
+   "video": {
+    "url": "https://gen-x-d.github.io/materials/figures/teaser.mp4"
+   },
+   "images": [
+    "https://gen-x-d.github.io/materials/figures/icon.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2411.02319",
+    "arxiv": "2411.02319",
+    "venue": "ICLR 2025",
+    "title": "GenXD: Generating Any 3D and 4D Scenes"
+   },
+   "source_url": "https://gen-x-d.github.io/",
+   "code_url": "https://github.com/HeliosZhao/GenXD",
+   "collections": [
+    "ml-conf",
+    "trend-4d-generation"
+   ]
+  },
+  {
+   "id": "hongxin-zhang--gs-agent",
+   "creator_ids": [
+    "hongxin-zhang"
+   ],
+   "title": "GS-Agent",
+   "year": 2026,
+   "date": "2026-07-23",
+   "field": "spatial-4d",
+   "sub": "generative-4d-scenes",
+   "also": [
+    "agents"
+   ],
+   "modalities": [
+    "dynamic-4d",
+    "scene-3d"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "control",
+    "behavioral-plausibility",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Multi-agent system from UMass Amherst and Genesis AI that builds a dynamic 3D world from a text description by writing code for a physics simulator: agents curate and place assets, tune materials, script motion and set cameras and lights, then run the simulation, so that liquids, deformable objects and rigid bodies interact physically. Because the output is a simulation rather than pixels, every frame has consistent geometry; the authors compare it with Sora 2 and Wan 2.2.",
+   "description_zh": "麻省大学阿默斯特分校与 Genesis AI 的多智能体系统：根据一段文字描述，为物理仿真器编写代码来构建动态三维世界——智能体负责挑选和摆放资产、调整材质、编排运动、设置镜头与灯光，然后运行仿真，让液体、可变形物体与刚体发生符合物理的交互。由于输出是仿真而非像素，每一帧的几何都保持一致；作者将其与 Sora 2 和 Wan 2.2 做了对比。",
+   "idea_en": "Instead of predicting how a world should look, it builds one that obeys physics and can be re-run with one parameter changed, which is what an experiment needs.",
+   "idea_zh": "它不是去预测世界“看起来”该是什么样，而是搭建一个遵守物理规律、改一个参数就能重跑的世界，这正是实验所需要的。",
+   "method": "LLM agents with distinct roles (asset curation, material tuning, placement, motion control, camera and lighting) interact with a physics engine through code, check multimodal feedback on the rendered results and iterate until the rollout matches the description.",
+   "method_zh": "分工不同的大语言模型智能体（资产挑选、材质调整、摆放、运动控制、镜头与灯光）通过代码与物理引擎交互，查看渲染结果的多模态反馈并反复迭代，直到仿真过程符合文字描述。",
+   "keywords": [
+    "generative simulation",
+    "multi-agent",
+    "physics engine",
+    "text-to-4D"
+   ],
+   "video": {
+    "url": "https://umass-embodied-agi.github.io/gs-agent/static/videos/teaser/1_rgb.mp4"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2607.21522",
+    "arxiv": "2607.21522",
+    "venue": "arXiv 2026",
+    "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation"
+   },
+   "source_url": "https://umass-embodied-agi.github.io/gs-agent/",
+   "collections": [
+    "trend-4d-generation",
+    "trend-physical-ai"
+   ]
+  },
+  {
+   "id": "yihang-luo--4rc",
+   "creator_ids": [
+    "yihang-luo"
+   ],
+   "title": "4RC",
+   "year": 2026,
+   "date": "2026-02-10",
+   "field": "spatial-4d",
+   "sub": "dynamic",
+   "modalities": [
+    "dynamic-4d"
+   ],
+   "inputs": [
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Feed-forward model from NTU's S-Lab (with Oxford) that reconstructs the dense geometry and motion of a dynamic scene from a monocular video in one pass; after the video is encoded once, the 3D geometry of any frame can be queried at any other timestamp. Code is public.",
+   "description_zh": "南洋理工大学 S-Lab（与牛津大学合作）的前馈模型：一次前向即可从单目视频重建动态场景的稠密几何与运动；视频只需编码一次，之后就能在任意时间点查询任一帧的三维几何。代码已公开。",
+   "idea_en": "Turns a phone video of a moving scene into queryable 4D geometry in one forward pass, a capture step for restaging real events in 3D.",
+   "idea_zh": "一次前向就把手机拍的动态场景视频变成可查询的 4D 几何，是把真实事件搬进三维重演的一道采集工序。",
+   "method": "A transformer encodes the whole video into a compact spatio-temporal latent; a conditional decoder queries 3D geometry and motion for any frame at any target time, with per-view 4D attributes factorised into base geometry plus time-dependent relative motion.",
+   "method_zh": "Transformer 把整段视频编码为紧凑的时空潜变量；条件解码器可按需查询任一帧在任一目标时刻的三维几何与运动，每个视角的 4D 属性被分解为基础几何加随时间变化的相对运动。",
+   "keywords": [
+    "4D reconstruction",
+    "feed-forward",
+    "monocular video",
+    "dynamic scenes"
+   ],
+   "video": {
+    "url": "https://yihangluo.com/projects/4RC/assets/demo_video.mp4"
+   },
+   "images": [
+    "https://yihangluo.com/projects/4RC/assets/framework.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2602.10094",
+    "arxiv": "2602.10094",
+    "venue": "ICML 2026",
+    "title": "4RC: 4D Reconstruction via Conditional Querying Anytime and Anywhere"
+   },
+   "source_url": "https://yihangluo.com/projects/4RC/",
+   "code_url": "https://github.com/Luo-Yihang/4RC",
+   "collections": [
+    "ml-conf",
+    "trend-feed-forward"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "SS4D (SIGGRAPH Asia 2025)",
+   "why": "Added in batch spatial-4d-2026-10b as zhibing-li--ss4d.",
+   "link": "https://lizb6626.github.io/SS4D/",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "ShapeGen4D (Snap, 2025-10)",
+   "why": "Added in batch spatial-4d-2026-10b as jiraphon-yenphraphai--shapegen4d.",
+   "link": "https://shapegen4d.github.io/",
+   "found_via": "snap",
+   "status": "duplicate"
+  },
+  {
+   "name": "Motion 3-to-4 (CVPR 2026)",
+   "why": "Added in batch spatial-4d-2026-10b as hongyuan-chen--motion-3-to-4.",
+   "link": "https://motion3-to-4.github.io/",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "NeuROK: Generative 4D Neural Object Kinematics (Stanford, 2026-05)",
+   "why": "Added in batch spatial-4d-2026-10b as chen-geng--neurok.",
+   "link": "https://chen-geng.com/neurok",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "GenXD (ICLR 2025)",
+   "why": "Added in batch spatial-4d-2026-10b as yuyang-zhao--genxd.",
+   "link": "https://gen-x-d.github.io/",
+   "found_via": "microsoft",
+   "status": "duplicate"
+  },
+  {
+   "name": "World from Motion (2026-07)",
+   "why": "Added in batch spatial-4d-2026-10b as liyuan-zhu--world-from-motion. An NVIDIA project page with a talk video appeared after round 1.",
+   "link": "https://research.nvidia.com/labs/amri/projects/world-from-motion/",
+   "found_via": "nvidia",
+   "status": "duplicate"
+  },
+  {
+   "name": "GS-Agent (2026-07)",
+   "why": "Added in batch spatial-4d-2026-10b as hongxin-zhang--gs-agent. The project page with videos appeared after round 1.",
+   "link": "https://umass-embodied-agi.github.io/gs-agent/",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "4RC: 4D Reconstruction via Conditional Querying Anytime and Anywhere (NTU, ICML 2026)",
+   "why": "Added in batch spatial-4d-2026-10b as yihang-luo--4rc.",
+   "link": "https://yihangluo.com/projects/4RC/",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Beyond Pixels / Latent-to-4D (Zhejiang University, 2026-08)",
+   "why": "Re-checked 2026-10-18: the page's videos are only the conditioning inputs (trajectories, pose and style references); the 4D results appear only in an interactive viewer, so no video shows the work.",
+   "link": "https://hayd-zju.github.io/Beyond-Pixels/",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Full-4D (2026-05)",
+   "why": "Re-checked 2026-10-18: still no project page, code or video (arXiv 2605.25500).",
+   "link": "https://arxiv.org/abs/2605.25500",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Unified Panoramic-Gaussian Representation for Monocular 4D Scene Synthesis (2026-07)",
+   "why": "Re-checked 2026-10-18: accepted at ECCV 2026 per arXiv comments, but no project page, code or video.",
+   "link": "https://arxiv.org/abs/2607.01663",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Zebra3D (AMD, 2026-10-08)",
+   "why": "Re-checked 2026-10-18: arXiv only (2610.12727), no project page or video.",
+   "link": "https://arxiv.org/abs/2610.12727",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Nokia VolStream (open source, 2026-08)",
+   "why": "Re-checked 2026-10-18: the Nokia blog has a still image only and the repository (nokiatech/VolStream, 11 stars) links no video.",
+   "link": "https://github.com/nokiatech/VolStream",
+   "found_via": "seed",
+   "status": "no_media"
+  }
+ ]
+}

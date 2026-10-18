@@ -1,0 +1,477 @@
+{
+  "batch": "avatars-2026-10b",
+  "creators": [
+    {
+      "id": "yu-han-meta",
+      "name": "Yu Han",
+      "kind": "person",
+      "role": "Researcher, Meta Reality Labs",
+      "based": "USA",
+      "bio": "Yu Han is first author of FaceGAN ('No Distillation Needed', 2026), a single-pass real-time talking-head model from Meta Reality Labs written with Alexander Richard, Wojciech Zielonka and Michael Zollhoefer.",
+      "why": "FaceGAN argues that a responsive audio-driven face does not need a distilled diffusion model.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://wojciechzielonka.com/facegan/"
+      },
+      "role_zh": "Meta Reality Labs 研究者",
+      "bio_zh": "Yu Han 是 FaceGAN（《No Distillation Needed》，2026）的第一作者。该工作来自 Meta Reality Labs，是一个单次前向的实时说话头像模型，合作者包括 Alexander Richard、Wojciech Zielonka 和 Michael Zollhoefer。",
+      "why_zh": "FaceGAN 认为，一张能及时回应的音频驱动面孔并不需要蒸馏扩散模型。",
+      "based_zh": "美国",
+      "connected_to": [
+        "meta"
+      ],
+      "discovered_via": "meta"
+    },
+    {
+      "id": "koki-nagano",
+      "name": "Koki Nagano",
+      "kind": "person",
+      "role": "Research scientist, NVIDIA Research",
+      "based": "USA",
+      "bio": "Koki Nagano works on digital humans at NVIDIA Research and is joint first author of DyaPlex (NeurIPS 2026), a full-duplex speech-and-motion model for two-person interaction.",
+      "why": "DyaPlex couples a full-duplex voice with listening and gesturing behaviour in one streaming model.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://research.nvidia.com/labs/amri/projects/DyaPlex/",
+        "youtube": "https://www.youtube.com/watch?v=Ls9l6daowyE"
+      },
+      "role_zh": "英伟达研究院研究科学家",
+      "bio_zh": "Koki Nagano 在英伟达研究院从事数字人研究，是 DyaPlex（NeurIPS 2026）的共同第一作者；DyaPlex 是面向双人互动的全双工语音与动作模型。",
+      "why_zh": "DyaPlex 在一个流式模型里把全双工语音与倾听、手势行为结合起来。",
+      "based_zh": "美国",
+      "connected_to": [
+        "nvidia"
+      ],
+      "discovered_via": "nvidia"
+    },
+    {
+      "id": "hezhen-hu",
+      "name": "Hezhen Hu",
+      "kind": "person",
+      "role": "Researcher, The University of Texas at Austin",
+      "based": "Austin, TX, USA",
+      "bio": "Hezhen Hu is first author of HumanNOVA (CVPR 2026 Highlight), a feed-forward model that builds a 3D human avatar from one photo, with Georgios Pavlakos and Zhangyang Wang at UT Austin.",
+      "why": "HumanNOVA makes a photoreal full-body 3D person from a single image in under a second.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://humannova.github.io",
+        "github": "https://github.com/HumanNOVA/HumanNOVA"
+      },
+      "role_zh": "得克萨斯大学奥斯汀分校研究者",
+      "bio_zh": "Hezhen Hu是 HumanNOVA（CVPR 2026 Highlight）的第一作者，与得克萨斯大学奥斯汀分校的 Georgios Pavlakos、Zhangyang Wang 合作；HumanNOVA 是一个由单张照片前馈生成三维人体化身的模型。",
+      "why_zh": "HumanNOVA 能在一秒内由一张照片生成照片级的全身三维人物。",
+      "based_zh": "美国得克萨斯州奥斯汀",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "gavriel-habib",
+      "name": "Gavriel Habib",
+      "kind": "person",
+      "role": "Researcher, OriginAI",
+      "based": "Israel",
+      "bio": "Gavriel Habib is first author of PixReenact (2026), a streaming head-avatar reenactment model from OriginAI written with Dvir Samuel of NVIDIA.",
+      "why": "PixReenact lets a live performer drive another person's face in real time.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://gavriel-habib.github.io/pixreenact/"
+      },
+      "role_zh": "OriginAI 研究者",
+      "bio_zh": "Gavriel Habib 是 PixReenact（2026）的第一作者。该工作来自 OriginAI，合作者包括英伟达的 Dvir Samuel，是一个流式头像重演模型。",
+      "why_zh": "PixReenact 让真人表演者实时驱动另一张人脸。",
+      "based_zh": "以色列",
+      "connected_to": [
+        "nvidia"
+      ],
+      "discovered_via": "seed"
+    }
+  ],
+  "works": [
+    {
+      "id": "yu-han-meta--facegan",
+      "creator_ids": [
+        "yu-han-meta",
+        "meta"
+      ],
+      "title": "FaceGAN (No Distillation Needed)",
+      "year": 2026,
+      "date": "2026-10-08",
+      "field": "avatars",
+      "sub": "portrait",
+      "modalities": [
+        "avatar",
+        "motion"
+      ],
+      "inputs": [
+        "speech"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "responsiveness",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "FaceGAN (Meta Reality Labs, 2026-10-08) drives a talking head from streaming audio with one forward pass per frame, outputting facial expression and head pose for a rendered head avatar as the audio arrives. The authors report quality that matches or exceeds diffusion-based talking-head methods, and generation of unbounded length without drift.",
+      "description_zh": "FaceGAN（Meta Reality Labs，2026-10-08）用流式音频驱动说话头像，每帧只需一次前向计算，随音频到来输出面部表情和头部姿态，再渲染成头像。作者报告，其生成质量与基于扩散模型的说话头像方法相当或更好，并能无限时长生成而不漂移。",
+      "idea_en": "Questions the default of distilling large diffusion models for live avatars: for facial motion a small causal GAN may be enough, which lowers the cost of a responsive face in a study.",
+      "idea_zh": "质疑了“实时虚拟人就要蒸馏大型扩散模型”的默认做法：对面部动作而言，一个小型因果 GAN 可能就够了，这降低了在研究中使用及时回应面孔的成本。",
+      "method": "A causal, time-invariant generator maps audio to expression and head pose; because its driving noise is synthetic, the future of the noise can be sampled ahead and shaped acausally, which removes the spectral limit of causal generators driven by i.i.d. noise while the audio path stays causal; bounded attention windows keep long generation stable.",
+      "method_zh": "一个因果、时不变的生成器把音频映射为表情和头部姿态；由于驱动噪声是合成的，可以提前采样噪声的“未来”并对其做非因果整形，从而突破 i.i.d. 噪声驱动的因果生成器在频谱上的限制，同时音频路径保持因果；有界注意力窗口保证长时间生成稳定。",
+      "specs": "1 network evaluation per frame · unbounded length (developer-reported)",
+      "keywords": [
+        "audio-driven facial animation",
+        "GAN",
+        "streaming",
+        "talking head",
+        "Meta Reality Labs",
+        "Codec Avatars"
+      ],
+      "video": {
+        "url": "https://wojciechzielonka.com/assets/facegan-site/videos/combined/A285_C024.mp4"
+      },
+      "images": [
+        "https://wojciechzielonka.com/assets/img/facegan/postimg.jpg",
+        "https://wojciechzielonka.com/assets/facegan-site/teaser.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2610.11070",
+        "arxiv": "2610.11070",
+        "venue": "arXiv preprint",
+        "title": "No Distillation Needed: Single-Pass Real-Time Talking Heads via Acausal Noise Shaping"
+      },
+      "source_url": "https://wojciechzielonka.com/facegan/",
+      "collections": [
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "koki-nagano--dyaplex",
+      "creator_ids": [
+        "koki-nagano",
+        "nvidia"
+      ],
+      "title": "DyaPlex",
+      "year": 2026,
+      "date": "2026-06-02",
+      "field": "avatars",
+      "sub": "nonverbal",
+      "also": [
+        "audio"
+      ],
+      "modalities": [
+        "speech",
+        "motion"
+      ],
+      "inputs": [
+        "speech",
+        "body"
+      ],
+      "timing": "full-duplex",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "responsiveness",
+        "behavioral-plausibility",
+        "reactivity"
+      ],
+      "kind": "research",
+      "description": "DyaPlex (NVIDIA with HKUST, NeurIPS 2026) is a streaming model that talks and moves while it listens to and watches its partner: from the partner's speech and body motion it generates the agent's speech and body motion, including visual backchannels and gesture mirroring. NVIDIA shows it driving a virtual agent and a robot, and generating synthetic two-person conversation data.",
+      "description_zh": "DyaPlex（英伟达与香港科技大学，NeurIPS 2026）是一个流式模型，在听和看对方的同时说话和做动作：它根据对方的语音和身体动作生成智能体自己的语音和身体动作，包括点头之类的视觉回应信号和手势模仿。英伟达展示了用它驱动虚拟智能体和机器人，以及生成合成的双人对话数据。",
+      "idea_en": "Speech, listening behaviour and gesture come from one full-duplex model that also perceives the partner's body, so a virtual interlocutor can nod or mirror while the participant is still talking.",
+      "idea_zh": "语音、倾听行为和手势出自同一个能感知对方身体的全双工模型，虚拟对话者因此能在参与者还在说话时点头或模仿其动作。",
+      "method": "A dual-tower Transformer keeps a frozen full-duplex speech model (PersonaPlex, which overlaps speech and backchannels) and adds a trainable causal motion tower over RVQ-VAE motion tokens for both participants, aligned to speech by dyadic token interleaving and a time-aligned speech-motion RoPE; trained on 4,000 hours of Meta's Seamless Interaction dataset.",
+      "method_zh": "双塔 Transformer 保留一个冻结的全双工语音模型（PersonaPlex，可重叠说话并发出回应信号），再加上一个可训练的因果动作塔，对双方的 RVQ-VAE 动作 token 建模；通过双人 token 交织和时间对齐的语音-动作 RoPE 与语音对齐；在 Meta 的 Seamless Interaction 数据集（4000 小时）上训练。",
+      "specs": "4,000 h of dyadic training data · streaming, causal · speech + body motion",
+      "keywords": [
+        "full-duplex",
+        "dyadic interaction",
+        "speech-motion",
+        "backchannel",
+        "PersonaPlex",
+        "Seamless Interaction",
+        "human-robot interaction"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=Ls9l6daowyE"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2606.03874",
+        "arxiv": "2606.03874",
+        "venue": "NeurIPS 2026",
+        "title": "DyaPlex: Full-Duplex Speech-Motion Model for Dyadic Interaction"
+      },
+      "source_url": "https://research.nvidia.com/labs/amri/projects/DyaPlex/",
+      "collections": [
+        "trend-full-duplex",
+        "ml-conf"
+      ]
+    },
+    {
+      "id": "hezhen-hu--humannova",
+      "creator_ids": [
+        "hezhen-hu"
+      ],
+      "title": "HumanNOVA",
+      "year": 2026,
+      "date": "2026-06-01",
+      "field": "avatars",
+      "sub": "avatar-3d",
+      "modalities": [
+        "avatar"
+      ],
+      "inputs": [
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "HumanNOVA (The University of Texas at Austin, CVPR 2026 Highlight) builds a photoreal 3D avatar of a whole person from one photo in under a second, without per-person optimisation. It is trained on 100,000 avatars produced by posing rigged assets and refitting multi-camera captures; code and a Colab demo are public.",
+      "description_zh": "HumanNOVA（得克萨斯大学奥斯汀分校，CVPR 2026 Highlight）能在一秒内由一张照片生成一个人的照片级全身三维化身，无需针对每个人做优化。它的训练数据是 10 万个化身，来自给已绑定骨骼的资产摆出大量姿态，以及对多机位拍摄重新拟合；代码和 Colab 演示已公开。",
+      "idea_en": "Turning a single photo into a full-body 3D person in a second is what makes participant- or confederate-specific avatars cheap enough to make per session.",
+      "idea_zh": "一秒内把一张照片变成全身三维人物，使按参与者或实验助手定制化身的成本低到可以每次实验都做。",
+      "method": "Encodes the image and an estimated SMPL body mesh into compact tokens that are fused by cross-attention into a triplane avatar in one feed-forward pass; the training set is scaled to 100k assets by animating rigged assets with everyday poses and fitting multi-camera captures for extra views.",
+      "method_zh": "把图像和估计出的 SMPL 人体网格编码为紧凑的 token，通过交叉注意力在一次前馈中融合成三平面（triplane）化身；训练集通过给绑定资产套用日常姿态、以及对多机位拍摄做拟合补充视角，扩充到 10 万个资产。",
+      "specs": "<1 s per avatar · single image · 100k training assets",
+      "keywords": [
+        "single-image avatar",
+        "feed-forward",
+        "triplane",
+        "SMPL",
+        "UT Austin",
+        "CVPR 2026 Highlight"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=pslYhxFiALE"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2606.02573",
+        "arxiv": "2606.02573",
+        "venue": "CVPR 2026 (Highlight)",
+        "title": "HumanNOVA: Photorealistic, Universal and Rapid 3D Human Avatar Modeling from a Single Image"
+      },
+      "source_url": "https://humannova.github.io",
+      "code_url": "https://github.com/HumanNOVA/HumanNOVA",
+      "collections": [
+        "cvpr",
+        "trend-feed-forward"
+      ],
+      "exhibited": [
+        "CVPR 2026 Highlight"
+      ]
+    },
+    {
+      "id": "gavriel-habib--pixreenact",
+      "creator_ids": [
+        "gavriel-habib"
+      ],
+      "title": "PixReenact",
+      "year": 2026,
+      "date": "2026-10-04",
+      "field": "avatars",
+      "sub": "portrait",
+      "modalities": [
+        "avatar"
+      ],
+      "inputs": [
+        "image",
+        "video"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "responsiveness",
+        "persistence",
+        "control"
+      ],
+      "kind": "research",
+      "description": "PixReenact (OriginAI with NVIDIA, 2026-10-04) animates a reference portrait from a live driving video in a stream, so one person's expressions and head motion play on another face as they happen. The authors report about 240 ms mean emission latency and identity held over a five-minute stream, including extreme head turns and occlusions.",
+      "description_zh": "PixReenact（OriginAI 与英伟达，2026-10-04）用实时驱动视频流式地驱动一张参考人像，让一个人的表情和头部动作即时呈现在另一张脸上。作者报告，平均输出延迟约 240 毫秒，五分钟的连续视频流中身份保持稳定，极端转头和遮挡时也是如此。",
+      "idea_en": "Live reenactment lets a hidden confederate or actor puppeteer a generated face in real time, a Wizard-of-Oz route to controlled virtual interlocutors.",
+      "idea_zh": "实时重演让幕后的实验助手或演员即时操纵一张生成的面孔，这是实现可控虚拟对话者的一条“绿野仙踪”式路径。",
+      "method": "A causal video diffusion model conditioned directly on VAE latents of the reference and driving frames, without separate identity or motion encoders, trained with cross-identity pseudo-supervision and long self-rollouts, then distilled with separate teachers for cold start and steady state into a 4-step rolling student that emits four frames per update.",
+      "method_zh": "因果视频扩散模型直接以参考帧和驱动帧的 VAE 潜变量为条件，不使用单独的身份或动作编码器；训练采用跨身份伪监督和长程自回放，再分别用冷启动和稳态两个教师蒸馏成 4 步滚动学生模型，每次更新输出 4 帧。",
+      "specs": "4 NFE · 4 frames per update · ~239 ms mean emission latency · 5-min identity test (developer-reported)",
+      "keywords": [
+        "face reenactment",
+        "streaming",
+        "causal video diffusion",
+        "puppeteering",
+        "OriginAI"
+      ],
+      "video": {
+        "url": "https://gavriel-habib.github.io/pixreenact/static/videos/long_identity_5min.mp4"
+      },
+      "images": [
+        "https://gavriel-habib.github.io/pixreenact/static/images/teaser.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2610.05233",
+        "arxiv": "2610.05233",
+        "venue": "arXiv preprint",
+        "title": "PixReenact: Pixel-Conditioned Causal Video Diffusion for Streaming Head-Avatar Reenactment"
+      },
+      "source_url": "https://gavriel-habib.github.io/pixreenact/",
+      "collections": [
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "alibaba-tongyi--wan-dancer",
+      "creator_ids": [
+        "alibaba-tongyi"
+      ],
+      "title": "Wan-Dancer",
+      "year": 2026,
+      "date": "2026-07-13",
+      "field": "avatars",
+      "sub": "portrait",
+      "also": [
+        "video"
+      ],
+      "modalities": [
+        "avatar",
+        "flat-video"
+      ],
+      "inputs": [
+        "speech",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "perceptual-realism",
+        "diversity"
+      ],
+      "kind": "model",
+      "description": "Wan-Dancer (Alibaba Tongyi Lab, 2026-07-13) generates a dance video of the person in a reference image from a full music track, following its rhythm and structure across genres such as Chinese classical, K-pop, street, tap and Latin, with outfit changes and keyframe-based movement control. Tongyi reports stable 720p, 30 fps videos longer than a minute (the project page shows 2 min 36 s); the 14B weights and inference code are open under Apache-2.0, with demos on Hugging Face and ModelScope.",
+      "description_zh": "Wan-Dancer（阿里巴巴通义实验室，2026-07-13）根据整首音乐，让参考图中的人物跳舞并生成视频，动作跟随音乐的节奏与结构，覆盖中国古典舞、K-pop、街舞、踢踏舞、拉丁舞等风格，还支持换装和基于关键帧的动作控制。通义称其可稳定生成超过一分钟的 720p、30 fps 视频（项目页展示了 2 分 36 秒的样例）；14B 权重和推理代码以 Apache-2.0 协议开源，Hugging Face 和魔搭上有在线演示。",
+      "idea_en": "Breaks the roughly 20-second limit of audio-driven body video by planning keyframes over the whole track first, so a generated performer can carry a full song without drifting in identity or motion.",
+      "idea_zh": "先对整首曲子规划关键帧，突破了音频驱动全身视频约 20 秒的时长限制，让生成的表演者能完整演完一首歌而不出现身份或动作漂移。",
+      "method": "A hierarchical image-to-video diffusion pipeline on Wan: a global stage plans keyframes from the full music track, and a local stage refines the motion between them, with time-mapped RoPE for dynamic frame rates, an optical-flow loss for motion continuity and motion-speed control for fast movements.",
+      "method_zh": "基于 Wan 的分层图生视频扩散管线：全局阶段根据整首音乐规划关键帧，局部阶段细化关键帧之间的动作；通过时间映射 RoPE 适配动态帧率，用光流损失增强动作连续性，并用动作速度控制保留快速动作中的细节。",
+      "specs": "720p · 30 fps · >1 min per video (up to 2 min 36 s shown) · 14B parameters",
+      "keywords": [
+        "music-to-dance",
+        "audio-driven body",
+        "long video",
+        "Wan",
+        "Tongyi Lab",
+        "HumanAIGC",
+        "open weights"
+      ],
+      "video": {
+        "url": "https://cloud.video.taobao.com/vod/tHYQgRwFmx0A4CV0q2Kr6aDEKBe2L_baKNTlkdCgGv0.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2607.09581",
+        "arxiv": "2607.09581",
+        "venue": "arXiv preprint",
+        "title": "Wan-Dancer: A Hierarchical Framework for Minute-scale Coherent Music-to-Dance Generation"
+      },
+      "source_url": "https://humanaigc.github.io/wan-dancer-project/",
+      "code_url": "https://github.com/Wan-Video/Wan-Dancer",
+      "collections": [
+        "trend-open-weights"
+      ]
+    }
+  ],
+  "leads": [
+    {
+      "name": "Wan2.2-Animate-2-14B and Wan-Dancer-14B (2026-07)",
+      "why": "Wan-Dancer added in round 2 as alibaba-tongyi--wan-dancer; Wan-Animate-2 is folded into alibaba-tongyi--wan-animate (video, round 1).",
+      "link": "https://huggingface.co/Wan-AI/Wan-Dancer-14B",
+      "found_via": "alibaba-tongyi",
+      "status": "duplicate"
+    },
+    {
+      "name": "FaceGAN: Single-Pass Real-Time Talking Heads via Acausal Noise Shaping (2026-10-08)",
+      "why": "Added in round 2 as yu-han-meta--facegan.",
+      "link": "https://wojciechzielonka.com/facegan/",
+      "found_via": "meta",
+      "status": "duplicate"
+    },
+    {
+      "name": "HumanNOVA (CVPR 2026 Highlight)",
+      "why": "Added in round 2 as hezhen-hu--humannova.",
+      "link": "https://humannova.github.io",
+      "found_via": "seed",
+      "status": "duplicate"
+    },
+    {
+      "name": "HeyGen Avatar IV / Avatar V",
+      "why": "Avatar V is in the data as heygen--avatar-v (round 1); Avatar IV is a point release folded into it.",
+      "link": "https://www.heygen.com",
+      "found_via": "heygen",
+      "status": "duplicate"
+    },
+    {
+      "name": "LPM 1.0 affiliation",
+      "why": "Note on an existing work (ailing-zeng--lpm-1); nothing to add.",
+      "link": "https://large-performance-model.github.io",
+      "found_via": "seed",
+      "status": "duplicate"
+    },
+    {
+      "name": "EvolvingAvatar (2026-09-28)",
+      "why": "Re-checked 2026-10-18: blog.evolving-avatar.com is a JavaScript app and its bundle exposes no video or image files.",
+      "link": "https://arxiv.org/abs/2609.35616",
+      "found_via": "seed",
+      "status": "no_media"
+    },
+    {
+      "name": "OmniMate (2026-07)",
+      "why": "No project page or video found (same result as the round-1 check).",
+      "link": "https://arxiv.org/abs/2607.23023",
+      "found_via": "seed",
+      "status": "no_media"
+    },
+    {
+      "name": "xAI Grok Companions (2025-07)",
+      "why": "No official launch page or video from xAI found; coverage is third-party.",
+      "link": "https://x.ai",
+      "found_via": "seed",
+      "status": "no_media"
+    },
+    {
+      "name": "Active Listener Live (Ghosh et al., ICMI 2026)",
+      "why": "Real-time data-driven listener head responses (nods, head pose) for a virtual agent, with a deployment study in which 73% of users preferred it over two baselines (University of Glasgow); DOI 10.1145/3776591.3836661; the paper names a project page with videos, but it was not found this round.",
+      "link": "https://doi.org/10.1145/3776591.3836661",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "Routed Forcing for Streaming Avatars (arXiv 2609.30963)",
+      "why": "Streaming audio-driven avatar distillation (2026-09-25); no project page; part of the round-1 cluster of streaming-avatar distillation papers.",
+      "link": "https://arxiv.org/abs/2609.30963",
+      "found_via": "seed",
+      "status": "no_media"
+    }
+  ]
+}

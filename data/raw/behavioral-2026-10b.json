@@ -1,0 +1,1159 @@
+{
+ "batch": "behavioral-2026-10b",
+ "creators": [
+  {
+   "id": "pao-ju-chen",
+   "name": "Pao-Ju Chen",
+   "kind": "person",
+   "role": "Nursing educator at Asia Eastern University of Science and Technology",
+   "bio": "Works on simulation-based nursing education; first author of a 2026 randomised study of an AI-enhanced VR simulation for empathic communication in obstetric care.",
+   "why": "Tests whether AI dialogue and AI scoring inside VR can train and assess empathy at the level of educators.",
+   "disciplines": [
+    "medicine"
+   ],
+   "role_zh": "亚东科技大学护理教育者",
+   "bio_zh": "从事基于模拟的护理教育研究；2026 年一项关于产科共情沟通的 AI 增强 VR 模拟随机研究的第一作者。",
+   "why_zh": "检验 VR 中的 AI 对话与 AI 评分能否达到教师水平来训练和评估共情。",
+   "based": "New Taipei, Taiwan",
+   "based_zh": "台湾新北",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "patrick-pui-kin-kor",
+   "name": "Patrick Pui Kin Kor",
+   "kind": "person",
+   "role": "Nursing researcher at the Hong Kong Polytechnic University",
+   "bio": "Studies nursing education and gerontological care; led a 2026 comparison of generative-AI and facilitator-led debriefing after immersive VR nursing simulation.",
+   "why": "One of the larger controlled comparisons (N = 178) of generative AI taking over a human role in immersive simulation training.",
+   "disciplines": [
+    "medicine"
+   ],
+   "role_zh": "香港理工大学护理学研究者",
+   "bio_zh": "研究护理教育与老年护理；主持了 2026 年一项比较沉浸式 VR 护理模拟后生成式 AI 复盘与教师复盘的研究。",
+   "why_zh": "这是让生成式 AI 接替沉浸式模拟训练中人类角色的较大规模对照比较之一（N = 178）。",
+   "based": "Hong Kong",
+   "based_zh": "中国香港",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "franziska-griessenauer",
+   "name": "Franziska Grießenauer",
+   "kind": "person",
+   "role": "Psychology researcher at the University of Salzburg",
+   "bio": "Works in Thomas Probst's psychotherapy research group on relaxation and imagery techniques; first author of a 2026 randomized trial of AI-generated personal safe places in VR.",
+   "why": "The trial is among the first to place each participant in an environment generated from their own description and compare it with a non-VR control.",
+   "disciplines": [
+    "behavioral"
+   ],
+   "role_zh": "萨尔茨堡大学心理学研究者",
+   "bio_zh": "在 Thomas Probst 的心理治疗研究组从事放松与意象技术研究；2026 年一项 VR 中 AI 生成个人安全之地随机试验的第一作者。",
+   "why_zh": "她的试验是最早让每位参与者进入按本人描述生成的环境、并与非 VR 对照组比较的研究之一。",
+   "based": "Salzburg, Austria",
+   "based_zh": "奥地利萨尔茨堡",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "yoojin-han",
+   "name": "Yoojin Han",
+   "kind": "person",
+   "role": "Researcher in architecture and environmental psychology at Yonsei University",
+   "bio": "Studies how indoor spatial features such as greenery affect people, using immersive 360° stimuli; supervised a 2026 validation of generative-AI panoramas as experimental stimuli.",
+   "why": "Treats generated panoramas as controlled experimental materials and asks what validation they need before use.",
+   "disciplines": [
+    "behavioral",
+    "hci"
+   ],
+   "role_zh": "延世大学建筑与环境心理学研究者",
+   "bio_zh": "利用沉浸式 360° 刺激研究绿植等室内空间特征如何影响人；主持了 2026 年一项把生成式 AI 全景用作实验刺激的验证研究。",
+   "why_zh": "把生成的全景当作受控的实验材料，并追问它们在使用前需要怎样的验证。",
+   "based": "Seoul, South Korea",
+   "based_zh": "韩国首尔",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "ruoyu-wen",
+   "name": "Ruoyu Wen",
+   "kind": "person",
+   "role": "HCI researcher at the University of Canterbury",
+   "bio": "Works on generative AI and VR for emotional support with Thammathip Piumsomboon and Mark Billinghurst; first author of OasisMind (IUI 2026).",
+   "why": "Compares worlds that participants generate themselves with validated, pre-authored VR scenes.",
+   "disciplines": [
+    "hci"
+   ],
+   "role_zh": "坎特伯雷大学人机交互研究者",
+   "bio_zh": "与 Thammathip Piumsomboon、Mark Billinghurst 合作研究用于情绪支持的生成式 AI 与 VR；OasisMind（IUI 2026）的第一作者。",
+   "why_zh": "把参与者自己生成的世界与经过验证的预设 VR 场景进行比较。",
+   "based": "Christchurch, New Zealand",
+   "based_zh": "新西兰基督城",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "sarah-rosskopf",
+   "name": "Sarah Roßkopf",
+   "kind": "person",
+   "role": "Psychologist at the University of Regensburg (clinical psychology and psychotherapy)",
+   "bio": "Studies social stress, presence and audio realism in virtual versions of the Trier Social Stress Test with Andreas Mühlberger's group.",
+   "why": "Tests whether synthetic speech can replace recorded human voices in a validated virtual stress paradigm.",
+   "disciplines": [
+    "behavioral"
+   ],
+   "role_zh": "雷根斯堡大学心理学家（临床心理学与心理治疗）",
+   "bio_zh": "在 Andreas Mühlberger 的研究组中，研究虚拟版特里尔社会应激测试中的社会应激、临场感与声音真实感。",
+   "why_zh": "检验合成语音能否在经过验证的虚拟应激范式中替代录制的真人语音。",
+   "based": "Regensburg, Germany",
+   "based_zh": "德国雷根斯堡",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "mengxu-pan",
+   "name": "Mengxu Pan",
+   "kind": "person",
+   "role": "HCI researcher working on LLM-driven agents in social VR",
+   "bio": "First author of a CHI 2026 study in which English learners practised with an LLM-based embodied agent in social VR, with co-authors from the University of Victoria, the University of British Columbia and Northeastern University.",
+   "why": "Brings LLM-driven conversation partners into language-anxiety practice, a situation that is hard to staff with people.",
+   "disciplines": [
+    "hci"
+   ],
+   "role_zh": "研究社交 VR 中大语言模型智能体的人机交互研究者",
+   "bio_zh": "CHI 2026 一项研究的第一作者：英语学习者在社交 VR 中与基于大语言模型的具身智能体练习；合作者来自维多利亚大学、不列颠哥伦比亚大学与东北大学。",
+   "why_zh": "把大语言模型驱动的对话伙伴引入外语焦虑练习，这类情境很难长期由真人陪练。",
+   "links": {},
+   "connected_to": [
+    "raina-cao"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "tsehaye-haidemariam",
+   "name": "Tsehaye Haidemariam",
+   "kind": "person",
+   "role": "Researcher at BI Norwegian Business School",
+   "bio": "Works on virtual reality, the metaverse and social identity; first author of the 2026 synthetic-embodiment framework for AI-generated identity cues.",
+   "why": "Proposes how generated avatars could become controlled, audited stimuli for studies of identity and bias in VR.",
+   "disciplines": [
+    "behavioral",
+    "social-science"
+   ],
+   "role_zh": "挪威 BI 商学院研究者",
+   "bio_zh": "研究虚拟现实、元宇宙与社会身份；2026 年“合成具身”框架（关于 AI 生成的身份线索）的第一作者。",
+   "why_zh": "提出生成化身如何成为受控且经过审查的刺激材料，用于 VR 中关于身份与偏见的研究。",
+   "based": "Oslo, Norway",
+   "based_zh": "挪威奥斯陆",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "juming-jiang",
+   "name": "Juming Jiang",
+   "kind": "person",
+   "role": "Health-education researcher at Hong Kong Metropolitan University",
+   "bio": "First author of a 2026 JMIR systematic review of generative-AI virtual patients in health care education.",
+   "why": "The review maps how little of the generative virtual-patient evidence is immersive or controlled.",
+   "disciplines": [
+    "medicine"
+   ],
+   "role_zh": "香港都会大学健康教育研究者",
+   "bio_zh": "2026 年 JMIR 一篇关于医疗卫生教育中生成式 AI 虚拟病人的系统综述的第一作者。",
+   "why_zh": "这篇综述表明，生成式虚拟病人的证据中沉浸式或有对照的研究少之又少。",
+   "based": "Hong Kong",
+   "based_zh": "中国香港",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "raina-cao",
+   "name": "Raina Cao",
+   "kind": "person",
+   "role": "HCI researcher at the University of British Columbia",
+   "bio": "Studies conversational timing with LLM-based agents in social VR with Mirjana Prpa and Alexandra Kitson; first author of 'Quantifying Latencies' (CHI 2026).",
+   "why": "Measures the turn-taking gap that separates LLM-driven characters from human conversation partners.",
+   "disciplines": [
+    "hci"
+   ],
+   "role_zh": "不列颠哥伦比亚大学人机交互研究者",
+   "bio_zh": "与 Mirjana Prpa、Alexandra Kitson 合作研究社交 VR 中大语言模型智能体的对话时序；《Quantifying Latencies》（CHI 2026）的第一作者。",
+   "why_zh": "测量了把大语言模型驱动角色与人类对话者区分开来的话轮转换差距。",
+   "based": "Vancouver, Canada",
+   "based_zh": "加拿大温哥华",
+   "links": {},
+   "connected_to": [
+    "mengxu-pan"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "pau-mora",
+   "name": "Pau Mora",
+   "kind": "person",
+   "role": "Researcher at the Universitat Politècnica de València",
+   "bio": "Builds generative VR tools for mental health with Mariano Alcañiz's group; first author of Refugio (2026).",
+   "why": "Runs a full open-model generation pipeline on a local server so that a therapeutic VR scene can be furnished by voice.",
+   "disciplines": [
+    "hci",
+    "behavioral"
+   ],
+   "role_zh": "瓦伦西亚理工大学研究者",
+   "bio_zh": "在 Mariano Alcañiz 的研究组开发用于心理健康的生成式 VR 工具；Refugio（2026）的第一作者。",
+   "why_zh": "在本地服务器上运行完整的开源模型生成流程，让治疗用 VR 场景可以通过语音布置。",
+   "based": "Valencia, Spain",
+   "based_zh": "西班牙瓦伦西亚",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "nathalia-gomez",
+   "name": "Nathalia Gomez",
+   "kind": "person",
+   "role": "HCI researcher at Drexel University",
+   "bio": "Works with Tiffany D. Do on embodied conversational agents in VR; first author of 'Listening and Mirroring' (VRST 2026).",
+   "why": "Separates what an LLM-driven agent says from how its body responds, and tests each against perceived empathy.",
+   "disciplines": [
+    "hci"
+   ],
+   "role_zh": "德雷塞尔大学人机交互研究者",
+   "bio_zh": "与 Tiffany D. Do 合作研究 VR 中的具身对话智能体；《Listening and Mirroring》（VRST 2026）的第一作者。",
+   "why_zh": "把大语言模型驱动智能体“说什么”与“身体如何回应”分开，分别检验它们对被感知共情的影响。",
+   "based": "Philadelphia, PA, USA",
+   "based_zh": "美国宾夕法尼亚州费城",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "yupei-duan",
+   "name": "Yupei Duan",
+   "kind": "person",
+   "role": "Learning-technologies researcher at the University of Missouri",
+   "bio": "Designs immersive VR environments for nursing education; first author of a 2026 AIxVR study of generative-AI virtual standardized patients.",
+   "why": "Compares practice with generative virtual patients in VR against a control group on a real standardized-patient exam.",
+   "disciplines": [
+    "medicine",
+    "hci"
+   ],
+   "role_zh": "密苏里大学学习技术研究者",
+   "bio_zh": "为护理教育设计沉浸式 VR 环境；2026 年一项关于生成式 AI 虚拟标准化病人的 AIxVR 研究的第一作者。",
+   "why_zh": "在真实的标准化病人考核上，把 VR 中与生成式虚拟病人的练习与对照组进行比较。",
+   "based": "Columbia, MO, USA",
+   "based_zh": "美国密苏里州哥伦比亚",
+   "links": {},
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "pao-ju-chen--vr-ai-empathy-rct",
+   "creator_ids": [
+    "pao-ju-chen"
+   ],
+   "title": "AI-enhanced virtual reality simulation for nursing students' empathy: Automated scoring and inter-rater reliability in a randomised controlled study",
+   "year": 2026,
+   "date": "2026-01-05",
+   "field": "behavioral",
+   "sub": "training",
+   "modalities": [
+    "vr-scenario",
+    "dialogue"
+   ],
+   "inputs": [],
+   "timing": "turn-based",
+   "lenses": [
+    "adaptation",
+    "control"
+   ],
+   "kind": "study",
+   "description": "Nursing students rehearsed empathic communication in obstetric scenarios inside a first-person VR simulation (VR-AI-ECS) with AI-guided dialogue and real-time feedback, while a control group used 360° video with a standardised-patient interaction (40 vs. 40). The VR-AI group scored higher on empathic communication right after training (d = 0.96) and at follow-up (d = 0.60), and AI ratings agreed closely with educators' ratings (ICC = 0.81).",
+   "description_zh": "护理学生在第一人称 VR 模拟（VR-AI-ECS）中练习产科情境下的共情沟通，系统提供 AI 引导的对话与实时反馈；对照组使用含标准化病人互动的 360° 视频（各 40 人）。VR-AI 组在训练后即刻（d = 0.96）和随访时（d = 0.60）的共情沟通得分更高，AI 评分与教师评分高度一致（ICC = 0.81）。",
+   "idea_en": "The same AI can run the scenario and score it; if its ratings track expert judgement, assessment stops being the bottleneck for repeated practice.",
+   "idea_zh": "同一个 AI 既能运行情境、又能评分；只要其评分与专家判断一致，评估就不再是反复练习的瓶颈。",
+   "method": "Randomised controlled mixed-methods trial (n = 40 + 40) comparing VR with AI-guided dialogue and feedback against 360° video with a standardised patient; Empathic Communication Performance Rating Scale at three time points, rated by AI and by educators, analysed with GEE and ICC, plus focus groups.",
+   "method_zh": "随机对照混合方法试验（40 + 40），比较含 AI 引导对话与反馈的 VR 和含标准化病人的 360° 视频；在三个时间点用共情沟通表现评定量表评估，由 AI 与教师分别评分，采用广义估计方程与组内相关系数分析，并辅以焦点小组访谈。",
+   "specs": "N=80 (40 + 40) · d=0.96 post, d=0.60 follow-up · AI–educator ICC=0.81",
+   "keywords": [
+    "nursing education",
+    "empathy",
+    "obstetrics",
+    "automated scoring",
+    "randomised",
+    "paper only"
+   ],
+   "paper": {
+    "doi": "10.1016/j.nedt.2025.106968",
+    "venue": "Nurse Education Today (2026)",
+    "title": "AI-enhanced virtual reality simulation for nursing students' empathy: Automated scoring and inter-rater reliability in a randomised controlled study",
+    "url": "https://doi.org/10.1016/j.nedt.2025.106968"
+   },
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "patrick-pui-kin-kor--genai-debriefing-ivr",
+   "creator_ids": [
+    "patrick-pui-kin-kor"
+   ],
+   "title": "Comparing the effects of GenAI-assisted and facilitator-led debriefing on knowledge and non-technical skills in immersive virtual reality simulation in nursing education: A quasi-experimental study",
+   "year": 2026,
+   "date": "2026-07-18",
+   "field": "behavioral",
+   "sub": "training",
+   "modalities": [
+    "dialogue",
+    "vr-scenario"
+   ],
+   "inputs": [],
+   "timing": "turn-based",
+   "lenses": [
+    "control",
+    "adaptation"
+   ],
+   "kind": "study",
+   "description": "After an immersive VR hospital simulation, 178 undergraduate nursing students were debriefed either by a generative-AI tool plus a 10-minute facilitator summary (n = 102) or by a facilitator alone (n = 76). Knowledge rose in both groups (d = 0.79 vs. 0.72) with no difference between them after adjusting for baseline, and self-reported non-technical skills did not differ.",
+   "description_zh": "在一次沉浸式 VR 医院模拟之后，178 名护理本科生分别接受生成式 AI 工具主导的复盘加 10 分钟教师总结（n = 102），或仅由教师主持的复盘（n = 76）。两组知识得分均有提高（d = 0.79 与 0.72），校正基线后组间无差异，自评非技术技能也无差异。",
+   "idea_en": "Generative AI can take over the debrief rather than the scenario; whether 'comparable' holds once groups are randomised is still open.",
+   "idea_zh": "生成式 AI 可以接手复盘而不是情境本身；在随机分组之后“效果相当”是否仍然成立，还有待检验。",
+   "method": "Quasi-experimental two-group pretest–posttest study with allocation by course enrolment; multiple-choice knowledge test before and after, self-reported non-technical skills after, ANCOVA adjusted for baseline knowledge.",
+   "method_zh": "准实验两组前后测设计，按选课分组；前后测采用选择题知识测验，后测加自评非技术技能，并以基线知识为协变量做协方差分析。",
+   "specs": "N=178 (102 + 76) · quasi-experimental · knowledge d=0.79 vs. 0.72",
+   "keywords": [
+    "debriefing",
+    "nursing education",
+    "immersive VR simulation",
+    "non-technical skills",
+    "quasi-experimental",
+    "paper only"
+   ],
+   "paper": {
+    "doi": "10.1016/j.nedt.2026.107275",
+    "venue": "Nurse Education Today (2026)",
+    "title": "Comparing the effects of GenAI-assisted and facilitator-led debriefing on knowledge and non-technical skills in immersive virtual reality simulation in nursing education: A quasi-experimental study",
+    "url": "https://doi.org/10.1016/j.nedt.2026.107275"
+   },
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "franziska-griessenauer--ai-safe-place-vr-rct",
+   "creator_ids": [
+    "franziska-griessenauer"
+   ],
+   "title": "AI-Generated Personalized Visualization of the Safe Place in Virtual Reality vs Traditional Safe Place Imagery: Randomized Controlled Trial",
+   "year": 2026,
+   "date": "2026-07-24",
+   "field": "behavioral",
+   "sub": "clinical",
+   "modalities": [
+    "image"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "lenses": [
+    "adaptation",
+    "diversity"
+   ],
+   "kind": "study",
+   "description": "Sixty adults imagined a personal 'safe place', went through a stress task and then relaxed for three minutes, either inside a 360° panorama generated from their own description and viewed on a Meta Quest 3 (n = 30) or with eyes closed imagining it (n = 30). Relaxation rose equally in both groups, with no difference immediately or over a five-day follow-up; presence and satisfaction with the generated place did not predict relaxation, while imagery vividness did.",
+   "description_zh": "60 名成人先想象一个属于自己的“安全之地”，完成压力任务后放松三分钟：一组在 Meta Quest 3 中进入根据本人描述生成的 360° 全景（n = 30），另一组闭眼想象（n = 30）。两组放松程度同样上升，即时与五天随访均无差异；临场感和对生成场景的满意度不能预测放松效果，而想象的生动程度可以。",
+   "idea_en": "One of the first randomized trials that puts each participant inside a world generated from their own words, and the generated place did no better than imagination.",
+   "idea_zh": "最早让每位参与者进入由其本人描述生成的世界的随机试验之一；结果是生成的场景并不比想象更有效。",
+   "method": "Randomized controlled trial (30 + 30) with stress induction; each experimental participant's safe place was rendered by MindGap AI in PsyTechVR (a Stable-Diffusion-class latent diffusion model with an LDM3D depth extension) as a static 360° panorama without sound; Relaxation State Questionnaire, VVIQ and IPQ, and daily online follow-up for five days.",
+   "method_zh": "随机对照试验（30 + 30），含压力诱导；实验组每人的安全之地由 PsyTechVR 平台中的 MindGap AI（与 Stable Diffusion 同类的潜在扩散模型，带 LDM3D 深度扩展）生成为无声的静态 360° 全景；测量放松状态问卷、视觉意象生动性问卷与 IPQ 临场感量表，并进行为期五天的每日在线随访。",
+   "specs": "N=60 (30 + 30) · Meta Quest 3 · 3-min exposure · 5-day follow-up",
+   "keywords": [
+    "safe place imagery",
+    "relaxation",
+    "personalized VR",
+    "generated 360° panorama",
+    "randomized",
+    "null result",
+    "paper only"
+   ],
+   "paper": {
+    "doi": "10.2196/82647",
+    "venue": "JMIR AI 5:e82647 (2026)",
+    "title": "AI-Generated Personalized Visualization of the Safe Place in Virtual Reality vs Traditional Safe Place Imagery: Randomized Controlled Trial",
+    "url": "https://doi.org/10.2196/82647"
+   },
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "yoojin-han--genai-360-stimuli-validation",
+   "creator_ids": [
+    "yoojin-han"
+   ],
+   "title": "Leveraging Generative AI for High-Fidelity 360° Spatial Images: Methodological Validation for Use as Experimental Stimuli",
+   "year": 2026,
+   "date": "2026-04-24",
+   "field": "behavioral",
+   "sub": "theory",
+   "modalities": [
+    "image"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "lenses": [
+    "control",
+    "authoring",
+    "diversity"
+   ],
+   "kind": "study",
+   "description": "A workflow for producing controlled 360° stimuli for environmental-psychology experiments: Skybox AI (Model 4) generates a fixed atrium panorama and Gemini 3 Flash Image (Nano Banana 2) inpaints greenery in eight placement and density variants. Image-quality metrics showed few stitching artefacts, and seven senior experts viewing the scenes in a Meta Quest 3 rated presence higher for the generated stimuli than for a conventionally modelled 3D reference (6.14 vs. 4.40 on a 7-point scale).",
+   "description_zh": "一套为环境心理学实验制作受控 360° 刺激材料的流程：先用 Skybox AI（Model 4）生成固定的中庭全景，再用 Gemini 3 Flash Image（Nano Banana 2）以局部重绘方式加入绿植，形成八种布置与密度变体。图像质量指标显示拼接处畸变很少；七位资深专家在 Meta Quest 3 中观看后，对生成刺激的临场感评分高于传统三维建模的对照场景（7 分制 6.14 对 4.40）。",
+   "idea_en": "Generated panoramas can be held constant except for one manipulated factor, which is what an experiment needs; the validation so far rests on expert ratings, not on participant behaviour.",
+   "idea_zh": "生成的全景可以只改变一个被操纵的因素、其余保持不变，这正是实验所需要的；不过目前的验证依据是专家评分，而不是被试的行为。",
+   "method": "Three-stage pipeline (prompted base panorama with fixed structure, materials and lighting; AI inpainting of greenery on walls, columns and balustrades; validation) evaluated with SSIM, LPIPS, BRISQUE, NIQE, MUSIQ, aesthetic and CLIP-IQA scores and a seven-expert HMD rating against a conventionally modelled reference (Wilcoxon signed-rank test).",
+   "method_zh": "三阶段流程（以提示词生成结构、材质与光照固定的基础全景；用 AI 局部重绘在墙面、柱子与栏杆上加入绿植；验证），以 SSIM、LPIPS、BRISQUE、NIQE、MUSIQ、美学评分与 CLIP-IQA 评估，并由七位专家在头显中与传统建模的对照场景比较评分（Wilcoxon 符号秩检验）。",
+   "specs": "8K equirectangular base · 4K final · 8 variants · 7 expert raters · Meta Quest 3",
+   "keywords": [
+    "experimental stimuli",
+    "360° panorama",
+    "Skybox AI",
+    "inpainting",
+    "environmental psychology",
+    "biophilic design"
+   ],
+   "images": [
+    "https://pub.mdpi-res.com/buildings/buildings-16-01679/article_deploy/html/images/buildings-16-01679-i010.png",
+    "https://pub.mdpi-res.com/buildings/buildings-16-01679/article_deploy/html/images/buildings-16-01679-g001.png"
+   ],
+   "paper": {
+    "doi": "10.3390/buildings16091679",
+    "venue": "Buildings 16(9):1679 (2026)",
+    "title": "Leveraging Generative AI for High-Fidelity 360° Spatial Images: Methodological Validation for Use as Experimental Stimuli",
+    "url": "https://doi.org/10.3390/buildings16091679"
+   },
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "ruoyu-wen--oasismind",
+   "creator_ids": [
+    "ruoyu-wen"
+   ],
+   "title": "OasisMind",
+   "year": 2026,
+   "date": "2026-03-03",
+   "field": "behavioral",
+   "sub": "genai-research",
+   "modalities": [
+    "image",
+    "audio",
+    "dialogue"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "co-creation",
+    "adaptation"
+   ],
+   "kind": "research",
+   "description": "An AI-assisted VR system in which people describe, in natural language, a place that would help them emotionally and get a 360° environment, a matching ambient soundscape and a context-aware digital companion. In a study with 24 participants, people preferred the environments they had created over validated, pre-defined relaxation scenes, but satisfaction and presence did not differ.",
+   "description_zh": "一个 AI 辅助的 VR 系统：人们用自然语言描述一个能给自己情绪支持的地方，系统随之生成 360° 环境、相应的环境音景，以及能感知情境的数字陪伴者。在 24 人的研究中，参与者更偏爱自己创造的环境，而不是经过验证的预设放松场景，但满意度与临场感没有差异。",
+   "idea_en": "Letting participants author the situation raises preference without raising presence, a split that matters when generated worlds are used as interventions.",
+   "idea_zh": "让参与者自己创作情境能提高偏好，却不会提高临场感；当生成世界被用作干预手段时，这种分离值得重视。",
+   "method": "Prompt-driven pipeline that generates 360° panoramas, ambient audio and a (likely LLM-driven) companion inside a headset; user study (N = 24) comparing self-created environments with validated pre-defined VR scenes on preference, satisfaction and presence.",
+   "method_zh": "由提示词驱动的流程在头显中生成 360° 全景、环境音频和一个（可能由大语言模型驱动的）陪伴者；用户研究（N = 24）比较自建环境与经过验证的预设 VR 场景在偏好、满意度与临场感上的差异。",
+   "specs": "N=24 · generated 360° environment + soundscape + companion",
+   "keywords": [
+    "emotional support",
+    "co-creation",
+    "generated 360° environment",
+    "digital companion",
+    "presence"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=zG1x0sNmxZc"
+   },
+   "paper": {
+    "doi": "10.1145/3742413.3789067",
+    "venue": "IUI 2026",
+    "title": "From Prompt to Presence: Co-Creating Personalised Emotional Sanctuaries in VR with Generative AI",
+    "url": "https://doi.org/10.1145/3742413.3789067"
+   },
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "sarah-rosskopf--tts-vr-tsst",
+   "creator_ids": [
+    "sarah-rosskopf"
+   ],
+   "title": "Hey AI: Can you trigger me? A comparison of Text-to-Speech synthesis and human speech in a virtual social stress paradigm",
+   "year": 2026,
+   "date": "2026-08",
+   "field": "behavioral",
+   "sub": "genai-research",
+   "modalities": [
+    "speech"
+   ],
+   "inputs": [],
+   "timing": "offline",
+   "lenses": [
+    "perceptual-realism",
+    "control"
+   ],
+   "kind": "study",
+   "description": "A virtual version of the Trier Social Stress Test in which the evaluating committee spoke either with text-to-speech or with prerecorded human voices. Both versions produced strong stress responses; heart-rate increases were statistically equivalent between voice conditions, while equivalence for self-reported stress and presence was only moderately supported.",
+   "description_zh": "虚拟版特里尔社会应激测试（TSST）中，评审委员会分别使用文本转语音或预先录制的真人语音。两种条件都引发了明显的应激反应；两种语音条件下的心率上升在统计上等效，而自评应激与临场感的等效性只得到中等程度的支持。",
+   "idea_en": "Synthetic voices can carry social-evaluative threat, which frees virtual evaluators to say new things instead of replaying recordings.",
+   "idea_zh": "合成语音同样能传递社会评价威胁，这让虚拟评审可以说出新内容，而不必只回放录音。",
+   "method": "Randomized controlled trial comparing TTS with prerecorded human speech for the virtual committee in a VR-TSST; heart rate, trapezius EMG and self-reported stress, presence and affect, analysed with equivalence tests.",
+   "method_zh": "随机对照试验，在 VR-TSST 中比较虚拟委员会使用文本转语音与预录真人语音；测量心率、斜方肌肌电以及自评应激、临场感与情绪，并做等效性检验。",
+   "specs": "RCT · VR-TSST · TTS vs. prerecorded human speech",
+   "keywords": [
+    "Trier Social Stress Test",
+    "text-to-speech",
+    "social stress",
+    "presence",
+    "equivalence testing",
+    "paper only"
+   ],
+   "paper": {
+    "doi": "10.1016/j.chbah.2026.100371",
+    "venue": "Computers in Human Behavior: Artificial Humans (2026)",
+    "title": "Hey AI: Can you trigger me? A comparison of Text-to-Speech synthesis and human speech in a virtual social stress paradigm",
+    "url": "https://doi.org/10.1016/j.chbah.2026.100371"
+   },
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "mengxu-pan--llm-eca-language-anxiety",
+   "creator_ids": [
+    "mengxu-pan"
+   ],
+   "title": "LLM-based Embodied Conversational Agent for Reducing Foreign Language Speaking Anxiety in Social VR",
+   "year": 2026,
+   "date": "2026-04-13",
+   "field": "behavioral",
+   "sub": "genai-research",
+   "modalities": [
+    "avatar",
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "lenses": [
+    "adaptation",
+    "situational-reach"
+   ],
+   "kind": "study",
+   "description": "English learners practised role-plays for 30 minutes a day over five days with an LLM-driven embodied agent in three social VR scenarios. Self-reported foreign language anxiety fell significantly after three days, speaking measures improved slightly, and learners credited the agent's non-judgemental stance, scaffolding and encouragement.",
+   "description_zh": "英语学习者连续五天、每天 30 分钟，在三个社交 VR 场景中与大语言模型驱动的具身智能体进行角色扮演。三天后自评外语焦虑显著下降，口语指标略有提升；学习者认为这得益于智能体不评判的态度、语言支架和情感鼓励。",
+   "idea_en": "A patient, non-judging conversation partner is hard to staff with people and easy to generate; the evidence is still one small cohort without a control group.",
+   "idea_zh": "一个耐心、不评判的对话伙伴很难长期由真人担任，却容易生成；不过目前的证据仍来自一个没有对照组的小样本。",
+   "method": "Five-day mixed-methods study (N = 20, no control group) with daily 30-minute role-play against an LLM-based embodied agent in social VR; foreign language anxiety scale, speaking-proficiency measures and interviews.",
+   "method_zh": "为期五天的混合方法研究（N = 20，无对照组），每天在社交 VR 中与基于大语言模型的具身智能体进行 30 分钟角色扮演；测量外语焦虑量表、口语能力指标并进行访谈。",
+   "specs": "N=20 · 5 days × 30 min · 3 scenarios",
+   "keywords": [
+    "foreign language anxiety",
+    "social VR",
+    "embodied conversational agent",
+    "role-play",
+    "language learning",
+    "paper only"
+   ],
+   "paper": {
+    "doi": "10.1145/3772318.3791068",
+    "venue": "CHI 2026",
+    "title": "LLM-based Embodied Conversational Agent for Reducing Foreign Language Speaking Anxiety in Social VR",
+    "url": "https://doi.org/10.1145/3772318.3791068"
+   },
+   "collections": [
+    "trend-genai-behavioral",
+    "chi"
+   ]
+  },
+  {
+   "id": "duo-wang-uiuc--proactive-ai-facilitation-mr",
+   "creator_ids": [
+    "duo-wang-uiuc"
+   ],
+   "title": "Should the AI Speak First? Evaluating Proactive vs. Reactive Facilitation in Mixed-Reality Medical Training",
+   "year": 2026,
+   "date": "2026-04-13",
+   "field": "behavioral",
+   "sub": "training",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "lenses": [
+    "responsiveness",
+    "adaptation"
+   ],
+   "kind": "study",
+   "description": "Medical students practised lumbar puncture in a mixed-reality simulator with an AI facilitator that either offered guidance and encouragement on its own initiative or answered only when asked (n = 22). Learning outcomes, interaction frequency and experience ratings did not differ, but interviews and behaviour logs showed that unprompted help was welcome in some task phases and disruptive in others.",
+   "description_zh": "医学生在混合现实模拟器中练习腰椎穿刺，AI 引导者或主动提供指导与鼓励，或只在被询问时回答（n = 22）。两种方式在学习结果、互动频率和体验评分上没有差异，但访谈和行为记录显示：主动帮助在某些任务阶段受欢迎，在另一些阶段则造成干扰。",
+   "idea_en": "When a generated character should take the initiative is a design variable of its own, and it depends on task phase and load rather than on one fixed setting.",
+   "idea_zh": "生成角色何时主动开口本身就是一个设计变量，它取决于任务阶段和认知负荷，而不是一个固定设置。",
+   "method": "Mixed-methods comparison of proactive and reactive versions of an AI facilitator (likely LLM-based, as in the group's EmSim) in an XR lumbar-puncture simulator with 22 medical students; learning outcomes, interaction logs, experience ratings, behavioural analysis and interviews, synthesised into a boundary framework for AI proactivity.",
+   "method_zh": "在 XR 腰椎穿刺模拟器中，以 22 名医学生比较 AI 引导者（可能与该团队的 EmSim 一样基于大语言模型）的主动与被动两个版本；测量学习结果、互动日志、体验评分，并进行行为分析与访谈，最终归纳出 AI 主动性的边界框架。",
+   "specs": "n=22 · proactive vs. reactive · lumbar puncture simulator",
+   "keywords": [
+    "proactive agents",
+    "AI facilitator",
+    "mixed reality",
+    "medical training",
+    "lumbar puncture",
+    "paper only"
+   ],
+   "paper": {
+    "doi": "10.1145/3772318.3791910",
+    "venue": "CHI 2026",
+    "title": "Should the AI Speak First? Evaluating Proactive vs. Reactive Facilitation in Mixed-Reality Medical Training",
+    "url": "https://doi.org/10.1145/3772318.3791910"
+   },
+   "collections": [
+    "trend-genai-behavioral",
+    "chi"
+   ]
+  },
+  {
+   "id": "tsehaye-haidemariam--synthetic-embodiment",
+   "creator_ids": [
+    "tsehaye-haidemariam"
+   ],
+   "title": "Synthetic embodiment: a framework for AI-generated identity cues in virtual reality and immersive environments",
+   "year": 2026,
+   "date": "2026-06-29",
+   "field": "behavioral",
+   "sub": "theory",
+   "modalities": [
+    "avatar",
+    "image"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "lenses": [
+    "control",
+    "diversity"
+   ],
+   "kind": "paper",
+   "description": "A hypothesis-and-theory article that treats avatar identity as a controllable design space (phenotype, gender presentation, age, cultural markers, ambiguity, intersectional cues) and proposes the Embodiment Categorization Bias model, in which identity cues shape embodiment strength, then social categorization, then intergroup outcomes such as bias, empathy and cooperation. A feasibility demonstration turns specified identity variables into prompts for ChatGPT, Gemini (Nano Banana Pro) and Tripo, producing nine preliminary avatar stimuli that the authors explicitly do not treat as validated.",
+   "description_zh": "一篇假说与理论文章：把化身身份视为一个可控的设计空间（表型、性别呈现、年龄、文化标记、模糊性、交叉性线索），并提出“具身分类偏差”（ECB）模型——身份线索先影响具身强度，再影响社会分类，最终影响偏见、共情与合作等群际结果。可行性演示把设定好的身份变量转化为提示词，交给 ChatGPT、Gemini（Nano Banana Pro）和 Tripo，得到九个初步化身刺激；作者明确说明这些刺激尚未经过验证。",
+   "idea_en": "Generative avatars could turn identity into an independent variable that varies in fine steps, provided every generated stimulus is perceptually validated and audited for bias.",
+   "idea_zh": "生成式化身可以把身份变成能精细调节的自变量，前提是每个生成刺激都经过感知验证和偏差审查。",
+   "method": "Conceptual framework plus a five-stage methodological pipeline (generation, standardisation, immersive integration, perceptual validation, fairness auditing) and an illustrative prompt-to-avatar demonstration across three generative systems.",
+   "method_zh": "概念框架，加上五阶段方法流程（生成、标准化、沉浸式集成、感知验证、公平性审查），以及在三个生成系统上从提示词到化身的示例演示。",
+   "keywords": [
+    "synthetic embodiment",
+    "identity cues",
+    "avatars",
+    "intergroup bias",
+    "Proteus effect",
+    "stimulus validation"
+   ],
+   "images": [
+    "https://www.frontiersin.org/files/Articles/1860842/xml-images/frvir-07-1860842-g001.webp"
+   ],
+   "paper": {
+    "doi": "10.3389/frvir.2026.1860842",
+    "venue": "Frontiers in Virtual Reality (2026)",
+    "title": "Synthetic embodiment: a framework for AI-generated identity cues in virtual reality and immersive environments",
+    "url": "https://doi.org/10.3389/frvir.2026.1860842"
+   },
+   "source_url": "https://www.frontiersin.org/journals/virtual-reality/articles/10.3389/frvir.2026.1860842/full",
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "juming-jiang--genai-virtual-patients-review",
+   "creator_ids": [
+    "juming-jiang"
+   ],
+   "title": "GenAI-Supported Virtual Patients in Health Care Education: Systematic Review",
+   "year": 2026,
+   "date": "2026-05-07",
+   "field": "behavioral",
+   "sub": "genai-research",
+   "modalities": [
+    "dialogue",
+    "speech",
+    "avatar"
+   ],
+   "inputs": [
+    "text",
+    "speech"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "control"
+   ],
+   "kind": "paper",
+   "description": "A systematic review of 15 studies (645 participants) that evaluated generative-AI virtual patients in nursing, medicine, pharmacy, radiography and first-responder training. Thirteen used OpenAI GPT models, six had 3D embodied avatars and only one delivered the patient in a head-mounted display; most interventions were single sessions without follow-up, so the authors rate the evidence as promising for feasibility but preliminary for learning effects.",
+   "description_zh": "一篇系统综述，纳入 15 项评估生成式 AI 虚拟病人的研究（共 645 名参与者），涵盖护理、医学、药学、放射学与急救人员培训。其中 13 项使用 OpenAI 的 GPT 模型，6 项采用三维具身化身，只有 1 项在头戴显示器中呈现病人；多数干预只有一次训练、没有随访，因此作者认为证据在可行性上有希望，但在学习效果上仍属初步。",
+   "idea_en": "The evidence base for generative virtual patients is almost entirely flat-screen; immersive, controlled studies are the gap.",
+   "idea_zh": "生成式虚拟病人的证据几乎都来自平面屏幕；沉浸式的对照研究正是空白所在。",
+   "method": "Systematic search of CINAHL, Medline, Embase, Scopus and Web of Science to March 2026; dual independent screening and extraction; JBI critical-appraisal checklists; narrative synthesis.",
+   "method_zh": "检索 CINAHL、Medline、Embase、Scopus 与 Web of Science 至 2026 年 3 月；两人独立筛选与提取；采用 JBI 质量评价清单；叙述性综合。",
+   "specs": "15 studies · N=645 · 3 RCTs · 1 HMD study",
+   "keywords": [
+    "virtual patients",
+    "systematic review",
+    "health professions education",
+    "GPT",
+    "evidence gap"
+   ],
+   "paper": {
+    "doi": "10.2196/82756",
+    "venue": "Journal of Medical Internet Research 28:e82756 (2026)",
+    "title": "GenAI-Supported Virtual Patients in Health Care Education: Systematic Review",
+    "url": "https://doi.org/10.2196/82756"
+   },
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "raina-cao--quantifying-latencies-vr",
+   "creator_ids": [
+    "raina-cao"
+   ],
+   "title": "Quantifying Latencies: A Conversation Analysis Approach to Human-Agent Interactions in Virtual Reality",
+   "year": 2026,
+   "date": "2026-04-13",
+   "field": "behavioral",
+   "sub": "genai-research",
+   "modalities": [
+    "avatar",
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "lenses": [
+    "responsiveness",
+    "behavioral-plausibility"
+   ],
+   "kind": "study",
+   "description": "Conversation analysis of spoken exchanges between people and LLM-based agents in social VR, timing responses and repairs. Agents took a median 4.1 s to respond versus 1.2 s for the human speakers, and the authors describe a 'conversational timing drift' in which agents start speaking too late and fail to stop quickly when interrupted.",
+   "description_zh": "对社交 VR 中人与大语言模型智能体的口语对话进行会话分析，测量回应时序与修复行为。智能体回应的中位延迟为 4.1 秒，人类说话者为 1.2 秒；作者将其描述为“对话时序漂移”：智能体开口太晚，被打断时又不能很快停下。",
+   "idea_en": "Turn-taking, not content, is where LLM-driven characters break the illusion first; a few seconds of silence is a measurable cost to plausibility.",
+   "idea_zh": "最先打破错觉的是话轮转换，而不是内容；几秒钟的沉默是可以量化的似真性代价。",
+   "method": "Conversation-analytic coding of human–agent talk in social VR, measuring response latency of agents and humans, start-up latency, wind-down latency after interruption and repair attempts; the authors present it as the first empirical quantification of human–agent conversational latency in VR.",
+   "method_zh": "对社交 VR 中人与智能体的对话进行会话分析编码，测量智能体与人的回应延迟、开口延迟、被打断后的收声延迟以及修复尝试；作者称这是首次在 VR 中对人与智能体的对话延迟进行实证量化。",
+   "specs": "median response latency 4.1 s (agent) vs. 1.2 s (human)",
+   "keywords": [
+    "turn-taking",
+    "latency",
+    "conversation analysis",
+    "social VR",
+    "LLM agents",
+    "paper only"
+   ],
+   "paper": {
+    "doi": "10.1145/3772318.3790947",
+    "venue": "CHI 2026",
+    "title": "Quantifying Latencies: A Conversation Analysis Approach to Human-Agent Interactions in Virtual Reality",
+    "url": "https://doi.org/10.1145/3772318.3790947"
+   },
+   "collections": [
+    "trend-genai-behavioral",
+    "chi"
+   ]
+  },
+  {
+   "id": "pau-mora--refugio",
+   "creator_ids": [
+    "pau-mora"
+   ],
+   "title": "Refugio",
+   "year": 2026,
+   "date": "2026-03-13",
+   "field": "behavioral",
+   "sub": "clinical",
+   "modalities": [
+    "mesh",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "co-creation",
+    "adaptation"
+   ],
+   "kind": "research",
+   "description": "A Meta Quest 3 application in which users furnish a therapeutic 'safe place' by voice: a self-hosted Gemma 3 model filters the request, Sana v1.0 draws candidate images, and Zero123++ with InstantMesh turns the chosen one into a 3D object in about two minutes. In a single-session feasibility study with 30 non-clinical participants, usability was high (SUS 86.3) and workload low; valence rose during creation and arousal fell during the following meditation.",
+   "description_zh": "一款 Meta Quest 3 应用：用户用语音布置一个用于心理治疗的“安全之地”。自托管的 Gemma 3 模型先过滤请求，Sana v1.0 生成候选图像，再由 Zero123++ 与 InstantMesh 把选中的图像变成三维物体，每个约需两分钟。在一项 30 名非临床参与者的单次可行性研究中，可用性很高（SUS 86.3）、工作负荷低；创作过程中效价上升，随后的冥想中唤醒度下降。",
+   "idea_en": "Generating the objects of a calming place on request lets the person author the therapeutic context, but at two minutes per object the waiting becomes part of the experience.",
+   "idea_zh": "按需生成平静之地中的物件，让当事人自己设计治疗情境；但每个物件约两分钟的等待，本身也成了体验的一部分。",
+   "method": "Speech (Wit.ai) → Gemma 3 request filtering → Sana image generation → user selection → Zero123++ multiview → InstantMesh mesh, on a local three-GPU server; single-arm study (N = 30) with SUS, NASA-TLX, an adapted RJPQ and SAM ratings at three time points.",
+   "method_zh": "语音（Wit.ai）→ Gemma 3 过滤请求 → Sana 生成图像 → 用户挑选 → Zero123++ 生成多视角 → InstantMesh 重建网格，运行在本地三 GPU 服务器上；单组研究（N = 30），测量 SUS、NASA-TLX、改编版 RJPQ 与三个时间点的 SAM 评分。",
+   "specs": "~117 s per object · N=30 · Meta Quest 3 · SUS 86.3",
+   "keywords": [
+    "safe place",
+    "emotion regulation",
+    "voice-to-3D",
+    "open models",
+    "feasibility study"
+   ],
+   "images": [
+    "https://www.frontiersin.org/files/Articles/1760765/xml-images/frvir-07-1760765-g003.webp",
+    "https://www.frontiersin.org/files/Articles/1760765/xml-images/frvir-07-1760765-g001.webp"
+   ],
+   "paper": {
+    "doi": "10.3389/frvir.2026.1760765",
+    "venue": "Frontiers in Virtual Reality (2026)",
+    "title": "Refugio: a voice-driven generative virtual reality “safe place” for personalized emotion regulation – feasibility and usability study",
+    "url": "https://doi.org/10.3389/frvir.2026.1760765"
+   },
+   "source_url": "https://www.frontiersin.org/journals/virtual-reality/articles/10.3389/frvir.2026.1760765/full",
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "nathalia-gomez--listening-and-mirroring",
+   "creator_ids": [
+    "nathalia-gomez"
+   ],
+   "title": "Listening and Mirroring: The Effects of Verbal Attunement and Behavioral Mimicry on Social and Empathic Perceptions of Embodied AI Agents in VR",
+   "year": 2026,
+   "date": "2026-09-23",
+   "field": "behavioral",
+   "sub": "genai-research",
+   "modalities": [
+    "avatar",
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "body"
+   ],
+   "timing": "turn-based",
+   "lenses": [
+    "behavioral-plausibility",
+    "responsiveness"
+   ],
+   "kind": "study",
+   "description": "An embodied AI counsellor in VR that answers through GPT-4o mini and can mirror the user's facial expressions, head tilt and posture as tracked by a Meta Quest Pro. In a 2 × 2 within-subjects study (N = 20), verbally attuned responses raised perceived empathy, while mimicry had only a marginal effect on perceived humanness and the two did not add up.",
+   "description_zh": "VR 中的具身 AI 咨询师：通过 GPT-4o mini 作答，并能借助 Meta Quest Pro 的追踪模仿用户的面部表情、头部倾斜与姿势。在 2 × 2 被试内研究（N = 20）中，言语上的共情回应提高了被感知的共情，而行为模仿只对“像人程度”有边缘效应，两者的作用也不能简单相加。",
+   "idea_en": "For an LLM-driven character, what it says moves perceived empathy more than whether its body mirrors you.",
+   "idea_zh": "对大语言模型驱动的角色来说，说什么比身体是否模仿你更能左右被感知到的共情。",
+   "method": "Unity application with Deepgram speech recognition and TTS, GPT-4o mini via LiveKit, a Ready Player Me avatar and Quest Pro face tracking for mimicry; 2 × 2 repeated-measures design (verbal attunement × behavioural mimicry), N = 20, repeated-measures ANOVA.",
+   "method_zh": "Unity 应用，结合 Deepgram 语音识别与语音合成、经 LiveKit 调用的 GPT-4o mini、Ready Player Me 化身以及 Quest Pro 面部追踪实现模仿；2 × 2 重复测量设计（言语共情 × 行为模仿），N = 20，重复测量方差分析。",
+   "specs": "N=20 · 2×2 within-subjects · Meta Quest Pro",
+   "keywords": [
+    "behavioral mimicry",
+    "verbal attunement",
+    "AI counsellor",
+    "empathy",
+    "embodied conversational agent"
+   ],
+   "images": [
+    "https://arxiv.org/html/2609.27246v1/Teaser.png",
+    "https://arxiv.org/html/2609.27246v1/FacialMimicry.png"
+   ],
+   "paper": {
+    "arxiv": "2609.27246",
+    "url": "https://arxiv.org/abs/2609.27246",
+    "venue": "ACM VRST 2026 (arXiv preprint)",
+    "title": "Listening and Mirroring: The Effects of Verbal Attunement and Behavioral Mimicry on Social and Empathic Perceptions of Embodied AI Agents in VR"
+   },
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "yupei-duan--ai-vsp-preservice-nurses",
+   "creator_ids": [
+    "yupei-duan"
+   ],
+   "title": "Supplementing Patient Encounter Training for Preservice Nurses: Towards an AI×VR Approach",
+   "year": 2026,
+   "date": "2026-01-26",
+   "field": "behavioral",
+   "sub": "training",
+   "modalities": [
+    "avatar",
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "lenses": [
+    "responsiveness",
+    "control"
+   ],
+   "kind": "study",
+   "description": "Preservice nurses practised with generative-AI virtual standardized patients in immersive VR before a standardized-patient exam (23 with the system, 34 controls). One session raised self-efficacy from 3.74 to 4.11 and usability was rated 81.6/100, but exam performance did not differ from controls and was unrelated to presence or immersion.",
+   "description_zh": "职前护士在参加标准化病人考核前，在沉浸式 VR 中与生成式 AI 驱动的虚拟标准化病人练习（使用系统 23 人，对照 34 人）。一次练习就把自我效能从 3.74 提高到 4.11，可用性评分 81.6/100；但考核表现与对照组没有差异，也与临场感和沉浸感无关。",
+   "idea_en": "Confidence and presence went up while exam performance did not, a reminder to measure transfer and not only experience.",
+   "idea_zh": "信心和临场感提高了，考核表现却没有变化；这提醒我们要测量迁移效果，而不只是体验。",
+   "method": "Mixed-methods study with an experimental group (n = 23) and a control group (n = 34); SUS, pre–post self-efficacy, standardized-patient encounter scores, engagement and presence questionnaires and interviews; the authors derive design steps such as capping reply length and enabling reliable barge-in.",
+   "method_zh": "混合方法研究，实验组 23 人、对照组 34 人；测量 SUS、前后测自我效能、标准化病人考核得分、投入度与临场感问卷，并进行访谈；作者据此提出限制回复长度、支持可靠插话打断等设计建议。",
+   "specs": "N=57 (23 + 34) · single session · SUS 81.6",
+   "keywords": [
+    "virtual standardized patients",
+    "nursing education",
+    "self-efficacy",
+    "barge-in",
+    "paper only"
+   ],
+   "paper": {
+    "doi": "10.1109/aixvr67263.2026.00020",
+    "venue": "IEEE AIxVR 2026",
+    "title": "Supplementing Patient Encounter Training for Preservice Nurses: Towards an AI×VR Approach",
+    "url": "https://doi.org/10.1109/aixvr67263.2026.00020"
+   },
+   "collections": [
+    "trend-genai-behavioral"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "Kor et al. 2026: GenAI-assisted vs. facilitator-led debriefing after immersive VR nursing simulation (Nurse Education Today)",
+   "why": "Added this round as patrick-pui-kin-kor--genai-debriefing-ivr.",
+   "link": "https://doi.org/10.1016/j.nedt.2026.107275",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "GenAI-supported virtual patients in health care education: systematic review (JMIR 2026)",
+   "why": "Added this round as juming-jiang--genai-virtual-patients-review.",
+   "link": "https://doi.org/10.2196/82756",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Cao, Pan, ... Prpa, Kitson: Quantifying Latencies, conversation analysis of human-agent interaction in VR (CHI 2026)",
+   "why": "Added this round as raina-cao--quantifying-latencies-vr.",
+   "link": "https://doi.org/10.1145/3772318.3790947",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Effectiveness of AI-enhanced virtual patients for psychiatric interview training: meta-analysis (Frontiers in Medicine 2026)",
+   "why": "10 studies (~450 trainees) of AI virtual patients, mostly conversational systems without an immersive interface; the JMIR review of GenAI virtual patients is added instead as juming-jiang--genai-virtual-patients-review.",
+   "link": "https://doi.org/10.3389/fmed.2026.1834636",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Muñoz, Lavoie et al. 2026: Modeling affective and autonomic user states in immersive de-escalation training (Frontiers in Computer Science)",
+   "why": "Physiological sensing pilot with 11 police officers; no generative component and no footage.",
+   "link": "https://doi.org/10.3389/fcomp.2026.1864858",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Nierula et al. 2026: From Multimodal Signals to Adaptive XR Experiences for De-escalation Training (IUI Workshops, arXiv 2604.11570)",
+   "why": "Workshop paper describing a sensing layer with preliminary results only; no study outcome and no footage.",
+   "link": "https://arxiv.org/abs/2604.11570",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Silber & Moller 2026: VR + GenAI exposure and response prevention platform for OCD (PsyArXiv)",
+   "why": "Generated exposure stimuli for OCD, but only an acceptability pilot with 8 trainees in a preprint; revisit if a controlled study is published.",
+   "link": "https://doi.org/10.31234/osf.io/zmhpj_v1",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Timmer, de Vries & Gosselt: The virtual crime scene, VR context reinstatement for eyewitness statements (PsyArXiv)",
+   "why": "Non-generative VR study (N=98) still a preprint (v3 2026) and without footage; revisit when peer-reviewed.",
+   "link": "https://doi.org/10.31234/osf.io/t8hqa_v3",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Solymosi, Caughey, Chataway & Moir 2026: Evaluating bystander intervention from a victim perspective using VR (CrimRxiv)",
+   "why": "Non-generative criminology preprint; abstract not indexed and no footage; revisit when published.",
+   "link": "https://doi.org/10.21428/cb6ab371.05142d61",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Salagean et al.: Virtual Selves, Real Emotions, photorealistic avatar personalization and emotion in VR (CHI 2026)",
+   "why": "CHI 2026, n=51 (environments validated with n=302): personalized photorealistic avatars amplified emotion and HRV; how the avatars were made could not be checked (full text blocked) and no footage was found. Candidate for a non-GenAI social-psych pass.",
+   "link": "https://doi.org/10.1145/3772318.3791423",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Kleygrewe et al. 2023: VR training for police officers compared with real-life training",
+   "why": "Already triaged in behavioral-2026-10: abstract and figures not retrievable, no footage; SHOTPROS is covered by shotpros--police-vr-training.",
+   "link": "https://doi.org/10.1080/15614263.2023.2176307",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Laine et al. 2026: Role-play training with conversational AI and immersive VR (IJHCS)",
+   "why": "Platform, proof of concept and user study in IJHCS (2027 issue); abstract still not indexed in OpenAlex, Semantic Scholar or Undermind and the publisher page is blocked, so sample and design cannot be stated.",
+   "link": "https://doi.org/10.1016/j.ijhcs.2026.103917",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "AI-driven virtual patient for breaking bad news (2026)",
+   "why": "Already triaged in behavioral-2026-10 (Hauck et al., arXiv 2607.22118): formative study with 7 experts, no video or project page.",
+   "link": "https://arxiv.org/abs/2607.22118",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Della Greca et al. 2026: Mental health interventions, an integrated system based on generative AI and VR (Virtual Reality)",
+   "why": "GenAI 3D-object co-creation in a VR safe space, usability study n=30 without a control group; overlaps with pau-mora--refugio and has no footage.",
+   "link": "https://doi.org/10.1007/s10055-026-01474-4",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Beloturkina et al. 2026: Personalized VR environments for sleep support (NordiCHI 2026 adjunct)",
+   "why": "Generated pre-sleep VR environments vs. predefined ones over seven nights; formative study with 15 participants, no sleep-metric difference; adjunct paper without footage.",
+   "link": "https://doi.org/10.1145/3821402.3830144",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Griessenauer et al. 2025 preprint of the AI-generated safe place RCT (JMIR Preprints)",
+   "why": "Preprint of the trial added this round as franziska-griessenauer--ai-safe-place-vr-rct.",
+   "link": "https://doi.org/10.2196/preprints.82647",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Talawar & Biswas 2026: Generative humanoid avatar creation for ethnicity-focused VR studies (ICVR 2026)",
+   "why": "Text-to-image + TRELLIS + Mixamo pipeline for workplace avatars varying in ethnicity, gender and age; exploratory study N=25, no footage. Relevant to tsehaye-haidemariam--synthetic-embodiment.",
+   "link": "https://doi.org/10.1109/icvr70658.2026.11672589",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Mengoni et al. 2026: GenAI avatars in VR, role of presence, health and technological factors (Computers & Education: X Reality)",
+   "why": "Two GPT avatars on the Classlet VR platform, N=30 correlational study; low salience, no footage.",
+   "link": "https://doi.org/10.1016/j.cexr.2026.100141",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Suh et al. 2026: Personality congruence and conversational stance in human–agent interaction in VR (Virtual Reality)",
+   "why": "Big-Five-matched embodied agent in debate contexts; sample size not in the abstract, no footage.",
+   "link": "https://doi.org/10.1007/s10055-026-01463-7",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Cantone et al. 2026: Affect-aware conversational adaptation in mixed reality procedural tasks (J. Ambient Intelligence and Humanized Computing)",
+   "why": "LLM agent with prosody-based affect adaptation in an MR chemistry lab, between-subjects N=40 (higher usability, longer task time); paper only, moderate salience.",
+   "link": "https://doi.org/10.1007/s12652-026-05125-z",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Zhang 2026: Dynamic AI-driven vs. static VR narratives (N=40)",
+   "why": "Low-tier venue, user-experience ratings only, no footage.",
+   "link": "https://doi.org/10.54097/80tedv87",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Ariya et al. 2026: Voice, text or embodied AI avatar in VR museums (Informatics)",
+   "why": "Controlled study (N=75) of GenAI guide modalities in a virtual museum; information-access UX rather than behavioral research or training.",
+   "link": "https://doi.org/10.3390/informatics13030042",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Thongthip et al. 2026: VR360 vs. AI-driven conversational VR for a culturally restricted sacred site (Informatics)",
+   "why": "In-the-wild heritage deployment (N=136); cultural access rather than behavioral research; if anywhere, genxr.",
+   "link": "https://doi.org/10.3390/informatics13040059",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Hu et al. 2026: Real-time voice generative-AI virtual patient vs. standardized patients RCT (Medical Teacher)",
+   "why": "RCT N=134 on the Doubao real-time voice platform; voice-only, no immersive interface.",
+   "link": "https://doi.org/10.1080/0142159x.2026.2645021",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Zhang et al. 2026: AI virtual patient system for dental communication skills RCT (Medical Teacher)",
+   "why": "RCT N=60 with a screen-based AI virtual patient; no immersive interface.",
+   "link": "https://doi.org/10.1080/0142159x.2026.2681199",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Sun et al. 2026: AI virtual standardized patients vs. standardized patients in SEGUE training RCT (Frontiers in Public Health)",
+   "why": "RCT N=82 with a screen-based AI virtual standardized patient; no immersive interface.",
+   "link": "https://doi.org/10.3389/fpubh.2026.1768518",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Look2React: Making VR NPCs Come Alive with Dynamic Vision-Guided Reactions (TVCG 2026)",
+   "why": "Belongs to agents/npc: vision-language model selects NPC poses and replies from what the NPC sees; N=20 study; IEEE supplementary mp4 at doi 10.1109/tvcg.2026.3679121/mm1.",
+   "link": "https://doi.org/10.1109/tvcg.2026.3679121",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Zargham et al. 2026: Dialogs with GenAI NPCs, player interactions with speech agents in a VR game (IJHCI)",
+   "why": "Belongs to agents/npc: 'Office Whispers' VR game with four GenAI NPCs; exploratory player study.",
+   "link": "https://doi.org/10.1080/10447318.2026.2620647",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Yang & Chen 2026: One Word, One World, voice-driven generative co-creation in collaborative VR (Virtual Reality)",
+   "why": "Belongs to genxr/in-situ: speech-to-3D asset generation in a multi-user VR space, within-subjects N=48 against an asset library.",
+   "link": "https://doi.org/10.1007/s10055-026-01434-y",
+   "found_via": "seed",
+   "status": "open"
+  }
+ ]
+}

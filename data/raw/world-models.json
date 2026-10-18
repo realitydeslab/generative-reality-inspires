@@ -2481,6 +2481,7 @@
       "video": {
         "url": "https://mira-wm.com/media/hero-v2.mp4"
       },
+      "paper": {"url": "https://arxiv.org/abs/2607.05352", "arxiv": "2607.05352", "venue": "arXiv 2026", "title": "Multiplayer Interactive World Models with Representation Autoencoders"},
       "source_url": "https://mira-wm.com/blog-post/",
       "code_url": "https://github.com/mira-wm/mira",
       "collections": [
@@ -3436,8 +3437,8 @@
         "responsiveness"
       ],
       "kind": "open-source",
-      "description": "An open-weight, memory-augmented interactive world model that streams 720p video in real time and keeps scenes consistent over long sessions by retrieving relevant past frames by camera position; Skywork followed it with Matrix-Game 3.5 (patch memory) in August 2026.",
-      "description_zh": "一个开源权重、带记忆增强的交互世界模型：实时流式输出 720p 视频，并按相机位置调取相关历史帧，使长时会话中的场景保持一致；昆仑万维于 2026 年 8 月推出后续版本 Matrix-Game 3.5（块记忆）。",
+      "description": "An open-weight, memory-augmented interactive world model that streams 720p video in real time and keeps scenes consistent over long sessions by retrieving relevant past frames by camera position; Matrix-Game 3.5 (patch memory, open 5B weights on Wan2.2) followed in August 2026, released under the Riemann Dynamics name by authors overlapping the 3.0 team.",
+      "description_zh": "一个开源权重、带记忆增强的交互世界模型：实时流式输出 720p 视频，并按相机位置调取相关历史帧，使长时会话中的场景保持一致；2026 年 8 月，与 3.0 团队部分重合的作者以 Riemann Dynamics 名义发布后续版本 Matrix-Game 3.5（块记忆，基于 Wan2.2 的 5B 开源权重）。",
       "idea_en": "Shows memory and real-time speed together in an open model, at a hardware cost (8 GPUs) that still limits lab use.",
       "idea_zh": "在开源模型中同时实现记忆与实时速度，但硬件成本（8 张 GPU）仍限制了实验室的使用。",
       "method": "A 5B autoregressive diffusion model building on Matrix-Game 2.0 with GPU-based camera-aware memory retrieval, few-step sampling, INT8 quantization, distillation and a lightweight VAE.",

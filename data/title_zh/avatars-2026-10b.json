@@ -1,0 +1,22 @@
+{
+  "yu-han-meta--facegan": {
+    "zh": "FaceGAN：无需蒸馏的单次前向实时说话头像",
+    "src": "translated"
+  },
+  "koki-nagano--dyaplex": {
+    "zh": "DyaPlex：面向双人互动的全双工语音-动作模型",
+    "src": "translated"
+  },
+  "hezhen-hu--humannova": {
+    "zh": "HumanNOVA：由单张图像快速生成照片级三维人体化身",
+    "src": "translated"
+  },
+  "gavriel-habib--pixreenact": {
+    "zh": "PixReenact：像素条件因果视频扩散的流式头像重演",
+    "src": "translated"
+  },
+  "alibaba-tongyi--wan-dancer": {
+    "zh": "Wan-Dancer：分钟级连贯的音乐驱动舞蹈视频生成",
+    "src": "translated"
+  }
+}

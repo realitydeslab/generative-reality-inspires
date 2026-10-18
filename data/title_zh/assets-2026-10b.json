@@ -1,0 +1,46 @@
+{
+ "tencent-arc--pixal3d": {
+  "zh": "Pixal3D 像素对齐的图生三维",
+  "src": "translated"
+ },
+ "roblox--multicube": {
+  "zh": "MultiCube 部件级可控的组合式三维生成",
+  "src": "translated"
+ },
+ "chuanrui-zhang--usdcraft": {
+  "zh": "USDCraft 面向仿真的关节三维资产程序化建模",
+  "src": "translated"
+ },
+ "meta--autopartgen": {
+  "zh": "AutoPartGen 自回归三维部件生成",
+  "src": "translated"
+ },
+ "zehuan-huang--animax": {
+  "zh": "AnimaX 借视频先验为任意三维网格生成动画",
+  "src": "translated"
+ },
+ "bohong-chen--echoavatar": {
+  "zh": "EchoAvatar 音频流实时驱动的角色动画",
+  "src": "translated"
+ },
+ "yiyi-cai--flooddiffusion-2": {
+  "zh": "FloodDiffusion 2 流式动作生成",
+  "src": "translated"
+ },
+ "xiangyue-zhang--streamtalk": {
+  "zh": "StreamTalk 流式伴随语音手势生成",
+  "src": "translated"
+ },
+ "brian-nlong-zhao--kirin": {
+  "zh": "Kirin 从网络视频学习动物动作生成",
+  "src": "translated"
+ },
+ "chuqiao-li--frankenmotion": {
+  "zh": "FrankenMotion 部位级人体动作生成与组合",
+  "src": "translated"
+ },
+ "jingcheng-ni--sonic-amg": {
+  "zh": "Sonic-AMG 由空间音频流式生成人体动作",
+  "src": "translated"
+ }
+}

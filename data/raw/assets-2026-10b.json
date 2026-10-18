@@ -1,0 +1,915 @@
+{
+ "batch": "assets-2026-10b",
+ "creators": [
+  {
+   "id": "zehuan-huang",
+   "name": "Zehuan Huang",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, Beihang University",
+   "based": "Beijing, CN",
+   "bio": "Researcher in Lu Sheng's group at Beihang University's School of Software and first author of AnimaX (2025), developed with VAST.",
+   "why": "AnimaX transfers motion priors from video diffusion to skeletons of any shape, so a generated mesh can be animated from a text prompt.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {},
+   "role_zh": "北京航空航天大学博士研究者",
+   "bio_zh": "北京航空航天大学软件学院 Lu Sheng 课题组研究者，与 VAST 合作完成的 AnimaX（2025）第一作者。",
+   "why_zh": "AnimaX 把视频扩散模型中的运动先验迁移到任意形状的骨骼上，生成的网格只需一句文字提示就能动起来。",
+   "based_zh": "中国北京",
+   "connected_to": [
+    "tripo-ai"
+   ],
+   "discovered_via": "tripo-ai"
+  },
+  {
+   "id": "bohong-chen",
+   "name": "Bohong Chen",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, State Key Lab of CAD&CG, Zhejiang University",
+   "based": "Hangzhou, CN",
+   "bio": "Researcher in Kun Zhou's group at Zhejiang University's State Key Lab of CAD&CG and first author of EchoAvatar (SIGGRAPH 2026).",
+   "why": "EchoAvatar animates a full 3D body from a live voice or music stream, the body that voice agents lack.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://github.com/RobinWitch"
+   },
+   "role_zh": "浙江大学 CAD&CG 国家重点实验室研究者",
+   "bio_zh": "浙江大学 CAD&CG 国家重点实验室周昆课题组研究者，EchoAvatar（SIGGRAPH 2026）第一作者。",
+   "why_zh": "EchoAvatar 能根据实时语音或音乐流驱动完整的三维身体，补上语音智能体缺少的“身体”。",
+   "based_zh": "中国杭州",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "yiyi-cai",
+   "name": "Yiyi Cai",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, ShandaAI Research Tokyo",
+   "based": "Tokyo, JP",
+   "bio": "First author of FloodDiffusion (CVPR 2026) and FloodDiffusion 2 (2026), streaming text-to-motion models from ShandaAI Research Tokyo and the University of Tokyo; version 2 is published through Alaya Lab's GitHub and Hugging Face accounts.",
+   "why": "FloodDiffusion lets new text commands redirect a character's motion while it moves, in real time.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {},
+   "role_zh": "ShandaAI 东京研究院研究者",
+   "bio_zh": "FloodDiffusion（CVPR 2026）与 FloodDiffusion 2（2026）的第一作者，两者都是 ShandaAI 东京研究院与东京大学的流式文本生成动作模型；第二版通过 Alaya Lab 的 GitHub 与 Hugging Face 账号发布。",
+   "why_zh": "FloodDiffusion 让新的文字指令能在角色运动过程中实时改变其动作。",
+   "based_zh": "日本东京",
+   "connected_to": [
+    "alaya-lab"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "xiangyue-zhang",
+   "name": "Xiangyue Zhang",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, University of Tokyo and Tongyi Lab (Alibaba)",
+   "based": "Tokyo, JP",
+   "bio": "First author of StreamTalk (ECCV 2026) and of the earlier co-speech gesture models SemTalk (ICCV 2025) and EchoMask (ACM MM 2025); co-author of FloodDiffusion 2.",
+   "why": "StreamTalk keeps streamed co-speech gestures from drifting over long talks, which virtual humans in long conversations need.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://www.xiangyuezhang.com/"
+   },
+   "role_zh": "东京大学与通义实验室（阿里巴巴）研究者",
+   "bio_zh": "StreamTalk（ECCV 2026）以及此前伴随语音手势模型 SemTalk（ICCV 2025）、EchoMask（ACM MM 2025）的第一作者，也是 FloodDiffusion 2 的合著者。",
+   "why_zh": "StreamTalk 让流式生成的伴随语音手势在长时间讲话中不再跑偏，这是虚拟人进行长对话所必需的。",
+   "based_zh": "日本东京",
+   "connected_to": [
+    "alibaba-tongyi"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "brian-nlong-zhao",
+   "name": "Brian Nlong Zhao",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, University of Illinois Urbana-Champaign",
+   "based": "Urbana-Champaign, US",
+   "bio": "Researcher with James M. Rehg at UIUC and co-first author of Kirin (ECCV 2026), with Stanford's Jiajun Wu and Cambridge's Shangzhe Wu.",
+   "why": "Kirin brings text- and image-conditioned motion generation to animals, learned from internet video.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://briannlongzhao.github.io/"
+   },
+   "role_zh": "伊利诺伊大学厄巴纳-香槟分校博士研究者",
+   "bio_zh": "伊利诺伊大学厄巴纳-香槟分校 James M. Rehg 课题组研究者，与斯坦福大学 Jiajun Wu、剑桥大学 Shangzhe Wu 合作完成的 Kirin（ECCV 2026）共同第一作者。",
+   "why_zh": "Kirin 把以文字和图像为条件的动作生成扩展到动物，并从网络视频中学习。",
+   "based_zh": "美国厄巴纳-香槟",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "chuqiao-li",
+   "name": "Chuqiao Li",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, University of Tübingen",
+   "based": "Tübingen, DE",
+   "bio": "Researcher in Gerard Pons-Moll's group at the University of Tübingen and the Tübingen AI Center, first author of FrankenMotion (CVPR 2026).",
+   "why": "FrankenMotion gives each body part its own timed text prompt, the fine control that nonverbal-behaviour experiments need.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://coral79.github.io/"
+   },
+   "role_zh": "图宾根大学博士研究者",
+   "bio_zh": "图宾根大学与图宾根 AI 中心 Gerard Pons-Moll 课题组研究者，FrankenMotion（CVPR 2026）第一作者。",
+   "why_zh": "FrankenMotion 为每个身体部位提供带时间安排的独立文字提示，正是非语言行为实验需要的精细控制。",
+   "based_zh": "德国图宾根",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "jingcheng-ni",
+   "name": "Jingcheng Ni",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, Brown University",
+   "based": "Providence, US",
+   "bio": "Researcher in Srinath Sridhar's group at Brown University and first author of Sonic-AMG (2026), with MIT, Yale and the University of Hong Kong.",
+   "why": "Sonic-AMG makes simulated people react in real time to what a sound is and where it comes from.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://jingchengni.com/"
+   },
+   "role_zh": "布朗大学博士研究者",
+   "bio_zh": "布朗大学 Srinath Sridhar 课题组研究者，与麻省理工学院、耶鲁大学和香港大学合作完成的 Sonic-AMG（2026）第一作者。",
+   "why_zh": "Sonic-AMG 让模拟人物能根据声音是什么、从哪里来，实时做出反应。",
+   "based_zh": "美国普罗维登斯",
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "tencent-arc--pixal3d",
+   "creator_ids": [
+    "tencent-arc"
+   ],
+   "title": "Pixal3D",
+   "year": 2026,
+   "date": "2026-05-11",
+   "field": "assets",
+   "sub": "objects",
+   "modalities": [
+    "mesh",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image",
+    "multi-view"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "Image-to-3D model from Tencent ARC Lab and Tsinghua University that generates the asset aligned with the input photo's viewpoint instead of in a canonical pose, so the mesh matches the picture pixel by pixel; it also accepts several views and, through a modular pipeline, rebuilds a photo as a scene of separate objects. Code and weights are MIT-licensed.",
+   "description_zh": "腾讯 ARC Lab 与清华大学的图生三维模型：不在标准姿态下生成，而是直接按输入照片的视角生成资产，使网格与照片逐像素对齐；它也能接收多视角图像，并可借助模块化流程把一张照片重建为由独立物体组成的场景。代码与权重以 MIT 许可证开放。",
+   "idea_en": "A generated prop finally matches the photo it came from, so a real object, or a room of them, can be rebuilt from a snapshot rather than approximated.",
+   "idea_zh": "生成的道具终于能和原照片对得上：真实物体乃至一整间屋子的物品，都可以从一张照片重建，而不只是近似。",
+   "method": "Pixel back-projection conditioning lifts multi-scale image features into a view-aligned 3D feature volume, giving explicit pixel-to-3D correspondence for a 3D-native latent generator; multi-view input aggregates the back-projected volumes.",
+   "method_zh": "通过“像素反投影”条件，把多尺度图像特征提升到与视角对齐的三维特征体中，为原生三维潜空间生成器提供明确的像素—三维对应关系；多视角输入时把各视角反投影得到的特征体聚合起来。",
+   "specs": "MIT licence · single- or multi-view input · ComfyUI packaging ≈786k downloads in 30 days (Hugging Face, 2026-10-18)",
+   "keywords": [
+    "image-to-3D",
+    "pixel-aligned generation",
+    "open weights",
+    "scene reconstruction",
+    "official video is a 250 MB release download (not linked)"
+   ],
+   "images": [
+    "https://ldyang694.github.io/projects/pixal3d/results/2_mesh.webp"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2605.10922",
+    "arxiv": "2605.10922",
+    "venue": "SIGGRAPH 2026",
+    "title": "Pixal3D: Pixel-Aligned 3D Generation from Images"
+   },
+   "source_url": "https://ldyang694.github.io/projects/pixal3d/",
+   "code_url": "https://github.com/TencentARC/Pixal3D",
+   "collections": [
+    "siggraph",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "roblox--multicube",
+   "creator_ids": [
+    "roblox"
+   ],
+   "title": "MultiCube",
+   "year": 2026,
+   "date": "2026-08-20",
+   "field": "assets",
+   "sub": "objects",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [
+    "text",
+    "spec"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "control",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Research model from Roblox, Carnegie Mellon and Stanford that generates a 3D object as separate part meshes from a text prompt, a list of named parts and a bounding box for each part, so the same layout can be filled with different parts or the same parts rearranged. Published as a preprint with a project page; no code was linked as of October 2026.",
+   "description_zh": "Roblox 与卡内基梅隆大学、斯坦福大学合作的研究模型：输入一句文字提示、一份带名称的部件清单以及每个部件的包围盒，就能生成由独立部件网格组成的三维物体；同一布局可以换上不同部件，同一组部件也可以重新摆放。以预印本和项目主页形式发布，截至 2026 年 10 月未公开代码。",
+   "idea_en": "Props are specified the way a level designer thinks, which parts and where, rather than by hoping a prompt yields the right structure.",
+   "idea_zh": "像关卡设计师那样指定道具——要哪些部件、各放在哪里——而不是寄希望于一句提示词恰好生成正确的结构。",
+   "method": "Two-stage diffusion: a mesh aligned with the part schema and layout is generated first, then decomposed into all part meshes at once; a Part Layout Adapter encodes each part's label and box independently of the others.",
+   "method_zh": "两阶段扩散：先生成与部件清单和布局一致的整体网格，再一次性拆分为各个部件网格；Part Layout Adapter 独立编码每个部件的名称与包围盒。",
+   "keywords": [
+    "part-level generation",
+    "compositional 3D",
+    "layout control",
+    "Roblox Cube"
+   ],
+   "video": {
+    "url": "https://multi-cube.github.io/assets/demo.mp4"
+   },
+   "images": [
+    "https://multi-cube.github.io/assets/method.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2608.20448",
+    "arxiv": "2608.20448",
+    "venue": "arXiv 2026",
+    "title": "MultiCube: Compositional 3D Generation With Part-Level Semantic and Spatial Control"
+   },
+   "source_url": "https://multi-cube.github.io/",
+   "collections": []
+  },
+  {
+   "id": "chuanrui-zhang--usdcraft",
+   "creator_ids": [
+    "chuanrui-zhang",
+    "nvidia"
+   ],
+   "title": "USDCraft",
+   "year": 2026,
+   "date": "2026-10-08",
+   "field": "assets",
+   "sub": "objects",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [
+    "multi-view",
+    "image",
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "control"
+   ],
+   "kind": "research",
+   "description": "NVIDIA research (with NTU) in which a pretrained LLM writes and revises an executable program for an articulated object, such as a drawer, a toaster or a piano, from a partial or corrupted scan, an image or a prompt; the output is a USD asset with joints and physical properties that loads into Isaac Sim without manual adjustment. Code and dataset were still listed as to come in October 2026.",
+   "description_zh": "NVIDIA（与南洋理工大学合作）的研究：由预训练大语言模型根据残缺或有缺陷的扫描网格、一张图像或一段文字，编写并反复修改可执行程序，生成抽屉、烤面包机、钢琴等带关节的物体；输出为带关节和物理属性的 USD 资产，无需手动调整即可载入 Isaac Sim。截至 2026 年 10 月，代码与数据集仍标注为“待发布”。",
+   "idea_en": "Objects that open, slide and click arrive as editable programs with physics attached, so a generated room can be operated, not only looked at.",
+   "idea_zh": "能打开、滑动、按下的物体以附带物理属性、可编辑的程序形式交付，生成的房间不只是能看，还能动手操作。",
+   "method": "Source geometry analysis turns the input mesh into a metric text description that separates observed surface from unknown space; the LLM writes a USD program, each candidate is re-encoded the same way so that discrepancies point to program edits, and visual feedback plus physical authoring guidance finish the asset, with no task-specific training.",
+   "method_zh": "“源几何分析”把输入网格转为区分已观测表面与未知空间的度量化文字描述；大语言模型据此编写 USD 程序，每个候选结果再用同样方式重新编码，差异直接指向需要修改的程序；最后借助视觉反馈和物理建模指引完成资产，无需针对任务的训练。",
+   "specs": "output: OpenUSD with joints and physical properties · loads in Isaac Sim",
+   "keywords": [
+    "articulated objects",
+    "simulation-ready",
+    "USD",
+    "LLM program synthesis",
+    "real-to-sim"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=lNaAm5zc0BM"
+   },
+   "images": [
+    "https://xingyoujun.github.io/usdcraft/static/videos/update-20260928/opening.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2610.11322",
+    "arxiv": "2610.11322",
+    "venue": "arXiv 2026",
+    "title": "USDCraft: Geometrically Grounded Programmatic Modeling of Articulated 3D Assets for Simulation"
+   },
+   "source_url": "https://xingyoujun.github.io/usdcraft/",
+   "collections": [
+    "trend-physical-ai"
+   ]
+  },
+  {
+   "id": "meta--autopartgen",
+   "creator_ids": [
+    "meta"
+   ],
+   "title": "AutoPartGen",
+   "year": 2025,
+   "date": "2025-07-17",
+   "field": "assets",
+   "sub": "objects",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "authoring",
+    "control"
+   ],
+   "kind": "model",
+   "description": "Model from Meta AI and the University of Oxford's Visual Geometry Group that builds an object, or a whole scene, one 3D part at a time from an image, optional 2D part masks or an existing 3D shape, and decides by itself how many parts there are. Meta released code and gated weights (access on request) on Hugging Face in June 2026.",
+   "description_zh": "Meta AI 与牛津大学视觉几何组（VGG）的模型：根据一张图像、可选的二维部件掩码或已有三维形状，一次生成一个三维部件，逐步搭出物体乃至整个场景，并自行决定部件数量。Meta 于 2026 年 6 月在 Hugging Face 发布了代码和需申请访问的权重。",
+   "idea_en": "Objects arrive already split into the pieces an interaction needs, a lid, a handle, a door, without a separate segmentation step.",
+   "idea_zh": "物体生成出来时已经拆成交互所需的部件——盖子、把手、门——无需另做分割。",
+   "method": "Autoregressive generation in the 3DShape2VecSet latent space: each part is predicted conditioned on the parts generated so far and on the image, masks or 3D input, until the model decides the object is complete; parts assemble without further optimisation.",
+   "method_zh": "在 3DShape2VecSet 潜空间中自回归生成：每个部件都以已生成的部件以及图像、掩码或三维输入为条件，直到模型判断物体已完整；各部件无需额外优化即可拼合。",
+   "specs": "weights: facebook/autopartgen on Hugging Face (gated) · published 2026-06-09",
+   "keywords": [
+    "part generation",
+    "autoregressive",
+    "3DShape2VecSet",
+    "open weights"
+   ],
+   "video": {
+    "url": "https://silent-chen.github.io/AutoPartGen/static/assets/video.mp4"
+   },
+   "images": [
+    "https://huggingface.co/datasets/silentchen/AutoPartGen-projectpage-assets/resolve/main/overview.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2507.13346",
+    "arxiv": "2507.13346",
+    "venue": "arXiv 2025",
+    "title": "AutoPartGen: Autogressive 3D Part Generation and Discovery"
+   },
+   "source_url": "https://silent-chen.github.io/AutoPartGen/",
+   "code_url": "https://github.com/facebookresearch/autopartgen",
+   "collections": [
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "zehuan-huang--animax",
+   "creator_ids": [
+    "zehuan-huang",
+    "tripo-ai"
+   ],
+   "title": "AnimaX",
+   "year": 2025,
+   "date": "2025-06-24",
+   "field": "assets",
+   "sub": "characters",
+   "modalities": [
+    "motion"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "diversity"
+   ],
+   "kind": "research",
+   "description": "Beihang University and VAST (Tripo) method that animates any rigged 3D mesh, from humanoids and animals to other articulated objects, from a text prompt by transferring motion knowledge from a video diffusion model, in one feed-forward pass that takes minutes. Code and model were still listed as coming soon in October 2026.",
+   "description_zh": "北京航空航天大学与 VAST（Tripo）的方法：借用视频扩散模型的运动知识，只需一句文字提示，就能以单次前馈在几分钟内为任意带骨骼的三维网格（人形、动物及其他关节物体）生成动画。截至 2026 年 10 月，代码与模型仍标注为“即将发布”。",
+   "idea_en": "Motion priors learned from video reach skeletons of any shape, so creatures and props can move without a motion-capture library for their body plan.",
+   "idea_zh": "从视频中学到的运动先验可以用于任意形状的骨骼，生物与道具不需要针对自身结构的动捕库也能动起来。",
+   "method": "Represents 3D motion as multi-view, multi-frame 2D pose maps generated jointly with video, conditioned on template renderings and a motion prompt; the poses are triangulated into 3D joints and converted to mesh animation by inverse kinematics; trained on 160,000 rigged sequences.",
+   "method_zh": "把三维动作表示为多视角、多帧的二维姿态图，以模板渲染图和动作提示为条件，与视频联合生成；再把姿态三角化为三维关节位置，并通过逆向运动学转换为网格动画；训练数据为 16 万条带骨骼的动画序列。",
+   "specs": "trained on 160k rigged sequences · arbitrary skeletons",
+   "keywords": [
+    "3D animation",
+    "video-pose diffusion",
+    "arbitrary skeletons",
+    "text-to-animation"
+   ],
+   "video": {
+    "url": "https://anima-x.github.io/assets/teaser.mp4"
+   },
+   "images": [
+    "https://anima-x.github.io/assets/overview.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2506.19851",
+    "arxiv": "2506.19851",
+    "venue": "arXiv 2025",
+    "title": "AnimaX: Animating the Inanimate in 3D with Joint Video-Pose Diffusion Models"
+   },
+   "source_url": "https://anima-x.github.io/",
+   "code_url": "https://github.com/anima-x/anima-x",
+   "collections": []
+  },
+  {
+   "id": "bohong-chen--echoavatar",
+   "creator_ids": [
+    "bohong-chen"
+   ],
+   "title": "EchoAvatar",
+   "year": 2026,
+   "date": "2026-05-27",
+   "field": "assets",
+   "sub": "motion",
+   "also": [
+    "avatars"
+   ],
+   "modalities": [
+    "motion",
+    "avatar"
+   ],
+   "inputs": [
+    "speech",
+    "text"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "behavioral-plausibility"
+   ],
+   "kind": "model",
+   "description": "Zhejiang University model that generates full-body 3D character motion from streaming speech or music with low latency, without being told which of the two it is hearing; the demos connect it to ChatGPT, Doubao and ElevenLabs voice agents so that the agent's voice drives a moving body, and the LLM can trigger specific actions through a tool call. Code and pretrained models are public.",
+   "description_zh": "浙江大学的模型：根据实时输入的语音或音乐以低延迟生成三维角色的全身动作，而且不需要事先告诉它听到的是哪一种；演示中把它接到 ChatGPT、豆包和 ElevenLabs 的语音智能体上，让智能体的声音驱动一个会动的身体，大语言模型还能通过工具调用触发特定动作。代码与预训练模型已公开。",
+   "idea_en": "Gives any voice agent a body that gestures while it talks and moves to music, with the LLM able to cue deliberate actions.",
+   "idea_zh": "为任何语音智能体配上一副身体：说话时有手势，听到音乐会随之起舞，大语言模型还能下达特定动作。",
+   "method": "A unified streaming architecture synthesises continuous motion from incremental audio; training enforces strong audio dependency so it generalises across speech and music without mode labels, reinforcement learning refines online generation, and a tool-call interface lets an upstream LLM inject semantic control.",
+   "method_zh": "统一的流式架构根据持续到来的音频片段合成连续动作；训练时强化动作对音频的依赖，使其无需模式标签即可同时适用于语音和音乐；再用强化学习改进在线生成质量，并通过工具调用接口接受上游大语言模型的语义控制。",
+   "specs": "streaming speech and music input · full-body motion · MIT code and pretrained models",
+   "keywords": [
+    "audio-to-motion",
+    "streaming",
+    "voice agents",
+    "co-speech gesture",
+    "dance"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=GydR3H6YwBQ"
+   },
+   "images": [
+    "https://robinwitch.github.io/EchoAvatar-Page/imgs/demo_pipeline_2.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2605.28272",
+    "arxiv": "2605.28272",
+    "venue": "SIGGRAPH 2026",
+    "title": "EchoAvatar: Real-time Generative Avatar Animation from Audio Streams"
+   },
+   "source_url": "https://robinwitch.github.io/EchoAvatar-Page/",
+   "code_url": "https://github.com/RobinWitch/EchoAvatar",
+   "collections": [
+    "siggraph",
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "yiyi-cai--flooddiffusion-2",
+   "creator_ids": [
+    "yiyi-cai",
+    "alaya-lab"
+   ],
+   "title": "FloodDiffusion 2",
+   "year": 2026,
+   "date": "2026-09-27",
+   "field": "assets",
+   "sub": "motion",
+   "modalities": [
+    "motion"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "reactivity",
+    "control"
+   ],
+   "kind": "model",
+   "description": "Streaming text-to-motion model that keeps a 3D character moving continuously while its text prompt changes, for example from jogging to jumping, and can now also follow a given root path at a set speed; weights, data and a live Hugging Face demo are public. It succeeds FloodDiffusion (CVPR 2026) from ShandaAI Research Tokyo and the University of Tokyo, and the authors report about 11 times faster denoising, at 2.3 ms per update.",
+   "description_zh": "流式文本生成动作模型：文字提示变化时（例如从慢跑改为跳跃），三维角色的动作始终连贯不断，新版还能让角色按指定路径和速度移动；权重、数据和 Hugging Face 在线演示均已公开。它是 ShandaAI 东京研究院与东京大学 FloodDiffusion（CVPR 2026）的后续版本，作者报告去噪速度提升约 11 倍，每次更新耗时 2.3 毫秒。",
+   "idea_en": "A character can be redirected mid-motion by typed or spoken commands and steered along a path, the way a game master or an experimenter cues an actor.",
+   "idea_zh": "角色在动作进行中就能被文字或语音指令改变动作、沿指定路径行进，就像游戏主持人或实验者给演员下提示一样。",
+   "method": "Diffusion forcing tailored to motion (bidirectional attention, a lower-triangular noise schedule, time-varying text conditioning); version 2 adds partial attention for KV-cached inference, a forward-kinematics-induced loss and root-path conditioning.",
+   "method_zh": "针对动作定制的扩散强迫（diffusion forcing）：双向注意力、下三角噪声调度和随时间变化的文字条件；第二版加入支持 KV 缓存推理的部分注意力、由正向运动学导出的损失函数以及根轨迹条件。",
+   "specs": "2.3 ms per update · 11.3× faster denoising and 4.6× less training compute than v1 · FID 0.053 on HumanML3D (developer figures)",
+   "keywords": [
+    "streaming motion",
+    "text-to-motion",
+    "diffusion forcing",
+    "path control",
+    "FloodDiffusion (CVPR 2026)"
+   ],
+   "video": {
+    "url": "https://alayalab.github.io/FloodDiffusion2/assets/videos/demo-v45-1080p.mp4"
+   },
+   "images": [
+    "https://alayalab.github.io/FloodDiffusion2/assets/posters/demo-v45.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2609.33167",
+    "arxiv": "2609.33167",
+    "venue": "arXiv 2026",
+    "title": "FloodDiffusion 2: Efficient and Path Controllable Streaming Motion Generation"
+   },
+   "source_url": "https://alayalab.github.io/FloodDiffusion2/",
+   "code_url": "https://github.com/AlayaLab/FloodDiffusion2",
+   "collections": [
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "xiangyue-zhang--streamtalk",
+   "creator_ids": [
+    "xiangyue-zhang",
+    "alibaba-tongyi"
+   ],
+   "title": "StreamTalk",
+   "year": 2026,
+   "date": "2026-08-03",
+   "field": "assets",
+   "sub": "motion",
+   "also": [
+    "avatars"
+   ],
+   "modalities": [
+    "motion"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "responsiveness",
+    "behavioral-plausibility"
+   ],
+   "kind": "research",
+   "description": "Co-speech gesture model from Tongyi Lab (Alibaba) and the University of Tokyo that generates 3D body and hand motion clip by clip as speech arrives, at 76 fps; at the end of each clip it retrieves a plausible key pose from the speaker's own motion library and refines toward it, which keeps long monologues from drifting.",
+   "description_zh": "通义实验室（阿里巴巴）与东京大学的伴随语音手势模型：随着语音输入逐段生成三维身体与手部动作，速度达 76 fps；每段结束时从该说话人自己的动作库中检索一个合理的关键姿态并朝它修正，从而避免长时间讲话中动作逐渐跑偏。",
+   "idea_en": "A talking character can keep its gestures in sync for minutes without slowly sliding into odd poses, as open-loop streaming models tend to do.",
+   "idea_zh": "说话的角色可以连续数分钟保持手势同步，不会像开环流式模型那样慢慢滑向怪异的姿势。",
+   "method": "Generate-retrieve-refine cycle: a part-aware DiT with separate hand, body and translation streams predicts a coarse clip, a tail key pose is retrieved from a speaker-specific database and the clip is refined toward it; stochastic anchor masking in training teaches recovery from sparse boundary poses.",
+   "method_zh": "“生成—检索—修正”循环：分部位 DiT（手、身体、位移分别建模）先预测粗略片段，再从说话人专属数据库中检索末尾关键姿态，并据此修正片段；训练时用随机锚点遮挡，让模型学会从稀疏的边界姿态恢复完整动作。",
+   "specs": "76 fps real-time · BEAT2 benchmark",
+   "keywords": [
+    "co-speech gesture",
+    "streaming",
+    "key-pose anchoring",
+    "BEAT2"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=tKV3lWD6MDI"
+   },
+   "images": [
+    "https://xiangyue-zhang.github.io/assets/img/paper/StreamTalk/teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2608.01643",
+    "arxiv": "2608.01643",
+    "venue": "ECCV 2026",
+    "title": "StreamTalk: Streaming Co-Speech Gesture Generation with Key-Pose Anchoring"
+   },
+   "source_url": "https://xiangyue-zhang.github.io/StreamTalk/",
+   "code_url": "https://github.com/Xiangyue-Zhang/StreamTalk",
+   "collections": [
+    "iccv-eccv",
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "brian-nlong-zhao--kirin",
+   "creator_ids": [
+    "brian-nlong-zhao"
+   ],
+   "title": "Kirin",
+   "year": 2026,
+   "date": "2026-09-01",
+   "field": "assets",
+   "sub": "motion",
+   "modalities": [
+    "motion",
+    "mesh"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "diversity",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Framework from UIUC, Penn, Stanford and Cambridge that learns quadruped motion from internet videos and turns one image plus a text prompt into a rigged, animated 3D animal; it comes with AiM3D, which the authors describe as the first large dataset of aligned video, text and 3D motion for quadrupeds (downloadable as of October 2026, code still to come).",
+   "description_zh": "伊利诺伊大学厄巴纳-香槟分校、宾夕法尼亚大学、斯坦福大学与剑桥大学合作的框架：从网络视频中学习四足动物的动作，再根据一张图像和一句文字生成带骨骼、会动的三维动物；同时发布 AiM3D，作者称这是首个对齐视频、文字与三维动作的大规模四足动物数据集（截至 2026 年 10 月数据集已可下载，代码尚未发布）。",
+   "idea_en": "Dogs, horses and other animals can be written into a scene by description, a gap that human-motion models left open.",
+   "idea_zh": "狗、马等动物也能靠描述写进场景里，补上了人体动作模型留下的空白。",
+   "method": "3D motion is reconstructed from in-the-wild animal videos and captioned to build AiM3D; a visual-guided generator conditioned on text and an image produces motion, which is applied to a mesh from an off-the-shelf image-to-3D model after automatic rigging.",
+   "method_zh": "从真实动物视频中重建三维动作并配上文字说明，构成 AiM3D；以文字和图像为条件的视觉引导生成模型产生动作，再借现成的图生三维模型得到网格，自动绑定骨骼后施加动作。",
+   "keywords": [
+    "animal motion",
+    "quadrupeds",
+    "AiM3D dataset",
+    "auto-rigging",
+    "video-to-motion"
+   ],
+   "video": {
+    "url": "https://kirin-ani.github.io/video_assets/global_1.mp4"
+   },
+   "images": [
+    "https://kirin-ani.github.io/figures/teaser.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2609.01823",
+    "arxiv": "2609.01823",
+    "venue": "ECCV 2026",
+    "title": "Kirin: Animal Motion Generation from In-the-Wild Video"
+   },
+   "source_url": "https://kirin-ani.github.io/",
+   "collections": [
+    "iccv-eccv"
+   ]
+  },
+  {
+   "id": "chuqiao-li--frankenmotion",
+   "creator_ids": [
+    "chuqiao-li"
+   ],
+   "title": "FrankenMotion",
+   "year": 2026,
+   "date": "2026-01-15",
+   "field": "assets",
+   "sub": "motion",
+   "modalities": [
+    "motion"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "control",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Text-to-motion model from the University of Tübingen and the Max Planck Institute for Informatics in which each body part follows its own timed text prompt, so arms, legs and torso can be directed separately and combined into motions not seen in training; it is trained on the 39-hour Frankenstein dataset of part-level annotations produced with an LLM.",
+   "description_zh": "图宾根大学与马克斯·普朗克信息学研究所的文本生成动作模型：每个身体部位都有自己带时间安排的文字提示，手臂、腿部和躯干可以分别指挥，并组合出训练中从未见过的动作；训练数据是借助大语言模型标注的 39 小时 Frankenstein 部位级数据集。",
+   "idea_en": "Fine control of individual body parts over time, the kind that experiments on gesture, posture or other nonverbal cues need.",
+   "idea_zh": "可以随时间精细控制各个身体部位，这正是手势、姿态等非语言线索实验所需要的。",
+   "method": "A diffusion model conditioned on hierarchical, temporally structured text for each body part, trained on motion clips whose atomic, asynchronous part-level captions were produced with an LLM.",
+   "method_zh": "扩散模型以每个身体部位分层、按时间组织的文字为条件，训练数据中的原子级、异步的部位描述由大语言模型生成。",
+   "specs": "Frankenstein dataset: 39 h with part-level, time-stamped captions",
+   "keywords": [
+    "part-level motion",
+    "text-to-motion",
+    "motion composition",
+    "LLM annotation"
+   ],
+   "video": {
+    "url": "https://coral79.github.io/frankenmotion/video_results/00997_Ours.mp4"
+   },
+   "images": [
+    "https://coral79.github.io/frankenmotion/images/Method.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2601.10909",
+    "arxiv": "2601.10909",
+    "venue": "CVPR 2026",
+    "title": "FrankenMotion: Part-level Human Motion Generation and Composition"
+   },
+   "source_url": "https://coral79.github.io/frankenmotion/",
+   "code_url": "https://github.com/Coral79/FrankenMotion-Code",
+   "collections": [
+    "cvpr"
+   ]
+  },
+  {
+   "id": "jingcheng-ni--sonic-amg",
+   "creator_ids": [
+    "jingcheng-ni"
+   ],
+   "title": "Sonic-AMG",
+   "year": 2026,
+   "date": "2026-10-09",
+   "field": "assets",
+   "sub": "motion",
+   "modalities": [
+    "motion"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "reactivity",
+    "behavioral-plausibility",
+    "responsiveness"
+   ],
+   "kind": "research",
+   "description": "Brown University model (with MIT, Yale and the University of Hong Kong) that streams full-body human reactions to sounds as they occur, using both what is heard and where it comes from; the demos show reactions to a phone call, a cough, a fire alarm, an aircraft and an insect. The authors describe it as the first streaming model of motion from spatial audio; code is listed as coming soon.",
+   "description_zh": "布朗大学（与麻省理工学院、耶鲁大学和香港大学合作）的模型：根据声音的内容和方位，实时流式生成人对声音的全身反应；演示涵盖对来电、咳嗽、火警、飞机和昆虫声音的反应。作者称这是首个从空间音频流式生成动作的模型；代码标注为“即将发布”。",
+   "idea_en": "Background characters can react in real time to the sound events of a scene, a cue that emergency and bystander situations depend on.",
+   "idea_zh": "背景角色能实时对场景中的声音事件做出反应，而紧急情况与旁观者情境恰恰依赖这类线索。",
+   "method": "Acoustic content and body-relative source position are encoded as separate tokens for a causal transformer with a flow head that emits motion latents; rehearsal training on short self-rollouts and spatial feedback, which recomputes the source direction from the generated root pose, reduce the gap between training and streaming inference.",
+   "method_zh": "把声音内容和相对身体的声源位置编码为两类 token，输入带流匹配头的因果 Transformer，输出动作潜变量；用短程自回放的“排练训练”和“空间反馈”（根据生成的根节点姿态重新计算声源方向）缩小训练与流式推理之间的差距。",
+   "keywords": [
+    "spatial audio",
+    "reactive motion",
+    "streaming",
+    "audio-to-motion"
+   ],
+   "video": {
+    "url": "https://jingchengni.com/sonic-amg/assets/videos/fire-alarm-motion.mp4"
+   },
+   "images": [
+    "https://jingchengni.com/sonic-amg/assets/figures/teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2610.13300",
+    "arxiv": "2610.13300",
+    "venue": "arXiv 2026",
+    "title": "Sonic-AMG: Streaming Human Motion Generation from Spatial Audio"
+   },
+   "source_url": "https://jingchengni.com/sonic-amg/",
+   "collections": [
+    "trend-realtime"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "Meshy T2: Fast Native Mesh Generation with Flow Matching (2026-07-28)",
+   "why": "Re-checked 2026-10-18: the GitHub README (meshy-dev/meshy-t2, 250 stars) has only a teaser image and says an open-source release is being prepared; no official video, only third-party paper-summary uploads on YouTube.",
+   "link": "https://arxiv.org/abs/2607.28675",
+   "found_via": "meshy",
+   "status": "no_media"
+  },
+  {
+   "name": "AutoPartGen (Meta; weights 2026-06-09)",
+   "why": "Added in batch assets-2026-10b as meta--autopartgen.",
+   "link": "https://silent-chen.github.io/AutoPartGen/",
+   "found_via": "meta",
+   "status": "duplicate"
+  },
+  {
+   "name": "Pixal3D (Tencent ARC, SIGGRAPH 2026)",
+   "why": "Added in batch assets-2026-10b as tencent-arc--pixal3d.",
+   "link": "https://ldyang694.github.io/projects/pixal3d/",
+   "found_via": "tencent-arc",
+   "status": "duplicate"
+  },
+  {
+   "name": "FrankenMotion (CVPR 2026)",
+   "why": "Added in batch assets-2026-10b as chuqiao-li--frankenmotion.",
+   "link": "https://coral79.github.io/frankenmotion/",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Procedura (2026-08)",
+   "why": "Re-checked 2026-10-18: the project page has interactive three.js viewers and figures but no video; 401 GitHub stars.",
+   "link": "https://spatiaos.github.io/projects/procedura/",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "USDCraft (2026-10)",
+   "why": "Added in batch assets-2026-10b as chuanrui-zhang--usdcraft.",
+   "link": "https://xingyoujun.github.io/usdcraft/",
+   "found_via": "nvidia",
+   "status": "duplicate"
+  },
+  {
+   "name": "Luce: Relightable Gaussians for 3D Asset Generation (2026-08)",
+   "why": "Apple paper on relightable PBR Gaussian assets (arXiv 2608.23943); no project page, code or video found 2026-10-18.",
+   "link": "https://arxiv.org/abs/2608.23943",
+   "found_via": "apple",
+   "status": "no_media"
+  },
+  {
+   "name": "Kirin: Animal Motion Generation from In-the-Wild Video (2026-09)",
+   "why": "Added in batch assets-2026-10b as brian-nlong-zhao--kirin.",
+   "link": "https://kirin-ani.github.io/",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Sonic-AMG: Streaming Human Motion Generation from Spatial Audio (2026-10)",
+   "why": "Added in batch assets-2026-10b as jingcheng-ni--sonic-amg.",
+   "link": "https://jingchengni.com/sonic-amg/",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "EchoAvatar (SIGGRAPH 2026)",
+   "why": "Added in batch assets-2026-10b as bohong-chen--echoavatar.",
+   "link": "https://robinwitch.github.io/EchoAvatar-Page/",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "AnimaX (2025-06)",
+   "why": "Added in batch assets-2026-10b as zehuan-huang--animax.",
+   "link": "https://anima-x.github.io/",
+   "found_via": "tripo-ai",
+   "status": "duplicate"
+  },
+  {
+   "name": "Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans (ACM MM 2026)",
+   "why": "avatars/conversational: couples a streaming speech-response module with online co-speech gesture generation for interactive digital humans (arXiv 2608.24909); the project page has its own mp4 (media/Video_SuperStar.mp4), while its YouTube embed shows an unrelated paper's video.",
+   "link": "https://super-star-2026.github.io/",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Puppeteer: Object-Grounded Posture-Aware Co-Speech Gesture Generation (Pickford AI, 2026-08-31)",
+   "why": "assets/motion: co-speech gestures that hold and use objects (arXiv 2609.00369, project promo mp4); below this round's salience bar. Not the existing chaoyue-song--puppeteer.",
+   "link": "https://puppeteer.pickford.ai/",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "DreamCharacter-1 (ByteDance, 2026-07-08)",
+   "why": "Post-training of a 3D foundation model for production-ready characters from one image, by ByteDance's Intelligent Creation team (arXiv 2607.07817); the official page has images but no video.",
+   "link": "https://dreamcharacter-x.github.io/",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Streaming co-speech gesture papers without video (2026): GestureFAR, InteractGesture, DynaConTalk",
+   "why": "GestureFAR (arXiv 2609.21576; project page returns 404), InteractGesture (ECCV 2026, arXiv 2608.25734; page without video) and DynaConTalk (arXiv 2610.09846; code only), checked 2026-10-18.",
+   "link": "https://arxiv.org/abs/2609.21576",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Other 2026 asset and motion papers without a project video",
+   "why": "No project page or video linked from arXiv or Hugging Face as of 2026-10-18: TaoFlowForge 2609.37139, Seg3DParts 2609.36918, SCULPT 2608.13541, PhysX-CoT 2608.08053, UniPhysGen 2607.13586, PhysForge 2610.13681 (page without video), PWM-ArtGen 2607.02045, Ink3D 2607.01222, Rigel3D 2605.13129, MotionMaestro 2609.37495, AnimateCanvas 2609.10457, SAMoR 2607.02148, MOCO 2609.11439, Timo 2609.30761 (Gradio app page only).",
+   "link": "https://arxiv.org/abs/2609.37139",
+   "found_via": "seed",
+   "status": "no_media"
+  }
+ ]
+}

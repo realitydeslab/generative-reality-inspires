@@ -1,0 +1,704 @@
+{
+  "batch": "video-2026-10b",
+  "creators": [
+    {
+      "id": "hongzhou-zhu",
+      "name": "Hongzhou Zhu",
+      "kind": "person",
+      "role": "PhD researcher, Tsinghua University",
+      "based": "Beijing, China",
+      "bio": "Hongzhou Zhu is first author of Causal Forcing (ICML 2026) in Jun Zhu's machine learning group at Tsinghua University and a co-author of Shengshu's Vidu S2 report.",
+      "why": "Causal Forcing is an open, widely reused recipe for turning video diffusion models into real-time autoregressive generators.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://zhuhz22.github.io/",
+        "github": "https://github.com/thu-ml/Causal-Forcing"
+      },
+      "role_zh": "清华大学博士研究者",
+      "bio_zh": "Hongzhou Zhu是 Causal Forcing（ICML 2026）的第一作者，来自清华大学朱军教授的机器学习组，也是生数科技 Vidu S2 技术报告的作者之一。",
+      "why_zh": "Causal Forcing 是一套开源、被广泛复用的方法，可把视频扩散模型变成实时自回归生成器。",
+      "based_zh": "中国北京",
+      "connected_to": [
+        "shengshu"
+      ],
+      "discovered_via": "shengshu"
+    },
+    {
+      "id": "bowen-xue",
+      "name": "Bowen Xue",
+      "kind": "person",
+      "role": "Researcher, Stanford University",
+      "based": "Stanford, CA, USA",
+      "bio": "Bowen Xue is first author of Ring Forcing (ECCV 2026), written at Stanford University with Lvmin Zhang and Maneesh Agrawala and with ByteDance researchers.",
+      "why": "Ring Forcing addresses object permanence, the memory a long generated scenario needs to stay consistent.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://ringforcing.com"
+      },
+      "role_zh": "斯坦福大学研究者",
+      "bio_zh": "Bowen Xue 是 Ring Forcing（ECCV 2026）的第一作者，该工作在斯坦福大学完成，合作者包括张吕敏（Lvmin Zhang）、Maneesh Agrawala 以及字节跳动的研究者。",
+      "why_zh": "Ring Forcing 关注物体恒存性，这是长时生成情境保持前后一致所需的记忆。",
+      "based_zh": "美国加州斯坦福",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "yang-tian-sun",
+      "name": "Yang-Tian Sun",
+      "kind": "person",
+      "role": "PhD researcher, The University of Hong Kong",
+      "based": "Hong Kong, China",
+      "bio": "Yang-Tian Sun is first author of Stereo World Model (CVPR 2026), developed at The University of Hong Kong with VAST and ByteDance Pico.",
+      "why": "Stereo World Model generates both eyes of a video together, which is what headset playback needs.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://sunyangtian.github.io/",
+        "github": "https://github.com/VAST-AI-Research/StereoWorld"
+      },
+      "role_zh": "香港大学博士研究者",
+      "bio_zh": "Yang-Tian Sun是 Stereo World Model（CVPR 2026）的第一作者，该工作由香港大学与 VAST、字节跳动 Pico 合作完成。",
+      "why_zh": "Stereo World Model 同时生成左右眼视频，这正是头显播放所需要的。",
+      "based_zh": "中国香港",
+      "connected_to": [
+        "tripo-ai"
+      ],
+      "discovered_via": "tripo-ai"
+    },
+    {
+      "id": "shiqian-li",
+      "name": "Shiqian Li",
+      "kind": "person",
+      "role": "Researcher, Peking University and Tencent Hunyuan",
+      "based": "Beijing, China",
+      "bio": "Shiqian Li is first author of 4DStreamCtrl (2026), a streaming video generator with 3D camera and object control, from Peking University and Tencent Hunyuan.",
+      "why": "4DStreamCtrl lets a person steer camera and object motion while the video is being generated.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://4dstreamctrl.github.io/"
+      },
+      "role_zh": "北京大学与腾讯混元研究者",
+      "bio_zh": "Shiqian Li是 4DStreamCtrl（2026）的第一作者。该工作来自北京大学与腾讯混元，是一个可用三维方式控制镜头和物体的流式视频生成器。",
+      "why_zh": "4DStreamCtrl 让人在视频生成的同时操控镜头和物体运动。",
+      "based_zh": "中国北京",
+      "connected_to": [
+        "tencent-hunyuan"
+      ],
+      "discovered_via": "tencent-hunyuan"
+    },
+    {
+      "id": "haocheng-xi",
+      "name": "Haocheng Xi",
+      "kind": "person",
+      "role": "PhD researcher, UC Berkeley",
+      "based": "Berkeley, CA, USA",
+      "bio": "Haocheng Xi is first author of Video DeltaNet (2026), an open hybrid-attention version of MiniMax H3, written at UC Berkeley during an internship at Impossible, Inc.",
+      "why": "Video DeltaNet makes an open audio-video model generate faster than playback.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://openvdn.github.io/",
+        "github": "https://github.com/OpenVDN/vdn-minimax-h3",
+        "huggingface": "https://huggingface.co/OpenVDN/vdn-minimax-h3"
+      },
+      "role_zh": "加州大学伯克利分校博士研究者",
+      "bio_zh": "Haocheng Xi 是 Video DeltaNet（2026）的第一作者。该工作是 MiniMax H3 的开源混合注意力版本，在加州大学伯克利分校完成，部分工作在 Impossible, Inc. 实习期间进行。",
+      "why_zh": "Video DeltaNet 让一个开源音视频模型的生成速度快过播放速度。",
+      "based_zh": "美国加州伯克利",
+      "connected_to": [
+        "minimax"
+      ],
+      "discovered_via": "minimax"
+    },
+    {
+      "id": "visko",
+      "name": "Visko",
+      "kind": "company",
+      "role": "Start-up building real-time 'live' video models",
+      "based": "Sunnyvale, CA, USA",
+      "bio": "Visko Platform Inc. was founded in 2025 by Qing (Will) Yin and released Orbis, a model that streams video continuously while users change the prompt; it announced a $10 million pre-seed round on 2026-09-01.",
+      "why": "Visko frames generated video as a process that keeps running and accepts direction, rather than a clip that is rendered and finished.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.visko.ai/"
+      },
+      "role_zh": "开发实时“活模型”（Live Model）视频生成的创业公司",
+      "bio_zh": "Visko Platform Inc. 由 Qing（Will）Yin 于 2025 年创立，发布了 Orbis：一个在用户随时修改提示词时仍持续流式生成视频的模型。公司于 2026 年 9 月 1 日宣布完成 1000 万美元种子前轮融资。",
+      "why_zh": "Visko 把生成视频看作一个持续运行、可随时被引导的过程，而不是渲染完就结束的片段。",
+      "based_zh": "美国加州桑尼维尔",
+      "connected_to": [],
+      "discovered_via": "seed"
+    }
+  ],
+  "works": [
+    {
+      "id": "shengshu--vidu-s2",
+      "creator_ids": [
+        "shengshu"
+      ],
+      "title": "Vidu S2",
+      "year": 2026,
+      "date": "2026-09-10",
+      "field": "video",
+      "sub": "realtime",
+      "also": [
+        "avatars",
+        "genxr"
+      ],
+      "modalities": [
+        "frame-stream",
+        "avatar",
+        "immersive-video"
+      ],
+      "inputs": [
+        "speech",
+        "image",
+        "video"
+      ],
+      "timing": "real-time",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "responsiveness",
+        "reactivity",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Vidu S2 is Shengshu's second real-time video system: S2-Avatar animates a character from a reference image as it listens and answers, now at 720p, with references that can be swapped mid-stream and actions such as dancing, while S2-Editing restyles a live camera feed or a video as it plays (outfit, character or background replacement). Shengshu also shows both streams converted into left- and right-eye views for VR headsets and passthrough; a playable demo is on vidu.com as of October 2026.",
+      "description_zh": "Vidu S2 是生数科技的第二代实时视频系统：S2-Avatar 根据一张参考图驱动角色边听边答，分辨率提升到 720p，参考图可在生成过程中随时更换，还能执行跳舞等动作；S2-Editing 则在视频播放或摄像头直播时实时改写画面，替换服装、人物或背景。生数还展示了把两种视频流实时转换为左右眼画面、用于 VR 头显和透视画面的效果；截至 2026 年 10 月，vidu.com 提供可试玩的在线演示。",
+      "idea_en": "Real-time generation is no longer only a character that talks back: the same stream can rewrite what a camera or headset sees, so a video model can become a live layer over the participant's own surroundings.",
+      "idea_zh": "实时生成不再只是一个会回话的角色：同一条视频流还能改写摄像头或头显看到的画面，让视频模型成为覆盖在参与者真实环境之上的实时图层。",
+      "method": "Causal autoregressive video diffusion in the Vidu S1 line (built with TurboDiffusion and TurboServe), with history caches kept at different noise levels for the backbone and a one-step super-resolution Refiner that lifts the 540p backbone to 720p; S2-Editing conditions each output chunk on the incoming source frames, and stereo views are produced inside the streaming pipeline.",
+      "method_zh": "延续 Vidu S1 的因果自回归视频扩散路线（基于 TurboDiffusion 与 TurboServe），主干与精修模块分别使用不同噪声水平的历史缓存，再用一步超分 Refiner 把 540p 主干输出提升到 720p；S2-Editing 让每个输出片段以输入的源视频帧为条件，立体视图则在流式管线内部生成。",
+      "specs": "720p · 25–42 fps real-time (Vidu S1: 540p) · live camera-stream editing · stereo output explored (developer-reported)",
+      "keywords": [
+        "Vidu S2-Avatar",
+        "Vidu S2-Editing",
+        "real-time video editing",
+        "spatial video",
+        "stereo",
+        "passthrough",
+        "interactive character"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=h60wG1w0jOY"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2609.11638",
+        "arxiv": "2609.11638",
+        "venue": "Technical report (arXiv)",
+        "title": "Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation"
+      },
+      "source_url": "https://www.vidu.com/vidu-stream",
+      "collections": [
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "hongzhou-zhu--causal-forcing",
+      "creator_ids": [
+        "hongzhou-zhu"
+      ],
+      "title": "Causal Forcing",
+      "year": 2026,
+      "date": "2026-02-02",
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "Causal Forcing (Tsinghua University, ICML 2026) is a distillation recipe and set of open checkpoints that turn a bidirectional video diffusion model into a few-step autoregressive generator for real-time interactive video. The authors report gains over Self Forcing of 19.3% in dynamic degree and 16.7% in instruction following at the same inference cost; later releases add 2-step and 1-step frame-wise models (Causal Forcing++), and several 2026 long-video methods use it as their base.",
+      "description_zh": "Causal Forcing（清华大学，ICML 2026）是一套蒸馏方法和一组开源权重，可把双向视频扩散模型变成用于实时交互视频的少步自回归生成器。作者报告，在相同推理开销下，它在动态程度上比 Self Forcing 高 19.3%，在指令遵循上高 16.7%；后续版本 Causal Forcing++ 又推出了 2 步和 1 步逐帧模型，2026 年的多项长视频方法以它为基础模型。",
+      "idea_en": "Fixes how real-time video students are initialised rather than how they are run, so the same streaming budget yields more motion; it has become a common starting point for interactive video work.",
+      "idea_zh": "改进的是实时视频学生模型的初始化方式，而不是推理方式，因此在相同的流式算力下能生成更多运动；它已成为交互视频研究常用的起点。",
+      "method": "Initialises the causal student by ODE distillation from an autoregressive teacher, instead of the bidirectional teacher whose flow map a causal student cannot recover, then applies the DMD training of Self Forcing; released on Wan 1.3B in chunk-wise and frame-wise variants.",
+      "method_zh": "先用自回归教师模型做 ODE 蒸馏来初始化因果学生模型（双向教师的流映射无法被因果学生复现），再沿用 Self Forcing 的 DMD 训练；基于 Wan 1.3B 发布了分块与逐帧两种版本。",
+      "specs": "Wan 1.3B base · 4-step chunk-wise and frame-wise · 2-step and 1-step frame-wise (Causal Forcing++)",
+      "keywords": [
+        "autoregressive video diffusion",
+        "distillation",
+        "DMD",
+        "Self Forcing",
+        "Wan 1.3B",
+        "Tsinghua"
+      ],
+      "video": {
+        "url": "https://thu-ml.github.io/CausalForcing.github.io/videos/demo.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2602.02214",
+        "arxiv": "2602.02214",
+        "venue": "ICML 2026",
+        "title": "Causal Forcing: Autoregressive Diffusion Distillation Done Right for High-Quality Real-Time Interactive Video Generation"
+      },
+      "source_url": "https://thu-ml.github.io/CausalForcing.github.io/",
+      "code_url": "https://github.com/thu-ml/Causal-Forcing",
+      "collections": [
+        "trend-realtime",
+        "trend-open-weights",
+        "ml-conf"
+      ]
+    },
+    {
+      "id": "nvidia--sana-streaming",
+      "creator_ids": [
+        "nvidia"
+      ],
+      "title": "SANA-Streaming",
+      "year": 2026,
+      "date": "2026-05-28",
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "video",
+        "text"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "perceptual-realism",
+        "persistence"
+      ],
+      "kind": "model",
+      "description": "SANA-Streaming (NVIDIA, 2026-05-28) is a 2B open model that edits a live or recorded video stream from a text instruction, for example restyling it or replacing the background or an object, at 1280×704 and 24 fps end to end on one RTX 5090, for videos up to about a minute. Weights were released in June 2026 and training code in July, with a hosted demo on Reactor.",
+      "description_zh": "SANA-Streaming（英伟达，2026-05-28）是一个 2B 参数的开源模型，可按文字指令实时编辑直播或录制的视频流，例如改变风格、替换背景或物体；在单张 RTX 5090 上以 1280×704、端到端 24 fps 运行，可处理约一分钟长的视频。权重于 2026 年 6 月发布，训练代码于 7 月发布，Reactor 上有托管演示。",
+      "idea_en": "Consumer-GPU, minute-long video-to-video editing makes it practical to restyle a participant's camera feed or a recorded scenario live, with the original motion as the control signal.",
+      "idea_zh": "在消费级显卡上做分钟级的视频到视频编辑，使实时改写参与者的摄像头画面或录制好的情境变得可行，原视频的动作就是控制信号。",
+      "method": "A hybrid diffusion transformer mixes linear-attention (gated DeltaNet) blocks with some softmax-attention blocks, is trained with a cycle-reverse regulariser that predicts the source frames back from the edit, and is served with fused kernels and mixed-precision quantisation tuned for Blackwell GPUs.",
+      "method_zh": "混合扩散 Transformer 把线性注意力（gated DeltaNet）模块与部分 softmax 注意力模块结合；训练时加入循环反推正则，从编辑结果反向预测源视频帧；部署时使用融合算子和针对 Blackwell 显卡调优的混合精度量化。",
+      "specs": "1280×704 · 24 fps end-to-end (DiT 58 fps) on one RTX 5090 · 2B parameters · up to ~1 min",
+      "keywords": [
+        "streaming video editing",
+        "video-to-video",
+        "linear attention",
+        "RTX 5090",
+        "SANA",
+        "Reactor"
+      ],
+      "video": {
+        "url": "https://huggingface.co/datasets/Efficient-Large-Model/Sana-assets/resolve/main/Streaming/assets/teaser/sana-streaming-teaser.mp4"
+      },
+      "images": [
+        "https://huggingface.co/datasets/Efficient-Large-Model/Sana-assets/resolve/main/Streaming/assets/figures/latency-breakdown.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2605.30409",
+        "arxiv": "2605.30409",
+        "venue": "arXiv preprint",
+        "title": "SANA-Streaming: Real-time Streaming Video Editing with Hybrid Diffusion Transformer"
+      },
+      "source_url": "https://nvlabs.github.io/Sana/Streaming/",
+      "code_url": "https://github.com/NVlabs/Sana",
+      "collections": [
+        "trend-realtime",
+        "trend-open-weights",
+        "trend-cost"
+      ]
+    },
+    {
+      "id": "bowen-xue--ring-forcing",
+      "creator_ids": [
+        "bowen-xue"
+      ],
+      "title": "Ring Forcing",
+      "year": 2026,
+      "date": "2026-08-27",
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "persistence",
+        "control"
+      ],
+      "kind": "research",
+      "description": "Ring Forcing (Stanford University with ByteDance, ECCV 2026) targets object permanence in autoregressive long video: when a book, a vehicle or a painting leaves the frame and comes back up to a minute later, it should look the same. The authors report minutes-long coherence and more faithful re-appearance than earlier long-video methods.",
+      "description_zh": "Ring Forcing（斯坦福大学与字节跳动，ECCV 2026）针对自回归长视频中的物体恒存性：一本书、一辆车或一幅画离开画面，最长一分钟后再回到画面时，应当保持原样。作者报告，它能维持数分钟的连贯性，物体重新出现时也比以往的长视频方法更忠实。",
+      "idea_en": "Memory, not resolution, limits scenario video that lasts minutes: a generated room has to give back the object it showed earlier, which is what experimental control over a long clip requires.",
+      "idea_zh": "限制数分钟情境视频的是记忆而不是分辨率：生成的房间必须把先前出现过的物体原样还回来，长片段的实验控制正需要这一点。",
+      "method": "Ring-structured training clips that play forward and back force the model to retrieve content from distant history; compressed history and timestep composition stretch the effective context to minutes under a fixed sequence length, and a sparse RoPE adapts pretrained video priors to the long memory.",
+      "method_zh": "用正放再倒放的环形训练片段，迫使模型从久远的历史中检索内容；通过历史压缩和时间步组合，在固定序列长度下把有效上下文延伸到数分钟；稀疏 RoPE 让预训练视频先验适配长记忆。",
+      "specs": "re-appearance after gaps of 15–60 s · minutes-long effective history (developer-reported)",
+      "keywords": [
+        "object permanence",
+        "long video",
+        "memory",
+        "autoregressive video diffusion",
+        "Lvmin Zhang",
+        "Maneesh Agrawala"
+      ],
+      "video": {
+        "url": "https://ringforcing.com/media/gallery/adr/extended/gap-60/case-01.mp4"
+      },
+      "images": [
+        "https://ringforcing.com/og.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2608.26794",
+        "arxiv": "2608.26794",
+        "venue": "ECCV 2026",
+        "title": "Ring Forcing: Towards Precise Long-Term Memory for Autoregressive Video Diffusion"
+      },
+      "source_url": "https://ringforcing.com",
+      "collections": [
+        "iccv-eccv"
+      ]
+    },
+    {
+      "id": "yang-tian-sun--stereo-world-model",
+      "creator_ids": [
+        "yang-tian-sun",
+        "tripo-ai"
+      ],
+      "title": "Stereo World Model",
+      "year": 2026,
+      "date": "2026-03-18",
+      "field": "video",
+      "sub": "immersive",
+      "modalities": [
+        "immersive-video"
+      ],
+      "inputs": [
+        "image",
+        "camera"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "control"
+      ],
+      "kind": "research",
+      "description": "Stereo World Model (StereoWorld; The University of Hong Kong, VAST and ByteDance Pico, CVPR 2026) generates left- and right-eye video together along a given camera path, instead of generating a flat clip and converting it to stereo afterwards. The authors report more than 3× faster generation than generate-then-convert pipelines with better disparity accuracy, and use it for binocular VR rendering without depth estimation or inpainting; code and weights are open.",
+      "description_zh": "Stereo World Model（StereoWorld；香港大学、VAST 与字节跳动 Pico，CVPR 2026）沿给定的镜头路径同时生成左右眼视频，而不是先生成平面视频再转成立体。作者报告，它比“先生成再转换”的管线快 3 倍以上，视差也更准确，并可直接用于无需深度估计或补全的双目 VR 渲染；代码和权重均已开源。",
+      "idea_en": "Generating both eyes at once keeps depth consistent with the camera path, a precondition for headset scenarios that people look around in rather than watch flat.",
+      "idea_zh": "同时生成双眼画面，使深度与镜头路径保持一致；这是人们在头显里环顾而不是平面观看情境的前提。",
+      "method": "Fine-tunes a pretrained video diffusion model with a unified camera-frame RoPE for view- and time-consistent camera conditioning and a stereo-aware attention that factors full 4D attention into per-view 3D attention plus horizontal row attention along epipolar lines, working in RGB only without depth input.",
+      "method_zh": "在预训练视频扩散模型上微调：统一的相机-帧 RoPE 让镜头条件在视角和时间上保持一致；立体感知注意力把完整的 4D 注意力分解为单视角 3D 注意力加沿极线的水平行注意力；全程只用 RGB，不需要深度输入。",
+      "specs": ">3× faster than monocular-then-convert pipelines · +5% viewpoint consistency (developer-reported)",
+      "keywords": [
+        "stereo video",
+        "binocular",
+        "VR",
+        "camera control",
+        "epipolar attention",
+        "VAST",
+        "ByteDance Pico"
+      ],
+      "video": {
+        "url": "https://assets.vast-eden.ai/assets/stereo-world/videos/demo.mp4"
+      },
+      "images": [
+        "https://assets.vast-eden.ai/assets/stereo-world/images/teaser.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2603.17375",
+        "arxiv": "2603.17375",
+        "venue": "CVPR 2026",
+        "title": "Stereo World Model: Camera-Guided Stereo Video Generation"
+      },
+      "source_url": "https://vast-eden.ai/?p=stereo-world",
+      "code_url": "https://github.com/VAST-AI-Research/StereoWorld",
+      "collections": [
+        "cvpr",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "shiqian-li--4dstreamctrl",
+      "creator_ids": [
+        "shiqian-li",
+        "tencent-hunyuan"
+      ],
+      "title": "4DStreamCtrl",
+      "year": 2026,
+      "date": "2026-08-26",
+      "field": "video",
+      "sub": "control",
+      "also": [
+        "world-models"
+      ],
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "image",
+        "camera",
+        "sketch"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "control",
+        "responsiveness",
+        "reactivity"
+      ],
+      "kind": "research",
+      "description": "4DStreamCtrl (Peking University with Tencent Hunyuan, 2026-08-26) generates video in a stream while the user steers the camera and individual objects through 3D point tracks, so a ball can be rolled, a can pushed or a person moved with a brush stroke while the clip plays. The authors report 20 fps at 480p on one high-end GPU, coherence over hundreds of frames, and describe it as the first interactive 4D-controllable streaming generator.",
+      "description_zh": "4DStreamCtrl（北京大学与腾讯混元，2026-08-26）在流式生成视频的同时，让用户通过三维点轨迹操控镜头和单个物体：在视频播放中用笔刷就能让球滚动、推动罐子或移动人物。作者报告，它在单张高端显卡上以 480p、20 fps 运行，数百帧内保持连贯，并称其为首个可交互 4D 控制的流式生成器。",
+      "idea_en": "Unifies camera, object motion and depth into one 3D control signal that can be changed mid-stream, the kind of closed-loop control an experimenter needs to script events inside generated video.",
+      "idea_zh": "把镜头、物体运动和深度统一为一种可在生成中途修改的三维控制信号，这正是实验者在生成视频里编排事件所需的闭环控制。",
+      "method": "Camera motion, object trajectories and depth are encoded as 3D point tracks by a lightweight Geometric Motion Head plugged into a pretrained video diffusion model, trained on OpenVidHD-Motion3D tracks mined from in-the-wild video, then distilled into a causal four-step streaming student whose memory does not grow with length.",
+      "method_zh": "镜头运动、物体轨迹和深度被统一编码为三维点轨迹，由一个轻量的 Geometric Motion Head 接入预训练视频扩散模型；训练数据是从真实视频中挖掘的 OpenVidHD-Motion3D 轨迹；之后蒸馏成一个四步因果流式学生模型，显存占用不随视频长度增长。",
+      "specs": "480p · 20 fps on one high-end GPU · 4 denoising steps · hundreds of frames (developer-reported)",
+      "keywords": [
+        "3D point tracks",
+        "camera and object control",
+        "streaming generation",
+        "motion transfer",
+        "Tencent Hunyuan",
+        "Peking University"
+      ],
+      "video": {
+        "url": "https://4dstreamctrl.github.io/videos/demo.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2608.25479",
+        "arxiv": "2608.25479",
+        "venue": "arXiv preprint",
+        "title": "4DStreamCtrl: Interactive Video Generation with Online 4D Control"
+      },
+      "source_url": "https://4dstreamctrl.github.io/",
+      "collections": [
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "haocheng-xi--video-deltanet",
+      "creator_ids": [
+        "haocheng-xi"
+      ],
+      "title": "Video DeltaNet (VDN-H3)",
+      "year": 2026,
+      "date": "2026-09-06",
+      "field": "video",
+      "sub": "open",
+      "modalities": [
+        "flat-video",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "authoring"
+      ],
+      "kind": "research",
+      "description": "Video DeltaNet (UC Berkeley with Impossible, Inc., 2026-09-06) is an open hybrid-attention version of the MiniMax H3 audio-video model (VDN-H3) that returns a 14.4-second 768p clip with sound in about 9 seconds on eight B200 GPUs, faster than it plays back, with near-lossless quality according to the authors. Weights, training and inference code are open, and the community FreeVideo project built on it runs H3 on GPUs with 8 GB of memory.",
+      "description_zh": "Video DeltaNet（加州大学伯克利分校与 Impossible, Inc.，2026-09-06）是 MiniMax H3 音视频模型的开源混合注意力版本（VDN-H3）：在 8 张 B200 上约 9 秒就能生成一段 14.4 秒、768p 的有声视频，比播放还快，作者称画质几乎无损。权重、训练与推理代码均已开源，社区项目 FreeVideo 在此基础上让 H3 可在 8 GB 显存的显卡上运行。",
+      "idea_en": "Once an open audio-video model renders faster than real time, scenario clips can be generated on demand between trials instead of in advance.",
+      "idea_zh": "当一个开源音视频模型的渲染速度超过实时，情境片段就可以在两次试验之间按需生成，而不必提前准备。",
+      "method": "Replaces part of the video-to-video attention with Video Delta Attention, a frame-wise bidirectional linear memory, alongside local softmax attention (kept for text and audio interactions), introduced by staged teacher alignment, distilled to eight steps and served with SGLang Diffusion.",
+      "method_zh": "把部分视频到视频的注意力替换为 Video Delta Attention（逐帧更新的双向线性记忆），并保留局部 softmax 注意力（涉及文本和音频的交互仍用 softmax）；通过分阶段的教师对齐引入新分支，再蒸馏到 8 步，用 SGLang Diffusion 部署。",
+      "specs": "14.4 s · 768p with audio · ~9.0 s end-to-end on 8×B200 (6.9 s denoising) · 8 steps · 14.5× over 50-step dense H3 (developer-reported)",
+      "keywords": [
+        "linear attention",
+        "hybrid attention",
+        "MiniMax H3",
+        "joint audio-video",
+        "SGLang",
+        "FreeVideo"
+      ],
+      "video": {
+        "url": "https://openvdn.github.io/GeneratedVideos/hf_test_5_vdn_stage_d_step250_8nfe.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2609.20744",
+        "arxiv": "2609.20744",
+        "venue": "arXiv preprint",
+        "title": "Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation"
+      },
+      "source_url": "https://openvdn.github.io/",
+      "code_url": "https://github.com/OpenVDN/vdn-minimax-h3",
+      "collections": [
+        "trend-open-weights",
+        "trend-cost"
+      ]
+    },
+    {
+      "id": "visko--orbis-1",
+      "creator_ids": [
+        "visko"
+      ],
+      "title": "Visko Orbis 1.0",
+      "year": 2026,
+      "date": "2026-07-29",
+      "field": "video",
+      "sub": "realtime",
+      "also": [
+        "world-models"
+      ],
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "real-time",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "responsiveness",
+        "persistence"
+      ],
+      "kind": "model",
+      "description": "Visko Orbis 1.0 is a 'live model' that keeps generating video while the user changes the prompt, with each change visible in the running stream; Visko reports 4K at 24 fps in real time and hour-long rollouts without visible colour or quality drift. Public access opened on visko.ai (with sign-in) on 2026-09-01.",
+      "description_zh": "Visko Orbis 1.0 是一个“活模型”（Live Model）：用户随时修改提示词时，它仍持续生成视频，每次修改都会在正在播放的视频流中立刻体现。Visko 称它能以 4K、24 fps 实时生成，连续运行一小时也没有明显的色彩或画质漂移。2026 年 9 月 1 日起，visko.ai 对公众开放（需登录）。",
+      "idea_en": "Treats a generated scene as a process that keeps running and accepts direction, not a clip to request, which is the framing a long, steerable experimental scenario needs.",
+      "idea_zh": "把生成的场景当作一个持续运行、可随时引导的过程，而不是一次次请求的片段；长时、可调控的实验情境正需要这种框架。",
+      "method": "A distilled chunk-wise causal streaming generator with a bounded multi-scale memory across chunks, aligned with a latent world-model reward, followed by a streaming video upscaler and an optimised GPU serving engine (team report; architecture details limited).",
+      "method_zh": "经过蒸馏的分块因果流式生成器，带有跨块的有界多尺度记忆，并用潜空间世界模型奖励对齐；之后接流式视频超分和优化的 GPU 推理引擎（来自团队技术报告，架构细节有限）。",
+      "specs": "4K · 24 fps real-time · hour-scale rollouts (developer-reported)",
+      "keywords": [
+        "live model",
+        "streaming video",
+        "prompt switching",
+        "long video",
+        "4K",
+        "Visko"
+      ],
+      "video": {
+        "url": "https://assets.visko.ai/home/orbis/orbis-720p.webm"
+      },
+      "images": [
+        "https://assets.visko.ai/blogs/graphs/introducing-live-models-preview.webp"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2607.26694",
+        "arxiv": "2607.26694",
+        "venue": "Technical report (arXiv)",
+        "title": "Visko Orbis 1.0: A Live Model for Real-Time Interactive Long Video Generation"
+      },
+      "source_url": "https://www.visko.ai/blog/introducing-live-models",
+      "collections": [
+        "trend-realtime"
+      ]
+    }
+  ],
+  "leads": [
+    {
+      "name": "Causal Forcing (Tsinghua thu-ml group, arXiv 2602.02214)",
+      "why": "Added in round 2 as hongzhou-zhu--causal-forcing.",
+      "link": "https://thu-ml.github.io/CausalForcing.github.io/",
+      "found_via": "seed",
+      "status": "duplicate"
+    },
+    {
+      "name": "SANA-Streaming (NVIDIA, arXiv 2605.30409)",
+      "why": "Added in round 2 as nvidia--sana-streaming.",
+      "link": "https://nvlabs.github.io/Sana/Streaming/",
+      "found_via": "nvidia",
+      "status": "duplicate"
+    },
+    {
+      "name": "Stereo World Model (arXiv 2603.17375)",
+      "why": "Added in round 2 as yang-tian-sun--stereo-world-model (distinct from ke-xing--stereoworld, a mono-to-stereo converter).",
+      "link": "https://vast-eden.ai/?p=stereo-world",
+      "found_via": "tripo-ai",
+      "status": "duplicate"
+    },
+    {
+      "name": "Visko Orbis 1.0",
+      "why": "Added in round 2 as visko--orbis-1; official media now on visko.ai.",
+      "link": "https://www.visko.ai/blog/introducing-live-models",
+      "found_via": "seed",
+      "status": "duplicate"
+    },
+    {
+      "name": "Vidu Q4 (preview)",
+      "why": "Already in the data as shengshu--vidu-q4 (round 1).",
+      "link": "https://www.youtube.com/watch?v=DJ9lo6Nc0Qk",
+      "found_via": "shengshu",
+      "status": "duplicate"
+    },
+    {
+      "name": "Adobe Firefly Video",
+      "why": "Already in the data as adobe--firefly-video-model (round 1).",
+      "link": "https://firefly.adobe.com/",
+      "found_via": "seed",
+      "status": "duplicate"
+    },
+    {
+      "name": "Streaming4D (arXiv 2609.00610, CVPR 2026 4DV Workshop)",
+      "why": "Belongs to spatial-4d / generative-4d-scenes; CVPR 2026 4DV Workshop paper (block-wise Self-Forcing video generation plus incremental 3D reconstruction, 1.24x on an RTX 4090); no project page, code or video as of 2026-10-18 (checked by the 4D agent).",
+      "link": "https://arxiv.org/abs/2609.00610",
+      "found_via": "seed",
+      "status": "no_media"
+    },
+    {
+      "name": "PhysStream (arXiv 2609.17521)",
+      "why": "Streaming physics-grounded video generation with structured scene memory and fine-grained motion control (Chuhao Chen, Peter Wonka, Sergey Tulyakov et al., 2026-09-15); project page has mp4s; below the bar this round.",
+      "link": "https://czzzzh.github.io/PhysStream/",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "Self-Aligned Forcing (arXiv 2609.38114)",
+      "why": "Streaming video diffusion with differentiable noisy history (2026-09-29); the only project link is an anonymous page that does not load.",
+      "link": "https://arxiv.org/abs/2609.38114",
+      "found_via": "seed",
+      "status": "no_media"
+    },
+    {
+      "name": "Memory Forcing (arXiv 2610.11756)",
+      "why": "Withdrawn by its authors (arXiv comment, October 2026); do not add.",
+      "link": "https://arxiv.org/abs/2610.11756",
+      "found_via": "seed",
+      "status": "off_topic"
+    }
+  ]
+}

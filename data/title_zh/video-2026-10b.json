@@ -1,0 +1,9 @@
+{
+  "hongzhou-zhu--causal-forcing": { "zh": "Causal Forcing：面向实时交互视频的自回归扩散蒸馏", "src": "translated" },
+  "nvidia--sana-streaming": { "zh": "SANA-Streaming：实时流式视频编辑", "src": "translated" },
+  "bowen-xue--ring-forcing": { "zh": "Ring Forcing：自回归视频扩散的精确长时记忆", "src": "translated" },
+  "yang-tian-sun--stereo-world-model": { "zh": "Stereo World Model：相机可控的立体视频生成", "src": "original" },
+  "shiqian-li--4dstreamctrl": { "zh": "4DStreamCtrl：在线 4D 控制的交互式视频生成", "src": "translated" },
+  "haocheng-xi--video-deltanet": { "zh": "Video DeltaNet：面向直播式视频生成的混合注意力（VDN-H3）", "src": "translated" },
+  "visko--orbis-1": { "zh": "Visko Orbis 1.0：实时交互长视频“活模型”", "src": "translated" }
+}

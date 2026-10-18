@@ -1,0 +1,248 @@
+{
+ "batch": "agents-2026-10b",
+ "creators": [
+  {
+   "id": "ritik-vatsal",
+   "name": "Ritik Vatsal",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, Department of Computer Science, University of British Columbia",
+   "based": "Vancouver, Canada",
+   "bio": "Works with Robert Xiao at UBC on VR interaction; first author of Look2React (IEEE TVCG 2026).",
+   "why": "Look2React gives VR NPCs a view of the player and a vision model to react to body language.",
+   "disciplines": [
+    "hci",
+    "games"
+   ],
+   "links": {},
+   "role_zh": "不列颠哥伦比亚大学计算机科学系研究者",
+   "bio_zh": "在不列颠哥伦比亚大学与 Robert Xiao 合作研究 VR 交互，Look2React（IEEE TVCG 2026）第一作者。",
+   "why_zh": "Look2React 让 VR 中的 NPC 看得见玩家，并由视觉模型根据肢体语言作出反应。",
+   "based_zh": "加拿大温哥华",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "nima-zargham",
+   "name": "Nima Zargham",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, Digital Media Lab, University of Bremen",
+   "based": "Bremen, Germany",
+   "bio": "HCI and games researcher in Rainer Malaka's Digital Media Lab, working on speech interaction and conversational agents in games.",
+   "why": "Ran one of the larger player studies (N = 48) of LLM-driven, speech-based NPCs in VR.",
+   "disciplines": [
+    "hci",
+    "games"
+   ],
+   "links": {},
+   "role_zh": "不来梅大学数字媒体实验室研究者",
+   "bio_zh": "人机交互与游戏研究者，任职于 Rainer Malaka 领导的数字媒体实验室，研究游戏中的语音交互与对话智能体。",
+   "why_zh": "完成了规模较大的一项 VR 中大语言模型语音 NPC 玩家研究（N = 48）。",
+   "based_zh": "德国不来梅",
+   "connected_to": [
+    "inworld-ai"
+   ],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "ritik-vatsal--look2react",
+   "creator_ids": [
+    "ritik-vatsal"
+   ],
+   "title": "Look2React",
+   "year": 2026,
+   "date": "2026-03-31",
+   "field": "agents",
+   "sub": "npc",
+   "also": [
+    "genxr"
+   ],
+   "modalities": [
+    "behavior",
+    "dialogue"
+   ],
+   "inputs": [
+    "body",
+    "image"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "reactivity",
+    "behavioral-plausibility"
+   ],
+   "kind": "research",
+   "description": "VR NPCs that react to what they actually see: when the player looks at and approaches an NPC, a snapshot of the NPC's view goes to a vision-based reasoning model, which picks a body pose and a line of dialogue in response to the player's pose and the situation.",
+   "description_zh": "能对所见作出反应的 VR NPC：当玩家注视并走近 NPC 时，NPC 视角的画面会被送进一个基于视觉的推理模型，由它根据玩家的姿势和当时的情境选择身体姿态和一句台词。",
+   "idea_en": "Giving characters eyes, triggered by gaze and proximity as in stealth games, lets them respond to body language at a cost low enough to run only when it matters.",
+   "idea_zh": "像潜行游戏那样用注视和距离来触发，给角色一双“眼睛”，它们就能回应肢体语言，而且成本低到只在需要时运行。",
+   "method": "Gaze- and proximity-based triggering captures the NPC's view and sends it to a vision-language reasoning model that selects a pose and a text response; in an RPG compared with NPCs modelled on contemporary games (N = 20), players interacted more often and repeatedly and reported significantly higher social presence.",
+   "method_zh": "以注视和距离触发，截取 NPC 的视角画面送入视觉语言推理模型，由其选择姿态与文本回应；在一款 RPG 中与仿照当代游戏的 NPC 对比（N = 20），玩家与 NPC 的互动更频繁、更多次，报告的社会临场感显著更高。",
+   "specs": "N = 20",
+   "keywords": [
+    "NPC",
+    "vision-language model",
+    "body language",
+    "social presence",
+    "gaze trigger"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=GFnAT7k43ME"
+   },
+   "paper": {
+    "url": "https://doi.org/10.1109/TVCG.2026.3679121",
+    "doi": "10.1109/TVCG.2026.3679121",
+    "arxiv": "",
+    "venue": "IEEE TVCG 2026 (IEEE VR 2026)",
+    "title": "Look2React: Making VR NPCs Come Alive with Dynamic Vision-Guided Reactions"
+   },
+   "source_url": "https://doi.org/10.1109/TVCG.2026.3679121",
+   "collections": [
+    "ieee-vr"
+   ]
+  },
+  {
+   "id": "nima-zargham--dialogs-genai-npcs",
+   "creator_ids": [
+    "nima-zargham"
+   ],
+   "title": "Dialogs with GenAI NPCs",
+   "year": 2026,
+   "date": "2026-02-02",
+   "field": "agents",
+   "sub": "npc",
+   "also": [
+    "genxr"
+   ],
+   "modalities": [
+    "dialogue",
+    "speech"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "responsiveness"
+   ],
+   "kind": "study",
+   "description": "Office Whispers is a speech-based VR adventure-puzzle game on Quest 2 in which players solve a mystery by talking freely with four Inworld-driven NPCs (a manager, a maintenance worker, a designer and an intern); 48 players in Canada and the Netherlands were surveyed and interviewed.",
+   "description_zh": "Office Whispers 是一款运行在 Quest 2 上的语音 VR 解谜冒险游戏，玩家通过与四个由 Inworld 驱动的 NPC（经理、维修工、设计师和实习生）自由交谈来解开谜团；研究者对加拿大和荷兰的 48 名玩家进行了问卷与访谈。",
+   "idea_en": "Free speech with NPCs made players feel immersed until the conversation failed: 77% hit speech-recognition errors, and wrong or off-context answers broke the game more often than latency did.",
+   "idea_zh": "与 NPC 自由对话让玩家感到沉浸，直到对话出错：77% 的人遇到过语音识别错误，而错误或离题的回答比延迟更常打断游戏。",
+   "method": "Inworld provides speech recognition, dialogue memory and LLM replies with voiced output; exploratory study, N = 48, with the Player Experience Inventory, a custom questionnaire and semi-structured interviews, across two gender-swapped versions of the cast.",
+   "method_zh": "由 Inworld 提供语音识别、对话记忆和大语言模型回复，并以语音输出；探索性研究，N = 48，使用玩家体验量表（PXI）、自编问卷和半结构化访谈，角色设置有两个互换性别的版本。",
+   "specs": "Quest 2 · 4 NPCs · N = 48",
+   "keywords": [
+    "GenAI NPC",
+    "speech-based game",
+    "Inworld",
+    "player experience",
+    "conversational breakdown"
+   ],
+   "paper": {
+    "url": "https://doi.org/10.1080/10447318.2026.2620647",
+    "doi": "10.1080/10447318.2026.2620647",
+    "arxiv": "",
+    "venue": "International Journal of Human–Computer Interaction, 2026",
+    "title": "Dialogs with GenAI NPCs: Exploring Player Interactions with Speech Agents in a VR Game"
+   },
+   "source_url": "https://doi.org/10.1080/10447318.2026.2620647"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Look2React: Making VR NPCs Come Alive with Dynamic Vision-Guided Reactions (TVCG 2026)",
+   "why": "Added as ritik-vatsal--look2react.",
+   "link": "https://doi.org/10.1109/TVCG.2026.3679121",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Zargham et al. 2026: Dialogs with GenAI NPCs, player interactions with speech agents in a VR game (IJHCI)",
+   "why": "Added as nima-zargham--dialogs-genai-npcs.",
+   "link": "https://doi.org/10.1080/10447318.2026.2620647",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs (COLM 2026)",
+   "why": "Re-checked 2026-10-18: the project page is a JavaScript app with a hero image only; no video on the page or YouTube.",
+   "link": "https://agentworld.io/",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "CityReal: human-aligned urban behavior simulation with large-scale LLM agents (2026-07)",
+   "why": "Still no project page, video or venue as of 2026-10-18.",
+   "link": "https://arxiv.org/abs/2608.16897",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Roblox RDC 2026 talk: The Fast Path to Smarter NPCs (2026-10-12)",
+   "why": "A conference talk on platform direction (video QvNAMmGqdd4, 'The Fast Path to Smarter NPCS | RDC 2026'); no named product or release to add.",
+   "link": "https://www.youtube.com/watch?v=QvNAMmGqdd4",
+   "found_via": "roblox",
+   "status": "off_topic"
+  },
+  {
+   "name": "Inworld Unreal AI Runtime SDK (2025-10-29)",
+   "why": "Added as inworld-ai--unreal-ai-runtime in infra-2026-10c (infra/realtime-stack, also agents).",
+   "link": "https://inworld.ai/blog/introducing-unreal-ai-runtime-sdk",
+   "found_via": "inworld-ai",
+   "status": "duplicate"
+  },
+  {
+   "name": "Inworld Realtime TTS-2 / speech-to-speech API (2026)",
+   "why": "Covered by inworld-ai--realtime-tts-2 (audio-2026-10), which also folds in the speech-to-speech API.",
+   "link": "https://inworld.ai/speech-to-speech",
+   "found_via": "inworld-ai",
+   "status": "duplicate"
+  },
+  {
+   "name": "Agentopia: Long-Term Life Simulation and Learning in Agent Societies (2026-06)",
+   "why": "100 agents over 10 simulated years, with a 'life reward' used to fine-tune the LLM (+15.6% on role-play benchmarks); text society, no world view or video.",
+   "link": "https://arxiv.org/abs/2606.07513",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "But How Would AI Agents Run a Town's Economy? (Regmi et al., 2026-09)",
+   "why": "100 LLM agents run a money-conserving economy on real Pokhara geography for 26 simulated weeks (91 runs, 2.44M decisions): swapping the LLM changes every outcome, deleting memory changes none. Strong evidence on agent-society validity, but text simulation without video.",
+   "link": "https://arxiv.org/abs/2609.11108",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Artificial Societies Benchmark: A Validation Framework for Synthetic Research (2026-09)",
+   "why": "Eleven internal, construct and external validity tests of LLM synthetic populations against 20 human sources and 9 models; a survey-research benchmark, no media and no uptake yet.",
+   "link": "https://arxiv.org/abs/2609.30030",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Workerville: Towards an Organizational Behavior Account of Agent Safety (2026-10)",
+   "why": "Agent-safety benchmark (3,360 workplace challenges); no generated world or situation people enter.",
+   "link": "https://arxiv.org/abs/2610.11561",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Emergence of polarization in networks of large language model agents (Piao et al., 2025)",
+   "why": "Thousands of networked LLM agents develop homophilic clusters and opinion polarization; text-only simulation, no video.",
+   "link": "https://arxiv.org/abs/2501.05171",
+   "found_via": "seed",
+   "status": "no_media"
+  }
+ ]
+}

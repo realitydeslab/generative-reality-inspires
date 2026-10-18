@@ -1,0 +1,6 @@
+{
+  "kaining-ying--wbench": {"zh": "WBench：交互视频世界模型多轮评测基准", "src": "translated"},
+  "kaixin-ding--playworld": {"zh": "PlayWorld：以智能体玩家评测世界模型的长时目标基准", "src": "translated"},
+  "jianjie-fang--iworld-bench": {"zh": "iWorld-Bench：交互世界模型基准", "src": "translated"},
+  "jinpeng-lu--wrbench": {"zh": "WRBench：当前世界模型缺少持久的状态核心", "src": "translated"}
+}

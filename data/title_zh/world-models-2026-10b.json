@@ -1,0 +1,62 @@
+{
+  "georgy-savva--solaris": {
+    "zh": "Solaris：《我的世界》多人视频世界模型",
+    "src": "translated"
+  },
+  "li-hu--wantofight": {
+    "zh": "WanToFight：多人格斗实时生成式游戏引擎",
+    "src": "translated"
+  },
+  "ziyang-ye--worldcast": {
+    "zh": "WorldCast：分布式多人世界模型",
+    "src": "translated"
+  },
+  "rhos-ai--khora": {
+    "zh": "Khora：可按人数扩展的多智能体世界模型",
+    "src": "translated"
+  },
+  "zhifei-chen--reworld": {
+    "zh": "ReWorld：具备长时记忆的交互世界模型",
+    "src": "translated"
+  },
+  "junchao-huang--solarwm": {
+    "zh": "SolarWM：长时视频世界模型的开放数据与可扩展训练",
+    "src": "translated"
+  },
+  "ji-xia--loci": {
+    "zh": "LOCI：流式世界模型的空间线性记忆",
+    "src": "translated"
+  },
+  "hanlin-wang--worlddirector": {
+    "zh": "WorldDirector：带持久动态记忆的可控世界模拟器",
+    "src": "translated"
+  },
+  "wangbo-yu--worldcrafter": {
+    "zh": "WorldCrafter：隐式三维感知记忆的一致性视频世界模型",
+    "src": "translated"
+  },
+  "nvidia--sana-wm": {
+    "zh": "SANA-WM：高效的分钟级世界模型",
+    "src": "translated"
+  },
+  "shengshu--minwm": {
+    "zh": "minWM：实时交互视频世界模型全栈开源框架",
+    "src": "translated"
+  },
+  "jd-com--echowm": {
+    "zh": "EchoWM：可进入的开源全模态世界模型",
+    "src": "translated"
+  },
+  "seedleap--zing-0-5": {
+    "zh": "Zing-0.5：动作与文字实时联合控制的可玩世界",
+    "src": "translated"
+  },
+  "yang-zhou-youku--moverse": {
+    "zh": "MoVerse：基于全景高斯骨架的实时视频世界模型",
+    "src": "translated"
+  },
+  "linxi-xie--generated-reality": {
+    "zh": "Generated Reality：手部与相机控制的以人为中心的交互世界模拟",
+    "src": "translated"
+  }
+}

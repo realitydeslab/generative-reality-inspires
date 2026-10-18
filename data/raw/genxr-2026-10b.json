@@ -1,0 +1,763 @@
+{
+ "batch": "genxr-2026-10b",
+ "creators": [
+  {
+   "id": "sruti-srinidhi",
+   "name": "Sruti Srinidhi",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, WiSE Lab, Carnegie Mellon University",
+   "based": "Pittsburgh, PA, USA",
+   "bio": "Works with Anthony Rowe at CMU on XR systems; first author of GenAssist (IEEE VR 2026).",
+   "why": "GenAssist generates running XR programs from a text prompt, so a scene's behaviour exists as readable code.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {
+    "site": "https://wise.ece.cmu.edu/"
+   },
+   "role_zh": "卡内基梅隆大学 WiSE 实验室博士研究者",
+   "bio_zh": "在卡内基梅隆大学与 Anthony Rowe 合作研究 XR 系统，GenAssist（IEEE VR 2026）第一作者。",
+   "why_zh": "GenAssist 能根据文字提示生成可直接运行的 XR 程序，让场景行为以可读的代码形式存在。",
+   "based_zh": "美国宾夕法尼亚州匹兹堡",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "jiayuan-wen",
+   "name": "Jiayuan Wen",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, Virtual Environments and Computer Graphics group, University College London",
+   "based": "London, UK",
+   "bio": "Studies adaptive audio in VR with Anthony Steed, Daniele Giunchi and Eyal Ofek.",
+   "why": "Showed in a controlled VR study that live generated music changes both presence and motor performance.",
+   "disciplines": [
+    "hci",
+    "behavioral"
+   ],
+   "links": {},
+   "role_zh": "伦敦大学学院虚拟环境与计算机图形组研究者",
+   "bio_zh": "与 Anthony Steed、Daniele Giunchi 和 Eyal Ofek 合作研究 VR 中的自适应音频。",
+   "why_zh": "在受控 VR 实验中表明，实时生成的音乐同时改变临场感与动作表现。",
+   "based_zh": "英国伦敦",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "yichen-chai",
+   "name": "Yichen Chai",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, The Hong Kong Polytechnic University",
+   "based": "Hong Kong, China",
+   "bio": "Works with Henry Been-Lirn Duh on mixed-reality design tools; first author of GenerativeSurface (IEEE TVCG 2026).",
+   "why": "GenerativeSurface uses generation to give mid-air sketching a starting point instead of a finished object.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "香港理工大学研究者",
+   "bio_zh": "与 Henry Been-Lirn Duh 合作研究混合现实设计工具，GenerativeSurface（IEEE TVCG 2026）第一作者。",
+   "why_zh": "GenerativeSurface 用生成来为空中草图提供起点，而不是直接给出成品。",
+   "based_zh": "中国香港",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "cheng-chih-tsai",
+   "name": "Cheng-Chih Tsai",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, National Taiwan University of Science and Technology",
+   "based": "Taipei, TW",
+   "bio": "Works with Tse-Yu Pan and Ping-Hsuan Han on generative VR prototyping; first author of DreamCraft (IEEE VR 2026).",
+   "why": "Compared whole-scene and object-by-object generation as two ways of authoring a VR environment.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "台湾科技大学研究者",
+   "bio_zh": "与 Tse-Yu Pan、Ping-Hsuan Han 合作研究生成式 VR 原型工具，DreamCraft（IEEE VR 2026）第一作者。",
+   "why_zh": "把整场景生成与逐物体生成作为两种 VR 环境创作方式进行了对比。",
+   "based_zh": "中国台湾台北",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "dohui-lee",
+   "name": "Dohui Lee",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, Graduate School of Metaverse, KAIST",
+   "based": "Daejeon, South Korea",
+   "bio": "Works with Sang Ho Yoon (KAIST) and Qi Sun (NYU) on VR interaction design; first author of HOICraft (CHI 2026).",
+   "why": "HOICraft uses a vision-language model to decide how objects in VR respond to hands.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "韩国科学技术院（KAIST）元宇宙研究生院研究者",
+   "bio_zh": "与 Sang Ho Yoon（KAIST）和 Qi Sun（纽约大学）合作研究 VR 交互设计，HOICraft（CHI 2026）第一作者。",
+   "why_zh": "HOICraft 用视觉语言模型来决定 VR 中的物体如何回应双手。",
+   "based_zh": "韩国大田",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "yiliu-tang",
+   "name": "Yiliu Tang",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, School of Information Sciences, University of Illinois Urbana-Champaign",
+   "based": "Champaign, IL, USA",
+   "bio": "Works with Yun Huang on generative AI in XR; first author of 'Empowered XR through Generative AI' (CHI 2026).",
+   "why": "Gives a taxonomy that pairs each generative capability in XR with its risk.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "伊利诺伊大学厄巴纳-香槟分校信息科学学院研究者",
+   "bio_zh": "与 Yun Huang 合作研究 XR 中的生成式 AI，《Empowered XR through Generative AI》（CHI 2026）第一作者。",
+   "why_zh": "提出一套分类，把 XR 中每一种生成能力与其对应风险配对起来。",
+   "based_zh": "美国伊利诺伊州香槟",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "chen-yang",
+   "name": "Chen Yang",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher, Changchun University of Science and Technology",
+   "based": "Changchun, China",
+   "bio": "Studies collaborative virtual environments with Chunyi Chen; first author of 'One Word, One World' (Virtual Reality, 2026).",
+   "why": "Measured how voice-driven generation changes social presence in multi-user VR, with N = 48.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "长春理工大学研究者",
+   "bio_zh": "与 Chunyi Chen 合作研究协同虚拟环境，《One Word, One World》（Virtual Reality，2026）第一作者。",
+   "why_zh": "以 N = 48 的实验测量了语音驱动生成如何改变多人 VR 中的社会临场感。",
+   "based_zh": "中国长春",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "junlong-chen",
+   "name": "Junlong Chen",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, Department of Engineering, University of Cambridge",
+   "based": "Cambridge, UK",
+   "bio": "Works with Per Ola Kristensson on LLM-assisted editing of immersive scenes.",
+   "why": "Quantified how often LLM scene editors misreport their own edits and how rarely users notice.",
+   "disciplines": [
+    "hci"
+   ],
+   "links": {},
+   "role_zh": "剑桥大学工程系博士研究者",
+   "bio_zh": "与 Per Ola Kristensson 合作研究大语言模型辅助的沉浸式场景编辑。",
+   "why_zh": "量化了大语言模型场景编辑器错误报告自身操作的频率，以及用户察觉的程度有多低。",
+   "based_zh": "英国剑桥",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "duotun-wang",
+   "name": "Duotun Wang",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, The Hong Kong University of Science and Technology (Guangzhou)",
+   "based": "Guangzhou, China",
+   "bio": "Works with Zeyu Wang and Mingming Fan on generative AI for mixed reality; first author of a 2026 IJHCI survey of visual GenAI in MR.",
+   "why": "The survey maps how visual generative models are being built into VR and AR interfaces.",
+   "disciplines": [
+    "hci",
+    "graphics"
+   ],
+   "links": {},
+   "role_zh": "香港科技大学（广州）博士研究者",
+   "bio_zh": "与 Zeyu Wang、Mingming Fan 合作研究面向混合现实的生成式 AI，2026 年 IJHCI 视觉生成式 AI 与 MR 综述第一作者。",
+   "why_zh": "该综述梳理了视觉生成模型如何被融入 VR 与 AR 界面。",
+   "based_zh": "中国广州",
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "sruti-srinidhi--genassist",
+   "creator_ids": [
+    "sruti-srinidhi"
+   ],
+   "title": "GenAssist",
+   "year": 2026,
+   "date": "2026-03-21",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "scene-3d"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "control"
+   ],
+   "kind": "research",
+   "description": "Describe an XR program in plain language and GenAssist writes it, runs it and hot-plugs it into the live scene: it places primitives and 3D models, animates them and wires up interactions, then looks at the result through virtual cameras and revises the code.",
+   "description_zh": "用自然语言描述想要的 XR 程序，GenAssist 就会编写、运行并把它热插入正在运行的场景：放置基本几何体和三维模型、让它们动起来并接上交互，再通过场景里的虚拟相机检查结果、修改代码。",
+   "idea_en": "Generating the program rather than the pixels gives a scene whose behaviour can be read, logged and rerun, which is what an experimenter needs from a generated situation.",
+   "idea_zh": "生成的是程序而不是像素，得到的场景行为可以阅读、记录和重跑，这正是实验者对生成情境的要求。",
+   "method": "Retrieval-augmented generation pulls platform documentation and example code into the LLM prompt; generated scripts run hot-pluggably, and a closed loop renders the scene from virtual cameras and feeds the views back to refine the program. Evaluated on a 50-prompt benchmark (under 10 s per run, fewer LLM calls than prior systems) and with 18 users (NASA-TLX 36.6).",
+   "method_zh": "检索增强生成把平台文档与示例代码放入大语言模型提示；生成的脚本以热插拔方式运行，并通过闭环从虚拟相机渲染场景、把画面反馈回去修正程序。在 50 条提示的基准上评估（每次运行不到 10 秒，调用次数少于以往系统），并做了 18 人的用户研究（NASA-TLX 36.6）。",
+   "specs": "<10 s per run · 50-prompt benchmark · N = 18",
+   "keywords": [
+    "XR program generation",
+    "retrieval-augmented generation",
+    "LLM code generation",
+    "closed-loop refinement",
+    "hot-pluggable scripts"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=nA28_u0hOjU"
+   },
+   "paper": {
+    "url": "https://doi.org/10.1109/VR67842.2026.00081",
+    "doi": "10.1109/VR67842.2026.00081",
+    "arxiv": "",
+    "venue": "IEEE VR 2026",
+    "title": "GenAssist: Interactive Prompt-Driven XR Program Generation"
+   },
+   "source_url": "https://doi.org/10.1109/VR67842.2026.00081",
+   "collections": [
+    "ieee-vr",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "jiayuan-wen--adaptive-generative-music-vr",
+   "creator_ids": [
+    "jiayuan-wen"
+   ],
+   "title": "Adaptive Generative Music in VR",
+   "year": 2026,
+   "date": "2026-04-01",
+   "field": "genxr",
+   "sub": "narrative",
+   "also": [
+    "audio",
+    "behavioral"
+   ],
+   "modalities": [
+    "audio"
+   ],
+   "inputs": [
+    "action"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "adaptation",
+    "responsiveness"
+   ],
+   "kind": "study",
+   "description": "In a VR archery game on Meta Quest 3, the soundtrack is generated live by Google's MusicFX DJ and becomes tenser in four steps as the player's 20 arrows run out; a within-subjects study (N = 22) compared it with a fixed soundtrack in the same style.",
+   "description_zh": "在 Meta Quest 3 上的一款 VR 射箭游戏里，配乐由 Google 的 MusicFX DJ 实时生成，并随着玩家 20 支箭逐渐用完分四个阶段变得越来越紧张；一项被试内实验（N = 22）把它与风格相同的固定配乐作了比较。",
+   "idea_en": "Generated music works as a behavioural manipulation, not just atmosphere: moderate tension sharpened aim and high tension degraded it, so an adaptive score can be tuned like any other experimental factor.",
+   "idea_zh": "生成音乐不只是氛围，而是一种行为操纵：适度的紧张让瞄准更准，过度的紧张则使其变差，因此自适应配乐可以像其他实验因素一样被调节。",
+   "method": "Unity sends gameplay events through Ubiq-Genie to a controller that drives MusicFX DJ with four preloaded prompts and switches between them at arrow-count thresholds (preloading avoided the multi-second delays of on-demand generation). Within-subjects, N = 22, 20 shots per condition; adaptive music raised presence (5.32 vs 4.27 of 7) and showed an inverted U: more accurate and faster aiming than fixed music in phase 2, less accurate and slower in phase 4.",
+   "method_zh": "Unity 把游戏事件经由 Ubiq-Genie 发送给控制器，控制器用四条预载提示驱动 MusicFX DJ，并在剩余箭数达到阈值时切换（预载避免了按需生成带来的数秒延迟）。被试内设计，N = 22，每种条件射 20 箭；自适应音乐提高了临场感（7 分制 5.32 对 4.27），并呈倒 U 型：第 2 阶段比固定配乐瞄得更准更快，第 4 阶段则更差更慢。",
+   "specs": "Meta Quest 3 · 4 tension phases · N = 22 within-subjects",
+   "keywords": [
+    "adaptive music",
+    "generative music",
+    "MusicFX DJ",
+    "Ubiq-Genie",
+    "arousal",
+    "inverted U",
+    "presence"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=GouIKwIllP4"
+   },
+   "paper": {
+    "url": "https://doi.org/10.1109/TVCG.2026.3679907",
+    "doi": "10.1109/TVCG.2026.3679907",
+    "arxiv": "",
+    "venue": "IEEE TVCG 2026",
+    "title": "Tuning Immersion and Performance with Adaptive Generative Music in VR"
+   },
+   "source_url": "https://doi.org/10.1109/TVCG.2026.3679907",
+   "collections": [
+    "ieee-vr",
+    "trend-genai-behavioral"
+   ]
+  },
+  {
+   "id": "yichen-chai--generativesurface",
+   "creator_ids": [
+    "yichen-chai"
+   ],
+   "title": "GenerativeSurface",
+   "year": 2026,
+   "date": "2026-03-31",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [
+    "text",
+    "sketch"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "co-creation"
+   ],
+   "kind": "research",
+   "description": "In mixed reality, a designer describes a concept in words and GenerativeSurface turns it into interactive 3D surfaces that serve as scaffolds to sketch on in mid-air, in a describe, generate, sketch and iterate loop.",
+   "description_zh": "在混合现实中，设计师用语言描述一个概念，GenerativeSurface 把它变成可交互的三维曲面，作为在空中画草图的支架，形成“描述、生成、草绘、迭代”的循环。",
+   "idea_en": "A generated surface offered as something to draw on, not a finished object, keeps the person's hand in the design while removing the blank-canvas problem.",
+   "idea_zh": "生成的曲面是用来在上面画的，而不是成品，这样既保留了人的亲手设计，又解决了面对空白画布无从下手的问题。",
+   "method": "Generative AI translates natural-language descriptions into editable 3D surfaces placed in the MR workspace for mid-air sketching; compared with primitive scaffolding and freehand mid-air sketching in a user evaluation on engineering conceptual design.",
+   "method_zh": "生成式 AI 把自然语言描述转成可编辑的三维曲面，放进 MR 工作空间供空中草绘；在工程概念设计任务中与基本几何体支架和徒手空中草绘作了对比评估。",
+   "keywords": [
+    "mixed reality sketching",
+    "3D conceptual design",
+    "semantic scaffolding",
+    "text-to-3D",
+    "conference talk video"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=Emc7e7AvhSA"
+   },
+   "paper": {
+    "url": "https://doi.org/10.1109/TVCG.2026.3679098",
+    "doi": "10.1109/TVCG.2026.3679098",
+    "arxiv": "",
+    "venue": "IEEE TVCG 2026 (IEEE VR 2026)",
+    "title": "GenerativeSurface: GenAI-Assisted Semantic Scaffolding for 3D Conceptual Design in Mixed Reality"
+   },
+   "source_url": "https://doi.org/10.1109/TVCG.2026.3679098",
+   "collections": [
+    "ieee-vr",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "cheng-chih-tsai--dreamcraft",
+   "creator_ids": [
+    "cheng-chih-tsai"
+   ],
+   "title": "DreamCraft",
+   "year": 2026,
+   "date": "2026-03-21",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "scene-3d",
+    "mesh"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "authoring",
+    "co-creation"
+   ],
+   "kind": "research",
+   "description": "DreamCraft is a VR prototyping tool with two generative workflows: generate a whole navigable environment at once, or build a scene up object by object from AI-generated assets; 12 VR designers used both.",
+   "description_zh": "DreamCraft 是一个 VR 原型工具，提供两种生成流程：一次生成整个可漫游的环境，或者用 AI 生成的资产逐个物体地搭建场景；12 位 VR 设计师试用了两种流程。",
+   "idea_en": "Whole-scene and object-by-object generation are different ways of authoring a situation; the study turns the choice between them into design guidelines instead of a default.",
+   "idea_zh": "整场景生成与逐物体生成是两种不同的情境创作方式，这项研究把两者之间的取舍变成设计准则，而不是默认选项。",
+   "method": "A VR system combining scene-level generation (an entire environment) with object-level generation (assets added iteratively), likely driven by text or voice prompts; a user study with 12 VR designers compared the workflows on task completion time, creative exploration and perceived cognitive load.",
+   "method_zh": "VR 系统结合场景级生成（整个环境）与物体级生成（逐步添加资产），很可能由文字或语音提示驱动；12 位 VR 设计师参与的用户研究，从任务完成时间、创意探索和感知认知负荷几方面比较两种流程。",
+   "specs": "N = 12 VR designers",
+   "keywords": [
+    "immersive prototyping",
+    "scene-level generation",
+    "object-level generation",
+    "design guidelines",
+    "conference talk video"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=wmliWuwohqg"
+   },
+   "paper": {
+    "url": "https://doi.org/10.1109/VR67842.2026.00088",
+    "doi": "10.1109/VR67842.2026.00088",
+    "arxiv": "",
+    "venue": "IEEE VR 2026",
+    "title": "Investigating Generative Workflows for Immersive Prototyping: A Study on Scene- and Object-Level Creation in VR"
+   },
+   "source_url": "https://doi.org/10.1109/VR67842.2026.00088",
+   "collections": [
+    "ieee-vr",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "dohui-lee--hoicraft",
+   "creator_ids": [
+    "dohui-lee"
+   ],
+   "title": "HOICraft",
+   "year": 2026,
+   "date": "2026-02-09",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "vr-scenario"
+   ],
+   "inputs": [
+    "text",
+    "body"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "reactivity",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "A VR designer selects a 3D object and states an intent; HOICraft uses GPT-4o to pick which parts should be interactive and to recommend how hand movements should drive them (physics grab, gesture or touch, manipulation or animation), which the designer then tests and tunes in the headset.",
+   "description_zh": "VR 设计师选中一个三维物体并说明意图，HOICraft 用 GPT-4o 判断哪些部件应当可交互，并推荐手部动作如何驱动它们（物理抓取、手势或触碰，操纵或动画），设计师随后在头显里测试和调整。",
+   "idea_en": "Generation can target how a world responds to hands, not only what it looks like, which is where most generated objects remain inert props.",
+   "idea_zh": "生成的对象可以是世界如何回应双手，而不只是它的外观；大多数生成物体恰恰停留在不可交互的道具阶段。",
+   "method": "GPT-4o analyses the object and the designer's intent to recommend interactable parts, HOI properties and a ranked hand-to-behaviour mapping across five HOI designs (physics-, gesture- and contact-based manipulation or animation), with in-context examples from preference data of 20 participants. On Meta Quest 3, 12 VR interaction designers needed significantly fewer exploratory trial-and-error iterations than with manual mapping (p < .001); SUS 81.",
+   "method_zh": "GPT-4o 分析物体与设计意图，推荐可交互部件、手物交互属性，以及在五类交互设计（基于物理、手势或接触的操纵或动画）中排好序的手部到行为映射，并以 20 名参与者的偏好数据作为上下文示例。在 Meta Quest 3 上，12 位 VR 交互设计师的试错次数显著少于手动映射（p < .001），SUS 为 81。",
+   "specs": "Meta Quest 3 · N = 12 designers · SUS 81",
+   "keywords": [
+    "hand-object interaction",
+    "VLM authoring",
+    "GPT-4o",
+    "part-level interaction",
+    "VR design tools"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=-QvYgTRsOgI"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2602.08219",
+    "doi": "10.1145/3772318.3790823",
+    "arxiv": "2602.08219",
+    "venue": "CHI 2026",
+    "title": "HOICraft: In-Situ VLM-based Authoring Tool for Part-Level Hand-Object Interaction Design in VR"
+   },
+   "source_url": "https://doi.org/10.1145/3772318.3790823",
+   "collections": [
+    "chi",
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "yiliu-tang--empowered-xr-genai",
+   "creator_ids": [
+    "yiliu-tang"
+   ],
+   "title": "Empowered XR through Generative AI",
+   "year": 2026,
+   "date": "2026-04-13",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "scene-3d",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "surroundings"
+   ],
+   "lenses": [
+    "situational-reach",
+    "control"
+   ],
+   "kind": "paper",
+   "description": "A CHI 2026 synthesis of 135 recent systems and studies that sorts what LLM-enabled XR gives people into 'superpowers', internal (cognitive and sensory enhancement) and external (changing environments and social situations), and maps the risks each one carries.",
+   "description_zh": "CHI 2026 的一篇综合研究，梳理 135 项近期系统与研究，把大语言模型赋能的 XR 带给人的能力归为“超能力”：内在的（认知与感官增强）和外在的（改变环境与社交情境），并逐一对应其风险。",
+   "idea_en": "Every generative superpower in a headset comes with a matching risk to autonomy, privacy or transparency, so a generated situation needs its safeguards designed alongside its capabilities.",
+   "idea_zh": "头显里的每一种生成式“超能力”都伴随着对自主性、隐私或透明度的风险，因此生成情境的防护措施必须与能力同步设计。",
+   "method": "Multi-phase analysis of 135 recent works on generative AI in XR, producing a taxonomy of internal and external superpowers with their associated risks (user autonomy, data security, ethical transparency), plus design guidelines and a research agenda.",
+   "method_zh": "对 135 项 XR 中生成式 AI 的近期工作进行多阶段分析，得出内在与外在超能力及其风险（用户自主、数据安全、伦理透明）的分类，并提出设计准则与研究议程。",
+   "keywords": [
+    "review",
+    "taxonomy",
+    "LLM-enabled XR",
+    "risks",
+    "design guidelines"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=azB-6roN0no"
+   },
+   "paper": {
+    "url": "https://doi.org/10.1145/3772318.3791307",
+    "doi": "10.1145/3772318.3791307",
+    "arxiv": "",
+    "venue": "CHI 2026",
+    "title": "Empowered XR through Generative AI: Balancing Superpowers and Risks"
+   },
+   "source_url": "https://doi.org/10.1145/3772318.3791307",
+   "collections": [
+    "chi"
+   ]
+  },
+  {
+   "id": "chen-yang--one-word-one-world",
+   "creator_ids": [
+    "chen-yang"
+   ],
+   "title": "One Word, One World",
+   "year": 2026,
+   "date": "2026-07-31",
+   "field": "genxr",
+   "sub": "in-situ",
+   "also": [
+    "behavioral"
+   ],
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "co-creation",
+    "authoring"
+   ],
+   "kind": "study",
+   "description": "In a shared VR space, collaborators speak an object into existence: a placeholder appears for everyone at once and is replaced by the generated 3D asset, which any participant can then move and edit. A within-subjects study (N = 48) compared this with building from an asset library.",
+   "description_zh": "在共享的 VR 空间里，协作者只要说出一个物体，所有人眼前就会同时出现一个占位体，随后被生成的三维资产替换，任何参与者都可以移动和编辑它。一项被试内实验（N = 48）把它与从资产库搭建的方式作了比较。",
+   "idea_en": "Voice-driven generation changed who takes part, not only how fast: social presence and psychological safety rose most for people with little 3D experience.",
+   "idea_zh": "语音驱动的生成改变的不只是速度，还有谁能参与：对三维经验很少的人，社会临场感与心理安全感提升最明显。",
+   "method": "Speech recognition plus generative 3D asset creation in a multi-user VR environment with shared placeholders, soft locking, synchronised state and authorship visualisation. Within-subjects, N = 48, against an asset-library baseline: higher creative throughput (p < .001) and expert-rated design quality (p = .007), with higher social presence and psychological safety.",
+   "method_zh": "多人 VR 环境中结合语音识别与生成式三维资产创建，提供共享占位体、软锁定、状态同步和作者可视化。被试内设计，N = 48，以资产库为基线：创作产出更高（p < .001），专家评定的设计质量更高（p = .007），社会临场感与心理安全感也更高。",
+   "specs": "N = 48 within-subjects",
+   "keywords": [
+    "collaborative virtual environment",
+    "speech-to-3D",
+    "co-creation",
+    "social presence",
+    "psychological safety"
+   ],
+   "paper": {
+    "url": "https://doi.org/10.1007/s10055-026-01434-y",
+    "doi": "10.1007/s10055-026-01434-y",
+    "arxiv": "",
+    "venue": "Virtual Reality (Springer), 2026",
+    "title": "“One Word, One World”: a generative AI-empowered real-time VR co-creation system and its impact on social presence and collaboration patterns"
+   },
+   "source_url": "https://link.springer.com/article/10.1007/s10055-026-01434-y",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "junlong-chen--confabulation-taxonomy",
+   "creator_ids": [
+    "junlong-chen"
+   ],
+   "title": "Confabulations in LLM-Assisted Immersive Scene Editing",
+   "year": 2026,
+   "date": "2026-07-25",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "scene-3d"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "control",
+    "authoring"
+   ],
+   "kind": "study",
+   "description": "24 non-expert users edited three VR scenes (an office, a loft and a city) by speaking to a GPT-5.2-based assistant; the authors coded every turn for confabulations, where the system misstated what it had done or what the scene contained, and compared them with what users noticed.",
+   "description_zh": "24 名非专业用户通过与基于 GPT-5.2 的助手对话来编辑三个 VR 场景（办公室、阁楼和城市）；作者逐轮标注“虚构”现象，即系统错误陈述自己做了什么或场景里有什么，并与用户察觉到的情况对比。",
+   "idea_en": "In the busier scenes users noticed only about a third of the editor's confabulations, and their estimates stopped tracking reality as errors piled up, so generated scenes need machine-checked edit logs rather than user trust.",
+   "idea_zh": "在较复杂的场景中，用户只察觉到大约三分之一的虚构，而且错误越多，用户的估计越脱离实际；因此生成场景需要可由机器核验的编辑日志，而不能依赖用户的信任。",
+   "method": "Speech is transcribed, a rule-based classifier routes intent and GPT-5.2 executes edits on selected objects (Oculus Quest 2). Exploratory study, N = 24: 437 of 1,612 interaction turns (27.1%) contained a confabulation; a nine-category taxonomy led by spatial placement errors (299 occurrences); a 'perception-reality gap', with median perceived vs actual counts of 2 vs 6 (office) and 4 vs 10.5 (city).",
+   "method_zh": "语音先转为文字，由规则分类器判别意图，再由 GPT-5.2 对选中的物体执行编辑（Oculus Quest 2）。探索性研究，N = 24：1,612 个交互轮次中有 437 个（27.1%）出现虚构；得出九类分类，空间放置错误最多（299 次）；并提出“感知与现实差距”：感知与实际次数的中位数分别为 2 对 6（办公室）和 4 对 10.5（城市）。",
+   "specs": "N = 24 · 1,612 turns · 27.1% confabulated",
+   "keywords": [
+    "confabulation",
+    "hallucination",
+    "LLM scene editing",
+    "perception-reality gap",
+    "taxonomy",
+    "preprint under review"
+   ],
+   "images": [
+    "https://arxiv.org/html/2607.23213v1/figures/city-teaser.png",
+    "https://arxiv.org/html/2607.23213v1/system-workflow.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2607.23213",
+    "doi": "",
+    "arxiv": "2607.23213",
+    "venue": "arXiv preprint (under review), 2026",
+    "title": "A Taxonomy of Confabulations and the Perception-Reality Gap in LLM-Assisted Immersive Scene Editing"
+   },
+   "source_url": "https://arxiv.org/abs/2607.23213"
+  },
+  {
+   "id": "duotun-wang--visual-genai-mr-survey",
+   "creator_ids": [
+    "duotun-wang"
+   ],
+   "title": "Visual Generative AI in Mixed Reality: A Survey",
+   "year": 2026,
+   "date": "2026-08-18",
+   "field": "genxr",
+   "sub": "in-situ",
+   "modalities": [
+    "image",
+    "scene-3d"
+   ],
+   "inputs": [
+    "text",
+    "surroundings"
+   ],
+   "lenses": [
+    "authoring",
+    "perceptual-realism"
+   ],
+   "kind": "paper",
+   "description": "A survey of how visual generative AI (2D and 3D content generation and vision-language models) is built into VR and AR, based on an in-depth review of 102 papers published 2018–2025 and organised by techniques, interaction designs and evaluations.",
+   "description_zh": "一篇综述，考察视觉生成式 AI（二维与三维内容生成以及视觉语言模型）如何被用于 VR 与 AR；基于对 2018–2025 年 102 篇论文的深入审阅，按技术、交互设计与评估方法组织。",
+   "idea_en": "Generative models and MR interaction design have co-evolved in three places: immersive visualisation, controllable generation and synthetic data.",
+   "idea_zh": "生成模型与 MR 交互设计在三个方面共同演进：沉浸式可视化、可控生成与合成数据。",
+   "method": "Screening of publications from international venues 2018–2025, followed by an in-depth review of 102 papers coded for 2D and 3D visual content creation, VLM integration, interaction design and evaluation.",
+   "method_zh": "筛选 2018–2025 年国际会议与期刊发表的论文，再对 102 篇进行深入审阅，按二维与三维视觉内容生成、视觉语言模型集成、交互设计与评估进行编码。",
+   "keywords": [
+    "survey",
+    "visual generative AI",
+    "mixed reality",
+    "vision-language models",
+    "controllable generation"
+   ],
+   "paper": {
+    "url": "https://doi.org/10.1080/10447318.2026.2713822",
+    "doi": "10.1080/10447318.2026.2713822",
+    "arxiv": "",
+    "venue": "International Journal of Human–Computer Interaction, 2026",
+    "title": "Visual Generative Artificial Intelligence (GenAI) in Mixed Reality (MR): A Survey of Techniques, Interaction Designs, and Evaluations"
+   },
+   "source_url": "https://doi.org/10.1080/10447318.2026.2713822"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Empowered XR through Generative AI: Balancing Superpowers and Risks (Tang et al., CHI 2026)",
+   "why": "Added as yiliu-tang--empowered-xr-genai.",
+   "link": "https://doi.org/10.1145/3772318.3791307",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "visionOS 27: Reality Composer Pro 3 generative asset creation and RealityKit Gaussian splats (WWDC26)",
+   "why": "Re-checked 2026-10-18: Apple's WWDC26 visionOS guide still mentions 'generative intelligence to help with asset creation' in one line, with no demo or documentation; RealityKit splat rendering is an engine feature (infra/engines), not generation.",
+   "link": "https://developer.apple.com/wwdc26/guides/visionos/",
+   "found_via": "apple",
+   "status": "no_media"
+  },
+  {
+   "name": "SyncSpace (2026)",
+   "why": "Re-checked 2026-10-18: still a 2-page abstract (arXiv 2607.10050) with no video or project page.",
+   "link": "https://arxiv.org/abs/2607.10050",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Yang & Chen 2026: One Word, One World, voice-driven generative co-creation in collaborative VR (Virtual Reality)",
+   "why": "Added as chen-yang--one-word-one-world.",
+   "link": "https://doi.org/10.1007/s10055-026-01434-y",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "HandMade: Spatial Prompting for Generative 3D Creation with Part-Labeled VR Sketches (Huang, Hanocka, Shamir, Gingold, 2026)",
+   "why": "Part-labeled VR sketches as spatial prompts for text-to-3D (20-example technical evaluation, N = 8); no project page or video found (arXiv, web and YouTube search, 2026-10-18).",
+   "link": "https://arxiv.org/abs/2606.27738",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "SpatialPrompt: XR-Based Spatial Intent Expression as Executable Constraints for AI Generative 3D Design (DIS 2026 companion)",
+   "why": "3D-pen sketches plus voice as constraints for Meshy generation on Apple Vision Pro, heuristic evaluation only; no video found.",
+   "link": "https://arxiv.org/abs/2605.07894",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "StoryBaker: Generative Memoryscapes from Personal Narratives in XR (Kobenova et al., IEEE VRW 2026)",
+   "why": "Toyota Research Institute poster by the Social Conjuring first author; 4-page abstract, no video or project page found.",
+   "link": "https://doi.org/10.1109/VRW70859.2026.00184",
+   "found_via": "amina-kobenova",
+   "status": "no_media"
+  },
+  {
+   "name": "Enabling AI-Driven VR Theatre: A Low-Latency VR-AI Director Framework with Consistent Personae (Wu et al., IEEE VRW 2026)",
+   "why": "HKUST (Guangzhou) 2-page poster on an LLM director for VR theatre; no video or project page found.",
+   "link": "https://doi.org/10.1109/VRW70859.2026.00323",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Fading Peach Blossom Spring: A Perspective-Shifting VR Narrative with Reactive 3D Gaussian Splatting (SIGGRAPH 2026 Posters)",
+   "why": "Stylised VR narrative in which touch dissolves a generated ink-wash 3DGS world into particles; poster only, no video found.",
+   "link": "https://doi.org/10.1145/3799825.3818737",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "Generated Reality: Human-centric World Simulation using Interactive Video Generation with Hand and Camera Control (Xie et al., CVPR 2026 Findings)",
+   "why": "Stanford (Wetzstein lab) video world model conditioned on tracked head pose and joint-level hand poses, distilled to a causal interactive system, with a human-subject study; its contribution is the model, so it belongs to world-models (also genxr). Added by the world-models agent as linxi-xie--generated-reality (world-models-2026-10b, also genxr).",
+   "link": "https://codeysun.github.io/generated-reality/",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Beyond Conversations: Spatially-Anchored Previews for Intent Disambiguation in LLM-Assisted Geometry Editing in VR (Chen et al., 2026)",
+   "why": "Companion within-subjects study (N = 24) by the authors of junlong-chen--confabulation-taxonomy: clarification questions plus spatial previews cut conversation rounds. Under review; add if it is published.",
+   "link": "https://arxiv.org/abs/2607.23201",
+   "found_via": "junlong-chen",
+   "status": "open"
+  },
+  {
+   "name": "Minor 2026 GenAI-in-XR prototypes: AI-Generated Environments for User-Driven Story Creation (AIxVR), Prompting for Mindfulness (Interactive Health), GAVIA-X (AIxVR), 3D Dreams Are Made of This (MuC)",
+   "why": "Short papers without video or a controlled study of note; below the salience bar.",
+   "link": "https://doi.org/10.1109/AIxVR67263.2026.00051",
+   "found_via": "seed",
+   "status": "off_topic"
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+{
+  "tencent-hunyuan--gander": { "zh": "Gander：多模态双工交互智能体", "src": "original" },
+  "cheng-kuang-chang--d2": { "zh": "D2：由半双工主干构建高能力全双工口语模型", "src": "translated" },
+  "zhuo-ning--soundwich": { "zh": "Soundwich：分层可控音频的视频生成", "src": "translated" },
+  "aviad-dahan--sepgen": { "zh": "SepGen：单一模型中的多音轨音视频分离与生成", "src": "translated" }
+}

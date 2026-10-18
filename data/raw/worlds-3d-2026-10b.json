@@ -1,0 +1,211 @@
+{
+ "batch": "worlds-3d-2026-10b",
+ "creators": [
+  {
+   "id": "paul-engstler",
+   "name": "Paul Engstler",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher, Visual Geometry Group (VGG), University of Oxford",
+   "based": "Oxford, UK",
+   "bio": "Works with Iro Laina, Christian Rupprecht and Andrea Vedaldi on 3D scene generation; author of SynCity (2025) and SynCity 3000 (2026).",
+   "why": "SynCity 3000 turns object-level image-to-3D generators into a convolutional operator for whole scenes.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://research.paulengstler.com/"
+   },
+   "role_zh": "牛津大学视觉几何组（VGG）博士研究者",
+   "bio_zh": "与 Iro Laina、Christian Rupprecht 和 Andrea Vedaldi 合作研究三维场景生成，SynCity（2025）与 SynCity 3000（2026）作者。",
+   "why_zh": "SynCity 3000 把物体级的图生三维模型改造成可用于整个场景的卷积式算子。",
+   "based_zh": "英国牛津",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "applied-intuition",
+   "name": "Applied Intuition",
+   "name_zh": "",
+   "kind": "company",
+   "role": "Vehicle software and autonomy simulation company",
+   "based": "Mountain View, CA, USA",
+   "bio": "Builds simulation, autonomy and vehicle-software tools for automotive, trucking and defence customers; publishes research through Applied Intuition Research.",
+   "why": "Released open weights for Building Rome, single-image 3D scene meshes for indoor and outdoor scenes.",
+   "disciplines": [
+    "robotics",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://www.appliedintuition.com/",
+    "github": "https://github.com/Applied-Intuition-Open-Source",
+    "huggingface": "https://huggingface.co/AppliedIntuitionResearch"
+   },
+   "role_zh": "车辆软件与自动驾驶仿真公司",
+   "bio_zh": "为汽车、卡车和国防客户提供仿真、自动驾驶与车辆软件工具，并以 Applied Intuition Research 名义发表研究。",
+   "why_zh": "开源了 Building Rome 的权重，可从单张照片生成室内外三维场景网格。",
+   "based_zh": "美国加利福尼亚州山景城",
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "paul-engstler--syncity-3000",
+   "creator_ids": [
+    "paul-engstler"
+   ],
+   "title": "SynCity 3000",
+   "year": 2026,
+   "date": "2026-07-06",
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "modalities": [
+    "splats",
+    "scene-3d"
+   ],
+   "inputs": [
+    "text",
+    "spec"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "diversity",
+    "control"
+   ],
+   "kind": "research",
+   "description": "From one text prompt, and optionally a layout, SynCity 3000 generates a large, coherent 3D Gaussian-splat scene (a suburb, a theme park, desert ruins, sea ice with an icebreaker) that can be explored from any angle, without the visible tile grid of the earlier SynCity.",
+   "description_zh": "只需一句文字提示（可选地再给一个布局），SynCity 3000 就能生成一个大范围、整体连贯的三维高斯泼溅场景（郊区街道、主题乐园、沙漠遗迹、带破冰船的海冰），可以从任意角度探索，也不再有早期 SynCity 那样明显的分块网格。",
+   "idea_en": "Using an object generator as a convolution over a whole-scene image gives worlds of arbitrary size with placement control, a route to large generated situations that stay editable.",
+   "idea_zh": "把物体生成器当作在整幅场景图上滑动的卷积来用，就能得到任意大小、可控制布局的世界，这是一条通向大规模且仍可编辑的生成情境的路线。",
+   "method": "Two stages: a high-resolution dimetric 2D scene template is generated from the prompt with joint diffusion over overlapping latent windows (MultiDiffusion-style, with optional layout constraints); an image-to-3D generator fine-tuned on 320k procedurally generated scenes from a new synthetic data engine then converts it region by region into 3D Gaussian splats, with surrounding context for coherence.",
+   "method_zh": "分两步：先根据提示用重叠潜变量窗口上的联合扩散（类似 MultiDiffusion，可加布局约束）生成高分辨率的二等角二维场景模板；再用一个在新合成数据引擎生成的 32 万个程序化场景上微调过的图生三维模型，逐区域把模板转换为三维高斯泼溅，并参考周围上下文保持一致。",
+   "specs": "Text → 3DGS scene of arbitrary size · fine-tuned on 320k synthetic scenes",
+   "keywords": [
+    "text-to-3D scene",
+    "Gaussian splatting",
+    "joint diffusion",
+    "synthetic data engine",
+    "layout control",
+    "Oxford VGG"
+   ],
+   "video": {
+    "url": "https://research.paulengstler.com/syncity-3k/assets/teaser.mp4"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2607.05392",
+    "doi": "",
+    "arxiv": "2607.05392",
+    "venue": "arXiv 2026",
+    "title": "SynCity 3000: Bootstrapping Scene-Scale 3D Diffusion"
+   },
+   "source_url": "https://research.paulengstler.com/syncity-3k/",
+   "code_url": "https://github.com/paulengstler/syncity-3k",
+   "collections": [
+    "trend-explicit-3d"
+   ]
+  },
+  {
+   "id": "jiraphon-yenphraphai--building-rome",
+   "creator_ids": [
+    "jiraphon-yenphraphai",
+    "applied-intuition"
+   ],
+   "title": "Building Rome from a Single Image",
+   "year": 2026,
+   "date": "2026-10-06",
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "mesh",
+    "scene-3d"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "persistence"
+   ],
+   "kind": "model",
+   "description": "Give it one photograph of a room or a street and it generates a complete metric 3D scene mesh, including surfaces the camera never saw, which can be orbited, walked through and measured in metres in a browser viewer.",
+   "description_zh": "给它一张房间或街道的照片，它就会生成一个完整、带真实尺度的三维场景网格，包括相机没有拍到的表面；在浏览器查看器里可以环绕、行走，并以米为单位测量距离。",
+   "idea_en": "An object generator's shape prior, re-chunked for whole scenes, fills in what a single photo hides, so a real place can become a walkable, metric stand-in with open weights.",
+   "idea_zh": "把物体生成器的形状先验按整场景重新分块使用，就能补出单张照片看不到的部分，让一个真实地点变成可行走、有真实尺度的替身，而且权重开放。",
+   "method": "Redesigns the object-centric TRELLIS 2 generator for scenes: adaptive chunks that grow with distance from the camera, image features lifted onto observed surfaces with voxels labelled free, visible or hidden, autoregressive generation that reuses overlapping latents between chunks, and about 4,000 synthesized outdoor scenes added to mostly indoor training data. Applied Intuition reports it beats World Tracing, GenRecon, VolFill and Lyra 2.0 on Tanks and Temples, ScanNet++ and in-the-wild images.",
+   "method_zh": "把以物体为中心的 TRELLIS 2 生成器改造用于场景：随距相机远近增大的自适应分块；把图像特征投到可见表面上，并把体素标为空闲、可见或被遮挡；在相邻分块间复用重叠潜变量的自回归生成；并在以室内为主的训练数据中加入约 4,000 个合成户外场景。Applied Intuition 称其在 Tanks and Temples、ScanNet++ 和野外照片上优于 World Tracing、GenRecon、VolFill 与 Lyra 2.0。",
+   "specs": "Single image → metric scene mesh · indoor and outdoor · ~4,000 synthetic outdoor training scenes",
+   "keywords": [
+    "single-image scene generation",
+    "TRELLIS 2",
+    "metric mesh",
+    "open weights",
+    "scene completion"
+   ],
+   "video": {
+    "url": "https://build-rome.github.io/assets/media/teaser.mp4"
+   },
+   "images": [
+    "https://build-rome.github.io/assets/media/teaser_poster.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2610.08790",
+    "doi": "",
+    "arxiv": "2610.08790",
+    "venue": "arXiv 2026",
+    "title": "Building Rome from a Single Image"
+   },
+   "source_url": "https://build-rome.github.io/",
+   "code_url": "https://github.com/Applied-Intuition-Open-Source/BuildRome",
+   "collections": [
+    "trend-explicit-3d",
+    "trend-open-weights"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "SynCity 3000 (arXiv 2607.05392)",
+   "why": "Added as paul-engstler--syncity-3000.",
+   "link": "https://research.paulengstler.com/syncity-3k/",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "Building Rome from a Single Image (Applied Intuition, arXiv 2610.08790)",
+   "why": "Added as jiraphon-yenphraphai--building-rome (open code and Hugging Face checkpoints, project-page video).",
+   "link": "https://build-rome.github.io/",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "HARMONY (arXiv 2609.26793), Tetris3D (arXiv 2610.10539), SceneMosaic (arXiv 2609.05594), LEGO-Anything (arXiv 2609.36380)",
+   "why": "Below the salience bar as of 2026-10-18; the most notable, LEGO-Anything (AWS and UMD: a coding agent rebuilds a photo as an editable Blender scene, LEGO-Bench of 208 images), has code 'coming soon' and no video.",
+   "link": "https://lego-anything.com/",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "WorldAuditBench (arXiv 2609.40325) and ExeWorldBench (arXiv 2610.15166)",
+   "why": "Benchmarks, triaged in infra-2026-10c: WorldAuditBench below the salience bar (no uptake, JavaScript-only demos), ExeWorldBench without project page or media.",
+   "link": "https://ucsb-nlp-chang.github.io/WorldAuditBench/",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Odyssey Explorer (Dec 2024)",
+   "why": "Already added in round 1 as odyssey--explorer (worlds-3d-2026-10).",
+   "link": "https://odyssey.world/",
+   "found_via": "world-labs",
+   "status": "duplicate"
+  }
+ ]
+}
