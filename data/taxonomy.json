@@ -743,8 +743,8 @@
    "url": "",
    "gap_en": "Exported worlds are static (people, weather and events must be added with an engine or agents), lighting is baked, scale is arbitrary, and image metrics miss floaters that stand out in stereo.",
    "gap_zh": "导出的世界是静态的（人物、天气和事件需借助引擎或智能体添加），光照是烘焙的，尺度不确定，而图像质量指标会漏掉在立体观看时才明显的漂浮伪影。",
-   "next_en": "Atlas will power future versions of Marble, and engine-plus-model hybrids (Matrix-Game 4.0) keep game state explicit while a network draws the pixels.",
-   "next_zh": "Atlas 将用于未来版本的 Marble；引擎加模型的混合方案（Matrix-Game 4.0）把游戏状态保存在引擎中，由神经网络绘制画面。"
+   "next_en": "Atlas will power future versions of Marble, and engine-plus-model hybrids (Matrix-Game 4.0) keep game state explicit while a network draws the pixels. Splats are becoming a native format in production tools: Houdini 22 (2026-06-22) trains and rigs them, three.js r186 (2026-09-24) renders them on the web, and Blender 5.3 imports and renders them (beta).",
+   "next_zh": "Atlas 将用于未来版本的 Marble；引擎加模型的混合方案（Matrix-Game 4.0）把游戏状态保存在引擎中，由神经网络绘制画面。高斯泼溅正成为制作工具的原生格式：Houdini 22（2026-06-22）可以训练和绑定泼溅，three.js r186（2026-09-24）可在网页中渲染，Blender 5.3 也支持导入和渲染（测试版）。"
   },
   {
    "id": "trend-full-duplex",

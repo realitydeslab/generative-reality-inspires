@@ -1,0 +1,21 @@
+{
+ "batch": "audio-2026-10d",
+ "creators": [],
+ "works": [],
+ "leads": [
+  {
+   "name": "Real-time joint audio-video generation by parallel adapter composition (2026)",
+   "why": "Below the salience bar: v2 names the authors (Jingyu Li, Xiaoxiao Xiang, Yiwen Guo) but there is no lab of note and no venue yet (ICLR 2027 submission), and its 26 fps, 30-second streaming audio-video at 480x832 is represented by shengshu--vidu-s1.",
+   "link": "https://arxiv.org/abs/2610.10343",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "DiffuPlex (arXiv 2610.12214)",
+   "why": "Below the salience bar: a single-author 1.5-1.8x speed-up of existing full-duplex dialogue models with no new interaction capability, and the project page loads audio samples only by script.",
+   "link": "https://diffuplex.github.io/",
+   "found_via": "seed",
+   "status": "off_topic"
+  }
+ ]
+}

@@ -17027,5 +17027,304 @@
   "ok": true,
   "type": "image",
   "content_type": "image/jpeg"
+ },
+ "video:mp4:https://expmaster.github.io/megaparts_webpage/assets/megaparts-promo-intro-1440p.mp4": {
+  "url": "https://expmaster.github.io/megaparts_webpage/assets/megaparts-promo-intro-1440p.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://expmaster.github.io/megaparts_webpage/assets/megaparts-promo-intro-1440p.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://expmaster.github.io/megaparts_webpage/assets/web/hero-1280.webp": {
+  "url": "https://expmaster.github.io/megaparts_webpage/assets/web/hero-1280.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "arxiv:2608.14783": {
+  "arxiv": "2608.14783",
+  "ok": true,
+  "type": "arxiv",
+  "title": "MegaParts: Scaling Part-Aware 3D Object Generation to 300 Parts via Token-Efficient Autoregressive Modeling",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2608.14783"
+ },
+ "video:mp4:https://assets.vast-eden.ai/assets/mira-scene/videos/demo.mp4": {
+  "url": "https://assets.vast-eden.ai/assets/mira-scene/videos/demo.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://assets.vast-eden.ai/assets/mira-scene/videos/demo.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://assets.vast-eden.ai/assets/mira-scene/images/teaser.webp": {
+  "url": "https://assets.vast-eden.ai/assets/mira-scene/images/teaser.webp",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "arxiv:2609.23796": {
+  "arxiv": "2609.23796",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Mira-Scene: Pixel-Aligned Layouts for Generative 3D Scene Reconstruction",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.23796"
+ },
+ "video:mp4:https://huggingface.co/datasets/guyingl/pat3d/resolve/main/media/demo_100mb_hq.mp4": {
+  "url": "https://huggingface.co/datasets/guyingl/pat3d/resolve/main/media/demo_100mb_hq.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://huggingface.co/datasets/guyingl/pat3d/resolve/main/media/demo_100mb_hq.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://simulation-intelligence.github.io/PAT3D/static/images/teaser.png": {
+  "url": "https://simulation-intelligence.github.io/PAT3D/static/images/teaser.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2511.21978": {
+  "arxiv": "2511.21978",
+  "ok": true,
+  "type": "arxiv",
+  "title": "PAT3D: Physics-Augmented Text-to-3D Scene Generation",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2511.21978"
+ },
+ "video:youtube:OWPkzYE5PiA": {
+  "url": "https://www.youtube.com/watch?v=OWPkzYE5PiA",
+  "ok": true,
+  "platform": "youtube",
+  "id": "OWPkzYE5PiA",
+  "title": "Introducing: Trinity-1",
+  "author": "Simli",
+  "thumbnail": "https://i.ytimg.com/vi/OWPkzYE5PiA/hqdefault.jpg"
+ },
+ "img:https://i.ytimg.com/vi/OWPkzYE5PiA/maxresdefault.jpg": {
+  "url": "https://i.ytimg.com/vi/OWPkzYE5PiA/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "video:youtube:qVeGWW93xkw": {
+  "url": "https://www.youtube.com/watch?v=qVeGWW93xkw",
+  "ok": true,
+  "platform": "youtube",
+  "id": "qVeGWW93xkw",
+  "title": "Biological AI - Functional Layers of a Digital Person",
+  "author": "Soul Machines",
+  "thumbnail": "https://i.ytimg.com/vi/qVeGWW93xkw/hqdefault.jpg"
+ },
+ "img:https://i.ytimg.com/vi/qVeGWW93xkw/maxresdefault.jpg": {
+  "url": "https://i.ytimg.com/vi/qVeGWW93xkw/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "video:mp4:https://steller-cheng.github.io/DiVA/assets/videos/hero_human.mp4": {
+  "url": "https://steller-cheng.github.io/DiVA/assets/videos/hero_human.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://steller-cheng.github.io/DiVA/assets/videos/hero_human.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://steller-cheng.github.io/DiVA/assets/images/interaction_human.jpg": {
+  "url": "https://steller-cheng.github.io/DiVA/assets/images/interaction_human.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2609.13830": {
+  "arxiv": "2609.13830",
+  "ok": true,
+  "type": "arxiv",
+  "title": "DiVA: Enabling Interactive Digital Life Simulation via Video Models",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2609.13830"
+ },
+ "video:youtube:AfyDa0Mot4E": {
+  "url": "https://www.youtube.com/watch?v=AfyDa0Mot4E",
+  "ok": true,
+  "platform": "youtube",
+  "id": "AfyDa0Mot4E",
+  "title": "LIVE-GS: LLM Powers Interactive VR Experience with Physics-Aware Gauss...",
+  "author": "IEEE Virtual Reality Conference",
+  "thumbnail": "https://i.ytimg.com/vi/AfyDa0Mot4E/hqdefault.jpg"
+ },
+ "img:https://arxiv.org/html/2412.09176v2/x1.png": {
+  "url": "https://arxiv.org/html/2412.09176v2/x1.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "doi:10.1109/tvcg.2026.3680710": {
+  "doi": "10.1109/tvcg.2026.3680710",
+  "ok": true,
+  "type": "doi",
+  "title": "LIVE-GS: LLM Powers Interactive VR Experience with Physics-Aware Gaussian Splatting",
+  "year": 2026,
+  "venue": "IEEE Transactions on Visualization and Computer Graphics",
+  "url": "https://doi.org/10.1109/tvcg.2026.3680710"
+ },
+ "arxiv:2412.09176": {
+  "arxiv": "2412.09176",
+  "ok": true,
+  "type": "arxiv",
+  "title": "LIVE-GS: LLM Powers Interactive VR Experience with Physics-Aware Gaussian Splatting",
+  "year": 2024,
+  "url": "https://arxiv.org/abs/2412.09176"
+ },
+ "video:mp4:https://consistent4d.github.io/teaser/unified_2.mp4": {
+  "url": "https://consistent4d.github.io/teaser/unified_2.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://consistent4d.github.io/teaser/unified_2.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://consistent4d.github.io/images/pipeline.svg": {
+  "url": "https://consistent4d.github.io/images/pipeline.svg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/svg+xml"
+ },
+ "arxiv:2311.02848": {
+  "arxiv": "2311.02848",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Consistent4D: Consistent 360° Dynamic Object Generation from Monocular Video",
+  "year": 2023,
+  "url": "https://arxiv.org/abs/2311.02848"
+ },
+ "video:mp4:https://media.sidefx.com/uploads/products/whatsnew_h22/images/gsplats/houdini_generated_gsplats.mp4": {
+  "url": "https://media.sidefx.com/uploads/products/whatsnew_h22/images/gsplats/houdini_generated_gsplats.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://media.sidefx.com/uploads/products/whatsnew_h22/images/gsplats/houdini_generated_gsplats.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://media.sidefx.com/uploads/products/banners/h22_banner.png": {
+  "url": "https://media.sidefx.com/uploads/products/banners/h22_banner.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "video:mp4:https://resources.xgenlabs.ai/research/videos/research-jing-dao-xgen-jing-demo-20260916.mp4": {
+  "url": "https://resources.xgenlabs.ai/research/videos/research-jing-dao-xgen-jing-demo-20260916.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://resources.xgenlabs.ai/research/videos/research-jing-dao-xgen-jing-demo-20260916.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://huggingface.co/XGENlabs/XGEN-JING/resolve/main/assets/xgen-jing-cover.jpg?v=5d27805a7323": {
+  "url": "https://huggingface.co/XGENlabs/XGEN-JING/resolve/main/assets/xgen-jing-cover.jpg?v=5d27805a7323",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2610.19726": {
+  "arxiv": "2610.19726",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Generative World Simulation with DAO and JING",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2610.19726"
+ },
+ "video:youtube:QX7PBBaBGdc": {
+  "url": "https://www.youtube.com/watch?v=QX7PBBaBGdc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "QX7PBBaBGdc",
+  "title": "Alaya-EVOKE: From Linear-ScalingSupervision to Endless World",
+  "author": "gx w",
+  "thumbnail": "https://i.ytimg.com/vi/QX7PBBaBGdc/hqdefault.jpg"
+ },
+ "img:https://github.com/AlayaLab/Evoke/raw/main/assets/promo.jpg": {
+  "url": "https://github.com/AlayaLab/Evoke/raw/main/assets/promo.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "arxiv:2608.13546": {
+  "arxiv": "2608.13546",
+  "ok": true,
+  "type": "arxiv",
+  "title": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2608.13546"
+ },
+ "video:mp4:https://interactwm.github.io/ActWorld/static/videos/comparisons/fp_game_insert_press_pickup_0001/ours.mp4": {
+  "url": "https://interactwm.github.io/ActWorld/static/videos/comparisons/fp_game_insert_press_pickup_0001/ours.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://interactwm.github.io/ActWorld/static/videos/comparisons/fp_game_insert_press_pickup_0001/ours.mp4",
+  "content_type": "video/mp4"
+ },
+ "img:https://interactwm.github.io/ActWorld/static/images/teaser1.png": {
+  "url": "https://interactwm.github.io/ActWorld/static/images/teaser1.png",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/png"
+ },
+ "arxiv:2606.17730": {
+  "arxiv": "2606.17730",
+  "ok": true,
+  "type": "arxiv",
+  "title": "ActWorld: From Explorable to Interactive World Model via Action-Aware Memory",
+  "year": 2026,
+  "url": "https://arxiv.org/abs/2606.17730"
+ },
+ "video:youtube:rxSCA5Nyp-I": {
+  "url": "https://www.youtube.com/watch?v=rxSCA5Nyp-I",
+  "ok": true,
+  "platform": "youtube",
+  "id": "rxSCA5Nyp-I",
+  "title": "GenTouchVR: Generating a Touchable Virtual Reality Environment from a Single Image",
+  "author": "POSTECH Interaction Laboratory",
+  "thumbnail": "https://i.ytimg.com/vi/rxSCA5Nyp-I/hqdefault.jpg"
+ },
+ "img:https://i.ytimg.com/vi/rxSCA5Nyp-I/maxresdefault.jpg": {
+  "url": "https://i.ytimg.com/vi/rxSCA5Nyp-I/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "doi:10.1109/tvcg.2026.3680620": {
+  "doi": "10.1109/tvcg.2026.3680620",
+  "ok": true,
+  "type": "doi",
+  "title": "GenTouchVR: Generating a Touchable Virtual Reality Environment from a Single Image",
+  "year": 2026,
+  "venue": "IEEE Transactions on Visualization and Computer Graphics",
+  "url": "https://doi.org/10.1109/tvcg.2026.3680620"
+ },
+ "ytmax:OWPkzYE5PiA": {
+  "url": "https://i.ytimg.com/vi/OWPkzYE5PiA/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:qVeGWW93xkw": {
+  "url": "https://i.ytimg.com/vi/qVeGWW93xkw/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:AfyDa0Mot4E": {
+  "url": "https://i.ytimg.com/vi/AfyDa0Mot4E/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:QX7PBBaBGdc": {
+  "url": "https://i.ytimg.com/vi/QX7PBBaBGdc/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
+ },
+ "ytmax:rxSCA5Nyp-I": {
+  "url": "https://i.ytimg.com/vi/rxSCA5Nyp-I/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
  }
 }

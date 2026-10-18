@@ -1,0 +1,21 @@
+{
+ "batch": "behavioral-2026-10d",
+ "creators": [],
+ "works": [],
+ "leads": [
+  {
+   "name": "Torshizi & Marsella 2026: LLM-based selection of incongruent verbal and nonverbal behavior for virtual humans (arXiv 2608.22731)",
+   "why": "Below the salience bar for avatars/nonverbal and behavioral: two online Prolific video-rating studies (within-subjects, N = 49 and N = 39) of LLM-chosen mismatched nonverbal behaviour, with no immersive setup and no venue yet.",
+   "link": "https://arxiv.org/abs/2608.22731",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Calzolari, ... Musse 2026: LLM-Driven Personalities for Decision Making in Emergency Simulations (arXiv 2606.31038)",
+   "why": "Below the salience bar for agents: an agent-only evacuation simulation with OCEAN-prompted LLM agents, no human participants and no venue yet.",
+   "link": "https://arxiv.org/abs/2606.31038",
+   "found_via": "seed",
+   "status": "off_topic"
+  }
+ ]
+}

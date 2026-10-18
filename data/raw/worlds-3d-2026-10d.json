@@ -1,0 +1,61 @@
+{
+ "batch": "worlds-3d-2026-10d",
+ "creators": [
+  {
+   "id": "jaejun-park",
+   "name": "Jaejun Park",
+   "kind": "person",
+   "role": "Researcher, POSTECH Interaction Laboratory",
+   "based": "Pohang, South Korea",
+   "bio": "Jaejun Park is first author of GenTouchVR (IEEE VR 2026, TVCG), written with Soyeon Nam, Jeongwoo Kim, Uison Ju and Seungmoon Choi at POSTECH's haptics and virtual reality laboratory.",
+   "why": "GenTouchVR generates the force feedback of a VR scene, not only its appearance, from a single photo.",
+   "disciplines": ["hci", "graphics"],
+   "links": { "youtube": "https://www.youtube.com/@PostechHVRLab" },
+   "role_zh": "浦项工科大学（POSTECH）交互实验室研究者",
+   "based_zh": "韩国浦项",
+   "bio_zh": "Jaejun Park 是 GenTouchVR（IEEE VR 2026，TVCG）的第一作者，合作者为 POSTECH 触觉与虚拟现实实验室的 Soyeon Nam、Jeongwoo Kim、Uison Ju 和 Seungmoon Choi。",
+   "why_zh": "GenTouchVR 从一张照片生成的不只是 VR 场景的外观，还有它的力反馈。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "jaejun-park--gentouchvr",
+   "creator_ids": ["jaejun-park"],
+   "title": "GenTouchVR",
+   "year": 2026,
+   "date": "2026-03",
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "also": ["genxr"],
+   "modalities": ["scene-3d", "mesh"],
+   "inputs": ["image"],
+   "timing": "offline",
+   "access": ["research"],
+   "lenses": ["perceptual-realism", "authoring"],
+   "kind": "research",
+   "description": "GenTouchVR (POSTECH, IEEE VR 2026, TVCG) turns one photo into a VR scene whose objects can be felt through force feedback: an LLM finds the objects and infers how each should feel, and the system generates the 3D models and their haptic parameters. In user studies participants rated the generated feedback as comparable to expert-designed feedback; the authors call it the first system to produce force-feedback VR scenes from a single image.",
+   "description_zh": "GenTouchVR（POSTECH，IEEE VR 2026，TVCG）把一张照片变成可以通过力反馈“摸到”的 VR 场景：大语言模型识别图中物体并推断每个物体应有的触感，系统再生成三维模型及其触觉参数。用户研究中，参与者认为自动生成的反馈与专家设计的反馈相当；作者称这是首个从单张图像生成带力反馈 VR 场景的系统。",
+   "idea_en": "Extends scene generation from what you see to what you feel, so a generated room can push back when touched without a haptics expert tuning each object.",
+   "idea_zh": "把场景生成从“看到的”扩展到“摸到的”，让生成的房间在被触碰时给出阻力，而不需要触觉专家逐个调参。",
+   "method": "An LLM detects objects in the image and predicts their visual and haptic cues together with plausible ranges of haptic rendering parameters; 3D assets are generated for each object, and a perceptual optimisation spreads the parameters so that objects feel distinct while staying physically valid; the scene is felt through a kinesthetic (force-feedback) device.",
+   "method_zh": "大语言模型识别图像中的物体，预测其视觉与触觉线索以及触觉渲染参数的合理范围；系统为每个物体生成三维资产，并通过感知优化调整参数，使不同物体摸起来有区别，同时保持物理上合理；用户通过动觉（力反馈）设备感受场景。",
+   "keywords": ["haptics", "force feedback", "single image to VR", "LLM", "multisensory world generation", "IEEE VR"],
+   "video": { "url": "https://www.youtube.com/watch?v=rxSCA5Nyp-I" },
+   "images": ["https://i.ytimg.com/vi/rxSCA5Nyp-I/maxresdefault.jpg"],
+   "paper": { "url": "https://doi.org/10.1109/tvcg.2026.3680620", "doi": "10.1109/tvcg.2026.3680620", "venue": "IEEE TVCG (IEEE VR 2026)", "title": "GenTouchVR: Generating a Touchable Virtual Reality Environment from a Single Image" },
+   "source_url": "https://doi.org/10.1109/tvcg.2026.3680620",
+   "collections": ["ieee-vr"]
+  }
+ ],
+ "leads": [
+  {
+   "name": "GenTouchVR: Generating a Touchable Virtual Reality Environment from a Single Image (IEEE VR 2026, TVCG)",
+   "why": "Added in round 3 as jaejun-park--gentouchvr (official POSTECH lab video).",
+   "link": "https://doi.org/10.1109/tvcg.2026.3680620",
+   "found_via": "seed",
+   "status": "duplicate"
+  }
+ ]
+}

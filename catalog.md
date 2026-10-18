@@ -2,7 +2,7 @@
 
 A catalog of generative immersive technology: the models, products, APIs, research demos, studies and devices with which situations can be generated and entered. Fields: video generation, interactive virtual humans, speech and spatial audio, interactive world models, 3D scene and world generation, 3D assets and motion, capture / reconstruction / 4D, agents and simulated societies, generative XR experiences, immersive behavioral research and training, and platforms / APIs / delivery. Each entry lists its idea, how it works, its input, output, timing (pre-generated, turn-based, real-time, full-duplex, scripted) and access (open weights, API, product, waitlist, research), and links to its video, paper and official page. Compiled by Reality Design Lab as the living survey behind a research agenda on generative immersion for behavioral science. Capabilities are as reported by their developers.
 
-https://generative.reality.design · 2026-10-18 · 534 labs & creators · 799 entries
+https://generative.reality.design · 2026-10-18 · 544 labs & creators · 812 entries
 
 ## How an AI assistant should use this file
 
@@ -1374,6 +1374,19 @@ Full-duplex audio-visual agents rendered as video: Tavus, HeyGen, D-ID, Characte
 - Project page: https://avaturn-live.github.io/avtr-1-projectpage/
 - Code: https://github.com/avaturn-live/avtr-1
 
+#### DiVA — Cheng Chen, Ant Group (2026-09-12)
+- Type: Research demo · Timing: Turn-based · Access: Research only
+- Input: Text prompt, Speech & audio, Image → Output: Virtual human (face / body), Flat video, Speech / voice
+- Idea: Treats a generated character as a loop of waiting, acting and returning to anchor states rather than as one ever-longer clip, a practical pattern for long sessions with a video-generated person.
+- What it is: DiVA (NTU, A*STAR and Ant Group, 2026-09-12) is a 'digital life simulator': a video character, a person or an animal created from one reference image, idles while it waits, answers each turn with speech, gestures and actions such as standing up, and then returns to a stable pose, so an interaction can run for many turns without the picture degrading.
+- How it works: A multimodal LLM (GPT-5 or Qwen, steered by in-context examples) routes each turn and writes the reply, CosyVoice speaks it, and a stacked pipeline generates waiting video, audio-driven action video, and transitions back to anchor states (pre-generated from the reference image by image editing) with an Anchored Video Continuation module fine-tuned with LoRA on Wan 2.1 14B FLF.
+- Specs: 4 sampling steps × about 4 s per step on one H800 (high-quality setting) · user study: 30 raters, 60 transitions
+- Capability: Persistence, Behavioral plausibility
+- Paper: https://arxiv.org/abs/2609.13830 (arXiv preprint)
+- Video: https://steller-cheng.github.io/DiVA/assets/videos/hero_human.mp4
+- Images: https://steller-cheng.github.io/DiVA/assets/images/interaction_human.jpg
+- Project page: https://steller-cheng.github.io/DiVA/
+
 #### Open Virtual Human Toolkit (2026) — USC Institute for Creative Technologies (2026-07-23)
 - Type: Open-source tool · Timing: Turn-based · Access: Open weights / code, Product / app
 - Input: Speech & audio, Video → Output: Virtual human (face / body), Speech / voice, Dialogue / text
@@ -1501,6 +1514,19 @@ Full-duplex audio-visual agents rendered as video: Tavus, HeyGen, D-ID, Characte
 - API docs: https://docs.liveavatar.com
 - Code: https://github.com/heygen-com/liveavatar-web-sdk
 
+#### Trinity-1 — Simli (2025-07-10)
+- Type: Model · Timing: Real-time streaming · Access: Public API
+- Input: Speech & audio, Image → Output: Virtual human (face / body), Gaussian splats / radiance field
+- Idea: Moves the talking face from per-frame video generation to a drivable 3D Gaussian head, so giving every turn of a voice scenario a face costs well under a dollar per hour.
+- What it is: Trinity-1 is Simli's Gaussian-splat avatar model, launched in preview through its API on 2025-07-10: a face built from one portrait is lip-synced live to the audio of a voice agent and streamed into an app. Simli calls it the first interactive Gaussian avatar and prices it at under one US cent per minute.
+- How it works: A portrait is reframed and converted into a Gaussian-splat face by an offline API job ('Generate Trinity Face'); at run time an audio-to-motion model likely drives the splats from streamed speech, and frames reach the app over WebRTC, directly or through the LiveKit and Pipecat plug-ins.
+- Specs: < US$0.01 per minute (developer-reported)
+- Capability: Temporal responsiveness, Perceptual realism
+- Video: https://www.youtube.com/watch?v=OWPkzYE5PiA
+- Images: https://i.ytimg.com/vi/OWPkzYE5PiA/maxresdefault.jpg
+- Project page: https://www.simli.com/
+- API docs: https://docs.simli.com/api-reference/generate-trinity-face
+
 #### Conversational Video Interface (Phoenix-2) — Tavus (2024-08-15)
 - Type: Platform / API · Timing: Turn-based · Access: Public API, Product / app
 - Input: Speech & audio, Video → Output: Virtual human (face / body), Speech / voice, Dialogue / text
@@ -1511,6 +1537,17 @@ Full-duplex audio-visual agents rendered as video: Tavus, HeyGen, D-ID, Characte
 - Video: https://www.youtube.com/watch?v=OZthIm5W-yQ
 - Project page: https://www.tavus.io/blog/introducing-the-evolution-of-conversational-video-interface-now-with-emotional-intelligence
 - API docs: https://docs.tavus.io
+
+#### Soul Machines Digital People (Digital Brain) — Soul Machines (2023-10-02)
+- Type: Product / app · Timing: Turn-based · Access: Product / app
+- Input: Speech & audio, Body, face & gaze tracking → Output: Virtual human (face / body), Speech / voice, Dialogue / text
+- Idea: An alternative to faces generated from video data: breathing, gaze and reactive expression come from a simulated nervous system that can in principle be inspected, while the 2026 acquisition shows how much a study built on one avatar vendor depends on that vendor.
+- What it is: Soul Machines' Digital People are rendered 3D digital humans for customer service, coaching and companionship whose faces are animated by what the company calls a Digital Brain of reciprocal sensory, motor, attention and autonomic nervous systems, so that they breathe, react and form memories; a large language model supplies the words. The official explainer shown here is dated 2023-10-02; the company had built Digital People since its 2016 founding, and AppDirect acquired it on 2026-09-28.
+- How it works: A cognitive model descended from the BabyX research simulates sensory, motor, attention/perception and autonomic systems and drives the expressions and idle behaviour of a rendered 3D character from camera and microphone input, while dialogue comes from integrated LLMs such as ChatGPT; the character is likely rendered in the cloud and streamed to a browser.
+- Capability: Behavioral plausibility, Reactivity
+- Video: https://www.youtube.com/watch?v=qVeGWW93xkw
+- Images: https://i.ytimg.com/vi/qVeGWW93xkw/maxresdefault.jpg
+- Project page: https://www.soulmachines.com/
 
 ### Audio-driven talking heads & bodies
 
@@ -3008,6 +3045,20 @@ Promptable, playable worlds from text or an image: Genie 3, Project Genie, GWM-1
 - Project page: https://world.astronex.com.cn/
 - Code: https://github.com/Astronex-Robotics/Astronex-World
 
+#### DAO and JING — XGEN Labs (2026-09-16)
+- Type: Model · Timing: Turn-based · Access: Open weights / code, Research only
+- Input: Keyboard & controller actions, Text prompt, Image → Output: Interactive frame stream, Sound, music & spatial audio, Speech / voice
+- Idea: Separates the world from the picture of it: consequences live in an explicit shared state that outlasts any one viewer, and the video model renders only what each observer can perceive.
+- What it is: A generative world simulation from XGEN Labs in two parts: DAO, a world engine that keeps the state of characters, objects and places and advances it by rules, and JING, an open model that renders each observer's first-person video and sound from that state. A person can walk around, handle objects and talk with characters, and what they change stays changed.
+- How it works: DAO keeps an entity graph with interaction rules and world time and derives observer-specific conditions for JING, which adapts MiniMax-H3's joint audio-video model through bidirectional camera-control training, causal autoregressive training with resampling forcing, memory adaptation and few-step distillation; the released JING-Flash-v1 is the four-step bidirectional variant, and the causal model is announced as coming soon.
+- Specs: JING-Flash-v1 · 4-step bidirectional · video + audio · demo on 6× H100 · WBench Full 81.0 (2026-09-12 submission)
+- Capability: Persistence, Behavioral plausibility, Reactivity
+- Paper: https://arxiv.org/abs/2610.19726 (arXiv 2026)
+- Video: https://resources.xgenlabs.ai/research/videos/research-jing-dao-xgen-jing-demo-20260916.mp4
+- Images: https://huggingface.co/XGENlabs/XGEN-JING/resolve/main/assets/xgen-jing-cover.jpg?v=5d27805a7323
+- Project page: https://xgenlabs.ai/research/generative-world-simulation
+- Code: https://github.com/XGEN-Labs/XGEN-JING
+
 #### Zing-0.5 — Seedleap.ai (2026-09-15)
 - Type: Model · Timing: Real-time streaming · Access: Open weights / code
 - Input: Keyboard & controller actions, Text prompt, Image → Output: Interactive frame stream
@@ -3924,6 +3975,20 @@ Research on keeping a generated world coherent: spatial memory, long context, pr
 - Project page: https://zhifeichen097.github.io/ReWorld/
 - Code: https://github.com/zhifeichen097/ReWorld
 
+#### Alaya-EVOKE — Alaya Lab (2026-08-13)
+- Type: Open-source tool · Timing: Real-time streaming · Access: Open weights / code
+- Input: Image, Text prompt, Camera path / pose → Output: Interactive frame stream
+- Idea: Moving memory out of the model's context lets a session run on without trading its length against what the world remembers.
+- What it is: An open interactive world model from Alaya Lab that streams video under camera control for as long as a session lasts, keeps scene geometry outside the model in a store indexed by camera pose, and accepts new prompts mid-rollout (an aurora lights up, a storm rolls in) without a cut. Its Turbo version was listed first on WBench's navigation track (82.0) on 2026-09-11.
+- How it works: A three-step student without classifier-free guidance is distilled with a 30-second distribution-matching objective under self-forced rollouts from a long-horizon teacher built on LingBot-World, whose sparse attention (chunk grouping, retrieval of selected distant frames and a linear-attention global state) grows linearly in memory and compute; at inference only view-relevant geometry is read from the external world state bank.
+- Specs: 384×640 · 3 steps, no CFG · 1.5 s chunk in 2.11 s on one H200 · WBench Navi 82.0 (Evoke-Turbo, 2026-09-11)
+- Capability: Persistence, Experimental control
+- Paper: https://arxiv.org/abs/2608.13546 (arXiv 2026)
+- Video: https://www.youtube.com/watch?v=QX7PBBaBGdc
+- Images: https://github.com/AlayaLab/Evoke/raw/main/assets/promo.jpg
+- Project page: https://evoke-world.github.io/Evoke/
+- Code: https://github.com/AlayaLab/Evoke
+
 #### WorldTrace — Xindi Wu, NVIDIA (2026-08-07)
 - Type: Research demo · Timing: Real-time streaming · Access: Research only
 - Input: Keyboard & controller actions, Camera path / pose → Output: Interactive frame stream
@@ -3987,6 +4052,19 @@ Research on keeping a generated world coherent: spatial memory, long context, pr
 - Video: https://yujiwen.github.io/memlearner/video/demo/1.mp4
 - Images: https://yujiwen.github.io/memlearner/static/images/teaser-1.png
 - Project page: https://yujiwen.github.io/memlearner/
+
+#### ActWorld — Zhexiao Xiong, ByteDance Seed (2026-06-16)
+- Type: Research demo · Timing: Real-time streaming · Access: Research only
+- Input: Keyboard & controller actions, Text prompt → Output: Interactive frame stream
+- Idea: Turns a world you can look at into one you can act in: the action vocabulary grows from walking and turning to handling objects.
+- What it is: An interactive world model from ByteDance's Intelligent Creation team and Washington University in St. Louis in which a player, under keyboard and mouse control, can act on things mid-rollout, such as inserting a coin, pressing a button or picking up a helmet, instead of only walking and looking around; objects keep their new state as play continues.
+- How it works: A chunk-autoregressive DiT takes high-level interaction commands and per-frame keyboard and mouse controls; a hierarchical action-aware memory keeps interaction-critical frames in the sliding window and a persistent bank of event-update and object-identity tokens beyond it, trained on a new 100K-video interaction dataset (40 action categories) captioned per chunk by a chain-of-thought VLM and evaluated on the authors' I-Bench.
+- Specs: 100K interaction videos · 40 action categories · per-frame keyboard + mouse
+- Capability: Reactivity, Persistence
+- Paper: https://arxiv.org/abs/2606.17730 (NeurIPS 2026)
+- Video: https://interactwm.github.io/ActWorld/static/videos/comparisons/fp_game_insert_press_pickup_0001/ours.mp4
+- Images: https://interactwm.github.io/ActWorld/static/images/teaser1.png
+- Project page: https://interactwm.github.io/ActWorld/
 
 #### Matrix-Game 3.0 — Skywork (Kunlun Tech) (2026-03-27)
 - Type: Open-source tool · Timing: Real-time streaming · Access: Open weights / code
@@ -4534,6 +4612,19 @@ Scenes assembled by language models, procedural rules or programs: Holodeck, Inf
 - Project page: https://research.nvidia.com/labs/cosmos-lab/sage/
 - Code: https://github.com/NVlabs/sage
 
+#### PAT3D — Guying Lin (2025-11-26)
+- Type: Research demo · Timing: Pre-generated · Access: Open weights / code
+- Input: Text prompt → Output: 3D scene / world
+- Idea: Generated rooms that obey gravity and contact can be pushed, grasped and rearranged instead of only looked at.
+- What it is: Carnegie Mellon University system, with The University of Hong Kong and HKUST, that turns a text prompt into a 3D scene whose objects rest under gravity without passing through one another, so the scene can be loaded straight into a simulator for editing or robot manipulation. Published at ICLR 2026 with code and data.
+- How it works: A generated reference image fixes the spatial relations, 3D assets come from vision foundation models, a vision-language model extracts a hierarchical scene tree, and a differentiable rigid-body simulator settles the layout to static equilibrium, with simulation-in-the-loop optimization keeping it consistent with the prompt.
+- Capability: Behavioral plausibility, Authoring accessibility
+- Paper: https://arxiv.org/abs/2511.21978 (ICLR 2026)
+- Video: https://huggingface.co/datasets/guyingl/pat3d/resolve/main/media/demo_100mb_hq.mp4
+- Images: https://simulation-intelligence.github.io/PAT3D/static/images/teaser.png
+- Project page: https://simulation-intelligence.github.io/PAT3D/
+- Code: https://github.com/Simulation-Intelligence/PAT3D
+
 #### WorldGen — Meta (2025-11-20)
 - Type: Research demo · Timing: Pre-generated · Access: Research only
 - Input: Text prompt → Output: Mesh / 3D asset, 3D scene / world
@@ -4630,6 +4721,19 @@ One photo to a 3D scene with depth and parallax: spatial scenes, monocular depth
 - Project page: https://build-rome.github.io/
 - Code: https://github.com/Applied-Intuition-Open-Source/BuildRome
 
+#### Mira-Scene — Yang-Tian Sun, Tripo AI (VAST) (2026-09-20)
+- Type: Research demo · Timing: Pre-generated · Access: Open weights / code
+- Input: Image → Output: 3D scene / world, Mesh / 3D asset
+- Idea: A photo of a real room becomes a set of separate, movable objects in the right places, a starting point for restaging or simulating that room.
+- What it is: Open model from VAST and The University of Hong Kong that turns a single photo into an editable 3D scene: every object is generated as its own mesh and placed where it sits in the image, and an environment map is added. The inference code, both checkpoints and the fine-tuning data are public; the authors report 39.8% higher 3D-IoU layout accuracy than SAM 3D.
+- How it works: A multimodal diffusion transformer generates each object's geometry together with a Canonical Coordinate Map that links every visible pixel to a point in the object's own bounded space; matched against a monocular point map, it gives each object's pose by robust geometric alignment, so training needs only object-level 3D data and no scene layout labels.
+- Capability: Authoring accessibility, Experimental control
+- Paper: https://arxiv.org/abs/2609.23796 (arXiv 2026)
+- Video: https://assets.vast-eden.ai/assets/mira-scene/videos/demo.mp4
+- Images: https://assets.vast-eden.ai/assets/mira-scene/images/teaser.webp
+- Project page: https://vast-ai-research.github.io/eden-page/?p=mira-scene
+- Code: https://github.com/VAST-AI-Research/Mira-Scene
+
 #### Hyper3D WorldGen — Deemos (Hyper3D Rodin) (2026-09-09)
 - Type: Product / app · Timing: Pre-generated · Access: Product / app
 - Input: Image → Output: Mesh / 3D asset, Gaussian splats / radiance field, 3D scene / world
@@ -4667,6 +4771,18 @@ One photo to a 3D scene with depth and parallax: spatial scenes, monocular depth
 - Images: https://sensengao.github.io/PixWorld/static/images/demo_v32_poster.png
 - Project page: https://sensengao.github.io/PixWorld/
 - Code: https://github.com/SensenGao/PixWorld
+
+#### GenTouchVR — Jaejun Park (2026-03)
+- Type: Research demo · Timing: Pre-generated · Access: Research only
+- Input: Image → Output: 3D scene / world, Mesh / 3D asset
+- Idea: Extends scene generation from what you see to what you feel, so a generated room can push back when touched without a haptics expert tuning each object.
+- What it is: GenTouchVR (POSTECH, IEEE VR 2026, TVCG) turns one photo into a VR scene whose objects can be felt through force feedback: an LLM finds the objects and infers how each should feel, and the system generates the 3D models and their haptic parameters. In user studies participants rated the generated feedback as comparable to expert-designed feedback; the authors call it the first system to produce force-feedback VR scenes from a single image.
+- How it works: An LLM detects objects in the image and predicts their visual and haptic cues together with plausible ranges of haptic rendering parameters; 3D assets are generated for each object, and a perceptual optimisation spreads the parameters so that objects feel distinct while staying physically valid; the scene is felt through a kinesthetic (force-feedback) device.
+- Capability: Perceptual realism, Authoring accessibility
+- Paper: https://doi.org/10.1109/tvcg.2026.3680620 (IEEE TVCG (IEEE VR 2026))
+- Video: https://www.youtube.com/watch?v=rxSCA5Nyp-I
+- Images: https://i.ytimg.com/vi/rxSCA5Nyp-I/maxresdefault.jpg
+- Project page: https://doi.org/10.1109/tvcg.2026.3680620
 
 #### Gen3R — Jiaxin Huang (2026-01-07)
 - Type: Research demo · Timing: Pre-generated · Access: Open weights / code
@@ -4929,6 +5045,19 @@ Meshes and textures from a prompt or photo: Meshy, Tripo, Rodin, Hunyuan3D, TREL
 - Images: https://cdn.meshy.ai/landing-assets/blog/meshy-7/meshy-7-cover.webp https://cdn.meshy.ai/landing-assets/blog/meshy-7.1-launch/meshy-7-1-launch-cover-v2.webp
 - Project page: https://www.meshy.ai/blog/meshy-7-image-to-3d-geometry-alignment
 - API docs: https://docs.meshy.ai/
+
+#### MegaParts — Manwen Liao, Shanghai AI Laboratory (2026-08-11)
+- Type: Research demo · Timing: Pre-generated · Access: Research only
+- Input: Text prompt, Scene spec, code & rules → Output: Mesh / 3D asset
+- Idea: Complex props such as a camera, a dish rack or a building come out as hundreds of editable, articulable pieces rather than one fused shell.
+- What it is: Research model from Shanghai AI Laboratory, The University of Hong Kong and partner universities that generates a 3D object from a text prompt as an assembly of up to 300 separate part meshes; an object bounding box and per-part boxes can be given as spatial instructions. It is the base model of MeshCoder 1.5 and was published as a technical report with a project page in August 2026; code was announced but not released as of October 2026.
+- How it works: A causal vector-quantized tokenizer gives each part an adaptive number of shape tokens (16 to 4,096 by geometric complexity), and a long-context language model generates the object box, the part boxes and the part shape tokens as one sequence of up to 256K tokens.
+- Specs: up to 300 parts · 256K-token sequence
+- Capability: Experimental control, Authoring accessibility
+- Paper: https://arxiv.org/abs/2608.14783 (arXiv 2026)
+- Video: https://expmaster.github.io/megaparts_webpage/assets/megaparts-promo-intro-1440p.mp4
+- Images: https://expmaster.github.io/megaparts_webpage/assets/web/hero-1280.webp
+- Project page: https://expmaster.github.io/megaparts_webpage/
 
 #### Hunyuan3D-Buffalo 1.0 — Tencent Hunyuan (2026-08-05)
 - Type: Research demo · Timing: Pre-generated · Access: Research only
@@ -6433,6 +6562,17 @@ Phone and headset capture, training and viewing tools: Luma, Polycam, Scaniverse
 - Video: https://www.youtube.com/watch?v=OQwaF0ihjH4
 - Project page: https://volinga.ai/
 
+#### Houdini 22 Gaussian Splats — SideFX (2026-06-22)
+- Type: Product / app · Timing: Pre-generated · Access: Product / app
+- Input: Multi-view capture / scan → Output: Gaussian splats / radiance field
+- Idea: Splats stop being a viewer format and become editable material in the same professional pipeline as meshes, rigs and simulations.
+- What it is: Houdini 22, announced at SideFX's London launch event on 2026-06-22, makes Gaussian splats a production data type: captures can be trained on render farms and cleaned up, splats can be rigged and animated with the standard deformation tools or driven by simulations, relit with prototype SideFX Labs tools, composited, and generated directly from Karma renders. Houdini 21 had offered only read-only viewing and rendering of splats.
+- How it works: Splats are treated as points with attributes, so existing nodes such as Bone Deform and Surface Deform work on them unchanged; PDG/TOPs distributes splat training across machines, Copernicus rasterizes splats to color and depth for compositing, and Karma camera arrays turn rendered scenes into splats without camera estimation.
+- Capability: Authoring accessibility, Experimental control
+- Video: https://media.sidefx.com/uploads/products/whatsnew_h22/images/gsplats/houdini_generated_gsplats.mp4
+- Images: https://media.sidefx.com/uploads/products/banners/h22_banner.png
+- Project page: https://www.sidefx.com/products/whats-new-in-h22/gaussian-splats/
+
 #### Meta Horizon Hyperscape Capture — Meta (2025-09-17)
 - Type: Product / app · Timing: Pre-generated · Access: Product / app, Waitlist / early access
 - Input: Passthrough & live surroundings, Multi-view capture / scan → Output: Gaussian splats / radiance field, 3D scene / world
@@ -6766,6 +6906,19 @@ Moving 3D objects and characters generated from text, an image or a video, as dy
 - Images: https://sherwinbahmani.github.io/4dfy/data/method.png
 - Project page: https://sherwinbahmani.github.io/4dfy/
 - Code: https://github.com/sherwinbahmani/4dfy
+
+#### Consistent4D — Yanqin Jiang (2023-11-06)
+- Type: Research demo · Timing: Pre-generated · Access: Open weights / code
+- Input: Video → Output: Dynamic 3D / 4D
+- Idea: Turning dynamic capture into a generation problem: a single handheld video, with no camera rig or calibration, is enough to get a moving object you can walk around.
+- What it is: Consistent4D takes one uncalibrated video of a moving object, such as a phone clip or a segment of an animated film, and generates a 360° dynamic 3D version that can be viewed from any angle as it moves. It is an early reference point for video-to-4D generation, and its evaluation set is widely used as the Consistent4D benchmark by later 4D generators.
+- How it works: A Cascade DyNeRF is optimized with an object-level 3D-aware image diffusion model as the main supervision, plus an interpolation-driven consistency loss that compares rendered frames with frames from a pretrained video interpolation model; a video enhancer trained afterwards refines the renders.
+- Capability: Persistence, Authoring accessibility
+- Paper: https://arxiv.org/abs/2311.02848 (ICLR 2024)
+- Video: https://consistent4d.github.io/teaser/unified_2.mp4
+- Images: https://consistent4d.github.io/images/pipeline.svg
+- Project page: https://consistent4d.github.io/
+- Code: https://github.com/yanqinJiang/Consistent4D
 
 #### MAV3D (Make-A-Video3D) — Uriel Singer, Meta (2023-01-26)
 - Type: Research demo · Timing: Pre-generated · Access: Research only
@@ -7868,6 +8021,19 @@ Speaking, sketching or gesturing content into the space around you: Editing Real
 - Capability: Authoring accessibility
 - Video: https://www.youtube.com/watch?v=PFY1mk4gzjs
 - Project page: https://figmin.com
+
+#### LIVE-GS — Haotian Mao (2024-12-12)
+- Type: Research demo · Timing: Real-time streaming · Access: Research only
+- Input: Multi-view capture / scan, Keyboard & controller actions → Output: Gaussian splats / radiance field, Dynamic 3D / 4D
+- Idea: Lets a language model author the physics of a captured scene, so a real place can be made touchable and breakable in VR without a simulation expert tuning parameters.
+- What it is: LIVE-GS (Shanghai Jiao Tong University and Shanghai AI Lab; arXiv 2024-12-12, published at IEEE VR 2026 in TVCG) turns static Gaussian-splat scenes into physically interactive VR: GPT-4o estimates each object's physical properties from rendered views in about 10 seconds, after which a Quest 3 user can push, throw at, bend or break objects; in the teaser a doll swings, a mug shatters and a ball bounces off a hammer.
+- How it works: Objects are segmented from a 3D Gaussian scene and GPT-4o infers parameters such as mass and elasticity from rendered images; elastic bodies are simulated with XPBD and rigid bodies with invisible proxy meshes, and Gaussian inpainting fills surfaces revealed when objects move; the system was compared with people experienced in physical simulation who tuned parameters by hand and rated in a usability study (SUS 88.6).
+- Specs: ~10 s parameter estimation · 30 fps in the parameter study · Quest 3 + RTX 4080 SUPER
+- Capability: Behavioral plausibility, Authoring accessibility, Reactivity
+- Paper: https://doi.org/10.1109/tvcg.2026.3680710 (IEEE TVCG (IEEE VR 2026))
+- Video: https://www.youtube.com/watch?v=AfyDa0Mot4E
+- Images: https://arxiv.org/html/2412.09176v2/x1.png
+- Project page: https://arxiv.org/abs/2412.09176
 
 #### Dreamcrafter — Cyrus Vachha (2024-10-13)
 - Type: Research demo · Timing: Turn-based · Access: Research only
@@ -10281,26 +10447,26 @@ The data these models learn from and the tests they are compared on.
 - **Meta** (41) — Meta AI / FAIR / Reality Labs. Meta's AI research (FAIR) and Reality Labs groups; in 3D assets they released Meta 3D Gen, SAM 3D Objects and Body, ShapeR and the Meta Motivo humanoid model. https://ai.meta.com
 - **Google DeepMind** (39) — AI research lab of Google. Google's AI lab (Gemini, Genie, Veo). Its SIMA project trains agents that follow language instructions in commercial 3D games and, with SIMA 2, in worlds generated by Genie 3; it also maintains the Concordia library for generative social simulation. https://deepmind.google
 - **Google** (28) — Google Research, Google Labs and Google AR. Google's research and product groups outside DeepMind; Google Research authored DreamFusion, the 2022 paper that started text-to-3D via 2D diffusion. https://research.google
-- **ByteDance Seed** (21) — ByteDance's foundation-model research team. Research team building ByteDance's foundation models (Doubao, Seedance, UI-TARS); in 2025 it released the game agents Game-TARS and Lumine. https://seed.bytedance.com
+- **ByteDance Seed** (22) — ByteDance's foundation-model research team. Research team building ByteDance's foundation models (Doubao, Seedance, UI-TARS); in 2025 it released the game agents Game-TARS and Lumine. https://seed.bytedance.com
 - **Tencent Hunyuan** (19) — Tencent's foundation-model team. Tencent's Hunyuan team releases open and closed models across text, image, video, 3D (Hunyuan3D 1.0 to 3.x, HY 3D Studio) and motion (HY-Motion). https://hunyuan.tencent.com
 - **Alibaba Tongyi (Qwen)** (17) — Alibaba's Tongyi Lab and Qwen team. Alibaba's Tongyi Lab develops the Qwen model family, the Wan video models and the Fun-Audio / CosyVoice speech models, many released as open weights. https://wan.video
 - **Mel Slater** (16) — VR researcher, co-director of the EventLab, University of Barcelona. Computer scientist turned presence researcher who formulated place illusion and plausibility and ran the virtual Milgram, bystander and body-ownership experiments.
 - **Microsoft** (16) — Microsoft Research. Microsoft Research released TRELLIS (2024) and TRELLIS.2 (2025), MIT-licensed 3D generators built on structured 3D latents. https://www.microsoft.com/research
 - **Kuaishou** (14) — Short-video company (Kling team). Kuaishou develops the Kling video models and open-sourced LivePortrait; its Kling team also published MIDAS, a real-time autoregressive digital human. https://www.kuaishou.com
 - **OpenAI** (11) — AI research and deployment company. Developer of GPT, Sora and the realtime voice models; in 2019 its multi-agent hide-and-seek study showed agents inventing tool use in a 3D physics world. https://openai.com
+- **Tripo AI (VAST)** (11) — 3D generation company (VAST). VAST builds the Tripo 3D generation models and Tripo Studio, and publishes open research such as TripoSR (with Stability AI), TripoSG, UniRig and TripoSplat. https://www.tripo3d.ai/
 - **Runway** (10) — AI video company. Maker of the Gen and Aleph video models and of world-model research (GWM-1); sells an app and a developer API. https://runwayml.com
-- **Tripo AI (VAST)** (10) — 3D generation company (VAST). VAST builds the Tripo 3D generation models and Tripo Studio, and publishes open research such as TripoSR (with Stability AI), TripoSG, UniRig and TripoSplat. https://www.tripo3d.ai/
 - **Snap Inc.** (9) — Camera company; Snapchat, Lens Studio and Spectacles / SPECS AR glasses. Maker of Snapchat Lenses, used billions of times a day, and of standalone AR glasses: Spectacles for developers (2024) and the consumer SPECS (2026). https://research.snap.com
 - **Stability AI** (9) — Open generative-model company. Company behind Stable Diffusion that also released open 3D models: TripoSR (with Tripo AI), Stable Fast 3D, SPAR3D and Stable Video 3D. https://stability.ai
 - **Tencent ARC Lab** (9) — Applied research center of Tencent PCG. Tencent research lab working on visual generation and editing, including StereoCrafter and Rolling Forcing. https://arc.tencent.com
 - **Jeremy Bailenson** (7) — Founding director of the Virtual Human Interaction Lab (VHIL), Stanford University. Communication scholar who studies how avatars, virtual bodies and immersive media change attitudes and behavior, from the Proteus effect to large VR field studies. https://vhil.stanford.edu/
 - **Odyssey** (7) — World-model AI lab. AI lab founded in 2023 by Oliver Cameron and Jeff Hawke to build general-purpose world models; it released Odyssey-1, -2 and -3, the multi-agent Agora models and an API. https://odyssey.ml
 - **World Labs** (7) — Spatial-intelligence company. Founded by Fei-Fei Li and colleagues; makes the Marble world model and the Spark splat renderer. https://www.worldlabs.ai
+- **Alaya Lab** (6) — AI game and world-model lab. A lab working on AI game creation, world models and game agents; it released the Yume interactive world models (2025), the Sekai exploration datasets and the open AlayaWorld framework (2026). https://alayalab.ai/
 - **Apple** (6) — Consumer technology company. Apple's Vision Pro creates a Persona, a 3D avatar of the wearer reconstructed from a face scan and driven by the headset's sensors. https://machinelearning.apple.com
 - **Decart** (6) — AI lab building real-time generative video and world models. Start-up behind Oasis (a real-time generated Minecraft-like world) and the MirageLSD live video-to-video model, offered through an API. https://decart.ai
 - **Deemos (Hyper3D Rodin)** (6) — 3D generation company behind Hyper3D Rodin. ShanghaiTech-rooted company that builds the Rodin 3D generators (Gen-1 based on the CLAY research model, Gen-1.5, Gen-2, Gen-2.5) and the ChatAvatar face generator, sold through hyper3d.ai and an API. https://hyper3d.ai
 - **USC Institute for Creative Technologies** (6) — University-affiliated research center of the University of Southern California. Research institute founded in 1999 with US Army funding to combine AI, graphics and storytelling for training and health; home of the Virtual Human Toolkit, SimSensei and Bravemind. https://ict.usc.edu/
-- **Alaya Lab** (5) — AI game and world-model lab. A lab working on AI game creation, world models and game agents; it released the Yume interactive world models (2025), the Sekai exploration datasets and the open AlayaWorld framework (2026). https://alayalab.ai/
 - **Jean-Louis van Gelder** (5) — Director at the Max Planck Institute for the Study of Crime, Security and Law; professor at Leiden University. Criminologist and psychologist who uses VR to study criminal decision-making (Virtual Burglary Project) and future-self interventions. https://csl.mpg.de/en
 - **Luma AI** (5) — Generative AI company (3D capture, video). Started with NeRF capture apps and the Genie text-to-3D generator, then moved its focus to video generation (Dream Machine, Ray models). https://lumalabs.ai
 - **Roblox** (5) — Online game platform. Platform where users build and play experiences; its Foundation AI team develops the Cube 3D foundation model, open-sourced in part, and in-experience 3D and 4D generation. https://corp.roblox.com
@@ -10317,6 +10483,7 @@ The data these models learn from and the tests they are compared on.
 - **PixVerse** (4) — AI video company (AIsphere). Beijing-based maker of the PixVerse video generator and app, developed by AIsphere; in 2026 it added the real-time R1 and R2 world models. https://pixverse.ai
 - **Robbyant** (4) — Embodied AI unit of Ant Group. Ant Group's embodied-intelligence company, which publishes the open LingBot family of models for robots and spatial perception. https://technology.robbyant.com
 - **Ryo Suzuki** (4) — Assistant Professor, ATLAS Institute and Computer Science, University of Colorado Boulder; director of the Programmable Reality Lab. HCI researcher working at the intersection of AR/VR, tangible interfaces and AI; the lab's 'Generative AR' theme aims to make the physical world a canvas for generative AI. https://ryosuzuki.org
+- **Shanghai AI Laboratory** (4) — Public AI research institute in Shanghai. Large state-backed research institute (also known as PJLab) working on foundation models, embodied AI and 3D vision; home of the π³ reconstruction model. https://www.shlab.org.cn/
 - **StepFun** (4) — Chinese foundation-model company. StepFun develops the Step series of language, multimodal and audio models and open-sources several of them. https://www.stepfun.com
 - **Wayve** (4) — Embodied-AI driving company. London company building end-to-end driving models, and the GAIA line of generative driving world models since 2023. https://wayve.ai
 - **Alibaba Token Hub (ATH)** (3) — Alibaba Group business group behind HappyHorse and HappyOyster. Alibaba Group business group whose AI Innovation Unit (formerly the Future Life Lab of Taobao and Tmall Group) builds the HappyHorse audio-video models served through Alibaba Cloud Model Studio; it also launched the HappyOyster world-model product in 2026. https://www.happyoyster.cn/
@@ -10330,13 +10497,13 @@ The data these models learn from and the tests they are compared on.
 - **Lightricks** (3) — Creative-app company and maker of LTX. Maker of Facetune and LTX Studio; releases the open LTX-Video, LTX-2 and LTX-2.5 models. https://ltx.io
 - **Meituan** (3) — Technology company (MeiGen / LongCat teams). Meituan's MeiGen team released MultiTalk and InfiniteTalk, open models for audio-driven talking video and dubbing. https://www.meituan.com
 - **MiniMax** (3) — Foundation-model company (Hailuo). Chinese AI company behind the Hailuo video models, the MiniMax language models and speech models; it released the H3 video model with open weights in July 2026. https://www.minimax.io
-- **Shanghai AI Laboratory** (3) — Public AI research institute in Shanghai. Large state-backed research institute (also known as PJLab) working on foundation models, embodied AI and 3D vision; home of the π³ reconstruction model. https://www.shlab.org.cn/
 - **Stijn Spanhove** (3) — XR developer, In The Pocket; Snap Spectacles creator. Developer who publishes short proofs of concept that combine AR glasses, Vision Pro and generative models.
 - **Tencent** (3) — Chinese technology and games company. Shenzhen-based internet and games company; several of its research teams, besides Hunyuan, publish interactive video work. https://www.tencent.com
 - **ZJU3DV** (3) — 3D vision group at Zhejiang University. Computer vision group of Xiaowei Zhou and Sida Peng at Zhejiang University's State Key Lab of CAD&CG, active in dynamic human and scene capture. https://zju3dv.github.io/
 - **Agora** (2) — Real-time engagement platform. Runs a global real-time network for voice and video SDKs, the Conversational AI Engine, and backs the open-source TEN Framework. https://www.agora.io
 - **Albert "Skip" Rizzo** (2) — Director of Medical Virtual Reality, USC Institute for Creative Technologies. Clinical psychologist who built Virtual Iraq/Afghanistan and Bravemind for PTSD exposure therapy and led virtual-patient research.
 - **Amap (Alibaba)** (2) — Alibaba Group's mapping and navigation service, whose CV Lab builds generative 3D Earth and world models. Amap (Gaode) is the digital map and navigation service of Alibaba Group; its CV Lab released the ABot-Earth generative 3D Earth model in 2026. https://abot-earth.amap.com/
+- **Ant Group** (2) — Chinese fintech and AI company (Alipay). Ant Group, the operator of Alipay, publishes open AI models under its inclusionAI organisation, including the Realtime-Venus full-duplex interaction models (2026); its embodied-AI unit is Robbyant. https://www.antgroup.com/
 - **Bernhard Kerbl** (2) — Researcher, Inria / TU Wien. Co-first author of 3D Gaussian Splatting (SIGGRAPH 2023) and first author of its hierarchical version for very large scenes.
 - **Botao 'Amber' Hu** (2) — Researcher, University of Oxford; founder of Reality Design Lab; inventor of HoloKit. Designer and researcher (Tsinghua BS, Stanford MS in AI) who leads Reality Design Lab's work on embodied, social mixed reality, speculative design and generative futuring; the lab's works have been shown at SIGGRAPH, CHI, TEI and Ars Electronica. https://reality.design
 - **Chuan Guo** (2) — Researcher in human motion generation. Researcher (University of Alberta, later industry) who created the HumanML3D dataset (CVPR 2022) and MoMask (CVPR 2024). https://ericguo5513.github.io/
@@ -10383,6 +10550,8 @@ The data these models learn from and the tests they are compared on.
 - **Unity** (2) — Game engine company. Maker of the Unity engine, used by a large share of XR and mobile games and many VR research labs. https://unity.com
 - **Wangbo Yu** (2) — PhD researcher, Peking University. First author of ViewCrafter (2024, TPAMI 2025) and of the follow-up WorldCrafter video world model (2026).
 - **Weihao Tan** (2) — AI researcher, game agents. First author of Cradle (2024), which played Red Dead Redemption 2 from screenshots and keyboard-mouse output, and of Lumine (2025, ByteDance Seed), which completes hours-long Genshin Impact missions in real time.
+- **Yang-Tian Sun** (2) — PhD researcher, The University of Hong Kong. Yang-Tian Sun is first author of Stereo World Model (CVPR 2026), developed at The University of Hong Kong with VAST and ByteDance Pico. https://sunyangtian.github.io/
+- **Yanqin Jiang** (2) — PhD researcher, Institute of Automation, Chinese Academy of Sciences. First author of Consistent4D and Animate3D, two early reference points for video-to-4D and for animating existing 3D models.
 - **Zhaoxi Chen** (2) — PhD researcher, NTU S-Lab. First author of 4DNeX, a feed-forward image-to-4D model. https://frozenburning.github.io
 - **Zijie Wu** (2) — PhD researcher, Huazhong University of Science and Technology. First author of AnimateAnyMesh (ICCV 2025, with Alibaba DAMO Academy) and R-DMesh (SIGGRAPH 2026, with Tencent Hunyuan).
 - **Ziming Li** (2) — Researcher, Rochester Institute of Technology. First author of an LLM-driven VR job-communication trainer for autistic individuals (CHI EA 2024) in Roshan Peiris's lab.
@@ -10409,7 +10578,6 @@ The data these models learn from and the tests they are compared on.
 - **Andreessen Horowitz (a16z)** (1) — Venture capital firm (a16z infra team). Venture firm whose infrastructure team released AI Town with Convex in 2023: an MIT-licensed starter kit for a browser town of chatting LLM characters. https://a16z.com/
 - **Andrew Liu** (1) — Researcher, Google Research. First author of Infinite Nature (ICCV 2021) with Noah Snavely and Angjoo Kanazawa at Google Research.
 - **Andy Serkis** (1) — Actor, director and co-founder of Imaginarium Productions. Performance-capture actor and director (Gollum, Caesar) whose London studio Imaginarium works on performance capture and immersive storytelling. http://www.imaginariumuk.com
-- **Ant Group** (1) — Chinese fintech and AI company (Alipay). Ant Group, the operator of Alipay, publishes open AI models under its inclusionAI organisation, including the Realtime-Venus full-duplex interaction models (2026); its embodied-AI unit is Robbyant. https://www.antgroup.com/
 - **Anuttacon** (1) — AI game studio. Studio founded by miHoYo co-founder Cai Haoyu to make AI-native games; released Whispers from the Star in 2025. https://www.anuttacon.com/
 - **Anything World** (1) — AI rigging and animation company. Company offering automatic rigging and animation for arbitrary 3D models, including animals and vehicles, through a web app and game-engine plugins. https://anything.world/
 - **Applied Intuition** (1) — Vehicle software and autonomy simulation company. Builds simulation, autonomy and vehicle-software tools for automotive, trucking and defence customers; publishes research through Applied Intuition Research. https://www.appliedintuition.com/
@@ -10446,6 +10614,7 @@ The data these models learn from and the tests they are compared on.
 - **Chen Geng** (1) — PhD researcher, Stanford University. Researcher in Jiajun Wu's group at Stanford and first author of NeuROK (CVPR 2026). https://chen-geng.com
 - **Chen Tessler** (1) — Research scientist, NVIDIA. NVIDIA research scientist working on physics-based character control; first author of MaskedMimic (SIGGRAPH Asia 2024) and maintainer of ProtoMotions.
 - **Chen Yang** (1) — Researcher, Changchun University of Science and Technology. Studies collaborative virtual environments with Chunyi Chen; first author of 'One Word, One World' (Virtual Reality, 2026).
+- **Cheng Chen** (1) — Researcher, Nanyang Technological University and A*STAR. Cheng Chen is first author of DiVA (2026), an interactive digital-life simulator built with Ant Group researchers including Hao Ouyang and Yujun Shen; the paper lists NTU, A*STAR's Institute for Infocomm Research and Ant Group as affiliations. https://steller-cheng.github.io/DiVA/
 - **Cheng-Chih Tsai** (1) — Researcher, National Taiwan University of Science and Technology. Works with Tse-Yu Pan and Ping-Hsuan Han on generative VR prototyping; first author of DreamCraft (IEEE VR 2026).
 - **Cheng-Kuang Chang** (1) — Researcher, MIT CSAIL. Cheng-Kuang Chang is first author of D2 (2026), which converts turn-based spoken language models into full-duplex ones, written at MIT CSAIL with the MIT-IBM Watson AI Lab. https://d2-duplex-demo.github.io/
 - **Chengqian Ma** (1) — Researcher, Peking University. Chengqian Ma is first author of Motion-Omni (2026), an open spoken dialogue model that generates speech together with face, hand and full-body motion. https://step-out.github.io/Motion-Omni-Page/
@@ -10507,6 +10676,7 @@ The data these models learn from and the tests they are compared on.
 - **Guido Makransky** (1) — Professor of educational psychology, University of Copenhagen. Studies learning in immersive VR; co-authored CAMIL, which explains when presence and agency help or hurt learning.
 - **Gustav Bøg Petersen** (1) — Researcher working with Stanford's Virtual Human Interaction Lab. Studies learning and environmental attitudes in VR; first author of the OceanSpeak conversational-AI study.
 - **Guy Tevet** (1) — Researcher, Tel Aviv University. Tel Aviv University researcher (with Amit Bermano and Daniel Cohen-Or) and first author of the Human Motion Diffusion Model (MDM, ICLR 2023). https://guytevet.github.io/
+- **Guying Lin** (1) — PhD researcher, Carnegie Mellon University. First author of PAT3D (ICLR 2026), developed at Carnegie Mellon University with The University of Hong Kong and HKUST.
 - **Habin Lim** (1) — Researcher, Korea University. Habin Lim is co-first author of FacePlex (2026), a full-duplex speech and facial-motion model with Gaussian-splatting rendering, from Korea University and Klleon. https://hahminlew.github.io/faceplex
 - **Haiyu Zhang** (1) — Researcher; first author of WorldPlay2. Co-first author of WorldPlay2 (2026), a follow-up to Tencent Hunyuan's WorldPlay real-time world model written by several of the same authors.
 - **Hal Hershfield** (1) — Professor of marketing and behavioral decision making, UCLA Anderson School of Management. Studies the psychology of the future self; with Stanford VHIL he showed that meeting an aged avatar of oneself increases saving.
@@ -10516,6 +10686,7 @@ The data these models learn from and the tests they are compared on.
 - **Hanxue Liang** (1) — Researcher, University of Cambridge / NVIDIA. First author of BTimer, NVIDIA's feed-forward bullet-time reconstruction model.
 - **Hao Zhang** (1) — PhD researcher, UIUC; research intern at Snap. University of Illinois Urbana-Champaign researcher and first author of RigMo, developed with Snap Research. https://haoz19.github.io/
 - **Haocheng Xi** (1) — PhD researcher, UC Berkeley. Haocheng Xi is first author of Video DeltaNet (2026), an open hybrid-attention version of MiniMax H3, written at UC Berkeley during an internship at Impossible, Inc. https://openvdn.github.io/
+- **Haotian Mao** (1) — Researcher, Shanghai Jiao Tong University. Haotian Mao is first author of LIVE-GS (IEEE VR 2026, TVCG), written with Xubo Yang and colleagues at Shanghai Jiao Tong University and Nianchen Deng of Shanghai AI Lab. https://arxiv.org/abs/2412.09176
 - **Haotong Lin** (1) — Researcher, ByteDance Seed / Zhejiang University. First author of Depth Anything 3.
 - **Haoxuan Che** (1) — Researcher at HKUST; first author of GameGen-X. First author of GameGen-X (2024), a diffusion transformer for generating and interactively controlling open-world game video.
 - **Haoyi Duan** (1) — Researcher, Stanford University. Works with Jiajun Wu and Fei-Fei Li; first author of WorldScore. https://haoyi-duan.github.io
@@ -10535,6 +10706,7 @@ The data these models learn from and the tests they are compared on.
 - **Hunter Hoffman** (1) — Research scientist, University of Washington. Developed SnowWorld with David Patterson to distract burn patients from pain during wound care.
 - **Insta360** (1) — 360° camera maker with an AI research team. Maker of consumer 360° cameras whose research team, with the Institute of Automation of the Chinese Academy of Sciences, released the PanoWorld panoramic world model in 2026. https://www.insta360.com/
 - **Jacob Barker** (1) — First author of VORTeX (2026). Develops the Virtual Operating Room Team Experience for training and evaluating surgical teamwork.
+- **Jaejun Park** (1) — Researcher, POSTECH Interaction Laboratory. Jaejun Park is first author of GenTouchVR (IEEE VR 2026, TVCG), written with Soyeon Nam, Jeongwoo Kim, Uison Ju and Seungmoon Choi at POSTECH's haptics and virtual reality laboratory.
 - **Jaewook Lee** (1) — PhD researcher, Makeability Lab, University of Washington. HCI researcher on AI-powered augmented reality; led ImaginateAR with Niantic Spatial.
 - **Jaeyeon Kim** (1) — Audio-visual learning researcher (Seoul National University). Jaeyeon Kim researches audio-visual generation at Seoul National University's Vision and Learning Lab. https://jaeyeonkim99.github.io/visage/
 - **Jaeyoung Chung** (1) — Researcher, Computer Vision Lab, Seoul National University. Co-first author of LucidDreamer in Kyoung Mu Lee's lab at Seoul National University.
@@ -10601,6 +10773,7 @@ The data these models learn from and the tests they are compared on.
 - **Lukas Höllein** (1) — Researcher, Technical University of Munich. PhD researcher in Matthias Niessner's Visual Computing & AI lab at TUM, first author of Text2Room. https://lukashoel.github.io
 - **Lvmin Zhang** (1) — Researcher in controllable generation. Stanford PhD researcher, author of ControlNet, IC-Light and FramePack.
 - **MBZUAI Institute of Foundation Models** (1) — Foundation-model institute of Mohamed bin Zayed University of Artificial Intelligence. Research institute at MBZUAI; in September 2026 its world-model group released LOCI (spatial linear memory) and Memorizon (training beyond the context window).
+- **Manwen Liao** (1) — PhD researcher, The University of Hong Kong. First author of MegaParts (2026), developed during an internship at Shanghai AI Laboratory with the team behind MeshCoder.
 - **Manycore Tech** (1) — Hangzhou company behind the Kujiale interior-design platform; open-sources spatial AI models. Manycore Tech runs the Kujiale interior-design platform and has open-sourced spatial AI models such as SpatialLM (2025) and SpatialGen (2025). https://manycoretech.com/
 - **Marcel Binz** (1) — Cognitive scientist (Helmholtz Munich). Researcher at Helmholtz Munich's Institute for Human-Centered AI who builds machine-learning models of human cognition; first author of Centaur (Nature, 2025).
 - **Martin de La Gorce** (1) — Researcher, Microsoft. Microsoft researcher, first author of VoluMe (2025).
@@ -10696,8 +10869,10 @@ The data these models learn from and the tests they are compared on.
 - **Shunsuke Saito** (1) — Research scientist, Meta Codec Avatars Lab. Shunsuke Saito leads research on Gaussian Codec Avatars at Meta, including Relightable Gaussian Codec Avatars (CVPR 2024) and Large-scale Codec Avatars (CVPR 2026). https://shunsukesaito.github.io
 - **Shuzhe Wang** (1) — Researcher, Aalto University / NAVER LABS Europe. First author of DUSt3R (CVPR 2024), developed at NAVER LABS Europe.
 - **Siddharth Ahuja** (1) — Developer of BlenderMCP. Independent developer who released BlenderMCP, an open-source Model Context Protocol bridge between language models and Blender.
+- **SideFX** (1) — Maker of the Houdini procedural 3D software. Canadian software company (Side Effects Software) whose Houdini is a standard tool for visual effects, procedural modeling and game content in film and game studios. https://www.sidefx.com/
 - **Sijie Zhao** (1) — Researcher in stereo video generation. Tencent researcher, co-first author of StereoCrafter.
 - **Simile** (1) — Human-behavior simulation company. Company founded by Joon Sung Park, Michael Bernstein and Percy Liang that turns generative-agent research into simulations of customers and populations. It came out of stealth in February 2026. https://www.simile.com/
+- **Simli** (1) — Real-time avatar API company (Simli AS). Simli sells a speech-to-video API that adds a lip-synced face to real-time voice agents, with plug-ins for LiveKit and Pipecat; in July 2025 it launched Trinity-1, a Gaussian-splat avatar model. https://www.simli.com/
 - **Sixiao Zheng** (1) — Researcher in controllable video world models. Fudan University researcher, first author of VerseCrafter (CVPR 2026) with Tencent ARC Lab. https://sixiaozheng.github.io/VerseCrafter_page/
 - **Siyin Wang** (1) — PhD researcher, Tsinghua University. Siyin Wang is a PhD researcher in Chao Zhang's group at Tsinghua University and first author of ELLSA 2 (2026), a full-duplex dialogue model built with ByteDance on the SALMONN-omni line that also generates gestures and facial expressions.
 - **Sofia Adelaide Osimo** (1) — Researcher on virtual embodiment (EventLab, University of Barcelona). Lead author of the 2015 self-counselling study in which participants alternate between their own body and Sigmund Freud's.
@@ -10705,6 +10880,7 @@ The data these models learn from and the tests they are compared on.
 - **Solène Neyret** (1) — Researcher at the EventLab, University of Barcelona. Studies how embodied perspective-taking in VR changes conformity and harmful group behavior.
 - **Sony Group** (1) — Electronics and entertainment group (Sony AI, Creative AI Lab). Sony's Creative AI Lab researches generative audio, including sound-effect and video-to-audio models such as SpecMaskFoley. https://www.sony.com
 - **Soul AI Lab** (1) — AI lab of the Soul social app. Soul AI Lab, the research arm of the Soul social platform, open-sourced SoulX-FlashTalk, a 14B real-time streaming avatar model.
+- **Soul Machines** (1) — Digital human company with autonomous animation (acquired by AppDirect in 2026). Soul Machines was founded in 2016 by Mark Sagar and Greg Cross as a spin-out of the University of Auckland's Laboratory for Animate Technologies, home of the BabyX research; it sells Digital People whose faces are animated by a simulated 'Digital Brain'. AppDirect announced on 2026-09-28 that it had acquired the company. https://www.soulmachines.com/
 - **Sruti Srinidhi** (1) — PhD researcher, WiSE Lab, Carnegie Mellon University. Works with Anthony Rowe at CMU on XR systems; first author of GenAssist (IEEE VR 2026). https://wise.ece.cmu.edu/
 - **Stanislaw Szymanowicz** (1) — Researcher, University of Oxford (VGG). PhD researcher in Oxford's Visual Geometry Group (Splatter Image, Flash3D) and first author of Bolt3D, done with Google. https://szymanowiczs.github.io
 - **Stanley J. Hamstra** (1) — Medical education researcher (University of Ottawa; ACGME). Studies simulation-based training; first author of the 2014 reappraisal of fidelity in simulation.
@@ -10749,6 +10925,7 @@ The data these models learn from and the tests they are compared on.
 - **Weiyu Li** (1) — PhD researcher, HKUST; research intern at Meta AI. HKUST researcher (with Ping Tan) and first author of MeshFlow (CVPR 2026 Highlight), developed with Meta AI. https://wyysf-98.github.io/
 - **Wemade Next** (1) — Game developer (Wemade subsidiary). Korean developer of the Legend of Mir MMORPG series, including MIR4 and MIR5, and a subsidiary of Wemade.
 - **Wenqiang Sun** (1) — PhD researcher, Hong Kong University of Science and Technology. Co-first author of DimensionX, an open image-to-3D/4D scene method from HKUST and Tsinghua University.
+- **XGEN Labs** (1) — World-model lab. A lab that calls itself a frontier lab for world intelligence; in September 2026 it released XGEN-JING, an open egocentric audio-video world model, and in October 2026 the technical report on DAO, its world engine. https://xgenlabs.ai/
 - **XREAL** (1) — AR glasses company. Chinese maker of display glasses (formerly Nreal) and of XREAL AURA, Android XR glasses co-developed with Google. https://www.xreal.com
 - **Xiangyue Zhang** (1) — Researcher, University of Tokyo and Tongyi Lab (Alibaba). First author of StreamTalk (ECCV 2026) and of the earlier co-speech gesture models SemTalk (ICCV 2025) and EchoMask (ACM MM 2025); co-author of FloodDiffusion 2. https://www.xiangyuezhang.com/
 - **Xianhao Carton Liu** (1) — HCI researcher, University of Minnesota. HCI researcher on proxy-based interfaces for acting on real-world objects in AR, working with Zhu-Tian Chen and Mar Gonzalez-Franco.
@@ -10764,9 +10941,7 @@ The data these models learn from and the tests they are compared on.
 - **Xun Huang** (1) — Researcher in generative video. Research scientist (Adobe Research at the time of Self Forcing), known for AdaIN style transfer and real-time video diffusion.
 - **Yang Gao** (1) — Researcher at Beihang University. First author of an IEEE VR 2026 study on how AI-reconstructed appearance and cloned voices affect trust in virtual celebrity agents.
 - **Yang Zhou** (1) — Researcher in Youku's Orange 3DV team; first author of MoVerse. First author of MoVerse (2026), a real-time world model that builds a panoramic 3D Gaussian scaffold from one image, from the Orange 3DV team of Youku's Moku Lab (Alibaba's Hujing Digital Media & Entertainment Group). https://orange-3dv-team.github.io/MoVerse/
-- **Yang-Tian Sun** (1) — PhD researcher, The University of Hong Kong. Yang-Tian Sun is first author of Stereo World Model (CVPR 2026), developed at The University of Hong Kong with VAST and ByteDance Pico. https://sunyangtian.github.io/
 - **Yanni Mei** (1) — PhD researcher, Technical University of Darmstadt. HCI researcher on perceptual manipulation in augmented reality, working with Jan Gugenheimer and Florian Müller.
-- **Yanqin Jiang** (1) — PhD researcher, Institute of Automation, Chinese Academy of Sciences. First author of Consistent4D and Animate3D, two early reference points for video-to-4D and for animating existing 3D models.
 - **Yehonathan Litman** (1) — PhD researcher, Carnegie Mellon University. First author of Lift4D (SIGGRAPH Asia 2026), which lifts monocular videos of deforming objects into complete 4D Gaussians.
 - **Yi-Hua Huang** (1) — PhD researcher, The University of Hong Kong. Researcher in Xiaojuan Qi's group at the University of Hong Kong and first author of AniGen (SIGGRAPH 2026), developed with VAST. https://yihua7.github.io/website/
 - **Yichen Chai** (1) — Researcher, The Hong Kong Polytechnic University. Works with Henry Been-Lirn Duh on mixed-reality design tools; first author of GenerativeSurface (IEEE TVCG 2026).
@@ -10795,6 +10970,7 @@ The data these models learn from and the tests they are compared on.
 - **Zhan Xu** (1) — Researcher (UMass Amherst, later Adobe). First author of RigNet (SIGGRAPH 2020), done at UMass Amherst with Evangelos Kalogerakis. https://zhan-xu.github.io/
 - **Zhen Xu** (1) — Researcher, Zhejiang University. ZJU3DV researcher behind EasyVolcap and first author of Representing Long Volumetric Video with Temporal Gaussian Hierarchy (SIGGRAPH Asia 2024).
 - **Zhengqi Li** (1) — Research scientist, Google DeepMind. Google researcher working on dynamic scene reconstruction, first author of MegaSaM (CVPR 2025).
+- **Zhexiao Xiong** (1) — Researcher at Washington University in St. Louis; first author of ActWorld. First author of ActWorld (NeurIPS 2026), an interactive world model with object interaction, written during an internship with ByteDance's Intelligent Creation team. https://interactwm.github.io/ActWorld/
 - **Zhibing Li** (1) — PhD researcher, The Chinese University of Hong Kong. Researcher in Dahua Lin's group at CUHK and co-first author of SS4D (SIGGRAPH Asia 2025), with Shanghai AI Laboratory. https://lizb6626.github.io/
 - **Zhifei Chen** (1) — Researcher at HKUST (Guangzhou); first author of ReWorld. First author of ReWorld (2026), a real-time interactive world model with long-horizon memory developed at HKUST (Guangzhou) with Alibaba's ATH group. https://zhifeichen097.github.io/ReWorld/
 - **Zhipu AI** (1) — Foundation-model company spun out of Tsinghua University. Maker of the GLM language models and the open CogVideoX video models behind its Qingying product. https://www.zhipuai.cn

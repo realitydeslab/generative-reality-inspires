@@ -1,0 +1,21 @@
+{
+ "batch": "video-2026-10d",
+ "creators": [],
+ "works": [],
+ "leads": [
+  {
+   "name": "Real-Time Joint Audio-Video Generation by Parallel Adapter Composition (arXiv 2610.10343)",
+   "why": "Below the salience bar: v2 names the authors (Jingyu Li, Xiaoxiao Xiang, Yiwen Guo) but there is no lab of note and no venue yet (ICLR 2027 submission), and its 26 fps, 30-second streaming audio-video at 480x832 is represented by shengshu--vidu-s1.",
+   "link": "https://pac-demo-2027.github.io/demo/",
+   "found_via": "audio",
+   "status": "off_topic"
+  },
+  {
+   "name": "PhysStream (arXiv 2609.17521)",
+   "why": "Below the salience bar: interactive only in the control sense (0.74 fps, 2.54 fps accelerated, on one GPU per the paper) and limited to tabletop rigid bodies; physics-responsive interactive generation is covered by odyssey--odyssey-3 and decart--oasis-3.",
+   "link": "https://czzzzh.github.io/PhysStream/",
+   "found_via": "seed",
+   "status": "off_topic"
+  }
+ ]
+}

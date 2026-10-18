@@ -1,0 +1,202 @@
+{
+  "batch": "spatial-4d-2026-10d",
+  "creators": [
+    {
+      "id": "sidefx",
+      "name": "SideFX",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Maker of the Houdini procedural 3D software",
+      "based": "Toronto, CA",
+      "bio": "Canadian software company (Side Effects Software) whose Houdini is a standard tool for visual effects, procedural modeling and game content in film and game studios.",
+      "why": "Houdini 22 (2026) made Gaussian splats a production data type that can be trained, rigged, animated, relit and composited like meshes.",
+      "disciplines": [
+        "graphics"
+      ],
+      "links": {
+        "site": "https://www.sidefx.com/",
+        "youtube": "https://www.youtube.com/@houdini3d"
+      },
+      "role_zh": "程序化三维软件 Houdini 的开发商",
+      "bio_zh": "加拿大软件公司（Side Effects Software），其 Houdini 是电影和游戏工作室在视觉特效、程序化建模与游戏内容制作中的标准工具。",
+      "why_zh": "Houdini 22（2026）把高斯泼溅变成生产级数据类型，可以像网格一样训练、绑定、动画、重光照和合成。",
+      "based_zh": "加拿大多伦多",
+      "connected_to": [],
+      "discovered_via": "playcanvas"
+    }
+  ],
+  "works": [
+    {
+      "id": "yanqin-jiang--consistent4d",
+      "creator_ids": [
+        "yanqin-jiang"
+      ],
+      "title": "Consistent4D",
+      "year": 2023,
+      "date": "2023-11-06",
+      "field": "spatial-4d",
+      "sub": "generative-4d-objects",
+      "modalities": [
+        "dynamic-4d"
+      ],
+      "inputs": [
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "authoring"
+      ],
+      "kind": "research",
+      "description": "Consistent4D takes one uncalibrated video of a moving object, such as a phone clip or a segment of an animated film, and generates a 360° dynamic 3D version that can be viewed from any angle as it moves. It is an early reference point for video-to-4D generation, and its evaluation set is widely used as the Consistent4D benchmark by later 4D generators.",
+      "description_zh": "Consistent4D 以一段未标定的运动物体视频为输入（例如手机拍摄的片段或动画电影的一段），生成可在运动中从任意角度观看的 360° 动态三维版本。它是视频到 4D 生成的早期参照，其评测集作为 Consistent4D 基准被后来的 4D 生成方法广泛使用。",
+      "idea_en": "Turning dynamic capture into a generation problem: a single handheld video, with no camera rig or calibration, is enough to get a moving object you can walk around.",
+      "idea_zh": "把动态捕捉变成生成问题：不需要相机阵列或标定，一段手持视频就能得到可以绕着看的运动物体。",
+      "method": "A Cascade DyNeRF is optimized with an object-level 3D-aware image diffusion model as the main supervision, plus an interpolation-driven consistency loss that compares rendered frames with frames from a pretrained video interpolation model; a video enhancer trained afterwards refines the renders.",
+      "method_zh": "以物体级三维感知图像扩散模型作为主要监督来优化级联动态神经辐射场（Cascade DyNeRF），并用基于插帧的一致性损失把渲染帧与预训练视频插帧模型生成的帧进行比对；之后训练的视频增强器再对渲染结果做精修。",
+      "keywords": [
+        "video-to-4D",
+        "dynamic NeRF",
+        "score distillation",
+        "Consistent4D benchmark"
+      ],
+      "video": {
+        "url": "https://consistent4d.github.io/teaser/unified_2.mp4"
+      },
+      "images": [
+        "https://consistent4d.github.io/images/pipeline.svg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2311.02848",
+        "arxiv": "2311.02848",
+        "venue": "ICLR 2024",
+        "title": "Consistent4D: Consistent 360° Dynamic Object Generation from Monocular Video"
+      },
+      "source_url": "https://consistent4d.github.io/",
+      "code_url": "https://github.com/yanqinJiang/Consistent4D",
+      "collections": [
+        "ml-conf",
+        "trend-4d-generation"
+      ]
+    },
+    {
+      "id": "sidefx--houdini-22-gaussian-splats",
+      "creator_ids": [
+        "sidefx"
+      ],
+      "title": "Houdini 22 Gaussian Splats",
+      "year": 2026,
+      "date": "2026-06-22",
+      "field": "spatial-4d",
+      "sub": "capture-tools",
+      "also": [
+        "infra"
+      ],
+      "modalities": [
+        "splats"
+      ],
+      "inputs": [
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "authoring",
+        "control"
+      ],
+      "kind": "product",
+      "description": "Houdini 22, announced at SideFX's London launch event on 2026-06-22, makes Gaussian splats a production data type: captures can be trained on render farms and cleaned up, splats can be rigged and animated with the standard deformation tools or driven by simulations, relit with prototype SideFX Labs tools, composited, and generated directly from Karma renders. Houdini 21 had offered only read-only viewing and rendering of splats.",
+      "description_zh": "Houdini 22 于 2026 年 6 月 22 日在 SideFX 伦敦发布会上公布，把高斯泼溅变成生产级数据类型：采集数据可以在渲染农场上训练并清理，泼溅可以用标准变形工具绑定和制作动画，或由仿真驱动，可以用 SideFX Labs 的原型工具重新打光，进行合成，还能直接从 Karma 渲染结果生成。Houdini 21 对泼溅只支持只读的查看与渲染。",
+      "idea_en": "Splats stop being a viewer format and become editable material in the same professional pipeline as meshes, rigs and simulations.",
+      "idea_zh": "高斯泼溅不再只是一种查看格式，而成为与网格、骨骼绑定和仿真处在同一条专业管线中的可编辑素材。",
+      "method": "Splats are treated as points with attributes, so existing nodes such as Bone Deform and Surface Deform work on them unchanged; PDG/TOPs distributes splat training across machines, Copernicus rasterizes splats to color and depth for compositing, and Karma camera arrays turn rendered scenes into splats without camera estimation.",
+      "method_zh": "泼溅被当作带属性的点来处理，因此 Bone Deform、Surface Deform 等现有节点无需修改即可作用于泼溅；PDG/TOPs 把泼溅训练分发到多台机器，Copernicus 把泼溅光栅化为颜色与深度用于合成，Karma 相机阵列则无需相机位姿估计就能把渲染出的场景转成泼溅。",
+      "keywords": [
+        "Gaussian splatting",
+        "DCC pipeline",
+        "splat rigging",
+        "render-to-splat"
+      ],
+      "video": {
+        "url": "https://media.sidefx.com/uploads/products/whatsnew_h22/images/gsplats/houdini_generated_gsplats.mp4"
+      },
+      "images": [
+        "https://media.sidefx.com/uploads/products/banners/h22_banner.png"
+      ],
+      "source_url": "https://www.sidefx.com/products/whats-new-in-h22/gaussian-splats/",
+      "collections": [
+        "trend-explicit-3d"
+      ]
+    }
+  ],
+  "leads": [
+    {
+      "name": "three.js r186 native Gaussian splat renderer (2026-09)",
+      "why": "Tool feature, not a separate work; noted for trend-explicit-3d (GitHub release r186, 2026-09-24: GaussianSplat renderer and loader in TSL for WebGPU/WebGL, glTF import, splat raycasting).",
+      "link": "https://github.com/mrdoob/three.js/releases/tag/r186",
+      "found_via": "world-labs",
+      "status": "off_topic"
+    },
+    {
+      "name": "Blender 5.3 native Gaussian splat import and rendering (alpha, 2026-09)",
+      "why": "Tool feature, not a separate work; noted for trend-explicit-3d (Blender 5.3 release notes: PLY and SPZ splat import and rendering on the PointCloud data-block; 5.3 in beta until 2026-11-04).",
+      "link": "https://developer.blender.org/docs/release_notes/5.3/rendering/",
+      "found_via": "playcanvas",
+      "status": "off_topic"
+    },
+    {
+      "name": "MPEG call for dynamic Gaussian splat test material (WG 5 N 422, 2026-08)",
+      "why": "A standards call for test material, not a work; noted for trend-4d-media (MPEG-155 'Call for content for Gaussian splat coding', w26655, 2026-07-31, asked for dynamic 3DGS sequences by 2026-10-15 ahead of a Call for Proposals).",
+      "link": "https://www.mpeg.org/standards/Explorations/45/",
+      "found_via": "khronos-group",
+      "status": "off_topic"
+    },
+    {
+      "name": "Niantic Spatial Gaussian splat relighting (beta, 2026-09-19)",
+      "why": "Kept open: Niantic Spatial's blog (2026-09-18) describes a design-partner beta that is 'not a self-service API'; trigger = public or self-service release, then one status sentence on niantic-spatial--scaniverse.",
+      "link": "https://www.nianticspatial.com/blog/introducing-gaussian-splat-relighting",
+      "found_via": "niantic-spatial",
+      "status": "open"
+    },
+    {
+      "name": "Splat.js (Arrival.Space, 2026-08)",
+      "why": "Tool feature, not a separate work; noted for trend-explicit-3d (MIT-licensed WebGPU library for in-browser SfM and 3DGS training, created 2026-08-19).",
+      "link": "https://github.com/arrival-space/splat.js",
+      "found_via": "playcanvas",
+      "status": "off_topic"
+    },
+    {
+      "name": "Houdini 22 native Gaussian splats (SideFX, 2026-06)",
+      "why": "Added as sidefx--houdini-22-gaussian-splats.",
+      "link": "https://www.sidefx.com/products/whats-new-in-h22/gaussian-splats/",
+      "found_via": "playcanvas",
+      "status": "duplicate"
+    },
+    {
+      "name": "Consistent4D (ICLR 2024)",
+      "why": "Added as yanqin-jiang--consistent4d, with the project-page teaser mp4 instead of the old YouTube link.",
+      "link": "https://consistent4d.github.io/",
+      "found_via": "yanqin-jiang",
+      "status": "duplicate"
+    },
+    {
+      "name": "Diffusion4D and 4Diffusion (NeurIPS 2024)",
+      "why": "Below salience bar: 2024 4D-aware multi-view video diffusion for objects is already represented by Animate3D, SV4D and L4GM.",
+      "link": "https://arxiv.org/abs/2405.16645",
+      "found_via": "seed",
+      "status": "off_topic"
+    },
+    {
+      "name": "Fast 4D Mesh Generation by Spatio-Temporal Attention Chains (NVIDIA, 2026-05)",
+      "why": "Below salience bar: a training-free speed-up of existing 4D mesh generators, an incremental step rather than a new capability.",
+      "link": "https://arxiv.org/abs/2605.19786",
+      "found_via": "nvidia",
+      "status": "off_topic"
+    }
+  ]
+}

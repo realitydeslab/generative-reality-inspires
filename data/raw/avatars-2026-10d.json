@@ -1,0 +1,203 @@
+{
+ "batch": "avatars-2026-10d",
+ "creators": [
+  {
+   "id": "simli",
+   "name": "Simli",
+   "kind": "company",
+   "role": "Real-time avatar API company (Simli AS)",
+   "bio": "Simli sells a speech-to-video API that adds a lip-synced face to real-time voice agents, with plug-ins for LiveKit and Pipecat; in July 2025 it launched Trinity-1, a Gaussian-splat avatar model.",
+   "why": "A low-cost face layer that voice-agent stacks can plug in, which turns a talking face into a standard part of an interactive scenario.",
+   "disciplines": ["ml", "graphics"],
+   "links": { "site": "https://www.simli.com/" },
+   "role_zh": "实时虚拟人 API 公司（Simli AS）",
+   "bio_zh": "Simli 提供语音转视频 API，为实时语音智能体加上一张口型同步的人脸，并提供 LiveKit 与 Pipecat 插件；2025 年 7 月推出基于高斯泼溅的虚拟人模型 Trinity-1。",
+   "why_zh": "它是语音智能体技术栈可以直接接入的低成本“面孔层”，让会说话的面孔成为交互情境中的标准部件。",
+   "connected_to": ["livekit", "daily"],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "soul-machines",
+   "name": "Soul Machines",
+   "kind": "company",
+   "role": "Digital human company with autonomous animation (acquired by AppDirect in 2026)",
+   "based": "Auckland, New Zealand",
+   "bio": "Soul Machines was founded in 2016 by Mark Sagar and Greg Cross as a spin-out of the University of Auckland's Laboratory for Animate Technologies, home of the BabyX research; it sells Digital People whose faces are animated by a simulated 'Digital Brain'. AppDirect announced on 2026-09-28 that it had acquired the company.",
+   "why": "The longest-running attempt to drive a conversational face from a model of nervous-system processes rather than from generated video, and a 2026 example of avatar companies being absorbed by platforms.",
+   "disciplines": ["graphics", "ml"],
+   "links": { "site": "https://www.soulmachines.com/", "youtube": "https://www.youtube.com/@SoulMachinesTV" },
+   "role_zh": "具备自主动画能力的数字人公司（2026 年被 AppDirect 收购）",
+   "based_zh": "新西兰奥克兰",
+   "bio_zh": "Soul Machines 由 Mark Sagar 与 Greg Cross 于 2016 年创立，源自奥克兰大学的 Laboratory for Animate Technologies（BabyX 研究的所在地）；公司出售由模拟“数字大脑”驱动面部动画的 Digital People。AppDirect 于 2026-09-28 宣布收购该公司。",
+   "why_zh": "它是持续最久的一种尝试：用对神经系统过程的建模而非视频生成来驱动对话中的面孔；它在 2026 年被收购，也说明虚拟人公司正被平台公司吸收。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "cheng-chen-ntu",
+   "name": "Cheng Chen",
+   "kind": "person",
+   "role": "Researcher, Nanyang Technological University and A*STAR",
+   "based": "Singapore",
+   "bio": "Cheng Chen is first author of DiVA (2026), an interactive digital-life simulator built with Ant Group researchers including Hao Ouyang and Yujun Shen; the paper lists NTU, A*STAR's Institute for Infocomm Research and Ant Group as affiliations.",
+   "why": "DiVA treats a video character as a long-running loop of waiting, acting and returning to stable states rather than as one long clip.",
+   "disciplines": ["ml", "graphics"],
+   "links": { "site": "https://steller-cheng.github.io/DiVA/" },
+   "role_zh": "南洋理工大学与新加坡科技研究局（A*STAR）研究者",
+   "based_zh": "新加坡",
+   "bio_zh": "Cheng Chen 是 DiVA（2026）的第一作者。DiVA 是一个可交互的“数字生命”模拟系统，与蚂蚁集团的 Hao Ouyang、Yujun Shen 等研究者合作完成；论文署名单位为南洋理工大学、A*STAR 信息通信研究院和蚂蚁集团。",
+   "why_zh": "DiVA 把视频角色看作“等待—行动—回到稳定状态”的长期循环，而不是一段越来越长的视频。",
+   "connected_to": ["ant-group"],
+   "discovered_via": "ant-group"
+  }
+ ],
+ "works": [
+  {
+   "id": "simli--trinity-1",
+   "creator_ids": ["simli"],
+   "title": "Trinity-1",
+   "year": 2025,
+   "date": "2025-07-10",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": ["avatar", "splats"],
+   "inputs": ["speech", "image"],
+   "timing": "real-time",
+   "access": ["api"],
+   "lenses": ["responsiveness", "perceptual-realism"],
+   "kind": "model",
+   "description": "Trinity-1 is Simli's Gaussian-splat avatar model, launched in preview through its API on 2025-07-10: a face built from one portrait is lip-synced live to the audio of a voice agent and streamed into an app. Simli calls it the first interactive Gaussian avatar and prices it at under one US cent per minute.",
+   "description_zh": "Trinity-1 是 Simli 的高斯泼溅虚拟人模型，2025-07-10 通过 API 以预览形式发布：由一张人像生成的面孔会跟随语音智能体的音频实时对口型，并以视频流推送到应用中。Simli 称它是首个可交互的高斯虚拟人，价格低于每分钟 1 美分。",
+   "idea_en": "Moves the talking face from per-frame video generation to a drivable 3D Gaussian head, so giving every turn of a voice scenario a face costs well under a dollar per hour.",
+   "idea_zh": "把会说话的面孔从逐帧视频生成换成可驱动的三维高斯头像，让语音情境的每一轮都配上面孔，每小时成本远低于 1 美元。",
+   "method": "A portrait is reframed and converted into a Gaussian-splat face by an offline API job ('Generate Trinity Face'); at run time an audio-to-motion model likely drives the splats from streamed speech, and frames reach the app over WebRTC, directly or through the LiveKit and Pipecat plug-ins.",
+   "method_zh": "先通过离线 API 任务（“Generate Trinity Face”）把人像重新构图并转换成高斯泼溅面孔；运行时很可能由一个音频到动作的模型根据流式语音驱动这些高斯点，画面通过 WebRTC 直接送达应用，或经由 LiveKit 与 Pipecat 插件接入。",
+   "specs": "< US$0.01 per minute (developer-reported)",
+   "keywords": ["Gaussian avatar", "talking head", "speech-to-video", "WebRTC", "LiveKit", "Pipecat", "voice agent"],
+   "video": { "url": "https://www.youtube.com/watch?v=OWPkzYE5PiA" },
+   "images": ["https://i.ytimg.com/vi/OWPkzYE5PiA/maxresdefault.jpg"],
+   "source_url": "https://www.simli.com/",
+   "api_url": "https://docs.simli.com/api-reference/generate-trinity-face",
+   "collections": ["trend-realtime", "trend-cost"]
+  },
+  {
+   "id": "soul-machines--digital-people",
+   "creator_ids": ["soul-machines"],
+   "title": "Soul Machines Digital People (Digital Brain)",
+   "year": 2023,
+   "date": "2023-10-02",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": ["avatar", "speech", "dialogue"],
+   "inputs": ["speech", "body"],
+   "timing": "turn-based",
+   "access": ["product"],
+   "lenses": ["behavioral-plausibility", "reactivity"],
+   "kind": "product",
+   "description": "Soul Machines' Digital People are rendered 3D digital humans for customer service, coaching and companionship whose faces are animated by what the company calls a Digital Brain of reciprocal sensory, motor, attention and autonomic nervous systems, so that they breathe, react and form memories; a large language model supplies the words. The official explainer shown here is dated 2023-10-02; the company had built Digital People since its 2016 founding, and AppDirect acquired it on 2026-09-28.",
+   "description_zh": "Soul Machines 的 Digital People 是经过渲染的三维数字人，用于客服、辅导和陪伴。公司称其面部由一个“数字大脑”驱动，这个大脑由相互作用的感觉、运动、注意与自主神经系统组成，因此数字人会呼吸、作出反应并形成记忆；对话内容由大语言模型生成。这里展示的官方介绍视频发布于 2023-10-02；公司自 2016 年成立起就在开发 Digital People，并于 2026-09-28 被 AppDirect 收购。",
+   "idea_en": "An alternative to faces generated from video data: breathing, gaze and reactive expression come from a simulated nervous system that can in principle be inspected, while the 2026 acquisition shows how much a study built on one avatar vendor depends on that vendor.",
+   "idea_zh": "这是另一条路线：呼吸、视线和反应性表情不是从视频数据中生成，而是来自一个原则上可以检查的模拟神经系统；2026 年的收购也说明，基于单一虚拟人供应商的研究在多大程度上依赖这家供应商。",
+   "method": "A cognitive model descended from the BabyX research simulates sensory, motor, attention/perception and autonomic systems and drives the expressions and idle behaviour of a rendered 3D character from camera and microphone input, while dialogue comes from integrated LLMs such as ChatGPT; the character is likely rendered in the cloud and streamed to a browser.",
+   "method_zh": "一个源自 BabyX 研究的认知模型模拟感觉、运动、注意/知觉与自主神经系统，根据摄像头和麦克风输入驱动渲染出的三维角色的表情与静息行为；对话则来自接入的大语言模型（如 ChatGPT）；角色很可能在云端渲染后以视频流传到浏览器。",
+   "keywords": ["digital human", "autonomous animation", "Digital Brain", "BabyX", "conversational agent", "enterprise avatar"],
+   "video": { "url": "https://www.youtube.com/watch?v=qVeGWW93xkw" },
+   "images": ["https://i.ytimg.com/vi/qVeGWW93xkw/maxresdefault.jpg"],
+   "source_url": "https://www.soulmachines.com/",
+   "collections": ["trend-platform-risk"]
+  },
+  {
+   "id": "cheng-chen-ntu--diva",
+   "creator_ids": ["cheng-chen-ntu", "ant-group"],
+   "title": "DiVA",
+   "year": 2026,
+   "date": "2026-09-12",
+   "field": "avatars",
+   "sub": "conversational",
+   "also": ["world-models"],
+   "modalities": ["avatar", "flat-video", "speech"],
+   "inputs": ["text", "speech", "image"],
+   "timing": "turn-based",
+   "access": ["research"],
+   "lenses": ["persistence", "behavioral-plausibility"],
+   "kind": "research",
+   "description": "DiVA (NTU, A*STAR and Ant Group, 2026-09-12) is a 'digital life simulator': a video character, a person or an animal created from one reference image, idles while it waits, answers each turn with speech, gestures and actions such as standing up, and then returns to a stable pose, so an interaction can run for many turns without the picture degrading.",
+   "description_zh": "DiVA（南洋理工大学、A*STAR 与蚂蚁集团，2026-09-12）是一个“数字生命模拟器”：由一张参考图生成的视频角色（人或动物）在等待时保持细微的待机动作，每一轮用语音、手势以及站起来之类的动作回应，然后回到稳定的姿态，因此互动可以持续很多轮而画面不退化。",
+   "idea_en": "Treats a generated character as a loop of waiting, acting and returning to anchor states rather than as one ever-longer clip, a practical pattern for long sessions with a video-generated person.",
+   "idea_zh": "把生成的角色看作“等待—行动—回到锚定状态”的循环，而不是一段越拉越长的视频，这是与视频生成人物进行长时间互动的一种实用模式。",
+   "method": "A multimodal LLM (GPT-5 or Qwen, steered by in-context examples) routes each turn and writes the reply, CosyVoice speaks it, and a stacked pipeline generates waiting video, audio-driven action video, and transitions back to anchor states (pre-generated from the reference image by image editing) with an Anchored Video Continuation module fine-tuned with LoRA on Wan 2.1 14B FLF.",
+   "method_zh": "一个多模态大语言模型（GPT-5 或 Qwen，通过上下文示例引导）负责每一轮的路由并写出回复，由 CosyVoice 合成语音；一条分层的视频管线依次生成待机视频、音频驱动的动作视频，以及回到锚定状态的过渡，锚定状态事先由参考图经图像编辑生成，过渡由基于 Wan 2.1 14B FLF、用 LoRA 微调的 Anchored Video Continuation 模块完成。",
+   "specs": "4 sampling steps × about 4 s per step on one H800 (high-quality setting) · user study: 30 raters, 60 transitions",
+   "keywords": ["digital life simulation", "interactive video character", "MLLM router", "video continuation", "Wan 2.1", "Ant Group"],
+   "video": { "url": "https://steller-cheng.github.io/DiVA/assets/videos/hero_human.mp4" },
+   "images": ["https://steller-cheng.github.io/DiVA/assets/images/interaction_human.jpg"],
+   "paper": { "url": "https://arxiv.org/abs/2609.13830", "arxiv": "2609.13830", "venue": "arXiv preprint", "title": "DiVA: Enabling Interactive Digital Life Simulation via Video Models" },
+   "source_url": "https://steller-cheng.github.io/DiVA/"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Simli Trinity-1 (2025-07-10)",
+   "why": "Added in round 3 as simli--trinity-1 (official launch video, API docs).",
+   "link": "https://www.youtube.com/watch?v=OWPkzYE5PiA",
+   "found_via": "simli",
+   "status": "duplicate"
+  },
+  {
+   "name": "Soul Machines Digital People (acquired by AppDirect, 2026-09-28)",
+   "why": "Added in round 3 as soul-machines--digital-people, dated by the official 2023-10-02 Digital Brain video; the AppDirect acquisition is in the text and tagged trend-platform-risk.",
+   "link": "https://www.youtube.com/watch?v=qVeGWW93xkw",
+   "found_via": "soul-machines",
+   "status": "duplicate"
+  },
+  {
+   "name": "Soul Machines Digital People",
+   "why": "Added in round 3 as soul-machines--digital-people.",
+   "link": "https://www.youtube.com/watch?v=qVeGWW93xkw",
+   "found_via": "soul-machines",
+   "status": "duplicate"
+  },
+  {
+   "name": "DiVA: Interactive Digital Life Simulation via Video Models (NTU and Ant Group, 2026-09)",
+   "why": "Added in round 3 as cheng-chen-ntu--diva.",
+   "link": "https://steller-cheng.github.io/DiVA/",
+   "found_via": "avatars",
+   "status": "duplicate"
+  },
+  {
+   "name": "Omni-LiveAvatar (2026-08)",
+   "why": "The project page shows only placeholder video slots and the code repository is the only artefact as of 2026-10-18, so the claimed first real-time joint audio-video avatar (33x faster than its LTX-2 teacher on one H200) has no demo footage.",
+   "link": "https://aoko955.github.io/Omni-LiveAvatar/",
+   "found_via": "avatars",
+   "status": "no_media"
+  },
+  {
+   "name": "TalkLikeYou (2026-10-05)",
+   "why": "Below the salience bar: a one-step real-time talking head that copies a person's articulation style, with no venue or lab of note; real-time talking heads are covered by yu-han-meta--facegan and gavriel-habib--pixreenact.",
+   "link": "https://bq-wang0511.github.io/TalkLikeYou/",
+   "found_via": "avatars",
+   "status": "off_topic"
+  },
+  {
+   "name": "GHARP (ACCV 2026) and GALA (2026-10)",
+   "why": "GHARP is an Apple paper (ACCV 2026) that animates Gaussian heads in real time on an iPhone 17 Pro, but its videos are only in non-public supplementary material; GALA is incremental blendshape distillation.",
+   "link": "https://arxiv.org/abs/2610.10945",
+   "found_via": "avatars",
+   "status": "no_media"
+  },
+  {
+   "name": "Streaming avatar distillation papers (Avatar-Forever 2608.12107, Routed Forcing 2609.30963, DynaForcing 2608.17707, MegaAvatar 2609.39273)",
+   "why": "Below the salience bar one by one: streaming distillation of audio-driven avatar models is represented by alibaba-quark--live-avatar, soul-ai-lab--soulx-flashtalk, gavriel-habib--pixreenact and yu-han-meta--facegan; Routed Forcing was closed as no_media in round 2.",
+   "link": "https://arxiv.org/abs/2608.12107",
+   "found_via": "avatars",
+   "status": "off_topic"
+  },
+  {
+   "name": "Active Listener Live (Ghosh et al., ICMI 2026)",
+   "why": "ICMI 2026 Companion paper by Ghosh, Bian, Li and Guha (Glasgow); the accepted PDF is restricted and no project page or video was found on 2026-10-18; real-time listener head motion is covered by koji-inoue--listening-ai-clone and koki-nagano--dyaplex.",
+   "link": "https://doi.org/10.1145/3776591.3836661",
+   "found_via": "seed",
+   "status": "no_media"
+  }
+ ]
+}

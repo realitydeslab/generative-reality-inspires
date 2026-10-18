@@ -1,0 +1,56 @@
+{
+ "batch": "infra-2026-10d",
+ "creators": [],
+ "works": [],
+ "leads": [
+  {
+   "name": "WorldMemBench (Zhejiang University / Ant Group, arXiv 2610.19063)",
+   "why": "Below the salience bar as of 2026-10-18: published 2026-10-13, no uptake yet (15 GitHub stars), and its static/dynamic revisit tests overlap MBench and WorldRoamBench.",
+   "link": "https://zju-real.github.io/WorldMemBench/",
+   "found_via": "odyssey",
+   "status": "off_topic"
+  },
+  {
+   "name": "R2M-Bench: relative revisit memory for interactive video world models (arXiv 2608.27328)",
+   "why": "Below the salience bar: no recorded uptake, and its revisit-memory scoring overlaps WorldRoamBench from the same Amap group and MBench.",
+   "link": "https://github.com/AMAP-ML/R2MBench",
+   "found_via": "ting-bing-xu",
+   "status": "off_topic"
+  },
+  {
+   "name": "WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity (arXiv 2608.02603)",
+   "why": "Below the salience bar as of 2026-10-18: no recorded uptake (22 GitHub stars) and it overlaps WRBench, WBench and iWorld-Bench, already in the gallery; its 'world reactivity' level is the notable idea.",
+   "link": "https://WorldExam.github.io",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "OPIS: An Input-Grounded Benchmark for Multi-Object Memory in Video World Models (arXiv 2609.35052)",
+   "why": "No project page, code or video as of 2026-10-18, and its object-memory tests overlap MBench and WorldMemBench.",
+   "link": "https://arxiv.org/abs/2609.35052",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "WorldMemBench (arXiv 2610.19063) and R2M-Bench (arXiv 2608.27328)",
+   "why": "Both benchmarks closed individually in infra-2026-10d as below the salience bar (overlap MBench and WorldRoamBench).",
+   "link": "https://arxiv.org/abs/2610.19063",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Sekai2 dataset (Alaya Lab, arXiv 2608.09449)",
+   "why": "Below the salience bar: a two-month-old exploration-video dataset (2,826 h, 74 GitHub stars) without recorded uptake; Alaya Lab is represented by AlayaWorld and Alaya-EVOKE.",
+   "link": "https://arxiv.org/abs/2608.09449",
+   "found_via": "alaya-lab",
+   "status": "off_topic"
+  },
+  {
+   "name": "HelixBench (Noiz AI, 2026-10-12)",
+   "why": "Covered by noiz-ai--helixworld, which presents HelixBench as part of the HelixWorld release.",
+   "link": "https://github.com/NoizAI/HelixWorld",
+   "found_via": "noiz-ai",
+   "status": "duplicate"
+  }
+ ]
+}

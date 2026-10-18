@@ -1,0 +1,62 @@
+{
+ "batch": "genxr-2026-10d",
+ "creators": [
+  {
+   "id": "haotian-mao",
+   "name": "Haotian Mao",
+   "kind": "person",
+   "role": "Researcher, Shanghai Jiao Tong University",
+   "based": "Shanghai, China",
+   "bio": "Haotian Mao is first author of LIVE-GS (IEEE VR 2026, TVCG), written with Xubo Yang and colleagues at Shanghai Jiao Tong University and Nianchen Deng of Shanghai AI Lab.",
+   "why": "LIVE-GS lets a language model set the physics of a captured Gaussian-splat scene so it can be handled in VR.",
+   "disciplines": ["graphics", "hci"],
+   "links": { "site": "https://arxiv.org/abs/2412.09176" },
+   "role_zh": "上海交通大学研究者",
+   "based_zh": "中国上海",
+   "bio_zh": "Haotian Mao 是 LIVE-GS（IEEE VR 2026，TVCG）的第一作者，合作者包括上海交通大学的 Xubo Yang 等人以及上海人工智能实验室的 Nianchen Deng。",
+   "why_zh": "LIVE-GS 让语言模型为采集得到的高斯泼溅场景设定物理属性，使人可以在 VR 中直接操作它。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "haotian-mao--live-gs",
+   "creator_ids": ["haotian-mao"],
+   "title": "LIVE-GS",
+   "year": 2024,
+   "date": "2024-12-12",
+   "field": "genxr",
+   "sub": "in-situ",
+   "also": ["spatial-4d"],
+   "modalities": ["splats", "dynamic-4d"],
+   "inputs": ["multi-view", "action"],
+   "timing": "real-time",
+   "access": ["research"],
+   "lenses": ["behavioral-plausibility", "authoring", "reactivity"],
+   "kind": "research",
+   "description": "LIVE-GS (Shanghai Jiao Tong University and Shanghai AI Lab; arXiv 2024-12-12, published at IEEE VR 2026 in TVCG) turns static Gaussian-splat scenes into physically interactive VR: GPT-4o estimates each object's physical properties from rendered views in about 10 seconds, after which a Quest 3 user can push, throw at, bend or break objects; in the teaser a doll swings, a mug shatters and a ball bounces off a hammer.",
+   "description_zh": "LIVE-GS（上海交通大学与上海人工智能实验室；arXiv 2024-12-12，发表于 IEEE VR 2026 / TVCG）把静态的高斯泼溅场景变成可物理交互的 VR：GPT-4o 根据渲染视图在约 10 秒内估计每个物体的物理属性，之后 Quest 3 用户就能推、扔、弯折或打碎物体；在示例中，玩偶会摆动，杯子会碎裂，球打到锤子上会弹开。",
+   "idea_en": "Lets a language model author the physics of a captured scene, so a real place can be made touchable and breakable in VR without a simulation expert tuning parameters.",
+   "idea_zh": "让语言模型为采集到的场景编写物理属性，无需模拟专家调参，就能让一个真实地点在 VR 中可触碰、可破坏。",
+   "method": "Objects are segmented from a 3D Gaussian scene and GPT-4o infers parameters such as mass and elasticity from rendered images; elastic bodies are simulated with XPBD and rigid bodies with invisible proxy meshes, and Gaussian inpainting fills surfaces revealed when objects move; the system was compared with people experienced in physical simulation who tuned parameters by hand and rated in a usability study (SUS 88.6).",
+   "method_zh": "先从三维高斯场景中分割出物体，由 GPT-4o 根据渲染图像推断质量、弹性等参数；弹性体用 XPBD 模拟，刚体借助不可见的代理网格模拟，物体移动后露出的表面用高斯修补填充；系统与有物理模拟经验、手动调参的参与者进行了对比，并通过可用性研究评估（SUS 88.6）。",
+   "specs": "~10 s parameter estimation · 30 fps in the parameter study · Quest 3 + RTX 4080 SUPER",
+   "keywords": ["Gaussian splatting", "physics simulation", "XPBD", "GPT-4o", "VR interaction", "IEEE VR"],
+   "video": { "url": "https://www.youtube.com/watch?v=AfyDa0Mot4E" },
+   "images": ["https://arxiv.org/html/2412.09176v2/x1.png"],
+   "paper": { "url": "https://doi.org/10.1109/tvcg.2026.3680710", "doi": "10.1109/tvcg.2026.3680710", "arxiv": "2412.09176", "venue": "IEEE TVCG (IEEE VR 2026)", "title": "LIVE-GS: LLM Powers Interactive VR Experience with Physics-Aware Gaussian Splatting" },
+   "source_url": "https://arxiv.org/abs/2412.09176",
+   "collections": ["ieee-vr", "trend-in-situ-xr"]
+  }
+ ],
+ "leads": [
+  {
+   "name": "LIVE-GS: LLM Powers Interactive VR Experience with Physics-Aware Gaussian Splatting (IEEE VR 2026, TVCG)",
+   "why": "Added in round 3 as haotian-mao--live-gs (IEEE VR conference video).",
+   "link": "https://doi.org/10.1109/tvcg.2026.3680710",
+   "found_via": "seed",
+   "status": "duplicate"
+  }
+ ]
+}

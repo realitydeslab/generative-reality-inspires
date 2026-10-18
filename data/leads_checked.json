@@ -440,12 +440,36 @@
   "batch": "assets-2026-10b"
  },
  {
+  "name": "MegaParts (Shanghai AI Lab, 2026-08)",
+  "why": "Added as manwen-liao--megaparts.",
+  "link": "https://expmaster.github.io/megaparts_webpage/",
+  "found_via": "seed",
+  "status": "duplicate",
+  "batch": "assets-2026-10d"
+ },
+ {
+  "name": "Kaininja (Alaya Lab, 2026-09)",
+  "why": "Below salience bar: part-level image-to-3D is already covered by Roblox CubePart, Meta AutoPartGen, Hunyuan3D Buffalo and MegaParts, and KaiNinja's weights were still 'coming soon' in October 2026.",
+  "link": "https://alaya-lab.github.io/KaiNinja/",
+  "found_via": "microsoft",
+  "status": "off_topic",
+  "batch": "assets-2026-10d"
+ },
+ {
   "name": "Procedura (2026-08)",
   "why": "Re-checked 2026-10-18: the project page has interactive three.js viewers and figures but no video; 401 GitHub stars.",
   "link": "https://spatiaos.github.io/projects/procedura/",
   "found_via": "seed",
   "status": "no_media",
   "batch": "assets-2026-10b"
+ },
+ {
+  "name": "DeformSmith (2026-09)",
+  "why": "Below salience bar: a Nankai University robotics preprint (ICRA 2027 submission, project page with video https://can-lee.github.io/deformsmith-web/); physics-ready asset generation is covered by PhysX-Omni, SimArt and GATOR.",
+  "link": "https://arxiv.org/abs/2609.18620",
+  "found_via": "ziang-cao",
+  "status": "off_topic",
+  "batch": "assets-2026-10d"
  },
  {
   "name": "USDCraft (2026-10)",
@@ -496,12 +520,36 @@
   "batch": "assets-2026-10"
  },
  {
+  "name": "Wan-Animate-2 (Alibaba, 2026-08)",
+  "why": "Folded into alibaba-tongyi--wan-animate (video) as a status sentence on the open Wan-Animate-2 weights of 2026-08-07.",
+  "link": "https://arxiv.org/abs/2608.06009",
+  "found_via": "alibaba-tongyi",
+  "status": "duplicate",
+  "batch": "assets-2026-10d"
+ },
+ {
   "name": "HelloWorld: Socially Interactive Characters in Video World Models (2026-08)",
   "why": "world-models or agents: characters that respond socially inside a video world model (arXiv 2608.05070). Covered by work liangyang-ouyang--helloworld (2026-10 update).",
   "link": "https://arxiv.org/abs/2608.05070",
   "found_via": "seed",
   "status": "duplicate",
   "batch": "assets-2026-10"
+ },
+ {
+  "name": "Mira-Scene (VAST, 2026-10)",
+  "why": "Added as yang-tian-sun--mira-scene (worlds-3d / image-to-scene).",
+  "link": "https://github.com/VAST-AI-Research/Mira-Scene",
+  "found_via": "tripo-ai",
+  "status": "duplicate",
+  "batch": "assets-2026-10d"
+ },
+ {
+  "name": "PAT3D: Physics-Augmented Text-to-3D Scene Generation",
+  "why": "Added as guying-lin--pat3d (worlds-3d / layout).",
+  "link": "https://simulation-intelligence.github.io/PAT3D/",
+  "found_via": "seed",
+  "status": "duplicate",
+  "batch": "assets-2026-10d"
  },
  {
   "name": "EchoAvatar (SIGGRAPH 2026)",
@@ -518,6 +566,22 @@
   "found_via": "tripo-ai",
   "status": "duplicate",
   "batch": "assets-2026-10b"
+ },
+ {
+  "name": "Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans (ACM MM 2026)",
+  "why": "Below salience bar: streaming co-speech gesture for voice-driven digital humans is already covered by EchoAvatar (SIGGRAPH 2026) and StreamTalk (ECCV 2026).",
+  "link": "https://super-star-2026.github.io/",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "assets-2026-10d"
+ },
+ {
+  "name": "Puppeteer: Object-Grounded Posture-Aware Co-Speech Gesture Generation (Pickford AI, 2026-08-31)",
+  "why": "Below salience bar: a startup preprint whose code was still marked 'coming soon' in October 2026; co-speech gesture is covered by EchoAvatar (SIGGRAPH 2026) and StreamTalk (ECCV 2026).",
+  "link": "https://puppeteer.pickford.ai/",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "assets-2026-10d"
  },
  {
   "name": "DreamCharacter-1 (ByteDance, 2026-07-08)",
@@ -736,6 +800,14 @@
   "batch": "audio-2026-10"
  },
  {
+  "name": "Real-time joint audio-video generation by parallel adapter composition (2026)",
+  "why": "Below the salience bar: v2 names the authors (Jingyu Li, Xiaoxiao Xiang, Yiwen Guo) but there is no lab of note and no venue yet (ICLR 2027 submission), and its 26 fps, 30-second streaming audio-video at 480x832 is represented by shengshu--vidu-s1.",
+  "link": "https://arxiv.org/abs/2610.10343",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "audio-2026-10d"
+ },
+ {
   "name": "Controlling Backchannels in Streamable Full-duplex Models (2026-09-24)",
   "why": "Backchannel control head for PersonaPlex and F-Actor (arXiv 2609.29418); the linked repository (github.com/MaikeZuefle/bcmore) returns 404 and no demo media was found.",
   "link": "https://arxiv.org/abs/2609.29418",
@@ -758,6 +830,14 @@
   "found_via": "seed",
   "status": "no_media",
   "batch": "audio-2026-10b"
+ },
+ {
+  "name": "DiffuPlex (arXiv 2610.12214)",
+  "why": "Below the salience bar: a single-author 1.5-1.8x speed-up of existing full-duplex dialogue models with no new interaction capability, and the project page loads audio samples only by script.",
+  "link": "https://diffuplex.github.io/",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "audio-2026-10d"
  },
  {
   "name": "DyaFDB: Conversation Is a Two-Body Problem (arXiv 2610.08125)",
@@ -968,6 +1048,22 @@
   "batch": "avatars-2026-10b"
  },
  {
+  "name": "Simli Trinity-1 (2025-07-10)",
+  "why": "Added in round 3 as simli--trinity-1 (official launch video, API docs).",
+  "link": "https://www.youtube.com/watch?v=OWPkzYE5PiA",
+  "found_via": "simli",
+  "status": "duplicate",
+  "batch": "avatars-2026-10d"
+ },
+ {
+  "name": "Soul Machines Digital People (acquired by AppDirect, 2026-09-28)",
+  "why": "Added in round 3 as soul-machines--digital-people, dated by the official 2023-10-02 Digital Brain video; the AppDirect acquisition is in the text and tagged trend-platform-risk.",
+  "link": "https://www.youtube.com/watch?v=qVeGWW93xkw",
+  "found_via": "soul-machines",
+  "status": "duplicate",
+  "batch": "avatars-2026-10d"
+ },
+ {
   "name": "LiveTalk (2025-12-29)",
   "why": "Real-time multimodal interactive video diffusion via improved on-policy distillation (a Griffin baseline); no project page or video found.",
   "link": "https://arxiv.org/abs/2512.23576",
@@ -982,6 +1078,14 @@
   "found_via": "avatars",
   "status": "no_media",
   "batch": "avatars-2026-10"
+ },
+ {
+  "name": "Omni-LiveAvatar (2026-08)",
+  "why": "The project page shows only placeholder video slots and the code repository is the only artefact as of 2026-10-18, so the claimed first real-time joint audio-video avatar (33x faster than its LTX-2 teacher on one H200) has no demo footage.",
+  "link": "https://aoko955.github.io/Omni-LiveAvatar/",
+  "found_via": "avatars",
+  "status": "no_media",
+  "batch": "avatars-2026-10d"
  },
  {
   "name": "Embody 3D (Meta, 2025-10)",
@@ -1056,6 +1160,14 @@
   "batch": "avatars-2026-10b"
  },
  {
+  "name": "DiVA: Interactive Digital Life Simulation via Video Models (NTU and Ant Group, 2026-09)",
+  "why": "Added in round 3 as cheng-chen-ntu--diva.",
+  "link": "https://steller-cheng.github.io/DiVA/",
+  "found_via": "avatars",
+  "status": "duplicate",
+  "batch": "avatars-2026-10d"
+ },
+ {
   "name": "EvolvingAvatar (2026-09-28)",
   "why": "Re-checked 2026-10-18: blog.evolving-avatar.com is a JavaScript app and its bundle exposes no video or image files.",
   "link": "https://arxiv.org/abs/2609.35616",
@@ -1064,12 +1176,36 @@
   "batch": "avatars-2026-10b"
  },
  {
+  "name": "TalkLikeYou (2026-10-05)",
+  "why": "Below the salience bar: a one-step real-time talking head that copies a person's articulation style, with no venue or lab of note; real-time talking heads are covered by yu-han-meta--facegan and gavriel-habib--pixreenact.",
+  "link": "https://bq-wang0511.github.io/TalkLikeYou/",
+  "found_via": "avatars",
+  "status": "off_topic",
+  "batch": "avatars-2026-10d"
+ },
+ {
   "name": "HumanNOVA (CVPR 2026 Highlight)",
   "why": "Added in round 2 as hezhen-hu--humannova.",
   "link": "https://humannova.github.io",
   "found_via": "seed",
   "status": "duplicate",
   "batch": "avatars-2026-10b"
+ },
+ {
+  "name": "GHARP (ACCV 2026) and GALA (2026-10)",
+  "why": "GHARP is an Apple paper (ACCV 2026) that animates Gaussian heads in real time on an iPhone 17 Pro, but its videos are only in non-public supplementary material; GALA is incremental blendshape distillation.",
+  "link": "https://arxiv.org/abs/2610.10945",
+  "found_via": "avatars",
+  "status": "no_media",
+  "batch": "avatars-2026-10d"
+ },
+ {
+  "name": "Streaming avatar distillation papers (Avatar-Forever 2608.12107, Routed Forcing 2609.30963, DynaForcing 2608.17707, MegaAvatar 2609.39273)",
+  "why": "Below the salience bar one by one: streaming distillation of audio-driven avatar models is represented by alibaba-quark--live-avatar, soul-ai-lab--soulx-flashtalk, gavriel-habib--pixreenact and yu-han-meta--facegan; Routed Forcing was closed as no_media in round 2.",
+  "link": "https://arxiv.org/abs/2608.12107",
+  "found_via": "avatars",
+  "status": "off_topic",
+  "batch": "avatars-2026-10d"
  },
  {
   "name": "Wan2.2-Animate-2-14B and Wan-Dancer-14B (2026-07)",
@@ -1096,12 +1232,28 @@
   "batch": "avatars-2026-10b"
  },
  {
+  "name": "Active Listener Live (Ghosh et al., ICMI 2026)",
+  "why": "ICMI 2026 Companion paper by Ghosh, Bian, Li and Guha (Glasgow); the accepted PDF is restricted and no project page or video was found on 2026-10-18; real-time listener head motion is covered by koji-inoue--listening-ai-clone and koki-nagano--dyaplex.",
+  "link": "https://doi.org/10.1145/3776591.3836661",
+  "found_via": "seed",
+  "status": "no_media",
+  "batch": "avatars-2026-10d"
+ },
+ {
   "name": "Routed Forcing for Streaming Avatars (arXiv 2609.30963)",
   "why": "Streaming audio-driven avatar distillation (2026-09-25); no project page; part of the round-1 cluster of streaming-avatar distillation papers.",
   "link": "https://arxiv.org/abs/2609.30963",
   "found_via": "seed",
   "status": "no_media",
   "batch": "avatars-2026-10b"
+ },
+ {
+  "name": "Soul Machines Digital People",
+  "why": "Added in round 3 as soul-machines--digital-people.",
+  "link": "https://www.youtube.com/watch?v=qVeGWW93xkw",
+  "found_via": "soul-machines",
+  "status": "duplicate",
+  "batch": "avatars-2026-10d"
  },
  {
   "name": "Moshi-Face (Jiang et al., 2026)",
@@ -1462,6 +1614,38 @@
   "found_via": "seed",
   "status": "no_media",
   "batch": "behavioral-2026-10"
+ },
+ {
+  "name": "Torshizi & Marsella 2026: LLM-based selection of incongruent verbal and nonverbal behavior for virtual humans (arXiv 2608.22731)",
+  "why": "Below the salience bar for avatars/nonverbal and behavioral: two online Prolific video-rating studies (within-subjects, N = 49 and N = 39) of LLM-chosen mismatched nonverbal behaviour, with no immersive setup and no venue yet.",
+  "link": "https://arxiv.org/abs/2608.22731",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "behavioral-2026-10d"
+ },
+ {
+  "name": "Calzolari, ... Musse 2026: LLM-Driven Personalities for Decision Making in Emergency Simulations (arXiv 2606.31038)",
+  "why": "Below the salience bar for agents: an agent-only evacuation simulation with OCEAN-prompted LLM agents, no human participants and no venue yet.",
+  "link": "https://arxiv.org/abs/2606.31038",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "behavioral-2026-10d"
+ },
+ {
+  "name": "GenTouchVR: Generating a Touchable Virtual Reality Environment from a Single Image (IEEE VR 2026, TVCG)",
+  "why": "Added in round 3 as jaejun-park--gentouchvr (official POSTECH lab video).",
+  "link": "https://doi.org/10.1109/tvcg.2026.3680620",
+  "found_via": "seed",
+  "status": "duplicate",
+  "batch": "worlds-3d-2026-10d"
+ },
+ {
+  "name": "LIVE-GS: LLM Powers Interactive VR Experience with Physics-Aware Gaussian Splatting (IEEE VR 2026, TVCG)",
+  "why": "Added in round 3 as haotian-mao--live-gs (IEEE VR conference video).",
+  "link": "https://doi.org/10.1109/tvcg.2026.3680710",
+  "found_via": "seed",
+  "status": "duplicate",
+  "batch": "genxr-2026-10d"
  },
  {
   "name": "Kleygrewe et al. 2023: VR training for police officers compared with real-life training",
@@ -2064,6 +2248,22 @@
   "batch": "genxr"
  },
  {
+  "name": "WorldMemBench (Zhejiang University / Ant Group, arXiv 2610.19063)",
+  "why": "Below the salience bar as of 2026-10-18: published 2026-10-13, no uptake yet (15 GitHub stars), and its static/dynamic revisit tests overlap MBench and WorldRoamBench.",
+  "link": "https://zju-real.github.io/WorldMemBench/",
+  "found_via": "odyssey",
+  "status": "off_topic",
+  "batch": "infra-2026-10d"
+ },
+ {
+  "name": "R2M-Bench: relative revisit memory for interactive video world models (arXiv 2608.27328)",
+  "why": "Below the salience bar: no recorded uptake, and its revisit-memory scoring overlaps WorldRoamBench from the same Amap group and MBench.",
+  "link": "https://github.com/AMAP-ML/R2MBench",
+  "found_via": "ting-bing-xu",
+  "status": "off_topic",
+  "batch": "infra-2026-10d"
+ },
+ {
   "name": "WorldAuditBench: interactive 3D world auditing with multimodal agents (UCSB / MIT, arXiv 2609.40325)",
   "why": "Below the salience bar as of 2026-10-18: no venue, no uptake, and the project page shows its demos only through JavaScript, with no video.",
   "link": "https://ucsb-nlp-chang.github.io/WorldAuditBench/",
@@ -2136,6 +2336,22 @@
   "batch": "infra-2026-10"
  },
  {
+  "name": "WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity (arXiv 2608.02603)",
+  "why": "Below the salience bar as of 2026-10-18: no recorded uptake (22 GitHub stars) and it overlaps WRBench, WBench and iWorld-Bench, already in the gallery; its 'world reactivity' level is the notable idea.",
+  "link": "https://WorldExam.github.io",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "infra-2026-10d"
+ },
+ {
+  "name": "OPIS: An Input-Grounded Benchmark for Multi-Object Memory in Video World Models (arXiv 2609.35052)",
+  "why": "No project page, code or video as of 2026-10-18, and its object-memory tests overlap MBench and WorldMemBench.",
+  "link": "https://arxiv.org/abs/2609.35052",
+  "found_via": "seed",
+  "status": "no_media",
+  "batch": "infra-2026-10d"
+ },
+ {
   "name": "Gemini Omni Flash (conversational video generation and editing)",
   "why": "Covered by google-deepmind--gemini-omni (video) and the Gemini API work google--gemini-api-video (infra).",
   "link": "https://ai.google.dev/gemini-api/docs/omni",
@@ -2174,6 +2390,30 @@
   "found_via": "trends",
   "status": "duplicate",
   "batch": "infra-2026-10c"
+ },
+ {
+  "name": "WorldMemBench (arXiv 2610.19063) and R2M-Bench (arXiv 2608.27328)",
+  "why": "Both benchmarks closed individually in infra-2026-10d as below the salience bar (overlap MBench and WorldRoamBench).",
+  "link": "https://arxiv.org/abs/2610.19063",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "infra-2026-10d"
+ },
+ {
+  "name": "Sekai2 dataset (Alaya Lab, arXiv 2608.09449)",
+  "why": "Below the salience bar: a two-month-old exploration-video dataset (2,826 h, 74 GitHub stars) without recorded uptake; Alaya Lab is represented by AlayaWorld and Alaya-EVOKE.",
+  "link": "https://arxiv.org/abs/2608.09449",
+  "found_via": "alaya-lab",
+  "status": "off_topic",
+  "batch": "infra-2026-10d"
+ },
+ {
+  "name": "HelixBench (Noiz AI, 2026-10-12)",
+  "why": "Covered by noiz-ai--helixworld, which presents HelixBench as part of the HelixWorld release.",
+  "link": "https://github.com/NoizAI/HelixWorld",
+  "found_via": "noiz-ai",
+  "status": "duplicate",
+  "batch": "infra-2026-10d"
  },
  {
   "name": "Tavus CVI API (Conversational Video Interface)",
@@ -2424,12 +2664,52 @@
   "batch": "spatial-4d-2026-10"
  },
  {
+  "name": "three.js r186 native Gaussian splat renderer (2026-09)",
+  "why": "Tool feature, not a separate work; noted for trend-explicit-3d (GitHub release r186, 2026-09-24: GaussianSplat renderer and loader in TSL for WebGPU/WebGL, glTF import, splat raycasting).",
+  "link": "https://github.com/mrdoob/three.js/releases/tag/r186",
+  "found_via": "world-labs",
+  "status": "off_topic",
+  "batch": "spatial-4d-2026-10d"
+ },
+ {
+  "name": "Blender 5.3 native Gaussian splat import and rendering (alpha, 2026-09)",
+  "why": "Tool feature, not a separate work; noted for trend-explicit-3d (Blender 5.3 release notes: PLY and SPZ splat import and rendering on the PointCloud data-block; 5.3 in beta until 2026-11-04).",
+  "link": "https://developer.blender.org/docs/release_notes/5.3/rendering/",
+  "found_via": "playcanvas",
+  "status": "off_topic",
+  "batch": "spatial-4d-2026-10d"
+ },
+ {
+  "name": "MPEG call for dynamic Gaussian splat test material (WG 5 N 422, 2026-08)",
+  "why": "A standards call for test material, not a work; noted for trend-4d-media (MPEG-155 'Call for content for Gaussian splat coding', w26655, 2026-07-31, asked for dynamic 3DGS sequences by 2026-10-15 ahead of a Call for Proposals).",
+  "link": "https://www.mpeg.org/standards/Explorations/45/",
+  "found_via": "khronos-group",
+  "status": "off_topic",
+  "batch": "spatial-4d-2026-10d"
+ },
+ {
+  "name": "Splat.js (Arrival.Space, 2026-08)",
+  "why": "Tool feature, not a separate work; noted for trend-explicit-3d (MIT-licensed WebGPU library for in-browser SfM and 3DGS training, created 2026-08-19).",
+  "link": "https://github.com/arrival-space/splat.js",
+  "found_via": "playcanvas",
+  "status": "off_topic",
+  "batch": "spatial-4d-2026-10d"
+ },
+ {
   "name": "Zebra3D (AMD, 2026-10-08)",
   "why": "Re-checked 2026-10-18: arXiv only (2610.12727), no project page or video.",
   "link": "https://arxiv.org/abs/2610.12727",
   "found_via": "seed",
   "status": "no_media",
   "batch": "spatial-4d-2026-10b"
+ },
+ {
+  "name": "Houdini 22 native Gaussian splats (SideFX, 2026-06)",
+  "why": "Added as sidefx--houdini-22-gaussian-splats.",
+  "link": "https://www.sidefx.com/products/whats-new-in-h22/gaussian-splats/",
+  "found_via": "playcanvas",
+  "status": "duplicate",
+  "batch": "spatial-4d-2026-10d"
  },
  {
   "name": "LSRM: Large Sparse Reconstruction Model (Meta Reality Labs, 2026-04)",
@@ -2534,6 +2814,30 @@
   "found_via": "seed",
   "status": "no_media",
   "batch": "spatial-4d-2026-10b"
+ },
+ {
+  "name": "Consistent4D (ICLR 2024)",
+  "why": "Added as yanqin-jiang--consistent4d, with the project-page teaser mp4 instead of the old YouTube link.",
+  "link": "https://consistent4d.github.io/",
+  "found_via": "yanqin-jiang",
+  "status": "duplicate",
+  "batch": "spatial-4d-2026-10d"
+ },
+ {
+  "name": "Diffusion4D and 4Diffusion (NeurIPS 2024)",
+  "why": "Below salience bar: 2024 4D-aware multi-view video diffusion for objects is already represented by Animate3D, SV4D and L4GM.",
+  "link": "https://arxiv.org/abs/2405.16645",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "spatial-4d-2026-10d"
+ },
+ {
+  "name": "Fast 4D Mesh Generation by Spatio-Temporal Attention Chains (NVIDIA, 2026-05)",
+  "why": "Below salience bar: a training-free speed-up of existing 4D mesh generators, an incremental step rather than a new capability.",
+  "link": "https://arxiv.org/abs/2605.19786",
+  "found_via": "nvidia",
+  "status": "off_topic",
+  "batch": "spatial-4d-2026-10d"
  },
  {
   "name": "CityDreamer4D (2025)",
@@ -3184,6 +3488,14 @@
   "batch": "video-2026-10"
  },
  {
+  "name": "Real-Time Joint Audio-Video Generation by Parallel Adapter Composition (arXiv 2610.10343)",
+  "why": "Below the salience bar: v2 names the authors (Jingyu Li, Xiaoxiao Xiang, Yiwen Guo) but there is no lab of note and no venue yet (ICLR 2027 submission), and its 26 fps, 30-second streaming audio-video at 480x832 is represented by shengshu--vidu-s1.",
+  "link": "https://pac-demo-2027.github.io/demo/",
+  "found_via": "audio",
+  "status": "off_topic",
+  "batch": "video-2026-10d"
+ },
+ {
   "name": "Kandinsky 6.0 Video (audio-batch lead)",
   "why": "Added in this batch as kandinsky-lab--kandinsky-6-video.",
   "link": "https://arxiv.org/abs/2610.05608",
@@ -3222,6 +3534,14 @@
   "found_via": "seed",
   "status": "no_media",
   "batch": "video-2026-10b"
+ },
+ {
+  "name": "PhysStream (arXiv 2609.17521)",
+  "why": "Below the salience bar: interactive only in the control sense (0.74 fps, 2.54 fps accelerated, on one GPU per the paper) and limited to tabletop rigid bodies; physics-responsive interactive generation is covered by odyssey--odyssey-3 and decart--oasis-3.",
+  "link": "https://czzzzh.github.io/PhysStream/",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "video-2026-10d"
  },
  {
   "name": "Self-Aligned Forcing (arXiv 2609.38114)",
@@ -3672,6 +3992,14 @@
   "batch": "world-models-2026-10b"
  },
  {
+  "name": "Puffin-World (arXiv 2609.04196)",
+  "why": "Below the salience bar for both world-models and worlds-3d (decided here; the worlds-3d copy has the same name): NTU S-Lab open model whose generation follows a given camera path offline rather than reacting to actions, overlapping SANA-WM, Lyra and HunyuanWorld-Voyager; its main advance is gravity-aware camera understanding. Demo: https://kangliao929.github.io/projects/puffin-world/assets/puffin-world-demo-1080p.mp4",
+  "link": "https://kangliao929.github.io/projects/puffin-world/",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "world-models-2026-10d"
+ },
+ {
   "name": "InSpatio-WorldFM (InSpatio, 2026-03)",
   "why": "Added in the 2026-10 update as inspatio--worldfm; its sibling InSpatio-World is owned by the gen4d batch.",
   "link": "https://www.inspatio.com/models/worldfm",
@@ -3704,12 +4032,52 @@
   "batch": "world-models-2026-10b"
  },
  {
+  "name": "Honeycomb: Constant-Size Scene Memory for Video World Models (arXiv 2609.37690)",
+  "why": "Below the salience bar: academic paper without venue; fixed-size scene memory overlaps WorldCrafter, LOCI and ReWorld.",
+  "link": "https://jackswl.github.io/honeycomb",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "world-models-2026-10d"
+ },
+ {
+  "name": "Spatial Memory Intelligence (arXiv 2610.02521)",
+  "why": "Below the salience bar: academic paper without venue; MLLM-managed memory retrieval overlaps MemLearner and WorldCrafter.",
+  "link": "https://spatial-memory-intelligence.github.io/",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "world-models-2026-10d"
+ },
+ {
+  "name": "GameDirector (arXiv 2609.25652) and StatePlay (arXiv 2607.26754)",
+  "why": "Below the salience bar: NTU papers without venue; keeping game rules outside the renderer is already represented by Matrix-Game 4 (skywork--matrix-game-4).",
+  "link": "https://jimntu.github.io/gamedirector/",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "world-models-2026-10d"
+ },
+ {
   "name": "Khora: Population-Scalable Multi-Agent World Modeling (rhos.ai, arXiv 2608.08600)",
   "why": "Added in round 2 as rhos-ai--khora.",
   "link": "https://rhos.ai/research/khora",
   "found_via": "rhos-ai",
   "status": "duplicate",
   "batch": "world-models-2026-10b"
+ },
+ {
+  "name": "PAWA: Panoramic Action-conditioned World Modeling for Multiple Agents (arXiv 2610.20240)",
+  "why": "Below the salience bar: multiplayer Minecraft world modelling is covered by Solaris, and panoramic world state by PanoWorld.",
+  "link": "https://pawa.siki.moe",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "world-models-2026-10d"
+ },
+ {
+  "name": "Generative World Simulation with DAO and JING (XGEN, arXiv 2610.19726)",
+  "why": "Added as xgen-labs--dao-jing.",
+  "link": "https://arxiv.org/abs/2610.19726",
+  "found_via": "seed",
+  "status": "duplicate",
+  "batch": "world-models-2026-10d"
  },
  {
   "name": "Oneira (arXiv 2610.01614) and ReWorld (arXiv 2608.23565)",
@@ -3720,6 +4088,22 @@
   "batch": "world-models-2026-10b"
  },
  {
+  "name": "DreamForge-World 0.1 Preview (arXiv 2606.30292)",
+  "why": "Below the salience bar: two-author preview built on LongLive with a Matrix-Game-style action path; low-compute world models are covered by MoWorld and MinWM.",
+  "link": "https://arxiv.org/abs/2606.30292",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "world-models-2026-10d"
+ },
+ {
+  "name": "ABot-3DWorld 0 (AMAP / Alibaba, arXiv 2607.11673)",
+  "why": "Not a world-models work: it turns text, images or video into explorable 3DGS worlds (worlds-3d/explorable), and the official page shows no video as of 2026-10-18; re-list under worlds-3d if a video appears.",
+  "link": "https://abot-world.amap.com/plaza",
+  "found_via": "alibaba-tongyi",
+  "status": "off_topic",
+  "batch": "world-models-2026-10d"
+ },
+ {
   "name": "Multiplayer Interactive World Models with Representation Autoencoders (arXiv 2607.05352)",
   "why": "Technical report of MIRA (General Intuition with Kyutai): same 2026-07-06 date, Rocket League, 5B, four players, 20 fps. Already in the data as general-intuition--mira, whose paper field could take arXiv 2607.05352.",
   "link": "https://arxiv.org/abs/2607.05352",
@@ -3728,12 +4112,44 @@
   "batch": "world-models-2026-10b"
  },
  {
+  "name": "WorldWeaver: Streaming Multi-Agent Autoregressive Diffusion with World State Registers (UCLA, arXiv 2607.21594)",
+  "why": "Below the salience bar: shared multi-agent world state is covered by Khora, WorldCast and Gamma-World.",
+  "link": "https://vail-ucla.github.io/worldweaver/",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "world-models-2026-10d"
+ },
+ {
+  "name": "Cycle-World (ECCV 2026, arXiv 2607.11836)",
+  "why": "ECCV 2026 paper without project page, code or video as of 2026-10-18.",
+  "link": "https://arxiv.org/abs/2607.11836",
+  "found_via": "seed",
+  "status": "no_media",
+  "batch": "world-models-2026-10d"
+ },
+ {
+  "name": "GameWAM: A World Action Model for Video Games (arXiv 2608.26200)",
+  "why": "Below the salience bar: a four-author game-playing policy that also predicts frames (closer to agents/embodied), no venue.",
+  "link": "https://arxiv.org/abs/2608.26200",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "world-models-2026-10d"
+ },
+ {
   "name": "Player-1: Learning to Play from Synthetic Experience (arXiv 2610.20584)",
   "why": "Agent trained on world-model experience; belongs to agents. Covered by work mingyu-ouyang--player-1 (2026-10 update).",
   "link": "https://player-1-project.github.io/",
   "found_via": "seed",
   "status": "duplicate",
   "batch": "world-models-2026-10"
+ },
+ {
+  "name": "Oneira: From Open-Ended Generation to Open-World Interaction in Video World Models (arXiv 2610.01614)",
+  "why": "Below the salience bar: academic paper without venue; persistent interaction state and acting on new objects are represented by ActWorld and DAO and JING, added in this round.",
+  "link": "https://madaoer.github.io/projects/oneira",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "world-models-2026-10d"
  },
  {
   "name": "MASS: Multiplayer World Models with Authoritative Shared State (Alaya Lab, arXiv 2608.06257)",
@@ -3758,6 +4174,62 @@
   "found_via": "seed",
   "status": "no_media",
   "batch": "world-models-2026-10b"
+ },
+ {
+  "name": "Prisma-World: Camera-Controllable Multi-Agent Video World Model (arXiv 2606.09507)",
+  "why": "Below the salience bar: multiplayer world models are covered by Solaris, WorldCast, Khora, Gamma-World, MIRA and Agora 2.",
+  "link": "https://huiqiang-sun.github.io/prisma-world/",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "world-models-2026-10d"
+ },
+ {
+  "name": "ActWorld: From Explorable to Interactive World Model via Action-Aware Memory (arXiv 2606.17730)",
+  "why": "Added as zhexiao-xiong--actworld.",
+  "link": "https://interactwm.github.io/ActWorld",
+  "found_via": "seed",
+  "status": "duplicate",
+  "batch": "world-models-2026-10d"
+ },
+ {
+  "name": "WorldKV: Efficient World Memory with World Retrieval and Compression (KAIST, arXiv 2605.22718)",
+  "why": "Below the salience bar: training-free KV-cache retrieval overlaps WorldTrace, ReWorld and LOCI.",
+  "link": "https://cvlab-kaist.github.io/WorldKV/",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "world-models-2026-10d"
+ },
+ {
+  "name": "BiWM: Advancing Open-Source Interactive Video World Models with Bidirectional Autoregression (arXiv 2606.10135)",
+  "why": "Below the salience bar: open training framework (LynnReal-AI/BiWM, demo only as a GitHub attachment) that overlaps MinWM (Shengshu) and SolarWM.",
+  "link": "https://arxiv.org/abs/2606.10135",
+  "found_via": "seed",
+  "status": "off_topic",
+  "batch": "world-models-2026-10d"
+ },
+ {
+  "name": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World (Alaya Lab, arXiv 2608.13546)",
+  "why": "Added as alaya-lab--alaya-evoke.",
+  "link": "https://github.com/AlayaLab/Evoke",
+  "found_via": "alaya-lab",
+  "status": "duplicate",
+  "batch": "world-models-2026-10d"
+ },
+ {
+  "name": "AlayaVista: Streaming World Modeling from Panoramic States to Perspective Video (arXiv 2609.14462)",
+  "why": "Below the salience bar: panoramic world state overlaps MoVerse and PanoWorld; Alaya Lab is represented by AlayaWorld and Alaya-EVOKE.",
+  "link": "https://alaya-lab.github.io/AlayaVista/",
+  "found_via": "alaya-lab",
+  "status": "off_topic",
+  "batch": "world-models-2026-10d"
+ },
+ {
+  "name": "Decart Lucy 2 / Lucy 2.5 (2026)",
+  "why": "Covered by decart--lucy-2 (video/realtime), which also describes Lucy 2.5.",
+  "link": "https://decart.ai/blog",
+  "found_via": "decart",
+  "status": "duplicate",
+  "batch": "world-models-2026-10d"
  },
  {
   "name": "PROWL-2 (Odyssey, 2026-10-01)",

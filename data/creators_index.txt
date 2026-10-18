@@ -8,7 +8,7 @@ ai2 | Allen Institute for AI (Ai2) | 1 works
 ailing-zeng | Ailing Zeng | 1 works
 akilan-amithasagaran | Akilan Amithasagaran | 1 works
 akio-kodaira | Akio Kodaira | 1 works
-alaya-lab | Alaya Lab | 5 works
+alaya-lab | Alaya Lab | 6 works
 albert-rizzo | Albert "Skip" Rizzo | 2 works
 alessio-grancini | Alessio Grancini | 1 works
 alexander-raistrick | Alexander Raistrick | 1 works
@@ -26,7 +26,7 @@ amir-mann | Amir Mann | 1 works
 anam | Anam | 1 works
 andrew-liu | Andrew Liu | 1 works
 andy-serkis | Andy Serkis | 1 works
-ant-group | Ant Group | 1 works
+ant-group | Ant Group | 2 works
 anuttacon | Anuttacon | 1 works
 anything-world | Anything World | 1 works
 apple | Apple | 6 works
@@ -61,7 +61,7 @@ bowen-xue | Bowen Xue | 1 works
 bowen-zhang | Bowen Zhang | 1 works
 boyuan-chen | Boyuan Chen | 1 works
 brian-nlong-zhao | Brian Nlong Zhao | 1 works
-bytedance-seed | ByteDance Seed | 21 works
+bytedance-seed | ByteDance Seed | 22 works
 camel-ai | CAMEL-AI | 1 works
 chaoyang-wang | Chaoyang Wang | 1 works
 chaoyue-song | Chaoyue Song | 1 works
@@ -69,6 +69,7 @@ character-ai | Character.AI | 3 works
 chen-geng | Chen Geng | 1 works
 chen-tessler | Chen Tessler | 1 works
 chen-yang | Chen Yang | 1 works
+cheng-chen-ntu | Cheng Chen | 1 works
 cheng-chih-tsai | Cheng-Chih Tsai | 1 works
 cheng-kuang-chang | Cheng-Kuang Chang | 1 works
 chengqian-ma | Chengqian Ma | 1 works
@@ -145,6 +146,7 @@ guibao-shen | Guibao Shen | 1 works
 guido-makransky | Guido Makransky | 1 works
 gustav-bog-petersen | Gustav Bøg Petersen | 1 works
 guy-tevet | Guy Tevet | 1 works
+guying-lin | Guying Lin | 1 works
 habin-lim | Habin Lim | 1 works
 haiyu-zhang | Haiyu Zhang | 1 works
 hal-hershfield | Hal Hershfield | 1 works
@@ -154,6 +156,7 @@ hanwen-liang | Hanwen Liang | 1 works
 hanxue-liang | Hanxue Liang | 1 works
 hao-zhang | Hao Zhang | 1 works
 haocheng-xi | Haocheng Xi | 1 works
+haotian-mao | Haotian Mao | 1 works
 haotong-lin | Haotong Lin | 1 works
 haoxuan-che | Haoxuan Che | 1 works
 haoyi-duan | Haoyi Duan | 1 works
@@ -181,6 +184,7 @@ inspatio | InSpatio | 2 works
 insta360 | Insta360 | 1 works
 inworld-ai | Inworld AI | 4 works
 jacob-barker | Jacob Barker | 1 works
+jaejun-park | Jaejun Park | 1 works
 jaewook-lee | Jaewook Lee | 1 works
 jaeyeon-kim | Jaeyeon Kim | 1 works
 jaeyoung-chung | Jaeyoung Chung | 1 works
@@ -269,6 +273,7 @@ lu-ling | Lu Ling | 1 works
 lukas-hollein | Lukas Höllein | 1 works
 luma-ai | Luma AI | 5 works
 lvmin-zhang | Lvmin Zhang | 1 works
+manwen-liao | Manwen Liao | 1 works
 manycore | Manycore Tech | 1 works
 mar-gonzalez-franco | Mar Gonzalez-Franco | 2 works
 marcel-binz | Marcel Binz | 1 works
@@ -377,7 +382,7 @@ seedleap | Seedleap.ai | 1 works
 sensen-gao | Sensen Gao | 1 works
 sesame | Sesame | 2 works
 seung-wook-kim | Seung Wook Kim | 1 works
-shanghai-ai-lab | Shanghai AI Laboratory | 3 works
+shanghai-ai-lab | Shanghai AI Laboratory | 4 works
 shenghai-yuan | Shenghai Yuan | 1 works
 shengjun-zhang | Shengjun Zhang | 1 works
 shengshu | Shengshu Technology (Vidu) | 5 works
@@ -393,8 +398,10 @@ shuai-yang-hkustgz | Shuai Yang | 1 works
 shunsuke-saito | Shunsuke Saito | 1 works
 shuzhe-wang | Shuzhe Wang | 1 works
 siddharth-ahuja | Siddharth Ahuja | 1 works
+sidefx | SideFX | 1 works
 sijie-zhao | Sijie Zhao | 1 works
 simile | Simile | 1 works
+simli | Simli | 1 works
 sixiao-zheng | Sixiao Zheng | 1 works
 siyin-wang | Siyin Wang | 1 works
 skywork | Skywork (Kunlun Tech) | 5 works
@@ -404,6 +411,7 @@ sofia-seinfeld | Sofia Seinfeld | 1 works
 solene-neyret | Solène Neyret | 1 works
 sony | Sony Group | 1 works
 soul-ai-lab | Soul AI Lab | 1 works
+soul-machines | Soul Machines | 1 works
 spaitial | SpAItial | 2 works
 sruti-srinidhi | Sruti Srinidhi | 1 works
 stability-ai | Stability AI | 9 works
@@ -439,7 +447,7 @@ tom-craig | Tom Craig | 1 works
 tomoki-itamiya | Tomoki Itamiya | 1 works
 tong-wu | Tong Wu | 1 works
 transitional-forms | Transitional Forms | 1 works
-tripo-ai | Tripo AI (VAST) | 10 works
+tripo-ai | Tripo AI (VAST) | 11 works
 tsai-shien-chen | Tsai-Shien Chen | 1 works
 tsehaye-haidemariam | Tsehaye Haidemariam | 1 works
 tsinghua-fib-lab | Tsinghua University FIB Lab | 2 works
@@ -467,6 +475,7 @@ wemade-next | Wemade Next | 1 works
 wenqiang-sun | Wenqiang Sun | 1 works
 world-labs | World Labs | 7 works
 xai | xAI (SpaceXSI) | 2 works
+xgen-labs | XGEN Labs | 1 works
 xiangyue-zhang | Xiangyue Zhang | 1 works
 xianhao-carton-liu | Xianhao Carton Liu | 1 works
 xiaofeng-mao | Xiaofeng Mao | 1 works
@@ -481,10 +490,10 @@ xudong-xu | Xudong Xu | 1 works
 xueyang-wang | Xueyang Wang | 1 works
 xun-huang | Xun Huang | 1 works
 yang-gao-beihang | Yang Gao | 1 works
-yang-tian-sun | Yang-Tian Sun | 1 works
+yang-tian-sun | Yang-Tian Sun | 2 works
 yang-zhou-youku | Yang Zhou | 1 works
 yanni-mei | Yanni Mei | 1 works
-yanqin-jiang | Yanqin Jiang | 1 works
+yanqin-jiang | Yanqin Jiang | 2 works
 yehonathan-litman | Yehonathan Litman | 1 works
 yi-hua-huang | Yi-Hua Huang | 1 works
 yichen-chai | Yichen Chai | 1 works
@@ -514,6 +523,7 @@ zhan-xu | Zhan Xu | 1 works
 zhaoxi-chen | Zhaoxi Chen | 2 works
 zhen-xu | Zhen Xu | 1 works
 zhengqi-li | Zhengqi Li | 1 works
+zhexiao-xiong | Zhexiao Xiong | 1 works
 zhibing-li | Zhibing Li | 1 works
 zhifei-chen | Zhifei Chen | 1 works
 zhipu-ai | Zhipu AI | 1 works

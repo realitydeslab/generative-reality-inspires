@@ -745,8 +745,8 @@
     "url": "",
     "gap_en": "Exported worlds are static (people, weather and events must be added with an engine or agents), lighting is baked, scale is arbitrary, and image metrics miss floaters that stand out in stereo.",
     "gap_zh": "导出的世界是静态的（人物、天气和事件需借助引擎或智能体添加），光照是烘焙的，尺度不确定，而图像质量指标会漏掉在立体观看时才明显的漂浮伪影。",
-    "next_en": "Atlas will power future versions of Marble, and engine-plus-model hybrids (Matrix-Game 4.0) keep game state explicit while a network draws the pixels.",
-    "next_zh": "Atlas 将用于未来版本的 Marble；引擎加模型的混合方案（Matrix-Game 4.0）把游戏状态保存在引擎中，由神经网络绘制画面。"
+    "next_en": "Atlas will power future versions of Marble, and engine-plus-model hybrids (Matrix-Game 4.0) keep game state explicit while a network draws the pixels. Splats are becoming a native format in production tools: Houdini 22 (2026-06-22) trains and rigs them, three.js r186 (2026-09-24) renders them on the web, and Blender 5.3 imports and renders them (beta).",
+    "next_zh": "Atlas 将用于未来版本的 Marble；引擎加模型的混合方案（Matrix-Game 4.0）把游戏状态保存在引擎中，由神经网络绘制画面。高斯泼溅正成为制作工具的原生格式：Houdini 22（2026-06-22）可以训练和绑定泼溅，three.js r186（2026-09-24）可在网页中渲染，Blender 5.3 也支持导入和渲染（测试版）。"
    },
    {
     "id": "trend-full-duplex",
@@ -2213,7 +2213,7 @@
    "name_zh": "字节跳动 Seed",
    "based": "Beijing, China",
    "based_zh": "中国北京",
-   "work_count": 21
+   "work_count": 22
   },
   {
    "id": "convai",
@@ -2838,6 +2838,50 @@
    "work_count": 1
   },
   {
+   "id": "manwen-liao",
+   "links": {},
+   "connected_to": [
+    "shanghai-ai-lab"
+   ],
+   "name": "Manwen Liao",
+   "kind": "person",
+   "role": "PhD researcher, The University of Hong Kong",
+   "based": "Hong Kong, China",
+   "bio": "First author of MegaParts (2026), developed during an internship at Shanghai AI Laboratory with the team behind MeshCoder.",
+   "why": "MegaParts scales part-aware 3D generation to objects of up to 300 separate parts.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "role_zh": "香港大学博士研究者",
+   "bio_zh": "MegaParts（2026）第一作者，该工作在上海人工智能实验室实习期间与 MeshCoder 团队合作完成。",
+   "why_zh": "MegaParts 把部件级三维生成扩展到最多由 300 个独立部件组成的物体。",
+   "based_zh": "中国香港",
+   "discovered_via": "shanghai-ai-lab",
+   "work_count": 1
+  },
+  {
+   "id": "guying-lin",
+   "links": {},
+   "connected_to": [],
+   "name": "Guying Lin",
+   "kind": "person",
+   "role": "PhD researcher, Carnegie Mellon University",
+   "based": "Pittsburgh, US",
+   "bio": "First author of PAT3D (ICLR 2026), developed at Carnegie Mellon University with The University of Hong Kong and HKUST.",
+   "why": "PAT3D puts a differentiable physics simulator inside text-to-3D scene generation, so generated rooms are ready for simulation.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "role_zh": "卡内基梅隆大学博士研究者",
+   "bio_zh": "PAT3D（ICLR 2026）第一作者，该工作由卡内基梅隆大学与香港大学、香港科技大学合作完成。",
+   "why_zh": "PAT3D 把可微物理仿真器放进文本生成三维场景的流程里，生成的房间可以直接用于仿真。",
+   "based_zh": "美国匹兹堡",
+   "discovered_via": "seed",
+   "work_count": 1
+  },
+  {
    "id": "meshy",
    "links": {
     "site": "https://www.meshy.ai/",
@@ -2887,7 +2931,7 @@
    "why_zh": "中国领先的三维资产团队，同时推出商用模型和社区广泛使用的开源权重。",
    "based_zh": "中国北京",
    "discovered_via": "seed",
-   "work_count": 10
+   "work_count": 11
   },
   {
    "id": "deemos",
@@ -3784,7 +3828,7 @@
    "why_zh": "Realtime-Venus 是一类开源对话模型的代表：边说边听，并把任务交给后台执行。",
    "based_zh": "中国杭州",
    "discovered_via": "seed",
-   "work_count": 1
+   "work_count": 2
   },
   {
    "id": "cheng-kuang-chang",
@@ -4620,6 +4664,79 @@
    "why_zh": "PixReenact 让真人表演者实时驱动另一张人脸。",
    "based_zh": "以色列",
    "discovered_via": "seed",
+   "work_count": 1
+  },
+  {
+   "id": "simli",
+   "links": {
+    "site": "https://www.simli.com/"
+   },
+   "connected_to": [
+    "daily",
+    "livekit"
+   ],
+   "name": "Simli",
+   "kind": "company",
+   "role": "Real-time avatar API company (Simli AS)",
+   "bio": "Simli sells a speech-to-video API that adds a lip-synced face to real-time voice agents, with plug-ins for LiveKit and Pipecat; in July 2025 it launched Trinity-1, a Gaussian-splat avatar model.",
+   "why": "A low-cost face layer that voice-agent stacks can plug in, which turns a talking face into a standard part of an interactive scenario.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "role_zh": "实时虚拟人 API 公司（Simli AS）",
+   "bio_zh": "Simli 提供语音转视频 API，为实时语音智能体加上一张口型同步的人脸，并提供 LiveKit 与 Pipecat 插件；2025 年 7 月推出基于高斯泼溅的虚拟人模型 Trinity-1。",
+   "why_zh": "它是语音智能体技术栈可以直接接入的低成本“面孔层”，让会说话的面孔成为交互情境中的标准部件。",
+   "discovered_via": "seed",
+   "work_count": 1
+  },
+  {
+   "id": "soul-machines",
+   "links": {
+    "site": "https://www.soulmachines.com/",
+    "youtube": "https://www.youtube.com/@SoulMachinesTV"
+   },
+   "connected_to": [],
+   "name": "Soul Machines",
+   "kind": "company",
+   "role": "Digital human company with autonomous animation (acquired by AppDirect in 2026)",
+   "based": "Auckland, New Zealand",
+   "bio": "Soul Machines was founded in 2016 by Mark Sagar and Greg Cross as a spin-out of the University of Auckland's Laboratory for Animate Technologies, home of the BabyX research; it sells Digital People whose faces are animated by a simulated 'Digital Brain'. AppDirect announced on 2026-09-28 that it had acquired the company.",
+   "why": "The longest-running attempt to drive a conversational face from a model of nervous-system processes rather than from generated video, and a 2026 example of avatar companies being absorbed by platforms.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "role_zh": "具备自主动画能力的数字人公司（2026 年被 AppDirect 收购）",
+   "based_zh": "新西兰奥克兰",
+   "bio_zh": "Soul Machines 由 Mark Sagar 与 Greg Cross 于 2016 年创立，源自奥克兰大学的 Laboratory for Animate Technologies（BabyX 研究的所在地）；公司出售由模拟“数字大脑”驱动面部动画的 Digital People。AppDirect 于 2026-09-28 宣布收购该公司。",
+   "why_zh": "它是持续最久的一种尝试：用对神经系统过程的建模而非视频生成来驱动对话中的面孔；它在 2026 年被收购，也说明虚拟人公司正被平台公司吸收。",
+   "discovered_via": "seed",
+   "work_count": 1
+  },
+  {
+   "id": "cheng-chen-ntu",
+   "links": {
+    "site": "https://steller-cheng.github.io/DiVA/"
+   },
+   "connected_to": [
+    "ant-group"
+   ],
+   "name": "Cheng Chen",
+   "kind": "person",
+   "role": "Researcher, Nanyang Technological University and A*STAR",
+   "based": "Singapore",
+   "bio": "Cheng Chen is first author of DiVA (2026), an interactive digital-life simulator built with Ant Group researchers including Hao Ouyang and Yujun Shen; the paper lists NTU, A*STAR's Institute for Infocomm Research and Ant Group as affiliations.",
+   "why": "DiVA treats a video character as a long-running loop of waiting, acting and returning to stable states rather than as one long clip.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "role_zh": "南洋理工大学与新加坡科技研究局（A*STAR）研究者",
+   "based_zh": "新加坡",
+   "bio_zh": "Cheng Chen 是 DiVA（2026）的第一作者。DiVA 是一个可交互的“数字生命”模拟系统，与蚂蚁集团的 Hao Ouyang、Yujun Shen 等研究者合作完成；论文署名单位为南洋理工大学、A*STAR 信息通信研究院和蚂蚁集团。",
+   "why_zh": "DiVA 把视频角色看作“等待—行动—回到稳定状态”的长期循环，而不是一段越来越长的视频。",
+   "discovered_via": "ant-group",
    "work_count": 1
   },
   {
@@ -7365,6 +7482,29 @@
    "work_count": 1
   },
   {
+   "id": "haotian-mao",
+   "links": {
+    "site": "https://arxiv.org/abs/2412.09176"
+   },
+   "connected_to": [],
+   "name": "Haotian Mao",
+   "kind": "person",
+   "role": "Researcher, Shanghai Jiao Tong University",
+   "based": "Shanghai, China",
+   "bio": "Haotian Mao is first author of LIVE-GS (IEEE VR 2026, TVCG), written with Xubo Yang and colleagues at Shanghai Jiao Tong University and Nianchen Deng of Shanghai AI Lab.",
+   "why": "LIVE-GS lets a language model set the physics of a captured Gaussian-splat scene so it can be handled in VR.",
+   "disciplines": [
+    "graphics",
+    "hci"
+   ],
+   "role_zh": "上海交通大学研究者",
+   "based_zh": "中国上海",
+   "bio_zh": "Haotian Mao 是 LIVE-GS（IEEE VR 2026，TVCG）的第一作者，合作者包括上海交通大学的 Xubo Yang 等人以及上海人工智能实验室的 Nianchen Deng。",
+   "why_zh": "LIVE-GS 让语言模型为采集得到的高斯泼溅场景设定物理属性，使人可以在 VR 中直接操作它。",
+   "discovered_via": "seed",
+   "work_count": 1
+  },
+  {
    "id": "reality-design-lab",
    "links": {
     "site": "https://reality.design",
@@ -9045,7 +9185,7 @@
    "based": "Shanghai, CN",
    "based_zh": "中国上海",
    "discovered_via": "seed",
-   "work_count": 3
+   "work_count": 4
   },
   {
    "id": "ruijie-zhu",
@@ -9345,6 +9485,29 @@
    "work_count": 1
   },
   {
+   "id": "sidefx",
+   "links": {
+    "site": "https://www.sidefx.com/",
+    "youtube": "https://www.youtube.com/@houdini3d"
+   },
+   "connected_to": [],
+   "name": "SideFX",
+   "kind": "company",
+   "role": "Maker of the Houdini procedural 3D software",
+   "based": "Toronto, CA",
+   "bio": "Canadian software company (Side Effects Software) whose Houdini is a standard tool for visual effects, procedural modeling and game content in film and game studios.",
+   "why": "Houdini 22 (2026) made Gaussian splats a production data type that can be trained, rigged, animated, relit and composited like meshes.",
+   "disciplines": [
+    "graphics"
+   ],
+   "role_zh": "程序化三维软件 Houdini 的开发商",
+   "bio_zh": "加拿大软件公司（Side Effects Software），其 Houdini 是电影和游戏工作室在视觉特效、程序化建模与游戏内容制作中的标准工具。",
+   "why_zh": "Houdini 22（2026）把高斯泼溅变成生产级数据类型，可以像网格一样训练、绑定、动画、重光照和合成。",
+   "based_zh": "加拿大多伦多",
+   "discovered_via": "playcanvas",
+   "work_count": 1
+  },
+  {
    "id": "sherwin-bahmani",
    "links": {
     "site": "https://sherwinbahmani.github.io/"
@@ -9432,7 +9595,7 @@
    "discovered_via": "seed",
    "based": "Beijing, CN",
    "based_zh": "中国北京",
-   "work_count": 1
+   "work_count": 2
   },
   {
    "id": "zijie-wu",
@@ -11202,7 +11365,7 @@
    "why_zh": "Stereo World Model 同时生成左右眼视频，这正是头显播放所需要的。",
    "based_zh": "中国香港",
    "discovered_via": "tripo-ai",
-   "work_count": 1
+   "work_count": 2
   },
   {
    "id": "shiqian-li",
@@ -11940,7 +12103,7 @@
    "bio_zh": "一家研究 AI 游戏创作、世界模型与游戏智能体的实验室，发布了 Yume 交互世界模型（2025）、Sekai 探索数据集以及开源的 AlayaWorld 框架（2026）。",
    "why_zh": "开源交互世界模型最稳定的来源之一：公开权重、代码和部分训练数据。",
    "discovered_via": "seed",
-   "work_count": 5
+   "work_count": 6
   },
   {
    "id": "xiaofeng-mao",
@@ -12503,6 +12666,56 @@
    "bio_zh": "Generated Reality（CVPR 2026 Findings）的第一作者。该工作是由头部与手部追踪控制的 VR 视频世界模型，出自斯坦福大学 Gordon Wetzstein 团队，合作者来自上海纽约大学与北卡罗来纳大学。",
    "why_zh": "把世界模型与头显已有的身体追踪连接起来。",
    "based_zh": "美国斯坦福",
+   "discovered_via": "seed",
+   "work_count": 1
+  },
+  {
+   "id": "xgen-labs",
+   "links": {
+    "site": "https://xgenlabs.ai/",
+    "github": "https://github.com/XGEN-Labs",
+    "huggingface": "https://huggingface.co/XGENlabs"
+   },
+   "connected_to": [
+    "haoxuan-che",
+    "minimax"
+   ],
+   "name": "XGEN Labs",
+   "kind": "company",
+   "role": "World-model lab",
+   "bio": "A lab that calls itself a frontier lab for world intelligence; in September 2026 it released XGEN-JING, an open egocentric audio-video world model, and in October 2026 the technical report on DAO, its world engine.",
+   "why": "Pairs a generated first-person view with an explicit shared world state, so consequences remain after an observer leaves.",
+   "disciplines": [
+    "ml",
+    "games"
+   ],
+   "role_zh": "世界模型实验室",
+   "bio_zh": "自称“面向世界智能的前沿实验室”；2026 年 9 月开源了第一人称音视频世界模型 XGEN-JING，10 月发布了其世界引擎 DAO 的技术报告。",
+   "why_zh": "把生成的第一人称画面与一个明确的共享世界状态结合起来，观察者离开后，行动的后果依然存在。",
+   "discovered_via": "seed",
+   "work_count": 1
+  },
+  {
+   "id": "zhexiao-xiong",
+   "links": {
+    "site": "https://interactwm.github.io/ActWorld/"
+   },
+   "connected_to": [
+    "bytedance-seed"
+   ],
+   "name": "Zhexiao Xiong",
+   "kind": "person",
+   "role": "Researcher at Washington University in St. Louis; first author of ActWorld",
+   "based": "St. Louis, USA",
+   "bio": "First author of ActWorld (NeurIPS 2026), an interactive world model with object interaction, written during an internship with ByteDance's Intelligent Creation team.",
+   "why": "Works on world models in which a player can act on objects, not only move through a scene.",
+   "disciplines": [
+    "ml"
+   ],
+   "role_zh": "圣路易斯华盛顿大学研究者，ActWorld 第一作者",
+   "bio_zh": "ActWorld（NeurIPS 2026）的第一作者。这是一个支持物体交互的交互式世界模型，完成于其在字节跳动智能创作团队实习期间。",
+   "why_zh": "研究玩家不只能在场景中移动、还能动手操作物体的世界模型。",
+   "based_zh": "美国圣路易斯",
    "discovered_via": "seed",
    "work_count": 1
   },
@@ -13260,6 +13473,29 @@
    "bio_zh": "为汽车、卡车和国防客户提供仿真、自动驾驶与车辆软件工具，并以 Applied Intuition Research 名义发表研究。",
    "why_zh": "开源了 Building Rome 的权重，可从单张照片生成室内外三维场景网格。",
    "based_zh": "美国加利福尼亚州山景城",
+   "discovered_via": "seed",
+   "work_count": 1
+  },
+  {
+   "id": "jaejun-park",
+   "links": {
+    "youtube": "https://www.youtube.com/@PostechHVRLab"
+   },
+   "connected_to": [],
+   "name": "Jaejun Park",
+   "kind": "person",
+   "role": "Researcher, POSTECH Interaction Laboratory",
+   "based": "Pohang, South Korea",
+   "bio": "Jaejun Park is first author of GenTouchVR (IEEE VR 2026, TVCG), written with Soyeon Nam, Jeongwoo Kim, Uison Ju and Seungmoon Choi at POSTECH's haptics and virtual reality laboratory.",
+   "why": "GenTouchVR generates the force feedback of a VR scene, not only its appearance, from a single photo.",
+   "disciplines": [
+    "hci",
+    "graphics"
+   ],
+   "role_zh": "浦项工科大学（POSTECH）交互实验室研究者",
+   "based_zh": "韩国浦项",
+   "bio_zh": "Jaejun Park 是 GenTouchVR（IEEE VR 2026，TVCG）的第一作者，合作者为 POSTECH 触觉与虚拟现实实验室的 Soyeon Nam、Jeongwoo Kim、Uison Ju 和 Seungmoon Choi。",
+   "why_zh": "GenTouchVR 从一张照片生成的不只是 VR 场景的外观，还有它的力反馈。",
    "discovered_via": "seed",
    "work_count": 1
   },
@@ -17869,6 +18105,72 @@
    ]
   },
   {
+   "id": "yang-tian-sun--mira-scene",
+   "creator_ids": [
+    "yang-tian-sun",
+    "tripo-ai"
+   ],
+   "title": "Mira-Scene",
+   "year": 2026,
+   "date": "2026-09-20",
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "also": [
+    "assets"
+   ],
+   "modalities": [
+    "scene-3d",
+    "mesh"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "authoring",
+    "control"
+   ],
+   "kind": "research",
+   "description": "Open model from VAST and The University of Hong Kong that turns a single photo into an editable 3D scene: every object is generated as its own mesh and placed where it sits in the image, and an environment map is added. The inference code, both checkpoints and the fine-tuning data are public; the authors report 39.8% higher 3D-IoU layout accuracy than SAM 3D.",
+   "description_zh": "VAST 与香港大学推出的开源模型：把一张照片变成可编辑的三维场景，每个物体都单独生成为网格并放到它在照片中的位置，再补上环境贴图。推理代码、两个阶段的权重和微调数据均已公开；作者报告其布局精度的 3D-IoU 比 SAM 3D 高 39.8%。",
+   "idea_en": "A photo of a real room becomes a set of separate, movable objects in the right places, a starting point for restaging or simulating that room.",
+   "idea_zh": "一张真实房间的照片变成一组摆在正确位置、可以单独移动的物体，可据此重新布置或仿真这个房间。",
+   "method": "A multimodal diffusion transformer generates each object's geometry together with a Canonical Coordinate Map that links every visible pixel to a point in the object's own bounded space; matched against a monocular point map, it gives each object's pose by robust geometric alignment, so training needs only object-level 3D data and no scene layout labels.",
+   "method_zh": "多模态扩散 Transformer 同时生成每个物体的几何和一张规范坐标图（Canonical Coordinate Map），把每个可见像素对应到物体自身有界空间中的一点；再与单目几何估计得到的点云图匹配，通过稳健的几何对齐求出每个物体的位姿，因此训练只需物体级三维数据，无需场景布局标注。",
+   "keywords": [
+    "single-image scene reconstruction",
+    "compositional 3D",
+    "pixel-aligned layout",
+    "open weights"
+   ],
+   "video": {
+    "url": "https://assets.vast-eden.ai/assets/mira-scene/videos/demo.mp4",
+    "platform": "mp4",
+    "id": "https://assets.vast-eden.ai/assets/mira-scene/videos/demo.mp4",
+    "thumbnail": "",
+    "embeddable": true
+   },
+   "images": [
+    "https://assets.vast-eden.ai/assets/mira-scene/images/teaser.webp"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2609.23796",
+    "arxiv": "2609.23796",
+    "venue": "arXiv 2026",
+    "title": "Mira-Scene: Pixel-Aligned Layouts for Generative 3D Scene Reconstruction"
+   },
+   "source_url": "https://vast-ai-research.github.io/eden-page/?p=mira-scene",
+   "code_url": "https://github.com/VAST-AI-Research/Mira-Scene",
+   "title_zh": "Mira-Scene 像素对齐布局的生成式三维场景重建",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ]
+  },
+  {
    "id": "avaturn-live--avtr-1",
    "creator_ids": [
     "avaturn-live"
@@ -18005,6 +18307,85 @@
    "disciplines": [
     "ml",
     "robotics"
+   ]
+  },
+  {
+   "id": "xgen-labs--dao-jing",
+   "creator_ids": [
+    "xgen-labs"
+   ],
+   "title": "DAO and JING",
+   "year": 2026,
+   "date": "2026-09-16",
+   "field": "world-models",
+   "sub": "general",
+   "also": [
+    "agents"
+   ],
+   "modalities": [
+    "frame-stream",
+    "audio",
+    "speech"
+   ],
+   "inputs": [
+    "action",
+    "text",
+    "image"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "open",
+    "research"
+   ],
+   "lenses": [
+    "persistence",
+    "behavioral-plausibility",
+    "reactivity"
+   ],
+   "kind": "model",
+   "description": "A generative world simulation from XGEN Labs in two parts: DAO, a world engine that keeps the state of characters, objects and places and advances it by rules, and JING, an open model that renders each observer's first-person video and sound from that state. A person can walk around, handle objects and talk with characters, and what they change stays changed.",
+   "description_zh": "XGEN Labs 推出的生成式世界模拟，分为两部分：DAO 是一个世界引擎，记录角色、物体与空间的状态并按规则推进；JING 是一个开源模型，根据这一状态为每位观察者生成第一人称的画面与声音。人可以四处走动、操作物体、与角色交谈，改变过的东西会一直保持改变。",
+   "idea_en": "Separates the world from the picture of it: consequences live in an explicit shared state that outlasts any one viewer, and the video model renders only what each observer can perceive.",
+   "idea_zh": "把世界本身与世界的画面分开：后果保存在一个明确的共享状态里，不会因某个观察者离开而消失；视频模型只渲染每位观察者能感知到的部分。",
+   "method": "DAO keeps an entity graph with interaction rules and world time and derives observer-specific conditions for JING, which adapts MiniMax-H3's joint audio-video model through bidirectional camera-control training, causal autoregressive training with resampling forcing, memory adaptation and few-step distillation; the released JING-Flash-v1 is the four-step bidirectional variant, and the causal model is announced as coming soon.",
+   "method_zh": "DAO 维护一张带有交互规则与世界时间的实体图，并为每位观察者生成条件交给 JING；JING 在 MiniMax-H3 音视频联合模型的基础上，依次经过双向镜头控制训练、带重采样强制（resampling forcing）的因果自回归训练、记忆适配与少步蒸馏。已发布的 JING-Flash-v1 是四步双向版本，因果版本官方称即将推出。",
+   "specs": "JING-Flash-v1 · 4-step bidirectional · video + audio · demo on 6× H100 · WBench Full 81.0 (2026-09-12 submission)",
+   "keywords": [
+    "world model",
+    "world state",
+    "egocentric",
+    "joint audio-video",
+    "characters",
+    "open weights",
+    "MiniMax-H3"
+   ],
+   "video": {
+    "url": "https://resources.xgenlabs.ai/research/videos/research-jing-dao-xgen-jing-demo-20260916.mp4",
+    "platform": "mp4",
+    "id": "https://resources.xgenlabs.ai/research/videos/research-jing-dao-xgen-jing-demo-20260916.mp4",
+    "thumbnail": "",
+    "embeddable": true
+   },
+   "images": [
+    "https://huggingface.co/XGENlabs/XGEN-JING/resolve/main/assets/xgen-jing-cover.jpg?v=5d27805a7323"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2610.19726",
+    "arxiv": "2610.19726",
+    "venue": "arXiv 2026",
+    "title": "Generative World Simulation with DAO and JING"
+   },
+   "source_url": "https://xgenlabs.ai/research/generative-world-simulation",
+   "code_url": "https://github.com/XGEN-Labs/XGEN-JING",
+   "collections": [
+    "trend-world-simulators",
+    "trend-native-audio",
+    "trend-agents-in-worlds"
+   ],
+   "title_zh": "DAO 道与 JING 镜",
+   "disciplines": [
+    "games",
+    "ml"
    ]
   },
   {
@@ -18207,6 +18588,78 @@
    "disciplines": [
     "games",
     "ml"
+   ]
+  },
+  {
+   "id": "cheng-chen-ntu--diva",
+   "creator_ids": [
+    "cheng-chen-ntu",
+    "ant-group"
+   ],
+   "title": "DiVA",
+   "year": 2026,
+   "date": "2026-09-12",
+   "field": "avatars",
+   "sub": "conversational",
+   "also": [
+    "world-models"
+   ],
+   "modalities": [
+    "avatar",
+    "flat-video",
+    "speech"
+   ],
+   "inputs": [
+    "text",
+    "speech",
+    "image"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "persistence",
+    "behavioral-plausibility"
+   ],
+   "kind": "research",
+   "description": "DiVA (NTU, A*STAR and Ant Group, 2026-09-12) is a 'digital life simulator': a video character, a person or an animal created from one reference image, idles while it waits, answers each turn with speech, gestures and actions such as standing up, and then returns to a stable pose, so an interaction can run for many turns without the picture degrading.",
+   "description_zh": "DiVA（南洋理工大学、A*STAR 与蚂蚁集团，2026-09-12）是一个“数字生命模拟器”：由一张参考图生成的视频角色（人或动物）在等待时保持细微的待机动作，每一轮用语音、手势以及站起来之类的动作回应，然后回到稳定的姿态，因此互动可以持续很多轮而画面不退化。",
+   "idea_en": "Treats a generated character as a loop of waiting, acting and returning to anchor states rather than as one ever-longer clip, a practical pattern for long sessions with a video-generated person.",
+   "idea_zh": "把生成的角色看作“等待—行动—回到锚定状态”的循环，而不是一段越拉越长的视频，这是与视频生成人物进行长时间互动的一种实用模式。",
+   "method": "A multimodal LLM (GPT-5 or Qwen, steered by in-context examples) routes each turn and writes the reply, CosyVoice speaks it, and a stacked pipeline generates waiting video, audio-driven action video, and transitions back to anchor states (pre-generated from the reference image by image editing) with an Anchored Video Continuation module fine-tuned with LoRA on Wan 2.1 14B FLF.",
+   "method_zh": "一个多模态大语言模型（GPT-5 或 Qwen，通过上下文示例引导）负责每一轮的路由并写出回复，由 CosyVoice 合成语音；一条分层的视频管线依次生成待机视频、音频驱动的动作视频，以及回到锚定状态的过渡，锚定状态事先由参考图经图像编辑生成，过渡由基于 Wan 2.1 14B FLF、用 LoRA 微调的 Anchored Video Continuation 模块完成。",
+   "specs": "4 sampling steps × about 4 s per step on one H800 (high-quality setting) · user study: 30 raters, 60 transitions",
+   "keywords": [
+    "digital life simulation",
+    "interactive video character",
+    "MLLM router",
+    "video continuation",
+    "Wan 2.1",
+    "Ant Group"
+   ],
+   "video": {
+    "url": "https://steller-cheng.github.io/DiVA/assets/videos/hero_human.mp4",
+    "platform": "mp4",
+    "id": "https://steller-cheng.github.io/DiVA/assets/videos/hero_human.mp4",
+    "thumbnail": "",
+    "embeddable": true
+   },
+   "images": [
+    "https://steller-cheng.github.io/DiVA/assets/images/interaction_human.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2609.13830",
+    "arxiv": "2609.13830",
+    "venue": "arXiv preprint",
+    "title": "DiVA: Enabling Interactive Digital Life Simulation via Video Models"
+   },
+   "source_url": "https://steller-cheng.github.io/DiVA/",
+   "title_zh": "DiVA：基于视频模型的可交互数字生命模拟",
+   "disciplines": [
+    "graphics",
+    "ml",
+    "speech"
    ]
   },
   {
@@ -20565,6 +21018,78 @@
    ]
   },
   {
+   "id": "alaya-lab--alaya-evoke",
+   "creator_ids": [
+    "alaya-lab"
+   ],
+   "title": "Alaya-EVOKE",
+   "year": 2026,
+   "date": "2026-08-13",
+   "field": "world-models",
+   "sub": "memory",
+   "modalities": [
+    "frame-stream"
+   ],
+   "inputs": [
+    "image",
+    "text",
+    "camera"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "control"
+   ],
+   "kind": "open-source",
+   "description": "An open interactive world model from Alaya Lab that streams video under camera control for as long as a session lasts, keeps scene geometry outside the model in a store indexed by camera pose, and accepts new prompts mid-rollout (an aurora lights up, a storm rolls in) without a cut. Its Turbo version was listed first on WBench's navigation track (82.0) on 2026-09-11.",
+   "description_zh": "Alaya Lab 推出的开源交互世界模型：在镜头控制下持续流式生成视频，会话多长都可以；场景几何保存在模型之外、按相机位姿索引的存储里；生成过程中可以随时更换提示（极光亮起、风暴来临），画面不中断。其 Turbo 版本于 2026 年 9 月 11 日在 WBench 导航赛道以 82.0 分位列第一。",
+   "idea_en": "Moving memory out of the model's context lets a session run on without trading its length against what the world remembers.",
+   "idea_zh": "把记忆移出模型的上下文，会话就能一直进行下去，不必在时长与世界记得多少之间取舍。",
+   "method": "A three-step student without classifier-free guidance is distilled with a 30-second distribution-matching objective under self-forced rollouts from a long-horizon teacher built on LingBot-World, whose sparse attention (chunk grouping, retrieval of selected distant frames and a linear-attention global state) grows linearly in memory and compute; at inference only view-relevant geometry is read from the external world state bank.",
+   "method_zh": "在自强制（self-forced）滚动生成下，用 30 秒的分布匹配目标，从一个基于 LingBot-World 的长时程教师模型蒸馏出三步、无需无分类器引导的学生模型；教师的稀疏注意力结合分块分组、远处关键帧检索与线性注意力全局状态，显存与计算随时长线性增长。推理时只从外部世界状态库读取与当前视角相关的几何信息。",
+   "specs": "384×640 · 3 steps, no CFG · 1.5 s chunk in 2.11 s on one H200 · WBench Navi 82.0 (Evoke-Turbo, 2026-09-11)",
+   "keywords": [
+    "world model",
+    "external memory",
+    "world state bank",
+    "re-prompting",
+    "open weights",
+    "Alaya Lab",
+    "WBench"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=QX7PBBaBGdc",
+    "platform": "youtube",
+    "id": "QX7PBBaBGdc",
+    "thumbnail": "https://i.ytimg.com/vi/QX7PBBaBGdc/maxresdefault.jpg",
+    "embeddable": true
+   },
+   "images": [
+    "https://github.com/AlayaLab/Evoke/raw/main/assets/promo.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2608.13546",
+    "arxiv": "2608.13546",
+    "venue": "arXiv 2026",
+    "title": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World"
+   },
+   "source_url": "https://evoke-world.github.io/Evoke/",
+   "code_url": "https://github.com/AlayaLab/Evoke",
+   "collections": [
+    "trend-world-simulators",
+    "trend-open-weights",
+    "trend-china-open"
+   ],
+   "also": [],
+   "disciplines": [
+    "games",
+    "ml"
+   ]
+  },
+  {
    "field": "audio",
    "id": "minimax--music-3",
    "creator_ids": [
@@ -20890,6 +21415,70 @@
    "paper": {},
    "also": [],
    "disciplines": [
+    "ml"
+   ]
+  },
+  {
+   "id": "manwen-liao--megaparts",
+   "creator_ids": [
+    "manwen-liao",
+    "shanghai-ai-lab"
+   ],
+   "title": "MegaParts",
+   "year": 2026,
+   "date": "2026-08-11",
+   "field": "assets",
+   "sub": "objects",
+   "modalities": [
+    "mesh"
+   ],
+   "inputs": [
+    "text",
+    "spec"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "control",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Research model from Shanghai AI Laboratory, The University of Hong Kong and partner universities that generates a 3D object from a text prompt as an assembly of up to 300 separate part meshes; an object bounding box and per-part boxes can be given as spatial instructions. It is the base model of MeshCoder 1.5 and was published as a technical report with a project page in August 2026; code was announced but not released as of October 2026.",
+   "description_zh": "上海人工智能实验室、香港大学与多所合作高校推出的研究模型：根据一句文字提示生成由最多 300 个独立部件网格组装而成的三维物体，还可以用整体包围盒和每个部件的包围盒作为空间指令。它是 MeshCoder 1.5 的基础模型，2026 年 8 月以技术报告和项目主页形式发布；截至 2026 年 10 月，代码已宣布但尚未公开。",
+   "idea_en": "Complex props such as a camera, a dish rack or a building come out as hundreds of editable, articulable pieces rather than one fused shell.",
+   "idea_zh": "相机、碗碟架或一栋建筑这样的复杂道具，生成出来就是数百个可编辑、可做关节的部件，而不是一整块熔合的外壳。",
+   "method": "A causal vector-quantized tokenizer gives each part an adaptive number of shape tokens (16 to 4,096 by geometric complexity), and a long-context language model generates the object box, the part boxes and the part shape tokens as one sequence of up to 256K tokens.",
+   "method_zh": "因果向量量化分词器按几何复杂度给每个部件分配 16 到 4096 个不等的形状 token，再由长上下文语言模型把物体包围盒、部件包围盒和部件形状 token 作为一条最长 256K token 的序列依次生成。",
+   "specs": "up to 300 parts · 256K-token sequence",
+   "keywords": [
+    "part-aware generation",
+    "autoregressive 3D",
+    "shape tokenizer",
+    "MeshCoder"
+   ],
+   "video": {
+    "url": "https://expmaster.github.io/megaparts_webpage/assets/megaparts-promo-intro-1440p.mp4",
+    "platform": "mp4",
+    "id": "https://expmaster.github.io/megaparts_webpage/assets/megaparts-promo-intro-1440p.mp4",
+    "thumbnail": "",
+    "embeddable": true
+   },
+   "images": [
+    "https://expmaster.github.io/megaparts_webpage/assets/web/hero-1280.webp"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2608.14783",
+    "arxiv": "2608.14783",
+    "venue": "arXiv 2026",
+    "title": "MegaParts: Scaling Part-Aware 3D Object Generation to 300 Parts via Token-Efficient Autoregressive Modeling"
+   },
+   "source_url": "https://expmaster.github.io/megaparts_webpage/",
+   "also": [],
+   "title_zh": "MegaParts 扩展到 300 个部件的部件级三维生成",
+   "disciplines": [
+    "graphics",
     "ml"
    ]
   },
@@ -24465,6 +25054,66 @@
    ]
   },
   {
+   "id": "sidefx--houdini-22-gaussian-splats",
+   "creator_ids": [
+    "sidefx"
+   ],
+   "title": "Houdini 22 Gaussian Splats",
+   "year": 2026,
+   "date": "2026-06-22",
+   "field": "spatial-4d",
+   "sub": "capture-tools",
+   "also": [
+    "infra"
+   ],
+   "modalities": [
+    "splats"
+   ],
+   "inputs": [
+    "multi-view"
+   ],
+   "timing": "offline",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "authoring",
+    "control"
+   ],
+   "kind": "product",
+   "description": "Houdini 22, announced at SideFX's London launch event on 2026-06-22, makes Gaussian splats a production data type: captures can be trained on render farms and cleaned up, splats can be rigged and animated with the standard deformation tools or driven by simulations, relit with prototype SideFX Labs tools, composited, and generated directly from Karma renders. Houdini 21 had offered only read-only viewing and rendering of splats.",
+   "description_zh": "Houdini 22 于 2026 年 6 月 22 日在 SideFX 伦敦发布会上公布，把高斯泼溅变成生产级数据类型：采集数据可以在渲染农场上训练并清理，泼溅可以用标准变形工具绑定和制作动画，或由仿真驱动，可以用 SideFX Labs 的原型工具重新打光，进行合成，还能直接从 Karma 渲染结果生成。Houdini 21 对泼溅只支持只读的查看与渲染。",
+   "idea_en": "Splats stop being a viewer format and become editable material in the same professional pipeline as meshes, rigs and simulations.",
+   "idea_zh": "高斯泼溅不再只是一种查看格式，而成为与网格、骨骼绑定和仿真处在同一条专业管线中的可编辑素材。",
+   "method": "Splats are treated as points with attributes, so existing nodes such as Bone Deform and Surface Deform work on them unchanged; PDG/TOPs distributes splat training across machines, Copernicus rasterizes splats to color and depth for compositing, and Karma camera arrays turn rendered scenes into splats without camera estimation.",
+   "method_zh": "泼溅被当作带属性的点来处理，因此 Bone Deform、Surface Deform 等现有节点无需修改即可作用于泼溅；PDG/TOPs 把泼溅训练分发到多台机器，Copernicus 把泼溅光栅化为颜色与深度用于合成，Karma 相机阵列则无需相机位姿估计就能把渲染出的场景转成泼溅。",
+   "keywords": [
+    "Gaussian splatting",
+    "DCC pipeline",
+    "splat rigging",
+    "render-to-splat"
+   ],
+   "video": {
+    "url": "https://media.sidefx.com/uploads/products/whatsnew_h22/images/gsplats/houdini_generated_gsplats.mp4",
+    "platform": "mp4",
+    "id": "https://media.sidefx.com/uploads/products/whatsnew_h22/images/gsplats/houdini_generated_gsplats.mp4",
+    "thumbnail": "",
+    "embeddable": true
+   },
+   "images": [
+    "https://media.sidefx.com/uploads/products/banners/h22_banner.png"
+   ],
+   "source_url": "https://www.sidefx.com/products/whats-new-in-h22/gaussian-splats/",
+   "collections": [
+    "trend-explicit-3d"
+   ],
+   "paper": {},
+   "title_zh": "Houdini 22 高斯泼溅",
+   "disciplines": [
+    "graphics"
+   ]
+  },
+  {
    "id": "yehonathan-litman--lift4d",
    "creator_ids": [
     "yehonathan-litman"
@@ -24658,6 +25307,75 @@
    ],
    "images": [],
    "title_zh": "WRBench：当前世界模型缺少持久的状态核心",
+   "disciplines": [
+    "ml"
+   ]
+  },
+  {
+   "id": "zhexiao-xiong--actworld",
+   "creator_ids": [
+    "zhexiao-xiong",
+    "bytedance-seed"
+   ],
+   "title": "ActWorld",
+   "year": 2026,
+   "date": "2026-06-16",
+   "field": "world-models",
+   "sub": "memory",
+   "modalities": [
+    "frame-stream"
+   ],
+   "inputs": [
+    "action",
+    "text"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "reactivity",
+    "persistence"
+   ],
+   "kind": "research",
+   "description": "An interactive world model from ByteDance's Intelligent Creation team and Washington University in St. Louis in which a player, under keyboard and mouse control, can act on things mid-rollout, such as inserting a coin, pressing a button or picking up a helmet, instead of only walking and looking around; objects keep their new state as play continues.",
+   "description_zh": "字节跳动智能创作团队与圣路易斯华盛顿大学提出的交互世界模型：玩家在键盘鼠标控制下，不只是行走和环顾，还能在生成过程中操作物体，例如投币、按按钮、拿起头盔；物体的新状态会在之后的游玩中保持下来。",
+   "idea_en": "Turns a world you can look at into one you can act in: the action vocabulary grows from walking and turning to handling objects.",
+   "idea_zh": "把“可以看的世界”变成“可以动手的世界”：动作从行走、转身扩展到操作物体。",
+   "method": "A chunk-autoregressive DiT takes high-level interaction commands and per-frame keyboard and mouse controls; a hierarchical action-aware memory keeps interaction-critical frames in the sliding window and a persistent bank of event-update and object-identity tokens beyond it, trained on a new 100K-video interaction dataset (40 action categories) captioned per chunk by a chain-of-thought VLM and evaluated on the authors' I-Bench.",
+   "method_zh": "分块自回归 DiT，输入高层交互指令与逐帧键盘鼠标控制；分层的动作感知记忆在滑动窗口内保留对交互关键的帧，并在窗口之外用持久记忆库保存事件更新与物体身份 token。训练数据是作者新建的 10 万段交互视频数据集（40 类动作），由思维链视觉语言模型逐块标注，并在作者提出的 I-Bench 上评测。",
+   "specs": "100K interaction videos · 40 action categories · per-frame keyboard + mouse",
+   "keywords": [
+    "world model",
+    "object interaction",
+    "action-aware memory",
+    "keyboard and mouse",
+    "NeurIPS 2026",
+    "ByteDance"
+   ],
+   "video": {
+    "url": "https://interactwm.github.io/ActWorld/static/videos/comparisons/fp_game_insert_press_pickup_0001/ours.mp4",
+    "platform": "mp4",
+    "id": "https://interactwm.github.io/ActWorld/static/videos/comparisons/fp_game_insert_press_pickup_0001/ours.mp4",
+    "thumbnail": "",
+    "embeddable": true
+   },
+   "images": [
+    "https://interactwm.github.io/ActWorld/static/images/teaser1.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2606.17730",
+    "arxiv": "2606.17730",
+    "venue": "NeurIPS 2026",
+    "title": "ActWorld: From Explorable to Interactive World Model via Action-Aware Memory"
+   },
+   "source_url": "https://interactwm.github.io/ActWorld/",
+   "collections": [
+    "trend-world-simulators",
+    "ml-conf"
+   ],
+   "also": [],
+   "title_zh": "ActWorld：可操作物体的交互世界模型",
    "disciplines": [
     "ml"
    ]
@@ -29623,6 +30341,75 @@
    "disciplines": [
     "hci",
     "media-art"
+   ]
+  },
+  {
+   "id": "jaejun-park--gentouchvr",
+   "creator_ids": [
+    "jaejun-park"
+   ],
+   "title": "GenTouchVR",
+   "year": 2026,
+   "date": "2026-03",
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "also": [
+    "genxr"
+   ],
+   "modalities": [
+    "scene-3d",
+    "mesh"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "GenTouchVR (POSTECH, IEEE VR 2026, TVCG) turns one photo into a VR scene whose objects can be felt through force feedback: an LLM finds the objects and infers how each should feel, and the system generates the 3D models and their haptic parameters. In user studies participants rated the generated feedback as comparable to expert-designed feedback; the authors call it the first system to produce force-feedback VR scenes from a single image.",
+   "description_zh": "GenTouchVR（POSTECH，IEEE VR 2026，TVCG）把一张照片变成可以通过力反馈“摸到”的 VR 场景：大语言模型识别图中物体并推断每个物体应有的触感，系统再生成三维模型及其触觉参数。用户研究中，参与者认为自动生成的反馈与专家设计的反馈相当；作者称这是首个从单张图像生成带力反馈 VR 场景的系统。",
+   "idea_en": "Extends scene generation from what you see to what you feel, so a generated room can push back when touched without a haptics expert tuning each object.",
+   "idea_zh": "把场景生成从“看到的”扩展到“摸到的”，让生成的房间在被触碰时给出阻力，而不需要触觉专家逐个调参。",
+   "method": "An LLM detects objects in the image and predicts their visual and haptic cues together with plausible ranges of haptic rendering parameters; 3D assets are generated for each object, and a perceptual optimisation spreads the parameters so that objects feel distinct while staying physically valid; the scene is felt through a kinesthetic (force-feedback) device.",
+   "method_zh": "大语言模型识别图像中的物体，预测其视觉与触觉线索以及触觉渲染参数的合理范围；系统为每个物体生成三维资产，并通过感知优化调整参数，使不同物体摸起来有区别，同时保持物理上合理；用户通过动觉（力反馈）设备感受场景。",
+   "keywords": [
+    "haptics",
+    "force feedback",
+    "single image to VR",
+    "LLM",
+    "multisensory world generation",
+    "IEEE VR"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=rxSCA5Nyp-I",
+    "platform": "youtube",
+    "id": "rxSCA5Nyp-I",
+    "thumbnail": "https://i.ytimg.com/vi/rxSCA5Nyp-I/maxresdefault.jpg",
+    "embeddable": true
+   },
+   "images": [
+    "https://i.ytimg.com/vi/rxSCA5Nyp-I/maxresdefault.jpg"
+   ],
+   "paper": {
+    "url": "https://doi.org/10.1109/tvcg.2026.3680620",
+    "doi": "10.1109/tvcg.2026.3680620",
+    "venue": "IEEE TVCG (IEEE VR 2026)",
+    "title": "GenTouchVR: Generating a Touchable Virtual Reality Environment from a Single Image"
+   },
+   "source_url": "https://doi.org/10.1109/tvcg.2026.3680620",
+   "collections": [
+    "ieee-vr"
+   ],
+   "title_zh": "GenTouchVR：由单张图像生成可触摸的虚拟现实环境",
+   "disciplines": [
+    "graphics",
+    "hci"
    ]
   },
   {
@@ -36000,6 +36787,71 @@
    ]
   },
   {
+   "id": "guying-lin--pat3d",
+   "creator_ids": [
+    "guying-lin"
+   ],
+   "title": "PAT3D",
+   "year": 2025,
+   "date": "2025-11-26",
+   "field": "worlds-3d",
+   "sub": "layout",
+   "modalities": [
+    "scene-3d"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Carnegie Mellon University system, with The University of Hong Kong and HKUST, that turns a text prompt into a 3D scene whose objects rest under gravity without passing through one another, so the scene can be loaded straight into a simulator for editing or robot manipulation. Published at ICLR 2026 with code and data.",
+   "description_zh": "卡内基梅隆大学与香港大学、香港科技大学合作的系统：把一句文字提示变成三维场景，其中的物体在重力下稳定放置、彼此不穿插，因此场景可以直接载入仿真器做编辑或机器人操作。发表于 ICLR 2026，并公开了代码和数据。",
+   "idea_en": "Generated rooms that obey gravity and contact can be pushed, grasped and rearranged instead of only looked at.",
+   "idea_zh": "遵守重力与接触的生成房间可以被推、被抓取、被重新布置，而不只是用来看。",
+   "method": "A generated reference image fixes the spatial relations, 3D assets come from vision foundation models, a vision-language model extracts a hierarchical scene tree, and a differentiable rigid-body simulator settles the layout to static equilibrium, with simulation-in-the-loop optimization keeping it consistent with the prompt.",
+   "method_zh": "先生成一张参考图确定物体间的空间关系，用视觉基础模型生成三维资产，再由视觉语言模型提取层级场景树；可微刚体仿真器让布局在重力下达到静态平衡，仿真在环的优化则保证结果仍符合提示词。",
+   "keywords": [
+    "text-to-3D scene",
+    "differentiable simulation",
+    "physical plausibility",
+    "simulation-ready"
+   ],
+   "video": {
+    "url": "https://huggingface.co/datasets/guyingl/pat3d/resolve/main/media/demo_100mb_hq.mp4",
+    "platform": "mp4",
+    "id": "https://huggingface.co/datasets/guyingl/pat3d/resolve/main/media/demo_100mb_hq.mp4",
+    "thumbnail": "",
+    "embeddable": true
+   },
+   "images": [
+    "https://simulation-intelligence.github.io/PAT3D/static/images/teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2511.21978",
+    "arxiv": "2511.21978",
+    "venue": "ICLR 2026",
+    "title": "PAT3D: Physics-Augmented Text-to-3D Scene Generation"
+   },
+   "source_url": "https://simulation-intelligence.github.io/PAT3D/",
+   "code_url": "https://github.com/Simulation-Intelligence/PAT3D",
+   "collections": [
+    "ml-conf"
+   ],
+   "also": [],
+   "title_zh": "PAT3D 物理增强的文本生成三维场景",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ]
+  },
+  {
    "id": "ubisoft--teammates",
    "creator_ids": [
     "ubisoft"
@@ -41736,6 +42588,72 @@
    "also": [],
    "disciplines": [
     "media-art",
+    "ml"
+   ]
+  },
+  {
+   "id": "simli--trinity-1",
+   "creator_ids": [
+    "simli"
+   ],
+   "title": "Trinity-1",
+   "year": 2025,
+   "date": "2025-07-10",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": [
+    "avatar",
+    "splats"
+   ],
+   "inputs": [
+    "speech",
+    "image"
+   ],
+   "timing": "real-time",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "responsiveness",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "Trinity-1 is Simli's Gaussian-splat avatar model, launched in preview through its API on 2025-07-10: a face built from one portrait is lip-synced live to the audio of a voice agent and streamed into an app. Simli calls it the first interactive Gaussian avatar and prices it at under one US cent per minute.",
+   "description_zh": "Trinity-1 是 Simli 的高斯泼溅虚拟人模型，2025-07-10 通过 API 以预览形式发布：由一张人像生成的面孔会跟随语音智能体的音频实时对口型，并以视频流推送到应用中。Simli 称它是首个可交互的高斯虚拟人，价格低于每分钟 1 美分。",
+   "idea_en": "Moves the talking face from per-frame video generation to a drivable 3D Gaussian head, so giving every turn of a voice scenario a face costs well under a dollar per hour.",
+   "idea_zh": "把会说话的面孔从逐帧视频生成换成可驱动的三维高斯头像，让语音情境的每一轮都配上面孔，每小时成本远低于 1 美元。",
+   "method": "A portrait is reframed and converted into a Gaussian-splat face by an offline API job ('Generate Trinity Face'); at run time an audio-to-motion model likely drives the splats from streamed speech, and frames reach the app over WebRTC, directly or through the LiveKit and Pipecat plug-ins.",
+   "method_zh": "先通过离线 API 任务（“Generate Trinity Face”）把人像重新构图并转换成高斯泼溅面孔；运行时很可能由一个音频到动作的模型根据流式语音驱动这些高斯点，画面通过 WebRTC 直接送达应用，或经由 LiveKit 与 Pipecat 插件接入。",
+   "specs": "< US$0.01 per minute (developer-reported)",
+   "keywords": [
+    "Gaussian avatar",
+    "talking head",
+    "speech-to-video",
+    "WebRTC",
+    "LiveKit",
+    "Pipecat",
+    "voice agent"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=OWPkzYE5PiA",
+    "platform": "youtube",
+    "id": "OWPkzYE5PiA",
+    "thumbnail": "https://i.ytimg.com/vi/OWPkzYE5PiA/maxresdefault.jpg",
+    "embeddable": true
+   },
+   "images": [
+    "https://i.ytimg.com/vi/OWPkzYE5PiA/maxresdefault.jpg"
+   ],
+   "source_url": "https://www.simli.com/",
+   "api_url": "https://docs.simli.com/api-reference/generate-trinity-face",
+   "collections": [
+    "trend-realtime",
+    "trend-cost"
+   ],
+   "paper": {},
+   "also": [],
+   "disciplines": [
+    "graphics",
     "ml"
    ]
   },
@@ -49301,6 +50219,80 @@
    "disciplines": [
     "graphics",
     "ml"
+   ]
+  },
+  {
+   "id": "haotian-mao--live-gs",
+   "creator_ids": [
+    "haotian-mao"
+   ],
+   "title": "LIVE-GS",
+   "year": 2024,
+   "date": "2024-12-12",
+   "field": "genxr",
+   "sub": "in-situ",
+   "also": [
+    "spatial-4d"
+   ],
+   "modalities": [
+    "splats",
+    "dynamic-4d"
+   ],
+   "inputs": [
+    "multi-view",
+    "action"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "authoring",
+    "reactivity"
+   ],
+   "kind": "research",
+   "description": "LIVE-GS (Shanghai Jiao Tong University and Shanghai AI Lab; arXiv 2024-12-12, published at IEEE VR 2026 in TVCG) turns static Gaussian-splat scenes into physically interactive VR: GPT-4o estimates each object's physical properties from rendered views in about 10 seconds, after which a Quest 3 user can push, throw at, bend or break objects; in the teaser a doll swings, a mug shatters and a ball bounces off a hammer.",
+   "description_zh": "LIVE-GS（上海交通大学与上海人工智能实验室；arXiv 2024-12-12，发表于 IEEE VR 2026 / TVCG）把静态的高斯泼溅场景变成可物理交互的 VR：GPT-4o 根据渲染视图在约 10 秒内估计每个物体的物理属性，之后 Quest 3 用户就能推、扔、弯折或打碎物体；在示例中，玩偶会摆动，杯子会碎裂，球打到锤子上会弹开。",
+   "idea_en": "Lets a language model author the physics of a captured scene, so a real place can be made touchable and breakable in VR without a simulation expert tuning parameters.",
+   "idea_zh": "让语言模型为采集到的场景编写物理属性，无需模拟专家调参，就能让一个真实地点在 VR 中可触碰、可破坏。",
+   "method": "Objects are segmented from a 3D Gaussian scene and GPT-4o infers parameters such as mass and elasticity from rendered images; elastic bodies are simulated with XPBD and rigid bodies with invisible proxy meshes, and Gaussian inpainting fills surfaces revealed when objects move; the system was compared with people experienced in physical simulation who tuned parameters by hand and rated in a usability study (SUS 88.6).",
+   "method_zh": "先从三维高斯场景中分割出物体，由 GPT-4o 根据渲染图像推断质量、弹性等参数；弹性体用 XPBD 模拟，刚体借助不可见的代理网格模拟，物体移动后露出的表面用高斯修补填充；系统与有物理模拟经验、手动调参的参与者进行了对比，并通过可用性研究评估（SUS 88.6）。",
+   "specs": "~10 s parameter estimation · 30 fps in the parameter study · Quest 3 + RTX 4080 SUPER",
+   "keywords": [
+    "Gaussian splatting",
+    "physics simulation",
+    "XPBD",
+    "GPT-4o",
+    "VR interaction",
+    "IEEE VR"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=AfyDa0Mot4E",
+    "platform": "youtube",
+    "id": "AfyDa0Mot4E",
+    "thumbnail": "https://i.ytimg.com/vi/AfyDa0Mot4E/maxresdefault.jpg",
+    "embeddable": true
+   },
+   "images": [
+    "https://arxiv.org/html/2412.09176v2/x1.png"
+   ],
+   "paper": {
+    "url": "https://doi.org/10.1109/tvcg.2026.3680710",
+    "doi": "10.1109/tvcg.2026.3680710",
+    "arxiv": "2412.09176",
+    "venue": "IEEE TVCG (IEEE VR 2026)",
+    "title": "LIVE-GS: LLM Powers Interactive VR Experience with Physics-Aware Gaussian Splatting"
+   },
+   "source_url": "https://arxiv.org/abs/2412.09176",
+   "collections": [
+    "ieee-vr",
+    "trend-in-situ-xr"
+   ],
+   "title_zh": "LIVE-GS：大语言模型驱动的物理感知高斯泼溅交互式 VR",
+   "disciplines": [
+    "graphics",
+    "hci"
    ]
   },
   {
@@ -58057,6 +59049,72 @@
    ]
   },
   {
+   "id": "yanqin-jiang--consistent4d",
+   "creator_ids": [
+    "yanqin-jiang"
+   ],
+   "title": "Consistent4D",
+   "year": 2023,
+   "date": "2023-11-06",
+   "field": "spatial-4d",
+   "sub": "generative-4d-objects",
+   "modalities": [
+    "dynamic-4d"
+   ],
+   "inputs": [
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "Consistent4D takes one uncalibrated video of a moving object, such as a phone clip or a segment of an animated film, and generates a 360° dynamic 3D version that can be viewed from any angle as it moves. It is an early reference point for video-to-4D generation, and its evaluation set is widely used as the Consistent4D benchmark by later 4D generators.",
+   "description_zh": "Consistent4D 以一段未标定的运动物体视频为输入（例如手机拍摄的片段或动画电影的一段），生成可在运动中从任意角度观看的 360° 动态三维版本。它是视频到 4D 生成的早期参照，其评测集作为 Consistent4D 基准被后来的 4D 生成方法广泛使用。",
+   "idea_en": "Turning dynamic capture into a generation problem: a single handheld video, with no camera rig or calibration, is enough to get a moving object you can walk around.",
+   "idea_zh": "把动态捕捉变成生成问题：不需要相机阵列或标定，一段手持视频就能得到可以绕着看的运动物体。",
+   "method": "A Cascade DyNeRF is optimized with an object-level 3D-aware image diffusion model as the main supervision, plus an interpolation-driven consistency loss that compares rendered frames with frames from a pretrained video interpolation model; a video enhancer trained afterwards refines the renders.",
+   "method_zh": "以物体级三维感知图像扩散模型作为主要监督来优化级联动态神经辐射场（Cascade DyNeRF），并用基于插帧的一致性损失把渲染帧与预训练视频插帧模型生成的帧进行比对；之后训练的视频增强器再对渲染结果做精修。",
+   "keywords": [
+    "video-to-4D",
+    "dynamic NeRF",
+    "score distillation",
+    "Consistent4D benchmark"
+   ],
+   "video": {
+    "url": "https://consistent4d.github.io/teaser/unified_2.mp4",
+    "platform": "mp4",
+    "id": "https://consistent4d.github.io/teaser/unified_2.mp4",
+    "thumbnail": "",
+    "embeddable": true
+   },
+   "images": [
+    "https://consistent4d.github.io/images/pipeline.svg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2311.02848",
+    "arxiv": "2311.02848",
+    "venue": "ICLR 2024",
+    "title": "Consistent4D: Consistent 360° Dynamic Object Generation from Monocular Video"
+   },
+   "source_url": "https://consistent4d.github.io/",
+   "code_url": "https://github.com/yanqinJiang/Consistent4D",
+   "collections": [
+    "ml-conf",
+    "trend-4d-generation"
+   ],
+   "also": [],
+   "title_zh": "Consistent4D 由单目视频生成一致的 360° 动态物体",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ]
+  },
+  {
    "id": "xudong-xu--sounding-bodies",
    "creator_ids": [
     "xudong-xu",
@@ -58382,6 +59440,70 @@
    "title_zh": "4D 高斯泼溅（4DGS）",
    "disciplines": [
     "graphics"
+   ]
+  },
+  {
+   "id": "soul-machines--digital-people",
+   "creator_ids": [
+    "soul-machines"
+   ],
+   "title": "Soul Machines Digital People (Digital Brain)",
+   "year": 2023,
+   "date": "2023-10-02",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": [
+    "avatar",
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "body"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "reactivity"
+   ],
+   "kind": "product",
+   "description": "Soul Machines' Digital People are rendered 3D digital humans for customer service, coaching and companionship whose faces are animated by what the company calls a Digital Brain of reciprocal sensory, motor, attention and autonomic nervous systems, so that they breathe, react and form memories; a large language model supplies the words. The official explainer shown here is dated 2023-10-02; the company had built Digital People since its 2016 founding, and AppDirect acquired it on 2026-09-28.",
+   "description_zh": "Soul Machines 的 Digital People 是经过渲染的三维数字人，用于客服、辅导和陪伴。公司称其面部由一个“数字大脑”驱动，这个大脑由相互作用的感觉、运动、注意与自主神经系统组成，因此数字人会呼吸、作出反应并形成记忆；对话内容由大语言模型生成。这里展示的官方介绍视频发布于 2023-10-02；公司自 2016 年成立起就在开发 Digital People，并于 2026-09-28 被 AppDirect 收购。",
+   "idea_en": "An alternative to faces generated from video data: breathing, gaze and reactive expression come from a simulated nervous system that can in principle be inspected, while the 2026 acquisition shows how much a study built on one avatar vendor depends on that vendor.",
+   "idea_zh": "这是另一条路线：呼吸、视线和反应性表情不是从视频数据中生成，而是来自一个原则上可以检查的模拟神经系统；2026 年的收购也说明，基于单一虚拟人供应商的研究在多大程度上依赖这家供应商。",
+   "method": "A cognitive model descended from the BabyX research simulates sensory, motor, attention/perception and autonomic systems and drives the expressions and idle behaviour of a rendered 3D character from camera and microphone input, while dialogue comes from integrated LLMs such as ChatGPT; the character is likely rendered in the cloud and streamed to a browser.",
+   "method_zh": "一个源自 BabyX 研究的认知模型模拟感觉、运动、注意/知觉与自主神经系统，根据摄像头和麦克风输入驱动渲染出的三维角色的表情与静息行为；对话则来自接入的大语言模型（如 ChatGPT）；角色很可能在云端渲染后以视频流传到浏览器。",
+   "keywords": [
+    "digital human",
+    "autonomous animation",
+    "Digital Brain",
+    "BabyX",
+    "conversational agent",
+    "enterprise avatar"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=qVeGWW93xkw",
+    "platform": "youtube",
+    "id": "qVeGWW93xkw",
+    "thumbnail": "https://i.ytimg.com/vi/qVeGWW93xkw/maxresdefault.jpg",
+    "embeddable": true
+   },
+   "images": [
+    "https://i.ytimg.com/vi/qVeGWW93xkw/maxresdefault.jpg"
+   ],
+   "source_url": "https://www.soulmachines.com/",
+   "collections": [
+    "trend-platform-risk"
+   ],
+   "paper": {},
+   "also": [],
+   "title_zh": "Soul Machines 数字人（数字大脑）",
+   "disciplines": [
+    "graphics",
+    "ml"
    ]
   },
   {

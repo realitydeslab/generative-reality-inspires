@@ -1,0 +1,14 @@
+{
+  "xgen-labs--dao-jing": {
+    "zh": "DAO 道与 JING 镜",
+    "src": "original"
+  },
+  "alaya-lab--alaya-evoke": {
+    "zh": "Alaya-EVOKE",
+    "src": "keep"
+  },
+  "zhexiao-xiong--actworld": {
+    "zh": "ActWorld：可操作物体的交互世界模型",
+    "src": "translated"
+  }
+}

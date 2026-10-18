@@ -1,0 +1,14 @@
+{
+  "manwen-liao--megaparts": {
+    "zh": "MegaParts 扩展到 300 个部件的部件级三维生成",
+    "src": "translated"
+  },
+  "yang-tian-sun--mira-scene": {
+    "zh": "Mira-Scene 像素对齐布局的生成式三维场景重建",
+    "src": "translated"
+  },
+  "guying-lin--pat3d": {
+    "zh": "PAT3D 物理增强的文本生成三维场景",
+    "src": "translated"
+  }
+}

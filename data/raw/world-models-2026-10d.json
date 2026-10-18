@@ -1,0 +1,394 @@
+{
+ "batch": "world-models-2026-10d",
+ "creators": [
+  {
+   "id": "xgen-labs",
+   "name": "XGEN Labs",
+   "name_zh": "",
+   "kind": "company",
+   "role": "World-model lab",
+   "based": "",
+   "bio": "A lab that calls itself a frontier lab for world intelligence; in September 2026 it released XGEN-JING, an open egocentric audio-video world model, and in October 2026 the technical report on DAO, its world engine.",
+   "why": "Pairs a generated first-person view with an explicit shared world state, so consequences remain after an observer leaves.",
+   "disciplines": [
+    "ml",
+    "games"
+   ],
+   "links": {
+    "site": "https://xgenlabs.ai/",
+    "github": "https://github.com/XGEN-Labs",
+    "huggingface": "https://huggingface.co/XGENlabs"
+   },
+   "role_zh": "世界模型实验室",
+   "bio_zh": "自称“面向世界智能的前沿实验室”；2026 年 9 月开源了第一人称音视频世界模型 XGEN-JING，10 月发布了其世界引擎 DAO 的技术报告。",
+   "why_zh": "把生成的第一人称画面与一个明确的共享世界状态结合起来，观察者离开后，行动的后果依然存在。",
+   "based_zh": "",
+   "connected_to": [
+    "minimax",
+    "haoxuan-che"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "zhexiao-xiong",
+   "name": "Zhexiao Xiong",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher at Washington University in St. Louis; first author of ActWorld",
+   "based": "St. Louis, USA",
+   "bio": "First author of ActWorld (NeurIPS 2026), an interactive world model with object interaction, written during an internship with ByteDance's Intelligent Creation team.",
+   "why": "Works on world models in which a player can act on objects, not only move through a scene.",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://interactwm.github.io/ActWorld/"
+   },
+   "role_zh": "圣路易斯华盛顿大学研究者，ActWorld 第一作者",
+   "bio_zh": "ActWorld（NeurIPS 2026）的第一作者。这是一个支持物体交互的交互式世界模型，完成于其在字节跳动智能创作团队实习期间。",
+   "why_zh": "研究玩家不只能在场景中移动、还能动手操作物体的世界模型。",
+   "based_zh": "美国圣路易斯",
+   "connected_to": [
+    "bytedance-seed"
+   ],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "xgen-labs--dao-jing",
+   "creator_ids": [
+    "xgen-labs"
+   ],
+   "title": "DAO and JING",
+   "year": 2026,
+   "date": "2026-09-16",
+   "field": "world-models",
+   "sub": "general",
+   "also": [
+    "agents"
+   ],
+   "modalities": [
+    "frame-stream",
+    "audio",
+    "speech"
+   ],
+   "inputs": [
+    "action",
+    "text",
+    "image"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "open",
+    "research"
+   ],
+   "lenses": [
+    "persistence",
+    "behavioral-plausibility",
+    "reactivity"
+   ],
+   "kind": "model",
+   "description": "A generative world simulation from XGEN Labs in two parts: DAO, a world engine that keeps the state of characters, objects and places and advances it by rules, and JING, an open model that renders each observer's first-person video and sound from that state. A person can walk around, handle objects and talk with characters, and what they change stays changed.",
+   "description_zh": "XGEN Labs 推出的生成式世界模拟，分为两部分：DAO 是一个世界引擎，记录角色、物体与空间的状态并按规则推进；JING 是一个开源模型，根据这一状态为每位观察者生成第一人称的画面与声音。人可以四处走动、操作物体、与角色交谈，改变过的东西会一直保持改变。",
+   "idea_en": "Separates the world from the picture of it: consequences live in an explicit shared state that outlasts any one viewer, and the video model renders only what each observer can perceive.",
+   "idea_zh": "把世界本身与世界的画面分开：后果保存在一个明确的共享状态里，不会因某个观察者离开而消失；视频模型只渲染每位观察者能感知到的部分。",
+   "method": "DAO keeps an entity graph with interaction rules and world time and derives observer-specific conditions for JING, which adapts MiniMax-H3's joint audio-video model through bidirectional camera-control training, causal autoregressive training with resampling forcing, memory adaptation and few-step distillation; the released JING-Flash-v1 is the four-step bidirectional variant, and the causal model is announced as coming soon.",
+   "method_zh": "DAO 维护一张带有交互规则与世界时间的实体图，并为每位观察者生成条件交给 JING；JING 在 MiniMax-H3 音视频联合模型的基础上，依次经过双向镜头控制训练、带重采样强制（resampling forcing）的因果自回归训练、记忆适配与少步蒸馏。已发布的 JING-Flash-v1 是四步双向版本，因果版本官方称即将推出。",
+   "specs": "JING-Flash-v1 · 4-step bidirectional · video + audio · demo on 6× H100 · WBench Full 81.0 (2026-09-12 submission)",
+   "keywords": [
+    "world model",
+    "world state",
+    "egocentric",
+    "joint audio-video",
+    "characters",
+    "open weights",
+    "MiniMax-H3"
+   ],
+   "video": {
+    "url": "https://resources.xgenlabs.ai/research/videos/research-jing-dao-xgen-jing-demo-20260916.mp4"
+   },
+   "images": [
+    "https://huggingface.co/XGENlabs/XGEN-JING/resolve/main/assets/xgen-jing-cover.jpg?v=5d27805a7323"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2610.19726",
+    "arxiv": "2610.19726",
+    "venue": "arXiv 2026",
+    "title": "Generative World Simulation with DAO and JING"
+   },
+   "source_url": "https://xgenlabs.ai/research/generative-world-simulation",
+   "code_url": "https://github.com/XGEN-Labs/XGEN-JING",
+   "collections": [
+    "trend-world-simulators",
+    "trend-native-audio",
+    "trend-agents-in-worlds"
+   ]
+  },
+  {
+   "id": "alaya-lab--alaya-evoke",
+   "creator_ids": [
+    "alaya-lab"
+   ],
+   "title": "Alaya-EVOKE",
+   "year": 2026,
+   "date": "2026-08-13",
+   "field": "world-models",
+   "sub": "memory",
+   "modalities": [
+    "frame-stream"
+   ],
+   "inputs": [
+    "image",
+    "text",
+    "camera"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "control"
+   ],
+   "kind": "open-source",
+   "description": "An open interactive world model from Alaya Lab that streams video under camera control for as long as a session lasts, keeps scene geometry outside the model in a store indexed by camera pose, and accepts new prompts mid-rollout (an aurora lights up, a storm rolls in) without a cut. Its Turbo version was listed first on WBench's navigation track (82.0) on 2026-09-11.",
+   "description_zh": "Alaya Lab 推出的开源交互世界模型：在镜头控制下持续流式生成视频，会话多长都可以；场景几何保存在模型之外、按相机位姿索引的存储里；生成过程中可以随时更换提示（极光亮起、风暴来临），画面不中断。其 Turbo 版本于 2026 年 9 月 11 日在 WBench 导航赛道以 82.0 分位列第一。",
+   "idea_en": "Moving memory out of the model's context lets a session run on without trading its length against what the world remembers.",
+   "idea_zh": "把记忆移出模型的上下文，会话就能一直进行下去，不必在时长与世界记得多少之间取舍。",
+   "method": "A three-step student without classifier-free guidance is distilled with a 30-second distribution-matching objective under self-forced rollouts from a long-horizon teacher built on LingBot-World, whose sparse attention (chunk grouping, retrieval of selected distant frames and a linear-attention global state) grows linearly in memory and compute; at inference only view-relevant geometry is read from the external world state bank.",
+   "method_zh": "在自强制（self-forced）滚动生成下，用 30 秒的分布匹配目标，从一个基于 LingBot-World 的长时程教师模型蒸馏出三步、无需无分类器引导的学生模型；教师的稀疏注意力结合分块分组、远处关键帧检索与线性注意力全局状态，显存与计算随时长线性增长。推理时只从外部世界状态库读取与当前视角相关的几何信息。",
+   "specs": "384×640 · 3 steps, no CFG · 1.5 s chunk in 2.11 s on one H200 · WBench Navi 82.0 (Evoke-Turbo, 2026-09-11)",
+   "keywords": [
+    "world model",
+    "external memory",
+    "world state bank",
+    "re-prompting",
+    "open weights",
+    "Alaya Lab",
+    "WBench"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=QX7PBBaBGdc"
+   },
+   "images": [
+    "https://github.com/AlayaLab/Evoke/raw/main/assets/promo.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2608.13546",
+    "arxiv": "2608.13546",
+    "venue": "arXiv 2026",
+    "title": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World"
+   },
+   "source_url": "https://evoke-world.github.io/Evoke/",
+   "code_url": "https://github.com/AlayaLab/Evoke",
+   "collections": [
+    "trend-world-simulators",
+    "trend-open-weights",
+    "trend-china-open"
+   ]
+  },
+  {
+   "id": "zhexiao-xiong--actworld",
+   "creator_ids": [
+    "zhexiao-xiong",
+    "bytedance-seed"
+   ],
+   "title": "ActWorld",
+   "year": 2026,
+   "date": "2026-06-16",
+   "field": "world-models",
+   "sub": "memory",
+   "modalities": [
+    "frame-stream"
+   ],
+   "inputs": [
+    "action",
+    "text"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "reactivity",
+    "persistence"
+   ],
+   "kind": "research",
+   "description": "An interactive world model from ByteDance's Intelligent Creation team and Washington University in St. Louis in which a player, under keyboard and mouse control, can act on things mid-rollout, such as inserting a coin, pressing a button or picking up a helmet, instead of only walking and looking around; objects keep their new state as play continues.",
+   "description_zh": "字节跳动智能创作团队与圣路易斯华盛顿大学提出的交互世界模型：玩家在键盘鼠标控制下，不只是行走和环顾，还能在生成过程中操作物体，例如投币、按按钮、拿起头盔；物体的新状态会在之后的游玩中保持下来。",
+   "idea_en": "Turns a world you can look at into one you can act in: the action vocabulary grows from walking and turning to handling objects.",
+   "idea_zh": "把“可以看的世界”变成“可以动手的世界”：动作从行走、转身扩展到操作物体。",
+   "method": "A chunk-autoregressive DiT takes high-level interaction commands and per-frame keyboard and mouse controls; a hierarchical action-aware memory keeps interaction-critical frames in the sliding window and a persistent bank of event-update and object-identity tokens beyond it, trained on a new 100K-video interaction dataset (40 action categories) captioned per chunk by a chain-of-thought VLM and evaluated on the authors' I-Bench.",
+   "method_zh": "分块自回归 DiT，输入高层交互指令与逐帧键盘鼠标控制；分层的动作感知记忆在滑动窗口内保留对交互关键的帧，并在窗口之外用持久记忆库保存事件更新与物体身份 token。训练数据是作者新建的 10 万段交互视频数据集（40 类动作），由思维链视觉语言模型逐块标注，并在作者提出的 I-Bench 上评测。",
+   "specs": "100K interaction videos · 40 action categories · per-frame keyboard + mouse",
+   "keywords": [
+    "world model",
+    "object interaction",
+    "action-aware memory",
+    "keyboard and mouse",
+    "NeurIPS 2026",
+    "ByteDance"
+   ],
+   "video": {
+    "url": "https://interactwm.github.io/ActWorld/static/videos/comparisons/fp_game_insert_press_pickup_0001/ours.mp4"
+   },
+   "images": [
+    "https://interactwm.github.io/ActWorld/static/images/teaser1.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2606.17730",
+    "arxiv": "2606.17730",
+    "venue": "NeurIPS 2026",
+    "title": "ActWorld: From Explorable to Interactive World Model via Action-Aware Memory"
+   },
+   "source_url": "https://interactwm.github.io/ActWorld/",
+   "collections": [
+    "trend-world-simulators",
+    "ml-conf"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "Honeycomb: Constant-Size Scene Memory for Video World Models (arXiv 2609.37690)",
+   "why": "Below the salience bar: academic paper without venue; fixed-size scene memory overlaps WorldCrafter, LOCI and ReWorld.",
+   "link": "https://jackswl.github.io/honeycomb",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Spatial Memory Intelligence (arXiv 2610.02521)",
+   "why": "Below the salience bar: academic paper without venue; MLLM-managed memory retrieval overlaps MemLearner and WorldCrafter.",
+   "link": "https://spatial-memory-intelligence.github.io/",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "GameDirector (arXiv 2609.25652) and StatePlay (arXiv 2607.26754)",
+   "why": "Below the salience bar: NTU papers without venue; keeping game rules outside the renderer is already represented by Matrix-Game 4 (skywork--matrix-game-4).",
+   "link": "https://jimntu.github.io/gamedirector/",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "PAWA: Panoramic Action-conditioned World Modeling for Multiple Agents (arXiv 2610.20240)",
+   "why": "Below the salience bar: multiplayer Minecraft world modelling is covered by Solaris, and panoramic world state by PanoWorld.",
+   "link": "https://pawa.siki.moe",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Generative World Simulation with DAO and JING (XGEN, arXiv 2610.19726)",
+   "why": "Added as xgen-labs--dao-jing.",
+   "link": "https://arxiv.org/abs/2610.19726",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "DreamForge-World 0.1 Preview (arXiv 2606.30292)",
+   "why": "Below the salience bar: two-author preview built on LongLive with a Matrix-Game-style action path; low-compute world models are covered by MoWorld and MinWM.",
+   "link": "https://arxiv.org/abs/2606.30292",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "ABot-3DWorld 0 (AMAP / Alibaba, arXiv 2607.11673)",
+   "why": "Not a world-models work: it turns text, images or video into explorable 3DGS worlds (worlds-3d/explorable), and the official page shows no video as of 2026-10-18; re-list under worlds-3d if a video appears.",
+   "link": "https://abot-world.amap.com/plaza",
+   "found_via": "alibaba-tongyi",
+   "status": "off_topic"
+  },
+  {
+   "name": "WorldWeaver: Streaming Multi-Agent Autoregressive Diffusion with World State Registers (UCLA, arXiv 2607.21594)",
+   "why": "Below the salience bar: shared multi-agent world state is covered by Khora, WorldCast and Gamma-World.",
+   "link": "https://vail-ucla.github.io/worldweaver/",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Cycle-World (ECCV 2026, arXiv 2607.11836)",
+   "why": "ECCV 2026 paper without project page, code or video as of 2026-10-18.",
+   "link": "https://arxiv.org/abs/2607.11836",
+   "found_via": "seed",
+   "status": "no_media"
+  },
+  {
+   "name": "GameWAM: A World Action Model for Video Games (arXiv 2608.26200)",
+   "why": "Below the salience bar: a four-author game-playing policy that also predicts frames (closer to agents/embodied), no venue.",
+   "link": "https://arxiv.org/abs/2608.26200",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Oneira: From Open-Ended Generation to Open-World Interaction in Video World Models (arXiv 2610.01614)",
+   "why": "Below the salience bar: academic paper without venue; persistent interaction state and acting on new objects are represented by ActWorld and DAO and JING, added in this round.",
+   "link": "https://madaoer.github.io/projects/oneira",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Prisma-World: Camera-Controllable Multi-Agent Video World Model (arXiv 2606.09507)",
+   "why": "Below the salience bar: multiplayer world models are covered by Solaris, WorldCast, Khora, Gamma-World, MIRA and Agora 2.",
+   "link": "https://huiqiang-sun.github.io/prisma-world/",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "ActWorld: From Explorable to Interactive World Model via Action-Aware Memory (arXiv 2606.17730)",
+   "why": "Added as zhexiao-xiong--actworld.",
+   "link": "https://interactwm.github.io/ActWorld",
+   "found_via": "seed",
+   "status": "duplicate"
+  },
+  {
+   "name": "WorldKV: Efficient World Memory with World Retrieval and Compression (KAIST, arXiv 2605.22718)",
+   "why": "Below the salience bar: training-free KV-cache retrieval overlaps WorldTrace, ReWorld and LOCI.",
+   "link": "https://cvlab-kaist.github.io/WorldKV/",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "BiWM: Advancing Open-Source Interactive Video World Models with Bidirectional Autoregression (arXiv 2606.10135)",
+   "why": "Below the salience bar: open training framework (LynnReal-AI/BiWM, demo only as a GitHub attachment) that overlaps MinWM (Shengshu) and SolarWM.",
+   "link": "https://arxiv.org/abs/2606.10135",
+   "found_via": "seed",
+   "status": "off_topic"
+  },
+  {
+   "name": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World (Alaya Lab, arXiv 2608.13546)",
+   "why": "Added as alaya-lab--alaya-evoke.",
+   "link": "https://github.com/AlayaLab/Evoke",
+   "found_via": "alaya-lab",
+   "status": "duplicate"
+  },
+  {
+   "name": "ME-World: Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction (KAIST, arXiv 2610.12299)",
+   "why": "Kept open: the paper is under review at ICLR 2027 (template header on the project page); add after decisions in late January 2027 if accepted. Videos and code exist (https://cvlab-kaist.github.io/ME-World/videos/teaser_video.mp4).",
+   "link": "https://cvlab-kaist.github.io/ME-World/",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "AlayaVista: Streaming World Modeling from Panoramic States to Perspective Video (arXiv 2609.14462)",
+   "why": "Below the salience bar: panoramic world state overlaps MoVerse and PanoWorld; Alaya Lab is represented by AlayaWorld and Alaya-EVOKE.",
+   "link": "https://alaya-lab.github.io/AlayaVista/",
+   "found_via": "alaya-lab",
+   "status": "off_topic"
+  },
+  {
+   "name": "Decart Lucy 2 / Lucy 2.5 (2026)",
+   "why": "Covered by decart--lucy-2 (video/realtime), which also describes Lucy 2.5.",
+   "link": "https://decart.ai/blog",
+   "found_via": "decart",
+   "status": "duplicate"
+  },
+  {
+   "name": "Puffin-World (arXiv 2609.04196)",
+   "why": "Below the salience bar for both world-models and worlds-3d (decided here; the worlds-3d copy has the same name): NTU S-Lab open model whose generation follows a given camera path offline rather than reacting to actions, overlapping SANA-WM, Lyra and HunyuanWorld-Voyager; its main advance is gravity-aware camera understanding. Demo: https://kangliao929.github.io/projects/puffin-world/assets/puffin-world-demo-1080p.mp4",
+   "link": "https://kangliao929.github.io/projects/puffin-world/",
+   "found_via": "seed",
+   "status": "off_topic"
+  }
+ ]
+}
