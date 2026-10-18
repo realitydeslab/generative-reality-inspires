@@ -314,9 +314,8 @@ main { padding: 22px clamp(16px, 4vw, 56px) 60px; min-height: 60vh; }
 
 /* atlas */
 .keys__lede { color: var(--muted); max-width: 62ch; margin: 0 0 18px; font-size: 15px; }
-.atlas { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 48px; }
-@media (min-width: 900px) { .atlas { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-.fieldcard { border-top: 1px solid var(--line); padding: 26px 0 34px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; }
+.atlas { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 0 40px; }
+.fieldcard { border-top: 1px solid var(--line); padding: 26px 0 34px; display: grid; grid-template-columns: minmax(0, 1fr); align-content: start; gap: 16px; }
 .fieldcard__media { position: relative; display: grid; grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr; gap: 3px; aspect-ratio: 16 / 8; overflow: hidden; border-radius: 3px; background: var(--bg-2); border: 0; padding: 0; }
 .fieldcard__media:hover .br, .fieldcard__media:focus-visible .br { opacity: 1; }
 .fieldcard__media:hover .br--tl { top: 8px; left: 8px; } .fieldcard__media:hover .br--tr { top: 8px; right: 8px; }
@@ -327,7 +326,7 @@ main { padding: 22px clamp(16px, 4vw, 56px) 60px; min-height: 60vh; }
 .kc__shot img, .kc__shot video { width: 100%; height: 100%; object-fit: cover; display: block; filter: saturate(.85); transition: transform .6s cubic-bezier(.2, .7, .1, 1), filter .4s; }
 .kc__shot .ph__title { font-size: 15px; }
 .fieldcard__num { font-size: 12px; color: var(--accent-text); }
-.fieldcard__title { font: 400 clamp(32px, 4vw, 48px)/1 var(--serif); letter-spacing: -.03em; margin: 6px 0 10px; }
+.fieldcard__title { font: 400 clamp(30px, 2.6vw, 40px)/1 var(--serif); letter-spacing: -.03em; margin: 6px 0 10px; }
 .fieldcard__title button { background: none; border: 0; padding: 0; font: inherit; text-align: left; }
 .fieldcard__title button:hover { color: var(--accent-text); }
 .fieldcard__desc { color: var(--muted); margin: 0 0 14px; max-width: 58ch; font-size: 14px; }
