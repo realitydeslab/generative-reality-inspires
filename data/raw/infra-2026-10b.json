@@ -95,7 +95,7 @@
    "idea_zh": "按体验实际展开的方式逐轮测试世界模型，并让文字、位姿与键盘驱动的模型在同一批用例上比较。",
    "method": "Each case specifies a world setting and a multi-turn interaction sequence in first or third person; navigation is unified across text, 6-DoF pose and discrete actions; 22 automatic sub-metrics combine specialist vision models with large multimodal models and are validated against human judgments.",
    "method_zh": "每个用例规定一个世界设定和一段第一或第三人称的多轮交互序列；导航指令在文字、六自由度位姿与离散动作之间统一；22 项自动子指标结合专用视觉模型与多模态大模型，并经过人工评判校验。",
-   "specs": "289 cases · 1,058 turns · 5 dimensions · 22 sub-metrics · 20 models · public leaderboard",
+   "specs": "289 cases · 1,058 turns · 5 dimensions · 22 sub-metrics · leaderboard: 44 Navigation and 16 Full entries (updated 2026-10-12), several top entries self-evaluated",
    "keywords": ["benchmark", "interactive world model", "multi-turn", "leaderboard", "Meituan LongCat"],
    "video": {"url": "https://meituan-longcat.github.io/WBench/video/multi.mp4"},
    "paper": {"url": "https://arxiv.org/abs/2605.25874", "arxiv": "2605.25874", "venue": "arXiv 2026", "title": "WBench: A Comprehensive Multi-turn Benchmark for Interactive Video World Model Evaluation"},

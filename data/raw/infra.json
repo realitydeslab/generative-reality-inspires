@@ -1411,10 +1411,12 @@
    "idea_zh": "调用字节跳动 Seedance 模型的官方途径；当研究需要一个可签约、稳定的接口时，企业级条款很关键。",
    "method": "Managed inference endpoints with REST APIs, model versions and quotas; video jobs run asynchronously and return hosted MP4 files.",
    "method_zh": "托管推理接口，提供 REST API、模型版本与配额管理；视频任务异步执行，返回托管的 MP4 文件。",
-   "specs": "launched 2023-06-28 (China) · Seedance 1.0 Pro first/last-frame control (2025) · Seedance 2.0 / 2.5 (2026)",
+   "specs": "launched 2023-06-28 (China) · Seedance 1.0 Pro / Pro Fast, 1.5 pro, 2.0 / 2.0 Fast / 2.0 Mini, 2.5 (dreamina-seedance-2-5-260628, $10.70 per M tokens) · OmniHuman 2.0 $0.07/s (BytePlus, 2026-10)",
    "keywords": [
     "Seedance",
     "Doubao",
+    "Dola",
+    "OmniHuman",
     "model-as-a-service",
     "China"
    ],
@@ -1565,8 +1567,8 @@
     "control"
    ],
    "kind": "open-source",
-   "description": "An open-source framework for real-time voice, video and physical-AI agents that join LiveKit WebRTC rooms as participants. It wires speech-to-text, LLM and text-to-speech (or speech-to-speech) models and avatar providers into one session, with turn detection, interruption handling, telephony and evaluation tools; 1.0 shipped on 2025-04-10 and 1.8.8 on 2026-10-15, and LiveKit Cloud hosts deployments.",
-   "description_zh": "开源的实时语音、视频与物理 AI 智能体框架，智能体以参与者身份加入 LiveKit WebRTC 房间。它把语音识别、大语言模型、语音合成（或语音到语音模型）以及虚拟人服务串进同一会话，并提供话轮检测、打断处理、电话接入与评测工具；1.0 版于 2025-04-10 发布，1.8.8 版于 2026-10-15 发布，LiveKit Cloud 负责托管部署。",
+   "description": "An open-source framework for real-time voice, video and physical-AI agents that join LiveKit WebRTC rooms as participants. It wires speech-to-text, LLM and text-to-speech (or speech-to-speech) models and avatar providers into one session, with turn detection, interruption handling, telephony and evaluation tools; 1.0 shipped on 2025-04-10 and 1.8.8 on 2026-10-15, and LiveKit Cloud hosts deployments. As of October 2026 it ships plug-ins for 16 real-time avatar providers (Anam, Avatario, AvatarTalk, Beyond Presence, bitHuman, D-ID, Keyframe, LemonSlice, LiveAvatar, Protoface, Runway, Simli, Spatius, Synthesia, Tavus, TruGen), which publish the face as a separate room participant fed by the agent's audio.",
+   "description_zh": "开源的实时语音、视频与物理 AI 智能体框架，智能体以参与者身份加入 LiveKit WebRTC 房间。它把语音识别、大语言模型、语音合成（或语音到语音模型）以及虚拟人服务串进同一会话，并提供话轮检测、打断处理、电话接入与评测工具；1.0 版于 2025-04-10 发布，1.8.8 版于 2026-10-15 发布，LiveKit Cloud 负责托管部署。截至 2026 年 10 月，它为 16 家实时虚拟人服务（Anam、Avatario、AvatarTalk、Beyond Presence、bitHuman、D-ID、Keyframe、LemonSlice、LiveAvatar、Protoface、Runway、Simli、Spatius、Synthesia、Tavus、TruGen）提供插件，虚拟人作为独立的房间参与者，由智能体的音频驱动。",
    "idea_en": "The plumbing that lets a researcher swap the voice, model or avatar of a virtual human while keeping the same room, logging and timing behavior.",
    "idea_zh": "这套底层管线让研究者可以更换虚拟人的声音、模型或形象，同时保持同样的房间、日志与时序行为。",
    "method": "Python and Node.js workers connect to a LiveKit media server over WebRTC; a pipeline of plugins (STT, LLM, TTS, VAD and a transformer turn-detection model) or a realtime model handles each conversation.",
@@ -1621,8 +1623,8 @@
     "control"
    ],
    "kind": "open-source",
-   "description": "An open-source Python framework, maintained by Daily, for voice and multimodal agents built as pipelines of frames passing through speech, LLM, video and avatar services; Pipecat Flows adds structured conversation graphs and Pipecat Cloud hosts agents. Pipecat 1.0 shipped on 2026-04-14 and 1.12 on 2026-09-26.",
-   "description_zh": "由 Daily 维护的开源 Python 框架，用于搭建语音与多模态智能体：数据帧依次流经语音、大语言模型、视频与虚拟人等服务。Pipecat Flows 提供结构化的对话图，Pipecat Cloud 负责托管。Pipecat 1.0 于 2026-04-14 发布，1.12 于 2026-09-26 发布。",
+   "description": "An open-source Python framework, maintained by Daily, for voice and multimodal agents built as pipelines of frames passing through speech, LLM, video and avatar services; Pipecat Flows adds structured conversation graphs and Pipecat Cloud hosts agents. Pipecat 1.0 shipped on 2026-04-14 and 1.12 on 2026-09-26. As of October 2026 its video (avatar) services are Anam, bitHuman, HeyGen, Protoface, Simli and Tavus.",
+   "description_zh": "由 Daily 维护的开源 Python 框架，用于搭建语音与多模态智能体：数据帧依次流经语音、大语言模型、视频与虚拟人等服务。Pipecat Flows 提供结构化的对话图，Pipecat Cloud 负责托管。Pipecat 1.0 于 2026-04-14 发布，1.12 于 2026-09-26 发布。截至 2026 年 10 月，其视频（虚拟人）服务包括 Anam、bitHuman、HeyGen、Protoface、Simli 和 Tavus。",
    "idea_en": "A frame-level pipeline makes every stage of a conversational stimulus explicit and swappable, which helps when a study must report which models produced what.",
    "idea_zh": "帧级流水线让对话刺激的每个环节都清晰可见、可替换；当研究需要报告每一部分由哪个模型生成时，这一点很有用。",
    "method": "Asynchronous pipelines of processors exchange audio, video, text and control frames over transports such as Daily WebRTC, WebSocket or telephony; Flows encode dialogue states and transitions.",

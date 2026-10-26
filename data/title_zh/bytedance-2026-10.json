@@ -1,0 +1,15 @@
+{
+ "bytedance-seed--doubao-realtime-voice": {"zh": "豆包实时语音大模型", "src": "original"},
+ "bytedance-seed--seeduplex": {"zh": "Seeduplex 全双工语音大模型", "src": "original"},
+ "bytedance-seed--seed-liveinterpret-2": {"zh": "Seed LiveInterpret 2.0 端到端同声传译模型", "src": "established"},
+ "bytedance-seed--seaweed-7b": {"zh": "Seaweed-7B：低成本训练的视频生成基础模型", "src": "translated"},
+ "bytedance-seed--seaweed-apt": {"zh": "Seaweed APT：一步视频生成的扩散对抗后训练", "src": "translated"},
+ "hao-he--cameractrl-2": {"zh": "CameraCtrl II：基于镜头控制视频扩散模型的动态场景探索", "src": "translated"},
+ "bytedance-seed--x-streamer": {"zh": "X-Streamer：音视频交互的统一人类世界建模", "src": "translated"},
+ "bytedance-seed--flowact-r1": {"zh": "FlowAct-R1：面向交互式人形视频生成", "src": "translated"},
+ "bytedance-seed--humo": {"zh": "HuMo：多模态协同条件的以人为中心视频生成", "src": "translated"},
+ "bytedance-seed--bernini": {"zh": "Bernini：视频扩散的潜在语义规划", "src": "translated"},
+ "bytedance-seed--dreamactor-m2": {"zh": "DreamActor-M2：通用角色图像动画", "src": "translated"},
+ "bytedance-seed--video-depth-anything": {"zh": "Video Depth Anything：超长视频的一致深度估计", "src": "translated"},
+ "lihe-yang--depth-anything": {"zh": "Depth Anything：释放大规模无标注数据的力量", "src": "translated"}
+}

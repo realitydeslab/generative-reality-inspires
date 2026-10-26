@@ -1,0 +1,1235 @@
+{
+  "batch": "tavus-alts-2026-10",
+  "creators": [
+    {
+      "id": "beyond-presence",
+      "name": "Beyond Presence",
+      "kind": "company",
+      "role": "Real-time AI avatar company",
+      "based": "Munich, Germany",
+      "bio": "Beyond Presence (Beyond Presence GmbH, founded 2024) builds the Genesis real-time avatar models and sells them as a speech-to-video layer for existing voice agents or as managed video agents for sales, HR, coaching and tutoring.",
+      "why": "One of the main 'face layer' vendors that let a voice agent appear as a live talking person without replacing its speech and language stack.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://www.beyondpresence.ai",
+        "youtube": "https://www.youtube.com/@BeyondPresence"
+      },
+      "role_zh": "实时 AI 虚拟人公司",
+      "based_zh": "德国慕尼黑",
+      "bio_zh": "Beyond Presence（Beyond Presence GmbH，2024 年成立）开发 Genesis 实时虚拟人模型，既作为现有语音智能体的“语音转视频”层出售，也提供面向销售、招聘、辅导和教学的托管视频智能体。",
+      "why_zh": "主要的“脸部层”供应商之一，让语音智能体无需更换语音和语言模型，就能以实时说话的人物形象出现。",
+      "connected_to": [
+        "livekit",
+        "daily"
+      ],
+      "discovered_via": "tavus"
+    },
+    {
+      "id": "bithuman",
+      "name": "bitHuman",
+      "kind": "company",
+      "role": "On-device real-time avatar company",
+      "based": "San Francisco, USA",
+      "bio": "bitHuman makes real-time talking-avatar models (Essence and Expression) with SDKs that render on phones, laptops, CPU-only Linux machines and in the browser, as well as in its cloud and through LiveKit and Pipecat plug-ins.",
+      "why": "The main vendor whose photoreal conversational avatars run on the user's own device or fully offline.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://www.bithuman.ai"
+      },
+      "role_zh": "端侧实时虚拟人公司",
+      "based_zh": "美国旧金山",
+      "bio_zh": "bitHuman 开发实时说话虚拟人模型（Essence 与 Expression），其 SDK 可在手机、笔记本、无 GPU 的 Linux 电脑和浏览器中渲染，也可在其云端以及通过 LiveKit、Pipecat 插件运行。",
+      "why_zh": "目前主要的、让照片级对话虚拟人在用户自己的设备上或完全离线运行的供应商。",
+      "connected_to": [
+        "livekit"
+      ],
+      "discovered_via": "tavus"
+    },
+    {
+      "id": "keyframe-labs",
+      "name": "Keyframe Labs",
+      "kind": "company",
+      "role": "Real-time avatar model company",
+      "based": "USA",
+      "bio": "Keyframe Labs builds the Persona family of photoreal, expressive talking-head models for live video calls and sells them by the minute through an API.",
+      "why": "Its Persona models separate a small behaviour model from a generative renderer, a design that makes what the face does an explicit signal; it is one of the baselines in NVIDIA's VideoFDB benchmark.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://keyframelabs.com",
+        "x": "https://x.com/KeyframeLabs",
+        "github": "https://github.com/keyframelabs"
+      },
+      "role_zh": "实时虚拟人模型公司",
+      "based_zh": "美国",
+      "bio_zh": "Keyframe Labs 开发面向实时视频通话的照片级、富有表情的说话人头模型 Persona 系列，并通过 API 按分钟计费出售。",
+      "why_zh": "它的 Persona 模型把小型行为模型与生成式渲染器分开，让“脸在做什么”成为一个显式信号；它也是 NVIDIA VideoFDB 基准中的对照系统之一。",
+      "connected_to": [],
+      "discovered_via": "tavus"
+    },
+    {
+      "id": "tme-lyra-lab",
+      "name": "Tencent Music Lyra Lab",
+      "name_zh": "腾讯音乐天琴实验室",
+      "kind": "lab",
+      "role": "AI lab of Tencent Music Entertainment",
+      "based": "Shenzhen, China",
+      "bio": "Lyra Lab is the audio and multimedia AI lab of Tencent Music Entertainment; it released the open MuseV video model and the MuseTalk real-time lip-sync model in 2024.",
+      "why": "MuseTalk became the default open lip-sync engine inside Chinese open-source real-time digital-human stacks.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "github": "https://github.com/TMElyralab",
+        "huggingface": "https://huggingface.co/TMElyralab"
+      },
+      "role_zh": "腾讯音乐娱乐集团的 AI 实验室",
+      "based_zh": "中国深圳",
+      "bio_zh": "天琴实验室是腾讯音乐娱乐集团的音频与多媒体 AI 实验室，2024 年开源了视频模型 MuseV 和实时口型同步模型 MuseTalk。",
+      "why_zh": "MuseTalk 已成为中国开源实时数字人方案中默认使用的开源口型同步引擎。",
+      "connected_to": [],
+      "discovered_via": "tavus"
+    },
+    {
+      "id": "silicon-intelligence",
+      "name": "Silicon Intelligence (Duix)",
+      "name_zh": "硅基智能",
+      "kind": "company",
+      "role": "Digital-human company",
+      "based": "Nanjing, China",
+      "bio": "Silicon Intelligence builds digital humans for live commerce, customer service and marketing under the Duix brand, and open-sources Duix-Avatar (offline video cloning, formerly HeyGem) and Duix-Mobile (on-device real-time interactive avatars).",
+      "why": "Its open Duix repositories are among the most-starred digital-human projects on GitHub and run an interactive avatar on a phone without a cloud server.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://www.duix.com",
+        "github": "https://github.com/duixcom"
+      },
+      "role_zh": "数字人公司",
+      "based_zh": "中国南京",
+      "bio_zh": "硅基智能以 Duix 品牌为直播带货、客服和营销打造数字人，并开源了 Duix-Avatar（离线视频克隆，前身为 HeyGem）和 Duix-Mobile（端侧实时交互数字人）。",
+      "why_zh": "它开源的 Duix 仓库是 GitHub 上星标最多的数字人项目之一，可以不依赖云服务器在手机上运行交互式数字人。",
+      "connected_to": [],
+      "discovered_via": "tavus"
+    },
+    {
+      "id": "zhiyuan-li-um",
+      "name": "Zhiyuan Li",
+      "kind": "person",
+      "role": "PhD researcher, University of Macau and GVC Lab, Great Bay University",
+      "based": "Macau, China",
+      "bio": "Researcher in diffusion-based portrait animation; first author of PersonaLive (CVPR 2026) with Chi-Man Pun and Dzine.ai, and of its full-body successor EditaLive.",
+      "why": "PersonaLive is one of the most-used open models for real-time, streamable portrait animation in live streaming.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://huai-chang.github.io/",
+        "github": "https://github.com/GVCLab"
+      },
+      "role_zh": "澳门大学与大湾区大学 GVC 实验室博士研究者",
+      "based_zh": "中国澳门",
+      "bio_zh": "研究基于扩散模型的肖像动画；与 Chi-Man Pun 及 Dzine.ai 合作的 PersonaLive（CVPR 2026）及其全身后续工作 EditaLive 的第一作者。",
+      "why_zh": "PersonaLive 是直播场景中使用最广的实时、可流式肖像动画开源模型之一。",
+      "connected_to": [],
+      "discovered_via": "tavus"
+    }
+  ],
+  "works": [
+    {
+      "id": "tavus--phoenix",
+      "creator_ids": [
+        "tavus"
+      ],
+      "title": "Phoenix",
+      "year": 2024,
+      "date": "2024-03-12",
+      "field": "avatars",
+      "sub": "portrait",
+      "modalities": [
+        "avatar",
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "api"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Phoenix was Tavus' first replica model, launched with the public beta of its developer platform on 2024-03-12: from a short training video of a person it builds a digital replica that can then say any script, as a talking-head video whose lips, cheeks, brows and chin follow a cloned voice. It rendered videos in advance; the real-time Phoenix-2 followed with the Conversational Video Interface in August 2024.",
+      "description_zh": "Phoenix 是 Tavus 的第一代“复刻”模型，于 2024-03-12 随其开发者平台公测一同发布：用一段人物的短训练视频构建数字复刻，之后可以让它说出任何脚本，生成嘴唇、脸颊、眉毛和下巴都随克隆声音运动的说话人头视频。它是预先渲染视频的模型；可实时运行的 Phoenix-2 于 2024 年 8 月随对话视频接口一同推出。",
+      "idea_en": "The Tavus line begins with personalised video messages rendered offline; the same replica later became the face of a live conversation.",
+      "idea_zh": "Tavus 的模型线始于离线渲染的个性化视频消息；同一个复刻后来成为实时对话的“脸”。",
+      "method": "Tavus describes Phoenix as reconstructing a dynamic 3D scene of the face with neural radiance fields (NeRFs) from 2D footage, instead of 2D lip-sync, and rendering it driven by the script's synthesised speech; it was exposed through a beta Replica API.",
+      "method_zh": "据 Tavus 介绍，Phoenix 不做二维对口型，而是用神经辐射场（NeRF）从二维视频重建脸部的动态三维场景，再由脚本合成的语音驱动渲染；通过测试版 Replica API 提供。",
+      "keywords": [
+        "digital replica",
+        "NeRF",
+        "text-to-video",
+        "talking head",
+        "personalised video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=ry16nUuiDwg"
+      },
+      "images": [
+        "https://cdn.prod.website-files.com/68c8e57d6e512b9573db147f/68c8e57e6e512b9573db20ee_67a56e94f7435b10573c0b02_65f04e4c0e190aceaffbd359_BP_01.avif"
+      ],
+      "source_url": "https://www.tavus.io/blog/introducing-phoenix-the-tavus-developer-platform-public-beta",
+      "api_url": "https://docs.tavus.io"
+    },
+    {
+      "id": "tavus--phoenix-3",
+      "creator_ids": [
+        "tavus"
+      ],
+      "title": "Phoenix-3",
+      "year": 2025,
+      "date": "2025-03-06",
+      "field": "avatars",
+      "sub": "conversational",
+      "modalities": [
+        "avatar"
+      ],
+      "inputs": [
+        "speech",
+        "text"
+      ],
+      "timing": "real-time",
+      "access": [
+        "api",
+        "product"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "reactivity",
+        "responsiveness"
+      ],
+      "kind": "model",
+      "description": "Phoenix-3 is the full-face rendering model of Tavus' second-generation Conversational Video Interface, released on 2025-03-06 together with the Raven-0 perception model and the Sparrow-0 turn-taking model: it animates brows, cheeks, eyes and mouth rather than only the lips, with emotion set explicitly or following the conversation, while Raven-0 watches the user's face, gestures and screen and Sparrow-0 decides when to reply (Tavus reports sub-600 ms responses). Phoenix-4, Raven-1 and Sparrow-1 replaced the three models in early 2026.",
+      "description_zh": "Phoenix-3 是 Tavus 第二代对话视频接口的全脸渲染模型，于 2025-03-06 与感知模型 Raven-0、轮流发言模型 Sparrow-0 一同发布：它驱动的不只是嘴唇，还有眉毛、脸颊、眼睛和嘴，情绪可以显式设定，也可以随对话变化；Raven-0 观察用户的脸、手势和屏幕，Sparrow-0 决定何时回应（Tavus 称回应时间低于 600 ms）。2026 年初，这三个模型被 Phoenix-4、Raven-1 和 Sparrow-1 取代。",
+      "idea_en": "Splits a video person into three swappable models (face, perception, timing), the architecture most commercial avatars still follow.",
+      "idea_zh": "把视频人物拆成三个可替换的模型（脸、感知、时机），这正是大多数商用虚拟人至今沿用的架构。",
+      "method": "Tavus calls Phoenix-3 a Gaussian-diffusion rendering model conditioned on speech and an emotion state; Raven-0 processes continuous video for expression, gaze and custom action triggers, and Sparrow-0 is a transformer turn-taking model that replaces silence timers, all inside a cascaded speech-to-text, LLM and text-to-speech pipeline streamed over WebRTC.",
+      "method_zh": "Tavus 称 Phoenix-3 是以语音和情绪状态为条件的“高斯扩散”渲染模型；Raven-0 持续处理视频以识别表情、视线和自定义动作触发，Sparrow-0 是取代静音计时的 Transformer 轮流发言模型，三者都运行在通过 WebRTC 流式传输的“语音转文字—大模型—文字转语音”级联流程中。",
+      "specs": "sub-600 ms response (Sparrow-0, developer-reported)",
+      "keywords": [
+        "full-face rendering",
+        "Gaussian diffusion",
+        "perception",
+        "turn-taking",
+        "emotion control",
+        "newswire video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=GD1IvQfBzpY"
+      },
+      "images": [
+        "https://cdn.prod.website-files.com/68c8e57d6e512b9573db147f/68c8e57e6e512b9573db20fa_67c9a3e8e9ff2f9771b6abf2_again.avif"
+      ],
+      "source_url": "https://www.tavus.io/blog/introducing-the-evolution-of-conversational-video-interface-now-with-emotional-intelligence",
+      "api_url": "https://docs.tavus.io",
+      "collections": [
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "tavus--pals",
+      "creator_ids": [
+        "tavus"
+      ],
+      "title": "PALs",
+      "year": 2025,
+      "date": "2025-11-12",
+      "field": "avatars",
+      "sub": "conversational",
+      "modalities": [
+        "avatar",
+        "speech",
+        "dialogue"
+      ],
+      "inputs": [
+        "speech",
+        "video",
+        "text"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "persistence",
+        "adaptation",
+        "authoring"
+      ],
+      "kind": "product",
+      "description": "PALs are Tavus' consumer AI humans, launched on 2025-11-12: characters you can text, phone or meet over live video, which see and hear you, remember earlier sessions and change over time. As of October 2026 they run on Phoenix-4.5, Raven-1 and Sparrow-2, can join Google Meet calls (July 2026), can be built by anyone with the no-code PAL Maker (2026-07-29) and published to a website or a link, and cost from free (15 call minutes a month) to $50 a month (500 minutes). The video shows Dom, a PAL that Tavus demonstrated in June 2026 seeing the user's screen and operating the computer.",
+      "description_zh": "PALs 是 Tavus 面向个人用户的 AI 人物，于 2025-11-12 推出：你可以和它发消息、打电话或进行实时视频通话，它能看见、听见你，记得之前的对话，并会随时间改变。截至 2026 年 10 月，PALs 运行在 Phoenix-4.5、Raven-1 和 Sparrow-2 上，可以加入 Google Meet 会议（2026 年 7 月），任何人都能用无代码的 PAL Maker（2026-07-29）创建 PAL 并发布到网站或链接；价格从免费（每月 15 分钟通话）到每月 50 美元（500 分钟）。视频展示的是 Tavus 在 2026 年 6 月演示的 PAL “Dom”，它能看到用户的屏幕并操作电脑。",
+      "idea_en": "A face-to-face companion that remembers you across sessions turns a single video call into a relationship, which is the variable a longitudinal study would need to control.",
+      "idea_zh": "一个跨会话记得你的面对面伙伴，把单次视频通话变成一段关系，而这正是纵向研究需要控制的变量。",
+      "method": "Tavus' cascaded stack (Raven perception, Sparrow turn-taking, an LLM with memories and an 'evolution' system that adapts the persona, Phoenix rendering) behind chat, voice and WebRTC video clients; Dom adds a computer-use harness that acts through the operating system's accessibility tree.",
+      "method_zh": "Tavus 的级联技术栈（Raven 感知、Sparrow 轮流发言、带记忆的大模型和让人设逐渐适应用户的“进化”系统、Phoenix 渲染）支撑文字、语音和 WebRTC 视频客户端；Dom 另外加入了通过操作系统无障碍树操作界面的“电脑使用”框架。",
+      "specs": "Free 15 min · Plus $20/mo 150 min · Max $50/mo 500 min of voice and video calls · 30+ languages",
+      "keywords": [
+        "AI companion",
+        "memory",
+        "consumer",
+        "no-code",
+        "PAL Maker",
+        "Knowledge Navigator"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=YwfLwraMQxs"
+      },
+      "images": [
+        "https://cdn.prod.website-files.com/68a3622d17312a5dc16e5cc6/68c726371c9da69ce10a4895_Frame%202147228889.png"
+      ],
+      "source_url": "https://www.tavus.io/blog/meet-pals-ai-humans-that-finally-feel-human",
+      "api_url": "https://www.tavus.io/pricing"
+    },
+    {
+      "id": "beyond-presence--genesis-2",
+      "creator_ids": [
+        "beyond-presence"
+      ],
+      "title": "Genesis 2.0",
+      "year": 2025,
+      "date": "2025-10-22",
+      "field": "avatars",
+      "sub": "conversational",
+      "modalities": [
+        "avatar"
+      ],
+      "inputs": [
+        "speech"
+      ],
+      "timing": "real-time",
+      "access": [
+        "api",
+        "product"
+      ],
+      "lenses": [
+        "responsiveness",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "Genesis 2.0 is Beyond Presence's real-time avatar model, launched on 2025-10-22: it turns an AI agent's speech into a live, lip-synced talking face with expression and head motion, sold either as a speech-to-video layer under a developer's own voice agent (LiveKit, Pipecat) or as managed agents embedded on a website. Beyond Presence reports sub-100 ms inference and more than 100 million seconds of avatar conversation across 322,000 calls in the twelve months to September 2026.",
+      "description_zh": "Genesis 2.0 是 Beyond Presence 的实时虚拟人模型，于 2025-10-22 发布：它把 AI 智能体的语音实时变成口型同步、带表情和头部动作的说话人脸，既可作为“语音转视频”层接在开发者自己的语音智能体（LiveKit、Pipecat）之下，也可作为嵌入网站的托管智能体使用。Beyond Presence 称推理延迟低于 100 ms，并称在截至 2026 年 9 月的 12 个月里，通过 32.2 万次通话生成了超过 1 亿秒的虚拟人对话。",
+      "idea_en": "Sells the face as a separate layer, so a lab can keep its own speech recognition, language model and voice and swap only the avatar.",
+      "idea_zh": "把“脸”作为独立的一层出售，实验室可以保留自己的语音识别、语言模型和声音，只替换虚拟人。",
+      "method": "A proprietary speech-to-video generator for each avatar identity, streamed over WebRTC on LiveKit; Beyond Presence does not publish its architecture.",
+      "method_zh": "为每个虚拟人形象使用专有的语音转视频生成器，通过 LiveKit 上的 WebRTC 流式传输；Beyond Presence 未公开其架构。",
+      "specs": "<100 ms streaming inference · ≤250 ms global avatar latency (developer-reported)",
+      "keywords": [
+        "speech-to-video",
+        "face layer",
+        "managed agents",
+        "LiveKit",
+        "Pipecat"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=PIokTQBfZCQ"
+      },
+      "images": [
+        "https://cdn.prod.website-files.com/68ca870213ee936f26f8f86d/6a9f103028a024372650cc16_article-image.png"
+      ],
+      "source_url": "https://www.beyondpresence.ai/blog/what-is-beyond-presence-real-time-ai-avatars-built-for-enterprise",
+      "api_url": "https://docs.bey.dev/api-introduction",
+      "collections": [
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "bithuman--essence-2",
+      "creator_ids": [
+        "bithuman"
+      ],
+      "title": "Essence 2 and Expression 2",
+      "year": 2026,
+      "date": "2026-07-10",
+      "field": "avatars",
+      "sub": "conversational",
+      "modalities": [
+        "avatar"
+      ],
+      "inputs": [
+        "speech",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "api",
+        "product"
+      ],
+      "lenses": [
+        "control",
+        "responsiveness",
+        "situational-reach"
+      ],
+      "kind": "model",
+      "description": "Essence 2 (photoreal people) and Expression 2 (any character: cartoon, animal, robot or human) are bitHuman's second-generation real-time avatar models, rolled out on 2026-07-10: from one portrait they lip-sync and animate a face to a voice agent's speech and render on the device itself (iPhone, Android, Mac, a Linux PC without a GPU or a WebGPU browser tab) as well as in bitHuman's cloud. bitHuman reports live playback at 25 fps (Essence 2) and 20 fps (Expression 2), first speech after 0.38 s on an iPhone 18 Pro, and $0.02 per minute on the device.",
+      "description_zh": "Essence 2（照片级真人）和 Expression 2（任何角色：卡通、动物、机器人或人）是 bitHuman 的第二代实时虚拟人模型，于 2026-07-10 开始推出：只需一张肖像，它们就能让脸随语音智能体的语音对口型并做出动作，可以在设备本身（iPhone、Android、Mac、没有 GPU 的 Linux 电脑或支持 WebGPU 的浏览器）上渲染，也可以在 bitHuman 云端运行。bitHuman 称实时播放为 25 fps（Essence 2）和 20 fps（Expression 2），在 iPhone 18 Pro 上 0.38 秒即可开口，设备端每分钟 0.02 美元。",
+      "idea_en": "A photoreal talking face that runs on a phone or an offline kiosk removes the per-minute cloud dependency and gives a study a model version it can freeze.",
+      "idea_zh": "能在手机或离线终端上运行的照片级说话人脸，摆脱了按分钟计费的云端依赖，也让研究可以冻结模型版本。",
+      "method": "Audio-driven portrait animation shipped as ONNX engines plus per-identity avatar files (.imx) for Swift, Android, Python and WebGPU SDKs; the first-generation Essence 1 patched lip-sync live over pre-rendered motion on a CPU.",
+      "method_zh": "音频驱动的肖像动画，以 ONNX 引擎加每个形象的虚拟人文件（.imx）的形式提供给 Swift、Android、Python 和 WebGPU SDK；第一代 Essence 1 则是在 CPU 上把实时口型补丁叠加到预先渲染的动作上。",
+      "specs": "live 25 fps (Essence 2) / 20 fps (Expression 2) · 4.9×–11.9× real time on iPhone 18 Pro · 0.38 s to first speech · $0.02/min on device, $0.04/min in cloud (developer-reported)",
+      "keywords": [
+        "on-device",
+        "offline",
+        "edge",
+        "talking head",
+        "LiveKit",
+        "WebGPU"
+      ],
+      "video": {
+        "url": "https://assets.bithuman.ai/bithuman/A23KSG5258/video_20260713_013322_399771.mp4"
+      },
+      "images": [
+        "https://www.bithuman.ai/bithuman_heroshot_image.jpg"
+      ],
+      "source_url": "https://docs.bithuman.ai/models",
+      "api_url": "https://docs.bithuman.ai",
+      "collections": [
+        "trend-realtime",
+        "trend-cost"
+      ]
+    },
+    {
+      "id": "keyframe-labs--persona-1-5-live",
+      "creator_ids": [
+        "keyframe-labs"
+      ],
+      "title": "Persona-1.5-Live",
+      "year": 2026,
+      "date": "2026-03-27",
+      "field": "avatars",
+      "sub": "conversational",
+      "modalities": [
+        "avatar"
+      ],
+      "inputs": [
+        "speech",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "api"
+      ],
+      "lenses": [
+        "control",
+        "perceptual-realism",
+        "responsiveness"
+      ],
+      "kind": "model",
+      "description": "Persona-1.5-Live is Keyframe Labs' real-time avatar model for video calls: a small behaviour model decides from the conversation's audio and an emotion target what the face does, and a diffusion renderer paints a photoreal frame every 40 ms. Keyframe reports that this split lets one GPU serve many calls at $0.06 per minute.",
+      "description_zh": "Persona-1.5-Live 是 Keyframe Labs 面向视频通话的实时虚拟人模型：一个小型行为模型根据对话音频和目标情绪决定脸部要做什么，再由扩散渲染器每 40 ms 生成一帧照片级画面。Keyframe 称这种拆分让一块 GPU 能同时服务多路通话，价格为每分钟 0.06 美元。",
+      "idea_en": "Separating behaviour from appearance yields an explicit, loggable signal of what the face does, a middle way between an end-to-end video model and a hand-made rig.",
+      "idea_zh": "把行为与外观分开，就得到一个显式、可记录的“脸在做什么”的信号，介于端到端视频模型与人工绑定的面部骨架之间。",
+      "method": "Semantic codes learned from conversational video (no landmarks, blendshapes or 3D prior) separate pose, gaze and expression from identity and lighting; a chunked-autoregressive diffusion transformer generates the codes from audio and emotion, and a diffusion renderer decodes each frame fresh from codes and appearance, so identity cannot drift. It follows Persona-1 (2025-11-05), a flow-based image transformer that ran at about twice real time on an RTX 4090.",
+      "method_zh": "从对话视频中学习的语义编码（不使用关键点、blendshape 或三维先验）把姿态、视线和表情与身份、光照分开；一个分块自回归的扩散 Transformer 根据音频和情绪生成编码，扩散渲染器再根据编码和外观逐帧重新解码，因此身份不会漂移。前代 Persona-1（2025-11-05）是基于 flow 的图像 Transformer，在 RTX 4090 上约为实时速度的 2 倍。",
+      "specs": "25 fps · $0.06/min · Persona-1: ~2× real time on RTX 4090, ~4× on L40S (developer-reported)",
+      "keywords": [
+        "semantic codes",
+        "behaviour model",
+        "diffusion renderer",
+        "talking head",
+        "VideoFDB baseline"
+      ],
+      "video": {
+        "url": "https://keyframelabs.com/human-realism.mp4"
+      },
+      "images": [
+        "https://keyframelabs.com/blog/persona-1-5-live/opengraph-image?a0c5c72ffca39889"
+      ],
+      "source_url": "https://keyframelabs.com/blog/persona-1-5-live",
+      "api_url": "https://docs.keyframelabs.com",
+      "collections": [
+        "trend-realtime",
+        "trend-cost"
+      ]
+    },
+    {
+      "id": "microsoft--azure-tts-avatar",
+      "creator_ids": [
+        "microsoft"
+      ],
+      "title": "Azure AI Speech text to speech avatar",
+      "year": 2023,
+      "date": "2023-11-15",
+      "field": "avatars",
+      "sub": "conversational",
+      "modalities": [
+        "avatar",
+        "speech"
+      ],
+      "inputs": [
+        "text",
+        "speech"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "api"
+      ],
+      "lenses": [
+        "authoring",
+        "control"
+      ],
+      "kind": "platform",
+      "description": "Azure's text to speech avatar turns text into a photoreal talking presenter, either as a rendered video or streamed live over WebRTC for interactive bots; it entered public preview on 2023-11-15 with standard and custom (trained from a few minutes of consented video) avatars. As of October 2026 it also offers photo avatars built on Microsoft's VASA model, generally available since June 2026, and avatar conversations through the Voice Live API.",
+      "description_zh": "Azure 的文本转语音虚拟形象把文字变成照片级的说话主持人，可渲染成视频，也可通过 WebRTC 实时推流给交互式机器人；它于 2023-11-15 开放公测，提供标准形象和定制形象（用几分钟经授权的视频训练）。截至 2026 年 10 月，它还提供基于微软 VASA 模型的照片虚拟形象（2026 年 6 月正式可用），并可通过 Voice Live API 进行虚拟形象对话。",
+      "idea_en": "A cloud speech API with a face, priced and versioned like any other Azure service, which is how VASA-style research first became something a lab can call.",
+      "idea_zh": "一个带“脸”的云端语音 API，与其他 Azure 服务一样计价和管理版本；VASA 一类的研究也正是由此首次变成实验室可以调用的服务。",
+      "method": "Neural text to speech drives a per-identity talking-avatar video model trained on recordings of the actor; photo avatars use the VASA one-image model at 512×512; real-time output is H.264 over WebRTC at up to 1920×1080 and 25 fps.",
+      "method_zh": "神经网络文本转语音驱动一个用演员录像训练的、针对单一身份的说话形象视频模型；照片虚拟形象使用只需一张图像的 VASA 模型，分辨率 512×512；实时输出通过 WebRTC 以 H.264 编码传输，最高 1920×1080、25 fps。",
+      "specs": "real-time 1920×1080 · 25 fps · photo avatar 512×512 (VASA)",
+      "keywords": [
+        "text to speech avatar",
+        "custom avatar",
+        "photo avatar",
+        "VASA",
+        "Voice Live",
+        "WebRTC"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=Dvr9ByPUPgc"
+      },
+      "images": [
+        "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS0zOTgxNDQ4LTUyNTQ1OGkwRUU4Mjg0MTk4NEQ5RDk3?revision=7"
+      ],
+      "source_url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/azure-ai-speech-announces-public-preview-of-text-to-speech-avatar/3981448",
+      "api_url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/text-to-speech-avatar/what-is-text-to-speech-avatar"
+    },
+    {
+      "id": "tme-lyra-lab--musetalk",
+      "creator_ids": [
+        "tme-lyra-lab"
+      ],
+      "title": "MuseTalk",
+      "year": 2024,
+      "date": "2024-04-02",
+      "field": "avatars",
+      "sub": "portrait",
+      "modalities": [
+        "avatar",
+        "flat-video"
+      ],
+      "inputs": [
+        "speech",
+        "video"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "MuseTalk is an open lip-sync model from Tencent Music's Lyra Lab that repaints the mouth region of a face video to match new speech in Chinese, English, Japanese and other languages, fast enough for live use (30 fps on a V100). Released on 2024-04-02, with version 1.5 (better clarity, identity and sync) and training code in March–April 2025, it is the lip-sync engine many open digital-human stacks such as LiveTalking and OpenAvatarChat plug in.",
+      "description_zh": "MuseTalk 是腾讯音乐天琴实验室开源的口型同步模型：它重绘人脸视频的嘴部区域，使之与新的中文、英文、日文等语音一致，速度足以用于实时场景（V100 上 30 fps）。它于 2024-04-02 发布，1.5 版（清晰度、身份一致性和同步更好）及训练代码于 2025 年 3–4 月公开，是 LiveTalking、OpenAvatarChat 等许多开源数字人方案接入的口型引擎。",
+      "idea_en": "Lip-sync over a recorded base video is the cheapest way to make a real-time digital human, and the reason most livestream avatars keep the same few gestures.",
+      "idea_zh": "在录好的底版视频上做口型同步，是制作实时数字人最便宜的办法，这也是大多数直播数字人总是重复那几个动作的原因。",
+      "method": "Single-step latent-space inpainting (not diffusion) with a Stable Diffusion v1.4-style UNet: a frozen VAE encodes the masked face and a reference frame, frozen whisper-tiny audio features are fused by cross-attention; v1.5 adds perceptual, GAN and sync losses with two-stage training and spatio-temporal data sampling.",
+      "method_zh": "采用借鉴 Stable Diffusion v1.4 的 UNet 在潜空间单步修补（并非扩散）：冻结的 VAE 编码遮罩后的人脸与参考帧，冻结的 whisper-tiny 音频特征通过交叉注意力融合；1.5 版加入感知损失、GAN 损失和同步损失，并采用两阶段训练与时空数据采样。",
+      "specs": "256×256 face region · 30 fps+ on NVIDIA V100",
+      "keywords": [
+        "lip-sync",
+        "video dubbing",
+        "latent inpainting",
+        "open weights",
+        "digital human"
+      ],
+      "video": {
+        "url": "https://github.com/user-attachments/assets/999a6f5b-61dd-48e1-b902-bb3f9cbc7247"
+      },
+      "images": [
+        "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/TMElyralab/MuseTalk.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2410.10122",
+        "arxiv": "2410.10122",
+        "title": "MuseTalk: Real-Time High-Fidelity Video Dubbing via Spatio-Temporal Sampling",
+        "venue": "arXiv 2024"
+      },
+      "source_url": "https://github.com/TMElyralab/MuseTalk",
+      "code_url": "https://github.com/TMElyralab/MuseTalk",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "ant-group--ditto",
+      "creator_ids": [
+        "ant-group"
+      ],
+      "title": "Ditto",
+      "year": 2024,
+      "date": "2024-11-29",
+      "field": "avatars",
+      "sub": "portrait",
+      "modalities": [
+        "avatar",
+        "flat-video"
+      ],
+      "inputs": [
+        "speech",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "control",
+        "responsiveness"
+      ],
+      "kind": "model",
+      "description": "Ditto is Ant Group's open diffusion talking-head model built for AI assistants: it streams a talking face from one portrait and speech in real time with a low first-frame delay, and lets a developer steer gaze, head pose and emotion. The paper appeared on 2024-11-29, code and weights (Apache 2.0) followed in January 2025, and it was published at ACM MM 2025.",
+      "description_zh": "Ditto 是蚂蚁集团为 AI 助手打造的开源扩散说话人头模型：只需一张肖像和语音，就能以较低的首帧延迟实时流式生成说话人脸，并允许开发者控制视线、头部姿态和情绪。论文发布于 2024-11-29，代码和权重（Apache 2.0）于 2025 年 1 月公开，并发表于 ACM MM 2025。",
+      "idea_en": "Generating in a compact motion space rather than in pixels is what lets a diffusion avatar run live and still take explicit control signals.",
+      "idea_zh": "在紧凑的运动空间而不是像素空间里生成，是扩散式虚拟人能够实时运行、同时接受显式控制信号的关键。",
+      "method": "A diffusion transformer generates motion representations of an off-the-shelf motion extractor (disentangled from identity) from audio and conditioning signals, which a renderer turns into frames; the whole pipeline is jointly optimised for streaming inference.",
+      "method_zh": "扩散 Transformer 根据音频和条件信号，在现成运动提取器的运动表示空间（与身份解耦）中生成运动，再由渲染器生成画面；整个流程针对流式推理联合优化。",
+      "keywords": [
+        "talking head",
+        "motion-space diffusion",
+        "real-time",
+        "controllable",
+        "open weights"
+      ],
+      "video": {
+        "url": "https://digital-avatar.github.io/ai/Ditto/asserts/videos/acmmm25_mfp1949_ditto_mpv_v250925.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2411.19509",
+        "arxiv": "2411.19509",
+        "title": "Ditto: Motion-Space Diffusion for Controllable Realtime Talking Head Synthesis",
+        "venue": "ACM MM 2025"
+      },
+      "source_url": "https://digital-avatar.github.io/ai/Ditto/",
+      "code_url": "https://github.com/antgroup/ditto-talkinghead",
+      "collections": [
+        "trend-open-weights",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "alibaba-tongyi--openavatarchat",
+      "creator_ids": [
+        "alibaba-tongyi"
+      ],
+      "title": "OpenAvatarChat",
+      "year": 2025,
+      "date": "2025-03-28",
+      "field": "avatars",
+      "sub": "conversational",
+      "modalities": [
+        "avatar",
+        "speech",
+        "dialogue"
+      ],
+      "inputs": [
+        "speech",
+        "video",
+        "text"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "control",
+        "authoring"
+      ],
+      "kind": "open-source",
+      "description": "OpenAvatarChat is an open, modular stack from Alibaba's HumanAIGC team for talking to a digital human: voice activity detection, speech recognition, an LLM (or Qwen-Omni end to end), speech synthesis and an avatar renderer (LiteAvatar 2D, LAM 3D Gaussian heads, MuseTalk or SoulX-FlashHead) are swappable handlers behind a WebRTC page. The team reports about 2.2 s average response; version 0.6.0 (April 2026) lets every avatar be interrupted mid-reply.",
+      "description_zh": "OpenAvatarChat 是阿里巴巴 HumanAIGC 团队开源的模块化数字人对话方案：语音活动检测、语音识别、大模型（或端到端的 Qwen-Omni）、语音合成和数字人渲染（LiteAvatar 二维、LAM 三维高斯头像、MuseTalk 或 SoulX-FlashHead）都是可替换的处理模块，通过 WebRTC 网页提供服务。团队称平均响应约 2.2 秒；0.6.0 版（2026 年 4 月）让所有数字人都能在回答中途被打断。",
+      "idea_en": "Every stage of a talking digital human becomes a config entry, so a study can swap the face, the voice or the model and log the rest unchanged.",
+      "idea_zh": "会说话的数字人的每个环节都变成一项配置，研究可以只替换脸、声音或模型，其余部分保持不变并被记录。",
+      "method": "A Python handler pipeline (SileroVAD or Smart Turn, SenseVoice ASR, OpenAI-compatible LLM or Qwen-Omni, CosyVoice TTS, avatar handler) with RTC or WebSocket clients; interruption is handled by barge-in, so replies still follow the user's turn.",
+      "method_zh": "Python 处理模块流水线（SileroVAD 或 Smart Turn、SenseVoice 语音识别、OpenAI 兼容大模型或 Qwen-Omni、CosyVoice 语音合成、数字人渲染模块），配合 RTC 或 WebSocket 客户端；打断通过插话（barge-in）实现，回答仍在用户说完之后。",
+      "specs": "~2.2 s average response (developer-reported) · Apache 2.0",
+      "keywords": [
+        "digital human",
+        "modular pipeline",
+        "LiteAvatar",
+        "LAM",
+        "Qwen-Omni",
+        "barge-in"
+      ],
+      "video": {
+        "url": "https://github.com/user-attachments/assets/e2861200-84b0-4c7a-93f0-f46268a0878b"
+      },
+      "source_url": "https://github.com/HumanAIGC-Engineering/OpenAvatarChat",
+      "api_url": "https://humanaigc-engineering.github.io/OpenAvatarChat/",
+      "code_url": "https://github.com/HumanAIGC-Engineering/OpenAvatarChat",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "silicon-intelligence--duix-mobile",
+      "creator_ids": [
+        "silicon-intelligence"
+      ],
+      "title": "Duix Mobile",
+      "year": 2024,
+      "date": "2024-06",
+      "field": "avatars",
+      "sub": "conversational",
+      "modalities": [
+        "avatar",
+        "speech"
+      ],
+      "inputs": [
+        "speech",
+        "text"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "situational-reach",
+        "control"
+      ],
+      "kind": "open-source",
+      "description": "Duix Mobile is Silicon Intelligence's open SDK for real-time interactive digital humans that run on the phone or an embedded screen itself (Android, iOS, tablets, kiosks, cars), with the developer's own speech recognition, LLM and speech synthesis plugged in; it streams speech while generating and supports barge-in. Silicon Intelligence reports avatar response under 120 ms on a Snapdragon 8 Gen 2.",
+      "description_zh": "Duix Mobile 是硅基智能开源的实时交互数字人 SDK，数字人直接运行在手机或嵌入式屏幕（Android、iOS、平板、终端机、车机）上，开发者可接入自己的语音识别、大模型和语音合成；它边合成边播报，并支持插话打断。硅基智能称在骁龙 8 Gen 2 上数字人响应延迟低于 120 ms。",
+      "idea_en": "An interactive face that runs locally on cheap hardware makes kiosks and offline deployments possible without per-minute cloud rendering.",
+      "idea_zh": "能在廉价硬件上本地运行的交互式人脸，让终端机和离线部署无需按分钟付费的云端渲染。",
+      "method": "On-device rendering of pre-built avatar identities (downloadable model packs) with audio-driven lip-sync, driven by streaming TTS; the conversational brain is external.",
+      "method_zh": "在端侧渲染预先构建的数字人形象（可下载的模型包），由流式语音合成驱动口型；对话“大脑”由外部服务提供。",
+      "specs": "<120 ms avatar response on Snapdragon 8 Gen 2 (developer-reported)",
+      "keywords": [
+        "on-device",
+        "digital human",
+        "SDK",
+        "kiosk",
+        "barge-in"
+      ],
+      "video": {
+        "url": "https://github.com/user-attachments/assets/2d1a885e-57d5-4239-8345-c3b6f6f7064a"
+      },
+      "images": [
+        "https://www.duix.com/assets/openGraph/home.webp"
+      ],
+      "source_url": "https://github.com/duixcom/Duix-Mobile",
+      "code_url": "https://github.com/duixcom/Duix-Mobile",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "zhiyuan-li-um--personalive",
+      "creator_ids": [
+        "zhiyuan-li-um"
+      ],
+      "title": "PersonaLive",
+      "year": 2025,
+      "date": "2025-12-12",
+      "field": "avatars",
+      "sub": "portrait",
+      "modalities": [
+        "avatar",
+        "flat-video"
+      ],
+      "inputs": [
+        "image",
+        "video"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open",
+        "research"
+      ],
+      "lenses": [
+        "responsiveness",
+        "persistence"
+      ],
+      "kind": "model",
+      "description": "PersonaLive animates a single portrait image from a live driving video, streaming infinite-length output fast enough for live streaming, so a performer can appear as any character on camera. Code and weights were released on 2025-12-12 for academic use and the paper was accepted to CVPR 2026; the authors report 7–22× speed-ups over earlier diffusion portrait-animation models, and EditaLive (2026-08-28) extends it to full bodies.",
+      "description_zh": "PersonaLive 用实时驱动视频让一张肖像动起来，以足以直播的速度流式生成无限长的画面，让表演者在镜头前化身任何角色。代码和权重于 2025-12-12 以学术用途开放，论文被 CVPR 2026 接收；作者称它比此前的扩散肖像动画模型快 7–22 倍，后续工作 EditaLive（2026-08-28）把它扩展到全身。",
+      "idea_en": "Real-time reenactment turns a person into a generated character while keeping their own timing, gaze and expression, an embodiment manipulation that needs no 3D rig.",
+      "idea_zh": "实时表情驱动把人变成生成的角色，同时保留本人的时机、视线和表情，这是一种无需三维绑定的具身操控。",
+      "method": "A diffusion portrait animator driven by hybrid implicit signals (implicit facial representations plus 3D implicit keypoints), few-step appearance distillation, and autoregressive micro-chunk streaming with sliding training and historical keyframes for stable long videos.",
+      "method_zh": "以混合隐式信号（隐式面部表示加三维隐式关键点）驱动的扩散肖像动画模型，采用少步外观蒸馏，以及带滑动训练和历史关键帧的自回归微块流式生成，以保持长视频稳定。",
+      "specs": "7–22× faster than prior diffusion portrait animators (author-reported) · streaming, unbounded length",
+      "keywords": [
+        "portrait animation",
+        "live streaming",
+        "reenactment",
+        "streaming diffusion",
+        "VTuber"
+      ],
+      "video": {
+        "url": "https://github.com/user-attachments/assets/cdc885ef-5e1c-4139-987a-2fa50fefd6a4"
+      },
+      "images": [
+        "https://raw.githubusercontent.com/GVCLab/PersonaLive/main/assets/overview.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2512.11253",
+        "arxiv": "2512.11253",
+        "title": "PersonaLive! Expressive Portrait Image Animation for Live Streaming",
+        "venue": "CVPR 2026"
+      },
+      "source_url": "https://github.com/GVCLab/PersonaLive",
+      "code_url": "https://github.com/GVCLab/PersonaLive",
+      "collections": [
+        "cvpr",
+        "trend-open-weights",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "fudan-generative-vision--hallo-live",
+      "creator_ids": [
+        "fudan-generative-vision"
+      ],
+      "title": "Hallo-Live",
+      "year": 2026,
+      "date": "2026-04-26",
+      "field": "avatars",
+      "sub": "portrait",
+      "modalities": [
+        "avatar",
+        "speech",
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "Hallo-Live generates a talking avatar's video and voice together from text in real time, for photoreal, stylised and multi-speaker scenes; the Fudan team reports 20.38 fps with 0.94 s latency on two H200 GPUs, 99× lower latency than its teacher model Ovi. Weights are released under MIT and the paper is at ACM MM 2026.",
+      "description_zh": "Hallo-Live 根据文字实时同时生成说话虚拟人的画面和声音，适用于写实、风格化和多人场景；复旦团队称在两块 H200 GPU 上达到 20.38 fps、延迟 0.94 秒，比教师模型 Ovi 的延迟低 99 倍。权重以 MIT 许可开源，论文发表于 ACM MM 2026。",
+      "idea_en": "Joint audio-video avatars, until now offline, reach conversational latency, so voice and face no longer need separate models that drift apart.",
+      "idea_zh": "过去只能离线生成的音视频一体虚拟人达到了对话级延迟，声音和脸不再需要两个容易不同步的独立模型。",
+      "method": "Asynchronous dual-stream diffusion (audio and video), Future-Expanding Attention giving each video block a short look-ahead of phonetic cues, and Human-Centric Preference-guided DMD distillation that reweights samples by visual fidelity, speech naturalness and sync rewards.",
+      "method_zh": "异步的音视频双流扩散，“未来扩展注意力”让每个视频块能提前看到一小段音素线索，并用以人为中心的偏好引导 DMD 蒸馏，按画面保真度、语音自然度和同步奖励给样本重新加权。",
+      "specs": "20.38 fps · 0.94 s latency on 2× H200 · 16× throughput of Ovi (author-reported)",
+      "keywords": [
+        "joint audio-video",
+        "streaming diffusion",
+        "DMD distillation",
+        "text-to-avatar",
+        "open weights"
+      ],
+      "video": {
+        "url": "https://github.com/user-attachments/assets/21b91995-610e-4733-b31c-79fb063fcf02"
+      },
+      "images": [
+        "https://huggingface.co/fudan-generative-ai/Hallo-Live/resolve/main/assets/framework.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2604.23632",
+        "arxiv": "2604.23632",
+        "title": "Hallo-Live: Real-Time Streaming Joint Audio-Video Avatar Generation with Asynchronous Dual-Stream and Human-Centric Preference Distillation",
+        "venue": "ACM MM 2026"
+      },
+      "source_url": "https://github.com/fudan-generative-vision/Hallo-Live",
+      "code_url": "https://huggingface.co/fudan-generative-ai/Hallo-Live",
+      "collections": [
+        "trend-open-weights",
+        "trend-native-audio",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "zhipu-ai--realvideo",
+      "creator_ids": [
+        "zhipu-ai"
+      ],
+      "title": "RealVideo",
+      "year": 2025,
+      "date": "2025-12-11",
+      "field": "avatars",
+      "sub": "conversational",
+      "modalities": [
+        "avatar",
+        "speech",
+        "dialogue"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "responsiveness"
+      ],
+      "kind": "open-source",
+      "description": "RealVideo is Zhipu AI's open video-calling system that answers typed messages as a continuous talking video of any reference image: GLM-4.5-AirX writes the reply, GLM-TTS speaks it, and an autoregressive diffusion model streams the lip-synced face over a WebSocket. Code and weights were released on 2025-12-11 under Apache 2.0.",
+      "description_zh": "RealVideo 是智谱 AI 开源的视频通话系统，用任意参考图像的连续说话视频回答用户输入的文字：GLM-4.5-AirX 生成回复，GLM-TTS 朗读，再由自回归扩散模型通过 WebSocket 流式生成口型同步的人脸。代码和权重于 2025-12-11 以 Apache 2.0 许可发布。",
+      "idea_en": "A Chinese frontier LLM lab ships the whole loop from chat to face as open code, so the avatar is no longer a separate vendor's product.",
+      "idea_zh": "一家中国前沿大模型公司把从聊天到人脸的完整链路作为开源代码发布，虚拟人不再必须来自另一家供应商。",
+      "method": "Cascaded GLM-4.5-AirX dialogue and GLM-TTS speech feeding an autoregressive diffusion talking-head generator that produces video chunks as audio arrives, served through a modular WebSocket backend.",
+      "method_zh": "级联的 GLM-4.5-AirX 对话与 GLM-TTS 语音，输入一个随音频到来逐块生成视频的自回归扩散说话人头模型，由模块化的 WebSocket 后端提供服务。",
+      "keywords": [
+        "video call",
+        "autoregressive diffusion",
+        "GLM",
+        "talking head",
+        "open weights"
+      ],
+      "video": {
+        "url": "https://github.com/user-attachments/assets/4353a47f-32db-4f07-af68-c7cf4eb9b7ec"
+      },
+      "images": [
+        "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/zai-org/RealVideo.png"
+      ],
+      "source_url": "https://github.com/zai-org/RealVideo",
+      "code_url": "https://huggingface.co/zai-org/RealVideo",
+      "collections": [
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "soul-ai-lab--soulx-flashhead",
+      "creator_ids": [
+        "soul-ai-lab"
+      ],
+      "title": "SoulX-FlashHead",
+      "year": 2026,
+      "date": "2026-02-07",
+      "field": "avatars",
+      "sub": "portrait",
+      "modalities": [
+        "avatar",
+        "flat-video"
+      ],
+      "inputs": [
+        "speech",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "persistence"
+      ],
+      "kind": "model",
+      "description": "SoulX-FlashHead is Soul AI Lab's open 1.3B-parameter model that streams an audio-driven talking head of unbounded length from one portrait, small enough for a consumer GPU: the team reports its Lite variant at 96 fps (three simultaneous real-time streams) on one RTX 4090 and its Pro variant at 25+ fps on two RTX 5090s. Weights, a 782-hour training dataset (VividHead) and a demo in the Soul app were released in February 2026, and OpenAvatarChat uses it for interruptible avatars.",
+      "description_zh": "SoulX-FlashHead 是 Soul AI Lab 开源的 13 亿参数模型，只需一张肖像就能根据音频流式生成不限时长的说话人头，规模小到可以在消费级 GPU 上运行：团队称 Lite 版在一块 RTX 4090 上可达 96 fps（同时支持三路实时流），Pro 版在两块 RTX 5090 上可达 25 fps 以上。权重、782 小时的训练数据集 VividHead 以及 Soul App 中的演示于 2026 年 2 月发布，OpenAvatarChat 用它实现可打断的数字人。",
+      "idea_en": "Real-time streaming avatars move from server racks to a single gaming GPU, which puts a lab-owned, version-pinned talking face within reach.",
+      "idea_zh": "实时流式虚拟人从服务器机柜走到一块游戏显卡上，实验室因此可以自己部署并固定版本的说话人脸。",
+      "method": "An autoregressive streaming talking-head generator with Streaming-Aware Spatiotemporal Pre-training and a Temporal Audio Context Cache for short audio fragments, distilled with Oracle-Guided Bidirectional Distillation that uses ground-truth motion priors to curb drift; trained on the 782-hour VividHead dataset. It follows the 14B SoulX-FlashTalk (December 2025).",
+      "method_zh": "自回归的流式说话人头生成器，采用“流式感知时空预训练”和用于短音频片段的“时序音频上下文缓存”，再用借助真实运动先验抑制漂移的“Oracle 引导双向蒸馏”压缩；在 782 小时的 VividHead 数据集上训练。前代为 140 亿参数的 SoulX-FlashTalk（2025 年 12 月）。",
+      "specs": "1.3B params · Lite 96 fps on 1× RTX 4090 (3 real-time streams) · Pro 10.8 fps on 1× RTX 4090, 25+ fps on 2× RTX 5090 (developer-reported)",
+      "keywords": [
+        "talking head",
+        "streaming",
+        "consumer GPU",
+        "distillation",
+        "open weights",
+        "VividHead"
+      ],
+      "video": {
+        "url": "https://github.com/Soul-AILab/Soul-AILab.github.io/raw/refs/heads/main/soulx-flashhead/static/examples/demo.mp4"
+      },
+      "images": [
+        "https://github.com/Soul-AILab/Soul-AILab.github.io/raw/refs/heads/main/soulx-flashhead/static/images/fh_pipe.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2602.07449",
+        "arxiv": "2602.07449",
+        "title": "SoulX-FlashHead: Oracle-guided Generation of Infinite Real-time Streaming Talking Heads",
+        "venue": "arXiv 2026"
+      },
+      "source_url": "https://soul-ailab.github.io/soulx-flashhead/",
+      "code_url": "https://github.com/Soul-AILab/SoulX-FlashHead",
+      "collections": [
+        "trend-open-weights",
+        "trend-realtime",
+        "trend-cost"
+      ]
+    },
+    {
+      "id": "alibaba-tongyi--streamchar",
+      "creator_ids": [
+        "alibaba-tongyi"
+      ],
+      "title": "StreamChar",
+      "year": 2026,
+      "date": "2026-05-25",
+      "field": "avatars",
+      "sub": "portrait",
+      "modalities": [
+        "avatar",
+        "speech",
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "responsiveness",
+        "persistence",
+        "control"
+      ],
+      "kind": "research",
+      "description": "StreamChar from Alibaba Tongyi Lab's HumanAIGC group (the EMO team) streams a character's speech and video together from a transcript, prompt and reference image for minutes at a time, on a single H100 GPU in real time; the project page shows screen recordings of live interaction and long livestream-style product demos. The authors report it matches the perceptual quality of avatar and audio-video generators above 14B parameters (such as LTX-2 and SoulX-FlashTalk) while keeping the spoken audio aligned with the transcript.",
+      "description_zh": "StreamChar 来自阿里巴巴通义实验室 HumanAIGC 团队（EMO 团队），可根据文稿、提示词和参考图像，在单块 H100 GPU 上实时、连续数分钟地同时生成角色的语音和视频；项目页展示了实时交互的录屏，以及直播带货式的长时间演示。作者称其感知质量与 LTX-2、SoulX-FlashTalk 等 140 亿参数以上的虚拟人和音视频生成模型相当，同时让说出的语音与文稿保持对齐。",
+      "idea_en": "Separating 'what to say next' (an LLM orchestrator) from 'how this second looks and sounds' (a local audio-video denoiser) is what keeps a generated presenter on script and on model for minutes.",
+      "idea_zh": "把“接下来说什么”（大模型编排器）与“这一秒看起来、听起来如何”（局部音视频去噪器）分开，生成的主播才能连续数分钟不跑题、不变样。",
+      "method": "An LLM-based orchestrator turns the transcript and history into frame-aligned audio conditions; a joint audio-video DiT denoises 33-frame chunks bidirectionally with reference and motion-frame conditioning; two-stage distillation (sampler compression, then online chunk-rollout DMD fine-tuning) with a progress-aware transcript pointer and a sink-chunk memory against drift.",
+      "method_zh": "基于大模型的编排器把文稿和历史转换成与帧对齐的音频条件；音视频一体 DiT 在参考图像和运动帧条件下对每 33 帧的片段做双向去噪；采用两阶段蒸馏（先压缩采样器，再在在线分块滚动生成中用 DMD 微调），并用“进度感知”的文稿指针和锚定首块的记忆抑制漂移。",
+      "specs": "24 fps · 33-frame chunks (~1.38 s each before overhead) · real time on 1× H100 (author-reported)",
+      "keywords": [
+        "joint audio-video",
+        "streaming diffusion",
+        "LLM orchestration",
+        "livestream presenter",
+        "DMD distillation"
+      ],
+      "video": {
+        "url": "https://cloud.video.taobao.com/vod/WklFKwhwO_WOpuTWXS2v72bQn7Xj8e5LCI8Zbsk6-yc.mp4"
+      },
+      "images": [
+        "https://humanaigc.github.io/StreamChar_page/assets/images/backbone.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2605.25659",
+        "arxiv": "2605.25659",
+        "title": "StreamChar: Long-Horizon Streaming Character Audio-Video Generation with Decoupled Orchestration",
+        "venue": "arXiv 2026"
+      },
+      "source_url": "https://humanaigc.github.io/StreamChar_page/",
+      "collections": [
+        "trend-native-audio",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "pika--pikastream-1",
+      "creator_ids": [
+        "pika"
+      ],
+      "title": "PikaStream 1.0",
+      "year": 2026,
+      "date": "2026-04-02",
+      "field": "avatars",
+      "sub": "conversational",
+      "modalities": [
+        "avatar",
+        "speech"
+      ],
+      "inputs": [
+        "speech",
+        "image",
+        "text"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "persistence",
+        "responsiveness",
+        "control"
+      ],
+      "kind": "model",
+      "description": "PikaStream 1.0 is Pika's real-time video engine for face-to-face calls with AI agents: a user's Pika AI Self (a persistent agent with their personality and memory) joins a Google Meet call as a talking, gesturing person, and other agents can use it through a Skill published on GitHub. Pika reports 480p at 24 fps on a single H100 with about 1.5 s from speech to video, and text prompts can be swapped chunk by chunk to steer motion and expression during the call.",
+      "description_zh": "PikaStream 1.0 是 Pika 用于与 AI 智能体面对面通话的实时视频引擎：用户的 Pika AI Self（一个带有用户个性与记忆的持久智能体）能以会说话、会做手势的人物形象加入 Google Meet 通话，其他智能体也可通过 GitHub 上发布的 Skill 使用它。Pika 称在单块 H100 上以 480p、24 fps 运行，从语音到视频约 1.5 秒，并可在通话中逐块替换文本提示来调整动作和表情。",
+      "idea_en": "A video-generation company turns its model into a live face for agents, with per-chunk text prompts as a steering wheel for motion and emotion mid-conversation.",
+      "idea_zh": "一家视频生成公司把模型变成智能体的实时面孔，并用逐块替换的文本提示在对话中途操控动作和情绪。",
+      "method": "A 9B audio- and text-conditioned DiT with frame-wise audio cross-attention and reference-image injection, distilled from a bidirectional teacher into a causal autoregressive student with self-forcing and multi-reward RLHF (identity, lip-sync, motion), decoded by FlashVAE, a streaming Transformer VAE (441 fps decoding at 480p, 1.1 GB on one H100).",
+      "method_zh": "一个以音频和文本为条件的 90 亿参数 DiT，采用逐帧音频交叉注意力和参考图像注入，先训练双向教师模型，再用 self-forcing 和多奖励 RLHF（身份、口型、动作）蒸馏成因果自回归学生模型，最后由流式 Transformer VAE “FlashVAE”解码（480p 下解码 441 fps，单块 H100 占用 1.1 GB）。",
+      "specs": "480p · 24 fps on 1× H100 · ~1.5 s speech-to-video latency · 9B DiT (developer-reported)",
+      "keywords": [
+        "real-time video chat",
+        "AI Self",
+        "Google Meet",
+        "self-forcing",
+        "FlashVAE",
+        "agent face"
+      ],
+      "video": {
+        "url": "https://cdn.pika.art/v2/files/agent/a1f8826f-7b74-421e-8094-97703c0640de/Pika-RealTimeVideoCall-007.mp4"
+      },
+      "images": [
+        "https://pika.art/blog/video-chat-og2.png"
+      ],
+      "source_url": "https://pika.art/blog/introducing-real-time-video-chat",
+      "collections": [
+        "trend-realtime"
+      ]
+    }
+  ],
+  "leads": [
+    {
+      "name": "Tavus Hummingbird-0 (2025-04-24)",
+      "why": "Zero-shot lip-sync model (3D face reconstruction + audio animator + renderer) spun off Phoenix-3, research preview on the Tavus API and fal; offline dubbing, and only blog figures, no video.",
+      "link": "https://www.tavus.io/blog/hummingbird-0-advancing-zero-shot-lip-synchronization-in-ai-generated-video",
+      "found_via": "tavus",
+      "status": "no_media"
+    },
+    {
+      "name": "xAI Grok Companions (Ani, Rudi; 2025-07-14)",
+      "why": "Real-time voice companions with animated 3D characters at consumer scale in the Grok app; no official launch page or official video found (x.ai/news/grok-companions is 404), only press coverage.",
+      "link": "https://www.nbcnews.com/tech/internet/grok-companions-include-flirty-anime-waifu-anti-religion-panda-rcna218797",
+      "found_via": "tavus",
+      "status": "no_media"
+    },
+    {
+      "name": "Baidu Huibo Star digital-human livestream of Luo Yonghao and Xiao Mu (2025-06-15)",
+      "why": "Two ERNIE-driven digital humans streamed for over six hours on Baidu Youxuan, reported 55 million yuan GMV and 13 million views; only secondary sources (TechNode, CNBC, 36Kr), no Baidu press release or official video found.",
+      "link": "https://technode.com/2025/06/17/luo-yonghaos-digital-avatar-draws-over-13-million-viewers-in-ai-powered-baidu-live-commerce-debut/",
+      "found_via": "tavus",
+      "status": "no_media"
+    },
+    {
+      "name": "Xmov Xingyun (魔珐星云) embodied 3D digital-human platform (2025-10-29)",
+      "why": "Real-time 3D digital humans rendered on the device (cloud sends speech and motion parameters), SDK for screens, kiosks and robots, barge-in; official site xingyun3d.com has only images, launch date from press, no official video found.",
+      "link": "https://xingyun3d.com/",
+      "found_via": "tavus",
+      "status": "no_media"
+    },
+    {
+      "name": "Huya VAM 1.0 real-time digital human (WAIC 2026-07)",
+      "why": "Re-checked 2026-10-26: still no Huya press page or official video; reported 36.4 fps and ~1.3 s first frame from one photo.",
+      "link": "https://finance.eastmoney.com/a/202607183811686732.html",
+      "found_via": "tavus",
+      "status": "no_media"
+    },
+    {
+      "name": "LiveTalking (lipku, open source, since 2023-12)",
+      "why": "10k-star real-time interactive streaming digital-human engine (Wav2Lip, MuseTalk, ER-NeRF; WebRTC/RTMP; interruptible); its demo videos are only on Bilibili, which check_media cannot verify.",
+      "link": "https://github.com/lipku/LiveTalking",
+      "found_via": "tavus",
+      "status": "no_media"
+    },
+    {
+      "name": "SentiAvatar (Renmin University GSAI and SentiPulse, 2026-04-03)",
+      "why": "Open framework and 37-hour mocap dialogue dataset (SuSuInterActs) for an expressive interactive 3D digital human that generates 6 s of motion in 0.3 s; has project videos (sentiavatar.github.io) but is a motion model below the bar against Motion-Omni and EchoAvatar.",
+      "link": "https://arxiv.org/abs/2604.02908",
+      "found_via": "tavus",
+      "status": "open"
+    },
+    {
+      "name": "UneeQ Immersive Training platform (2026)",
+      "why": "Unreal-rendered digital humans (Synanim animation engine, LLM orchestration) repositioned as a roleplay training product for sales, service and leadership; official video WqcijGV-mX4 (2026-08-17) but no dated launch post found.",
+      "link": "https://www.uneeq.com/",
+      "found_via": "tavus",
+      "status": "open"
+    },
+    {
+      "name": "Ojin (Journee Technologies): Oris 1.0, Human Presence and Human Portrait",
+      "why": "Speech-to-video avatar API from one image, sub-200 ms and from $0.05/min (developer-reported); launch date not found.",
+      "link": "https://ojin.ai/",
+      "found_via": "tavus",
+      "status": "open"
+    },
+    {
+      "name": "Anam Avatar Benchmark (2026-10-16)",
+      "why": "Vendor-run comparison of full avatar pipelines: 60 raters, 960 conversations, response latency and time to first frame for Anam, HeyGen, Tavus Phoenix-4.5 and LemonSlice; used in the anam--cara-4 patch; belongs to infra/benchmarks if added.",
+      "link": "https://anam.ai/tools/latency-benchmark",
+      "found_via": "anam",
+      "status": "open"
+    },
+    {
+      "name": "Alibaba Cloud digital human application platform (public beta 2025-09)",
+      "why": "One-stop platform for creating and deploying digital humans for video, livestreaming, interactive entertainment and education; real-time interaction scope unclear.",
+      "link": "https://help.aliyun.com/en/avatar/avatar-application/product-overview/product-release-announcement",
+      "found_via": "tavus",
+      "status": "open"
+    },
+    {
+      "name": "NVIDIA ACE digital human blueprint (Tokkio)",
+      "why": "Reference workflow for 3D customer-service digital humans (Audio2Face-3D, Riva, RTX rendering); covered in part by nvidia--audio2face-3d and the NPC works; no dated 2025-2026 launch checked.",
+      "link": "https://developer.nvidia.com/ace",
+      "found_via": "tavus",
+      "status": "open"
+    },
+    {
+      "name": "Akool and DeepBrain AI streaming / interactive avatars",
+      "why": "Both sell real-time interactive avatar APIs; pages are JavaScript-only or moved, so no dated launch or official video verified this round.",
+      "link": "https://www.akool.com/",
+      "found_via": "tavus",
+      "status": "open"
+    },
+    {
+      "name": "SoulX-LiveAct (Soul AI Lab, 2026-03-16)",
+      "why": "Hour-scale real-time human animation (Neighbor Forcing, ConvKV memory), 18B (Wan2.1 14B + 4B audio), 20 fps at 720×416 on two H100/H200, open weights; sibling of SoulX-FlashHead, kept below the bar to avoid a third Soul entry.",
+      "link": "https://github.com/Soul-AILab/SoulX-LiveAct",
+      "found_via": "soul-ai-lab",
+      "status": "open"
+    },
+    {
+      "name": "TaoMate (Alibaba Taobao & Tmall Group, 2026-07-27)",
+      "why": "Real-time joint audio-video digital-human generation with anchor-guided persistent memory (arXiv 2607.24359), open runtime and browser demo; TaoMate-H3 on MiniMax H3 (2026-09-08); overlaps Hallo-Live.",
+      "link": "https://github.com/TaoLiveAIGC/TaoMate",
+      "found_via": "tavus",
+      "status": "open"
+    },
+    {
+      "name": "CyberVerse (Lynpoint, 2026-04)",
+      "why": "Self-hosted real-time digital-human agent platform from one photo (WebRTC, voice-first), 1.7k GitHub stars; creator and launch not verified.",
+      "link": "https://github.com/Lynpoint/CyberVerse",
+      "found_via": "tavus",
+      "status": "open"
+    },
+    {
+      "name": "AvatarForcing (Zhejiang University and Kling Team, Kuaishou; arXiv 2603.14331, 2026-03)",
+      "why": "One-step streaming talking-avatar diffusion with local-future sliding-window denoising; a latency baseline in Tavus' Griffin report; has project videos, but it is an internship paper (83 GitHub stars) in the streaming-avatar distillation cluster kept below the bar (handoff from china-av).",
+      "link": "https://cuiliyuan121.github.io/AvatarForcing/",
+      "found_via": "tavus",
+      "status": "open"
+    },
+    {
+      "name": "Knot Forcing (Alibaba Tongyi HumanAIGC, arXiv 2512.21734, 2025-12-25)",
+      "why": "Autoregressive video diffusion for real-time, infinite interactive portrait animation (cached reference KV, Temporal Knot Module, 'running forward' reference), 16 fps on one H100; author-uploaded demo video 1cnvPUKxdH8; below the bar against StreamChar and the streaming-avatar distillation cluster (handoff from china-av).",
+      "link": "https://humanaigc.github.io/knot_forcing_demo_page/",
+      "found_via": "alibaba-tongyi",
+      "status": "open"
+    },
+    {
+      "name": "Vorch-Streamer (arXiv 2608.05663, 2026-08-06)",
+      "why": "Real-time long-form text-to-audio-video avatar streaming at 27.12 fps (Self Forcing + DMD, 25 Hz speech-planning tokens), but the arXiv entry is marked 'Withdrawn due to information disclosure concerns' and no project page or affiliation could be confirmed (handoff from china-av).",
+      "link": "https://arxiv.org/abs/2608.05663",
+      "found_via": "tavus",
+      "status": "no_media"
+    }
+  ]
+}

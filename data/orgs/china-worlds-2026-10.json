@@ -1,0 +1,210 @@
+{
+  "batch": "china-worlds-2026-10",
+  "orgs": [
+    {
+      "id": "skywork-ai",
+      "name": "Skywork AI (Kunlun Tech)",
+      "name_zh": "昆仑万维 Skywork",
+      "type": "ai-lab",
+      "themes": [
+        "world-models",
+        "open-source"
+      ],
+      "fields": [
+        "world-models",
+        "worlds-3d"
+      ],
+      "description": "The AI unit of Beijing-based Kunlun Tech, whose Matrix-Game line (2.0 in 2025, 3.0 and 4.0 in 2026) and Matrix-3D are among the open interactive world models a lab can actually download and run.",
+      "description_zh": "北京昆仑万维的人工智能部门，其 Matrix-Game 系列（2025 年的 2.0，2026 年的 3.0 和 4.0）与 Matrix-3D，是实验室真正可以下载并运行的开源交互式世界模型之一。",
+      "known_for": [
+        "Matrix-Game 2.0 (2025)",
+        "Matrix-3D (2025)",
+        "Matrix-Game 4.0 (2026)"
+      ],
+      "url": "https://www.skywork.ai/",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/Skywork"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/SkyworkAI"
+        }
+      ],
+      "based": "Beijing, CN",
+      "based_zh": "中国北京",
+      "creator_id": "skywork",
+      "found_via": "https://huggingface.co/Skywork"
+    },
+    {
+      "id": "robbyant",
+      "name": "Robbyant (Ant Group)",
+      "name_zh": "蚂蚁灵波科技",
+      "type": "ai-lab",
+      "themes": [
+        "world-models",
+        "open-source"
+      ],
+      "fields": [
+        "world-models",
+        "spatial-4d"
+      ],
+      "description": "Ant Group's embodied-AI company, which publishes the open LingBot models: the LingBot-World interactive world models (an hour-long, agent-driven 2.0 in July 2026) and the LingBot-Map feed-forward reconstruction model.",
+      "description_zh": "蚂蚁集团旗下的具身智能公司，开源 LingBot 系列模型：LingBot-World 交互式世界模型（2026 年 7 月的 2.0 版可持续交互一小时，并由智能体驱动）和 LingBot-Map 前馈式重建模型。",
+      "known_for": [
+        "LingBot-World (2026)",
+        "LingBot-World 2.0 (2026)",
+        "LingBot-Map (2026)"
+      ],
+      "url": "https://technology.robbyant.com/",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/robbyant"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Robbyant"
+        }
+      ],
+      "based": "Hangzhou, CN",
+      "based_zh": "中国杭州",
+      "creator_id": "robbyant",
+      "found_via": "https://huggingface.co/robbyant"
+    },
+    {
+      "id": "vast-tripo",
+      "name": "VAST (Tripo AI)",
+      "name_zh": "VAST 光影焕像（Tripo AI）",
+      "type": "ai-lab",
+      "themes": [
+        "3d-generation",
+        "world-models",
+        "open-source"
+      ],
+      "fields": [
+        "assets",
+        "world-models"
+      ],
+      "description": "Beijing 3D-generation company behind the Tripo product and a stream of open models (TripoSR, TripoSG, TripoSplat, UniRig); its Project Eden research group released the real-time generative renderer EdenLive in October 2026.",
+      "description_zh": "北京的三维生成公司，推出 Tripo 产品和一系列开源模型（TripoSR、TripoSG、TripoSplat、UniRig）；其 Project Eden 研究组于 2026 年 10 月发布了实时生成式渲染器 EdenLive。",
+      "known_for": [
+        "TripoSR (2024)",
+        "Tripo 3.0 (2025)",
+        "EdenLive (2026)"
+      ],
+      "url": "https://www.tripo3d.ai/",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/VAST-AI-Research"
+        },
+        {
+          "label": "Project Eden",
+          "url": "https://www.tripo3d.ai/research/project-eden"
+        }
+      ],
+      "based": "Beijing, CN",
+      "based_zh": "中国北京",
+      "creator_id": "tripo-ai",
+      "found_via": "https://github.com/VAST-AI-Research"
+    },
+    {
+      "id": "deemos",
+      "name": "Deemos (Hyper3D Rodin)",
+      "name_zh": "影眸科技（Hyper3D Rodin）",
+      "type": "ai-lab",
+      "themes": [
+        "3d-generation"
+      ],
+      "fields": [
+        "assets",
+        "worlds-3d"
+      ],
+      "description": "Shanghai company behind the Rodin 3D generators (from the CLAY research model to Gen-2.5) and the Hyper3D platform, which added an agentic mode and world generation in 2026.",
+      "description_zh": "上海公司，推出 Rodin 三维生成模型（从研究模型 CLAY 到 Gen-2.5）和 Hyper3D 平台，后者在 2026 年加入了智能体模式和世界生成。",
+      "known_for": [
+        "CLAY / Rodin Gen-1 (2024)",
+        "Rodin Gen-2 (2025)",
+        "Hyper3D WorldGen (2026)"
+      ],
+      "url": "https://hyper3d.ai/",
+      "based": "Shanghai, CN",
+      "based_zh": "中国上海",
+      "creator_id": "deemos",
+      "found_via": "https://hyper3d.ai/"
+    },
+    {
+      "id": "zju3dv",
+      "name": "ZJU3DV (Zhejiang University 3D Vision group)",
+      "name_zh": "浙江大学三维视觉组（ZJU3DV）",
+      "type": "academic-lab",
+      "themes": [
+        "gaussian-splatting",
+        "3d-generation",
+        "open-source"
+      ],
+      "fields": [
+        "spatial-4d",
+        "assets"
+      ],
+      "description": "Xiaowei Zhou's group at Zhejiang University's State Key Lab of CAD&CG, a steady source of open 3D and 4D reconstruction and volumetric-video work, from long volumetric video to FreeTimeGS, InfiniSplat and RealMe.",
+      "description_zh": "浙江大学 CAD&CG 国家重点实验室周晓巍团队，持续产出开源的三维、四维重建与体积视频工作，从长时体积视频到 FreeTimeGS、InfiniSplat 和 RealMe。",
+      "known_for": [
+        "FreeTimeGS (2025)",
+        "InfiniSplat (2026)",
+        "RealMe (SIGGRAPH Asia 2026)"
+      ],
+      "url": "https://github.com/zju3dv",
+      "based": "Hangzhou, CN",
+      "based_zh": "中国杭州",
+      "people": [
+        "Xiaowei Zhou",
+        "Sida Peng"
+      ],
+      "creator_id": "zju3dv",
+      "found_via": "https://github.com/zju3dv"
+    },
+    {
+      "id": "agibot",
+      "name": "AgiBot (AGIBOT)",
+      "name_zh": "智元机器人",
+      "type": "ai-lab",
+      "themes": [
+        "world-models",
+        "open-source"
+      ],
+      "fields": [
+        "world-models",
+        "agents"
+      ],
+      "description": "Shanghai humanoid-robot company that publishes open robot data (AgiBot World) and robot world models, including the Genie Envisioner platform and the GE-Sim 2.0 closed-loop video world simulator.",
+      "description_zh": "上海的人形机器人公司，开源机器人数据（AgiBot World）和机器人世界模型，包括 Genie Envisioner 平台和 GE-Sim 2.0 闭环视频世界模拟器。",
+      "known_for": [
+        "AgiBot World dataset (2025)",
+        "Genie Envisioner (2025)",
+        "GE-Sim 2.0 (2026)"
+      ],
+      "url": "https://www.agibot.com/",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@AGIBOT"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/AgibotTech"
+        }
+      ],
+      "based": "Shanghai, CN",
+      "based_zh": "中国上海",
+      "founded": 2023,
+      "people": [
+        "Peng Zhihui"
+      ],
+      "creator_id": "agibot",
+      "found_via": "https://huggingface.co/agibot-world"
+    }
+  ]
+}

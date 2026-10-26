@@ -1,0 +1,1173 @@
+{
+  "batch": "interactive-2026-10",
+  "creators": [
+    {
+      "id": "alexander-scarlatos",
+      "name": "Alexander Scarlatos",
+      "name_zh": "",
+      "kind": "person",
+      "role": "PhD researcher at UMass Amherst; built ReaLJam during internships at Google DeepMind",
+      "based": "Amherst, MA, USA",
+      "bio": "First author of ReaLJam (CHI 2025), an app and protocol for live jamming between a musician and a reinforcement-learning-tuned Transformer.",
+      "why": "Studies what a generative partner needs to be playable in real time: low latency, showing its plan ahead, and adapting to the person.",
+      "disciplines": [
+        "hci",
+        "ml"
+      ],
+      "links": {},
+      "role_zh": "马萨诸塞大学阿默斯特分校博士研究者，在 Google DeepMind 实习期间完成 ReaLJam",
+      "bio_zh": "ReaLJam（CHI 2025）第一作者。ReaLJam 是让音乐人与经强化学习微调的 Transformer 实时即兴合奏的应用与协议。",
+      "why_zh": "研究生成式伙伴要“能一起演奏”需要什么：低延迟、提前展示自己的打算、并随人调整。",
+      "based_zh": "美国马萨诸塞州阿默斯特",
+      "connected_to": [
+        "google-deepmind"
+      ],
+      "discovered_via": "google-deepmind"
+    },
+    {
+      "id": "daniel-holden",
+      "name": "Daniel Holden",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Principal Animation Programmer at Epic Games; researcher in machine-learned character animation",
+      "based": "",
+      "bio": "First author of Phase-Functioned Neural Networks for Character Control (SIGGRAPH 2017, University of Edinburgh) and later of Learned Motion Matching at Ubisoft La Forge; writes widely read notes on animation programming.",
+      "why": "His neural character controllers made gamepad-driven, learned motion practical in real-time engines, the lineage that today's interactive motion generators extend.",
+      "disciplines": [
+        "graphics",
+        "games"
+      ],
+      "links": {
+        "site": "https://theorangeduck.com/",
+        "github": "https://github.com/orangeduck"
+      },
+      "role_zh": "Epic Games 首席动画程序员，机器学习角色动画研究者",
+      "bio_zh": "《Phase-Functioned Neural Networks for Character Control》（SIGGRAPH 2017，爱丁堡大学）第一作者，后在育碧 La Forge 提出 Learned Motion Matching；其动画编程笔记流传很广。",
+      "why_zh": "他的神经网络角色控制器让手柄驱动、由数据学习的动作在实时引擎中变得可行，今天的交互式动作生成正是沿着这条脉络发展。",
+      "based_zh": "",
+      "connected_to": [
+        "epic-games",
+        "ubisoft"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "hanxiao-jiang",
+      "name": "Hanxiao Jiang",
+      "name_zh": "",
+      "kind": "person",
+      "role": "PhD researcher at Columbia University (Yunzhu Li's group)",
+      "based": "New York, USA",
+      "bio": "First author of PhysTwin (ICCV 2025), which builds physically simulated, Gaussian-rendered twins of ropes, cloth and plush toys from a few videos.",
+      "why": "Shows how captured objects can become interactive in real time, not only viewable, by recovering their physics as well as their appearance.",
+      "disciplines": [
+        "graphics",
+        "robotics"
+      ],
+      "links": {
+        "site": "https://jianghanxiao.github.io/",
+        "github": "https://github.com/Jianghanxiao"
+      },
+      "role_zh": "哥伦比亚大学博士研究者（李韵竹课题组）",
+      "bio_zh": "PhysTwin（ICCV 2025）第一作者。PhysTwin 只需几段视频，就能为绳子、布料和毛绒玩具建立带物理模拟、用高斯泼溅渲染的数字孪生。",
+      "why_zh": "展示了被捕捉的物体如何不只“可看”而是能实时交互：同时恢复外观与物理属性。",
+      "based_zh": "美国纽约",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "jiacong-xu",
+      "name": "Jiacong Xu",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher at Johns Hopkins University working with Adobe Research",
+      "based": "Baltimore, MD, USA",
+      "bio": "Co-first author of Wonder (2026), Adobe Research's real-time, camera-controlled video world model with long-horizon memory.",
+      "why": "Works on making generated worlds revisitable: what was seen stays there when the camera comes back.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://wonder-world-model.github.io/"
+      },
+      "role_zh": "约翰斯·霍普金斯大学研究者，与 Adobe Research 合作",
+      "bio_zh": "Wonder（2026）的共同第一作者。Wonder 是 Adobe Research 的实时、可控镜头、具备长时记忆的视频世界模型。",
+      "why_zh": "研究如何让生成的世界“可以回访”：镜头转回来时，之前看到的东西仍在原处。",
+      "based_zh": "美国马里兰州巴尔的摩",
+      "connected_to": [
+        "adobe"
+      ],
+      "discovered_via": "adobe"
+    },
+    {
+      "id": "reactor",
+      "name": "Reactor",
+      "name_zh": "",
+      "kind": "company",
+      "role": "Developer platform and GPU cloud for real-time world models and generative video",
+      "based": "San Francisco, CA, USA",
+      "bio": "Founded by Alberto Taiuti (CEO, a Luma AI co-founder) and Bryce Schmidtchen (CTO), both former technical leads on Apple Vision Pro; emerged from stealth on 2026-05-28 with $59M led by Lightspeed, and added NVIDIA and Sapphire Ventures to its Series A in October 2026.",
+      "why": "Hosts real-time world models from several labs behind one streaming SDK, which is how many developers and studios can actually reach interactive generation.",
+      "disciplines": [
+        "ml",
+        "games"
+      ],
+      "links": {
+        "site": "https://reactor.inc",
+        "x": "https://x.com/reactorworld"
+      },
+      "role_zh": "面向实时世界模型与生成式视频的开发者平台与 GPU 云",
+      "bio_zh": "由 Alberto Taiuti（CEO，Luma AI 联合创始人）和 Bryce Schmidtchen（CTO）创立，两人都曾是 Apple Vision Pro 的技术负责人；2026 年 5 月 28 日结束隐身，获得 Lightspeed 领投的 5900 万美元，2026 年 10 月 NVIDIA 与 Sapphire Ventures 加入其 A 轮。",
+      "why_zh": "用一个流式 SDK 托管多家实验室的实时世界模型，是许多开发者和制作公司真正接触到交互式生成的途径。",
+      "based_zh": "美国加州旧金山",
+      "connected_to": [
+        "luma-ai",
+        "overworld",
+        "nvidia"
+      ],
+      "discovered_via": "overworld"
+    },
+    {
+      "id": "tesla",
+      "name": "Tesla",
+      "name_zh": "特斯拉",
+      "kind": "company",
+      "role": "Electric-vehicle, energy and robotics company (Full Self-Driving, Optimus)",
+      "based": "Austin, Texas, USA",
+      "bio": "Builds the end-to-end Full Self-Driving network and the Optimus humanoid robot, trained on video from its vehicle fleet; in 2025 it described a neural world simulator that generates all of a car's camera feeds in response to driving actions.",
+      "why": "One of the largest industrial uses of an action-conditioned video world model, shown being driven by a person in real time.",
+      "disciplines": [
+        "robotics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.tesla.com/AI",
+        "x": "https://x.com/Tesla_AI"
+      },
+      "role_zh": "电动汽车、能源与机器人公司（完全自动驾驶 FSD、Optimus 人形机器人）",
+      "bio_zh": "开发端到端的完全自动驾驶网络和 Optimus 人形机器人，训练数据来自其车队视频；2025 年介绍了一个神经世界模拟器，能根据驾驶动作生成整车所有摄像头的画面。",
+      "why_zh": "动作条件视频世界模型规模最大的工业应用之一，并展示过由人实时驾驶。",
+      "based_zh": "美国得克萨斯州奥斯汀",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "wei-liu-stanford",
+      "name": "Wei Liu",
+      "name_zh": "",
+      "kind": "person",
+      "role": "PhD researcher at Stanford University (Jiajun Wu's group)",
+      "based": "Stanford, CA, USA",
+      "bio": "Co-first author of RealWonder (2026), a real-time system that turns forces, wind and robot actions into physically plausible video from a single image.",
+      "why": "Shows how a physics simulator can sit between a person's action and a video model so that pushes and pulls have consequences at interactive rates.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://liuwei283.github.io/RealWonder/",
+        "github": "https://github.com/liuwei283"
+      },
+      "role_zh": "斯坦福大学博士研究者（吴佳俊课题组）",
+      "bio_zh": "RealWonder（2026）的共同第一作者。该系统可从单张图像出发，把外力、风和机器人动作实时转化为符合物理的视频。",
+      "why_zh": "展示了如何在人的动作与视频模型之间插入物理模拟器，让推、拉等操作以可交互的速度产生后果。",
+      "based_zh": "美国加州斯坦福",
+      "connected_to": [
+        "zizhang-li"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "willi-menapace",
+      "name": "Willi Menapace",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher in controllable video generation (University of Trento, Snap Research)",
+      "based": "Trento, Italy",
+      "bio": "First author of Playable Video Generation (CVPR 2021), Playable Environments (CVPR 2022) and Promptable Game Models (2023), work done with Snap Research's creative vision group.",
+      "why": "Posed the problem of learning game-like controls from unlabelled video, the idea Genie later scaled up.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "github": "https://github.com/willi-menapace"
+      },
+      "role_zh": "可控视频生成研究者（特伦托大学、Snap Research）",
+      "bio_zh": "《Playable Video Generation》（CVPR 2021）、《Playable Environments》（CVPR 2022）与《Promptable Game Models》（2023）的第一作者，这些工作与 Snap Research 创意视觉组合作完成。",
+      "why_zh": "最早提出从无标注视频中学习类似游戏的操控方式，这一思路后来被 Genie 放大到大规模。",
+      "based_zh": "意大利特伦托",
+      "connected_to": [
+        "snap"
+      ],
+      "discovered_via": "snap"
+    }
+  ],
+  "works": [
+    {
+      "id": "daniel-holden--pfnn",
+      "creator_ids": [
+        "daniel-holden"
+      ],
+      "title": "Phase-Functioned Neural Networks for Character Control",
+      "year": 2017,
+      "field": "assets",
+      "sub": "motion",
+      "modalities": [
+        "motion"
+      ],
+      "inputs": [
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "reactivity",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "A neural character controller from the University of Edinburgh in which a player steers a character with a gamepad and the network generates its walking, running, jumping and crouching over rough terrain frame by frame, small and fast enough to run inside a game; demo, code and data were released.",
+      "description_zh": "爱丁堡大学的神经网络角色控制器：玩家用手柄操控角色，网络逐帧生成它在崎岖地形上行走、奔跑、跳跃和蹲伏的动作；模型小而快，可直接在游戏中运行，并公开了演示、代码与数据。",
+      "idea_en": "The early proof that a learned model, not hand-built animation graphs, can generate a game character's motion live from a player's stick input, the lineage today's streaming motion generators extend.",
+      "idea_zh": "最早证明可以由学习得到的模型、而非人工搭建的动画状态图，根据玩家的摇杆输入实时生成游戏角色动作；今天的流式动作生成延续的正是这条脉络。",
+      "method": "A regression network whose weights are computed by a cyclic (Catmull-Rom) function of the gait phase, trained on motion capture paired with terrain fitted from virtual environments, mapping the user's control trajectory and the local terrain to the next pose.",
+      "method_zh": "一个回归网络，其权重由步态相位的周期函数（Catmull-Rom 样条）计算得到；用动作捕捉数据和从虚拟环境中拟合的地形训练，把用户的控制轨迹与局部地形映射为下一帧姿态。",
+      "keywords": [
+        "character control",
+        "neural animation",
+        "gamepad",
+        "motion capture",
+        "SIGGRAPH 2017",
+        "precursor"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=Ul0Gilv5wvY"
+      },
+      "paper": {
+        "url": "https://doi.org/10.1145/3072959.3073663",
+        "doi": "10.1145/3072959.3073663",
+        "venue": "SIGGRAPH 2017 (ACM TOG 36(4))",
+        "title": "Phase-Functioned Neural Networks for Character Control"
+      },
+      "source_url": "https://theorangeduck.com/page/phase-functioned-neural-networks-character-control",
+      "collections": [
+        "siggraph"
+      ]
+    },
+    {
+      "id": "guy-tevet--closd",
+      "creator_ids": [
+        "guy-tevet",
+        "nvidia"
+      ],
+      "title": "CLoSD",
+      "year": 2024,
+      "date": "2024-10-04",
+      "field": "assets",
+      "sub": "motion",
+      "also": [
+        "agents"
+      ],
+      "modalities": [
+        "motion",
+        "behavior"
+      ],
+      "inputs": [
+        "text",
+        "spec"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "behavioral-plausibility",
+        "reactivity",
+        "control"
+      ],
+      "kind": "research",
+      "description": "A physically simulated character from Tel Aviv University, UBC, SFU and NVIDIA that follows changing text prompts and target locations in real time, walking to a goal in a requested style, striking an object with a named hand or foot, sitting down and getting up, while physics simulation keeps its contacts and balance plausible.",
+      "description_zh": "特拉维夫大学、不列颠哥伦比亚大学、西蒙弗雷泽大学与 NVIDIA 提出的物理仿真角色：实时跟随不断变化的文字提示与目标位置，以指定的方式走向目标、用指定的手或脚击打物体、坐下和起身，同时由物理仿真保证接触与平衡合理。",
+      "idea_en": "Pairs a motion generator that plans with a physics controller that executes, so a character directed in plain language also collides, balances and touches things like a body would.",
+      "idea_zh": "让负责规划的动作生成器与负责执行的物理控制器配合，用日常语言指挥的角色也能像真实身体一样碰撞、保持平衡、接触物体。",
+      "method": "A fast autoregressive diffusion planner (DiP) generates short motion plans from the text prompt, target and the simulated character's current state, and a reinforcement-learned tracking controller executes them in physics simulation, feeding the result back in a closed loop.",
+      "method_zh": "快速的自回归扩散规划器（DiP）根据文字提示、目标以及仿真角色的当前状态生成短时动作规划，再由强化学习训练的跟踪控制器在物理仿真中执行，执行结果闭环反馈给规划器。",
+      "keywords": [
+        "physics-based character",
+        "motion diffusion",
+        "closed loop",
+        "text-driven control",
+        "ICLR 2025 Spotlight",
+        "author-uploaded video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=O1tzbiDMW8U"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2410.03441",
+        "arxiv": "2410.03441",
+        "venue": "ICLR 2025 (Spotlight)",
+        "title": "CLoSD: Closing the Loop between Simulation and Diffusion for multi-task character control"
+      },
+      "source_url": "https://guytevet.github.io/CLoSD-page/",
+      "code_url": "https://github.com/GuyTevet/CLoSD",
+      "collections": [
+        "ml-conf"
+      ]
+    },
+    {
+      "id": "alexander-scarlatos--realjam",
+      "creator_ids": [
+        "alexander-scarlatos",
+        "google-deepmind"
+      ],
+      "title": "ReaLJam",
+      "year": 2025,
+      "date": "2025-02-28",
+      "field": "audio",
+      "sub": "sound",
+      "modalities": [
+        "audio"
+      ],
+      "inputs": [
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "co-creation",
+        "responsiveness",
+        "reactivity"
+      ],
+      "kind": "research",
+      "description": "A web app from Google DeepMind's Magenta team in which a musician plays a melody on a MIDI keyboard and a Transformer agent plays chords along with it in real time, showing its planned next chords on screen so the human can anticipate them; six experienced musicians jammed with it in a user study.",
+      "description_zh": "Google DeepMind Magenta 团队的网页应用：音乐人在 MIDI 键盘上弹旋律，Transformer 智能体实时为其配和弦，并在屏幕上显示它接下来打算弹的和弦，让人能提前预判；用户研究中有六位资深音乐人与它即兴合奏。",
+      "idea_en": "A real-time generative partner becomes playable when it shows what it is about to do, not only when it answers fast.",
+      "idea_zh": "实时生成的伙伴之所以“能一起玩”，不只在于回应快，还在于它会把下一步打算展示出来。",
+      "method": "A chord agent based on ReaLchords (a Transformer fine-tuned with reinforcement learning for online accompaniment) runs on a server, continually predicts a lookahead of chords from the session history, and a client synchronizes, commits and displays that plan against the user's live MIDI input.",
+      "method_zh": "和弦智能体基于 ReaLchords（用强化学习微调、可在线伴奏的 Transformer），在服务器端根据会话历史不断预测接下来若干拍的和弦；客户端把这份计划与用户实时的 MIDI 输入同步、确认并显示出来。",
+      "keywords": [
+        "live jamming",
+        "music accompaniment",
+        "reinforcement learning",
+        "anticipation",
+        "Magenta",
+        "CHI 2025",
+        "author-uploaded video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=fMEYp-FAAfc"
+      },
+      "paper": {
+        "url": "https://doi.org/10.1145/3706599.3720227",
+        "doi": "10.1145/3706599.3720227",
+        "arxiv": "2502.21267",
+        "venue": "CHI EA 2025",
+        "title": "ReaLJam: Real-Time Human-AI Music Jamming with Reinforcement Learning-Tuned Transformers"
+      },
+      "source_url": "https://arxiv.org/abs/2502.21267",
+      "collections": [
+        "chi",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "google-deepmind--magenta-realtime-2",
+      "creator_ids": [
+        "google-deepmind"
+      ],
+      "title": "Magenta RealTime 2",
+      "year": 2026,
+      "date": "2026-06-04",
+      "field": "audio",
+      "sub": "sound",
+      "modalities": [
+        "audio"
+      ],
+      "inputs": [
+        "action",
+        "speech",
+        "text"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "co-creation",
+        "control"
+      ],
+      "kind": "model",
+      "description": "An open-weight live music model from Google DeepMind's Magenta team that streams music on a MacBook and follows a player's MIDI keyboard, an audio example or a text style as they change, released with plugins for music software and playable demo instruments for sound cloning, style blending and live accompaniment.",
+      "description_zh": "Google DeepMind Magenta 团队的开源权重实时音乐模型：在 MacBook 上流式生成音乐，并随演奏者的 MIDI 键盘、音频示例或文字风格的变化即时跟随；同时发布了音乐软件插件和可演奏的示例乐器，用于音色克隆、风格融合和实时伴奏。",
+      "idea_en": "Brings a responsive music generator onto a laptop and into a player's hands, so a generated soundscape can follow what a person plays within about a fifth of a second, offline and version-pinned.",
+      "idea_zh": "把能即时响应的音乐生成器放到笔记本电脑上、交到演奏者手里，生成的声音环境能在约五分之一秒内跟上人的演奏，而且可离线运行、固定版本。",
+      "method": "A codec language model over SpectroStream audio tokens with MusicCoCa style embeddings, now a decoder-only Transformer with frame-wise (40 ms) autoregression, frame-aligned MIDI and style conditioning and causal sliding-window attention, compiled with MLX for a C++ inference engine on Apple Silicon.",
+      "method_zh": "基于 SpectroStream 音频 token 与 MusicCoCa 风格嵌入的编解码器语言模型；此版改为仅解码器 Transformer，按帧（40 ms）自回归，MIDI 与风格条件逐帧对齐注入，并使用因果滑动窗口注意力；通过 MLX 编译，由 C++ 推理引擎在 Apple Silicon 上运行。",
+      "specs": "2.4B and 230M · 48 kHz stereo · 40 ms frames · ~200 ms control latency (vs ~3 s for Magenta RealTime 1) · real-time on Apple Silicon MacBooks (developer-reported)",
+      "keywords": [
+        "live music model",
+        "MIDI control",
+        "on-device",
+        "open weights",
+        "Magenta",
+        "MLX",
+        "DAW plugin"
+      ],
+      "video": {
+        "url": "https://storage.googleapis.com/magenta-rt-public/magenta-rt-2/media/hero.mp4"
+      },
+      "images": [
+        "https://magenta.withgoogle.com/assets/magenta_realtime_2/jam.png"
+      ],
+      "source_url": "https://magenta.withgoogle.com/magenta-realtime-2",
+      "code_url": "https://huggingface.co/google/magenta-realtime-2",
+      "collections": [
+        "trend-realtime",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "reactor--reactor-platform",
+      "creator_ids": [
+        "reactor"
+      ],
+      "title": "Reactor",
+      "year": 2026,
+      "date": "2026-05-28",
+      "field": "infra",
+      "sub": "apis",
+      "also": [
+        "world-models"
+      ],
+      "modalities": [
+        "frame-stream",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "action",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "api"
+      ],
+      "lenses": [
+        "responsiveness",
+        "authoring"
+      ],
+      "kind": "platform",
+      "description": "A developer platform that streams real-time world models and video models from a global GPU network through one SDK and API, with a playground; by October 2026 its catalog included FastH3-Omni (a real-time version of MiniMax H3 post-trained by FastVideo with NuvaLab and Reactor), NVIDIA's Sol-H3, Visko Orbis 1.0, LTX, LingBot-World 2, HappyOyster and the open Dreamer 4 reproduction OpenDreamer.",
+      "description_zh": "开发者平台：通过统一的 SDK 和 API，从全球 GPU 网络流式提供实时世界模型与视频模型，并附带在线试用环境；截至 2026 年 10 月，模型目录包括 FastH3-Omni（由 FastVideo 与 NuvaLab、Reactor 对 MiniMax H3 做后训练得到的实时版本）、NVIDIA 的 Sol-H3、Visko Orbis 1.0、LTX、LingBot-World 2、HappyOyster，以及开源的 Dreamer 4 复现 OpenDreamer。",
+      "idea_en": "Turns interactive world models from one-off lab demos into services a developer can call and swap, though sessions still depend on rented cloud GPUs and on each model's licence.",
+      "idea_zh": "让交互式世界模型从一次性的实验室演示变成开发者可以调用、可以替换的服务，但会话仍依赖租用的云端 GPU，也受各模型许可证的约束。",
+      "method": "A proprietary inference engine with in-house kernels (including for AWS Trainium), a low-latency streaming layer and per-model optimizations such as distillation, sparse attention and faster VAE decoding, exposed through JavaScript and Python SDKs; robot policies can also be served in closed loop.",
+      "method_zh": "自研推理引擎（含为 AWS Trainium 编写的内核）、低延迟流式传输层，以及针对各模型的优化（蒸馏、稀疏注意力、更快的 VAE 解码等），通过 JavaScript 与 Python SDK 提供；也可以闭环方式托管机器人策略。",
+      "specs": "60+ fps · sub-40 ms streaming latency (developer-reported)",
+      "keywords": [
+        "real-time inference",
+        "world model API",
+        "streaming SDK",
+        "FastH3-Omni",
+        "OpenDreamer",
+        "partner video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=jy_YZWtzX9E"
+      },
+      "images": [
+        "https://inc-reactor-static.b-cdn.net/assets/blog/nvidia-sapphire-ventures-join-reactor-series-a/nvidia-sapphire-sand-cover-1672.jpg"
+      ],
+      "source_url": "https://reactor.inc/blog/reactor-launch",
+      "api_url": "https://docs.reactor.inc",
+      "collections": [
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "hanxiao-jiang--phystwin",
+      "creator_ids": [
+        "hanxiao-jiang"
+      ],
+      "title": "PhysTwin",
+      "year": 2025,
+      "date": "2025-03-23",
+      "field": "spatial-4d",
+      "sub": "dynamic",
+      "also": [
+        "world-models"
+      ],
+      "modalities": [
+        "splats",
+        "dynamic-4d"
+      ],
+      "inputs": [
+        "multi-view",
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "behavioral-plausibility",
+        "reactivity",
+        "persistence"
+      ],
+      "kind": "research",
+      "description": "A Columbia and UIUC method that turns a few videos of someone handling a rope, a cloth, a plush toy or a parcel into a digital twin that a person can then push, lift and fold in real time with keyboard controls, rendered photorealistically.",
+      "description_zh": "哥伦比亚大学与伊利诺伊大学厄巴纳-香槟分校提出的方法：只需几段有人摆弄绳子、布料、毛绒玩具或包裹的视频，就能建立数字孪生；之后人可以用键盘实时推、提、折叠它，并以照片级效果渲染。",
+      "idea_en": "Captured objects that keep their physics, so a reconstructed scene can be handled and respond plausibly instead of only being looked at.",
+      "idea_zh": "被捕捉的物体保留了物理属性，重建出的场景因此可以被“上手操作”并作出合理反应，而不只是被观看。",
+      "method": "A spring-mass model for physics, a generative shape prior to complete unseen geometry and Gaussian splats for appearance, fitted from sparse videos of the object under interaction by multi-stage inverse physics optimization, then simulated and rendered at interactive rates.",
+      "method_zh": "用弹簧-质点模型表示物理、用生成式形状先验补全看不到的几何、用高斯泼溅表示外观，通过多阶段逆物理优化，从少量物体受操作时的视频中拟合，再以可交互的速度模拟与渲染。",
+      "keywords": [
+        "physical digital twin",
+        "spring-mass",
+        "Gaussian splatting",
+        "deformable objects",
+        "inverse physics",
+        "ICCV 2025",
+        "keyboard teleoperation"
+      ],
+      "video": {
+        "url": "https://jianghanxiao.github.io/phystwin-web/src/videos/application_sim/double_zebra.webm"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2503.17973",
+        "arxiv": "2503.17973",
+        "venue": "ICCV 2025",
+        "title": "PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos"
+      },
+      "source_url": "https://jianghanxiao.github.io/phystwin-web/",
+      "code_url": "https://github.com/Jianghanxiao/PhysTwin",
+      "collections": [
+        "iccv-eccv",
+        "trend-physical-ai"
+      ]
+    },
+    {
+      "id": "akio-kodaira--streamdit",
+      "creator_ids": [
+        "akio-kodaira",
+        "meta"
+      ],
+      "title": "StreamDiT",
+      "year": 2025,
+      "date": "2025-07-04",
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text",
+        "video"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "responsiveness",
+        "reactivity"
+      ],
+      "kind": "research",
+      "description": "A streaming text-to-video model from Meta and UC Berkeley that generates minutes-long video at 16 fps on one GPU and changes course when the viewer types a new prompt mid-stream (a cat that becomes a tiger, day that turns to night); the same model also restyles an incoming video stream.",
+      "description_zh": "Meta 与加州大学伯克利分校提出的流式文生视频模型：在单块 GPU 上以 16 fps 生成长达数分钟的视频，观看者在播放中输入新提示词时画面随之转变（猫变成老虎、白天转入夜晚）；同一模型也能对输入的视频流做实时风格转换。",
+      "idea_en": "Turns a text-to-video model into a live channel that keeps playing and takes new instructions at any moment, instead of a queue of separate clips.",
+      "idea_zh": "把文生视频模型变成一条持续播放、随时接受新指令的直播流，而不是一段段排队生成的片段。",
+      "method": "A 4B adaLN DiT trained with flow matching over a moving buffer of frames at mixed noise levels, with window attention and a multistep distillation that cuts sampling to one function evaluation per buffer chunk.",
+      "method_zh": "4B 参数的 adaLN DiT，在帧的“移动缓冲区”上用流匹配训练（缓冲区内各帧噪声水平不同），配合窗口注意力与多步蒸馏，把采样压缩到每个缓冲块一次网络前向。",
+      "specs": "4B · 512p · 16 fps · one H100 · minute-long streams (developer-reported)",
+      "keywords": [
+        "streaming text-to-video",
+        "moving buffer",
+        "flow matching",
+        "interactive prompting",
+        "CVPR 2026",
+        "author-uploaded video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=FkxMnptmBK8"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2507.03745",
+        "arxiv": "2507.03745",
+        "venue": "CVPR 2026",
+        "title": "StreamDiT: Real-Time Streaming Text-to-Video Generation"
+      },
+      "source_url": "https://cumulo-autumn.github.io/StreamDiT/",
+      "collections": [
+        "trend-realtime",
+        "cvpr"
+      ]
+    },
+    {
+      "id": "joonghyuk-shin--motionstream",
+      "creator_ids": [
+        "joonghyuk-shin",
+        "adobe"
+      ],
+      "title": "MotionStream",
+      "year": 2025,
+      "date": "2025-11-03",
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "image",
+        "sketch",
+        "camera"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "responsiveness",
+        "control",
+        "authoring"
+      ],
+      "kind": "research",
+      "description": "A streaming video generator from Adobe Research, Seoul National University and CMU in which a person drags points on the frame with the mouse and watches objects or the camera follow the drag as the video plays, with pause, static anchors and multiple tracks; the project page shows raw screen captures of these live sessions.",
+      "description_zh": "Adobe Research、首尔大学与卡内基梅隆大学提出的流式视频生成系统：用户用鼠标在画面上拖动点，物体或镜头便沿拖动轨迹实时运动，还可暂停、固定静止点、同时拖动多条轨迹；项目页展示的是这些实时操作的原始录屏。",
+      "idea_en": "Moves motion control from a form you fill in before rendering to a gesture you make while the clip is playing, so a person can direct movement the way a puppeteer does.",
+      "idea_zh": "把运动控制从“生成前填写的参数”变成“播放中做出的手势”，人可以像操纵木偶一样实时导演画面中的运动。",
+      "method": "A text-to-video model is first given point-track motion conditioning, then distilled into a causal few-step student with Self Forcing and distribution-matching distillation, using sliding-window causal attention with attention sinks and KV-cache rolling so generation speed stays constant over arbitrarily long streams.",
+      "method_zh": "先给文生视频模型加入点轨迹运动条件，再用 Self Forcing 与分布匹配蒸馏把它蒸馏成因果、少步的学生模型；滑动窗口因果注意力加注意力汇聚点（attention sink）和 KV 缓存滚动，使任意长度的视频流都能以恒定速度生成。",
+      "specs": "1.3B · 480p · 29 fps · 5B · 720p · 24 fps · ~0.4 s latency · single H100 (developer-reported)",
+      "keywords": [
+        "motion control",
+        "drag-based control",
+        "streaming",
+        "Self Forcing",
+        "attention sink",
+        "ICLR 2026 Oral",
+        "Adobe Research"
+      ],
+      "video": {
+        "url": "https://joonghyuk.com/motionstream-web/assets/streaming_demo/ocean-book_compressed.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2511.01266",
+        "arxiv": "2511.01266",
+        "venue": "ICLR 2026 (Oral)",
+        "title": "MotionStream: Real-Time Video Generation with Interactive Motion Controls"
+      },
+      "source_url": "https://joonghyuk.com/motionstream-web/",
+      "code_url": "https://github.com/alex4727/motionstream",
+      "collections": [
+        "trend-realtime",
+        "ml-conf"
+      ]
+    },
+    {
+      "id": "willi-menapace--playable-video-generation",
+      "creator_ids": [
+        "willi-menapace",
+        "snap"
+      ],
+      "title": "Playable Video Generation",
+      "year": 2021,
+      "field": "world-models",
+      "sub": "game",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action",
+        "image"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "reactivity",
+        "authoring"
+      ],
+      "kind": "research",
+      "description": "A model from the University of Trento and Snap Research that learns a small set of discrete actions from unlabelled videos (a tennis player, a robot arm, Atari Breakout) and then lets a person 'play' the video by choosing an action at every step, as in a game; code and demos were released.",
+      "description_zh": "特伦托大学与 Snap Research 的模型：从无标注视频（网球运动员、机械臂、Atari 打砖块）中自行学出一小组离散动作，然后让人像玩游戏一样在每一步选择动作来“玩”这段视频；代码与演示已公开。",
+      "idea_en": "The early proof that controls for a generated scene can be discovered from ordinary footage rather than labelled by hand, the move that Genie's latent actions later scaled to whole worlds.",
+      "idea_zh": "最早证明生成场景的操控方式可以从普通影像中自动发现、无需人工标注；Genie 的潜在动作后来把这一做法扩展到整个世界。",
+      "method": "A self-supervised encoder-decoder trained on reconstruction loss in which the predicted discrete action label is the bottleneck between consecutive frames, so the action space must carry what changes.",
+      "method_zh": "自监督的编码器-解码器，以重建损失训练；预测出的离散动作标签是相邻两帧之间唯一的“瓶颈”，迫使动作空间承载画面中发生的变化。",
+      "keywords": [
+        "playable video",
+        "unsupervised action discovery",
+        "latent actions",
+        "CVPR 2021 Oral",
+        "precursor",
+        "author-uploaded video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=QtDjSyZERpg"
+      },
+      "images": [
+        "https://willi-menapace.github.io/playable-video-generation-website/resources/images/architecture.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2101.12195",
+        "arxiv": "2101.12195",
+        "venue": "CVPR 2021 (Oral)",
+        "title": "Playable Video Generation"
+      },
+      "source_url": "https://willi-menapace.github.io/playable-video-generation-website/",
+      "code_url": "https://github.com/willi-menapace/PlayableVideoGeneration",
+      "collections": [
+        "cvpr"
+      ]
+    },
+    {
+      "id": "odyssey--odyssey-1",
+      "creator_ids": [
+        "odyssey"
+      ],
+      "title": "Odyssey-1",
+      "year": 2025,
+      "date": "2025-05-28",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "preview"
+      ],
+      "lenses": [
+        "responsiveness",
+        "perceptual-realism",
+        "situational-reach"
+      ],
+      "kind": "model",
+      "description": "Odyssey's first playable world model, released as a public browser research preview: people walk through photoreal places learned from real-world video with keyboard, touch or joystick, and each new frame is generated in response; Odyssey called the experience 'a glitchy dream' and later superseded it with Odyssey-2.",
+      "description_zh": "Odyssey 的第一个可游玩世界模型，以公开的浏览器研究预览形式发布：人们用键盘、触屏或摇杆在从真实世界视频中学到的写实场所里行走，每一帧都随操作即时生成；Odyssey 自己形容这一体验像“一场有故障的梦”，之后被 Odyssey-2 取代。",
+      "idea_en": "Learns walkable worlds from footage of real places rather than from game engines, so the situations people step into look like the world, at the price of narrow coverage and drift.",
+      "idea_zh": "从真实场所的影像而不是游戏引擎中学习可行走的世界，因此人进入的情境看起来就像现实，代价是覆盖范围窄、画面会漂移。",
+      "method": "An action-conditioned autoregressive model that predicts the next video frame from the current state, the incoming action and the history, pre-trained on general video and post-trained on densely captured footage of a small set of places for stability, served from H100 clusters in the US and EU.",
+      "method_zh": "动作条件的自回归模型：根据当前状态、新输入的动作与历史预测下一帧视频；先在通用视频上预训练，再用少数场所的密集拍摄素材做后训练以提高稳定性，由美国和欧盟的 H100 集群提供服务。",
+      "specs": "up to 30 fps · ~40 ms per input-to-frame step · 5+ min streams · $1–2 per user-hour serving cost (developer-reported)",
+      "keywords": [
+        "world model",
+        "interactive video",
+        "real-world video",
+        "research preview",
+        "streaming",
+        "Odyssey"
+      ],
+      "video": {
+        "url": "https://framerusercontent.com/assets/BYkiZWdWkgpe6YiQUzI0JA81c8.mp4"
+      },
+      "images": [
+        "https://framerusercontent.com/assets/uLu5AeijNwZhxmq29fscTt5EqI.jpg"
+      ],
+      "source_url": "https://odyssey.ml/introducing-odyssey-1",
+      "collections": [
+        "trend-realtime",
+        "trend-world-simulators",
+        "trend-cost"
+      ]
+    },
+    {
+      "id": "tesla--neural-world-simulator",
+      "creator_ids": [
+        "tesla"
+      ],
+      "title": "Tesla neural world simulator",
+      "year": 2025,
+      "date": "2025-10-24",
+      "field": "world-models",
+      "sub": "simulation",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action",
+        "video"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "situational-reach",
+        "control",
+        "responsiveness"
+      ],
+      "kind": "model",
+      "description": "An internal world model that synthesizes all of a Tesla's camera feeds in response to driving commands, used to test new Full Self-Driving networks in closed loop, replay past failures with different decisions and stage adversarial scenarios; Tesla says a lighter setting runs in real time, and showed a person driving in it for more than six minutes.",
+      "description_zh": "特斯拉的内部世界模型：根据驾驶指令合成整车所有摄像头的画面，用来对新的完全自动驾驶网络做闭环测试、以不同决策重演过去的失败、布置对抗性场景；特斯拉称在较低算力设置下它可以实时运行，并展示了一个人在其中连续驾驶六分钟以上。",
+      "idea_en": "A fleet-scale video world model doubles as a drivable simulator, so rare and dangerous traffic situations can be re-entered and varied, though only the developer has access.",
+      "idea_zh": "车队规模的视频世界模型同时也是可以驾驶的模拟器，罕见而危险的交通情境可以被重新进入、反复变化，但只有开发者自己能用。",
+      "method": "A causal model trained on the same curated fleet video, kinematics and map data as the driving network, which predicts the next multi-camera state from the current state and the next action; test-time compute is traded against speed to run in real time, and Tesla reports the same network generalizes to indoor scenes for Optimus.",
+      "method_zh": "因果模型，与驾驶网络使用同一批精选的车队视频、运动学与地图数据训练，根据当前状态与下一步动作预测下一时刻的多摄像头画面；通过调节推理算力在速度与质量之间取舍以实现实时运行；特斯拉称同一网络也能泛化到 Optimus 的室内场景。",
+      "specs": "8 cameras · 24 fps in real-time mode · 6+ min human-driven session (developer-reported)",
+      "keywords": [
+        "world simulator",
+        "autonomous driving",
+        "closed-loop evaluation",
+        "Full Self-Driving",
+        "Optimus",
+        "conference talk video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=IRu-cPkpiFk"
+      },
+      "source_url": "https://x.com/aelluswamy/status/1981644831790379245",
+      "collections": [
+        "trend-physical-ai",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "mbzuai-ifm--pan",
+      "creator_ids": [
+        "mbzuai-ifm"
+      ],
+      "title": "PAN",
+      "year": 2025,
+      "date": "2025-11-12",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "reactivity",
+        "persistence",
+        "behavioral-plausibility"
+      ],
+      "kind": "model",
+      "description": "A general world model from MBZUAI in Abu Dhabi that takes a scene and a sequence of natural-language actions and continues the video after each one, keeping a latent world state across long rollouts so it can also be used to simulate and compare plans.",
+      "description_zh": "阿布扎比 MBZUAI 推出的通用世界模型：给定一个场景和一连串自然语言描述的动作，每接收一个动作就把视频继续生成下去，并在长时推演中保持潜在的世界状态，因此也可用来模拟、比较不同的行动方案。",
+      "idea_en": "Lets a person or agent steer a generated world in plain language step by step, with a remembered world state underneath the pictures rather than only the last frames.",
+      "idea_zh": "让人或智能体用日常语言一步步驱动生成的世界，画面之下有一个被记住的世界状态，而不只是依赖最近几帧。",
+      "method": "Generative Latent Prediction: a vision encoder and autoregressive backbone built on Qwen2.5-VL-7B predict the next latent world state from the history and the language action, and a video diffusion decoder adapted from Wan2.1-T2V-14B renders it chunk by chunk with causal Swin-DPM denoising to limit drift.",
+      "method_zh": "“生成式潜在预测”（GLP）架构：基于 Qwen2.5-VL-7B 的视觉编码器与自回归主干根据历史和语言动作预测下一个潜在世界状态，再由改自 Wan2.1-T2V-14B 的视频扩散解码器逐块渲染，并用因果 Swin-DPM 去噪减少漂移。",
+      "keywords": [
+        "world model",
+        "language actions",
+        "Generative Latent Prediction",
+        "long-horizon simulation",
+        "MBZUAI",
+        "Middle East"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=J4yGTkuHAi4"
+      },
+      "images": [
+        "https://ifm.mbzuai.ac.ae/wp-content/uploads/2025/11/pan-img.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2511.09057",
+        "arxiv": "2511.09057",
+        "title": "PAN: A World Model for General, Actionable, and Long-Horizon World Simulation"
+      },
+      "source_url": "https://ifm.mbzuai.ac.ae/pan/",
+      "collections": [
+        "trend-world-simulators"
+      ]
+    },
+    {
+      "id": "nvidia--omnidreams",
+      "creator_ids": [
+        "nvidia"
+      ],
+      "title": "OmniDreams",
+      "year": 2026,
+      "date": "2026-03",
+      "field": "world-models",
+      "sub": "simulation",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action",
+        "spec",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "situational-reach",
+        "reactivity",
+        "control"
+      ],
+      "kind": "model",
+      "description": "NVIDIA's generative driving world model, first shown at GTC 2026, that synthesizes multi-camera street views in real time from the car's actions, so either the Alpamayo driving policy or a human at a steering wheel can drive through scenes the recording never contained (a mattress strapped to a car roof on the highway, strong wind, an untaken turn); weights, training code and the FlashDreams runtime with a playable 'Crazy Robotaxi' demo are open.",
+      "description_zh": "NVIDIA 的生成式驾驶世界模型，首次在 GTC 2026 上展示：根据车辆动作实时合成多摄像头街景，无论是 Alpamayo 驾驶策略还是手握方向盘的人，都可以驶入原始录像中从未出现的场景（高速公路上车顶绑着床垫、强风、没走过的路口转弯）；模型权重、训练代码以及附带可玩的“Crazy Robotaxi”演示的 FlashDreams 运行时均已开源。",
+      "idea_en": "Makes long-tail traffic situations drivable on demand, by a policy or a person, without first having to capture them, while the simulator state stays explicit and loggable outside the model.",
+      "idea_zh": "让长尾交通情境无需先拍到，就能随时被驾驶策略或真人“开进去”，同时模拟器状态保留在模型之外，清晰可记录。",
+      "method": "A Cosmos diffusion model mid- and post-trained on 21k hours of driving and distilled to few-step autoregressive generation, conditioned on past frames, a rendered HD-map scenario image and the ego trajectory from the AlpaSim runtime, which applies each driving action and returns frames over gRPC in a closed loop.",
+      "method_zh": "以 Cosmos 扩散模型为基础，在 2.1 万小时驾驶数据上做中期与后训练，并蒸馏为少步自回归生成；条件包括历史帧、渲染出的高精地图场景图以及 AlpaSim 运行时给出的自车轨迹，AlpaSim 执行每个驾驶动作并通过 gRPC 闭环返回画面。",
+      "specs": "4 camera views · 704×1280 · 105 fps each on 16 GB300 GPUs · FlashDreams runtime needs ≥80 GB GPU (developer-reported)",
+      "keywords": [
+        "driving world model",
+        "closed-loop simulation",
+        "Cosmos",
+        "Alpamayo",
+        "AlpaSim",
+        "FlashDreams",
+        "human-in-the-loop"
+      ],
+      "video": {
+        "url": "https://research.nvidia.com/labs/sil/projects/omnidreams-blog/teaser.mp4"
+      },
+      "images": [
+        "https://research.nvidia.com/labs/sil/projects/omnidreams-blog/assets/og-card.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2606.03159",
+        "arxiv": "2606.03159",
+        "venue": "NVIDIA technical report",
+        "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation"
+      },
+      "source_url": "https://research.nvidia.com/labs/sil/projects/omnidreams-blog/",
+      "code_url": "https://github.com/NVIDIA/flashdreams",
+      "collections": [
+        "trend-physical-ai",
+        "trend-realtime",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "wei-liu-stanford--realwonder",
+      "creator_ids": [
+        "wei-liu-stanford"
+      ],
+      "title": "RealWonder",
+      "year": 2026,
+      "date": "2026-03-05",
+      "field": "world-models",
+      "sub": "simulation",
+      "also": [
+        "video"
+      ],
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "image",
+        "action",
+        "camera"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "behavioral-plausibility",
+        "reactivity",
+        "control"
+      ],
+      "kind": "research",
+      "description": "A Stanford system that turns a single photo into a video stream in which a person can push objects, blow wind across the scene, move a robot gripper or the camera and see the physical consequences unfold live, for rigid and deformable objects, fluids, granular material such as sand, and smoke.",
+      "description_zh": "斯坦福大学的系统：把一张照片变成视频流，人可以推动物体、向场景吹风、移动机器人夹爪或镜头，并实时看到相应的物理后果，适用于刚体与可形变物体、流体、沙粒等颗粒材料以及烟雾。",
+      "idea_en": "Puts an explicit physics simulation between the person's action and the video model, so a push has a computed consequence instead of a guessed one, and the conditions can be logged and repeated.",
+      "idea_zh": "在人的动作和视频模型之间放入一个显式的物理模拟，使一次推动的结果是计算出来的而不是“猜”出来的，条件也可以被记录和重复。",
+      "method": "Reconstructs the image as a 3D point cloud, estimates materials, runs a physics simulation driven by 3D forces, wind fields or robot actions, and renders optical flow plus an RGB preview that condition a 4-step distilled video generator streaming the final frames.",
+      "method_zh": "先把图像重建为三维点云并估计材质，再用三维外力、风场或机器人动作驱动物理模拟，渲染出光流和 RGB 预览，作为条件输入一个只需 4 步去噪的蒸馏视频生成器，流式输出最终画面。",
+      "specs": "480×832 · 13.2 fps · single H200 (developer-reported)",
+      "keywords": [
+        "physics simulation",
+        "action-conditioned video",
+        "single image",
+        "optical flow conditioning",
+        "Stanford",
+        "open weights"
+      ],
+      "video": {
+        "url": "https://liuwei283.github.io/RealWonder/static/videos/demo_web/lamp_force1.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2603.05449",
+        "arxiv": "2603.05449",
+        "title": "RealWonder: Real-Time Physical Action-Conditioned Video Generation"
+      },
+      "source_url": "https://liuwei283.github.io/RealWonder/",
+      "code_url": "https://github.com/liuwei283/RealWonder",
+      "collections": [
+        "trend-realtime",
+        "trend-physical-ai"
+      ]
+    },
+    {
+      "id": "jiacong-xu--wonder",
+      "creator_ids": [
+        "jiacong-xu",
+        "adobe"
+      ],
+      "title": "Wonder",
+      "year": 2026,
+      "date": "2026-07-28",
+      "field": "world-models",
+      "sub": "memory",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "image",
+        "video",
+        "camera"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "persistence",
+        "responsiveness",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "A video world model from Adobe Research and Johns Hopkins that turns a photo or a video into a world a person explores by moving a 6-DoF camera, revealing unseen areas and returning to earlier ones that still look the same, for up to about a minute at constant latency; realistic, cartoon and game-style inputs are shown, and code is announced but not yet released.",
+      "description_zh": "Adobe Research 与约翰斯·霍普金斯大学提出的视频世界模型：把一张照片或一段视频变成可探索的世界，人通过六自由度镜头移动来揭开未见区域，回到先前的位置时画面保持一致，在恒定延迟下可持续约一分钟；展示了写实、卡通与游戏风格的输入，代码已宣布但尚未发布。",
+      "idea_en": "Treats 'come back and it is still there' as the core requirement of an explorable generated place, and keeps it at constant latency rather than slowing down as the session grows.",
+      "idea_zh": "把“回来时它还在”当作可探索生成场景的核心要求，并在会话变长时依然保持恒定延迟，而不是越来越慢。",
+      "method": "Camera motion is rendered as dense, frame-aligned visual evidence (a synthetic 3D scaffold and environment map), full-fidelity history KV caches are retrieved through sparse attention, and a rectified Self-Forcing-style distillation keeps the few-step student faithful to control and long-term memory.",
+      "method_zh": "把镜头运动渲染成稠密、逐帧对齐的视觉线索（合成的三维脚手架与环境贴图），通过稀疏注意力检索完整保真的历史 KV 缓存，并用改进的 Self-Forcing 式蒸馏，使少步学生模型仍能遵循控制并保持长时记忆。",
+      "specs": "16 fps · 0.5 s constant latency · 6-DoF camera · rollouts up to ~1 min (developer-reported)",
+      "keywords": [
+        "video world model",
+        "camera control",
+        "long-term memory",
+        "sparse attention",
+        "Self Forcing",
+        "Adobe Research"
+      ],
+      "video": {
+        "url": "https://pub-ca0ffc19900b40b8adf0087172d3caf5.r2.dev/website/media/i2v_real/real_01.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2607.26037",
+        "arxiv": "2607.26037",
+        "venue": "Technical report",
+        "title": "Wonder: Video World Model Done Better"
+      },
+      "source_url": "https://wonder-world-model.github.io/",
+      "collections": [
+        "trend-realtime",
+        "trend-world-simulators"
+      ]
+    }
+  ],
+  "leads": [
+    {
+      "name": "LiveBand: Live Accompaniment Generation in the Audio Domain (Pasini et al., Sony CSL / QMUL, arXiv 2606.03803)",
+      "why": "Causal transformer that plays accompaniment to live audio input in real time on consumer hardware; no project page or video as of 2026-10-26.",
+      "link": "https://arxiv.org/abs/2606.03803",
+      "found_via": "google-deepmind",
+      "status": "no_media"
+    },
+    {
+      "name": "Live Music Diffusion Models (Novack, Brade et al., UCSD / MIT / Adobe, arXiv 2605.22717)",
+      "why": "Repurposes open audio diffusion models into interactive streaming music generators on consumer GPUs; project page has audio examples only, no video.",
+      "link": "https://stephenbrade.github.io/lmdm-public/",
+      "found_via": "google-deepmind",
+      "status": "no_media"
+    },
+    {
+      "name": "Streaming Generation for Music Accompaniment (Wu et al., Mila / MIT, arXiv 2510.22105)",
+      "why": "Real-time audio-to-audio accompaniment under system delay (future visibility vs. latency); no project page or video found.",
+      "link": "https://arxiv.org/abs/2510.22105",
+      "found_via": "alexander-scarlatos",
+      "status": "no_media"
+    },
+    {
+      "name": "Unbounded: A Generative Infinite Game of Character Life Simulation (Google, arXiv 2410.18975)",
+      "why": "LLM + image-model life-simulation game refreshing about once per second (turn-based); project page has no video.",
+      "link": "https://generative-infinite-game.github.io/",
+      "found_via": "google",
+      "status": "no_media"
+    },
+    {
+      "name": "Hand2World: Autoregressive Egocentric Interaction Generation via Free-Space Hand Gestures (NTU Singapore, arXiv 2602.09600)",
+      "why": "Egocentric video conditioned on mid-air hand gestures, an XR-relevant peer of Generated Reality; no project page or video as of 2026-10-26.",
+      "link": "https://arxiv.org/abs/2602.09600",
+      "found_via": "linxi-xie",
+      "status": "no_media"
+    },
+    {
+      "name": "Daydream Scope (open-source real-time video pipeline tool, 2025-10)",
+      "why": "Runs StreamDiffusionV2, LongLive, Krea Realtime, Reward Forcing, MemFlow and Waypoint-1 locally with NDI / Spout / Syphon output for live performance; 454 GitHub stars; official walkthrough video Ls2OGg8soNU. Not added: daydream.live now serves an unrelated music product, so the maker (Livepeer?) is unclear.",
+      "link": "https://github.com/daydreamlive/scope",
+      "found_via": "akio-kodaira",
+      "status": "open"
+    },
+    {
+      "name": "LongLive-2.0 (NVIDIA, arXiv 2605.18739, 2026-05-17)",
+      "why": "NVFP4 parallel training and inference infrastructure plus open 5B checkpoints for the LongLive line; candidate status note for shuai-yang-hkustgz--longlive rather than a new work.",
+      "link": "https://nvlabs.github.io/LongLive/LongLive2/",
+      "found_via": "nvidia",
+      "status": "open"
+    },
+    {
+      "name": "Captain Safari: A World Engine with Pose-Aligned 3D Memory (JHU, arXiv 2511.22815)",
+      "why": "Pose-conditioned world engine retrieving from a persistent 3D memory; below the salience bar (12 HF upvotes, no venue), and revisit memory is covered by Wonder, WorldTrace and Matrix-Game 3.0.",
+      "link": "https://johnson111788.github.io/open-safari/",
+      "found_via": "xgen",
+      "status": "off_topic"
+    },
+    {
+      "name": "Flow Equivariant World Models (Lillemark, Du, Keller et al., ICML 2026, arXiv 2601.01075)",
+      "why": "Symmetry-structured memory for partially observed dynamic environments; a modelling contribution on toy and simulated scenes, not a generator people enter.",
+      "link": "https://flowequivariantworldmodels.github.io/",
+      "found_via": "xgen",
+      "status": "off_topic"
+    },
+    {
+      "name": "Remember to be Curious: Episodic Context and Persistent Worlds for 3D Exploration (Goli, Kerr, Kanazawa et al., arXiv 2605.22814)",
+      "why": "Curiosity-driven RL exploration with persistent world memory; no project page or video.",
+      "link": "https://arxiv.org/abs/2605.22814",
+      "found_via": "xgen",
+      "status": "no_media"
+    },
+    {
+      "name": "Fast Autoregressive Video Diffusion and World Models with Temporal Cache Compression and Sparse Attention (Samuel et al., ICML 2026, arXiv 2602.01801)",
+      "why": "Inference speed-up for AR video / world models (KV-cache compression); a method paper below the salience bar.",
+      "link": "https://dvirsamuel.github.io/fast-auto-regressive-video/",
+      "found_via": "xgen",
+      "status": "off_topic"
+    },
+    {
+      "name": "FastH3-Omni (FastVideo / Hao AI Lab with NuvaLab and Reactor, 2026-10) and OpenDreamer (open Dreamer 4 reproduction, 2026-07-21)",
+      "why": "Both folded into reactor--reactor-platform: FastH3-Omni is a distilled real-time version of MiniMax H3 served on Reactor; OpenDreamer (396 GitHub stars) is playable on the Reactor runtime.",
+      "link": "https://reactor.inc/blog/fast-h3-omni",
+      "found_via": "reactor",
+      "status": "duplicate"
+    },
+    {
+      "name": "Krea Realtime Edit (2026-01-20)",
+      "why": "Real-time image canvas where brushstrokes update the picture instantly; image-only, outside the gallery's temporal / immersive scope.",
+      "link": "https://www.krea.ai/blog/realtime-edit",
+      "found_via": "krea",
+      "status": "off_topic"
+    }
+  ]
+}

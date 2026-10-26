@@ -810,8 +810,8 @@
     "perceptual-realism"
    ],
    "kind": "model",
-   "description": "PixVerse V6 (2026-03-30) is the flagship video model of the PixVerse app: from one prompt it generates a multi-shot short film of up to 15 seconds at 1080p with native audio, holding a character's emotion across cuts, and it can be driven from a command-line tool by coding agents.",
-   "description_zh": "PixVerse V6（2026-03-30）是 PixVerse 应用的旗舰视频模型：一条提示即可生成最长 15 秒、1080p、带原生音频的多镜头短片，并在镜头切换间保持角色情绪一致；它还可以通过命令行工具由编程智能体调用。",
+   "description": "PixVerse V6 (2026-03-30) is the flagship video model of the PixVerse app: from one prompt it generates a multi-shot short film of up to 15 seconds at 1080p with native audio, holding a character's emotion across cuts, and it can be driven from a command-line tool by coding agents. It follows PixVerse V5 (2025), V5.5 (2025-12-01, multi-shot with voices and lip-sync) and V5.6 (2026-01-26); V6 text-, image-, first-last-frame- and multi-reference-to-video models were added to Alibaba Cloud Model Studio on 2026-10-22.",
+   "description_zh": "PixVerse V6（2026-03-30）是 PixVerse 应用的旗舰视频模型：一条提示即可生成最长 15 秒、1080p、带原生音频的多镜头短片，并在镜头切换间保持角色情绪，还可以由编程智能体通过命令行工具调用。它之前是 PixVerse V5（2025）、V5.5（2025-12-01，加入带配音和口型同步的多镜头）和 V5.6（2026-01-26）；V6 的文生、图生、首尾帧和多参考生视频模型于 2026-10-22 上架阿里云百炼。",
    "idea_en": "Agents can now order a finished multi-shot clip with sound from the command line, so scenario variants can be produced in batches without an editor.",
    "idea_zh": "智能体现在可以在命令行里直接生成带声音的多镜头成片，情境的多个变体无需剪辑即可批量产出。",
    "method": "Closed audio-video generation model with multi-shot planning (architecture not disclosed).",

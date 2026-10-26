@@ -1,0 +1,50 @@
+{
+  "microsoft--azure-tts-avatar": {
+    "zh": "Azure AI 语音文本转语音虚拟形象",
+    "src": "translated"
+  },
+  "tavus--pals": {
+    "zh": "PALs（Tavus 个人 AI 伙伴）",
+    "src": "translated"
+  },
+  "tme-lyra-lab--musetalk": {
+    "zh": "MuseTalk：基于时空采样的实时高保真视频配音",
+    "src": "translated"
+  },
+  "ant-group--ditto": {
+    "zh": "Ditto：基于运动空间扩散的可控实时说话人头",
+    "src": "translated"
+  },
+  "alibaba-tongyi--openavatarchat": {
+    "zh": "OpenAvatarChat：模块化交互数字人对话",
+    "src": "translated"
+  },
+  "silicon-intelligence--duix-mobile": {
+    "zh": "Duix Mobile：端侧实时交互数字人（硅基智能）",
+    "src": "translated"
+  },
+  "zhiyuan-li-um--personalive": {
+    "zh": "PersonaLive：面向直播的表现力肖像动画",
+    "src": "translated"
+  },
+  "fudan-generative-vision--hallo-live": {
+    "zh": "Hallo-Live：实时流式音视频一体虚拟人生成",
+    "src": "translated"
+  },
+  "zhipu-ai--realvideo": {
+    "zh": "RealVideo：实时流式对话视频",
+    "src": "translated"
+  },
+  "soul-ai-lab--soulx-flashhead": {
+    "zh": "SoulX-FlashHead：无限时长的实时流式说话人头",
+    "src": "translated"
+  },
+  "bithuman--essence-2": {
+    "zh": "Essence 2 与 Expression 2（端侧实时虚拟人）",
+    "src": "translated"
+  },
+  "alibaba-tongyi--streamchar": {
+    "zh": "StreamChar：长时流式角色音视频生成",
+    "src": "translated"
+  }
+}

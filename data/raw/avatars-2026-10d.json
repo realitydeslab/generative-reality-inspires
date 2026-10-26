@@ -72,7 +72,7 @@
    "idea_zh": "把会说话的面孔从逐帧视频生成换成可驱动的三维高斯头像，让语音情境的每一轮都配上面孔，每小时成本远低于 1 美元。",
    "method": "A portrait is reframed and converted into a Gaussian-splat face by an offline API job ('Generate Trinity Face'); at run time an audio-to-motion model likely drives the splats from streamed speech, and frames reach the app over WebRTC, directly or through the LiveKit and Pipecat plug-ins.",
    "method_zh": "先通过离线 API 任务（“Generate Trinity Face”）把人像重新构图并转换成高斯泼溅面孔；运行时很可能由一个音频到动作的模型根据流式语音驱动这些高斯点，画面通过 WebRTC 直接送达应用，或经由 LiveKit 与 Pipecat 插件接入。",
-   "specs": "< US$0.01 per minute (developer-reported)",
+   "specs": "$0.009/min, down to $0.005/min at scale · 50 free min/month (developer-reported, October 2026)",
    "keywords": ["Gaussian avatar", "talking head", "speech-to-video", "WebRTC", "LiveKit", "Pipecat", "voice agent"],
    "video": { "url": "https://www.youtube.com/watch?v=OWPkzYE5PiA" },
    "images": ["https://i.ytimg.com/vi/OWPkzYE5PiA/maxresdefault.jpg"],

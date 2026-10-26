@@ -4,11 +4,11 @@
   {
    "id": "xgen-labs",
    "name": "XGEN Labs",
-   "name_zh": "",
+   "name_zh": "原初之境科技",
    "kind": "company",
    "role": "World-model lab",
-   "based": "",
-   "bio": "A lab that calls itself a frontier lab for world intelligence; in September 2026 it released XGEN-JING, an open egocentric audio-video world model, and in October 2026 the technical report on DAO, its world engine.",
+   "based": "Hong Kong SAR, China",
+   "bio": "A world-model company founded in 2026 and operated as XGEN Labs Limited in Hong Kong; in September 2026 it announced Generative World Simulation (the DAO world engine and the open JING experience model, technical report October 2026) and published Dual Exam, an evaluation of agents and world models working together.",
    "why": "Pairs a generated first-person view with an explicit shared world state, so consequences remain after an observer leaves.",
    "disciplines": [
     "ml",
@@ -20,9 +20,9 @@
     "huggingface": "https://huggingface.co/XGENlabs"
    },
    "role_zh": "世界模型实验室",
-   "bio_zh": "自称“面向世界智能的前沿实验室”；2026 年 9 月开源了第一人称音视频世界模型 XGEN-JING，10 月发布了其世界引擎 DAO 的技术报告。",
+   "bio_zh": "成立于 2026 年的世界模型公司，以 XGEN Labs Limited（原初之境科技有限公司）在香港运营；2026 年 9 月发布“生成式世界模拟”（世界引擎 DAO 与开源体验模型 JING，技术报告于 10 月发布），并发表了评估智能体与世界模型协同工作的 Dual Exam。",
    "why_zh": "把生成的第一人称画面与一个明确的共享世界状态结合起来，观察者离开后，行动的后果依然存在。",
-   "based_zh": "",
+   "based_zh": "中国香港",
    "connected_to": [
     "minimax",
     "haoxuan-che"
@@ -62,7 +62,7 @@
    ],
    "title": "DAO and JING",
    "year": 2026,
-   "date": "2026-09-16",
+   "date": "2026-09-17",
    "field": "world-models",
    "sub": "general",
    "also": [
@@ -89,19 +89,22 @@
     "reactivity"
    ],
    "kind": "model",
-   "description": "A generative world simulation from XGEN Labs in two parts: DAO, a world engine that keeps the state of characters, objects and places and advances it by rules, and JING, an open model that renders each observer's first-person video and sound from that state. A person can walk around, handle objects and talk with characters, and what they change stays changed.",
-   "description_zh": "XGEN Labs 推出的生成式世界模拟，分为两部分：DAO 是一个世界引擎，记录角色、物体与空间的状态并按规则推进；JING 是一个开源模型，根据这一状态为每位观察者生成第一人称的画面与声音。人可以四处走动、操作物体、与角色交谈，改变过的东西会一直保持改变。",
+   "description": "A generative world simulation from XGEN Labs in two parts: DAO, a world engine that keeps the state of characters, objects and places, lets autonomous characters act on their own goals and advances everything by rules and world time, and JING, a model that renders each observer's first-person video and sound from what that observer can perceive. As of October 2026 only JING is public, as open weights that turn a scripted sequence of keyboard and text controls into 5–15 s clips; DAO, the causal real-time JING and the multi-observer town on the project page are shown in videos and the technical report but not released.",
+   "description_zh": "XGEN Labs 推出的生成式世界模拟，分为两部分：DAO 是一个世界引擎，记录角色、物体与空间的状态，让自主角色按各自目标行动，并按规则与世界时间推进一切；JING 是一个模型，根据每位观察者能感知到的内容生成第一人称的画面与声音。截至 2026 年 10 月，公开的只有 JING：开源权重可以把一段预先写好的键盘与文字操作序列生成为 5–15 秒的片段；DAO、因果实时版 JING 以及项目页上的多观察者小镇只出现在视频与技术报告中，尚未发布。",
    "idea_en": "Separates the world from the picture of it: consequences live in an explicit shared state that outlasts any one viewer, and the video model renders only what each observer can perceive.",
    "idea_zh": "把世界本身与世界的画面分开：后果保存在一个明确的共享状态里，不会因某个观察者离开而消失；视频模型只渲染每位观察者能感知到的部分。",
-   "method": "DAO keeps an entity graph with interaction rules and world time and derives observer-specific conditions for JING, which adapts MiniMax-H3's joint audio-video model through bidirectional camera-control training, causal autoregressive training with resampling forcing, memory adaptation and few-step distillation; the released JING-Flash-v1 is the four-step bidirectional variant, and the causal model is announced as coming soon.",
-   "method_zh": "DAO 维护一张带有交互规则与世界时间的实体图，并为每位观察者生成条件交给 JING；JING 在 MiniMax-H3 音视频联合模型的基础上，依次经过双向镜头控制训练、带重采样强制（resampling forcing）的因果自回归训练、记忆适配与少步蒸馏。已发布的 JING-Flash-v1 是四步双向版本，因果版本官方称即将推出。",
-   "specs": "JING-Flash-v1 · 4-step bidirectional · video + audio · demo on 6× H100 · WBench Full 81.0 (2026-09-12 submission)",
+   "method": "DAO holds an entity graph, actor states (intentions, emotions, needs), a world clock and active events, admits actions against reachability and rule checks, advances the state in ordered update cycles with snapshots and event history, and reads out observer-specific conditions (sensing range, field of view, occlusion) for JING; JING adapts MiniMax-H3's joint audio-video DiT with a FiLM camera-control encoder, causal chunked generation trained with resampling forcing, an audiovisual memory retrieved by attention-key similarity, and VMM-initialised DMD distillation to four steps; the released JING-Flash-v1 is the four-step bidirectional variant.",
+   "method_zh": "DAO 维护一张实体图、角色状态（意图、情绪、需求）、世界时钟与正在发生的事件；它按可达性与规则检查接受或拒绝动作，以有序的更新循环推进状态，并用快照与事件历史保存下来，再按感知范围、视野与遮挡为每位观察者生成交给 JING 的条件。JING 在 MiniMax-H3 音视频联合 DiT 的基础上加入 FiLM 镜头控制编码器，用重采样强制（resampling forcing）训练分块因果生成，按注意力键相似度检索音视频记忆，并以 VMM 初始化、DMD 蒸馏到四步。已发布的 JING-Flash-v1 是四步双向版本。",
+   "specs": "JING-Flash-v1 · 4-step bidirectional · video + stereo audio · reference demo on 6× H100 · Hugging Face Space: 5–15 s at 1344×768 or 960×544, 24 fps · WBench Full 81.0 (#1 on 2026-09-17, #2 behind Murea-Pro by 2026-10-12; self-evaluated) · Navi 81.9 (#2) · no latency figure published",
    "keywords": [
     "world model",
     "world state",
+    "DAO",
+    "JING",
     "egocentric",
     "joint audio-video",
-    "characters",
+    "autonomous characters",
+    "multi-observer",
     "open weights",
     "MiniMax-H3"
    ],
@@ -109,7 +112,9 @@
     "url": "https://resources.xgenlabs.ai/research/videos/research-jing-dao-xgen-jing-demo-20260916.mp4"
    },
    "images": [
-    "https://huggingface.co/XGENlabs/XGEN-JING/resolve/main/assets/xgen-jing-cover.jpg?v=5d27805a7323"
+    "https://huggingface.co/XGENlabs/XGEN-JING/resolve/main/assets/xgen-jing-cover.jpg?v=5d27805a7323",
+    "https://resources.xgenlabs.ai/research/images/research-jing-dao-nori-poster.jpg",
+    "https://resources.xgenlabs.ai/research/images/research-jing-dao-jing-hero-loop-poster.jpg"
    ],
    "paper": {
     "url": "https://arxiv.org/abs/2610.19726",
@@ -122,7 +127,8 @@
    "collections": [
     "trend-world-simulators",
     "trend-native-audio",
-    "trend-agents-in-worlds"
+    "trend-agents-in-worlds",
+    "trend-open-weights"
    ]
   },
   {

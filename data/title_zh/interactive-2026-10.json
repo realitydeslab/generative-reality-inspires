@@ -1,0 +1,62 @@
+{
+  "joonghyuk-shin--motionstream": {
+    "zh": "MotionStream",
+    "src": "keep"
+  },
+  "akio-kodaira--streamdit": {
+    "zh": "StreamDiT",
+    "src": "keep"
+  },
+  "mbzuai-ifm--pan": {
+    "zh": "PAN 世界模型",
+    "src": "translated"
+  },
+  "odyssey--odyssey-1": {
+    "zh": "Odyssey-1",
+    "src": "keep"
+  },
+  "wei-liu-stanford--realwonder": {
+    "zh": "RealWonder",
+    "src": "keep"
+  },
+  "alexander-scarlatos--realjam": {
+    "zh": "ReaLJam：人机实时即兴合奏",
+    "src": "translated"
+  },
+  "daniel-holden--pfnn": {
+    "zh": "相位函数神经网络角色控制（PFNN）",
+    "src": "translated"
+  },
+  "tesla--neural-world-simulator": {
+    "zh": "特斯拉神经世界模拟器",
+    "src": "translated"
+  },
+  "google-deepmind--magenta-realtime-2": {
+    "zh": "Magenta RealTime 2",
+    "src": "keep"
+  },
+  "reactor--reactor-platform": {
+    "zh": "Reactor",
+    "src": "keep"
+  },
+  "willi-menapace--playable-video-generation": {
+    "zh": "可游玩视频生成",
+    "src": "translated"
+  },
+  "hanxiao-jiang--phystwin": {
+    "zh": "PhysTwin",
+    "src": "keep"
+  },
+  "guy-tevet--closd": {
+    "zh": "CLoSD",
+    "src": "keep"
+  },
+  "nvidia--omnidreams": {
+    "zh": "OmniDreams",
+    "src": "keep"
+  },
+  "jiacong-xu--wonder": {
+    "zh": "Wonder",
+    "src": "keep"
+  }
+}

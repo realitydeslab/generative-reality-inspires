@@ -832,7 +832,7 @@
         "text",
         "action"
       ],
-      "timing": "turn-based",
+      "timing": "real-time",
       "access": [
         "research"
       ],
@@ -1245,8 +1245,8 @@
         "responsiveness"
       ],
       "kind": "model",
-      "description": "A 'generative world engine' that turned any uploaded image, from a photo to a child's drawing, into a world playable in the browser with WASD keys, and let players change it with text mid-session; the online demo was offline when checked in October 2026.",
-      "description_zh": "一款“生成式世界引擎”：把任意上传的图像（从照片到儿童画）变成可在浏览器中用 WASD 键游玩的世界，并允许玩家在游玩中用文字修改世界；2026 年 10 月核查时在线演示已下线。",
+      "description": "A 'generative world engine' that turned any uploaded image, from a photo to a child's drawing, into a world playable in the browser with WASD keys, and let players change it with text mid-session or share a link for friends to join; the online demo was offline when checked in October 2026, after founder Joe Chen joined Roblox in late 2025 to work on Roblox Reality.",
+      "description_zh": "一款“生成式世界引擎”：把任意上传的图像（从照片到儿童画）变成可在浏览器中用 WASD 键游玩的世界，玩家可以在游玩中用文字修改世界，或分享链接邀请朋友加入；2026 年 10 月核查时在线演示已下线，创始人 Joe Chen 已于 2025 年底加入 Roblox，参与 Roblox Reality。",
       "idea_en": "Showed in 2025 that anyone could step into their own picture, while press tests found loose controls and sudden scene changes.",
       "idea_zh": "在 2025 年展示了任何人都能走进自己的图片，但媒体实测发现操控松散、场景时有突变。",
       "method": "Reported as an autoregressive transformer-based diffusion model streaming frames from image and text prompts with live text edits.",
@@ -1263,7 +1263,9 @@
         "url": "https://www.youtube.com/watch?v=Ps55y7NPgTs"
       },
       "source_url": "https://www.gigazine.net/gsc_news/en/20250825-ai-generative-world-mirage-2",
-      "collections": []
+      "collections": [
+        "trend-platform-risk"
+      ]
     },
     {
       "id": "odyssey--odyssey-2",
@@ -1715,7 +1717,7 @@
       "idea_zh": "把世界模型与两个大模型智能体搭配：一个负责行动、一个负责导演，这一模式可以直接对应实验中的“同谋者”与“实验者”角色。",
       "method": "Causal pretraining for unbounded rollouts, a distilled real-time variant, and an agentic harness in which a pilot agent plans character behavior and a director agent synthesizes new environmental elements as the scene progresses.",
       "method_zh": "通过因果预训练实现无上限的推演，蒸馏出实时版本，并加入智能体框架：驾驶员智能体规划角色行为，导演智能体随场景推进合成新的环境元素。",
-      "specs": "720p · 60 fps real-time variant · hour-long sessions (developer-reported)",
+      "specs": "720p · 60 fps real-time variant · hour-long sessions (developer-reported) · 14B causal-fast, causal-pretrained and bidirectional plus 1.3B causal-fast (480p) checkpoints · CC BY-NC-SA 4.0",
       "keywords": [
         "world model",
         "open weights",
@@ -2481,7 +2483,12 @@
       "video": {
         "url": "https://mira-wm.com/media/hero-v2.mp4"
       },
-      "paper": {"url": "https://arxiv.org/abs/2607.05352", "arxiv": "2607.05352", "venue": "arXiv 2026", "title": "Multiplayer Interactive World Models with Representation Autoencoders"},
+      "paper": {
+        "url": "https://arxiv.org/abs/2607.05352",
+        "arxiv": "2607.05352",
+        "venue": "arXiv 2026",
+        "title": "Multiplayer Interactive World Models with Representation Autoencoders"
+      },
       "source_url": "https://mira-wm.com/blog-post/",
       "code_url": "https://github.com/mira-wm/mira",
       "collections": [
@@ -2836,7 +2843,7 @@
         "trend-open-weights",
         "trend-world-simulators"
       ],
-      "specs": "Edge variant 4B · real-time on device (developer-reported)"
+      "specs": "Edge variant 4B · real-time on device · Nano simulation variants for closed-loop policy tests of AVs and bimanual robots (2026-10-21) (developer-reported)"
     },
     {
       "id": "meta--v-jepa-2",

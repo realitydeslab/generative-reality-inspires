@@ -1,0 +1,1783 @@
+{
+  "batch": "china-av-2026-10",
+  "creators": [
+    {
+      "id": "fudan-generative-vision",
+      "name": "Fudan Generative Vision Lab",
+      "name_zh": "",
+      "kind": "lab",
+      "role": "Generative-vision research group at Fudan University",
+      "based": "Shanghai, China",
+      "bio": "A Fudan University group led by Siyu Zhu that publishes open audio-driven portrait animation models, including the Hallo series (2024–2025) and Hallo-Live (2026), several of them with Baidu.",
+      "why": "Its Hallo models are among the most widely used open baselines for turning a portrait and a voice track into a talking-head video.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://fudan-generative-vision.github.io/",
+        "github": "https://github.com/fudan-generative-vision",
+        "huggingface": "https://huggingface.co/fudan-generative-ai"
+      },
+      "role_zh": "复旦大学的生成式视觉研究团队",
+      "bio_zh": "复旦大学 Siyu Zhu 带领的研究团队，发布了多款开源的音频驱动人像动画模型，包括 Hallo 系列（2024–2025）和 Hallo-Live（2026），其中多项与百度合作完成。",
+      "why_zh": "它的 Hallo 模型是把一张人像和一段语音变成说话视频时最常用的开源基线之一。",
+      "based_zh": "中国上海",
+      "connected_to": [
+        "baidu"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "baidu",
+      "name": "Baidu",
+      "name_zh": "百度",
+      "kind": "company",
+      "role": "Chinese search and AI company (ERNIE)",
+      "based": "Beijing, China",
+      "bio": "Baidu develops the ERNIE model family and Baidu AI Cloud, and its researchers co-authored open portrait-animation models such as Fudan's Hallo series.",
+      "why": "A major Chinese AI lab whose research partnerships and video and avatar products feed the Chinese generative-media ecosystem.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.baidu.com/",
+        "github": "https://github.com/baidu",
+        "huggingface": "https://huggingface.co/baidu"
+      },
+      "role_zh": "中国搜索与人工智能公司（文心）",
+      "bio_zh": "百度开发文心（ERNIE）系列模型和百度智能云，其研究人员参与了复旦 Hallo 系列等开源人像动画模型的研发。",
+      "why_zh": "中国主要的人工智能企业之一，其研究合作以及视频与数字人产品是中国生成式媒体生态的一部分。",
+      "based_zh": "中国北京",
+      "connected_to": [
+        "fudan-generative-vision"
+      ],
+      "discovered_via": "fudan-generative-vision"
+    },
+    {
+      "id": "shuyuan-tu",
+      "name": "Shuyuan Tu",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher at Fudan University",
+      "based": "Shanghai, China",
+      "bio": "Researcher in Zuxuan Wu and Yu-Gang Jiang's group at Fudan University, first author of the open StableAvatar (infinite-length audio-driven avatar video, NeurIPS 2026) and Prism (2K joint video-audio training, with Tencent Hunyuan) models.",
+      "why": "His open models target the two weak points of generated audio-visual humans: length without drift, and sound and picture generated together at high resolution.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "github": "https://github.com/Francis-Rings",
+        "huggingface": "https://huggingface.co/FrancisRing"
+      },
+      "role_zh": "复旦大学研究人员",
+      "bio_zh": "复旦大学吴祖煊、姜育刚团队的研究人员，开源模型 StableAvatar（无限时长音频驱动数字人视频，NeurIPS 2026）和 Prism（与腾讯混元合作的 2K 音视频联合训练）的第一作者。",
+      "why_zh": "他的开源模型针对生成式视听人物的两个弱点：时长变长后不漂移，以及高分辨率下声音与画面一起生成。",
+      "based_zh": "中国上海",
+      "connected_to": [
+        "tencent-hunyuan"
+      ],
+      "discovered_via": "tencent-hunyuan"
+    },
+    {
+      "id": "moonshot-ai",
+      "name": "Moonshot AI",
+      "name_zh": "月之暗面",
+      "kind": "company",
+      "role": "Chinese AI company behind the Kimi models",
+      "based": "Beijing, China",
+      "bio": "Moonshot AI develops the Kimi assistant and the open-weight Kimi K-series language models; in April 2025 it released Kimi-Audio, an open audio foundation model for speech understanding, generation and conversation.",
+      "why": "Kimi-Audio is one of the open speech-in, speech-out backbones that Chinese and international labs use for voice agents.",
+      "disciplines": [
+        "ml",
+        "speech"
+      ],
+      "links": {
+        "site": "https://www.moonshot.cn/",
+        "github": "https://github.com/MoonshotAI",
+        "huggingface": "https://huggingface.co/moonshotai",
+        "x": "https://x.com/Kimi_Moonshot"
+      },
+      "role_zh": "开发 Kimi 系列模型的中国人工智能公司",
+      "bio_zh": "月之暗面开发了 Kimi 助手和开放权重的 Kimi K 系列语言模型；2025 年 4 月发布了开源音频基础模型 Kimi-Audio，用于语音理解、生成和对话。",
+      "why_zh": "Kimi-Audio 是国内外实验室构建语音智能体时使用的开源“语音进、语音出”底座之一。",
+      "based_zh": "中国北京",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "name_zh": "小米",
+      "kind": "company",
+      "role": "Chinese consumer-electronics company with the MiMo AI model team",
+      "based": "Beijing, China",
+      "bio": "Xiaomi makes phones, smart-home devices and electric cars; its MiMo team releases open language, vision, embodied and audio models, including MiMo-Audio (2025).",
+      "why": "MiMo-Audio showed that an audio language model pretrained on more than 100 million hours can continue, convert and restyle speech from a few examples.",
+      "disciplines": [
+        "ml",
+        "speech"
+      ],
+      "links": {
+        "site": "https://www.mi.com/",
+        "github": "https://github.com/XiaomiMiMo",
+        "huggingface": "https://huggingface.co/XiaomiMiMo"
+      },
+      "role_zh": "拥有 MiMo 大模型团队的中国消费电子公司",
+      "bio_zh": "小米生产手机、智能家居设备和电动汽车；其 MiMo 团队发布开源的语言、视觉、具身和音频模型，其中包括 MiMo-Audio（2025）。",
+      "why_zh": "MiMo-Audio 表明，在超过一亿小时音频上预训练的音频语言模型，只需少量示例就能续写、转换和改变语音风格。",
+      "based_zh": "中国北京",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "yawen-luo",
+      "name": "Yawen Luo",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher at The Chinese University of Hong Kong",
+      "based": "Hong Kong, China",
+      "bio": "Researcher in Tianfan Xue's group at CUHK and first author of ShotStream (ECCV 2026), developed with Kuaishou's Kling Team.",
+      "why": "ShotStream turns multi-shot video generation into a causal, streaming process that a viewer can steer with new prompts while it plays.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://luo0207.github.io/ShotStream/"
+      },
+      "role_zh": "香港中文大学研究人员",
+      "bio_zh": "香港中文大学 Tianfan Xue 团队的研究人员，与快手可灵团队合作完成的 ShotStream（ECCV 2026）的第一作者。",
+      "why_zh": "ShotStream 把多镜头视频生成变成因果式的流式过程，观看者可以在播放过程中用新提示来引导剧情。",
+      "based_zh": "中国香港",
+      "connected_to": [
+        "kuaishou"
+      ],
+      "discovered_via": "kuaishou"
+    },
+    {
+      "id": "yuxuan-zhang-qwen",
+      "name": "Yuxuan Zhang",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher at The Chinese University of Hong Kong and Alibaba's Qwen business unit",
+      "based": "Hong Kong, China",
+      "bio": "First author of LiveAnimate (2026), a real-time pose-driven human animation system built with Alibaba's Qwen business unit and Liwei Wang's group at CUHK.",
+      "why": "LiveAnimate shows a 14B video model animating a person from a live pose stream at about 20 frames per second for minutes without drifting.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://liveanimate.github.io/"
+      },
+      "role_zh": "香港中文大学与阿里巴巴千问事业部研究人员",
+      "bio_zh": "LiveAnimate（2026）的第一作者；该实时姿态驱动人体动画系统由阿里巴巴千问事业部与香港中文大学 Liwei Wang 团队合作完成。",
+      "why_zh": "LiveAnimate 表明，一个 14B 视频模型可以按实时姿态流以每秒约 20 帧驱动人物动画，并连续数分钟不漂移。",
+      "based_zh": "中国香港",
+      "connected_to": [
+        "alibaba-tongyi"
+      ],
+      "discovered_via": "alibaba-tongyi"
+    },
+    {
+      "id": "zhiyuan-li-gbu",
+      "name": "Zhiyuan Li",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher at the University of Macau and Great Bay University's GVC Lab",
+      "based": "Dongguan, China",
+      "bio": "First author of EditaLive (2026), a real-time character video-editing model for live streaming developed with Great Bay University's GVC Lab and vivo's BlueImage Lab.",
+      "why": "EditaLive changes a streamer's appearance, clothing or style from a text instruction while the stream is running, keeping facial expressions intact.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://huai-chang.github.io/EditaLive/",
+        "github": "https://github.com/GVCLab/EditaLive"
+      },
+      "role_zh": "澳门大学与大湾区大学 GVC 实验室研究人员",
+      "bio_zh": "EditaLive（2026）的第一作者；该面向直播的实时角色视频编辑模型由大湾区大学 GVC 实验室与 vivo 蓝图影像实验室合作完成。",
+      "why_zh": "EditaLive 能在直播进行中按文字指令改变主播的外貌、服装或风格，同时保留面部表情。",
+      "based_zh": "中国东莞",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "rvc-boss",
+      "name": "RVC-Boss",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Open-source voice-AI developer (RVC, GPT-SoVITS)",
+      "based": "China",
+      "bio": "Chinese developer known by the GitHub handle RVC-Boss, a lead developer of the Retrieval-based Voice Conversion WebUI (2023) and of GPT-SoVITS (2024), two of the most-starred open voice projects on GitHub.",
+      "why": "Their tools put voice cloning and live voice conversion on consumer GPUs, so a single person can speak in another voice in real time or script any character's voice from a minute of audio.",
+      "disciplines": [
+        "speech"
+      ],
+      "links": {
+        "github": "https://github.com/RVC-Boss",
+        "huggingface": "https://huggingface.co/lj1995"
+      },
+      "role_zh": "开源语音 AI 开发者（RVC、GPT-SoVITS）",
+      "based_zh": "中国",
+      "bio_zh": "以 GitHub 账号 RVC-Boss 为人所知的中国开发者，是 Retrieval-based Voice Conversion WebUI（2023）和 GPT-SoVITS（2024）的主要开发者之一，这两个项目都是 GitHub 上星标最多的开源语音项目之一。",
+      "why_zh": "这些工具让声音克隆和实时变声能在消费级显卡上运行：一个人就能实时用另一种声音说话，或用一分钟音频为任何角色配出声音。",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "sihui-ji",
+      "name": "Sihui Ji",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher at The University of Hong Kong",
+      "based": "Hong Kong, China",
+      "bio": "Researcher in Hengshuang Zhao's group at HKU and first author of MemFlow (2025), a memory mechanism for streaming long-video generation developed with Kuaishou's Kling Team and HKUST (Guangzhou).",
+      "why": "MemFlow lets a streaming video model recall the right earlier frames when the prompt changes, so long interactive videos stay consistent.",
+      "disciplines": [
+        "graphics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://sihuiji.github.io/"
+      },
+      "role_zh": "香港大学研究人员",
+      "based_zh": "中国香港",
+      "bio_zh": "香港大学 Hengshuang Zhao 团队的研究人员，MemFlow（2025）的第一作者；MemFlow 是与快手可灵团队、香港科技大学（广州）合作完成的流式长视频生成记忆机制。",
+      "why_zh": "MemFlow 让流式视频模型在提示变化时调取合适的早期画面，使长时间的交互式视频保持一致。",
+      "connected_to": [
+        "kuaishou"
+      ],
+      "discovered_via": "kuaishou"
+    }
+  ],
+  "works": [
+    {
+      "id": "kuaishou--kling-avatar-2",
+      "creator_ids": [
+        "kuaishou"
+      ],
+      "title": "Kling Avatar 2.0",
+      "year": 2025,
+      "date": "2025-12-04",
+      "field": "avatars",
+      "sub": "portrait",
+      "modalities": [
+        "avatar",
+        "flat-video"
+      ],
+      "inputs": [
+        "image",
+        "speech",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Kling Avatar 2.0 (2025-12-04, launched during Kling's Omni Launch Week) animates a single portrait into a talking or singing performance driven by an uploaded or generated voice, with expression and gesture steered by a text prompt, for scenes of up to five minutes. Standard and Pro tiers were available by API (for example through fal) on launch day. It follows the first Kling Avatar feature of September 2025; Kuaishou's technical report on version 2.0 appeared on 2025-12-15.",
+      "description_zh": "可灵数字人 2.0（2025-12-04，在可灵 Omni 发布周期间推出）能把一张人像变成由上传或生成的声音驱动的说话、唱歌表演，表情和手势可用文字提示来引导，单个场景最长五分钟。发布当天即可通过 API（例如 fal）使用标准版和专业版。它接替了 2025 年 9 月推出的第一版可灵数字人功能；快手关于 2.0 版的技术报告于 2025-12-15 发布。",
+      "idea_en": "Makes a minutes-long, prompt-directed monologue from one photo cheap to produce, but the performance is rendered in advance, not played out in dialogue with a viewer.",
+      "idea_zh": "用一张照片就能低成本做出几分钟、可按提示调度的独白表演，但表演是预先渲染的，不会与观看者对话。",
+      "method": "A spatio-temporal cascade first generates low-resolution blueprint keyframes for the whole clip and then refines them into high-resolution sub-clips with a first-last-frame strategy; a 'Co-Reasoning Director' of three modality-specific LLM experts turns the audio, image and text inputs into a shot-level storyline, a 'Negative Director' writes negative prompts, and identity-specific control extends it to several characters.",
+      "method_zh": "时空级联框架先为整段视频生成低分辨率的“蓝图”关键帧，再用首尾帧策略把它们细化为高分辨率的子片段；由三个分模态大语言模型专家组成的“协同推理导演”把音频、图像和文字输入转成分镜级故事线，“负向导演”负责生成负向提示词，按身份控制的机制还能扩展到多个角色。",
+      "specs": "up to 5 min per scene · multi-character (technical report)",
+      "keywords": [
+        "audio-driven",
+        "talking avatar",
+        "singing",
+        "long-form",
+        "cascade",
+        "Kling Omni Launch Week"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=W_EsjDme-zk"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2512.13313",
+        "arxiv": "2512.13313",
+        "venue": "Technical report (arXiv)",
+        "title": "KlingAvatar 2.0 Technical Report"
+      },
+      "source_url": "https://kling.ai/",
+      "api_url": "https://kling.ai/dev"
+    },
+    {
+      "id": "alibaba-tongyi--qwen3-tts",
+      "creator_ids": [
+        "alibaba-tongyi"
+      ],
+      "title": "Qwen3-TTS",
+      "year": 2025,
+      "date": "2025-09-22",
+      "field": "audio",
+      "sub": "voice",
+      "modalities": [
+        "speech"
+      ],
+      "inputs": [
+        "text",
+        "speech"
+      ],
+      "timing": "offline",
+      "access": [
+        "open",
+        "api"
+      ],
+      "lenses": [
+        "authoring",
+        "perceptual-realism",
+        "diversity"
+      ],
+      "kind": "model",
+      "description": "Qwen3-TTS is the Qwen team's speech-synthesis family: offered through Alibaba Cloud's API from September 2025 and released as Apache-2.0 open weights (0.6B and 1.7B) on 2026-01-22, it clones a voice from about three seconds of audio, designs new voices from a text description and follows spoken-style instructions in 10 languages. Its closed API successor, Qwen-Audio-3.0-TTS, followed on 2026-07-14.",
+      "description_zh": "Qwen3-TTS 是通义千问团队的语音合成系列：2025 年 9 月起通过阿里云 API 提供，2026-01-22 以 Apache-2.0 协议开放 0.6B 和 1.7B 两个规模的权重。它用约 3 秒音频即可克隆音色，能根据文字描述设计新声音，并按指令调整说话风格，支持 10 种语言。闭源的 API 后续版本 Qwen-Audio-3.0-TTS 于 2026-07-14 推出。",
+      "idea_en": "Lets a researcher describe a voice in words ('a tired middle-aged nurse, speaking quickly') and get a reusable, version-pinned open model voice for every character in a scenario.",
+      "idea_zh": "研究者可以用文字描述一个声音（例如“一位疲惫的中年护士，语速很快”），并用可锁定版本的开源模型为情境中的每个角色生成可复用的声音。",
+      "method": "A dual-track language model streams speech tokens from text, decoded either by a 12.5 Hz, 16-layer multi-codebook tokenizer with a lightweight causal ConvNet (first audio packet after 97 ms) or by a 25 Hz single-codebook tokenizer with a block-wise DiT; it was trained on more than 5 million hours of speech.",
+      "method_zh": "双轨语言模型以流式方式由文本生成语音 token，再由两种分词器之一解码：12.5 Hz、16 层多码本分词器配轻量因果卷积网络（首个音频包 97 毫秒输出），或 25 Hz 单码本分词器配分块 DiT；训练数据超过 500 万小时语音。",
+      "specs": "0.6B / 1.7B · 10 languages · 3-s voice cloning · 97 ms first packet (developer-reported)",
+      "keywords": [
+        "text-to-speech",
+        "voice cloning",
+        "voice design",
+        "streaming",
+        "open weights",
+        "Apache 2.0"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=hPg_0QFJnFU"
+      },
+      "images": [
+        "https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen3-TTS-Repo/qwen3_tts_introduction.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2601.15621",
+        "arxiv": "2601.15621",
+        "venue": "Technical report (arXiv)",
+        "title": "Qwen3-TTS Technical Report"
+      },
+      "source_url": "https://qwen.ai/blog?id=qwen3tts-0115",
+      "api_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-tts-realtime",
+      "code_url": "https://github.com/QwenLM/Qwen3-TTS",
+      "collections": [
+        "trend-open-weights",
+        "trend-china-open"
+      ]
+    },
+    {
+      "id": "minimax--speech",
+      "creator_ids": [
+        "minimax"
+      ],
+      "title": "MiniMax Speech",
+      "year": 2025,
+      "date": "2025-04-02",
+      "field": "audio",
+      "sub": "voice",
+      "modalities": [
+        "speech"
+      ],
+      "inputs": [
+        "text",
+        "speech"
+      ],
+      "timing": "offline",
+      "access": [
+        "api",
+        "product"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "MiniMax's speech-synthesis line clones a voice zero-shot from a short untranscribed sample and speaks in more than 30 languages: Speech-02 (2025-04-02) took first place on the public TTS Arena, Speech 2.5 (2025-08-06) widened language coverage to 40, Speech 2.6 (2025-10-29) cut latency for voice agents, and Speech 2.8 (2026-01-23) adds tags for breaths, laughs and fillers such as 'um'. It is available through MiniMax's API and the MiniMax Audio app, not as open weights.",
+      "description_zh": "MiniMax 的语音合成系列能用一小段无需转写的音频零样本克隆音色，支持 30 多种语言：Speech-02（2025-04-02）曾登上公开的 TTS Arena 榜首，Speech 2.5（2025-08-06）把语言扩展到 40 种，Speech 2.6（2025-10-29）降低了语音智能体场景下的延迟，Speech 2.8（2026-01-23）加入了呼吸、笑声以及“嗯”“呃”等口头填充词的标签。它通过 MiniMax API 和 MiniMax Audio 应用提供，没有开放权重。",
+      "idea_en": "Breaths, hesitations and fillers are what make a synthetic voice sound like a person talking rather than a narrator reading, and they can now be written into the script.",
+      "idea_zh": "呼吸、迟疑和口头填充词，正是让合成声音听起来像人在说话、而不是播音员在念稿的关键，现在这些都可以直接写进脚本。",
+      "method": "An autoregressive Transformer generates speech tokens conditioned on a learnable speaker encoder that extracts timbre from reference audio without a transcript, and a Flow-VAE decoder improves waveform quality (Speech-02 technical report).",
+      "method_zh": "自回归 Transformer 生成语音 token，并以可学习的说话人编码器为条件：该编码器无需转写即可从参考音频中提取音色；Flow-VAE 解码器提升波形质量（据 Speech-02 技术报告）。",
+      "specs": "32 languages (Speech-02) → 40 (Speech 2.5) · 10-s cloning sample (Speech 2.8, developer-reported)",
+      "keywords": [
+        "text-to-speech",
+        "voice cloning",
+        "zero-shot",
+        "TTS Arena",
+        "sound tags",
+        "Speech-02"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=fvfM1myv7yc"
+      },
+      "images": [
+        "https://filecdn.minimax.chat/public/58eca777-e31f-448a-9823-e2220e49b426.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2505.07916",
+        "arxiv": "2505.07916",
+        "venue": "Technical report (arXiv)",
+        "title": "MiniMax-Speech: Intrinsic Zero-Shot Text-to-Speech with a Learnable Speaker Encoder"
+      },
+      "source_url": "https://www.minimax.io/news/minimax-speech-28",
+      "api_url": "https://platform.minimax.io/docs/release-notes/models"
+    },
+    {
+      "id": "meituan--longcat-video",
+      "creator_ids": [
+        "meituan"
+      ],
+      "title": "LongCat-Video",
+      "year": 2025,
+      "date": "2025-10-25",
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "control"
+      ],
+      "kind": "model",
+      "description": "LongCat-Video (2025-10-25) is Meituan's open, MIT-licensed 13.6B video model that does text-to-video, image-to-video and video continuation in one network; because it was pretrained on continuation, it keeps extending a clip for minutes, and its interactive mode takes a new prompt for each segment, at 720p and 30 fps. Meituan describes it as its first step toward world models; LongCat-Video-Avatar (2025-12) and Avatar 1.5 (2026-05) are built on it.",
+      "description_zh": "LongCat-Video（2025-10-25）是美团以 MIT 协议开源的 136 亿参数视频模型，一个网络同时完成文生视频、图生视频和视频续写；由于以续写任务预训练，它能把一段视频持续延长到几分钟，交互模式下还可以为每一段输入新的提示，输出 720p、30 fps。美团称它是迈向世界模型的第一步；LongCat-Video-Avatar（2025 年 12 月）和 Avatar 1.5（2026 年 5 月）都基于它构建。",
+      "idea_en": "An open model that continues a scene segment by segment on new prompts is a cheap way to author a long, steerable situation, though it is still rendered offline rather than reacting live.",
+      "idea_zh": "一个可以按新提示逐段续写场景的开源模型，是低成本编排长时、可引导情境的办法，只是它仍是离线渲染，而不是实时反应。",
+      "method": "A single Diffusion Transformer handles all three tasks by conditioning on zero, one or many clean frames; a coarse-to-fine schedule over time and space plus block-sparse attention keeps 720p, 30 fps inference to minutes, and multi-reward RLHF post-training improves quality (technical report).",
+      "method_zh": "一个扩散 Transformer 以 0 帧、1 帧或多帧干净画面为条件，统一处理三类任务；时间与空间上的由粗到细生成策略加上块稀疏注意力，把 720p、30 fps 的推理控制在几分钟内，并用多奖励 RLHF 后训练提升质量（据技术报告）。",
+      "specs": "13.6B · 720p · 30 fps · minutes-long continuation · MIT licence",
+      "keywords": [
+        "long video",
+        "video continuation",
+        "interactive prompts",
+        "open weights",
+        "block sparse attention",
+        "LongCat"
+      ],
+      "video": {
+        "url": "https://meituan-longcat.github.io/LongCat-Video/assets/videos/long/1-1.mp4"
+      },
+      "images": [
+        "https://meituan-longcat.github.io/LongCat-Video/assets/images/method-1.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2510.22200",
+        "arxiv": "2510.22200",
+        "venue": "Technical report (arXiv)",
+        "title": "LongCat-Video Technical Report"
+      },
+      "source_url": "https://meituan-longcat.github.io/LongCat-Video/",
+      "code_url": "https://github.com/meituan-longcat/LongCat-Video",
+      "collections": [
+        "trend-open-weights",
+        "trend-china-open"
+      ]
+    },
+    {
+      "id": "zhipu-ai--scail-2",
+      "creator_ids": [
+        "zhipu-ai"
+      ],
+      "title": "SCAIL-2",
+      "year": 2026,
+      "date": "2026-06-09",
+      "field": "video",
+      "sub": "control",
+      "also": [
+        "avatars"
+      ],
+      "modalities": [
+        "flat-video",
+        "motion"
+      ],
+      "inputs": [
+        "image",
+        "video",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "control",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "SCAIL-2 (open weights 2026-06-09) is Zhipu AI and Tsinghua University's character-animation model: it makes the person or creature in a reference image perform the motion of a driving video, or swaps it into that video, for one or several characters, without extracting a pose skeleton first. It follows SCAIL-Preview (2025-12), a 14B model driven by 3D-consistent pose renderings (CVPR 2026 Findings); both run in ComfyUI.",
+      "description_zh": "SCAIL-2（2026-06-09 开放权重）是智谱与清华大学的角色动画模型：它能让参考图中的人物或动物做出驱动视频里的动作，或把角色替换进该视频，支持单个或多个角色，而且不需要先提取姿态骨架。它的前身 SCAIL-Preview（2025 年 12 月）是一个由三维一致姿态渲染驱动的 14B 模型（CVPR 2026 Findings）；两者都可以在 ComfyUI 中使用。",
+      "idea_en": "Transfers a recorded performance onto any character, so one actor's take can be recast across many virtual people while the movement stays fixed as an experimental constant.",
+      "idea_zh": "把一段录好的表演迁移到任何角色身上：同一位演员的表演可以换成许多不同的虚拟人物，而动作本身作为实验常量保持不变。",
+      "method": "Driving-video latents are concatenated directly into the input sequence of a Wan-based video diffusion transformer, with in-context mask conditioning and mode-specific RoPE to switch between animation and replacement; it is trained on MotionPair-60K, motion pairs synthesised with SCAIL-Preview, Wan-Animate and MoCha, and refined with bias-aware DPO.",
+      "method_zh": "把驱动视频的潜变量直接拼接进基于 Wan 的视频扩散 Transformer 的输入序列，并用上下文掩码条件和按模式区分的 RoPE 在动画与替换两种模式间切换；训练数据是用 SCAIL-Preview、Wan-Animate 和 MoCha 合成的 MotionPair-60K 动作对，并用偏差感知 DPO 进一步优化。",
+      "specs": "end-to-end driving (no pose skeleton) · multi-character · MotionPair-60K",
+      "keywords": [
+        "character animation",
+        "motion transfer",
+        "character replacement",
+        "open weights",
+        "ComfyUI",
+        "Tsinghua"
+      ],
+      "video": {
+        "url": "https://teal024.github.io/SCAIL-2/static/videos/Teaser_Samples/multi.mp4"
+      },
+      "images": [
+        "https://teal024.github.io/SCAIL-2/static/images/pipeline.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2606.10804",
+        "arxiv": "2606.10804",
+        "venue": "arXiv preprint",
+        "title": "SCAIL-2: Unifying Controlled Character Animation with End-to-End In-Context Conditioning"
+      },
+      "source_url": "https://teal024.github.io/SCAIL-2/",
+      "code_url": "https://github.com/zai-org/SCAIL-2",
+      "collections": [
+        "trend-open-weights",
+        "trend-china-open"
+      ]
+    },
+    {
+      "id": "tencent-hunyuan--auk",
+      "creator_ids": [
+        "tencent-hunyuan"
+      ],
+      "title": "AuK",
+      "year": 2026,
+      "date": "2026-09-09",
+      "field": "audio",
+      "sub": "voice",
+      "modalities": [
+        "speech",
+        "audio"
+      ],
+      "inputs": [
+        "text",
+        "speech"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "control"
+      ],
+      "kind": "model",
+      "description": "AuK (open-sourced 2026-09-09) is Tencent Hunyuan's MIT-licensed 1.5B model, built with Shanghai Jiao Tong University, that both generates and edits speech from plain-language instructions: it does zero-shot and instruction-based text-to-speech, changes words in an existing recording, adds or removes paralinguistic sounds such as laughter, alters acoustics and background, and enhances or separates sources. A distilled AuK-Flash runs in four steps; AuK is the end-to-end baseline of the ICASSP 2027 Audio Editing Challenge.",
+      "description_zh": "AuK（2026-09-09 开源）是腾讯混元与上海交通大学合作、以 MIT 协议发布的 15 亿参数模型，用自然语言指令同时完成语音生成和语音编辑：零样本和指令式语音合成、修改已有录音中的字词、增删笑声等副语言声音、改变声学环境与背景，以及语音增强和声源分离。蒸馏版 AuK-Flash 只需四步推理；AuK 是 ICASSP 2027 音频编辑挑战赛的端到端基线模型。",
+      "idea_en": "Editing a recorded line by instruction (one word changed, a laugh added, a noisy room swapped for a quiet one) gives fine, controlled variants of the same utterance for stimuli.",
+      "idea_zh": "用指令编辑录好的台词（改一个词、加一声笑、把嘈杂房间换成安静房间），就能得到同一句话的精细受控变体，用作实验刺激材料。",
+      "method": "A multimodal LLM (Qwen2.5-Omni-3B) supplies semantic conditioning and a VAE trained jointly on speech, general audio and music supplies acoustic conditioning to a hybrid rectified-flow Transformer (dual-stream MMDiT then single-stream DiT blocks), trained on about 3 billion instruction–audio instances and post-trained with human-preference optimisation and reward-based RL.",
+      "method_zh": "多模态大模型（Qwen2.5-Omni-3B）提供语义条件，一个在语音、通用音频和音乐上联合训练的 VAE 提供声学条件，二者共同驱动混合整流流 Transformer（先双流 MMDiT 块，再单流 DiT 块）；训练数据约 30 亿条指令-音频样本，并用人类偏好优化和基于奖励的强化学习做后训练。",
+      "specs": "1.5B · AuK-Flash 4-step · ~1.95M h of supervision · MIT licence",
+      "keywords": [
+        "speech editing",
+        "instruction TTS",
+        "paralinguistics",
+        "speech enhancement",
+        "open weights",
+        "SJTU"
+      ],
+      "video": {
+        "url": "https://github.com/user-attachments/assets/d07332fc-5f69-4f16-9d00-a7443cc19e6a"
+      },
+      "images": [
+        "https://auk-project.github.io/assets/figures/auk-sota-comparison.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2609.08936",
+        "arxiv": "2609.08936",
+        "venue": "Technical report (arXiv)",
+        "title": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing"
+      },
+      "source_url": "https://auk-project.github.io/",
+      "code_url": "https://github.com/Tencent-Hunyuan/AuK",
+      "collections": [
+        "trend-open-weights",
+        "trend-china-open"
+      ]
+    },
+    {
+      "id": "alibaba-tongyi--cosyvoice",
+      "creator_ids": [
+        "alibaba-tongyi"
+      ],
+      "title": "CosyVoice",
+      "year": 2024,
+      "date": "2024-07",
+      "field": "audio",
+      "sub": "voice",
+      "modalities": [
+        "speech"
+      ],
+      "inputs": [
+        "text",
+        "speech"
+      ],
+      "timing": "offline",
+      "access": [
+        "open",
+        "api"
+      ],
+      "lenses": [
+        "authoring",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "CosyVoice is Alibaba Tongyi Lab's open zero-shot speech-synthesis line and one of the most used open TTS projects (about 24,000 GitHub stars by October 2026): CosyVoice 1 (2024-07) cloned voices across languages, CosyVoice 2 (2024-12) added low-latency bidirectional streaming in a 0.5B model, and Fun-CosyVoice 3 (paper 2025-05, open 0.5B weights 2025-12) covers 9 languages and 18 Chinese dialects. CosyVoice v3 Plus and Flash are offered through Alibaba Cloud's Model Studio API.",
+      "description_zh": "CosyVoice 是阿里通义实验室的开源零样本语音合成系列，也是使用最广的开源 TTS 项目之一（截至 2026 年 10 月 GitHub 星标约 2.4 万）：CosyVoice 1（2024 年 7 月）可跨语言克隆音色，CosyVoice 2（2024 年 12 月）以 0.5B 模型实现低延迟双向流式合成，Fun-CosyVoice 3（论文 2025 年 5 月，0.5B 权重 2025 年 12 月开放）覆盖 9 种语言和 18 种汉语方言。CosyVoice v3 Plus 和 Flash 通过阿里云百炼 API 提供。",
+      "idea_en": "A small, well-documented open TTS model with streaming output is what most research prototypes of talking virtual characters actually run on.",
+      "idea_zh": "一个小巧、文档完善、支持流式输出的开源 TTS 模型，正是大多数会说话的虚拟角色研究原型实际在用的底层组件。",
+      "method": "A text-speech language model predicts supervised semantic speech tokens, which a chunk-aware flow-matching model turns into acoustic features for a vocoder; CosyVoice 3 adds a multi-task-trained tokenizer, a differentiable reward model for post-training and one million hours of training data.",
+      "method_zh": "文本-语音语言模型预测有监督的语义语音 token，再由分块感知的流匹配模型转换为声学特征交给声码器；CosyVoice 3 增加了多任务训练的分词器、用于后训练的可微奖励模型，以及 100 万小时的训练数据。",
+      "specs": "0.3B (v1) · 0.5B (v2, Fun-CosyVoice3 open) · 1.5B (v3 paper) · 9 languages + 18 Chinese dialects (v3)",
+      "keywords": [
+        "text-to-speech",
+        "zero-shot",
+        "voice cloning",
+        "streaming",
+        "open weights",
+        "FunAudioLLM"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=q5IfFAF3q_s"
+      },
+      "images": [
+        "https://fun-audio-llm.github.io/pics/overview-cosyvoice.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2412.10117",
+        "arxiv": "2412.10117",
+        "venue": "Technical report (arXiv)",
+        "title": "CosyVoice 2: Scalable Streaming Speech Synthesis with Large Language Models"
+      },
+      "source_url": "https://github.com/FunAudioLLM/CosyVoice",
+      "api_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "code_url": "https://github.com/FunAudioLLM/CosyVoice",
+      "collections": [
+        "trend-open-weights",
+        "trend-china-open"
+      ]
+    },
+    {
+      "id": "ant-group--echomimic",
+      "creator_ids": [
+        "ant-group"
+      ],
+      "title": "EchoMimic",
+      "year": 2024,
+      "date": "2024-07-11",
+      "field": "avatars",
+      "sub": "portrait",
+      "modalities": [
+        "avatar",
+        "flat-video"
+      ],
+      "inputs": [
+        "image",
+        "speech",
+        "body"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "control"
+      ],
+      "kind": "model",
+      "description": "EchoMimic is Ant Group's open line of audio-driven human animation: EchoMimic (2024-07, AAAI 2025) animates a portrait from speech, from facial landmarks or both; EchoMimicV2 (2024-11, CVPR 2025) extends it to the upper body with hand gestures; and EchoMimicV3 (2025-07, AAAI 2026) is a 1.3B model that handles several animation tasks and input modalities in one network. Each version has open code and weights, with about 10,000 GitHub stars combined by October 2026.",
+      "description_zh": "EchoMimic 是蚂蚁集团开源的音频驱动人体动画系列：EchoMimic（2024 年 7 月，AAAI 2025）可由语音、面部关键点或两者共同驱动人像；EchoMimicV2（2024 年 11 月，CVPR 2025）扩展到带手势的上半身；EchoMimicV3（2025 年 7 月，AAAI 2026）是一个 1.3B 模型，在一个网络中处理多种动画任务和输入模态。每个版本都开放了代码和权重，截至 2026 年 10 月 GitHub 星标合计约 1 万。",
+      "idea_en": "Lets a researcher drive a speaking virtual person from audio alone or pin its face with landmarks, trading naturalness against exact control of the stimulus.",
+      "idea_zh": "研究者既可以只用音频驱动一个说话的虚拟人，也可以用面部关键点把表情固定下来，在自然度和对刺激的精确控制之间取舍。",
+      "method": "Diffusion models conditioned on a reference image, audio features and optional facial landmarks or hand poses; V1 trains on audio and landmarks jointly so either or both can drive the face, and V3 unifies tasks in one 1.3B video diffusion transformer through multi-task mask inputs ('Soup-of-Tasks') and a coupled-decoupled multi-modal cross-attention module ('Soup-of-Modals').",
+      "method_zh": "以参考图像、音频特征以及可选的面部关键点或手部姿态为条件的扩散模型；V1 同时用音频和关键点训练，因此可以单独或组合驱动人脸；V3 在一个 1.3B 视频扩散 Transformer 中统一多种任务，依靠多任务掩码输入（“任务汤”）和耦合-解耦的多模态交叉注意力模块（“模态汤”）。",
+      "specs": "V3: 1.3B · half-body with hands (V2)",
+      "keywords": [
+        "audio-driven",
+        "talking head",
+        "half-body animation",
+        "gestures",
+        "open weights",
+        "Ant Group"
+      ],
+      "video": {
+        "url": "https://antgroup.github.io/ai/echomimic_v2/asserts/demo_videos/echomimicv2_demo_video.mp4"
+      },
+      "images": [
+        "https://antgroup.github.io/ai/echomimic_v2/asserts/algo_framework.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2411.10061",
+        "arxiv": "2411.10061",
+        "venue": "CVPR 2025",
+        "title": "EchoMimicV2: Towards Striking, Simplified, and Semi-Body Human Animation"
+      },
+      "source_url": "https://antgroup.github.io/ai/echomimic_v2/",
+      "code_url": "https://github.com/antgroup/echomimic_v2",
+      "collections": [
+        "cvpr",
+        "trend-open-weights",
+        "trend-china-open"
+      ]
+    },
+    {
+      "id": "fudan-generative-vision--hallo",
+      "creator_ids": [
+        "fudan-generative-vision",
+        "baidu"
+      ],
+      "title": "Hallo",
+      "year": 2024,
+      "date": "2024-06-13",
+      "field": "avatars",
+      "sub": "portrait",
+      "modalities": [
+        "avatar",
+        "flat-video"
+      ],
+      "inputs": [
+        "image",
+        "speech",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "persistence"
+      ],
+      "kind": "model",
+      "description": "Hallo is Fudan University and Baidu's open series of audio-driven portrait animation: Hallo (2024-06) animates a single portrait to speech, Hallo2 (2024-10, ICLR 2025) extends it to 4K clips tens of minutes long (the authors claim up to an hour) with text labels for expression, and Hallo3 (2024-12, CVPR 2025) moves to a video diffusion transformer so that head turns, foreground objects and backgrounds also move. The first Hallo repository alone had about 8,700 GitHub stars by October 2026.",
+      "description_zh": "Hallo 是复旦大学与百度合作的开源音频驱动人像动画系列：Hallo（2024 年 6 月）让一张人像随语音说话，Hallo2（2024 年 10 月，ICLR 2025）把输出扩展到长达数十分钟的 4K 视频（作者称最长可达一小时），并可用文字标签控制表情，Hallo3（2024 年 12 月，CVPR 2025）改用视频扩散 Transformer，让转头、前景物体和背景也能动起来。截至 2026 年 10 月，仅第一代 Hallo 仓库就有约 8700 个 GitHub 星标。",
+      "idea_en": "An open, inspectable baseline for audio-to-face synthesis that labs can run locally, pin to a version and compare against commercial avatar engines.",
+      "idea_zh": "一个开源、可检查的音频到人脸合成基线，实验室可以在本地运行、锁定版本，并与商业数字人引擎对比。",
+      "method": "Hallo uses a hierarchical audio-to-visual diffusion model with separate attention for lips, expression and pose; Hallo2 adds patch-drop augmentation and vector-quantised latents for long, high-resolution output; Hallo3 fine-tunes the CogVideoX-5B image-to-video transformer with an identity reference network and speech audio conditioning.",
+      "method_zh": "Hallo 使用分层的音频到视觉扩散模型，对嘴唇、表情和姿态分别做注意力；Hallo2 加入图块丢弃增强和向量量化潜变量，以支持长时长、高分辨率输出；Hallo3 在 CogVideoX-5B 图生视频 Transformer 上微调，加入身份参考网络和语音音频条件。",
+      "specs": "Hallo2: 4K · tens of minutes · Hallo3: CogVideoX-5B I2V fine-tune",
+      "keywords": [
+        "audio-driven",
+        "talking head",
+        "portrait animation",
+        "open weights",
+        "Fudan",
+        "Baidu"
+      ],
+      "video": {
+        "url": "https://github.com/user-attachments/assets/f14bf935-ceaa-4dae-98b9-d7e54633475d"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2412.00733",
+        "arxiv": "2412.00733",
+        "venue": "CVPR 2025",
+        "title": "Hallo3: Highly Dynamic and Realistic Portrait Image Animation with Video Diffusion Transformer"
+      },
+      "source_url": "https://fudan-generative-vision.github.io/hallo3/",
+      "code_url": "https://github.com/fudan-generative-vision/hallo3",
+      "collections": [
+        "cvpr",
+        "trend-open-weights",
+        "trend-china-open"
+      ]
+    },
+    {
+      "id": "shuyuan-tu--prism",
+      "creator_ids": [
+        "shuyuan-tu",
+        "tencent-hunyuan"
+      ],
+      "title": "Prism",
+      "year": 2026,
+      "date": "2026-10-04",
+      "field": "video",
+      "sub": "open",
+      "also": [
+        "audio"
+      ],
+      "modalities": [
+        "flat-video",
+        "audio",
+        "speech"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "Prism (Fudan University and Tencent Hunyuan, 2026-10-04) is a sparse-attention method for training a model that generates video and its sound together natively at 720p, 1080p and 2K; the released preview checkpoints (an 'alpha' tuned for stability and a 'beta' for motion) generate synchronised picture and audio at those resolutions. The authors report 2.5 times faster training than full attention with better output quality.",
+      "description_zh": "Prism（复旦大学与腾讯混元，2026-10-04）是一种稀疏注意力方法，用于在 720p、1080p 和 2K 分辨率下原生训练能同时生成视频和声音的模型；已发布的预览权重（偏重稳定的 alpha 版和偏重运动的 beta 版）可在这些分辨率下生成画面与声音同步的视频。作者报告其训练速度是全注意力的 2.5 倍，生成质量还更好。",
+      "idea_en": "Shows that open joint audio-video models can be trained at 2K by spending attention where sound and motion actually come from, rather than evenly over the frame.",
+      "idea_zh": "说明开源的音视频联合模型也能在 2K 下训练：把注意力花在真正发声和运动的区域，而不是平均分配给整个画面。",
+      "method": "The token sequence of a Wan-VAE-latent joint video-audio diffusion transformer is split into spatio-temporal macro-zones; each zone gets a block shape chosen from video-feature variance and audio-to-video cross-attention strength, and a hybrid block-selection rule sets per-query sparsity.",
+      "method_zh": "把基于 Wan VAE 潜变量的音视频联合扩散 Transformer 的 token 序列划分为时空宏区域；每个区域根据视频特征方差和音频到视频的交叉注意力强度选择块形状，再用混合块选择规则决定每个查询的稀疏度。",
+      "specs": "native 720p / 1080p / 2K joint video-audio · 2.5× training speed-up vs full attention (developer-reported)",
+      "keywords": [
+        "joint audio-video generation",
+        "sparse attention",
+        "2K",
+        "open weights",
+        "Fudan",
+        "Tencent Hunyuan"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=XEL2IkSOSQw"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2610.05416",
+        "arxiv": "2610.05416",
+        "venue": "arXiv preprint",
+        "title": "Prism: Dynamic Sparse Attention for Native 2K Joint Video-Audio Generation Model Training"
+      },
+      "source_url": "https://francis-rings.github.io/Prism",
+      "code_url": "https://github.com/Tencent-Hunyuan/Prism",
+      "collections": [
+        "trend-native-audio",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "moonshot-ai--kimi-audio",
+      "creator_ids": [
+        "moonshot-ai"
+      ],
+      "title": "Kimi-Audio",
+      "year": 2025,
+      "date": "2025-04-25",
+      "field": "audio",
+      "sub": "duplex-speech",
+      "modalities": [
+        "speech",
+        "dialogue"
+      ],
+      "inputs": [
+        "speech",
+        "text"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "reactivity"
+      ],
+      "kind": "model",
+      "description": "Kimi-Audio (2025-04-25) is Moonshot AI's open 7B audio foundation model that listens to speech, sound and music and answers in text or speech, so one model can transcribe, caption audio and hold a spoken conversation; Moonshot reported state-of-the-art results on a range of audio benchmarks at release and published its evaluation toolkit. It replies after the user finishes speaking rather than overlapping or backchanneling.",
+      "description_zh": "Kimi-Audio（2025-04-25）是月之暗面开源的 7B 音频基础模型，能听懂语音、声音和音乐，并以文字或语音作答，因此一个模型就能完成语音识别、音频描述和语音对话；发布时月之暗面报告其在多项音频基准上达到最优，并公开了评测工具包。它在用户说完之后才回答，不会与用户话语重叠或发出回应信号。",
+      "idea_en": "An open model that hears environmental sound as well as words is a starting point for virtual interlocutors that react to what happens around a participant, not only to what they say.",
+      "idea_zh": "一个既能听懂话语、也能听懂环境声音的开源模型，可以作为虚拟对话者的起点，让它不仅回应参与者说了什么，也回应参与者周围发生了什么。",
+      "method": "Continuous acoustic features and 12.5 Hz discrete semantic tokens feed an LLM initialised from Qwen2.5-7B, which emits text and audio tokens in parallel heads; a chunk-wise streaming flow-matching detokenizer turns audio tokens into waveforms; pretraining used more than 13 million hours of speech, sound and music.",
+      "method_zh": "连续声学特征与 12.5 Hz 离散语义 token 一起输入以 Qwen2.5-7B 初始化的大语言模型，由并行输出头同时生成文本 token 和音频 token；分块流式的流匹配解码器把音频 token 转换为波形；预训练使用了超过 1300 万小时的语音、声音与音乐数据。",
+      "specs": "7B · 12.5 Hz audio tokens · >13M h pretraining audio",
+      "keywords": [
+        "audio language model",
+        "speech-to-speech",
+        "spoken dialogue",
+        "audio understanding",
+        "open weights",
+        "Qwen2.5"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/MoonshotAI/Kimi-Audio/master/assets/kimia_framework.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2504.18425",
+        "arxiv": "2504.18425",
+        "venue": "Technical report (arXiv)",
+        "title": "Kimi-Audio Technical Report"
+      },
+      "source_url": "https://github.com/MoonshotAI/Kimi-Audio",
+      "code_url": "https://github.com/MoonshotAI/Kimi-Audio",
+      "collections": [
+        "trend-open-weights",
+        "trend-china-open"
+      ]
+    },
+    {
+      "id": "xiaomi--mimo-audio",
+      "creator_ids": [
+        "xiaomi"
+      ],
+      "title": "MiMo-Audio",
+      "year": 2025,
+      "date": "2025-09-19",
+      "field": "audio",
+      "sub": "voice",
+      "also": [
+        "agents"
+      ],
+      "modalities": [
+        "speech",
+        "dialogue"
+      ],
+      "inputs": [
+        "speech",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "diversity",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "MiMo-Audio (2025-09-19) is Xiaomi's open 7B audio language model: given a few seconds of audio it continues the recording in the same voices and setting, producing talk shows, debates, recitations or livestreams, and from a few examples it performs voice conversion, style transfer and speech editing it was not trained for. An instruction-tuned version also answers in speech.",
+      "description_zh": "MiMo-Audio（2025-09-19）是小米开源的 7B 音频语言模型：给它几秒钟音频，它就能用同样的声音、在同样的场景里接着说下去，生成脱口秀、辩论、朗诵或直播；只需几个示例，它还能完成训练中没有专门学过的声音转换、风格迁移和语音编辑。指令微调版本也能用语音作答。",
+      "idea_en": "Continuing a recorded scene in the same voices points to generated multi-speaker soundscapes (a crowd, a debate, a broadcast) seeded from a few seconds of real audio.",
+      "idea_zh": "能用同样的声音把录好的场景续写下去，意味着只需几秒钟真实音频，就能生成多人声景：一群人、一场辩论或一段广播。",
+      "method": "A unified tokenizer captures both semantic and acoustic detail, and a 7B audio language model with patch-level encoding and decoding is pretrained by next-token prediction on more than 100 million hours of audio, from which few-shot in-context abilities emerge.",
+      "method_zh": "统一的音频分词器同时保留语义与声学细节；采用分块编码与解码的 7B 音频语言模型，在超过一亿小时音频上做下一个 token 预测预训练，由此涌现出少样本上下文学习能力。",
+      "specs": "7B · >100M h pretraining audio",
+      "keywords": [
+        "audio language model",
+        "speech continuation",
+        "few-shot",
+        "voice conversion",
+        "open weights",
+        "Xiaomi MiMo"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=hA4aNg15g5g"
+      },
+      "images": [
+        "https://xiaomimimo.github.io/MiMo-Audio-Demo/assets/mimo-audio/model.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2512.23808",
+        "arxiv": "2512.23808",
+        "venue": "Technical report (arXiv)",
+        "title": "MiMo-Audio: Audio Language Models are Few-Shot Learners"
+      },
+      "source_url": "https://xiaomimimo.github.io/MiMo-Audio-Demo/",
+      "code_url": "https://github.com/XiaomiMiMo/MiMo-Audio",
+      "collections": [
+        "trend-open-weights",
+        "trend-china-open"
+      ]
+    },
+    {
+      "id": "baidu--musesteamer",
+      "creator_ids": [
+        "baidu"
+      ],
+      "title": "MuseSteamer",
+      "year": 2025,
+      "date": "2025-07",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video",
+        "audio",
+        "speech"
+      ],
+      "inputs": [
+        "image",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "product"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "MuseSteamer is Baidu's image-to-video model, launched for business customers in early July 2025 in Turbo, Lite and Pro versions, generating clips of up to 10 seconds at 1080p, some with synthesised voices and sound effects; Baidu reported a VBench image-to-video score of 89.38%. MuseSteamer 2.0 (2025-08-27) added audio-enabled versions across the lineup, offered through Baidu's HuiXiang video-creation platform.",
+      "description_zh": "MuseSteamer 是百度的图生视频模型，2025 年 7 月初面向企业客户推出 Turbo、Lite、Pro 三个版本，可生成最长 10 秒的 1080p 视频，部分版本带合成语音和音效；百度报告其 VBench 图生视频得分为 89.38%。MuseSteamer 2.0（2025-08-27）为整个产品线加入带声音的版本，通过百度“绘想”AI 视频创作平台提供。",
+      "idea_en": "Another vendor whose image-to-video model generates speech and sound with the picture, showing how quickly native audio became a default rather than a feature in 2025.",
+      "idea_zh": "又一家厂商的图生视频模型能连同画面一起生成语音和声音，说明原生音频在 2025 年很快从卖点变成了默认配置。",
+      "method": "Image-to-video diffusion model with optional joint audio generation; Baidu has not published architecture details.",
+      "method_zh": "可选同时生成音频的图生视频扩散模型；百度未公开架构细节。",
+      "specs": "up to 10 s · 1080p · Turbo / Lite / Pro · VBench I2V 89.38% (developer-reported)",
+      "keywords": [
+        "image-to-video",
+        "native audio",
+        "enterprise",
+        "HuiXiang",
+        "ERNIE"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=uhRHUBN546w"
+      },
+      "source_url": "https://huixiang.baidu.com/",
+      "collections": [
+        "trend-native-audio"
+      ]
+    },
+    {
+      "id": "yawen-luo--shotstream",
+      "creator_ids": [
+        "yawen-luo",
+        "kuaishou"
+      ],
+      "title": "ShotStream",
+      "year": 2026,
+      "date": "2026-03-26",
+      "field": "video",
+      "sub": "realtime",
+      "also": [
+        "genxr"
+      ],
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "co-creation",
+        "responsiveness",
+        "persistence"
+      ],
+      "kind": "research",
+      "description": "ShotStream (CUHK and Kuaishou's Kling Team, ECCV 2026) generates a multi-shot film one shot at a time as a stream, so a viewer can type a new instruction for the next shot while the story is playing; the authors report sub-second latency and 16 frames per second on a single GPU, with characters and settings kept consistent across cuts. Code and models are open.",
+      "description_zh": "ShotStream（香港中文大学与快手可灵团队，ECCV 2026）以流式方式逐个镜头生成多镜头影片，观看者可以在故事播放时为下一个镜头输入新指令；作者报告其延迟低于一秒，在单张 GPU 上达到每秒 16 帧，并在镜头切换之间保持人物和场景一致。代码和模型均已开源。",
+      "idea_en": "Turns a generated film into something a participant can direct shot by shot while watching, a step from scripted video toward interactive narrative.",
+      "idea_zh": "让参与者可以一边观看、一边逐个镜头地指挥生成的影片，是从脚本化视频走向交互式叙事的一步。",
+      "method": "A text-to-video model is fine-tuned into a bidirectional next-shot generator conditioned on earlier shots and then distilled into a causal student with Distribution Matching Distillation; a global cache of conditioning frames and a local cache of the current shot's frames, plus a RoPE discontinuity indicator at cuts, limit drift.",
+      "method_zh": "先把文生视频模型微调成以前面镜头为条件的双向“下一镜头”生成器，再用分布匹配蒸馏得到因果学生模型；全局缓存保存条件帧、局部缓存保存当前镜头已生成的帧，并在切镜处加入 RoPE 不连续标记，以减少漂移。",
+      "specs": "16 fps on one GPU · sub-second latency (developer-reported)",
+      "keywords": [
+        "multi-shot",
+        "streaming generation",
+        "interactive storytelling",
+        "causal distillation",
+        "Kling",
+        "CUHK"
+      ],
+      "video": {
+        "url": "https://luo0207.github.io/ShotStream/videos/5shots/001.mp4"
+      },
+      "images": [
+        "https://luo0207.github.io/ShotStream/figs/student.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2603.25746",
+        "arxiv": "2603.25746",
+        "venue": "ECCV 2026",
+        "title": "ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling"
+      },
+      "source_url": "https://luo0207.github.io/ShotStream/",
+      "code_url": "https://github.com/KlingAIResearch/ShotStream",
+      "collections": [
+        "trend-realtime",
+        "iccv-eccv"
+      ]
+    },
+    {
+      "id": "shengshu--vidu-q1",
+      "creator_ids": [
+        "shengshu"
+      ],
+      "title": "Vidu Q1",
+      "year": 2025,
+      "date": "2025-04-21",
+      "field": "video",
+      "sub": "frontier",
+      "modalities": [
+        "flat-video",
+        "audio"
+      ],
+      "inputs": [
+        "image",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "authoring",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "Vidu Q1 (2025-04-21) was Shengshu's first 'Q' model: it generates 5-second 1080p clips, including transitions between a given first and last frame, and adds 48 kHz sound effects, ambience or music timed to the picture from a text command; Shengshu said it ranked first on VBench at launch. Vidu Q2 followed in autumn 2025 (reference-to-video live on 2025-10-21) before Vidu Q3 in February 2026.",
+      "description_zh": "Vidu Q1（2025-04-21）是生数科技的第一款“Q”系列模型：可生成 5 秒 1080p 视频，包括在给定首帧和尾帧之间生成过渡，并能根据文字指令配上与画面同步的 48 kHz 音效、环境声或音乐；生数称其发布时在 VBench 上排名第一。之后是 2025 年秋季的 Vidu Q2（参考生视频于 2025-10-21 上线），再到 2026 年 2 月的 Vidu Q3。",
+      "idea_en": "Generating timed sound effects from the same prompt as the picture made audio part of the scene description rather than a separate post-production step.",
+      "idea_zh": "用同一条提示同时生成画面和定时音效，让声音成为场景描述的一部分，而不是另一道后期工序。",
+      "method": "Likely Shengshu's U-ViT-lineage diffusion transformer, with first-and-last-frame conditioning and text-driven audio that layers timed sound tracks (up to 10 s each, per launch coverage); architecture details are not published.",
+      "method_zh": "很可能沿用生数科技的 U-ViT 路线扩散 Transformer，支持首尾帧条件，并能用文字生成分层、带时间点的音轨（据发布报道每条最长 10 秒）；未公开架构细节。",
+      "specs": "1080p · 5 s · first-last frame · 48 kHz audio (developer-reported)",
+      "keywords": [
+        "image-to-video",
+        "first-last frame",
+        "sound effects",
+        "VBench",
+        "Vidu"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=pvfTkhg8jaA"
+      },
+      "source_url": "https://www.vidu.com/",
+      "collections": [
+        "trend-native-audio"
+      ],
+      "api_url": "https://platform.vidu.com/"
+    },
+    {
+      "id": "silicon-intelligence--duix-avatar",
+      "creator_ids": [
+        "silicon-intelligence"
+      ],
+      "title": "Duix-Avatar (HeyGem)",
+      "year": 2025,
+      "date": "2025-03",
+      "field": "avatars",
+      "sub": "portrait",
+      "modalities": [
+        "avatar",
+        "speech",
+        "flat-video"
+      ],
+      "inputs": [
+        "video",
+        "text",
+        "speech"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "perceptual-realism"
+      ],
+      "kind": "open-source",
+      "description": "Duix-Avatar, open-sourced by Silicon Intelligence in March 2025 under the name HeyGem, is a desktop toolkit for Windows and Ubuntu that clones a person's appearance and voice from a short recording and then produces lip-synced videos of that digital double from typed text in eight languages or from recorded audio, entirely offline. With about 16,000 GitHub stars by October 2026 it is one of the most-starred open digital-human projects; free commercial use is limited to organisations below 100,000 users or USD 10 million in annual revenue.",
+      "description_zh": "Duix-Avatar 由硅基智能于 2025 年 3 月以 HeyGem 之名开源，是一款适用于 Windows 和 Ubuntu 的桌面工具：用一段短视频克隆一个人的形象和声音，再由八种语言的文字或录好的音频生成这个数字分身口型同步的视频，全程离线运行。截至 2026 年 10 月它在 GitHub 上约有 1.6 万星标，是星标最多的开源数字人项目之一；用户规模超过 10 万或年收入超过 1000 万美元的机构商用需另签授权。",
+      "idea_en": "Running a voice-and-face clone entirely on a local machine keeps participants' likeness data out of the cloud, which matters for ethics review, but it also makes convincing doubles of real people trivially easy to produce.",
+      "idea_zh": "形象和声音克隆完全在本地运行，参与者的肖像数据不必上传云端，这对伦理审查很重要；但它也让逼真的真人分身变得极易制作。",
+      "method": "A local pipeline of three Docker services: Fun-ASR for speech recognition, a Fish-Speech-based service that clones the voice and synthesises the script, and Duix's face model, which re-renders the reference video's mouth and expression in sync with the generated audio.",
+      "method_zh": "由三个本地 Docker 服务组成的流水线：Fun-ASR 负责语音识别，基于 Fish-Speech 的服务克隆声音并合成脚本语音，Duix 的人脸模型则按生成的音频重新渲染参考视频中的口型和表情。",
+      "specs": "offline · 8 script languages · Windows / Ubuntu 22.04 · NVIDIA GPU",
+      "keywords": [
+        "digital human",
+        "avatar cloning",
+        "voice cloning",
+        "lip sync",
+        "offline",
+        "open source",
+        "HeyGem",
+        "video from the HeyGem YouTube channel"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=4GlyjOy90xg"
+      },
+      "images": [
+        "https://raw.githubusercontent.com/duixcom/Duix-Avatar/main/README.assets/2.png"
+      ],
+      "source_url": "https://github.com/duixcom/Duix-Avatar",
+      "code_url": "https://github.com/duixcom/Duix-Avatar",
+      "collections": [
+        "trend-open-weights",
+        "trend-china-open"
+      ]
+    },
+    {
+      "id": "yuxuan-zhang-qwen--liveanimate",
+      "creator_ids": [
+        "yuxuan-zhang-qwen",
+        "alibaba-tongyi"
+      ],
+      "title": "LiveAnimate",
+      "year": 2026,
+      "date": "2026-08-13",
+      "field": "video",
+      "sub": "control",
+      "also": [
+        "avatars"
+      ],
+      "modalities": [
+        "flat-video",
+        "avatar"
+      ],
+      "inputs": [
+        "image",
+        "body"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "responsiveness",
+        "persistence",
+        "reactivity"
+      ],
+      "kind": "research",
+      "description": "LiveAnimate (CUHK and Alibaba's Qwen business unit, 2026-08-13) animates the person in a single reference image from a live stream of body poses in real time, at about 20 frames per second on two H100 GPUs, and keeps appearance and identity stable over runs of several minutes, where earlier pose-driven models needed offline rendering. Code is announced but not yet released as of 2026-10-26.",
+      "description_zh": "LiveAnimate（香港中文大学与阿里巴巴千问事业部，2026-08-13）可以按实时输入的人体姿态流，驱动单张参考图中的人物生成动画，在两张 H100 GPU 上约每秒 20 帧，并在数分钟的连续运行中保持外貌和身份稳定，而此前的姿态驱动模型需要离线渲染。截至 2026-10-26，代码已预告但尚未发布。",
+      "idea_en": "A tracked performer can puppet any photographed person live, so an actor or confederate could appear as a different body in real time while their movement stays theirs.",
+      "idea_zh": "被追踪的表演者可以实时操控任何一张照片里的人物：演员或实验助手能以另一副身体实时出现，而动作仍是他们自己的。",
+      "method": "A pretrained bidirectional 14B video DiT is adapted into a block-causal autoregressive generator (reference-anchored teacher forcing), distilled to three sampling steps with block-wise self-forcing, and given a bounded KV cache (Pose-Retrieval Sink Attention) that keeps the first block, one pose-retrieved past block and a short rolling window; Ulysses sequence parallelism and operator fusion bring it to real time.",
+      "method_zh": "把预训练的双向 14B 视频 DiT 适配成块因果自回归生成器（参考锚定的教师强制），用分块自强制蒸馏把采样步数降到 3 步，并加入有界 KV 缓存（姿态检索 Sink 注意力）：保留第一个块、一个按姿态检索出的历史块和一个短滚动窗口；再用 Ulysses 序列并行和算子融合实现实时运行。",
+      "specs": "14B DiT · 3 steps · 19.63 fps on 2× H100 · constant per-block latency and memory (developer-reported)",
+      "keywords": [
+        "pose-driven animation",
+        "real-time",
+        "streaming",
+        "autoregressive diffusion",
+        "self forcing",
+        "Qwen",
+        "CUHK"
+      ],
+      "video": {
+        "url": "https://liveanimate.github.io/assets/demos/17_full_demo.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2608.11745",
+        "arxiv": "2608.11745",
+        "venue": "arXiv preprint",
+        "title": "LiveAnimate: Stable Long-Form Streaming Human Animation in Real-Time"
+      },
+      "source_url": "https://liveanimate.github.io/",
+      "code_url": "https://github.com/liveanimate/LiveAnimate",
+      "collections": [
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "zhiyuan-li-gbu--editalive",
+      "creator_ids": [
+        "zhiyuan-li-gbu"
+      ],
+      "title": "EditaLive",
+      "year": 2026,
+      "date": "2026-08-27",
+      "field": "video",
+      "sub": "realtime",
+      "also": [
+        "genxr"
+      ],
+      "modalities": [
+        "flat-video",
+        "avatar"
+      ],
+      "inputs": [
+        "video",
+        "text",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "reactivity",
+        "persistence"
+      ],
+      "kind": "research",
+      "description": "EditaLive (Great Bay University, University of Macau and vivo, 2026-08-27) edits the person in a live video stream from a text instruction, adding, removing or changing clothing, accessories or style, while keeping their facial expressions and motion; the authors report 14.47 frames per second at 384×672 on one H100 with about 0.8 s between chunks, and keep edits consistent over long streams (its showreel runs two minutes). Weights and inference code were released on 2026-09-14 for academic research only.",
+      "description_zh": "EditaLive（大湾区大学、澳门大学与 vivo，2026-08-27）可以按文字指令编辑直播视频流中的人物，添加、删除或更换服装、配饰或风格，同时保留其面部表情和动作；作者报告在单张 H100 上以 384×672 分辨率达到每秒 14.47 帧，块间延迟约 0.8 秒，并能在长时间直播中保持编辑一致（演示视频长达两分钟）。权重和推理代码于 2026-09-14 发布，仅限学术研究使用。",
+      "idea_en": "Restyling a live participant on the fly (uniform, age cues, costume) is a cheap way to vary how a confederate or a participant's self-image appears without re-recording.",
+      "idea_zh": "实时改变直播中人物的造型（制服、年龄特征、服装），是在不重新录制的情况下改变实验助手或参与者自我形象呈现方式的低成本办法。",
+      "method": "Starts from Wan-Animate, which separates appearance from motion, and turns it into an instruction-based editor by editing a reference frame and reconstructing the video (trained on the CharEdit-50K dataset); the bidirectional model is then adapted to causal streaming generation for live input.",
+      "method_zh": "以把外观与动作解耦的 Wan-Animate 为基础，通过“编辑参考帧再重建视频”的方式把它改造成指令式编辑器（在 CharEdit-50K 数据集上训练），再把双向模型改造成适用于实时输入的因果流式生成。",
+      "specs": "14.47 fps (16.4 fps with Flash-VAED) · 0.83 s inter-chunk latency · 1× H100 · 384×672 (developer-reported)",
+      "keywords": [
+        "live video editing",
+        "video-to-video",
+        "streaming",
+        "character editing",
+        "Wan-Animate",
+        "live streaming"
+      ],
+      "video": {
+        "url": "https://huai-chang.github.io/EditaLive/homepage/editalive-showreel-120s.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2608.27123",
+        "arxiv": "2608.27123",
+        "venue": "arXiv preprint",
+        "title": "EditaLive! Unified Character Video Editing for Live Streaming"
+      },
+      "source_url": "https://huai-chang.github.io/EditaLive/",
+      "code_url": "https://github.com/GVCLab/EditaLive",
+      "collections": [
+        "trend-realtime",
+        "trend-in-situ-xr"
+      ]
+    },
+    {
+      "id": "stepfun--duplexsla",
+      "creator_ids": [
+        "stepfun"
+      ],
+      "title": "DuplexSLA",
+      "year": 2026,
+      "date": "2026-05",
+      "field": "audio",
+      "sub": "duplex-speech",
+      "also": [
+        "agents"
+      ],
+      "modalities": [
+        "speech",
+        "dialogue",
+        "behavior"
+      ],
+      "inputs": [
+        "speech"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "responsiveness",
+        "reactivity"
+      ],
+      "kind": "research",
+      "description": "DuplexSLA (StepFun with Peking University, NTU, SJTU and others, 2026-05) is a 7B spoken-dialogue model that keeps listening while it talks and issues tool calls, such as setting the air conditioning or playing music, in mid-sentence without pausing its speech; it keeps talking through a user's 'mm-hmm' and yields on a real interruption, with an average turn-taking delay of 0.30 s reported. It recognises the user's backchannels but does not produce its own, so it is classed as turn-based here; weights were 'coming soon' as of 2026-10-26.",
+      "description_zh": "DuplexSLA（阶跃星辰与北京大学、南洋理工大学、上海交通大学等合作，2026 年 5 月）是一个 7B 语音对话模型：它边说边听，能在一句话说到一半时发出工具调用（例如调空调温度或播放音乐）而不中断说话；用户说“嗯嗯”时继续讲，真正被打断时让出发言，报告的平均轮换延迟为 0.30 秒。它能识别用户的回应信号，但自己不会发出回应信号，因此这里归为回合制；截至 2026-10-26，权重仍标注为“即将发布”。",
+      "idea_en": "Putting speech, planning and actions on one clock lets a virtual character act on the world (open a door, start a sound) while it is still talking, instead of in a pause after it finishes.",
+      "idea_zh": "把语音、规划和动作放在同一条时钟上，虚拟角色就能一边说话一边对世界采取行动（开门、播放声音），而不必等说完才动作。",
+      "method": "A single backbone decodes three channels on a shared 160 ms chunk clock: continuous user audio features (80 ms stride), discrete assistant audio, and a rate-limited text action lane carrying planning fragments, turn-taking labels (response, interrupt, backchannel) and JSON tool calls; it is continually pretrained on about 500k hours and post-trained on about 50k hours of timing-focused data.",
+      "method_zh": "单一主干在共享的 160 毫秒块时钟上同时解码三个通道：连续的用户音频特征（80 毫秒步长）、离散的助手音频，以及限速的文本动作通道，其中承载规划片段、轮换标签（回应、打断、回应信号）和 JSON 工具调用；先在约 50 万小时数据上持续预训练，再用约 5 万小时侧重时序的数据做后训练。",
+      "specs": "7B · 160 ms chunks · 0.30 s average turn-taking delay · 0.64 s tool-call latency · 98.3% backchannel classification (developer-reported)",
+      "keywords": [
+        "full-duplex",
+        "spoken dialogue",
+        "tool calling",
+        "turn-taking",
+        "speech-language-action",
+        "StepFun"
+      ],
+      "video": {
+        "url": "https://hyzhang24.github.io/DuplexSLA/vedio/backchannel_action_new.mp4"
+      },
+      "images": [
+        "https://hyzhang24.github.io/DuplexSLA/figures/fig_arch_chunk-1.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2605.20755",
+        "arxiv": "2605.20755",
+        "venue": "Technical report (arXiv)",
+        "title": "DuplexSLA: A Full-Duplex Spoken Language Model with Synchronized Speech, Language, and Action"
+      },
+      "source_url": "https://hyzhang24.github.io/DuplexSLA/",
+      "code_url": "https://github.com/hyzhang24/DuplexSLA",
+      "collections": [
+        "trend-full-duplex"
+      ]
+    },
+    {
+      "id": "alibaba-tongyi--qwen-livetranslate",
+      "creator_ids": [
+        "alibaba-tongyi"
+      ],
+      "title": "Qwen LiveTranslate",
+      "year": 2025,
+      "date": "2025-09-22",
+      "field": "audio",
+      "sub": "duplex-speech",
+      "modalities": [
+        "speech",
+        "dialogue"
+      ],
+      "inputs": [
+        "speech",
+        "video"
+      ],
+      "timing": "real-time",
+      "access": [
+        "api"
+      ],
+      "lenses": [
+        "responsiveness",
+        "situational-reach"
+      ],
+      "kind": "model",
+      "description": "Qwen LiveTranslate is Alibaba's simultaneous-interpretation model family: it listens to a speaker, can also use the speaker's video as visual context, and speaks the translation while the speaker is still talking, in both real-time and offline modes. Qwen3-LiveTranslate-Flash (2025-09-22) understands 19 languages and speaks 10, plus 8 Chinese dialects; Qwen3.5-LiveTranslate-Flash (2026-05-19), built on Qwen3.5-Omni, understands 60 languages and speaks 29. It is offered only through Alibaba Cloud's Model Studio API.",
+      "description_zh": "Qwen LiveTranslate 是阿里巴巴的同声传译模型系列：它边听说话人讲话，也可以把说话人的视频画面作为视觉上下文，并在对方还在说话时就说出译文，支持实时和离线两种模式。Qwen3-LiveTranslate-Flash（2025-09-22）能听懂 19 种语言、会说 10 种语言以及 8 种中文方言；基于 Qwen3.5-Omni 的 Qwen3.5-LiveTranslate-Flash（2026-05-19）能听懂 60 种语言、会说 29 种语言。它只通过阿里云百炼 API 提供。",
+      "idea_en": "Live spoken interpretation lets two people without a shared language hold one conversation, a building block for cross-language social scenarios with real or virtual interlocutors.",
+      "idea_zh": "实时口译让没有共同语言的两个人也能进行同一场对话，这是构建跨语言社交情境（真人或虚拟对话者）的基础组件。",
+      "method": "Built on the Qwen3-Omni and Qwen3.5-Omni backbones, with cross-language and cross-modal alignment and visual enhancement, and served as a streaming real-time model through Model Studio.",
+      "method_zh": "基于 Qwen3-Omni 和 Qwen3.5-Omni 主干，加入跨语言、跨模态对齐和视觉增强技术，并通过百炼以流式实时模型提供。",
+      "specs": "Qwen3: 19 languages in, 10 out + 8 Chinese dialects · Qwen3.5: 60 languages in, 29 out",
+      "keywords": [
+        "simultaneous interpretation",
+        "speech-to-speech translation",
+        "streaming",
+        "audio-visual",
+        "Qwen-Omni"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=sAU256E4u4o"
+      },
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "api_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "collections": [
+        "trend-realtime",
+        "trend-omni"
+      ]
+    },
+    {
+      "id": "rvc-boss--rvc",
+      "creator_ids": [
+        "rvc-boss"
+      ],
+      "title": "RVC (Retrieval-based Voice Conversion)",
+      "year": 2023,
+      "date": "2023-03",
+      "field": "audio",
+      "sub": "voice",
+      "modalities": [
+        "speech"
+      ],
+      "inputs": [
+        "speech"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "authoring"
+      ],
+      "kind": "open-source",
+      "description": "RVC is an open, MIT-licensed voice-conversion toolkit (2023-03) that trains a target voice from about ten minutes of recordings and then converts speech or singing into that voice, including a real-time voice-changer interface that the developers report at 170 ms end-to-end latency (90 ms with ASIO audio drivers). With about 39,000 GitHub stars by October 2026, it is widely used for AI cover songs and for live voice changers in streaming and games.",
+      "description_zh": "RVC 是 MIT 协议的开源变声工具包（2023 年 3 月）：用约十分钟录音训练出目标音色，再把说话或歌声转换成这个音色；它还带有实时变声界面，开发者报告端到端延迟为 170 毫秒（使用 ASIO 音频驱动时为 90 毫秒）。截至 2026 年 10 月它在 GitHub 上约有 3.9 万星标，被广泛用于 AI 翻唱以及直播、游戏中的实时变声。",
+      "idea_en": "Live voice conversion lets a participant or confederate speak as someone else (another age, gender or identity) with their own words and timing intact, a vocal counterpart to avatar embodiment studies.",
+      "idea_zh": "实时变声让参与者或实验助手能以另一个人的声音（不同年龄、性别或身份）说话，而用词和节奏仍是自己的，可以看作虚拟化身具身研究在声音上的对应物。",
+      "method": "A VITS-based conversion model takes HuBERT content features and RMVPE pitch from the input; replacing input features with their nearest (top-1) neighbours retrieved from the target speaker's training set suppresses leakage of the source timbre.",
+      "method_zh": "基于 VITS 的转换模型以输入语音的 HuBERT 内容特征和 RMVPE 音高为条件；用从目标说话人训练集中检索到的最近邻（top-1）特征替换输入特征，以抑制原说话人音色的泄漏。",
+      "specs": "~10 min training data · real-time GUI 170 ms end-to-end (90 ms with ASIO) (developer-reported) · MIT licence",
+      "keywords": [
+        "voice conversion",
+        "real-time voice changer",
+        "singing voice",
+        "open source",
+        "HuBERT",
+        "third-party video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=pHhjg2JwdPI"
+      },
+      "source_url": "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "code_url": "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "collections": [
+        "trend-realtime",
+        "trend-open-weights",
+        "trend-china-open"
+      ]
+    },
+    {
+      "id": "rvc-boss--gpt-sovits",
+      "creator_ids": [
+        "rvc-boss"
+      ],
+      "title": "GPT-SoVITS",
+      "year": 2024,
+      "date": "2024-01",
+      "field": "audio",
+      "sub": "voice",
+      "modalities": [
+        "speech"
+      ],
+      "inputs": [
+        "text",
+        "speech"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "perceptual-realism"
+      ],
+      "kind": "open-source",
+      "description": "GPT-SoVITS (2024-01) is an open, MIT-licensed voice-cloning text-to-speech toolkit with a web interface: it speaks in a new voice zero-shot from a 5-second sample or, after fine-tuning on about one minute of audio, with closer similarity, across Chinese, English, Japanese, Korean and Cantonese. Updated through versions v2 to v4 and v2Pro, it had about 64,000 GitHub stars by October 2026, one of the most-starred open TTS projects, and its developers report a real-time factor of 0.014 on an RTX 4090.",
+      "description_zh": "GPT-SoVITS（2024 年 1 月）是 MIT 协议的开源声音克隆语音合成工具包，带网页界面：用 5 秒样本即可零样本说出新音色，用约一分钟音频微调后相似度更高，支持中文、英语、日语、韩语和粤语。它先后更新到 v2 至 v4 和 v2Pro，截至 2026 年 10 月在 GitHub 上约有 6.4 万星标，是星标最多的开源 TTS 项目之一；开发者报告其在 RTX 4090 上的实时率为 0.014。",
+      "idea_en": "One minute of someone's recorded speech is enough to give a scripted character that person's voice locally, which makes voice casting trivial for stimulus production and equally easy to misuse.",
+      "idea_zh": "只需一分钟某人的录音，就能在本地让脚本角色用上这个人的声音：这让刺激材料的配音变得极其容易，也同样容易被滥用。",
+      "method": "A GPT-style autoregressive model predicts semantic tokens (from a Chinese HuBERT encoder) from text and a reference prompt, and a SoVITS (VITS-family) decoder renders them in the reference voice; later versions add a new vocoder and higher sampling rates.",
+      "method_zh": "GPT 式自回归模型根据文本和参考提示预测语义 token（来自中文 HuBERT 编码器），再由 SoVITS（VITS 系列）解码器用参考音色渲染出语音；后续版本换用了新的声码器并提高了采样率。",
+      "specs": "zero-shot from 5 s · few-shot from 1 min · RTF 0.014 on RTX 4090 (v2 ProPlus, developer-reported) · MIT licence",
+      "keywords": [
+        "text-to-speech",
+        "voice cloning",
+        "few-shot",
+        "open source",
+        "WebUI",
+        "community"
+      ],
+      "images": [
+        "https://github.com/user-attachments/assets/8c2a0e0a-7212-4b77-b5ef-2d192e09127f"
+      ],
+      "source_url": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "code_url": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "collections": [
+        "trend-open-weights",
+        "trend-china-open"
+      ]
+    },
+    {
+      "id": "sihui-ji--memflow",
+      "creator_ids": [
+        "sihui-ji",
+        "kuaishou"
+      ],
+      "title": "MemFlow",
+      "year": 2025,
+      "date": "2025-12-14",
+      "field": "video",
+      "sub": "realtime",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "co-creation",
+        "responsiveness"
+      ],
+      "kind": "research",
+      "description": "MemFlow (HKU, Kuaishou's Kling Team and HKUST Guangzhou, 2025-12-14) is an open memory method for streaming video generation: as a viewer changes the prompt every few seconds (new action, object added or removed, background shift), it retrieves the earlier frames most relevant to the new prompt so characters and places stay consistent over minute-long videos. The authors report 18.7 frames per second on one H100, 7.9% slower than the memory-free baseline; StreamEval (2026-10) ranks it first overall in its world-generation track with 33.4 of 100.",
+      "description_zh": "MemFlow（香港大学、快手可灵团队与香港科技大学（广州），2025-12-14）是一种开源的流式视频生成记忆方法：观看者每隔几秒更换提示（新动作、增删物体、背景变化）时，它会检索与新提示最相关的早期画面，让人物和场景在长达一分钟的视频中保持一致。作者报告其在单张 H100 上达到每秒 18.7 帧，只比无记忆基线慢 7.9%；StreamEval（2026 年 10 月）在世界生成赛道中将它的总分列为第一，为 33.4/100。",
+      "idea_en": "Prompt-relevant memory is what lets a live, steerable video keep its cast and setting when the story changes direction, though the top StreamEval score of 33/100 shows how far such systems are from reliable state keeping.",
+      "idea_zh": "与提示相关的记忆，让实时可引导的视频在剧情转向时仍能保住人物和场景；但 StreamEval 最高分只有 33/100，也说明这类系统离可靠地保持状态还很远。",
+      "method": "Starting from the LongLive streaming generator (KV-cache autoregressive diffusion), a memory bank is refreshed before each chunk by retrieving the historical frames most relevant to that chunk's text prompt, and attention activates only the most relevant memory tokens per query to keep cost low.",
+      "method_zh": "以 LongLive 流式生成器（基于 KV 缓存的自回归扩散）为起点，在生成每个片段前按该片段的文字提示检索最相关的历史帧来更新记忆库，注意力层中每个查询只激活最相关的记忆 token，以控制计算开销。",
+      "specs": "18.7 fps on 1× H100 · 7.9% slower than memory-free baseline · 60 s multi-prompt benchmark (developer-reported)",
+      "keywords": [
+        "streaming video generation",
+        "long video",
+        "memory",
+        "interactive prompts",
+        "LongLive",
+        "Kling",
+        "HKU"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=QCVdOhD5vFs"
+      },
+      "images": [
+        "https://sihuiji.github.io/MemFlow.github.io/assets/pipeline.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2512.14699",
+        "arxiv": "2512.14699",
+        "venue": "arXiv preprint",
+        "title": "MemFlow: Flowing Adaptive Memory for Consistent and Efficient Long Video Narratives"
+      },
+      "source_url": "https://sihuiji.github.io/MemFlow.github.io/",
+      "code_url": "https://github.com/KlingAIResearch/MemFlow",
+      "collections": [
+        "trend-realtime",
+        "trend-open-weights"
+      ]
+    }
+  ],
+  "leads": [
+    {
+      "name": "DreamX-Creator 1.0 (AMAP / Alibaba, 2026-09-03)",
+      "why": "Open 7B native joint audio-video generator plus a 5B one-step 2K refiner built on Wan2.2-TI2V-5B (arXiv 2608.31106, Apache-2.0); below the salience bar as of 2026-10-26 (316 GitHub stars) and overlaps Prism, which is added.",
+      "link": "https://github.com/AMAP-ML/DreamX-Creator",
+      "found_via": "amap",
+      "status": "open"
+    },
+    {
+      "name": "StableAvatar (Fudan et al., NeurIPS 2026)",
+      "why": "Infinite-length audio-driven avatar video from a Wan2.1-1.3B base (arXiv 2508.08248, 1.3k GitHub stars, official YouTube demo 6lhvmbzvv3Y); overlaps InfiniteTalk and LongCat-Video-Avatar 1.5 for long talking video, so not added this round.",
+      "link": "https://francis-rings.github.io/StableAvatar",
+      "found_via": "shuyuan-tu",
+      "status": "open"
+    },
+    {
+      "name": "NAVA: Native Audio-Visual Alignment for Generation (Baidu ERNIE team, 2026-05-29)",
+      "why": "Open 6.3B joint audio-video generator on Wan2.2-TI2V-5B with multi-speaker timbre control and stereo audio (arXiv 2605.30073, Apache-2.0, 230 GitHub stars); below the salience bar as of 2026-10-26 and overlaps Prism (added) and Ovi.",
+      "link": "https://ernie-research.github.io/NAVA/",
+      "found_via": "baidu",
+      "status": "open"
+    },
+    {
+      "name": "Seko / SekoTV (SenseTime, Seko 3.0 2026-09)",
+      "why": "SenseTime's agentic short-drama video platform (agents, infinite canvas, skills); its web app routes generation to third-party models (Seedance, MiniMax, Wan, Kling), so it is a wrapper under the inclusion rule. SenseTime still has no AV work in the gallery.",
+      "link": "https://seko.sensetime.com/",
+      "found_via": "sensetime",
+      "status": "off_topic"
+    },
+    {
+      "name": "Qwen-Audio 3.0 Realtime / TTS and 3.1 Realtime Plus (Alibaba Qwen, 2026-07-14 → 2026-09-20)",
+      "why": "Closed Model Studio speech models; Alibaba describes qwen-audio-3.0-realtime (2026-08-10) as a duplex speech model ranked first on Artificial Analysis Speech-to-Speech. No official video found on the Qwen or Alibaba Cloud channels as of 2026-10-26, and no evidence of backchanneling, so the timing class is open.",
+      "link": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "found_via": "alibaba-tongyi",
+      "status": "no_media"
+    },
+    {
+      "name": "LongCat-Flash-Omni (Meituan, 2025-10-23)",
+      "why": "Open 560B (27B active) omni-modal model with real-time audio-visual interaction (arXiv 2511.00279, MIT); no official demo video, and open omni models are represented by Qwen3-Omni and MiniCPM-o.",
+      "link": "https://github.com/meituan-longcat/LongCat-Flash-Omni",
+      "found_via": "meituan",
+      "status": "no_media"
+    },
+    {
+      "name": "Fun-Audio-Chat 8B (Alibaba Tongyi, 2025-12-23)",
+      "why": "Open turn-based voice-chat model with dual-resolution speech representations (arXiv 2512.20156, ~1k GitHub stars); overlaps Kimi-Audio, Step-Audio 2 and Qwen3-Omni; no official video.",
+      "link": "https://github.com/FunAudioLLM/Fun-Audio-Chat",
+      "found_via": "alibaba-tongyi",
+      "status": "open"
+    },
+    {
+      "name": "Ming-3.0-tts (Ant Group inclusionAI, 2026-10)",
+      "why": "Open TTS family (0.5B dense and 7.9B-A1.3B MoE) with task-mode voice, style, paralinguistic and acoustic control; released the week of 2026-10-19 (297 stars); revisit once uptake is visible.",
+      "link": "https://github.com/inclusionAI/Ming-3.0-tts",
+      "found_via": "ant-group",
+      "status": "open"
+    },
+    {
+      "name": "Step-Audio-EditX (StepFun, 2025-10-29)",
+      "why": "Open 3B LLM-based expressive speech editing (emotion, style, paralinguistics; ~1k stars); overlaps AuK, which is added.",
+      "link": "https://github.com/stepfun-ai/Step-Audio-EditX",
+      "found_via": "stepfun",
+      "status": "open"
+    },
+    {
+      "name": "GLM-4-Voice (2024-10) and GLM-TTS (2025-12) (Zhipu AI)",
+      "why": "Zhipu's open end-to-end Chinese-English spoken chatbot (arXiv 2412.02612, 3.2k stars) and zero-shot TTS with multi-reward RL (arXiv 2512.14291); GLM-4-Voice's demo clips are QuickTime GitHub attachments that may not play in the gallery, and GLM-TTS overlaps CosyVoice and Qwen3-TTS.",
+      "link": "https://github.com/zai-org/GLM-4-Voice",
+      "found_via": "zhipu-ai",
+      "status": "open"
+    },
+    {
+      "name": "OmniAvatar (Zhejiang University and Alibaba, 2025-06)",
+      "why": "Open audio-driven full-body avatar video on Wan2.1 (1.9k GitHub stars); portrait animation is already covered by Hallo, EchoMimic, InfiniteTalk and Kling Avatar 2.0.",
+      "link": "https://omni-avatar.github.io/",
+      "found_via": "alibaba-tongyi",
+      "status": "open"
+    },
+    {
+      "name": "FantasyTalking (AMAP / Alibaba, ACM MM 2025)",
+      "why": "Open Wan-based talking-portrait model with coherent motion synthesis (1.6k stars); same overlap as OmniAvatar.",
+      "link": "https://fantasy-amap.github.io/fantasy-talking/",
+      "found_via": "amap",
+      "status": "open"
+    },
+    {
+      "name": "HunyuanPortrait (Tencent Hunyuan, CVPR 2025)",
+      "why": "Portrait animation with implicit condition control (357 stars); Tencent's avatar line is represented by HunyuanVideo-Avatar.",
+      "link": "https://github.com/Tencent-Hunyuan/HunyuanPortrait",
+      "found_via": "tencent-hunyuan",
+      "status": "open"
+    },
+    {
+      "name": "X-Dub (Kling AI Research, 2026-03)",
+      "why": "Visual dubbing that re-syncs any character in a video to new audio (arXiv 2512.25066, 238 stars); below the salience bar next to InfiniteTalk and LatentSync-style dubbing models.",
+      "link": "https://hjrphoebus.github.io/X-Dub/",
+      "found_via": "kuaishou",
+      "status": "open"
+    },
+    {
+      "name": "Index-Echo S2ST / S2TT (Bilibili IndexTeam, 2026-09-28)",
+      "why": "Open 2B and 9B speech-to-speech translation and dubbing models from the IndexTTS team; released weeks before this round with low uptake (a few hundred downloads) and no demo video found; revisit as a voice-preserving translation work.",
+      "link": "https://huggingface.co/IndexTeam/Index-Echo-S2ST-9B",
+      "found_via": "bilibili",
+      "status": "open"
+    },
+    {
+      "name": "Xiaomi MiMo-V2-TTS and MiMo-V2.5-TTS series (2026)",
+      "why": "Xiaomi's agent-oriented speech-synthesis models listed on mimo.xiaomi.com; release dates, access terms and demo media not confirmed in this round.",
+      "link": "https://mimo.xiaomi.com/",
+      "found_via": "xiaomi",
+      "status": "open"
+    },
+    {
+      "name": "BayLing-Duplex (ICT, Chinese Academy of Sciences, 2026-06-12)",
+      "why": "Open native 'full-duplex' speech model fine-tuned from GLM-4-Voice that decides when to listen, speak and stop without a VAD (arXiv 2606.14528, demo video, 96 stars); reports turn-taking and interruption success but no backchannel production, so it is turn-based under the gallery rule and overlaps D2 and Realtime-Venus.",
+      "link": "https://github.com/BayLing-Models/BayLing-Duplex",
+      "found_via": "zhipu-ai",
+      "status": "open"
+    },
+    {
+      "name": "Covo-Audio / Covo-Audio-Chat-FD (Tencent, 2026-02-10)",
+      "why": "7B end-to-end audio LLM (arXiv 2602.09823); the FD variant handles turn-taking, pauses, barge-in and user backchannels (it continues through them rather than producing its own); only the half-duplex Covo-Audio-Chat weights are on Hugging Face and no demo video was found.",
+      "link": "https://github.com/Tencent/Covo-Audio",
+      "found_via": "tencent-hunyuan",
+      "status": "no_media"
+    },
+    {
+      "name": "SwanSphere (Zhejiang University, ICML 2026)",
+      "why": "Streaming spatial-audio generation from panoramic video and text with a causal autoregressive diffusion transformer (arXiv 2605.30940, 120 stars); highly relevant to 360° immersion, but the project page has only a framework figure and no latency figures were found; revisit for a demo.",
+      "link": "https://swansphere.github.io/",
+      "found_via": "huadai-liu",
+      "status": "no_media"
+    },
+    {
+      "name": "Ultra Flash: real-time streaming video at 1K–2K (arXiv 2606.09150, 2026-06-15)",
+      "why": "Cascaded streaming super-resolution reporting ~30 fps at 1K and ~18 fps at 2K on one GPU; no project page, code or affiliation found as of 2026-10-26.",
+      "link": "https://arxiv.org/abs/2606.09150",
+      "found_via": "seed",
+      "status": "no_media"
+    },
+    {
+      "name": "HeartMuLa (open music foundation models, 2026-01-15)",
+      "why": "Open song-generation family with a 12.5 Hz music codec and lyric/style/reference-audio control (arXiv 2601.10547, 3.8k GitHub stars); offline, so deprioritised in this interactive-first pass; strong candidate for the next audio round.",
+      "link": "https://heartmula.github.io/",
+      "found_via": "seed",
+      "status": "open"
+    },
+    {
+      "name": "Real-Time Interactive Music Generation via Data-Free Streaming Consistency Distillation (arXiv 2606.24307)",
+      "why": "Distils a music model into a streaming, playable instrument; no project page, demo or affiliation found as of 2026-10-26.",
+      "link": "https://arxiv.org/abs/2606.24307",
+      "found_via": "seed",
+      "status": "no_media"
+    },
+    {
+      "name": "Seed-VC (Plachtaa, 2024-09)",
+      "why": "Zero-shot voice and singing-voice conversion with real-time support (3.9k stars); creator's location not confirmed, and RVC (added) already covers real-time voice conversion.",
+      "link": "https://github.com/Plachtaa/seed-vc",
+      "found_via": "rvc-boss",
+      "status": "open"
+    }
+  ]
+}

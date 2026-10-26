@@ -1,0 +1,50 @@
+{
+ "batch": "xgen-2026-10",
+ "orgs": [
+  {
+   "id": "xgen-labs",
+   "name": "XGEN Labs",
+   "name_zh": "原初之境科技",
+   "type": "ai-lab",
+   "themes": ["world-models", "agents", "open-source"],
+   "fields": ["world-models", "agents"],
+   "description": "A world-model company founded in 2026 and operated as XGEN Labs Limited in Hong Kong; in September 2026 it announced Generative World Simulation, pairing DAO, an engine that keeps a shared world state with autonomous characters, with JING, an open first-person audio-video model built on MiniMax-H3. It has not named its founders or investors publicly; a consumer product is planned for beta in November 2026.",
+   "description_zh": "成立于 2026 年的世界模型公司，以 XGEN Labs Limited（原初之境科技有限公司）在香港运营；2026 年 9 月发布“生成式世界模拟”，由保存共享世界状态与自主角色的引擎 DAO，以及基于 MiniMax-H3 的开源第一人称音视频模型 JING 组成。公司未公开创始人与投资方；计划于 2026 年 11 月开始一款面向消费者的产品内测。",
+   "url": "https://xgenlabs.ai/",
+   "links": [
+    {"label": "Generative World Simulation", "url": "https://xgenlabs.ai/research/generative-world-simulation"},
+    {"label": "Technical report (arXiv 2610.19726)", "url": "https://arxiv.org/abs/2610.19726"},
+    {"label": "Hugging Face", "url": "https://huggingface.co/XGENlabs/XGEN-JING"},
+    {"label": "X", "url": "https://x.com/XGEN_labs"}
+   ],
+   "image": "https://resources.xgenlabs.ai/research/images/research-image-research-jing-cover-v4.png",
+   "based": "Hong Kong SAR, China",
+   "based_zh": "中国香港",
+   "founded": 2026,
+   "people": [],
+   "creator_id": "xgen-labs",
+   "found_via": "https://xgenlabs.ai/legal/pricing.html"
+  },
+  {
+   "id": "wbench-leaderboard",
+   "name": "WBench Leaderboard",
+   "name_zh": "",
+   "type": "leaderboard",
+   "themes": ["world-models"],
+   "fields": ["world-models", "infra"],
+   "description": "The public leaderboard of WBench, the multi-turn benchmark for interactive video world models from Fudan University and Meituan's LongCat team: 289 cases scored on video quality, setting adherence, interaction, consistency and physics, with separate Full and Navigation tracks. In October 2026 it listed 44 Navigation and 16 Full entries; several top entries, including XGEN-JING and Murea-Pro, are labelled self-evaluated.",
+   "description_zh": "WBench 的公开排行榜。WBench 是复旦大学与美团 LongCat 团队推出的交互视频世界模型多轮评测基准，用 289 个案例从画质、设定遵循、交互、一致性与物理五个方面评分，分为 Full 与 Navigation 两条赛道。2026 年 10 月共有 44 个 Navigation 条目与 16 个 Full 条目，包括 XGEN-JING 与 Murea-Pro 在内的多个领先条目标注为自评结果。",
+   "url": "https://meituan-longcat.github.io/WBench/",
+   "links": [
+    {"label": "Paper (arXiv 2605.25874)", "url": "https://arxiv.org/abs/2605.25874"},
+    {"label": "GitHub", "url": "https://github.com/meituan-longcat/WBench"}
+   ],
+   "based": "Shanghai, China",
+   "based_zh": "中国上海",
+   "founded": 2026,
+   "people": [],
+   "creator_id": "kaining-ying",
+   "found_via": "https://arxiv.org/abs/2610.19726"
+  }
+ ]
+}

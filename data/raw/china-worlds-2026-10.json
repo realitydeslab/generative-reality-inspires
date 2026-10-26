@@ -1,0 +1,2288 @@
+{
+  "batch": "china-worlds-2026-10",
+  "creators": [
+    {
+      "id": "agibot",
+      "name": "AgiBot (AGIBOT)",
+      "name_zh": "智元机器人",
+      "kind": "company",
+      "role": "Humanoid robot maker with its own robot world models",
+      "based": "Shanghai, China",
+      "bio": "Shanghai robotics company founded in 2023 that builds the Yuanzheng (A-series), Lingxi (X-series) and Genie (G-series) robots and releases open robot datasets (AgiBot World) and models (Genie Operator-1, Genie Envisioner).",
+      "why": "Builds action-conditioned video world simulators in which robot policies are run and scored before they touch hardware.",
+      "disciplines": [
+        "robotics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.agibot.com/",
+        "youtube": "https://www.youtube.com/@AGIBOT",
+        "github": "https://github.com/AgibotTech",
+        "huggingface": "https://huggingface.co/agibot-world"
+      },
+      "role_zh": "自研机器人世界模型的人形机器人公司",
+      "bio_zh": "2023 年成立于上海的机器人公司，生产远征（A 系列）、灵犀（X 系列）和精灵（G 系列）机器人，并开源机器人数据集（AgiBot World）和模型（Genie Operator-1、Genie Envisioner）。",
+      "why_zh": "构建以动作为条件的视频世界模拟器，让机器人策略在上真机之前先在其中运行和评分。",
+      "based_zh": "中国上海",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "ace-robotics",
+      "name": "ACE Robotics",
+      "name_zh": "大晓机器人",
+      "kind": "company",
+      "role": "Embodied-AI company behind the Kairos (Kaiwu) world model",
+      "based": "Shanghai, China",
+      "bio": "Embodied-AI company founded in 2025 by SenseTime co-founder Wang Xiaogang; it develops the Kairos (Kaiwu) world model with SenseTime and the ACE-Brain robot foundation models.",
+      "why": "Its Kairos line is SenseTime's open world model for robots, released with weights and a technical report.",
+      "disciplines": [
+        "robotics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.acerobotics.com/",
+        "github": "https://github.com/DAXIAORobotics",
+        "huggingface": "https://huggingface.co/ACERobotics"
+      },
+      "role_zh": "开悟（Kairos）世界模型背后的具身智能公司",
+      "bio_zh": "由商汤联合创始人王晓刚于 2025 年创立的具身智能公司，与商汤共同开发开悟（Kairos）世界模型，以及 ACE-Brain 系列机器人基础模型。",
+      "why_zh": "其开悟系列是商汤面向机器人的开源世界模型，发布了权重和技术报告。",
+      "based_zh": "中国上海",
+      "connected_to": [
+        "sensetime"
+      ],
+      "discovered_via": "sensetime"
+    },
+    {
+      "id": "sensetime",
+      "name": "SenseTime",
+      "name_zh": "商汤科技",
+      "kind": "company",
+      "role": "AI company (SenseNova models, SenseAuto)",
+      "based": "Hong Kong / Shanghai, China",
+      "bio": "Hong Kong-listed AI company founded in 2014, known for computer vision, the SenseNova model family and the SenseAuto driving unit, whose 'Kaiwu' world model generates driving and robot scenes.",
+      "why": "One of the first Chinese companies to ship a world model for driving and embodied AI, now continued as the open Kairos line.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "site": "https://www.sensetime.com/en",
+        "github": "https://github.com/OpenSenseNova",
+        "huggingface": "https://huggingface.co/sensenova"
+      },
+      "role_zh": "人工智能公司（日日新 SenseNova 大模型、商汤绝影）",
+      "bio_zh": "2014 年成立、在香港上市的人工智能公司，以计算机视觉、日日新 SenseNova 大模型和智能驾驶业务商汤绝影闻名，其“开悟”世界模型可生成驾驶和机器人场景。",
+      "why_zh": "最早推出面向驾驶和具身智能的世界模型的中国公司之一，这条线如今以开源的开悟（Kairos）系列延续。",
+      "based_zh": "中国香港 / 上海",
+      "connected_to": [
+        "ace-robotics"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "chenxu-zhou",
+      "name": "Chenxu Zhou",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher, State Key Lab of CAD&CG, Zhejiang University",
+      "based": "Hangzhou, China",
+      "bio": "Researcher in Xiaowei Zhou's group at Zhejiang University (ZJU3DV) working on volumetric video and 4D reconstruction.",
+      "why": "First author of RealMe, which turns sparse low-resolution multi-view captures into 2K volumetric video.",
+      "disciplines": [
+        "graphics"
+      ],
+      "links": {
+        "github": "https://github.com/cxzhou35"
+      },
+      "role_zh": "浙江大学 CAD&CG 国家重点实验室研究者",
+      "bio_zh": "浙江大学周晓巍团队（ZJU3DV）的研究者，研究体积视频与 4D 重建。",
+      "why_zh": "RealMe 的第一作者，该方法把稀疏、低分辨率的多视角拍摄变成 2K 体积视频。",
+      "based_zh": "中国杭州",
+      "connected_to": [
+        "zju3dv",
+        "4dv-ai"
+      ],
+      "discovered_via": "zju3dv"
+    },
+    {
+      "id": "mirofish",
+      "name": "MiroFish",
+      "name_zh": "MiroFish",
+      "kind": "studio",
+      "role": "Open-source multi-agent simulation project incubated by Shanda Group",
+      "based": "China",
+      "bio": "Open-source project started in November 2025 by the developer behind BettaFish; it builds simulated societies of LLM agents from seed documents and received incubation from Shanda Group.",
+      "why": "The most-starred open agent-society simulator of 2026, which makes it the default tool many people now reach for when they want to 'rehearse' public reaction.",
+      "disciplines": [
+        "ml",
+        "social-science"
+      ],
+      "links": {
+        "site": "https://mirofish.ai",
+        "github": "https://github.com/666ghj/MiroFish",
+        "x": "https://x.com/mirofish_ai"
+      },
+      "role_zh": "盛大集团孵化的开源多智能体模拟项目",
+      "bio_zh": "由 BettaFish 的开发者于 2025 年 11 月发起的开源项目，用种子文档构建由大模型智能体组成的模拟社会，获得盛大集团的孵化支持。",
+      "why_zh": "2026 年星标最多的开源智能体社会模拟器，许多人想要“预演”公众反应时首先会用到它。",
+      "based_zh": "中国",
+      "connected_to": [
+        "camel-ai"
+      ],
+      "discovered_via": "camel-ai"
+    },
+    {
+      "id": "xpeng",
+      "name": "XPeng",
+      "name_zh": "小鹏汽车",
+      "kind": "company",
+      "role": "Electric-car maker with an in-house driving world-model team",
+      "based": "Guangzhou, China",
+      "bio": "Guangzhou-based electric-vehicle and robotics company whose driving-AI group builds vision-language-action driving policies and a generative world model (GWM team) to train and test them.",
+      "why": "Its X-World is one of the few published driving world models from a Chinese carmaker, with project-page demos of controllable multi-camera rollouts.",
+      "disciplines": [
+        "robotics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://www.xpeng.com/",
+        "github": "https://github.com/XPENG-Robotics"
+      },
+      "role_zh": "拥有自研驾驶世界模型团队的电动汽车公司",
+      "bio_zh": "总部位于广州的电动汽车与机器人公司，其智能驾驶团队开发视觉-语言-动作驾驶策略，并由 GWM 团队构建用于训练和测试这些策略的生成式世界模型。",
+      "why_zh": "其 X-World 是少数由中国车企公开发表的驾驶世界模型之一，项目页上有可控多摄像头推演的演示。",
+      "based_zh": "中国广州",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "yu-shang",
+      "name": "Yu Shang",
+      "name_zh": "",
+      "kind": "person",
+      "role": "PhD researcher, FIB Lab, Tsinghua University",
+      "based": "Beijing, China",
+      "bio": "Researcher in Yong Li's FIB Lab at Tsinghua University working on embodied world models and their evaluation.",
+      "why": "First author of WorldArena, the benchmark that asks whether robot world models are useful for decisions, not only good-looking.",
+      "disciplines": [
+        "ml",
+        "robotics"
+      ],
+      "links": {
+        "github": "https://github.com/tsinghua-fib-lab/WorldArena"
+      },
+      "role_zh": "清华大学 FIB 实验室博士研究者",
+      "bio_zh": "清华大学李勇老师 FIB 实验室的研究者，研究具身世界模型及其评测。",
+      "why_zh": "WorldArena 的第一作者，这一基准追问机器人世界模型能否真正帮助决策，而不仅仅是画面好看。",
+      "based_zh": "中国北京",
+      "connected_to": [
+        "tsinghua-fib-lab"
+      ],
+      "discovered_via": "agibot"
+    },
+    {
+      "id": "jintao-zhang",
+      "name": "Jintao Zhang",
+      "name_zh": "",
+      "kind": "person",
+      "role": "PhD researcher, Tsinghua University (Jun Zhu's TSAIL group)",
+      "based": "Beijing, China",
+      "bio": "Researcher at Tsinghua University working on efficient attention and inference for generative models; lead author of SageAttention and TurboDiffusion.",
+      "why": "His acceleration work is a large part of why open video models can now run near real time on a single consumer GPU.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "github": "https://github.com/thu-ml"
+      },
+      "role_zh": "清华大学朱军团队（TSAIL）博士研究者",
+      "bio_zh": "清华大学研究者，研究生成模型的高效注意力与推理加速，是 SageAttention 和 TurboDiffusion 的第一作者。",
+      "why_zh": "开源视频模型如今能在单张消费级显卡上接近实时运行，很大程度上得益于他的加速工作。",
+      "based_zh": "中国北京",
+      "connected_to": [],
+      "discovered_via": "tripo-ai"
+    },
+    {
+      "id": "kaiyi-huang",
+      "name": "Kaiyi Huang",
+      "name_zh": "",
+      "kind": "person",
+      "role": "PhD researcher, The University of Hong Kong",
+      "based": "Hong Kong, China",
+      "bio": "Researcher in Xihui Liu's group at the University of Hong Kong working on compositional and interactive video generation.",
+      "why": "First author of Multics, a world model in which up to ten players share one generated world.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://karine-huang.github.io/"
+      },
+      "role_zh": "香港大学博士研究者",
+      "bio_zh": "香港大学刘希慧团队的研究者，研究组合式与交互式视频生成。",
+      "why_zh": "Multics 的第一作者，该世界模型让最多十名玩家共享同一个生成世界。",
+      "based_zh": "中国香港",
+      "connected_to": [
+        "tencent-arc"
+      ],
+      "discovered_via": "tencent-arc"
+    },
+    {
+      "id": "zheng-hui-huang",
+      "name": "Zheng-Hui Huang",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher, Alaya Lab",
+      "based": "Shanghai, China",
+      "bio": "Researcher at Alaya Lab (Alaya Studio) working on world rendering and world models with explicit, executable state.",
+      "why": "First author of the Generative World Renderer and of the Programmable World Model, two systems that keep game state in code and let a video model draw it.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "github": "https://github.com/AlayaLab"
+      },
+      "role_zh": "Alaya Lab 研究者",
+      "bio_zh": "Alaya Lab（Alaya Studio）的研究者，研究世界渲染以及带显式、可执行状态的世界模型。",
+      "why_zh": "Generative World Renderer 与 Programmable World Model 的第一作者，这两个系统都把游戏状态留在代码里，再交给视频模型绘制。",
+      "based_zh": "中国上海",
+      "connected_to": [
+        "alaya-lab"
+      ],
+      "discovered_via": "alaya-lab"
+    },
+    {
+      "id": "murea-labs",
+      "name": "Murea Labs",
+      "name_zh": "",
+      "kind": "lab",
+      "role": "Lab building agent-driven interactive audiovisual worlds",
+      "based": "Location not stated",
+      "bio": "Research lab that released Murea-Inworld in October 2026; its site does not state where it is based, and its demos are in Chinese.",
+      "why": "Pairs a world-state agent with a fast audio-video generator, so turns in a generated story keep their consequences.",
+      "disciplines": [
+        "ml",
+        "games"
+      ],
+      "links": {
+        "site": "https://murea.ai",
+        "github": "https://github.com/Murea-Labs",
+        "huggingface": "https://huggingface.co/MureaLabs"
+      },
+      "role_zh": "构建智能体驱动的交互式音视频世界的实验室",
+      "bio_zh": "2026 年 10 月发布 Murea-Inworld 的研究实验室；官网未说明所在地，演示内容为中文。",
+      "why_zh": "把维护世界状态的智能体与快速音视频生成器结合，使生成故事中的每一轮都能保留后果。",
+      "based_zh": "所在地未公开",
+      "connected_to": [],
+      "discovered_via": "alaya-lab"
+    },
+    {
+      "id": "xuemeng-yang",
+      "name": "Xuemeng Yang",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher, Shanghai AI Laboratory (autonomous driving group)",
+      "based": "Shanghai, China",
+      "bio": "Researcher in Shanghai AI Laboratory's autonomous-driving group (PJLab-ADG) working on generative driving simulation.",
+      "why": "First author of DriveArena, an early closed-loop simulator in which a driving agent sees only generated camera images.",
+      "disciplines": [
+        "robotics",
+        "ml"
+      ],
+      "links": {
+        "github": "https://github.com/PJLab-ADG"
+      },
+      "role_zh": "上海人工智能实验室自动驾驶团队研究者",
+      "bio_zh": "上海人工智能实验室自动驾驶团队（PJLab-ADG）的研究者，研究生成式驾驶仿真。",
+      "why_zh": "DriveArena 的第一作者，这是较早的闭环仿真器之一，驾驶智能体看到的只有生成的相机画面。",
+      "based_zh": "中国上海",
+      "connected_to": [
+        "shanghai-ai-lab"
+      ],
+      "discovered_via": "shanghai-ai-lab"
+    },
+    {
+      "id": "shenyuan-gao",
+      "name": "Shenyuan Gao",
+      "name_zh": "",
+      "kind": "person",
+      "role": "PhD researcher, Hong Kong University of Science and Technology",
+      "based": "Hong Kong, China",
+      "bio": "HKUST researcher working on world models, with OpenDriveLab on driving and with collaborators in the US on latent-action models.",
+      "why": "First author of Vista, an action-controllable driving world model, and AdaWorld, which learns actions from unlabeled video.",
+      "disciplines": [
+        "ml",
+        "robotics"
+      ],
+      "links": {
+        "github": "https://github.com/Little-Podi"
+      },
+      "role_zh": "香港科技大学博士研究者",
+      "bio_zh": "香港科技大学研究者，研究世界模型：与 OpenDriveLab 合作研究驾驶，并与美国的合作者研究潜动作模型。",
+      "why_zh": "可用动作控制的驾驶世界模型 Vista，以及从无标注视频中学习动作的 AdaWorld 的第一作者。",
+      "based_zh": "中国香港",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "yixuan-zhu",
+      "name": "Yixuan Zhu",
+      "name_zh": "",
+      "kind": "person",
+      "role": "PhD researcher, Tsinghua University",
+      "based": "Beijing, China",
+      "bio": "Researcher in Jiwen Lu and Jie Zhou's group at Tsinghua University working on video world models, in collaboration with Kuaishou's Kling team.",
+      "why": "First author of Astra, one interactive world model for driving, robot grasping and camera exploration.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://eternalevan.github.io/",
+        "github": "https://github.com/EternalEvan"
+      },
+      "role_zh": "清华大学博士研究者",
+      "bio_zh": "清华大学鲁继文、周杰团队的研究者，与快手可灵团队合作研究视频世界模型。",
+      "why_zh": "Astra 的第一作者，这是一个可同时用于驾驶、机器人抓取和镜头探索的交互式世界模型。",
+      "based_zh": "中国北京",
+      "connected_to": [
+        "kuaishou"
+      ],
+      "discovered_via": "kuaishou"
+    },
+    {
+      "id": "junyi-chen",
+      "name": "Junyi Chen",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher, Shanghai Jiao Tong University and Shanghai AI Laboratory",
+      "based": "Shanghai, China",
+      "bio": "Researcher at Shanghai Jiao Tong University and Shanghai AI Laboratory working on 4D world models, in the group behind Aether.",
+      "why": "First author of DeepVerse, an open world model that predicts geometry along with frames to stay consistent while it is played.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "github": "https://github.com/SOTAMak1r"
+      },
+      "role_zh": "上海交通大学与上海人工智能实验室研究者",
+      "bio_zh": "上海交通大学与上海人工智能实验室的研究者，研究 4D 世界模型，所在团队也开发了 Aether。",
+      "why_zh": "DeepVerse 的第一作者，这一开源世界模型在生成画面的同时预测几何，以便在游玩中保持一致。",
+      "based_zh": "中国上海",
+      "connected_to": [
+        "shanghai-ai-lab",
+        "haoyi-zhu"
+      ],
+      "discovered_via": "haoyi-zhu"
+    },
+    {
+      "id": "streameval-team",
+      "name": "StreamEval Team",
+      "name_zh": "",
+      "kind": "lab",
+      "role": "Benchmark consortium led by Tsinghua University",
+      "based": "Beijing, China",
+      "bio": "Group that publishes the StreamEval benchmark; the paper lists Tsinghua University first, with NVIDIA, CMU, UC Berkeley, Princeton, NUS and Reactor.",
+      "why": "Runs the first public, monthly-updated benchmark for interactive streaming video: avatars, generated worlds and live editing.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://streameval.ai/",
+        "github": "https://github.com/StreamEval/StreamEval",
+        "huggingface": "https://huggingface.co/datasets/StreamEval/StreamEval"
+      },
+      "role_zh": "由清华大学牵头的评测基准联合团队",
+      "bio_zh": "发布 StreamEval 基准的团队；论文首列清华大学，合作方包括 NVIDIA、卡内基梅隆大学、加州大学伯克利分校、普林斯顿大学、新加坡国立大学和 Reactor。",
+      "why_zh": "运营首个公开、按月更新的交互式流式视频评测基准，覆盖数字人、生成世界与实时编辑。",
+      "based_zh": "中国北京",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "yuanpeng-tu",
+      "name": "Yuanpeng Tu",
+      "name_zh": "",
+      "kind": "person",
+      "role": "PhD researcher, The University of Hong Kong",
+      "based": "Hong Kong, China",
+      "bio": "Researcher in Hengshuang Zhao's group at the University of Hong Kong, working with Alibaba DAMO Academy on video and world generation.",
+      "why": "First author of PlayerOne, a world simulator driven by a person's own body movement.",
+      "disciplines": [
+        "ml",
+        "graphics"
+      ],
+      "links": {
+        "github": "https://github.com/yuanpengtu"
+      },
+      "role_zh": "香港大学博士研究者",
+      "bio_zh": "香港大学赵恒爽团队的研究者，与阿里巴巴达摩院合作研究视频与世界生成。",
+      "why_zh": "PlayerOne 的第一作者，这是一个由人自身身体动作驱动的世界模拟器。",
+      "based_zh": "中国香港",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "ruiqi-wu",
+      "name": "Ruiqi Wu",
+      "name_zh": "",
+      "kind": "person",
+      "role": "PhD researcher, Nankai University",
+      "based": "Tianjin, China",
+      "bio": "Researcher at Nankai University (Ming-Ming Cheng and Chunle Guo's group) working with Meituan on interactive world models.",
+      "why": "First author of Infinite-World, which keeps an interactive world consistent for more than 1,000 frames.",
+      "disciplines": [
+        "ml"
+      ],
+      "links": {
+        "site": "https://rq-wu.github.io/"
+      },
+      "role_zh": "南开大学博士研究者",
+      "bio_zh": "南开大学程明明、郭春乐团队的研究者，与美团合作研究交互式世界模型。",
+      "why_zh": "Infinite-World 的第一作者，该模型能让交互式世界在 1000 多帧内保持一致。",
+      "based_zh": "中国天津",
+      "connected_to": [
+        "meituan"
+      ],
+      "discovered_via": "meituan"
+    },
+    {
+      "id": "shaoting-peng",
+      "name": "Shaoting Peng",
+      "name_zh": "",
+      "kind": "person",
+      "role": "Researcher, Ant Group and University of Illinois Urbana-Champaign",
+      "based": "Hangzhou, China",
+      "bio": "Robotics researcher affiliated with Ant Group and UIUC (Katherine Driggs-Campbell's group) working on learned world simulators for contact-rich manipulation.",
+      "why": "First author of HapticWorld, which adds felt force to an interactive world model.",
+      "disciplines": [
+        "robotics",
+        "ml"
+      ],
+      "links": {
+        "site": "https://shaotingpeng.github.io"
+      },
+      "role_zh": "蚂蚁集团与伊利诺伊大学厄巴纳-香槟分校研究者",
+      "bio_zh": "隶属蚂蚁集团和伊利诺伊大学厄巴纳-香槟分校（Katherine Driggs-Campbell 团队）的机器人研究者，研究面向接触密集型操作的学习式世界模拟器。",
+      "why_zh": "HapticWorld 的第一作者，该工作为交互式世界模型加入了可感受到的力。",
+      "based_zh": "中国杭州",
+      "connected_to": [
+        "ant-group"
+      ],
+      "discovered_via": "ant-group"
+    }
+  ],
+  "works": [
+    {
+      "id": "tencent-hunyuan--hy-nomas",
+      "creator_ids": [
+        "tencent-hunyuan"
+      ],
+      "title": "Hy-Nomas",
+      "year": 2026,
+      "date": "2026-10-23",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text",
+        "camera"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "co-creation",
+        "persistence",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "An open-weight video world model from Tencent Hy that builds a world one segment at a time: between segments a person can type any instruction (add an object, change the style or the scene, describe what a character does) or give a camera path, and the world continues from what was already generated.",
+      "description_zh": "腾讯混元（Hy）开源的视频世界模型，一段一段地生成世界：每段之间，人可以随意输入指令（加入物体、改变风格或场景、描述角色的动作），也可以给出镜头路径，世界会在已生成内容的基础上继续下去。",
+      "idea_en": "Makes changing a generated world mid-session as open-ended as a text prompt, which suits experimenters who need to introduce events on cue without restarting the scene.",
+      "idea_zh": "让人在体验中途改变生成世界变得像写提示词一样自由，适合需要按时机引入事件、又不想重启场景的实验者。",
+      "method": "A segment-autoregressive dual-stream MMDiT conditioned on a Qwen2.5-VL text encoder, camera cross-attention and a persistent KV cache over all earlier segments, distilled to 8 denoising steps and decoded by a fine-tuned PixelUMM decoder; released with Hy-Nomas-Bench (280 cases on multi-turn prompts, navigation and spatial memory) and LoRAs for cinematic and dual-arm robot footage.",
+      "method_zh": "分段自回归的双流 MMDiT，以 Qwen2.5-VL 文本编码器、镜头交叉注意力和覆盖全部历史片段的持久 KV 缓存为条件，蒸馏到 8 步去噪，并用微调的 PixelUMM 解码器解码；同时发布 Hy-Nomas-Bench（280 个测试用例，覆盖多轮提示、导航与空间记忆），以及电影风格和双臂机器人画面的 LoRA。",
+      "specs": "1280 × 720 · 24 fps · 8-step distilled segments · 120 s worlds tested on 8 × B200",
+      "keywords": [
+        "world model",
+        "open weights",
+        "free-form interaction",
+        "multi-turn",
+        "camera control",
+        "KV cache memory",
+        "Reactor"
+      ],
+      "video": {
+        "url": "https://x.com/TencentHunyuan/status/2113676827114053892"
+      },
+      "images": [
+        "https://hy-nomas.hy.tencent.com/gallery/promo-draft-v2-20261023.jpg"
+      ],
+      "source_url": "https://hy-nomas.hy.tencent.com/",
+      "code_url": "https://github.com/Tencent-Hunyuan/Hy-Nomas",
+      "collections": [
+        "trend-china-open",
+        "trend-open-weights",
+        "trend-world-simulators"
+      ]
+    },
+    {
+      "id": "tripo-ai--edenlive",
+      "creator_ids": [
+        "tripo-ai"
+      ],
+      "title": "EdenLive",
+      "year": 2026,
+      "date": "2026-10-20",
+      "field": "world-models",
+      "sub": "game",
+      "also": [
+        "video"
+      ],
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "video",
+        "image",
+        "text"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "control",
+        "perceptual-realism",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "An open real-time generative renderer from VAST (Tripo AI): a game engine, a three.js scene or a coding agent keeps the rules and the world state and outputs a rough proxy video, and EdenLive repaints that stream into detailed frames guided by a target first frame and a text prompt.",
+      "description_zh": "VAST（Tripo AI）开源的实时生成式渲染器：由游戏引擎、three.js 场景或编程智能体负责规则和世界状态，并输出一段粗糙的代理视频，EdenLive 再以目标首帧和文字提示为引导，把这段视频流实时重绘成精细画面。",
+      "idea_en": "Splits a generated world into a state that ordinary code controls and logs, and an appearance that a video model paints, so conditions stay inspectable while the picture looks rendered.",
+      "idea_zh": "把生成世界拆成两部分：状态由普通代码控制和记录，外观交给视频模型绘制，这样实验条件仍可检查，画面却有渲染级的质感。",
+      "method": "Wan2.1-14B and Wan2.2-5B video models post-trained to follow a proxy stream through a DINOv3 vision encoder, with bidirectional and few-step chunk-autoregressive variants; a bundled EdenGolem skill turns a text prompt into a coarse playable three.js game that EdenLive then renders.",
+      "method_zh": "在 Wan2.1-14B 和 Wan2.2-5B 视频模型上后训练，通过 DINOv3 视觉编码器跟随代理视频流，提供双向和少步分块自回归两种版本；附带的 EdenGolem 技能可以把一句文字提示变成粗略的可玩 three.js 游戏，再交给 EdenLive 渲染。",
+      "specs": "≈24.7 fps at 1280 × 704 on one RTX 5090 (5B, developer-reported) · 480p / 720p · minute-scale streams",
+      "keywords": [
+        "generative rendering",
+        "real-time",
+        "proxy video",
+        "game engine",
+        "open weights",
+        "Project Eden",
+        "Wan"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=NbWLqOfP3XI"
+      },
+      "images": [
+        "https://assets.vast-eden.ai/assets/edenlive/cover.jpg"
+      ],
+      "paper": {
+        "url": "https://assets.vast-eden.ai/assets/edenlive/EdenLive-tech-report.pdf",
+        "venue": "Technical report 2026",
+        "title": "EdenLive: Real-Time Generative Rendering from Any Visual Reference"
+      },
+      "source_url": "https://vast-eden.ai/?p=edenlive",
+      "code_url": "https://github.com/VAST-AI-Research/EdenLive",
+      "collections": [
+        "trend-realtime",
+        "trend-open-weights",
+        "trend-china-open"
+      ]
+    },
+    {
+      "id": "agibot--ge-sim-2",
+      "creator_ids": [
+        "agibot"
+      ],
+      "title": "GE-Sim 2.0 (Genie Envisioner World Simulator 2.0)",
+      "year": 2026,
+      "date": "2026-04-10",
+      "field": "world-models",
+      "sub": "simulation",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "action",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "control",
+        "behavioral-plausibility",
+        "situational-reach"
+      ],
+      "kind": "model",
+      "description": "AgiBot's closed-loop video world simulator for robot manipulation: given multi-view history frames and a planned action trajectory it generates the head- and wrist-camera views of what would happen, estimates the arms' joint states, and is meant to score a policy's rollouts before it runs on a real robot.",
+      "description_zh": "智元机器人面向机械臂操作的闭环视频世界模拟器：输入多视角历史画面和计划的动作轨迹，它会生成头部与腕部相机中接下来会发生的画面，估计机械臂的关节状态，用来在策略上真机之前给它的推演打分。",
+      "idea_en": "Treats a generated world as a test bench for an agent's behavior, the robotics counterpart of running a participant model through a simulated scenario before a real study.",
+      "idea_zh": "把生成的世界当作检验智能体行为的试验台，相当于机器人领域里“正式研究前先让被试模型在模拟情境里走一遍”。",
+      "method": "Builds on Genie Envisioner (August 2025): an action-conditioned video diffusion model retrained on large-scale teleoperation, deployment and failure data, with a proprioceptive state expert that decodes joint and gripper states from video latents and a VLM-based World Judge for task scoring; the released checkpoint is a 2B few-step distillation.",
+      "method_zh": "在 Genie Envisioner（2025 年 8 月）基础上，用大规模遥操作、实际部署和失败数据重新训练以动作为条件的视频扩散模型，加入从视频潜变量解码关节和夹爪状态的本体感知专家，以及基于视觉语言模型的 World Judge 任务评分；开源的检查点是 2B 参数的少步蒸馏版本。",
+      "specs": "2B distilled · 25-frame rollout in 2.3 s on one H100 (developer-reported) · head + wrist views",
+      "keywords": [
+        "robot world model",
+        "policy evaluation",
+        "closed-loop simulation",
+        "Genie Envisioner",
+        "WorldArena",
+        "physical AI"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=e3d4idIr1lU"
+      },
+      "images": [
+        "https://huggingface.co/agibot-world/Genie-Envisioner-Sim-v2.0/resolve/main/overview.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2605.27491",
+        "arxiv": "2605.27491",
+        "venue": "arXiv 2026",
+        "title": "GE-Sim 2.0: A Roadmap Towards Comprehensive Closed-loop Video World Simulators for Robotic Manipulation"
+      },
+      "source_url": "https://ge-sim-v2.github.io/",
+      "code_url": "https://github.com/AgibotTech/GE-Sim-V2",
+      "collections": [
+        "trend-physical-ai",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "ace-robotics--kairos-3",
+      "creator_ids": [
+        "ace-robotics",
+        "sensetime"
+      ],
+      "title": "Kairos 3.0 (Kaiwu world model)",
+      "year": 2025,
+      "date": "2025-12-18",
+      "field": "world-models",
+      "sub": "simulation",
+      "modalities": [
+        "flat-video",
+        "behavior"
+      ],
+      "inputs": [
+        "image",
+        "text",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "behavioral-plausibility",
+        "persistence",
+        "control"
+      ],
+      "kind": "model",
+      "description": "The open version of SenseTime's 'Kaiwu' world model, released by its spin-off ACE Robotics: a 4B-parameter model that generates robot and everyday-scene videos from an image and a text prompt and, in the Kairos 3.1 update (July 2026, WAIC), also predicts the robot actions that would produce them.",
+      "description_zh": "商汤“开悟”世界模型的开源版本，由其关联公司大晓机器人发布：一个 4B 参数的模型，可根据一张图和一句文字提示生成机器人与日常场景视频；2026 年 7 月在 WAIC 发布的 Kairos 3.1 还能预测产生这些画面所需的机器人动作。",
+      "idea_en": "A small open world model trained on general video, human behavior and robot data shows how one model can both imagine a scene and act in it, at a size a lab can run on one GPU.",
+      "idea_zh": "一个用通用视频、人类行为和机器人数据训练的小型开源世界模型，展示了同一个模型既能想象场景、又能在其中行动，而且规模小到一个实验室用单卡就能运行。",
+      "method": "A Mixture-of-Transformers model that unifies understanding, video generation and action prediction, trained with a cross-embodiment data curriculum (general video, then human behavior, then real-robot interaction) and a hybrid linear temporal memory (sliding-window, dilated and gated linear attention); technical report June 2026.",
+      "method_zh": "用 Mixture-of-Transformers 统一理解、视频生成和动作预测，按跨本体数据课程训练（先通用视频，再人类行为，最后真实机器人交互），并采用混合线性时序记忆（滑动窗口、空洞滑动窗口与门控线性注意力）；技术报告于 2026 年 6 月发布。",
+      "specs": "4B · 480p and 720p · 3.0: 2025-12-18 · 3.1 (world-action model): 2026-07-02",
+      "keywords": [
+        "world model",
+        "world-action model",
+        "Kaiwu",
+        "开悟",
+        "SenseNova",
+        "embodied AI",
+        "open weights",
+        "third-party video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=ESv5TJXpl1k"
+      },
+      "images": [
+        "https://raw.githubusercontent.com/DAXIAORobotics/kairos/main/assets/videos/physical-1.gif",
+        "https://raw.githubusercontent.com/DAXIAORobotics/kairos/main/assets/framework_new_v1.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2606.16533",
+        "arxiv": "2606.16533",
+        "venue": "arXiv 2026",
+        "title": "Kairos: A Regret-Aware Native World-Action Model Stack for Physical AI"
+      },
+      "source_url": "https://github.com/DAXIAORobotics/kairos",
+      "code_url": "https://huggingface.co/ACERobotics",
+      "collections": [
+        "trend-physical-ai",
+        "trend-open-weights",
+        "trend-china-open"
+      ]
+    },
+    {
+      "id": "chenxu-zhou--realme",
+      "creator_ids": [
+        "chenxu-zhou",
+        "zju3dv",
+        "4dv-ai"
+      ],
+      "title": "RealMe",
+      "year": 2026,
+      "date": "2026-10-21",
+      "field": "spatial-4d",
+      "sub": "volumetric",
+      "modalities": [
+        "dynamic-4d"
+      ],
+      "inputs": [
+        "multi-view",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "situational-reach"
+      ],
+      "kind": "research",
+      "description": "A method from Zhejiang University and 4DV.ai that turns a sparse, low-resolution (720p) multi-view capture of a person into 2K volumetric video that can be viewed from new angles, with face, hair and clothing detail restored by a video diffusion model.",
+      "description_zh": "浙江大学与 4DV.ai 提出的方法：把对一个人的稀疏、低分辨率（720p）多视角拍摄，变成可以从新角度观看的 2K 体积视频，面部、头发和衣物细节由视频扩散模型补回。",
+      "idea_en": "Lowers the rig needed for photoreal volumetric actors from a studio dome to a few cameras, which makes recorded confederates for immersive studies cheaper to produce.",
+      "idea_zh": "把拍摄逼真体积演员所需的设备，从影棚球形阵列降到几台相机，让沉浸式研究里预先录制的“同谋者”演员更便宜。",
+      "method": "Builds a coarse 4D representation, renders auxiliary novel-view and crop videos from it, enhances them with a high-resolution video DiT via ControlNet, layout-aware positional embeddings and factorized spatio-temporal attention across views, then re-optimizes the 4D representation; introduces the RealVV multi-view dataset.",
+      "method_zh": "先建立粗略的 4D 表示，从中渲染新视角与裁剪的辅助视频，经 ControlNet、布局感知位置编码和跨视角的分解时空注意力，由高分辨率视频 DiT 增强，再用增强结果重新优化 4D 表示；同时发布 RealVV 多视角数据集。",
+      "specs": "720p sparse multi-view input → 2K 4D-consistent volumetric video",
+      "keywords": [
+        "volumetric video",
+        "4D reconstruction",
+        "video diffusion",
+        "sparse capture",
+        "digital human",
+        "RealVV"
+      ],
+      "video": {
+        "url": "https://raw.githubusercontent.com/cxzhou35/projects/main/realme/assets/videos/demo-held.mp4"
+      },
+      "images": [
+        "https://raw.githubusercontent.com/cxzhou35/projects/main/realme/assets/images/teaser.webp"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2610.30023",
+        "arxiv": "2610.30023",
+        "venue": "SIGGRAPH Asia 2026",
+        "title": "RealMe: Immersive Volumetric Video from Minimal Captures"
+      },
+      "source_url": "https://zju3dv.github.io/realme/",
+      "code_url": "https://github.com/zju3dv/RealMe",
+      "collections": [
+        "siggraph",
+        "trend-4d-media"
+      ]
+    },
+    {
+      "id": "stepfun--step1x-3d",
+      "creator_ids": [
+        "stepfun"
+      ],
+      "title": "Step1X-3D",
+      "year": 2025,
+      "date": "2025-05-13",
+      "field": "assets",
+      "sub": "objects",
+      "modalities": [
+        "mesh"
+      ],
+      "inputs": [
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "authoring",
+        "control"
+      ],
+      "kind": "model",
+      "description": "StepFun's fully open image-to-3D asset generator: a single image becomes a watertight textured mesh, and the release includes the weights, training code and a curated 2-million-asset training set.",
+      "description_zh": "阶跃星辰完全开源的图生 3D 资产生成器：一张图片即可生成封闭的带纹理网格，开源内容包括权重、训练代码和精选的 200 万个资产训练集。",
+      "idea_en": "Releases the data and training code with the weights, so a lab can retrain or adapt a 3D asset generator instead of only calling it, and reuse 2D LoRA styles on 3D output.",
+      "idea_zh": "连同数据和训练代码一起开源，实验室可以重新训练或改造 3D 资产生成器，而不只是调用它，还能把 2D 的 LoRA 风格直接用到 3D 输出上。",
+      "method": "Two stages: a perceiver-based VAE-DiT generates TSDF geometry with sharp-edge sampling, then an SD-XL-based multi-view texture module with geometry conditioning and latent-space synchronization paints it; trained on 2M assets filtered from more than 5M.",
+      "method_zh": "分两个阶段：先由基于 Perceiver 的 VAE-DiT 生成 TSDF 几何，并用锐边采样保留细节；再由基于 SD-XL、带几何条件和潜空间同步的多视角纹理模块上色；训练数据是从 500 多万个资产中筛选出的 200 万个。",
+      "specs": "2M curated training assets · TSDF watertight geometry + PBR-ready textures",
+      "keywords": [
+        "image-to-3D",
+        "open weights",
+        "open data",
+        "textured mesh",
+        "VAE-DiT",
+        "LoRA transfer"
+      ],
+      "video": {
+        "url": "https://stepfun-ai.github.io/Step1X-3D/assets/step1x-3d-video.mp4"
+      },
+      "images": [
+        "https://stepfun-ai.github.io/Step1X-3D/assets/images/framework.jpeg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2505.07747",
+        "arxiv": "2505.07747",
+        "venue": "arXiv 2025",
+        "title": "Step1X-3D: Towards High-Fidelity and Controllable Generation of Textured 3D Assets"
+      },
+      "source_url": "https://stepfun-ai.github.io/Step1X-3D/",
+      "code_url": "https://github.com/stepfun-ai/Step1X-3D",
+      "collections": [
+        "trend-open-weights",
+        "trend-china-open"
+      ]
+    },
+    {
+      "id": "mirofish--mirofish",
+      "creator_ids": [
+        "mirofish"
+      ],
+      "title": "MiroFish",
+      "year": 2025,
+      "date": "2025-12-22",
+      "field": "agents",
+      "sub": "generative-agents",
+      "also": [
+        "behavioral"
+      ],
+      "modalities": [
+        "behavior",
+        "dialogue"
+      ],
+      "inputs": [
+        "text",
+        "spec"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "diversity",
+        "situational-reach",
+        "control"
+      ],
+      "kind": "open-source",
+      "description": "An open-source 'swarm intelligence' engine: a user uploads seed material such as a news report, a policy draft or a novel, MiroFish builds a simulated society of thousands of LLM agents with personas and memories on two simulated social platforms, runs it, and returns a report; the user can then chat with any agent in the simulated world.",
+      "description_zh": "一个开源的“群体智能”引擎：用户上传新闻报道、政策草案或小说等种子材料，MiroFish 会在两个模拟社交平台上构建由数千个带人设和记忆的大模型智能体组成的模拟社会，运行后给出报告；之后用户还可以与模拟世界中的任何一个智能体对话。",
+      "idea_en": "Shows how cheaply a populated social situation can now be spun up from a document, and how easily its output is read as a forecast: the developers' 'predict anything' claim has not been validated.",
+      "idea_zh": "说明了现在从一份文档就能多么廉价地搭起一个有众多人物的社会情境，也说明它的输出多么容易被当成预测：开发者“预测万物”的说法并未经过验证。",
+      "method": "Builds a GraphRAG knowledge graph from the seed material, generates agent personas and individual and collective memories, runs a parallel dual-platform social-media simulation on CAMEL-AI's OASIS engine with temporal memory updates, then a report agent with tools queries the post-simulation world.",
+      "method_zh": "先从种子材料构建 GraphRAG 知识图谱，生成智能体人设以及个体和集体记忆，再基于 CAMEL-AI 的 OASIS 引擎并行运行双平台社交媒体模拟并动态更新时序记忆，最后由带工具的报告智能体查询模拟结束后的世界。",
+      "specs": "v0.1.0 2025-12-22 · ≈82k GitHub stars by October 2026 · AGPL-3.0",
+      "keywords": [
+        "agent society",
+        "social simulation",
+        "swarm intelligence",
+        "OASIS",
+        "GraphRAG",
+        "prediction claims",
+        "third-party video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=QmdCkaTM1P4"
+      },
+      "images": [
+        "https://raw.githubusercontent.com/666ghj/MiroFish/main/static/image/Screenshot/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE1.png",
+        "https://raw.githubusercontent.com/666ghj/MiroFish/main/static/image/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E6%A8%A1%E6%8B%9F%E6%8E%A8%E6%BC%94%E5%B0%81%E9%9D%A2.jpg"
+      ],
+      "source_url": "https://github.com/666ghj/MiroFish",
+      "code_url": "https://github.com/666ghj/MiroFish",
+      "collections": [
+        "trend-genai-behavioral"
+      ]
+    },
+    {
+      "id": "manycore--aholo",
+      "creator_ids": [
+        "manycore"
+      ],
+      "title": "Aholo",
+      "year": 2026,
+      "date": "2026-10-14",
+      "field": "worlds-3d",
+      "sub": "image-to-scene",
+      "also": [
+        "assets",
+        "spatial-4d"
+      ],
+      "modalities": [
+        "scene-3d",
+        "mesh",
+        "splats"
+      ],
+      "inputs": [
+        "text",
+        "image",
+        "multi-view"
+      ],
+      "timing": "offline",
+      "access": [
+        "product",
+        "api"
+      ],
+      "lenses": [
+        "authoring",
+        "situational-reach"
+      ],
+      "kind": "platform",
+      "description": "Manycore's international AI 3D platform, which puts three tools in one place: Lux3D generates PBR-textured 3D assets from text or an image, SpatialGen turns text or an image into an explorable indoor space, and Reality reconstructs objects and rooms from real captures as Gaussian splats; all three can be called through an API or an agent skill.",
+      "description_zh": "群核科技面向海外的 AI 3D 平台，把三种工具放在一起：Lux3D 用文字或图片生成带 PBR 纹理的 3D 资产，SpatialGen 把文字或图片变成可漫游的室内空间，Reality 把真实拍摄的物体和房间重建为高斯泼溅；三者都可以通过 API 或智能体技能调用。",
+      "idea_en": "Puts generated objects, generated rooms and scanned real rooms behind one interface, so a study environment can mix invented and captured parts.",
+      "idea_zh": "把生成的物体、生成的房间和扫描的真实房间放进同一个界面，研究环境就能把虚构部分和真实拍摄的部分混合在一起。",
+      "method": "Product layer over Manycore's own models (Lux3D image-to-3D, the SpatialGen layout-to-scene generator) and a 3DGS reconstruction service, exposed through web apps, an OpenAPI and MCP skill for coding agents.",
+      "method_zh": "建立在群核自研模型（Lux3D 图生 3D、SpatialGen 布局到场景生成器）和 3DGS 重建服务之上的产品层，通过网页应用、OpenAPI 以及面向编程智能体的 MCP 技能对外提供。",
+      "keywords": [
+        "3D generation platform",
+        "Lux3D",
+        "SpatialGen",
+        "3DGS reconstruction",
+        "API",
+        "MCP skill",
+        "Kujiale"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=woLIAHKo6lY"
+      },
+      "source_url": "https://www.aholo.ai/",
+      "api_url": "https://labs.aholo.ai/api-docs/en/api-reference",
+      "code_url": "https://github.com/manycore-research/Aholo-Lux3D",
+      "collections": [
+        "trend-explicit-3d"
+      ]
+    },
+    {
+      "id": "xpeng--x-world",
+      "creator_ids": [
+        "xpeng"
+      ],
+      "title": "X-World",
+      "year": 2026,
+      "date": "2026-03-20",
+      "field": "world-models",
+      "sub": "simulation",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "action",
+        "video",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "situational-reach",
+        "control",
+        "diversity"
+      ],
+      "kind": "research",
+      "description": "XPeng's action-conditioned driving world model: from the history of a car's seven synchronized cameras and a planned action sequence it generates the next tens of seconds of 360° camera video, and lets engineers steer other vehicles, edit road elements and change weather, time of day or region with a text prompt.",
+      "description_zh": "小鹏汽车以动作为条件的驾驶世界模型：根据车上 7 个同步摄像头的历史画面和计划的动作序列，生成接下来几十秒的 360° 摄像头视频，工程师还可以操控其他车辆、修改道路元素，并用一句文字改变天气、时间或地区。",
+      "idea_en": "A carmaker generating rare traffic situations on demand, with other road users under explicit control, is the industrial version of staging a hazardous scenario as a controlled condition.",
+      "idea_zh": "车企按需生成罕见交通情境、并明确控制其他道路使用者的行为，这正是“把危险情境作为受控条件来布置”的工业版本。",
+      "method": "A multi-view latent video generator conditioned on camera history, future ego actions, optional traffic-agent and static-map controls and text appearance prompts, built for cross-view geometric consistency and long-horizon stability, and used to evaluate XPeng's VLA driving policies.",
+      "method_zh": "多视角潜空间视频生成器，以摄像头历史、未来自车动作、可选的交通参与者与静态地图控制，以及描述外观的文字提示为条件，着重跨视角几何一致性和长时程稳定性，用于评测小鹏的 VLA 驾驶策略。",
+      "specs": "7 cameras · 360° surround view · tens of seconds per rollout (developer-reported)",
+      "keywords": [
+        "driving world model",
+        "multi-camera",
+        "action-conditioned",
+        "policy evaluation",
+        "VLA",
+        "XPeng GWM"
+      ],
+      "video": {
+        "url": "https://x-world-1.github.io/video/001.mp4"
+      },
+      "images": [
+        "https://x-world-1.github.io/img/htwork.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2603.19979",
+        "arxiv": "2603.19979",
+        "venue": "Technical report 2026",
+        "title": "X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving"
+      },
+      "source_url": "https://x-world-1.github.io/",
+      "collections": [
+        "trend-physical-ai"
+      ]
+    },
+    {
+      "id": "yu-shang--worldarena",
+      "creator_ids": [
+        "yu-shang",
+        "tsinghua-fib-lab"
+      ],
+      "title": "WorldArena",
+      "year": 2026,
+      "date": "2026-02-09",
+      "field": "infra",
+      "sub": "benchmarks",
+      "also": [
+        "world-models"
+      ],
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "action",
+        "image",
+        "text"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "control",
+        "behavioral-plausibility"
+      ],
+      "kind": "dataset",
+      "description": "A public benchmark and leaderboard for embodied world models that scores both how real their generated robot videos look (16 metrics) and whether they are useful as data engines, policy evaluators and action planners; WorldArena 2.0 (May 2026) adds touch and other modalities and real-robot platforms, and it hosted a CVPR 2026 challenge.",
+      "description_zh": "一个面向具身世界模型的公开基准和排行榜，既评估生成的机器人视频看起来有多真实（16 项指标），也评估它们作为数据引擎、策略评估器和动作规划器是否有用；2026 年 5 月的 WorldArena 2.0 加入了触觉等模态和真实机器人平台，并举办了 CVPR 2026 挑战赛。",
+      "idea_en": "Finds a 'perception-functionality gap': world models whose videos look best are not the ones that help an agent decide, a warning for anyone choosing a world model by its demo reel.",
+      "idea_zh": "发现了“感知与功能的落差”：视频看起来最好的世界模型，并不是最能帮助智能体做决策的那个，这提醒人们不要凭演示视频挑选世界模型。",
+      "method": "Evaluates 14 world models on six sub-dimensions of video quality, three downstream embodied uses (synthetic training data, policy evaluation, planning) and human ratings, combined into a single EWMScore; leaderboard at world-arena.ai.",
+      "method_zh": "从视频质量的六个子维度、三种下游具身用途（合成训练数据、策略评估、规划）和人工评分三方面评测 14 个世界模型，并合成为单一的 EWMScore 指标；排行榜发布在 world-arena.ai。",
+      "specs": "14 models · 16 perception metrics · 3 functional tasks · EWMScore",
+      "keywords": [
+        "benchmark",
+        "embodied world model",
+        "leaderboard",
+        "EWMScore",
+        "CVPR 2026 challenge",
+        "physical AI"
+      ],
+      "video": {
+        "url": "https://world-arena.ai/assets/videos/realworld/pour_success.mp4"
+      },
+      "images": [
+        "https://world-arena.ai/assets_common/photos/policy_success.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2602.08971",
+        "arxiv": "2602.08971",
+        "venue": "arXiv 2026",
+        "title": "WorldArena: A Unified Benchmark for Evaluating Perception and Functional Utility of Embodied World Models"
+      },
+      "source_url": "https://world-arena.ai/",
+      "code_url": "https://github.com/tsinghua-fib-lab/WorldArena",
+      "collections": [
+        "trend-physical-ai"
+      ]
+    },
+    {
+      "id": "tencent-hunyuan--hunyuan-gamecraft-2",
+      "creator_ids": [
+        "tencent-hunyuan"
+      ],
+      "title": "Hunyuan-GameCraft-2",
+      "year": 2025,
+      "date": "2025-11-28",
+      "field": "world-models",
+      "sub": "game",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text",
+        "action",
+        "image"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research",
+        "product"
+      ],
+      "lenses": [
+        "reactivity",
+        "co-creation"
+      ],
+      "kind": "model",
+      "description": "The second Hunyuan-GameCraft game world model, which adds written instructions to keyboard and mouse control: while moving through a generated game scene the player can type 'open the door', 'draw a torch' or 'trigger an explosion', or make it snow or bring in a car, and the video continues with that event; an online demo runs on Tencent's Hunyuan Game site.",
+      "description_zh": "第二代混元 GameCraft 游戏世界模型，在键盘和鼠标控制之外加入了文字指令：玩家在生成的游戏场景中移动时，可以输入“开门”“拔出火把”“引发爆炸”，或让天空下雪、开来一辆车，视频会带着这个事件继续生成；腾讯混元游戏网站上提供在线演示。",
+      "idea_en": "Turns events in a generated world into typed commands, the step that lets an experimenter or a director agent inject incidents rather than only move the camera.",
+      "idea_zh": "把生成世界中的事件变成可以输入的指令，这一步让实验者或“导演”智能体能够插入突发事件，而不只是移动镜头。",
+      "method": "A 14B image-to-video Mixture-of-Experts model with a text-driven interaction-injection mechanism for camera, character and environment control, trained on interactive video data that an automated pipeline extracts from unstructured text-video pairs; evaluated on the InterBench interaction benchmark. Unlike GameCraft 1.0, no weights were released as of October 2026.",
+      "method_zh": "基于 14B 参数的图生视频混合专家（MoE）模型，通过文字驱动的交互注入机制控制镜头、角色和环境；训练数据是自动管线从非结构化文本-视频对中提取的“交互视频数据”；在交互基准 InterBench 上评测。与 GameCraft 1.0 不同，截至 2026 年 10 月未开源权重。",
+      "specs": "14B MoE image-to-video backbone · 16 fps real-time interactive generation with KV-recache for multi-turn inference (developer-reported)",
+      "keywords": [
+        "game world model",
+        "instruction-following",
+        "text-triggered events",
+        "InterBench",
+        "Hunyuan Game"
+      ],
+      "video": {
+        "url": "https://hunyuan-gamecraft-2.github.io/asserts/videos/teaser/explosion.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2511.23429",
+        "arxiv": "2511.23429",
+        "venue": "Technical report 2025",
+        "title": "Hunyuan-GameCraft-2: Instruction-following Interactive Game World Model"
+      },
+      "source_url": "https://hunyuan-gamecraft-2.github.io/",
+      "collections": [
+        "trend-world-simulators",
+        "trend-realtime"
+      ]
+    },
+    {
+      "id": "jintao-zhang--turbodiffusion",
+      "creator_ids": [
+        "jintao-zhang"
+      ],
+      "title": "TurboDiffusion",
+      "year": 2025,
+      "date": "2025-12-18",
+      "field": "infra",
+      "sub": "realtime-stack",
+      "also": [
+        "video"
+      ],
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "authoring"
+      ],
+      "kind": "open-source",
+      "description": "An open acceleration framework from Tsinghua University and UC Berkeley that makes open video models such as Wan 2.1 and 2.2 generate 100 to 200 times faster on a single GPU; the authors' example is a 5-second 480p clip that drops from 184 s to 1.9 s on an RTX 5090.",
+      "description_zh": "清华大学与加州大学伯克利分校开源的加速框架，让 Wan 2.1、2.2 等开源视频模型在单张显卡上的生成速度提高 100 到 200 倍；作者给出的例子是：一段 5 秒的 480p 视频在 RTX 5090 上的生成时间从 184 秒降到 1.9 秒。",
+      "idea_en": "When a clip takes two seconds instead of three minutes, generated video stops being a pre-rendered stimulus and starts to become something a session can produce on demand.",
+      "idea_zh": "当一段视频只需两秒而不是三分钟时，生成视频就不再只能是预先渲染好的刺激材料，而开始可以在实验过程中按需生成。",
+      "method": "Combines low-bit SageAttention and trainable sparse-linear attention (SLA), rCM timestep distillation and W8A8 quantization of weights and activations, released as distilled TurboWan checkpoints for Wan2.1 T2V (1.3B, 14B) and Wan2.2 I2V A14B.",
+      "method_zh": "结合低比特 SageAttention、可训练的稀疏线性注意力（SLA）、rCM 时间步蒸馏，以及权重和激活的 W8A8 量化，并以蒸馏后的 TurboWan 检查点形式发布，覆盖 Wan2.1 文生视频（1.3B、14B）和 Wan2.2 图生视频 A14B。",
+      "specs": "100–200× end-to-end speed-up · 5 s 480p clip: 184 s → 1.9 s on one RTX 5090 (developer-reported)",
+      "keywords": [
+        "inference acceleration",
+        "SageAttention",
+        "sparse attention",
+        "distillation",
+        "quantization",
+        "Wan",
+        "third-party video"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=lfwkPJQI0RQ"
+      },
+      "images": [
+        "https://raw.githubusercontent.com/thu-ml/TurboDiffusion/main/assets/TurboDiffusion_speedup.png",
+        "https://raw.githubusercontent.com/thu-ml/TurboDiffusion/main/assets/videos/turbodiffusion/1.3B/11.gif"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2512.16093",
+        "arxiv": "2512.16093",
+        "venue": "arXiv 2025",
+        "title": "TurboDiffusion: Accelerating Video Diffusion Models by 100-200 Times"
+      },
+      "source_url": "https://github.com/thu-ml/TurboDiffusion",
+      "code_url": "https://github.com/thu-ml/TurboDiffusion",
+      "collections": [
+        "trend-realtime",
+        "trend-cost",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "xinyu-wang-thu--liveact",
+      "creator_ids": [
+        "xinyu-wang-thu",
+        "kuaishou"
+      ],
+      "title": "LiveAct",
+      "year": 2026,
+      "date": "2026-10-21",
+      "field": "world-models",
+      "sub": "game",
+      "also": [
+        "agents"
+      ],
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "reactivity",
+        "co-creation",
+        "control"
+      ],
+      "kind": "research",
+      "description": "A streaming world model from Tsinghua University and Kuaishou's Kling team in which several agents act at once: each player's buttons (Street Fighter II, Bomberman, a racing game) or each robot's joint commands drive their own character in one shared generated video.",
+      "description_zh": "清华大学与快手可灵团队提出的流式世界模型，可以让多个智能体同时行动：每个玩家的按键（《街头霸王 II》、炸弹人、赛车游戏）或每台机器人的关节指令，各自驱动同一段生成视频中属于自己的角色。",
+      "idea_en": "Lets two people, or a person and an agent, act on the same generated scene at once, with each control stream bound to its own character, which is what a social or competitive situation needs.",
+      "idea_zh": "让两个人、或一个人和一个智能体同时作用于同一个生成场景，而且每路控制只驱动自己的角色，这正是社交或竞争情境所需要的。",
+      "method": "A heterogeneous action interface: language-driven spatial gates and agent-specific attention bind each action stream to its on-screen agent, and schema-guided adaptation describes each control dimension in language; the bidirectional teacher is distilled into a blockwise-causal streaming generator with rollout-aware distribution matching.",
+      "method_zh": "采用异构动作接口：用语言驱动的空间门控和逐智能体注意力，把每路动作流绑定到画面中对应的角色，并用语言描述每个控制维度的含义；再把双向教师模型通过感知推演的分布匹配蒸馏成分块因果的流式生成器。",
+      "specs": "17.7 fps at 512×448 on one GPU · 4 denoising steps per chunk · 4 games + 2 multi-robot sources (developer-reported)",
+      "keywords": [
+        "multi-agent world model",
+        "real-time",
+        "streaming",
+        "game",
+        "multi-robot",
+        "Kling"
+      ],
+      "video": {
+        "url": "https://liveact-ai.github.io/static/video/long_gen_sf.mp4"
+      },
+      "images": [
+        "https://liveact-ai.github.io/static/img/teaser.webp"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2610.29408",
+        "arxiv": "2610.29408",
+        "venue": "arXiv 2026",
+        "title": "LiveAct: Towards Real-Time Multi-Agent World Models with Heterogeneous Action Interfaces"
+      },
+      "source_url": "https://liveact-ai.github.io/",
+      "collections": [
+        "trend-realtime",
+        "trend-agents-in-worlds"
+      ]
+    },
+    {
+      "id": "kaiyi-huang--multics",
+      "creator_ids": [
+        "kaiyi-huang",
+        "tencent-arc"
+      ],
+      "title": "Multics",
+      "year": 2026,
+      "date": "2026-10-12",
+      "field": "world-models",
+      "sub": "game",
+      "also": [
+        "agents"
+      ],
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action",
+        "camera"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "co-creation",
+        "reactivity"
+      ],
+      "kind": "research",
+      "description": "A multi-player world model from the University of Hong Kong and Tencent ARC that generates a separate video view for each of up to ten players in one shared world, so that what one player does shows up consistently in the others' views.",
+      "description_zh": "香港大学与腾讯 ARC 实验室提出的多人世界模型：在同一个共享世界里，为最多十名玩家各生成一路视角视频，一名玩家做了什么，会一致地出现在其他玩家的画面中。",
+      "idea_en": "Scales a shared generated world past two players, the size at which group situations such as crowds, teams or bystanders become possible.",
+      "idea_zh": "把共享的生成世界扩展到两人以上，达到人群、团队、旁观者这类群体情境开始成为可能的规模。",
+      "method": "Hierarchical communication at player, group and global level, with groups formed dynamically from players' recent positions and camera poses; at 10 players it cuts DiT latency by 61.9% against fully connected cross-player attention (developer-reported). Code and weights released.",
+      "method_zh": "在玩家、小组和全局三个层级上进行分层通信，小组根据玩家最近的位置和镜头位姿动态划分；在 10 名玩家时，相比全连接的跨玩家注意力，DiT 延迟降低 61.9%（开发者报告）。代码和权重已开源。",
+      "specs": "4–10 players · 640×352 per player on one GPU · −61.9% DiT latency at 10 players vs fully connected (developer-reported)",
+      "keywords": [
+        "multiplayer world model",
+        "shared world",
+        "hierarchical communication",
+        "open weights"
+      ],
+      "video": {
+        "url": "https://karine-huang.github.io/Multics/assets/videos/consistency-103-v3.mp4"
+      },
+      "images": [
+        "https://karine-huang.github.io/Multics/assets/features-10/scene.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2610.17201",
+        "arxiv": "2610.17201",
+        "venue": "arXiv 2026",
+        "title": "Multics: Generative Multi-Player World Model with Hierarchical Communication"
+      },
+      "source_url": "https://karine-huang.github.io/Multics/",
+      "code_url": "https://github.com/TencentARC/Multics",
+      "collections": [
+        "trend-agents-in-worlds",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "zheng-hui-huang--alayarenderer",
+      "creator_ids": [
+        "zheng-hui-huang",
+        "alaya-lab"
+      ],
+      "title": "AlayaRenderer (Generative World Renderer) and AlayaRenderer-Flash",
+      "year": 2026,
+      "date": "2026-04-02",
+      "field": "world-models",
+      "sub": "game",
+      "also": [
+        "video"
+      ],
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "spec",
+        "text",
+        "action"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "control",
+        "perceptual-realism",
+        "authoring"
+      ],
+      "kind": "model",
+      "description": "Alaya Lab's generative world renderer: a game or physics engine runs the world and exports per-frame G-buffers (depth, normals, albedo, metallic, roughness), and the model paints them into frames whose style can be changed by text; the July 2026 Flash version renders a live, playable SuperTuxKart session at playback rate.",
+      "description_zh": "Alaya Lab 的生成式世界渲染器：由游戏或物理引擎运行世界，并逐帧导出 G-buffer（深度、法线、反照率、金属度、粗糙度），模型再把它们画成画面，风格可以用文字改变；2026 年 7 月的 Flash 版能以播放速率渲染一局可实时游玩的 SuperTuxKart。",
+      "idea_en": "Keeps physics, layout and rules exactly as an engine computes them and lets a model change only how the world looks, so a scene can be restyled without changing the conditions being tested.",
+      "idea_zh": "物理、布局和规则完全保持引擎算出的样子，模型只改变世界的外观，这样场景可以换风格，而被测试的条件不变。",
+      "method": "A video diffusion renderer trained on more than 4M frames of 720p, 30 fps footage with synchronized G-buffers extracted from Cyberpunk 2077 and Black Myth: Wukong by a capture toolkit; Flash reformulates it as a few-step autoregressive streaming model with distilled codecs, from 0.56 to 31.54 fps (developer-reported).",
+      "method_zh": "视频扩散渲染器，训练数据是用采集工具从《赛博朋克 2077》和《黑神话：悟空》中提取的 400 多万帧 720p、30 fps 画面及同步的 G-buffer；Flash 版把它改写为少步自回归流式模型，并配以蒸馏编解码器，速度从 0.56 fps 提升到 31.54 fps（开发者报告）。",
+      "specs": "Flash: 31.54 fps vs 0.56 fps for the original renderer (developer-reported) · training data 4M+ frames, 720p, 30 fps, 5 G-buffer channels",
+      "keywords": [
+        "generative rendering",
+        "G-buffer",
+        "neural renderer",
+        "real-time",
+        "game engine",
+        "restyling",
+        "Alaya Studio"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=N5CQ5WWIA_8"
+      },
+      "images": [
+        "https://alaya-studio.github.io/renderer/static/images/og-image.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2604.02329",
+        "arxiv": "2604.02329",
+        "venue": "arXiv 2026",
+        "title": "Generative World Renderer"
+      },
+      "source_url": "https://alaya-renderer-flash.alayalab.ai/",
+      "code_url": "https://github.com/AlayaLab/AlayaRenderer-Flash",
+      "collections": [
+        "trend-realtime",
+        "trend-china-open",
+        "trend-world-simulators"
+      ]
+    },
+    {
+      "id": "zheng-hui-huang--programmable-world-model",
+      "creator_ids": [
+        "zheng-hui-huang",
+        "alaya-lab"
+      ],
+      "title": "Programmable World Model",
+      "year": 2026,
+      "date": "2026-09-09",
+      "field": "world-models",
+      "sub": "memory",
+      "also": [
+        "agents"
+      ],
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "text",
+        "action",
+        "spec"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "control",
+        "persistence",
+        "authoring"
+      ],
+      "kind": "research",
+      "description": "A world model in which an LLM agent turns a reference image and a plain-language description into an executable program of entities and rules; a small engine runs that program as players press WASD, so off-screen characters, health and triggered events persist, and a video model draws each view.",
+      "description_zh": "一种世界模型：大模型智能体把一张参考图和一段日常语言描述，转写成由实体和规则构成的可执行程序；玩家按 WASD 时由一个小引擎运行这个程序，因此画面外的角色、生命值和触发的事件都会保留，每个视角则由视频模型绘制。",
+      "idea_en": "Puts the facts of a generated scenario (who is where, who is hurt, what happens next) into code that can be read, edited and logged, which is the kind of experimental control generated worlds have lacked.",
+      "idea_zh": "把生成情境中的事实（谁在哪里、谁受了伤、接下来发生什么）放进可以读取、编辑和记录的代码里，这正是生成世界一直缺少的实验控制。",
+      "method": "A state executor maintains an explicit global world state including off-screen entities and non-visual attributes; a deterministic compiler projects state-augmented 3D oriented bounding boxes and the camera path into pixel-aligned conditions for a pretrained video model; evaluated on CombatStateBench, followed by the PROWBench benchmark (2026-10-11).",
+      "method_zh": "由状态执行器维护显式的全局世界状态，包括画面外的实体和非视觉属性；确定性编译器把带状态的三维有向包围盒和镜头路径投影成像素对齐的条件，交给预训练视频模型渲染；在 CombatStateBench 上评测，随后又发布了 PROWBench 基准（2026-10-11）。",
+      "keywords": [
+        "explicit world state",
+        "executable rules",
+        "LLM agent",
+        "off-screen persistence",
+        "generative rendering",
+        "PROWBench"
+      ],
+      "video": {
+        "url": "https://x.com/alayastd/status/2097610481469190317"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2609.10540",
+        "arxiv": "2609.10540",
+        "venue": "arXiv 2026",
+        "title": "Programmable World Model"
+      },
+      "source_url": "https://alaya-lab.github.io/pwm",
+      "code_url": "https://github.com/AlayaLab/pwm",
+      "collections": [
+        "trend-agents-in-worlds",
+        "trend-world-simulators"
+      ]
+    },
+    {
+      "id": "murea-labs--murea-inworld",
+      "creator_ids": [
+        "murea-labs"
+      ],
+      "title": "Murea-Inworld",
+      "year": 2026,
+      "date": "2026-10-13",
+      "field": "world-models",
+      "sub": "general",
+      "also": [
+        "agents",
+        "audio"
+      ],
+      "modalities": [
+        "flat-video",
+        "audio",
+        "dialogue"
+      ],
+      "inputs": [
+        "text"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "co-creation",
+        "behavioral-plausibility"
+      ],
+      "kind": "model",
+      "description": "An interactive audiovisual story world: the player types what happens next, a world agent (Murea-Mind) decides how the story moves and keeps track of characters, objects, places and plot, and a fast generator renders the turn as a video clip with sound and spoken lines; histories can branch and several players can act in the same shot.",
+      "description_zh": "一个交互式音视频故事世界：玩家输入接下来发生什么，世界智能体 Murea-Mind 决定故事如何推进，并记录角色、物体、地点和剧情进度，再由快速生成器把这一轮渲染成带声音和台词的视频片段；历史可以分支，多名玩家也可以在同一个镜头里行动。",
+      "idea_en": "Separates a story's state, kept by an agent and checked against what was actually rendered, from its audiovisual rendering, so that turns in a generated scene keep their consequences.",
+      "idea_zh": "把故事状态（由智能体维护，并与实际渲染出的画面核对）和音视频渲染分开，使生成场景中的每一轮都能保留后果。",
+      "method": "Murea-Mind plans each turn and writes the rendered result back into the world state; the Murea audio-video generator comes as Murea-Pro (multi-turn, distilled 720p) and Murea-Fast (8 distilled steps); code and weights on GitHub and Hugging Face, arXiv paper announced.",
+      "method_zh": "Murea-Mind 规划每一轮，并把渲染结果写回世界状态；Murea 音视频生成器有两种配置：Murea-Pro（多轮交互，蒸馏版 720p）和 Murea-Fast（8 步蒸馏）；代码和权重发布在 GitHub 和 Hugging Face，arXiv 论文已预告。",
+      "specs": "Murea-Pro: 3.6 s to generate a 5.04 s 720p clip on NVIDIA RTX PRO 6000 Blackwell GPUs · Murea-Fast: 8 steps, 121 frames at 24 fps · WBench Full-289 overall 81.13 (self-evaluated)",
+      "keywords": [
+        "interactive world model",
+        "world agent",
+        "audiovisual",
+        "branching story",
+        "co-op",
+        "WBench"
+      ],
+      "video": {
+        "url": "https://murea-labs.github.io/InWorld/page/assets/video/inworld-demo-720p.mp4"
+      },
+      "images": [
+        "https://murea-labs.github.io/InWorld/page/assets/img/og-murea-inworld.jpg?v=type-unified-20261015"
+      ],
+      "source_url": "https://murea-labs.github.io/InWorld/",
+      "code_url": "https://github.com/Murea-Labs/InWorld",
+      "collections": [
+        "trend-agents-in-worlds",
+        "trend-native-audio",
+        "trend-world-simulators"
+      ]
+    },
+    {
+      "id": "xuemeng-yang--drivearena",
+      "creator_ids": [
+        "xuemeng-yang",
+        "shanghai-ai-lab"
+      ],
+      "title": "DriveArena",
+      "year": 2024,
+      "date": "2024-08-01",
+      "field": "world-models",
+      "sub": "simulation",
+      "modalities": [
+        "flat-video",
+        "behavior"
+      ],
+      "inputs": [
+        "action",
+        "spec",
+        "text"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "reactivity",
+        "situational-reach",
+        "control"
+      ],
+      "kind": "platform",
+      "description": "A closed-loop driving simulator from Shanghai AI Laboratory in which a self-driving agent sees only generated multi-camera images: its chosen trajectory is passed to a traffic simulator that moves the other cars on a real street map, and a generative model draws the new scene for the next step.",
+      "description_zh": "上海人工智能实验室的闭环驾驶仿真器，自动驾驶智能体看到的只有生成的多摄像头画面：它选择的轨迹被交给交通仿真器，在真实街道地图上移动其他车辆，再由生成模型画出下一步的新场景。",
+      "idea_en": "One of the first systems to close the loop between an acting agent and a generated world, the arrangement needed before a person can act inside a generated scene and see its consequences.",
+      "idea_zh": "较早把“行动的智能体”与“生成的世界”闭环连接起来的系统之一，人要在生成场景中行动并看到后果，先得有这样的结构。",
+      "method": "Two swappable modules: Traffic Manager simulates traffic on any OpenStreetMap network, and World Dreamer, a layout-conditioned multi-view diffusion model with autoregression, renders the cameras; it runs open- and closed-loop leaderboards for driving agents such as UniAD and VAD.",
+      "method_zh": "由两个可替换模块组成：Traffic Manager 在任意 OpenStreetMap 路网上模拟交通，World Dreamer 是以布局为条件、可自回归的多视角扩散模型，负责渲染各路相机；它为 UniAD、VAD 等驾驶智能体提供开环和闭环排行榜。",
+      "specs": "multi-view cameras · closed-loop steps at 2 Hz · any OpenStreetMap street network (developer-reported)",
+      "keywords": [
+        "closed-loop simulation",
+        "driving world model",
+        "generative simulator",
+        "traffic simulation",
+        "leaderboard"
+      ],
+      "video": {
+        "url": "https://pjlab-adg.github.io/DriveArena/static/videos/boston_thomas_park.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2408.00415",
+        "arxiv": "2408.00415",
+        "venue": "ICCV 2025",
+        "title": "DriveArena: A Closed-loop Generative Simulation Platform for Autonomous Driving"
+      },
+      "source_url": "https://pjlab-adg.github.io/DriveArena/",
+      "code_url": "https://github.com/PJLab-ADG/DriveArena",
+      "collections": [
+        "trend-physical-ai",
+        "iccv-eccv"
+      ]
+    },
+    {
+      "id": "shenyuan-gao--vista",
+      "creator_ids": [
+        "shenyuan-gao"
+      ],
+      "title": "Vista",
+      "year": 2024,
+      "date": "2024-05-27",
+      "field": "world-models",
+      "sub": "simulation",
+      "modalities": [
+        "flat-video"
+      ],
+      "inputs": [
+        "action",
+        "image",
+        "video"
+      ],
+      "timing": "offline",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "control",
+        "situational-reach",
+        "perceptual-realism"
+      ],
+      "kind": "model",
+      "description": "An open driving world model from HKUST and OpenDriveLab that continues a front-camera view at high resolution and follows commands such as go forward, turn left, turn right or stop, as well as steering angles, speeds and trajectories, and that generalizes to places it was not trained on.",
+      "description_zh": "香港科技大学与 OpenDriveLab 开源的驾驶世界模型，能以高分辨率续写前视摄像头画面，并服从“前进、左转、右转、停车”等指令以及转向角、速度和轨迹，还能泛化到训练中没见过的地方。",
+      "idea_en": "Made 'what would I see if I turned left here' answerable for arbitrary real road footage, an early open milestone for action-controlled driving worlds.",
+      "idea_zh": "让“如果在这里左转会看到什么”可以针对任意真实道路画面作答，是可用动作控制的驾驶世界较早的开源里程碑。",
+      "method": "Built on Stable Video Diffusion with losses that emphasize moving instances and structure, latent replacement to inject past frames for long rollouts, and an efficient action-control module covering high-level commands, steering, speed and trajectories; it also uses its own prediction uncertainty as a reward for judging actions.",
+      "method_zh": "基于 Stable Video Diffusion，加入强调运动物体与结构的损失、用潜变量替换注入历史帧以支持长时推演，以及覆盖高层指令、转向、速度和轨迹的高效动作控制模块；它还把自身的预测不确定性作为奖励来评判动作。",
+      "specs": "576×1024 · 10 Hz · 5 s clips, longer autoregressive rollouts (developer-reported)",
+      "keywords": [
+        "driving world model",
+        "action control",
+        "open weights",
+        "OpenDriveLab",
+        "generalization"
+      ],
+      "video": {
+        "url": "https://vista-demo.github.io/assets/action_control/1-left.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2405.17398",
+        "arxiv": "2405.17398",
+        "venue": "NeurIPS 2024",
+        "title": "Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability"
+      },
+      "source_url": "https://opendrivelab.com/Vista",
+      "code_url": "https://github.com/OpenDriveLab/Vista",
+      "collections": [
+        "trend-physical-ai",
+        "ml-conf",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "shenyuan-gao--adaworld",
+      "creator_ids": [
+        "shenyuan-gao"
+      ],
+      "title": "AdaWorld",
+      "year": 2025,
+      "date": "2025-03-24",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action",
+        "video",
+        "image"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "reactivity",
+        "diversity",
+        "authoring"
+      ],
+      "kind": "research",
+      "description": "A world model led by HKUST that learns what an 'action' is from unlabeled videos, so the motion in one video (a jump in a game, a human movement) can be transferred to a new scene, and the model can be adapted to a new game or robot with few labeled interactions.",
+      "description_zh": "由香港科技大学主导的世界模型，从无标注视频中学习什么是“动作”，因此可以把一段视频中的动作（游戏里的一次跳跃、人的一个动作）迁移到新场景中，也只需少量带标注的交互就能适配新的游戏或机器人。",
+      "idea_en": "Removes the need for action-labeled data to make a world controllable, which matters for domains such as social scenes where no controller log exists.",
+      "idea_zh": "让世界变得可控不再依赖带动作标注的数据，这对没有控制器日志的领域（例如社交场景）很重要。",
+      "method": "A latent action autoencoder extracts the critical transition between frames as a compact latent action; an autoregressive world model pretrained on these latents can be conditioned on actions taken from other videos or fine-tuned with few real action labels.",
+      "method_zh": "用潜动作自编码器把相邻帧之间的关键变化提取为紧凑的潜动作；在这些潜动作上预训练的自回归世界模型，可以接受取自其他视频的动作作为条件，也可以用少量真实动作标注进行微调。",
+      "keywords": [
+        "latent actions",
+        "world model",
+        "action transfer",
+        "adaptation",
+        "Procgen"
+      ],
+      "video": {
+        "url": "https://adaptable-world-model.github.io/static/videos/game/1-1.mp4"
+      },
+      "images": [
+        "https://adaptable-world-model.github.io/static/images/exp1-1.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2503.18938",
+        "arxiv": "2503.18938",
+        "venue": "ICML 2025",
+        "title": "AdaWorld: Learning Adaptable World Models with Latent Actions"
+      },
+      "source_url": "https://adaptable-world-model.github.io/",
+      "code_url": "https://github.com/Little-Podi/AdaWorld",
+      "collections": [
+        "ml-conf"
+      ],
+      "specs": "256×256 · memory length 6 frames (paper defaults)"
+    },
+    {
+      "id": "yixuan-zhu--astra",
+      "creator_ids": [
+        "yixuan-zhu",
+        "kuaishou"
+      ],
+      "title": "Astra",
+      "year": 2025,
+      "date": "2025-12-09",
+      "field": "world-models",
+      "sub": "general",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action",
+        "camera",
+        "image"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "reactivity",
+        "diversity"
+      ],
+      "kind": "model",
+      "description": "A general interactive world model from Tsinghua University and Kuaishou that starts from a single scene image and keeps generating video chunk by chunk as it receives camera moves, driving commands or robot actions, across indoor exploration, roads and manipulation.",
+      "description_zh": "清华大学与快手提出的通用交互式世界模型：从一张场景图片出发，在接收镜头移动、驾驶指令或机器人动作的同时逐块生成视频，适用于室内探索、道路和机械臂操作等场景。",
+      "idea_en": "One model that responds to several kinds of action (walking a camera, steering a car, moving a gripper) points to generated situations that are not locked to one controller.",
+      "idea_zh": "同一个模型能响应多种动作（移动镜头、驾驶汽车、操作夹爪），预示着生成情境不必绑定在某一种控制器上。",
+      "method": "Autoregressive denoising with temporal causal attention for streaming output, a noise-augmented history memory that balances responsiveness against coherence, an action-aware adapter that injects actions into denoising, and a mixture of action experts that routes different action modalities.",
+      "method_zh": "采用自回归去噪与时间因果注意力实现流式输出，用加噪的历史记忆在响应性与连贯性之间取得平衡，以动作感知适配器把动作注入去噪过程，并用动作专家混合模块路由不同类型的动作。",
+      "keywords": [
+        "interactive world model",
+        "autoregressive denoising",
+        "action experts",
+        "camera control",
+        "Kling"
+      ],
+      "video": {
+        "url": "https://eternalevan.github.io/Astra-project/static/videos/left_road.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2512.08931",
+        "arxiv": "2512.08931",
+        "venue": "ICLR 2026",
+        "title": "Astra: General Interactive World Model with Autoregressive Denoising"
+      },
+      "source_url": "https://eternalevan.github.io/Astra-project/",
+      "code_url": "https://github.com/EternalEvan/Astra",
+      "collections": [
+        "ml-conf"
+      ],
+      "specs": "480×832 · 20 fps · 96-frame test clips · built on Wan 2.1, trained on 8 × H800 (developer-reported)"
+    },
+    {
+      "id": "junyi-chen--deepverse",
+      "creator_ids": [
+        "junyi-chen",
+        "shanghai-ai-lab"
+      ],
+      "title": "DeepVerse",
+      "year": 2025,
+      "date": "2025-06-01",
+      "field": "world-models",
+      "sub": "game",
+      "also": [
+        "spatial-4d"
+      ],
+      "modalities": [
+        "frame-stream",
+        "dynamic-4d"
+      ],
+      "inputs": [
+        "text",
+        "image"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "reactivity"
+      ],
+      "kind": "model",
+      "description": "An open 4D world model from Shanghai AI Laboratory that turns a single image, for example a frame from Black Myth: Wukong, into a world the player explores by writing what the character does ('the character runs down the road'), while the model predicts the scene's geometry along with each frame.",
+      "description_zh": "上海人工智能实验室开源的 4D 世界模型：把一张图片（例如《黑神话：悟空》的一帧）变成可以探索的世界，玩家用文字写出角色的动作（“角色沿着道路跑下去”），模型在生成每一帧的同时预测场景的几何。",
+      "idea_en": "Using text as the action channel lets one model be played like many different games, and carrying explicit geometry from step to step is what keeps the world from drifting.",
+      "idea_zh": "用文字作为动作通道，让同一个模型可以像许多不同的游戏一样被游玩；而逐步传递显式几何，是世界不发生漂移的关键。",
+      "method": "Autoregressive video generation that conditions each step on the geometry predicted in earlier steps as well as on earlier frames, with text descriptions of actions as the control signal; follows the group's Aether 4D model; code and weights released in August 2025.",
+      "method_zh": "自回归视频生成：每一步不仅以前面的画面、也以前面预测出的几何为条件，并以文字描述的动作为控制信号；延续了该团队的 Aether 4D 模型；代码和权重于 2025 年 8 月发布。",
+      "keywords": [
+        "4D world model",
+        "text-as-action",
+        "geometry memory",
+        "open weights",
+        "Black Myth: Wukong"
+      ],
+      "video": {
+        "url": "https://sotamak1r.github.io/deepverse/assets/videos/action/wukong1.mp4"
+      },
+      "images": [
+        "https://sotamak1r.github.io/deepverse/assets/images/teaser.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2506.01103",
+        "arxiv": "2506.01103",
+        "venue": "arXiv 2025",
+        "title": "DeepVerse: 4D Autoregressive Video Generation as a World Model"
+      },
+      "source_url": "https://sotamak1r.github.io/deepverse/",
+      "code_url": "https://github.com/SOTAMak1r/DeepVerse",
+      "collections": [
+        "trend-open-weights",
+        "trend-china-open"
+      ]
+    },
+    {
+      "id": "wenqiang-sun--realplay",
+      "creator_ids": [
+        "wenqiang-sun"
+      ],
+      "title": "RealPlay",
+      "year": 2025,
+      "date": "2025-06-23",
+      "field": "world-models",
+      "sub": "game",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action",
+        "image"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "reactivity",
+        "situational-reach"
+      ],
+      "kind": "research",
+      "description": "A 'real-world game engine' from HKUST and Microsoft Research Asia: starting from a photo of a real street, the player steers forward, left or right and gets back a short photorealistic video chunk; trained with controls from a racing game only, it also steers real bicycles and pedestrians.",
+      "description_zh": "香港科技大学与微软亚洲研究院提出的“真实世界游戏引擎”：从一张真实街道的照片开始，玩家控制前进、左转或右转，得到一小段照片级真实感的视频；虽然只用赛车游戏的控制信号训练，它也能控制真实画面中的自行车和行人。",
+      "idea_en": "Shows that controls learned in a game can transfer to photographed reality, a route to playable versions of real places without real action labels.",
+      "idea_zh": "表明在游戏中学到的控制可以迁移到拍摄的真实世界，为在没有真实动作标注的情况下做出真实地点的可玩版本提供了一条路径。",
+      "method": "Chunk-wise interactive generation on a pretrained video model, trained on labeled racing-game data together with unlabeled real-world videos; the paper reports control transfer from virtual to real scenes and entity transfer from cars to bicycles and pedestrians. Code announced, not released as of October 2026.",
+      "method_zh": "在预训练视频模型上进行分块交互式生成，训练数据包括带标注的赛车游戏数据和无标注的真实视频；论文报告了从虚拟到真实场景的控制迁移，以及从汽车到自行车和行人的实体迁移。代码已预告，截至 2026 年 10 月尚未发布。",
+      "keywords": [
+        "real-world game engine",
+        "interactive video",
+        "control transfer",
+        "photorealistic",
+        "racing game"
+      ],
+      "video": {
+        "url": "https://wenqsun.github.io/RealPlay/static/videos/stage2_bicycle_1_12s.mp4"
+      },
+      "images": [
+        "https://wenqsun.github.io/RealPlay/static/images/teaser.jpg"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2506.18901",
+        "arxiv": "2506.18901",
+        "venue": "arXiv 2025",
+        "title": "From Virtual Games to Real-World Play"
+      },
+      "source_url": "https://wenqsun.github.io/RealPlay/",
+      "collections": [
+        "trend-grounded"
+      ]
+    },
+    {
+      "id": "streameval-team--streameval",
+      "creator_ids": [
+        "streameval-team"
+      ],
+      "title": "StreamEval",
+      "year": 2026,
+      "date": "2026-10-20",
+      "field": "infra",
+      "sub": "benchmarks",
+      "also": [
+        "world-models",
+        "avatars"
+      ],
+      "modalities": [
+        "frame-stream",
+        "avatar"
+      ],
+      "inputs": [
+        "text",
+        "speech",
+        "camera"
+      ],
+      "timing": "real-time",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "responsiveness",
+        "persistence",
+        "control"
+      ],
+      "kind": "dataset",
+      "description": "An open benchmark and monthly leaderboard for interactive streaming video: 300 scripted sessions of 15 to 300 seconds in which requests arrive while video is being generated, across avatar dialogue, avatar performance, world generation and live editing; the first round scores 37 systems.",
+      "description_zh": "一个面向交互式流式视频的开源基准和月度排行榜：300 段时长 15 到 300 秒的脚本化会话，在视频生成过程中不断插入新请求，覆盖数字人对话、数字人表演、世界生成和实时编辑；首轮评测了 37 个系统。",
+      "idea_en": "Measures whether a live system does what was asked at the moment it was asked and keeps it afterwards; in the first round the best world models follow text requests poorly (best world-generation Overall 33.4 of 100), a gap that matters for any study that injects events on cue.",
+      "idea_zh": "衡量实时系统能否在被要求的时刻完成请求、并在之后保持下去；首轮结果中最好的世界模型也很难遵循文字请求（世界生成总分最高 33.4 分，满分 100），这对任何需要按时机插入事件的研究都很关键。",
+      "method": "Each case specifies initial assets, timed multimodal requests and required state changes or preservations; ten metrics cover task execution, state consistency, visual fidelity and audio-visual coordination. In world generation MemFlow (33.36), Rolling Forcing, Krea Realtime, HY-World 1.5 WorldPlay and HappyOyster lead; Vidu S2 leads the avatar and editing tasks (paper's results).",
+      "method_zh": "每个用例规定初始素材、按时间到达的多模态请求，以及要求发生或保持的状态；十项指标覆盖任务执行、状态一致性、视觉保真度和音画协调。世界生成任务中 MemFlow（33.36 分）、Rolling Forcing、Krea Realtime、HY-World 1.5 WorldPlay 和 HappyOyster 领先；数字人与编辑任务由 Vidu S2 领先（据论文结果）。",
+      "specs": "5 tasks · 300 cases · 15–300 s sessions · 10 metrics · 37 systems in round 1 · monthly updates",
+      "keywords": [
+        "benchmark",
+        "interactive streaming video",
+        "world model evaluation",
+        "leaderboard",
+        "avatars",
+        "live editing"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/StreamEval/StreamEval/main/assets/construction.jpg",
+        "https://raw.githubusercontent.com/StreamEval/StreamEval/main/assets/statistics.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2610.28402",
+        "arxiv": "2610.28402",
+        "venue": "arXiv 2026",
+        "title": "StreamEval: Evaluating Interactive Streaming Video Generation Models"
+      },
+      "source_url": "https://streameval.ai/",
+      "code_url": "https://github.com/StreamEval/StreamEval",
+      "collections": [
+        "trend-realtime",
+        "trend-world-simulators"
+      ]
+    },
+    {
+      "id": "yuanpeng-tu--playerone",
+      "creator_ids": [
+        "yuanpeng-tu"
+      ],
+      "title": "PlayerOne",
+      "year": 2025,
+      "date": "2025-06-11",
+      "field": "world-models",
+      "sub": "general",
+      "also": [
+        "genxr"
+      ],
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "body",
+        "image"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "reactivity",
+        "situational-reach",
+        "perceptual-realism"
+      ],
+      "kind": "research",
+      "description": "An egocentric world simulator from the University of Hong Kong and Alibaba DAMO Academy: from one first-person photo of a scene, it generates first-person video that follows the user's real head, hand and body movements, filmed by an outside camera.",
+      "description_zh": "香港大学与阿里巴巴达摩院提出的第一人称世界模拟器：从一张场景的第一人称照片出发，生成跟随用户真实头部、手部和身体动作的第一人称视频，这些动作由外部相机拍下。",
+      "idea_en": "Uses the person's own body, not a keyboard, as the action that drives a generated world, which is the input an immersive or embodied study needs.",
+      "idea_zh": "驱动生成世界的动作来自人自己的身体而不是键盘，这正是沉浸式或具身研究所需的输入方式。",
+      "method": "Coarse-to-fine training: pretraining on large egocentric text-video pairs, then fine-tuning on synchronized motion-video data mined automatically from egocentric-exocentric datasets; a part-disentangled motion injection controls head, hands and body separately, and joint 4D scene reconstruction keeps long videos consistent. Built on Wan; code not released as of October 2026.",
+      "method_zh": "由粗到细训练：先在大规模第一人称文本-视频对上预训练，再在从第一人称-第三人称数据集中自动挖掘的同步动作-视频数据上微调；按部位解耦的动作注入分别控制头部、双手和身体，联合的 4D 场景重建让长视频保持一致。基于 Wan；截至 2026 年 10 月代码未发布。",
+      "keywords": [
+        "egocentric world model",
+        "body-driven",
+        "motion control",
+        "first-person",
+        "4D reconstruction"
+      ],
+      "video": {
+        "url": "https://playerone-hku.github.io/static/images/example2.mp4"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2506.09995",
+        "arxiv": "2506.09995",
+        "venue": "arXiv 2025",
+        "title": "PlayerOne: Egocentric World Simulator"
+      },
+      "source_url": "https://playerone-hku.github.io/",
+      "code_url": "https://github.com/yuanpengtu/PlayerOne",
+      "collections": [
+        "trend-in-situ-xr"
+      ]
+    },
+    {
+      "id": "ruiqi-wu--infinite-world",
+      "creator_ids": [
+        "ruiqi-wu",
+        "meituan"
+      ],
+      "title": "Infinite-World",
+      "year": 2026,
+      "date": "2026-02-02",
+      "field": "world-models",
+      "sub": "memory",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action",
+        "image"
+      ],
+      "timing": "turn-based",
+      "access": [
+        "open"
+      ],
+      "lenses": [
+        "persistence",
+        "reactivity"
+      ],
+      "kind": "research",
+      "description": "An open interactive world model from Nankai University and Meituan that a user walks through with movement and camera actions for more than 1,000 frames, while scenes seen earlier are kept consistent; it is trained on real-world video rather than synthetic game data.",
+      "description_zh": "南开大学与美团开源的交互式世界模型：用户用移动和镜头动作在其中行走超过 1000 帧，之前看到的场景仍能保持一致；它用真实世界视频训练，而不是合成的游戏数据。",
+      "idea_en": "Shows that long-horizon memory can be learned from ordinary real-world footage with noisy camera poses, which is the kind of footage available for real places.",
+      "idea_zh": "表明长时记忆可以从相机位姿有噪声的普通真实世界视频中学到，而真实地点能找到的正是这类视频。",
+      "method": "A Hierarchical Pose-free Memory Compressor recursively distills past latents into a fixed-budget memory trained jointly with the generator, and uncertainty-aware action labeling discretizes noisy continuous motion into actions; weights on Hugging Face.",
+      "method_zh": "用分层无位姿记忆压缩器把历史潜变量递归压缩为固定预算的记忆，并与生成器联合训练；用感知不确定性的动作标注，把有噪声的连续运动离散化为动作；权重发布在 Hugging Face。",
+      "specs": "1,000+ frame interactive horizon with bounded memory (developer-reported)",
+      "keywords": [
+        "interactive world model",
+        "long-term memory",
+        "pose-free",
+        "real-world video",
+        "open weights"
+      ],
+      "video": {
+        "url": "https://rq-wu.github.io/projects/infinite-world/assets/videos/82_A_street_in_a_fantasy_city_whe_button.mp4"
+      },
+      "images": [
+        "https://rq-wu.github.io/projects/infinite-world/assets/framework.png"
+      ],
+      "paper": {
+        "url": "https://arxiv.org/abs/2602.02393",
+        "arxiv": "2602.02393",
+        "venue": "ICML 2026",
+        "title": "Infinite-World: Scaling Interactive World Models to 1000-Frame Horizons via Pose-Free Hierarchical Memory"
+      },
+      "source_url": "https://rq-wu.github.io/projects/infinite-world/",
+      "code_url": "https://github.com/MeiGen-AI/Infinite-World",
+      "collections": [
+        "ml-conf",
+        "trend-open-weights"
+      ]
+    },
+    {
+      "id": "shaoting-peng--hapticworld",
+      "creator_ids": [
+        "shaoting-peng",
+        "ant-group"
+      ],
+      "title": "HapticWorld",
+      "year": 2026,
+      "date": "2026-09-25",
+      "field": "world-models",
+      "sub": "simulation",
+      "modalities": [
+        "frame-stream"
+      ],
+      "inputs": [
+        "action",
+        "body"
+      ],
+      "timing": "real-time",
+      "access": [
+        "research"
+      ],
+      "lenses": [
+        "perceptual-realism",
+        "responsiveness",
+        "control"
+      ],
+      "kind": "research",
+      "description": "An interactive world simulator from Ant Group with UIUC, NVIDIA and Stanford in which an operator teleoperates a robot arm inside a learned world model and feels the predicted joint torque through the controller in real time while watching the generated camera view.",
+      "description_zh": "蚂蚁集团与伊利诺伊大学厄巴纳-香槟分校、NVIDIA 和斯坦福大学合作的交互式世界模拟器：操作者在学习得到的世界模型中遥操作机械臂，一边看生成的相机画面，一边通过控制器实时感受到模型预测的关节力矩。",
+      "idea_en": "Closes a haptic loop between a person and a generated world, a first step beyond sight and sound for what a generated situation can make people feel.",
+      "idea_zh": "在人与生成世界之间形成触觉闭环，让生成情境能带给人的感受第一次超出视觉和听觉。",
+      "method": "The world model predicts joint torque in the same forward pass as the next frame; gravity is subtracted and the filtered, clamped interaction torque is rendered to the operator at 10 Hz. Trained per task on 500 play episodes; the authors report 1.6× faster data collection with feedback, 54/60 real-world successes for policies trained on its demonstrations (vs 19/60 vision-only) and in-model success rates that match real-world evaluation.",
+      "method_zh": "世界模型在生成下一帧的同一次前向计算中预测关节力矩；减去重力并经过滤波和限幅后，以 10 Hz 把交互力矩反馈给操作者。每个任务用 500 段自由操作数据训练；作者报告：有力反馈时数据采集速度提高 1.6 倍，用其生成的示范训练的策略在真实世界 60 次试验中成功 54 次（仅视觉基线为 19 次），且在模型内测得的成功率与真实评测一致。",
+      "specs": "haptic + visual loop at 10 Hz · trained in about 2 days on 8 × A100 per task (developer-reported)",
+      "keywords": [
+        "haptic feedback",
+        "torque",
+        "teleoperation",
+        "world simulator",
+        "policy evaluation",
+        "contact-rich manipulation"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=UGhT2hnDrBE"
+      },
+      "paper": {
+        "url": "https://arxiv.org/abs/2609.31924",
+        "arxiv": "2609.31924",
+        "venue": "arXiv 2026",
+        "title": "HapticWorld: an Interactive World Simulator with Real-time Torque Feedback"
+      },
+      "source_url": "https://haptic-world.github.io/",
+      "collections": [
+        "trend-physical-ai",
+        "trend-realtime"
+      ]
+    }
+  ],
+  "leads": [
+    {
+      "name": "GigaWorld-0 (2025-11) and GigaWorld-1 (2026-07), GigaAI",
+      "why": "Beijing world-model start-up's robot world models used as a data engine and for policy evaluation (arXiv 2511.19861, 2607.02642; 1.1k GitHub stars; CVPR 2026 world-model track). Only project-page clips, no official video; overlaps agibot--ge-sim-2 and ace-robotics--kairos-3. Add if GigaAI publishes a launch video.",
+      "link": "https://open-gigaai.github.io/giga-world-1/",
+      "found_via": "agibot",
+      "status": "open"
+    },
+    {
+      "name": "Game-Creation-Agents (Tencent, 2026-10-14)",
+      "why": "Open agent pipeline that turns a game idea into a playable, verified browser game (arXiv 2610.16776); assets come from external models (OpenAI images, Seedance video). Revisit as an authoring tool for generated situations if it gets uptake or a demo video.",
+      "link": "https://github.com/Tencent/Game-Creation-Agents",
+      "found_via": "tencent",
+      "status": "open"
+    },
+    {
+      "name": "NarrativeSteward (Tencent, 2026-09)",
+      "why": "Agent-assisted workspace for authoring and playtesting branching interactive stories with state-dependent paths (arXiv 2609.39333); fits genxr/narrative or agents if published at an HCI venue with a video.",
+      "link": "https://github.com/Tencent/NarrativeSteward",
+      "found_via": "tencent",
+      "status": "open"
+    },
+    {
+      "name": "Genie Sim 3.0 (AgiBot, 2026-04)",
+      "why": "AgiBot's LLM-driven simulation platform that generates robot training scenes from language (third-party video only: The Robot Report). Check for an official page and video; would sit in worlds-3d/layout next to EmbodiedGen V2.",
+      "link": "https://www.youtube.com/watch?v=AtRK6JDWUoA",
+      "found_via": "agibot",
+      "status": "open"
+    },
+    {
+      "name": "SplatFlux (Zhejiang University and Ant Group, arXiv 2610.28257)",
+      "why": "Feed-forward 4D Gaussian reconstruction and generation from video latents, posted 2026-10-20; too new to judge uptake. Revisit for spatial-4d (feed-forward or generative-4d-scenes).",
+      "link": "https://arxiv.org/abs/2610.28257",
+      "found_via": "zju3dv",
+      "status": "open"
+    },
+    {
+      "name": "GameHorizon (Tencent ARC, 2026-09)",
+      "why": "Data and evaluation suite measuring AAA-gameplay capability of game agents at several horizons (578 GitHub stars); candidate for infra/benchmarks or agents if a paper and video appear.",
+      "link": "https://github.com/TencentARC/GameHorizon",
+      "found_via": "tencent-arc",
+      "status": "open"
+    },
+    {
+      "name": "ShaderAgent (VAST, SIGGRAPH Asia 2026)",
+      "why": "Self-evolving agentic procedural material generation; assets/objects candidate once the project page has a video.",
+      "link": "https://github.com/VAST-AI-Research/ShaderAgent",
+      "found_via": "tripo-ai",
+      "status": "open"
+    },
+    {
+      "name": "Robot world-action models from Chinese labs, June–October 2026: RynnWorld-4D / RynnWorld-Teleop (Alibaba DAMO), DreamX-Phi 1.0 (AMAP), AnyWorld (XPeng Robotics), Motus2 (Shengshu), UnifoLM-WLA-1.0 (Unitree), HWM-0 (Horizon Robotics), SYNWorld V0.5 (SynapX)",
+      "why": "Below the salience bar for this gallery, like InternW0: they predict robot video and actions for manipulation policies rather than generating situations people enter; the field is represented by agibot--ge-sim-2, ace-robotics--kairos-3 and xpeng--x-world.",
+      "link": "https://github.com/alibaba-damo-academy/RynnWorld-Teleop",
+      "found_via": "agibot",
+      "status": "off_topic"
+    },
+    {
+      "name": "World-model benchmarks: WorldOlympiad (Alibaba DAMO, 2026-06) and GAUGE (Shanghai AI Lab, 2026-08)",
+      "why": "Physical-faithfulness and consistency benchmarks for video world models with little recorded uptake (58 and 13 GitHub stars); WorldArena is added instead.",
+      "link": "https://github.com/alibaba-damo-academy/WorldOlympiad",
+      "found_via": "yu-shang",
+      "status": "off_topic"
+    },
+    {
+      "name": "SpatialCrafter (HKUST and Alibaba, arXiv 2608.27073)",
+      "why": "Single-image explorable scene generation with a global 3D proxy refined by a video model; overlaps manycore--spatialgen, yang-tian-sun--mira-scene and HY-World 2.0.",
+      "link": "https://arxiv.org/abs/2608.27073",
+      "found_via": "manycore",
+      "status": "off_topic"
+    },
+    {
+      "name": "Qwen-AgentWorld-35B-A3B (Alibaba Qwen, 2026-06-22)",
+      "why": "Open 'language world model' that simulates tool, terminal, web, Android and OS environments for training agents; not an immersive or audiovisual situation.",
+      "link": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+      "found_via": "alibaba-tongyi",
+      "status": "off_topic"
+    },
+    {
+      "name": "ExplorationBench (Tencent Hy, 2026-09)",
+      "why": "Benchmark of AI exploration in 'alien worlds' that are code and logic sandboxes (AlienCode, AlienLogic), not generated environments.",
+      "link": "https://github.com/Tencent-Hunyuan/ExplorationBench",
+      "found_via": "tencent-hunyuan",
+      "status": "off_topic"
+    },
+    {
+      "name": "Huawei Pangu 5.0 driving world model (HDC 2024-06-22; Huawei Cloud release 2024-09)",
+      "why": "Huawei says Pangu 5.0's 'controllable spatiotemporal generation' produces driving videos of normal, random, accident and aggressive-driving scenarios for training; only press releases found, no official video or technical report.",
+      "link": "https://kyodonewsprwire.jp/release/202409206749",
+      "found_via": "xpeng",
+      "status": "no_media"
+    },
+    {
+      "name": "vivo Vision MR headset (2025-08-21) and other Chinese AR/MR devices (Rokid, RayNeo, Play For Dream)",
+      "why": "Salient Chinese headsets and glasses, but no generative feature (generated 3D, worlds or spatialized media) could be verified on official pages; AI features are assistants and translation. Revisit if a device ships photo-to-3D or generated environments.",
+      "link": "https://www.youtube.com/watch?v=yRjb07zjVaY",
+      "found_via": "xreal",
+      "status": "off_topic"
+    },
+    {
+      "name": "MASS: Multiplayer World Models with Authoritative Shared State (Alaya Lab and PKU, arXiv 2608.06257)",
+      "why": "A learned logic engine advances one typed shared state from joint actions (1,024 simulated players, 10,000 ticks) and a renderer draws each client's view, across eight arcade games. Rechecked twice on 2026-10-26 (page HTML and app.js): the project page still has only still images, no video, and there is no public repository.",
+      "link": "https://alaya-lab.github.io/MASS/",
+      "found_via": "alaya-lab",
+      "status": "no_media"
+    },
+    {
+      "name": "Marionette (Alaya Lab, arXiv 2608.14530)",
+      "why": "Game world model that predicts an explicit 276-dimensional 3D world state, renders geometry with a parameter-free operator and uses video diffusion only for appearance (code, weights, WildWorld dataset). Close to zheng-hui-huang--programmable-world-model and zheng-hui-huang--alayarenderer; the overview video is on a personal channel (Sarfflow). Add if it gains uptake.",
+      "link": "https://alayalab.github.io/Marionette/",
+      "found_via": "alaya-lab",
+      "status": "open"
+    },
+    {
+      "name": "MultiWorldBench (Zhiying Guangnian Technology and Imperial College, arXiv 2610.11723)",
+      "why": "Minecraft benchmark (495 cases) asking whether independently controlled views of a multiplayer world model describe one persistent world; too new to judge uptake.",
+      "link": "https://arxiv.org/abs/2610.11723",
+      "found_via": "alaya-lab",
+      "status": "open"
+    },
+    {
+      "name": "iVideoGPT (Tsinghua University, NeurIPS 2024, arXiv 2405.15223)",
+      "why": "Early scalable interactive world model (compressive tokenization, autoregressive transformer) for robot manipulation and model-based RL; project page has only GIFs, no video.",
+      "link": "https://thuml.github.io/iVideoGPT/",
+      "found_via": "shenyuan-gao",
+      "status": "no_media"
+    },
+    {
+      "name": "PlayGen: Playable Game Generation (Tencent, arXiv 2412.00887)",
+      "why": "Autoregressive DiT game generator that the authors report runs in real time for over 1,000 frames on an RTX 2060, with an online playable demo hosted on bare IP addresses; no video, only an architecture image.",
+      "link": "https://github.com/GreatX3/Playable-Game-Generation",
+      "found_via": "tencent",
+      "status": "no_media"
+    },
+    {
+      "name": "Chinese driving world models: Epona (ICCV 2025, arXiv 2506.24113), DrivingWorld (arXiv 2412.19505), GenAD (OpenDriveLab, CVPR 2024, arXiv 2403.09630), OccWorld (Tsinghua, ECCV 2024, arXiv 2311.16038)",
+      "why": "Offline or occupancy-space driving world models; the interactive and controllable side of this line is represented by xuemeng-yang--drivearena, shenyuan-gao--vista and xpeng--x-world. Epona (392 stars) is the strongest candidate if the gallery wants a minutes-long autoregressive driving model.",
+      "link": "https://kevin-thu.github.io/Epona/",
+      "found_via": "shenyuan-gao",
+      "status": "off_topic"
+    },
+    {
+      "name": "Vid2World (Tsinghua, arXiv 2505.14357) and RoboScape (Tsinghua FIB Lab, arXiv 2506.23135)",
+      "why": "Methods that turn pretrained video diffusion models into action-conditioned world models (Vid2World) or add physics to an embodied world model (RoboScape); low uptake (79 and 26 stars) and overlapping yixuan-zhu--astra and agibot--ge-sim-2.",
+      "link": "https://knightnemo.github.io/vid2world/",
+      "found_via": "yixuan-zhu",
+      "status": "off_topic"
+    },
+    {
+      "name": "PROWBench: Do Video Models Render What the Program Specifies? (Alaya Lab, arXiv 2610.02205)",
+      "why": "Benchmark of 170 programmatically constructed episodes and 600 proxy videos that checks generated video against logged entity states and events, including off-screen ones; it has an intro video, but it was released 2026-10-01 with 51 GitHub stars and no results from other groups yet. Noted in zheng-hui-huang--programmable-world-model; add as infra/benchmarks once it is used to compare named systems.",
+      "link": "https://alaya-lab.github.io/PROWBench/",
+      "found_via": "alaya-lab",
+      "status": "open"
+    }
+  ]
+}

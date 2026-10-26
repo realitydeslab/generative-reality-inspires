@@ -1,0 +1,108 @@
+{
+  "batch": "china-av-2026-10",
+  "orgs": [
+    {
+      "id": "stepfun",
+      "name": "StepFun",
+      "name_zh": "阶跃星辰",
+      "type": "ai-lab",
+      "themes": ["speech-audio", "video-generation", "open-source"],
+      "fields": ["audio", "video"],
+      "description": "Shanghai AI company that releases open speech-to-speech and audio models (Step-Audio, Step-Audio 2, StepAudio 3) alongside its Step language models and the open Step-Video-T2V video model.",
+      "description_zh": "上海的人工智能公司，除 Step 系列语言模型和开源视频模型 Step-Video-T2V 外，还发布开源的语音到语音与音频模型（Step-Audio、Step-Audio 2、StepAudio 3）。",
+      "known_for": ["Step-Video-T2V (2025)", "Step-Audio 2 (2025)", "StepAudio 3 Realtime (2026)"],
+      "url": "https://www.stepfun.com/",
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/stepfun-ai" },
+        { "label": "X", "url": "https://x.com/StepFun_ai" }
+      ],
+      "based": "Shanghai, CN",
+      "based_zh": "中国上海",
+      "founded": 2023,
+      "creator_id": "stepfun",
+      "found_via": "https://github.com/stepfun-ai"
+    },
+    {
+      "id": "zhipu-ai",
+      "name": "Zhipu AI (Z.ai)",
+      "name_zh": "智谱",
+      "type": "ai-lab",
+      "themes": ["video-generation", "speech-audio", "open-source"],
+      "fields": ["video", "audio"],
+      "description": "Beijing AI company spun out of Tsinghua University, maker of the GLM models; its open video work runs from CogVideoX (2024) to the SCAIL character-animation models (2025–2026), and it released the open GLM-4-Voice spoken chatbot.",
+      "description_zh": "源自清华大学的北京人工智能公司，GLM 系列模型的开发者；其开源视频工作从 CogVideoX（2024）延续到 SCAIL 角色动画模型（2025–2026），还发布了开源语音对话模型 GLM-4-Voice。",
+      "known_for": ["CogVideoX (2024)", "GLM-4-Voice (2024)", "SCAIL-2 (2026)"],
+      "url": "https://z.ai/",
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/zai-org" },
+        { "label": "Hugging Face", "url": "https://huggingface.co/zai-org" }
+      ],
+      "based": "Beijing, CN",
+      "based_zh": "中国北京",
+      "founded": 2019,
+      "creator_id": "zhipu-ai",
+      "found_via": "https://github.com/zai-org"
+    },
+    {
+      "id": "moonshot-ai",
+      "name": "Moonshot AI",
+      "name_zh": "月之暗面",
+      "type": "ai-lab",
+      "themes": ["speech-audio", "open-source"],
+      "fields": ["audio"],
+      "description": "Beijing AI company behind the Kimi assistant and the open Kimi K-series models; its open Kimi-Audio (2025) handles speech understanding, generation and spoken conversation in one model.",
+      "description_zh": "开发 Kimi 助手和开源 Kimi K 系列模型的北京人工智能公司；其开源的 Kimi-Audio（2025）在一个模型中完成语音理解、生成和语音对话。",
+      "known_for": ["Kimi-Audio (2025)", "Kimi K2 / K3 open models"],
+      "url": "https://www.moonshot.ai/",
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/MoonshotAI" }
+      ],
+      "based": "Beijing, CN",
+      "based_zh": "中国北京",
+      "founded": 2023,
+      "creator_id": "moonshot-ai",
+      "found_via": "https://github.com/MoonshotAI"
+    },
+    {
+      "id": "xiaomi-mimo",
+      "name": "Xiaomi MiMo",
+      "name_zh": "小米 MiMo",
+      "type": "ai-lab",
+      "themes": ["speech-audio", "open-source"],
+      "fields": ["audio"],
+      "description": "Xiaomi's foundation-model team, which publishes open language, vision and audio models; MiMo-Audio (2025) showed few-shot speech continuation and voice conversion from large-scale audio pretraining, followed by MiMo-V2 and V2.5 TTS models for agents.",
+      "description_zh": "小米的基础大模型团队，发布开源的语言、视觉与音频模型；MiMo-Audio（2025）展示了大规模音频预训练带来的少样本语音续写和声音转换能力，之后又推出面向智能体的 MiMo-V2 与 V2.5 TTS 模型。",
+      "known_for": ["MiMo-Audio (2025)", "MiMo-V2.5-TTS series (2026)"],
+      "url": "https://mimo.xiaomi.com/",
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/XiaomiMiMo" }
+      ],
+      "image": "https://cdn.cnbj1.fds.api.mi-img.com/aife/mimo-blog-fe/doc_build/static/image/logo.99baaffe.png",
+      "based": "Beijing, CN",
+      "based_zh": "中国北京",
+      "creator_id": "xiaomi",
+      "found_via": "https://mimo.xiaomi.com/"
+    },
+    {
+      "id": "pixverse",
+      "name": "PixVerse (AISphere)",
+      "name_zh": "PixVerse（爱诗科技）",
+      "type": "ai-lab",
+      "themes": ["video-generation", "world-models"],
+      "fields": ["video", "world-models"],
+      "description": "Beijing start-up whose PixVerse app and API generate short videos with sound (V5 to V6, 2025–2026) and which also builds real-time world models (R1, R2).",
+      "description_zh": "北京创业公司，其 PixVerse 应用和 API 可生成带声音的短视频（V5 至 V6，2025–2026），并研发实时世界模型（R1、R2）。",
+      "known_for": ["PixVerse V6 (2026)", "PixVerse R1 / R2 real-time world models (2026)"],
+      "url": "https://pixverse.ai/",
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/PixVerseAI" }
+      ],
+      "image": "https://cdn.pixverse.ai/media/pixverse/default.jpg",
+      "based": "Beijing, CN",
+      "based_zh": "中国北京",
+      "founded": 2023,
+      "creator_id": "pixverse",
+      "found_via": "https://pixverse.ai/"
+    }
+  ]
+}

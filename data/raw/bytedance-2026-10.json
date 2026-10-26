@@ -1,0 +1,1141 @@
+{
+ "batch": "bytedance-2026-10",
+ "creators": [
+  {
+   "id": "hao-he",
+   "name": "Hao He",
+   "kind": "person",
+   "role": "PhD researcher at The Chinese University of Hong Kong (MMLab)",
+   "based": "Hong Kong, CN",
+   "bio": "Computer-vision researcher working with ByteDance Seed on camera-controlled video generation (CameraCtrl, CameraCtrl II).",
+   "why": "His CameraCtrl line turned camera paths into a control input for exploring generated scenes.",
+   "disciplines": [
+    "graphics",
+    "ml"
+   ],
+   "links": {
+    "site": "https://hehao13.github.io"
+   },
+   "role_zh": "香港中文大学 MMLab 博士研究者",
+   "based_zh": "中国香港",
+   "bio_zh": "计算机视觉研究者，与字节跳动 Seed 合作研究镜头可控的视频生成（CameraCtrl、CameraCtrl II）。",
+   "why_zh": "他的 CameraCtrl 系列把镜头路径变成了探索生成场景的控制输入。",
+   "connected_to": [
+    "bytedance-seed"
+   ],
+   "discovered_via": "bytedance-seed"
+  },
+  {
+   "id": "pico",
+   "name": "PICO",
+   "name_zh": "字节跳动 PICO",
+   "kind": "company",
+   "role": "ByteDance's VR and mixed-reality headset maker",
+   "based": "Beijing, CN",
+   "bio": "Headset company acquired by ByteDance in 2021; it makes the PICO 4 Ultra mixed-reality headset, the PICO G3 and Neo3 lines and PICO OS.",
+   "why": "One of the main Chinese standalone headset lines, and the hardware ByteDance's generative models are most likely to reach first.",
+   "disciplines": [
+    "hci",
+    "games"
+   ],
+   "links": {
+    "site": "https://www.picoxr.com/global",
+    "youtube": "https://www.youtube.com/@PICOXR"
+   },
+   "role_zh": "字节跳动旗下的 VR 与混合现实头显厂商",
+   "based_zh": "中国北京",
+   "bio_zh": "2021 年被字节跳动收购的头显公司，产品包括 PICO 4 Ultra 混合现实头显、PICO G3 与 Neo3 系列以及 PICO OS。",
+   "why_zh": "国内主要的一体机头显品牌之一，也是字节跳动的生成式模型最有可能率先落地的硬件。",
+   "connected_to": [
+    "bytedance-seed"
+   ],
+   "discovered_via": "bytedance-seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "lihe-yang--depth-anything",
+   "creator_ids": [
+    "lihe-yang",
+    "bytedance-seed"
+   ],
+   "title": "Depth Anything",
+   "year": 2024,
+   "date": "2024-01-19",
+   "field": "worlds-3d",
+   "sub": "image-to-scene",
+   "modalities": [
+    "image"
+   ],
+   "inputs": [
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "situational-reach",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "Depth Anything (HKU and TikTok, CVPR 2024) estimates a depth map from any single photo or video frame, indoors or out, and was released with open weights and a depth-conditioned ControlNet. It became the default depth step in photo-to-3D, parallax and video-editing pipelines and was followed by Depth Anything V2 (2024), Video Depth Anything (2025) and Depth Anything 3 (2025).",
+   "description_zh": "Depth Anything（香港大学与 TikTok，CVPR 2024）可从任意一张照片或视频帧估计深度图，室内室外皆可，并开源了权重和一个以深度为条件的 ControlNet。它成为照片转三维、视差效果和视频编辑流程中默认的深度估计环节，之后又有 Depth Anything V2（2024）、Video Depth Anything（2025）和 Depth Anything 3（2025）。",
+   "idea_en": "Scaling a depth model on tens of millions of unlabeled photos made robust depth from one image a free commodity, which is the first step in turning any photo into a space a person can look into.",
+   "idea_zh": "用数千万张无标注照片扩大深度模型的训练规模，让从单张图像得到稳健深度变成免费的基础能力；这是把任意照片变成可以“看进去”的空间的第一步。",
+   "method": "A DINOv2-based monocular depth model trained jointly on 1.5 million labeled and over 62 million pseudo-labeled unlabeled images, using strong perturbations and feature-alignment constraints so the student learns beyond its teacher.",
+   "method_zh": "基于 DINOv2 的单目深度模型，在 150 万张有标注图像与 6200 多万张伪标注的无标注图像上联合训练，并借助强扰动和特征对齐约束，让学生模型学到教师模型之外的知识。",
+   "specs": "1.5M labeled + 62M unlabeled images · zero-shot relative and metric depth",
+   "keywords": [
+    "monocular depth",
+    "foundation model",
+    "unlabeled data",
+    "ControlNet",
+    "open weights"
+   ],
+   "video": {
+    "url": "https://depth-anything.github.io/videos/video_edit/demo1_ours.mp4"
+   },
+   "images": [
+    "https://depth-anything.github.io/static/images/teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2401.10891",
+    "arxiv": "2401.10891",
+    "venue": "CVPR 2024",
+    "title": "Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data"
+   },
+   "source_url": "https://depth-anything.github.io/",
+   "code_url": "https://github.com/LiheYoung/Depth-Anything",
+   "collections": [
+    "cvpr",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "pico--pico-4-ultra",
+   "creator_ids": [
+    "pico"
+   ],
+   "title": "PICO 4 Ultra",
+   "year": 2024,
+   "date": "2024-08-20",
+   "field": "infra",
+   "sub": "devices",
+   "modalities": [
+    "immersive-video",
+    "scene-3d"
+   ],
+   "inputs": [
+    "body",
+    "surroundings"
+   ],
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "situational-reach",
+    "perceptual-realism"
+   ],
+   "kind": "device",
+   "description": "ByteDance's current mixed-reality headset: colour passthrough from two 32 MP cameras with an iToF depth sensor, spatial video capture and playback (including iPhone and Vision Pro spatial videos), and an AI-generated Environment feature for making custom virtual surroundings. As of October 2026 it is still PICO's flagship; PICO said in August 2026 (as reported by Road to VR) that its successor, PICO Space Pro (Project Swan), would be postponed to Q4 2026.",
+   "description_zh": "字节跳动目前的混合现实头显：两颗 3200 万像素摄像头提供彩色透视，配有 iToF 深度传感器，支持拍摄和播放空间视频（也能播放 iPhone 和 Vision Pro 拍摄的空间视频），并提供“AI 生成环境”功能，用于创建自定义的虚拟环境。截至 2026 年 10 月它仍是 PICO 的旗舰；据 Road to VR 报道，PICO 在 2026 年 8 月表示，其后继机型 PICO Space Pro（Project Swan）将推迟到 2026 年第四季度发布。",
+   "idea_en": "A depth-sensing passthrough headset from the company that also builds Seedance and SeedRealtime, and so the most direct path for ByteDance's generated video, voices and worlds into a headset; press reports in September 2026 linked a planned ByteDance real-time world model to PICO, without an official announcement.",
+   "idea_zh": "一款带深度感知透视的头显，出自同时开发 Seedance 与 SeedRealtime 的公司，因而是字节跳动的生成视频、语音与世界进入头显最直接的路径；2026 年 9 月有媒体报道称字节跳动计划中的实时世界模型面向 PICO，但尚无官方公告。",
+   "method": "Standalone headset on the Snapdragon XR2 Gen 2 with 12 GB RAM, four tracking cameras, dual 32 MP colour passthrough cameras and an iToF depth camera running PICO's environment-mapping algorithm.",
+   "method_zh": "基于骁龙 XR2 Gen 2、12 GB 内存的一体机头显，配有四颗环境追踪摄像头、两颗 3200 万像素彩色透视摄像头和一颗 iToF 深度摄像头，运行 PICO 自研的环境建图算法。",
+   "specs": "Snapdragon XR2 Gen 2 · 12 GB RAM · 2160×2160 per eye · 90 Hz · spatial video 2048×1536 at 60 fps",
+   "keywords": [
+    "mixed reality",
+    "passthrough",
+    "spatial video",
+    "AI-generated environment",
+    "PICO OS",
+    "ByteDance"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=MMLs3ii9_uw"
+   },
+   "source_url": "https://www.picoxr.com/global/products/pico4-ultra",
+   "collections": [
+    "trend-in-situ-xr"
+   ]
+  },
+  {
+   "id": "bytedance-seed--latentsync",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "LatentSync",
+   "year": 2024,
+   "date": "2024-12-12",
+   "field": "avatars",
+   "sub": "portrait",
+   "modalities": [
+    "avatar",
+    "flat-video"
+   ],
+   "inputs": [
+    "video",
+    "speech"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "open-source",
+   "description": "LatentSync re-renders the mouth of a person in an existing video so that it matches a new audio track, for dubbing or for making a recorded speaker say a different script. ByteDance released code and weights openly; version 1.5 (March 2025) improved temporal consistency and Chinese speech, and 1.6 (June 2025) trained at 512×512 for sharper lips and teeth. Version 1.6 had about 300,000 monthly downloads on Hugging Face in October 2026.",
+   "description_zh": "LatentSync 可重新渲染已有视频中人物的嘴部，使其与新的音轨同步，用于配音，或让录制好的讲话者说出另一段台词。字节跳动开源了代码与权重；1.5 版（2025 年 3 月）提升了时间一致性和中文表现，1.6 版（2025 年 6 月）改用 512×512 视频训练，唇齿更清晰。2026 年 10 月，1.6 版在 Hugging Face 上的月下载量约为 30 万次。",
+   "idea_en": "Changing only what a recorded person says, with their face and setting untouched, is a cheap way to make controlled variants of a filmed stimulus.",
+   "idea_zh": "只改变录制人物说的话，脸和场景保持不变，是低成本制作受控视频刺激材料变体的方法。",
+   "method": "An audio-conditioned latent diffusion model built on Stable Diffusion: Whisper audio embeddings enter the U-Net through cross-attention, reference and masked frames are concatenated with the noisy latents, and SyncNet, LPIPS and a temporal representation alignment (TREPA) loss are applied in pixel space.",
+   "method_zh": "基于 Stable Diffusion 的音频条件潜空间扩散模型：Whisper 音频嵌入通过交叉注意力进入 U-Net，参考帧与遮罩帧和加噪潜变量按通道拼接，并在像素空间施加 SyncNet、LPIPS 和时间表征对齐（TREPA）损失。",
+   "specs": "v1.6 · 512×512 face region · OpenRAIL++",
+   "keywords": [
+    "lip sync",
+    "dubbing",
+    "latent diffusion",
+    "open weights",
+    "Whisper"
+   ],
+   "video": {
+    "url": "https://github.com/user-attachments/assets/ac791682-1541-4e6a-aa11-edd9427b977e"
+   },
+   "images": [
+    "https://raw.githubusercontent.com/bytedance/LatentSync/main/docs/framework.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2412.09262",
+    "arxiv": "2412.09262",
+    "venue": "arXiv 2024",
+    "title": "LatentSync: Taming Audio-Conditioned Latent Diffusion Models for Lip Sync with SyncNet Supervision"
+   },
+   "source_url": "https://github.com/bytedance/LatentSync",
+   "code_url": "https://huggingface.co/ByteDance/LatentSync-1.6",
+   "collections": [
+    "trend-open-weights",
+    "trend-china-open"
+   ]
+  },
+  {
+   "id": "bytedance-seed--seaweed-apt",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "Seaweed APT",
+   "year": 2025,
+   "date": "2025-01-14",
+   "field": "video",
+   "sub": "realtime",
+   "modalities": [
+    "flat-video",
+    "image"
+   ],
+   "inputs": [
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "responsiveness"
+   ],
+   "kind": "research",
+   "description": "Seaweed APT generates a 2-second 1280×720, 24 fps video with a single network evaluation, fast enough to produce it in real time, and 1024-pixel images in one step. ByteDance reports it as the first large-scale text-to-video model to work in one step; its successor APT2 turned the technique into interactive streaming.",
+   "description_zh": "Seaweed APT 只需一次网络前向即可生成 2 秒、1280×720、24 fps 的视频，速度足以实时生成，也能一步生成 1024 像素图像。字节跳动称它是首个能一步完成大规模文生视频的模型；后继的 APT2 把这一技术用于交互式流式生成。",
+   "idea_en": "Collapsing dozens of denoising steps into one is what makes later real-time, steerable video possible; this is the step before the stream.",
+   "idea_zh": "把几十步去噪压缩成一步，是后来实时、可操控视频得以出现的前提；这是走向流式生成之前的那一步。",
+   "method": "Adversarial post-training against real data after diffusion pre-training (APT): the Seaweed diffusion transformer is turned into a one-step generator with an architecture and training changes and an approximated R1 regularization for stability.",
+   "method_zh": "在扩散预训练之后针对真实数据进行对抗后训练（APT）：通过架构与训练流程的改进以及近似 R1 正则化来稳定训练，把 Seaweed 扩散 Transformer 变成一步生成器。",
+   "specs": "1 NFE · 1280×720 · 24 fps · 2 s clips · 1024 px images",
+   "keywords": [
+    "one-step generation",
+    "adversarial post-training",
+    "distillation",
+    "real-time"
+   ],
+   "video": {
+    "url": "https://cdn.seaweed-apt.com/assets/showreel/seaweed-apt.mp4"
+   },
+   "images": [
+    "https://cdn.seaweed-apt.com/assets/misc/teaser.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2501.08316",
+    "arxiv": "2501.08316",
+    "venue": "arXiv 2025",
+    "title": "Diffusion Adversarial Post-Training for One-Step Video Generation"
+   },
+   "source_url": "https://seaweed-apt.com/1",
+   "collections": [
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "bytedance-seed--doubao-realtime-voice",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "Doubao Realtime Voice Model",
+   "year": 2025,
+   "date": "2025-01-20",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "responsiveness",
+    "behavioral-plausibility"
+   ],
+   "kind": "model",
+   "description": "ByteDance's first end-to-end speech-to-speech model, released to every user of the Doubao app on 2025-01-20: it talks mainly in Chinese with low latency, can be interrupted at any time, follows instructions about tone, dialect and singing, and picks up the user's emotion. ByteDance reports that external testers rated it clearly above GPT-4o for naturalness and emotional expressiveness.",
+   "description_zh": "字节跳动首个端到端语音对话模型，2025-01-20 在豆包 App 向全部用户开放：主要用中文对话，延迟低，可随时打断，能按指令切换语气、方言甚至唱歌，并能承接用户的情绪。字节跳动称，在外部众测中，它在语气自然度和情绪饱满度上明显优于 GPT-4o。",
+   "idea_en": "Expressive, interruptible voice in an app with hundreds of millions of users made spoken conversation with an AI an everyday situation in China, and the baseline later full-duplex models were measured against.",
+   "idea_zh": "在拥有数亿用户的 App 中提供富有表现力、可随时打断的语音，让与 AI 说话在中国成为日常情境，也成为后来全双工模型的比较基线。",
+   "method": "A single model that jointly models speech and semantics for understanding and generation, replacing the ASR → LLM → TTS cascade; it waits for the user's turn (half-duplex) but supports barge-in (per ByteDance's launch post).",
+   "method_zh": "据字节跳动发布文章：用一个模型对语音与语义联合建模，统一完成理解与生成，取代“语音识别 → 大模型 → 语音合成”的级联流程；它仍等待用户说完（半双工），但支持随时打断。",
+   "keywords": [
+    "end-to-end speech",
+    "speech-to-speech",
+    "Doubao app",
+    "emotional expressiveness",
+    "barge-in",
+    "half-duplex"
+   ],
+   "video": {
+    "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/3r7ojm64xnphi.mp4"
+   },
+   "source_url": "https://seed.bytedance.com/zh/blog/%E8%B1%86%E5%8C%85%E5%AE%9E%E6%97%B6%E8%AF%AD%E9%9F%B3%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%B8%8A%E7%BA%BF%E5%8D%B3%E5%BC%80%E6%94%BE-%E6%83%85%E5%95%86%E6%99%BA%E5%95%86%E5%8F%8C%E9%AB%98"
+  },
+  {
+   "id": "bytedance-seed--video-depth-anything",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "Video Depth Anything",
+   "year": 2025,
+   "date": "2025-01-21",
+   "field": "spatial-4d",
+   "sub": "dynamic",
+   "also": [
+    "worlds-3d"
+   ],
+   "modalities": [
+    "dynamic-4d"
+   ],
+   "inputs": [
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "situational-reach"
+   ],
+   "kind": "model",
+   "description": "Video Depth Anything (ByteDance, CVPR 2025) turns an ordinary video of any length, including several-minute drone or bicycle footage, into a temporally consistent depth video without flicker, which can be unprojected into moving point clouds. Code and weights are open.",
+   "description_zh": "Video Depth Anything（字节跳动，CVPR 2025）可把任意长度的普通视频（包括数分钟的无人机或骑行画面）转换为时间上一致、不闪烁的深度视频，并可反投影为运动的点云。代码与权重开源。",
+   "idea_en": "Consistent depth over minutes of footage lets any recorded walk-through become rough moving 3D, a cheap route from video to a space with parallax.",
+   "idea_zh": "在数分钟的画面中保持一致的深度，让任何一段录下来的行走画面都能变成粗略的动态三维，是从视频走向带视差空间的低成本途径。",
+   "method": "Depth Anything V2 with a lightweight spatio-temporal head, trained jointly on video depth and unlabeled images with a temporal-gradient consistency loss, and run on super-long videos with key-frame-based segment inference.",
+   "method_zh": "在 Depth Anything V2 上加入轻量的时空头，用视频深度数据与无标注图像联合训练，并加入时间梯度一致性损失；推理超长视频时采用基于关键帧的分段方式。",
+   "specs": "arbitrarily long videos · temporally consistent relative and metric depth",
+   "keywords": [
+    "video depth",
+    "temporal consistency",
+    "long video",
+    "point cloud",
+    "open weights"
+   ],
+   "video": {
+    "url": "https://videodepthanything.github.io/videos/long_videos/bicycle_wild_1080_depth-720_x3.mp4"
+   },
+   "images": [
+    "https://videodepthanything.github.io/static/images/teaser_video_v2.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2501.12375",
+    "arxiv": "2501.12375",
+    "venue": "CVPR 2025",
+    "title": "Video Depth Anything: Consistent Depth Estimation for Super-Long Videos"
+   },
+   "source_url": "https://videodepthanything.github.io/",
+   "code_url": "https://github.com/DepthAnything/Video-Depth-Anything",
+   "collections": [
+    "cvpr",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "hao-he--cameractrl-2",
+   "creator_ids": [
+    "hao-he",
+    "bytedance-seed"
+   ],
+   "title": "CameraCtrl II",
+   "year": 2025,
+   "date": "2025-03-13",
+   "field": "worlds-3d",
+   "sub": "explorable",
+   "also": [
+    "video"
+   ],
+   "modalities": [
+    "flat-video",
+    "scene-3d"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "camera"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "persistence",
+    "control"
+   ],
+   "kind": "research",
+   "description": "CameraCtrl II (CUHK and ByteDance Seed) lets a person explore a generated, moving scene by drawing camera paths: each new clip continues from the previous ones, keeping the scene consistent while people, water or traffic keep moving, from city streets to a voxel game village. Its 3D-consistent output can be reconstructed into point clouds.",
+   "description_zh": "CameraCtrl II（香港中文大学与字节跳动 Seed）让人通过绘制镜头路径来探索一个生成的动态场景：每段新视频都从之前的内容接续，场景保持一致，而行人、流水或车流仍在运动，场景从城市街道到体素风格的游戏村庄。其输出具有三维一致性，可重建为点云。",
+   "idea_en": "Exploration of a generated place does not have to freeze it: camera-conditioned continuation keeps the world alive while you look around, though navigation is by drawn paths, not live input.",
+   "idea_zh": "探索一个生成的地方不必让它静止：以镜头为条件的续写让世界在你环顾四周时仍在运动；不过导航靠预先绘制的路径，而不是实时输入。",
+   "method": "A camera-conditioned video diffusion model built on ByteDance's Seaweed base and trained on a curated dataset of dynamic videos with camera annotations, with a lightweight camera-injection module, clip-by-clip extension conditioned on earlier generations, and APT distillation for speed.",
+   "method_zh": "基于字节跳动 Seaweed 底座的镜头条件视频扩散模型，在带有镜头标注的动态视频数据集上训练，使用轻量的镜头注入模块，以先前生成内容为条件逐段续写，并用 APT 蒸馏加速。",
+   "keywords": [
+    "camera control",
+    "scene exploration",
+    "dynamic scenes",
+    "video extension",
+    "Seaweed",
+    "APT"
+   ],
+   "video": {
+    "url": "https://seaweed.video/projects/cameractrl2/assets/extension_indoor.mp4"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2503.10592",
+    "arxiv": "2503.10592",
+    "venue": "arXiv 2025",
+    "title": "CameraCtrl II: Dynamic Scene Exploration via Camera-controlled Video Diffusion Models"
+   },
+   "source_url": "https://hehao13.github.io/Projects-CameraCtrl-II/",
+   "collections": [
+    "trend-world-simulators"
+   ]
+  },
+  {
+   "id": "bytedance-seed--seaweed-7b",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "Seaweed-7B",
+   "year": 2025,
+   "date": "2025-04-11",
+   "field": "video",
+   "sub": "frontier",
+   "modalities": [
+    "flat-video",
+    "audio"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "persistence"
+   ],
+   "kind": "research",
+   "description": "ByteDance Seed's \"Seed-Video\" research foundation model: a 7-billion-parameter diffusion transformer that generates single shots of up to 20 seconds (about a minute with extension), multi-shot stories and, in one variant, audio with the video. It is the base that OmniHuman, Phantom, Long Context Tuning and the APT real-time models were built on.",
+   "description_zh": "字节跳动 Seed 的“Seed-Video”研究型基础模型：一个约 70 亿参数的扩散 Transformer，单镜头最长可生成 20 秒（续写后约一分钟），也能生成多镜头故事，其中一个变体还能与视频同步生成音频。OmniHuman、Phantom、Long Context Tuning 以及 APT 实时模型都建立在它之上。",
+   "idea_en": "A mid-sized video model trained on a fixed budget can serve as the shared base for avatars, multi-shot stories and real-time streaming, which is how one lab's research line spreads across many situation types.",
+   "idea_zh": "一个在有限算力下训练的中等规模视频模型，可以成为虚拟人、多镜头故事和实时流式生成的共同底座；同一个实验室的研究线正是这样延伸到多种情境类型的。",
+   "method": "A 7B diffusion transformer trained from scratch on video, image and text data with about 665,000 H100 GPU hours; the report documents the design choices made for that budget, and downstream tasks are added by light fine-tuning or continued training (per the technical report).",
+   "method_zh": "据技术报告：一个从零训练的 70 亿参数扩散 Transformer，在视频、图像与文本数据上使用约 66.5 万 H100 GPU 小时训练；报告记录了在这一算力预算下的设计取舍，下游任务通过轻量微调或继续训练加入。",
+   "specs": "7B · 665k H100 GPU hours · single shot up to 20 s, ~1 min with extension",
+   "keywords": [
+    "video foundation model",
+    "diffusion transformer",
+    "compute-efficient",
+    "Seed-Video"
+   ],
+   "video": {
+    "url": "https://seaweed.video/assets/hero/hero.mp4"
+   },
+   "images": [
+    "https://seaweed.video/assets/misc/og.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2504.08685",
+    "arxiv": "2504.08685",
+    "venue": "arXiv 2025",
+    "title": "Seaweed-7B: Cost-Effective Training of Video Generation Foundation Model"
+   },
+   "source_url": "https://seaweed.video/"
+  },
+  {
+   "id": "bytedance-seed--seed-liveinterpret-2",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "Seed LiveInterpret 2.0",
+   "year": 2025,
+   "date": "2025-07-24",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "full-duplex",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "responsiveness",
+    "perceptual-realism"
+   ],
+   "kind": "model",
+   "description": "An end-to-end simultaneous interpreter for Chinese ↔ English that listens and speaks at the same time, interprets several speakers with a 2–3 second lag, and speaks the translation in a clone of each speaker's own voice without prior enrolment. ByteDance reports above 70% accuracy in complex multi-speaker settings and above 80% for single speakers, as rated by human interpreters; it is offered on Volcano Engine.",
+   "description_zh": "一个端到端的中英双向同声传译模型：边听边说，可处理多人发言，延迟 2–3 秒，并能在无需预先录音的情况下用每位发言者自己的声音说出译文。字节跳动称，经人工同传评估，复杂多人场景下准确率超过 70%，单人演讲超过 80%；已在火山引擎上线。",
+   "idea_en": "A conversation partner who speaks another language can keep their own voice in yours, a few seconds behind: cross-language encounters become stageable without a human interpreter in the loop.",
+   "idea_zh": "说另一种语言的对话者，可以在几秒延迟内用自己的声音说出你的语言：跨语言的相遇无需人工译员也能被搭建出来。",
+   "method": "A duplex speech-to-speech understanding-and-generation framework trained with large-scale pre-training and reinforcement learning to balance accuracy against latency, with zero-shot voice cloning (per the technical report).",
+   "method_zh": "据技术报告：一个双工的语音到语音理解与生成框架，通过大规模预训练与强化学习在准确率与延迟之间取得平衡，并支持零样本声音复刻。",
+   "specs": "zh ↔ en · 2–3 s latency · zero-shot voice cloning · >70% accuracy multi-speaker (developer-reported)",
+   "keywords": [
+    "simultaneous interpretation",
+    "speech-to-speech translation",
+    "voice cloning",
+    "full-duplex",
+    "Volcano Engine"
+   ],
+   "video": {
+    "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymdgyq90r.mp4"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2507.17527",
+    "arxiv": "2507.17527",
+    "venue": "arXiv 2025",
+    "title": "Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice"
+   },
+   "source_url": "https://seed.bytedance.com/en/blog/seed-liveinterpret-2-0-released-an-end-to-end-simultaneous-interpretation-model-featuring-ultra-high-accuracy-close-to-human-interpreters-low-latency-of-3-seconds-and-real-time-voice-cloning",
+   "api_url": "https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI",
+   "collections": [
+    "trend-full-duplex"
+   ]
+  },
+  {
+   "id": "bytedance-seed--humo",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "HuMo",
+   "year": 2025,
+   "date": "2025-09-10",
+   "field": "avatars",
+   "sub": "portrait",
+   "also": [
+    "video"
+   ],
+   "modalities": [
+    "avatar",
+    "flat-video"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "speech"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "control",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "HuMo (Tsinghua University and ByteDance's Intelligent Creation team) generates videos of a person from any mix of a text prompt, reference images of the subject and an audio track, keeping the face and clothing of the references while the lips and expression follow the speech. The 17B and 1.7B weights are open under Apache 2.0 and run in ComfyUI.",
+   "description_zh": "HuMo（清华大学与字节跳动智能创作团队）可根据文字提示、人物参考图和音频的任意组合生成人物视频：保持参考图中的面孔和服装，同时让口型与表情跟随语音。17B 与 1.7B 权重以 Apache 2.0 许可开源，可在 ComfyUI 中使用。",
+   "idea_en": "Open weights for a speaking, identity-preserving person from text, a photo and a voice: the piece a lab can host itself when a study needs a scripted on-screen confederate.",
+   "idea_zh": "根据文字、照片和声音生成会说话且身份一致的人物，并且权重开源：当研究需要一位按脚本出镜的“实验同伙”时，实验室可以自行部署。",
+   "method": "Built on Wan 2.1 components with a paired text-image-audio dataset and two-stage progressive training: minimal-invasive image injection for subject preservation, then audio cross-attention with a focus-by-predicting strategy that ties audio to facial regions, plus time-adaptive classifier-free guidance at inference.",
+   "method_zh": "基于 Wan 2.1 组件，构建配对的文本-图像-音频数据集并分两阶段渐进训练：先以最小侵入的图像注入保持主体一致，再加入音频交叉注意力和“边预测边聚焦”策略，把音频与面部区域关联；推理时采用随时间自适应的无分类器引导。",
+   "specs": "17B (480p / 720p) and 1.7B (32 GB GPU) · Apache 2.0",
+   "keywords": [
+    "human-centric video",
+    "audio-driven",
+    "subject consistency",
+    "open weights",
+    "ComfyUI"
+   ],
+   "video": {
+    "url": "https://phantom-video.github.io/HuMo/assets/videos/teaser_title_26M.mp4"
+   },
+   "images": [
+    "https://phantom-video.github.io/HuMo/assets/octopus.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2509.08519",
+    "arxiv": "2509.08519",
+    "venue": "arXiv 2025",
+    "title": "HuMo: Human-Centric Video Generation via Collaborative Multi-Modal Conditioning"
+   },
+   "source_url": "https://phantom-video.github.io/HuMo/",
+   "code_url": "https://huggingface.co/bytedance-research/HuMo",
+   "collections": [
+    "trend-open-weights",
+    "trend-china-open"
+   ]
+  },
+  {
+   "id": "bytedance-seed--x-streamer",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "X-Streamer",
+   "year": 2025,
+   "date": "2025-09-25",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": [
+    "avatar",
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech",
+    "text",
+    "image"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "responsiveness",
+    "persistence"
+   ],
+   "kind": "research",
+   "description": "From one portrait, X-Streamer (ByteDance Intelligent Creation) runs an open-ended video call: one model hears and reads the user, decides what to say and streams the talking face, voice and text together in real time on two A100 GPUs. ByteDance shows hours-long chats in which the person stays consistent and remembers earlier turns.",
+   "description_zh": "X-Streamer（字节跳动智能创作团队）只需一张人像即可进行开放式视频通话：同一个模型听取并理解用户的语音和文字，决定说什么，并在两张 A100 上实时同步输出说话的人脸、声音和文字。字节跳动展示了长达数小时的对话，人物形象保持一致，并记得之前的内容。",
+   "idea_en": "Thinking, speaking and the moving face come from one model rather than a pipeline of separate services, which removes the hand-offs that make avatar replies lag.",
+   "idea_zh": "思考、说话和面部动作来自同一个模型，而不是多个独立服务拼接的流程，省去了让虚拟人回应变慢的交接环节。",
+   "method": "A Thinker-Actor dual transformer: the Thinker is a pretrained language-speech model that reasons over streaming input; the Actor is a chunk-wise autoregressive diffusion model that cross-attends to the Thinker's hidden states and emits time-aligned text and audio tokens with continuous video latents, stabilised by chunk-wise diffusion forcing and global identity referencing.",
+   "method_zh": "Thinker-Actor 双 Transformer 架构：Thinker 是预训练的语言-语音模型，对流式输入进行理解和推理；Actor 是分块自回归扩散模型，交叉注意 Thinker 的隐状态，输出时间对齐的文本与音频 token 以及连续的视频潜变量，并通过分块 diffusion forcing 与全局身份参考保持长时稳定。",
+   "specs": "real time on 2× A100 · hours-long sessions (developer-reported)",
+   "keywords": [
+    "interactive digital human",
+    "video call",
+    "unified model",
+    "autoregressive diffusion",
+    "single portrait"
+   ],
+   "video": {
+    "url": "https://byteaigc.github.io/X-Streamer/assets/teaser_video.mp4"
+   },
+   "images": [
+    "https://byteaigc.github.io/X-Streamer/assets/teaser.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2509.21574",
+    "arxiv": "2509.21574",
+    "venue": "arXiv 2025",
+    "title": "X-Streamer: Unified Human World Modeling with Audiovisual Interaction"
+   },
+   "source_url": "https://byteaigc.github.io/X-Streamer/",
+   "collections": [
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "bytedance-seed--seedance-1-5-pro",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "Seedance 1.5 pro",
+   "year": 2025,
+   "date": "2025-12-16",
+   "field": "video",
+   "sub": "frontier",
+   "modalities": [
+    "flat-video",
+    "speech",
+    "audio"
+   ],
+   "inputs": [
+    "text",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "product",
+    "api"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "The first Seedance model that generates sound together with the picture: from a text prompt or a start image it produces a 4–12 s clip with dialogue, voices and spatial sound effects, lip-synced in several languages and Chinese dialects, with long takes and dolly zooms on request. It runs in Jimeng (Dreamina) and Doubao and through the Volcano Engine Ark and BytePlus ModelArk APIs (seedance-1-5-pro-251215).",
+   "description_zh": "Seedance 系列中第一个让声音与画面一起生成的模型：根据文字提示或首帧图像，生成 4–12 秒带对白、人声和空间音效的片段，口型可与多种语言和中文方言同步，也能按要求完成长镜头、希区柯克变焦等运镜。可在即梦（Dreamina）和豆包中使用，也可通过火山方舟与 BytePlus ModelArk 的 API 调用（seedance-1-5-pro-251215）。",
+   "idea_en": "The point where ByteDance's video line started to speak: voice, sound and camera are planned in one pass, so a generated scene arrives with its own soundtrack instead of a silent clip waiting for dubbing.",
+   "idea_zh": "字节跳动的视频模型从这里开始“开口说话”：人声、音效与镜头在一次生成中统一规划，生成的场景自带声音，而不是一段等待配音的无声片段。",
+   "method": "A dual-branch Diffusion Transformer for video and audio joined by a cross-modal module, trained on a multi-stage audio-video data pipeline with SFT and RLHF using multi-dimensional reward models, plus an acceleration stack that ByteDance reports speeds inference up by more than 10x (per the technical report).",
+   "method_zh": "据技术报告：视频与音频双分支的扩散 Transformer，通过跨模态联合模块连接；在多阶段音视频数据流程上训练，并进行 SFT 和基于多维奖励模型的 RLHF；另有一套推理加速方案，字节跳动称可提速 10 倍以上。",
+   "specs": "joint audio-video · 480p–1080p · 24 fps · 4–12 s · T2V / I2V / first-last frame · ModelArk $1.2–2.4 per M tokens (online)",
+   "keywords": [
+    "native audio",
+    "joint audio-video",
+    "lip sync",
+    "dialects",
+    "Jimeng",
+    "Volcano Engine",
+    "BytePlus ModelArk"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=LQ4Wbk1Kejs"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2512.13507",
+    "arxiv": "2512.13507",
+    "venue": "arXiv 2025",
+    "title": "Seedance 1.5 pro: A Native Audio-Visual Joint Generation Foundation Model"
+   },
+   "source_url": "https://seed.bytedance.com/en/blog/sound-and-vision-all-in-one-take-the-official-release-of-seedance-1-5-pro",
+   "api_url": "https://docs.byteplus.com/en/docs/ModelArk/1520757",
+   "collections": [
+    "trend-native-audio"
+   ]
+  },
+  {
+   "id": "bytedance-seed--flowact-r1",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "FlowAct-R1",
+   "year": 2026,
+   "date": "2026-01-15",
+   "field": "avatars",
+   "sub": "conversational",
+   "modalities": [
+    "avatar",
+    "behavior"
+   ],
+   "inputs": [
+    "speech",
+    "text",
+    "image"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "responsiveness",
+    "behavioral-plausibility"
+   ],
+   "kind": "research",
+   "description": "FlowAct-R1 (ByteDance Intelligent Creation) streams a full-body digital human from one reference image for as long as the interaction lasts, at 480p and 25 fps with about 1.5 s to the first frame, and moves between listening, speaking and other behavioural states as the conversation changes. It is the first step of the line continued by FlowAct-R2 (2026-09).",
+   "description_zh": "FlowAct-R1（字节跳动智能创作团队）可根据一张参考图像流式生成全身数字人，互动持续多久就生成多久，分辨率 480p、帧率 25 fps，首帧延迟约 1.5 秒，并能随对话变化在倾听、说话等行为状态之间自然切换。它是 FlowAct-R2（2026 年 9 月）所延续路线的第一步。",
+   "idea_en": "A generated person that never stops moving between turns, with whole-body behaviour states, is what makes a video call with an avatar feel occupied rather than paused.",
+   "idea_zh": "生成的人在两次发言之间也不会停住，并有全身的行为状态，这让与虚拟人的视频通话显得“有人在”，而不是画面暂停。",
+   "method": "An MMDiT video model generating chunk by chunk with diffusion forcing and a self-forcing variant against error accumulation, distilled and system-optimised for real-time streaming, with fine-grained full-body behaviour control.",
+   "method_zh": "基于 MMDiT 的视频模型，采用分块 diffusion forcing 与一种 self-forcing 变体来抑制误差累积，经蒸馏和系统级优化实现实时流式生成，并支持细粒度的全身行为控制。",
+   "specs": "480p · 25 fps · TTFF ≈1.5 s · arbitrary length",
+   "keywords": [
+    "interactive digital human",
+    "streaming video",
+    "diffusion forcing",
+    "full-body",
+    "video call"
+   ],
+   "video": {
+    "url": "https://grisoon.github.io/FlowAct-R1/static/videos/teaser1.mp4"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2601.10103",
+    "arxiv": "2601.10103",
+    "venue": "arXiv 2026",
+    "title": "FlowAct-R1: Towards Interactive Humanoid Video Generation"
+   },
+   "source_url": "https://grisoon.github.io/FlowAct-R1/",
+   "collections": [
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "bytedance-seed--dreamactor-m2",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "DreamActor-M2",
+   "year": 2026,
+   "date": "2026-01-29",
+   "field": "video",
+   "sub": "control",
+   "also": [
+    "avatars"
+   ],
+   "modalities": [
+    "flat-video",
+    "avatar"
+   ],
+   "inputs": [
+    "image",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "diversity",
+    "authoring"
+   ],
+   "kind": "research",
+   "description": "DreamActor-M2 (ByteDance Intelligent Creation, SIGGRAPH 2026) makes the character in one image perform the motion of a driving video, across body types and species: a person's dance can drive a cartoon animal, an animal's movement a person, and half-body footage a full-body character, including scenes with several characters and hand-object interaction. It follows DreamActor-M1 (2025-04).",
+   "description_zh": "DreamActor-M2（字节跳动智能创作团队，SIGGRAPH 2026）可让一张图像中的角色做出驱动视频里的动作，并能跨越体型与物种：人的舞蹈可以驱动卡通动物，动物的动作可以驱动人，半身画面也能驱动全身角色，还支持多角色和手物交互场景。它是 DreamActor-M1（2025 年 4 月）的后续。",
+   "idea_en": "Driving any character directly from raw video, without a skeleton in between, lets one recorded performance be recast onto many different bodies.",
+   "idea_zh": "不经过骨骼中间表示，直接用原始视频驱动任意角色，让一段录制的表演可以被“改派”到许多不同的身体上。",
+   "method": "Reframes motion conditioning as spatiotemporal in-context learning on a video foundation model: reference appearance and driving-motion cues are fused into one latent sequence, and a self-bootstrapped pipeline synthesises pseudo cross-identity pairs to move from pose-based to end-to-end RGB-driven animation.",
+   "method_zh": "把动作条件重新表述为视频基础模型上的时空上下文学习：参考外观与驱动动作线索融合进同一个潜变量序列，再通过自举式数据合成流程构造跨身份的伪训练对，从依赖姿态过渡到端到端由 RGB 视频直接驱动。",
+   "keywords": [
+    "character animation",
+    "motion transfer",
+    "in-context learning",
+    "non-human characters",
+    "SIGGRAPH 2026"
+   ],
+   "video": {
+    "url": "https://grisoon.github.io/DreamActor-M2/static/videos/Teasers/multi_1.mp4"
+   },
+   "images": [
+    "https://grisoon.github.io/DreamActor-M2/static/images/overview.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2601.21716",
+    "arxiv": "2601.21716",
+    "venue": "SIGGRAPH 2026",
+    "title": "DreamActor-M2: Universal Character Image Animation via Spatiotemporal In-Context Learning"
+   },
+   "source_url": "https://grisoon.github.io/DreamActor-M2/",
+   "collections": [
+    "siggraph"
+   ]
+  },
+  {
+   "id": "bytedance-seed--seeduplex",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "Seeduplex",
+   "year": 2026,
+   "date": "2026-04-09",
+   "field": "audio",
+   "sub": "duplex-speech",
+   "modalities": [
+    "speech",
+    "dialogue"
+   ],
+   "inputs": [
+    "speech"
+   ],
+   "timing": "full-duplex",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "responsiveness",
+    "reactivity"
+   ],
+   "kind": "model",
+   "description": "ByteDance Seed's native full-duplex speech model, fully rolled out as the voice of the Doubao app: it keeps listening while it talks, ignores background noise and other people's voices, and waits while the user hesitates but answers as soon as they finish. Seed reports that false replies and false interruptions fell by half and premature replies by 40% compared with the previous half-duplex Doubao voice model; its audio-visual successor is SeedRealtime (2026-08).",
+   "description_zh": "字节跳动 Seed 的原生全双工语音大模型，已作为豆包 App 的语音能力全量上线：它边说边听，能忽略背景噪音和旁人说话，在用户犹豫时耐心等待、说完后迅速回应。Seed 报告称，与上一代半双工的豆包语音模型相比，误回复和误打断减少一半，抢话减少 40%；其视听版本的后继是 SeedRealtime（2026 年 8 月）。",
+   "idea_en": "Turn-taking decided by the model rather than by silence detection, at the scale of a consumer app: the first condition for a generated interlocutor that can share a noisy room with people.",
+   "idea_zh": "由模型而非静音检测来决定何时轮到谁说话，并在消费级应用的规模上实现：这是生成的对话者能与人共处嘈杂空间的首要条件。",
+   "method": "A full-duplex framework on Seed's LLM foundation, pre-trained on speech data, that continuously encodes the incoming audio stream while generating and judges end of turn from both acoustic and semantic features, replacing a separate voice-activity detector and noise-suppression front end (per ByteDance's launch post).",
+   "method_zh": "据字节跳动发布文章：基于 Seed 大模型底座并经过语音数据预训练的全双工框架，在生成的同时持续编码输入音频流，并结合声学与语义特征判断用户是否说完，取代独立的语音活动检测与前端降噪模块。",
+   "specs": "false-reply / false-interruption rate −50%, premature replies −40% vs half-duplex (developer-reported)",
+   "keywords": [
+    "full-duplex",
+    "speech LLM",
+    "turn-taking",
+    "interference suppression",
+    "Doubao app",
+    "deployed"
+   ],
+   "video": {
+    "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/3gxwwmnonbpee.mp4"
+   },
+   "source_url": "https://seed.bytedance.com/en/blog/introducing-seed-full-duplex-speech-llm-attentive-listening-robust-interference-suppression-enabling-more-natural-interaction",
+   "collections": [
+    "trend-full-duplex"
+   ]
+  },
+  {
+   "id": "bytedance-seed--bernini",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "Bernini",
+   "year": 2026,
+   "date": "2026-05-22",
+   "field": "video",
+   "sub": "control",
+   "modalities": [
+    "flat-video",
+    "image"
+   ],
+   "inputs": [
+    "text",
+    "video",
+    "image"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "authoring",
+    "control"
+   ],
+   "kind": "model",
+   "description": "Bernini (ByteDance) edits and generates video from instructions: it changes objects, weather, materials or style in an existing clip, inserts a person or object from a reference image or video, or composes a new clip from up to five reference images. The weights (renderer released 2026-06-01, full planner pipeline 2026-06-11) and code are open under Apache 2.0; ByteDance reports first-tier results against closed commercial editors in its own blind arena.",
+   "description_zh": "Bernini（字节跳动）可以按指令编辑和生成视频：修改已有片段中的物体、天气、材质或风格，根据参考图像或视频把人物或物体插入画面，或用最多五张参考图合成新的片段。权重（渲染器 2026-06-01 发布，完整的规划流程 2026-06-11 发布）与代码以 Apache 2.0 开源；字节跳动称在其自建的盲测竞技场中，它的编辑效果与闭源商用模型处于同一梯队。",
+   "idea_en": "Separating 'what should change' (planned by a language model) from 'how it looks' (rendered by a video model) gives an open, inspectable way to vary one element of a recorded situation while keeping the rest.",
+   "idea_zh": "把“要改什么”（由多模态大模型规划）与“看起来怎样”（由视频模型渲染）分开，提供了一种开源、可检查的方式：只改变录制情境中的一个元素，其余保持不变。",
+   "method": "An MLLM planner (Qwen2.5-VL-7B base) predicts the target semantic embedding in ViT space, with chain-of-thought for complex requests, and a flow-matching DiT renderer (Wan 2.2-A14B base) generates the video from that plan plus text and source VAE features, using segment-aware 3D RoPE for multiple visual inputs.",
+   "method_zh": "多模态大模型规划器（基于 Qwen2.5-VL-7B）在 ViT 空间中预测目标语义嵌入，复杂请求时使用思维链；基于流匹配的 DiT 渲染器（基于 Wan 2.2-A14B）再根据该规划、文本以及源视频的 VAE 特征生成视频，并用分段感知的三维 RoPE 处理多路视觉输入。",
+   "specs": "7B planner + 14B renderer · T2V / V2V / reference-guided editing / R2V (up to 5 references) · Apache 2.0",
+   "keywords": [
+    "video editing",
+    "reference-to-video",
+    "MLLM planner",
+    "open weights",
+    "Wan 2.2"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=ZE5YgDYkh_g"
+   },
+   "images": [
+    "https://bernini-ai.github.io/assets/framework.png"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2605.22344",
+    "arxiv": "2605.22344",
+    "venue": "arXiv 2026",
+    "title": "Bernini: Latent Semantic Planning for Video Diffusion"
+   },
+   "source_url": "https://bernini-ai.github.io/",
+   "code_url": "https://github.com/bytedance/Bernini",
+   "collections": [
+    "trend-open-weights",
+    "trend-china-open"
+   ]
+  },
+  {
+   "id": "bytedance-seed--seedance-2-5",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "Seedance 2.5",
+   "year": 2026,
+   "date": "2026-07-31",
+   "field": "video",
+   "sub": "frontier",
+   "modalities": [
+    "flat-video",
+    "speech",
+    "audio"
+   ],
+   "inputs": [
+    "text",
+    "image",
+    "video"
+   ],
+   "timing": "offline",
+   "access": [
+    "product",
+    "api"
+   ],
+   "lenses": [
+    "persistence",
+    "control",
+    "authoring"
+   ],
+   "kind": "model",
+   "description": "Seedance 2.5 generates up to 30 seconds of joint audio and video in one pass, twice the 15 s of Seedance 2.0, and can extend a clip in further rounds into multi-minute scenes; one prompt can carry up to 30 images, 10 video clips and 10 audio clips as references, and edits can target time-stamped parts of a clip. It launched in Jimeng and Doubao on 2026-07-31, followed by the BytePlus ModelArk API (dreamina-seedance-2-5-260628), a 480p draft mode (September) and a 4K tier (October 2026).",
+   "description_zh": "Seedance 2.5 单次可生成最长 30 秒的音视频，是 Seedance 2.0（15 秒）的两倍，还可多轮续写成几分钟的连贯场景；一次提示最多可放入 30 张图像、10 段视频和 10 段音频作为参考，编辑也能精确到片段中的指定时间点。2026-07-31 在即梦和豆包上线，随后开放 BytePlus ModelArk API（dreamina-seedance-2-5-260628），9 月加入 480p 草稿模式，2026 年 10 月推出 4K 版本。",
+   "idea_en": "Thirty-second takes with continuation are long enough to stage a whole exchange, from setup to consequence, without a visible cut, which turns a prompt into something closer to a rehearsed scene.",
+   "idea_zh": "30 秒的单镜头加上续写，足以在不露剪辑痕迹的情况下演完一段完整的互动，从铺垫到后果，让一条提示更接近一场排练过的戏。",
+   "method": "Builds on the unified multimodal audio-video joint-generation architecture of Seedance 2.0, adding stronger reference understanding (clay-render, motion and creative references), timestamp-level audio and video editing, green-screen and camera-perspective editing, and multi-round extension (per ByteDance's launch post; no technical report as of October 2026).",
+   "method_zh": "据字节跳动发布文章：沿用 Seedance 2.0 统一的多模态音视频联合生成架构，强化了对白模、动作和创意参考的理解，加入精确到时间点的音视频编辑、绿幕与机位编辑，以及多轮续写；截至 2026 年 10 月尚无技术报告。",
+   "specs": "4–30 s per pass + multi-round extension · up to 50 references (30 images, 10 videos, 10 audio) · 480p / 720p / 1080p 10-bit, 4K tier (2026-10-23) · 24 fps · ModelArk $10.70 per M tokens",
+   "keywords": [
+    "30-second generation",
+    "video extension",
+    "multimodal reference",
+    "timestamp editing",
+    "Jimeng",
+    "Dreamina",
+    "BytePlus ModelArk",
+    "draft mode"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=LO9VdcXrdWo"
+   },
+   "source_url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+   "api_url": "https://docs.byteplus.com/en/docs/ModelArk/1520757",
+   "collections": [
+    "trend-native-audio"
+   ]
+  },
+  {
+   "id": "bytedance-seed--omnihuman-2",
+   "creator_ids": [
+    "bytedance-seed"
+   ],
+   "title": "OmniHuman 2.0",
+   "year": 2026,
+   "date": "2026-10-15",
+   "field": "avatars",
+   "sub": "portrait",
+   "modalities": [
+    "avatar",
+    "flat-video"
+   ],
+   "inputs": [
+    "image",
+    "speech",
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "api"
+   ],
+   "lenses": [
+    "behavioral-plausibility",
+    "persistence"
+   ],
+   "kind": "model",
+   "description": "OmniHuman 2.0 animates a single image from an audio track and an optional text prompt into a 720p video of one or several people speaking, singing or performing, with gesture and camera control. On the BytePlus API one continuous shot now runs from 30 s to 5 minutes (up from 60 s) at $0.07 per second (down from $0.12).",
+   "description_zh": "OmniHuman 2.0 根据一张图像、一段音频和可选的文字提示，生成一人或多人说话、唱歌或表演的 720p 视频，并可控制手势与运镜。在 BytePlus API 上，单个连续镜头的时长从 60 秒提高到 30 秒至 5 分钟，价格从每秒 0.12 美元降到 0.07 美元。",
+   "idea_en": "Five-minute single-shot performances at a few cents per second make a scripted virtual speaker affordable at the length of a study session, though it still renders offline rather than in conversation.",
+   "idea_zh": "每秒几美分、单镜头 5 分钟的表演，让一个按脚本说话的虚拟人在一次实验时长内也负担得起；不过它仍是离线渲染，而不是实时对话。",
+   "method": "Successor to the OmniHuman-1.5 image-and-audio-conditioned Diffusion Transformer with longer single-shot generation and multi-person scenes; BytePlus links its product page to the OmniHuman-1.5 report and no separate paper for 2.0 had appeared as of 2026-10-26.",
+   "method_zh": "OmniHuman-1.5 图像与音频条件扩散 Transformer 的后继版本，支持更长的单镜头生成和多人场景；BytePlus 产品页链接的仍是 OmniHuman-1.5 的报告，截至 2026-10-26 尚无 2.0 的独立论文。",
+   "specs": "720p · 30–300 s per shot · multi-person · $0.07/s (BytePlus)",
+   "keywords": [
+    "audio-driven avatar",
+    "lip sync",
+    "long video",
+    "multi-person",
+    "BytePlus",
+    "price cut"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=q-QLlwkvAtM"
+   },
+   "images": [
+    "https://lf3-starry.byteimg.com/obj/starry/image/844kv2xufj_omnihuman-desktop@2x.jpeg"
+   ],
+   "source_url": "https://www.byteplus.com/en/product/omnihuman",
+   "api_url": "https://docs.byteplus.com/en/docs/byteplus-vision/omnihuman-2-0-video-generation",
+   "collections": [
+    "trend-cost"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "ByteDance real-time 3D / spatial world model (Bloomberg report 2026-09-07)",
+   "why": "Reported real-time spatial video / world model built on Seedance, aimed at PICO headsets (~50 ms, ~20 fps targets per press); still no official ByteDance or Seed announcement, model page or paper as of 2026-10-26 (Seed blog and publication list checked). Add when official.",
+   "link": "https://thenextweb.com/news/bytedance-spatial-video-world-model-zhang-yiming",
+   "found_via": "bytedance-seed",
+   "status": "open"
+  },
+  {
+   "name": "PICO Space Pro (Project Swan) headset",
+   "why": "Micro-OLED 4,000 PPI MR headset with a custom perception co-processor; Beijing launch event of 2026-09-02 cancelled and release moved to Q4 2026 (PICO statement relayed by Road to VR, 2026-08-25); unreleased, no official product page found. Add on launch as an infra/devices work.",
+   "link": "https://roadtovr.com/pico-vision-pro-competitor-delayed-cancelled-event/",
+   "found_via": "pico",
+   "status": "open"
+  },
+  {
+   "name": "LiveGS: Live Free-Viewpoint Video via High-Performance Gaussian Splatting for Mobile Devices (ByteDance, SIGGRAPH 2025 E-Tech)",
+   "why": "Real-time feed-forward 4DGS streaming at 10–20 Mbps with ~30 fps iPhone 15 playback; DOI verified (10.1145/3721257.3734033), still no official video or project page as of 2026-10-26.",
+   "link": "https://doi.org/10.1145/3721257.3734033",
+   "found_via": "bytedance-seed",
+   "status": "no_media"
+  },
+  {
+   "name": "X-Actor: Emotional and Expressive Long-Range Portrait Acting from Audio (ByteDance, 2025-08)",
+   "why": "Audio-driven long-form portrait performance with evolving emotion (arXiv 2508.02944); research-only talking head, lower priority than OmniHuman / X-Streamer.",
+   "link": "https://byteaigc.github.io/X-Actor/",
+   "found_via": "bytedance-seed",
+   "status": "open"
+  },
+  {
+   "name": "InterActHuman: Multi-Concept Human Animation with Layout-Aligned Audio Conditions (ByteDance, 2025-06)",
+   "why": "Multi-person audio-driven animation where each voice drives the matching person (arXiv 2506.09984); research only, folded into the OmniHuman line.",
+   "link": "https://arxiv.org/abs/2506.09984",
+   "found_via": "bytedance-seed",
+   "status": "open"
+  },
+  {
+   "name": "BytePlus Dramagic (2026-09-20, beta)",
+   "why": "Enterprise AIGC platform for short-drama production (script → assets → storyboard → video preview) built on ByteDance models; beta only, a workflow wrapper rather than a model.",
+   "link": "https://www.youtube.com/watch?v=zogExlWbX_c",
+   "found_via": "volcano-engine",
+   "status": "open"
+  },
+  {
+   "name": "Seedance 2.5 tech report",
+   "why": "No technical report for Seedance 2.5 as of 2026-10-26 (2.0 had arXiv 2604.14148); add paper to bytedance-seed--seedance-2-5 when it appears.",
+   "link": "https://seed.bytedance.com/en/seedance2_5",
+   "found_via": "bytedance-seed",
+   "status": "open"
+  },
+  {
+   "name": "Trace Anything: Representing Any Video in 4D via Trajectory Fields (ByteDance Seed, ICLR 2026)",
+   "why": "Feed-forward 4D trajectory fields from any video (GitHub ~590 stars); candidate for spatial-4d/dynamic, not checked for media this round.",
+   "link": "https://trace-anything.github.io/",
+   "found_via": "bytedance-seed",
+   "status": "open"
+  },
+  {
+   "name": "Video-As-Prompt: Unified Semantic Control for Video Generation (ByteDance, ICLR 2026)",
+   "why": "Open weights (Wan 2.1 / CogVideoX variants) that copy a reference video's semantics (effects, camera, style) into a new clip; candidate for video/control.",
+   "link": "https://bytedance.github.io/Video-As-Prompt/",
+   "found_via": "bytedance-seed",
+   "status": "open"
+  }
+ ]
+}

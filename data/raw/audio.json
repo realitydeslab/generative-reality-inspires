@@ -1999,6 +1999,11 @@
    ],
    "video": {
     "url": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/media/lyria_realtime_header.mp4"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2508.04651",
+    "arxiv": "2508.04651",
+    "title": "Live Music Models"
    }
   },
   {

@@ -1,0 +1,94 @@
+{
+  "tencent-hunyuan--hy-nomas": {
+    "zh": "混元 Hy-Nomas",
+    "src": "established"
+  },
+  "tencent-hunyuan--hunyuan-gamecraft-2": {
+    "zh": "混元 GameCraft-2",
+    "src": "established"
+  },
+  "agibot--ge-sim-2": {
+    "zh": "GE-Sim 2.0（智元 Genie Envisioner 世界模拟器 2.0）",
+    "src": "translated"
+  },
+  "ace-robotics--kairos-3": {
+    "zh": "开悟世界模型 3.0（Kairos）",
+    "src": "established"
+  },
+  "chenxu-zhou--realme": {
+    "zh": "RealMe：用极少量拍摄生成沉浸式体积视频",
+    "src": "translated"
+  },
+  "xpeng--x-world": {
+    "zh": "X-World：小鹏可控多摄像头驾驶世界模型",
+    "src": "translated"
+  },
+  "manycore--aholo": {
+    "zh": "Aholo（群核科技）",
+    "src": "keep"
+  },
+  "yu-shang--worldarena": {
+    "zh": "WorldArena：具身世界模型评测基准",
+    "src": "translated"
+  },
+  "jintao-zhang--turbodiffusion": {
+    "zh": "TurboDiffusion：视频扩散模型百倍加速",
+    "src": "translated"
+  },
+  "zheng-hui-huang--alayarenderer": {
+    "zh": "AlayaRenderer 生成式世界渲染器（含 Flash 实时版）",
+    "src": "translated"
+  },
+  "zheng-hui-huang--programmable-world-model": {
+    "zh": "可编程世界模型（Programmable World Model）",
+    "src": "translated"
+  },
+  "wenqiang-sun--realplay": {
+    "zh": "RealPlay：从虚拟游戏到真实世界的游玩",
+    "src": "translated"
+  },
+  "yuanpeng-tu--playerone": {
+    "zh": "PlayerOne：第一人称世界模拟器",
+    "src": "translated"
+  },
+  "streameval-team--streameval": {
+    "zh": "StreamEval：交互式流式视频生成评测基准",
+    "src": "translated"
+  },
+  "shenyuan-gao--vista": {
+    "zh": "Vista：可泛化的驾驶世界模型",
+    "src": "translated"
+  },
+  "xuemeng-yang--drivearena": {
+    "zh": "DriveArena：闭环生成式驾驶仿真平台",
+    "src": "translated"
+  },
+  "shenyuan-gao--adaworld": {
+    "zh": "AdaWorld：基于潜动作的可适配世界模型",
+    "src": "translated"
+  },
+  "kaiyi-huang--multics": {
+    "zh": "Multics：多人生成式世界模型",
+    "src": "translated"
+  },
+  "xinyu-wang-thu--liveact": {
+    "zh": "LiveAct：实时多智能体世界模型",
+    "src": "translated"
+  },
+  "ruiqi-wu--infinite-world": {
+    "zh": "Infinite-World：千帧级交互式世界模型",
+    "src": "translated"
+  },
+  "junyi-chen--deepverse": {
+    "zh": "DeepVerse：作为世界模型的 4D 自回归视频生成",
+    "src": "translated"
+  },
+  "yixuan-zhu--astra": {
+    "zh": "Astra：通用交互式世界模型",
+    "src": "translated"
+  },
+  "shaoting-peng--hapticworld": {
+    "zh": "HapticWorld：带实时力矩反馈的交互式世界模拟器",
+    "src": "translated"
+  }
+}

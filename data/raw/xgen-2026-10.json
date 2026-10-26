@@ -1,0 +1,686 @@
+{
+ "batch": "xgen-2026-10",
+ "creators": [
+  {
+   "id": "enigma-labs",
+   "name": "Enigma Labs",
+   "name_zh": "",
+   "kind": "company",
+   "role": "AI startup; maker of the Multiverse multiplayer world model",
+   "based": "Israel",
+   "bio": "A small team of Israeli engineers (ex-Unit 8200) that released Multiverse in May 2025, an open two-player world model trained on Gran Turismo 4; by October 2026 its site had moved to enigma.inc and robotics.",
+   "why": "Showed in 2025 that two players can share one generated world, the starting point of the multiplayer world-model line.",
+   "disciplines": [
+    "ml",
+    "games"
+   ],
+   "links": {
+    "site": "https://enigma.inc/blog",
+    "github": "https://github.com/EnigmaLabsAI/multiverse",
+    "huggingface": "https://huggingface.co/Enigma-AI",
+    "x": "https://x.com/j0nathanj"
+   },
+   "role_zh": "AI 初创公司，多人世界模型 Multiverse 的开发者",
+   "bio_zh": "由几位以色列工程师（前 8200 部队成员）组成的小团队，2025 年 5 月发布开源双人世界模型 Multiverse，训练数据来自《GT 赛车 4》；到 2026 年 10 月，其网站已迁至 enigma.inc，转向机器人方向。",
+   "why_zh": "在 2025 年证明了两名玩家可以共享同一个生成世界，是多人世界模型这条路线的起点。",
+   "based_zh": "以色列",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "zicheng-duan",
+   "name": "Zicheng Duan",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher at Adelaide University; first author of LiveWorld",
+   "based": "Adelaide, Australia",
+   "bio": "First author of LiveWorld (ECCV 2026), which keeps moving things in a generated world evolving while the camera looks away, with co-authors from ANU, Monash, Zhejiang University and Auckland.",
+   "why": "Named and benchmarked the 'out-of-sight dynamics' problem: generated worlds freeze whatever the viewer is not looking at.",
+   "disciplines": [
+    "ml",
+    "graphics"
+   ],
+   "links": {
+    "site": "https://zichengduan.github.io/",
+    "github": "https://github.com/ZichengDuan/LiveWorld"
+   },
+   "role_zh": "阿德莱德大学研究者，LiveWorld 第一作者",
+   "bio_zh": "LiveWorld（ECCV 2026）的第一作者。LiveWorld 让生成世界里移动的事物在镜头移开后继续演变，合作者来自澳大利亚国立大学、莫纳什大学、浙江大学与奥克兰大学。",
+   "why_zh": "提出并评测了“视野外动态”问题：生成的世界会把观察者没在看的部分冻结起来。",
+   "based_zh": "澳大利亚阿德莱德",
+   "connected_to": [],
+   "discovered_via": "xgen-labs"
+  },
+  {
+   "id": "samuel-garcin",
+   "name": "Samuel Garcin",
+   "name_zh": "",
+   "kind": "person",
+   "role": "PhD researcher at the University of Edinburgh; first author of PERSIST",
+   "based": "Edinburgh, UK",
+   "bio": "First author of PERSIST (ICML 2026), a world model with a persistent latent 3D state, written with Microsoft Research's game-intelligence group.",
+   "why": "Shows that a world model can keep the world as an evolving 3D state rather than as a window of past frames.",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://francelico.github.io/persist.github.io/",
+    "github": "https://github.com/francelico/PERSIST",
+    "huggingface": "https://huggingface.co/PERSIST-team"
+   },
+   "role_zh": "爱丁堡大学博士研究者，PERSIST 第一作者",
+   "bio_zh": "PERSIST（ICML 2026）的第一作者。PERSIST 是一个带有持久潜在三维状态的世界模型，与微软研究院游戏智能团队合作完成。",
+   "why_zh": "证明世界模型可以把世界保存为一个不断演化的三维状态，而不是一段过去画面的窗口。",
+   "based_zh": "英国爱丁堡",
+   "connected_to": [
+    "microsoft"
+   ],
+   "discovered_via": "xgen-labs"
+  },
+  {
+   "id": "joonghyuk-shin",
+   "name": "Joonghyuk Shin",
+   "name_zh": "",
+   "kind": "person",
+   "role": "Researcher at Seoul National University; first author of the stateful video world model study with Roblox",
+   "based": "Seoul, South Korea",
+   "bio": "First author of 'Can Video World Models Track Unobserved World States?' (2026), written with Yicong Hong and Xun Huang of Roblox.",
+   "why": "Tests whether a video world model actually holds hidden state, not just whether its frames look right.",
+   "disciplines": [
+    "ml"
+   ],
+   "links": {
+    "site": "https://joonghyuk.com/",
+    "github": "https://github.com/alex4727/stateful-vwm"
+   },
+   "role_zh": "首尔大学研究者，与 Roblox 合作的“有状态视频世界模型”研究第一作者",
+   "bio_zh": "论文《视频世界模型能追踪看不见的世界状态吗？》（2026）的第一作者，合作者为 Roblox 的 Yicong Hong 与 Xun Huang。",
+   "why_zh": "检验视频世界模型是否真的保存了隐藏状态，而不只是画面看起来对。",
+   "based_zh": "韩国首尔",
+   "connected_to": [
+    "roblox"
+   ],
+   "discovered_via": "xgen-labs"
+  }
+ ],
+ "works": [
+  {
+   "id": "roblox--roblox-reality",
+   "creator_ids": [
+    "roblox"
+   ],
+   "title": "Roblox Reality",
+   "year": 2026,
+   "date": "2026-04-30",
+   "field": "world-models",
+   "sub": "game",
+   "also": [
+    "infra"
+   ],
+   "modalities": [
+    "frame-stream"
+   ],
+   "inputs": [
+    "action",
+    "spec"
+   ],
+   "timing": "real-time",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "persistence",
+    "perceptual-realism",
+    "co-creation"
+   ],
+   "kind": "research",
+   "description": "Roblox's planned hybrid architecture for photoreal multiplayer games: the Roblox engine and cloud keep the authoritative world state, rules and physics that all players share, and an edge-hosted video world model (the 'Super Upsampler') repaints each player's rendered frames with generated textures, lighting and fine motion. Announced 2026-04-30 as an internal project with an early version promised for late 2026 or early 2027; the lab model shown in the video did not yet run in real time.",
+   "description_zh": "Roblox 规划中的照片级多人游戏混合架构：Roblox 引擎与云端保存所有玩家共享的权威世界状态、规则与物理，部署在边缘机房的视频世界模型（“超级上采样器”）再为每位玩家的渲染画面重新生成纹理、光照与细微运动。2026 年 4 月 30 日作为内部项目公布，称早期版本将于 2026 年底或 2027 年初推出；视频中展示的实验室模型当时还不能实时运行。",
+   "idea_en": "Splits a world into what every player must agree on (positions, rules, state, kept by the engine) and what may differ per player (grass, smoke, cloud shapes, generated), which is how generated imagery can enter a multiplayer world without one shared video model.",
+   "idea_zh": "把世界分成所有玩家必须一致的部分（位置、规则、状态，由引擎保存）和每位玩家可以不同的部分（草、烟、云的形状，由模型生成）；这样生成画面就能进入多人世界，而不需要一个共享的视频模型。",
+   "method": "A server-authoritative engine with speculative client-side prediction stores and simulates the shared state; a post-trained video world model conditioned on the engine's rendered video and 3D scene data generates the final frames on H200/B200-class edge GPUs; in June 2026 Roblox added the Morpheus AI team (Xun Huang, author of Self Forcing) to the founders of Dynamics Lab and Lucid AI who joined in late 2025 to build it.",
+   "method_zh": "服务器权威的游戏引擎配合客户端预测，保存并模拟共享状态；一个经过后训练的视频世界模型以引擎渲染的视频和三维场景数据为条件，在 H200/B200 级的边缘 GPU 上生成最终画面。2026 年 6 月，Roblox 收购了 Morpheus AI 团队（Self Forcing 作者 Xun Huang），此前 Dynamics Lab 与 Lucid AI 的创始人已于 2025 年底加入，共同开发这一架构。",
+   "specs": "target 2K · 60 Hz (April post; June post: 4K) · edge H200/B200-class GPUs · lab model not real-time (2026-04)",
+   "keywords": [
+    "hybrid architecture",
+    "game engine",
+    "video world model",
+    "multiplayer",
+    "server authority",
+    "neural rendering",
+    "Self Forcing"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=A60n4O5k8XI"
+   },
+   "images": [
+    "https://cms-media.roblox.com/assets/3fae03e0-e280-fd7b-105c-16ddd9165c25.webp"
+   ],
+   "source_url": "https://about.roblox.com/newsroom/2026/04/roblox-reality-hybrid-architecture-democratizing-photorealistic-multiplayer-gaming",
+   "collections": [
+    "trend-world-simulators",
+    "trend-platform-risk"
+   ]
+  },
+  {
+   "id": "nvidia--dlss-5",
+   "creator_ids": [
+    "nvidia"
+   ],
+   "title": "DLSS 5 (3D-Guided Neural Rendering)",
+   "year": 2026,
+   "date": "2026-03",
+   "field": "infra",
+   "sub": "engines",
+   "modalities": [
+    "frame-stream"
+   ],
+   "inputs": [
+    "video",
+    "spec"
+   ],
+   "timing": "real-time",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "control",
+    "responsiveness"
+   ],
+   "kind": "product",
+   "description": "A generative last stage for the game rendering pipeline: a compact network takes each frame the engine renders, with its motion vectors and material and lighting buffers, and adds photoreal lighting and material detail (skin scattering, light through hair and foliage) while the engine keeps geometry, identity and game state. Announced at GTC in March 2026, shipped 2026-09-01 in NBA 2K27 on RTX 50 GPUs and GeForce NOW, with developer controls for intensity and per-object masks.",
+   "description_zh": "游戏渲染管线中的一个生成式最终环节：一个紧凑的网络读取引擎渲染出的每一帧及其运动矢量、材质与光照缓冲，为画面加上照片级的光照与材质细节（皮肤次表面散射、穿过头发与树叶的光），而几何、角色身份与游戏状态仍由引擎决定。2026 年 3 月在 GTC 上发布，2026 年 9 月 1 日随《NBA 2K27》在 RTX 50 系列显卡和 GeForce NOW 上推出，开发者可以调节强度并按物体设置遮罩。",
+   "idea_en": "Lets a generative model touch only the look of a frame while the engine owns everything that must stay consistent, the same division of labour that world-simulation systems use for state and pixels.",
+   "idea_zh": "让生成模型只改变画面的观感，而所有必须保持一致的东西都归引擎管；这正是世界模拟系统在“状态”与“像素”之间的分工。",
+   "method": "A one-frame-in, one-frame-out neural renderer runs deterministically on the GPU's Tensor Cores, conditioned on the engine's colour, albedo, normals, lighting buffers and motion vectors for temporal stability; integrated through NVIDIA Streamline and an Unreal Engine 5 plugin, with selectable model variants, Structure and Tone intensity and semantic or engine-level masks; NVIDIA reports the October 2026 model at about 118 million parameters and 10× faster than at announcement.",
+   "method_zh": "一个“一帧进、一帧出”的神经渲染器，在 GPU 的 Tensor Core 上确定性地运行，以引擎提供的颜色、反照率、法线、光照缓冲与运动矢量为条件，保证时间上的稳定；通过 NVIDIA Streamline 与 Unreal Engine 5 插件集成，可选择不同模型，调节结构与色调强度，并使用语义或引擎级遮罩。NVIDIA 称 2026 年 10 月的模型约 1.18 亿参数，比发布时快 10 倍。",
+   "specs": "one frame in, one frame out · up to 4K on one RTX 50 GPU · ~118M parameters (October 2026 model) · first game NBA 2K27 (2026-09-01)",
+   "keywords": [
+    "neural rendering",
+    "DLSS",
+    "game engine",
+    "real-time",
+    "photorealism",
+    "art direction"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=58FagrSqC4M"
+   },
+   "images": [
+    "https://www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/dlss-5-3d-guided-neural-rendering/nvidia-dlss-5-3d-guided-neural-rendering-available-now-in-nba-2k27-ogimage.jpg"
+   ],
+   "source_url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/",
+   "collections": [
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "meshy--mora",
+   "creator_ids": [
+    "meshy"
+   ],
+   "title": "Mora 1",
+   "year": 2026,
+   "date": "2026-09-08",
+   "field": "world-models",
+   "sub": "game",
+   "also": [
+    "assets"
+   ],
+   "modalities": [
+    "frame-stream",
+    "audio"
+   ],
+   "inputs": [
+    "text",
+    "action"
+   ],
+   "timing": "real-time",
+   "access": [
+    "product"
+   ],
+   "lenses": [
+    "authoring",
+    "co-creation",
+    "persistence"
+   ],
+   "kind": "research",
+   "description": "A playable research demo of Meshy's Mora architecture ('Multimodal Open-world Real-time Architecture') at mora.fun: spatial puzzles, multiplayer platforming, building, racing and sports games whose visual style can be switched while playing. Coding agents write the rules, Meshy's 3D generation builds the space, and a real-time video model paints the final picture and sound; Meshy calls it an early validation, not a product, and says Mora 2 is in development.",
+   "description_zh": "Meshy 的 Mora 架构（“多模态开放世界实时架构”）在 mora.fun 上的可玩研究演示：包括空间解谜、多人平台跳跃、建造、竞速与体育游戏，游玩时可以切换画面风格。编程智能体编写规则，Meshy 的三维生成搭建空间，实时视频模型绘制最终的画面与声音；Meshy 称这只是早期验证而非产品，Mora 2 正在开发中。",
+   "idea_en": "Builds the world first and renders it second: rules live in code and space in 3D, so a better video model can change how a world looks without touching how it works.",
+   "idea_zh": "先搭建世界，再渲染世界：规则在代码里，空间在三维里，因此更好的视频模型可以改变世界的样子，而不影响世界如何运转。",
+   "method": "Three independently improvable layers: coding agents generate game logic and mechanics, Meshy's 3D generation supplies assets and spatial structure, and a real-time video model (not named) turns the rendered structure into final imagery and audio; multiplayer rooms run on Meshy's servers.",
+   "method_zh": "三层结构，各自可以独立改进：编程智能体生成游戏逻辑与机制，Meshy 的三维生成提供资产与空间结构，一个实时视频模型（未公开名称）把渲染出的结构转成最终的画面与声音；多人房间运行在 Meshy 的服务器上。",
+   "specs": "public web demo (mora.fun) · multiplayer rooms · switchable visual styles · Mora 2 in development (2026-09)",
+   "keywords": [
+    "hybrid architecture",
+    "coding agents",
+    "3D generation",
+    "real-time video model",
+    "multiplayer",
+    "game"
+   ],
+   "images": [
+    "https://mmx.prnewswire.com/media/MS1992445/20260921044342EDT_image_1.jpg"
+   ],
+   "source_url": "https://mora.fun/",
+   "collections": [
+    "trend-world-simulators",
+    "trend-realtime"
+   ]
+  },
+  {
+   "id": "enigma-labs--multiverse",
+   "creator_ids": [
+    "enigma-labs"
+   ],
+   "title": "Multiverse",
+   "year": 2025,
+   "date": "2025-05-08",
+   "field": "world-models",
+   "sub": "game",
+   "modalities": [
+    "frame-stream"
+   ],
+   "inputs": [
+    "action"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "co-creation",
+    "persistence"
+   ],
+   "kind": "model",
+   "description": "An open world model in which two people race each other in one generated Gran Turismo 4 track: each player drives with their own keys and sees their own view, and when one car overtakes or bumps the other, both views show it. Released with code, weights and dataset under the MIT licence and runnable on a single PC.",
+   "description_zh": "一个开源世界模型：两个人在同一条生成的《GT 赛车 4》赛道上互相竞速，各自用自己的按键驾驶、看自己的视角；一辆车超车或碰撞另一辆时，两边的画面都会显示出来。代码、权重与数据集以 MIT 许可公开，可在一台个人电脑上运行。",
+   "idea_en": "The first public demonstration that a generated world can be shared: two observers, one simulated event, two consistent views.",
+   "idea_zh": "第一次公开证明生成的世界可以被共享：两位观察者、同一个模拟事件、两个一致的视角。",
+   "method": "A diffusion world model stacks both players' frames along the channel axis so every U-Net layer sees both views, merges both players' actions into one embedding, and is trained to predict up to 15 seconds ahead at 30 fps so overtakes are learned; an upsampler raises resolution, and training data came largely from bot races recorded in Gran Turismo 4's B-Spec mode.",
+   "method_zh": "扩散世界模型把两名玩家的画面沿通道维度叠在一起，使 U-Net 的每一层都同时看到两个视角，并把两人的操作合并成一个嵌入；训练时以 30 fps 预测最多 15 秒之后的画面，以学会超车等较慢的相对运动；另有上采样模型提高分辨率。训练数据主要来自《GT 赛车 4》B-Spec 模式下机器人驾驶的比赛录像。",
+   "specs": "2 players · Gran Turismo 4 (Tsukuba) · 30 fps context · MIT licence · single PC",
+   "keywords": [
+    "world model",
+    "multiplayer",
+    "shared world",
+    "racing",
+    "open weights",
+    "diffusion"
+   ],
+   "video": {
+    "url": "https://x.com/j0nathanj/status/1920516649511244258"
+   },
+   "source_url": "https://enigma.inc/blog",
+   "code_url": "https://github.com/EnigmaLabsAI/multiverse",
+   "collections": [
+    "trend-world-simulators",
+    "trend-open-weights"
+   ]
+  },
+  {
+   "id": "zicheng-duan--liveworld",
+   "creator_ids": [
+    "zicheng-duan"
+   ],
+   "title": "LiveWorld",
+   "year": 2026,
+   "date": "2026-03-07",
+   "field": "world-models",
+   "sub": "memory",
+   "modalities": [
+    "flat-video",
+    "dynamic-4d"
+   ],
+   "inputs": [
+    "image",
+    "camera",
+    "text"
+   ],
+   "timing": "offline",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "behavioral-plausibility"
+   ],
+   "kind": "research",
+   "description": "A video world model that lets the world go on while you look away: a dog that runs out of view or a person who leaves the frame keeps moving, and when the camera returns they are where the elapsed time would put them, not frozen where they were last seen. Comes with LiveBench, a benchmark for these 'out-of-sight dynamics'.",
+   "description_zh": "一个让世界在你移开视线时继续运转的视频世界模型：跑出画面的狗、离开镜头的人会继续活动，镜头转回来时，它们出现在经过这段时间后应在的位置，而不是停在最后被看到的地方。同时发布了评测这种“视野外动态”的基准 LiveBench。",
+   "idea_en": "Separates the evolution of the world from the rendering of a view, so what happens off-camera can still have happened; the same split XGEN's DAO makes at the scale of a town.",
+   "idea_zh": "把世界的演变与视角的渲染分开，于是镜头之外发生的事也算真的发生过；XGEN 的 DAO 在一个小镇的尺度上做的是同样的拆分。",
+   "method": "The world state is factored into a static background accumulated as a 3D point cloud and sparse dynamic entities; 'monitors' registered at each moving entity fast-forward it with the same video model while unobserved, and the evolved 4D point cloud is projected along the camera path to condition a Wan2.1-14B renderer through a VACE-initialised state adapter with LoRA.",
+   "method_zh": "世界状态被拆成两部分：累积成三维点云的静态背景，以及稀疏的动态实体；系统在每个移动实体处登记“监视器”，在无人观察时用同一个视频模型推进它的状态；演化后的 4D 点云沿相机路径投影，经由以 VACE 初始化的状态适配器和 LoRA 去条件化 Wan2.1-14B 渲染器。",
+   "specs": "Wan2.1-14B + VACE state adapter · LiveBench · ECCV 2026",
+   "keywords": [
+    "world model",
+    "out-of-sight dynamics",
+    "world state",
+    "4D point cloud",
+    "persistence",
+    "benchmark"
+   ],
+   "video": {
+    "url": "https://zichengduan.github.io/pages/LiveWorld/demos/4d_world_kids_coffee.mp4"
+   },
+   "images": [
+    "https://zichengduan.github.io/pages/LiveWorld/static/images/teaser.jpg"
+   ],
+   "paper": {
+    "url": "https://arxiv.org/abs/2603.07145",
+    "arxiv": "2603.07145",
+    "venue": "ECCV 2026",
+    "title": "LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models"
+   },
+   "source_url": "https://zichengduan.github.io/pages/LiveWorld/index.html",
+   "code_url": "https://github.com/ZichengDuan/LiveWorld",
+   "collections": [
+    "trend-world-simulators",
+    "iccv-eccv"
+   ]
+  },
+  {
+   "id": "samuel-garcin--persist",
+   "creator_ids": [
+    "samuel-garcin",
+    "microsoft"
+   ],
+   "title": "PERSIST",
+   "year": 2026,
+   "date": "2026-03-03",
+   "field": "world-models",
+   "sub": "memory",
+   "modalities": [
+    "frame-stream"
+   ],
+   "inputs": [
+    "action",
+    "image"
+   ],
+   "timing": "turn-based",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "persistence",
+    "control"
+   ],
+   "kind": "research",
+   "description": "A world model that keeps a 3D voxel state of the world around the player and renders each new frame from it, so a voxel world explored from one image stays the same when revisited from a new angle, and collisions with things behind the player are still simulated. Researchers can also edit the world directly in 3D; code and weights are released.",
+   "description_zh": "一个在玩家周围保存三维体素世界状态、并从中渲染每一帧的世界模型：从一张图像开始探索的体素世界，从新角度回来看时依然不变，玩家身后发生的碰撞也会被模拟。研究者还可以直接在三维中编辑世界；代码与权重已公开。",
+   "idea_en": "Pixels are a poor place to keep a world: holding the state in 3D removes the trade-off between memory length and context size.",
+   "idea_zh": "像素不是保存世界的好地方：把状态放在三维中，就不必在记忆长度与上下文大小之间取舍。",
+   "method": "An autoregressive multi-stage pipeline: a voxel denoiser predicts the next latent 3D world frame around the agent, a camera model predicts the next pose, and a pixel denoiser renders the observation from pixel-aligned projections of the world latents; trained in a Minecraft-like voxel environment by the University of Edinburgh with Microsoft Research.",
+   "method_zh": "一个自回归的多阶段流程：体素去噪器预测智能体周围下一帧的潜在三维世界，相机模型预测下一刻的位姿，像素去噪器再根据与像素对齐的世界潜变量投影渲染出观测画面；由爱丁堡大学与微软研究院在类似《我的世界》的体素环境中训练。",
+   "specs": "voxel latent 3D state · rollouts of thousands of steps (developer-reported) · ICML 2026",
+   "keywords": [
+    "world model",
+    "3D state",
+    "voxel",
+    "spatial memory",
+    "persistence",
+    "open weights"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=UtRg6EekL8s"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2603.03482",
+    "arxiv": "2603.03482",
+    "venue": "ICML 2026",
+    "title": "Beyond Pixel Histories: World Models with Persistent 3D State"
+   },
+   "source_url": "https://francelico.github.io/persist.github.io/",
+   "code_url": "https://github.com/francelico/PERSIST",
+   "collections": [
+    "trend-world-simulators",
+    "ml-conf"
+   ]
+  },
+  {
+   "id": "joonghyuk-shin--stateful-video-world-models",
+   "creator_ids": [
+    "joonghyuk-shin",
+    "roblox"
+   ],
+   "title": "Can Video World Models Track Unobserved World States?",
+   "year": 2026,
+   "date": "2026-08-31",
+   "field": "world-models",
+   "sub": "memory",
+   "modalities": [
+    "flat-video"
+   ],
+   "inputs": [
+    "action"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "persistence",
+    "control"
+   ],
+   "kind": "research",
+   "description": "A controlled test of whether video world models hold hidden state: in an action-conditioned shell game, models render convincing videos and find the ball after the 5 swaps they were trained on, but standard Transformers, Mamba and linear attention fail on longer swap chains; only architectures that can revise their state between chunks learn the rule.",
+   "description_zh": "一项检验视频世界模型是否保存隐藏状态的受控测试：在以动作为条件的“猜杯子”游戏中，模型能生成逼真的视频，并在训练时见过的 5 次交换后找到小球；但标准 Transformer、Mamba 与线性注意力在更长的交换序列上都会失败，只有能在片段之间修改自身状态的结构才学会了规则。",
+   "idea_en": "Good-looking frames are not evidence of a remembered world: hidden state has to live somewhere the model can rewrite, which is an argument for explicit state outside the video model.",
+   "idea_zh": "画面好看并不能证明模型记住了世界：隐藏状态必须保存在模型能够改写的地方；这也是把状态放在视频模型之外的一个理由。",
+   "method": "A video shell game (a visual analogue of S5 permutation tracking) separates rendering from composing the unobserved state; the authors compare bidirectional and causal Transformers, Mamba and linear attention, show that an append-only KV cache cannot revise state, and find length generalisation with linear attention allowing negative transition eigenvalues or with nonlinear test-time-training fast weights, then extend the analysis to Memory Maze and Block World.",
+   "method_zh": "用视频版“猜杯子”（S5 置换追踪的视觉对应）把渲染与组合看不见的状态分开；作者比较双向与因果 Transformer、Mamba 和线性注意力，指出只能追加的 KV 缓存无法修改状态，并发现允许负特征值的线性注意力，或带非线性测试时训练快权重的结构，能够泛化到更长序列；随后把分析扩展到 Memory Maze 与 Block World。",
+   "specs": "trained on 5-swap chains, tested on longer · Memory Maze · Block World · code announced, not released (2026-10)",
+   "keywords": [
+    "world model",
+    "hidden state",
+    "state tracking",
+    "evaluation",
+    "linear attention",
+    "test-time training"
+   ],
+   "video": {
+    "url": "https://joonghyuk.com/stateful-vwm-web/static/videos/shellgame/teaser_lact8.mp4"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2608.30692",
+    "arxiv": "2608.30692",
+    "venue": "arXiv 2026",
+    "title": "Can Video World Models Track Unobserved World States?"
+   },
+   "source_url": "https://joonghyuk.com/stateful-vwm-web/",
+   "code_url": "https://github.com/alex4727/stateful-vwm",
+   "collections": [
+    "trend-world-simulators"
+   ]
+  },
+  {
+   "id": "runjia-li--overseer",
+   "creator_ids": [
+    "runjia-li",
+    "meta"
+   ],
+   "title": "OverSeer",
+   "year": 2026,
+   "date": "2026-10-20",
+   "field": "world-models",
+   "sub": "game",
+   "modalities": [
+    "frame-stream"
+   ],
+   "inputs": [
+    "action"
+   ],
+   "timing": "offline",
+   "access": [
+    "research"
+   ],
+   "lenses": [
+    "co-creation",
+    "persistence"
+   ],
+   "kind": "research",
+   "description": "A multi-agent world model from Meta AI and Oxford that generates two players' first-person views together with a few fixed 'overseer' cameras watching the shared space; because those fixed views change only where the world changes, they keep the players' views consistent with each other in Minecraft, Doom and real multi-camera footage.",
+   "description_zh": "Meta AI 与牛津大学推出的多智能体世界模型：同时生成两名玩家的第一人称画面，以及几个固定的“监视”机位对共享空间的画面；由于固定机位的画面只在世界发生变化的地方变化，它们能让玩家彼此的视角保持一致，在《我的世界》、《毁灭战士》与真实多机位录像中都有验证。",
+   "idea_en": "Fixed cameras act as a cheap stand-in for a world-centric state: a shared world can be anchored by what stays still, not only by what each player sees.",
+   "idea_zh": "固定机位可以充当一种廉价的“以世界为中心”的状态：共享世界可以由保持不动的视角来锚定，而不只靠每位玩家看到的画面。",
+   "method": "A latent video diffusion model fine-tuned from Wan2.2-TI2V-5B generates agent-specific egocentric streams jointly with auxiliary fixed views, which a delta-VAE compresses by encoding only changes against a static reference image; evaluated on Minecraft and GZDoom with released two-player datasets.",
+   "method_zh": "在 Wan2.2-TI2V-5B 基础上微调的潜空间视频扩散模型，把各智能体的第一人称视频流与辅助固定视角一起生成；辅助视角由 delta-VAE 压缩，只编码相对于一张静态参考图的变化；在《我的世界》与 GZDoom 上评测，并公开了双人数据集。",
+   "specs": "Wan2.2-TI2V-5B · 2 agents + fixed auxiliary views · Minecraft, GZDoom, real multi-camera capture · datasets on Hugging Face",
+   "keywords": [
+    "world model",
+    "multi-agent",
+    "multiplayer",
+    "consistency",
+    "Minecraft",
+    "Doom"
+   ],
+   "video": {
+    "url": "https://runjiali-rl.github.io/OverSeer/static/videos/teaser.mp4"
+   },
+   "paper": {
+    "url": "https://arxiv.org/abs/2610.28554",
+    "arxiv": "2610.28554",
+    "venue": "arXiv 2026",
+    "title": "OverSeer: Multi-Agent World Models Beyond What Agents See"
+   },
+   "source_url": "https://runjiali-rl.github.io/OverSeer/",
+   "code_url": "https://huggingface.co/collections/liguang0115/overseer",
+   "collections": [
+    "trend-agents-in-worlds"
+   ]
+  },
+  {
+   "id": "nvidia--streamrender-h3",
+   "creator_ids": [
+    "nvidia"
+   ],
+   "title": "StreamRender-H3",
+   "year": 2026,
+   "date": "2026-10-11",
+   "field": "world-models",
+   "sub": "game",
+   "modalities": [
+    "frame-stream",
+    "audio"
+   ],
+   "inputs": [
+    "action",
+    "spec"
+   ],
+   "timing": "real-time",
+   "access": [
+    "open"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "control",
+    "persistence"
+   ],
+   "kind": "model",
+   "description": "An open real-time renderer from NVIDIA's Sana / Sol-Engine team in which a browser game engine written in code runs the world (map, physics, rules, rival cars) and a streaming video model paints every frame of play from a flat-colour semantic map, so the same drive can be restyled by swapping one reference image and a prompt. Shown so far only on a racing game, with a 71-second 1080p demo with sound.",
+   "description_zh": "NVIDIA Sana / Sol-Engine 团队开源的实时渲染器：一个用代码写成的浏览器游戏引擎负责运行世界（地图、物理、规则与对手车辆），一个流式视频模型根据单色语义图绘制游玩时的每一帧；只要更换一张参考图和提示词，同一段驾驶就能换成另一种画风。目前只在一款赛车游戏上展示，附 71 秒、1080p、带声音的演示。",
+   "idea_en": "Hands the video model nothing but a semantic map, so code owns everything that must stay true and the model owns only how it looks; any engine that can paint its scene by class could drive it.",
+   "idea_zh": "只把语义图交给视频模型：一切必须保持正确的东西都由代码掌握，模型只负责外观；任何能按类别给场景上色的引擎都可以驱动它。",
+   "method": "A three.js engine streams 13-class semantic frames as the reference video of MiniMax-H3 Ref2VA, fine-tuned by teacher forcing, Resampling Forcing and then DMD to two denoising steps per chunk, with a fixed sink plus recent-history window and prefix KV caching; trained on 10,000 paired 15-second racing clips whose targets were generated by the base model, and served with context parallelism on eight GB200 GPUs plus an agent-built causal VAE decoder.",
+   "method_zh": "一个 three.js 引擎把 13 类语义帧作为参考视频流式输入 MiniMax-H3 Ref2VA；模型依次经过教师强制、Resampling Forcing 与 DMD 微调，每个片段只需两步去噪，并使用固定的起始帧（sink）加近期历史窗口和前缀 KV 缓存；训练数据是 10,000 段 15 秒的配对赛车片段，目标视频由基础模型生成；推理时在八块 GB200 上做上下文并行，并配有一个由编程智能体构建的因果 VAE 解码器。",
+   "specs": "2 denoising steps per chunk · 218 ms diffusion render per streaming step on 8× GB200 · 23.8 ms causal VAE decode (2 latent frames, 720p, one GB200) · 10,000 training clips from 39 tracks · racing only (developer-reported, 2026-10)",
+   "keywords": [
+    "neural rendering",
+    "game engine",
+    "semantic map",
+    "streaming diffusion",
+    "real-time",
+    "open weights",
+    "MiniMax-H3"
+   ],
+   "video": {
+    "url": "https://huggingface.co/datasets/Efficient-Large-Model/Sana-assets/resolve/main/Sol-Engine/StreamRender-H3/blog-assets/streamrender-h3-demo-71s.mp4"
+   },
+   "images": [
+    "https://nvlabs.github.io/Sana/Sol-Engine/StreamRender-H3/assets/og.jpg"
+   ],
+   "source_url": "https://nvlabs.github.io/Sana/Sol-Engine/StreamRender-H3/",
+   "code_url": "https://huggingface.co/Efficient-Large-Model/StreamRender-H3",
+   "collections": [
+    "trend-world-simulators",
+    "trend-realtime",
+    "trend-open-weights"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "name": "XGEN Dual Exam: Controlled Evaluation of Multimodal Agents and World Models (XGEN Labs blog, by 2026-09-24)",
+   "why": "Coupled test of an agent driving a world model: GPT-5.6 Sol + Seedance 2.5 over 150 cases gave 0% strict task success, 26.6% world-state consistency, 9.2% corrective response; separate tracks with 1,088 agent items and 400 world-model cases (16 configurations). No paper, dataset or code yet, so not added; use as a Trends fact (trend-agents-in-worlds). Add if the benchmark is released.",
+   "link": "https://xgenlabs.ai/research/dual-exam/",
+   "found_via": "xgen-labs",
+   "status": "open"
+  },
+  {
+   "name": "XGEN-JING causal (autoregressive) model",
+   "why": "Listed as 'coming soon' on Hugging Face and GitHub (last update 2026-10-15); its release would change xgen-labs--dao-jing to real-time access. Status patch, not a new work, unless it ships with its own launch and video.",
+   "link": "https://huggingface.co/XGENlabs/XGEN-JING",
+   "found_via": "xgen-labs",
+   "status": "open"
+  },
+  {
+   "name": "XGEN Labs consumer product (beta planned November 2026; repo 'knoknok-demo')",
+   "why": "XGEN's pricing page (effective 2026-10-15) says an overseas consumer AI product is being prepared, name not confirmed, beta targeted for November 2026; a 'Knoknok interactive prototype for team preview' repo appeared on 2026-10-16. Check after November 2026.",
+   "link": "https://xgenlabs.ai/legal/pricing.html",
+   "found_via": "xgen-labs",
+   "status": "open"
+  },
+  {
+   "name": "XGEN SHEN (agent component teased with DAO and JING)",
+   "why": "The JING page ends 'DAO makes the world computable. XGEN-JING makes it perceptible. SHEN turns experience into action.' No release or description yet.",
+   "link": "https://xgenlabs.ai/research/generative-world-simulation",
+   "found_via": "xgen-labs",
+   "status": "open"
+  },
+  {
+   "name": "World Observer: Joint Actor-Observer Generation for Persistent World Modeling (KAIST, arXiv 2610.02162)",
+   "why": "Panoramic 'observer' streams keep out-of-view regions evolving; project page with videos and code. Below the salience bar for now: out-of-sight dynamics are represented by LiveWorld (ECCV 2026). Reconsider if it gets a venue.",
+   "link": "https://cvlab-kaist.github.io/world-observer",
+   "found_via": "xgen-labs",
+   "status": "off_topic"
+  },
+  {
+   "name": "UniState: Unifying Memory and Intervention for Controllable World Simulation (Yonsei, arXiv 2610.25414)",
+   "why": "Users move objects inside a spatial-memory world state and choose the camera separately; project page with videos. Below the salience bar (no venue, 2026-10-18); intervention-in-state is represented by DAO, LiveWorld and PERSIST.",
+   "link": "https://curryjung.github.io/unistate/",
+   "found_via": "xgen-labs",
+   "status": "off_topic"
+  },
+  {
+   "name": "Captain Safari: A World Engine with Pose-Aligned 3D Memory (JHU, arXiv 2511.22815)",
+   "why": "Pose-conditioned world engine retrieving from a persistent 3D memory; memory work of this kind is already well covered in world-models/memory.",
+   "link": "https://arxiv.org/abs/2511.22815",
+   "found_via": "xgen-labs",
+   "status": "off_topic"
+  },
+  {
+   "name": "Flow Equivariant World Models (ICML 2026, arXiv 2601.01075)",
+   "why": "Memory for partially observed dynamic environments, i.e. tracking what moves out of view; check project page and media in the next world-models round.",
+   "link": "https://arxiv.org/abs/2601.01075",
+   "found_via": "xgen-labs",
+   "status": "open"
+  },
+  {
+   "name": "Remember to be Curious: Episodic Context and Persistent Worlds for 3D Exploration (arXiv 2605.22814)",
+   "why": "Persistent worlds for 3D exploration (Goli, Kerr et al.); check affiliation, venue and media in the next world-models round.",
+   "link": "https://arxiv.org/abs/2605.22814",
+   "found_via": "xgen-labs",
+   "status": "open"
+  },
+  {
+   "name": "Moonlake AI",
+   "why": "Once pitched as reasoning models that build interactive game worlds; by October 2026 its site describes a simulation and evaluation layer for robot deployment, so it is outside generative world simulation for people.",
+   "link": "https://moonlakeai.com/",
+   "found_via": "xgen-labs",
+   "status": "off_topic"
+  }
+ ]
+}

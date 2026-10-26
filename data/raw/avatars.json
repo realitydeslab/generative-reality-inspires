@@ -815,7 +815,8 @@
     "url": "https://www.youtube.com/watch?v=OZthIm5W-yQ"
    },
    "source_url": "https://www.tavus.io/blog/introducing-the-evolution-of-conversational-video-interface-now-with-emotional-intelligence",
-   "api_url": "https://docs.tavus.io"
+   "api_url": "https://docs.tavus.io",
+   "specs": "1080p · WebRTC · overage $0.37/min (Starter, $59/mo) or $0.32/min (Growth, $397/mo) · 30 s minimum per conversation · 1 / 3 / 10 concurrent streams (Free / Starter / Growth) · replica from a 2-min video"
   },
   {
    "id": "heygen--liveavatar",
@@ -1005,13 +1006,13 @@
     "behavioral-plausibility"
    ],
    "kind": "model",
-   "description": "CARA-4 is Anam's real-time avatar diffusion model: from a single photo it renders a conversational face at 25 fps in landscape (1152×768) or portrait (768×1152), with Director Notes that let a builder set how the avatar performs (warm, distressed, angry) and let the LLM shift that direction mid-reply.",
-   "description_zh": "CARA-4 是 Anam 的实时虚拟人扩散模型：只需一张照片即可以 25 fps 渲染横屏（1152×768）或竖屏（768×1152）的对话人脸；Director Notes 让开发者设定虚拟人的表演方式（温和、痛苦、愤怒等），并允许大模型在一次回复中途改变表演方向。",
+   "description": "CARA-4 is Anam's real-time avatar diffusion model: from a single photo it renders a conversational face at 25 fps in landscape (1152×768) or portrait (768×1152), with Director Notes that let a builder set how the avatar performs (warm, distressed, angry) and let the LLM shift that direction mid-reply. Its point release Cara-4.1 Express followed on 2026-10-20; in Anam's own October 2026 benchmark (60 raters, 960 conversations, full vendor pipelines) Anam's median reply latency was 1.24 s against 1.82 s for HeyGen, 1.86 s for Tavus Phoenix-4.5 and 2.10 s for LemonSlice.",
+   "description_zh": "CARA-4 是 Anam 的实时虚拟人扩散模型：只需一张照片即可以 25 fps 渲染横屏（1152×768）或竖屏（768×1152）的对话人脸；Director Notes 让开发者设定虚拟人的表演方式（温和、痛苦、愤怒等），并允许大模型在一次回复中途改变表演方向。其小版本 Cara-4.1 Express 于 2026-10-20 发布；在 Anam 自己于 2026 年 10 月进行的基准测试中（60 名评分者、960 次对话、各厂商完整流程），Anam 的回复延迟中位数为 1.24 秒，HeyGen 为 1.82 秒，Tavus Phoenix-4.5 为 1.86 秒，LemonSlice 为 2.10 秒。",
    "idea_en": "Directable performance (a distressed patient versus a calm coach) turns the avatar's affect into an experimental condition you can write down.",
    "idea_zh": "可导演的表演（痛苦的病人与沉着的教练）让虚拟人的情绪成为可以写下来的实验条件。",
    "method": "A diffusion model generating every pixel in real time, conditioned on speech audio and text performance cues, inside a conversation engine with sub-second median latency from end of user speech.",
    "method_zh": "一个实时生成每个像素的扩散模型，以语音和文本表演提示为条件，运行在对话引擎中；从用户说完到虚拟人回应的中位延迟低于 1 秒。",
-   "specs": "1152×768 / 768×1152 · 25 fps · <1 s median response latency",
+   "specs": "1152×768 / 768×1152 · 25 fps · 1.24 s median reply latency, 1.42 s median connection time (Cara-4.1 Express, Anam's own benchmark, 2026-10-16)",
    "keywords": [
     "real-time diffusion",
     "director notes",
@@ -1896,15 +1897,16 @@
    ],
    "timing": "real-time",
    "access": [
-    "research"
+    "research",
+    "api"
    ],
    "lenses": [
     "perceptual-realism",
     "responsiveness"
    ],
    "kind": "model",
-   "description": "VASA-1 turns one portrait photo and a speech clip into a lifelike talking face with synchronized lips, expressive micro-movements and natural head motion, generated online at 512×512 and up to 40 fps. Microsoft did not release it publicly; in 2025 it reported using VASA-1 for the stylized faces of Copilot Portraits in Copilot Labs.",
-   "description_zh": "VASA-1 只需一张人像照片和一段语音，就能生成唇形同步、带细微表情和自然头部动作的逼真说话人脸，可在线以 512×512、最高 40 fps 生成。微软没有公开发布它；2025 年微软称在 Copilot Labs 的 Copilot Portraits 中用 VASA-1 驱动风格化的面孔。",
+   "description": "VASA-1 turns one portrait photo and a speech clip into a lifelike talking face with synchronized lips, expressive micro-movements and natural head motion, generated online at 512×512 and up to 40 fps. Microsoft never released the research model itself; in 2025 it reported using VASA-1 for the stylized faces of Copilot Portraits, and as of October 2026 the VASA model powers the photo avatars of Azure AI Speech (generally available since June 2026), which can be called through an API for videos and real-time conversations.",
+   "description_zh": "VASA-1 只需一张人像照片和一段语音，就能生成唇形同步、带细微表情和自然头部动作的逼真说话人脸，可在线以 512×512、最高 40 fps 生成。微软从未公开发布这一研究模型本身；2025 年微软称在 Copilot Portraits 中用 VASA-1 驱动风格化的面孔；截至 2026 年 10 月，VASA 模型为 Azure AI Speech 的照片虚拟形象提供支持（2026 年 6 月起正式可用），可通过 API 生成视频或进行实时对话。",
    "idea_en": "Showed that a single photo could become a real-time conversational face, and why its makers withheld it over impersonation risk.",
    "idea_zh": "证明了一张照片就能变成实时对话的人脸，也说明了开发者为何因冒充风险而不公开它。",
    "method": "A diffusion transformer generates holistic facial dynamics and head motion in a disentangled face latent space learned from video, then a decoder renders frames from the latent codes.",
@@ -2180,8 +2182,8 @@
     "control"
    ],
    "kind": "model",
-   "description": "OmniHuman-1.5 generates minute-long videos of one or several characters whose gestures and expressions follow the meaning and emotion of the speech, not only its rhythm, and can be steered with text prompts; it is available through BytePlus and Dreamina.",
-   "description_zh": "OmniHuman-1.5 可生成一个或多个角色、长达一分钟的视频，人物的手势和表情跟随语音的含义和情绪而不只是节奏，并可用文本提示引导；可通过 BytePlus 和即梦使用。",
+   "description": "OmniHuman-1.5 generates minute-long videos of one or several characters whose gestures and expressions follow the meaning and emotion of the speech, not only its rhythm, and can be steered with text prompts; it is available through BytePlus and Dreamina. On BytePlus it was followed by OmniHuman 2.0 on 2026-10-15 (up to 5-minute shots at $0.07 per second; 1.5 is still listed at $0.12 per second).",
+   "description_zh": "OmniHuman-1.5 可生成一个或多个角色、长达一分钟的视频，人物的手势和表情跟随语音的含义和情绪而不只是节奏，并可用文本提示引导；可通过 BytePlus 和即梦使用。2026-10-15，BytePlus 推出后继的 OmniHuman 2.0（单镜头最长 5 分钟，每秒 0.07 美元）；1.5 版仍以每秒 0.12 美元在售。",
    "idea_en": "Adds a 'deliberative' planner so a generated person acts on what is said, a step from lip sync toward behaviour.",
    "idea_zh": "加入一个“深思”式规划器，让生成的人根据话语内容行动，这是从唇形同步走向行为的一步。",
    "method": "A dual-system design: a multimodal LLM reasons over audio, image and text to plan high-level actions, and a multimodal DiT with a pseudo last-frame identity design renders the video.",
@@ -2232,8 +2234,8 @@
     "perceptual-realism"
    ],
    "kind": "model",
-   "description": "Character-3 animates any character image (photo, illustration, 3D render) into a talking or singing video from audio and a text prompt that sets emotion and body movement, inside the Hedra Studio app. Hedra followed it in February 2026 with Omnia, which adds camera, body-motion and background direction from a single image, and an Avatar model for takes of up to five minutes, both also available through its API.",
-   "description_zh": "Character-3 能把任意角色图像（照片、插画、三维渲染）根据音频和设定情绪与肢体动作的文本提示，变成说话或唱歌的视频，在 Hedra Studio 应用中使用。2026 年 2 月，Hedra 推出后继模型 Omnia，可从单张图像控制镜头、身体动作和背景，同时推出可一次生成最长五分钟视频的 Avatar 模型，两者均可通过 API 使用。",
+   "description": "Character-3 animates any character image (photo, illustration, 3D render) into a talking or singing video from audio and a text prompt that sets emotion and body movement, inside the Hedra Studio app. Hedra followed it in February 2026 with Omnia, which adds camera, body-motion and background direction from a single image, and an Avatar model for takes of up to five minutes, both also available through its API. By October 2026 Hedra describes itself as an AI research and infrastructure company building vision-language-action and world action models, and it is no longer listed among LiveKit's real-time avatar plug-ins.",
+   "description_zh": "Character-3 能把任意角色图像（照片、插画、三维渲染）根据音频和设定情绪与肢体动作的文本提示，变成说话或唱歌的视频，在 Hedra Studio 应用中使用。2026 年 2 月，Hedra 推出后继模型 Omnia，可从单张图像控制镜头、身体动作和背景，同时推出可一次生成最长五分钟视频的 Avatar 模型，两者均可通过 API 使用。到 2026 年 10 月，Hedra 自称是构建视觉-语言-动作模型和世界动作模型的 AI 研究与基础设施公司，也已不在 LiveKit 的实时虚拟人插件名单中。",
    "idea_en": "Made audio-driven character video a creator tool used at scale, including for non-human and stylized characters.",
    "idea_zh": "让音频驱动的角色视频成为大规模使用的创作工具，也适用于非人类和风格化角色。",
    "method": "An 'omnimodal' video model that jointly conditions on image, text and audio (architecture not published).",
@@ -2277,8 +2279,8 @@
     "diversity"
    ],
    "kind": "model",
-   "description": "AvatarFX lets Character.AI users turn a character image into a video of it speaking, singing or emoting with a chosen voice, for human, animal and stylized characters, inside the Character.AI app.",
-   "description_zh": "AvatarFX 让 Character.AI 用户在应用内把角色图像变成该角色用选定声音说话、唱歌或表达情绪的视频，适用于人类、动物和风格化角色。",
+   "description": "AvatarFX lets Character.AI users turn a character image into a video of it speaking, singing or emoting with a chosen voice, for human, animal and stylized characters, inside the Character.AI app. Character.AI entered a voluntary Chapter 11 sale process on 2026-10-12; the app keeps running while a buyer is sought.",
+   "description_zh": "AvatarFX 让 Character.AI 用户在应用内把角色图像变成该角色用选定声音说话、唱歌或表达情绪的视频，适用于人类、动物和风格化角色。Character.AI 于 2026-10-12 启动自愿性第 11 章破产出售程序；在寻找买家期间应用照常运行。",
    "idea_en": "Brought face video to a mass companion-chat platform, together with the safety questions (minors, impersonation) that follow.",
    "idea_zh": "把会动的脸带进大众陪伴聊天平台，也带来了随之而来的安全问题（未成年人、冒充）。",
    "method": "A DiT-based diffusion video model with audio conditioning (per Character.AI's announcement; architecture details unpublished).",
@@ -2292,7 +2294,10 @@
    "video": {
     "url": "https://www.youtube.com/watch?v=LEPaWVbRJ1E"
    },
-   "source_url": "https://character.ai"
+   "source_url": "https://character.ai",
+   "collections": [
+    "trend-platform-risk"
+   ]
   },
   {
    "id": "character-ai--talkingmachines",
@@ -2321,8 +2326,8 @@
     "perceptual-realism"
    ],
    "kind": "research",
-   "description": "TalkingMachines turns a pretrained image-to-video model into a real-time, audio-driven character animator for FaceTime-style calls with an audio LLM, streaming video of unbounded length without drift.",
-   "description_zh": "TalkingMachines 把预训练的图生视频模型改造成实时的音频驱动角色动画器，与音频大模型配合实现 FaceTime 式通话，可流式生成不限时长且不漂移的视频。",
+   "description": "TalkingMachines turns a pretrained image-to-video model into a real-time, audio-driven character animator for FaceTime-style calls with an audio LLM, streaming video of unbounded length without drift. On 2026-10-12 Character.AI entered a voluntary Chapter 11 process for a court-supervised sale, expected to close by early December 2026; it says the platform will be wound down if no acceptable bid emerges.",
+   "description_zh": "TalkingMachines 把预训练的图生视频模型改造成实时的音频驱动角色动画器，与音频大模型配合实现 FaceTime 式通话，可流式生成不限时长且不漂移的视频。2026-10-12，Character.AI 启动自愿性第 11 章破产程序，以在法院监督下出售公司，预计 2026 年 12 月初前完成；公司表示若没有合适的买家，平台将被关闭。",
    "idea_en": "Showed the recipe most 2026 real-time avatars use: distil a big bidirectional video model into a causal few-step streamer.",
    "idea_zh": "展示了 2026 年多数实时虚拟人采用的做法：把大型双向视频模型蒸馏成因果、少步的流式生成器。",
    "method": "An 18B audio-conditioned DiT adapted from a SOTA image-to-video model, distilled asymmetrically into a sparse causal autoregressive student, with DiT and VAE decoding split across GPUs.",
@@ -2345,7 +2350,8 @@
    },
    "source_url": "https://aaxwaz.github.io/TalkingMachines/",
    "collections": [
-    "trend-realtime"
+    "trend-realtime",
+    "trend-platform-risk"
    ]
   },
   {

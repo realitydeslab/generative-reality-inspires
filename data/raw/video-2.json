@@ -82,13 +82,13 @@
         "control"
       ],
       "kind": "model",
-      "description": "Zhipu AI's CogVideoX (open-sourced 2024-08-06) was the first strong open text-to-video model from a Chinese lab, generating 6-second 720×480 clips; it powers Zhipu's Qingying product.",
-      "description_zh": "智谱的 CogVideoX（2024-08-06 开源）是国内实验室首个表现强劲的开源文生视频模型，可生成 6 秒 720×480 视频，也是智谱“清影”产品的底座。",
+      "description": "Zhipu AI's CogVideoX (open-sourced 2024-08-06) was the first strong open text-to-video model from a Chinese lab, generating 6-second 720×480 clips; it powers Zhipu's Qingying product. CogVideoX1.5 (2024-11) raised output to 5- or 10-second clips at 1360×768 and 16 fps, and CogVideoX became the backbone of other open models such as Fudan's Hallo3; Zhipu's later open video work is character animation (SCAIL, SCAIL-2).",
+      "description_zh": "智谱的 CogVideoX（2024-08-06 开源）是国内实验室首个表现强劲的开源文生视频模型，可生成 6 秒 720×480 视频，也是智谱“清影”产品的底座。CogVideoX1.5（2024 年 11 月）把输出提升到 5 秒或 10 秒、1360×768、16 fps，CogVideoX 也成为复旦 Hallo3 等其他开源模型的底座；智谱之后的开源视频工作转向角色动画（SCAIL、SCAIL-2）。",
       "idea_en": "Showed an open model could run on a single consumer GPU and be fine-tuned by labs for their own scenarios.",
       "idea_zh": "证明开源模型能在单张消费级显卡上运行，并能被实验室按自身场景微调。",
       "method": "Diffusion transformer with a 3D causal VAE and an 'expert transformer' whose expert adaptive LayerNorm fuses text and video tokens.",
       "method_zh": "带 3D 因果 VAE 的扩散 Transformer，用带专家自适应 LayerNorm 的“专家 Transformer”融合文本与视频 token。",
-      "specs": "2B / 5B · 6 s · 720×480 · 8 fps",
+      "specs": "2B / 5B · 6 s · 720×480 · 8 fps (1.5: 5–10 s · 1360×768 · 16 fps)",
       "keywords": [
         "text-to-video",
         "image-to-video",

@@ -8,6 +8,278 @@
   "batch": "avatars-2026-10"
  },
  {
+  "name": "ByteDance real-time 3D / spatial world model (Bloomberg report 2026-09-07)",
+  "why": "Reported real-time spatial video / world model built on Seedance, aimed at PICO headsets (~50 ms, ~20 fps targets per press); still no official ByteDance or Seed announcement, model page or paper as of 2026-10-26 (Seed blog and publication list checked). Add when official.",
+  "link": "https://thenextweb.com/news/bytedance-spatial-video-world-model-zhang-yiming",
+  "found_via": "bytedance-seed",
+  "status": "open",
+  "batch": "bytedance-2026-10"
+ },
+ {
+  "name": "PICO Space Pro (Project Swan) headset",
+  "why": "Micro-OLED 4,000 PPI MR headset with a custom perception co-processor; Beijing launch event of 2026-09-02 cancelled and release moved to Q4 2026 (PICO statement relayed by Road to VR, 2026-08-25); unreleased, no official product page found. Add on launch as an infra/devices work.",
+  "link": "https://roadtovr.com/pico-vision-pro-competitor-delayed-cancelled-event/",
+  "found_via": "pico",
+  "status": "open",
+  "batch": "bytedance-2026-10"
+ },
+ {
+  "name": "X-Actor: Emotional and Expressive Long-Range Portrait Acting from Audio (ByteDance, 2025-08)",
+  "why": "Audio-driven long-form portrait performance with evolving emotion (arXiv 2508.02944); research-only talking head, lower priority than OmniHuman / X-Streamer.",
+  "link": "https://byteaigc.github.io/X-Actor/",
+  "found_via": "bytedance-seed",
+  "status": "open",
+  "batch": "bytedance-2026-10"
+ },
+ {
+  "name": "InterActHuman: Multi-Concept Human Animation with Layout-Aligned Audio Conditions (ByteDance, 2025-06)",
+  "why": "Multi-person audio-driven animation where each voice drives the matching person (arXiv 2506.09984); research only, folded into the OmniHuman line.",
+  "link": "https://arxiv.org/abs/2506.09984",
+  "found_via": "bytedance-seed",
+  "status": "open",
+  "batch": "bytedance-2026-10"
+ },
+ {
+  "name": "BytePlus Dramagic (2026-09-20, beta)",
+  "why": "Enterprise AIGC platform for short-drama production (script → assets → storyboard → video preview) built on ByteDance models; beta only, a workflow wrapper rather than a model.",
+  "link": "https://www.youtube.com/watch?v=zogExlWbX_c",
+  "found_via": "volcano-engine",
+  "status": "open",
+  "batch": "bytedance-2026-10"
+ },
+ {
+  "name": "Seedance 2.5 tech report",
+  "why": "No technical report for Seedance 2.5 as of 2026-10-26 (2.0 had arXiv 2604.14148); add paper to bytedance-seed--seedance-2-5 when it appears.",
+  "link": "https://seed.bytedance.com/en/seedance2_5",
+  "found_via": "bytedance-seed",
+  "status": "open",
+  "batch": "bytedance-2026-10"
+ },
+ {
+  "name": "Trace Anything: Representing Any Video in 4D via Trajectory Fields (ByteDance Seed, ICLR 2026)",
+  "why": "Feed-forward 4D trajectory fields from any video (GitHub ~590 stars); candidate for spatial-4d/dynamic, not checked for media this round.",
+  "link": "https://trace-anything.github.io/",
+  "found_via": "bytedance-seed",
+  "status": "open",
+  "batch": "bytedance-2026-10"
+ },
+ {
+  "name": "Video-As-Prompt: Unified Semantic Control for Video Generation (ByteDance, ICLR 2026)",
+  "why": "Open weights (Wan 2.1 / CogVideoX variants) that copy a reference video's semantics (effects, camera, style) into a new clip; candidate for video/control.",
+  "link": "https://bytedance.github.io/Video-As-Prompt/",
+  "found_via": "bytedance-seed",
+  "status": "open",
+  "batch": "bytedance-2026-10"
+ },
+ {
+  "name": "DreamX-Creator 1.0 (AMAP / Alibaba, 2026-09-03)",
+  "why": "Open 7B native joint audio-video generator plus a 5B one-step 2K refiner built on Wan2.2-TI2V-5B (arXiv 2608.31106, Apache-2.0); below the salience bar as of 2026-10-26 (316 GitHub stars) and overlaps Prism, which is added.",
+  "link": "https://github.com/AMAP-ML/DreamX-Creator",
+  "found_via": "amap",
+  "status": "open",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "StableAvatar (Fudan et al., NeurIPS 2026)",
+  "why": "Infinite-length audio-driven avatar video from a Wan2.1-1.3B base (arXiv 2508.08248, 1.3k GitHub stars, official YouTube demo 6lhvmbzvv3Y); overlaps InfiniteTalk and LongCat-Video-Avatar 1.5 for long talking video, so not added this round.",
+  "link": "https://francis-rings.github.io/StableAvatar",
+  "found_via": "shuyuan-tu",
+  "status": "open",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "NAVA: Native Audio-Visual Alignment for Generation (Baidu ERNIE team, 2026-05-29)",
+  "why": "Open 6.3B joint audio-video generator on Wan2.2-TI2V-5B with multi-speaker timbre control and stereo audio (arXiv 2605.30073, Apache-2.0, 230 GitHub stars); below the salience bar as of 2026-10-26 and overlaps Prism (added) and Ovi.",
+  "link": "https://ernie-research.github.io/NAVA/",
+  "found_via": "baidu",
+  "status": "open",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "Fun-Audio-Chat 8B (Alibaba Tongyi, 2025-12-23)",
+  "why": "Open turn-based voice-chat model with dual-resolution speech representations (arXiv 2512.20156, ~1k GitHub stars); overlaps Kimi-Audio, Step-Audio 2 and Qwen3-Omni; no official video.",
+  "link": "https://github.com/FunAudioLLM/Fun-Audio-Chat",
+  "found_via": "alibaba-tongyi",
+  "status": "open",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "Ming-3.0-tts (Ant Group inclusionAI, 2026-10)",
+  "why": "Open TTS family (0.5B dense and 7.9B-A1.3B MoE) with task-mode voice, style, paralinguistic and acoustic control; released the week of 2026-10-19 (297 stars); revisit once uptake is visible.",
+  "link": "https://github.com/inclusionAI/Ming-3.0-tts",
+  "found_via": "ant-group",
+  "status": "open",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "Step-Audio-EditX (StepFun, 2025-10-29)",
+  "why": "Open 3B LLM-based expressive speech editing (emotion, style, paralinguistics; ~1k stars); overlaps AuK, which is added.",
+  "link": "https://github.com/stepfun-ai/Step-Audio-EditX",
+  "found_via": "stepfun",
+  "status": "open",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "GLM-4-Voice (2024-10) and GLM-TTS (2025-12) (Zhipu AI)",
+  "why": "Zhipu's open end-to-end Chinese-English spoken chatbot (arXiv 2412.02612, 3.2k stars) and zero-shot TTS with multi-reward RL (arXiv 2512.14291); GLM-4-Voice's demo clips are QuickTime GitHub attachments that may not play in the gallery, and GLM-TTS overlaps CosyVoice and Qwen3-TTS.",
+  "link": "https://github.com/zai-org/GLM-4-Voice",
+  "found_via": "zhipu-ai",
+  "status": "open",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "OmniAvatar (Zhejiang University and Alibaba, 2025-06)",
+  "why": "Open audio-driven full-body avatar video on Wan2.1 (1.9k GitHub stars); portrait animation is already covered by Hallo, EchoMimic, InfiniteTalk and Kling Avatar 2.0.",
+  "link": "https://omni-avatar.github.io/",
+  "found_via": "alibaba-tongyi",
+  "status": "open",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "FantasyTalking (AMAP / Alibaba, ACM MM 2025)",
+  "why": "Open Wan-based talking-portrait model with coherent motion synthesis (1.6k stars); same overlap as OmniAvatar.",
+  "link": "https://fantasy-amap.github.io/fantasy-talking/",
+  "found_via": "amap",
+  "status": "open",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "HunyuanPortrait (Tencent Hunyuan, CVPR 2025)",
+  "why": "Portrait animation with implicit condition control (357 stars); Tencent's avatar line is represented by HunyuanVideo-Avatar.",
+  "link": "https://github.com/Tencent-Hunyuan/HunyuanPortrait",
+  "found_via": "tencent-hunyuan",
+  "status": "open",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "X-Dub (Kling AI Research, 2026-03)",
+  "why": "Visual dubbing that re-syncs any character in a video to new audio (arXiv 2512.25066, 238 stars); below the salience bar next to InfiniteTalk and LatentSync-style dubbing models.",
+  "link": "https://hjrphoebus.github.io/X-Dub/",
+  "found_via": "kuaishou",
+  "status": "open",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "Index-Echo S2ST / S2TT (Bilibili IndexTeam, 2026-09-28)",
+  "why": "Open 2B and 9B speech-to-speech translation and dubbing models from the IndexTTS team; released weeks before this round with low uptake (a few hundred downloads) and no demo video found; revisit as a voice-preserving translation work.",
+  "link": "https://huggingface.co/IndexTeam/Index-Echo-S2ST-9B",
+  "found_via": "bilibili",
+  "status": "open",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "Xiaomi MiMo-V2-TTS and MiMo-V2.5-TTS series (2026)",
+  "why": "Xiaomi's agent-oriented speech-synthesis models listed on mimo.xiaomi.com; release dates, access terms and demo media not confirmed in this round.",
+  "link": "https://mimo.xiaomi.com/",
+  "found_via": "xiaomi",
+  "status": "open",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "BayLing-Duplex (ICT, Chinese Academy of Sciences, 2026-06-12)",
+  "why": "Open native 'full-duplex' speech model fine-tuned from GLM-4-Voice that decides when to listen, speak and stop without a VAD (arXiv 2606.14528, demo video, 96 stars); reports turn-taking and interruption success but no backchannel production, so it is turn-based under the gallery rule and overlaps D2 and Realtime-Venus.",
+  "link": "https://github.com/BayLing-Models/BayLing-Duplex",
+  "found_via": "zhipu-ai",
+  "status": "open",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "HeartMuLa (open music foundation models, 2026-01-15)",
+  "why": "Open song-generation family with a 12.5 Hz music codec and lyric/style/reference-audio control (arXiv 2601.10547, 3.8k GitHub stars); offline, so deprioritised in this interactive-first pass; strong candidate for the next audio round.",
+  "link": "https://heartmula.github.io/",
+  "found_via": "seed",
+  "status": "open",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "Seed-VC (Plachtaa, 2024-09)",
+  "why": "Zero-shot voice and singing-voice conversion with real-time support (3.9k stars); creator's location not confirmed, and RVC (added) already covers real-time voice conversion.",
+  "link": "https://github.com/Plachtaa/seed-vc",
+  "found_via": "rvc-boss",
+  "status": "open",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "GigaWorld-0 (2025-11) and GigaWorld-1 (2026-07), GigaAI",
+  "why": "Beijing world-model start-up's robot world models used as a data engine and for policy evaluation (arXiv 2511.19861, 2607.02642; 1.1k GitHub stars; CVPR 2026 world-model track). Only project-page clips, no official video; overlaps agibot--ge-sim-2 and ace-robotics--kairos-3. Add if GigaAI publishes a launch video.",
+  "link": "https://open-gigaai.github.io/giga-world-1/",
+  "found_via": "agibot",
+  "status": "open",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "Game-Creation-Agents (Tencent, 2026-10-14)",
+  "why": "Open agent pipeline that turns a game idea into a playable, verified browser game (arXiv 2610.16776); assets come from external models (OpenAI images, Seedance video). Revisit as an authoring tool for generated situations if it gets uptake or a demo video.",
+  "link": "https://github.com/Tencent/Game-Creation-Agents",
+  "found_via": "tencent",
+  "status": "open",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "NarrativeSteward (Tencent, 2026-09)",
+  "why": "Agent-assisted workspace for authoring and playtesting branching interactive stories with state-dependent paths (arXiv 2609.39333); fits genxr/narrative or agents if published at an HCI venue with a video.",
+  "link": "https://github.com/Tencent/NarrativeSteward",
+  "found_via": "tencent",
+  "status": "open",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "Genie Sim 3.0 (AgiBot, 2026-04)",
+  "why": "AgiBot's LLM-driven simulation platform that generates robot training scenes from language (third-party video only: The Robot Report). Check for an official page and video; would sit in worlds-3d/layout next to EmbodiedGen V2.",
+  "link": "https://www.youtube.com/watch?v=AtRK6JDWUoA",
+  "found_via": "agibot",
+  "status": "open",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "SplatFlux (Zhejiang University and Ant Group, arXiv 2610.28257)",
+  "why": "Feed-forward 4D Gaussian reconstruction and generation from video latents, posted 2026-10-20; too new to judge uptake. Revisit for spatial-4d (feed-forward or generative-4d-scenes).",
+  "link": "https://arxiv.org/abs/2610.28257",
+  "found_via": "zju3dv",
+  "status": "open",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "GameHorizon (Tencent ARC, 2026-09)",
+  "why": "Data and evaluation suite measuring AAA-gameplay capability of game agents at several horizons (578 GitHub stars); candidate for infra/benchmarks or agents if a paper and video appear.",
+  "link": "https://github.com/TencentARC/GameHorizon",
+  "found_via": "tencent-arc",
+  "status": "open",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "ShaderAgent (VAST, SIGGRAPH Asia 2026)",
+  "why": "Self-evolving agentic procedural material generation; assets/objects candidate once the project page has a video.",
+  "link": "https://github.com/VAST-AI-Research/ShaderAgent",
+  "found_via": "tripo-ai",
+  "status": "open",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "Marionette (Alaya Lab, arXiv 2608.14530)",
+  "why": "Game world model that predicts an explicit 276-dimensional 3D world state, renders geometry with a parameter-free operator and uses video diffusion only for appearance (code, weights, WildWorld dataset). Close to zheng-hui-huang--programmable-world-model and zheng-hui-huang--alayarenderer; the overview video is on a personal channel (Sarfflow). Add if it gains uptake.",
+  "link": "https://alayalab.github.io/Marionette/",
+  "found_via": "alaya-lab",
+  "status": "open",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "MultiWorldBench (Zhiying Guangnian Technology and Imperial College, arXiv 2610.11723)",
+  "why": "Minecraft benchmark (495 cases) asking whether independently controlled views of a multiplayer world model describe one persistent world; too new to judge uptake.",
+  "link": "https://arxiv.org/abs/2610.11723",
+  "found_via": "alaya-lab",
+  "status": "open",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "PROWBench: Do Video Models Render What the Program Specifies? (Alaya Lab, arXiv 2610.02205)",
+  "why": "Benchmark of 170 programmatically constructed episodes and 600 proxy videos that checks generated video against logged entity states and events, including off-screen ones; it has an intro video, but it was released 2026-10-01 with 51 GitHub stars and no results from other groups yet. Noted in zheng-hui-huang--programmable-world-model; add as infra/benchmarks once it is used to compare named systems.",
+  "link": "https://alaya-lab.github.io/PROWBench/",
+  "found_via": "alaya-lab",
+  "status": "open",
+  "batch": "china-worlds-2026-10"
+ },
+ {
   "name": "Beyond Conversations: Spatially-Anchored Previews for Intent Disambiguation in LLM-Assisted Geometry Editing in VR (Chen et al., 2026)",
   "why": "Companion within-subjects study (N = 24) by the authors of junlong-chen--confabulation-taxonomy: clarification questions plus spatial previews cut conversation rounds. Under review; add if it is published.",
   "link": "https://arxiv.org/abs/2607.23201",
@@ -16,12 +288,124 @@
   "batch": "genxr-2026-10b"
  },
  {
+  "name": "Daydream Scope (open-source real-time video pipeline tool, 2025-10)",
+  "why": "Runs StreamDiffusionV2, LongLive, Krea Realtime, Reward Forcing, MemFlow and Waypoint-1 locally with NDI / Spout / Syphon output for live performance; 454 GitHub stars; official walkthrough video Ls2OGg8soNU. Not added: daydream.live now serves an unrelated music product, so the maker (Livepeer?) is unclear.",
+  "link": "https://github.com/daydreamlive/scope",
+  "found_via": "akio-kodaira",
+  "status": "open",
+  "batch": "interactive-2026-10"
+ },
+ {
+  "name": "LongLive-2.0 (NVIDIA, arXiv 2605.18739, 2026-05-17)",
+  "why": "NVFP4 parallel training and inference infrastructure plus open 5B checkpoints for the LongLive line; candidate status note for shuai-yang-hkustgz--longlive rather than a new work.",
+  "link": "https://nvlabs.github.io/LongLive/LongLive2/",
+  "found_via": "nvidia",
+  "status": "open",
+  "batch": "interactive-2026-10"
+ },
+ {
   "name": "Niantic Spatial Gaussian splat relighting (beta, 2026-09-19)",
   "why": "Design-partner beta that relights captured splats (sun, sky, rain) via the aligned mesh and precomputed radiance transfer; candidate status edit for niantic-spatial--scaniverse once public.",
   "link": "https://radiancefields.com/niantic-spatial-launches-gaussian-splat-relighting",
   "found_via": "niantic-spatial",
   "status": "open",
   "batch": "spatial-4d-2026-10"
+ },
+ {
+  "name": "SentiAvatar (Renmin University GSAI and SentiPulse, 2026-04-03)",
+  "why": "Open framework and 37-hour mocap dialogue dataset (SuSuInterActs) for an expressive interactive 3D digital human that generates 6 s of motion in 0.3 s; has project videos (sentiavatar.github.io) but is a motion model below the bar against Motion-Omni and EchoAvatar.",
+  "link": "https://arxiv.org/abs/2604.02908",
+  "found_via": "tavus",
+  "status": "open",
+  "batch": "tavus-alts-2026-10"
+ },
+ {
+  "name": "UneeQ Immersive Training platform (2026)",
+  "why": "Unreal-rendered digital humans (Synanim animation engine, LLM orchestration) repositioned as a roleplay training product for sales, service and leadership; official video WqcijGV-mX4 (2026-08-17) but no dated launch post found.",
+  "link": "https://www.uneeq.com/",
+  "found_via": "tavus",
+  "status": "open",
+  "batch": "tavus-alts-2026-10"
+ },
+ {
+  "name": "Ojin (Journee Technologies): Oris 1.0, Human Presence and Human Portrait",
+  "why": "Speech-to-video avatar API from one image, sub-200 ms and from $0.05/min (developer-reported); launch date not found.",
+  "link": "https://ojin.ai/",
+  "found_via": "tavus",
+  "status": "open",
+  "batch": "tavus-alts-2026-10"
+ },
+ {
+  "name": "Anam Avatar Benchmark (2026-10-16)",
+  "why": "Vendor-run comparison of full avatar pipelines: 60 raters, 960 conversations, response latency and time to first frame for Anam, HeyGen, Tavus Phoenix-4.5 and LemonSlice; used in the anam--cara-4 patch; belongs to infra/benchmarks if added.",
+  "link": "https://anam.ai/tools/latency-benchmark",
+  "found_via": "anam",
+  "status": "open",
+  "batch": "tavus-alts-2026-10"
+ },
+ {
+  "name": "Alibaba Cloud digital human application platform (public beta 2025-09)",
+  "why": "One-stop platform for creating and deploying digital humans for video, livestreaming, interactive entertainment and education; real-time interaction scope unclear.",
+  "link": "https://help.aliyun.com/en/avatar/avatar-application/product-overview/product-release-announcement",
+  "found_via": "tavus",
+  "status": "open",
+  "batch": "tavus-alts-2026-10"
+ },
+ {
+  "name": "NVIDIA ACE digital human blueprint (Tokkio)",
+  "why": "Reference workflow for 3D customer-service digital humans (Audio2Face-3D, Riva, RTX rendering); covered in part by nvidia--audio2face-3d and the NPC works; no dated 2025-2026 launch checked.",
+  "link": "https://developer.nvidia.com/ace",
+  "found_via": "tavus",
+  "status": "open",
+  "batch": "tavus-alts-2026-10"
+ },
+ {
+  "name": "Akool and DeepBrain AI streaming / interactive avatars",
+  "why": "Both sell real-time interactive avatar APIs; pages are JavaScript-only or moved, so no dated launch or official video verified this round.",
+  "link": "https://www.akool.com/",
+  "found_via": "tavus",
+  "status": "open",
+  "batch": "tavus-alts-2026-10"
+ },
+ {
+  "name": "SoulX-LiveAct (Soul AI Lab, 2026-03-16)",
+  "why": "Hour-scale real-time human animation (Neighbor Forcing, ConvKV memory), 18B (Wan2.1 14B + 4B audio), 20 fps at 720×416 on two H100/H200, open weights; sibling of SoulX-FlashHead, kept below the bar to avoid a third Soul entry.",
+  "link": "https://github.com/Soul-AILab/SoulX-LiveAct",
+  "found_via": "soul-ai-lab",
+  "status": "open",
+  "batch": "tavus-alts-2026-10"
+ },
+ {
+  "name": "TaoMate (Alibaba Taobao & Tmall Group, 2026-07-27)",
+  "why": "Real-time joint audio-video digital-human generation with anchor-guided persistent memory (arXiv 2607.24359), open runtime and browser demo; TaoMate-H3 on MiniMax H3 (2026-09-08); overlaps Hallo-Live.",
+  "link": "https://github.com/TaoLiveAIGC/TaoMate",
+  "found_via": "tavus",
+  "status": "open",
+  "batch": "tavus-alts-2026-10"
+ },
+ {
+  "name": "CyberVerse (Lynpoint, 2026-04)",
+  "why": "Self-hosted real-time digital-human agent platform from one photo (WebRTC, voice-first), 1.7k GitHub stars; creator and launch not verified.",
+  "link": "https://github.com/Lynpoint/CyberVerse",
+  "found_via": "tavus",
+  "status": "open",
+  "batch": "tavus-alts-2026-10"
+ },
+ {
+  "name": "AvatarForcing (Zhejiang University and Kling Team, Kuaishou; arXiv 2603.14331, 2026-03)",
+  "why": "One-step streaming talking-avatar diffusion with local-future sliding-window denoising; a latency baseline in Tavus' Griffin report; has project videos, but it is an internship paper (83 GitHub stars) in the streaming-avatar distillation cluster kept below the bar (handoff from china-av).",
+  "link": "https://cuiliyuan121.github.io/AvatarForcing/",
+  "found_via": "tavus",
+  "status": "open",
+  "batch": "tavus-alts-2026-10"
+ },
+ {
+  "name": "Knot Forcing (Alibaba Tongyi HumanAIGC, arXiv 2512.21734, 2025-12-25)",
+  "why": "Autoregressive video diffusion for real-time, infinite interactive portrait animation (cached reference KV, Temporal Knot Module, 'running forward' reference), 16 fps on one H100; author-uploaded demo video 1cnvPUKxdH8; below the bar against StreamChar and the streaming-avatar distillation cluster (handoff from china-av).",
+  "link": "https://humanaigc.github.io/knot_forcing_demo_page/",
+  "found_via": "alibaba-tongyi",
+  "status": "open",
+  "batch": "tavus-alts-2026-10"
  },
  {
   "name": "ME-World: Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction (KAIST, arXiv 2610.12299)",
@@ -38,5 +422,53 @@
   "found_via": "bytedance-seed",
   "status": "open",
   "batch": "worlds-3d-2026-10"
+ },
+ {
+  "name": "XGEN Dual Exam: Controlled Evaluation of Multimodal Agents and World Models (XGEN Labs blog, by 2026-09-24)",
+  "why": "Coupled test of an agent driving a world model: GPT-5.6 Sol + Seedance 2.5 over 150 cases gave 0% strict task success, 26.6% world-state consistency, 9.2% corrective response; separate tracks with 1,088 agent items and 400 world-model cases (16 configurations). No paper, dataset or code yet, so not added; use as a Trends fact (trend-agents-in-worlds). Add if the benchmark is released.",
+  "link": "https://xgenlabs.ai/research/dual-exam/",
+  "found_via": "xgen-labs",
+  "status": "open",
+  "batch": "xgen-2026-10"
+ },
+ {
+  "name": "XGEN-JING causal (autoregressive) model",
+  "why": "Listed as 'coming soon' on Hugging Face and GitHub (last update 2026-10-15); its release would change xgen-labs--dao-jing to real-time access. Status patch, not a new work, unless it ships with its own launch and video.",
+  "link": "https://huggingface.co/XGENlabs/XGEN-JING",
+  "found_via": "xgen-labs",
+  "status": "open",
+  "batch": "xgen-2026-10"
+ },
+ {
+  "name": "XGEN Labs consumer product (beta planned November 2026; repo 'knoknok-demo')",
+  "why": "XGEN's pricing page (effective 2026-10-15) says an overseas consumer AI product is being prepared, name not confirmed, beta targeted for November 2026; a 'Knoknok interactive prototype for team preview' repo appeared on 2026-10-16. Check after November 2026.",
+  "link": "https://xgenlabs.ai/legal/pricing.html",
+  "found_via": "xgen-labs",
+  "status": "open",
+  "batch": "xgen-2026-10"
+ },
+ {
+  "name": "XGEN SHEN (agent component teased with DAO and JING)",
+  "why": "The JING page ends 'DAO makes the world computable. XGEN-JING makes it perceptible. SHEN turns experience into action.' No release or description yet.",
+  "link": "https://xgenlabs.ai/research/generative-world-simulation",
+  "found_via": "xgen-labs",
+  "status": "open",
+  "batch": "xgen-2026-10"
+ },
+ {
+  "name": "Flow Equivariant World Models (ICML 2026, arXiv 2601.01075)",
+  "why": "Memory for partially observed dynamic environments, i.e. tracking what moves out of view; check project page and media in the next world-models round.",
+  "link": "https://arxiv.org/abs/2601.01075",
+  "found_via": "xgen-labs",
+  "status": "open",
+  "batch": "xgen-2026-10"
+ },
+ {
+  "name": "Remember to be Curious: Episodic Context and Persistent Worlds for 3D Exploration (arXiv 2605.22814)",
+  "why": "Persistent worlds for 3D exploration (Goli, Kerr et al.); check affiliation, venue and media in the next world-models round.",
+  "link": "https://arxiv.org/abs/2605.22814",
+  "found_via": "xgen-labs",
+  "status": "open",
+  "batch": "xgen-2026-10"
  }
 ]

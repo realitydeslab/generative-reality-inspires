@@ -712,13 +712,13 @@
    "type": "trend",
    "en": "From video models to world simulators",
    "zh": "从视频模型到世界模拟器",
-   "desc_en": "Action-conditioned models generate the next moment as you move. Genie 3 (2025) holds a world together for minutes; Project Genie opened to subscribers in 2026 with 60-second generations. Independent 2026 benchmarks find that no model keeps memory reliably over 10–60 s of play, and that objects stay frozen while out of view instead of changing (WRBench, 23 models).",
-   "desc_zh": "以动作为条件的模型随你的移动生成下一刻。Genie 3（2025）能让世界在几分钟内保持一致；Project Genie 于 2026 年向订阅用户开放，每次生成限 60 秒。2026 年的独立基准发现，没有模型能在 10–60 秒的游玩中可靠地保持记忆，而且物体离开视野后会被“冻结”，不会随时间变化（WRBench，评测 23 个模型）。",
+   "desc_en": "Action-conditioned models generate the next moment as you move. Genie 3 (2025) holds a world together for minutes; Project Genie opened to subscribers in 2026 with 60-second generations. Independent 2026 benchmarks find that no model keeps memory reliably over 10–60 s of play, and that objects stay frozen while out of view instead of changing (WRBench, 23 models). In 2026 builders began moving the world itself out of the video model: Roblox Reality, Meshy's Mora, NVIDIA's StreamRender-H3, AlayaRenderer and XGEN's DAO keep rules and shared state in an engine and use a video model only to paint each view, and NVIDIA shipped that split in a game as DLSS 5 (2026-09-01).",
+   "desc_zh": "以动作为条件的模型随你的移动生成下一刻。Genie 3（2025）能让世界在几分钟内保持一致；Project Genie 于 2026 年向订阅用户开放，每次生成限 60 秒。2026 年的独立基准发现，没有模型能在 10–60 秒的游玩中可靠地保持记忆，而且物体离开视野后会被“冻结”，不会随时间变化（WRBench，评测 23 个模型）。2026 年，开发者开始把“世界”本身移出视频模型：Roblox Reality、Meshy 的 Mora、NVIDIA 的 StreamRender-H3、AlayaRenderer 与 XGEN 的 DAO 都把规则和共享状态放在引擎里，只用视频模型绘制每个视角的画面；NVIDIA 已在上市游戏中以 DLSS 5（2026-09-01）采用这种分工。",
    "url": "",
-   "gap_en": "Single 2D streams only (no stereo or 6DoF), minutes of persistence at best, no programmatic access to Genie, and Google, Runway and World Labs publish no per-minute price (Decart's driving-only Oasis 3 Preview costs $0.02/s).",
-   "gap_zh": "只有单路二维视频流（没有立体或六自由度），持久性最多几分钟，Genie 没有程序化接口，Google、Runway 和 World Labs 都没有公布按分钟计的价格（Decart 仅限驾驶场景的 Oasis 3 预览版为每秒 0.02 美元）。",
-   "next_en": "Google aims to widen Project Genie access 'in time'; Runway's GWM Worlds 2 adds a timestamped event stream (WorldPrompt); Atlas will power future versions of Marble.",
-   "next_zh": "Google 表示会“逐步”扩大 Project Genie 的开放范围；Runway 的 GWM Worlds 2 加入了带时间戳的事件流（WorldPrompt）；Atlas 将用于未来版本的 Marble。"
+   "gap_en": "Single 2D streams only (no stereo or 6DoF), minutes of persistence at best, no programmatic access to Genie, and Google, Runway and World Labs publish no per-minute price (Decart's driving-only Oasis 3 Preview costs $0.02/s). The first live benchmark, StreamEval (2026-10-20, 37 systems), scores the best world generator at 33.4/100 and finds that models rarely carry out text requests made mid-session.",
+   "gap_zh": "只有单路二维视频流（没有立体或六自由度），持久性最多几分钟，Genie 没有程序化接口，Google、Runway 和 World Labs 都没有公布按分钟计的价格（Decart 仅限驾驶场景的 Oasis 3 预览版为每秒 0.02 美元）。首个实时基准 StreamEval（2026-10-20，评测 37 个系统）中，最好的世界生成模型只得 33.4/100，模型也很少执行会话中途提出的文字请求。",
+   "next_en": "Google aims to widen Project Genie access 'in time'; Runway's GWM Worlds 2 adds a timestamped event stream (WorldPrompt); Atlas will power future versions of Marble. Roblox promises an early Roblox Reality for late 2026 or early 2027; XGEN's DAO world engine and causal JING are announced but unreleased.",
+   "next_zh": "Google 表示会“逐步”扩大 Project Genie 的开放范围；Runway 的 GWM Worlds 2 加入了带时间戳的事件流（WorldPrompt）；Atlas 将用于未来版本的 Marble。Roblox 承诺在 2026 年底或 2027 年初推出 Roblox Reality 的早期版本；XGEN 的 DAO 世界引擎与因果版 JING 已经公布，但尚未发布。"
   },
   {
    "id": "trend-physical-ai",
@@ -751,11 +751,11 @@
    "type": "trend",
    "en": "Full-duplex audio-visual humans",
    "zh": "全双工的视听虚拟人",
-   "desc_en": "Agents that listen while they speak, and now show a face: full-duplex voice became an API product in 2026 (GPT-Live-1 at $0.05/min, Gemini 3.8 Live), and Tavus Griffin generates a talking face video-to-video while it listens.",
-   "desc_zh": "边听边说、如今还能露脸的智能体：全双工语音在 2026 年成为 API 产品（GPT-Live-1 每分钟 0.05 美元、Gemini 3.8 Live），Tavus Griffin 则能边听边以视频到视频的方式生成说话的面孔。",
+   "desc_en": "Agents that listen while they speak, and now show a face: full-duplex voice became a product in 2026 (the GPT-Live-1 API at $0.05/min, Gemini 3.8 Live, ByteDance's Seeduplex in the Doubao app from 2026-04-09), and Tavus Griffin generates a talking face video-to-video while it listens.",
+   "desc_zh": "边听边说、如今还能露脸的智能体：全双工语音在 2026 年成为产品（GPT-Live-1 API 每分钟 0.05 美元、Gemini 3.8 Live，以及自 2026-04-09 起用于豆包 App 的字节跳动 Seeduplex），Tavus Griffin 则能边听边以视频到视频的方式生成说话的面孔。",
    "url": "",
-   "gap_en": "All render a flat 2D face and none drives a 3D body in shared space; turn-taking decisions are not exported as logs; 'human-likeness' figures come from developer-run studies.",
-   "gap_zh": "它们都只呈现平面的二维面孔，没有一个能在共享空间中驱动三维身体；轮流发言的决策不会导出为日志；“像真人”的数据来自开发者自己做的研究。",
+   "gap_en": "All render a flat 2D face and none drives a 3D body in shared space; turn-taking decisions are not exported as logs; 'human-likeness' figures come from developer-run studies. As of 2026-10-26 every generally available avatar product is turn-based with barge-in; only Griffin-Lite (preview) and research systems are full-duplex. The only cross-vendor test (run by Anam, a competitor, 2026-10-16) measured median replies of 1.24–2.10 s, against vendor claims of 100–600 ms.",
+   "gap_zh": "它们都只呈现平面的二维面孔，没有一个能在共享空间中驱动三维身体；轮流发言的决策不会导出为日志；“像真人”的数据来自开发者自己做的研究。截至 2026-10-26，所有正式上市的虚拟人产品都是可打断的轮流对话，只有 Griffin-Lite（预览版）和研究系统是全双工。唯一的跨厂商测试（由竞争者 Anam 于 2026-10-16 进行）测得回复延迟中位数为 1.24–2.10 秒，而厂商宣称的是 100–600 毫秒。",
    "next_en": "Tavus plans a wider release; Meta's voice-driven Hologram comes to Ray-Ban Display (fall 2026) and Hologram Calling to Meta VR Glasses (Spring 2027).",
    "next_zh": "Tavus 计划更大范围发布；Meta 由语音驱动的 Hologram 将登陆 Ray-Ban Display（2026 年秋），Hologram 通话将登陆 Meta VR Glasses（2027 年春）。"
   },
@@ -845,10 +845,10 @@
    "desc_en": "AI agents that play, learn and are tested inside generated worlds (SIMA 2 in Genie 3 worlds, Odyssey-3, GWM Worlds 2); characters with memory who share those worlds with people are still early.",
    "desc_zh": "在生成世界中游玩、学习并接受测试的 AI 智能体（Genie 3 世界中的 SIMA 2、Odyssey-3、GWM Worlds 2）；能记住你、与人共处同一世界的角色仍处于早期。",
    "url": "",
-   "gap_en": "No generated world keeps a character's identity, memory and relationship to a participant across a session, and characters' reactions have not been evaluated against human norms.",
-   "gap_zh": "没有一个生成世界能在一次体验中保持角色的身份、记忆以及与参与者的关系；角色反应是否符合人类常态也还没有被评估。",
-   "next_en": "Odyssey's Agora-1 targets multi-agent shared worlds; Cosmos 3 is offered as a backbone for 'world action models'.",
-   "next_zh": "Odyssey 的 Agora-1 面向多智能体共享世界；Cosmos 3 被定位为“世界动作模型”的基础模型。"
+   "gap_en": "No generated world keeps a character's identity, memory and relationship to a participant across a session, and characters' reactions have not been evaluated against human norms. In XGEN's own Dual Exam (2026-10), an agent paired with a world model (GPT-5.6 Sol with Seedance 2.5) completed none of 150 tasks under strict scoring.",
+   "gap_zh": "没有一个生成世界能在一次体验中保持角色的身份、记忆以及与参与者的关系；角色反应是否符合人类常态也还没有被评估。在 XGEN 自己的 Dual Exam（2026 年 10 月）中，智能体与世界模型搭配（GPT-5.6 Sol 加 Seedance 2.5）在严格评分下 150 个任务一个也没有完成。",
+   "next_en": "Odyssey's Agora-1 targets multi-agent shared worlds; Cosmos 3 is offered as a backbone for 'world action models'; XGEN's DAO, Alaya Lab's Programmable World Model and Murea-Inworld keep characters' goals and story state outside the video model.",
+   "next_zh": "Odyssey 的 Agora-1 面向多智能体共享世界；Cosmos 3 被定位为“世界动作模型”的基础模型；XGEN 的 DAO、Alaya Lab 的可编程世界模型与 Murea-Inworld 都把角色目标与故事状态保存在视频模型之外。"
   },
   {
    "id": "trend-in-situ-xr",
@@ -886,8 +886,8 @@
    "url": "",
    "gap_en": "Chinese frontier video is mostly closed (MiniMax H3 is a partial exception: its base model is open, its 2K modules API-only), and Alibaba has released no new open base video model since Wan 2.2 (July 2025).",
    "gap_zh": "中国的前沿视频模型大多闭源（MiniMax H3 是部分例外：基础模型开源，2K 模块仅通过 API 提供）；阿里自 2025 年 7 月的 Wan 2.2 之后没有再发布新的开源基础视频模型。",
-   "next_en": "Kling 4.0 rolled out from 2026-09-28 and was officially launched on 2026-10-16, with API access said to follow; Matrix-Game 4.0 weights came out on 2026-10-15.",
-   "next_zh": "可灵 4.0 自 2026-09-28 起逐步推出，并于 2026-10-16 正式发布，据称 API 随后开放；Matrix-Game 4.0 的权重于 2026-10-15 发布。"
+   "next_en": "Kling 4.0 launched fully on 2026-10-15 and reached developers through fal by 2026-10-21. Between 2026-10-12 and 10-23 Tencent (Multics, Hy-Nomas) and VAST (EdenLive) released open interactive-world weights, and Skywork released Matrix-Game 4.0 (2026-10-15).",
+   "next_zh": "可灵 4.0 于 2026-10-15 全面上线，到 2026-10-21 已可通过 fal 调用。2026-10-12 至 10-23 期间，腾讯（Multics、Hy-Nomas）与 VAST（EdenLive）相继开源交互式世界模型权重，昆仑万维也发布了 Matrix-Game 4.0（2026-10-15）。"
   },
   {
    "id": "trend-cost",
@@ -899,8 +899,8 @@
    "url": "",
    "gap_en": "At list prices (Oct 2026), a 10-minute 720p stimulus costs about $30–60 (Veo 3.1 Lite / Fast), a 30-minute full-duplex voice session about $0.70–1.50, and 30 minutes of Oasis 3 about $36, but only for driving scenes; a general-purpose real-time world cannot be bought at a published price.",
    "gap_zh": "按 2026 年 10 月标价估算：10 分钟 720p 刺激视频约需 30–60 美元（Veo 3.1 Lite / Fast），30 分钟全双工语音约 0.7–1.5 美元，30 分钟 Oasis 3 约 36 美元（仅限驾驶场景）；通用的实时生成世界则没有公开价格可买。",
-   "next_en": "Local inference becomes realistic on consumer GPUs and 128 GB laptops (RTX Spark, on sale 2026-10-16); Vidu Q4 Preview lists video from $0.014/s (2026-10-07).",
-   "next_zh": "在消费级显卡和 128 GB 内存的笔记本（RTX Spark，2026-10-16 上市）上进行本地推理开始变得可行；Vidu Q4 预览版的视频生成价格低至每秒 0.014 美元（2026-10-07）。"
+   "next_en": "Local inference becomes realistic on consumer GPUs and 128 GB laptops (RTX Spark, on sale 2026-10-16); Vidu Q4 Preview lists video from $0.014/s (2026-10-07); ByteDance cut OmniHuman 2.0 avatar video to $0.07/s (2026-10-15), and real-time avatar minutes range from $0.005 (Simli) to $0.37 (Tavus).",
+   "next_zh": "在消费级显卡和 128 GB 内存的笔记本（RTX Spark，2026-10-16 上市）上进行本地推理开始变得可行；Vidu Q4 预览版的视频生成价格低至每秒 0.014 美元（2026-10-07）；字节跳动把 OmniHuman 2.0 数字人视频降到每秒 0.07 美元（2026-10-15），实时虚拟人每分钟价格从 0.005 美元（Simli）到 0.37 美元（Tavus）不等。"
   },
   {
    "id": "trend-platform-risk",
@@ -912,8 +912,8 @@
    "url": "",
    "gap_en": "A study built on a startup's or lab's API may outlive the API: archive stimuli, prompts and model ids, and prefer open weights for anything that must be re-run.",
    "gap_zh": "基于初创公司或实验室 API 的研究，可能比这个 API 活得更久：请存档刺激材料、提示词与模型版本，凡需重跑的部分尽量使用开源权重。",
-   "next_en": "AMD's all-stock purchase of World Labs (about $8.2 billion, announced 2026-09-28) is expected to close by the end of 2026; Microsoft's Muse team moved into the Microsoft AI product group; Google retires the Veo 3.1 preview endpoints on 2026-10-22, and Hume shuts its EVI and TTS APIs on 2026-11-13.",
-   "next_zh": "AMD 以全股票方式收购 World Labs（约 82 亿美元，2026-09-28 宣布），预计 2026 年底完成；微软的 Muse 团队已并入 Microsoft AI 产品部门；Google 将于 2026-10-22 停用 Veo 3.1 预览接口，Hume 将于 2026-11-13 关闭 EVI 与 TTS API。"
+   "next_en": "Character.AI entered a court-supervised Chapter 11 sale on 2026-10-12 and says it will wind down without a buyer; Roblox hired the founders of Dynamics Lab and Lucid for Roblox Reality; AMD's all-stock purchase of World Labs (about $8.2 billion, announced 2026-09-28) is expected to close by the end of 2026; Microsoft's Muse team moved into the Microsoft AI product group; Google retires the Veo 3.1 preview endpoints on 2026-10-22, and Hume shuts its EVI and TTS APIs on 2026-11-13.",
+   "next_zh": "Character.AI 于 2026-10-12 启动法院监督下的第 11 章出售程序，并表示若无买家将关闭平台；Roblox 招入 Dynamics Lab 与 Lucid 的创始人参与 Roblox Reality；AMD 以全股票方式收购 World Labs（约 82 亿美元，2026-09-28 宣布），预计 2026 年底完成；微软的 Muse 团队已并入 Microsoft AI 产品部门；Google 将于 2026-10-22 停用 Veo 3.1 预览接口，Hume 将于 2026-11-13 关闭 EVI 与 TTS API。"
   },
   {
    "id": "trend-provenance",
@@ -1154,8 +1154,8 @@
   {
    "name": "Griffin-Lite",
    "org": "Tavus",
-   "status_en": "Research preview for select testers (2026-10-01)",
-   "status_zh": "面向部分测试者的研究预览（2026-10-01）",
+   "status_en": "Research preview for select testers (2026-10-01); still tester-only on 2026-10-26",
+   "status_zh": "面向部分测试者的研究预览（2026-10-01）；截至 2026-10-26 仍仅限测试者",
    "access": [
     "preview"
    ],
@@ -1164,23 +1164,24 @@
   {
    "name": "Kling 4.0",
    "org": "Kuaishou",
-   "status_en": "Introduced 2026-09-28; fully available on kling.ai since 2026-10-16; about 30 s per generation; no API model yet",
-   "status_zh": "2026-09-28 推出；自 2026-10-16 起在 kling.ai 全面开放；单次约 30 秒；尚无 API 模型",
-   "access": [
-    "product"
-   ],
-   "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-officially-launches-next-generation-kling-40-raising"
-  },
-  {
-   "name": "Seedance 2.0",
-   "org": "ByteDance Seed",
-   "status_en": "Released February 2026; product and API",
-   "status_zh": "2026 年 2 月发布；提供产品与 API",
+   "status_en": "Introduced 2026-09-28; full launch 2026-10-15 (Kling blog); API through fal from 2026-10-21, from $0.157/s at 720p; up to 30 s per generation",
+   "status_zh": "2026-09-28 推出；2026-10-15 全面上线（可灵博客）；自 2026-10-21 起可通过 fal 调用 API，720p 每秒 0.157 美元起；单次最长 30 秒",
    "access": [
     "product",
     "api"
    ],
-   "url": "https://seed.bytedance.com/en/seedance2_0"
+   "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-officially-launches-next-generation-kling-40-raising"
+  },
+  {
+   "name": "Seedance 2.0 / 2.5",
+   "org": "ByteDance Seed",
+   "status_en": "2.0 released 2026-02-12; 2.5 (2026-07-31) makes 30 s of joint audio-video per pass, with a draft mode from 2026-09-22 and a 4K tier from 2026-10-23; app and BytePlus API",
+   "status_zh": "2.0 于 2026-02-12 发布；2.5（2026-07-31）单次生成 30 秒音视频，2026-09-22 加入草稿模式，2026-10-23 推出 4K 档；提供应用与 BytePlus API",
+   "access": [
+    "product",
+    "api"
+   ],
+   "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
   },
   {
    "name": "Muse Video",
@@ -1352,6 +1353,57 @@
     "open"
    ],
    "url": "https://github.com/facebookresearch/actionmesh"
+  },
+  {
+   "name": "DAO + JING",
+   "org": "XGEN Labs",
+   "status_en": "JING-Flash-v1 open weights (2026-09-17) render offline 5–15 s clips; the DAO world engine and causal JING are announced but unreleased; no latency published",
+   "status_zh": "JING-Flash-v1 开源权重（2026-09-17）可离线生成 5–15 秒片段；DAO 世界引擎与因果版 JING 已公布但未发布；未公布延迟",
+   "access": [
+    "open",
+    "preview"
+   ],
+   "url": "https://xgenlabs.ai/research/generative-world-simulation"
+  },
+  {
+   "name": "Roblox Reality",
+   "org": "Roblox",
+   "status_en": "The engine keeps multiplayer state and an edge video model repaints each player's frames; announced 2026-04-30, early version promised for late 2026 or early 2027",
+   "status_zh": "引擎保存多人状态，边缘视频模型为每位玩家重绘画面；2026-04-30 公布，承诺在 2026 年底或 2027 年初推出早期版本",
+   "access": [
+    "preview"
+   ],
+   "url": "https://about.roblox.com/newsroom/2026/04/roblox-reality-hybrid-architecture-democratizing-photorealistic-multiplayer-gaming"
+  },
+  {
+   "name": "OmniHuman 2.0",
+   "org": "ByteDance Seed",
+   "status_en": "BytePlus API since 2026-10-15; single shots up to 5 minutes; $0.07/s (1.5 still $0.12/s)",
+   "status_zh": "自 2026-10-15 起通过 BytePlus API 提供；单镜头最长 5 分钟；每秒 0.07 美元（1.5 版仍为每秒 0.12 美元）",
+   "access": [
+    "api"
+   ],
+   "url": "https://www.byteplus.com/en/product/omnihuman"
+  },
+  {
+   "name": "Magenta RealTime 2",
+   "org": "Google DeepMind",
+   "status_en": "Open 2.4B live music model (2026-06-04); runs on a MacBook; steered by MIDI, audio or text with about 200 ms control latency",
+   "status_zh": "开源 2.4B 实时音乐模型（2026-06-04）；可在 MacBook 上运行；可用 MIDI、音频或文字操控，控制延迟约 200 毫秒",
+   "access": [
+    "open"
+   ],
+   "url": "https://magenta.withgoogle.com/magenta-realtime-2"
+  },
+  {
+   "name": "Character.AI (AvatarFX, TalkingMachines)",
+   "org": "Character.AI",
+   "status_en": "Court-supervised Chapter 11 sale since 2026-10-12; the app runs during the sale and winds down if there is no buyer",
+   "status_zh": "自 2026-10-12 起进入法院监督下的第 11 章出售程序；出售期间应用照常运行，若无买家将关闭",
+   "access": [
+    "product"
+   ],
+   "url": "https://blog.character.ai/an-update-on-character-ai/"
   }
  ],
  "lenses": [

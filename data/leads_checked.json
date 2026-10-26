@@ -1848,6 +1848,166 @@
   "batch": "behavioral"
  },
  {
+  "name": "LiveGS: Live Free-Viewpoint Video via High-Performance Gaussian Splatting for Mobile Devices (ByteDance, SIGGRAPH 2025 E-Tech)",
+  "why": "Real-time feed-forward 4DGS streaming at 10–20 Mbps with ~30 fps iPhone 15 playback; DOI verified (10.1145/3721257.3734033), still no official video or project page as of 2026-10-26.",
+  "link": "https://doi.org/10.1145/3721257.3734033",
+  "found_via": "bytedance-seed",
+  "status": "no_media",
+  "batch": "bytedance-2026-10"
+ },
+ {
+  "name": "Seko / SekoTV (SenseTime, Seko 3.0 2026-09)",
+  "why": "SenseTime's agentic short-drama video platform (agents, infinite canvas, skills); its web app routes generation to third-party models (Seedance, MiniMax, Wan, Kling), so it is a wrapper under the inclusion rule. SenseTime still has no AV work in the gallery.",
+  "link": "https://seko.sensetime.com/",
+  "found_via": "sensetime",
+  "status": "off_topic",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "Qwen-Audio 3.0 Realtime / TTS and 3.1 Realtime Plus (Alibaba Qwen, 2026-07-14 → 2026-09-20)",
+  "why": "Closed Model Studio speech models; Alibaba describes qwen-audio-3.0-realtime (2026-08-10) as a duplex speech model ranked first on Artificial Analysis Speech-to-Speech. No official video found on the Qwen or Alibaba Cloud channels as of 2026-10-26, and no evidence of backchanneling, so the timing class is open.",
+  "link": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+  "found_via": "alibaba-tongyi",
+  "status": "no_media",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "LongCat-Flash-Omni (Meituan, 2025-10-23)",
+  "why": "Open 560B (27B active) omni-modal model with real-time audio-visual interaction (arXiv 2511.00279, MIT); no official demo video, and open omni models are represented by Qwen3-Omni and MiniCPM-o.",
+  "link": "https://github.com/meituan-longcat/LongCat-Flash-Omni",
+  "found_via": "meituan",
+  "status": "no_media",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "Covo-Audio / Covo-Audio-Chat-FD (Tencent, 2026-02-10)",
+  "why": "7B end-to-end audio LLM (arXiv 2602.09823); the FD variant handles turn-taking, pauses, barge-in and user backchannels (it continues through them rather than producing its own); only the half-duplex Covo-Audio-Chat weights are on Hugging Face and no demo video was found.",
+  "link": "https://github.com/Tencent/Covo-Audio",
+  "found_via": "tencent-hunyuan",
+  "status": "no_media",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "SwanSphere (Zhejiang University, ICML 2026)",
+  "why": "Streaming spatial-audio generation from panoramic video and text with a causal autoregressive diffusion transformer (arXiv 2605.30940, 120 stars); highly relevant to 360° immersion, but the project page has only a framework figure and no latency figures were found; revisit for a demo.",
+  "link": "https://swansphere.github.io/",
+  "found_via": "huadai-liu",
+  "status": "no_media",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "Ultra Flash: real-time streaming video at 1K–2K (arXiv 2606.09150, 2026-06-15)",
+  "why": "Cascaded streaming super-resolution reporting ~30 fps at 1K and ~18 fps at 2K on one GPU; no project page, code or affiliation found as of 2026-10-26.",
+  "link": "https://arxiv.org/abs/2606.09150",
+  "found_via": "seed",
+  "status": "no_media",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "Real-Time Interactive Music Generation via Data-Free Streaming Consistency Distillation (arXiv 2606.24307)",
+  "why": "Distils a music model into a streaming, playable instrument; no project page, demo or affiliation found as of 2026-10-26.",
+  "link": "https://arxiv.org/abs/2606.24307",
+  "found_via": "seed",
+  "status": "no_media",
+  "batch": "china-av-2026-10"
+ },
+ {
+  "name": "Robot world-action models from Chinese labs, June–October 2026: RynnWorld-4D / RynnWorld-Teleop (Alibaba DAMO), DreamX-Phi 1.0 (AMAP), AnyWorld (XPeng Robotics), Motus2 (Shengshu), UnifoLM-WLA-1.0 (Unitree), HWM-0 (Horizon Robotics), SYNWorld V0.5 (SynapX)",
+  "why": "Below the salience bar for this gallery, like InternW0: they predict robot video and actions for manipulation policies rather than generating situations people enter; the field is represented by agibot--ge-sim-2, ace-robotics--kairos-3 and xpeng--x-world.",
+  "link": "https://github.com/alibaba-damo-academy/RynnWorld-Teleop",
+  "found_via": "agibot",
+  "status": "off_topic",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "World-model benchmarks: WorldOlympiad (Alibaba DAMO, 2026-06) and GAUGE (Shanghai AI Lab, 2026-08)",
+  "why": "Physical-faithfulness and consistency benchmarks for video world models with little recorded uptake (58 and 13 GitHub stars); WorldArena is added instead.",
+  "link": "https://github.com/alibaba-damo-academy/WorldOlympiad",
+  "found_via": "yu-shang",
+  "status": "off_topic",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "SpatialCrafter (HKUST and Alibaba, arXiv 2608.27073)",
+  "why": "Single-image explorable scene generation with a global 3D proxy refined by a video model; overlaps manycore--spatialgen, yang-tian-sun--mira-scene and HY-World 2.0.",
+  "link": "https://arxiv.org/abs/2608.27073",
+  "found_via": "manycore",
+  "status": "off_topic",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "Qwen-AgentWorld-35B-A3B (Alibaba Qwen, 2026-06-22)",
+  "why": "Open 'language world model' that simulates tool, terminal, web, Android and OS environments for training agents; not an immersive or audiovisual situation.",
+  "link": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+  "found_via": "alibaba-tongyi",
+  "status": "off_topic",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "ExplorationBench (Tencent Hy, 2026-09)",
+  "why": "Benchmark of AI exploration in 'alien worlds' that are code and logic sandboxes (AlienCode, AlienLogic), not generated environments.",
+  "link": "https://github.com/Tencent-Hunyuan/ExplorationBench",
+  "found_via": "tencent-hunyuan",
+  "status": "off_topic",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "Huawei Pangu 5.0 driving world model (HDC 2024-06-22; Huawei Cloud release 2024-09)",
+  "why": "Huawei says Pangu 5.0's 'controllable spatiotemporal generation' produces driving videos of normal, random, accident and aggressive-driving scenarios for training; only press releases found, no official video or technical report.",
+  "link": "https://kyodonewsprwire.jp/release/202409206749",
+  "found_via": "xpeng",
+  "status": "no_media",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "vivo Vision MR headset (2025-08-21) and other Chinese AR/MR devices (Rokid, RayNeo, Play For Dream)",
+  "why": "Salient Chinese headsets and glasses, but no generative feature (generated 3D, worlds or spatialized media) could be verified on official pages; AI features are assistants and translation. Revisit if a device ships photo-to-3D or generated environments.",
+  "link": "https://www.youtube.com/watch?v=yRjb07zjVaY",
+  "found_via": "xreal",
+  "status": "off_topic",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "MASS: Multiplayer World Models with Authoritative Shared State (Alaya Lab and PKU, arXiv 2608.06257)",
+  "why": "A learned logic engine advances one typed shared state from joint actions (1,024 simulated players, 10,000 ticks) and a renderer draws each client's view, across eight arcade games. Rechecked twice on 2026-10-26 (page HTML and app.js): the project page still has only still images, no video, and there is no public repository.",
+  "link": "https://alaya-lab.github.io/MASS/",
+  "found_via": "alaya-lab",
+  "status": "no_media",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "iVideoGPT (Tsinghua University, NeurIPS 2024, arXiv 2405.15223)",
+  "why": "Early scalable interactive world model (compressive tokenization, autoregressive transformer) for robot manipulation and model-based RL; project page has only GIFs, no video.",
+  "link": "https://thuml.github.io/iVideoGPT/",
+  "found_via": "shenyuan-gao",
+  "status": "no_media",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "PlayGen: Playable Game Generation (Tencent, arXiv 2412.00887)",
+  "why": "Autoregressive DiT game generator that the authors report runs in real time for over 1,000 frames on an RTX 2060, with an online playable demo hosted on bare IP addresses; no video, only an architecture image.",
+  "link": "https://github.com/GreatX3/Playable-Game-Generation",
+  "found_via": "tencent",
+  "status": "no_media",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "Chinese driving world models: Epona (ICCV 2025, arXiv 2506.24113), DrivingWorld (arXiv 2412.19505), GenAD (OpenDriveLab, CVPR 2024, arXiv 2403.09630), OccWorld (Tsinghua, ECCV 2024, arXiv 2311.16038)",
+  "why": "Offline or occupancy-space driving world models; the interactive and controllable side of this line is represented by xuemeng-yang--drivearena, shenyuan-gao--vista and xpeng--x-world. Epona (392 stars) is the strongest candidate if the gallery wants a minutes-long autoregressive driving model.",
+  "link": "https://kevin-thu.github.io/Epona/",
+  "found_via": "shenyuan-gao",
+  "status": "off_topic",
+  "batch": "china-worlds-2026-10"
+ },
+ {
+  "name": "Vid2World (Tsinghua, arXiv 2505.14357) and RoboScape (Tsinghua FIB Lab, arXiv 2506.23135)",
+  "why": "Methods that turn pretrained video diffusion models into action-conditioned world models (Vid2World) or add physics to an embodied world model (RoboScape); low uptake (79 and 26 stars) and overlapping yixuan-zhu--astra and agibot--ge-sim-2.",
+  "link": "https://knightnemo.github.io/vid2world/",
+  "found_via": "yixuan-zhu",
+  "status": "off_topic",
+  "batch": "china-worlds-2026-10"
+ },
+ {
   "name": "Meta Horizon Create and Horizon Studio, agentic mobile-game creation (2026-09-24)",
   "why": "Folded into meta--horizon-studio-genai, whose method already records the September 2026 repositioning as a browser tool for mobile games.",
   "link": "https://developers.meta.com/blog/meta-connect-recap-horizon-create-and-horizon-studio/",
@@ -2480,6 +2640,94 @@
   "batch": "infra"
  },
  {
+  "name": "LiveBand: Live Accompaniment Generation in the Audio Domain (Pasini et al., Sony CSL / QMUL, arXiv 2606.03803)",
+  "why": "Causal transformer that plays accompaniment to live audio input in real time on consumer hardware; no project page or video as of 2026-10-26.",
+  "link": "https://arxiv.org/abs/2606.03803",
+  "found_via": "google-deepmind",
+  "status": "no_media",
+  "batch": "interactive-2026-10"
+ },
+ {
+  "name": "Live Music Diffusion Models (Novack, Brade et al., UCSD / MIT / Adobe, arXiv 2605.22717)",
+  "why": "Repurposes open audio diffusion models into interactive streaming music generators on consumer GPUs; project page has audio examples only, no video.",
+  "link": "https://stephenbrade.github.io/lmdm-public/",
+  "found_via": "google-deepmind",
+  "status": "no_media",
+  "batch": "interactive-2026-10"
+ },
+ {
+  "name": "Streaming Generation for Music Accompaniment (Wu et al., Mila / MIT, arXiv 2510.22105)",
+  "why": "Real-time audio-to-audio accompaniment under system delay (future visibility vs. latency); no project page or video found.",
+  "link": "https://arxiv.org/abs/2510.22105",
+  "found_via": "alexander-scarlatos",
+  "status": "no_media",
+  "batch": "interactive-2026-10"
+ },
+ {
+  "name": "Unbounded: A Generative Infinite Game of Character Life Simulation (Google, arXiv 2410.18975)",
+  "why": "LLM + image-model life-simulation game refreshing about once per second (turn-based); project page has no video.",
+  "link": "https://generative-infinite-game.github.io/",
+  "found_via": "google",
+  "status": "no_media",
+  "batch": "interactive-2026-10"
+ },
+ {
+  "name": "Hand2World: Autoregressive Egocentric Interaction Generation via Free-Space Hand Gestures (NTU Singapore, arXiv 2602.09600)",
+  "why": "Egocentric video conditioned on mid-air hand gestures, an XR-relevant peer of Generated Reality; no project page or video as of 2026-10-26.",
+  "link": "https://arxiv.org/abs/2602.09600",
+  "found_via": "linxi-xie",
+  "status": "no_media",
+  "batch": "interactive-2026-10"
+ },
+ {
+  "name": "Captain Safari: A World Engine with Pose-Aligned 3D Memory (JHU, arXiv 2511.22815)",
+  "why": "Pose-conditioned world engine retrieving from a persistent 3D memory; below the salience bar (12 HF upvotes, no venue), and revisit memory is covered by Wonder, WorldTrace and Matrix-Game 3.0.",
+  "link": "https://johnson111788.github.io/open-safari/",
+  "found_via": "xgen",
+  "status": "off_topic",
+  "batch": "interactive-2026-10"
+ },
+ {
+  "name": "Flow Equivariant World Models (Lillemark, Du, Keller et al., ICML 2026, arXiv 2601.01075)",
+  "why": "Symmetry-structured memory for partially observed dynamic environments; a modelling contribution on toy and simulated scenes, not a generator people enter.",
+  "link": "https://flowequivariantworldmodels.github.io/",
+  "found_via": "xgen",
+  "status": "off_topic",
+  "batch": "interactive-2026-10"
+ },
+ {
+  "name": "Remember to be Curious: Episodic Context and Persistent Worlds for 3D Exploration (Goli, Kerr, Kanazawa et al., arXiv 2605.22814)",
+  "why": "Curiosity-driven RL exploration with persistent world memory; no project page or video.",
+  "link": "https://arxiv.org/abs/2605.22814",
+  "found_via": "xgen",
+  "status": "no_media",
+  "batch": "interactive-2026-10"
+ },
+ {
+  "name": "Fast Autoregressive Video Diffusion and World Models with Temporal Cache Compression and Sparse Attention (Samuel et al., ICML 2026, arXiv 2602.01801)",
+  "why": "Inference speed-up for AR video / world models (KV-cache compression); a method paper below the salience bar.",
+  "link": "https://dvirsamuel.github.io/fast-auto-regressive-video/",
+  "found_via": "xgen",
+  "status": "off_topic",
+  "batch": "interactive-2026-10"
+ },
+ {
+  "name": "FastH3-Omni (FastVideo / Hao AI Lab with NuvaLab and Reactor, 2026-10) and OpenDreamer (open Dreamer 4 reproduction, 2026-07-21)",
+  "why": "Both folded into reactor--reactor-platform: FastH3-Omni is a distilled real-time version of MiniMax H3 served on Reactor; OpenDreamer (396 GitHub stars) is playable on the Reactor runtime.",
+  "link": "https://reactor.inc/blog/fast-h3-omni",
+  "found_via": "reactor",
+  "status": "duplicate",
+  "batch": "interactive-2026-10"
+ },
+ {
+  "name": "Krea Realtime Edit (2026-01-20)",
+  "why": "Real-time image canvas where brushstrokes update the picture instantly; image-only, outside the gallery's temporal / immersive scope.",
+  "link": "https://www.krea.ai/blog/realtime-edit",
+  "found_via": "krea",
+  "status": "off_topic",
+  "batch": "interactive-2026-10"
+ },
+ {
   "name": "Zip-NeRF (Barron et al., ICCV 2023)",
   "why": "Below salience bar for this round: the NeRF lineage is already anchored by NeRF, mip-NeRF 360 and SMERF (its distilled successor).",
   "link": "https://jonbarron.info/zipnerf/",
@@ -3014,6 +3262,62 @@
   "found_via": "seed",
   "status": "off_topic",
   "batch": "spatial-4d"
+ },
+ {
+  "name": "Tavus Hummingbird-0 (2025-04-24)",
+  "why": "Zero-shot lip-sync model (3D face reconstruction + audio animator + renderer) spun off Phoenix-3, research preview on the Tavus API and fal; offline dubbing, and only blog figures, no video.",
+  "link": "https://www.tavus.io/blog/hummingbird-0-advancing-zero-shot-lip-synchronization-in-ai-generated-video",
+  "found_via": "tavus",
+  "status": "no_media",
+  "batch": "tavus-alts-2026-10"
+ },
+ {
+  "name": "xAI Grok Companions (Ani, Rudi; 2025-07-14)",
+  "why": "Real-time voice companions with animated 3D characters at consumer scale in the Grok app; no official launch page or official video found (x.ai/news/grok-companions is 404), only press coverage.",
+  "link": "https://www.nbcnews.com/tech/internet/grok-companions-include-flirty-anime-waifu-anti-religion-panda-rcna218797",
+  "found_via": "tavus",
+  "status": "no_media",
+  "batch": "tavus-alts-2026-10"
+ },
+ {
+  "name": "Baidu Huibo Star digital-human livestream of Luo Yonghao and Xiao Mu (2025-06-15)",
+  "why": "Two ERNIE-driven digital humans streamed for over six hours on Baidu Youxuan, reported 55 million yuan GMV and 13 million views; only secondary sources (TechNode, CNBC, 36Kr), no Baidu press release or official video found.",
+  "link": "https://technode.com/2025/06/17/luo-yonghaos-digital-avatar-draws-over-13-million-viewers-in-ai-powered-baidu-live-commerce-debut/",
+  "found_via": "tavus",
+  "status": "no_media",
+  "batch": "tavus-alts-2026-10"
+ },
+ {
+  "name": "Xmov Xingyun (魔珐星云) embodied 3D digital-human platform (2025-10-29)",
+  "why": "Real-time 3D digital humans rendered on the device (cloud sends speech and motion parameters), SDK for screens, kiosks and robots, barge-in; official site xingyun3d.com has only images, launch date from press, no official video found.",
+  "link": "https://xingyun3d.com/",
+  "found_via": "tavus",
+  "status": "no_media",
+  "batch": "tavus-alts-2026-10"
+ },
+ {
+  "name": "Huya VAM 1.0 real-time digital human (WAIC 2026-07)",
+  "why": "Re-checked 2026-10-26: still no Huya press page or official video; reported 36.4 fps and ~1.3 s first frame from one photo.",
+  "link": "https://finance.eastmoney.com/a/202607183811686732.html",
+  "found_via": "tavus",
+  "status": "no_media",
+  "batch": "tavus-alts-2026-10"
+ },
+ {
+  "name": "LiveTalking (lipku, open source, since 2023-12)",
+  "why": "10k-star real-time interactive streaming digital-human engine (Wav2Lip, MuseTalk, ER-NeRF; WebRTC/RTMP; interruptible); its demo videos are only on Bilibili, which check_media cannot verify.",
+  "link": "https://github.com/lipku/LiveTalking",
+  "found_via": "tavus",
+  "status": "no_media",
+  "batch": "tavus-alts-2026-10"
+ },
+ {
+  "name": "Vorch-Streamer (arXiv 2608.05663, 2026-08-06)",
+  "why": "Real-time long-form text-to-audio-video avatar streaming at 27.12 fps (Self Forcing + DMD, 25 Hz speech-planning tokens), but the arXiv entry is marked 'Withdrawn due to information disclosure concerns' and no project page or affiliation could be confirmed (handoff from china-av).",
+  "link": "https://arxiv.org/abs/2608.05663",
+  "found_via": "tavus",
+  "status": "no_media",
+  "batch": "tavus-alts-2026-10"
  },
  {
   "name": "Runway GWM Worlds 2 (2026-09-03)",
@@ -4502,5 +4806,29 @@
   "found_via": "spaitial",
   "status": "duplicate",
   "batch": "worlds-3d"
+ },
+ {
+  "name": "World Observer: Joint Actor-Observer Generation for Persistent World Modeling (KAIST, arXiv 2610.02162)",
+  "why": "Panoramic 'observer' streams keep out-of-view regions evolving; project page with videos and code. Below the salience bar for now: out-of-sight dynamics are represented by LiveWorld (ECCV 2026). Reconsider if it gets a venue.",
+  "link": "https://cvlab-kaist.github.io/world-observer",
+  "found_via": "xgen-labs",
+  "status": "off_topic",
+  "batch": "xgen-2026-10"
+ },
+ {
+  "name": "UniState: Unifying Memory and Intervention for Controllable World Simulation (Yonsei, arXiv 2610.25414)",
+  "why": "Users move objects inside a spatial-memory world state and choose the camera separately; project page with videos. Below the salience bar (no venue, 2026-10-18); intervention-in-state is represented by DAO, LiveWorld and PERSIST.",
+  "link": "https://curryjung.github.io/unistate/",
+  "found_via": "xgen-labs",
+  "status": "off_topic",
+  "batch": "xgen-2026-10"
+ },
+ {
+  "name": "Moonlake AI",
+  "why": "Once pitched as reasoning models that build interactive game worlds; by October 2026 its site describes a simulation and evaluation layer for robot deployment, so it is outside generative world simulation for people.",
+  "link": "https://moonlakeai.com/",
+  "found_via": "xgen-labs",
+  "status": "off_topic",
+  "batch": "xgen-2026-10"
  }
 ]
