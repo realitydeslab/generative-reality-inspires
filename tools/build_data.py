@@ -415,7 +415,7 @@ def main() -> None:
     for c in out_creators:
         if disciplines.get(c["id"]):
             c["disciplines"] = disciplines[c["id"]]
-    titles_zh = load_titles_zh(TITLE_ZH, {w["id"] for w in kept})
+    titles_zh = load_titles_zh(TITLE_ZH, {w["id"] for w in kept} | set(ov.get("drop_works", [])))  # titles of dropped works stay for restores
     for w in kept:
         if titles_zh.get(w["id"]) and titles_zh[w["id"]] != w["title"]:
             w["title_zh"] = titles_zh[w["id"]]

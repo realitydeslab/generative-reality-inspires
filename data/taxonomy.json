@@ -717,8 +717,8 @@
    "url": "",
    "gap_en": "Single 2D streams only (no stereo or 6DoF), minutes of persistence at best, no programmatic access to Genie, and Google, Runway and World Labs publish no per-minute price (Decart's driving-only Oasis 3 Preview costs $0.02/s). The first live benchmark, StreamEval (2026-10-20, 37 systems), scores the best world generator at 33.4/100 and finds that models rarely carry out text requests made mid-session.",
    "gap_zh": "只有单路二维视频流（没有立体或六自由度），持久性最多几分钟，Genie 没有程序化接口，Google、Runway 和 World Labs 都没有公布按分钟计的价格（Decart 仅限驾驶场景的 Oasis 3 预览版为每秒 0.02 美元）。首个实时基准 StreamEval（2026-10-20，评测 37 个系统）中，最好的世界生成模型只得 33.4/100，模型也很少执行会话中途提出的文字请求。",
-   "next_en": "Google aims to widen Project Genie access 'in time'; Runway's GWM Worlds 2 adds a timestamped event stream (WorldPrompt); Atlas will power future versions of Marble. Roblox promises an early Roblox Reality for late 2026 or early 2027; XGEN's DAO world engine and causal JING are announced but unreleased.",
-   "next_zh": "Google 表示会“逐步”扩大 Project Genie 的开放范围；Runway 的 GWM Worlds 2 加入了带时间戳的事件流（WorldPrompt）；Atlas 将用于未来版本的 Marble。Roblox 承诺在 2026 年底或 2027 年初推出 Roblox Reality 的早期版本；XGEN 的 DAO 世界引擎与因果版 JING 已经公布，但尚未发布。"
+   "next_en": "Genie 4 (2026-10-27) adds native audio, speaking characters and Gemini steering in a research preview, with Project Genie and early Gemini API partners announced next; Runway's GWM Worlds 2 adds a timestamped event stream (WorldPrompt); Atlas will power future versions of Marble. Roblox promises an early Roblox Reality for late 2026 or early 2027; XGEN's DAO world engine and causal JING are announced but unreleased.",
+   "next_zh": "Genie 4（2026-10-27）加入原生音频、会说话的角色与 Gemini 引导，目前为研究预览，官方宣布接下来开放给 Project Genie 与 Gemini API 早期合作方；Runway 的 GWM Worlds 2 加入了带时间戳的事件流（WorldPrompt）；Atlas 将用于未来版本的 Marble。Roblox 承诺在 2026 年底或 2027 年初推出 Roblox Reality 的早期版本；XGEN 的 DAO 世界引擎与因果版 JING 已经公布，但尚未发布。"
   },
   {
    "id": "trend-physical-ai",
@@ -764,8 +764,8 @@
    "type": "trend",
    "en": "Sound and picture generated together",
    "zh": "声音与画面一起生成",
-   "desc_en": "Speech, effects and ambience generated in the same pass as the picture: standard in frontier video since Veo 3 (2025), and in 2026 also in open weights (LTX-2.5) and a real-time world model (GWM Worlds 2).",
-   "desc_zh": "对白、音效与环境声和画面一次生成：自 Veo 3（2025）起已是前沿视频模型的标配，2026 年开源模型（LTX-2.5）和实时世界模型（GWM Worlds 2）也能做到。",
+   "desc_en": "Speech, effects and ambience generated in the same pass as the picture: standard in frontier video since Veo 3 (2025), and in 2026 also in open weights (LTX-2.5) and in real-time world models (GWM Worlds 2; Genie 4, 2026-10-27, which also gives characters live dialogue).",
+   "desc_zh": "对白、音效与环境声和画面一次生成：自 Veo 3（2025）起已是前沿视频模型的标配，2026 年开源模型（LTX-2.5）和实时世界模型也能做到（GWM Worlds 2；2026-10-27 发布的 Genie 4 还能让角色实时对话）。",
    "url": "",
    "gap_en": "Products return one mono or stereo mix: no spatial (ambisonic or object) audio for headsets, and separate stems, to vary one sound while holding the rest constant, exist only in 2026 research models (Soundwich, SepGen).",
    "gap_zh": "产品生成的声音是一条单声道或立体声混音：没有面向头显的空间音频（全景声或对象音频）；能分轨、从而只改变一个声音而保持其余不变的，目前只有 2026 年的研究模型（Soundwich、SepGen）。",
@@ -1032,10 +1032,10 @@
  },
  "watch": [
   {
-   "name": "Genie 3 / Project Genie (+ Street View)",
+   "name": "Genie 3 / Project Genie (+ Street View) · Genie 4",
    "org": "Google DeepMind",
-   "status_en": "Research prototype; 60 s generations; Google AI Ultra ($200/month); no API",
-   "status_zh": "研究原型；每次生成 60 秒；需 Google AI Ultra（每月 200 美元）；无 API",
+   "status_en": "Project Genie: 60 s generations for Google AI Ultra ($200/month), no API. Genie 4 (2026-10-27): research preview for trusted testers; waitlist for Project Genie and early Gemini API partners",
+   "status_zh": "Project Genie：每次生成 60 秒，需 Google AI Ultra（每月 200 美元），无 API。Genie 4（2026-10-27）：面向受信测试者的研究预览；Project Genie 与 Gemini API 早期合作方需加入候补名单",
    "access": [
     "product"
    ],

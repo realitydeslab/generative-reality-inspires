@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26",
+ "generated": "2026-10-28",
  "taxonomy": {
   "fields": [
    {
@@ -719,8 +719,8 @@
     "url": "",
     "gap_en": "Single 2D streams only (no stereo or 6DoF), minutes of persistence at best, no programmatic access to Genie, and Google, Runway and World Labs publish no per-minute price (Decart's driving-only Oasis 3 Preview costs $0.02/s). The first live benchmark, StreamEval (2026-10-20, 37 systems), scores the best world generator at 33.4/100 and finds that models rarely carry out text requests made mid-session.",
     "gap_zh": "只有单路二维视频流（没有立体或六自由度），持久性最多几分钟，Genie 没有程序化接口，Google、Runway 和 World Labs 都没有公布按分钟计的价格（Decart 仅限驾驶场景的 Oasis 3 预览版为每秒 0.02 美元）。首个实时基准 StreamEval（2026-10-20，评测 37 个系统）中，最好的世界生成模型只得 33.4/100，模型也很少执行会话中途提出的文字请求。",
-    "next_en": "Google aims to widen Project Genie access 'in time'; Runway's GWM Worlds 2 adds a timestamped event stream (WorldPrompt); Atlas will power future versions of Marble. Roblox promises an early Roblox Reality for late 2026 or early 2027; XGEN's DAO world engine and causal JING are announced but unreleased.",
-    "next_zh": "Google 表示会“逐步”扩大 Project Genie 的开放范围；Runway 的 GWM Worlds 2 加入了带时间戳的事件流（WorldPrompt）；Atlas 将用于未来版本的 Marble。Roblox 承诺在 2026 年底或 2027 年初推出 Roblox Reality 的早期版本；XGEN 的 DAO 世界引擎与因果版 JING 已经公布，但尚未发布。"
+    "next_en": "Genie 4 (2026-10-27) adds native audio, speaking characters and Gemini steering in a research preview, with Project Genie and early Gemini API partners announced next; Runway's GWM Worlds 2 adds a timestamped event stream (WorldPrompt); Atlas will power future versions of Marble. Roblox promises an early Roblox Reality for late 2026 or early 2027; XGEN's DAO world engine and causal JING are announced but unreleased.",
+    "next_zh": "Genie 4（2026-10-27）加入原生音频、会说话的角色与 Gemini 引导，目前为研究预览，官方宣布接下来开放给 Project Genie 与 Gemini API 早期合作方；Runway 的 GWM Worlds 2 加入了带时间戳的事件流（WorldPrompt）；Atlas 将用于未来版本的 Marble。Roblox 承诺在 2026 年底或 2027 年初推出 Roblox Reality 的早期版本；XGEN 的 DAO 世界引擎与因果版 JING 已经公布，但尚未发布。"
    },
    {
     "id": "trend-physical-ai",
@@ -766,8 +766,8 @@
     "type": "trend",
     "en": "Sound and picture generated together",
     "zh": "声音与画面一起生成",
-    "desc_en": "Speech, effects and ambience generated in the same pass as the picture: standard in frontier video since Veo 3 (2025), and in 2026 also in open weights (LTX-2.5) and a real-time world model (GWM Worlds 2).",
-    "desc_zh": "对白、音效与环境声和画面一次生成：自 Veo 3（2025）起已是前沿视频模型的标配，2026 年开源模型（LTX-2.5）和实时世界模型（GWM Worlds 2）也能做到。",
+    "desc_en": "Speech, effects and ambience generated in the same pass as the picture: standard in frontier video since Veo 3 (2025), and in 2026 also in open weights (LTX-2.5) and in real-time world models (GWM Worlds 2; Genie 4, 2026-10-27, which also gives characters live dialogue).",
+    "desc_zh": "对白、音效与环境声和画面一次生成：自 Veo 3（2025）起已是前沿视频模型的标配，2026 年开源模型（LTX-2.5）和实时世界模型也能做到（GWM Worlds 2；2026-10-27 发布的 Genie 4 还能让角色实时对话）。",
     "url": "",
     "gap_en": "Products return one mono or stereo mix: no spatial (ambisonic or object) audio for headsets, and separate stems, to vary one sound while holding the rest constant, exist only in 2026 research models (Soundwich, SepGen).",
     "gap_zh": "产品生成的声音是一条单声道或立体声混音：没有面向头显的空间音频（全景声或对象音频）；能分轨、从而只改变一个声音而保持其余不变的，目前只有 2026 年的研究模型（Soundwich、SepGen）。",
@@ -1034,10 +1034,10 @@
   },
   "watch": [
    {
-    "name": "Genie 3 / Project Genie (+ Street View)",
+    "name": "Genie 3 / Project Genie (+ Street View) · Genie 4",
     "org": "Google DeepMind",
-    "status_en": "Research prototype; 60 s generations; Google AI Ultra ($200/month); no API",
-    "status_zh": "研究原型；每次生成 60 秒；需 Google AI Ultra（每月 200 美元）；无 API",
+    "status_en": "Project Genie: 60 s generations for Google AI Ultra ($200/month), no API. Genie 4 (2026-10-27): research preview for trusted testers; waitlist for Project Genie and early Gemini API partners",
+    "status_zh": "Project Genie：每次生成 60 秒，需 Google AI Ultra（每月 200 美元），无 API。Genie 4（2026-10-27）：面向受信测试者的研究预览；Project Genie 与 Gemini API 早期合作方需加入候补名单",
     "access": [
      "product"
     ],
@@ -1827,26 +1827,6 @@
    "work_count": 1
   },
   {
-   "id": "wemade-next",
-   "links": {},
-   "connected_to": [
-    "nvidia"
-   ],
-   "name": "Wemade Next",
-   "kind": "company",
-   "role": "Game developer (Wemade subsidiary)",
-   "role_zh": "游戏开发商（Wemade 子公司）",
-   "bio": "Korean developer of the Legend of Mir MMORPG series, including MIR4 and MIR5, and a subsidiary of Wemade.",
-   "bio_zh": "韩国游戏开发商，Wemade 旗下子公司，开发《传奇》（Legend of Mir）系列 MMORPG，包括 MIR4 与 MIR5。",
-   "why": "Announced the first LLM-driven boss built with NVIDIA ACE, moving AI characters from companions to adversaries.",
-   "why_zh": "宣布了首个基于 NVIDIA ACE、由大语言模型驱动的首领角色，把 AI 角色从同伴扩展到对手。",
-   "disciplines": [
-    "games"
-   ],
-   "discovered_via": "nvidia",
-   "work_count": 1
-  },
-  {
    "id": "linxi-fan",
    "links": {
     "site": "https://jimfan.me/"
@@ -2073,7 +2053,7 @@
    "based": "London, UK",
    "based_zh": "英国伦敦",
    "name_zh": "谷歌 DeepMind",
-   "work_count": 41
+   "work_count": 42
   },
   {
    "id": "tsinghua-fib-lab",
@@ -2172,7 +2152,7 @@
    "name_zh": "英伟达",
    "based": "Santa Clara, CA, US",
    "based_zh": "美国加州圣克拉拉",
-   "work_count": 47
+   "work_count": 43
   },
   {
    "id": "guanzhi-wang",
@@ -2310,7 +2290,7 @@
     "speech"
    ],
    "discovered_via": "seed",
-   "work_count": 4
+   "work_count": 2
   },
   {
    "id": "ubisoft",
@@ -2333,7 +2313,7 @@
    "name_zh": "育碧",
    "based": "Saint-Mandé, France",
    "based_zh": "法国圣芒代",
-   "work_count": 2
+   "work_count": 1
   },
   {
    "id": "krafton",
@@ -2475,31 +2455,6 @@
    "why_zh": "AniGen 同时生成网格、骨骼和蒙皮权重，生成的物体可以直接拿去做动画。",
    "based_zh": "中国香港",
    "discovered_via": "tripo-ai",
-   "work_count": 1
-  },
-  {
-   "id": "hao-zhang",
-   "links": {
-    "site": "https://haoz19.github.io/"
-   },
-   "connected_to": [
-    "snap"
-   ],
-   "name": "Hao Zhang",
-   "kind": "person",
-   "role": "PhD researcher, UIUC; research intern at Snap",
-   "based": "Urbana-Champaign, US",
-   "bio": "University of Illinois Urbana-Champaign researcher and first author of RigMo, developed with Snap Research.",
-   "why": "RigMo learns rigs and motion together from raw deforming meshes, without hand-made skeletons.",
-   "disciplines": [
-    "graphics",
-    "ml"
-   ],
-   "role_zh": "伊利诺伊大学厄巴纳-香槟分校博士研究者，Snap 研究实习生",
-   "bio_zh": "伊利诺伊大学厄巴纳-香槟分校研究者，与 Snap Research 合作完成的 RigMo 第一作者。",
-   "why_zh": "RigMo 直接从原始的形变网格序列中同时学习绑定和动作，不需要人工制作的骨骼。",
-   "based_zh": "美国厄巴纳-香槟",
-   "discovered_via": "snap",
    "work_count": 1
   },
   {
@@ -2890,29 +2845,6 @@
    "work_count": 1
   },
   {
-   "id": "manwen-liao",
-   "links": {},
-   "connected_to": [
-    "shanghai-ai-lab"
-   ],
-   "name": "Manwen Liao",
-   "kind": "person",
-   "role": "PhD researcher, The University of Hong Kong",
-   "based": "Hong Kong, China",
-   "bio": "First author of MegaParts (2026), developed during an internship at Shanghai AI Laboratory with the team behind MeshCoder.",
-   "why": "MegaParts scales part-aware 3D generation to objects of up to 300 separate parts.",
-   "disciplines": [
-    "graphics",
-    "ml"
-   ],
-   "role_zh": "香港大学博士研究者",
-   "bio_zh": "MegaParts（2026）第一作者，该工作在上海人工智能实验室实习期间与 MeshCoder 团队合作完成。",
-   "why_zh": "MegaParts 把部件级三维生成扩展到最多由 300 个独立部件组成的物体。",
-   "based_zh": "中国香港",
-   "discovered_via": "shanghai-ai-lab",
-   "work_count": 1
-  },
-  {
    "id": "guying-lin",
    "links": {},
    "connected_to": [],
@@ -3034,7 +2966,7 @@
    "why_zh": "让玩家在游戏进行中就能生成三维内容，平台日活用户以千万计。",
    "based_zh": "美国圣马特奥",
    "discovered_via": "seed",
-   "work_count": 7
+   "work_count": 6
   },
   {
    "id": "luma-ai",
@@ -3880,7 +3812,7 @@
    "why_zh": "Realtime-Venus 是一类开源对话模型的代表：边说边听，并把任务交给后台执行。",
    "based_zh": "中国杭州",
    "discovered_via": "seed",
-   "work_count": 5
+   "work_count": 4
   },
   {
    "id": "cheng-kuang-chang",
@@ -4764,31 +4696,6 @@
    "bio_zh": "Soul Machines 由 Mark Sagar 与 Greg Cross 于 2016 年创立，源自奥克兰大学的 Laboratory for Animate Technologies（BabyX 研究的所在地）；公司出售由模拟“数字大脑”驱动面部动画的 Digital People。AppDirect 于 2026-09-28 宣布收购该公司。",
    "why_zh": "它是持续最久的一种尝试：用对神经系统过程的建模而非视频生成来驱动对话中的面孔；它在 2026 年被收购，也说明虚拟人公司正被平台公司吸收。",
    "discovered_via": "seed",
-   "work_count": 1
-  },
-  {
-   "id": "cheng-chen-ntu",
-   "links": {
-    "site": "https://steller-cheng.github.io/DiVA/"
-   },
-   "connected_to": [
-    "ant-group"
-   ],
-   "name": "Cheng Chen",
-   "kind": "person",
-   "role": "Researcher, Nanyang Technological University and A*STAR",
-   "based": "Singapore",
-   "bio": "Cheng Chen is first author of DiVA (2026), an interactive digital-life simulator built with Ant Group researchers including Hao Ouyang and Yujun Shen; the paper lists NTU, A*STAR's Institute for Infocomm Research and Ant Group as affiliations.",
-   "why": "DiVA treats a video character as a long-running loop of waiting, acting and returning to stable states rather than as one long clip.",
-   "disciplines": [
-    "ml",
-    "graphics"
-   ],
-   "role_zh": "南洋理工大学与新加坡科技研究局（A*STAR）研究者",
-   "based_zh": "新加坡",
-   "bio_zh": "Cheng Chen 是 DiVA（2026）的第一作者。DiVA 是一个可交互的“数字生命”模拟系统，与蚂蚁集团的 Hao Ouyang、Yujun Shen 等研究者合作完成；论文署名单位为南洋理工大学、A*STAR 信息通信研究院和蚂蚁集团。",
-   "why_zh": "DiVA 把视频角色看作“等待—行动—回到稳定状态”的长期循环，而不是一段越来越长的视频。",
-   "discovered_via": "ant-group",
    "work_count": 1
   },
   {
@@ -7087,26 +6994,6 @@
    "work_count": 1
   },
   {
-   "id": "konstantin-kuhlem",
-   "links": {},
-   "connected_to": [],
-   "name": "Konstantin W. Kühlem",
-   "kind": "person",
-   "role": "Researcher, Visual Computing Institute, RWTH Aachen University",
-   "bio": "First author of a latency-optimized LLM dialogue system for embodied conversational agents in VR (IVA 2025).",
-   "why": "Latency is the first thing that breaks plausibility with LLM characters.",
-   "disciplines": [
-    "hci"
-   ],
-   "role_zh": "亚琛工业大学视觉计算研究所研究员",
-   "bio_zh": "VR 中具身对话智能体低延迟大语言模型对话系统（IVA 2025）的第一作者。",
-   "why_zh": "延迟是大语言模型角色最先破坏似真性的地方。",
-   "discovered_via": "seed",
-   "based": "Aachen, Germany",
-   "based_zh": "德国亚琛",
-   "work_count": 1
-  },
-  {
    "id": "ramon-oliva",
    "links": {},
    "connected_to": [
@@ -8277,26 +8164,6 @@
    "work_count": 1
   },
   {
-   "id": "junlong-chen",
-   "links": {},
-   "connected_to": [],
-   "name": "Junlong Chen",
-   "kind": "person",
-   "role": "PhD researcher, Department of Engineering, University of Cambridge",
-   "based": "Cambridge, UK",
-   "bio": "Works with Per Ola Kristensson on LLM-assisted editing of immersive scenes.",
-   "why": "Quantified how often LLM scene editors misreport their own edits and how rarely users notice.",
-   "disciplines": [
-    "hci"
-   ],
-   "role_zh": "剑桥大学工程系博士研究者",
-   "bio_zh": "与 Per Ola Kristensson 合作研究大语言模型辅助的沉浸式场景编辑。",
-   "why_zh": "量化了大语言模型场景编辑器错误报告自身操作的频率，以及用户察觉的程度有多低。",
-   "based_zh": "英国剑桥",
-   "discovered_via": "seed",
-   "work_count": 1
-  },
-  {
    "id": "duotun-wang",
    "links": {},
    "connected_to": [],
@@ -8442,7 +8309,7 @@
    "why_zh": "其实验室持续产出生成式混合现实系统，包括 CinemaWorld、Editing Reality 与 Video2MR。",
    "based_zh": "美国科罗拉多州博尔德",
    "discovered_via": "seed",
-   "work_count": 4
+   "work_count": 3
   },
   {
    "id": "suibi-che-chuan-weng",
@@ -8486,7 +8353,7 @@
    "why_zh": "CinemaWorld 与 Video2MR 的第一作者：从二维视频中提取并生成三维内容，放进观者所在的房间。",
    "based_zh": "美国博尔德／日本筑波",
    "discovered_via": "ryo-suzuki",
-   "work_count": 3
+   "work_count": 2
   },
   {
    "id": "amina-kobenova",
@@ -8881,7 +8748,7 @@
    "why_zh": "Spanhove 的演示较早公开记录了世界模型、实时视频模型与高斯泼溅流程在头显与眼镜中运行的样子。",
    "based_zh": "比利时根特",
    "discovered_via": "seed",
-   "work_count": 3
+   "work_count": 2
   },
   {
    "id": "bangbang-yang",
@@ -9049,7 +8916,7 @@
    "why_zh": "把生成模型搬进 AR 镜头与眼镜：端侧实时图像生成，以及在镜头内生成三维物体的 Snap3D API。",
    "based_zh": "美国加州圣莫尼卡",
    "discovered_via": "seed",
-   "work_count": 10
+   "work_count": 9
   },
   {
    "id": "naisha-agarwal",
@@ -10222,7 +10089,7 @@
    "based": "Shanghai, CN",
    "based_zh": "中国上海",
    "discovered_via": "seed",
-   "work_count": 6
+   "work_count": 5
   },
   {
    "id": "ruijie-zhu",
@@ -15444,6 +15311,79 @@
    "title_zh": "当生成式人工智能遇上扩展现实：一项系统综述",
    "disciplines": [
     "hci"
+   ]
+  },
+  {
+   "id": "google-deepmind--genie-4",
+   "creator_ids": [
+    "google-deepmind"
+   ],
+   "title": "Genie 4",
+   "year": 2026,
+   "date": "2026-10-27",
+   "field": "world-models",
+   "sub": "general",
+   "also": [
+    "agents"
+   ],
+   "modalities": [
+    "frame-stream",
+    "audio",
+    "dialogue"
+   ],
+   "inputs": [
+    "action",
+    "text",
+    "image"
+   ],
+   "timing": "real-time",
+   "access": [
+    "preview"
+   ],
+   "lenses": [
+    "perceptual-realism",
+    "behavioral-plausibility",
+    "responsiveness"
+   ],
+   "kind": "model",
+   "description": "Google DeepMind's fourth Genie world model (announced 2026-10-27) generates a photoreal world in real time that a person explores with keyboard and camera controls and changes mid-session with text, such as new weather or a new person, while the same model generates the ambient sound, music and characters' speech; people in the scene move, react and talk back. As of October 2026 it is a research preview for trusted testers, with Project Genie (Google AI Ultra) and early-access Gemini API and AI Studio partners announced next, behind a waitlist.",
+   "description_zh": "Google DeepMind 的第四代 Genie 世界模型（2026-10-27 发布）可实时生成照片级逼真的世界：人用键盘和镜头控制在其中探索，并能在体验中途用文字改变世界，比如换天气或加入一个人；同一个模型还会生成环境声、音乐和角色的对白，场景里的人会移动、作出反应并开口回应。截至 2026 年 10 月，它是面向受信测试者的研究预览，官方宣布接下来将开放给 Project Genie（Google AI Ultra 订阅）以及 Gemini API 和 AI Studio 的早期合作方，需先加入候补名单。",
+   "idea_en": "Puts moving, speaking people and their sound inside a world you can steer live, and hands the plot to a language model that watches the frames; DeepMind still reports that details and object permanence drift over longer sessions.",
+   "idea_zh": "把会动、会说话的人和他们的声音放进一个可以实时操控的世界，并把剧情交给一个盯着画面的语言模型；但 DeepMind 也承认，体验时间一长，细节和物体恒常性仍会漂移。",
+   "method": "Built on the Gemini family: Gemini Omni anchors appearance and behaviour, and Gemini 3.8 Flash runs in the loop, rewriting the user's text prompts to fit the scene, breaking goals into steps, checking incoming frames for each step and steering the world between inputs; DeepMind calls this an early step towards hybrid world models and publishes no architecture, resolution or frame rate.",
+   "method_zh": "建立在 Gemini 系列之上：Gemini Omni 让外观与行为贴近真实世界，Gemini 3.8 Flash 则在回路中运行，把用户的文字提示改写成适合当前场景的指令，把目标拆成步骤，检查新生成的画面是否完成了每一步，并在两次输入之间引导世界演进；DeepMind 称这是迈向“混合世界模型”的早期一步，未公布架构、分辨率或帧率。",
+   "specs": "real-time · native audio (ambience, music, dialogue) · text steering mid-session · Gemini 3.8 Flash in the loop · SynthID on video and audio · resolution, fps and session length not published",
+   "keywords": [
+    "world model",
+    "real-time",
+    "native audio",
+    "interactive dialogue",
+    "text steering",
+    "Gemini",
+    "SynthID",
+    "robotics simulation"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=sFfPkUJd_Jk",
+    "platform": "youtube",
+    "id": "sFfPkUJd_Jk",
+    "thumbnail": "https://i.ytimg.com/vi/sFfPkUJd_Jk/maxresdefault.jpg",
+    "embeddable": true
+   },
+   "images": [
+    "https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w1200-h630-n-nu-rw"
+   ],
+   "source_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "collections": [
+    "trend-world-simulators",
+    "trend-native-audio",
+    "trend-realtime",
+    "trend-physical-ai",
+    "trend-provenance"
+   ],
+   "paper": {},
+   "disciplines": [
+    "ml"
    ]
   },
   {
@@ -20798,78 +20738,6 @@
    ]
   },
   {
-   "id": "cheng-chen-ntu--diva",
-   "creator_ids": [
-    "cheng-chen-ntu",
-    "ant-group"
-   ],
-   "title": "DiVA",
-   "year": 2026,
-   "date": "2026-09-12",
-   "field": "avatars",
-   "sub": "conversational",
-   "also": [
-    "world-models"
-   ],
-   "modalities": [
-    "avatar",
-    "flat-video",
-    "speech"
-   ],
-   "inputs": [
-    "text",
-    "speech",
-    "image"
-   ],
-   "timing": "turn-based",
-   "access": [
-    "research"
-   ],
-   "lenses": [
-    "persistence",
-    "behavioral-plausibility"
-   ],
-   "kind": "research",
-   "description": "DiVA (NTU, A*STAR and Ant Group, 2026-09-12) is a 'digital life simulator': a video character, a person or an animal created from one reference image, idles while it waits, answers each turn with speech, gestures and actions such as standing up, and then returns to a stable pose, so an interaction can run for many turns without the picture degrading.",
-   "description_zh": "DiVA（南洋理工大学、A*STAR 与蚂蚁集团，2026-09-12）是一个“数字生命模拟器”：由一张参考图生成的视频角色（人或动物）在等待时保持细微的待机动作，每一轮用语音、手势以及站起来之类的动作回应，然后回到稳定的姿态，因此互动可以持续很多轮而画面不退化。",
-   "idea_en": "Treats a generated character as a loop of waiting, acting and returning to anchor states rather than as one ever-longer clip, a practical pattern for long sessions with a video-generated person.",
-   "idea_zh": "把生成的角色看作“等待—行动—回到锚定状态”的循环，而不是一段越拉越长的视频，这是与视频生成人物进行长时间互动的一种实用模式。",
-   "method": "A multimodal LLM (GPT-5 or Qwen, steered by in-context examples) routes each turn and writes the reply, CosyVoice speaks it, and a stacked pipeline generates waiting video, audio-driven action video, and transitions back to anchor states (pre-generated from the reference image by image editing) with an Anchored Video Continuation module fine-tuned with LoRA on Wan 2.1 14B FLF.",
-   "method_zh": "一个多模态大语言模型（GPT-5 或 Qwen，通过上下文示例引导）负责每一轮的路由并写出回复，由 CosyVoice 合成语音；一条分层的视频管线依次生成待机视频、音频驱动的动作视频，以及回到锚定状态的过渡，锚定状态事先由参考图经图像编辑生成，过渡由基于 Wan 2.1 14B FLF、用 LoRA 微调的 Anchored Video Continuation 模块完成。",
-   "specs": "4 sampling steps × about 4 s per step on one H800 (high-quality setting) · user study: 30 raters, 60 transitions",
-   "keywords": [
-    "digital life simulation",
-    "interactive video character",
-    "MLLM router",
-    "video continuation",
-    "Wan 2.1",
-    "Ant Group"
-   ],
-   "video": {
-    "url": "https://steller-cheng.github.io/DiVA/assets/videos/hero_human.mp4",
-    "platform": "mp4",
-    "id": "https://steller-cheng.github.io/DiVA/assets/videos/hero_human.mp4",
-    "thumbnail": "",
-    "embeddable": true
-   },
-   "images": [
-    "https://steller-cheng.github.io/DiVA/assets/images/interaction_human.jpg"
-   ],
-   "paper": {
-    "url": "https://arxiv.org/abs/2609.13830",
-    "arxiv": "2609.13830",
-    "venue": "arXiv preprint",
-    "title": "DiVA: Enabling Interactive Digital Life Simulation via Video Models"
-   },
-   "source_url": "https://steller-cheng.github.io/DiVA/",
-   "title_zh": "DiVA：基于视频模型的可交互数字生命模拟",
-   "disciplines": [
-    "graphics",
-    "ml",
-    "speech"
-   ]
-  },
-  {
    "id": "ant-group--realtime-venus",
    "creator_ids": [
     "ant-group"
@@ -23326,68 +23194,6 @@
    ]
   },
   {
-   "id": "roblox--multicube",
-   "creator_ids": [
-    "roblox"
-   ],
-   "title": "MultiCube",
-   "year": 2026,
-   "date": "2026-08-20",
-   "field": "assets",
-   "sub": "objects",
-   "modalities": [
-    "mesh"
-   ],
-   "inputs": [
-    "text",
-    "spec"
-   ],
-   "timing": "offline",
-   "access": [
-    "research"
-   ],
-   "lenses": [
-    "control",
-    "authoring"
-   ],
-   "kind": "research",
-   "description": "Research model from Roblox, Carnegie Mellon and Stanford that generates a 3D object as separate part meshes from a text prompt, a list of named parts and a bounding box for each part, so the same layout can be filled with different parts or the same parts rearranged. Published as a preprint with a project page; no code was linked as of October 2026.",
-   "description_zh": "Roblox 与卡内基梅隆大学、斯坦福大学合作的研究模型：输入一句文字提示、一份带名称的部件清单以及每个部件的包围盒，就能生成由独立部件网格组成的三维物体；同一布局可以换上不同部件，同一组部件也可以重新摆放。以预印本和项目主页形式发布，截至 2026 年 10 月未公开代码。",
-   "idea_en": "Props are specified the way a level designer thinks, which parts and where, rather than by hoping a prompt yields the right structure.",
-   "idea_zh": "像关卡设计师那样指定道具——要哪些部件、各放在哪里——而不是寄希望于一句提示词恰好生成正确的结构。",
-   "method": "Two-stage diffusion: a mesh aligned with the part schema and layout is generated first, then decomposed into all part meshes at once; a Part Layout Adapter encodes each part's label and box independently of the others.",
-   "method_zh": "两阶段扩散：先生成与部件清单和布局一致的整体网格，再一次性拆分为各个部件网格；Part Layout Adapter 独立编码每个部件的名称与包围盒。",
-   "keywords": [
-    "part-level generation",
-    "compositional 3D",
-    "layout control",
-    "Roblox Cube"
-   ],
-   "video": {
-    "url": "https://multi-cube.github.io/assets/demo.mp4",
-    "platform": "mp4",
-    "id": "https://multi-cube.github.io/assets/demo.mp4",
-    "thumbnail": "",
-    "embeddable": true
-   },
-   "images": [
-    "https://multi-cube.github.io/assets/method.jpg"
-   ],
-   "paper": {
-    "url": "https://arxiv.org/abs/2608.20448",
-    "arxiv": "2608.20448",
-    "venue": "arXiv 2026",
-    "title": "MultiCube: Compositional 3D Generation With Part-Level Semantic and Spatial Control"
-   },
-   "source_url": "https://multi-cube.github.io/",
-   "also": [],
-   "title_zh": "MultiCube 部件级可控的组合式三维生成",
-   "disciplines": [
-    "games",
-    "graphics"
-   ]
-  },
-  {
    "id": "math-magic--hi3d-3",
    "creator_ids": [
     "math-magic"
@@ -24039,70 +23845,6 @@
    "paper": {},
    "also": [],
    "disciplines": [
-    "ml"
-   ]
-  },
-  {
-   "id": "manwen-liao--megaparts",
-   "creator_ids": [
-    "manwen-liao",
-    "shanghai-ai-lab"
-   ],
-   "title": "MegaParts",
-   "year": 2026,
-   "date": "2026-08-11",
-   "field": "assets",
-   "sub": "objects",
-   "modalities": [
-    "mesh"
-   ],
-   "inputs": [
-    "text",
-    "spec"
-   ],
-   "timing": "offline",
-   "access": [
-    "research"
-   ],
-   "lenses": [
-    "control",
-    "authoring"
-   ],
-   "kind": "research",
-   "description": "Research model from Shanghai AI Laboratory, The University of Hong Kong and partner universities that generates a 3D object from a text prompt as an assembly of up to 300 separate part meshes; an object bounding box and per-part boxes can be given as spatial instructions. It is the base model of MeshCoder 1.5 and was published as a technical report with a project page in August 2026; code was announced but not released as of October 2026.",
-   "description_zh": "上海人工智能实验室、香港大学与多所合作高校推出的研究模型：根据一句文字提示生成由最多 300 个独立部件网格组装而成的三维物体，还可以用整体包围盒和每个部件的包围盒作为空间指令。它是 MeshCoder 1.5 的基础模型，2026 年 8 月以技术报告和项目主页形式发布；截至 2026 年 10 月，代码已宣布但尚未公开。",
-   "idea_en": "Complex props such as a camera, a dish rack or a building come out as hundreds of editable, articulable pieces rather than one fused shell.",
-   "idea_zh": "相机、碗碟架或一栋建筑这样的复杂道具，生成出来就是数百个可编辑、可做关节的部件，而不是一整块熔合的外壳。",
-   "method": "A causal vector-quantized tokenizer gives each part an adaptive number of shape tokens (16 to 4,096 by geometric complexity), and a long-context language model generates the object box, the part boxes and the part shape tokens as one sequence of up to 256K tokens.",
-   "method_zh": "因果向量量化分词器按几何复杂度给每个部件分配 16 到 4096 个不等的形状 token，再由长上下文语言模型把物体包围盒、部件包围盒和部件形状 token 作为一条最长 256K token 的序列依次生成。",
-   "specs": "up to 300 parts · 256K-token sequence",
-   "keywords": [
-    "part-aware generation",
-    "autoregressive 3D",
-    "shape tokenizer",
-    "MeshCoder"
-   ],
-   "video": {
-    "url": "https://expmaster.github.io/megaparts_webpage/assets/megaparts-promo-intro-1440p.mp4",
-    "platform": "mp4",
-    "id": "https://expmaster.github.io/megaparts_webpage/assets/megaparts-promo-intro-1440p.mp4",
-    "thumbnail": "",
-    "embeddable": true
-   },
-   "images": [
-    "https://expmaster.github.io/megaparts_webpage/assets/web/hero-1280.webp"
-   ],
-   "paper": {
-    "url": "https://arxiv.org/abs/2608.14783",
-    "arxiv": "2608.14783",
-    "venue": "arXiv 2026",
-    "title": "MegaParts: Scaling Part-Aware 3D Object Generation to 300 Parts via Token-Efficient Autoregressive Modeling"
-   },
-   "source_url": "https://expmaster.github.io/megaparts_webpage/",
-   "also": [],
-   "title_zh": "MegaParts 扩展到 300 个部件的部件级三维生成",
-   "disciplines": [
-    "graphics",
     "ml"
    ]
   },
@@ -25575,65 +25317,6 @@
    "title_zh": "STEER：可调控的双人对话头部化身",
    "disciplines": [
     "graphics"
-   ]
-  },
-  {
-   "id": "junlong-chen--confabulation-taxonomy",
-   "creator_ids": [
-    "junlong-chen"
-   ],
-   "title": "Confabulations in LLM-Assisted Immersive Scene Editing",
-   "year": 2026,
-   "date": "2026-07-25",
-   "field": "genxr",
-   "sub": "in-situ",
-   "modalities": [
-    "scene-3d"
-   ],
-   "inputs": [
-    "speech"
-   ],
-   "timing": "turn-based",
-   "access": [
-    "research"
-   ],
-   "lenses": [
-    "control",
-    "authoring"
-   ],
-   "kind": "study",
-   "description": "24 non-expert users edited three VR scenes (an office, a loft and a city) by speaking to a GPT-5.2-based assistant; the authors coded every turn for confabulations, where the system misstated what it had done or what the scene contained, and compared them with what users noticed.",
-   "description_zh": "24 名非专业用户通过与基于 GPT-5.2 的助手对话来编辑三个 VR 场景（办公室、阁楼和城市）；作者逐轮标注“虚构”现象，即系统错误陈述自己做了什么或场景里有什么，并与用户察觉到的情况对比。",
-   "idea_en": "In the busier scenes users noticed only about a third of the editor's confabulations, and their estimates stopped tracking reality as errors piled up, so generated scenes need machine-checked edit logs rather than user trust.",
-   "idea_zh": "在较复杂的场景中，用户只察觉到大约三分之一的虚构，而且错误越多，用户的估计越脱离实际；因此生成场景需要可由机器核验的编辑日志，而不能依赖用户的信任。",
-   "method": "Speech is transcribed, a rule-based classifier routes intent and GPT-5.2 executes edits on selected objects (Oculus Quest 2). Exploratory study, N = 24: 437 of 1,612 interaction turns (27.1%) contained a confabulation; a nine-category taxonomy led by spatial placement errors (299 occurrences); a 'perception-reality gap', with median perceived vs actual counts of 2 vs 6 (office) and 4 vs 10.5 (city).",
-   "method_zh": "语音先转为文字，由规则分类器判别意图，再由 GPT-5.2 对选中的物体执行编辑（Oculus Quest 2）。探索性研究，N = 24：1,612 个交互轮次中有 437 个（27.1%）出现虚构；得出九类分类，空间放置错误最多（299 次）；并提出“感知与现实差距”：感知与实际次数的中位数分别为 2 对 6（办公室）和 4 对 10.5（城市）。",
-   "specs": "N = 24 · 1,612 turns · 27.1% confabulated",
-   "keywords": [
-    "confabulation",
-    "hallucination",
-    "LLM scene editing",
-    "perception-reality gap",
-    "taxonomy",
-    "preprint under review"
-   ],
-   "images": [
-    "https://arxiv.org/html/2607.23213v1/figures/city-teaser.png",
-    "https://arxiv.org/html/2607.23213v1/system-workflow.png"
-   ],
-   "paper": {
-    "url": "https://arxiv.org/abs/2607.23213",
-    "doi": "",
-    "arxiv": "2607.23213",
-    "venue": "arXiv preprint (under review), 2026",
-    "title": "A Taxonomy of Confabulations and the Perception-Reality Gap in LLM-Assisted Immersive Scene Editing"
-   },
-   "source_url": "https://arxiv.org/abs/2607.23213",
-   "video": {},
-   "also": [],
-   "title_zh": "大语言模型辅助沉浸式场景编辑中的虚构现象与感知—现实差距",
-   "disciplines": [
-    "hci"
    ]
   },
   {
@@ -39286,71 +38969,6 @@
    ]
   },
   {
-   "id": "hao-zhang--rigmo",
-   "creator_ids": [
-    "hao-zhang",
-    "snap"
-   ],
-   "title": "RigMo",
-   "year": 2026,
-   "date": "2026-01-10",
-   "field": "assets",
-   "sub": "characters",
-   "modalities": [
-    "mesh",
-    "motion"
-   ],
-   "inputs": [
-    "spec"
-   ],
-   "timing": "offline",
-   "access": [
-    "research"
-   ],
-   "lenses": [
-    "authoring",
-    "behavioral-plausibility"
-   ],
-   "kind": "research",
-   "description": "Snap Research model that learns a rig and its motion together from raw deforming mesh sequences, with no skeleton annotations, and turns arbitrary moving meshes into animatable assets with explicit bones, skinning weights and motion; code and data were announced as coming soon.",
-   "description_zh": "Snap Research 的模型，直接从原始的形变网格序列中同时学习绑定和动作，不需要骨骼标注，把任意运动中的网格变成带显式骨骼、蒙皮权重和动作的可动画资产；代码与数据已宣布即将公开。",
-   "idea_en": "Treats rig and motion as one learning problem, a route to animating creatures and objects that have no standard skeleton.",
-   "idea_zh": "把绑定和动作当作同一个学习问题，为没有标准骨骼的生物和物体做动画提供了一条路。",
-   "method": "Per-vertex deformations are encoded into a rig latent that decodes to Gaussian bones and skinning weights and a motion latent that yields time-varying SE(3) transforms; a Motion-DiT then generates motion in this latent space.",
-   "method_zh": "把逐顶点形变编码为两个潜变量：绑定潜变量解码为高斯骨骼和蒙皮权重，动作潜变量输出随时间变化的 SE(3) 变换；再用 Motion-DiT 在该潜空间中生成动作。",
-   "keywords": [
-    "rigging",
-    "motion generation",
-    "Gaussian bones",
-    "Snap Research",
-    "feed-forward"
-   ],
-   "video": {
-    "url": "https://www.youtube.com/watch?v=0H0lsM3USVM",
-    "platform": "youtube",
-    "id": "0H0lsM3USVM",
-    "thumbnail": "https://i.ytimg.com/vi/0H0lsM3USVM/maxresdefault.jpg",
-    "embeddable": true
-   },
-   "images": [
-    "https://rigmo-page.github.io/pdf2png/teaser/teaser-1.png"
-   ],
-   "paper": {
-    "url": "https://arxiv.org/abs/2601.06378",
-    "arxiv": "2601.06378",
-    "venue": "arXiv 2026",
-    "title": "RigMo: Unifying Rig and Motion Learning for Generative Animation"
-   },
-   "source_url": "https://rigmo-page.github.io/",
-   "also": [],
-   "title_zh": "RigMo：绑定与动作的统一学习",
-   "disciplines": [
-    "graphics",
-    "hci",
-    "ml"
-   ]
-  },
-  {
    "id": "sixiao-zheng--versecrafter",
    "creator_ids": [
     "sixiao-zheng",
@@ -39542,65 +39160,6 @@
    "title_zh": "AI 增强的 VR 模拟提升护生共情：自动评分与评分者一致性的随机对照研究",
    "disciplines": [
     "medicine"
-   ]
-  },
-  {
-   "id": "nvidia--total-war-pharaoh-advisor",
-   "creator_ids": [
-    "nvidia"
-   ],
-   "title": "Total War: PHARAOH AI advisor (NVIDIA ACE demo)",
-   "year": 2026,
-   "date": "2026-01-05",
-   "field": "agents",
-   "sub": "npc",
-   "modalities": [
-    "speech",
-    "dialogue"
-   ],
-   "inputs": [
-    "speech",
-    "text"
-   ],
-   "timing": "turn-based",
-   "access": [
-    "research"
-   ],
-   "lenses": [
-    "adaptation",
-    "responsiveness"
-   ],
-   "kind": "research",
-   "description": "A CES 2026 tech demo that adds a talking advisor to Creative Assembly's strategy game Total War: PHARAOH: players ask about the game's systems and their current campaign, and the advisor answers in voice.",
-   "description_zh": "CES 2026 上的技术演示：为 Creative Assembly 的策略游戏《全面战争：法老》加入一位会说话的顾问；玩家询问游戏系统和当前战局，顾问用语音回答。",
-   "idea_en": "An NPC whose job is to coach the player inside the game, a pattern that maps directly onto tutors in training simulations.",
-   "idea_zh": "一个在游戏内辅导玩家的 NPC，这一模式可以直接迁移到训练模拟中的导师角色。",
-   "method": "NVIDIA ACE runs speech recognition, a small language model grounded in game data and current game state, and speech synthesis on the local RTX GPU.",
-   "method_zh": "英伟达 ACE 在本地 RTX GPU 上运行语音识别、基于游戏数据与当前游戏状态的小语言模型，以及语音合成。",
-   "keywords": [
-    "NVIDIA ACE",
-    "CES 2026",
-    "AI advisor",
-    "strategy game",
-    "on-device"
-   ],
-   "video": {
-    "url": "https://www.youtube.com/watch?v=6es-Zvh5bu4",
-    "platform": "youtube",
-    "id": "6es-Zvh5bu4",
-    "thumbnail": "https://i.ytimg.com/vi/6es-Zvh5bu4/maxresdefault.jpg",
-    "embeddable": true
-   },
-   "images": [
-    "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/news/ces-2026-nvidia-geforce-rtx-announcements/ces-2026-nvidia-geforce-rtx-announcements-ogimage.jpg"
-   ],
-   "source_url": "https://www.nvidia.com/en-us/geforce/news/ces-2026-nvidia-geforce-rtx-announcements/",
-   "paper": {},
-   "also": [],
-   "title_zh": "《全面战争：法老》AI 顾问（NVIDIA ACE 演示）",
-   "disciplines": [
-    "games",
-    "ml"
    ]
   },
   {
@@ -40310,63 +39869,6 @@
    "also": [],
    "disciplines": [
     "ml"
-   ]
-  },
-  {
-   "id": "stijn-spanhove--ai-generated-movie-scene",
-   "creator_ids": [
-    "stijn-spanhove"
-   ],
-   "title": "Step inside an AI-generated movie scene",
-   "year": 2025,
-   "date": "2025-12-29",
-   "field": "genxr",
-   "sub": "narrative",
-   "modalities": [
-    "splats",
-    "motion"
-   ],
-   "inputs": [
-    "video",
-    "image"
-   ],
-   "timing": "offline",
-   "access": [
-    "research"
-   ],
-   "lenses": [
-    "perceptual-realism",
-    "authoring"
-   ],
-   "kind": "research",
-   "description": "A browser WebXR proof of concept, recorded on Apple Vision Pro, lets the viewer enter the Dojo from The Matrix, teleport around generated characters in motion and ask questions to an AI agent inside the scene.",
-   "description_zh": "一个浏览器 WebXR 概念验证（在 Apple Vision Pro 上录制）让观者走进《黑客帝国》的道场，在运动中的生成角色之间瞬移，还能向场景里的 AI 智能体提问。",
-   "idea_en": "Assembles a walkable film scene entirely from off-the-shelf generators, hinting at films that become explorable situations.",
-   "idea_zh": "完全用现成的生成工具拼出可走进的电影场景，预示电影可以变成可探索的情境。",
-   "method": "Environment generated as a Gaussian splat from source footage with World Labs, characters converted from images to rigged 3D models with Tripo, motion from AI motion capture, and an embedded AI agent answering questions.",
-   "method_zh": "环境由 World Labs 从原片素材生成高斯泼溅，角色用 Tripo 从图像转换为绑骨三维模型，动作来自 AI 动作捕捉，场景里嵌入一个回答问题的 AI 智能体。",
-   "keywords": [
-    "WebXR",
-    "World Labs",
-    "Tripo",
-    "Vision Pro",
-    "proof of concept"
-   ],
-   "video": {
-    "url": "https://x.com/stspanho/status/2005626245166313514",
-    "platform": "x",
-    "id": "2005626245166313514",
-    "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2005626070444236800/img/eIOXWOEXga4CK7ot.jpg",
-    "embeddable": true
-   },
-   "source_url": "https://x.com/stspanho/status/2005626245166313514",
-   "images": [],
-   "paper": {},
-   "also": [],
-   "title_zh": "走进 AI 生成的电影场景",
-   "disciplines": [
-    "games",
-    "hci"
    ]
   },
   {
@@ -45744,64 +45246,6 @@
    "disciplines": [
     "ml",
     "speech"
-   ]
-  },
-  {
-   "id": "konstantin-kuhlem--latency-optimized-eca",
-   "creator_ids": [
-    "konstantin-kuhlem"
-   ],
-   "title": "A Latency-Optimized LLM-based Multimodal Dialogue System for Embodied Conversational Agents in VR",
-   "year": 2025,
-   "field": "behavioral",
-   "sub": "genai-research",
-   "modalities": [
-    "avatar",
-    "dialogue",
-    "speech"
-   ],
-   "inputs": [
-    "speech"
-   ],
-   "lenses": [
-    "responsiveness"
-   ],
-   "kind": "research",
-   "description": "Dialogue system that shortens response latency for an LLM-driven embodied guide in a VR museum, who helps visitors explore artworks and artists with spoken replies and gestures.",
-   "description_zh": "为 VR 博物馆中由大语言模型驱动的具身导览员设计的对话系统，缩短其响应延迟；导览员以语音和手势帮助参观者了解艺术品与艺术家。",
-   "idea_en": "Turn-taking delay is the first thing that breaks plausibility with LLM characters, so engineering for latency is part of the experimental apparatus.",
-   "idea_zh": "轮流发言的延迟是大语言模型角色最先破坏似真性的地方，因此为延迟做工程优化本身就是实验装置的一部分。",
-   "method": "Multimodal agent pipeline (speech recognition, LLM, speech synthesis, gesture) optimized for end-to-end latency, likely by overlapping stages; a follow-up study on engagement appeared at IEEE AIxVR 2026.",
-   "method_zh": "针对端到端延迟优化的多模态智能体管线（语音识别、大语言模型、语音合成、手势），很可能通过各环节并行重叠来实现；关于参与度的后续研究发表于 IEEE AIxVR 2026。",
-   "keywords": [
-    "latency",
-    "embodied conversational agent",
-    "turn-taking",
-    "VR museum guide"
-   ],
-   "date": "2025-09-16",
-   "timing": "turn-based",
-   "access": [
-    "research"
-   ],
-   "video": {
-    "url": "https://www.youtube.com/watch?v=kfjh-9yDeQQ",
-    "platform": "youtube",
-    "id": "kfjh-9yDeQQ",
-    "thumbnail": "https://i.ytimg.com/vi/kfjh-9yDeQQ/maxresdefault.jpg",
-    "embeddable": true
-   },
-   "paper": {
-    "doi": "10.1145/3717511.3749287",
-    "venue": "IVA 2025",
-    "title": "A Latency-Optimized LLM-based Multimodal Dialogue System for Embodied Conversational Agents in VR",
-    "url": "https://doi.org/10.1145/3717511.3749287"
-   },
-   "images": [],
-   "also": [],
-   "title_zh": "面向 VR 具身对话智能体的低延迟大语言模型多模态对话系统",
-   "disciplines": [
-    "hci"
    ]
   },
   {
@@ -56702,64 +56146,6 @@
    ]
   },
   {
-   "id": "wemade-next--mir5-asterion",
-   "creator_ids": [
-    "wemade-next",
-    "nvidia"
-   ],
-   "title": "MIR5 AI boss Asterion",
-   "year": 2025,
-   "date": "2025-01-06",
-   "field": "agents",
-   "sub": "npc",
-   "modalities": [
-    "behavior"
-   ],
-   "inputs": [
-    "action"
-   ],
-   "timing": "real-time",
-   "access": [
-    "research"
-   ],
-   "lenses": [
-    "adaptation",
-    "reactivity"
-   ],
-   "kind": "research",
-   "description": "A boss for Wemade Next's MMORPG MIR5, shown at CES 2025, that analyzes the skills, gear and tactics of the players it faces, recalls earlier battles and changes its attacks, so a fight with the same boss plays out differently each time. As of October 2026 no launch of the AI boss in the live game was confirmed.",
-   "description_zh": "Wemade Next 为 MMORPG《MIR5》打造的首领角色，在 CES 2025 上展示：它会分析对手玩家的技能、装备与战术，回忆以往的战斗并调整攻击方式，因此同一个首领每次的战斗过程都不相同。截至 2026 年 10 月，尚未确认这一 AI 首领已在正式游戏中上线。",
-   "idea_en": "Generative characters as adversaries rather than helpers: an opponent that adapts to a person's habits is the gaming version of an adaptive training scenario.",
-   "idea_zh": "把生成式角色用作对手而不是帮手：一个会适应人习惯的对手，正是自适应训练情境在游戏中的对应物。",
-   "method": "Small language models tuned for MIR5 and served through NVIDIA ACE perceive the encounter, compare the current party with past fights and choose the boss's next action instead of following a scripted pattern.",
-   "method_zh": "为《MIR5》调优、通过 NVIDIA ACE 提供的小语言模型感知战斗情况，把当前队伍与以往战斗对比，并选择首领的下一步动作，而不是按预设套路行动。",
-   "keywords": [
-    "AI boss",
-    "NVIDIA ACE",
-    "MMORPG",
-    "adaptive opponent",
-    "small language model",
-    "CES 2025",
-    "announced"
-   ],
-   "video": {
-    "url": "https://www.youtube.com/watch?v=-8XeiZ4djKw",
-    "platform": "youtube",
-    "id": "-8XeiZ4djKw",
-    "thumbnail": "https://i.ytimg.com/vi/-8XeiZ4djKw/maxresdefault.jpg",
-    "embeddable": true
-   },
-   "source_url": "https://www.nvidia.com/en-us/geforce/news/nvidia-ace-autonomous-ai-companions-pubg-naraka-bladepoint/",
-   "images": [],
-   "paper": {},
-   "also": [],
-   "title_zh": "《MIR5》AI 首领 Asterion",
-   "disciplines": [
-    "games",
-    "ml"
-   ]
-  },
-  {
    "id": "netease--naraka-ai-teammate",
    "creator_ids": [
     "netease",
@@ -63862,68 +63248,6 @@
    ]
   },
   {
-   "id": "keiichi-ihara--video2mr",
-   "creator_ids": [
-    "keiichi-ihara",
-    "ryo-suzuki"
-   ],
-   "title": "Video2MR",
-   "year": 2024,
-   "date": "2024-05-28",
-   "field": "genxr",
-   "sub": "in-situ",
-   "modalities": [
-    "motion",
-    "avatar"
-   ],
-   "inputs": [
-    "video"
-   ],
-   "timing": "offline",
-   "access": [
-    "research"
-   ],
-   "lenses": [
-    "situational-reach",
-    "authoring"
-   ],
-   "kind": "research",
-   "description": "Turns an online sports or exercise video into a mixed-reality coach: the person in the 2D video becomes a 3D avatar in your room, with highlighted posture differences, motion trails, speed control and repositioning.",
-   "description_zh": "把网上的运动或健身视频变成混合现实教练：视频里的人变成你房间中的三维虚拟人，并带有姿态差异高亮、运动轨迹、速度控制和位置调整。",
-   "idea_en": "Any 2D video becomes an embodied demonstration you can walk around, a cheap source of situated instruction.",
-   "idea_zh": "任何二维视频都能变成可以绕着看的具身示范，是一种低成本的情境化教学来源。",
-   "method": "3D human motion is extracted from monocular video and retargeted onto an avatar placed in mixed reality, with automatically generated visual augmentations.",
-   "method_zh": "从单目视频中提取三维人体动作，重定向到放置在混合现实中的虚拟人身上，并自动生成可视化增强。",
-   "keywords": [
-    "motion extraction",
-    "instructional video",
-    "mixed reality coaching",
-    "Programmable Reality Lab"
-   ],
-   "video": {
-    "url": "https://www.youtube.com/watch?v=f1L-2US25PU",
-    "platform": "youtube",
-    "id": "f1L-2US25PU",
-    "thumbnail": "https://i.ytimg.com/vi/f1L-2US25PU/maxresdefault.jpg",
-    "embeddable": true
-   },
-   "images": [
-    "https://arxiv.org/html/2405.18565v1/figures/teaser.jpg"
-   ],
-   "paper": {
-    "url": "https://arxiv.org/abs/2405.18565",
-    "doi": "10.1145/3708359.3712159",
-    "arxiv": "2405.18565",
-    "venue": "IUI 2025",
-    "title": "Video2MR: Automatically Generating Mixed Reality 3D Instructions by Augmenting Extracted Motion from 2D Videos"
-   },
-   "source_url": "https://ryosuzuki.org/video2mr",
-   "also": [],
-   "disciplines": [
-    "hci"
-   ]
-  },
-  {
    "id": "shenyuan-gao--vista",
    "creator_ids": [
     "shenyuan-gao"
@@ -64697,129 +64021,6 @@
    "disciplines": [
     "graphics",
     "ml"
-   ]
-  },
-  {
-   "id": "nvidia--covert-protocol",
-   "creator_ids": [
-    "nvidia",
-    "inworld-ai"
-   ],
-   "title": "Covert Protocol",
-   "year": 2024,
-   "date": "2024-03-19",
-   "field": "agents",
-   "sub": "npc",
-   "modalities": [
-    "dialogue",
-    "speech",
-    "avatar"
-   ],
-   "inputs": [
-    "speech"
-   ],
-   "timing": "turn-based",
-   "access": [
-    "research"
-   ],
-   "lenses": [
-    "reactivity",
-    "behavioral-plausibility"
-   ],
-   "kind": "research",
-   "description": "A GDC 2024 tech demo in which the player is a private detective in a hotel and must talk information out of AI-driven characters; what each character reveals depends on how the conversation goes, so each playthrough differs.",
-   "description_zh": "GDC 2024 上的技术演示：玩家扮演酒店里的私家侦探，必须通过对话从 AI 驱动的角色口中套出信息；角色透露什么取决于对话走向，因此每次游玩都不同。",
-   "idea_en": "Makes conversation itself the game mechanic: social skill, not dialogue-tree choice, decides progress.",
-   "idea_zh": "让对话本身成为玩法：推进剧情靠的是社交能力，而不是对话树选项。",
-   "method": "Inworld's character engine handles personas, goals and knowledge for each character, while NVIDIA ACE supplies Riva speech recognition and Audio2Face facial animation; the scene is built in Unreal Engine.",
-   "method_zh": "Inworld 角色引擎负责每个角色的人设、目标与知识，英伟达 ACE 提供 Riva 语音识别与 Audio2Face 面部动画；场景基于 Unreal Engine 构建。",
-   "keywords": [
-    "NVIDIA ACE",
-    "Inworld",
-    "GDC 2024",
-    "social deduction",
-    "detective game"
-   ],
-   "video": {
-    "url": "https://www.youtube.com/watch?v=uryeFhnNzEs",
-    "platform": "youtube",
-    "id": "uryeFhnNzEs",
-    "thumbnail": "https://i.ytimg.com/vi/uryeFhnNzEs/maxresdefault.jpg",
-    "embeddable": true
-   },
-   "images": [
-    "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/news/nvidia-ace-gdc-gtc-2024-ai-character-game-and-app-demo-videos/nvidia-ace-covert-protocol-ogimage.jpg"
-   ],
-   "source_url": "https://www.nvidia.com/en-us/geforce/news/nvidia-ace-gdc-gtc-2024-ai-character-game-and-app-demo-videos/",
-   "paper": {},
-   "also": [],
-   "disciplines": [
-    "games",
-    "ml",
-    "speech"
-   ]
-  },
-  {
-   "id": "ubisoft--neo-npc",
-   "creator_ids": [
-    "ubisoft",
-    "inworld-ai",
-    "nvidia"
-   ],
-   "title": "NEO NPC",
-   "year": 2024,
-   "date": "2024-03-19",
-   "field": "agents",
-   "sub": "npc",
-   "modalities": [
-    "dialogue",
-    "speech",
-    "avatar"
-   ],
-   "inputs": [
-    "speech",
-    "text"
-   ],
-   "timing": "turn-based",
-   "access": [
-    "research"
-   ],
-   "lenses": [
-    "behavioral-plausibility",
-    "authoring"
-   ],
-   "kind": "research",
-   "description": "A Ubisoft Paris prototype shown at GDC 2024 in which players negotiate and plan with characters such as Bloom and Iron by speaking freely, while the characters stay within backstories written by a narrative director.",
-   "description_zh": "育碧巴黎工作室在 GDC 2024 展示的原型：玩家可以自由说话，与 Bloom、Iron 等角色谈判和制定计划，而角色始终保持叙事总监写下的背景设定。",
-   "idea_en": "Recasts the game writer's job: instead of writing every line, the writer writes the person and then tests what the model makes of them.",
-   "idea_zh": "重新定义了游戏编剧的工作：不再逐句写台词，而是写出“这个人”，再检验模型如何演绎他。",
-   "method": "Inworld's LLM-based character engine generates dialogue from authored backstories and guardrails, NVIDIA Audio2Face animates the faces, and performance capture from actors sets each character's expressive range.",
-   "method_zh": "Inworld 基于大语言模型的角色引擎依据编写的背景与护栏生成对话，英伟达 Audio2Face 驱动面部动画，演员的表演捕捉决定每个角色的表现幅度。",
-   "keywords": [
-    "Ubisoft",
-    "GDC 2024",
-    "Inworld",
-    "Audio2Face",
-    "narrative design",
-    "third-party video"
-   ],
-   "video": {
-    "url": "https://www.youtube.com/watch?v=TxrYI6Aoav0",
-    "platform": "youtube",
-    "id": "TxrYI6Aoav0",
-    "thumbnail": "https://i.ytimg.com/vi/TxrYI6Aoav0/maxresdefault.jpg",
-    "embeddable": true
-   },
-   "images": [
-    "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3NWrkKkT1Bxy1f7VUsyH2q/30eb696cebe4ff5ce9efffd52ec303b1/UN-Ubisoft-New-Generative-AI-Prototype-960x540.jpg"
-   ],
-   "source_url": "https://news.ubisoft.com/en-us/article/5qXdxhshJBXoanFZApdG3L/how-ubisofts-new-generative-ai-prototype-changes-the-narrative-for-npcs",
-   "paper": {},
-   "also": [],
-   "disciplines": [
-    "games",
-    "ml",
-    "speech"
    ]
   },
   {

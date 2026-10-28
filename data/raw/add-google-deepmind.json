@@ -1,0 +1,35 @@
+{
+ "batch": "add-google-deepmind",
+ "creators": [],
+ "works": [
+  {
+   "id": "google-deepmind--genie-4",
+   "creator_ids": ["google-deepmind"],
+   "title": "Genie 4",
+   "year": 2026,
+   "date": "2026-10-27",
+   "field": "world-models",
+   "sub": "general",
+   "also": ["agents"],
+   "modalities": ["frame-stream", "audio", "dialogue"],
+   "inputs": ["action", "text", "image"],
+   "timing": "real-time",
+   "access": ["preview"],
+   "lenses": ["perceptual-realism", "behavioral-plausibility", "responsiveness"],
+   "kind": "model",
+   "description": "Google DeepMind's fourth Genie world model (announced 2026-10-27) generates a photoreal world in real time that a person explores with keyboard and camera controls and changes mid-session with text, such as new weather or a new person, while the same model generates the ambient sound, music and characters' speech; people in the scene move, react and talk back. As of October 2026 it is a research preview for trusted testers, with Project Genie (Google AI Ultra) and early-access Gemini API and AI Studio partners announced next, behind a waitlist.",
+   "description_zh": "Google DeepMind 的第四代 Genie 世界模型（2026-10-27 发布）可实时生成照片级逼真的世界：人用键盘和镜头控制在其中探索，并能在体验中途用文字改变世界，比如换天气或加入一个人；同一个模型还会生成环境声、音乐和角色的对白，场景里的人会移动、作出反应并开口回应。截至 2026 年 10 月，它是面向受信测试者的研究预览，官方宣布接下来将开放给 Project Genie（Google AI Ultra 订阅）以及 Gemini API 和 AI Studio 的早期合作方，需先加入候补名单。",
+   "idea_en": "Puts moving, speaking people and their sound inside a world you can steer live, and hands the plot to a language model that watches the frames; DeepMind still reports that details and object permanence drift over longer sessions.",
+   "idea_zh": "把会动、会说话的人和他们的声音放进一个可以实时操控的世界，并把剧情交给一个盯着画面的语言模型；但 DeepMind 也承认，体验时间一长，细节和物体恒常性仍会漂移。",
+   "method": "Built on the Gemini family: Gemini Omni anchors appearance and behaviour, and Gemini 3.8 Flash runs in the loop, rewriting the user's text prompts to fit the scene, breaking goals into steps, checking incoming frames for each step and steering the world between inputs; DeepMind calls this an early step towards hybrid world models and publishes no architecture, resolution or frame rate.",
+   "method_zh": "建立在 Gemini 系列之上：Gemini Omni 让外观与行为贴近真实世界，Gemini 3.8 Flash 则在回路中运行，把用户的文字提示改写成适合当前场景的指令，把目标拆成步骤，检查新生成的画面是否完成了每一步，并在两次输入之间引导世界演进；DeepMind 称这是迈向“混合世界模型”的早期一步，未公布架构、分辨率或帧率。",
+   "specs": "real-time · native audio (ambience, music, dialogue) · text steering mid-session · Gemini 3.8 Flash in the loop · SynthID on video and audio · resolution, fps and session length not published",
+   "keywords": ["world model", "real-time", "native audio", "interactive dialogue", "text steering", "Gemini", "SynthID", "robotics simulation"],
+   "video": {"url": "https://www.youtube.com/watch?v=sFfPkUJd_Jk"},
+   "images": ["https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w1200-h630-n-nu-rw"],
+   "source_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "collections": ["trend-world-simulators", "trend-native-audio", "trend-realtime", "trend-physical-ai", "trend-provenance"]
+  }
+ ],
+ "leads": []
+}

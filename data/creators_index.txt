@@ -29,7 +29,7 @@ amir-mann | Amir Mann | 1 works
 anam | Anam | 1 works
 andrew-liu | Andrew Liu | 1 works
 andy-serkis | Andy Serkis | 1 works
-ant-group | Ant Group | 5 works
+ant-group | Ant Group | 4 works
 anuttacon | Anuttacon | 1 works
 anything-world | Anything World | 1 works
 apple | Apple | 6 works
@@ -75,7 +75,6 @@ character-ai | Character.AI | 3 works
 chen-geng | Chen Geng | 1 works
 chen-tessler | Chen Tessler | 1 works
 chen-yang | Chen Yang | 1 works
-cheng-chen-ntu | Cheng Chen | 1 works
 cheng-chih-tsai | Cheng-Chih Tsai | 1 works
 cheng-kuang-chang | Cheng-Kuang Chang | 1 works
 chengqian-ma | Chengqian Ma | 1 works
@@ -146,7 +145,7 @@ genmo | Genmo | 1 works
 georgy-savva | Georgy Savva | 1 works
 goodai | GoodAI | 1 works
 google | Google | 28 works
-google-deepmind | Google DeepMind | 41 works
+google-deepmind | Google DeepMind | 42 works
 gracia-ai | Gracia | 1 works
 gradium | Gradium | 1 works
 guan-ting-lin | Guan-Ting Lin | 1 works
@@ -166,7 +165,6 @@ hanwen-liang | Hanwen Liang | 1 works
 hanxiao-jiang | Hanxiao Jiang | 1 works
 hanxue-liang | Hanxue Liang | 1 works
 hao-he | Hao He | 1 works
-hao-zhang | Hao Zhang | 1 works
 haocheng-xi | Haocheng Xi | 1 works
 haotian-mao | Haotian Mao | 1 works
 haotong-lin | Haotong Lin | 1 works
@@ -194,7 +192,7 @@ hunter-hoffman | Hunter Hoffman | 1 works
 inria-graphdeco | Inria GraphDeco | 2 works
 inspatio | InSpatio | 2 works
 insta360 | Insta360 | 1 works
-inworld-ai | Inworld AI | 4 works
+inworld-ai | Inworld AI | 2 works
 jacob-barker | Jacob Barker | 1 works
 jaejun-park | Jaejun Park | 1 works
 jaewook-lee | Jaewook Lee | 1 works
@@ -235,7 +233,6 @@ joseph-p-mccleery | Joseph P. McCleery | 1 works
 juming-jiang | Juming Jiang | 1 works
 junchao-huang | Junchao Huang | 2 works
 junliang-guo | Junliang Guo | 1 works
-junlong-chen | Junlong Chen | 1 works
 junxuan-li | Junxuan Li | 2 works
 junyi-chen | Junyi Chen | 1 works
 junyi-wu | Junyi Wu | 1 works
@@ -252,7 +249,7 @@ kamilla-bergsnev | Kamilla Bergsnev | 1 works
 kandinsky-lab | Kandinsky Lab | 1 works
 kartik-teotia | Kartik Teotia | 1 works
 ke-xing | Ke Xing | 1 works
-keiichi-ihara | Keiichi Ihara | 3 works
+keiichi-ihara | Keiichi Ihara | 2 works
 kevin-xie | Kevin Xie | 1 works
 keyframe-labs | Keyframe Labs | 1 works
 khronos-group | The Khronos Group | 1 works
@@ -261,7 +258,6 @@ kiwhan-song | Kiwhan Song | 1 works
 koji-inoue | Koji Inoue | 1 works
 koki-nagano | Koki Nagano | 1 works
 kolby-nottingham | Kolby Nottingham | 1 works
-konstantin-kuhlem | Konstantin W. Kühlem | 1 works
 krafton | KRAFTON | 2 works
 krea | Krea | 1 works
 kuaishou | Kuaishou | 19 works
@@ -291,7 +287,6 @@ lu-ling | Lu Ling | 1 works
 lukas-hollein | Lukas Höllein | 1 works
 luma-ai | Luma AI | 5 works
 lvmin-zhang | Lvmin Zhang | 1 works
-manwen-liao | Manwen Liao | 1 works
 manycore | Manycore Tech | 2 works
 mar-gonzalez-franco | Mar Gonzalez-Franco | 2 works
 marcel-binz | Marcel Binz | 1 works
@@ -341,7 +336,7 @@ nikhil-keetha | Nikhil Keetha | 1 works
 nima-zargham | Nima Zargham | 1 works
 noiz-ai | Noiz AI | 1 works
 nozomu-iwai | Nozomu Iwai | 1 works
-nvidia | NVIDIA | 47 works
+nvidia | NVIDIA | 43 works
 odyssey | Odyssey | 8 works
 openai | OpenAI | 11 works
 openbmb | OpenBMB | 1 works
@@ -383,7 +378,7 @@ ritik-vatsal | Ritik Vatsal | 1 works
 robbyant | Robbyant | 4 works
 roberto-coviello | Roberto Coviello | 1 works
 robin-s-rosenberg | Robin S. Rosenberg | 1 works
-roblox | Roblox | 7 works
+roblox | Roblox | 6 works
 ruijie-zhu | Ruijie Zhu | 1 works
 ruili-feng | Ruili Feng | 1 works
 ruiqi-gao | Ruiqi Gao | 1 works
@@ -396,7 +391,7 @@ ruoshi-liu | Ruoshi Liu | 1 works
 ruoyu-wen | Ruoyu Wen | 1 works
 rvc-boss | RVC-Boss | 2 works
 ryan-po | Ryan Po | 1 works
-ryo-suzuki | Ryo Suzuki | 4 works
+ryo-suzuki | Ryo Suzuki | 3 works
 ryu-furusawa | Ryu Furusawa | 1 works
 ryutaro-kurai | Ryutaro Kurai | 1 works
 samsung | Samsung Electronics | 2 works
@@ -409,7 +404,7 @@ sensen-gao | Sensen Gao | 1 works
 sensetime | SenseTime | 1 works
 sesame | Sesame | 2 works
 seung-wook-kim | Seung Wook Kim | 1 works
-shanghai-ai-lab | Shanghai AI Laboratory | 6 works
+shanghai-ai-lab | Shanghai AI Laboratory | 5 works
 shaoting-peng | Shaoting Peng | 1 works
 shenghai-yuan | Shenghai Yuan | 1 works
 shengjun-zhang | Shengjun Zhang | 1 works
@@ -437,7 +432,7 @@ simli | Simli | 1 works
 sixiao-zheng | Sixiao Zheng | 1 works
 siyin-wang | Siyin Wang | 1 works
 skywork | Skywork (Kunlun Tech) | 5 works
-snap | Snap Inc. | 10 works
+snap | Snap Inc. | 9 works
 sofia-adelaide-osimo | Sofia Adelaide Osimo | 1 works
 sofia-seinfeld | Sofia Seinfeld | 1 works
 solene-neyret | Solène Neyret | 1 works
@@ -450,7 +445,7 @@ stability-ai | Stability AI | 9 works
 stanislaw-szymanowicz | Stanislaw Szymanowicz | 1 works
 stanley-hamstra | Stanley J. Hamstra | 1 works
 stepfun | StepFun | 6 works
-stijn-spanhove | Stijn Spanhove | 3 works
+stijn-spanhove | Stijn Spanhove | 2 works
 streameval-team | StreamEval Team | 1 works
 strivr | Strivr | 1 works
 studio-atelico | Studio Atelico | 1 works
@@ -487,7 +482,7 @@ tsai-shien-chen | Tsai-Shien Chen | 1 works
 tsehaye-haidemariam | Tsehaye Haidemariam | 1 works
 tsinghua-fib-lab | Tsinghua University FIB Lab | 3 works
 tu-anh-nguyen | Tu Anh Nguyen | 1 works
-ubisoft | Ubisoft | 2 works
+ubisoft | Ubisoft | 1 works
 unity | Unity | 2 works
 uriel-singer | Uriel Singer | 1 works
 usc-ict | USC Institute for Creative Technologies | 6 works
@@ -507,7 +502,6 @@ weihao-tan | Weihao Tan | 2 works
 weiwei-jiang | Weiwei Jiang | 1 works
 weixi-feng | Weixi Feng | 1 works
 weiyu-li | Weiyu Li | 1 works
-wemade-next | Wemade Next | 1 works
 wenqiang-sun | Wenqiang Sun | 2 works
 willi-menapace | Willi Menapace | 1 works
 world-labs | World Labs | 7 works

@@ -19495,5 +19495,26 @@
   "ok": true,
   "type": "image",
   "content_type": "image/png"
+ },
+ "video:youtube:sFfPkUJd_Jk": {
+  "url": "https://www.youtube.com/watch?v=sFfPkUJd_Jk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "sFfPkUJd_Jk",
+  "title": "Genie 4: A new generation of world simulation",
+  "author": "Google DeepMind",
+  "thumbnail": "https://i.ytimg.com/vi/sFfPkUJd_Jk/hqdefault.jpg"
+ },
+ "img:https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w1200-h630-n-nu-rw": {
+  "url": "https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w1200-h630-n-nu-rw",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/webp"
+ },
+ "ytmax:sFfPkUJd_Jk": {
+  "url": "https://i.ytimg.com/vi/sFfPkUJd_Jk/maxresdefault.jpg",
+  "ok": true,
+  "type": "image",
+  "content_type": "image/jpeg"
  }
 }

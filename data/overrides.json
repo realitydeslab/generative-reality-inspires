@@ -1,3 +1,17 @@
 {
- "_note": "Applied by tools/build_data.py after the batches: merge_creators {src: dst}, drop_works [ids], patch_works {id: {field: value}}."
+ "_note": "Applied by tools/build_data.py after the batches: merge_creators {src: dst}, drop_works [ids], patch_works {id: {field: value}}.",
+ "drop_works": [
+  "cheng-chen-ntu--diva",
+  "hao-zhang--rigmo",
+  "junlong-chen--confabulation-taxonomy",
+  "keiichi-ihara--video2mr",
+  "konstantin-kuhlem--latency-optimized-eca",
+  "manwen-liao--megaparts",
+  "nvidia--covert-protocol",
+  "nvidia--total-war-pharaoh-advisor",
+  "roblox--multicube",
+  "stijn-spanhove--ai-generated-movie-scene",
+  "ubisoft--neo-npc",
+  "wemade-next--mir5-asterion"
+ ]
 }
